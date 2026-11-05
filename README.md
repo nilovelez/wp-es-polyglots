@@ -1,0 +1,33 @@
+# WordPress translation workbench: es_ES
+
+Working repository of the Spanish (Spain) team for translating and reviewing WordPress strings on [translate.wordpress.org](https://translate.wordpress.org/locale/es/default/) with AI help.
+
+The repository is meant to be cloned by other locale teams: file names, code and project documentation are in English; everything specific to the language (style guide, glossary, translation memory, review notes) is in that language. Final products (skills, guidelines for all locales) will live in a separate multi-locale repository.
+
+## Subprojects
+
+| Folder | Subproject | Status |
+|---|---|---|
+| `review/` | Fast review of *waiting* strings: we receive the waiting `.po`, return only the strings that need changes, approve the rest | Active, top priority |
+| `polyglots/` | Tuning the `polyglots` tool (ada.tools): rules file, calibration log, local models with Ollama | Active, fed by `review/` |
+| `skill/` | A translation skill: "translate this into Spanish" applying glossary, style guide and translation memory | Planned |
+| (separate repo) | Common strings: most repeated strings across core, plugins and themes, translated once and applied first | Planned; only its output `.po` will come here |
+
+Shared locale resources are in `resources/`. How the subprojects feed each other is in [docs/workflow.md](docs/workflow.md); what is going on right now is in [docs/status.md](docs/status.md).
+
+## Layout
+
+```
+docs/          project documentation (English)
+resources/     locale resources (Spanish): style guide, glossary, translation memory, moderation guide
+review/        review workflow; rounds/NN-project/ keeps every review round
+polyglots/     rules/ (generated rules file, build script, tests), calibration log, local-models/
+skill/         translation skill (planned)
+```
+
+## Cloning for another locale
+
+1. Replace the contents of `resources/` with your locale's style guide, glossary export and translation memory.
+2. Empty `review/rounds/` and `polyglots/calibration-log.md`.
+3. Regenerate `polyglots/rules/<locale>.base.yaml` with the tool's rules generator and adapt the `M` and `P` lists in `build_rules.py`.
+4. Update `CLAUDE.md` (locale, people, machines).

@@ -1,0 +1,531 @@
+# Translation of Plugins - Visualizer – Tables &amp; Charts Manager with Built-in AI Generator - Stable Readme (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Visualizer – Tables &amp; Charts Manager with Built-in AI Generator - Stable Readme (latest release) package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugins - Visualizer – Tables &amp; Charts Manager with Built-in AI Generator - Stable Readme (latest release)\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-10 08:14+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 3.7\n"
+
+#. Short description.
+msgid "Create responsive charts and tables manually or let the built-in AI build them from a text prompt. Supports multiple chart types and flexible data."
+msgstr "Crea gráficos y tablas adaptables de forma manual o deja que la IA integrada los genere a partir de un texto. Admite varios tipos de gráfico y datos flexibles."
+
+#. Plugin name.
+msgid "Visualizer – Tables &amp; Charts Manager with Built-in AI Generator"
+msgstr "Visualizer – Gestor de tablas y gráficos con generador de IA integrado"
+
+#. Found in faq paragraph.
+msgid "Please follow the reporting protocols outlined on our <a href=\"https://themeisle.com/security/\">Security Page</a>."
+msgstr "Sigue el protocolo para informar de problemas descrito en nuestra <a href=\"https://themeisle.com/security/\">página de seguridad</a>."
+
+#. Found in faq paragraph.
+msgid "Plugin security is a core priority for us. If you identify a potential vulnerability, we ask that you disclose it responsibly."
+msgstr "La seguridad del plugin es una prioridad fundamental para nosotros. Si detectas una posible vulnerabilidad, te pedimos que informes de ella de forma responsable."
+
+#. Found in faq paragraph.
+msgid "<a href=\"http://docs.themeisle.com/article/691-how-to-use-google-visualization-variables\">http://docs.themeisle.com/article/691-how-to-use-google-visualization-variables</a>"
+msgstr "<a href=\"http://docs.themeisle.com/article/691-how-to-use-google-visualization-variables\">http://docs.themeisle.com/article/691-how-to-use-google-visualization-variables</a>"
+
+#. Found in faq paragraph.
+msgid "<a href=\"http://docs.themeisle.com/article/675-how-to-enable-frontend-action-buttons\">http://docs.themeisle.com/article/675-how-to-enable-frontend-action-buttons</a>"
+msgstr "<a href=\"http://docs.themeisle.com/article/675-how-to-enable-frontend-action-buttons\">http://docs.themeisle.com/article/675-how-to-enable-frontend-action-buttons</a>"
+
+#. Found in faq paragraph.
+msgid "<a href=\"http://docs.themeisle.com/article/610-how-can-i-edit-the-data-manually\">http://docs.themeisle.com/article/610-how-can-i-edit-the-data-manually</a>"
+msgstr "<a href=\"http://docs.themeisle.com/article/610-how-can-i-edit-the-data-manually\">http://docs.themeisle.com/article/610-how-can-i-edit-the-data-manually</a>"
+
+#. Found in faq paragraph.
+msgid "<a href=\"http://docs.themeisle.com/article/608-how-to-export-a-chart\">http://docs.themeisle.com/article/608-how-to-export-a-chart</a>"
+msgstr "<a href=\"http://docs.themeisle.com/article/608-how-to-export-a-chart\">http://docs.themeisle.com/article/608-how-to-export-a-chart</a>"
+
+#. Found in faq paragraph.
+msgid "<a href=\"http://docs.themeisle.com/article/609-how-can-i-import-content-from-another-chart\">http://docs.themeisle.com/article/609-how-can-i-import-content-from-another-chart</a>"
+msgstr "<a href=\"http://docs.themeisle.com/article/609-how-can-i-import-content-from-another-chart\">http://docs.themeisle.com/article/609-how-can-i-import-content-from-another-chart</a>"
+
+#. Found in faq paragraph.
+msgid "<a href=\"http://docs.themeisle.com/article/607-how-can-i-populate-data-from-google-spreadsheet\">http://docs.themeisle.com/article/607-how-can-i-populate-data-from-google-spreadsheet</a>"
+msgstr "<a href=\"http://docs.themeisle.com/article/607-how-can-i-populate-data-from-google-spreadsheet\">http://docs.themeisle.com/article/607-how-can-i-populate-data-from-google-spreadsheet</a>"
+
+#. Found in faq paragraph.
+msgid "<a href=\"http://docs.themeisle.com/article/605-how-can-i-populate-chart-series-and-data-dynamically\">http://docs.themeisle.com/article/605-how-can-i-populate-chart-series-and-data-dynamically</a>"
+msgstr "<a href=\"http://docs.themeisle.com/article/605-how-can-i-populate-chart-series-and-data-dynamically\">http://docs.themeisle.com/article/605-how-can-i-populate-chart-series-and-data-dynamically</a>"
+
+#. Found in faq paragraph.
+msgid "<a href=\"http://docs.themeisle.com/article/603-how-can-i-highlight-a-single-bar\">http://docs.themeisle.com/article/603-how-can-i-highlight-a-single-bar</a>"
+msgstr "<a href=\"http://docs.themeisle.com/article/603-how-can-i-highlight-a-single-bar\">http://docs.themeisle.com/article/603-how-can-i-highlight-a-single-bar</a>"
+
+#. Found in faq paragraph.
+msgid "<a href=\"http://docs.themeisle.com/article/598-clone-chart\">http://docs.themeisle.com/article/598-clone-chart</a>"
+msgstr "<a href=\"http://docs.themeisle.com/article/598-clone-chart\">http://docs.themeisle.com/article/598-clone-chart</a>"
+
+#. Found in faq paragraph.
+msgid "<a href=\"http://docs.themeisle.com/article/600-delete-chart\">http://docs.themeisle.com/article/600-delete-chart</a>"
+msgstr "<a href=\"http://docs.themeisle.com/article/600-delete-chart\">http://docs.themeisle.com/article/600-delete-chart</a>"
+
+#. Found in faq paragraph.
+msgid "<a href=\"http://docs.themeisle.com/article/602-how-can-i-edit-a-chart\">http://docs.themeisle.com/article/602-how-can-i-edit-a-chart</a>"
+msgstr "<a href=\"http://docs.themeisle.com/article/602-how-can-i-edit-a-chart\">http://docs.themeisle.com/article/602-how-can-i-edit-a-chart</a>"
+
+#. Found in faq paragraph.
+msgid "<a href=\"http://docs.themeisle.com/article/597-create-chart\">http://docs.themeisle.com/article/597-create-chart</a>"
+msgstr "<a href=\"http://docs.themeisle.com/article/597-create-chart\">http://docs.themeisle.com/article/597-create-chart</a>"
+
+#. Found in faq paragraph.
+msgid "<a href=\"http://docs.themeisle.com/article/674-how-to-automatically-sync-charts-with-online-files\">http://docs.themeisle.com/article/674-how-to-automatically-sync-charts-with-online-files</a>"
+msgstr "<a href=\"http://docs.themeisle.com/article/674-how-to-automatically-sync-charts-with-online-files\">http://docs.themeisle.com/article/674-how-to-automatically-sync-charts-with-online-files</a>"
+
+#. Found in faq paragraph.
+msgid "<a href=\"http://docs.themeisle.com/article/673-how-to-create-charts-from-your-wordpress-posts\">http://docs.themeisle.com/article/673-how-to-create-charts-from-your-wordpress-posts</a>"
+msgstr "<a href=\"http://docs.themeisle.com/article/673-how-to-create-charts-from-your-wordpress-posts\">http://docs.themeisle.com/article/673-how-to-create-charts-from-your-wordpress-posts</a>"
+
+#. Found in faq paragraph.
+msgid "<a href=\"http://docs.themeisle.com/article/672-how-to-format-series-values\">http://docs.themeisle.com/article/672-how-to-format-series-values</a>"
+msgstr "<a href=\"http://docs.themeisle.com/article/672-how-to-format-series-values\">http://docs.themeisle.com/article/672-how-to-format-series-values</a>"
+
+#. Found in faq paragraph.
+msgid "<a href=\"http://docs.themeisle.com/article/428-visualizer-charts-and-graphs-documentation\">http://docs.themeisle.com/article/428-visualizer-charts-and-graphs-documentation</a>"
+msgstr "<a href=\"http://docs.themeisle.com/article/428-visualizer-charts-and-graphs-documentation\">http://docs.themeisle.com/article/428-visualizer-charts-and-graphs-documentation</a>"
+
+#. Found in faq header.
+msgid "How to report a security issue?"
+msgstr "¿Cómo informar de un problema de seguridad?"
+
+#. Found in faq header.
+msgid "How to use Google Visualization variables?"
+msgstr "¿Cómo usar las variables de Google Visualization?"
+
+#. Found in faq header.
+msgid "How to enable frontend action buttons?"
+msgstr "¿Cómo activar los botones de acción en la parte pública?"
+
+#. Found in faq header.
+msgid "How can I edit the data manually?"
+msgstr "¿Cómo puedo editar los datos manualmente?"
+
+#. Found in faq header.
+msgid "How to export a chart?"
+msgstr "¿Cómo exportar un gráfico?"
+
+#. Found in faq header.
+msgid "How can I import content from another chart?"
+msgstr "¿Cómo puedo importar contenido de otro gráfico?"
+
+#. Found in faq header.
+msgid "How can I populate data from Google Spreadsheet?"
+msgstr "¿Cómo puedo rellenar datos desde una hoja de cálculo de Google?"
+
+#. Found in faq header.
+msgid "How can I populate chart series and data dynamically?"
+msgstr "¿Cómo puedo rellenar las series y los datos del gráfico de forma dinámica?"
+
+#. Found in faq header.
+msgid "How can I highlight a single bar?"
+msgstr "¿Cómo puedo resaltar una sola barra?"
+
+#. Found in faq header.
+msgid "How can I clone a chart?"
+msgstr "¿Cómo puedo duplicar un gráfico?"
+
+#. Found in faq header.
+msgid "How can I delete a chart?"
+msgstr "¿Cómo puedo borrar un gráfico?"
+
+#. Found in faq header.
+msgid "How can I edit a chart?"
+msgstr "¿Cómo puedo editar un gráfico?"
+
+#. Found in faq header.
+msgid "How can I create/add a chart?"
+msgstr "¿Cómo puedo crear o añadir un gráfico?"
+
+#. Found in faq header.
+msgid "How to automatically sync charts with online files?"
+msgstr "¿Cómo sincronizar automáticamente los gráficos con archivos en línea?"
+
+#. Found in faq header.
+msgid "How to create charts from your WordPress posts?"
+msgstr "¿Cómo crear gráficos a partir de tus entradas de WordPress?"
+
+#. Found in faq header.
+msgid "How to format chart series values?"
+msgstr "¿Cómo dar formato a los valores de las series del gráfico?"
+
+#. Found in faq header.
+msgid "Is there any documentation available for this plugin?"
+msgstr "¿Hay documentación disponible para este plugin?"
+
+#. Found in description paragraph.
+msgid "<a href=\"https://wordpress.org/support/topic/the-best-one-ive-found-2/\"><em>The Best One I’ve Found</em></a> - \"After trying a couple of options, this was the one that worked the best.\""
+msgstr "<a href=\"https://wordpress.org/support/topic/the-best-one-ive-found-2/\"><em>La mejor que he encontrado</em></a> - «Después de probar un par de opciones, esta fue la que mejor funcionó.»"
+
+#. Found in description paragraph.
+msgid "<a href=\"https://wordpress.org/support/topic/works-well-and-devs-are-responsive/\"><em>Works Well and Devs are Responsive</em></a> - \"We are using it on a rather complicated multisite install. After much research, we went with this plugin for our editors' needs.\""
+msgstr "<a href=\"https://wordpress.org/support/topic/works-well-and-devs-are-responsive/\"><em>Funciona bien y los desarrolladores responden con rapidez</em></a> - «Lo usamos en una instalación multisitio bastante complicada. Tras mucha investigación, nos decidimos por este plugin para las necesidades de nuestros editores.»"
+
+#. Found in description paragraph.
+msgid "<a href=\"https://wordpress.org/support/topic/great-plugin-for-bloggers-4/\"><em>Great Plugin for Bloggers</em></a> - \"It’s a great plugin for new bloggers like me. It's working seamlessly on my website. I am using this plugin for the last couple of weeks and I am loving it.\""
+msgstr "<a href=\"https://wordpress.org/support/topic/great-plugin-for-bloggers-4/\"><em>Un gran plugin para blogueros</em></a> - «Es un gran plugin para nuevos blogueros como yo. Funciona a la perfección en mi sitio web. Lo llevo usando desde hace un par de semanas y me encanta.»"
+
+#. Found in description paragraph.
+msgid "<a href=\"https://wordpress.org/support/topic/visualizer-is-amazing/\"><em>Visualizer is amazing!</em></a> - \"Just what I was looking for to make my information available and looks pleasing!\""
+msgstr "<a href=\"https://wordpress.org/support/topic/visualizer-is-amazing/\"><em>¡Visualizer es increíble!</em></a> - «Justo lo que buscaba para hacer disponible mi información, y tiene un aspecto muy agradable.»"
+
+#. Found in description paragraph.
+msgid "<strong>See what real users talk about us:</strong>"
+msgstr "<strong>Mira lo que dicen de nosotros los usuarios reales:</strong>"
+
+#. Found in description paragraph.
+msgid "Visualizer is one of many great products by Themeisle. Join over 30,000+ Visualizer active users and half of a million Themeisle users from all over the world."
+msgstr "Visualizer es uno de los muchos productos de Themeisle. Únete a más de 30.000 usuarios activos de Visualizer y a medio millón de usuarios de Themeisle de todo el mundo."
+
+#. Found in description paragraph.
+msgid "<strong>You’re in good hands</strong>"
+msgstr "<strong>Estás en buenas manos</strong>"
+
+#. Found in description paragraph.
+msgid "If you have any feedback or feature suggestions for the Visualizer plugin, don’t hesitate to tell us. We read all feedback and ideas."
+msgstr "Si tienes cualquier comentario o sugerencia sobre el plugin Visualizer, no dudes en contárnoslo. Leemos todas las opiniones e ideas."
+
+#. Found in description paragraph.
+msgid "<strong>🌟 Premium Support:</strong> We offer priority support for Plus license customers and live chat support for Infinite license customers."
+msgstr "<strong>🌟 Soporte premium:</strong> Ofrecemos soporte prioritario a los clientes con licencia Plus y soporte por chat en directo a los clientes con licencia Infinite."
+
+#. Found in description paragraph.
+msgid "<strong>🦸 Support Forum:</strong> We offer support to free version users here and try to reply within one business day."
+msgstr "<strong>🦸 Foro de soporte:</strong> Ofrecemos soporte a los usuarios de la versión gratuita aquí y procuramos responder en un día laborable."
+
+#. Found in description paragraph.
+msgid "<strong>📽️ Youtube Tutorials:</strong> Don’t like reading? We’ve created some YouTube tutorials to help you get started with the Visualizer plugin step by step."
+msgstr "<strong>📽️ Tutoriales de YouTube:</strong> ¿No te gusta leer? Hemos creado algunos tutoriales en YouTube para ayudarte a empezar con el plugin Visualizer paso a paso."
+
+#. Found in description paragraph.
+msgid "<strong>📚 Knowledge Base:</strong> We’ve created a complete documentation library and we’re still constantly updating with new tutorials."
+msgstr "<strong>📚 Base de conocimientos:</strong> Hemos creado una biblioteca de documentación completa y seguimos actualizándola constantemente con nuevos tutoriales."
+
+#. Found in description paragraph.
+msgid "<strong>WE’RE HERE FOR YOU, AND WE TAKE ALL FEEDBACK SERIOUSLY</strong>"
+msgstr "<strong>ESTAMOS AQUÍ PARA TI, Y TOMAMOS MUY EN SERIO TODAS LAS OPINIONES</strong>"
+
+#. Found in description paragraph.
+msgid "<strong>Still have questions?</strong> Ask your pre-sales questions <a href=\"https://themeisle.com/contact/?utm_source=wordpressorg&amp;utm_medium=readme&amp;utm_campaign=pre-sales\">here</a>, and we will get back to you promptly. Or, purchase with confidence and try it for yourself—we offer <strong>a 30-day no-questions-asked 100% money-back guarantee</strong>."
+msgstr "<strong>¿Te quedan dudas?</strong> Haz tus preguntas previas a la compra <a href=\"https://themeisle.com/contact/?utm_source=wordpressorg&amp;utm_medium=readme&amp;utm_campaign=pre-sales\">aquí</a> y te responderemos cuanto antes. O compra con total tranquilidad y pruébalo por tu cuenta—ofrecemos <strong>una garantía de devolución del dinero del 100 % durante 30 días, sin preguntas</strong>."
+
+#. Found in description paragraph.
+msgid "Unlock these premium features and more with Visualizer PRO!"
+msgstr "¡Desbloquea estas funciones premium y mucho más con Visualizer PRO!"
+
+#. Found in description paragraph.
+msgid "<strong>Priority Support:</strong> Have access to our dedicated support team to help you resolve any technical issues swiftly, ensuring your visualizations are always performing optimally."
+msgstr "<strong>Soporte prioritario:</strong> Tendrás acceso a nuestro equipo de soporte dedicado para resolver con rapidez cualquier problema técnico, lo que garantiza que tus visualizaciones funcionen siempre de forma óptima."
+
+#. Found in description paragraph.
+msgid ""
+"<strong>Data Filter:</strong> Apply filters to your data within Visualizer, enabling viewers to interact with and explore data in a more focused manner.<br />\n"
+"<strong>USE CASE:</strong> 🕵️‍♂️ Tom, a market researcher, implements data filters on his demographic analysis charts, allowing users to select specific variables such as age and income, thereby drilling down into personalized data insights."
+msgstr ""
+"<strong>Filtro de datos:</strong> Aplicar filtros a tus datos dentro de Visualizer permite a los visitantes interactuar con los datos y explorarlos de forma más centrada.<br />\n"
+"<strong>CASO DE USO:</strong> 🕵️‍♂️ Tom, investigador de mercado, aplica filtros de datos a sus gráficos de análisis demográfico, lo que permite a los usuarios seleccionar variables concretas, como la edad y los ingresos, y profundizar en información personalizada."
+
+#. Found in description paragraph.
+msgid "<strong>Import from Database:</strong> Connect directly to your database to fetch data, ensuring your visualizations reflect the most up-to-date information available."
+msgstr "<strong>Importar desde base de datos:</strong> Conexión directa con tu base de datos para obtener los datos, lo que garantiza que tus visualizaciones reflejen la información más actualizada disponible."
+
+#. Found in description paragraph.
+msgid ""
+"<strong>Import from WordPress:</strong> Directly pull data from your WordPress posts, pages, or custom post types to create dynamic charts that automatically update as your content changes.<br />\n"
+"<strong>USE CASE:</strong> ✍️ Benjamin, a digital marketing manager, uses this feature to track engagement across blog posts in real-time. He creates charts that update automatically with views and social shares, helping him quickly adjust content strategies based on what resonates with audiences."
+msgstr ""
+"<strong>Importar desde WordPress:</strong> Extrae directamente datos de tus entradas, páginas o tipos de contenido personalizados para crear gráficos dinámicos que se actualizan automáticamente cuando cambia tu contenido.<br />\n"
+"<strong>CASO DE USO:</strong> ✍️ Benjamin, responsable de marketing digital, usa esta función para seguir en tiempo real la participación en las entradas del blog. Crea gráficos que se actualizan solos con las visualizaciones y las veces que se comparte en redes sociales, lo que le permite ajustar rápidamente su estrategia de contenidos según lo que más interesa a su audiencia."
+
+#. Found in description paragraph.
+msgid "<strong>Import from Other Charts:</strong> Seamlessly integrate data from other charts into new visualizations, facilitating easy data consolidation and comparison."
+msgstr "<strong>Importar desde otros gráficos:</strong> Integra datos de otros gráficos en nuevas visualizaciones, lo que facilita consolidar y comparar datos."
+
+#. Found in description paragraph.
+msgid "<strong>Import Data from URLs:</strong> Keep your charts updated by importing data dynamically from external sources in CSV or JSON formats via URLs. This powerful feature is essential for displaying real-time or frequently updated data, reducing the need for manual updates."
+msgstr "<strong>Importar datos desde URL:</strong> Mantener los gráficos actualizados importando datos dinámicamente desde fuentes externas en formato CSV o JSON mediante URL. Esta potente función es imprescindible para mostrar datos en tiempo real o con actualizaciones frecuentes, y reduce la necesidad de actualizaciones manuales."
+
+#. Found in description paragraph.
+msgid "<strong>Import Data from Excel (XLSX):</strong> Upload Excel spreadsheets directly into Visualizer without any conversion steps. Simply export your workbook and import it as-is. Your column headers, values, and structure are automatically mapped to your chart or table, saving you time and eliminating formatting headaches."
+msgstr "<strong>Importar datos desde Excel (XLSX):</strong> Subida directa de hojas de cálculo de Excel a Visualizer, sin ningún paso de conversión. Basta con exportar el libro e importarlo tal cual. Los encabezados de columna, los valores y la estructura se asignan automáticamente al gráfico o la tabla, lo que te ahorra tiempo y evita dolores de cabeza con el formato."
+
+#. Found in description paragraph.
+msgid "<strong>Import Data from Files:</strong> Upload CSV files directly into Visualizer. This feature is ideal for those who prepare data in spreadsheet tools like Microsoft Excel or Google Sheets, allowing for quick and easy data visualization."
+msgstr "<strong>Importar datos desde archivos:</strong> Subida directa de archivos CSV a Visualizer. Esta función es ideal para quienes preparan los datos en herramientas de hojas de cálculo como Microsoft Excel o Hojas de cálculo de Google, y permite visualizarlos de forma rápida y sencilla."
+
+#. Found in description paragraph.
+msgid ""
+"<strong>Advanced User Permissions:</strong> Control who can view or edit your charts, perfect for teams needing to manage access at various levels.<br />\n"
+"<strong>USE CASE:</strong> 🛠️ Rachel, a project manager, configures user permissions to ensure that only relevant team members can edit financial forecasts, maintaining data integrity and security."
+msgstr ""
+"<strong>Permisos avanzados de usuario:</strong> Control de quién puede ver o editar tus gráficos, ideal para equipos que necesitan gestionar el acceso en distintos niveles.<br />\n"
+"<strong>CASO DE USO:</strong> 🛠️ Rachel, jefa de proyecto, configura los permisos de usuario para que solo los miembros del equipo pertinentes puedan editar las previsiones financieras, lo que mantiene la integridad y la seguridad de los datos."
+
+#. Found in description paragraph.
+msgid ""
+"<strong>Multi-Language Support:</strong> Automatically translate your charts and data presentations into multiple languages, broadening your audience reach.<br />\n"
+"<strong>USE CASE:</strong> 🌍 Elena, who manages a multilingual educational platform, uses Multi-Language Support to provide data visualizations in several languages, effectively increasing her site's global usability and accessibility."
+msgstr ""
+"<strong>Compatibilidad multilingüe:</strong> Traducción automática de tus gráficos y presentaciones de datos a varios idiomas, lo que amplía el alcance de tu audiencia.<br />\n"
+"<strong>CASO DE USO:</strong> 🌍 Elena, que gestiona una plataforma educativa multilingüe, usa la compatibilidad multilingüe para mostrar visualizaciones de datos en varios idiomas, lo que aumenta de forma efectiva la facilidad de uso global y la accesibilidad de su sitio."
+
+#. Found in description paragraph.
+msgid ""
+"<strong>Advanced Data Synchronization:</strong> Automatically sync your data sources to ensure your charts are always current without manual input.<br />\n"
+"<strong>USE CASE:</strong> 🔍 Sarah, a market analyst, leverages Advanced Data Synchronization to streamline her workflow. She sets her data sources to auto-update, ensuring her market trend charts are always accurate, saving her hours each week and enhancing her reports' credibility."
+msgstr ""
+"<strong>Sincronización avanzada de datos:</strong> Sincronización automática de tus fuentes de datos para que los gráficos estén siempre al día sin necesidad de introducir nada manualmente.<br />\n"
+"<strong>CASO DE USO:</strong> 🔍 Sarah, analista de mercado, aprovecha la sincronización avanzada de datos para agilizar su trabajo. Configura sus fuentes de datos para que se actualicen solas, de modo que sus gráficos de tendencias de mercado siempre sean precisos, lo que le ahorra horas cada semana y refuerza la credibilidad de sus informes."
+
+#. Found in description paragraph.
+msgid "If you’re already benefiting from Visualizer, why not take your website to the next level with more powerful tools to enhance your data visualization capabilities and keep your audience engaged longer?"
+msgstr "Si ya te beneficias de Visualizer, ¿por qué no llevar tu sitio web al siguiente nivel con herramientas más potentes para mejorar tus capacidades de visualización de datos y mantener a tu audiencia interesada durante más tiempo?"
+
+#. Found in description paragraph.
+msgid "<strong>🤝 ELEVATE YOUR DATA WITH VISUALIZER PREMIUM FEATURES</strong>"
+msgstr "<strong>🤝 ELEVA TUS DATOS CON LAS FUNCIONES PREMIUM DE VISUALIZER</strong>"
+
+#. Found in description paragraph.
+msgid "<strong>Types of charts you can create with Visualizer:</strong> Visualizer WordPress graph and charts plugin provides a variety of charts that are optimized to address your WordPress data visualization needs. In the free version, it has line charts, bar charts, pie charts, table charts. These charts are based on pure HTML5/SVG technology (adopting VML for old IE versions), so no extra plugins are required. Adding these charts to your page can be done in a few simple steps."
+msgstr "<strong>Tipos de gráficos que puedes crear con Visualizer:</strong> El plugin de gráficos y tablas Visualizer para WordPress ofrece una variedad de gráficos optimizados para atender tus necesidades de visualización de datos en WordPress. En la versión gratuita incluye gráficos de líneas, de barras, circulares y tablas. Estos gráficos se basan en tecnología HTML5/SVG pura (con VML para las versiones antiguas de Internet Explorer), por lo que no requieren plugins adicionales. Añadir estos gráficos a tu página es cuestión de unos pocos pasos sencillos."
+
+#. Found in description paragraph.
+msgid "<strong>Regardless of Industry:</strong> With over 30,000 happy active users and 160+ 5-star ratings, Visualizer has been employed across a broad range of industries, including healthcare, marketing, education, and finance, demonstrating its versatility and effectiveness in any field."
+msgstr "<strong>Independientemente del sector:</strong> Con más de 30.000 usuarios activos satisfechos y más de 160 valoraciones de 5 estrellas, Visualizer se utiliza en una amplia variedad de sectores, como la sanidad, el marketing, la educación y las finanzas, lo que demuestra su versatilidad y eficacia en cualquier ámbito."
+
+#. Found in description paragraph.
+msgid "<strong>You are Financial Advisors and Economists:</strong> Visualizer allows for detailed financial reporting and economic analyses with advanced chart types like candlestick and radar charts. These tools can be used to depict stock performances, economic cycles, or budget allocations, providing clients with clear insights into financial matters."
+msgstr "<strong>Eres asesor financiero o economista:</strong> Visualizer permite elaborar informes financieros detallados y análisis económicos con tipos de gráfico avanzados, como los gráficos de velas y de radar. Estas herramientas sirven para representar el comportamiento de las acciones, los ciclos económicos o la distribución de presupuestos, y ofrecer a tus clientes una visión clara de las cuestiones financieras."
+
+#. Found in description paragraph.
+msgid "<strong>You are a Non-Profit Organizations:</strong> Non-profits can use Visualizer to display the impact of their initiatives through data. Create pie charts to show the distribution of spending or line charts to track donation trends over time, which can be powerful visuals for fundraising campaigns and annual reports."
+msgstr "<strong>Eres una organización sin ánimo de lucro:</strong> Las organizaciones sin ánimo de lucro pueden usar Visualizer para mostrar el impacto de sus iniciativas a través de datos. Crea gráficos circulares para mostrar la distribución del gasto o gráficos de líneas para seguir la evolución de las donaciones a lo largo del tiempo, lo que resulta muy útil para campañas de recaudación y memorias anuales."
+
+#. Found in description paragraph.
+msgid "<strong>You Aim to Enhance SEO and User Engagement:</strong> Using Visualizer’s interactive and responsive charts can significantly improve user engagement, keeping visitors on your site longer, which can positively impact your SEO rankings."
+msgstr "<strong>Quieres mejorar el SEO y la participación de los usuarios:</strong> Usar los gráficos interactivos y adaptables de Visualizer puede mejorar notablemente la participación, haciendo que los visitantes permanezcan más tiempo en tu sitio, lo que puede influir positivamente en tu posicionamiento SEO."
+
+#. Found in description paragraph.
+msgid "<strong>You Run an Educational or Financial Institution:</strong> For organizations that require regular reporting and data display, Visualizer offers comprehensive options for creating dynamic and informative charts and tables. This helps in better data analysis and presentation, aiding in decision-making and reporting."
+msgstr "<strong>Diriges una institución educativa o financiera:</strong> Para las organizaciones que necesitan informes periódicos y mostrar datos, Visualizer ofrece opciones completas para crear gráficos y tablas dinámicos e informativos. Esto facilita el análisis y la presentación de datos, y ayuda a tomar decisiones y a elaborar informes."
+
+#. Found in description paragraph.
+msgid "<strong>You Own a Personal or Small Business Website:</strong> You need a straightforward, powerful tool to enhance your website's visual appeal with interactive charts and tables. Visualizer makes complex data understandable and engaging."
+msgstr "<strong>Tienes una web personal o de pequeña empresa:</strong> Necesitas una herramienta sencilla y potente para mejorar el atractivo visual de tu sitio web con gráficos y tablas interactivos. Visualizer hace que los datos complejos sean comprensibles y atractivos."
+
+#. Found in description paragraph.
+msgid ""
+"📊 Turn a sales spreadsheet into a chart in seconds. Upload your data, type something like \"create a bar chart showing monthly revenue by region,\" and watch Visualizer build it live.\n"
+"📋 Visualize survey results without the manual work. Got a CSV of responses? Upload it, describe the breakdown you want to see, and let AI handle the rest.\n"
+"🎨 Match your brand without touching the settings. Mention your brand colors in your prompt, and Visualizer styles the chart accordingly, no manual color picking needed.\n"
+"🖼️ Build from a reference image. See a chart style you like somewhere? Upload it as a reference, and Visualizer will use it as inspiration with your own data."
+msgstr ""
+"📊 Convierte una hoja de cálculo de ventas en un gráfico en segundos. Sube tus datos, escribe algo como «crea un gráfico de barras con los ingresos mensuales por región» y mira cómo Visualizer lo genera en directo.\n"
+"📋 Visualiza los resultados de encuestas sin trabajo manual. ¿Tienes un CSV con respuestas? Súbelo, describe el desglose que quieres ver y deja que la IA se encargue del resto.\n"
+"🎨 Adapta la marca sin tocar los ajustes. Menciona los colores de tu marca en tu instrucción y Visualizer dará estilo al gráfico en consecuencia, sin necesidad de elegir los colores manualmente.\n"
+"🖼️ Crea a partir de una imagen de referencia. ¿Has visto un estilo de gráfico que te guste en algún sitio? Súbelo como referencia y Visualizer lo usará como inspiración con tus propios datos."
+
+#. Found in description paragraph.
+msgid "Here is what you can do with it:"
+msgstr "Esto es lo que puedes hacer con él:"
+
+#. Found in description paragraph.
+msgid "Just describe what you want, and Visualizer builds it for you. Preview it live, refine it with follow-up prompts, and publish when it looks right. No coding, no configuration, and no API key required. It is available to all users, completely free, the moment you activate the plugin."
+msgstr "Describe lo que quieres y Visualizer lo crea por ti. Previsualízalo en directo, afínalo con instrucciones de seguimiento y publícalo cuando esté listo. Sin programación, sin configuración y sin clave de API. Está disponible para todos los usuarios, totalmente gratis, en cuanto actives el plugin."
+
+#. Found in description paragraph.
+msgid "Chart creation has always been the most time-consuming part of working with data. Picking the right chart type, entering values manually, and tweaking settings until it looks right. Visualizer AI changes that entirely."
+msgstr "Crear gráficos siempre ha sido la parte que más tiempo consume al trabajar con datos. Elegir el tipo de gráfico adecuado, introducir los valores a mano y ajustar la configuración hasta que quede bien. Visualizer AI cambia todo eso por completo."
+
+#. Found in description paragraph.
+msgid "These versatile data handling capabilities ensure that Visualizer Free is equipped to meet a wide range of data visualization requirements right out of the box. Perfect for bloggers, educators, small businesses, and more, Visualizer helps you turn raw data into compelling, interactive charts that engage and inform your audience."
+msgstr "Estas versátiles capacidades de gestión de datos garantizan que Visualizer Free esté preparado para cubrir una amplia variedad de necesidades de visualización de datos desde el primer momento. Ideal para blogueros, educadores, pequeñas empresas y más: Visualizer te ayuda a convertir datos sin procesar en gráficos interactivos y atractivos que captan y informan a tu audiencia."
+
+#. Found in description paragraph.
+msgid "<strong>Flexible and Customizable:</strong> Make the charts and tables truly your own. Visualizer offers an extensive set of configuration options to perfectly match the look and feel of your website. Utilize Google Chart Tools with their default settings for simplicity, or dive into customization if your site’s style requires a unique approach. Every chart and table exposes numerous options that customize its appearance and functionality, ensuring your visualizations integrate seamlessly into your pages."
+msgstr "<strong>Flexible y personalizable:</strong> Haz que los gráficos y las tablas sean realmente tuyos. Visualizer ofrece un amplio conjunto de opciones de configuración para adaptarse a la perfección al aspecto de tu sitio web. Usa Google Chart Tools con sus ajustes por defecto para simplificar, o profundiza en la personalización si el estilo de tu sitio requiere un enfoque único. Cada gráfico y cada tabla ofrece numerosas opciones que personalizan su aspecto y su funcionamiento, lo que garantiza que tus visualizaciones se integren sin fisuras en tus páginas."
+
+#. Found in description paragraph.
+msgid "<strong>Seamless Integration and Compatibility:</strong> Whether you're using the Gutenberg editor or other page builders, Visualizer integrates effortlessly into your WordPress environment. This seamless compatibility allows for straightforward chart insertion and management."
+msgstr "<strong>Integración y compatibilidad sin fisuras:</strong> Tanto si usas el editor Gutenberg como otros maquetadores de páginas, Visualizer se integra sin esfuerzo en tu entorno de WordPress. Esta compatibilidad facilita insertar y gestionar gráficos."
+
+#. Found in description paragraph.
+msgid "<strong>Data Table Capabilities:</strong> In addition to our responsive charts and graphs, you can also add responsive tables to your posts and pages and customize them to your liking. Visualizer Pro lets you enhance them with features such as sorting capabilities, pagination, and search functions. From pricing tables to product tables, the possibilities are vast and customizable to meet any data presentation need."
+msgstr "<strong>Capacidades de tablas de datos:</strong> Además de nuestros gráficos adaptables, también puedes añadir tablas adaptables a tus entradas y páginas y personalizarlas a tu gusto. Visualizer Pro te permite mejorarlas con funciones como ordenación, paginación y búsqueda. Desde tablas de precios hasta tablas de productos, las posibilidades son amplias y personalizables para cualquier necesidad de presentación de datos."
+
+#. Found in description paragraph.
+msgid "<strong>Ultimate Responsiveness:</strong> Crafted using HTML5/SVG technology, Visualizer charts ensure flawless functionality across all devices. This commitment to responsiveness guarantees that your data is not only accessible but also optimally displayed on desktops, tablets, and smartphones, enhancing user interaction and engagement."
+msgstr "<strong>Adaptabilidad total:</strong> Creados con tecnología HTML5/SVG, los gráficos de Visualizer funcionan sin fallos en todos los dispositivos. Este compromiso con la adaptabilidad garantiza que tus datos no solo sean accesibles, sino que se muestren de forma óptima en ordenadores, tabletas y teléfonos móviles, lo que mejora la interacción y la participación de los usuarios."
+
+#. Found in description paragraph.
+msgid "<strong>Manual Data Entry:</strong> Input data manually for quick visualization tasks. This method provides ultimate control over the content and structure of your charts, making it simple to tailor data presentation directly within the plugin interface."
+msgstr "<strong>Introducción manual de datos:</strong> Introducir datos a mano para tareas de visualización rápidas. Este método ofrece un control total sobre el contenido y la estructura de tus gráficos, y permite adaptar la presentación de los datos directamente desde la interfaz del plugin."
+
+#. Found in description paragraph.
+msgid "<strong>Diverse Chart Options:</strong> Begin with essential chart types like line, pie, bar, and table in the free version. Elevate your data presentation with advanced chart types such as scatter, area, and geo available in the Pro version. The free version offers a comprehensive range of options that are perfect for various visualization needs."
+msgstr "<strong>Opciones de gráficos variadas:</strong> Empieza con los tipos de gráfico esenciales, como líneas, circulares, barras y tablas, en la versión gratuita. Eleva la presentación de tus datos con tipos avanzados, como dispersión, áreas y geográficos, disponibles en la versión Pro. La versión gratuita ofrece una gama completa de opciones perfectas para distintas necesidades de visualización."
+
+#. Found in description paragraph.
+msgid "<strong>AI-Powered Chart Generation:</strong> Describe the chart you need in plain everyday language, and Visualizer AI builds it for you instantly. No API key, no setup, and no technical knowledge required. Whether you are a blogger, educator, or small business owner, you can go from a simple text prompt to a fully customizable, ready-to-embed chart in seconds, completely free."
+msgstr "<strong>Generación de gráficos con IA:</strong> Describe el gráfico que necesitas con un lenguaje cotidiano y Visualizer AI lo genera al instante. Sin clave de API, sin configuración y sin conocimientos técnicos. Tanto si eres bloguero, educador o propietario de una pequeña empresa, puedes pasar de una instrucción sencilla a un gráfico totalmente personalizable y listo para insertar en cuestión de segundos, completamente gratis."
+
+#. Found in description paragraph.
+msgid "The plugin leverages the Google Visualization API, DataTables.net, and ChartJS libraries to deliver responsive and animated charts, graphs, and tables, ensuring excellent cross-browser compatibility and a seamless mobile experience. It also comes with a built-in AI chart builder powered by D3.js that turns a plain text description into a publish-ready chart in seconds, no setup required. You can fully customize all aspects of the charts and tables to suit your needs. For enhanced data management features, including importing from Excel, CSV, Google Sheets, and more, consider exploring the <a href=\"https://themeisle.com/plugins/visualizer-charts-and-graphs/upgrade/?utm_source=wordpressorg&amp;utm_medium=readme&amp;utm_campaign=pro-cta\">PRO version</a>."
+msgstr "El plugin utiliza las bibliotecas Google Visualization API, DataTables.net y ChartJS para ofrecer gráficos y tablas adaptables y animados, con una excelente compatibilidad entre navegadores y una experiencia fluida en móviles. Incluye además un generador de gráficos con IA integrado, basado en D3.js, que convierte una descripción en texto en un gráfico listo para publicar en cuestión de segundos, sin configuración previa. Puedes personalizar por completo todos los aspectos de los gráficos y las tablas según tus necesidades. Para funciones avanzadas de gestión de datos, como la importación desde Excel, CSV, Hojas de cálculo de Google y mucho más, te recomendamos explorar la <a href=\"https://themeisle.com/plugins/visualizer-charts-and-graphs/upgrade/?utm_source=wordpressorg&amp;utm_medium=readme&amp;utm_campaign=pro-cta\">versión PRO</a>."
+
+#. Found in description paragraph.
+msgid "<a href=\"https://themeisle.com/plugins/visualizer-charts-and-graphs/?utm_source=wordpressorg&amp;utm_medium=readme&amp;utm_campaign=description\" rel=\"nofollow\">Visualizer: Tables and Charts Manager for WordPress</a> is a powerful and easy to use plugin used to create, manage and embed interactive, responsive charts &amp; tables into your WordPress posts and pages."
+msgstr "<a href=\"https://themeisle.com/plugins/visualizer-charts-and-graphs/?utm_source=wordpressorg&amp;utm_medium=readme&amp;utm_campaign=description\" rel=\"nofollow\">Visualizer: Gestor de tablas y gráficos para WordPress</a> es un plugin potente y fácil de usar que permite crear, gestionar e insertar gráficos y tablas interactivos y adaptables en tus entradas y páginas de WordPress."
+
+#. Found in description list item.
+msgid "<strong>Radar/Spider Chart [PRO]:</strong> A radar chart is a graphical method of displaying multivariate data in the form of a two-dimensional chart of three or more quantitative variables represented on axes starting from the same point. <a href=\"https://demo.themeisle.com/visualizer/radar-spider-chart/\">Click here to see demo</a>."
+msgstr "<strong>Gráfico de radar/araña [PRO]:</strong> Un gráfico de radar es un método gráfico para representar datos multivariables en forma de gráfico bidimensional de tres o más variables cuantitativas representadas en ejes que parten del mismo punto. <a href=\"https://demo.themeisle.com/visualizer/radar-spider-chart/\">Haz clic aquí para ver la demo</a>."
+
+#. Found in description list item.
+msgid "<strong>Polar Area Chart [PRO]:</strong> Polar charts are data visualizations best used for displaying multivariate observations with an arbitrary number of variables in the form of a two-dimensional chart. <a href=\"https://demo.themeisle.com/visualizer/polar-area-chart/\">Click here to see demo</a>."
+msgstr "<strong>Gráfico de áreas polares [PRO]:</strong> Los gráficos polares son visualizaciones de datos ideales para representar observaciones multivariables con un número arbitrario de variables en forma de gráfico bidimensional. <a href=\"https://demo.themeisle.com/visualizer/polar-area-chart/\">Haz clic aquí para ver la demo</a>."
+
+#. Found in description list item.
+msgid "<strong>Combo Chart [PRO]:</strong> You can combine data series using different types of charts with the combo chart. <a href=\"https://demo.themeisle.com/visualizer/combo-chart/\">Click here to see demo</a>."
+msgstr "<strong>Gráfico combinado [PRO]:</strong> Puedes combinar series de datos con distintos tipos de gráfico mediante el gráfico combinado. <a href=\"https://demo.themeisle.com/visualizer/combo-chart/\">Haz clic aquí para ver la demo</a>."
+
+#. Found in description list item.
+msgid "<strong>Timeline Chart [PRO]:</strong> You can group time-based values using the timeline chart. <a href=\"https://demo.themeisle.com/visualizer/timeline-chart/\">Click here to see demo</a>."
+msgstr "<strong>Gráfico de línea temporal [PRO]:</strong> Puedes agrupar valores basados en el tiempo mediante el gráfico de línea temporal. <a href=\"https://demo.themeisle.com/visualizer/timeline-chart/\">Haz clic aquí para ver la demo</a>."
+
+#. Found in description list item.
+msgid "<strong>Candlestick Chart [PRO]:</strong> A candlestick chart is a style of financial chart used to describe price movements of a security, derivative, or currency. <a href=\"https://demo.themeisle.com/visualizer/candlestick-chart/\">Click here to see demo</a>."
+msgstr "<strong>Gráfico de velas [PRO]:</strong> Un gráfico de velas es un estilo de gráfico financiero que describe los movimientos de precio de un valor, un derivado o una divisa. <a href=\"https://demo.themeisle.com/visualizer/candlestick-chart/\">Haz clic aquí para ver la demo</a>."
+
+#. Found in description list item.
+msgid "<strong>Gauge Chart [PRO]:</strong> You can build different gauge charts to indicate metrics like speed, performance, progress, or similar measures. <a href=\"https://demo.themeisle.com/visualizer/gauge-chart/\">Click here to see demo</a>."
+msgstr "<strong>Gráfico de medidor [PRO]:</strong> Puedes crear distintos medidores para indicar métricas como la velocidad, el rendimiento, el progreso u otras medidas similares. <a href=\"https://demo.themeisle.com/visualizer/gauge-chart/\">Haz clic aquí para ver la demo</a>."
+
+#. Found in description list item.
+msgid "<strong>Scatter Chart [PRO]:</strong> You can display values in Cartesian coordinates using the scatter chart. <a href=\"https://demo.themeisle.com/visualizer/scatter-chart/\">Click here to see demo</a>."
+msgstr "<strong>Gráfico de dispersión [PRO]:</strong> Puedes mostrar valores en coordenadas cartesianas mediante el gráfico de dispersión. <a href=\"https://demo.themeisle.com/visualizer/scatter-chart/\">Haz clic aquí para ver la demo</a>."
+
+#. Found in description list item.
+msgid "<strong>Bubble Chart [PRO]:</strong> A bubble chart is a type of chart that displays three dimensions of data. Bubble charts can be considered a variation of the scatter plot, where data points are replaced with bubbles. <a href=\"https://demo.themeisle.com/visualizer/bubble-chart/\">Click here to see demo</a>."
+msgstr "<strong>Gráfico de burbujas [PRO]:</strong> Un gráfico de burbujas es un tipo de gráfico que muestra tres dimensiones de datos. Puede considerarse una variante del gráfico de dispersión, en la que los puntos de datos se sustituyen por burbujas. <a href=\"https://demo.themeisle.com/visualizer/bubble-chart/\">Haz clic aquí para ver la demo</a>."
+
+#. Found in description list item.
+msgid "<strong>Column Chart [PRO]:</strong> You can use a column chart to show comparisons among different categories. <a href=\"https://demo.themeisle.com/visualizer/column-chart/\">Click here to see demo</a>."
+msgstr "<strong>Gráfico de columnas [PRO]:</strong> Puedes usar un gráfico de columnas para mostrar comparaciones entre distintas categorías. <a href=\"https://demo.themeisle.com/visualizer/column-chart/\">Haz clic aquí para ver la demo</a>."
+
+#. Found in description list item.
+msgid "<strong>Geo Chart [PRO]:</strong> You can display a map of countries, continents, or regions with areas identified by the values you specify. <a href=\"https://demo.themeisle.com/visualizer/geo-chart/\">Click here to see demo</a>."
+msgstr "<strong>Gráfico geográfico [PRO]:</strong> Puedes mostrar un mapa de países, continentes o regiones, con áreas identificadas por los valores que especifiques. <a href=\"https://demo.themeisle.com/visualizer/geo-chart/\">Haz clic aquí para ver la demo</a>."
+
+#. Found in description list item.
+msgid "<strong>Area Chart [PRO]:</strong> You can visually display quantitative data using the area chart. <a href=\"https://demo.themeisle.com/visualizer/area-chart/\">Click here to see demo</a>."
+msgstr "<strong>Gráfico de áreas [PRO]:</strong> Puedes representar visualmente datos cuantitativos mediante el gráfico de áreas. <a href=\"https://demo.themeisle.com/visualizer/area-chart/\">Haz clic aquí para ver la demo</a>."
+
+#. Found in description list item.
+msgid "<strong>Bar Chart:</strong> You can show grouped data with bars proportional to the values they represent using the bar chart. <a href=\"https://demo.themeisle.com/visualizer/bar-chart/\">Click here to see demo</a>."
+msgstr "<strong>Gráfico de barras:</strong> Puedes mostrar datos agrupados con barras proporcionales a los valores que representan mediante el gráfico de barras. <a href=\"https://demo.themeisle.com/visualizer/bar-chart/\">Haz clic aquí para ver la demo</a>."
+
+#. Found in description list item.
+msgid "<strong>Line Chart:</strong> You can display a series of data points connected with line segments using the line chart. <a href=\"https://demo.themeisle.com/visualizer/line-chart/\">Click here to see demo</a>."
+msgstr "<strong>Gráfico de líneas:</strong> Puedes mostrar una serie de puntos de datos conectados por segmentos de línea mediante el gráfico de líneas. <a href=\"https://demo.themeisle.com/visualizer/line-chart/\">Haz clic aquí para ver la demo</a>."
+
+#. Found in description list item.
+msgid "<strong>Pie Chart:</strong> Pie charts are simple visualizations that allow you to easily illustrate the proportion of your data to your users. <a href=\"https://demo.themeisle.com/visualizer/pie-chart/\">Click here to see demo</a>."
+msgstr "<strong>Gráfico circular:</strong> Los gráficos circulares son visualizaciones sencillas que permiten ilustrar fácilmente a tus usuarios la proporción de tus datos. <a href=\"https://demo.themeisle.com/visualizer/pie-chart/\">Haz clic aquí para ver la demo</a>."
+
+#. Found in description list item.
+msgid "<strong>Table:</strong> Tables are extremely useful tools for displaying organized data. We use the datatable library to offer you endless customization options for any table needs you might have. <a href=\"https://demo.themeisle.com/visualizer/table-chart/\">Click here to see demo</a>."
+msgstr "<strong>Tabla:</strong> Las tablas son herramientas muy útiles para mostrar datos organizados. Usamos la biblioteca DataTables para ofrecerte opciones de personalización prácticamente ilimitadas para cualquier necesidad de tabla que puedas tener. <a href=\"https://demo.themeisle.com/visualizer/table-chart/\">Haz clic aquí para ver la demo</a>."
+
+#. Found in description list item.
+msgid "Interested in Visualizer Pro? <a href=\"https://themeisle.com/plugins/visualizer-charts-and-graphs/upgrade/?utm_source=wordpressorg&amp;utm_medium=readme&amp;utm_campaign=pro-cta\">Know more about Visualizer PRO</a>"
+msgstr "¿Te interesa Visualizer Pro? <a href=\"https://themeisle.com/plugins/visualizer-charts-and-graphs/upgrade/?utm_source=wordpressorg&amp;utm_medium=readme&amp;utm_campaign=pro-cta\">Descubre más sobre Visualizer PRO</a>"
+
+#. Found in description list item.
+msgid "Don’t like reading? <a href=\"https://youtube.com/playlist?list=PLmRasCVwuvpT0Gu1myGW-Dyt2oh-BPuci&amp;si=S3o4BIyo3AYNh95w\">Check YouTube Playlist</a>"
+msgstr "¿No te gusta leer? <a href=\"https://youtube.com/playlist?list=PLmRasCVwuvpT0Gu1myGW-Dyt2oh-BPuci&amp;si=S3o4BIyo3AYNh95w\">Consulta la lista de reproducción de YouTube</a>"
+
+#. Found in description list item.
+msgid "Need any help with setup? <a href=\"https://docs.themeisle.com/collection/1560-visualizer-charts-and-graphs\">Check Documentation</a>"
+msgstr "¿Necesitas ayuda con la configuración? <a href=\"https://docs.themeisle.com/collection/1560-visualizer-charts-and-graphs\">Consulta la documentación</a>"
+
+#. Found in description list item.
+msgid "Want to see Visualizer in action before installing? <a href=\"https://demo.themeisle.com/visualizer/\">View Visualizer Demo</a> [You can also try Live Preview button above]"
+msgstr "¿Quieres ver Visualizer en acción antes de instalarlo? <a href=\"https://demo.themeisle.com/visualizer/\">Mira la demo de Visualizer</a> [También puedes probar el botón «Vista previa en directo» de arriba]"
+
+#. Found in description header.
+msgid "✨ YOU SHOULD USE VISUALIZER IF:"
+msgstr "✨ DEBERÍAS USAR VISUALIZER SI:"
+
+#. Found in description header.
+msgid "Build Charts Faster with Visualizer AI"
+msgstr "Crea gráficos más rápido con Visualizer AI"
+
+#. Found in description header.
+msgid "Why You’ll Love Visualizer"
+msgstr "Por qué te va a encantar Visualizer"
+
+#. Found in description header.
+msgid "🔗 HELPFUL LINKS"
+msgstr "🔗 ENLACES DE INTERÉS"
+
+#. Screenshot description.
+msgid "Block editor - Chart Library"
+msgstr "Editor de bloques: biblioteca de gráficos"
+
+#. Screenshot description.
+msgid "Line Chart Settings"
+msgstr "Ajustes del gráfico de líneas"
+
+#. Screenshot description.
+msgid "Bar Chart Settings"
+msgstr "Ajustes del gráfico de barras"
+
+#. Screenshot description.
+msgid "Bar Chart"
+msgstr "Gráfico de barras"
+
+#. Screenshot description.
+msgid "Import Options"
+msgstr "Opciones de importación"
+
+#. Screenshot description.
+msgid "Quick Actions"
+msgstr "Acciones rápidas"
+
+#. Screenshot description.
+msgid "Charts Selection"
+msgstr "Selección de gráficos"
+
+#. Screenshot description.
+msgid "AI Chart Creation"
+msgstr "Creación de gráficos con IA"
+
+#. Found in faq paragraph.
+msgid "Pay attention that to turn your shortcodes into graphs, your theme has to have <code>&lt;?php wp_footer(); ?&gt;</code> call at the bottom of <strong>footer.php</strong> file."
+msgstr "Ten en cuenta que, para convertir tus shortcodes en gráficos, tu tema debe incluir la llamada <code>&lt;?php wp_footer(); ?&gt;</code> al final del archivo <strong>footer.php</strong>."
+
+#. Found in faq header.
+msgid "Shortcode does not turn into graph"
+msgstr "El shortcode no se convierte en gráfico"
+
+#. Found in installation list item.
+msgid "Activate the plugin through the 'Plugins' menu in WordPress."
+msgstr "Activa el plugin desde el menú «Plugins» de WordPress."
+
+#. Found in installation list item.
+msgid "Upload the files to the <code>/wp-content/plugins/visualizer/</code> directory."
+msgstr "Sube los archivos al directorio <code>/wp-content/plugins/visualizer/</code>."
+
+#. Found in description paragraph.
+msgid "<em>The above descriptions were partially taken from the Google Visualization API site</em>"
+msgstr "<em>Las descripciones anteriores se han tomado en parte del sitio de la API de Google Visualization</em>"

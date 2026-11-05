@@ -1,0 +1,293 @@
+# polyglots rules for es_ES, written with the rules builder:
+# https://ada.tools/polyglots/rules-builder/
+
+# Check it with: polyglots rules check --file <this file>
+# Every value here is read by the app; comments are not.
+
+schema: 2
+
+# Built-in checks turned on (enable) or off (disable) for this locale.
+rules:
+  enable: [ampersand]
+  disable: []
+
+# How a draft addresses the reader.
+formality: informal
+
+# The tone and form of address both AI prompts ask for.
+register:
+  audit: '- Reader is addressed informally as singular "tú", never "usted". WordPress speaks as one person in first person singular ("Lo siento, no he podido..."); plural only if the source says "we". Buttons and menus use the infinitive ("Guardar cambios"); calls to action use the tú imperative ("Descarga WordPress"). Flag stiff, passive or impersonal calques ("Se requiere..." instead of "Necesitas..."). Prefer gender-neutral wording only when natural; never "usuario/a".'
+  translate: '- Use singular informal "tú", never "usted". Write as WordPress speaking as one person, first person singular ("Lo siento, no he podido..."); plural only if the source says "we". Buttons, menus and commands use the infinitive ("Guardar cambios"); invitations use the tú imperative ("Descarga WordPress"). Sound natural, not literal: no passive or impersonal calques ("Necesitas una licencia", not "Se requiere..."). Prefer gender-neutral wording when natural; never "usuario/a".'
+
+# How the language capitalizes, for the review prompt where title-case runs.
+capitalization: |
+  - {language} uses sentence case, never English-style Title Case: capitalize only the first word of titles, headings, buttons, menu items and labels ("Subir archivo", not "Subir Archivo").
+  - A system element is capitalized only on its first word ("Biblioteca de medios").
+  - Keep capitals for proper nouns, product and brand names and acronyms (WordPress, Jetpack, RSS, URL).
+  - Do not capitalize days, months, languages or nationalities, even when the English source does (lunes, enero, español).
+
+# Added to the AI review prompts: the style guide's most important lines.
+guidance: 'Spanish (Spain) translation for WordPress. The WordPress core glossary is the base for all terms; its notes (e.g. "No usar...") are binding. Translate by context, never literally, and prefer natural Spanish over English calques. Theme and plugin names are never translated; for other companies'' products use the company''s own official Spanish name when it has one ("Hojas de cálculo de Google"), otherwise keep the original ("Search Console"). Always use Spanish quotation marks «», nested as «... "..." ...», and always the opening marks ¿ and ¡. Keep typographic characters (..., …, dashes) exactly as in the source. Keep placeholders, HTML and entities intact. The same term or phrase is translated the same way everywhere. Key terms: Dashboard = Escritorio; site = sitio; post = entrada; plugin, shortcode and widget stay untranslated; upload = subir (never cargar); delete = borrar; log in = acceder; settings = ajustes; theme = tema; template = plantilla; role = perfil; email = correo electrónico; link = enlace; "clic" has no k. website = sitio web (site = sitio only); checkout = pago / finalizar compra; slider = carrusel; hook = gancho; frontend = parte pública; sitemap = mapa del sitio; firewall = cortafuegos; engagement = participación; upgrade to a higher plan = mejorar. In changelogs use one verb form for every entry (participle: Añadido, Corregido). Names of languages, plans and tabs are lowercase after the first word.'
+
+# Wordings the team rejects, found anywhere in a translation, without regard to case.
+mistakes:
+  - wrong: lo sentimos
+    right: lo siento
+    note: 'WordPress speaks in first person singular; plural only if the source says "we" (glossary: sorry).'
+  - wrong: perdona
+    right: lo siento
+    note: 'Glossary: sorry - do not use "Perdona"; use "Lo siento".'
+  - wrong: iniciar sesión
+    right: acceder
+    note: 'Glossary: login - use "Acceder", never "Iniciar sesión".'
+  - wrong: inicia sesión
+    right: accede
+    note: 'Glossary: login - use "Acceder", never "Iniciar sesión".'
+  - wrong: inicio de sesión
+    right: acceso
+    note: 'Glossary: login - use "Acceder"/"acceso", never "inicio de sesión".'
+  - wrong: cerrar sesión
+    right: salir
+    note: 'Glossary: log out / sign out - use "Salir".'
+  - wrong: autentica
+    right: identificar / identificación
+    note: 'Glossary: authenticate/authentication - use "identificar/identificación", never "autenticar/autenticación".'
+  - wrong: autentifica
+    right: identificar / identificación
+    note: 'Glossary: authenticate/authentication - use "identificar/identificación", never "autentificar/autentificación".'
+  - wrong: malas palabras
+    right: palabras malsonantes
+    note: 'Glossary: bad words.'
+  - wrong: computador
+    right: ordenador
+    note: 'Glossary: computer - "ordenador" in Spain, never "computador/computadora".'
+  - wrong: contenidos
+    right: contenido
+    note: 'Glossary: content - do not use the plural "contenidos" (fixed phrases like "tabla de contenidos" are fine).'
+  - wrong: tablero
+    right: escritorio
+    note: 'Glossary: Dashboard - use "Escritorio", never "tablero".'
+  - wrong: panel de control
+    right: escritorio
+    note: 'Glossary: Dashboard - use "Escritorio", never "panel de control".'
+  - wrong: deseleccion
+    right: anular selección
+    note: 'Glossary: deselect - use "anular selección", never "deseleccionar".'
+  - wrong: e-mail
+    right: correo electrónico
+    note: 'Glossary: email - use "correo electrónico", never "e-mail".'
+  - wrong: encript
+    right: cifrar / cifrado
+    note: 'Glossary: encrypt - use "cifrar/cifrado", never "encriptar/encriptación".'
+  - wrong: escond
+    right: ocultar
+    note: 'Glossary: hide - use "ocultar", never "esconder".'
+  - wrong: expira
+    right: caduca / caducado / caducidad
+    note: 'Glossary: expire - use "caduca/caducado/caducidad", never "expira/expirado/expiración".'
+  - wrong: inválid
+    right: no válido
+    note: 'Glossary: invalid - use "no válido", never "inválido".'
+  - wrong: vincular
+    right: enlazar
+    note: 'Glossary: link (verb) - use "enlazar", never "vincular".'
+  - wrong: vínculo
+    right: enlace
+    note: 'Glossary: link (noun) - use "enlace", never "vínculo".'
+  - wrong: linkear
+    right: enlazar
+    note: 'Glossary: link (verb) - use "enlazar", never "linkear".'
+  - wrong: administrar
+    right: gestionar
+    note: 'Glossary: manage - use "gestionar", never "administrar".'
+  - wrong: mapear
+    right: asignar
+    note: 'Glossary: map (verb) - use "asignar", never "mapear".'
+  - wrong: mapeo
+    right: asignación
+    note: 'Glossary: mapping - use "asignación", never "mapeo".'
+  - wrong: minific
+    right: minimizar / minimización
+    note: 'Glossary: minify - use "minimizar/minimización", never "minificar".'
+  - wrong: monitore
+    right: supervisar / seguir / vigilar
+    note: 'Glossary: monitor - never "monitorear".'
+  - wrong: monitoriz
+    right: seguimiento / vigilancia / supervisión
+    note: 'Glossary: monitoring - never "monitorización".'
+  - wrong: notific
+    right: aviso / avisar
+    note: 'Glossary: notification/notify - use "aviso/avisar", never "notificación/notificar".'
+  - wrong: apodo
+    right: alias
+    note: 'Glossary: nickname - use "alias", never "apodo".'
+  - wrong: nickname
+    right: alias
+    note: 'Glossary: nickname - use "alias".'
+  - wrong: librería
+    right: biblioteca
+    note: 'Glossary: library - use "biblioteca"; "librería" only means a bookshop.'
+  - wrong: poderos
+    right: potente
+    note: 'Glossary: powerful - use "potente", never "poderoso".'
+  - wrong: recurrente
+    right: periódico
+    note: 'Glossary: recurring - use "periódico", never "recurrente".'
+  - wrong: reportar
+    right: informar
+    note: 'Glossary: report (verb) - use "informar", never "reportar".'
+  - wrong: reporte
+    right: informe
+    note: 'Glossary: report (noun) - use "informe", never "reporte".'
+  - wrong: requerid
+    right: obligatorio / necesario
+    note: 'Glossary: required - always "obligatorio"; "requerido" only in rare, well-justified cases.'
+  - wrong: salvar
+    right: guardar
+    note: 'Glossary: save - use "guardar", never "salvar".'
+  - wrong: basura
+    right: papelera
+    note: 'Glossary: trash - use "papelera", never "basura".'
+  - wrong: aterrizaje
+    right: destino
+    note: 'Glossary: landing - use "página de destino", never "aterrizaje".'
+  - wrong: tienda de conveniencia
+    right: tienda de proximidad
+    note: 'Glossary: convenience store - the first is common in AI output, unused in Spain.'
+  - wrong: complemento
+    right: 'plugin (add-on: extensión)'
+    note: 'Glossary: plugin is not translated; add-on is "extensión", not "complemento".'
+  - wrong: código corto
+    right: shortcode
+    note: 'Glossary: shortcode is not translated.'
+  - wrong: código abreviado
+    right: shortcode
+    note: 'Glossary: shortcode is not translated.'
+
+# Literal text or regular expressions: a hint to weigh, an error, or a fix.
+patterns:
+  - find: '(sitio|página) web'
+    level: hint
+    ignoreCase: true
+    when: {notSource: web}
+    note: 'Glossary: “site” is “sitio”, not “sitio web” or “página web”, unless the source says website or web page.'
+  - find: '\b[Uu]sted(es)?\b'
+    level: error
+    note: 'WordPress addresses the reader as "tú", never "usted".'
+  - find: '\b[Cc]lick\b'
+    level: error
+    note: 'Spanish spelling is "clic" (no k). Glossary: click.'
+  - text: se requiere
+    level: hint
+    note: 'Impersonal calque. Prefer a direct form ("Necesitas...").'
+  - find: '[Pp]or favor [^,.;:]'
+    level: hint
+    note: 'A comma follows "Por favor" when a request comes after it.'
+  - find: ' {2,}'
+    level: fix
+    replace: ' '
+    note: 'One space between words.'
+  - find: '\b[Ee]stás segur[oa]\b'
+    level: hint
+    note: 'Glossary: are you sure - use "¿Seguro que...?" (works for every gender), not "¿Estás seguro/a...?".'
+  - find: '\b[Bb]ienvenidos?\b|^[Bb]ienvenida\b'
+    level: hint
+    when: {source: welcome}
+    note: 'Glossary: Welcome - prefer "Te damos la bienvenida" (gender-neutral). A preference, not a hard rule: accept the gendered form if the neutral one sounds forced.'
+  - find: '\b[Rr]ol(es)?\b'
+    level: hint
+    note: 'Glossary: role - use "perfil/perfiles", never "rol".'
+  - find: '\b[Tt]ours?\b'
+    level: hint
+    note: 'Glossary: tour - use "recorrido", not "tour".'
+  - find: '\b[Mm]ontos?\b'
+    level: hint
+    note: 'Glossary: monto - nobody in Spain says "monto"; use "importe".'
+  - find: '\b[Ll]inks?\b'
+    level: hint
+    note: 'Glossary: link - use "enlace", never "link".'
+  - find: '\b[Pp]ixel(es)?\b'
+    level: hint
+    note: 'Glossary: pixel - spelled with an accent: "píxel/píxeles".'
+  - find: '\b[Hh]osting\b'
+    level: hint
+    note: 'Glossary: hosting - use "alojamiento".'
+  - find: '\b[Cc]arros?\b|\b[Cc]estas?\b'
+    level: hint
+    when: {source: cart}
+    note: 'Glossary: cart - use "carrito", never "carro" or "cesta".'
+  - find: '\b[Ee]x[aá]menes\b|\b[Ee]xamen\b'
+    level: hint
+    when: {source: quiz}
+    note: 'Glossary: quiz - use "cuestionario", not "examen".'
+  - find: '\b[Rr]eceptor(es)?\b'
+    level: hint
+    when: {source: receiver}
+    note: 'Glossary: receiver - use "destinatario", not "receptor".'
+  - find: '\b[Cc]arg(a|ar|as|an|ado|ada|ados|adas|ando|o|ue|uen)\b'
+    level: hint
+    when: {source: upload}
+    note: 'Glossary: upload - use "subir/subida", never "cargar/carga".'
+  - find: '\b[Ee]mails?\b'
+    level: hint
+    note: 'Glossary: email - use "correo electrónico" ("dirección de correo electrónico"). Ignore product names and code.'
+  - find: '\b[Aa]greg(ar|a|as|an|ue|uen|amos)\b'
+    level: hint
+    note: 'Glossary: add - use "añadir", never "agregar/agrega". "Agregado" in the sense of aggregated is fine.'
+  - find: '\bBCC\b'
+    level: hint
+    note: 'Glossary: BCC - use the Spanish abbreviation "CCO" (Con Copia Oculta). Ignore header names in code.'
+  - find: 'dirección de correo(?! electrónico)'
+    level: hint
+    ignoreCase: true
+    note: 'Glossary: email address - use "dirección de correo electrónico".'
+  - find: '\b[Ii]dentif(icarse|icarte|icándose|ícate)\b'
+    level: hint
+    when: {source: log in}
+    note: 'Glossary: login - "Identificarse" is incorrect; use "Acceder". (Authenticate = "identificar" is fine.)'
+  - find: '\b[Ii]dentif(icarse|icarte|icándose|ícate)\b'
+    level: hint
+    when: {source: login}
+    note: 'Glossary: login - "Identificarse" is incorrect; use "Acceder". (Authenticate = "identificar" is fine.)'
+  - find: '\b[Ii]dentif(icarse|icarte|icándose|ícate)\b'
+    level: hint
+    when: {source: sign in}
+    note: 'Glossary: sign in - "Identificarse" is incorrect; use "Acceder". (Authenticate = "identificar" is fine.)'
+  - find: '(?<![-\w])(checkout|sliders?|hooks?|frontend|front-end|sitemaps?|firewalls?)(?![-\w])'
+    level: hint
+    ignoreCase: true
+    note: 'Glossary terms left in English: checkout = "finalizar compra" / "pago"; slider = "carrusel" / "control deslizante"; hook = "gancho"; frontend = "parte pública" / "vista pública"; sitemap = "mapa del sitio"; firewall = "cortafuegos". Ignore code and file names.'
+  - find: '\bcompromiso\b'
+    level: hint
+    when: {source: engagement}
+    note: 'Glossary: engagement - use "participación", not "compromiso".'
+  - find: 'actualiz\w+ a(l)? (un |tu |el )?plan'
+    level: hint
+    ignoreCase: true
+    when: {source: upgrade}
+    note: 'Glossary: upgrade - "actualizar" for a new version, "mejorar" when moving to a higher plan.'
+  - find: 'fragmentos enriquecidos|resultados enriquecidos'
+    level: hint
+    ignoreCase: true
+    note: 'Glossary: snippet - not translated for search result boxes: use "snippets enriquecidos".'
+  - find: '(?<!p\. )\bej\.'
+    level: hint
+    note: 'Spanish abbreviation is "p. ej." (por ejemplo), not "ej.".'
+  - find: '(?<![=\w])"[^"<>=]+"(?![\w>])'
+    level: hint
+    note: 'Use Spanish quotation marks «...» (nested “...”), not straight quotes. Ignore HTML attributes and code.'
+  - find: '(?<![\w=])''[^''<>]+''(?!\w)'
+    level: hint
+    note: 'Use Spanish quotation marks «...» (nested “...”), not single straight quotes. Ignore code.'
+  - find: ', [A-ZÁÉÍÓÚÑ][a-záéíóúñ]+(, [A-ZÁÉÍÓÚÑ][a-záéíóúñ]+){2,}'
+    level: hint
+    note: 'A list of capitalized common nouns (languages, plans, options): Spanish writes them in lowercase after the first word. Ignore brand and product names.'
+
+# How a sentence ends in this script, for the punctuation check.
+sentenceEnd:
+  answers:
+    - text: '»\.$'
+      source: '\.["”]$'
+    - text: '[?!]»$'
+      source: '[?!]["”]$'
+  notEnding: '(\.{3}|…)$'

@@ -1,0 +1,461 @@
+# Translation of Plugins - MailBridgeAPI Email Delivery - Stable Readme (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - MailBridgeAPI Email Delivery - Stable Readme (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-10-21 08:52+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: polyglots\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - MailBridgeAPI Email Delivery - Stable Readme "
+"(latest release)\n"
+"X-Polyglots-Review: "
+"{\"v\":2,\"polyglots\":\"1.1.0\",\"done\":0,\"of\":0,\"problems\":0,\""
+"unreviewed\":0,\"repaired\":0,\"byRule\":{\"glossary\":40,\"untranslated\":1"
+",\"custom\":14}}\n"
+
+# polyglots: glossary term not used: "email" -> "correo electrónico"
+#. Short description.
+#, gp-priority: high, fuzzy
+msgid ""
+"Send WordPress email through a locked MailBridgeAPI mailbox without storing "
+"SMTP credentials, with delivery logs, diagnostics and remote visibility."
+msgstr ""
+"Envía correos de WordPress mediante un buzón bloqueado de MailBridgeAPI sin "
+"almacenar credenciales SMTP, con registros de entrega, diagnósticos y "
+"supervisión remota."
+
+# polyglots: translation is identical to the source
+# polyglots: glossary term not used: "email" -> "correo electrónico"
+# polyglots: "email" -> "correo electrónico" (Glossary: email - use "correo electrónico" ("dirección de correo electrónico"). Ignore inside code or product names.)
+#. Plugin name.
+#, gp-priority: high, fuzzy
+msgid "MailBridgeAPI Email Delivery"
+msgstr "MailBridgeAPI Email Delivery"
+
+# polyglots: glossary term not used: "email" -> "correo electrónico"; "review" -> "reseña / valoración"
+#. Screenshot description.
+#, fuzzy
+msgid ""
+"Review sent email, delivery failures and mailbox health from the "
+"MailBridgeAPI mobile app on Android and iOS."
+msgstr ""
+"Consulta los correos enviados, los fallos de entrega y el estado del buzón "
+"desde la aplicación móvil MailBridgeAPI para Android e iOS."
+
+# polyglots: glossary term not used: "email" -> "correo electrónico"
+#. Screenshot description.
+#, fuzzy
+msgid ""
+"Monitor connected mailboxes, email activity, sending source and operational "
+"health from the MailBridgeAPI web dashboard."
+msgstr ""
+"Supervisa los buzones conectados, la actividad del correo, el origen de los "
+"envíos y el estado operativo desde el escritorio web de MailBridgeAPI."
+
+# polyglots: glossary term not used: "supported" -> "compatible"
+#. Found in faq paragraph.
+#, fuzzy
+msgid ""
+"Up to two readable attachments are supported, with a maximum of 5 MB each "
+"and 10 MB in total. WordPress 6.9 embedded-image attachments are not "
+"supported; use hosted image URLs or regular attachments."
+msgstr ""
+"Se admiten hasta dos archivos adjuntos legibles, con un máximo de 5 MB cada "
+"uno y 10 MB en total. No se admiten las imágenes incrustadas como adjuntos "
+"de WordPress 6.9; utiliza URL de imágenes alojadas o archivos adjuntos "
+"normales."
+
+# polyglots: glossary term not used: "code" -> "código" / "programar"
+#. Found in faq paragraph.
+#, fuzzy
+msgid ""
+"The encrypted MailBridgeAPI connection is removed. Calls to "
+"<code>wp_mail()</code> return to the transport configured by WordPress or "
+"another active mail plugin."
+msgstr ""
+"Se elimina la conexión cifrada de MailBridgeAPI. Las llamadas a "
+"<code>wp_mail()</code> vuelven a utilizar el transporte configurado por "
+"WordPress o por otro plugin de correo activo."
+
+# polyglots: glossary term not used: "authentication" -> "identificación"
+# polyglots: "autentica" -> "identificar / identificación" (Glossary: authenticate/authentication - use "identificar/identificación", never "autenticar/autenticación".)
+#. Found in faq paragraph.
+#, fuzzy
+msgid ""
+"No. It is used once for the secure authentication request and then "
+"discarded. The resulting session token and API keys are encrypted before "
+"database storage."
+msgstr ""
+"No. Se utiliza una sola vez para la solicitud de autenticación segura y "
+"después se descarta. El token de sesión y las claves API resultantes se "
+"cifran antes de guardarlos en la base de datos."
+
+# polyglots: glossary term not used: "authenticate" -> "identificar"; "only" -> "solo" / "solo / solamente"
+# polyglots: "autentica" -> "identificar / identificación" (Glossary: authenticate/authentication - use "identificar/identificación", never "autenticar/autenticación".)
+#. Found in faq paragraph.
+#, fuzzy
+msgid ""
+"No. Once a mailbox is selected, the plugin stores only that selected "
+"mailbox and no longer displays the account mailbox list. An administrator "
+"must disconnect and authenticate again to choose another mailbox."
+msgstr ""
+"No. Cuando se selecciona un buzón, el plugin guarda únicamente ese buzón y "
+"deja de mostrar la lista de buzones de la cuenta. Un administrador debe "
+"desconectarse y autenticarse de nuevo para elegir otro buzón."
+
+# polyglots: glossary term not used: "supported" -> "compatible"
+#. Found in faq header.
+#, fuzzy
+msgid "Which attachments are supported?"
+msgstr "¿Qué archivos adjuntos se admiten?"
+
+# polyglots: glossary term not used: "email" -> "correo electrónico"
+#. Found in faq header.
+#, fuzzy
+msgid "Does the plugin store email content?"
+msgstr "¿Almacena el plugin el contenido de los correos?"
+
+# polyglots: glossary term not used: "email" -> "correo electrónico"
+#. Found in installation list item.
+#, fuzzy
+msgid ""
+"Trigger a normal WordPress or WooCommerce email, then verify it under "
+"<strong>MailBridgeAPI &gt; Sent emails</strong>."
+msgstr ""
+"Provoca el envío de un correo normal de WordPress o WooCommerce y "
+"compruébalo después en <strong>MailBridgeAPI &gt; Correos enviados</strong>."
+
+# polyglots: glossary term not used: "email" -> "correo electrónico"
+#. Found in installation list item.
+#, fuzzy
+msgid "Enter the email address and password used for your MailBridgeAPI dashboard."
+msgstr ""
+"Introduce la dirección de correo y la contraseña que utilizas para el "
+"escritorio de MailBridgeAPI."
+
+# polyglots: glossary term not used: "email" -> "correo electrónico"
+# polyglots: "email" -> "correo electrónico" (Glossary: email - use "correo electrónico" ("dirección de correo electrónico"). Ignore inside code or product names.)
+#. Found in installation list item.
+#, fuzzy
+msgid "Activate <strong>MailBridgeAPI Email Delivery</strong>."
+msgstr "Activa <strong>MailBridgeAPI Email Delivery</strong>."
+
+# polyglots: glossary term not used: "code" -> "código" / "programar"; "content" -> "contenido"; "email" -> "correo electrónico"
+# polyglots: "email" -> "correo electrónico" (Glossary: email - use "correo electrónico" ("dirección de correo electrónico"). Ignore inside code or product names.)
+#. Found in installation list item.
+#, fuzzy
+msgid ""
+"Upload the <code>mailbridgeapi-email-delivery</code> folder to "
+"<code>/wp-content/plugins/</code>, or install the ZIP from <strong>Plugins "
+"&gt; Add New &gt; Upload Plugin</strong>."
+msgstr ""
+"Sube la carpeta <code>mailbridgeapi-email-delivery</code> a "
+"<code>/wp-content/plugins/</code>, o instala el archivo ZIP desde "
+"<strong>Plugins &gt; Añadir nuevo plugin &gt; Subir plugin</strong>."
+
+# polyglots: glossary term not used: "bcc" -> "cco"; "code" -> "código" / "programar"
+#. Found in description paragraph.
+#, fuzzy
+msgid ""
+"The plugin intercepts <code>wp_mail()</code>, so it works with WordPress "
+"core, WooCommerce and plugins that use the standard WordPress mail "
+"function. It supports plain-text and HTML messages, Reply-To, CC, BCC and "
+"up to two attachments. If MailBridgeAPI is disconnected, WordPress returns "
+"to its original mail transport."
+msgstr ""
+"El plugin intercepta <code>wp_mail()</code>, por lo que funciona con el "
+"núcleo de WordPress, WooCommerce y los plugins que utilizan la función de "
+"correo estándar de WordPress. Admite mensajes de texto sin formato y HTML, "
+"Reply-To, CC, BCC y hasta dos archivos adjuntos. Si MailBridgeAPI se "
+"desconecta, WordPress vuelve a su transporte de correo original."
+
+# polyglots: glossary term not used: "authentication" -> "identificación"
+# polyglots: "autentica" -> "identificar / identificación" (Glossary: authenticate/authentication - use "identificar/identificación", never "autenticar/autenticación".)
+#. Found in description paragraph.
+#, fuzzy
+msgid ""
+"The dashboard password is used only for the HTTPS authentication request "
+"and is never stored. The account token and selected API keys are encrypted "
+"with AES-256-GCM using a key derived from the WordPress authentication salt."
+msgstr ""
+"La contraseña del escritorio solo se utiliza para la solicitud de "
+"autenticación HTTPS y nunca se almacena. El token de la cuenta y las claves "
+"API seleccionadas se cifran con AES-256-GCM mediante una clave derivada de "
+"la sal de autenticación de WordPress."
+
+# polyglots: glossary term not used: "code" -> "código" / "programar"
+#. Found in description list item.
+#, fuzzy
+msgid ""
+"<code>https://dashboard.mailbridgeapi.com/api/mobile/v1/auth/logout/</code> "
+"revokes the local dashboard session when the site disconnects."
+msgstr ""
+"<code>https://dashboard.mailbridgeapi.com/api/mobile/v1/auth/logout/</code> "
+"revoca la sesión local del escritorio cuando el sitio se desconecta."
+
+# polyglots: glossary term not used: "code" -> "código" / "programar"; "dashboard" -> "escritorio"
+#. Found in description list item.
+#, fuzzy
+msgid ""
+"<code>https://dashboard.mailbridgeapi.com/api/mobile/v1/mailboxes/{id}/test/"
+"</code> runs an SMTP or IMAP connection test for the selected mailbox "
+"identifier."
+msgstr ""
+"<code>https://dashboard.mailbridgeapi.com/api/mobile/v1/mailboxes/{id}/test/"
+"</code> ejecuta una prueba de conexión SMTP o IMAP para el identificador "
+"del buzón seleccionado."
+
+# polyglots: glossary term not used: "code" -> "código" / "programar"; "dashboard" -> "escritorio"
+# polyglots: "autentica" -> "identificar / identificación" (Glossary: authenticate/authentication - use "identificar/identificación", never "autenticar/autenticación".)
+#. Found in description list item.
+#, fuzzy
+msgid ""
+"<code>https://dashboard.mailbridgeapi.com/api/mobile/v1/mailboxes/</code> "
+"returns mailboxes belonging to the authenticated account."
+msgstr ""
+"<code>https://dashboard.mailbridgeapi.com/api/mobile/v1/mailboxes/</code> "
+"devuelve los buzones que pertenecen a la cuenta autenticada."
+
+# polyglots: glossary term not used: "code" -> "código" / "programar"; "email" -> "correo electrónico"; "locale" -> "configuración regional"; "login" -> "acceder / acceso"; "notification" -> "aviso"
+# polyglots: "autentica" -> "identificar / identificación" (Glossary: authenticate/authentication - use "identificar/identificación", never "autenticar/autenticación".)
+# polyglots: "notific" -> "aviso / avisar" (Glossary: notification/notify - use "aviso/avisar", never "notificación/notificar".)
+#. Found in description list item.
+#, fuzzy
+msgid ""
+"<code>https://dashboard.mailbridgeapi.com/api/mobile/v1/auth/login/</code> "
+"authenticates the administrator. It receives the dashboard email address "
+"and password, this site's host name, plugin version, WordPress locale and "
+"notification preference."
+msgstr ""
+"<code>https://dashboard.mailbridgeapi.com/api/mobile/v1/auth/login/</code> "
+"autentica al administrador. Recibe la dirección de correo y la contraseña "
+"del escritorio, el nombre de host de este sitio, la versión del plugin, el "
+"idioma de WordPress y la preferencia de notificaciones."
+
+# polyglots: glossary term not used: "review" -> "reseña / valoración"
+#. Found in description list item.
+#, fuzzy
+msgid ""
+"Review connection, runtime, API availability and plugin-conflict checks "
+"under <strong>MailBridgeAPI &gt; Diagnostics</strong>."
+msgstr ""
+"Consulta las comprobaciones de conexión, entorno de ejecución, "
+"disponibilidad de la API y conflictos entre plugins en "
+"<strong>MailBridgeAPI &gt; Diagnósticos</strong>."
+
+# polyglots: glossary term not used: "email" -> "correo electrónico"
+# polyglots: "autentica" -> "identificar / identificación" (Glossary: authenticate/authentication - use "identificar/identificación", never "autenticar/autenticación".)
+# polyglots: "email" -> "correo electrónico" (Glossary: email - use "correo electrónico" ("dirección de correo electrónico"). Ignore inside code or product names.)
+#. Found in description paragraph.
+#, fuzzy
+msgid ""
+"MailBridgeAPI Email Delivery connects WordPress to a mailbox that is "
+"centrally managed in MailBridgeAPI. It does not ask for or store the "
+"mailbox SMTP password in WordPress. After an administrator authenticates "
+"the MailBridgeAPI account and locks one mailbox to the site, outgoing "
+"messages are delivered through the MailBridgeAPI HTTPS API."
+msgstr ""
+"MailBridgeAPI Email Delivery conecta WordPress a un buzón gestionado de "
+"forma centralizada en MailBridgeAPI. No solicita ni almacena en WordPress "
+"la contraseña SMTP del buzón. Cuando un administrador autentica la cuenta "
+"de MailBridgeAPI y bloquea un buzón para el sitio, los mensajes salientes "
+"se entregan mediante la API HTTPS de MailBridgeAPI."
+
+# polyglots: glossary term not used: "code" -> "código" / "programar"; "email" -> "correo electrónico"; "sale" -> "oferta"; "supported" -> "compatible"
+# polyglots: "email" -> "correo electrónico" (Glossary: email - use "correo electrónico" ("dirección de correo electrónico"). Ignore inside code or product names.)
+#. Found in description list item.
+#, fuzzy
+msgid ""
+"<code>https://api.mailbridgeapi.com/sendemail/</code> delivers WordPress "
+"email. It receives the selected account and mailbox API keys, recipient "
+"addresses, sender name/address, subject, body, supported headers and "
+"attachments.\n"
+"Service availability, remote processing and remote retention are governed "
+"by the <a href=\"https://mailbridgeapi.com/privacy-policy/\">MailBridgeAPI "
+"privacy policy</a> and <a "
+"href=\"https://mailbridgeapi.com/terms-and-conditions-of-sale/\">terms and "
+"conditions</a>."
+msgstr ""
+"<code>https://api.mailbridgeapi.com/sendemail/</code> entrega el correo de "
+"WordPress. Recibe las claves API de la cuenta y del buzón seleccionados, "
+"las direcciones de los destinatarios, el nombre y la dirección del "
+"remitente, el asunto, el cuerpo, las cabeceras admitidas y los archivos "
+"adjuntos.\n"
+"La disponibilidad del servicio, el procesamiento remoto y la conservación "
+"remota se rigen por la <a "
+"href=\"https://mailbridgeapi.com/privacy-policy/\">política de privacidad "
+"de MailBridgeAPI</a> y los <a "
+"href=\"https://mailbridgeapi.com/terms-and-conditions-of-sale/\">términos y "
+"condiciones</a>."
+
+# polyglots: glossary term not used: "email" -> "correo electrónico"
+#. Found in description list item.
+#, fuzzy
+msgid ""
+"Send a real end-to-end test email and inspect its MailBridgeAPI message "
+"identifier."
+msgstr ""
+"Envía un correo de prueba real de extremo a extremo y consulta su "
+"identificador de mensaje de MailBridgeAPI."
+
+# polyglots: glossary term not used: "review" -> "reseña / valoración"
+# polyglots: "agrega" -> "añadir / añade" (Glossary: add - use "añadir", never "agregar/agrega".)
+#. Found in description list item.
+#, fuzzy
+msgid ""
+"Review delivery results in <strong>MailBridgeAPI &gt; Sent emails</strong> "
+"and aggregate results in <strong>MailBridgeAPI &gt; Statistics</strong>."
+msgstr ""
+"Consulta los resultados de entrega en <strong>MailBridgeAPI &gt; Correos "
+"enviados</strong> y los resultados agregados en <strong>MailBridgeAPI &gt; "
+"Estadísticas</strong>."
+
+# polyglots: "iniciar sesión" -> "acceder" (Glossary: login - use "Acceder", never "Iniciar sesión".)
+#. Found in description list item.
+#, fuzzy
+msgid ""
+"After selection, the plugin hides every other account mailbox. Changing the "
+"mailbox requires a complete disconnect and a new sign-in."
+msgstr ""
+"Tras la selección, el plugin oculta todos los demás buzones de la cuenta. "
+"Para cambiar de buzón es necesario desconectarse por completo y volver a "
+"iniciar sesión."
+
+# polyglots: glossary term not used: "review" -> "reseña / valoración"
+#. Found in description list item.
+#, fuzzy
+msgid ""
+"Review the mailboxes available to that account and test SMTP or IMAP when "
+"configured."
+msgstr ""
+"Consulta los buzones disponibles para esa cuenta y prueba SMTP o IMAP "
+"cuando estén configurados."
+
+# polyglots: glossary term not used: "email" -> "correo electrónico"; "sign in" -> "acceder"
+# polyglots: "inicia sesión" -> "accede" (Glossary: login - use "Acceder", never "Iniciar sesión".)
+#. Found in description list item.
+#, fuzzy
+msgid ""
+"Sign in using the email address and password used for the MailBridgeAPI "
+"dashboard."
+msgstr ""
+"Inicia sesión con la dirección de correo y la contraseña utilizadas para el "
+"escritorio de MailBridgeAPI."
+
+# polyglots: glossary term not used: "email" -> "correo electrónico"
+#. Found in changelog list item.
+#, gp-priority: low, fuzzy
+msgid "Local sent-email log, filters, statistics and automatic retention cleanup."
+msgstr ""
+"Registro local de correos enviados, filtros, estadísticas y limpieza "
+"automática según la conservación configurada."
+
+# polyglots: glossary term not used: "code" -> "código" / "programar"
+#. Found in changelog list item.
+#, gp-priority: low, fuzzy
+msgid "<code>wp_mail()</code> delivery through MailBridgeAPI."
+msgstr "Entrega mediante <code>wp_mail()</code> a través de MailBridgeAPI."
+
+# polyglots: glossary term not used: "email" -> "correo electrónico"
+#. Found in changelog list item.
+#, gp-priority: low, fuzzy
+msgid "Secure dashboard email/password connection and locked mailbox selection."
+msgstr ""
+"Conexión segura con el correo y la contraseña del escritorio y selección "
+"bloqueada del buzón."
+
+# polyglots: glossary term not used: "support" -> "es compatible con / dar soporte"
+#. Found in changelog list item.
+#, gp-priority: low, fuzzy
+msgid ""
+"Added full PHP 7.4 compatibility while retaining support for current PHP "
+"releases."
+msgstr ""
+"Añadida la compatibilidad completa con PHP 7.4, manteniendo la "
+"compatibilidad con las versiones actuales de PHP."
+
+# polyglots: glossary term not used: "code" -> "código" / "programar"; "email" -> "correo electrónico"
+# polyglots: "email" -> "correo electrónico" (Glossary: email - use "correo electrónico" ("dirección de correo electrónico"). Ignore inside code or product names.)
+#. Found in changelog list item.
+#, gp-priority: low, fuzzy
+msgid ""
+"Add the <code>mailbridgeapi_email_delivery_source</code> filter for "
+"specialised WordPress integrations."
+msgstr ""
+"Añadido el filtro <code>mailbridgeapi_email_delivery_source</code> para "
+"integraciones especializadas de WordPress."
+
+# polyglots: glossary term not used: "code" -> "código" / "programar"
+#. Found in changelog list item.
+#, gp-priority: low, fuzzy
+msgid ""
+"Identify every plugin delivery with the <code>wordpress</code> source for "
+"dashboard and mobile activity tracking."
+msgstr ""
+"Identificada cada entrega del plugin con el origen <code>wordpress</code> "
+"para el seguimiento de actividad en el escritorio y la aplicación móvil."
+
+# polyglots: glossary term not used: "clear" -> "vaciar"
+#. Found in changelog list item.
+#, gp-priority: low, fuzzy
+msgid "Show a clear in-progress state while a connection test is running."
+msgstr ""
+"Añadido un estado de progreso claro mientras se ejecuta una prueba de "
+"conexión."
+
+# polyglots: glossary term not used: "badge" -> "acreditación / insignia / distinción"
+#. Found in changelog list item.
+#, gp-priority: low, fuzzy
+msgid "Add recent-error menu badge, log clearing and filtered CSV export."
+msgstr ""
+"Añadidos un distintivo de menú para errores recientes, el vaciado del "
+"registro y la exportación CSV filtrada."
+
+# polyglots: glossary term not used: "email" -> "correo electrónico"
+#. Found in changelog list item.
+#, gp-priority: low, fuzzy
+msgid "Detect common competing SMTP and email delivery plugins."
+msgstr ""
+"Añadida la detección de plugins SMTP y de entrega de correo habituales que "
+"pueden entrar en conflicto."
+
+# polyglots: glossary term not used: "support" -> "es compatible con / dar soporte"
+#. Found in changelog list item.
+#, gp-priority: low, fuzzy
+msgid ""
+"Add a diagnostics screen, sanitized support report and WordPress Site "
+"Health integration."
+msgstr ""
+"Añadidos una pantalla de diagnóstico, un informe de soporte saneado y la "
+"integración con Salud del sitio de WordPress."
+
+# polyglots: glossary term not used: "email" -> "correo electrónico"
+#. Found in changelog list item.
+#, gp-priority: low, fuzzy
+msgid ""
+"Add real end-to-end test email delivery with persistent provider result and "
+"message ID."
+msgstr ""
+"Añadida la entrega real de correos de prueba de extremo a extremo con "
+"resultado persistente del proveedor e ID de mensaje."
+
+# polyglots: glossary term not used: "check" -> "cheque" / "marcar / comprobar"
+#. Found in changelog list item.
+#, gp-priority: low, fuzzy
+msgid "Resolve WordPress Plugin Check security and naming findings."
+msgstr ""
+"Corregidos los problemas de seguridad y nomenclatura señalados por "
+"WordPress Plugin Check."
+
+# polyglots: glossary term not used: "code" -> "código" / "programar"
+#. Found in changelog list item.
+#, gp-priority: low, fuzzy
+msgid ""
+"Prepare custom-table identifiers with WordPress <code>%i</code> "
+"placeholders."
+msgstr ""
+"Preparados los identificadores de tablas personalizadas con los marcadores "
+"de posición <code>%i</code> de WordPress."

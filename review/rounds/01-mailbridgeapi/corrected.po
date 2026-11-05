@@ -1,0 +1,176 @@
+# Translation of Plugins - MailBridgeAPI Email Delivery - Stable Readme (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - MailBridgeAPI Email Delivery - Stable Readme (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: +0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.1.0\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - MailBridgeAPI Email Delivery - Stable Readme (latest release)\n"
+
+#. Short description.
+#, gp-priority: high
+msgid ""
+"Send WordPress email through a locked MailBridgeAPI mailbox without storing SMTP credentials, with delivery logs, diagnostics and remote visibility."
+msgstr ""
+"Envía correos electrónicos de WordPress mediante un buzón bloqueado de MailBridgeAPI sin almacenar credenciales SMTP, con registros de entrega, diagnósticos y supervisión remota."
+
+#. Screenshot description.
+msgid ""
+"Review sent email, delivery failures and mailbox health from the MailBridgeAPI mobile app on Android and iOS."
+msgstr ""
+"Consulta los correos electrónicos enviados, los fallos de entrega y el estado del buzón desde la aplicación móvil MailBridgeAPI para Android e iOS."
+
+#. Screenshot description.
+msgid ""
+"Monitor connected mailboxes, email activity, sending source and operational health from the MailBridgeAPI web dashboard."
+msgstr ""
+"Supervisa los buzones conectados, la actividad del correo electrónico, el origen de los envíos y el estado operativo desde el escritorio web de MailBridgeAPI."
+
+#. Found in faq paragraph.
+msgid ""
+"No. It is used once for the secure authentication request and then discarded. The resulting session token and API keys are encrypted before database storage."
+msgstr ""
+"No. Se utiliza una sola vez para la solicitud de identificación segura y después se descarta. El token de sesión y las claves API resultantes se cifran antes de guardarlos en la base de datos."
+
+#. Found in faq paragraph.
+msgid ""
+"No. Once a mailbox is selected, the plugin stores only that selected mailbox and no longer displays the account mailbox list. An administrator must disconnect and authenticate again to choose another mailbox."
+msgstr ""
+"No. Cuando se selecciona un buzón, el plugin guarda únicamente ese buzón y deja de mostrar la lista de buzones de la cuenta. Un administrador debe desconectarse e identificarse de nuevo para elegir otro buzón."
+
+#. Found in faq header.
+msgid ""
+"Which attachments are supported?"
+msgstr ""
+"¿Qué archivos adjuntos son compatibles?"
+
+#. Found in faq header.
+msgid ""
+"Does the plugin store email content?"
+msgstr ""
+"¿Almacena el plugin el contenido del correo electrónico?"
+
+#. Found in installation list item.
+msgid ""
+"Trigger a normal WordPress or WooCommerce email, then verify it under <strong>MailBridgeAPI &gt; Sent emails</strong>."
+msgstr ""
+"Provoca el envío de un correo electrónico normal de WordPress o WooCommerce y compruébalo después en <strong>MailBridgeAPI &gt; Correos enviados</strong>."
+
+#. Found in installation list item.
+msgid ""
+"Enter the email address and password used for your MailBridgeAPI dashboard."
+msgstr ""
+"Introduce la dirección de correo electrónico y la contraseña que utilizas para el escritorio de MailBridgeAPI."
+
+#. Found in description paragraph.
+msgid ""
+"The plugin does not store SMTP host names, usernames or mailbox passwords on the WordPress server. It stores encrypted MailBridgeAPI access credentials for only the selected mailbox and sends mail through the MailBridgeAPI API. Mailbox configuration remains centralized, other mailboxes on the same agency account are hidden after selection, and delivery can be monitored outside WordPress from the dashboard and mobile app."
+msgstr ""
+"El plugin no almacena nombres de host SMTP, nombres de usuario ni contraseñas de buzones en el servidor de WordPress. Solo guarda las credenciales de acceso cifradas de MailBridgeAPI correspondientes al buzón seleccionado y envía el correo mediante la API de MailBridgeAPI. La configuración del buzón permanece centralizada, los demás buzones de la misma cuenta de agencia se ocultan tras la selección y las entregas se pueden supervisar fuera de WordPress desde el escritorio y la aplicación móvil."
+
+#. Found in description paragraph.
+msgid ""
+"The plugin intercepts <code>wp_mail()</code>, so it works with WordPress core, WooCommerce and plugins that use the standard WordPress mail function. It supports plain-text and HTML messages, Reply-To, CC, BCC and up to two attachments. If MailBridgeAPI is disconnected, WordPress returns to its original mail transport."
+msgstr ""
+"El plugin intercepta <code>wp_mail()</code>, por lo que funciona con el núcleo de WordPress, WooCommerce y los plugins que utilizan la función de correo estándar de WordPress. Admite mensajes de texto sin formato y HTML, Reply-To, CC, CCO y hasta dos archivos adjuntos. Si MailBridgeAPI se desconecta, WordPress vuelve a su transporte de correo original."
+
+#. Found in description paragraph.
+msgid ""
+"The dashboard password is used only for the HTTPS authentication request and is never stored. The account token and selected API keys are encrypted with AES-256-GCM using a key derived from the WordPress authentication salt."
+msgstr ""
+"La contraseña del escritorio solo se utiliza para la solicitud de identificación HTTPS y nunca se almacena. El token de la cuenta y las claves API seleccionadas se cifran con AES-256-GCM mediante una clave derivada de la sal de identificación de WordPress."
+
+#. Found in description list item.
+msgid ""
+"<code>https://dashboard.mailbridgeapi.com/api/mobile/v1/mailboxes/</code> returns mailboxes belonging to the authenticated account."
+msgstr ""
+"<code>https://dashboard.mailbridgeapi.com/api/mobile/v1/mailboxes/</code> devuelve los buzones que pertenecen a la cuenta identificada."
+
+#. Found in description list item.
+msgid ""
+"<code>https://dashboard.mailbridgeapi.com/api/mobile/v1/auth/login/</code> authenticates the administrator. It receives the dashboard email address and password, this site's host name, plugin version, WordPress locale and notification preference."
+msgstr ""
+"<code>https://dashboard.mailbridgeapi.com/api/mobile/v1/auth/login/</code> identifica al administrador. Recibe la dirección de correo electrónico y la contraseña del escritorio, el nombre de host de este sitio, la versión del plugin, la configuración regional de WordPress y la preferencia de avisos."
+
+#. Found in description paragraph.
+msgid ""
+"MailBridgeAPI Email Delivery connects WordPress to a mailbox that is centrally managed in MailBridgeAPI. It does not ask for or store the mailbox SMTP password in WordPress. After an administrator authenticates the MailBridgeAPI account and locks one mailbox to the site, outgoing messages are delivered through the MailBridgeAPI HTTPS API."
+msgstr ""
+"MailBridgeAPI Email Delivery conecta WordPress a un buzón gestionado de forma centralizada en MailBridgeAPI. No solicita ni almacena en WordPress la contraseña SMTP del buzón. Cuando un administrador identifica la cuenta de MailBridgeAPI y bloquea un buzón para el sitio, los mensajes salientes se entregan mediante la API HTTPS de MailBridgeAPI."
+
+#. Found in description list item.
+msgid ""
+"Send a real end-to-end test email and inspect its MailBridgeAPI message identifier."
+msgstr ""
+"Envía un correo electrónico de prueba real de extremo a extremo y consulta su identificador de mensaje de MailBridgeAPI."
+
+#. Found in description list item.
+msgid ""
+"After selection, the plugin hides every other account mailbox. Changing the mailbox requires a complete disconnect and a new sign-in."
+msgstr ""
+"Tras la selección, el plugin oculta todos los demás buzones de la cuenta. Para cambiar de buzón es necesario desconectarse por completo y acceder de nuevo."
+
+#. Found in description list item.
+msgid ""
+"Sign in using the email address and password used for the MailBridgeAPI dashboard."
+msgstr ""
+"Accede con la dirección de correo electrónico y la contraseña utilizadas para el escritorio de MailBridgeAPI."
+
+#. Found in description header.
+msgid ""
+"Email compatibility"
+msgstr ""
+"Compatibilidad con el correo electrónico"
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid ""
+"Local sent-email log, filters, statistics and automatic retention cleanup."
+msgstr ""
+"Registro local de correos electrónicos enviados, filtros, estadísticas y limpieza automática según la conservación configurada."
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid ""
+"Secure dashboard email/password connection and locked mailbox selection."
+msgstr ""
+"Conexión segura con el correo electrónico y la contraseña del escritorio y selección bloqueada del buzón."
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid ""
+"Show a clear in-progress state while a connection test is running."
+msgstr ""
+"Mostrado un estado de progreso claro mientras se ejecuta una prueba de conexión."
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid ""
+"Detect common competing SMTP and email delivery plugins."
+msgstr ""
+"Añadida la detección de plugins SMTP y de entrega de correo electrónico habituales que pueden entrar en conflicto."
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid ""
+"Add real end-to-end test email delivery with persistent provider result and message ID."
+msgstr ""
+"Añadida la entrega real de correos electrónicos de prueba de extremo a extremo con resultado persistente del proveedor e ID de mensaje."
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid ""
+"Harden administrator request validation and document read-only filters."
+msgstr ""
+"Reforzada la validación de las solicitudes del administrador y documentados los filtros de solo lectura."
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid ""
+"Sanitize every administrator request field before use, including nonce verification data."
+msgstr ""
+"Saneados todos los campos de las solicitudes del administrador antes de utilizarlos, incluidos los datos de verificación de nonce."

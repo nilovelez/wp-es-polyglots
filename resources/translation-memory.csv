@@ -1,0 +1,22 @@
+en,es,contexto,origen,notas
+Is it SEO friendly?,¿Está optimizado para SEO?,"FAQ, encabezado",WGRank Translate (readme),"«SEO friendly» = «optimizado para SEO», no «compatible con SEO»"
+Does it work with caching plugins?,¿Funciona con plugins de caché?,"FAQ, encabezado",WGRank Translate (readme),
+Is it compatible with WooCommerce?,¿Es compatible con WooCommerce?,"FAQ, encabezado",WGRank Translate (readme),
+Is this plugin completely free?,¿Es este plugin totalmente gratuito?,"FAQ, encabezado",WGRank Translate (readme),
+What happens if I uninstall the plugin?,¿Qué ocurre si desinstalo el plugin?,"FAQ, encabezado",WGRank Translate (readme),
+What happens when I disconnect?,¿Qué ocurre cuando me desconecto?,"FAQ, encabezado",MailBridgeAPI Email Delivery (readme),
+Does the plugin store email content?,¿Almacena el plugin el contenido del correo electrónico?,"FAQ, encabezado",MailBridgeAPI Email Delivery (readme),email = correo electrónico (glosario)
+Which attachments are supported?,¿Qué archivos adjuntos son compatibles?,"FAQ, encabezado",MailBridgeAPI Email Delivery (readme),supported = compatible (glosario)
+Which languages are supported?,¿Qué idiomas son compatibles?,"FAQ, encabezado",WGRank Translate (readme),supported = compatible (glosario)
+Settings Overview,Resumen de ajustes,Encabezado de descripción,WGRank Translate (readme),
+External services,Servicios externos,Encabezado de descripción,MailBridgeAPI Email Delivery (readme),
+Use of 3rd Party Services,Uso de servicios de terceros,Encabezado de descripción,WGRank Translate (readme),
+Perfect For,Perfecto para,Encabezado de descripción,WGRank Translate (readme),Solo la primera palabra en mayúscula
+Initial Production Launch.,Lanzamiento inicial de producción.,Registro de cambios,WGRank Translate (readme),
+Initial production release.,Versión inicial de producción.,Registro de cambios,MailBridgeAPI Email Delivery (readme),
+Add the translation template.,Añadida la plantilla de traducción.,Registro de cambios,MailBridgeAPI Email Delivery (readme),"En los registros de cambios, un único tiempo verbal en todas las entradas: participio («Añadido», «Corregido»)"
+Show a clear in-progress state while a connection test is running.,Mostrado un estado de progreso claro mientras se ejecuta una prueba de conexión.,Registro de cambios,MailBridgeAPI Email Delivery (readme),"Show = Mostrado, no Añadido"
+Tweak: Minor performance and core stability improvements.,Retoque: Pequeñas mejoras de rendimiento y estabilidad del núcleo.,Registro de cambios,WGRank Translate (readme),tweak = retoque (glosario)
+Fix: Prevented caching conflicts and improved static cache clearance functionality.,Corrección: Se evitaron conflictos de caché y se mejoró la funcionalidad de vaciado de caché estática.,Registro de cambios,WGRank Translate (readme),Fix = Corrección; clear = vaciar (glosario)
+Secure Checkout,Pago seguro,"Elemento de lista, encabezado en negrita",WGRank Translate (readme),checkout = pago / finalizar compra (glosario)
+Email compatibility,Compatibilidad con el correo electrónico,Encabezado de descripción,MailBridgeAPI Email Delivery (readme),

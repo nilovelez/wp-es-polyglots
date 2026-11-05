@@ -1,0 +1,53 @@
+# polyglots rules for es_ES, written with the rules builder:
+# https://ada.tools/polyglots/rules-builder/
+
+# Check it with: polyglots rules check --file <this file>
+# Every value here is read by the app; comments are not.
+
+schema: 2
+
+# Built-in checks turned on (enable) or off (disable) for this locale.
+rules:
+  enable: [ampersand]
+  disable: []
+
+# How a draft addresses the reader.
+formality: informal
+
+# The tone and form of address both AI prompts ask for.
+register:
+  audit: '- Reader is addressed informally as singular "tú", never "usted". WordPress speaks as one person in first person singular ("Lo siento, no he podido..."); plural only if the source says "we". Buttons and menus use the infinitive ("Guardar cambios"); calls to action use the tú imperative ("Descarga WordPress"). Flag stiff, passive or impersonal calques ("Se requiere..." instead of "Necesitas..."). Prefer gender-neutral wording only when natural; never "usuario/a".'
+  translate: '- Use singular informal "tú", never "usted". Write as WordPress speaking as one person, first person singular ("Lo siento, no he podido..."); plural only if the source says "we". Buttons, menus and commands use the infinitive ("Guardar cambios"); invitations use the tú imperative ("Descarga WordPress"). Sound natural, not literal: no passive or impersonal calques ("Necesitas una licencia", not "Se requiere..."). Prefer gender-neutral wording when natural; never "usuario/a".'
+
+# How the language capitalizes, for the review prompt where title-case runs.
+capitalization: |
+  - {language} uses sentence case, never English-style Title Case: capitalize only the first word of titles, headings, buttons, menu items and labels ("Subir archivo", not "Subir Archivo").
+  - A system element is capitalized only on its first word ("Biblioteca de medios").
+  - Keep capitals for proper nouns, product and brand names and acronyms (WordPress, Jetpack, RSS, URL).
+  - Do not capitalize days, months, languages or nationalities, even when the English source does (lunes, enero, español).
+
+# Added to the AI review prompts: the style guide's most important lines.
+guidance: 'Spanish (Spain) translation for WordPress. The WordPress core glossary is the base for all terms; its notes (e.g. "No usar...") are binding. Translate by context, never literally, and prefer natural Spanish over English calques. Theme and plugin names are never translated; for other companies'' products use the company''s own official Spanish name when it has one ("Hojas de cálculo de Google"), otherwise keep the original ("Search Console"). Always use Spanish quotation marks «», nested as «... "..." ...», and always the opening marks ¿ and ¡. Keep typographic characters (..., …, dashes) exactly as in the source. Keep placeholders, HTML and entities intact. The same term or phrase is translated the same way everywhere. Key terms: Dashboard = Escritorio; site = sitio; post = entrada; plugin, shortcode and widget stay untranslated; upload = subir (never cargar); delete = borrar; log in = acceder; settings = ajustes; theme = tema; template = plantilla; role = perfil; email = correo electrónico; link = enlace; "clic" has no k.'
+
+# Wordings the team rejects, found anywhere in a translation, without regard to case.
+mistakes:
+  - wrong: lo sentimos
+    right: lo siento
+    note: 'WordPress speaks in first person singular; plural only if the source says "we" (glossary: sorry).'
+
+# Literal text or regular expressions: a hint to weigh, an error, or a fix.
+patterns:
+  - find: '(sitio|página) web'
+    level: hint
+    ignoreCase: true
+    when: {notSource: web}
+    note: 'Glossary: “site” is “sitio”, not “sitio web” or “página web”, unless the source says website or web page.'
+
+# How a sentence ends in this script, for the punctuation check.
+sentenceEnd:
+  answers:
+    - text: '»\.$'
+      source: '\.["”]$'
+    - text: '[?!]»$'
+      source: '[?!]["”]$'
+  notEnding: '(\.{3}|…)$'
