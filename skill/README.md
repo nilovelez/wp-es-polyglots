@@ -11,6 +11,8 @@
 | `lint` | Review hints on the current translations: glossary terms missing or left in English, Title Case, «ej.», straight quotes |
 | `check` | Placeholders, HTML, entities, URLs, newlines, edge spaces, quotes |
 | `build` | Decisions → `corrected.po` (only changed strings) or full `.po` (`--full`), plus a Markdown report |
+| `review-po` | All strings for the human reviewer in Poedit, proposals applied and fuzzy, with reason and original as comments |
+| `finalize` | Human's saved file → `corrected.po` (only changed strings) and a learning report (kept, edited, reverted, missed) |
 | `compare` | Compare two `.po` files by msgid (benchmark against human output) |
 
 ## How it is developed

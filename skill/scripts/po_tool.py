@@ -16,6 +16,14 @@ Commands:
   compare <reference.po> <candidate.po>
       Compare two corrected/translated files by msgctxt+msgid: same, different,
       only in one of them. Used to benchmark the skill against human output.
+  review-po <original.po> <decisions.jsonl> <out.po>
+      Every entry for the human reviewer (Poedit). Entries with a proposal get
+      it applied, the fuzzy flag, and translator comments with the verdict,
+      the reason and the original translation.
+  finalize <original.po> <decisions.jsonl> <human.po> <corrected.po> [--report out.md]
+      After the human saves the review file: corrected.po with the entries the
+      human changed, and a learning report (proposals kept, edited, reverted,
+      and changes the model missed).
   glossary <file.po> [glossary.csv]
       Glossary entries whose English term appears in the file, with the
       entry numbers where they appear. Default: resources/glossary.csv.
@@ -320,6 +328,113 @@ def cmd_compare(args):
                 print(f'  cand: {val(c[k])}')
 
 
+def value(e):
+    return e['msgstr'] if e['msgid_plural'] is None else '\x00'.join(e['msgstr_plural'])
+
+
+def proposed(e, d):
+    if d.get('msgstr_plural'):
+        return '\x00'.join(d['msgstr_plural'])
+    return d.get('msgstr', value(e))
+
+
+def cmd_review_po(args):
+    """Every entry for the human reviewer (Poedit): proposals applied and fuzzy,
+    with the original translation and the reason as translator comments."""
+    orig, dec_path, out_path = args[:3]
+    header, entries = parse(orig)
+    decisions = load_decisions(dec_path)
+    blocks = [header] if header else []
+    for e in entries:
+        d = decisions.get(e['n'])
+        if not d:
+            blocks.append(write_entry(e))
+            continue
+        label = {'fix': 'Corrección', 'reject': 'Rechazo', 'doubt': 'DUDA'}[d['verdict']]
+        cur = value(e).replace('\x00', ' / ')
+        notes = [f'# [{label}] {d.get("comment", "").strip()}', f'# Original: {cur}']
+        f = dict(e)
+        f['comments'] = [c for c in e['comments'] if not c.startswith('#,') and not c.startswith('# polyglots:')]
+        flags = [x for x in e['flags'] if x != 'fuzzy'] + ['fuzzy']
+        f['comments'] = notes + [c for c in f['comments']] + ['#, ' + ', '.join(flags)]
+        blocks.append(write_entry(f, d if ('msgstr' in d or 'msgstr_plural' in d) else None))
+    open(out_path, 'w', encoding='utf-8').write('\n\n'.join(blocks) + '\n')
+    print(f'{out_path}: {len(entries)} entries, {len(decisions)} with proposals (fuzzy)')
+
+
+def cmd_finalize(args):
+    """Compare original, model proposals and the human's saved file.
+    Writes corrected.po (entries the human changed) and a learning report."""
+    report = None
+    if '--report' in args:
+        report = args[args.index('--report') + 1]
+    pos = [a for i, a in enumerate(args) if not a.startswith('--') and (i == 0 or args[i - 1] != '--report')]
+    orig, dec_path, human_path, out_path = pos[:4]
+    header, entries = parse(orig)
+    decisions = load_decisions(dec_path)
+    _, human = parse(human_path)
+    hm = {key_of(e): e for e in human}
+    cats = {'kept': [], 'edited': [], 'reverted': [], 'missed': [], 'doubt': []}
+    blocks = [header] if header else []
+    still_fuzzy, missing = [], []
+    for e in entries:
+        h = hm.get(key_of(e))
+        if h is None:
+            missing.append(e['n'])
+            continue
+        if 'fuzzy' in h['flags']:
+            still_fuzzy.append(e['n'])
+        o, fin = value(e), value(h)
+        d = decisions.get(e['n'])
+        m = proposed(e, d) if d else o
+        if fin != o:
+            ne = dict(e)
+            blocks.append(write_entry(ne, {'msgstr': h['msgstr']} if e['msgid_plural'] is None else {'msgstr_plural': h['msgstr_plural']}))
+        row = (e, o, m, fin, d)
+        if d and d['verdict'] == 'doubt':
+            cats['doubt'].append(row)
+        elif m != o and fin == m:
+            cats['kept'].append(row)
+        elif m != o and fin == o:
+            cats['reverted'].append(row)
+        elif m != o:
+            cats['edited'].append(row)
+        elif fin != o:
+            cats['missed'].append(row)
+    open(out_path, 'w', encoding='utf-8').write('\n\n'.join(blocks) + '\n')
+    changed = len(blocks) - (1 if header else 0)
+    proposals = sum(len(cats[k]) for k in ('kept', 'edited', 'reverted'))
+    summary = (f'Strings {len(entries)} · human changes {changed} · model proposals {proposals} · '
+               f'kept {len(cats["kept"])} · edited {len(cats["edited"])} · reverted {len(cats["reverted"])} · '
+               f'missed {len(cats["missed"])} · doubts {len(cats["doubt"])}')
+    print(f'{out_path}: {changed} entries')
+    print(summary)
+    if still_fuzzy:
+        print(f'WARNING: still fuzzy in the human file (not reviewed?): {still_fuzzy}')
+    if missing:
+        print(f'WARNING: missing in the human file: {missing}')
+    if report:
+        titles = {'kept': 'Model proposal kept', 'edited': 'Model proposal edited by the reviewer',
+                  'reverted': 'Model proposal reverted (should have been approved)',
+                  'missed': 'Missed by the model (reviewer changed it)', 'doubt': 'Doubts'}
+        out = [summary, '']
+        for k in ('missed', 'reverted', 'edited', 'doubt', 'kept'):
+            if not cats[k]:
+                continue
+            out += [f'## {titles[k]} ({len(cats[k])})', '']
+            for e, o, m, fin, d in cats[k]:
+                out.append(f'- #{e["n"]} {e["msgid"]}'.replace('\n', '\\n'))
+                out.append(f'  - original: {o}'.replace('\x00', ' / ').replace('\n', '\\n'))
+                if m != o:
+                    out.append(f'  - model: {m}'.replace('\x00', ' / ').replace('\n', '\\n'))
+                    if d and d.get('comment'):
+                        out.append(f'  - reason: {d["comment"]}')
+                if fin not in (o, m):
+                    out.append(f'  - final: {fin}'.replace('\x00', ' / ').replace('\n', '\\n'))
+            out.append('')
+        open(report, 'w', encoding='utf-8').write('\n'.join(out))
+
+
 def read_csv(path):
     import csv
     return list(csv.DictReader(open(path, encoding='utf-8', newline='')))
@@ -427,7 +542,8 @@ def cmd_lint(args):
 
 
 COMMANDS = {'extract': cmd_extract, 'check': cmd_check, 'build': cmd_build, 'compare': cmd_compare,
-            'glossary': cmd_glossary, 'tm': cmd_tm, 'lint': cmd_lint}
+            'glossary': cmd_glossary, 'tm': cmd_tm, 'lint': cmd_lint,
+            'review-po': cmd_review_po, 'finalize': cmd_finalize}
 
 if __name__ == '__main__':
     if len(sys.argv) < 3 or sys.argv[1] not in COMMANDS:
