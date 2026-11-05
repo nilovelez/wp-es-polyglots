@@ -1,0 +1,195 @@
+Strings 356 · human changes 46 · model proposals 45 · kept 44 · edited 1 · reverted 0 · missed 0 · doubts 1
+
+## Model proposal edited by the reviewer (1)
+
+- #355 Could not move any order from "%1$s" to "%2$s". Deletion is blocked.
+  - original: No se pudo mover ningún pedido de «%1$s» a «%2$s». La eliminación está bloqueada.
+  - model: No se pudo mover ningún pedido de «%1$s» a «%2$s». El borrado está bloqueado.
+  - reason: Coherencia con «borrar» del glosario.
+  - final: No se ha podido mover ningún pedido de «%1$s» a «%2$s». El borrado está bloqueado.
+
+## Doubts (1)
+
+- #234 Check
+  - original: Comprobación
+  - model: Marca de verificación
+  - reason: Es el nombre de un icono. «Comprobación» no describe el dibujo (una marca de verificación). ¿Es el icono ✓? Si es así, propongo «Marca de verificación».
+
+## Model proposal kept (44)
+
+- #2 Custom WooCommerce order statuses and workflow automation.
+  - original: Estados de pedido personalizados y automatización de flujos de trabajo en WooCommerce: prueba de imprenta, taller, producción, envío.
+  - model: Estados de pedido personalizados y automatización de flujos de trabajo para WooCommerce.
+  - reason: Has añadido «prueba de imprenta, taller, producción, envío», que no está en el original. Propuesta: traducir solo lo que dice la cadena.
+- #10 Sorry, you are not allowed to change this automation.
+  - original: Lo sentimos, no tienes permiso para modificar esta automatización.
+  - model: Lo siento, no tienes permisos para modificar esta automatización.
+  - reason: Según el glosario, «sorry» es «lo siento» (WordPress habla en primera persona del singular) y «not allowed» es «no tienes permisos».
+- #12 Sorry, you are not allowed to delete this automation.
+  - original: Lo sentimos, no tienes permiso para eliminar esta automatización.
+  - model: Lo siento, no tienes permisos para borrar esta automatización.
+  - reason: Según el glosario: «sorry» → «lo siento», «not allowed» → «no tienes permisos» y «delete» → «borrar».
+- #13 Sorry, you are not allowed to save this automation.
+  - original: Lo sentimos, no tienes permiso para guardar esta automatización.
+  - model: Lo siento, no tienes permisos para guardar esta automatización.
+  - reason: Según el glosario, «sorry» es «lo siento» y «not allowed» es «no tienes permisos».
+- #14 Sorry, you are not allowed to reorder statuses.
+  - original: Lo sentimos, no tienes permiso para reordenar los estados.
+  - model: Lo siento, no tienes permisos para reordenar los estados.
+  - reason: Según el glosario, «sorry» es «lo siento» y «not allowed» es «no tienes permisos».
+- #15 Sorry, you are not allowed to save these settings.
+  - original: Lo sentimos, no tienes permiso para guardar estos ajustes.
+  - model: Lo siento, no tienes permisos para guardar estos ajustes.
+  - reason: Según el glosario, «sorry» es «lo siento» y «not allowed» es «no tienes permisos».
+- #16 Sorry, you are not allowed to delete this status.
+  - original: Lo sentimos, no tienes permiso para eliminar este estado.
+  - model: Lo siento, no tienes permisos para borrar este estado.
+  - reason: Según el glosario: «sorry» → «lo siento», «not allowed» → «no tienes permisos» y «delete» → «borrar».
+- #17 Sorry, you are not allowed to save this status.
+  - original: Lo sentimos, no tienes permiso para guardar este estado.
+  - model: Lo siento, no tienes permisos para guardar este estado.
+  - reason: Según el glosario, «sorry» es «lo siento» y «not allowed» es «no tienes permisos».
+- #28 Delete this automation? Its run history is kept.
+  - original: ¿Eliminar esta automatización? Se conserva su historial de ejecuciones.
+  - model: ¿Borrar esta automatización? Se conserva su historial de ejecuciones.
+  - reason: Según el glosario, «delete» se traduce como «borrar».
+- #30 Delete
+  - original: Eliminar
+  - model: Borrar
+  - reason: Según el glosario, «delete» se traduce como «borrar».
+- #47 Deleted automation #%d
+  - original: Automatización eliminada #%d
+  - model: Automatización borrada #%d
+  - reason: Según el glosario, «delete» se traduce como «borrar».
+- #63 Deletion blocked. See WooCommerce > Status > Logs.
+  - original: Eliminación bloqueada. Consulta WooCommerce > Estado > Registros.
+  - model: Borrado bloqueado. Consulta WooCommerce > Estado > Registros.
+  - reason: Según el glosario, «delete» se traduce como «borrar»; mejor «borrado» que «eliminación» para ser coherente con el resto.
+- #64 Deleting: orders are being moved to %s.
+  - original: Eliminando: los pedidos se están moviendo a %s.
+  - model: Borrando: los pedidos se están moviendo a %s.
+  - reason: Según el glosario, «delete» se traduce como «borrar».
+- #66 Sorry, you are not allowed to access Webandroll OrderFlow.
+  - original: Lo sentimos, no tienes permiso para acceder a Webandroll OrderFlow.
+  - model: Lo siento, no tienes permisos para acceder a Webandroll OrderFlow.
+  - reason: Según el glosario, «sorry» es «lo siento» y «not allowed» es «no tienes permisos».
+- #71 Sorry, you are not allowed to create the example workflow.
+  - original: Lo sentimos, no tienes permiso para crear el flujo de ejemplo.
+  - model: Lo siento, no tienes permisos para crear el flujo de ejemplo.
+  - reason: Según el glosario, «sorry» es «lo siento» y «not allowed» es «no tienes permisos».
+- #109 This action is incomplete. Fill in the required fields and check the email addresses.
+  - original: Esta acción está incompleta. Rellena los campos obligatorios y revisa las direcciones de correo electrónico.
+  - model: Esta acción está incompleta. Rellena los campos obligatorios y comprueba las direcciones de correo electrónico.
+  - reason: Según el glosario, «check» (un ajuste o dato) es «comprobar».
+- #136 Automation deleted.
+  - original: Automatización eliminada.
+  - model: Automatización borrada.
+  - reason: Según el glosario, «delete» se traduce como «borrar».
+- #154 Orders keep their custom status. Delete each status on the Statuses tab so orders move to a native status before you delete the plugin.
+  - original: Los pedidos conservan su estado personalizado. Elimina cada estado en la pestaña Estados para moverlos a un estado nativo antes de eliminar el plugin.
+  - model: Los pedidos conservan su estado personalizado. Borra cada estado en la pestaña Estados para moverlos a un estado nativo antes de borrar el plugin.
+  - reason: Según el glosario, «delete» se traduce como «borrar».
+- #158 This log shows what each automation did, or why it did not run. Entries older than the retention period set in Settings are deleted automatically.
+  - original: Este registro muestra lo que hizo cada automatización, o por qué no se ejecutó. Las entradas más antiguas que el periodo de conservación definido en Ajustes se eliminan automáticamente.
+  - model: Este registro muestra lo que hizo cada automatización, o por qué no se ejecutó. Las entradas más antiguas que el periodo de conservación establecido en Ajustes se borran automáticamente.
+  - reason: Según el glosario, «delete» es «borrar» y «set» es «establecer».
+- #168 Run history entries older than this number of days are deleted automatically.
+  - original: Las ejecuciones más antiguas que este número de días se eliminan automáticamente.
+  - model: Las ejecuciones más antiguas que este número de días se borran automáticamente.
+  - reason: Según el glosario, «delete» se traduce como «borrar».
+- #169 Delete data on uninstall
+  - original: Eliminar datos al desinstalar
+  - model: Borrar datos al desinstalar
+  - reason: Según el glosario, «delete» se traduce como «borrar».
+- #170 Delete custom statuses, automations, history and settings when the plugin is deleted.
+  - original: Eliminar los estados personalizados, las automatizaciones, el historial y los ajustes al eliminar el plugin.
+  - model: Borrar los estados personalizados, las automatizaciones, el historial y los ajustes al borrar el plugin.
+  - reason: Según el glosario, «delete» se traduce como «borrar».
+- #171 Orders that use a custom status keep it after deletion and may disappear from some WooCommerce views. Delete each custom status first (Statuses tab) to move its orders to another status.
+  - original: Los pedidos que usan un estado personalizado lo conservan tras la eliminación y pueden desaparecer de algunas vistas de WooCommerce. Elimina primero cada estado personalizado (pestaña Estados) para mover sus pedidos a otro estado.
+  - model: Los pedidos que usan un estado personalizado lo conservan tras el borrado y pueden desaparecer de algunas vistas de WooCommerce. Borra primero cada estado personalizado (pestaña Estados) para mover sus pedidos a otro estado.
+  - reason: Según el glosario, «delete» se traduce como «borrar».
+- #173 This status is already being deleted.
+  - original: Este estado ya se está eliminando.
+  - model: Este estado ya se está borrando.
+  - reason: Según el glosario, «delete» se traduce como «borrar».
+- #174 Delete status
+  - original: Eliminar estado
+  - model: Borrar estado
+  - reason: Según el glosario, «delete» se traduce como «borrar».
+- #177 Delete status and move orders
+  - original: Eliminar estado y mover pedidos
+  - model: Borrar estado y mover pedidos
+  - reason: Según el glosario, «delete» se traduce como «borrar».
+- #178 Delete status: %s
+  - original: Eliminar estado: %s
+  - model: Borrar estado: %s
+  - reason: Según el glosario, «delete» se traduce como «borrar».
+- #181 Orders are moved in the background, in batches of 50. Customers do not receive any email. WooCommerce stock rules apply to the new status.
+  - original: Los pedidos se mueven en segundo plano, en lotes de 50. Los clientes no reciben ningún correo electrónico. Las reglas de stock de WooCommerce se aplican al nuevo estado.
+  - model: Los pedidos se mueven en segundo plano, en lotes de 50. Los clientes no reciben ningún correo electrónico. Las reglas de inventario de WooCommerce se aplican al nuevo estado.
+  - reason: Según el glosario, «stock» es «inventario» (o «existencias»); no lo dejes en inglés.
+- #198 Stock, coupons, and downloads follow the paid-status rules.
+  - original: El stock, los cupones y las descargas siguen las reglas de los estados pagados.
+  - model: El inventario, los cupones y las descargas siguen las reglas de los estados pagados.
+  - reason: Según el glosario, «stock» es «inventario» (o «existencias»); no lo dejes en inglés.
+- #212 Used if this status is deleted or the plugin is removed.
+  - original: Se usa si se elimina este estado o se desinstala el plugin.
+  - model: Se usa si se borra este estado o se desinstala el plugin.
+  - reason: Según el glosario, «delete» se traduce como «borrar».
+- #213 Notifications
+  - original: Notificaciones
+  - model: Avisos
+  - reason: Según el glosario, «notification» es «aviso»; no se usa «notificación».
+- #222 Comma-separated email addresses. The recipient set in WooCommerce > Settings > Emails is always included.
+  - original: Direcciones de correo electrónico separadas por comas. El destinatario definido en WooCommerce > Ajustes > Correos electrónicos siempre está incluido.
+  - model: Direcciones de correo electrónico separadas por comas. El destinatario establecido en WooCommerce > Ajustes > Correos electrónicos siempre está incluido.
+  - reason: Según el glosario, «set» es «establecer».
+- #224 The email design (header, footer, colors) follows %s.
+  - original: El diseño del correo electrónico (encabezado, pie de página, colores) sigue %s.
+  - model: El diseño del correo electrónico (cabecera, pie de página, colores) sigue %s.
+  - reason: Según el glosario, «header» es «cabecera»; «encabezado» es «heading».
+- #251 Status deleted.
+  - original: Estado eliminado.
+  - model: Estado borrado.
+  - reason: Según el glosario, «delete» se traduce como «borrar».
+- #252 Orders are being moved. The status will be deleted when all orders have been moved.
+  - original: Los pedidos se están moviendo. El estado se eliminará cuando se hayan movido todos los pedidos.
+  - model: Los pedidos se están moviendo. El estado se borrará cuando se hayan movido todos los pedidos.
+  - reason: Según el glosario, «delete» se traduce como «borrar».
+- #253 The status could not be deleted.
+  - original: El estado no pudo eliminarse.
+  - model: El estado no pudo borrarse.
+  - reason: Según el glosario, «delete» se traduce como «borrar».
+- #260 You can use placeholders such as {order_number}.
+  - original: Puedes usar variables como {order_number}.
+  - model: Puedes usar marcadores de posición como {order_number}.
+  - reason: Según el glosario, «placeholder» es «marcador de posición», no «variable».
+- #266 Comma-separated. The recipient set in WooCommerce > Settings > Emails is always included.
+  - original: Separados por comas. El destinatario definido en WooCommerce > Ajustes > Correos electrónicos siempre está incluido.
+  - model: Separados por comas. El destinatario establecido en WooCommerce > Ajustes > Correos electrónicos siempre está incluido.
+  - reason: Según el glosario, «set» es «establecer».
+- #267 Leave empty to use the default text.
+  - original: Déjalo vacío para usar el texto predeterminado.
+  - model: Déjalo vacío para usar el texto por defecto.
+  - reason: Según el glosario, «default» es «por defecto», no «predeterminado».
+- #274 Customer role
+  - original: Rol del cliente
+  - model: Perfil del cliente
+  - reason: Según el glosario, «role» es «perfil»; no uses «rol».
+- #275 Roles
+  - original: Roles
+  - model: Perfiles
+  - reason: Según el glosario, «roles» es «perfiles»; no uses «roles».
+- #302 OrderFlow: admin notification
+  - original: OrderFlow: notificación al administrador
+  - model: OrderFlow: aviso al administrador
+  - reason: Según el glosario, «notification» es «aviso»; no se usa «notificación».
+- #304 OrderFlow: customer notification
+  - original: OrderFlow: notificación al cliente
+  - model: OrderFlow: aviso al cliente
+  - reason: Según el glosario, «notification» es «aviso»; no se usa «notificación».
+- #354 Status changed by Webandroll OrderFlow because the status "%s" was deleted.
+  - original: Estado modificado por Webandroll OrderFlow porque se eliminó el estado «%s».
+  - model: Estado modificado por Webandroll OrderFlow porque se borró el estado «%s».
+  - reason: Según el glosario, «delete» se traduce como «borrar».

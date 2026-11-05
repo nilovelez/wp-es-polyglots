@@ -1,0 +1,356 @@
+{"n": 1, "note": "Plugin URI of the plugin", "msgid": "https://webandroll-creation-web.fr/plugins/orderflow/", "msgstr": "https://webandroll-creation-web.fr/plugins/orderflow/"}
+{"n": 2, "note": "Description of the plugin", "msgid": "Custom WooCommerce order statuses and workflow automation.", "msgstr": "Estados de pedido personalizados y automatización de flujos de trabajo en WooCommerce: prueba de imprenta, taller, producción, envío."}
+{"n": 3, "note": "Author of the plugin", "msgid": "Webandroll", "msgstr": "Webandroll"}
+{"n": 4, "note": "Author URI of the plugin", "msgid": "https://webandroll-creation-web.fr/", "msgstr": "https://webandroll-creation-web.fr/"}
+{"n": 5, "msgid": "Order saved.", "msgstr": "Pedido guardado."}
+{"n": 6, "msgid": "The order could not be saved. Please reload the page.", "msgstr": "El pedido no pudo guardarse. Recarga la página."}
+{"n": 7, "msgid": "Any status", "msgstr": "Cualquier estado"}
+{"n": 8, "msgid": "Guest (no account)", "msgstr": "Invitado (sin cuenta)"}
+{"n": 9, "msgid": "Search for a product…", "msgstr": "Buscar un producto…"}
+{"n": 10, "msgid": "Sorry, you are not allowed to change this automation.", "msgstr": "Lo sentimos, no tienes permiso para modificar esta automatización."}
+{"n": 11, "msgid": "This automation could not be found.", "msgstr": "No se ha encontrado esta automatización."}
+{"n": 12, "msgid": "Sorry, you are not allowed to delete this automation.", "msgstr": "Lo sentimos, no tienes permiso para eliminar esta automatización."}
+{"n": 13, "msgid": "Sorry, you are not allowed to save this automation.", "msgstr": "Lo sentimos, no tienes permiso para guardar esta automatización."}
+{"n": 14, "msgid": "Sorry, you are not allowed to reorder statuses.", "msgstr": "Lo sentimos, no tienes permiso para reordenar los estados."}
+{"n": 15, "msgid": "Sorry, you are not allowed to save these settings.", "msgstr": "Lo sentimos, no tienes permiso para guardar estos ajustes."}
+{"n": 16, "msgid": "Sorry, you are not allowed to delete this status.", "msgstr": "Lo sentimos, no tienes permiso para eliminar este estado."}
+{"n": 17, "msgid": "Sorry, you are not allowed to save this status.", "msgstr": "Lo sentimos, no tienes permiso para guardar este estado."}
+{"n": 18, "msgid": "Name", "msgstr": "Nombre"}
+{"n": 19, "msgid": "Trigger", "msgstr": "Activador"}
+{"n": 20, "msgid": "Actions", "msgstr": "Acciones"}
+{"n": 21, "msgid": "Status", "msgstr": "Estado"}
+{"n": 22, "msgid": "Runs", "msgstr": "Ejecuciones"}
+{"n": 23, "msgid": "Last run", "msgstr": "Última ejecución"}
+{"n": 24, "msgid": "No automation yet. Automations change order statuses, add notes or send emails automatically when something happens to an order.", "msgstr": "Todavía no hay ninguna automatización. Las automatizaciones cambian el estado de los pedidos, añaden notas o envían correos electrónicos automáticamente cuando ocurre algo en un pedido."}
+{"n": 25, "msgid": "Unknown trigger", "msgstr": "Activador desconocido"}
+{"n": 26, "msgid": "Deactivate", "msgstr": "Desactivar"}
+{"n": 27, "msgid": "Activate", "msgstr": "Activar"}
+{"n": 28, "msgid": "Delete this automation? Its run history is kept.", "msgstr": "¿Eliminar esta automatización? Se conserva su historial de ejecuciones."}
+{"n": 29, "msgid": "Edit", "msgstr": "Editar"}
+{"n": 30, "msgid": "Delete", "msgstr": "Eliminar"}
+{"n": 31, "msgid": "Draft", "msgstr": "Borrador"}
+{"n": 32, "msgid": "Active", "msgstr": "Activa"}
+{"n": 33, "note": "translators: %s: destination order status.", "msgid": "Order status changes to %s", "msgstr": "El estado del pedido cambia a %s"}
+{"n": 34, "note": "translators: 1: origin order status, 2: destination order status.", "msgid": "Order status changes from %1$s to %2$s", "msgstr": "El estado del pedido cambia de %1$s a %2$s"}
+{"n": 35, "note": "translators: %d: number of minutes.", "msgid": ", after %d minute", "msgid_plural": ", after %d minutes", "msgstr_plural": [", tras %d minuto", ", tras %d minutos"]}
+{"n": 36, "note": "translators: %d: number of hours.", "msgid": ", after %d hour", "msgid_plural": ", after %d hours", "msgstr_plural": [", tras %d hora", ", tras %d horas"]}
+{"n": 37, "note": "translators: %d: number of days.", "msgid": ", after %d day", "msgid_plural": ", after %d days", "msgstr_plural": [", tras %d día", ", tras %d días"]}
+{"n": 38, "msgid": "Date", "msgstr": "Fecha"}
+{"n": 39, "msgid": "Automation", "msgstr": "Automatización"}
+{"n": 40, "msgid": "Order", "msgstr": "Pedido"}
+{"n": 41, "msgid": "Summary", "msgstr": "Resumen"}
+{"n": 42, "msgid": "Filter by status", "msgstr": "Filtrar por estado"}
+{"n": 43, "msgid": "All statuses", "msgstr": "Todos los estados"}
+{"n": 44, "msgid": "Order number", "msgstr": "Número de pedido"}
+{"n": 45, "msgid": "Filter", "msgstr": "Filtrar"}
+{"n": 46, "msgid": "No automation has run yet.", "msgstr": "Todavía no se ha ejecutado ninguna automatización."}
+{"n": 47, "note": "translators: %d: automation id.", "msgid": "Deleted automation #%d", "msgstr": "Automatización eliminada #%d"}
+{"n": 48, "note": "translators: %d: order id.", "msgid": "#%d", "msgstr": "#%d"}
+{"n": 49, "msgid": "Running", "msgstr": "En ejecución"}
+{"n": 50, "msgid": "Scheduled", "msgstr": "Programada"}
+{"n": 51, "msgid": "Suspended", "msgstr": "Suspendida"}
+{"n": 52, "msgid": "Completed", "msgstr": "Completada"}
+{"n": 53, "msgid": "Skipped", "msgstr": "Omitida"}
+{"n": 54, "msgid": "Failed", "msgstr": "Fallida"}
+{"n": 55, "msgid": "Cancelled", "msgstr": "Cancelada"}
+{"n": 56, "msgid": "Reorder", "msgstr": "Reordenar"}
+{"n": 57, "msgid": "Slug", "msgstr": "Slug"}
+{"n": 58, "msgid": "Paid", "msgstr": "Pagado"}
+{"n": 59, "msgid": "Orders", "msgstr": "Pedidos"}
+{"n": 60, "msgid": "No custom status yet.", "msgstr": "Todavía no hay ningún estado personalizado."}
+{"n": 61, "msgid": "Yes", "msgstr": "Sí"}
+{"n": 62, "msgid": "No", "msgstr": "No"}
+{"n": 63, "msgid": "Deletion blocked. See WooCommerce > Status > Logs.", "msgstr": "Eliminación bloqueada. Consulta WooCommerce > Estado > Registros."}
+{"n": 64, "note": "translators: %s: status orders are moved to.", "msgid": "Deleting: orders are being moved to %s.", "msgstr": "Eliminando: los pedidos se están moviendo a %s."}
+{"n": 65, "msgid": "OrderFlow", "msgstr": "OrderFlow"}
+{"n": 66, "msgid": "Sorry, you are not allowed to access Webandroll OrderFlow.", "msgstr": "Lo sentimos, no tienes permiso para acceder a Webandroll OrderFlow."}
+{"n": 67, "note": "translators: %s: minimum required PHP version.", "msgid": "Webandroll OrderFlow requires PHP %s or later.", "msgstr": "Webandroll OrderFlow requiere PHP %s o una versión posterior."}
+{"n": 68, "note": "translators: %s: minimum required WordPress version.", "msgid": "Webandroll OrderFlow requires WordPress %s or later.", "msgstr": "Webandroll OrderFlow requiere WordPress %s o una versión posterior."}
+{"n": 69, "msgid": "Webandroll OrderFlow requires WooCommerce to be installed and active.", "msgstr": "Webandroll OrderFlow requiere que WooCommerce esté instalado y activo."}
+{"n": 70, "note": "translators: %s: minimum required WooCommerce version.", "msgid": "Webandroll OrderFlow requires WooCommerce %s or later.", "msgstr": "Webandroll OrderFlow requiere WooCommerce %s o una versión posterior."}
+{"n": 71, "msgid": "Sorry, you are not allowed to create the example workflow.", "msgstr": "Lo sentimos, no tienes permiso para crear el flujo de ejemplo."}
+{"n": 72, "msgid": "Create example workflow", "msgstr": "Crear flujo de ejemplo"}
+{"n": 73, "msgid": "Proof to prepare", "msgstr": "Prueba por preparar"}
+{"n": 74, "msgid": "Proof sent", "msgstr": "Prueba enviada"}
+{"n": 75, "msgid": "Proof approved", "msgstr": "Prueba aprobada"}
+{"n": 76, "msgid": "In production", "msgstr": "En producción"}
+{"n": 77, "msgid": "Ready to ship", "msgstr": "Listo para enviar"}
+{"n": 78, "msgid": "Paid order → Proof to prepare", "msgstr": "Pedido pagado → Prueba por preparar"}
+{"n": 79, "msgid": "Proof reminder after 3 days", "msgstr": "Recordatorio de prueba tras 3 días"}
+{"n": 80, "msgid": "Reminder: your proof for order #{order_number} is waiting for your approval", "msgstr": "Recordatorio: tu prueba para el pedido #{order_number} está esperando tu aprobación"}
+{"n": 81, "msgid": "Notify the workshop when the proof is approved", "msgstr": "Avisar al taller cuando se apruebe la prueba"}
+{"n": 82, "msgid": "Proof approved for order #{order_number}", "msgstr": "Prueba aprobada para el pedido #{order_number}"}
+{"n": 83, "msgid": "Status history (OrderFlow)", "msgstr": "Historial de estados (OrderFlow)"}
+{"n": 84, "msgid": "No status change recorded yet.", "msgstr": "Todavía no se ha registrado ningún cambio de estado."}
+{"n": 85, "msgid": "Change", "msgstr": "Cambio"}
+{"n": 86, "msgid": "Source", "msgstr": "Origen"}
+{"n": 87, "msgid": "User", "msgstr": "Usuario"}
+{"n": 88, "msgid": "Manual", "msgstr": "Manual"}
+{"n": 89, "msgid": "Customer", "msgstr": "Cliente"}
+{"n": 90, "msgid": "Payment gateway", "msgstr": "Pasarela de pago"}
+{"n": 91, "msgid": "API", "msgstr": "API"}
+{"n": 92, "msgid": "System", "msgstr": "Sistema"}
+{"n": 93, "note": "translators: 1: previous status name, 2: new status name.", "msgid": "%1$s → %2$s", "msgstr": "%1$s → %2$s"}
+{"n": 94, "msgid": "Enter a name.", "msgstr": "Introduce un nombre."}
+{"n": 95, "msgid": "The name must be 191 characters or fewer.", "msgstr": "El nombre debe tener 191 caracteres como máximo."}
+{"n": 96, "msgid": "Choose a trigger.", "msgstr": "Elige un activador."}
+{"n": 97, "msgid": "Choose the status that triggers the automation.", "msgstr": "Elige el estado que activa la automatización."}
+{"n": 98, "msgid": "The origin status and the destination status must be different.", "msgstr": "El estado de origen y el estado de destino deben ser diferentes."}
+{"n": 99, "msgid": "Enter a delay of at least 1.", "msgstr": "Introduce un retraso de al menos 1."}
+{"n": 100, "msgid": "This edition does not allow a delay.", "msgstr": "Esta edición no permite ningún retraso."}
+{"n": 101, "msgid": "The delay is longer than this edition allows.", "msgstr": "El retraso supera lo que permite esta edición."}
+{"n": 102, "msgid": "Choose whether all conditions or any condition must match.", "msgstr": "Elige si deben cumplirse todas las condiciones o cualquiera de ellas."}
+{"n": 103, "msgid": "This edition does not allow that many conditions.", "msgstr": "Esta edición no permite tantas condiciones."}
+{"n": 104, "msgid": "This condition is not available.", "msgstr": "Esta condición no está disponible."}
+{"n": 105, "msgid": "This condition is incomplete. Choose at least one value.", "msgstr": "Esta condición está incompleta. Elige al menos un valor."}
+{"n": 106, "msgid": "Choose an action.", "msgstr": "Elige una acción."}
+{"n": 107, "msgid": "This edition does not allow that many actions.", "msgstr": "Esta edición no permite tantas acciones."}
+{"n": 108, "msgid": "This action is not available.", "msgstr": "Esta acción no está disponible."}
+{"n": 109, "msgid": "This action is incomplete. Fill in the required fields and check the email addresses.", "msgstr": "Esta acción está incompleta. Rellena los campos obligatorios y revisa las direcciones de correo electrónico."}
+{"n": 110, "msgid": "This automation would create a loop with another active automation.", "msgstr": "Esta automatización crearía un bucle con otra automatización activa."}
+{"n": 111, "msgid": "This automation could not be saved.", "msgstr": "Esta automatización no pudo guardarse."}
+{"n": 112, "msgid": "Edit automation", "msgstr": "Editar automatización"}
+{"n": 113, "msgid": "Back to automations", "msgstr": "Volver a las automatizaciones"}
+{"n": 114, "msgid": "The automation was not saved. Please fix the errors below.", "msgstr": "La automatización no se guardó. Corrige los errores siguientes."}
+{"n": 115, "msgid": "Add automation", "msgstr": "Añadir automatización"}
+{"n": 116, "msgid": "Save automation", "msgstr": "Guardar automatización"}
+{"n": 117, "msgid": "Cancel", "msgstr": "Cancelar"}
+{"n": 118, "msgid": "When", "msgstr": "Cuando"}
+{"n": 119, "msgid": "Wait", "msgstr": "Esperar"}
+{"n": 120, "msgid": "Wait before running the action", "msgstr": "Esperar antes de ejecutar la acción"}
+{"n": 121, "msgid": "Duration", "msgstr": "Duración"}
+{"n": 122, "msgid": "Unit", "msgstr": "Unidad"}
+{"n": 123, "msgid": "Only if the order is still in the same status", "msgstr": "Solo si el pedido sigue en el mismo estado"}
+{"n": 124, "msgid": "No condition (always run)", "msgstr": "Sin condición (ejecutar siempre)"}
+{"n": 125, "msgid": "If", "msgstr": "Si"}
+{"n": 126, "msgid": "Condition", "msgstr": "Condición"}
+{"n": 127, "msgid": "Then", "msgstr": "Entonces"}
+{"n": 128, "msgid": "Action", "msgstr": "Acción"}
+{"n": 129, "msgid": "minutes", "msgstr": "minutos"}
+{"n": 130, "msgid": "hours", "msgstr": "horas"}
+{"n": 131, "msgid": "days", "msgstr": "días"}
+{"n": 132, "msgid": "Automations", "msgstr": "Automatizaciones"}
+{"n": 133, "msgid": "Automation saved.", "msgstr": "Automatización guardada."}
+{"n": 134, "msgid": "Automation activated.", "msgstr": "Automatización activada."}
+{"n": 135, "msgid": "Automation deactivated.", "msgstr": "Automatización desactivada."}
+{"n": 136, "msgid": "Automation deleted.", "msgstr": "Automatización eliminada."}
+{"n": 137, "msgid": "Example workflow created: 5 statuses and 3 automations, saved as drafts. Review them, then activate the automations when you are ready.", "msgstr": "Flujo de ejemplo creado: 5 estados y 3 automatizaciones, guardados como borradores. Revísalos y activa las automatizaciones cuando estés listo."}
+{"n": 138, "msgid": "This automation cannot be activated. Edit it to fix its settings.", "msgstr": "Esta automatización no se puede activar. Edítala para corregir sus ajustes."}
+{"n": 139, "msgid": "Help", "msgstr": "Ayuda"}
+{"n": 140, "msgid": "Getting started", "msgstr": "Primeros pasos"}
+{"n": 141, "msgid": "Create your statuses on the Statuses tab.", "msgstr": "Crea tus estados en la pestaña Estados."}
+{"n": 142, "msgid": "Configure the emails of each status.", "msgstr": "Configura los correos electrónicos de cada estado."}
+{"n": 143, "msgid": "Create an automation on the Automations tab.", "msgstr": "Crea una automatización en la pestaña Automatizaciones."}
+{"n": 144, "msgid": "How automations work", "msgstr": "Cómo funcionan las automatizaciones"}
+{"n": 145, "msgid": "The trigger that starts the automation.", "msgstr": "El activador que inicia la automatización."}
+{"n": 146, "msgid": "An optional delay. The automation is checked again when the delay comes due.", "msgstr": "Un retraso opcional. La automatización se vuelve a comprobar cuando vence el retraso."}
+{"n": 147, "msgid": "An optional condition.", "msgstr": "Una condición opcional."}
+{"n": 148, "msgid": "The action the automation runs.", "msgstr": "La acción que ejecuta la automatización."}
+{"n": 149, "msgid": "Delays and scheduled actions", "msgstr": "Retrasos y acciones programadas"}
+{"n": 150, "msgid": "Delays run through Action Scheduler, under WooCommerce > Status > Scheduled Actions. Action Scheduler depends on site traffic. On a shop with little traffic, set up a real system cron.", "msgstr": "Los retrasos pasan por Action Scheduler, en WooCommerce > Estado > Acciones programadas. Action Scheduler depende del tráfico del sitio. En una tienda con poco tráfico, configura un cron real del sistema."}
+{"n": 151, "msgid": "Troubleshooting", "msgstr": "Solución de problemas"}
+{"n": 152, "msgid": "The History tab explains why an automation acted or did not. Turn on Debug logging in Settings to record the detail under WooCommerce > Status > Logs.", "msgstr": "La pestaña Historial explica por qué una automatización actuó o no. Activa el registro de depuración en Ajustes para guardar el detalle en WooCommerce > Estado > Registros."}
+{"n": 153, "msgid": "Before uninstalling", "msgstr": "Antes de desinstalar"}
+{"n": 154, "msgid": "Orders keep their custom status. Delete each status on the Statuses tab so orders move to a native status before you delete the plugin.", "msgstr": "Los pedidos conservan su estado personalizado. Elimina cada estado en la pestaña Estados para moverlos a un estado nativo antes de eliminar el plugin."}
+{"n": 155, "msgid": "History", "msgstr": "Historial"}
+{"n": 156, "note": "translators: %d: run id.", "msgid": "Run #%d", "msgstr": "Ejecución #%d"}
+{"n": 157, "msgid": "This run could not be found.", "msgstr": "No se ha encontrado esta ejecución."}
+{"n": 158, "msgid": "This log shows what each automation did, or why it did not run. Entries older than the retention period set in Settings are deleted automatically.", "msgstr": "Este registro muestra lo que hizo cada automatización, o por qué no se ejecutó. Las entradas más antiguas que el periodo de conservación definido en Ajustes se eliminan automáticamente."}
+{"n": 159, "msgid": "Back to history", "msgstr": "Volver al historial"}
+{"n": 160, "msgid": "Settings", "msgstr": "Ajustes"}
+{"n": 161, "msgid": "Debug logging", "msgstr": "Registro de depuración"}
+{"n": 162, "msgid": "Write detailed automation logs to WooCommerce > Status > Logs (source: webandroll-orderflow). Errors are always logged.", "msgstr": "Escribe el detalle de las automatizaciones en WooCommerce > Estado > Registros (origen: webandroll-orderflow). Los errores siempre se registran."}
+{"n": 163, "msgid": "Automation order note", "msgstr": "Nota de pedido de la automatización"}
+{"n": 164, "msgid": "Add a private note to the order when an automation changes its status.", "msgstr": "Añadir una nota privada al pedido cuando una automatización cambie su estado."}
+{"n": 165, "msgid": "Save settings", "msgstr": "Guardar ajustes"}
+{"n": 166, "msgid": "Settings saved.", "msgstr": "Ajustes guardados."}
+{"n": 167, "msgid": "Log retention", "msgstr": "Conservación del registro"}
+{"n": 168, "msgid": "Run history entries older than this number of days are deleted automatically.", "msgstr": "Las ejecuciones más antiguas que este número de días se eliminan automáticamente."}
+{"n": 169, "msgid": "Delete data on uninstall", "msgstr": "Eliminar datos al desinstalar"}
+{"n": 170, "msgid": "Delete custom statuses, automations, history and settings when the plugin is deleted.", "msgstr": "Eliminar los estados personalizados, las automatizaciones, el historial y los ajustes al eliminar el plugin."}
+{"n": 171, "msgid": "Orders that use a custom status keep it after deletion and may disappear from some WooCommerce views. Delete each custom status first (Statuses tab) to move its orders to another status.", "msgstr": "Los pedidos que usan un estado personalizado lo conservan tras la eliminación y pueden desaparecer de algunas vistas de WooCommerce. Elimina primero cada estado personalizado (pestaña Estados) para mover sus pedidos a otro estado."}
+{"n": 172, "msgid": "This status could not be found.", "msgstr": "No se ha encontrado este estado."}
+{"n": 173, "msgid": "This status is already being deleted.", "msgstr": "Este estado ya se está eliminando."}
+{"n": 174, "msgid": "Delete status", "msgstr": "Eliminar estado"}
+{"n": 175, "msgid": "Back to statuses", "msgstr": "Volver a los estados"}
+{"n": 176, "msgid": "No order uses this status.", "msgstr": "Ningún pedido usa este estado."}
+{"n": 177, "msgid": "Delete status and move orders", "msgstr": "Eliminar estado y mover pedidos"}
+{"n": 178, "note": "translators: %s: status label.", "msgid": "Delete status: %s", "msgstr": "Eliminar estado: %s"}
+{"n": 179, "note": "translators: %s: number of orders.", "msgid": "%s order currently uses this status.", "msgid_plural": "%s orders currently use this status.", "msgstr_plural": ["%s pedido usa actualmente este estado.", "%s pedidos usan actualmente este estado."]}
+{"n": 180, "msgid": "Move these orders to", "msgstr": "Mover estos pedidos a"}
+{"n": 181, "msgid": "Orders are moved in the background, in batches of 50. Customers do not receive any email. WooCommerce stock rules apply to the new status.", "msgstr": "Los pedidos se mueven en segundo plano, en lotes de 50. Los clientes no reciben ningún correo electrónico. Las reglas de stock de WooCommerce se aplican al nuevo estado."}
+{"n": 182, "msgid": "Enter a slug.", "msgstr": "Introduce un slug."}
+{"n": 183, "msgid": "The slug must be 17 characters or fewer.", "msgstr": "El slug debe tener 17 caracteres como máximo."}
+{"n": 184, "msgid": "Use only lowercase letters, numbers, and hyphens.", "msgstr": "Usa solo letras minúsculas, números y guiones."}
+{"n": 185, "msgid": "This slug is reserved.", "msgstr": "Este slug está reservado."}
+{"n": 186, "msgid": "This slug is already used.", "msgstr": "Este slug ya está en uso."}
+{"n": 187, "msgid": "Enter a label.", "msgstr": "Introduce una etiqueta."}
+{"n": 188, "msgid": "The label must be 60 characters or fewer.", "msgstr": "La etiqueta debe tener 60 caracteres como máximo."}
+{"n": 189, "msgid": "Enter a color in the #rrggbb format.", "msgstr": "Introduce un color en formato #rrggbb."}
+{"n": 190, "msgid": "Choose an icon from the list.", "msgstr": "Elige un icono de la lista."}
+{"n": 191, "msgid": "Choose a native WooCommerce status.", "msgstr": "Elige un estado nativo de WooCommerce."}
+{"n": 192, "msgid": "Enter a valid email address.", "msgstr": "Introduce una dirección de correo electrónico válida."}
+{"n": 193, "msgid": "This value is not valid.", "msgstr": "Este valor no es válido."}
+{"n": 194, "msgid": "The status was not saved. Please fix the errors below.", "msgstr": "El estado no se guardó. Corrige los errores siguientes."}
+{"n": 195, "msgid": "Edit status", "msgstr": "Editar estado"}
+{"n": 196, "msgid": "Add status", "msgstr": "Añadir estado"}
+{"n": 197, "msgid": "Consider as paid", "msgstr": "Considerar como pagado"}
+{"n": 198, "msgid": "Stock, coupons, and downloads follow the paid-status rules.", "msgstr": "El stock, los cupones y las descargas siguen las reglas de los estados pagados."}
+{"n": 199, "msgid": "Include in reports", "msgstr": "Incluir en los informes"}
+{"n": 200, "msgid": "Count orders with this status in WooCommerce reports.", "msgstr": "Contar los pedidos con este estado en los informes de WooCommerce."}
+{"n": 201, "msgid": "Show in bulk actions", "msgstr": "Mostrar en las acciones en lote"}
+{"n": 202, "msgid": "Add a bulk action that changes orders to this status.", "msgstr": "Añadir una acción en lote que cambie los pedidos a este estado."}
+{"n": 203, "msgid": "Show in the All orders view", "msgstr": "Mostrar en la vista Todos los pedidos"}
+{"n": 204, "msgid": "Include this status in the All orders list.", "msgstr": "Incluir este estado en la lista Todos los pedidos."}
+{"n": 205, "msgid": "Save status", "msgstr": "Guardar estado"}
+{"n": 206, "msgid": "Label", "msgstr": "Etiqueta"}
+{"n": 207, "msgid": "Leave empty to generate it from the label. 17 characters maximum. Cannot be changed later.", "msgstr": "Déjalo vacío para generarlo a partir de la etiqueta. 17 caracteres como máximo. No se puede modificar después."}
+{"n": 208, "msgid": "Description", "msgstr": "Descripción"}
+{"n": 209, "msgid": "Color", "msgstr": "Color"}
+{"n": 210, "msgid": "Icon", "msgstr": "Icono"}
+{"n": 211, "msgid": "Fallback status", "msgstr": "Estado de reserva"}
+{"n": 212, "msgid": "Used if this status is deleted or the plugin is removed.", "msgstr": "Se usa si se elimina este estado o se desinstala el plugin."}
+{"n": 213, "msgid": "Notifications", "msgstr": "Notificaciones"}
+{"n": 214, "msgid": "Customer email", "msgstr": "Correo electrónico al cliente"}
+{"n": 215, "msgid": "Email the customer when an order enters this status.", "msgstr": "Enviar un correo electrónico al cliente cuando un pedido entre en este estado."}
+{"n": 216, "msgid": "Shop email", "msgstr": "Correo electrónico a la tienda"}
+{"n": 217, "msgid": "Email the shop when an order enters this status.", "msgstr": "Enviar un correo electrónico a la tienda cuando un pedido entre en este estado."}
+{"n": 218, "msgid": "Subject", "msgstr": "Asunto"}
+{"n": 219, "msgid": "Heading", "msgstr": "Encabezado"}
+{"n": 220, "msgid": "Body", "msgstr": "Cuerpo"}
+{"n": 221, "msgid": "Additional recipients", "msgstr": "Destinatarios adicionales"}
+{"n": 222, "msgid": "Comma-separated email addresses. The recipient set in WooCommerce > Settings > Emails is always included.", "msgstr": "Direcciones de correo electrónico separadas por comas. El destinatario definido en WooCommerce > Ajustes > Correos electrónicos siempre está incluido."}
+{"n": 223, "msgid": "WooCommerce > Settings > Emails", "msgstr": "WooCommerce > Ajustes > Correos electrónicos"}
+{"n": 224, "note": "translators: %s: link to the WooCommerce email settings.", "msgid": "The email design (header, footer, colors) follows %s.", "msgstr": "El diseño del correo electrónico (encabezado, pie de página, colores) sigue %s."}
+{"n": 225, "msgid": "Customer first name", "msgstr": "Nombre del cliente"}
+{"n": 226, "msgid": "Customer last name", "msgstr": "Apellidos del cliente"}
+{"n": 227, "msgid": "Order total", "msgstr": "Total del pedido"}
+{"n": 228, "msgid": "Order date", "msgstr": "Fecha del pedido"}
+{"n": 229, "msgid": "Status name", "msgstr": "Nombre del estado"}
+{"n": 230, "msgid": "Site name", "msgstr": "Nombre del sitio"}
+{"n": 231, "msgid": "Billing company", "msgstr": "Empresa de facturación"}
+{"n": 232, "msgid": "Gear", "msgstr": "Engranaje"}
+{"n": 233, "msgid": "Tool", "msgstr": "Herramienta"}
+{"n": 234, "msgid": "Check", "msgstr": "Comprobación"}
+{"n": 235, "msgid": "Package", "msgstr": "Paquete"}
+{"n": 236, "msgid": "Truck", "msgstr": "Camión"}
+{"n": 237, "msgid": "Document", "msgstr": "Documento"}
+{"n": 238, "msgid": "Email", "msgstr": "Correo electrónico"}
+{"n": 239, "msgid": "Phone", "msgstr": "Teléfono"}
+{"n": 240, "msgid": "Star", "msgstr": "Estrella"}
+{"n": 241, "msgid": "Alert", "msgstr": "Alerta"}
+{"n": 242, "msgid": "Pause", "msgstr": "Pausa"}
+{"n": 243, "msgid": "Clock", "msgstr": "Reloj"}
+{"n": 244, "msgid": "Pending payment", "msgstr": "Pendiente de pago"}
+{"n": 245, "msgid": "On hold", "msgstr": "En espera"}
+{"n": 246, "msgid": "Refunded", "msgstr": "Reembolsado"}
+{"n": 247, "msgid": "Processing", "msgstr": "Procesando"}
+{"n": 248, "msgid": "Statuses", "msgstr": "Estados"}
+{"n": 249, "msgid": "Drag the handle to change the order of statuses in WooCommerce.", "msgstr": "Arrastra el asa para cambiar el orden de los estados en WooCommerce."}
+{"n": 250, "msgid": "Status saved.", "msgstr": "Estado guardado."}
+{"n": 251, "msgid": "Status deleted.", "msgstr": "Estado eliminado."}
+{"n": 252, "msgid": "Orders are being moved. The status will be deleted when all orders have been moved.", "msgstr": "Los pedidos se están moviendo. El estado se eliminará cuando se hayan movido todos los pedidos."}
+{"n": 253, "msgid": "The status could not be deleted.", "msgstr": "El estado no pudo eliminarse."}
+{"n": 254, "msgid": "New to OrderFlow?", "msgstr": "¿Nuevo en OrderFlow?"}
+{"n": 255, "msgid": "Create an example print-shop workflow with proof approval to see how statuses and automations work together.", "msgstr": "Crea un flujo de ejemplo de imprenta con aprobación de prueba para ver cómo funcionan juntos los estados y las automatizaciones."}
+{"n": 256, "msgid": "Add note for customer", "msgstr": "Añadir nota para el cliente"}
+{"n": 257, "msgid": "Note", "msgstr": "Nota"}
+{"n": 258, "msgid": "WooCommerce also emails this note to the customer.", "msgstr": "WooCommerce también envía esta nota por correo electrónico al cliente."}
+{"n": 259, "msgid": "Add private note", "msgstr": "Añadir nota privada"}
+{"n": 260, "msgid": "You can use placeholders such as {order_number}.", "msgstr": "Puedes usar variables como {order_number}."}
+{"n": 261, "msgid": "Change order status", "msgstr": "Cambiar el estado del pedido"}
+{"n": 262, "msgid": "New status", "msgstr": "Nuevo estado"}
+{"n": 263, "msgid": "Status changed by a Webandroll OrderFlow automation.", "msgstr": "Estado modificado por una automatización de Webandroll OrderFlow."}
+{"n": 264, "msgid": "Send email to shop", "msgstr": "Enviar correo electrónico a la tienda"}
+{"n": 265, "msgid": "Recipients", "msgstr": "Destinatarios"}
+{"n": 266, "msgid": "Comma-separated. The recipient set in WooCommerce > Settings > Emails is always included.", "msgstr": "Separados por comas. El destinatario definido en WooCommerce > Ajustes > Correos electrónicos siempre está incluido."}
+{"n": 267, "msgid": "Leave empty to use the default text.", "msgstr": "Déjalo vacío para usar el texto predeterminado."}
+{"n": 268, "msgid": "Send email to customer", "msgstr": "Enviar correo electrónico al cliente"}
+{"n": 269, "msgid": "Operator", "msgstr": "Operador"}
+{"n": 270, "msgid": "is", "msgstr": "es"}
+{"n": 271, "msgid": "is not", "msgstr": "no es"}
+{"n": 272, "msgid": "Billing country", "msgstr": "País de facturación"}
+{"n": 273, "msgid": "Countries", "msgstr": "Países"}
+{"n": 274, "msgid": "Customer role", "msgstr": "Rol del cliente"}
+{"n": 275, "msgid": "Roles", "msgstr": "Roles"}
+{"n": 276, "msgid": "Order status", "msgstr": "Estado del pedido"}
+{"n": 277, "msgid": "is greater than", "msgstr": "es mayor que"}
+{"n": 278, "msgid": "is greater than or equal to", "msgstr": "es mayor o igual que"}
+{"n": 279, "msgid": "is less than", "msgstr": "es menor que"}
+{"n": 280, "msgid": "is less than or equal to", "msgstr": "es menor o igual que"}
+{"n": 281, "msgid": "is equal to", "msgstr": "es igual a"}
+{"n": 282, "msgid": "Amount", "msgstr": "Importe"}
+{"n": 283, "msgid": "In the order currency.", "msgstr": "En la moneda del pedido."}
+{"n": 284, "msgid": "Payment method", "msgstr": "Método de pago"}
+{"n": 285, "msgid": "Payment methods", "msgstr": "Métodos de pago"}
+{"n": 286, "msgid": "Product category", "msgstr": "Categoría de producto"}
+{"n": 287, "msgid": "Categories", "msgstr": "Categorías"}
+{"n": 288, "msgid": "Product in order", "msgstr": "Producto en el pedido"}
+{"n": 289, "msgid": "Products", "msgstr": "Productos"}
+{"n": 290, "msgid": "Shipping country", "msgstr": "País de envío"}
+{"n": 291, "msgid": "Shipping method", "msgstr": "Método de envío"}
+{"n": 292, "msgid": "Shipping methods", "msgstr": "Métodos de envío"}
+{"n": 293, "note": "translators: %s: error message.", "msgid": "Delayed automation failed: %s", "msgstr": "La automatización diferida falló: %s"}
+{"n": 294, "note": "translators: %s: error message.", "msgid": "Automation engine failed: %s", "msgstr": "El motor de automatización falló: %s"}
+{"n": 295, "note": "translators: %s: error message.", "msgid": "Could not resume delayed automations: %s", "msgstr": "No se pudieron reanudar las automatizaciones diferidas: %s"}
+{"n": 296, "note": "translators: %s: error message.", "msgid": "Could not cancel the delayed automation: %s", "msgstr": "No se pudo cancelar la automatización diferida: %s"}
+{"n": 297, "msgid": "Order created", "msgstr": "Pedido creado"}
+{"n": 298, "msgid": "Payment received", "msgstr": "Pago recibido"}
+{"n": 299, "msgid": "Order status changes", "msgstr": "El estado del pedido cambia"}
+{"n": 300, "msgid": "From status", "msgstr": "Estado de origen"}
+{"n": 301, "msgid": "To status", "msgstr": "Estado de destino"}
+{"n": 302, "msgid": "OrderFlow: admin notification", "msgstr": "OrderFlow: notificación al administrador"}
+{"n": 303, "msgid": "Sent to the store when an order enters a custom status.", "msgstr": "Se envía a la tienda cuando un pedido entra en un estado personalizado."}
+{"n": 304, "msgid": "OrderFlow: customer notification", "msgstr": "OrderFlow: notificación al cliente"}
+{"n": 305, "msgid": "Sent to the customer when an order enters a custom status.", "msgstr": "Se envía al cliente cuando un pedido entra en un estado personalizado."}
+{"n": 306, "msgid": "Your {site_name} order #{order_number} is now {status_name}", "msgstr": "Tu pedido #{order_number} en {site_name} ahora está {status_name}"}
+{"n": 307, "msgid": "Order update", "msgstr": "Actualización del pedido"}
+{"n": 308, "msgid": "Hi {customer_first_name}, your order #{order_number} is now: {status_name}.", "msgstr": "Hola {customer_first_name}, tu pedido #{order_number} ahora está: {status_name}."}
+{"n": 309, "msgid": "[{site_name}] Order #{order_number} is now {status_name}", "msgstr": "[{site_name}] El pedido #{order_number} ahora está {status_name}"}
+{"n": 310, "msgid": "Order status changed", "msgstr": "Estado del pedido modificado"}
+{"n": 311, "msgid": "Order #{order_number} from {customer_first_name} {customer_last_name} is now: {status_name}.", "msgstr": "El pedido #{order_number} de {customer_first_name} {customer_last_name} ahora está: {status_name}."}
+{"n": 312, "note": "translators: %s: error message.", "msgid": "Status email could not be sent: %s", "msgstr": "El correo electrónico de estado no pudo enviarse: %s"}
+{"n": 313, "note": "translators: %s: error message.", "msgid": "Status history could not be recorded: %s", "msgstr": "El historial de estados no pudo registrarse: %s"}
+{"n": 314, "note": "translators: %s: error message.", "msgid": "Could not purge old automation runs: %s", "msgstr": "No se pudieron purgar las ejecuciones antiguas: %s"}
+{"n": 315, "note": "translators: %s: machine code stored with the run.", "msgid": "Unknown result: %s.", "msgstr": "Resultado desconocido: %s."}
+{"n": 316, "note": "translators: %d: number of minutes.", "msgid": "Ran %d minute late.", "msgid_plural": "Ran %d minutes late.", "msgstr_plural": ["Se ejecutó con %d minuto de retraso.", "Se ejecutó con %d minutos de retraso."]}
+{"n": 317, "note": "translators: %s: status the order left.", "msgid": "Cancelled: the order left the %s status.", "msgstr": "Cancelada: el pedido salió del estado %s."}
+{"n": 318, "msgid": "Skipped: conditions not met.", "msgstr": "Omitida: no se cumplen las condiciones."}
+{"n": 319, "msgid": "Skipped: conditions no longer met at the scheduled time.", "msgstr": "Omitida: las condiciones ya no se cumplían en el momento programado."}
+{"n": 320, "msgid": "Skipped: too many chained automations on this order.", "msgstr": "Omitida: demasiadas automatizaciones encadenadas en este pedido."}
+{"n": 321, "msgid": "Skipped: the automation no longer exists.", "msgstr": "Omitida: la automatización ya no existe."}
+{"n": 322, "msgid": "Skipped: the automation is inactive.", "msgstr": "Omitida: la automatización está inactiva."}
+{"n": 323, "msgid": "Skipped: the order could not be found.", "msgstr": "Omitida: no se ha encontrado el pedido."}
+{"n": 324, "msgid": "Skipped: the order is no longer in the expected status.", "msgstr": "Omitida: el pedido ya no está en el estado esperado."}
+{"n": 325, "msgid": "Skipped: the order left the status and came back since.", "msgstr": "Omitida: el pedido salió del estado y ha vuelto a entrar desde entonces."}
+{"n": 326, "note": "translators: %d: number of days in the recovery window.", "msgid": "Skipped: the plugin was inactive longer than the allowed recovery window (%d day).", "msgid_plural": "Skipped: the plugin was inactive longer than the allowed recovery window (%d days).", "msgstr_plural": ["Omitida: el plugin estuvo inactivo más tiempo que la ventana de recuperación permitida (%d día).", "Omitida: el plugin estuvo inactivo más tiempo que la ventana de recuperación permitida (%d días)."]}
+{"n": 327, "msgid": "Failed: the action could not be scheduled.", "msgstr": "Fallida: la acción no pudo programarse."}
+{"n": 328, "msgid": "Completed.", "msgstr": "Completada."}
+{"n": 329, "msgid": "One or more actions failed.", "msgstr": "Una o varias acciones fallaron."}
+{"n": 330, "msgid": "Running.", "msgstr": "En ejecución."}
+{"n": 331, "msgid": "Suspended while the plugin was inactive.", "msgstr": "Suspendida mientras el plugin estaba inactivo."}
+{"n": 332, "msgid": "Cancelled.", "msgstr": "Cancelada."}
+{"n": 333, "msgid": "Skipped.", "msgstr": "Omitida."}
+{"n": 334, "msgid": "Scheduled.", "msgstr": "Programada."}
+{"n": 335, "note": "translators: %s: date and time in the site timezone.", "msgid": "Scheduled for %s.", "msgstr": "Programada para el %s."}
+{"n": 336, "msgid": "Unknown condition.", "msgstr": "Condición desconocida."}
+{"n": 337, "msgid": "yes", "msgstr": "sí"}
+{"n": 338, "msgid": "no", "msgstr": "no"}
+{"n": 339, "note": "translators: 1: condition name, 2: operator, 3: expected values, 4: yes or no, 5: value read from the order.", "msgid": "%1$s %2$s %3$s : %4$s (order value: %5$s)", "msgstr": "%1$s %2$s %3$s: %4$s (valor del pedido: %5$s)"}
+{"n": 340, "msgid": "Unknown action", "msgstr": "Acción desconocida"}
+{"n": 341, "note": "translators: 1: previous status name, 2: new status name.", "msgid": "Status changed from %1$s to %2$s.", "msgstr": "Estado modificado de %1$s a %2$s."}
+{"n": 342, "msgid": "The order is already in the target status.", "msgstr": "El pedido ya está en el estado de destino."}
+{"n": 343, "msgid": "The status could not be changed.", "msgstr": "El estado no pudo modificarse."}
+{"n": 344, "msgid": "Note added.", "msgstr": "Nota añadida."}
+{"n": 345, "msgid": "The note could not be added.", "msgstr": "La nota no pudo añadirse."}
+{"n": 346, "msgid": "Email sent.", "msgstr": "Correo electrónico enviado."}
+{"n": 347, "msgid": "Not sent: this email is disabled in WooCommerce > Settings > Emails.", "msgstr": "No enviado: este correo electrónico está desactivado en WooCommerce > Ajustes > Correos electrónicos."}
+{"n": 348, "msgid": "Not sent: there is no recipient.", "msgstr": "No enviado: no hay ningún destinatario."}
+{"n": 349, "msgid": "The email could not be sent.", "msgstr": "El correo electrónico no pudo enviarse."}
+{"n": 350, "msgid": "The email is not available.", "msgstr": "El correo electrónico no está disponible."}
+{"n": 351, "msgid": "The order could not be found.", "msgstr": "No se ha encontrado el pedido."}
+{"n": 352, "note": "translators: %s: error message.", "msgid": "The action failed: %s.", "msgstr": "La acción falló: %s."}
+{"n": 353, "note": "translators: %s: machine code stored with the action.", "msgid": "Unknown action result: %s.", "msgstr": "Resultado de acción desconocido: %s."}
+{"n": 354, "note": "translators: %s: status label.", "msgid": "Status changed by Webandroll OrderFlow because the status \"%s\" was deleted.", "msgstr": "Estado modificado por Webandroll OrderFlow porque se eliminó el estado «%s»."}
+{"n": 355, "note": "translators: 1: status being deleted, 2: target status.", "msgid": "Could not move any order from \"%1$s\" to \"%2$s\". Deletion is blocked.", "msgstr": "No se pudo mover ningún pedido de «%1$s» a «%2$s». La eliminación está bloqueada."}
+{"n": 356, "note": "translators: %s: status label.", "msgid": "Change status to %s", "msgstr": "Cambiar estado a %s"}

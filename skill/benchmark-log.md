@@ -33,3 +33,19 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - **Cambios en la skill:**
   - Nuevo `po_tool.py lint` con pistas automáticas: término del glosario ausente o en inglés, mayúsculas en mitad de frase, «ej.» y comillas rectas. Sobre el `original.po` marca 45 de los 50 cambios de la ronda 02 y 20 de los 26 de la ronda 01. SKILL.md obliga a revisar cada pista.
   - En la referencia rápida: mayúsculas en nombres de funciones, elementos de la interfaz citados y sinónimos frente al glosario.
+
+## 2026-11-05 · Sonnet · ronda 03 (Webandroll OrderFlow, dev, 356 cadenas) · skill v3 · primera ronda real
+
+- Flujo completo con Poedit: `review.po` → Nilo revisa las 356 cadenas → `finalize`.
+- Resultado: 46 cambios. Sonnet propuso 45 cambios y 1 duda.
+  - Mantenidos: 44.
+  - Editado por Nilo: 1 (#355, «No se pudo» → «No se ha podido», aprovechando que ya se cambiaba).
+  - Deshechos: 0. Se le escaparon: 0.
+  - La duda (#234, icono «Check» → «Marca de verificación») se aceptó.
+- Propuestas principales:
+  - *delete* → «borrar» (unas 25).
+  - «Lo sentimos» → «Lo siento».
+  - Del glosario: *notification* → «aviso», *role* → «perfil», *stock* → «inventario», *placeholder* → «marcador de posición», *header* → «cabecera», *default* → «por defecto».
+  - Texto añadido por el traductor en la descripción del plugin.
+- Feedback de Nilo: hay pequeñas desviaciones que no son motivo de rechazo. «requiere» es mejorable («necesita») y «No se pudo» también («No se ha podido»), pero no se cambian solo por eso.
+- **Cambios en la skill:** formas preferidas solo cuando ya se cambia la cadena.
