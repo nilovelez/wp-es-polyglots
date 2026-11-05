@@ -15,7 +15,7 @@ Goal: clear the es_ES *waiting* queue fast, and learn from every round.
    ```
    python3 review/fetch_round.py <project url>
    ```
-   This creates `rounds/NN-<slug>-<subproject>/` with `original.po` (waiting) and `current.po` (approved, for consistency).
+   This creates `rounds/NN-<slug>-<subproject>/` with `original.po` (waiting strings only). Approved strings are not downloaded or used as a reference: approved does not mean correct, and large projects have thousands. `--current` downloads them only for occasional analysis.
 3. Translator runs the skill in review mode with the round folder as work folder: `decisions.jsonl`, `corrected.po` (only the strings to change) and `review.md` (table of decisions).
 4. Maintainer pre-checks the decisions and gives Nilo a short list: proposed changes, doubts, anything suspicious.
 5. Nilo gives feedback. The translator (or the maintainer) updates `decisions.jsonl` and rebuilds `corrected.po`.
@@ -29,7 +29,6 @@ The `polyglots` tool and Ollama are not part of this loop for now.
 ```
 rounds/NN-project/
   original.po          waiting strings as downloaded
-  current.po           approved strings of the project
   entries.jsonl        extracted entries (skill)
   decisions.jsonl      translator decisions, updated with Nilo's feedback
   corrected.po         only the strings to change (what Nilo uploads)
