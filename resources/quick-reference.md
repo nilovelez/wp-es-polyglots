@@ -4,11 +4,24 @@ Resumen de los criterios aprendidos en las rondas de revisión. El detalle está
 
 Prioridad si hay conflicto: instrucciones de Nilo → glosario → guía.
 
+## Cuándo cambiar una cadena (revisión)
+
+- **Solo se cambia lo que es un error.** Si la traducción es suficientemente buena, se aprueba aunque exista otra opción más correcta. Ejemplos de «suficientemente bueno»: «Eliminado» en lugar de «Quitado» para *Remove*; una entrada de un registro de cambios en presente («permanece visible») cuando las demás van en participio. En los registros de cambios, aún más tolerancia.
+- Sí se cambia: incumplimientos del glosario, cambio de sentido (p. ej. «Añadido» cuando el original dice *Show*), preposición equivocada («Compatibilidad del correo» por *Email compatibility* → «Compatibilidad con el correo electrónico»), tipografía (comillas, «p. ej.», coma tras «Por favor,»), términos del glosario dejados en inglés.
+- **email = «correo electrónico».** En textos largos (descripciones, párrafos, preguntas frecuentes) «correo» a secas se corrige a «correo electrónico», también en «dirección de correo electrónico» y «correos electrónicos enviados». En cadenas cortas de interfaz (botones, etiquetas, menús, títulos breves) «correo» es válido para mantener una longitud parecida al original: se aprueba.
+
+## Criterios de traducción
+
 - Tuteo; WordPress habla en primera persona del singular; infinitivo para acciones del usuario, imperativo para propuestas.
 - **website = «sitio web»; site = «sitio»** (glosario). No quitar «sitio web» cuando el original dice *website*.
 - Comillas «» siempre (también en lugar de `"…"` y `'…'`); «p. ej.», no «ej.».
-- Mayúscula solo en la primera palabra; los nombres comunes (idiomas, planes, pestañas) en minúscula dentro de listas.
-- Registros de cambios: una sola forma verbal en todas las entradas (participio: «Añadido», «Corregido»); *Fix* = Corrección, *Tweak* = Retoque, *Feature* = Característica.
+- Mayúscula solo en la primera palabra; los nombres comunes (idiomas, planes, pestañas) en minúscula dentro de listas. Los nombres de funciones, planes, opciones y servicios de un plugin **no son nombres propios**: «nube de traducción», «plan gratuito», «exclusiones de traducción», «bandera + nombre», «Directorio de plugins». Las mayúsculas de *Title Case* en mitad de frase se corrigen. Solo conservan mayúscula las marcas y los productos («WGRank Translate», «Search Console»).
+- Elementos de la interfaz citados (pestañas, botones, menús): se usa el nombre que ve el usuario en español, sin dejar el inglés con la traducción entre paréntesis. *Renamed "Cache" tab to "Translations"* → «Se renombró la pestaña «Caché» a «Traducciones»»; *a direct 'Settings' action link* → «un enlace de acción directo a Ajustes».
+- Sinónimos frente al glosario: si el glosario da un término, se usa ese aunque el sinónimo se entienda. *supported* = «compatible» (no «admitido»), *default* = «por defecto» (no «predeterminado»), *Dashboard* = «escritorio» (no «panel»), *Feature* en registros de cambios = «Característica» (no «Función»), *monitor* = «supervisar» (no «monitorizar»).
+- Registros de cambios: al traducir, una sola forma verbal en todas las entradas (participio: «Añadido», «Corregido»); *Fix* = Corrección, *Tweak* = Retoque, *Feature* = Característica. Al revisar, una entrada con otra forma verbal no es motivo de cambio si el sentido es correcto.
+- *admin* / *administrator*: «administrador» es la persona o el perfil; «administración» es el área de administración. *Administrator request* = «solicitudes del administrador», no «solicitudes de administración».
+- *host name* / *hostname* = «nombre de host», no «nombre de servidor».
+- *badge*: «insignia» (glosario) encaja sobre todo en productos (el cartelito de «en oferta»). Para el globo con un contador junto a un elemento del menú, «distintivo» y otras opciones razonables también son válidas: se aprueba.
 - Los términos del glosario que el traductor deja en inglés (*checkout*, *slider*, *hook*, *frontend*, *sitemap*, *firewall*) son error.
 - El masculino genérico no es motivo de rechazo. Cambios mínimos de estilo: se aprueba. Tilde o coma tras «Por favor,»: se corrige y se publica.
 - Fallos habituales de la herramienta: marca *fuzzy* cadenas correctas, pone «Escritorio» con mayúscula en mitad de frase, normaliza entradas sueltas del registro de cambios, aplica *core* → «núcleo» donde no toca.

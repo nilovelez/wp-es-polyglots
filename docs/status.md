@@ -4,9 +4,13 @@ Last updated: 2026-11-05.
 
 ## Current milestone
 
-**M1 – Reorganize the repository and document the current state.** Done, pending first commit.
+**M2 – Skill-driven review rounds.** A Sonnet session ("Traductor - Sonnet") translates and reviews using only `skill/`; the Opus session audits and improves the skill. Steps:
 
-Next: **M2 – Refine the review round workflow** (how strings are downloaded, which model pre-reviews them, how Claude picks them up).
+1. Write `skill/SKILL.md` and `skill/scripts/po_tool.py`. Done.
+2. Blind benchmark on rounds 01 and 02 against the human-approved `corrected.po`. In progress.
+3. First real round from the waiting queue (download with GlotPress or `polyglots fetch --no-ai`).
+
+M1 (reorganize the repository and document the current state) is done.
 
 ## Subprojects
 
@@ -25,7 +29,8 @@ Next: **M2 – Refine the review round workflow** (how strings are downloaded, w
 
 ### skill
 
-- Not started. Goal: "translate this into Spanish" using the glossary, the style guide and (to be decided) the translation memory. Must work with Sonnet or Haiku.
+- First version of `skill/SKILL.md` (review and translation modes) and `skill/scripts/po_tool.py`. Scripts verified: rebuilding both rounds' `corrected.po` from decisions gives identical files.
+- Translation memory is off in the skill until decided.
 
 ### common strings (separate repository)
 
