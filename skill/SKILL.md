@@ -53,7 +53,7 @@ Rules for review:
 - **Change only what is wrong.** If the translation is good enough, approve it even when you know a more correct option; see "Cuándo cambiar una cadena" in `resources/quick-reference.md`. When you do change a string, keep the translator's wording except for the error.
 - Read every translation against the source for meaning, not only for terms: prepositions, who does the action, words added or lost.
 - The generic masculine is not a reason to reject.
-- Consistency inside the file: the same source string or formula must get the same translation. In changelogs, do not change an entry only because its verb form differs from the others.
+- Consistency inside the file: the same source string or formula must get the same translation. If the work folder has a `current.po` (strings already approved in the project), keep the waiting strings consistent with it: terms, names of options and tabs, verb forms. In changelogs, do not change an entry only because its verb form differs from the others.
 - Product, plugin and theme names are not translated. Lists of languages, plans or tabs use lowercase after the first word.
 - Check placeholders, HTML tags, entities, URLs and `\n` against `msgid`.
 

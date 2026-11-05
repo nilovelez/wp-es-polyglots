@@ -7,8 +7,8 @@ Last updated: 2026-11-05.
 **M2 – Skill-driven review rounds.** A Sonnet session ("Traductor - Sonnet") translates and reviews using only `skill/`; the Opus session audits and improves the skill. Steps:
 
 1. Write `skill/SKILL.md` and `skill/scripts/po_tool.py`. Done.
-2. Blind benchmark on rounds 01 and 02 against the human-approved `corrected.po`. In progress.
-3. First real round from the waiting queue (download with GlotPress or `polyglots fetch --no-ai`).
+2. Blind benchmark on rounds 01 and 02 against the human-approved `corrected.po`. Done: 9/26 with skill v1, 39/50 with v2; v3 adds `lint` (see `skill/benchmark-log.md`).
+3. Real rounds from the waiting queue with Nilo's feedback, following `review/README.md`. In progress.
 
 M1 (reorganize the repository and document the current state) is done.
 

@@ -2,26 +2,39 @@
 
 Goal: clear the es_ES *waiting* queue fast, and learn from every round.
 
+## Who does what
+
+- **Nilo** picks the project, gives feedback on the proposed changes, uploads `corrected.po` and approves the rest. Only Nilo uploads or approves.
+- **Translator session** ("Traductor - Sonnet") reviews the strings using only `skill/SKILL.md` and `resources/`. It writes only in the round folder.
+- **Maintainer session** (Opus) downloads the round, sends it to the translator, pre-checks its output, turns Nilo's feedback into changes in `resources/` and `skill/`, and logs the round.
+
 ## Round
 
-1. Nilo runs, on Marcianito, `polyglots fetch <project url> --get waiting` (without `--no-ai` it also does a first review) and hands over the original `.po` and the `-repaired.po`.
-2. Claude creates `rounds/NN-project/` with `original.po` and `repaired.po`, and builds `corrected.po` with **only the strings that must change compared with the original**:
-   - header from the original; keep its `#.` and `#,` comments; drop `# polyglots:` comments;
-   - if a tool fix is wrong, the string goes back to its original state (it does not appear in `corrected.po`);
-   - check that HTML tags, entities, URLs, placeholders (`%s`, `{id}`…) and `\n` match the original.
-3. Nilo reviews it, gives feedback and uploads it. As PTE, the upload replaces the waiting strings and can mark them approved or waiting; then he approves the rest.
-4. Claude updates the rules (`polyglots/rules/`), logs the round in `polyglots/calibration-log.md`, and moves general criteria to `resources/`. Deliver the new YAML with a short summary.
-5. Nilo applies the YAML on Marcianito and moves on to the next project.
+1. Nilo gives the project URL, e.g. `https://translate.wordpress.org/projects/wp-plugins/<slug>/stable-readme/es/default/`.
+2. Maintainer downloads it (no login needed):
+   ```
+   python3 review/fetch_round.py <project url>
+   ```
+   This creates `rounds/NN-<slug>-<subproject>/` with `original.po` (waiting) and `current.po` (approved, for consistency).
+3. Translator runs the skill in review mode with the round folder as work folder: `decisions.jsonl`, `corrected.po` (only the strings to change) and `review.md` (table of decisions).
+4. Maintainer pre-checks the decisions and gives Nilo a short list: proposed changes, doubts, anything suspicious.
+5. Nilo gives feedback. The translator (or the maintainer) updates `decisions.jsonl` and rebuilds `corrected.po`.
+6. Nilo uploads `corrected.po` (as PTE it replaces the waiting strings; he chooses approved or waiting) and approves the rest.
+7. Maintainer turns the feedback into criteria (`resources/quick-reference.md`, style guide, glossary notes), skill changes or lint changes, and logs the round in `skill/benchmark-log.md`. Feedback on a single case is a candidate; it becomes a rule when it repeats or when the guide or glossary already say it.
 
-Reference for verdicts and upload permissions: `resources/moderation-guide.md` and section 7 of `resources/style-guide.md`.
+The `polyglots` tool and Ollama are not part of this loop for now.
 
 ## Round folder
 
 ```
 rounds/NN-project/
   original.po          waiting strings as downloaded
-  repaired.po          tool output
+  current.po           approved strings of the project
+  entries.jsonl        extracted entries (skill)
+  decisions.jsonl      translator decisions, updated with Nilo's feedback
   corrected.po         only the strings to change (what Nilo uploads)
-  make-corrected.py    script that built corrected.po (optional)
-  *.md                 round notes (Spanish)
+  review.md            table of decisions
+  notes.md             round notes and Nilo's feedback (Spanish, optional)
 ```
+
+Rounds 01 and 02 predate this flow: they also have `repaired.po` (output of the `polyglots` tool) and a one-off `make-corrected.py`.
