@@ -1,0 +1,1072 @@
+# Translation of Plugins - BetterDocs – AI Documentation, Knowledge Base, MCP Server, Docs, Wikis, FAQ &amp; Chatbot - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - BetterDocs – AI Documentation, Knowledge Base, MCP Server, Docs, Wikis, FAQ &amp; Chatbot - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-10-06 22:10:09+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.1.0\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - BetterDocs – AI Documentation, Knowledge Base, MCP Server, Docs, Wikis, FAQ &amp; Chatbot - Stable (latest release)\n"
+
+#: includes/Core/Settings.php:1728
+msgid "Title on Breadcrumb"
+msgstr "Título en las migas de pan"
+
+#: includes/Core/Settings.php:1719
+msgid "Category on Breadcrumb"
+msgstr "Categoría en las migas de pan"
+
+#: includes/Core/Settings.php:1561
+msgid "TOC"
+msgstr "TOC"
+
+#: includes/Core/Settings.php:1503
+msgid "Comment"
+msgstr "Comentario"
+
+#: includes/Core/Settings.php:1495 assets/build/blocks/editor.js:1
+#: react-src/gutenberg/blocks/doc-navigation/src/inspector.js:71
+msgid "Navigation"
+msgstr "Navegación"
+
+#: includes/Core/Settings.php:1487
+msgid "Last Update Time"
+msgstr "Hora de la última actualización"
+
+#: includes/Core/Settings.php:1435
+msgid "Print Icon"
+msgstr "Icono de imprimir"
+
+#: includes/Core/Settings.php:1427 includes/Core/Settings.php:2030
+msgid "Sidebar Category List"
+msgstr "Lista de categorías de la barra lateral"
+
+#: includes/Core/Settings.php:1280
+msgid "KB Based Search"
+msgstr "Búsqueda basada en la base de conocimiento"
+
+# [Corrección] Los puntos suspensivos se respetan como vienen en el original: «...», no «…».
+# Original: Buscar…
+#: includes/Core/Settings.php:1252
+#, fuzzy
+msgid "Search.."
+msgstr "Buscar..."
+
+#: includes/Core/Settings.php:1218 includes/Core/SetupWizard.php:432
+msgid "Advanced Search"
+msgstr "Búsqueda avanzada"
+
+#: includes/Core/Settings.php:1193
+msgid "Popular Docs Number"
+msgstr "Número de documentos populares"
+
+#: includes/Core/Settings.php:1185
+msgid "Popular Docs Text"
+msgstr "Texto de documentos populares"
+
+#: includes/Core/Settings.php:1177
+msgid "Explore More Button Text"
+msgstr "Texto del botón para explorar más"
+
+#: includes/Core/Settings.php:1147
+msgid "Doc Count"
+msgstr "Recuento de documentos"
+
+#: includes/Core/Settings.php:1140
+msgid "This setting is not applicable for handbook layout."
+msgstr "Este ajuste no se aplica al diseño de manual."
+
+#: includes/Core/Settings.php:1123 assets/build/blocks/editor.js:1
+#: react-src/gutenberg/blocks/sidebar/src/inspector.js:1286
+msgid "Nested Sub Category"
+msgstr "Subcategoría anidada"
+
+#: includes/Core/Settings.php:1021 includes/Core/Settings.php:1027
+msgid "Layout Settings"
+msgstr "Ajustes de diseño"
+
+# [Rechazo] Según el glosario, «schema» y «FAQ» no se traducen: «Schema de FAQ».
+# Original: Esquema de preguntas frecuentes
+#: includes/Core/Settings.php:974 includes/Core/SetupWizard.php:422
+#, fuzzy
+msgid "FAQ Schema"
+msgstr "Schema de FAQ"
+
+#: includes/Core/Settings.php:884 includes/Core/SetupWizard.php:340
+msgid "Built-in Documentation Page"
+msgstr "Página de documentación integrada"
+
+#: includes/Abilities/StubAbility.php:180 includes/Core/Settings.php:875
+#: assets/build/admin/js/dashboard.js:5
+#: react-src/admin/dashboard-overview/index.js:98
+msgid "Multiple Knowledge Base"
+msgstr "Varias bases de conocimiento"
+
+#: includes/Core/Settings.php:847 assets/build/admin/js/dashboard.js:4
+#: assets/build/admin/js/dashboard.js:5
+#: react-src/admin/settings/fields/BetterRepeater.js:285
+#: react-src/admin/settings/fields/EditAIActions.js:315
+#: react-src/admin/settings/fields/WwaInstructions.js:329
+msgid "Save"
+msgstr "Guardar"
+
+#: includes/blocks.php:161
+msgid "Betterdocs Print"
+msgstr "Impresión de BetterDocs"
+
+#: includes/blocks.php:81
+msgid "Doc Archive List"
+msgstr "Lista del archivo de documentos"
+
+#: includes/blocks.php:65 assets/build/blocks/editor.js:1
+#: react-src/gutenberg/blocks/breadcrumb/index.js:145
+#: react-src/gutenberg/blocks/breadcrumb/src/index.js:11
+msgid "BetterDocs Breadcrumb"
+msgstr "Migas de pan de BetterDocs"
+
+#: includes/Editors/Elementor/Widget/Sidebar.php:1217
+#: includes/Editors/Elementor/Widget/Sidebar.php:1402
+#: assets/build/admin/js/dashboard.js:22 react-src/admin/mcp/index.js:82
+msgid "Active"
+msgstr "Activo"
+
+# [Corrección] Los puntos suspensivos se respetan como vienen en el original: «...», no «…».
+# Original: Guardando…
+#: includes/Core/Settings.php:848
+#, fuzzy
+msgid "Saving..."
+msgstr "Guardando..."
+
+#: includes/Core/PostType.php:1077 includes/Core/PostType.php:1140
+msgid "You don't have permission to update docs term."
+msgstr "No tienes permiso para actualizar el término de documentos."
+
+#: includes/Core/PostType.php:1017
+msgid "You don't have permission to manage docs term."
+msgstr "No tienes permiso para gestionar el término de documentos."
+
+#: includes/REST/Settings.php:335
+msgid "There are no changes to be saved."
+msgstr "No hay cambios que guardar."
+
+#: assets/build/blocks/editor.js:1
+#: react-src/gutenberg/blocks/reactions/index.js:859
+#: react-src/gutenberg/blocks/sidebar/index.js:918
+#: react-src/gutenberg/blocks/social-share/index.js:891
+#: react-src/gutenberg/blocks/table-of-contents/index.js:847
+#: react-src/gutenberg/util/border-shadow-control/index.js:471
+msgid "Shadow Transition"
+msgstr "Transición de sombra"
+
+#: assets/build/blocks/editor.js:1
+#: react-src/gutenberg/blocks/reactions/index.js:859
+#: react-src/gutenberg/blocks/sidebar/index.js:918
+#: react-src/gutenberg/blocks/social-share/index.js:891
+#: react-src/gutenberg/blocks/table-of-contents/index.js:847
+#: react-src/gutenberg/util/border-shadow-control/index.js:380
+msgid "Hover Shadow Color"
+msgstr "Color de la sombra al pasar el cursor"
+
+#: assets/build/blocks/editor.js:1
+#: react-src/gutenberg/blocks/reactions/index.js:859
+#: react-src/gutenberg/blocks/sidebar/index.js:918
+#: react-src/gutenberg/blocks/social-share/index.js:891
+#: react-src/gutenberg/blocks/table-of-contents/index.js:847
+#: react-src/gutenberg/util/border-shadow-control/index.js:357
+#: react-src/gutenberg/util/border-shadow-control/index.js:458
+msgid "Shadow Spread"
+msgstr "Expansión de la sombra"
+
+#: assets/build/blocks/editor.js:1
+#: react-src/gutenberg/blocks/reactions/index.js:859
+#: react-src/gutenberg/blocks/sidebar/index.js:918
+#: react-src/gutenberg/blocks/social-share/index.js:891
+#: react-src/gutenberg/blocks/table-of-contents/index.js:847
+#: react-src/gutenberg/util/border-shadow-control/index.js:337
+#: react-src/gutenberg/util/border-shadow-control/index.js:438
+msgid "Shadow Blur"
+msgstr "Desenfoque de la sombra"
+
+#: assets/build/blocks/editor.js:1
+#: react-src/gutenberg/blocks/reactions/index.js:859
+#: react-src/gutenberg/blocks/sidebar/index.js:918
+#: react-src/gutenberg/blocks/social-share/index.js:891
+#: react-src/gutenberg/blocks/table-of-contents/index.js:847
+#: react-src/gutenberg/util/border-shadow-control/index.js:319
+#: react-src/gutenberg/util/border-shadow-control/index.js:418
+msgid "Vertical Offset"
+msgstr "Desplazamiento vertical"
+
+#: assets/build/blocks/editor.js:1
+#: react-src/gutenberg/blocks/reactions/index.js:859
+#: react-src/gutenberg/blocks/sidebar/index.js:918
+#: react-src/gutenberg/blocks/social-share/index.js:891
+#: react-src/gutenberg/blocks/table-of-contents/index.js:847
+#: react-src/gutenberg/util/border-shadow-control/index.js:299
+#: react-src/gutenberg/util/border-shadow-control/index.js:398
+msgid "Horizontal Offset"
+msgstr "Desplazamiento horizontal"
+
+#: assets/build/blocks/editor.js:1
+#: react-src/gutenberg/blocks/reactions/index.js:859
+#: react-src/gutenberg/blocks/sidebar/index.js:918
+#: react-src/gutenberg/blocks/social-share/index.js:891
+#: react-src/gutenberg/blocks/table-of-contents/index.js:847
+#: react-src/gutenberg/util/border-shadow-control/index.js:282
+msgid "Shadow Color"
+msgstr "Color de la sombra"
+
+#: assets/build/blocks/editor.js:1
+#: react-src/gutenberg/blocks/reactions/index.js:859
+#: react-src/gutenberg/blocks/sidebar/index.js:918
+#: react-src/gutenberg/blocks/social-share/index.js:891
+#: react-src/gutenberg/blocks/table-of-contents/index.js:847
+#: react-src/gutenberg/util/border-shadow-control/index.js:209
+msgid "Border Radius Transition"
+msgstr "Transición del radio del borde"
+
+#: assets/build/blocks/editor.js:1
+#: react-src/gutenberg/blocks/reactions/index.js:859
+#: react-src/gutenberg/blocks/sidebar/index.js:918
+#: react-src/gutenberg/blocks/social-share/index.js:891
+#: react-src/gutenberg/blocks/table-of-contents/index.js:847
+#: react-src/gutenberg/util/border-shadow-control/index.js:187
+msgid "Border Transition"
+msgstr "Transición del borde"
+
+#: assets/build/blocks/editor.js:1
+#: react-src/gutenberg/blocks/reactions/index.js:859
+#: react-src/gutenberg/blocks/sidebar/index.js:918
+#: react-src/gutenberg/blocks/social-share/index.js:891
+#: react-src/gutenberg/blocks/table-of-contents/index.js:847
+#: react-src/gutenberg/util/border-shadow-control/index.js:100
+#: react-src/gutenberg/util/border-shadow-control/index.js:155
+msgid "Ridge"
+msgstr "Cresta"
+
+#: assets/build/blocks/editor.js:1
+#: react-src/gutenberg/blocks/reactions/index.js:859
+#: react-src/gutenberg/blocks/sidebar/index.js:918
+#: react-src/gutenberg/blocks/social-share/index.js:891
+#: react-src/gutenberg/blocks/table-of-contents/index.js:847
+#: react-src/gutenberg/util/border-shadow-control/index.js:99
+#: react-src/gutenberg/util/border-shadow-control/index.js:154
+msgid "Outset"
+msgstr "Relieve hacia fuera"
+
+#: assets/build/blocks/editor.js:1
+#: react-src/gutenberg/blocks/reactions/index.js:859
+#: react-src/gutenberg/blocks/sidebar/index.js:918
+#: react-src/gutenberg/blocks/social-share/index.js:891
+#: react-src/gutenberg/blocks/table-of-contents/index.js:847
+#: react-src/gutenberg/util/border-shadow-control/index.js:98
+#: react-src/gutenberg/util/border-shadow-control/index.js:153
+#: react-src/gutenberg/util/border-shadow-control/index.js:268
+msgid "Inset"
+msgstr "Relieve hacia dentro"
+
+#: assets/build/blocks/editor.js:1
+#: react-src/gutenberg/blocks/reactions/index.js:859
+#: react-src/gutenberg/blocks/sidebar/index.js:918
+#: react-src/gutenberg/blocks/social-share/index.js:891
+#: react-src/gutenberg/blocks/table-of-contents/index.js:847
+#: react-src/gutenberg/util/border-shadow-control/index.js:97
+#: react-src/gutenberg/util/border-shadow-control/index.js:152
+msgid "Groove"
+msgstr "Ranura"
+
+#: assets/build/blocks/editor.js:1
+#: react-src/gutenberg/blocks/reactions/index.js:859
+#: react-src/gutenberg/blocks/sidebar/index.js:918
+#: react-src/gutenberg/blocks/social-share/index.js:891
+#: react-src/gutenberg/blocks/table-of-contents/index.js:847
+#: react-src/gutenberg/util/border-shadow-control/index.js:96
+#: react-src/gutenberg/util/border-shadow-control/index.js:151
+msgid "Double"
+msgstr "Doble"
+
+#: assets/build/blocks/editor.js:1
+#: react-src/gutenberg/blocks/reactions/index.js:859
+#: react-src/gutenberg/blocks/sidebar/index.js:918
+#: react-src/gutenberg/blocks/social-share/index.js:891
+#: react-src/gutenberg/blocks/table-of-contents/index.js:847
+#: react-src/gutenberg/util/border-shadow-control/index.js:95
+#: react-src/gutenberg/util/border-shadow-control/index.js:150
+msgid "Dotted"
+msgstr "Punteado"
+
+#: assets/build/blocks/editor.js:1
+#: react-src/gutenberg/blocks/reactions/index.js:859
+#: react-src/gutenberg/blocks/sidebar/index.js:918
+#: react-src/gutenberg/blocks/social-share/index.js:891
+#: react-src/gutenberg/blocks/table-of-contents/index.js:847
+#: react-src/gutenberg/util/border-shadow-control/index.js:94
+#: react-src/gutenberg/util/border-shadow-control/index.js:149
+msgid "Solid"
+msgstr "Sólido"
+
+#: assets/build/blocks/editor.js:1
+#: react-src/gutenberg/blocks/reactions/index.js:859
+#: react-src/gutenberg/blocks/sidebar/index.js:918
+#: react-src/gutenberg/blocks/social-share/index.js:891
+#: react-src/gutenberg/blocks/table-of-contents/index.js:847
+#: react-src/gutenberg/util/border-shadow-control/index.js:93
+#: react-src/gutenberg/util/border-shadow-control/index.js:148
+msgid "Dashed"
+msgstr "Discontinuo"
+
+#: assets/build/admin/js/dashboard.js:5 assets/build/blocks/editor.js:1
+#: react-src/admin/dashboard/components/GridQuickEdit.js:265
+#: react-src/admin/dashboard/components/QuickEdit.js:262
+#: react-src/gutenberg/blocks/breadcrumb/index.js:1063
+#: react-src/gutenberg/blocks/doc-content/index.js:1063
+#: react-src/gutenberg/blocks/doc-date/index.js:1027
+#: react-src/gutenberg/blocks/doc-navigation/index.js:1063
+#: react-src/gutenberg/blocks/reactions/index.js:859
+#: react-src/gutenberg/blocks/reactions/index.js:1099
+#: react-src/gutenberg/blocks/sidebar/index.js:918
+#: react-src/gutenberg/blocks/sidebar/index.js:1218
+#: react-src/gutenberg/blocks/social-share/index.js:891
+#: react-src/gutenberg/blocks/social-share/index.js:1131
+#: react-src/gutenberg/blocks/table-of-contents/index.js:847
+#: react-src/gutenberg/blocks/table-of-contents/index.js:1087
+#: react-src/gutenberg/util/border-shadow-control/index.js:92
+#: react-src/gutenberg/util/border-shadow-control/index.js:147
+#: react-src/gutenberg/util/typography-control-v2/constants.js:24
+#: react-src/gutenberg/util/typography-control-v2/constants.js:32
+#: react-src/gutenberg/util/typography-control/constants.js:53
+msgid "None"
+msgstr "Ninguno"
+
+#: assets/build/blocks/editor.js:1
+#: react-src/gutenberg/blocks/reactions/index.js:859
+#: react-src/gutenberg/blocks/sidebar/index.js:918
+#: react-src/gutenberg/blocks/social-share/index.js:891
+#: react-src/gutenberg/blocks/table-of-contents/index.js:847
+#: react-src/gutenberg/util/border-shadow-control/index.js:89
+#: react-src/gutenberg/util/border-shadow-control/index.js:144
+msgid "Border Style"
+msgstr "Estilo del borde"
+
+#: assets/build/blocks/editor.js:1
+#: react-src/gutenberg/blocks/sidebar/index.js:990
+#: react-src/gutenberg/util/gradient-color-controller/index.js:230
+msgid "Center Y Position"
+msgstr "Posición central en Y"
+
+#: assets/build/blocks/editor.js:1
+#: react-src/gutenberg/blocks/sidebar/index.js:990
+#: react-src/gutenberg/util/gradient-color-controller/index.js:222
+msgid "Center X Position"
+msgstr "Posición central en X"
+
+#: assets/build/blocks/editor.js:1
+#: react-src/gutenberg/blocks/sidebar/index.js:990
+#: react-src/gutenberg/util/gradient-color-controller/index.js:202
+msgid "Second Color Position"
+msgstr "Posición del segundo color"
+
+#: assets/build/blocks/editor.js:1
+#: react-src/gutenberg/blocks/sidebar/index.js:990
+#: react-src/gutenberg/util/gradient-color-controller/index.js:194
+msgid "First Color Position"
+msgstr "Posición del primer color"
+
+#: assets/build/blocks/editor.js:1
+#: react-src/gutenberg/blocks/sidebar/index.js:990
+#: react-src/gutenberg/util/gradient-color-controller/index.js:118
+msgid "Radial Type"
+msgstr "Tipo radial"
+
+#: assets/build/blocks/editor.js:1
+#: react-src/gutenberg/blocks/sidebar/index.js:990
+#: react-src/gutenberg/util/gradient-color-controller/index.js:104
+msgid "Gradient Type"
+msgstr "Tipo de degradado"
+
+#: assets/build/blocks/editor.js:1 react-src/gutenberg/components/NotFound.js:7
+msgid "No category found."
+msgstr "No se ha encontrado ninguna categoría."
+
+#: assets/build/blocks/editor.js:1
+#: react-src/gutenberg/blocks/searchbox/src/inspector.js:944
+msgid "Item Hover Color"
+msgstr "Color del elemento al pasar el cursor"
+
+#: assets/build/blocks/editor.js:1
+#: react-src/gutenberg/blocks/categorygrid/src/index.js:26
+msgid "category grid"
+msgstr "cuadrícula de categorías"
+
+#: assets/build/blocks/editor.js:1
+#: react-src/gutenberg/blocks/categorygrid/src/inspector.js:906
+msgid "Icon Positon"
+msgstr "Posición del icono"
+
+#: assets/build/blocks/editor.js:1
+#: react-src/gutenberg/blocks/categorygrid/src/inspector.js:584
+msgid "Grid Margin"
+msgstr "Margen de la cuadrícula"
+
+# [Rechazo] Según el glosario, «masonry» se traduce como «mosaico».
+# Original: Guarda y vuelve a cargar la página de vista para ver el efecto de las columnas y el espacio en el diseño de mampostería
+#: assets/build/blocks/editor.js:1
+#: react-src/gutenberg/blocks/categorygrid/src/inspector.js:398
+#, fuzzy
+msgid "Please save and reload the view page to get the effect of column and space on masonry layout"
+msgstr "Guarda y vuelve a cargar la página de vista para ver el efecto de las columnas y el espacio en el diseño de mosaico"
+
+#: assets/build/blocks/editor.js:1
+#: react-src/gutenberg/blocks/categorygrid/src/inspector.js:358
+msgid "Doc Per Subcategory"
+msgstr "Documentos por subcategoría"
+
+#: assets/build/blocks/editor.js:1
+#: react-src/gutenberg/blocks/category-slate-layout/src/inspector.js:208
+#: react-src/gutenberg/blocks/categorygrid/src/inspector.js:295
+#: react-src/gutenberg/blocks/sidebar/index.js:180
+msgid "Docs Per Page"
+msgstr "Documentos por página"
+
+#: assets/build/blocks/editor.js:1
+#: react-src/gutenberg/blocks/category-slate-layout/src/inspector.js:204
+#: react-src/gutenberg/blocks/categorygrid/src/inspector.js:291
+msgid "Grid List Docs"
+msgstr "Documentos de la lista de cuadrícula"
+
+#: includes/blocks.php:185 includes/Editors/Elementor/Widget/DocAuthor.php:24
+#: assets/build/blocks/editor.js:1
+#: react-src/gutenberg/blocks/category-slate-layout/src/constants.js:73
+#: react-src/gutenberg/blocks/categorygrid/src/constants.js:18
+#: react-src/gutenberg/blocks/doc-archive-list/src/constants.js:6
+#: react-src/gutenberg/blocks/faq/src/constants.js:18
+#: react-src/gutenberg/blocks/sidebar/src/constants.js:53
+msgid "Doc Author"
+msgstr "Autor del documento"
+
+#: assets/build/blocks/editor.js:1
+#: react-src/gutenberg/blocks/category-slate-layout/src/constants.js:72
+#: react-src/gutenberg/blocks/categorygrid/src/constants.js:17
+#: react-src/gutenberg/blocks/doc-archive-list/src/constants.js:5
+#: react-src/gutenberg/blocks/faq/src/constants.js:17
+#: react-src/gutenberg/blocks/sidebar/src/constants.js:52
+msgid "Doc ID"
+msgstr "ID del documento"
+
+#: assets/build/blocks/editor.js:1
+#: react-src/gutenberg/blocks/categorybox/src/inspector.js:407
+msgid "Icon Area"
+msgstr "Área del icono"
+
+#: assets/build/blocks/editor.js:1
+#: react-src/gutenberg/blocks/categorybox/src/constants.js:37
+#: react-src/gutenberg/blocks/categorygrid/src/constants.js:53
+#: react-src/gutenberg/blocks/faq/src/constants.js:65
+msgid "div"
+msgstr "div"
+
+#: assets/build/blocks/editor.js:1
+#: react-src/gutenberg/blocks/breadcrumb/index.js:145
+#: react-src/gutenberg/blocks/breadcrumb/src/index.js:16
+#: react-src/gutenberg/blocks/categorybox/src/index.js:27
+#: react-src/gutenberg/blocks/doc-archive-list/index.js:145
+#: react-src/gutenberg/blocks/doc-archive-list/src/index.js:17
+#: react-src/gutenberg/blocks/doc-author/src/index.js:19
+#: react-src/gutenberg/blocks/doc-content/index.js:145
+#: react-src/gutenberg/blocks/doc-content/src/index.js:17
+#: react-src/gutenberg/blocks/doc-date/index.js:133
+#: react-src/gutenberg/blocks/doc-navigation/index.js:145
+#: react-src/gutenberg/blocks/doc-navigation/src/index.js:17
+#: react-src/gutenberg/blocks/feedback-form/src/index.js:16
+#: react-src/gutenberg/blocks/reactions/index.js:145
+#: react-src/gutenberg/blocks/reactions/src/index.js:17
+#: react-src/gutenberg/blocks/reading-time/src/index.js:21
+#: react-src/gutenberg/blocks/searchbox/src/index.js:28
+#: react-src/gutenberg/blocks/sidebar/index.js:168
+#: react-src/gutenberg/blocks/sidebar/src/index.js:17
+#: react-src/gutenberg/blocks/social-share/index.js:177
+#: react-src/gutenberg/blocks/social-share/src/index.js:13
+#: react-src/gutenberg/blocks/table-of-contents/index.js:133
+#: react-src/gutenberg/blocks/table-of-contents/src/index.js:16
+msgid "better docs"
+msgstr "better docs"
+
+#: includes/Editors/Elementor/Widget/ArticleSummary.php:153
+#: includes/Editors/Elementor/Widget/ArticleSummary.php:276
+#: assets/build/blocks/editor.js:1
+#: react-src/gutenberg/blocks/archive-header/src/inspector.js:165
+#: react-src/gutenberg/blocks/archive-header/src/inspector.js:185
+#: react-src/gutenberg/blocks/article-summary/src/inspector.js:92
+#: react-src/gutenberg/blocks/article-summary/src/inspector.js:128
+#: react-src/gutenberg/blocks/breadcrumb/index.js:157
+#: react-src/gutenberg/blocks/breadcrumb/src/inspector.js:69
+#: react-src/gutenberg/blocks/category-slate-layout/src/inspector.js:315
+#: react-src/gutenberg/blocks/category-slate-layout/src/inspector.js:348
+#: react-src/gutenberg/blocks/categorybox/src/inspector.js:476
+#: react-src/gutenberg/blocks/categorybox/src/inspector.js:519
+#: react-src/gutenberg/blocks/categorybox/src/inspector.js:562
+#: react-src/gutenberg/blocks/categorygrid/src/inspector.js:614
+#: react-src/gutenberg/blocks/categorygrid/src/inspector.js:671
+#: react-src/gutenberg/blocks/categorygrid/src/inspector.js:742
+#: react-src/gutenberg/blocks/categorygrid/src/inspector.js:927
+#: react-src/gutenberg/blocks/doc-archive-list/src/inspector.js:249
+#: react-src/gutenberg/blocks/doc-archive-list/src/inspector.js:443
+#: react-src/gutenberg/blocks/doc-archive-list/src/inspector.js:457
+#: react-src/gutenberg/blocks/doc-archive-list/src/inspector.js:577
+#: react-src/gutenberg/blocks/doc-author/src/inspector.js:76
+#: react-src/gutenberg/blocks/doc-author/src/inspector.js:89
+#: react-src/gutenberg/blocks/doc-content/index.js:157
+#: react-src/gutenberg/blocks/doc-content/src/inspector.js:45
+#: react-src/gutenberg/blocks/doc-date/index.js:145
+#: react-src/gutenberg/blocks/doc-date/src/inspector.js:81
+#: react-src/gutenberg/blocks/doc-navigation/index.js:157
+#: react-src/gutenberg/blocks/doc-navigation/src/inspector.js:83
+#: react-src/gutenberg/blocks/docs-tag/src/inspector.js:75
+#: react-src/gutenberg/blocks/faq/src/inspector.js:379
+#: react-src/gutenberg/blocks/faq/src/inspector.js:421
+#: react-src/gutenberg/blocks/faq/src/inspector.js:461
+#: react-src/gutenberg/blocks/faq/src/inspector.js:513
+#: react-src/gutenberg/blocks/feedback-form/src/inspector.js:178
+#: react-src/gutenberg/blocks/reactions/index.js:157
+#: react-src/gutenberg/blocks/reactions/src/inspector.js:159
+#: react-src/gutenberg/blocks/reactions/src/inspector.js:229
+#: react-src/gutenberg/blocks/reading-time/src/inspector.js:290
+#: react-src/gutenberg/blocks/reading-time/src/inspector.js:319
+#: react-src/gutenberg/blocks/reading-time/src/inspector.js:380
+#: react-src/gutenberg/blocks/searchbox/src/inspector.js:469
+#: react-src/gutenberg/blocks/searchbox/src/inspector.js:714
+#: react-src/gutenberg/blocks/searchbox/src/inspector.js:751
+#: react-src/gutenberg/blocks/searchbox/src/inspector.js:767
+#: react-src/gutenberg/blocks/searchbox/src/inspector.js:797
+#: react-src/gutenberg/blocks/searchbox/src/inspector.js:834
+#: react-src/gutenberg/blocks/searchbox/src/inspector.js:877
+#: react-src/gutenberg/blocks/searchbox/src/inspector.js:930
+#: react-src/gutenberg/blocks/sidebar/index.js:180
+#: react-src/gutenberg/blocks/sidebar/src/inspector.js:879
+#: react-src/gutenberg/blocks/sidebar/src/inspector.js:1003
+#: react-src/gutenberg/blocks/sidebar/src/inspector.js:1085
+#: react-src/gutenberg/blocks/sidebar/src/inspector.js:1354
+#: react-src/gutenberg/blocks/sidebar/src/inspector.js:1374
+#: react-src/gutenberg/blocks/sidebar/src/inspector.js:1525
+#: react-src/gutenberg/blocks/sidebar/src/inspector.js:1597
+#: react-src/gutenberg/blocks/sidebar/src/inspector.js:1634
+#: react-src/gutenberg/blocks/sidebar/src/inspector.js:1650
+#: react-src/gutenberg/blocks/sidebar/src/inspector.js:1688
+#: react-src/gutenberg/blocks/sidebar/src/inspector.js:1725
+#: react-src/gutenberg/blocks/table-of-contents/index.js:145
+#: react-src/gutenberg/blocks/table-of-contents/src/inspector.js:248
+#: react-src/gutenberg/blocks/table-of-contents/src/inspector.js:298
+msgid "Typography"
+msgstr "Tipografía"
+
+#: assets/build/blocks/editor.js:1
+#: react-src/gutenberg/blocks/categorybox/src/constants.js:36
+#: react-src/gutenberg/blocks/categorygrid/src/constants.js:52
+#: react-src/gutenberg/blocks/faq/src/constants.js:64
+msgid "p"
+msgstr "p"
+
+#: assets/build/blocks/editor.js:1
+#: react-src/gutenberg/blocks/categorybox/src/constants.js:35
+#: react-src/gutenberg/blocks/categorygrid/src/constants.js:51
+#: react-src/gutenberg/blocks/faq/src/constants.js:63
+msgid "span"
+msgstr "span"
+
+#: assets/build/admin/js/dashboard.js:5 assets/build/admin/js/quick-setup.js:1
+#: react-src/admin/quick-setup/fields/FinishPanel.js:51
+#: react-src/admin/quick-setup/fields/Launch.js:43
+#: react-src/admin/settings/quickbuilder/QuickBuild.jsx:86
+msgid "Changes Saved Successfully."
+msgstr "Cambios guardados correctamente."
+
+#: assets/build/admin/js/dashboard.js:5 assets/build/admin/js/quick-setup.js:1
+#: react-src/admin/utils/proAlert.js:14
+msgid "Text Goes Here: text"
+msgstr "El texto va aquí: text"
+
+#: assets/build/admin/js/dashboard.js:5 assets/build/admin/js/quick-setup.js:1
+#: react-src/admin/utils/proAlert.js:13
+msgid "Title Goes Here: title"
+msgstr "El título va aquí: title"
+
+#: assets/build/admin/js/dashboard.js:4 assets/build/admin/js/quick-setup.js:1
+msgid "Not an array."
+msgstr "No es un array."
+
+#: assets/build/admin/js/dashboard.js:4 assets/build/admin/js/quick-setup.js:1
+msgid "There are no #tabs args defined in props."
+msgstr "No hay argumentos #tabs definidos en las props."
+
+#: assets/build/admin/js/dashboard.js:4 assets/build/admin/js/quick-setup.js:1
+msgid "Save Changes"
+msgstr "Guardar los cambios"
+
+# [Rechazo] Según el glosario, «modal» se traduce como «emergente»: «ventana emergente».
+# Original: La ventana modal necesita un botón o un cuerpo junto a ella.
+#: assets/build/admin/js/dashboard.js:4 assets/build/admin/js/quick-setup.js:1
+#, fuzzy
+msgid "Modal needs button/body with it."
+msgstr "La ventana emergente necesita un botón o un cuerpo junto a ella."
+
+#: assets/build/admin/js/dashboard.js:4 assets/build/admin/js/quick-setup.js:1
+msgid "Button has a required params #text."
+msgstr "El botón tiene un parámetro obligatorio #text."
+
+#: assets/build/admin/js/dashboard.js:4 assets/build/admin/js/quick-setup.js:1
+msgid "Please input a minimum of 3 characters."
+msgstr "Introduce un mínimo de 3 caracteres."
+
+#: assets/build/admin/js/dashboard.js:4 assets/build/admin/js/quick-setup.js:1
+msgid "#options is a required arguments for RadioCard field."
+msgstr "#options es un argumento obligatorio para el campo RadioCard."
+
+# [Corrección] Los puntos suspensivos se respetan como vienen en el original: «...», no «…».
+# Original: Cargando…
+#: assets/build/admin/js/dashboard.js:4 assets/build/admin/js/quick-setup.js:1
+#, fuzzy
+msgid "Loading..."
+msgstr "Cargando..."
+
+#: assets/build/admin/js/dashboard.js:4 assets/build/admin/js/quick-setup.js:1
+msgid "You should give a #fields arguments to a group field."
+msgstr "Debes dar argumentos #fields a un campo de grupo."
+
+#: assets/build/admin/js/dashboard.js:4 assets/build/admin/js/quick-setup.js:1
+#: react-src/admin/settings/fields/ImporterUpload.js:104
+#: react-src/admin/settings/fields/SettingsUploader.js:30
+msgid "Invalid file type."
+msgstr "Tipo de archivo no válido."
+
+#: assets/build/admin/js/dashboard.js:4 assets/build/admin/js/dashboard.js:5
+#: assets/build/admin/js/quick-setup.js:1
+#: react-src/admin/settings/fields/ImporterUpload.js:90
+#: react-src/admin/settings/fields/SettingsUploader.js:26
+#: react-src/admin/settings/fields/WwaInstructions.js:191
+msgid "File can't be empty."
+msgstr "El archivo no puede estar vacío."
+
+#: assets/build/admin/js/dashboard.js:4 assets/build/admin/js/dashboard.js:5
+#: assets/build/admin/js/quick-setup.js:1
+#: react-src/admin/api-docs/ApiDocsMock.js:32
+#: react-src/admin/api-docs/ApiDocsMock.js:34
+msgid "Upload"
+msgstr "Subir"
+
+#: assets/build/admin/js/dashboard.js:4 assets/build/admin/js/quick-setup.js:1
+msgid "Field must have a #type. see documentation."
+msgstr "El campo debe tener un #type. Consulta la documentación."
+
+#: assets/build/admin/js/dashboard.js:4 assets/build/admin/js/quick-setup.js:1
+msgid "There are no tabs defined!"
+msgstr "¡No hay pestañas definidas!"
+
+#: assets/build/admin/js/dashboard.js:4 assets/build/admin/js/quick-setup.js:1
+msgid "Invalid comparison rule %s."
+msgstr "Regla de comparación no válida %s."
+
+#: assets/build/admin/js/dashboard.js:4 assets/build/admin/js/quick-setup.js:1
+msgid "\"not\" can have only one comparison rule, multiple rules given"
+msgstr "«not» solo puede tener una regla de comparación, se han dado varias reglas"
+
+#: assets/build/admin/js/dashboard.js:4 assets/build/admin/js/quick-setup.js:1
+msgid "\"anyOf\" condition requires an array as #3 argument"
+msgstr "La condición «anyOf» requiere un array como tercer argumento"
+
+#: assets/build/admin/js/dashboard.js:4 assets/build/admin/js/quick-setup.js:1
+msgid "\"allOf\" condition requires an array as #3 argument"
+msgstr "La condición «allOf» requiere un array como tercer argumento"
+
+#: views/admin/email/pro.php:37 views/admin/email/pro.php:54
+msgid "View Analytics"
+msgstr "Ver los análisis"
+
+#: views/admin/email/pro.php:46
+msgid "Unlock BetterDocs Analytics"
+msgstr "Desbloquear los análisis de BetterDocs"
+
+#: views/admin/email/body.php:20
+msgid "Last"
+msgstr "Últimos"
+
+#: views/admin/email/analytics/search-keyword.php:28
+msgid "Result Found"
+msgstr "Resultados encontrados"
+
+#: views/admin/email/analytics/search-keyword.php:25
+msgid "Total Search"
+msgstr "Total de búsquedas"
+
+#: views/admin/email/analytics/search-keyword.php:22
+msgid "Search Keyword"
+msgstr "Palabra clave buscada"
+
+#: views/admin/email/analytics/search-keyword.php:14
+msgid "Most Searched Keywords"
+msgstr "Palabras clave más buscadas"
+
+#: views/admin/email/analytics/overview.php:165
+msgid "Newly Created Docs"
+msgstr "Documentos creados recientemente"
+
+#: views/admin/email/analytics/overview.php:145
+msgid "Total Reactions"
+msgstr "Total de reacciones"
+
+#: views/admin/email/analytics/overview.php:123
+#: assets/build/admin/js/dashboard.js:5
+#: react-src/admin/analytics/components/modules/previews.js:174
+msgid "Total Searches"
+msgstr "Total de búsquedas"
+
+#: views/admin/email/analytics/leading-docs.php:30
+msgid "Unique Views"
+msgstr "Vistas únicas"
+
+#: views/admin/email/analytics/leading-docs.php:27
+#: views/admin/email/analytics/overview.php:104
+#: assets/build/admin/js/dashboard.js:5
+#: react-src/admin/analytics/components/modules/previews.js:51
+#: react-src/admin/analytics/components/modules/previews.js:130
+msgid "Total Views"
+msgstr "Vistas totales"
+
+#: views/admin/email/analytics/leading-docs.php:16
+msgid "Top Performing Docs"
+msgstr "Documentos con mejor rendimiento"
+
+#: assets/build/admin/js/dashboard.js:5
+#: react-src/admin/dashboard/components/NoDocsBody.js:50
+msgid "Please create a new category to get started"
+msgstr "Crea una categoría nueva para empezar"
+
+#: assets/build/admin/js/dashboard.js:5
+#: react-src/admin/dashboard/components/NoDocsBody.js:45
+msgid "No Category Found"
+msgstr "No se ha encontrado ninguna categoría"
+
+#: includes/Utils/Views.php:141
+msgid "View file not exists."
+msgstr "El archivo de vista no existe."
+
+#: includes/Utils/Database.php:30
+msgid "Key cannot be empty."
+msgstr "La clave no puede estar vacía."
+
+#: includes/blocks.php:193 includes/Utils/BlockTemplate.php:408
+msgid "Docs Tag"
+msgstr "Etiqueta de documentos"
+
+#: includes/Abilities/Traits/ResolvesTerms.php:305
+msgid "knowledge base"
+msgstr "base de conocimiento"
+
+#: includes/Editors/BlockEditor/Patterns/BasePattern.php:22
+#: includes/Utils/BlockTemplate.php:402
+msgid "Single Docs"
+msgstr "Documento individual"
+
+#: includes/Utils/BlockTemplate.php:386
+msgid "Template used to display the single docs."
+msgstr "Plantilla que se usa para mostrar el documento individual."
+
+#: includes/Utils/BlockTemplate.php:385
+msgctxt "Template name"
+msgid "Single Docs"
+msgstr "Documento individual"
+
+#: includes/Utils/BlockTemplate.php:382
+msgid "Template used to display docs by tag."
+msgstr "Plantilla que se usa para mostrar documentos por etiqueta."
+
+#: includes/Utils/BlockTemplate.php:381
+msgctxt "Template name"
+msgid "Docs Tag"
+msgstr "Etiqueta de documentos"
+
+#: includes/Utils/BlockTemplate.php:378
+msgid "Template used to display docs by category."
+msgstr "Plantilla que se usa para mostrar documentos por categoría."
+
+#: includes/Utils/BlockTemplate.php:377
+msgctxt "Template name"
+msgid "Docs Category"
+msgstr "Categoría de documentos"
+
+#: includes/Utils/BlockTemplate.php:374
+msgid "Template used to display Docs Page."
+msgstr "Plantilla que se usa para mostrar la página de documentos."
+
+#: includes/Utils/BlockTemplate.php:373
+msgctxt "Template name"
+msgid "Docs Page"
+msgstr "Página de documentos"
+
+#: includes/Utils/BlockTemplate.php:115
+msgid "No theme is defined for this template."
+msgstr "No hay ningún tema definido para esta plantilla."
+
+#: assets/build/admin/js/dashboard.js:4
+#: react-src/admin/faq-builder/components/CategoryModal.js:258
+#: react-src/admin/faq-builder/components/CategoryModal.js:288
+msgid "Something went wrong!"
+msgstr "¡Algo ha ido mal!"
+
+#: includes/REST/Settings.php:332
+msgid "Settings Saved!"
+msgstr "¡Ajustes guardados!"
+
+#: includes/Editors/Elementor/Widget/Sidebar.php:516
+msgid "Category Items"
+msgstr "Elementos de la categoría"
+
+#: includes/Editors/Elementor/Widget/Basic/CategoryBox.php:2800
+msgid "Article Count Color"
+msgstr "Color del recuento de artículos"
+
+#: includes/Editors/Elementor/Widget/Basic/CategoryBox.php:2077
+msgid "Taxonomy"
+msgstr "Taxonomía"
+
+#: assets/build/admin/js/dashboard.js:7
+#: react-src/admin/doc-categories/components/BulkActionsSelect.js:12
+#: react-src/admin/doc-categories/components/TreeRow.js:197
+#: react-src/admin/doc-tags/components/TagRow.js:90
+msgid "Delete"
+msgstr "Borrar"
+
+#: assets/build/admin/js/dashboard.js:4 assets/build/admin/js/faq.js:4
+#: react-src/admin/faq-builder/components/Category.js:123
+#: react-src/admin/faq-builder/components/SearchedCategory.js:75
+msgid "Delete this FAQ Group?"
+msgstr "¿Borrar este grupo de FAQ?"
+
+#: assets/build/admin/js/dashboard.js:4 assets/build/admin/js/faq.js:4
+#: react-src/admin/faq-builder/components/Category.js:131
+#: react-src/admin/faq-builder/components/SearchedCategory.js:83
+msgid "Also delete all FAQs inside this FAQ Group"
+msgstr "Borrar también todas las FAQ de este grupo"
+
+#: assets/build/admin/js/dashboard.js:4 assets/build/admin/js/faq.js:4
+#: react-src/admin/faq-builder/components/Category.js:284
+#: react-src/admin/faq-builder/components/SearchedCategory.js:199
+msgid "Add a New FAQ"
+msgstr "Añadir una FAQ nueva"
+
+#: assets/build/admin/js/dashboard.js:1 assets/build/admin/js/dashboard.js:4
+#: assets/build/admin/js/dashboard.js:7 assets/build/admin/js/faq.js:1
+#: assets/build/admin/js/faq.js:4
+#: react-src/admin/doc-categories/components/CategoryTree.js:143
+#: react-src/admin/doc-tags/components/DocTagsRoot.js:149
+#: react-src/admin/faq-builder/components/Faq.js:122
+#: react-src/admin/faq-builder/components/SearchedFaq.js:102
+#: react-src/admin/faq-builder/components/UncategorizedFaq.js:134
+msgid "Yes, delete it!"
+msgstr "¡Sí, bórralo!"
+
+#: assets/build/admin/js/dashboard.js:1 assets/build/admin/js/dashboard.js:4
+#: assets/build/admin/js/faq.js:1 assets/build/admin/js/faq.js:4
+#: react-src/admin/faq-builder/components/Faq.js:119
+#: react-src/admin/faq-builder/components/SearchedFaq.js:99
+#: react-src/admin/faq-builder/components/UncategorizedFaq.js:131
+msgid "Delete this FAQ?"
+msgstr "¿Borrar esta FAQ?"
+
+#: assets/build/admin/js/dashboard.js:1 assets/build/admin/js/dashboard.js:4
+#: assets/build/admin/js/faq.js:1 assets/build/admin/js/faq.js:4
+#: react-src/admin/faq-builder/components/Faq.js:84
+#: react-src/admin/faq-builder/components/SearchedFaq.js:62
+#: react-src/admin/faq-builder/components/UncategorizedFaq.js:97
+msgid "Duplicate this FAQ?"
+msgstr "¿Duplicar esta FAQ?"
+
+#: assets/build/admin/js/dashboard.js:1 assets/build/admin/js/dashboard.js:4
+#: assets/build/admin/js/faq.js:1 assets/build/admin/js/faq.js:4
+#: react-src/admin/faq-builder/components/Faq.js:154
+#: react-src/admin/faq-builder/components/SearchedFaq.js:130
+#: react-src/admin/faq-builder/components/UncategorizedFaq.js:170
+msgid "FAQ Enabled."
+msgstr "FAQ activada."
+
+#: assets/build/admin/js/dashboard.js:1 assets/build/admin/js/dashboard.js:4
+#: assets/build/admin/js/faq.js:1 assets/build/admin/js/faq.js:4
+#: react-src/admin/faq-builder/components/Faq.js:153
+#: react-src/admin/faq-builder/components/SearchedFaq.js:129
+#: react-src/admin/faq-builder/components/UncategorizedFaq.js:169
+msgid "FAQ Disabled."
+msgstr "FAQ desactivada."
+
+# [Corrección] Las siglas no llevan «s» en plural y en el resto de cadenas usas «FAQ» invariable.
+# Original: Generar FAQs de ejemplo
+#: assets/build/admin/js/dashboard.js:1
+#: react-src/admin/faq-builder/utils/EmptyDashboard.js:20
+#: react-src/admin/faq-builder/utils/EmptyDashboard.js:38
+#: react-src/admin/faq-builder/utils/EmptyDashboard.js:89
+#, fuzzy
+msgid "Generate Sample FAQs"
+msgstr "Generar FAQ de ejemplo"
+
+#: assets/build/admin/js/dashboard.js:1 assets/build/admin/js/faq.js:1
+#: react-src/admin/faq-builder/utils/EmptyCategory.js:13
+#: react-src/admin/faq-builder/utils/EmptyDashboard.js:56
+msgid "No FAQ Found!"
+msgstr "¡No se ha encontrado ninguna FAQ!"
+
+#: assets/build/admin/js/dashboard.js:1 assets/build/admin/js/dashboard.js:4
+#: react-src/admin/components/CreateFAQGroup.js:38
+#: react-src/admin/faq-builder/components/BetterDocsFaqHeader.js:29
+#: react-src/admin/faq-builder/utils/EmptyDashboard.js:81
+msgid "Create a New FAQ Group"
+msgstr "Crear un grupo de FAQ nuevo"
+
+# [Rechazo] Según el glosario, «sorry» es «lo siento»; no se usa «lo sentimos».
+# Original: Lo sentimos, ninguna FAQ coincide con tus criterios.
+#: views/shortcode-parts/faq-list.php:45
+#, fuzzy
+msgid "Sorry, no FAQ matched your criteria."
+msgstr "Lo siento, ninguna FAQ coincide con tus criterios."
+
+#: includes/Editors/Elementor/Widget/Basic/FAQ.php:808
+#: assets/build/blocks/editor.js:1
+#: react-src/gutenberg/blocks/faq/src/inspector.js:544
+msgid "FAQ List Icon"
+msgstr "Icono de la lista de FAQ"
+
+#: includes/Editors/Elementor/Widget/Basic/FAQ.php:678
+#: includes/Editors/Elementor/Widget/Basic/FAQ.php:743
+#: assets/build/blocks/editor.js:1
+#: react-src/gutenberg/blocks/faq/src/inspector.js:489
+msgid "FAQ Content"
+msgstr "Contenido de las FAQ"
+
+#: includes/Editors/Elementor/Widget/Basic/FAQ.php:454
+#: includes/Editors/Elementor/Widget/Basic/FAQ.php:566
+#: assets/build/blocks/editor.js:1
+#: react-src/gutenberg/blocks/faq/src/inspector.js:437
+msgid "FAQ List"
+msgstr "Lista de FAQ"
+
+#: includes/Editors/Elementor/Widget/Basic/FAQ.php:280
+#: assets/build/blocks/editor.js:1
+#: react-src/gutenberg/blocks/faq/src/inspector.js:371
+msgid "FAQ Section Title"
+msgstr "Título de la sección de FAQ"
+
+#: includes/Editors/Elementor/Widget/Basic/FAQ.php:167
+#: includes/Editors/Elementor/Widget/Basic/FAQ.php:174
+#: assets/build/blocks/editor.js:1
+#: react-src/gutenberg/blocks/faq/src/inspector.js:332
+msgid "Exclude FAQ Groups"
+msgstr "Excluir grupos de FAQ"
+
+#: includes/Editors/Elementor/Widget/Basic/FAQ.php:155
+#: includes/Editors/Elementor/Widget/Basic/FAQ.php:162
+#: assets/build/blocks/editor.js:1
+#: react-src/gutenberg/blocks/faq/src/inspector.js:319
+msgid "Include FAQ Groups"
+msgstr "Incluir grupos de FAQ"
+
+#: includes/Editors/Elementor/Widget/Basic/FAQ.php:104
+#: assets/build/blocks/editor.js:1
+#: react-src/gutenberg/blocks/faq/src/inspector.js:282
+msgid "FAQ Section"
+msgstr "Sección de FAQ"
+
+#: includes/Core/FAQBuilder.php:306
+msgid "No FAQ found in trash"
+msgstr "No se ha encontrado ninguna FAQ en la papelera"
+
+#: includes/Core/FAQBuilder.php:305
+msgid "No FAQ found"
+msgstr "No se ha encontrado ninguna FAQ"
+
+#: includes/blocks.php:169 includes/Core/FAQBuilder.php:293
+#: includes/Core/FAQBuilder.php:294
+#: includes/Editors/Elementor/Widget/Basic/FAQ.php:28
+#: assets/build/blocks/editor.js:1
+#: react-src/gutenberg/blocks/faq/src/index.js:19
+msgid "BetterDocs FAQ"
+msgstr "FAQ de BetterDocs"
+
+#: includes/Core/FAQBuilder.php:207
+msgid "New FAQ Category Name"
+msgstr "Nombre de la categoría de FAQ nueva"
+
+#: includes/Core/FAQBuilder.php:206
+msgid "Add New FAQ Category"
+msgstr "Añadir una categoría de FAQ nueva"
+
+#: includes/Core/FAQBuilder.php:203
+msgid "Parent FAQ Category:"
+msgstr "Categoría de FAQ superior:"
+
+#: includes/Core/FAQBuilder.php:202
+msgid "Parent FAQ Category"
+msgstr "Categoría de FAQ superior"
+
+#: includes/Core/FAQBuilder.php:200
+msgid "FAQ Category"
+msgstr "Categoría de la FAQ"
+
+#: includes/Core/FAQBuilder.php:199 includes/Core/FAQBuilder.php:201
+msgid "FAQ Categories"
+msgstr "Categorías de FAQ"
+
+#: includes/Core/Settings.php:2157
+msgid "FAQ Layout - 2"
+msgstr "Diseño de FAQ: 2"
+
+#: includes/Core/Settings.php:2146
+msgid "FAQ Layout - 1"
+msgstr "Diseño de FAQ: 1"
+
+#: includes/Admin/Customizer/Sections/FaqBuilder.php:619
+#: includes/Admin/Customizer/Sections/FaqBuilder.php:1030
+#: includes/Admin/Customizer/Sections/FaqBuilder.php:1475
+#: includes/Admin/Customizer/Sections/FaqBuilder.php:1774
+#: includes/Admin/Customizer/Sections/FaqBuilder.php:2123
+msgid "FAQ List Padding (PX)"
+msgstr "Relleno de la lista de FAQ (PX)"
+
+#: includes/Admin/Customizer/Sections/FaqBuilder.php:590
+#: includes/Admin/Customizer/Sections/FaqBuilder.php:997
+#: includes/Admin/Customizer/Sections/FaqBuilder.php:1445
+#: includes/Admin/Customizer/Sections/FaqBuilder.php:1745
+#: includes/Admin/Customizer/Sections/FaqBuilder.php:2094
+msgid "FAQ List Font Size"
+msgstr "Tamaño de fuente de la lista de FAQ"
+
+#: includes/Admin/Customizer/Sections/FaqBuilder.php:527
+#: includes/Admin/Customizer/Sections/FaqBuilder.php:928
+#: includes/Admin/Customizer/Sections/FaqBuilder.php:1383
+#: includes/Admin/Customizer/Sections/FaqBuilder.php:1682
+#: includes/Admin/Customizer/Sections/FaqBuilder.php:2031
+msgid "FAQ List Content Color"
+msgstr "Color del contenido de la lista de FAQ"
+
+#: includes/Admin/Customizer/Sections/FaqBuilder.php:502
+#: includes/Admin/Customizer/Sections/FaqBuilder.php:899
+#: includes/Admin/Customizer/Sections/FaqBuilder.php:1358
+#: includes/Admin/Customizer/Sections/FaqBuilder.php:1657
+#: includes/Admin/Customizer/Sections/FaqBuilder.php:2006
+msgid "FAQ List Content Background Color"
+msgstr "Color de fondo del contenido de la lista de FAQ"
+
+#: includes/Admin/Customizer/Sections/FaqBuilder.php:477
+#: includes/Admin/Customizer/Sections/FaqBuilder.php:870
+#: includes/Admin/Customizer/Sections/FaqBuilder.php:1333
+#: includes/Admin/Customizer/Sections/FaqBuilder.php:1632
+#: includes/Admin/Customizer/Sections/FaqBuilder.php:1981
+msgid "FAQ List Background Color"
+msgstr "Color de fondo de la lista de FAQ"
+
+#: includes/Admin/Customizer/Sections/FaqBuilder.php:452
+#: includes/Admin/Customizer/Sections/FaqBuilder.php:841
+#: includes/Admin/Customizer/Sections/FaqBuilder.php:1308
+#: includes/Admin/Customizer/Sections/FaqBuilder.php:1607
+#: includes/Admin/Customizer/Sections/FaqBuilder.php:1956
+msgid "FAQ List Color"
+msgstr "Color de la lista de FAQ"

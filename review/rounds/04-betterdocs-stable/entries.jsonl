@@ -1,0 +1,164 @@
+{"n": 1, "msgid": "Title on Breadcrumb", "msgstr": "Título en las migas de pan"}
+{"n": 2, "msgid": "Category on Breadcrumb", "msgstr": "Categoría en las migas de pan"}
+{"n": 3, "msgid": "TOC", "msgstr": "TOC"}
+{"n": 4, "msgid": "Comment", "msgstr": "Comentario"}
+{"n": 5, "msgid": "Navigation", "msgstr": "Navegación"}
+{"n": 6, "msgid": "Last Update Time", "msgstr": "Hora de la última actualización"}
+{"n": 7, "msgid": "Print Icon", "msgstr": "Icono de imprimir"}
+{"n": 8, "msgid": "Sidebar Category List", "msgstr": "Lista de categorías de la barra lateral"}
+{"n": 9, "msgid": "KB Based Search", "msgstr": "Búsqueda basada en la base de conocimiento"}
+{"n": 10, "msgid": "Search..", "msgstr": "Buscar…"}
+{"n": 11, "msgid": "Advanced Search", "msgstr": "Búsqueda avanzada"}
+{"n": 12, "msgid": "Popular Docs Number", "msgstr": "Número de documentos populares"}
+{"n": 13, "msgid": "Popular Docs Text", "msgstr": "Texto de documentos populares"}
+{"n": 14, "msgid": "Explore More Button Text", "msgstr": "Texto del botón para explorar más"}
+{"n": 15, "msgid": "Doc Count", "msgstr": "Recuento de documentos"}
+{"n": 16, "msgid": "This setting is not applicable for handbook layout.", "msgstr": "Este ajuste no se aplica al diseño de manual."}
+{"n": 17, "msgid": "Nested Sub Category", "msgstr": "Subcategoría anidada"}
+{"n": 18, "msgid": "Layout Settings", "msgstr": "Ajustes de diseño"}
+{"n": 19, "msgid": "FAQ Schema", "msgstr": "Esquema de preguntas frecuentes"}
+{"n": 20, "msgid": "Built-in Documentation Page", "msgstr": "Página de documentación integrada"}
+{"n": 21, "msgid": "Multiple Knowledge Base", "msgstr": "Varias bases de conocimiento"}
+{"n": 22, "msgid": "Save", "msgstr": "Guardar"}
+{"n": 23, "msgid": "Betterdocs Print", "msgstr": "Impresión de BetterDocs"}
+{"n": 24, "msgid": "Doc Archive List", "msgstr": "Lista del archivo de documentos"}
+{"n": 25, "msgid": "BetterDocs Breadcrumb", "msgstr": "Migas de pan de BetterDocs"}
+{"n": 26, "msgid": "Active", "msgstr": "Activo"}
+{"n": 27, "msgid": "Saving...", "msgstr": "Guardando…"}
+{"n": 28, "msgid": "You don't have permission to update docs term.", "msgstr": "No tienes permiso para actualizar el término de documentos."}
+{"n": 29, "msgid": "You don't have permission to manage docs term.", "msgstr": "No tienes permiso para gestionar el término de documentos."}
+{"n": 30, "msgid": "There are no changes to be saved.", "msgstr": "No hay cambios que guardar."}
+{"n": 31, "msgid": "Shadow Transition", "msgstr": "Transición de sombra"}
+{"n": 32, "msgid": "Hover Shadow Color", "msgstr": "Color de la sombra al pasar el cursor"}
+{"n": 33, "msgid": "Shadow Spread", "msgstr": "Expansión de la sombra"}
+{"n": 34, "msgid": "Shadow Blur", "msgstr": "Desenfoque de la sombra"}
+{"n": 35, "msgid": "Vertical Offset", "msgstr": "Desplazamiento vertical"}
+{"n": 36, "msgid": "Horizontal Offset", "msgstr": "Desplazamiento horizontal"}
+{"n": 37, "msgid": "Shadow Color", "msgstr": "Color de la sombra"}
+{"n": 38, "msgid": "Border Radius Transition", "msgstr": "Transición del radio del borde"}
+{"n": 39, "msgid": "Border Transition", "msgstr": "Transición del borde"}
+{"n": 40, "msgid": "Ridge", "msgstr": "Cresta"}
+{"n": 41, "msgid": "Outset", "msgstr": "Relieve hacia fuera"}
+{"n": 42, "msgid": "Inset", "msgstr": "Relieve hacia dentro"}
+{"n": 43, "msgid": "Groove", "msgstr": "Ranura"}
+{"n": 44, "msgid": "Double", "msgstr": "Doble"}
+{"n": 45, "msgid": "Dotted", "msgstr": "Punteado"}
+{"n": 46, "msgid": "Solid", "msgstr": "Sólido"}
+{"n": 47, "msgid": "Dashed", "msgstr": "Discontinuo"}
+{"n": 48, "msgid": "None", "msgstr": "Ninguno"}
+{"n": 49, "msgid": "Border Style", "msgstr": "Estilo del borde"}
+{"n": 50, "msgid": "Center Y Position", "msgstr": "Posición central en Y"}
+{"n": 51, "msgid": "Center X Position", "msgstr": "Posición central en X"}
+{"n": 52, "msgid": "Second Color Position", "msgstr": "Posición del segundo color"}
+{"n": 53, "msgid": "First Color Position", "msgstr": "Posición del primer color"}
+{"n": 54, "msgid": "Radial Type", "msgstr": "Tipo radial"}
+{"n": 55, "msgid": "Gradient Type", "msgstr": "Tipo de degradado"}
+{"n": 56, "msgid": "No category found.", "msgstr": "No se ha encontrado ninguna categoría."}
+{"n": 57, "msgid": "Item Hover Color", "msgstr": "Color del elemento al pasar el cursor"}
+{"n": 58, "msgid": "category grid", "msgstr": "cuadrícula de categorías"}
+{"n": 59, "msgid": "Icon Positon", "msgstr": "Posición del icono"}
+{"n": 60, "msgid": "Grid Margin", "msgstr": "Margen de la cuadrícula"}
+{"n": 61, "msgid": "Please save and reload the view page to get the effect of column and space on masonry layout", "msgstr": "Guarda y vuelve a cargar la página de vista para ver el efecto de las columnas y el espacio en el diseño de mampostería"}
+{"n": 62, "msgid": "Doc Per Subcategory", "msgstr": "Documentos por subcategoría"}
+{"n": 63, "msgid": "Docs Per Page", "msgstr": "Documentos por página"}
+{"n": 64, "msgid": "Grid List Docs", "msgstr": "Documentos de la lista de cuadrícula"}
+{"n": 65, "msgid": "Doc Author", "msgstr": "Autor del documento"}
+{"n": 66, "msgid": "Doc ID", "msgstr": "ID del documento"}
+{"n": 67, "msgid": "Icon Area", "msgstr": "Área del icono"}
+{"n": 68, "msgid": "div", "msgstr": "div"}
+{"n": 69, "msgid": "better docs", "msgstr": "better docs"}
+{"n": 70, "msgid": "Typography", "msgstr": "Tipografía"}
+{"n": 71, "msgid": "p", "msgstr": "p"}
+{"n": 72, "msgid": "span", "msgstr": "span"}
+{"n": 73, "msgid": "Changes Saved Successfully.", "msgstr": "Cambios guardados correctamente."}
+{"n": 74, "msgid": "Text Goes Here: text", "msgstr": "El texto va aquí: text"}
+{"n": 75, "msgid": "Title Goes Here: title", "msgstr": "El título va aquí: title"}
+{"n": 76, "msgid": "Not an array.", "msgstr": "No es un array."}
+{"n": 77, "msgid": "There are no #tabs args defined in props.", "msgstr": "No hay argumentos #tabs definidos en las props."}
+{"n": 78, "msgid": "Save Changes", "msgstr": "Guardar los cambios"}
+{"n": 79, "msgid": "Modal needs button/body with it.", "msgstr": "La ventana modal necesita un botón o un cuerpo junto a ella."}
+{"n": 80, "msgid": "Button has a required params #text.", "msgstr": "El botón tiene un parámetro obligatorio #text."}
+{"n": 81, "msgid": "Please input a minimum of 3 characters.", "msgstr": "Introduce un mínimo de 3 caracteres."}
+{"n": 82, "msgid": "#options is a required arguments for RadioCard field.", "msgstr": "#options es un argumento obligatorio para el campo RadioCard."}
+{"n": 83, "msgid": "Loading...", "msgstr": "Cargando…"}
+{"n": 84, "msgid": "You should give a #fields arguments to a group field.", "msgstr": "Debes dar argumentos #fields a un campo de grupo."}
+{"n": 85, "msgid": "Invalid file type.", "msgstr": "Tipo de archivo no válido."}
+{"n": 86, "msgid": "File can't be empty.", "msgstr": "El archivo no puede estar vacío."}
+{"n": 87, "msgid": "Upload", "msgstr": "Subir"}
+{"n": 88, "msgid": "Field must have a #type. see documentation.", "msgstr": "El campo debe tener un #type. Consulta la documentación."}
+{"n": 89, "msgid": "There are no tabs defined!", "msgstr": "¡No hay pestañas definidas!"}
+{"n": 90, "msgid": "Invalid comparison rule %s.", "msgstr": "Regla de comparación no válida %s."}
+{"n": 91, "msgid": "\"not\" can have only one comparison rule, multiple rules given", "msgstr": "«not» solo puede tener una regla de comparación, se han dado varias reglas"}
+{"n": 92, "msgid": "\"anyOf\" condition requires an array as #3 argument", "msgstr": "La condición «anyOf» requiere un array como tercer argumento"}
+{"n": 93, "msgid": "\"allOf\" condition requires an array as #3 argument", "msgstr": "La condición «allOf» requiere un array como tercer argumento"}
+{"n": 94, "msgid": "View Analytics", "msgstr": "Ver los análisis"}
+{"n": 95, "msgid": "Unlock BetterDocs Analytics", "msgstr": "Desbloquear los análisis de BetterDocs"}
+{"n": 96, "msgid": "Last", "msgstr": "Últimos"}
+{"n": 97, "msgid": "Result Found", "msgstr": "Resultados encontrados"}
+{"n": 98, "msgid": "Total Search", "msgstr": "Total de búsquedas"}
+{"n": 99, "msgid": "Search Keyword", "msgstr": "Palabra clave buscada"}
+{"n": 100, "msgid": "Most Searched Keywords", "msgstr": "Palabras clave más buscadas"}
+{"n": 101, "msgid": "Newly Created Docs", "msgstr": "Documentos creados recientemente"}
+{"n": 102, "msgid": "Total Reactions", "msgstr": "Total de reacciones"}
+{"n": 103, "msgid": "Total Searches", "msgstr": "Total de búsquedas"}
+{"n": 104, "msgid": "Unique Views", "msgstr": "Vistas únicas"}
+{"n": 105, "msgid": "Total Views", "msgstr": "Vistas totales"}
+{"n": 106, "msgid": "Top Performing Docs", "msgstr": "Documentos con mejor rendimiento"}
+{"n": 107, "msgid": "Please create a new category to get started", "msgstr": "Crea una categoría nueva para empezar"}
+{"n": 108, "msgid": "No Category Found", "msgstr": "No se ha encontrado ninguna categoría"}
+{"n": 109, "msgid": "View file not exists.", "msgstr": "El archivo de vista no existe."}
+{"n": 110, "msgid": "Key cannot be empty.", "msgstr": "La clave no puede estar vacía."}
+{"n": 111, "msgid": "Docs Tag", "msgstr": "Etiqueta de documentos"}
+{"n": 112, "msgid": "knowledge base", "msgstr": "base de conocimiento"}
+{"n": 113, "msgid": "Single Docs", "msgstr": "Documento individual"}
+{"n": 114, "msgid": "Template used to display the single docs.", "msgstr": "Plantilla que se usa para mostrar el documento individual."}
+{"n": 115, "ctx": "Template name", "msgid": "Single Docs", "msgstr": "Documento individual"}
+{"n": 116, "msgid": "Template used to display docs by tag.", "msgstr": "Plantilla que se usa para mostrar documentos por etiqueta."}
+{"n": 117, "ctx": "Template name", "msgid": "Docs Tag", "msgstr": "Etiqueta de documentos"}
+{"n": 118, "msgid": "Template used to display docs by category.", "msgstr": "Plantilla que se usa para mostrar documentos por categoría."}
+{"n": 119, "ctx": "Template name", "msgid": "Docs Category", "msgstr": "Categoría de documentos"}
+{"n": 120, "msgid": "Template used to display Docs Page.", "msgstr": "Plantilla que se usa para mostrar la página de documentos."}
+{"n": 121, "ctx": "Template name", "msgid": "Docs Page", "msgstr": "Página de documentos"}
+{"n": 122, "msgid": "No theme is defined for this template.", "msgstr": "No hay ningún tema definido para esta plantilla."}
+{"n": 123, "msgid": "Something went wrong!", "msgstr": "¡Algo ha ido mal!"}
+{"n": 124, "msgid": "Settings Saved!", "msgstr": "¡Ajustes guardados!"}
+{"n": 125, "msgid": "Category Items", "msgstr": "Elementos de la categoría"}
+{"n": 126, "msgid": "Article Count Color", "msgstr": "Color del recuento de artículos"}
+{"n": 127, "msgid": "Taxonomy", "msgstr": "Taxonomía"}
+{"n": 128, "msgid": "Delete", "msgstr": "Borrar"}
+{"n": 129, "msgid": "Delete this FAQ Group?", "msgstr": "¿Borrar este grupo de FAQ?"}
+{"n": 130, "msgid": "Also delete all FAQs inside this FAQ Group", "msgstr": "Borrar también todas las FAQ de este grupo"}
+{"n": 131, "msgid": "Add a New FAQ", "msgstr": "Añadir una FAQ nueva"}
+{"n": 132, "msgid": "Yes, delete it!", "msgstr": "¡Sí, bórralo!"}
+{"n": 133, "msgid": "Delete this FAQ?", "msgstr": "¿Borrar esta FAQ?"}
+{"n": 134, "msgid": "Duplicate this FAQ?", "msgstr": "¿Duplicar esta FAQ?"}
+{"n": 135, "msgid": "FAQ Enabled.", "msgstr": "FAQ activada."}
+{"n": 136, "msgid": "FAQ Disabled.", "msgstr": "FAQ desactivada."}
+{"n": 137, "msgid": "Generate Sample FAQs", "msgstr": "Generar FAQs de ejemplo"}
+{"n": 138, "msgid": "No FAQ Found!", "msgstr": "¡No se ha encontrado ninguna FAQ!"}
+{"n": 139, "msgid": "Create a New FAQ Group", "msgstr": "Crear un grupo de FAQ nuevo"}
+{"n": 140, "msgid": "Sorry, no FAQ matched your criteria.", "msgstr": "Lo sentimos, ninguna FAQ coincide con tus criterios."}
+{"n": 141, "msgid": "FAQ List Icon", "msgstr": "Icono de la lista de FAQ"}
+{"n": 142, "msgid": "FAQ Content", "msgstr": "Contenido de las FAQ"}
+{"n": 143, "msgid": "FAQ List", "msgstr": "Lista de FAQ"}
+{"n": 144, "msgid": "FAQ Section Title", "msgstr": "Título de la sección de FAQ"}
+{"n": 145, "msgid": "Exclude FAQ Groups", "msgstr": "Excluir grupos de FAQ"}
+{"n": 146, "msgid": "Include FAQ Groups", "msgstr": "Incluir grupos de FAQ"}
+{"n": 147, "msgid": "FAQ Section", "msgstr": "Sección de FAQ"}
+{"n": 148, "msgid": "No FAQ found in trash", "msgstr": "No se ha encontrado ninguna FAQ en la papelera"}
+{"n": 149, "msgid": "No FAQ found", "msgstr": "No se ha encontrado ninguna FAQ"}
+{"n": 150, "msgid": "BetterDocs FAQ", "msgstr": "FAQ de BetterDocs"}
+{"n": 151, "msgid": "New FAQ Category Name", "msgstr": "Nombre de la categoría de FAQ nueva"}
+{"n": 152, "msgid": "Add New FAQ Category", "msgstr": "Añadir una categoría de FAQ nueva"}
+{"n": 153, "msgid": "Parent FAQ Category:", "msgstr": "Categoría de FAQ superior:"}
+{"n": 154, "msgid": "Parent FAQ Category", "msgstr": "Categoría de FAQ superior"}
+{"n": 155, "msgid": "FAQ Category", "msgstr": "Categoría de la FAQ"}
+{"n": 156, "msgid": "FAQ Categories", "msgstr": "Categorías de FAQ"}
+{"n": 157, "msgid": "FAQ Layout - 2", "msgstr": "Diseño de FAQ: 2"}
+{"n": 158, "msgid": "FAQ Layout - 1", "msgstr": "Diseño de FAQ: 1"}
+{"n": 159, "msgid": "FAQ List Padding (PX)", "msgstr": "Relleno de la lista de FAQ (PX)"}
+{"n": 160, "msgid": "FAQ List Font Size", "msgstr": "Tamaño de fuente de la lista de FAQ"}
+{"n": 161, "msgid": "FAQ List Content Color", "msgstr": "Color del contenido de la lista de FAQ"}
+{"n": 162, "msgid": "FAQ List Content Background Color", "msgstr": "Color de fondo del contenido de la lista de FAQ"}
+{"n": 163, "msgid": "FAQ List Background Color", "msgstr": "Color de fondo de la lista de FAQ"}
+{"n": 164, "msgid": "FAQ List Color", "msgstr": "Color de la lista de FAQ"}

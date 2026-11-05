@@ -42,6 +42,7 @@ import json
 import re
 import sys
 
+RES = __import__('os').path.join(__import__('os').path.dirname(__import__('os').path.abspath(__file__)), '..', '..', 'resources', '')
 ESCAPES = {'n': '\n', 't': '\t', 'r': '\r', '"': '"', '\\': '\\', 'a': '\a', 'b': '\b', 'f': '\f', 'v': '\v'}
 
 
@@ -442,7 +443,7 @@ def read_csv(path):
 
 def cmd_glossary(args):
     """Glossary entries whose English term appears in the file's msgids."""
-    po, gl = args[0], (args[1] if len(args) > 1 else 'resources/glossary.csv')
+    po, gl = args[0], (args[1] if len(args) > 1 else RES + 'glossary.csv')
     _, entries = parse(po)
     text = '\n'.join(e['msgid'] + '\n' + (e['msgid_plural'] or '') for e in entries)
     text = TAG.sub(' ', text).lower()
@@ -464,7 +465,7 @@ def cmd_glossary(args):
 
 def cmd_tm(args):
     """Translation memory rows that exactly match a msgid in the file."""
-    po, tm = args[0], (args[1] if len(args) > 1 else 'resources/translation-memory.csv')
+    po, tm = args[0], (args[1] if len(args) > 1 else RES + 'translation-memory.csv')
     _, entries = parse(po)
     rows = {r['en'].strip(): r for r in read_csv(tm)}
     for e in entries:
@@ -490,7 +491,7 @@ def stem_in(option, text):
 def cmd_lint(args):
     """Hints for review: glossary terms whose translation is missing or left in
     English, mid-sentence capitals, «ej.», straight quotes. Hints, not verdicts."""
-    po, gl = args[0], (args[1] if len(args) > 1 else 'resources/glossary.csv')
+    po, gl = args[0], (args[1] if len(args) > 1 else RES + 'glossary.csv')
     _, entries = parse(po)
     merged = {}
     for row in read_csv(gl):
@@ -519,6 +520,8 @@ def cmd_lint(args):
             if not re.search(rx, s_low):
                 continue
             if keep:
+                if not re.search(rx, t_plain.lower()):
+                    hints.append(f'glossary: {en} is not translated ({es})')
                 continue
             if re.search(rx, t_plain.lower()):
                 hints.append(f'glossary term left in English: {en} → {es}')

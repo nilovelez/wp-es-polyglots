@@ -1,0 +1,8 @@
+{"n": 10, "verdict": "fix", "msgstr": "Buscar...", "comment": "Los puntos suspensivos se respetan como vienen en el original: «...», no «…»."}
+{"n": 19, "verdict": "reject", "msgstr": "Schema de FAQ", "comment": "Según el glosario, «schema» y «FAQ» no se traducen: «Schema de FAQ»."}
+{"n": 27, "verdict": "fix", "msgstr": "Guardando...", "comment": "Los puntos suspensivos se respetan como vienen en el original: «...», no «…»."}
+{"n": 61, "verdict": "reject", "msgstr": "Guarda y vuelve a cargar la página de vista para ver el efecto de las columnas y el espacio en el diseño de mosaico", "comment": "Según el glosario, «masonry» se traduce como «mosaico»."}
+{"n": 79, "verdict": "reject", "msgstr": "La ventana emergente necesita un botón o un cuerpo junto a ella.", "comment": "Según el glosario, «modal» se traduce como «emergente»: «ventana emergente»."}
+{"n": 83, "verdict": "fix", "msgstr": "Cargando...", "comment": "Los puntos suspensivos se respetan como vienen en el original: «...», no «…»."}
+{"n": 137, "verdict": "fix", "msgstr": "Generar FAQ de ejemplo", "comment": "Las siglas no llevan «s» en plural y en el resto de cadenas usas «FAQ» invariable."}
+{"n": 140, "verdict": "reject", "msgstr": "Lo siento, ninguna FAQ coincide con tus criterios.", "comment": "Según el glosario, «sorry» es «lo siento»; no se usa «lo sentimos»."}
