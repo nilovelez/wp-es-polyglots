@@ -49,5 +49,6 @@ When a contributor uploads a batch like torlann (machine translation without con
 - *authentication salt* (AUTH_SALT): how does core translate it?
 - *Deselect All*: the glossary gives «anular selección»; «Anular toda la selección»?
 - Plugin name with a subtitle (WGRank Translate – …): leave untranslated?
+- Official glossary entries the team overrides (`resources/glossary-overrides.csv`, used by `po_tool.py`): *meta title* / *meta description* («meta título» / «meta descripción»). Nilo may want to change them in the official glossary.
 - Glossary typos (QuickPress, *deprecate*, *expire*, *expanse*, *troubleshooting*, duplicated *endpoint* and *page*): Nilo will review them.
 - Translation memory: `resources/translation-memory.csv` has 21 entries from WGRank, but the previous instructions said to keep it empty because it will be approached differently. Waiting for a decision.

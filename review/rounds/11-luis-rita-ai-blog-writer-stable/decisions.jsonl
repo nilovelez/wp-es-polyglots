@@ -1,0 +1,48 @@
+{"n": 3, "verdict": "reject", "msgstr": "Idioma por defecto del contenido generado. La interfaz usa el idioma de tu perfil WordPress.", "comment": "Según el glosario, «default» es «por defecto», no «predeterminado»."}
+{"n": 4, "verdict": "doubt", "msgstr": "Respaldado", "comment": "Pregunta: el glosario da «supported» = «compatible», pero aquí es el estado de una afirmación frente a sus fuentes, y «compatible» no encaja. He usado «Respaldado», «Parcialmente respaldado» y «Sin respaldo» en las tres cadenas de estado. ¿Lo confirmamos?"}
+{"n": 28, "verdict": "reject", "msgstr": "Una breve valoración en WordPress.org ayuda a otros a encontrar el plugin.", "comment": "En el directorio de plugins, «review» se traduce como «valoración», no «reseña» (glosario)."}
+{"n": 29, "verdict": "reject", "msgstr": "Dejar una valoración", "comment": "En el directorio de plugins, «review» se traduce como «valoración», no «reseña» (glosario)."}
+{"n": 54, "verdict": "doubt", "msgstr": "Correcto", "comment": "Pregunta: el glosario da «OK» = «Aceptar», pero aquí es una etiqueta de estado de comprobación, y «Aceptar» no encaja. ¿Mantenemos «Correcto» o prefieres otra forma?"}
+{"n": 86, "verdict": "reject", "msgstr": "P. ej.: bicicletas eléctricas para desplazamientos urbanos", "comment": "La guía pide «p. ej.», no «ej.»."}
+{"n": 109, "verdict": "reject", "msgstr": "Ajustes por defecto", "comment": "Según el glosario, «default» es «por defecto», no «predeterminado»."}
+{"n": 116, "verdict": "reject", "msgstr": "El perfil de autor ya no existe; se seleccionaron los ajustes por defecto.", "comment": "Según el glosario, «default» es «por defecto», no «predeterminado»."}
+{"n": 137, "verdict": "reject", "msgstr": "Edita el JSON para reordenar, añadir, quitar o reescribir secciones.", "comment": "Según el glosario, «remove» se traduce casi siempre como «quitar»; «eliminar» se reserva para borrados físicos."}
+{"n": 144, "verdict": "reject", "msgstr": "Meta title", "comment": "Según el glosario, «meta title» no se traduce."}
+{"n": 145, "verdict": "reject", "msgstr": "Meta description", "comment": "Según el glosario, «meta description» no se traduce."}
+{"n": 162, "verdict": "reject", "msgstr": "Perfil borrado n.º %d", "comment": "Según el glosario, «delete» es «borrar», no «eliminar»."}
+{"n": 172, "verdict": "reject", "msgstr": "— recuperada el", "comment": "Según el glosario, «retrieve» es «recuperar», no «obtener»."}
+{"n": 182, "verdict": "reject", "msgstr": "Autor de WordPress enlazado", "comment": "Según el glosario, «link» (verbo) es «enlazar»; no se usa «vincular»."}
+{"n": 186, "verdict": "fix", "msgstr": "Rasgos vagos como «amable y profesional» cambian poco. Describe al autor, sus opiniones y palabras que usa o evita. El punto de vista, vocabulario preferido, palabras que evitar y una muestra tienen más efecto.", "comment": "Usa comillas españolas «» en lugar de comillas rectas."}
+{"n": 191, "verdict": "reject", "msgstr": "P. ej.: Opiniones firmes; dice claramente cuándo una opción popular está sobrevalorada.", "comment": "La guía pide «p. ej.», no «ej.»."}
+{"n": 193, "verdict": "reject", "msgstr": "P. ej.: Términos sencillos que usan los lectores, unidades métricas, sin superlativos comerciales.", "comment": "La guía pide «p. ej.», no «ej.»."}
+{"n": 196, "verdict": "reject", "msgstr": "P. ej.: revolucionario, desbloquear, exclamaciones, introducciones genéricas.", "comment": "La guía pide «p. ej.», no «ej.»."}
+{"n": 203, "verdict": "reject", "msgstr": "P. ej.: ¿Merece la pena un cuadro de carbono en la primera bicicleta de carretera?", "comment": "La guía pide «p. ej.», no «ej.»."}
+{"n": 206, "verdict": "reject", "msgstr": "Borrar", "comment": "Según el glosario, «delete» es «borrar», no «eliminar»."}
+{"n": 223, "verdict": "fix", "msgstr": "Inicio de ejemplo sobre «%s». No se ha guardado; verifica los hechos de cualquier artículo real.", "comment": "Usa comillas españolas «» en lugar de comillas rectas."}
+{"n": 224, "verdict": "reject", "msgstr": "¿Borrar el perfil de autor? Se conservarán el autor WordPress enlazado y la autoría de las entradas existentes.", "comment": "Según el glosario, «delete» es «borrar» y «link» es «enlazar», no «vincular»."}
+{"n": 225, "verdict": "reject", "msgstr": "Perfil borrado. Se conservan el autor WordPress enlazado y la autoría de las entradas existentes.", "comment": "Según el glosario, «delete» es «borrar» y «link» es «enlazar», no «vincular»."}
+{"n": 246, "verdict": "reject", "msgstr": "Siguiente envío", "comment": "Según el glosario, «next» es «siguiente»."}
+{"n": 252, "verdict": "reject", "msgstr": "Borrar datos del servidor", "comment": "Según el glosario, «delete» es «borrar», no «eliminar»."}
+{"n": 253, "verdict": "reject", "msgstr": "¿Borrar todos los datos de uso enviados por este sitio y desactivar su envío?", "comment": "Según el glosario, «delete» es «borrar», no «eliminar»."}
+{"n": 264, "verdict": "reject", "msgstr": "Quitar detalles sin respaldo", "comment": "Según el glosario, «remove» se traduce casi siempre como «quitar»."}
+{"n": 280, "verdict": "reject", "msgstr": " — recuperada el %s", "comment": "Según el glosario, «retrieve» es «recuperar», no «obtener»."}
+{"n": 282, "verdict": "reject", "msgstr": "Meta title: %s", "comment": "Según el glosario, «meta title» no se traduce."}
+{"n": 285, "verdict": "reject", "msgstr": "Aplicar meta title, meta description y la frase principal de las instrucciones como palabra clave objetivo en %s.", "comment": "Según el glosario, «meta title» y «meta description» no se traducen."}
+{"n": 295, "verdict": "reject", "msgstr": "Los hechos de la sección se reconstruyen con estas fuentes y se citan; las afirmaciones sin respaldo se quitan y aparecen como advertencias.", "comment": "Según el glosario, «remove» se traduce casi siempre como «quitar»."}
+{"n": 312, "verdict": "reject", "msgstr": "Mejorar a Pro", "comment": "Según el glosario, «upgrade» a un plan superior es «mejorar», no «actualizar»."}
+{"n": 316, "verdict": "reject", "msgstr": "Ver planes y periodo de prueba gratuito", "comment": "Según el glosario, «trial» es «periodo de prueba»."}
+{"n": 323, "verdict": "reject", "msgstr": "La respuesta a la instrucción de revisión debe revisarse o descartarse.", "comment": "Según el glosario, «prompt» es «instrucción», «review» es «revisión» y «dismiss» es «descartar». Los términos no deben quedar en inglés."}
+{"n": 328, "verdict": "reject", "msgstr": "Elige un usuario de WordPress con el perfil Autor.", "comment": "Según el glosario, «role» es «perfil», no «rol»."}
+{"n": 335, "verdict": "reject", "msgstr": "Escritorio", "comment": "Según el glosario, «Dashboard» es «Escritorio», no «Panel»."}
+{"n": 343, "verdict": "reject", "msgstr": "Valores por defecto del contenido", "comment": "Según el glosario, «default» es «por defecto», no «predeterminado»."}
+{"n": 347, "verdict": "reject", "msgstr": "Modelo por defecto", "comment": "Según el glosario, «default» es «por defecto», no «predeterminado»."}
+{"n": 374, "verdict": "reject", "msgstr": "%s — Ajuste heredado actual", "comment": "Según el glosario, «legacy» es «heredado» y «setting» es «ajuste»."}
+{"n": 411, "verdict": "reject", "msgstr": "Esta sección contiene un bloque %s que se quitaría al reescribir. Edítala manualmente o mueve el bloque fuera primero.", "comment": "Según el glosario, «remove» se traduce casi siempre como «quitar»."}
+{"n": 432, "verdict": "reject", "msgstr": "No se pudo recuperar la fuente. Comprueba las restricciones o usa otra URL.", "comment": "Según el glosario, «retrieve» es «recuperar», no «obtener»."}
+{"n": 450, "verdict": "reject", "msgstr": "GPT-4o — Modelo multimodal heredado", "comment": "Según el glosario, «legacy» es «heredado», no «antiguo»."}
+{"n": 451, "verdict": "reject", "msgstr": "GPT-4o mini — Modelo heredado económico", "comment": "Según el glosario, «legacy» es «heredado», no «antiguo»."}
+{"n": 452, "verdict": "reject", "msgstr": "Claude Opus 5.5 — Máxima capacidad", "comment": "El nombre del modelo es «Claude Opus 5.5»; la traducción lo ha cambiado por «Claude Opus 5»."}
+{"n": 465, "verdict": "fix", "msgstr": "La conexión funciona, pero el modelo «%s» no está disponible para esta clave. Elige otro en Ajustes.", "comment": "Usa comillas españolas «» en lugar de comillas rectas."}
+{"n": 490, "verdict": "reject", "msgstr": "Guarda el perfil para crear su autor WordPress enlazado antes de generar.", "comment": "Según el glosario, «link» (verbo) es «enlazar»; no se usa «vincular»."}
+{"n": 494, "verdict": "reject", "msgstr": "No puedes cambiar el autor WordPress enlazado. Pide ayuda a un administrador.", "comment": "Según el glosario, «link» (verbo) es «enlazar»; no se usa «vincular»."}
+{"n": 495, "verdict": "reject", "msgstr": "El perfil Autor de WordPress no está disponible en este sitio.", "comment": "Según el glosario, «role» es «perfil», no «rol»."}

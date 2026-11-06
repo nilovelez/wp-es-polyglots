@@ -15,7 +15,7 @@ You translate or review WordPress strings (core, plugins, themes, readmes) for t
    ```
    python3 skill/scripts/po_tool.py glossary <file.po>
    ```
-   Each line is `term (part of speech) → translation — notes [#entries]`. The notes are mandatory ("No usar…", "No se traduce").
+   Each line is `term (part of speech) → translation — notes [#entries]`. The notes are mandatory ("No usar…", "No se traduce"). The command already applies the team's overrides (`resources/glossary-overrides.csv`), which win over the official glossary.
 
 Priority on conflict: the human reviewer's instructions → glossary → style guide.
 

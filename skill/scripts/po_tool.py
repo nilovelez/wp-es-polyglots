@@ -41,10 +41,11 @@ decisions.jsonl: one JSON object per changed or doubtful entry:
 Entries not listed are approved as they are.
 """
 import json
+import os
 import re
 import sys
 
-RES = __import__('os').path.join(__import__('os').path.dirname(__import__('os').path.abspath(__file__)), '..', '..', 'resources', '')
+RES = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', 'resources', '')
 ESCAPES = {'n': '\n', 't': '\t', 'r': '\r', '"': '"', '\\': '\\', 'a': '\a', 'b': '\b', 'f': '\f', 'v': '\v'}
 
 
@@ -454,6 +455,18 @@ def read_csv(path):
     return list(csv.DictReader(open(path, encoding='utf-8', newline='')))
 
 
+def read_glossary(gl):
+    """Glossary rows. With the default glossary, the team's overrides
+    (resources/glossary-overrides.csv) replace every row of the same term."""
+    rows = read_csv(gl)
+    ov = RES + 'glossary-overrides.csv'
+    if os.path.abspath(gl) == os.path.abspath(RES + 'glossary.csv') and os.path.exists(ov):
+        extra = read_csv(ov)
+        terms = {r['en'].strip().lower() for r in extra}
+        rows = [r for r in rows if r['en'].strip().lower() not in terms] + extra
+    return rows
+
+
 def cmd_glossary(args):
     """Glossary entries whose English term appears in the file's msgids."""
     po, gl = args[0], (args[1] if len(args) > 1 else RES + 'glossary.csv')
@@ -461,7 +474,7 @@ def cmd_glossary(args):
     text = '\n'.join(e['msgid'] + '\n' + (e['msgid_plural'] or '') for e in entries)
     text = TAG.sub(' ', text).lower()
     hits = {}
-    for row in read_csv(gl):
+    for row in read_glossary(gl):
         term = row['en'].strip().lower()
         if not term:
             continue
@@ -507,7 +520,7 @@ def cmd_lint(args):
     po, gl = args[0], (args[1] if len(args) > 1 else RES + 'glossary.csv')
     entries = parse_sel(po)
     merged = {}
-    for row in read_csv(gl):
+    for row in read_glossary(gl):
         en = row['en'].strip()
         es = row['es'].strip()
         desc = norm(row.get('description', ''))
@@ -548,6 +561,8 @@ def cmd_lint(args):
                 caps.append(w)
         if caps:
             hints.append('capitals mid-sentence: ' + ', '.join(caps))
+        if '#%' in src and re.search(r'n\.\s?º\s?%', tr):
+            hints.append('«#%d» → keep «#», not «n.º»')
         if re.search(r'(?<!p\. )\bej\.', tr):
             hints.append('«ej.» → «p. ej.»')
         visible = TAG.sub('', tr)

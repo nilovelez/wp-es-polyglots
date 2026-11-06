@@ -105,6 +105,20 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - Del glosario: *addon* = «extensión», *merchant* = «vendedor», *notify* = «avisar», *authentication* = «identificación», *bug* = «fallo», *frontend* = «parte pública», *sandbox* = «entorno de pruebas», *modal* = «emergente», *release* = «versión». Aplicó también la regla nueva del guion largo (#7 y #11) y «correo electrónico» en textos largos.
 - #49: Nilo aceptó «escritorio del vendedor» para el *dashboard* de un servicio externo (el Backoffice de ifthenpay). Es un dato para la pregunta abierta sobre el *Dashboard* externo.
 
+## 2026-11-06 · Haiku · ronda 11 (AI Blog Writer, stable, 495 cadenas) · skill v3 · prueba de tamaño
+
+- Una sola pasada secuencial con las 495 cadenas, sin subagentes.
+- Resultado: 55 cambios. Haiku propuso 46 cambios y 2 dudas. Mantenidos: 37. Editados: 9. Deshechos: 0. Escapados: 8.
+- **Tamaño:** no se ve cansancio. Las propuestas por cuartos son 8, 16, 14 y 10, y las pistas de `lint`, 37, 32, 32 y 29. Los fallos no se concentran al final y casi todos salen de criterios nuevos de Nilo, no de errores de atención. 495 cadenas de interfaz caben bien en una pasada.
+- **Escapados (8):**
+  - 6 por «n.º %d» en lugar de «#%d». Es un criterio nuevo de Nilo: se deja «#», como en el original. Ahora `lint` lo avisa.
+  - 2 de idiomas: «chino (China)» y «chino (Taiwán)» por *Chinese, Simplified/Traditional*. Era un error de sentido que no vio.
+- **Editados (9):**
+  - 4 por *meta title* y *meta description*. Haiku siguió el glosario oficial (no se traducen), pero Nilo quiere «meta título» y «meta descripción». Se creó `resources/glossary-overrides.csv`, que manda sobre el glosario en `po_tool.py glossary` y `lint`.
+  - El resto, retoques de Nilo: «Su perfil», «clave de API», «perfil del escritor», «Perfil #%d borrado», «— recuperado».
+- `lint` con la entrada nueva del glosario detectó una errata en la revisión de Nilo («meta descrición»), que se corrigió antes de generar `corrected.po`.
+- Dudas: *Supported* como estado → «Compatible» (aquí el glosario sí aplica). *OK* → «Correcto» se mantuvo.
+
 ## 2026-11-06 · Haiku frente a Sonnet · rondas 03 y 04 · skill v3
 
 Haiku revisó a ciegas los `original.po` de las rondas 03 y 04. Se compara con la revisión final de Nilo (`reviewed.po`). Ojo: Nilo revisó partiendo de las propuestas de Sonnet, así que la referencia favorece a Sonnet.

@@ -24,6 +24,9 @@ Prioridad si hay conflicto: instrucciones de Nilo → glosario → guía.
 - *admin* / *administrator*: «administrador» es la persona o el perfil; «administración» es el área de administración. *Administrator request* = «solicitudes del administrador», no «solicitudes de administración».
 - *host name* / *hostname* = «nombre de host», no «nombre de servidor».
 - Nombres de etiquetas y atributos HTML (*viewport*, *canonical*, *hreflang*, *og:url*) no se traducen cuando nombran la etiqueta: «la etiqueta viewport», «la metaetiqueta viewport». La traducción del glosario («área visible») es para la interfaz del usuario final.
+- **«#%d» se deja como en el original** («Pedido #%d», «Tarea #%d»): no se cambia por «n.º %d», que no hace falta, puede ser incorrecto y se lee peor. Si el traductor puso «n.º», se corrige a «#».
+- *meta title* = «meta título», *meta description* = «meta descripción» (dos palabras), aunque el glosario oficial diga que no se traducen. Está en `glossary-overrides.csv`, que manda sobre `glossary.csv`.
+- Nombres de idiomas con variante: *Chinese, Simplified* = «chino simplificado», *Chinese, Traditional* = «chino tradicional» (no «chino (China)» ni «chino (Taiwán)»). Se traduce la variante que dice el original.
 - *media* = «medios» (glosario), también en *media item* / *media file* = «archivo de medios», no «archivo multimedia».
 - *badge*: «insignia» (glosario) encaja sobre todo en productos (el cartelito de «en oferta»). Para el globo con un contador junto a un elemento del menú, «distintivo» y otras opciones razonables también son válidas: se aprueba.
 - Los términos del glosario que el traductor deja en inglés (*checkout*, *slider*, *hook*, *frontend*, *sitemap*, *firewall*) son error.
