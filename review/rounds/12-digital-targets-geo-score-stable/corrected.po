@@ -1,0 +1,139 @@
+# Translation of Plugins - Digital Targets GEO Score – AI Visibility Check - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Digital Targets GEO Score – AI Visibility Check - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: +0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.1.0\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Digital Targets GEO Score – AI Visibility Check - Stable (latest release)\n"
+
+#: src/Rules/Schema/SchemaValid.php:137
+msgid "Your SEO plugin marks this page as \"FAQ page\" although it has no FAQ block. Set the page type to \"Web page\" in the SEO plugin (Yoast SEO: tab \"Schema\" of the post, or Settings → Content types for all posts) – or add a real FAQ block."
+msgstr "Tu plugin de SEO marca esta página como «Página FAQ» aunque no tiene ningún bloque de preguntas frecuentes. Cambia el tipo de página a «Página web» en el plugin SEO (Yoast SEO: pestaña «Schema» de la entrada, o Ajustes → Tipos de contenido para todas las entradas) o añade un bloque FAQ real."
+
+#: src/Admin/SettingsPage.php:781
+msgid "Delete"
+msgstr "Borrar"
+
+#: src/Rules/Support/Help.php:37
+msgid "\"Welcome to our website! In this article we would like to tell you a little about our services.\""
+msgstr "\"¡Te damos la bienvenida a nuestro sitio web! En este artículo queremos contarte un poco sobre nuestros servicios.\""
+
+#: src/Rules/Crawl/ContentInHtml.php:50
+msgid "Check maintenance mode, login, cookie wall or bot protection: AI crawlers load the page without JavaScript and cookies and must see the text directly."
+msgstr "Revisa el modo mantenimiento, el formulario de acceso, el muro de cookies o la protección antibots: los rastreadores de IA cargan la página sin JavaScript ni cookies y deben ver el texto directamente."
+
+#: src/Admin/HelpPage.php:292
+msgid "Copy the prompt below into the chat and send it."
+msgstr "Copia la instrucción de abajo en el chat y envíala."
+
+#: src/Rules/Support/Help.php:92
+msgid "No sameAs, profiles not linked"
+msgstr "Sin sameAs, perfiles no enlazados"
+
+#: src/Admin/HelpPage.php:517
+msgid "None. GEO Score only loads your own pages, robots.txt and llms.txt. E-mail reports are sent with your WordPress mail settings."
+msgstr "Ninguno. GEO Score solo carga tus propias páginas, robots.txt y llms.txt. Los informes por correo electrónico se envían con los ajustes de correo de tu WordPress."
+
+#: src/Rules/Authority/SameAs.php:42
+msgid "Profiles linked (sameAs)"
+msgstr "Perfiles enlazados (sameAs)"
+
+#. translators: %d: number of profiles
+#: src/Rules/Authority/SameAs.php:76
+msgid "Profiles linked via sameAs: %d"
+msgstr "Perfiles enlazados mediante sameAs: %d"
+
+#: src/Admin/HelpPage.php:298
+msgid "Prompt to copy"
+msgstr "Instrucción para copiar"
+
+#: src/Rules/Crawl/Indexable.php:69
+msgid "Remove the noindex directive if the page should be found."
+msgstr "Quita la directiva noindex si la página debe encontrarse."
+
+#: src/Admin/SettingsPage.php:1189
+msgid "Separate several addresses with commas. Empty = the administration e-mail address."
+msgstr "Separa varias direcciones con comas. Vacío = la dirección de correo electrónico de administración."
+
+#: src/Admin/HelpPage.php:228
+msgid "Settings → Company & author: enter company name, legal name, author, About us page, phone, e-mail and your profiles (LinkedIn, Xing, Google Business Profile)."
+msgstr "Ajustes → Empresa y autor: introduce el nombre de la empresa, la razón social, el autor, la página «Sobre nosotros», el teléfono, el correo electrónico y tus perfiles (LinkedIn, Xing, Perfil de Empresa de Google)."
+
+#: src/Rules/Authority/ContactReachable.php:83
+msgid "Show phone number or e-mail as clickable link (tel:, mailto:)."
+msgstr "Muestra el teléfono o el correo electrónico como enlace clicable (tel:, mailto:)."
+
+#: src/Admin/HelpPage.php:445
+msgid "Structured data, llms.txt and e-mail report – see the next section."
+msgstr "Datos estructurados, llms.txt e informe por correo electrónico: consulta la siguiente sección."
+
+#: src/Admin/SettingsPage.php:949
+msgid "The page type decides which checks apply (e.g. author and update date only on guides) and the minimum length. Without a setting the type is detected from slugs such as /ratgeber/, /blog/, /leistungen/, /ueber-uns/. Each page can also be set individually in its \"GEO Score\" box in the editor."
+msgstr "El tipo de página decide qué comprobaciones se aplican (p. ej. autor y fecha de actualización solo en guías) y la longitud mínima. Sin ajuste, el tipo se detecta por slugs como /ratgeber/, /blog/, /leistungen/, /ueber-uns/. Cada página también se puede ajustar en su caja «GEO Score» del editor."
+
+#: src/Rules/Authority/ContactReachable.php:103
+msgid "Use the same e-mail address everywhere as in your company data."
+msgstr "Usa en todas partes la misma dirección de correo electrónico que en los datos de tu empresa."
+
+#: src/Admin/SettingsPage.php:115 src/Admin/Transfer.php:332
+#: src/Output/EmailReport.php:68
+msgid "You are not allowed to change these settings."
+msgstr "No tienes permisos para cambiar estos ajustes."
+
+#: src/Admin/AdminPage.php:864 src/Admin/AdminPage.php:883
+msgid "You are not allowed to export this data."
+msgstr "No tienes permisos para exportar estos datos."
+
+#. translators: %s: language code
+#: src/Admin/AdminPage.php:252
+msgid "Downloads all open tasks of all pages as one file, sorted by the points they bring. Attach it in your AI assistant (Claude, ChatGPT, Gemini) together with the prompt from the help, check the suggested texts and paste them into your pages. You can also work through the list by hand."
+msgstr "Descarga todas las tareas abiertas de todas las páginas en un solo archivo, ordenadas por los puntos que aportan. Adjúntalo en tu asistente de IA (Claude, ChatGPT, Gemini) junto con la instrucción de la ayuda, revisa los textos propuestos y pégalos en tus páginas. También puedes ir resolviendo la lista a mano."
+
+#: src/Admin/HelpPage.php:112
+msgid "FAQ and troubleshooting"
+msgstr "FAQ y solución de problemas"
+
+#: src/Admin/HelpPage.php:39
+msgid "GEO Score Help & FAQ"
+msgstr "GEO Score – Ayuda y FAQ"
+
+#: src/Admin/HelpPage.php:40 src/Admin/HelpPage.php:118
+msgid "Help & FAQ"
+msgstr "Ayuda y FAQ"
+
+#: src/Admin/HelpPage.php:73
+msgid "More in Help & FAQ →"
+msgstr "Más en Ayuda y FAQ →"
+
+#: src/Admin/HelpPage.php:84
+msgid "Open the explanation in Help & FAQ"
+msgstr "Abrir la explicación en Ayuda y FAQ"
+
+#: src/Analysis/Analyzer.php:103
+msgid "The public page shows other content than the editor (maintenance mode, login, cookie wall or an old cache?). Page checks were skipped."
+msgstr "La página pública muestra un contenido distinto al del editor (¿modo mantenimiento, formulario de acceso, muro de cookies o una caché antigua?). Se omitieron las comprobaciones de la página."
+
+#: src/Admin/HelpPage.php:232
+msgid "Settings → General: keep the automatic full scan on and, if you like, the e-mail report under Settings → Output."
+msgstr "Ajustes → General: deja activada la comprobación completa automática y, si quieres, el informe por correo electrónico en Ajustes → Salida."
+
+#: src/Admin/SettingsPage.php:343
+msgid "The report could not be sent. Scan the pages first and check that WordPress can send e-mails (e.g. with an SMTP plugin)."
+msgstr "No se pudo enviar el informe. Comprueba primero las páginas y asegúrate de que WordPress puede enviar correos electrónicos (p. ej. con un plugin SMTP)."
+
+#: src/Admin/HelpPage.php:514
+msgid "Usually a maintenance or coming-soon mode, a login, a cookie wall or a firewall blocks the request. Checks of the public page are skipped. After going live, or after allowing requests from your own server, run \"Scan all pages\" again."
+msgstr "Normalmente, un modo de mantenimiento o «próximamente», un formulario de acceso, un muro de cookies o un cortafuegos bloquea la solicitud. Las comprobaciones de la página pública se omiten. Tras la puesta en marcha, o tras permitir las solicitudes desde tu propio servidor, vuelve a ejecutar «Comprobar todas las páginas»."
+
+#: src/Admin/AdminPage.php:114
+msgid "You are not allowed to scan pages."
+msgstr "No tienes permisos para comprobar páginas."
+
+#: src/Admin/AdminBar.php:123
+msgid "You are not allowed to scan this page."
+msgstr "No tienes permisos para comprobar esta página."

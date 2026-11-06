@@ -1,0 +1,138 @@
+Strings 905 · human changes 31 · model proposals 31 · kept 29 · edited 2 · reverted 0 · missed 0 · doubts 1
+
+## Model proposal edited by the reviewer (2)
+
+- #80 Your SEO plugin marks this page as "FAQ page" although it has no FAQ block. Set the page type to "Web page" in the SEO plugin (Yoast SEO: tab "Schema" of the post, or Settings → Content types for all posts) – or add a real FAQ block.
+  - original: Tu plugin SEO marca esta página como «Página de preguntas frecuentes» aunque no tiene ningún bloque FAQ. Cambia el tipo de página a «Página web» en el plugin SEO (Yoast SEO: pestaña «Schema» de la entrada, o Ajustes → Tipos de contenido para todas las entradas) o añade un bloque FAQ real.
+  - model: Tu plugin SEO marca esta página como «Página FAQ» aunque no tiene ningún bloque FAQ. Cambia el tipo de página a «Página web» en el plugin SEO (Yoast SEO: pestaña «Schema» de la entrada, o Ajustes → Tipos de contenido para todas las entradas) o añade un bloque FAQ real.
+  - reason: Según el glosario, «FAQ» no se traduce; en la etiqueta del plugin SEO se queda «FAQ».
+  - final: Tu plugin de SEO marca esta página como «Página FAQ» aunque no tiene ningún bloque de preguntas frecuentes. Cambia el tipo de página a «Página web» en el plugin SEO (Yoast SEO: pestaña «Schema» de la entrada, o Ajustes → Tipos de contenido para todas las entradas) o añade un bloque FAQ real.
+- #176 "Welcome to our website! In this article we would like to tell you a little about our services."
+  - original: «¡Bienvenido a nuestra web! En este artículo queremos contarte un poco sobre nuestros servicios.»
+  - model: ¡Te damos la bienvenida a nuestro sitio web! En este artículo queremos contarte un poco sobre nuestros servicios.
+  - reason: Según el glosario, «Welcome» se traduce como «Te damos la bienvenida», que es el saludo que encaja con cualquier persona.
+  - final: "¡Te damos la bienvenida a nuestro sitio web! En este artículo queremos contarte un poco sobre nuestros servicios."
+
+## Doubts (1)
+
+- #873 Scan all pages
+  - original: Comprobar todas las páginas
+
+## Model proposal kept (29)
+
+- #100 Delete
+  - original: Eliminar
+  - model: Borrar
+  - reason: Según el glosario, «delete» es «borrar», no «eliminar».
+- #291 Check maintenance mode, login, cookie wall or bot protection: AI crawlers load the page without JavaScript and cookies and must see the text directly.
+  - original: Revisa el modo mantenimiento, el inicio de sesión, el muro de cookies o la protección antibots: los rastreadores de IA cargan la página sin JavaScript ni cookies y deben ver el texto directamente.
+  - model: Revisa el modo mantenimiento, el formulario de acceso, el muro de cookies o la protección antibots: los rastreadores de IA cargan la página sin JavaScript ni cookies y deben ver el texto directamente.
+  - reason: Según el glosario, «login» se traduce como «acceso» o «acceder», no como «inicio de sesión».
+- #322 Copy the prompt below into the chat and send it.
+  - original: Copia el prompt de abajo en el chat y envíalo.
+  - model: Copia la instrucción de abajo en el chat y envíala.
+  - reason: Según el glosario, «prompt» se traduce como «instrucción» cuando se refiere a una IA.
+- #495 No sameAs, profiles not linked
+  - original: Sin sameAs, perfiles no vinculados
+  - model: Sin sameAs, perfiles no enlazados
+  - reason: Según el glosario, «link» (verbo) es «enlazar»; no se usa «vincular».
+- #502 None. GEO Score only loads your own pages, robots.txt and llms.txt. E-mail reports are sent with your WordPress mail settings.
+  - original: Ninguno. GEO Score solo carga tus propias páginas, robots.txt y llms.txt. Los informes por correo se envían con los ajustes de correo de tu WordPress.
+  - model: Ninguno. GEO Score solo carga tus propias páginas, robots.txt y llms.txt. Los informes por correo electrónico se envían con los ajustes de correo de tu WordPress.
+  - reason: Según el glosario, «e-mail» es «correo electrónico», también en textos largos.
+- #559 Profiles linked (sameAs)
+  - original: Perfiles vinculados (sameAs)
+  - model: Perfiles enlazados (sameAs)
+  - reason: Según el glosario, «link» (verbo) es «enlazar»; no se usa «vincular».
+- #560 Profiles linked via sameAs: %d
+  - original: Perfiles vinculados mediante sameAs: %d
+  - model: Perfiles enlazados mediante sameAs: %d
+  - reason: Según el glosario, «link» (verbo) es «enlazar»; no se usa «vincular».
+- #561 Prompt to copy
+  - original: Prompt para copiar
+  - model: Instrucción para copiar
+  - reason: Según el glosario, «prompt» se traduce como «instrucción» cuando se refiere a una IA.
+- #569 Remove the noindex directive if the page should be found.
+  - original: Elimina la directiva noindex si la página debe encontrarse.
+  - model: Quita la directiva noindex si la página debe encontrarse.
+  - reason: Según el glosario, «remove» se traduce casi siempre como «quitar»; aquí es una directiva de texto, no un borrado físico.
+- #594 Separate several addresses with commas. Empty = the administration e-mail address.
+  - original: Separa varias direcciones con comas. Vacío = la dirección de correo de administración.
+  - model: Separa varias direcciones con comas. Vacío = la dirección de correo electrónico de administración.
+  - reason: En textos de ayuda, «e-mail» es «correo electrónico», no «correo».
+- #602 Settings → Company & author: enter company name, legal name, author, About us page, phone, e-mail and your profiles (LinkedIn, Xing, Google Business Profile).
+  - original: Ajustes → Empresa y autor: introduce el nombre de la empresa, la razón social, el autor, la página «Sobre nosotros», el teléfono, el correo y tus perfiles (LinkedIn, Xing, Perfil de Empresa de Google).
+  - model: Ajustes → Empresa y autor: introduce el nombre de la empresa, la razón social, el autor, la página «Sobre nosotros», el teléfono, el correo electrónico y tus perfiles (LinkedIn, Xing, Perfil de Empresa de Google).
+  - reason: En textos de ayuda, «e-mail» es «correo electrónico», no «correo».
+- #616 Show phone number or e-mail as clickable link (tel:, mailto:).
+  - original: Muestra el teléfono o el correo como enlace clicable (tel:, mailto:).
+  - model: Muestra el teléfono o el correo electrónico como enlace clicable (tel:, mailto:).
+  - reason: En textos de ayuda, «e-mail» es «correo electrónico», no «correo».
+- #634 Structured data, llms.txt and e-mail report – see the next section.
+  - original: Datos estructurados, llms.txt e informe por correo: consulta la siguiente sección.
+  - model: Datos estructurados, llms.txt e informe por correo electrónico: consulta la siguiente sección.
+  - reason: En textos de ayuda, «e-mail» es «correo electrónico», no «correo».
+- #669 The page type decides which checks apply (e.g. author and update date only on guides) and the minimum length. Without a setting the type is detected from slugs such as /ratgeber/, /blog/, /leistungen/, /ueber-uns/. Each page can also be set individually in its "GEO Score" box in the editor.
+  - original: El tipo de página decide qué comprobaciones se aplican (p. ej. autor y fecha de actualización solo en guías) y la longitud mínima. Sin ajuste, el tipo se detecta por slugs como /guia/, /blog/, /servicios/, /sobre-nosotros/. Cada página también se puede ajustar en su caja «GEO Score» del editor.
+  - model: El tipo de página decide qué comprobaciones se aplican (p. ej. autor y fecha de actualización solo en guías) y la longitud mínima. Sin ajuste, el tipo se detecta por slugs como /ratgeber/, /blog/, /leistungen/, /ueber-uns/. Cada página también se puede ajustar en su caja «GEO Score» del editor.
+  - reason: Los slugs de ejemplo son los que el plugin reconoce; no se cambian al traducir.
+- #709 Use the same e-mail address everywhere as in your company data.
+  - original: Usa en todas partes la misma dirección de correo que en los datos de tu empresa.
+  - model: Usa en todas partes la misma dirección de correo electrónico que en los datos de tu empresa.
+  - reason: En textos de ayuda, «e-mail» es «correo electrónico», no «correo».
+- #742 You are not allowed to change these settings.
+  - original: No tienes permiso para cambiar estos ajustes.
+  - model: No tienes permisos para cambiar estos ajustes.
+  - reason: Según el glosario, «not allowed» se traduce como «no tienes permisos» (en plural).
+- #743 You are not allowed to export this data.
+  - original: No tienes permiso para exportar estos datos.
+  - model: No tienes permisos para exportar estos datos.
+  - reason: Según el glosario, «not allowed» se traduce como «no tienes permisos» (en plural).
+- #805 Downloads all open tasks of all pages as one file, sorted by the points they bring. Attach it in your AI assistant (Claude, ChatGPT, Gemini) together with the prompt from the help, check the suggested texts and paste them into your pages. You can also work through the list by hand.
+  - original: Descarga todas las tareas abiertas de todas las páginas en un solo archivo, ordenadas por los puntos que aportan. Adjúntalo en tu asistente de IA (Claude, ChatGPT, Gemini) junto con el prompt de la ayuda, revisa los textos propuestos y pégalos en tus páginas. También puedes ir resolviendo la lista a mano.
+  - model: Descarga todas las tareas abiertas de todas las páginas en un solo archivo, ordenadas por los puntos que aportan. Adjúntalo en tu asistente de IA (Claude, ChatGPT, Gemini) junto con la instrucción de la ayuda, revisa los textos propuestos y pégalos en tus páginas. También puedes ir resolviendo la lista a mano.
+  - reason: Según el glosario, «prompt» se traduce como «instrucción» cuando se refiere a una IA.
+- #807 FAQ and troubleshooting
+  - original: Preguntas frecuentes y solución de problemas
+  - model: FAQ y solución de problemas
+  - reason: Según el glosario, «FAQ» no se traduce.
+- #810 GEO Score Help & FAQ
+  - original: GEO Score – Ayuda y preguntas frecuentes
+  - model: GEO Score – Ayuda y FAQ
+  - reason: Según el glosario, «FAQ» no se traduce.
+- #813 Help & FAQ
+  - original: Ayuda y preguntas frecuentes
+  - model: Ayuda y FAQ
+  - reason: Según el glosario, «FAQ» no se traduce.
+- #819 More in Help & FAQ →
+  - original: Más en Ayuda y preguntas frecuentes →
+  - model: Más en Ayuda y FAQ →
+  - reason: Según el glosario, «FAQ» no se traduce.
+- #821 Open the explanation in Help & FAQ
+  - original: Abrir la explicación en Ayuda y preguntas frecuentes
+  - model: Abrir la explicación en Ayuda y FAQ
+  - reason: Según el glosario, «FAQ» no se traduce.
+- #835 The public page shows other content than the editor (maintenance mode, login, cookie wall or an old cache?). Page checks were skipped.
+  - original: La página pública muestra un contenido distinto al del editor (¿modo mantenimiento, inicio de sesión, muro de cookies o una caché antigua?). Se omitieron las comprobaciones de la página.
+  - model: La página pública muestra un contenido distinto al del editor (¿modo mantenimiento, formulario de acceso, muro de cookies o una caché antigua?). Se omitieron las comprobaciones de la página.
+  - reason: Según el glosario, «login» se traduce como «acceso» o «acceder», no como «inicio de sesión».
+- #888 Settings → General: keep the automatic full scan on and, if you like, the e-mail report under Settings → Output.
+  - original: Ajustes → General: deja activada la comprobación completa automática y, si quieres, el informe por correo en Ajustes → Salida.
+  - model: Ajustes → General: deja activada la comprobación completa automática y, si quieres, el informe por correo electrónico en Ajustes → Salida.
+  - reason: En textos de ayuda, «e-mail» es «correo electrónico», no «correo».
+- #895 The report could not be sent. Scan the pages first and check that WordPress can send e-mails (e.g. with an SMTP plugin).
+  - original: No se pudo enviar el informe. Comprueba primero las páginas y asegúrate de que WordPress puede enviar correos (p. ej. con un plugin SMTP).
+  - model: No se pudo enviar el informe. Comprueba primero las páginas y asegúrate de que WordPress puede enviar correos electrónicos (p. ej. con un plugin SMTP).
+  - reason: En textos de ayuda, «e-mail» es «correo electrónico», no «correo».
+- #900 Usually a maintenance or coming-soon mode, a login, a cookie wall or a firewall blocks the request. Checks of the public page are skipped. After going live, or after allowing requests from your own server, run "Scan all pages" again.
+  - original: Normalmente, un modo de mantenimiento o «próximamente», un inicio de sesión, un muro de cookies o un cortafuegos bloquea la solicitud. Las comprobaciones de la página pública se omiten. Tras la puesta en marcha, o tras permitir las solicitudes desde tu propio servidor, vuelve a ejecutar «Comprobar todas las páginas».
+  - model: Normalmente, un modo de mantenimiento o «próximamente», un formulario de acceso, un muro de cookies o un cortafuegos bloquea la solicitud. Las comprobaciones de la página pública se omiten. Tras la puesta en marcha, o tras permitir las solicitudes desde tu propio servidor, vuelve a ejecutar «Comprobar todas las páginas».
+  - reason: Según el glosario, «login» se traduce como «acceso» o «acceder», no como «inicio de sesión».
+- #903 You are not allowed to scan pages.
+  - original: No tienes permiso para comprobar páginas.
+  - model: No tienes permisos para comprobar páginas.
+  - reason: Según el glosario, «not allowed» se traduce como «no tienes permisos» (en plural).
+- #904 You are not allowed to scan this page.
+  - original: No tienes permiso para comprobar esta página.
+  - model: No tienes permisos para comprobar esta página.
+  - reason: Según el glosario, «not allowed» se traduce como «no tienes permisos» (en plural).

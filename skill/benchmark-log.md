@@ -119,6 +119,16 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - `lint` con la entrada nueva del glosario detectó una errata en la revisión de Nilo («meta descrición»), que se corrigió antes de generar `corrected.po`.
 - Dudas: *Supported* como estado → «Compatible» (aquí el glosario sí aplica). *OK* → «Correcto» se mantuvo.
 
+## 2026-11-06 · Haiku · ronda 12 (Digital Targets GEO Score, stable, 905 cadenas) · skill v3 · prueba de tamaño
+
+- Una sola pasada secuencial, sin subagentes. Haiku partió el trabajo por su cuenta en 6 tramos seguidos (`partNN.jsonl`).
+- Resultado: 31 cambios. Haiku propuso 31 cambios y 1 duda. Mantenidos: 29. Editados: 2. Ni deshechos ni escapados. Nilo: «muy buena pinta», no encontró nada importante.
+- **Tamaño:** propuestas por cuartos 3, 2, 11 y 16, frente a 45, 30, 47 y 89 pistas de `lint`. La primera mitad tenía pocas propuestas, pero Nilo no encontró nada escapado: el traductor era bueno. 905 cadenas de interfaz caben bien en una pasada.
+- Editados:
+  - #80: Nilo cambió «bloque FAQ» por «bloque de preguntas frecuentes» en un texto largo que explica qué es una página FAQ. No era importante y queda como candidato, no como regla.
+  - #176: toda la cadena va entre comillas en el original (un texto de ejemplo). Haiku las quitó y Nilo las devolvió. Ahora está en la referencia rápida: se mantienen las comillas que forman parte del texto.
+- Duda (#873): *scan* → «comprobar» se mantiene. «Analizar» y «explorar» también valen.
+
 ## 2026-11-06 · Haiku frente a Sonnet · rondas 03 y 04 · skill v3
 
 Haiku revisó a ciegas los `original.po` de las rondas 03 y 04. Se compara con la revisión final de Nilo (`reviewed.po`). Ojo: Nilo revisó partiendo de las propuestas de Sonnet, así que la referencia favorece a Sonnet.

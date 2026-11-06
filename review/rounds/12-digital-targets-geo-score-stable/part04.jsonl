@@ -1,0 +1,7 @@
+{"n": 495, "verdict": "reject", "msgstr": "Sin sameAs, perfiles no enlazados", "comment": "Según el glosario, «link» (verbo) es «enlazar»; no se usa «vincular»."}
+{"n": 502, "verdict": "reject", "msgstr": "Ninguno. GEO Score solo carga tus propias páginas, robots.txt y llms.txt. Los informes por correo electrónico se envían con los ajustes de correo de tu WordPress.", "comment": "Según el glosario, «e-mail» es «correo electrónico», también en textos largos."}
+{"n": 559, "verdict": "reject", "msgstr": "Perfiles enlazados (sameAs)", "comment": "Según el glosario, «link» (verbo) es «enlazar»; no se usa «vincular»."}
+{"n": 560, "verdict": "reject", "msgstr": "Perfiles enlazados mediante sameAs: %d", "comment": "Según el glosario, «link» (verbo) es «enlazar»; no se usa «vincular»."}
+{"n": 561, "verdict": "reject", "msgstr": "Instrucción para copiar", "comment": "Según el glosario, «prompt» se traduce como «instrucción» cuando se refiere a una IA."}
+{"n": 569, "verdict": "reject", "msgstr": "Quita la directiva noindex si la página debe encontrarse.", "comment": "Según el glosario, «remove» se traduce casi siempre como «quitar»; aquí es una directiva de texto, no un borrado físico."}
+{"n": 594, "verdict": "reject", "msgstr": "Separa varias direcciones con comas. Vacío = la dirección de correo electrónico de administración.", "comment": "En textos de ayuda, «e-mail» es «correo electrónico», no «correo»."}

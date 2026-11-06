@@ -1,0 +1,905 @@
+{"n": 1, "msgid": "\"Also check the public page (theme, SEO plugin, canonical, structured data)\" is switched off.", "msgstr": "«Comprobar también la página pública (tema, plugin SEO, canonical, datos estructurados)» está desactivado."}
+{"n": 2, "note": "translators: %s: day of the week", "msgid": "%s, after the break: closes at", "msgstr": "%s, después de la pausa: cierra a las"}
+{"n": 3, "note": "translators: %s: day of the week", "msgid": "%s, after the break: opens at", "msgstr": "%s, después de la pausa: abre a las"}
+{"n": 4, "note": "translators: %s: day of the week", "msgid": "%s: closes at", "msgstr": "%s: cierra a las"}
+{"n": 5, "note": "translators: %s: day of the week", "msgid": "%s: opens at", "msgstr": "%s: abre a las"}
+{"n": 6, "msgid": "About you", "msgstr": "Sobre ti"}
+{"n": 7, "msgid": "Advanced:", "msgstr": "Avanzado:"}
+{"n": 8, "msgid": "After an update, some texts appear in English.", "msgstr": "Después de una actualización, algunos textos aparecen en inglés."}
+{"n": 9, "msgid": "All pages score 0 on a test copy.", "msgstr": "Todas las páginas obtienen 0 en una copia de prueba."}
+{"n": 10, "msgid": "An older language pack from translate.wordpress.org (in wp-content/languages/plugins) did not contain the new texts yet. Since version 0.12.2 GEO Score always uses its own translation first and the language pack only for gaps – update to the current version.", "msgstr": "Un paquete de idioma antiguo de translate.wordpress.org (en wp-content/languages/plugins) aún no contenía los textos nuevos. Desde la versión 0.12.2, GEO Score usa siempre primero su propia traducción y el paquete de idioma solo para lo que falta: actualiza a la versión actual."}
+{"n": 11, "msgid": "Appointments by arrangement (also outside the opening hours, or instead of them)", "msgstr": "Con cita previa (también fuera del horario de apertura o en lugar de este)"}
+{"n": 12, "msgid": "Canonical link, noindex and the structured data of your theme and SEO plugin are not checked as visitors and AI systems see them – the scores are less exact. Switch it on again under Settings → Advanced: General → \"Advanced (for test copies and developers)\", unless your server blocks such requests.", "msgstr": "El enlace canonical, el noindex y los datos estructurados de tu tema y de tu plugin SEO no se comprueban tal como los ven los visitantes y los sistemas de IA, así que las puntuaciones son menos exactas. Vuelve a activarlo en Ajustes → Avanzado: General → «Avanzado (para copias de prueba y desarrolladores)», salvo que tu servidor bloquee este tipo de solicitudes."}
+{"n": 13, "msgid": "Car workshop or car dealer", "msgstr": "Taller mecánico o concesionario de coches"}
+{"n": 14, "msgid": "Check whether \"Also check the public page (theme, SEO plugin, canonical, structured data)\" is switched on: Settings → Advanced: General → \"Advanced (for test copies and developers)\". Without it, canonical link, noindex and the structured data of theme and SEO plugin are not checked as visitors see them. The overview shows a warning while it is off. Switch it on, save, then run \"Scan all pages\".", "msgstr": "Comprueba si «Comprobar también la página pública (tema, plugin SEO, canonical, datos estructurados)» está activado: Ajustes → Avanzado: General → «Avanzado (para copias de prueba y desarrolladores)». Sin esta opción, el enlace canonical, el noindex y los datos estructurados del tema y del plugin SEO no se comprueban tal como los ven los visitantes. El resumen muestra un aviso mientras esté desactivada. Actívala, guarda y ejecuta «Comprobar todas las páginas»."}
+{"n": 15, "msgid": "Checked on the home page and the contact page.", "msgstr": "Comprobado en la página de inicio y en la página de contacto."}
+{"n": 16, "msgid": "Choose the type of business under \"Location and opening hours\" – without it, opening hours and the map link are not shown to search engines and AI assistants.", "msgstr": "Elige el tipo de negocio en «Ubicación y horario de apertura»: sin él, el horario y el enlace al mapa no se muestran a los buscadores ni a los asistentes de IA."}
+{"n": 17, "msgid": "Choose the type of business under Settings → About you → \"Location and opening hours\" and enter the opening hours. GEO Score then adds them to the structured data (LocalBusiness) and to llms.txt. Then run \"Scan all pages\": the check \"Local business data\" shows whether address, phone and opening hours arrive on the home and contact page.", "msgstr": "Elige el tipo de negocio en Ajustes → Sobre ti → «Ubicación y horario de apertura» e introduce el horario. GEO Score lo añade entonces a los datos estructurados (LocalBusiness) y al llms.txt. Después ejecuta «Comprobar todas las páginas»: la comprobación «Datos de negocio local» muestra si la dirección, el teléfono y el horario de apertura llegan a la página de inicio y a la de contacto."}
+{"n": 18, "msgid": "Coordinates (optional)", "msgstr": "Coordenadas (opcional)"}
+{"n": 19, "msgid": "Do the opening hours replace my Google Business Profile?", "msgstr": "¿El horario de apertura sustituye a mi Perfil de Empresa de Google?"}
+{"n": 20, "msgid": "Enter the address (street and city) under \"Company & author (E-E-A-T)\" – a local business without an address is not shown in local results.", "msgstr": "Introduce la dirección (calle y ciudad) en «Empresa y autor (E-E-A-T)»: un negocio local sin dirección no aparece en los resultados locales."}
+{"n": 21, "msgid": "Exact position, e.g. 34.9182 and 33.6232. In Google Maps: right-click on your business – the first line shows both numbers.", "msgstr": "Posición exacta, p. ej. 34.9182 y 33.6232. En Google Maps: haz clic con el botón derecho en tu negocio; la primera línea muestra ambos números."}
+{"n": 22, "msgid": "Exactly as in your Google Business Profile. Empty = title of the website without additions such as \"Blog\" or a slogan.", "msgstr": "Exactamente como en tu Perfil de Empresa de Google. Vacío = título del sitio sin añadidos como «Blog» o un eslogan."}
+{"n": 23, "msgid": "Fill in address, phone and opening hours under Settings → About you (\"Company & author (E-E-A-T)\" and \"Location and opening hours\").", "msgstr": "Rellena la dirección, el teléfono y el horario de apertura en Ajustes → Sobre ti («Empresa y autor (E-E-A-T)» y «Ubicación y horario de apertura»)."}
+{"n": 24, "msgid": "For businesses that customers visit or that serve a region (shop, office, practice, workshop, hotel). Under Settings → About you, below \"Company & author (E-E-A-T)\".", "msgstr": "Para negocios que reciben clientes o que dan servicio en una zona (tienda, oficina, consulta, taller, hotel). En Ajustes → Sobre ti, debajo de «Empresa y autor (E-E-A-T)»."}
+{"n": 25, "msgid": "For businesses that customers visit or that serve a region: shop, office, practice, workshop, hotel. Search engines and AI assistants can show opening hours and the address when someone asks for a business nearby. Leave the type empty if you only sell online.", "msgstr": "Para negocios que reciben clientes o que dan servicio en una zona: tienda, oficina, consulta, taller, hotel. Los buscadores y los asistentes de IA pueden mostrar el horario de apertura y la dirección cuando alguien busca un negocio cercano. Deja el tipo vacío si solo vendes online."}
+{"n": 26, "msgid": "For questions like \"plumber near me\" or \"is the café open on Sunday?\", search engines and AI assistants use the type of business, address and opening hours from the structured data.", "msgstr": "Para preguntas como «fontanero cerca de mí» o «¿abre la cafetería el domingo?», los buscadores y los asistentes de IA usan el tipo de negocio, la dirección y el horario de apertura de los datos estructurados."}
+{"n": 27, "msgid": "Friday", "msgstr": "Viernes"}
+{"n": 28, "msgid": "Gym or sports facility", "msgstr": "Gimnasio o instalación deportiva"}
+{"n": 29, "msgid": "Hairdresser, beauty or wellness", "msgstr": "Peluquería, estética o bienestar"}
+{"n": 30, "msgid": "HomeAndConstructionBusiness with address, phone and opening hours Mon–Fri 08:00–17:00", "msgstr": "HomeAndConstructionBusiness con dirección, teléfono y horario de apertura lun.–vie. 08:00–17:00"}
+{"n": 31, "msgid": "Hotel, guesthouse or holiday flat", "msgstr": "Hotel, pensión o apartamento vacacional"}
+{"n": 32, "msgid": "Latitude", "msgstr": "Latitud"}
+{"n": 33, "msgid": "Law firm or notary", "msgstr": "Despacho de abogados o notaría"}
+{"n": 34, "msgid": "Leave a day empty when you are closed. The second time range is for a lunch break (e.g. 09:00–12:30 + 14:00–18:00).", "msgstr": "Deja un día vacío si cierras ese día. La segunda franja horaria es para la pausa del mediodía (p. ej. 09:00–12:30 + 14:00–18:00)."}
+{"n": 35, "msgid": "Link to your business on Google Maps (in Google Maps: Share → Copy link).", "msgstr": "Enlace a tu negocio en Google Maps (en Google Maps: Compartir → Copiar enlace)."}
+{"n": 36, "msgid": "Local business (general)", "msgstr": "Negocio local (general)"}
+{"n": 37, "msgid": "Local business data", "msgstr": "Datos de negocio local"}
+{"n": 38, "note": "translators: %s: missing details, e.g. \"address, opening hours\"", "msgid": "Local business found, but without: %s.", "msgstr": "Negocio local encontrado, pero sin: %s."}
+{"n": 39, "msgid": "Local business with address, phone and opening hours.", "msgstr": "Negocio local con dirección, teléfono y horario de apertura."}
+{"n": 40, "msgid": "Location and opening hours", "msgstr": "Ubicación y horario de apertura"}
+{"n": 41, "msgid": "Longitude", "msgstr": "Longitud"}
+{"n": 42, "msgid": "Many checks of the public page are missing or the scores look too good or too bad.", "msgstr": "Faltan muchas comprobaciones de la página pública o las puntuaciones parecen demasiado buenas o demasiado malas."}
+{"n": 43, "msgid": "Map link", "msgstr": "Enlace al mapa"}
+{"n": 44, "msgid": "Medical practice or therapy", "msgstr": "Consulta médica o terapia"}
+{"n": 45, "msgid": "Monday", "msgstr": "Lunes"}
+{"n": 46, "msgid": "My business has a shop, office or practice. How do AI assistants find the opening hours?", "msgstr": "Mi negocio tiene una tienda, oficina o consulta. ¿Cómo encuentran los asistentes de IA el horario de apertura?"}
+{"n": 47, "msgid": "No local business in the structured data.", "msgstr": "No hay ningún negocio local en los datos estructurados."}
+{"n": 48, "msgid": "No robots.txt at the root of the domain. AI crawlers are allowed, but not explicitly.", "msgstr": "No hay robots.txt en la raíz del dominio. Los rastreadores de IA están permitidos, pero no de forma explícita."}
+{"n": 49, "msgid": "No. Keep the opening hours in your Google Business Profile up to date as well, and use exactly the same hours, address and phone everywhere – different details make search engines and AI assistants unsure which are right.", "msgstr": "No. Mantén también actualizado el horario de apertura en tu Perfil de Empresa de Google y usa en todas partes exactamente el mismo horario, la misma dirección y el mismo teléfono: si los datos difieren, los buscadores y los asistentes de IA no saben cuáles son los correctos."}
+{"n": 50, "msgid": "Office or agency (consulting, coaching, marketing …)", "msgstr": "Oficina o agencia (consultoría, coaching, marketing…)"}
+{"n": 51, "msgid": "On a test copy \"Discourage search engines from indexing this site\" is usually on (Settings → Reading), so every page counts as noindex. Turn on \"This website is a test copy (e.g. for a relaunch): score it as if it were live\" under Settings → Advanced: General → \"Advanced (for test copies and developers)\", then run \"Scan all pages\". Never turn it on for the live website.", "msgstr": "En una copia de prueba, «Disuadir a los motores de búsqueda de indexar este sitio» suele estar activado (Ajustes → Lectura), por lo que cada página cuenta como noindex. Activa «Este sitio es una copia de prueba (p. ej. para un relanzamiento): evaluarlo como si estuviera en producción» en Ajustes → Avanzado: General → «Avanzado (para copias de prueba y desarrolladores)» y ejecuta «Comprobar todas las páginas». No lo actives nunca en el sitio en producción."}
+{"n": 52, "msgid": "Only for businesses with a location for customers (Settings → About you → \"Location and opening hours\").", "msgstr": "Solo para negocios con un local abierto al público (Ajustes → Sobre ti → «Ubicación y horario de apertura»)."}
+{"n": 53, "msgid": "Open 24 hours: 00:00–00:00.", "msgstr": "Abierto 24 horas: 00:00–00:00."}
+{"n": 54, "msgid": "Opening hours", "msgstr": "Horario de apertura"}
+{"n": 55, "msgid": "Opening hours only as an image in the footer, no address in the structured data", "msgstr": "Horario de apertura solo como imagen en el pie de página, sin dirección en los datos estructurados"}
+{"n": 56, "msgid": "Opening hours: up to two time ranges per day (e.g. with a lunch break); an empty day counts as closed. \"Appointments by arrangement\" is enough when you have no fixed hours.", "msgstr": "Horario de apertura: hasta dos franjas horarias por día (p. ej. con pausa del mediodía); un día vacío cuenta como cerrado. «Con cita previa» basta si no tienes un horario fijo."}
+{"n": 57, "msgid": "Real estate agent", "msgstr": "Agencia inmobiliaria"}
+{"n": 58, "msgid": "Restaurant, café or bar", "msgstr": "Restaurante, cafetería o bar"}
+{"n": 59, "msgid": "Saturday", "msgstr": "Sábado"}
+{"n": 60, "msgid": "School, academy or training centre", "msgstr": "Escuela, academia o centro de formación"}
+{"n": 61, "msgid": "Shop with a salesroom", "msgstr": "Tienda con local de venta"}
+{"n": 62, "note": "translators: %s: days of the week, e.g. \"Monday, Friday\"", "msgid": "Some opening hours were not saved because the opening or closing time is missing or invalid: %s.", "msgstr": "Algunos horarios no se han guardado porque falta la hora de apertura o de cierre o no es válida: %s."}
+{"n": 63, "msgid": "Sunday", "msgstr": "Domingo"}
+{"n": 64, "msgid": "Tax adviser or accountant", "msgstr": "Asesoría fiscal o contable"}
+{"n": 65, "msgid": "The check \"Local business data\" looks at the home and contact page. Opening hours and the map link also appear in llms.txt.", "msgstr": "La comprobación «Datos de negocio local» revisa la página de inicio y la de contacto. El horario de apertura y el enlace al mapa también aparecen en el llms.txt."}
+{"n": 66, "msgid": "The coordinates were not saved: enter numbers only, e.g. 34.9182 and 33.6232.", "msgstr": "Las coordenadas no se han guardado: introduce solo números, p. ej. 34.9182 y 33.6232."}
+{"n": 67, "msgid": "The file carries all settings of the other website – page types, checks, thresholds and the advanced options (e.g. \"Also check the public page\"). After an import, look through the settings, then run \"Scan all pages\" once. \"Undo the last import\" brings the previous settings back.", "msgstr": "El archivo contiene todos los ajustes del otro sitio: tipos de página, comprobaciones, umbrales y las opciones avanzadas (p. ej. «Comprobar también la página pública»). Después de importar, revisa los ajustes y ejecuta una vez «Comprobar todas las páginas». «Deshacer la última importación» restaura los ajustes anteriores."}
+{"n": 68, "msgid": "The other settings were saved.", "msgstr": "El resto de los ajustes se ha guardado."}
+{"n": 69, "msgid": "The scores changed after \"Transfer settings\".", "msgstr": "Las puntuaciones han cambiado después de «Transferir ajustes»."}
+{"n": 70, "msgid": "This robots.txt belongs to the main website at the root of the domain – change it there.", "msgstr": "Este robots.txt pertenece al sitio principal en la raíz del dominio: cámbialo allí."}
+{"n": 71, "msgid": "Thursday", "msgstr": "Jueves"}
+{"n": 72, "msgid": "Tick \"Organization: address, logo, phone and profiles (sameAs)\" under Settings → Advanced: Output. GEO Score then adds the type of business to the organisation of your SEO plugin, or outputs its own.", "msgstr": "Marca «Organization: dirección, logo, teléfono y perfiles (sameAs)» en Ajustes → Avanzado: Salida. GEO Score añade entonces el tipo de negocio a la organización de tu plugin SEO o genera una propia."}
+{"n": 73, "msgid": "Trades and construction (electrician, plumber, painter …)", "msgstr": "Oficios y construcción (electricista, fontanero, pintor…)"}
+{"n": 74, "msgid": "Travel agency or tour operator", "msgstr": "Agencia de viajes o turoperador"}
+{"n": 75, "msgid": "Tuesday", "msgstr": "Martes"}
+{"n": 76, "msgid": "Type of business", "msgstr": "Tipo de negocio"}
+{"n": 77, "msgid": "Type of business: your company is marked up as this kind of LocalBusiness (schema.org) with the address, phone, opening hours, map link and coordinates. If your SEO plugin already outputs an Organization, GEO Score adds the type and the missing details to it. Leave it empty if you only sell online.", "msgstr": "Tipo de negocio: tu empresa se marca como este tipo de LocalBusiness (schema.org) con la dirección, el teléfono, el horario de apertura, el enlace al mapa y las coordenadas. Si tu plugin SEO ya genera una Organization, GEO Score le añade el tipo y los datos que falten. Déjalo vacío si solo vendes online."}
+{"n": 78, "msgid": "Wednesday", "msgstr": "Miércoles"}
+{"n": 79, "msgid": "WordPress runs in a folder of the domain: the robots.txt belongs to the main website (e.g. the shop) at the root of the domain. Name the AI crawlers there with \"Allow: /\" and add the sitemap of this website.", "msgstr": "WordPress funciona en una carpeta del dominio: el robots.txt pertenece al sitio principal (p. ej. la tienda) en la raíz del dominio. Nombra allí los rastreadores de IA con «Allow: /» y añade el mapa del sitio de esta instalación de WordPress."}
+{"n": 80, "msgid": "Your SEO plugin marks this page as \"FAQ page\" although it has no FAQ block. Set the page type to \"Web page\" in the SEO plugin (Yoast SEO: tab \"Schema\" of the post, or Settings → Content types for all posts) – or add a real FAQ block.", "msgstr": "Tu plugin SEO marca esta página como «Página de preguntas frecuentes» aunque no tiene ningún bloque FAQ. Cambia el tipo de página a «Página web» en el plugin SEO (Yoast SEO: pestaña «Schema» de la entrada, o Ajustes → Tipos de contenido para todas las entradas) o añade un bloque FAQ real."}
+{"n": 81, "msgid": "Your company is then marked up as a local business of this type (schema.org LocalBusiness) with address, phone, opening hours and map.", "msgstr": "Tu empresa se marca entonces como negocio local de este tipo (schema.org LocalBusiness) con dirección, teléfono, horario de apertura y mapa."}
+{"n": 82, "msgid": "address", "msgstr": "dirección"}
+{"n": 83, "msgid": "opening hours", "msgstr": "horario de apertura"}
+{"n": 84, "msgid": "phone", "msgstr": "teléfono"}
+{"n": 85, "msgid": "— No location for customers (online only) —", "msgstr": "— Sin local abierto al público (solo online) —"}
+{"n": 86, "msgid": "(none ticked = all languages)", "msgstr": "(ninguno marcado = todos los idiomas)"}
+{"n": 87, "msgid": "(opens in a new tab)", "msgstr": "(se abre en una pestaña nueva)"}
+{"n": 88, "msgid": "(optional)", "msgstr": "(opcional)"}
+{"n": 89, "msgid": "+ Add proof", "msgstr": "+ Añadir prueba"}
+{"n": 90, "msgid": "+ Add review profile", "msgstr": "+ Añadir perfil de reseñas"}
+{"n": 91, "msgid": "A short review on WordPress.org helps other website owners find the plugin – and helps us keep improving it. It takes about a minute.", "msgstr": "Una breve valoración en WordPress.org ayuda a otros propietarios de sitios web a encontrar el plugin y nos ayuda a seguir mejorándolo. Solo lleva un minuto."}
+{"n": 92, "note": "translators: 1: old address, 2: address of this website", "msgid": "Addresses of %1$s are changed to %2$s.", "msgstr": "Las direcciones de %1$s se cambian por %2$s."}
+{"n": 93, "msgid": "Applies to", "msgstr": "Se aplica a"}
+{"n": 94, "msgid": "Approval / registration", "msgstr": "Autorización / registro"}
+{"n": 95, "msgid": "As of", "msgstr": "Fecha de referencia"}
+{"n": 96, "msgid": "Award", "msgstr": "Premio"}
+{"n": 97, "msgid": "Certificate", "msgstr": "Certificado"}
+{"n": 98, "msgid": "Certificates, approvals, lab tests, test seals and awards are real proof that AI systems trust. GEO Score adds them to your structured data and llms.txt, and a link to one of them counts as a source. Only real, verifiable proofs – upload PDFs to the media library and paste their address.", "msgstr": "Los certificados, autorizaciones, análisis de laboratorio, sellos de calidad y premios son pruebas reales en las que confían los sistemas de IA. GEO Score los añade a tus datos estructurados y a llms.txt, y un enlace a uno de ellos cuenta como fuente. Solo pruebas reales y verificables: sube los PDF a la biblioteca de medios y pega su dirección."}
+{"n": 99, "msgid": "Date", "msgstr": "Fecha"}
+{"n": 100, "msgid": "Delete", "msgstr": "Eliminar"}
+{"n": 101, "note": "translators: %s: link \"Rate it on WordPress.org\"", "msgid": "Do you like GEO Score? %s", "msgstr": "¿Te gusta GEO Score? %s"}
+{"n": 102, "msgid": "Don't show again", "msgstr": "No volver a mostrar"}
+{"n": 103, "msgid": "Export all settings as a file and import them on another website – e.g. from a test copy to the live website after a relaunch. Pages are matched by their address, addresses of the old website are changed to this one. API keys, licences and the staging switch are never transferred.", "msgstr": "Exporta todos los ajustes a un archivo e impórtalos en otro sitio web, p. ej. de la copia de prueba al sitio en producción tras un relanzamiento. Las páginas se asignan por su dirección y las direcciones del sitio anterior se cambian por las de este. Las claves API, las licencias y el modo copia de prueba nunca se transfieren."}
+{"n": 104, "msgid": "Export settings", "msgstr": "Exportar ajustes"}
+{"n": 105, "msgid": "File ready to import", "msgstr": "Archivo listo para importar"}
+{"n": 106, "msgid": "GEO Score settings (all tabs)", "msgstr": "Ajustes de GEO Score (todas las pestañas)"}
+{"n": 107, "msgid": "Import chosen settings", "msgstr": "Importar los ajustes elegidos"}
+{"n": 108, "msgid": "Import undone – the previous settings are back.", "msgstr": "Importación deshecha: se han restaurado los ajustes anteriores."}
+{"n": 109, "note": "translators: %s: list of modules", "msgid": "Included: %s.", "msgstr": "Incluye: %s."}
+{"n": 110, "msgid": "Is GEO Score helpful for you?", "msgstr": "¿Te resulta útil GEO Score?"}
+{"n": 111, "msgid": "Issued by / lab", "msgstr": "Emitido por / laboratorio"}
+{"n": 112, "msgid": "Lab test", "msgstr": "Análisis de laboratorio"}
+{"n": 113, "msgid": "Languages", "msgstr": "Idiomas"}
+{"n": 114, "note": "translators: %s: date and time of the import", "msgid": "Last import: %s.", "msgstr": "Última importación: %s."}
+{"n": 115, "msgid": "Link or PDF", "msgstr": "Enlace o PDF"}
+{"n": 116, "msgid": "Name", "msgstr": "Nombre"}
+{"n": 117, "msgid": "Name of the platform", "msgstr": "Nombre de la plataforma"}
+{"n": 118, "msgid": "No proofs yet.", "msgstr": "Todavía no hay pruebas."}
+{"n": 119, "msgid": "No review profiles yet.", "msgstr": "Todavía no hay perfiles de reseñas."}
+{"n": 120, "msgid": "Nothing was imported. Please choose a file and at least one part.", "msgstr": "No se ha importado nada. Elige un archivo y al menos una parte."}
+{"n": 121, "msgid": "Number", "msgstr": "Número"}
+{"n": 122, "msgid": "Number of reviews", "msgstr": "Número de reseñas"}
+{"n": 123, "msgid": "One profile per country or language (e.g. Trusted Shops)? Add each one and tick its languages – every language version of the website then links only its own profile. A profile without ticked languages counts for all.", "msgstr": "¿Un perfil por país o idioma (p. ej. Trusted Shops)? Añade cada uno y marca sus idiomas: así cada versión de idioma del sitio enlaza solo su propio perfil. Un perfil sin idiomas marcados vale para todos."}
+{"n": 124, "msgid": "Other", "msgstr": "Otra"}
+{"n": 125, "msgid": "Platform", "msgstr": "Plataforma"}
+{"n": 126, "msgid": "Profile address", "msgstr": "Dirección del perfil"}
+{"n": 127, "msgid": "Proofs", "msgstr": "Pruebas"}
+{"n": 128, "msgid": "Rate it on WordPress.org", "msgstr": "Valóralo en WordPress.org"}
+{"n": 129, "msgid": "Rating (out of 5)", "msgstr": "Valoración (sobre 5)"}
+{"n": 130, "msgid": "Read file", "msgstr": "Leer archivo"}
+{"n": 131, "msgid": "Remind me later", "msgstr": "Recordármelo más tarde"}
+{"n": 132, "msgid": "Review profiles", "msgstr": "Perfiles de reseñas"}
+{"n": 133, "msgid": "Saved with “Save settings” below.", "msgstr": "Se guarda con «Guardar ajustes» más abajo."}
+{"n": 134, "msgid": "Settings imported. The previous values are saved – you can undo the import below.", "msgstr": "Ajustes importados. Los valores anteriores están guardados: puedes deshacer la importación abajo."}
+{"n": 135, "note": "translators: %s: link \"support forum\"", "msgid": "Something not working? Ask us in the %s – we will help.", "msgstr": "¿Algo no funciona? Pregúntanos en el %s y te ayudaremos."}
+{"n": 136, "msgid": "Test seal", "msgstr": "Sello de calidad"}
+{"n": 137, "msgid": "This is not a settings file of GEO Score.", "msgstr": "Este no es un archivo de ajustes de GEO Score."}
+{"n": 138, "msgid": "Transfer settings", "msgstr": "Transferir ajustes"}
+{"n": 139, "msgid": "Undo the last import", "msgstr": "Deshacer la última importación"}
+{"n": 140, "msgid": "Valid", "msgstr": "Validez"}
+{"n": 141, "msgid": "Valid until", "msgstr": "Válido hasta"}
+{"n": 142, "msgid": "Write a review", "msgstr": "Escribir una valoración"}
+{"n": 143, "msgid": "Your profiles on review platforms are linked in your structured data and listed in llms.txt. Ratings of other platforms are never marked up as stars of your own company – Google does not allow that. Rating and number are only used as a dated fact, e.g. for the AI.", "msgstr": "Tus perfiles en plataformas de reseñas se enlazan en tus datos estructurados y aparecen en llms.txt. Las valoraciones de otras plataformas nunca se marcan como estrellas de tu propia empresa: Google no lo permite. La valoración y el número solo se usan como dato con fecha, p. ej. para la IA."}
+{"n": 144, "msgid": "e.g. ECHA registration (Article 95)", "msgstr": "p. ej. registro ECHA (artículo 95)"}
+{"n": 145, "msgid": "e.g. product or product range", "msgstr": "p. ej. producto o gama de productos"}
+{"n": 146, "note": "translators: 1: address of the website the file comes from, 2: date", "msgid": "from %1$s, created %2$s.", "msgstr": "de %1$s, creado el %2$s."}
+{"n": 147, "msgid": "no end date", "msgstr": "sin fecha de fin"}
+{"n": 148, "msgid": "not in the file", "msgstr": "no está en el archivo"}
+{"n": 149, "msgid": "support forum", "msgstr": "foro de soporte"}
+{"n": 150, "msgid": "– takes effect when you save.", "msgstr": "– se aplica al guardar."}
+{"n": 151, "note": "translators: 1: page title, 2: score (80–100)", "msgid": "“%1$s” has reached %2$d points.", "msgstr": "«%1$s» ha alcanzado %2$d puntos."}
+{"n": 152, "msgid": "Expired", "msgstr": "Caducada"}
+{"n": 153, "msgid": "Expired – no longer used in structured data, llms.txt and for the AI.", "msgstr": "Caducada: ya no se usa en los datos estructurados, en llms.txt ni para la IA."}
+{"n": 154, "note": "translators: %d: number of pages (10 or more)", "msgid": "Pages analysed so far: %d", "msgstr": "Páginas comprobadas hasta ahora: %d"}
+{"n": 155, "msgid": "\"A WooCommerce shop costs between 3,000 and 15,000 euros, depending on products, payment and design.\"", "msgstr": "«Una tienda WooCommerce cuesta entre 3.000 y 15.000 euros, según productos, pagos y diseño.»"}
+{"n": 156, "msgid": "\"AI-ready\" from", "msgstr": "«Lista para IA» desde"}
+{"n": 157, "msgid": "\"By Dipl.-Ing. Rida Mekaoui, in digital marketing since 2003\" with a link to About us", "msgstr": "«Por Dipl.-Ing. Rida Mekaoui, en marketing digital desde 2003» con un enlace a «Sobre nosotros»"}
+{"n": 158, "msgid": "\"By admin\" or no author at all", "msgstr": "«Por admin» o ningún autor"}
+{"n": 159, "msgid": "\"By law, shops must now be accessible.\"", "msgstr": "«Por ley, las tiendas ahora deben ser accesibles.»"}
+{"n": 160, "msgid": "\"Check now\" checks the current editor content – also unsaved changes. The score of the saved page stays unchanged until you save.", "msgstr": "«Comprobar ahora» comprueba el contenido actual del editor, también los cambios sin guardar. La puntuación de la página guardada no cambia hasta que guardes."}
+{"n": 161, "msgid": "\"Duration\"", "msgstr": "«Duración»"}
+{"n": 162, "msgid": "\"Export CSV\" downloads all pages with score, area results and biggest levers – e.g. for Excel or a client report.", "msgstr": "«Exportar CSV» descarga todas las páginas con puntuación, resultados por área y mayores palancas, p. ej. para Excel o un informe para clientes."}
+{"n": 163, "msgid": "\"How long does an SEO audit take?\"", "msgstr": "«¿Cuánto tarda una auditoría SEO?»"}
+{"n": 164, "msgid": "\"In digital marketing since 2003, over 200 projects, answer within 24 hours.\"", "msgstr": "«En marketing digital desde 2003, más de 200 proyectos, respuesta en 24 horas.»"}
+{"n": 165, "msgid": "\"Last updated: October 2026\"", "msgstr": "«Última actualización: octubre de 2026»"}
+{"n": 166, "msgid": "\"Many factors play a role here, which we would like to look at in detail below.\"", "msgstr": "«Aquí intervienen muchos factores, que queremos analizar en detalle a continuación.»"}
+{"n": 167, "msgid": "\"Many years of experience, numerous projects, fast answers.\"", "msgstr": "«Muchos años de experiencia, numerosos proyectos, respuestas rápidas.»"}
+{"n": 168, "msgid": "\"Points\" = how much the page score rises when the task is done completely.", "msgstr": "«Puntos» = cuánto sube la puntuación de la página cuando la tarea se completa del todo."}
+{"n": 169, "msgid": "\"Room for improvement\" from", "msgstr": "«Mejorable» desde"}
+{"n": 170, "msgid": "\"SEO trends 2023\" (read in 2026)", "msgstr": "«Tendencias SEO 2023» (leído en 2026)"}
+{"n": 171, "msgid": "\"SEO trends: what counts now\"", "msgstr": "«Tendencias SEO: lo que cuenta ahora»"}
+{"n": 172, "msgid": "\"Since 28 June 2025 the European Accessibility Act applies (link to EUR-Lex).\"", "msgstr": "«Desde el 28 de junio de 2025 se aplica la Ley Europea de Accesibilidad (enlace a EUR-Lex).»"}
+{"n": 173, "msgid": "\"The audit takes one week. Then you receive a list of measures.\"", "msgstr": "«La auditoría dura una semana. Después recibes una lista de medidas.»"}
+{"n": 174, "msgid": "\"User-agent: *\" with \"Disallow: /\", or AI crawlers blocked by a security plugin", "msgstr": "«User-agent: *» con «Disallow: /», o rastreadores de IA bloqueados por un plugin de seguridad"}
+{"n": 175, "msgid": "\"User-agent: GPTBot\" with \"Allow: /\" and a sitemap line", "msgstr": "«User-agent: GPTBot» con «Allow: /» y una línea Sitemap"}
+{"n": 176, "msgid": "\"Welcome to our website! In this article we would like to tell you a little about our services.\"", "msgstr": "«¡Bienvenido a nuestra web! En este artículo queremos contarte un poco sobre nuestros servicios.»"}
+{"n": 177, "msgid": "% of the H2", "msgstr": "% de los H2"}
+{"n": 178, "note": "translators: 1: number of facts, 2: facts per 100 words", "msgid": "%1$d concrete figures found (%2$s per 100 words).", "msgstr": "%1$d cifras concretas encontradas (%2$s por cada 100 palabras)."}
+{"n": 179, "note": "translators: 1: allowed crawlers, 2: all crawlers", "msgid": "%1$d of %2$d AI crawlers may read this page.", "msgstr": "%1$d de %2$d rastreadores de IA pueden leer esta página."}
+{"n": 180, "note": "translators: 1: question headings, 2: all H2 headings, 3: percentage", "msgid": "%1$d of %2$d H2 headings are questions (%3$d %%).", "msgstr": "%1$d de %2$d encabezados H2 son preguntas (%3$d %%)."}
+{"n": 181, "note": "translators: 1: found types, 2: required types", "msgid": "%1$d of %2$d basic types found.", "msgstr": "%1$d de %2$d tipos básicos encontrados."}
+{"n": 182, "note": "translators: 1: claims with source, 2: claims", "msgid": "%1$d of %2$d legal or statistical statements link to a source.", "msgstr": "%1$d de %2$d afirmaciones legales o estadísticas enlazan a una fuente."}
+{"n": 183, "note": "translators: 1: scored pages, 2: published pages", "msgid": "%1$d of %2$d scored", "msgstr": "%1$d de %2$d evaluadas"}
+{"n": 184, "note": "translators: 1: sections that stand on their own, 2: checked sections", "msgid": "%1$d of %2$d sections can be understood on their own.", "msgstr": "%1$d de %2$d secciones se entienden por sí solas."}
+{"n": 185, "note": "translators: 1: sections with direct answer, 2: checked sections", "msgid": "%1$d of %2$d sections start with a direct, bold answer.", "msgstr": "%1$d de %2$d secciones empiezan con una respuesta directa en negrita."}
+{"n": 186, "note": "translators: 1: scored pages, 2: AI-ready, 3: room for improvement, 4: weak", "msgid": "%1$d pages scored: %2$d AI-ready, %3$d room for improvement, %4$d weak.", "msgstr": "%1$d páginas evaluadas: %2$d listas para IA, %3$d mejorables, %4$d débiles."}
+{"n": 187, "note": "translators: 1: number of tables, 2: number of lists", "msgid": "%1$d tables and %2$d lists found.", "msgstr": "%1$d tablas y %2$d listas encontradas."}
+{"n": 188, "note": "translators: 1: words, 2: question translators: 1: word count, 2: sentence", "msgid": "%1$d words: %2$s", "msgstr": "%1$d palabras: %2$s"}
+{"n": 189, "note": "translators: 1: achieved points, 2: maximum points", "msgid": "%1$s / %2$d points", "msgstr": "%1$s / %2$d puntos"}
+{"n": 190, "note": "translators: 1: schema type, 2: missing properties", "msgid": "%1$s found, but without: %2$s.", "msgstr": "%1$s encontrado, pero sin: %2$s."}
+{"n": 191, "note": "translators: 1: type, 2: property", "msgid": "%1$s without \"%2$s\"", "msgstr": "%1$s sin «%2$s»"}
+{"n": 192, "note": "translators: 1: words, 2: target words", "msgid": "%1$s words (target: %2$s).", "msgstr": "%1$s palabras (objetivo: %2$s)."}
+{"n": 193, "note": "translators: 1: URL, 2: date, 3: website GEO score, 4: pages with tasks, 5: number of tasks", "msgid": "%1$s · %2$s · Website score %3$s · %4$d pages with %5$d open tasks", "msgstr": "%1$s · %2$s · Puntuación del sitio %3$s · %4$d páginas con %5$d tareas abiertas"}
+{"n": 194, "note": "translators: 1: band name, 2: score limit", "msgid": "%1$s: %2$d and more. The page is well prepared for AI answers.", "msgstr": "%1$s: %2$d o más. La página está bien preparada para respuestas de IA."}
+{"n": 195, "note": "translators: 1: band name, 2: lower limit, 3: upper limit", "msgid": "%1$s: %2$d to %3$d. Good basis, a few levers are open.", "msgstr": "%1$s: de %2$d a %3$d. Buena base, quedan algunas palancas abiertas."}
+{"n": 196, "note": "translators: 1: band name, 2: limit", "msgid": "%1$s: below %2$d. Important elements are missing.", "msgstr": "%1$s: por debajo de %2$d. Faltan elementos importantes."}
+{"n": 197, "note": "translators: %d: percentage", "msgid": "%d %% of the text is directly in the HTML.", "msgstr": "El %d %% del texto está directamente en el HTML."}
+{"n": 198, "note": "translators: %d: number of broken blocks", "msgid": "%d JSON-LD block(s) cannot be read (syntax error).", "msgstr": "%d bloque(s) JSON-LD no se pueden leer (error de sintaxis)."}
+{"n": 199, "note": "translators: %d: number of pages", "msgid": "%d failed", "msgstr": "%d fallidas"}
+{"n": 200, "note": "translators: %d: number of pages", "msgid": "%d pages", "msgstr": "%d páginas"}
+{"n": 201, "note": "translators: %d: number of pages", "msgid": "%d pages are being checked in the background.", "msgstr": "Se están comprobando %d páginas en segundo plano."}
+{"n": 202, "note": "translators: %d: number of pages", "msgid": "%d pages scored", "msgstr": "%d páginas evaluadas"}
+{"n": 203, "note": "translators: %s: human readable time difference", "msgid": "%s ago", "msgstr": "hace %s"}
+{"n": 204, "note": "translators: %s: SEO plugin name", "msgid": "%s outputs the basic structured data. GEO Score only adds what is missing to its graph – no duplicates.", "msgstr": "%s genera los datos estructurados básicos. GEO Score solo añade lo que falta en su grafo, sin duplicados."}
+{"n": 205, "note": "translators: %s: SEO plugin name", "msgid": "%s outputs the structured data. To avoid duplicates, GEO Score only adds Service and Person.", "msgstr": "%s genera los datos estructurados. Para evitar duplicados, GEO Score solo añade Service y Person."}
+{"n": 206, "note": "translators: %s: schema type", "msgid": "%s schema with all key properties.", "msgstr": "Schema %s con todas las propiedades clave."}
+{"n": 207, "msgid": "(no title)", "msgstr": "(sin título)"}
+{"n": 208, "msgid": "/llms.txt with profile and one line per important page", "msgstr": "/llms.txt con perfil y una línea por página importante"}
+{"n": 209, "msgid": "15 questions with one-sentence answers, no schema", "msgstr": "15 preguntas con respuestas de una frase, sin schema"}
+{"n": 210, "msgid": "6 real customer questions, answers of 40–80 words, FAQPage schema", "msgstr": "6 preguntas reales de clientes, respuestas de 40 a 80 palabras, schema FAQPage"}
+{"n": 211, "msgid": "A clean heading order shows the structure of the content to machines.", "msgstr": "Un orden de encabezados limpio muestra a las máquinas la estructura del contenido."}
+{"n": 212, "msgid": "A crawler does not see the page content.", "msgstr": "Un rastreador no ve el contenido de la página."}
+{"n": 213, "msgid": "A guide that answers all typical customer questions", "msgstr": "Una guía que responde a todas las preguntas típicas de los clientes"}
+{"n": 214, "msgid": "A llms.txt file already exists in the web root. It takes precedence; the generator stays inactive while the file exists.", "msgstr": "Ya existe un archivo llms.txt en la raíz del sitio. Tiene prioridad; el generador permanece inactivo mientras exista el archivo."}
+{"n": 215, "msgid": "A past year in a heading signals outdated content, to readers and to AI systems.", "msgstr": "Un año pasado en un encabezado indica contenido desactualizado, para lectores y para sistemas de IA."}
+{"n": 216, "msgid": "A table comparing WooCommerce, Shopify and PrestaShop", "msgstr": "Una tabla que compara WooCommerce, Shopify y PrestaShop"}
+{"n": 217, "msgid": "AI Visibility", "msgstr": "Visibilidad en IA"}
+{"n": 218, "msgid": "AI crawlability", "msgstr": "Rastreabilidad para IA"}
+{"n": 219, "msgid": "AI crawlers", "msgstr": "Rastreadores de IA"}
+{"n": 220, "msgid": "AI crawlers allowed in robots.txt", "msgstr": "Rastreadores de IA permitidos en robots.txt"}
+{"n": 221, "msgid": "AI crawlers in robots.txt", "msgstr": "Rastreadores de IA en robots.txt"}
+{"n": 222, "msgid": "AI crawlers usually do not run JavaScript. Text that is loaded later or hidden behind a cookie wall stays invisible to them.", "msgstr": "Los rastreadores de IA normalmente no ejecutan JavaScript. El texto que se carga después o se oculta tras un muro de cookies les resulta invisible."}
+{"n": 223, "msgid": "AI systems answer in the language of the question. German theme texts, a German company description in the structured data or German alt texts on an English page weaken the English version and mix the languages.", "msgstr": "Los sistemas de IA responden en el idioma de la pregunta. Textos del tema en alemán, una descripción de la empresa en alemán en los datos estructurados o textos alternativos en alemán en una página en inglés debilitan la versión inglesa y mezclan los idiomas."}
+{"n": 224, "msgid": "AI systems connect statements to a company by its exact name. Different spellings split this connection.", "msgstr": "Los sistemas de IA asocian afirmaciones a una empresa por su nombre exacto. Las grafías distintas rompen esa conexión."}
+{"n": 225, "msgid": "AI systems quote single sections out of context. A section that starts with \"this\" or \"it\" no longer makes sense on its own.", "msgstr": "Los sistemas de IA citan secciones sueltas fuera de contexto. Una sección que empieza con «esto» o «ello» ya no tiene sentido por sí sola."}
+{"n": 226, "msgid": "AI-ready", "msgstr": "Lista para IA"}
+{"n": 227, "msgid": "About us", "msgstr": "Sobre nosotros"}
+{"n": 228, "msgid": "About us page", "msgstr": "Página «Sobre nosotros»"}
+{"n": 229, "msgid": "Actions", "msgstr": "Acciones"}
+{"n": 230, "msgid": "Activate structured data in your SEO plugin.", "msgstr": "Activa los datos estructurados en tu plugin SEO."}
+{"n": 231, "msgid": "Active checks and area weights", "msgstr": "Comprobaciones activas y peso de las áreas"}
+{"n": 232, "note": "translators: %s: schema type", "msgid": "Add %s structured data with its key properties. AI search engines use it to understand what the page offers.", "msgstr": "Añade datos estructurados %s con sus propiedades clave. Los buscadores de IA los usan para entender qué ofrece la página."}
+{"n": 233, "msgid": "Add FAQPage structured data for the questions.", "msgstr": "Añade datos estructurados FAQPage para las preguntas."}
+{"n": 234, "msgid": "Add a canonical tag pointing to the page itself.", "msgstr": "Añade una etiqueta canonical que apunte a la propia página."}
+{"n": 235, "msgid": "Add a short author box with experience (e.g. \"in digital marketing since 2003\").", "msgstr": "Añade un breve cuadro de autor con la experiencia (p. ej. «en marketing digital desde 2003»)."}
+{"n": 236, "note": "translators: %s: missing words", "msgid": "Add about %s words: answer further customer questions, give examples, add an FAQ.", "msgstr": "Añade unas %s palabras: responde más preguntas de clientes, da ejemplos, añade una FAQ."}
+{"n": 237, "note": "translators: 1: min questions, 2: max questions, 3: min words, 4: max words", "msgid": "Add an FAQ section with %1$d–%2$d real customer questions and answers of %3$d–%4$d words each.", "msgstr": "Añade una sección FAQ con %1$d a %2$d preguntas reales de clientes y respuestas de %3$d a %4$d palabras cada una."}
+{"n": 238, "msgid": "Add exactly one H1 that names the main topic of the page.", "msgstr": "Añade exactamente un H1 que nombre el tema principal de la página."}
+{"n": 239, "msgid": "Add missing structured data automatically", "msgstr": "Añadir automáticamente los datos estructurados que falten"}
+{"n": 240, "msgid": "Add structured data (JSON-LD) to the page.", "msgstr": "Añade datos estructurados (JSON-LD) a la página."}
+{"n": 241, "msgid": "Add the page to llms.txt with one sentence describing it. The generator of GEO Score lists all indexable pages automatically.", "msgstr": "Añade la página a llms.txt con una frase que la describa. El generador de GEO Score incluye automáticamente todas las páginas indexables."}
+{"n": 242, "msgid": "Add these profiles to sameAs (e.g. in your SEO plugin under social profiles):", "msgstr": "Añade estos perfiles a sameAs (p. ej. en tu plugin SEO, en Perfiles sociales):"}
+{"n": 243, "msgid": "Add verifiable facts: prices, durations, years of experience, dates, quantities, names of laws or tools. AI search engines prefer passages with concrete figures.", "msgstr": "Añade hechos verificables: precios, plazos, años de experiencia, fechas, cantidades, nombres de leyes o herramientas. Los buscadores de IA prefieren pasajes con cifras concretas."}
+{"n": 244, "msgid": "Add your LinkedIn, Xing, Google Business and directory profiles as sameAs (e.g. in your SEO plugin under social profiles).", "msgstr": "Añade tus perfiles de LinkedIn, Xing, Google Business y directorios como sameAs (p. ej. en tu plugin SEO, en Perfiles sociales)."}
+{"n": 245, "msgid": "Address", "msgstr": "Dirección"}
+{"n": 246, "msgid": "Address, phone, e-mail, service area and profiles (sameAs): used for the contact check, the Organization and Service data and llms.txt.", "msgstr": "Dirección, teléfono, correo electrónico, zona de servicio y perfiles (sameAs): se usan para la comprobación de contacto, los datos de Organization y Service y llms.txt."}
+{"n": 247, "msgid": "Advanced (for test copies and developers)", "msgstr": "Avanzado (para copias de prueba y desarrolladores)"}
+{"n": 248, "msgid": "Affected:", "msgstr": "Afecta a:"}
+{"n": 249, "msgid": "After a few pages, export a new task list – it then contains only what is still open.", "msgstr": "Después de algunas páginas, exporta una nueva lista de tareas: entonces solo contiene lo que sigue abierto."}
+{"n": 250, "msgid": "After saving, GEO Score checks the page again automatically.", "msgstr": "Después de guardar, GEO Score vuelve a comprobar la página automáticamente."}
+{"n": 251, "msgid": "After saving, a page is checked again automatically (can be turned off under Settings → General).", "msgstr": "Después de guardar, la página se vuelve a comprobar automáticamente (se puede desactivar en Ajustes → General)."}
+{"n": 252, "msgid": "All active checks passed.", "msgstr": "Todas las comprobaciones activas superadas."}
+{"n": 253, "msgid": "All checks explained", "msgstr": "Todas las comprobaciones explicadas"}
+{"n": 254, "msgid": "All content types", "msgstr": "Todos los tipos de contenido"}
+{"n": 255, "msgid": "All languages", "msgstr": "Todos los idiomas"}
+{"n": 256, "msgid": "All pages translated", "msgstr": "Todas las páginas traducidas"}
+{"n": 257, "msgid": "All pages with score, change, area results and biggest levers as a spreadsheet, e.g. for Excel or a client report.", "msgstr": "Todas las páginas con puntuación, evolución, resultados por área y mayores palancas como hoja de cálculo, p. ej. para Excel o un informe para clientes."}
+{"n": 258, "msgid": "All scores", "msgstr": "Todas las puntuaciones"}
+{"n": 259, "msgid": "All sub-pages of these pages are guides (posts are always guides).", "msgstr": "Todas las subpáginas de estas páginas son guías (las entradas son siempre guías)."}
+{"n": 260, "msgid": "All sub-pages of these pages are service pages.", "msgstr": "Todas las subpáginas de estas páginas son páginas de servicios."}
+{"n": 261, "msgid": "All types", "msgstr": "Todos los tipos"}
+{"n": 262, "msgid": "Also check the public page (theme, SEO plugin, canonical, structured data)", "msgstr": "Comprobar también la página pública (tema, plugin SEO, canonical, datos estructurados)"}
+{"n": 263, "msgid": "Also list other pages (section \"Optional\")", "msgstr": "Incluir también otras páginas (sección «Optional»)"}
+{"n": 264, "msgid": "Always \"Digital Targets\" and \"Larnaka, Cyprus\"", "msgstr": "Siempre «Digital Targets» y «Lárnaca, Chipre»"}
+{"n": 265, "note": "translators: %d: months", "msgid": "An update date is shown, but it is older than %d months.", "msgstr": "Se muestra una fecha de actualización, pero tiene más de %d meses."}
+{"n": 266, "msgid": "Area", "msgstr": "Área"}
+{"n": 267, "msgid": "Areas", "msgstr": "Áreas"}
+{"n": 268, "note": "translators: %s: headline", "msgid": "Article headline not visible on the page: %s", "msgstr": "Titular del artículo no visible en la página: %s"}
+{"n": 269, "msgid": "Article with author and dates on guides", "msgstr": "Article con autor y fechas en las guías"}
+{"n": 270, "msgid": "Author", "msgstr": "Autor"}
+{"n": 271, "note": "translators: %s: author name", "msgid": "Author \"%s\" is named on the page.", "msgstr": "El autor «%s» aparece en la página."}
+{"n": 272, "msgid": "Author job title", "msgstr": "Cargo del autor"}
+{"n": 273, "msgid": "Author named and linked", "msgstr": "Autor nombrado y enlazado"}
+{"n": 274, "msgid": "Author profiles", "msgstr": "Perfiles del autor"}
+{"n": 275, "note": "translators: %s: author name", "msgid": "Author: %s", "msgstr": "Autor: %s"}
+{"n": 276, "msgid": "Authority", "msgstr": "Autoridad"}
+{"n": 277, "note": "translators: 1: scored pages, 2: all pages", "msgid": "Average of %1$d scored pages (of %2$d published).", "msgstr": "Media de %1$d páginas evaluadas (de %2$d publicadas)."}
+{"n": 278, "msgid": "Average of all scored pages, in % of the possible points. The shortest bar is your biggest lever.", "msgstr": "Media de todas las páginas evaluadas, en % de los puntos posibles. La barra más corta es tu mayor palanca."}
+{"n": 279, "msgid": "Basic structured data", "msgstr": "Datos estructurados básicos"}
+{"n": 280, "msgid": "Before / after (not saved)", "msgstr": "Antes / después (sin guardar)"}
+{"n": 281, "msgid": "Biggest levers", "msgstr": "Mayores palancas"}
+{"n": 282, "msgid": "Cancel", "msgstr": "Cancelar"}
+{"n": 283, "msgid": "Change", "msgstr": "Cambio"}
+{"n": 284, "msgid": "Change only what a task asks for. Keep facts, prices and names; never invent figures, sources or quotes – mark missing values as [TO DO].", "msgstr": "Cambia solo lo que pide una tarea. Mantén hechos, precios y nombres; nunca inventes cifras, fuentes ni citas: marca los datos que falten como [PENDIENTE]."}
+{"n": 285, "msgid": "Check \"Language versions linked (hreflang)\": every language version must be linked with hreflang, including the page itself, and the <html lang> attribute must match. WPML outputs these links when the language URL format is set (e.g. /en/).", "msgstr": "Comprobación «Versiones de idioma enlazadas (hreflang)»: cada versión de idioma debe estar enlazada con hreflang, incluida la propia página, y el atributo <html lang> debe coincidir. WPML genera estos enlaces cuando está configurado el formato de URL de idioma (p. ej. /en/)."}
+{"n": 286, "msgid": "Check GEO Score", "msgstr": "Comprobar GEO Score"}
+{"n": 287, "msgid": "Check a page again automatically after saving", "msgstr": "Volver a comprobar una página automáticamente después de guardar"}
+{"n": 288, "msgid": "Check again on this page", "msgstr": "Volver a comprobar en esta página"}
+{"n": 289, "note": "translators: %s: error message", "msgid": "Check could not run: %s", "msgstr": "La comprobación no se pudo ejecutar: %s"}
+{"n": 290, "msgid": "Check every suggestion, then paste it into the page in the WordPress editor and save. GEO Score checks the page again automatically.", "msgstr": "Revisa cada sugerencia, pégala en la página en el editor de WordPress y guarda. GEO Score vuelve a comprobar la página automáticamente."}
+{"n": 291, "msgid": "Check maintenance mode, login, cookie wall or bot protection: AI crawlers load the page without JavaScript and cookies and must see the text directly.", "msgstr": "Revisa el modo mantenimiento, el inicio de sesión, el muro de cookies o la protección antibots: los rastreadores de IA cargan la página sin JavaScript ni cookies y deben ver el texto directamente."}
+{"n": 292, "msgid": "Check now", "msgstr": "Comprobar ahora"}
+{"n": 293, "msgid": "Checked", "msgstr": "Comprobado"}
+{"n": 294, "msgid": "Checked on the published page.", "msgstr": "Se comprueba en la página publicada."}
+{"n": 295, "msgid": "Checking", "msgstr": "Comprobación"}
+{"n": 296, "msgid": "Checking…", "msgstr": "Comprobando…"}
+{"n": 297, "msgid": "Checks & thresholds", "msgstr": "Comprobaciones y umbrales"}
+{"n": 298, "msgid": "Checks that do not apply to a page (e.g. author on a contact page) are \"not applicable\" and do not count. The score is calculated only from the checks that apply.", "msgstr": "Las comprobaciones que no se aplican a una página (p. ej. autor en una página de contacto) son «no aplicables» y no cuentan. La puntuación se calcula solo con las comprobaciones que se aplican."}
+{"n": 299, "msgid": "Choose the parent pages of guides and services; all pages below them get that type. Single pages can be set in the editor sidebar. Excluded pages are not scored.", "msgstr": "Elige las páginas superiores de guías y servicios; todas las páginas que cuelgan de ellas reciben ese tipo. Las páginas sueltas se ajustan en la barra lateral del editor. Las páginas excluidas no se evalúan."}
+{"n": 300, "msgid": "City", "msgstr": "Ciudad"}
+{"n": 301, "msgid": "Click \"Check now\" to check the draft.", "msgstr": "Haz clic en «Comprobar ahora» para comprobar el borrador."}
+{"n": 302, "msgid": "Click an affected passage to jump to the block in the text.", "msgstr": "Haz clic en un pasaje afectado para ir al bloque en el texto."}
+{"n": 303, "msgid": "Company & author", "msgstr": "Empresa y autor"}
+{"n": 304, "msgid": "Company & author (E-E-A-T)", "msgstr": "Empresa y autor (E-E-A-T)"}
+{"n": 305, "msgid": "Company and place names are consistent.", "msgstr": "Los nombres de empresa y de lugares son coherentes."}
+{"n": 306, "msgid": "Company name", "msgstr": "Nombre de la empresa"}
+{"n": 307, "msgid": "Company name and legal name: both count as correct spellings. Wrong spellings: one per line, \"correct = wrong, wrong\".", "msgstr": "Nombre de la empresa y razón social: ambos cuentan como grafías correctas. Grafías incorrectas: una por línea, «correcta = incorrecta, incorrecta»."}
+{"n": 308, "note": "translators: %s: company name", "msgid": "Company name: %s", "msgstr": "Nombre de la empresa: %s"}
+{"n": 309, "note": "translators: %s: missing properties", "msgid": "Complete the structured data: %s.", "msgstr": "Completa los datos estructurados: %s."}
+{"n": 310, "msgid": "Concrete facts", "msgstr": "Hechos concretos"}
+{"n": 311, "msgid": "Concrete facts and figures", "msgstr": "Hechos y cifras concretos"}
+{"n": 312, "msgid": "Concrete figures make a statement verifiable and quotable. AI answers prefer sources with numbers, dates and names.", "msgstr": "Las cifras concretas hacen que una afirmación sea verificable y citable. Las respuestas de IA prefieren fuentes con números, fechas y nombres."}
+{"n": 313, "msgid": "Consistent company and place names", "msgstr": "Nombres de empresa y de lugares coherentes"}
+{"n": 314, "msgid": "Contact", "msgstr": "Contacto"}
+{"n": 315, "msgid": "Contact information is incomplete or inconsistent.", "msgstr": "Los datos de contacto están incompletos o son incoherentes."}
+{"n": 316, "msgid": "Content in the HTML", "msgstr": "Contenido en el HTML"}
+{"n": 317, "msgid": "Content type", "msgstr": "Tipo de contenido"}
+{"n": 318, "msgid": "Content types", "msgstr": "Tipos de contenido"}
+{"n": 319, "msgid": "Contents", "msgstr": "Contenido"}
+{"n": 320, "msgid": "Copied", "msgstr": "Copiado"}
+{"n": 321, "msgid": "Copy", "msgstr": "Copiar"}
+{"n": 322, "msgid": "Copy the prompt below into the chat and send it.", "msgstr": "Copia el prompt de abajo en el chat y envíalo."}
+{"n": 323, "msgid": "Correct spellings per language", "msgstr": "Grafías correctas por idioma"}
+{"n": 324, "msgid": "Countries or regions you serve, separated by commas. Used as areaServed of your services.", "msgstr": "Países o regiones en los que trabajas, separados por comas. Se usa como areaServed de tus servicios."}
+{"n": 325, "msgid": "Country code", "msgstr": "Código de país"}
+{"n": 326, "msgid": "Create /llms.txt with a short company profile and links to your important pages.", "msgstr": "Crea un archivo /llms.txt con un breve perfil de empresa y enlaces a tus páginas importantes."}
+{"n": 327, "msgid": "Daily", "msgstr": "Diario"}
+{"n": 328, "msgid": "Decides which checks apply, e.g. author and update date only on guides.", "msgstr": "Decide qué comprobaciones se aplican, p. ej. autor y fecha de actualización solo en guías."}
+{"n": 329, "msgid": "Defaults follow the SEO & GEO standard of Digital Targets. Leave a field empty to use the default.", "msgstr": "Los valores por defecto siguen el estándar SEO y GEO de Digital Targets. Deja un campo vacío para usar el valor por defecto."}
+{"n": 330, "msgid": "Details", "msgstr": "Detalles"}
+{"n": 331, "msgid": "Detect automatically", "msgstr": "Detectar automáticamente"}
+{"n": 332, "msgid": "Different spellings of your company or place names were found.", "msgstr": "Se han encontrado grafías distintas del nombre de tu empresa o de lugares."}
+{"n": 333, "msgid": "Does GEO Score need an AI service or an API key?", "msgstr": "¿Necesita GEO Score un servicio de IA o una clave API?"}
+{"n": 334, "msgid": "Does GEO Score replace Yoast SEO or Rank Math?", "msgstr": "¿Sustituye GEO Score a Yoast SEO o Rank Math?"}
+{"n": 335, "msgid": "E-mail", "msgstr": "Correo electrónico"}
+{"n": 336, "msgid": "E-mail report", "msgstr": "Informe por correo electrónico"}
+{"n": 337, "msgid": "Each page in its own content language. Language rules exist for German, English, French, Spanish, Portuguese, Italian, Dutch and Polish; other languages are checked with the general rules.", "msgstr": "Cada página en su propio idioma de contenido. Hay reglas lingüísticas para alemán, inglés, francés, español, portugués, italiano, neerlandés y polaco; los demás idiomas se comprueban con las reglas generales."}
+{"n": 338, "msgid": "Edit", "msgstr": "Editar"}
+{"n": 339, "note": "translators: %s: page title", "msgid": "Edit \"%s\"", "msgstr": "Editar «%s»"}
+{"n": 340, "msgid": "Editor content", "msgstr": "Contenido del editor"}
+{"n": 341, "msgid": "Empty = the short description from \"Company & author\".", "msgstr": "Vacío = la descripción breve de «Empresa y autor»."}
+{"n": 342, "msgid": "English page with \"mehr lesen\", \"Startseite\" in the breadcrumbs and inLanguage \"de-DE\"", "msgstr": "Página en inglés con «mehr lesen», «Startseite» en las migas de pan e inLanguage «de-DE»"}
+{"n": 343, "msgid": "English page without hreflang, or with lang=\"de\" in the <html> tag", "msgstr": "Página en inglés sin hreflang, o con lang=\"de\" en la etiqueta <html>"}
+{"n": 344, "msgid": "Enough content", "msgstr": "Contenido suficiente"}
+{"n": 345, "msgid": "Enter company and author", "msgstr": "Introduce la empresa y el autor"}
+{"n": 346, "msgid": "Enter details", "msgstr": "Introducir datos"}
+{"n": 347, "msgid": "Error", "msgstr": "Error"}
+{"n": 348, "msgid": "Every FAQ question in the schema also appears on the page", "msgstr": "Cada pregunta FAQ del schema aparece también en la página"}
+{"n": 349, "msgid": "Every check with the reason behind it, a good and a weak example. Points are the weight of a check within its area.", "msgstr": "Cada comprobación con su porqué, un buen ejemplo y uno débil. Los puntos son el peso de una comprobación dentro de su área."}
+{"n": 350, "msgid": "Every night", "msgstr": "Cada noche"}
+{"n": 351, "msgid": "Every page gets a score from 0 to 100. It is made of six areas. Each area has a weight; the checks of an area share its points.", "msgstr": "Cada página recibe una puntuación de 0 a 100. Se compone de seis áreas. Cada área tiene un peso; las comprobaciones de un área se reparten sus puntos."}
+{"n": 352, "msgid": "Everything in the page language", "msgstr": "Todo en el idioma de la página"}
+{"n": 353, "msgid": "Everything runs on your own server. GEO Score needs no AI service and no API key for checking.", "msgstr": "Todo funciona en tu propio servidor. Para comprobar, GEO Score no necesita ningún servicio de IA ni clave API."}
+{"n": 354, "msgid": "Exactly one H1", "msgstr": "Exactamente un H1"}
+{"n": 355, "msgid": "Exactly one H1 names the topic of the page clearly. Several H1 headings blur it.", "msgstr": "Un único H1 nombra claramente el tema de la página. Varios H1 lo difuminan."}
+{"n": 356, "msgid": "Exactly one H1 with the main topic.", "msgstr": "Exactamente un H1 con el tema principal."}
+{"n": 357, "msgid": "Exclude this page from scoring", "msgstr": "No evaluar esta página"}
+{"n": 358, "msgid": "Excluded", "msgstr": "Excluida"}
+{"n": 359, "msgid": "Excluded from scoring (legal page or excluded manually).", "msgstr": "Excluida de la evaluación (página legal o excluida manualmente)."}
+{"n": 360, "msgid": "Excluded from scoring (password protected).", "msgstr": "Excluida de la evaluación (protegida con contraseña)."}
+{"n": 361, "msgid": "Excluded pages", "msgstr": "Páginas excluidas"}
+{"n": 362, "msgid": "Experience is a key trust signal (E-E-A-T). A named author with an author box and link makes the expertise verifiable.", "msgstr": "La experiencia es una señal de confianza clave (E-E-A-T). Un autor con nombre, cuadro de autor y enlace hace verificable la experiencia."}
+{"n": 363, "note": "translators: %s: title of the explanation", "msgid": "Explanation: %s", "msgstr": "Explicación: %s"}
+{"n": 364, "msgid": "Export CSV", "msgstr": "Exportar CSV"}
+{"n": 365, "msgid": "FAQ answer length", "msgstr": "Longitud de las respuestas FAQ"}
+{"n": 366, "note": "translators: %s: question", "msgid": "FAQ question not visible on the page: %s", "msgstr": "Pregunta FAQ no visible en la página: %s"}
+{"n": 367, "msgid": "FAQ questions", "msgstr": "Preguntas FAQ"}
+{"n": 368, "msgid": "FAQ schema with questions that are not visible on the page", "msgstr": "Schema FAQ con preguntas que no son visibles en la página"}
+{"n": 369, "msgid": "FAQ with FAQPage schema", "msgstr": "FAQ con schema FAQPage"}
+{"n": 370, "msgid": "FAQPage from the visible questions and answers", "msgstr": "FAQPage a partir de las preguntas y respuestas visibles"}
+{"n": 371, "msgid": "FAQPage schema present.", "msgstr": "Schema FAQPage presente."}
+{"n": 372, "msgid": "FAQs are ready-made question/answer pairs, the format AI answers are built from.", "msgstr": "Las FAQ son pares pregunta/respuesta listos para usar, justo el formato con el que se construyen las respuestas de IA."}
+{"n": 373, "msgid": "Facts & sources", "msgstr": "Hechos y fuentes"}
+{"n": 374, "msgid": "Filter", "msgstr": "Filtrar"}
+{"n": 375, "msgid": "Finding:", "msgstr": "Hallazgo:"}
+{"n": 376, "msgid": "First steps with GEO Score", "msgstr": "Primeros pasos con GEO Score"}
+{"n": 377, "msgid": "Fix the listed points and test the page with Google's Rich Results Test.", "msgstr": "Corrige los puntos indicados y prueba la página con la prueba de resultados enriquecidos de Google."}
+{"n": 378, "msgid": "Footer with imprint, contact and the same phone number as in the Google Business Profile", "msgstr": "Pie de página con aviso legal, contacto y el mismo número de teléfono que en el Perfil de Empresa de Google"}
+{"n": 379, "msgid": "For call-to-action boxes and similar blocks whose headings are not content sections. Separate with commas.", "msgstr": "Para cajas de llamada a la acción y bloques similares cuyos encabezados no son secciones de contenido. Separa con comas."}
+{"n": 380, "msgid": "Full company name with legal form, as in the imprint. Used in structured data and llms.txt.", "msgstr": "Nombre completo de la empresa con la forma jurídica, como en el aviso legal. Se usa en los datos estructurados y en llms.txt."}
+{"n": 381, "msgid": "Further user agents", "msgstr": "Otros user-agents"}
+{"n": 382, "msgid": "GEO", "msgstr": "GEO"}
+{"n": 383, "msgid": "GEO Score", "msgstr": "GEO Score"}
+{"n": 384, "note": "translators: 1: score, 2: band label", "msgid": "GEO Score %1$d – %2$s", "msgstr": "GEO Score %1$d – %2$s"}
+{"n": 385, "msgid": "GEO Score Settings", "msgstr": "Ajustes de GEO Score"}
+{"n": 386, "msgid": "GEO Score checks how well each page is prepared for AI search engines such as ChatGPT, Gemini, Perplexity, Claude and Google AI Overviews. GEO stands for Generative Engine Optimization: content that AI systems understand, trust and quote.", "msgstr": "GEO Score comprueba lo bien preparada que está cada página para buscadores de IA como ChatGPT, Gemini, Perplexity, Claude y las vistas generales creadas con IA de Google. GEO significa Generative Engine Optimization: contenido que los sistemas de IA entienden, en el que confían y que citan."}
+{"n": 387, "note": "translators: 1: site name, 2: website GEO score, 3: change (e.g. \"+3\") or empty", "msgid": "GEO Score for %1$s: %2$d%3$s", "msgstr": "GEO Score para %1$s: %2$d%3$s"}
+{"n": 388, "msgid": "GEO Score is active.", "msgstr": "GEO Score está activo."}
+{"n": 389, "note": "translators: %s: site name", "msgid": "GEO Score task list: %s", "msgstr": "Lista de tareas de GEO Score: %s"}
+{"n": 390, "msgid": "GEO Score – AI Visibility", "msgstr": "GEO Score – Visibilidad en IA"}
+{"n": 391, "msgid": "GEO answer format", "msgstr": "Formato de respuesta GEO"}
+{"n": 392, "msgid": "General", "msgstr": "General"}
+{"n": 393, "msgid": "Generate /llms.txt automatically from your pages", "msgstr": "Generar /llms.txt automáticamente a partir de tus páginas"}
+{"n": 394, "msgid": "German and English page link each other and themselves with hreflang; <html lang> matches", "msgstr": "Las páginas en alemán e inglés se enlazan entre sí y a sí mismas con hreflang; <html lang> coincide"}
+{"n": 395, "msgid": "Germany, Austria, Switzerland, Cyprus", "msgstr": "España, México, Argentina, Colombia"}
+{"n": 396, "msgid": "Getting started", "msgstr": "Primeros pasos"}
+{"n": 397, "msgid": "Good", "msgstr": "Bien"}
+{"n": 398, "msgid": "Good to know: GEO Score adds structured data and an /llms.txt automatically. You can turn this off under Settings → Output.", "msgstr": "Conviene saberlo: GEO Score añade automáticamente datos estructurados y un /llms.txt. Puedes desactivarlo en Ajustes → Salida."}
+{"n": 399, "msgid": "Good:", "msgstr": "Bien:"}
+{"n": 400, "msgid": "Guide", "msgstr": "Guía"}
+{"n": 401, "msgid": "Guide sections", "msgstr": "Secciones de guías"}
+{"n": 402, "msgid": "Guide with Article schema incl. author, publication and update date", "msgstr": "Guía con schema Article incl. autor, fecha de publicación y de actualización"}
+{"n": 403, "msgid": "Guide without Article schema or without author", "msgstr": "Guía sin schema Article o sin autor"}
+{"n": 404, "note": "translators: 1: previous level, 2: level, 3: heading text", "msgid": "H%1$d → H%2$d: %3$s", "msgstr": "H%1$d → H%2$d: %3$s"}
+{"n": 405, "msgid": "H1 is checked on the published page.", "msgstr": "El H1 se comprueba en la página publicada."}
+{"n": 406, "msgid": "H1 → H2 → H3 → H2", "msgstr": "H1 → H2 → H3 → H2"}
+{"n": 407, "msgid": "H2 → H4 (H3 skipped) because the font size looked better", "msgstr": "H2 → H4 (H3 omitido) porque el tamaño de letra quedaba mejor"}
+{"n": 408, "note": "translators: %d: number of headings that skip a level", "msgid": "Headings that skip a level: %d", "msgstr": "Encabezados que saltan un nivel: %d"}
+{"n": 409, "msgid": "Hide", "msgstr": "Ocultar"}
+{"n": 410, "msgid": "Hold Ctrl (Windows) or Cmd (Mac) to select several.", "msgstr": "Mantén pulsado Ctrl (Windows) o Cmd (Mac) para seleccionar varios."}
+{"n": 411, "msgid": "Home page", "msgstr": "Página de inicio"}
+{"n": 412, "msgid": "How do I exclude a page?", "msgstr": "¿Cómo excluyo una página?"}
+{"n": 413, "msgid": "How long is the history kept?", "msgstr": "¿Cuánto tiempo se guarda el historial?"}
+{"n": 414, "msgid": "How the score works", "msgstr": "Cómo funciona la puntuación"}
+{"n": 415, "msgid": "How to work with this list", "msgstr": "Cómo trabajar con esta lista"}
+{"n": 416, "msgid": "How well your pages are prepared for ChatGPT, Gemini, Perplexity and Google AI Overviews.", "msgstr": "Lo bien preparadas que están tus páginas para ChatGPT, Gemini, Perplexity y las vistas generales creadas con IA de Google."}
+{"n": 417, "msgid": "I changed a page, but the score did not change.", "msgstr": "He cambiado una página, pero la puntuación no ha cambiado."}
+{"n": 418, "msgid": "If the server answers with an error (e.g. 503), GEO Score waits longer and tries the page again up to two times.", "msgstr": "Si el servidor responde con un error (p. ej. 503), GEO Score espera más y vuelve a intentar la página hasta dos veces."}
+{"n": 419, "msgid": "Ignore headings inside these CSS classes", "msgstr": "Ignorar los encabezados dentro de estas clases CSS"}
+{"n": 420, "msgid": "Ignore on this page", "msgstr": "Ignorar en esta página"}
+{"n": 421, "msgid": "Ignored for this page.", "msgstr": "Ignorado para esta página."}
+{"n": 422, "note": "translators: 1: alt text, 2: language code", "msgid": "Image alt text \"%1$s\" (%2$s)", "msgstr": "Texto alternativo «%1$s» (%2$s)"}
+{"n": 423, "msgid": "Imprint and contact reachable", "msgstr": "Aviso legal y contacto accesibles"}
+{"n": 424, "msgid": "Imprint, address and phone reachable everywhere and identical in all places (NAP) prove that a real company stands behind the page.", "msgstr": "Un aviso legal, una dirección y un teléfono accesibles y idénticos en todas partes (NAP) demuestran que detrás de la página hay una empresa real."}
+{"n": 425, "msgid": "Imprint, contact and phone are reachable and consistent.", "msgstr": "Aviso legal, contacto y teléfono son accesibles y coherentes."}
+{"n": 426, "msgid": "Improve", "msgstr": "Mejorar"}
+{"n": 427, "msgid": "Improve in the editor", "msgstr": "Mejorar en el editor"}
+{"n": 428, "msgid": "Improve the weakest page", "msgstr": "Mejorar la página más débil"}
+{"n": 429, "msgid": "In five steps to your first result", "msgstr": "En cinco pasos a tu primer resultado"}
+{"n": 430, "msgid": "In the block editor, the GEO Score icon in the top bar opens the sidebar with score, all checks and suggestions.", "msgstr": "En el editor de bloques, el icono de GEO Score de la barra superior abre la barra lateral con la puntuación, todas las comprobaciones y las sugerencias."}
+{"n": 431, "msgid": "In the editor sidebar (\"Exclude this page from scoring\") or under Settings → Page types → Excluded pages. Legal pages are excluded automatically.", "msgstr": "En la barra lateral del editor («No evaluar esta página») o en Ajustes → Tipos de página → Páginas excluidas. Las páginas legales se excluyen automáticamente."}
+{"n": 432, "msgid": "In the sidebar you can set the page type or exclude the page from scoring.", "msgstr": "En la barra lateral puedes fijar el tipo de página o excluir la página de la evaluación."}
+{"n": 433, "msgid": "In which languages are pages checked?", "msgstr": "¿En qué idiomas se comprueban las páginas?"}
+{"n": 434, "msgid": "Indexable with a canonical to itself.", "msgstr": "Indexable con un canonical a sí misma."}
+{"n": 435, "msgid": "Indexable, but the page has no canonical tag.", "msgstr": "Indexable, pero la página no tiene etiqueta canonical."}
+{"n": 436, "msgid": "Indexable, canonical to itself", "msgstr": "Indexable, canonical a sí misma"}
+{"n": 437, "msgid": "Introduction", "msgstr": "Introducción"}
+{"n": 438, "note": "translators: 1: min words, 2: max words", "msgid": "Keep answers between %1$d and %2$d words.", "msgstr": "Mantén las respuestas entre %1$d y %2$d palabras."}
+{"n": 439, "msgid": "Keep one H1 for the main topic and turn the others into H2.", "msgstr": "Deja un H1 para el tema principal y convierte los demás en H2."}
+{"n": 440, "msgid": "Language", "msgstr": "Idioma"}
+{"n": 441, "msgid": "Language of the plugin screens and suggestions. \"Automatic\" follows the language in your WordPress profile. Pages are always checked in their own content language.", "msgstr": "Idioma de las pantallas y sugerencias del plugin. «Automático» sigue el idioma de tu perfil de WordPress. Las páginas siempre se comprueban en su propio idioma de contenido."}
+{"n": 442, "msgid": "Language versions linked (hreflang)", "msgstr": "Versiones de idioma enlazadas (hreflang)"}
+{"n": 443, "note": "translators: %s: language code, e.g. EN", "msgid": "Language: %s", "msgstr": "Idioma: %s"}
+{"n": 444, "msgid": "Learn more", "msgstr": "Más información"}
+{"n": 445, "msgid": "Legal", "msgstr": "Legal"}
+{"n": 446, "msgid": "Legal and statistical statements without a source are risky for AI systems. With a link to the original they are trusted and cited.", "msgstr": "Las afirmaciones legales y estadísticas sin fuente son arriesgadas para los sistemas de IA. Con un enlace al original generan confianza y se citan."}
+{"n": 447, "msgid": "Legal name", "msgstr": "Razón social"}
+{"n": 448, "note": "translators: %s: legal company name", "msgid": "Legal name: %s", "msgstr": "Razón social: %s"}
+{"n": 449, "msgid": "Let WPML (or your SEO plugin) output hreflang links to every language version, including the page itself.", "msgstr": "Haz que WPML (o tu plugin SEO) genere enlaces hreflang a cada versión de idioma, incluida la propia página."}
+{"n": 450, "msgid": "Let your SEO plugin output a canonical tag pointing to the page itself.", "msgstr": "Haz que tu plugin SEO genere una etiqueta canonical que apunte a la propia página."}
+{"n": 451, "msgid": "Limits", "msgstr": "Límites"}
+{"n": 452, "msgid": "Limits: e.g. share of question headings, maximum words of the answer sentence, facts per 100 words, age of the update date, sentence and paragraph length, minimum words, number and length of FAQ answers.", "msgstr": "Límites: p. ej. proporción de encabezados con pregunta, palabras máximas de la frase de respuesta, hechos por cada 100 palabras, antigüedad de la fecha de actualización, longitud de frases y párrafos, palabras mínimas, número y longitud de las respuestas FAQ."}
+{"n": 453, "msgid": "Link each law, regulation, study or statistic to its original source (e.g. the official law text, EU page, study). AI search engines trust and cite sourced statements.", "msgstr": "Enlaza cada ley, reglamento, estudio o estadística con su fuente original (p. ej. el texto legal oficial, una página de la UE, el estudio). Los buscadores de IA confían en las afirmaciones con fuente y las citan."}
+{"n": 454, "msgid": "Link imprint and contact page from every page (e.g. in the footer).", "msgstr": "Enlaza el aviso legal y la página de contacto desde cada página (p. ej. en el pie de página)."}
+{"n": 455, "msgid": "Link the author to the About us page.", "msgstr": "Enlaza al autor con la página «Sobre nosotros»."}
+{"n": 456, "msgid": "Listed in llms.txt", "msgstr": "Incluida en llms.txt"}
+{"n": 457, "msgid": "Live check of the editor content (%s).", "msgstr": "Comprobación en vivo del contenido del editor (%s)."}
+{"n": 458, "note": "translators: %s: main keyword", "msgid": "Main topic: %s", "msgstr": "Tema principal: %s"}
+{"n": 459, "msgid": "Maintenance mode is active.", "msgstr": "El modo mantenimiento está activo."}
+{"n": 460, "msgid": "Managing Director", "msgstr": "Director general"}
+{"n": 461, "note": "translators: %s: company name", "msgid": "Mention \"%s\" in the text (e.g. \"We at … have been …\") so AI systems connect the page to your company.", "msgstr": "Menciona «%s» en el texto (p. ej. «En … llevamos … años») para que los sistemas de IA asocien la página a tu empresa."}
+{"n": 462, "msgid": "Minimum length", "msgstr": "Longitud mínima"}
+{"n": 463, "msgid": "Missing", "msgstr": "Falta"}
+{"n": 464, "note": "translators: %s: missing schema types", "msgid": "Missing: %s. Add Organization, WebSite and WebPage as JSON-LD in the <head> of every page.", "msgstr": "Falta: %s. Añade Organization, WebSite y WebPage como JSON-LD en el <head> de cada página."}
+{"n": 465, "msgid": "Mixed \"DigitalTargets\", \"Digital-Targets\", \"Larnaca\"", "msgstr": "Mezcla de «DigitalTargets», «Digital-Targets», «Larnaca»"}
+{"n": 466, "msgid": "Monthly", "msgstr": "Mensual"}
+{"n": 467, "msgid": "Multilingual websites", "msgstr": "Sitios multilingües"}
+{"n": 468, "msgid": "Name each AI crawler with \"User-agent: …\" and \"Allow: /\", and add \"Sitemap: …/sitemap_index.xml\".", "msgstr": "Nombra cada rastreador de IA con «User-agent: …» y «Allow: /», y añade «Sitemap: …/sitemap_index.xml»."}
+{"n": 469, "msgid": "Name shown on guides. Empty = the author of each post.", "msgstr": "Nombre que se muestra en las guías. Vacío = el autor de cada entrada."}
+{"n": 470, "note": "translators: %s: author name", "msgid": "Name the author \"%s\" visibly on the page.", "msgstr": "Nombra al autor «%s» de forma visible en la página."}
+{"n": 471, "note": "translators: %s: author name", "msgid": "Name the author visibly on the page.", "msgstr": "Nombra al autor de forma visible en la página."}
+{"n": 472, "msgid": "Never scored, e.g. thank-you, maintenance or test pages.", "msgstr": "Nunca se evalúan, p. ej. páginas de agradecimiento, mantenimiento o prueba."}
+{"n": 473, "note": "translators: %s: schema type", "msgid": "No %s schema found.", "msgstr": "No se ha encontrado schema %s."}
+{"n": 474, "msgid": "No AI crawlers selected in the settings.", "msgstr": "No hay rastreadores de IA seleccionados en los ajustes."}
+{"n": 475, "msgid": "No FAQ on this page.", "msgstr": "No hay FAQ en esta página."}
+{"n": 476, "msgid": "No FAQPage schema.", "msgstr": "Sin schema FAQPage."}
+{"n": 477, "msgid": "No H2 sections to check.", "msgstr": "No hay secciones H2 que comprobar."}
+{"n": 478, "msgid": "No SEO plugin with structured data found. GEO Score outputs the complete set: Organization, WebSite, WebPage, BreadcrumbList and the schema for each page type.", "msgstr": "No se ha encontrado ningún plugin SEO con datos estructurados. GEO Score genera el conjunto completo: Organization, WebSite, WebPage, BreadcrumbList y el schema de cada tipo de página."}
+{"n": 479, "msgid": "No author is named on the page.", "msgstr": "No se nombra ningún autor en la página."}
+{"n": 480, "msgid": "No check changed.", "msgstr": "Ninguna comprobación ha cambiado."}
+{"n": 481, "msgid": "No company name set in the settings.", "msgstr": "No hay nombre de empresa en los ajustes."}
+{"n": 482, "msgid": "No date, or \"Last updated: 2021\"", "msgstr": "Sin fecha, o «Última actualización: 2021»"}
+{"n": 483, "msgid": "No invented facts: prices, figures, sources and references must be true. Missing values are marked [TO DO].", "msgstr": "Nada de hechos inventados: precios, cifras, fuentes y referencias deben ser ciertos. Los datos que falten se marcan como [PENDIENTE]."}
+{"n": 484, "msgid": "No legal or statistical claims found.", "msgstr": "No se han encontrado afirmaciones legales ni estadísticas."}
+{"n": 485, "msgid": "No llms.txt found.", "msgstr": "No se ha encontrado llms.txt."}
+{"n": 486, "msgid": "No llms.txt, or new pages missing in it", "msgstr": "Sin llms.txt, o faltan páginas nuevas en él"}
+{"n": 487, "msgid": "No matching entries.", "msgstr": "No hay entradas que coincidan."}
+{"n": 488, "msgid": "No minimum length for this page type.", "msgstr": "No hay longitud mínima para este tipo de página."}
+{"n": 489, "msgid": "No noindex set. The canonical is checked on the published page.", "msgstr": "No hay noindex. El canonical se comprueba en la página publicada."}
+{"n": 490, "msgid": "No open tasks. All scored pages pass every check.", "msgstr": "No hay tareas abiertas. Todas las páginas evaluadas superan todas las comprobaciones."}
+{"n": 491, "msgid": "No outdated years in headings", "msgstr": "Sin años desactualizados en los encabezados"}
+{"n": 492, "msgid": "No outdated years in title or headings.", "msgstr": "Sin años desactualizados en el título ni en los encabezados."}
+{"n": 493, "msgid": "No pages found.", "msgstr": "No se han encontrado páginas."}
+{"n": 494, "msgid": "No robots.txt found. AI crawlers are allowed, but not explicitly.", "msgstr": "No se ha encontrado robots.txt. Los rastreadores de IA están permitidos, pero no de forma explícita."}
+{"n": 495, "msgid": "No sameAs, profiles not linked", "msgstr": "Sin sameAs, perfiles no vinculados"}
+{"n": 496, "msgid": "No skipped heading levels", "msgstr": "Sin niveles de encabezado omitidos"}
+{"n": 497, "msgid": "No specific schema expected for this page type.", "msgstr": "No se espera ningún schema específico para este tipo de página."}
+{"n": 498, "msgid": "No visible \"last updated\" date.", "msgstr": "No hay fecha de «última actualización» visible."}
+{"n": 499, "msgid": "No. All checks run on your own server. Only if you use the task list with an AI assistant do you need that assistant – GEO Score itself sends nothing.", "msgstr": "No. Todas las comprobaciones se ejecutan en tu propio servidor. Solo si usas la lista de tareas con un asistente de IA necesitas ese asistente; GEO Score en sí no envía nada."}
+{"n": 500, "msgid": "No. It runs in the background in small batches and loads each page once, like a visitor.", "msgstr": "No. Se ejecuta en segundo plano en pequeños lotes y carga cada página una vez, como un visitante."}
+{"n": 501, "msgid": "No. SEO plugins optimise for classic search results; GEO Score checks what AI answers need. Both work together, and GEO Score uses their structured data.", "msgstr": "No. Los plugins SEO optimizan para los resultados de búsqueda clásicos; GEO Score comprueba lo que necesitan las respuestas de IA. Ambos funcionan juntos, y GEO Score usa sus datos estructurados."}
+{"n": 502, "msgid": "None. GEO Score only loads your own pages, robots.txt and llms.txt. E-mail reports are sent with your WordPress mail settings.", "msgstr": "Ninguno. GEO Score solo carga tus propias páginas, robots.txt y llms.txt. Los informes por correo se envían con los ajustes de correo de tu WordPress."}
+{"n": 503, "msgid": "Not applicable", "msgstr": "No aplicable"}
+{"n": 504, "msgid": "Not checked on contact pages.", "msgstr": "No se comprueba en páginas de contacto."}
+{"n": 505, "msgid": "Not indexable (noindex)", "msgstr": "No indexable (noindex)"}
+{"n": 506, "msgid": "Not indexable (noindex): not counted for the website GEO score.", "msgstr": "No indexable (noindex): no cuenta para la puntuación GEO del sitio."}
+{"n": 507, "msgid": "Not published yet: checks on the public page run after publishing.", "msgstr": "Aún no publicada: las comprobaciones de la página pública se ejecutan tras publicar."}
+{"n": 508, "msgid": "Off", "msgstr": "Desactivado"}
+{"n": 509, "msgid": "Off – only check, never output", "msgstr": "Desactivado: solo comprobar, nunca generar"}
+{"n": 510, "msgid": "Once a week", "msgstr": "Una vez a la semana"}
+{"n": 511, "msgid": "One H1, but it does not contain the main topic.", "msgstr": "Un H1, pero no contiene el tema principal."}
+{"n": 512, "msgid": "One H1: \"Create an online shop: step by step\"", "msgstr": "Un H1: «Crear una tienda online: paso a paso»"}
+{"n": 513, "msgid": "One URL per line: LinkedIn, Xing, Google Business Profile, directories. The check reports profiles that are missing in your structured data.", "msgstr": "Una URL por línea: LinkedIn, Xing, Perfil de Empresa de Google, directorios. La comprobación indica los perfiles que faltan en tus datos estructurados."}
+{"n": 514, "msgid": "One line per language: language code, colon, names. These spellings count as correct on pages in that language, even if they are listed as wrong above (e.g. \"Larnaca\" on English pages).", "msgstr": "Una línea por idioma: código de idioma, dos puntos, nombres. Estas grafías se consideran correctas en las páginas de ese idioma, aunque arriba figuren como incorrectas (p. ej. «Larnaca» en las páginas en inglés)."}
+{"n": 515, "msgid": "One or two sentences: what you offer, for whom, where. Used in structured data and at the top of llms.txt.", "msgstr": "Una o dos frases: qué ofreces, a quién y dónde. Se usa en los datos estructurados y al inicio de llms.txt."}
+{"n": 516, "msgid": "One per line: correct name = wrong spelling, wrong spelling. Spellings of the company name are found automatically.", "msgstr": "Una por línea: nombre correcto = grafía incorrecta, grafía incorrecta. Las grafías del nombre de la empresa se detectan automáticamente."}
+{"n": 517, "msgid": "One point per day for three years. Uninstalling the plugin deletes all GEO Score data.", "msgstr": "Un punto por día durante tres años. Al desinstalar el plugin se borran todos los datos de GEO Score."}
+{"n": 518, "msgid": "One sentence of 45 words with three subordinate clauses", "msgstr": "Una frase de 45 palabras con tres oraciones subordinadas"}
+{"n": 519, "msgid": "Only on multilingual sites.", "msgstr": "Solo en sitios multilingües."}
+{"n": 520, "msgid": "Only published content of these types is scored. Legal pages (imprint, privacy) are excluded automatically.", "msgstr": "Solo se evalúa el contenido publicado de estos tipos. Las páginas legales (aviso legal, privacidad) se excluyen automáticamente."}
+{"n": 521, "msgid": "Only required on guide pages.", "msgstr": "Solo es obligatorio en las páginas de guía."}
+{"n": 522, "msgid": "Open GEO Score", "msgstr": "Abrir GEO Score"}
+{"n": 523, "msgid": "Open GEO Score overview", "msgstr": "Abrir el resumen de GEO Score"}
+{"n": 524, "msgid": "Open llms.txt", "msgstr": "Abrir llms.txt"}
+{"n": 525, "msgid": "Open the GEO overview", "msgstr": "Abrir el resumen GEO"}
+{"n": 526, "msgid": "Open your AI assistant (e.g. Claude, ChatGPT or Gemini) and attach the file.", "msgstr": "Abre tu asistente de IA (p. ej. Claude, ChatGPT o Gemini) y adjunta el archivo."}
+{"n": 527, "msgid": "Optional", "msgstr": "Opcional"}
+{"n": 528, "msgid": "Optional parameters: ids (only certain pages), type (e.g. guide or service), min_gain (only tasks with at least this many points), limit (number of pages). A single page: /report/{ID}?compact=1.", "msgstr": "Parámetros opcionales: ids (solo ciertas páginas), type (p. ej. guide o service), min_gain (solo tareas con al menos esos puntos), limit (número de páginas). Una sola página: /report/{ID}?compact=1."}
+{"n": 529, "msgid": "Organization with sameAs: LinkedIn, Xing, Google Business Profile", "msgstr": "Organization con sameAs: LinkedIn, Xing, Perfil de Empresa de Google"}
+{"n": 530, "msgid": "Organization, WebSite, WebPage and BreadcrumbList on every page", "msgstr": "Organization, WebSite, WebPage y BreadcrumbList en cada página"}
+{"n": 531, "msgid": "Organization: address, logo, phone and profiles (sameAs)", "msgstr": "Organization: dirección, logo, teléfono y perfiles (sameAs)"}
+{"n": 532, "msgid": "Output", "msgstr": "Salida"}
+{"n": 533, "msgid": "Output hreflang links to every language version in the <head>, including the page itself.", "msgstr": "Incluye en el <head> enlaces hreflang a cada versión de idioma, incluida la propia página."}
+{"n": 534, "msgid": "Overview", "msgstr": "Resumen"}
+{"n": 535, "msgid": "Overview → \"Task list for AI\". A Markdown file (.md) is downloaded.", "msgstr": "Resumen → «Lista de tareas para IA». Se descarga un archivo Markdown (.md)."}
+{"n": 536, "msgid": "Overview: website GEO score per language, pages without translation, a language filter and a task list per language – e.g. only the English pages for your AI assistant.", "msgstr": "Resumen: puntuación GEO del sitio por idioma, páginas sin traducción, un filtro de idioma y una lista de tareas por idioma, p. ej. solo las páginas en inglés para tu asistente de IA."}
+{"n": 537, "msgid": "Page", "msgstr": "Página"}
+{"n": 538, "msgid": "Page type", "msgstr": "Tipo de página"}
+{"n": 539, "msgid": "Page type & scoring", "msgstr": "Tipo de página y evaluación"}
+{"n": 540, "msgid": "Page types", "msgstr": "Tipos de página"}
+{"n": 541, "msgid": "Pages", "msgstr": "Páginas"}
+{"n": 542, "msgid": "Pages are sorted by what they can gain; tasks within a page by points.", "msgstr": "Las páginas se ordenan por lo que pueden ganar; las tareas de cada página, por puntos."}
+{"n": 543, "msgid": "Pages by result", "msgstr": "Páginas por resultado"}
+{"n": 544, "msgid": "Pages by result over time", "msgstr": "Páginas por resultado a lo largo del tiempo"}
+{"n": 545, "msgid": "Pages with noindex are shown but do not count for the website GEO score: search engines and AI systems do not use them. Legal pages (imprint, privacy) and excluded pages are not scored.", "msgstr": "Las páginas con noindex se muestran, pero no cuentan para la puntuación GEO del sitio: ni los buscadores ni los sistemas de IA las usan. Las páginas legales (aviso legal, privacidad) y las páginas excluidas no se evalúan."}
+{"n": 546, "msgid": "Pages with noindex, or with a canonical to another URL, are not shown and not cited.", "msgstr": "Las páginas con noindex, o con un canonical a otra URL, no se muestran ni se citan."}
+{"n": 547, "note": "translators: 1: text excerpt, 2: language code", "msgid": "Paragraph \"%1$s\" (%2$s)", "msgstr": "Párrafo «%1$s» (%2$s)"}
+{"n": 548, "msgid": "People ask AI assistants questions. Headings phrased the same way are matched directly to these questions.", "msgstr": "La gente hace preguntas a los asistentes de IA. Los encabezados formulados igual se asocian directamente a esas preguntas."}
+{"n": 549, "msgid": "Period", "msgstr": "Periodo"}
+{"n": 550, "msgid": "Person on the About us page", "msgstr": "Person en la página «Sobre nosotros»"}
+{"n": 551, "msgid": "Phone", "msgstr": "Teléfono"}
+{"n": 552, "msgid": "Please deactivate the old plugin \"GEO Score – AI Visibility by Digital Targets\" – this plugin replaces it and keeps all settings and scores. Then remove the folder wp-content/plugins/geo-score by FTP or the file manager of your host. Do not use \"Delete\" in WordPress for the old plugin: it would also delete the data of this plugin.", "msgstr": "Desactiva el plugin antiguo «GEO Score – AI Visibility by Digital Targets»: este plugin lo sustituye y conserva todos los ajustes y puntuaciones. Después elimina la carpeta wp-content/plugins/geo-score por FTP o con el gestor de archivos de tu alojamiento. No uses «Borrar» en WordPress para el plugin antiguo: también borraría los datos de este plugin."}
+{"n": 553, "msgid": "Plugin language", "msgstr": "Idioma del plugin"}
+{"n": 554, "msgid": "Plugin language: language of all GEO Score screens. Pages are always checked in their own content language.", "msgstr": "Idioma del plugin: idioma de todas las pantallas de GEO Score. Las páginas siempre se comprueban en su propio idioma de contenido."}
+{"n": 555, "note": "translators: %d: points", "msgid": "Points: %d", "msgstr": "Puntos: %d"}
+{"n": 556, "msgid": "Postal code", "msgstr": "Código postal"}
+{"n": 557, "note": "translators: %d: number of problems", "msgid": "Problems found in the structured data: %d", "msgstr": "Problemas en los datos estructurados: %d"}
+{"n": 558, "msgid": "Profiles (sameAs)", "msgstr": "Perfiles (sameAs)"}
+{"n": 559, "msgid": "Profiles linked (sameAs)", "msgstr": "Perfiles vinculados (sameAs)"}
+{"n": 560, "note": "translators: %d: number of profiles", "msgid": "Profiles linked via sameAs: %d", "msgstr": "Perfiles vinculados mediante sameAs: %d"}
+{"n": 561, "msgid": "Prompt to copy", "msgstr": "Prompt para copiar"}
+{"n": 562, "msgid": "Questions as headings", "msgstr": "Preguntas como encabezados"}
+{"n": 563, "note": "translators: 1: questions, 2: answers with good length", "msgid": "Questions: %1$d · answers with a good length: %2$d.", "msgstr": "Preguntas: %1$d · respuestas con buena longitud: %2$d."}
+{"n": 564, "msgid": "Readability", "msgstr": "Legibilidad"}
+{"n": 565, "msgid": "Recipients", "msgstr": "Destinatarios"}
+{"n": 566, "msgid": "Reloading…", "msgstr": "Recargando…"}
+{"n": 567, "msgid": "Remove noindex in your SEO plugin if the page should be found.", "msgstr": "Quita el noindex en tu plugin SEO si la página debe encontrarse."}
+{"n": 568, "msgid": "Remove the Disallow rules for these AI crawlers, otherwise ChatGPT, Claude or Perplexity cannot read and cite the page.", "msgstr": "Quita las reglas Disallow de estos rastreadores de IA; si no, ChatGPT, Claude o Perplexity no pueden leer ni citar la página."}
+{"n": 569, "msgid": "Remove the noindex directive if the page should be found.", "msgstr": "Elimina la directiva noindex si la página debe encontrarse."}
+{"n": 570, "msgid": "Rephrase at least half of the H2 headings as questions, e.g. \"How much does a website cost?\" instead of \"Costs\".", "msgstr": "Reformula al menos la mitad de los encabezados H2 como preguntas, p. ej. «¿Cuánto cuesta una web?» en lugar de «Costes»."}
+{"n": 571, "msgid": "Reset filters", "msgstr": "Restablecer filtros"}
+{"n": 572, "msgid": "Review every text before publishing. You are responsible for the content.", "msgstr": "Revisa cada texto antes de publicarlo. Tú eres responsable del contenido."}
+{"n": 573, "msgid": "Review the guide, update facts and figures and set the new date.", "msgstr": "Revisa la guía, actualiza hechos y cifras y pon la nueva fecha."}
+{"n": 574, "msgid": "Room for improvement", "msgstr": "Mejorable"}
+{"n": 575, "msgid": "Rules for working with AI", "msgstr": "Reglas para trabajar con IA"}
+{"n": 576, "msgid": "Runs in the background: you can leave this page.", "msgstr": "Se ejecuta en segundo plano: puedes salir de esta página."}
+{"n": 577, "msgid": "Save settings", "msgstr": "Guardar ajustes"}
+{"n": 578, "msgid": "Save the page and wait a moment – it is checked in the background. If you use a caching plugin, clear the cache: GEO Score checks the public page as visitors see it.", "msgstr": "Guarda la página y espera un momento: se comprueba en segundo plano. Si usas un plugin de caché, vacía la caché: GEO Score comprueba la página pública tal como la ven los visitantes."}
+{"n": 579, "msgid": "Save the page to keep the changes. The stored score changes only after saving.", "msgstr": "Guarda la página para conservar los cambios. La puntuación guardada solo cambia después de guardar."}
+{"n": 580, "msgid": "Saved page", "msgstr": "Página guardada"}
+{"n": 581, "msgid": "Schema for the page type", "msgstr": "Schema adecuado al tipo de página"}
+{"n": 582, "msgid": "Schema that fits the page type describes what the page offers: a service, an article or a person.", "msgstr": "Un schema adecuado al tipo de página describe lo que ofrece la página: un servicio, un artículo o una persona."}
+{"n": 583, "msgid": "Score", "msgstr": "Puntuación"}
+{"n": 584, "msgid": "Score bands", "msgstr": "Niveles de puntuación"}
+{"n": 585, "msgid": "Scored", "msgstr": "Evaluadas"}
+{"n": 586, "msgid": "Search engines are discouraged from indexing this site (Settings → Reading). All pages count as not indexable.", "msgstr": "Se pide a los buscadores que no indexen este sitio (Ajustes → Lectura). Todas las páginas cuentan como no indexables."}
+{"n": 587, "msgid": "Search pages", "msgstr": "Buscar páginas"}
+{"n": 588, "msgid": "Search pages…", "msgstr": "Buscar páginas…"}
+{"n": 589, "msgid": "Search the help", "msgstr": "Buscar en la ayuda"}
+{"n": 590, "msgid": "Search the help…", "msgstr": "Buscar en la ayuda…"}
+{"n": 591, "msgid": "Select all", "msgstr": "Seleccionar todo"}
+{"n": 592, "msgid": "Self-contained sections", "msgstr": "Secciones autónomas"}
+{"n": 593, "msgid": "Send a test report now", "msgstr": "Enviar ahora un informe de prueba"}
+{"n": 594, "msgid": "Separate several addresses with commas. Empty = the administration e-mail address.", "msgstr": "Separa varias direcciones con comas. Vacío = la dirección de correo de administración."}
+{"n": 595, "msgid": "Separate with commas.", "msgstr": "Separa con comas."}
+{"n": 596, "msgid": "Service", "msgstr": "Servicio"}
+{"n": 597, "msgid": "Service area", "msgstr": "Zona de servicio"}
+{"n": 598, "msgid": "Service on service pages", "msgstr": "Service en las páginas de servicios"}
+{"n": 599, "msgid": "Service sections", "msgstr": "Secciones de servicios"}
+{"n": 600, "msgid": "Settings", "msgstr": "Ajustes"}
+{"n": 601, "msgid": "Settings explained", "msgstr": "Ajustes explicados"}
+{"n": 602, "msgid": "Settings → Company & author: enter company name, legal name, author, About us page, phone, e-mail and your profiles (LinkedIn, Xing, Google Business Profile).", "msgstr": "Ajustes → Empresa y autor: introduce el nombre de la empresa, la razón social, el autor, la página «Sobre nosotros», el teléfono, el correo y tus perfiles (LinkedIn, Xing, Perfil de Empresa de Google)."}
+{"n": 603, "msgid": "Settings → Page types: choose the parent pages of your service pages and guides, so every page is judged by the right rules.", "msgstr": "Ajustes → Tipos de página: elige las páginas superiores de tus páginas de servicios y guías, para que cada página se evalúe con las reglas correctas."}
+{"n": 604, "note": "translators: 1: text, 2: language code", "msgid": "Share image text \"%1$s\" (%2$s)", "msgstr": "Texto de la imagen para compartir «%1$s» (%2$s)"}
+{"n": 605, "msgid": "Short answer at the top", "msgstr": "Respuesta breve arriba"}
+{"n": 606, "msgid": "Short description", "msgstr": "Descripción breve"}
+{"n": 607, "note": "translators: %s: name of the main language", "msgid": "Short description, author job title, service area and llms.txt introduction for the other languages of your site. Used in the structured data and llms.txt of pages in that language. Empty = the text of the main language (%s).", "msgstr": "Descripción breve, cargo del autor, zona de servicio e introducción de llms.txt para los demás idiomas de tu sitio. Se usan en los datos estructurados y el llms.txt de las páginas en ese idioma. Vacío = texto del idioma principal (%s)."}
+{"n": 608, "msgid": "Short sentences and paragraphs", "msgstr": "Frases y párrafos cortos"}
+{"n": 609, "msgid": "Short sentences can be quoted without rewriting. Long, nested sentences get skipped or shortened incorrectly.", "msgstr": "Las frases cortas se pueden citar sin reescribirlas. Las frases largas y enrevesadas se omiten o se acortan mal."}
+{"n": 610, "note": "translators: %d: number of words", "msgid": "Shorten the first sentence to at most %d words.", "msgstr": "Acorta la primera frase a %d palabras como máximo."}
+{"n": 611, "msgid": "Show \"Last updated: month year\" near the top of the guide. AI search engines prefer current sources.", "msgstr": "Muestra «Última actualización: mes año» al principio de la guía. Los buscadores de IA prefieren fuentes actuales."}
+{"n": 612, "msgid": "Show as table", "msgstr": "Mostrar como tabla"}
+{"n": 613, "msgid": "Show details", "msgstr": "Mostrar detalles"}
+{"n": 614, "msgid": "Show in the text", "msgstr": "Mostrar en el texto"}
+{"n": 615, "msgid": "Show pages", "msgstr": "Ver páginas"}
+{"n": 616, "msgid": "Show phone number or e-mail as clickable link (tel:, mailto:).", "msgstr": "Muestra el teléfono o el correo como enlace clicable (tel:, mailto:)."}
+{"n": 617, "msgid": "Show progress", "msgstr": "Mostrar progreso"}
+{"n": 618, "msgid": "Show turned-off checks", "msgstr": "Mostrar comprobaciones desactivadas"}
+{"n": 619, "msgid": "So that AI systems know who is behind the website.", "msgstr": "Para que los sistemas de IA sepan quién está detrás del sitio."}
+{"n": 620, "msgid": "Sources for legal and statistical claims", "msgstr": "Fuentes para afirmaciones legales y estadísticas"}
+{"n": 621, "note": "translators: 1: target words, 2: max sentences", "msgid": "Split long sentences (target: under %1$d words on average) and keep paragraphs to at most %2$d sentences.", "msgstr": "Divide las frases largas (objetivo: menos de %1$d palabras de media) y limita los párrafos a %2$d frases como máximo."}
+{"n": 622, "msgid": "Standard (recommended)", "msgstr": "Estándar (recomendado)"}
+{"n": 623, "msgid": "Start the page with 2–3 sentences that directly answer its main question. AI search engines quote exactly this passage.", "msgstr": "Empieza la página con 2 o 3 frases que respondan directamente a su pregunta principal. Los buscadores de IA citan justo ese pasaje."}
+{"n": 624, "msgid": "Status", "msgstr": "Estado"}
+{"n": 625, "msgid": "Street", "msgstr": "Calle"}
+{"n": 626, "msgid": "Structure & readability", "msgstr": "Estructura y legibilidad"}
+{"n": 627, "msgid": "Structure the text with H2 headings and phrase them as the questions your customers ask.", "msgstr": "Estructura el texto con encabezados H2 y formúlalos como las preguntas que hacen tus clientes."}
+{"n": 628, "msgid": "Structured data", "msgstr": "Datos estructurados"}
+{"n": 629, "note": "translators: 1: schema type, 2: language code", "msgid": "Structured data %1$s: description in %2$s", "msgstr": "Datos estructurados %1$s: descripción en %2$s"}
+{"n": 630, "note": "translators: 1: schema type, 2: language", "msgid": "Structured data %1$s: inLanguage \"%2$s\"", "msgstr": "Datos estructurados %1$s: inLanguage «%2$s»"}
+{"n": 631, "msgid": "Structured data (schema.org)", "msgstr": "Datos estructurados (schema.org)"}
+{"n": 632, "msgid": "Structured data is complete and matches the visible content.", "msgstr": "Los datos estructurados están completos y coinciden con el contenido visible."}
+{"n": 633, "msgid": "Structured data valid and visible", "msgstr": "Datos estructurados válidos y visibles"}
+{"n": 634, "msgid": "Structured data, llms.txt and e-mail report – see the next section.", "msgstr": "Datos estructurados, llms.txt e informe por correo: consulta la siguiente sección."}
+{"n": 635, "msgid": "Structured data, llms.txt, e-mail report", "msgstr": "Datos estructurados, llms.txt, informe por correo"}
+{"n": 636, "msgid": "Tables, lists or steps", "msgstr": "Tablas, listas o pasos"}
+{"n": 637, "msgid": "Task list", "msgstr": "Lista de tareas"}
+{"n": 638, "note": "translators: %s: language code", "msgid": "Task list for AI", "msgstr": "Lista de tareas para IA"}
+{"n": 639, "msgid": "Test copy mode: the pages are scored as if the website were live. Search engines are still locked out of this copy (Settings → Reading).", "msgstr": "Modo copia de prueba: las páginas se evalúan como si el sitio estuviera en producción. Los buscadores siguen bloqueados en esta copia (Ajustes → Lectura)."}
+{"n": 640, "msgid": "Test copy? Turn on test copy mode in the settings.", "msgstr": "¿Copia de prueba? Activa el modo copia de prueba en los ajustes."}
+{"n": 641, "note": "translators: %d: number of findings", "msgid": "Text in another language found: %d", "msgstr": "Texto en otro idioma encontrado: %d"}
+{"n": 642, "msgid": "Text in tabs that load by JavaScript, or a cookie wall in front of the content", "msgstr": "Texto en pestañas que se cargan con JavaScript, o un muro de cookies delante del contenido"}
+{"n": 643, "msgid": "Texts per language", "msgstr": "Textos por idioma"}
+{"n": 644, "msgid": "Texts per language (Settings → Company & author): short description, author job title, service area and llms.txt introduction for each further language. Pages in that language use them in their structured data.", "msgstr": "Textos por idioma (Ajustes → Empresa y autor): descripción breve, cargo del autor, zona de servicio e introducción de llms.txt para cada idioma adicional. Las páginas en ese idioma los usan en sus datos estructurados."}
+{"n": 645, "msgid": "Texts, images and structured data are in the page language.", "msgstr": "Los textos, las imágenes y los datos estructurados están en el idioma de la página."}
+{"n": 646, "msgid": "The FAQPage schema does not contain all visible questions.", "msgstr": "El schema FAQPage no contiene todas las preguntas visibles."}
+{"n": 647, "msgid": "The GEO Score panel in the editor shows each finding while you write.", "msgstr": "El panel de GEO Score en el editor muestra cada hallazgo mientras escribes."}
+{"n": 648, "msgid": "The basic structured data tells machines who runs the site and where the page sits in it.", "msgstr": "Los datos estructurados básicos indican a las máquinas quién gestiona el sitio y dónde se sitúa la página dentro de él."}
+{"n": 649, "msgid": "The canonical points to a different URL.", "msgstr": "El canonical apunta a otra URL."}
+{"n": 650, "msgid": "The charts on the overview show the website GEO score and the pages by result per day, week, month or year. One point per day is kept for three years.", "msgstr": "Los gráficos del resumen muestran la puntuación GEO del sitio y las páginas por resultado por día, semana, mes o año. Se guarda un punto por día durante tres años."}
+{"n": 651, "msgid": "The check could not run.", "msgstr": "La comprobación no se pudo ejecutar."}
+{"n": 652, "msgid": "The check does not fit this page type or there is nothing to check (e.g. no legal statements). It does not count for the score.", "msgstr": "La comprobación no encaja con este tipo de página o no hay nada que comprobar (p. ej. ninguna afirmación legal). No cuenta para la puntuación."}
+{"n": 653, "msgid": "The content has no headings.", "msgstr": "El contenido no tiene encabezados."}
+{"n": 654, "msgid": "The crawlers that must be allowed in robots.txt (e.g. GPTBot, ClaudeBot, PerplexityBot, Google-Extended). Add your own user agents if needed.", "msgstr": "Los rastreadores que deben estar permitidos en robots.txt (p. ej. GPTBot, ClaudeBot, PerplexityBot, Google-Extended). Añade tus propios user-agents si lo necesitas."}
+{"n": 655, "msgid": "The data comes from the tab \"Company & author\" and from each page (title, dates, author, FAQ blocks). Test a page afterwards in the Google Rich Results Test.", "msgstr": "Los datos proceden de la pestaña «Empresa y autor» y de cada página (título, fechas, autor, bloques FAQ). Después prueba una página con la prueba de resultados enriquecidos de Google."}
+{"n": 656, "msgid": "The heading order is clean.", "msgstr": "El orden de los encabezados es correcto."}
+{"n": 657, "msgid": "The introduction exists but does not answer the main question compactly.", "msgstr": "Hay una introducción, pero no responde de forma breve a la pregunta principal."}
+{"n": 658, "note": "translators: %d: number of H1 headings", "msgid": "The page has %d H1 headings.", "msgstr": "La página tiene %d encabezados H1."}
+{"n": 659, "msgid": "The page has no FAQ.", "msgstr": "La página no tiene FAQ."}
+{"n": 660, "msgid": "The page has no H1 heading.", "msgstr": "La página no tiene encabezado H1."}
+{"n": 661, "msgid": "The page has no H2 headings.", "msgstr": "La página no tiene encabezados H2."}
+{"n": 662, "msgid": "The page has no structured data (JSON-LD).", "msgstr": "La página no tiene datos estructurados (JSON-LD)."}
+{"n": 663, "msgid": "The page has no table, list or step sequence.", "msgstr": "La página no tiene tablas, listas ni secuencias de pasos."}
+{"n": 664, "msgid": "The page is set to noindex. AI search engines will not show it.", "msgstr": "La página está en noindex. Los buscadores de IA no la mostrarán."}
+{"n": 665, "msgid": "The page is short; no list needed.", "msgstr": "La página es corta; no hace falta una lista."}
+{"n": 666, "msgid": "The page is too short for H2 sections.", "msgstr": "La página es demasiado corta para secciones H2."}
+{"n": 667, "msgid": "The page opens with a short, direct answer.", "msgstr": "La página empieza con una respuesta breve y directa."}
+{"n": 668, "msgid": "The page shows a current update date.", "msgstr": "La página muestra una fecha de actualización reciente."}
+{"n": 669, "msgid": "The page type decides which checks apply (e.g. author and update date only on guides) and the minimum length. Without a setting the type is detected from slugs such as /ratgeber/, /blog/, /leistungen/, /ueber-uns/. Each page can also be set individually in its \"GEO Score\" box in the editor.", "msgstr": "El tipo de página decide qué comprobaciones se aplican (p. ej. autor y fecha de actualización solo en guías) y la longitud mínima. Sin ajuste, el tipo se detecta por slugs como /guia/, /blog/, /servicios/, /sobre-nosotros/. Cada página también se puede ajustar en su caja «GEO Score» del editor."}
+{"n": 670, "msgid": "The page type decides which checks apply: e.g. author, update date and minimum length only on guides; Service schema only on service pages.", "msgstr": "El tipo de página decide qué comprobaciones se aplican: p. ej. autor, fecha de actualización y longitud mínima solo en guías; schema Service solo en páginas de servicios."}
+{"n": 671, "msgid": "The plugin loads each page once like a visitor does. Turn this off only if your server blocks such requests.", "msgstr": "El plugin carga cada página una vez, como un visitante. Desactívalo solo si tu servidor bloquea estas solicitudes."}
+{"n": 672, "note": "translators: %d: HTTP status code", "msgid": "The public page answered with HTTP status %d.", "msgstr": "La página pública respondió con el código HTTP %d."}
+{"n": 673, "msgid": "The public page could not be loaded (e.g. HTTP 503). What now?", "msgstr": "No se pudo cargar la página pública (p. ej. HTTP 503). ¿Qué hago?"}
+{"n": 674, "note": "translators: %s: error message", "msgid": "The public page could not be loaded: %s", "msgstr": "No se pudo cargar la página pública: %s"}
+{"n": 675, "msgid": "The same comparison as one long paragraph", "msgstr": "La misma comparación en un solo párrafo largo"}
+{"n": 676, "msgid": "The score dropped after an update.", "msgstr": "La puntuación ha bajado tras una actualización."}
+{"n": 677, "msgid": "The task list collects every open task of every page in one file: what was found, what to do, the affected passages and how many points it brings. Pages with the most to gain come first.", "msgstr": "La lista de tareas reúne todas las tareas abiertas de todas las páginas en un solo archivo: qué se encontró, qué hacer, los pasajes afectados y cuántos puntos aporta. Primero van las páginas que más pueden ganar."}
+{"n": 678, "msgid": "The task list contains page texts. Only upload it to AI services you trust and that meet your data protection requirements.", "msgstr": "La lista de tareas contiene textos de las páginas. Súbela solo a servicios de IA de tu confianza que cumplan tus requisitos de protección de datos."}
+{"n": 679, "msgid": "The test report was sent.", "msgstr": "Se ha enviado el informe de prueba."}
+{"n": 680, "note": "translators: %s: company name", "msgid": "The text does not mention \"%s\".", "msgstr": "El texto no menciona «%s»."}
+{"n": 681, "msgid": "The text is in the HTML source code", "msgstr": "El texto está en el código fuente HTML"}
+{"n": 682, "note": "translators: 1: text, 2: language code", "msgid": "Theme or plugin text \"%1$s\" (%2$s)", "msgstr": "Texto del tema o de un plugin «%1$s» (%2$s)"}
+{"n": 683, "msgid": "There is no introduction before the first H2 heading.", "msgstr": "No hay introducción antes del primer encabezado H2."}
+{"n": 684, "msgid": "These crawlers must be allowed to read your pages. Full points when robots.txt names them explicitly with \"Allow\".", "msgstr": "Estos rastreadores deben poder leer tus páginas. Puntuación completa cuando robots.txt los nombra explícitamente con «Allow»."}
+{"n": 685, "msgid": "This content type is not scored.", "msgstr": "Este tipo de contenido no se evalúa."}
+{"n": 686, "msgid": "This page has no translation yet.", "msgstr": "Esta página aún no tiene traducción."}
+{"n": 687, "msgid": "This website is a test copy (e.g. for a relaunch): score it as if it were live", "msgstr": "Este sitio es una copia de prueba (p. ej. para un relanzamiento): evaluarlo como si estuviera en producción"}
+{"n": 688, "msgid": "This website uses the plugin GEO Score to check how well its pages are prepared for AI search engines. The plugin does not collect, store or send any personal data of visitors, sets no cookies and connects to no external service. It only loads the public pages of this website on the server itself.", "msgstr": "Este sitio utiliza el plugin GEO Score para comprobar lo bien preparadas que están sus páginas para los buscadores de IA. El plugin no recopila, almacena ni envía datos personales de los visitantes, no usa cookies y no se conecta a ningún servicio externo. Solo carga las páginas públicas de este sitio en el propio servidor."}
+{"n": 689, "msgid": "Three paragraphs and a contact form", "msgstr": "Tres párrafos y un formulario de contacto"}
+{"n": 690, "msgid": "Three steps to your first improvement.", "msgstr": "Tres pasos para tu primera mejora."}
+{"n": 691, "msgid": "Title or headings promise current content with a past year.", "msgstr": "El título o los encabezados prometen contenido actual con un año pasado."}
+{"n": 692, "msgid": "To do:", "msgstr": "Por hacer:"}
+{"n": 693, "msgid": "Too little text to judge.", "msgstr": "Muy poco texto para valorar."}
+{"n": 694, "msgid": "Translate these texts as well: interface texts, breadcrumbs, image alt texts, the share image and the company description per language.", "msgstr": "Traduce también estos textos: textos de la interfaz, migas de pan, textos alternativos de las imágenes, la imagen para compartir y la descripción de la empresa en cada idioma."}
+{"n": 695, "msgid": "Translate these texts as well: theme and plugin texts (e.g. with WPML → String Translation), breadcrumbs, image alt texts, the share image and the company description per language (GEO Score → Settings → Texts per language).", "msgstr": "Traduce también estos textos: textos del tema y de los plugins (p. ej. con WPML → String Translation), migas de pan, textos alternativos de imágenes, la imagen para compartir y la descripción de la empresa por idioma (GEO Score → Ajustes → Textos por idioma)."}
+{"n": 696, "msgid": "Turn comparisons into a table and steps or criteria into a list. AI search engines quote structured content more often.", "msgstr": "Convierte las comparaciones en una tabla y los pasos o criterios en una lista. Los buscadores de IA citan más a menudo el contenido estructurado."}
+{"n": 697, "msgid": "Turn off checks that do not fit your site, change the weight of each area and the score limits.", "msgstr": "Desactiva las comprobaciones que no encajan con tu sitio, cambia el peso de cada área y los niveles de puntuación."}
+{"n": 698, "msgid": "Turn off checks that do not fit your site. The weight is the share of an area in the score (standard: 30/20/15/15/10/10); weights are scaled to 100 automatically.", "msgstr": "Desactiva las comprobaciones que no encajan con tu sitio. El peso es la parte de un área en la puntuación (estándar: 30/20/15/15/10/10); los pesos se escalan a 100 automáticamente."}
+{"n": 699, "msgid": "Turn on the llms.txt generator under GEO Score → Settings → Output, or create /llms.txt yourself with a short company profile and links to your important pages.", "msgstr": "Activa el generador de llms.txt en GEO Score → Ajustes → Salida, o crea tú mismo /llms.txt con un breve perfil de empresa y enlaces a tus páginas importantes."}
+{"n": 700, "msgid": "Type", "msgstr": "Tipo"}
+{"n": 701, "msgid": "Unknown check.", "msgstr": "Comprobación desconocida."}
+{"n": 702, "msgid": "Update date", "msgstr": "Fecha de actualización"}
+{"n": 703, "note": "translators: %d: current year", "msgid": "Update the content and the year (%d) or remove the year from the heading.", "msgstr": "Actualiza el contenido y el año (%d) o quita el año del encabezado."}
+{"n": 704, "note": "translators: 1: number of questions, 2: min, 3: max", "msgid": "Use %2$d–%3$d questions (now %1$d).", "msgstr": "Usa de %2$d a %3$d preguntas (ahora %1$d)."}
+{"n": 705, "msgid": "Use exactly one spelling everywhere, the same as in your Google Business Profile and structured data.", "msgstr": "Usa en todas partes exactamente la misma grafía, la misma que en tu Perfil de Empresa de Google y en los datos estructurados."}
+{"n": 706, "msgid": "Use heading levels in order: H2 for sections, H3 for sub-sections. Do not jump from H2 to H4.", "msgstr": "Usa los niveles de encabezado en orden: H2 para secciones, H3 para subsecciones. No saltes de H2 a H4."}
+{"n": 707, "note": "translators: %s: main keyword", "msgid": "Use the main topic \"%s\" in the H1.", "msgstr": "Usa el tema principal «%s» en el H1."}
+{"n": 708, "note": "translators: %s: main keyword", "msgid": "Use the main topic \"%s\" in the first 2–3 sentences and answer it directly.", "msgstr": "Usa el tema principal «%s» en las 2 o 3 primeras frases y respóndelo directamente."}
+{"n": 709, "msgid": "Use the same e-mail address everywhere as in your company data.", "msgstr": "Usa en todas partes la misma dirección de correo que en los datos de tu empresa."}
+{"n": 710, "msgid": "Use the same phone number everywhere as in your company data.", "msgstr": "Usa en todas partes el mismo número de teléfono que en los datos de tu empresa."}
+{"n": 711, "msgid": "Used to check that pages name your company consistently, show the author and link to contact details.", "msgstr": "Sirve para comprobar que las páginas nombran tu empresa de forma coherente, muestran al autor y enlazan a los datos de contacto."}
+{"n": 712, "note": "translators: 1: version, 2: number of checks", "msgid": "Version %1$s · %2$d checks", "msgstr": "Versión %1$s · %2$d comprobaciones"}
+{"n": 713, "note": "translators: 1: version, 2: number of active checks, 3: number of all checks", "msgid": "Version %1$s · %2$d of %3$d checks active", "msgstr": "Versión %1$s · %2$d de %3$d comprobaciones activas"}
+{"n": 714, "msgid": "View", "msgstr": "Ver"}
+{"n": 715, "msgid": "Visible update date", "msgstr": "Fecha de actualización visible"}
+{"n": 716, "msgid": "W%d", "msgstr": "S%d"}
+{"n": 717, "msgid": "Way 1: file for any AI assistant (recommended)", "msgstr": "Opción 1: archivo para cualquier asistente de IA (recomendado)"}
+{"n": 718, "msgid": "Way 2: AI assistant connected to WordPress", "msgstr": "Opción 2: asistente de IA conectado a WordPress"}
+{"n": 719, "msgid": "Weak", "msgstr": "Débil"}
+{"n": 720, "msgid": "Weak:", "msgstr": "Débil:"}
+{"n": 721, "msgid": "Weakest pages", "msgstr": "Páginas más débiles"}
+{"n": 722, "msgid": "Website", "msgstr": "Sitio web"}
+{"n": 723, "msgid": "Website GEO score", "msgstr": "Puntuación GEO del sitio"}
+{"n": 724, "msgid": "Website GEO score over time", "msgstr": "Puntuación GEO del sitio a lo largo del tiempo"}
+{"n": 725, "msgid": "Website score per language", "msgstr": "Puntuación del sitio por idioma"}
+{"n": 726, "note": "translators: %d: website GEO score", "msgid": "Website score: %d", "msgstr": "Puntuación del sitio: %d"}
+{"n": 727, "msgid": "Website-wide check: evaluated on the home page and the About us page.", "msgstr": "Comprobación de todo el sitio: se evalúa en la página de inicio y en la página «Sobre nosotros»."}
+{"n": 728, "note": "translators: 1: calendar week number, 2: year", "msgid": "Week %1$d, %2$d", "msgstr": "Semana %1$d de %2$d"}
+{"n": 729, "msgid": "Weekly", "msgstr": "Semanal"}
+{"n": 730, "msgid": "Weight", "msgstr": "Peso"}
+{"n": 731, "msgid": "Weights, score limits and all thresholds can be changed under Settings → Checks & thresholds.", "msgstr": "Los pesos, los niveles de puntuación y todos los umbrales se cambian en Ajustes → Comprobaciones y umbrales."}
+{"n": 732, "msgid": "What GEO Score checks, how the score is calculated and how you improve your pages – with or without AI.", "msgstr": "Qué comprueba GEO Score, cómo se calcula la puntuación y cómo mejorar tus páginas, con o sin IA."}
+{"n": 733, "msgid": "When the assistant asks for permission, choose \"Always allow\" for this tool. Otherwise every request has to be confirmed.", "msgstr": "Cuando el asistente pida permiso, elige «Permitir siempre» para esta herramienta. Si no, habrá que confirmar cada solicitud."}
+{"n": 734, "msgid": "Why does a check say \"not applicable\"?", "msgstr": "¿Por qué una comprobación dice «no aplicable»?"}
+{"n": 735, "msgid": "With Yoast SEO or Rank Math, GEO Score adds only what is missing to their data: Service on service pages, Article with author and dates on guides, Person on the About us page, FAQPage from visible questions and the company details. Nothing is duplicated.", "msgstr": "Con Yoast SEO o Rank Math, GEO Score solo añade lo que falta en sus datos: Service en páginas de servicios, Article con autor y fechas en guías, Person en la página «Sobre nosotros», FAQPage a partir de las preguntas visibles y los datos de la empresa. Nada se duplica."}
+{"n": 736, "msgid": "Without an SEO plugin, GEO Score outputs the complete set. With another SEO plugin it adds only Service and Person. Check a page afterwards in the Google Rich Results Test.", "msgstr": "Sin plugin SEO, GEO Score genera el conjunto completo. Con otro plugin SEO solo añade Service y Person. Después prueba una página con la prueba de resultados enriquecidos de Google."}
+{"n": 737, "msgid": "Without translation", "msgstr": "Sin traducción"}
+{"n": 738, "msgid": "WordPress asks search engines not to index the site.", "msgstr": "WordPress pide a los buscadores que no indexen el sitio."}
+{"n": 739, "msgid": "Work page by page and check the score after saving.", "msgstr": "Trabaja página por página y revisa la puntuación después de guardar."}
+{"n": 740, "msgid": "Wrong spellings", "msgstr": "Grafías incorrectas"}
+{"n": 741, "msgid": "Yearly", "msgstr": "Anual"}
+{"n": 742, "msgid": "You are not allowed to change these settings.", "msgstr": "No tienes permiso para cambiar estos ajustes."}
+{"n": 743, "msgid": "You are not allowed to export this data.", "msgstr": "No tienes permiso para exportar estos datos."}
+{"n": 744, "msgid": "You receive this report because it is turned on under GEO Score → Settings → Output.", "msgstr": "Recibes este informe porque está activado en GEO Score → Ajustes → Salida."}
+{"n": 745, "msgid": "at least", "msgstr": "al menos"}
+{"n": 746, "note": "translators: %s: crawler name", "msgid": "blocked: %s", "msgstr": "bloqueado: %s"}
+{"n": 747, "msgid": "bold answer sentence max.", "msgstr": "frase de respuesta en negrita máx."}
+{"n": 748, "note": "translators: 1: words, 2: maximum", "msgid": "bold sentence too long (%1$d words, max. %2$d)", "msgstr": "frase en negrita demasiado larga (%1$d palabras, máx. %2$d)"}
+{"n": 749, "msgid": "first sentence is not bold", "msgstr": "la primera frase no está en negrita"}
+{"n": 750, "msgid": "for advanced users", "msgstr": "para usuarios avanzados"}
+{"n": 751, "msgid": "from", "msgstr": "de"}
+{"n": 752, "msgid": "guide", "msgstr": "guía"}
+{"n": 753, "note": "translators: %s: language codes, e.g. \"EN, DE\"", "msgid": "hreflang is missing for: %s.", "msgstr": "Falta hreflang para: %s."}
+{"n": 754, "note": "translators: %d: number of language versions", "msgid": "hreflang links all %d language versions; the page language is set correctly.", "msgstr": "hreflang enlaza las %d versiones de idioma; el idioma de la página está bien definido."}
+{"n": 755, "msgid": "hreflang tells search engines and AI systems which page is the same content in another language. They then cite the version in the language of the question.", "msgstr": "hreflang indica a los buscadores y sistemas de IA qué página tiene el mismo contenido en otro idioma. Así citan la versión en el idioma de la pregunta."}
+{"n": 756, "msgid": "index, follow and a canonical to the page itself", "msgstr": "index, follow y un canonical a la propia página"}
+{"n": 757, "msgid": "llms.txt", "msgstr": "llms.txt"}
+{"n": 758, "msgid": "llms.txt exists and lists this page.", "msgstr": "llms.txt existe e incluye esta página."}
+{"n": 759, "msgid": "llms.txt exists, but this page is not listed.", "msgstr": "llms.txt existe, pero esta página no aparece."}
+{"n": 760, "msgid": "llms.txt introduction", "msgstr": "Introducción de llms.txt"}
+{"n": 761, "msgid": "llms.txt was not checked.", "msgstr": "llms.txt no se ha comprobado."}
+{"n": 762, "msgid": "llms.txt: /llms.txt lists all languages, grouped by language. Each language also has its own file, e.g. /en/llms.txt.", "msgstr": "llms.txt: /llms.txt incluye todos los idiomas, agrupados por idioma. Cada idioma tiene además su propio archivo, p. ej. /en/llms.txt."}
+{"n": 763, "msgid": "main language", "msgstr": "idioma principal"}
+{"n": 764, "msgid": "months", "msgstr": "meses"}
+{"n": 765, "msgid": "no Sitemap line", "msgstr": "sin línea Sitemap"}
+{"n": 766, "msgid": "no text after the heading", "msgstr": "sin texto después del encabezado"}
+{"n": 767, "msgid": "noindex", "msgstr": "noindex"}
+{"n": 768, "msgid": "noindex left over from the development phase", "msgstr": "noindex olvidado de la fase de desarrollo"}
+{"n": 769, "msgid": "not checked yet", "msgstr": "aún sin comprobar"}
+{"n": 770, "note": "translators: %s: crawler name", "msgid": "not named: %s", "msgstr": "no nombrado: %s"}
+{"n": 771, "msgid": "not older than", "msgstr": "no más antigua que"}
+{"n": 772, "note": "translators: %s: locale", "msgid": "og:locale of the share preview is \"%s\"", "msgstr": "og:locale de la vista previa para compartir es «%s»"}
+{"n": 773, "msgid": "only part of the first sentence is bold", "msgstr": "solo una parte de la primera frase está en negrita"}
+{"n": 774, "msgid": "paragraph max.", "msgstr": "párrafo máx."}
+{"n": 775, "msgid": "per 100 words", "msgstr": "por cada 100 palabras"}
+{"n": 776, "msgid": "points", "msgstr": "puntos"}
+{"n": 777, "msgid": "questions", "msgstr": "preguntas"}
+{"n": 778, "msgid": "robots.txt was not checked.", "msgstr": "robots.txt no se ha comprobado."}
+{"n": 779, "msgid": "sameAs tells AI systems which profiles on other sites belong to you. This links mentions on LinkedIn, Xing or directories to your company.", "msgstr": "sameAs indica a los sistemas de IA qué perfiles de otros sitios te pertenecen. Así las menciones en LinkedIn, Xing o directorios se asocian a tu empresa."}
+{"n": 780, "msgid": "service page", "msgstr": "página de servicio"}
+{"n": 781, "msgid": "starts with a list or table instead of an answer sentence", "msgstr": "empieza con una lista o tabla en lugar de una frase de respuesta"}
+{"n": 782, "msgid": "to", "msgstr": "a"}
+{"n": 783, "msgid": "words", "msgstr": "palabras"}
+{"n": 784, "msgid": "words / sentences", "msgstr": "palabras / frases"}
+{"n": 785, "note": "translators: 1: average words per sentence, 2: long paragraphs, 3: all paragraphs, 4: max sentences", "msgid": "Ø %1$s words per sentence, %2$d of %3$d paragraphs have more than %4$d sentences.", "msgstr": "Ø %1$s palabras por frase, %2$d de %3$d párrafos tienen más de %4$d frases."}
+{"n": 786, "msgid": "Ø sentence max.", "msgstr": "Ø frase máx."}
+{"n": 787, "msgid": "— detect automatically —", "msgstr": "— detectar automáticamente —"}
+{"n": 788, "msgid": "\"**An SEO audit takes 5 to 10 working days.** It covers technology, content and links.\"", "msgstr": "«**Una auditoría SEO tarda de 5 a 10 días laborables.** Abarca aspectos técnicos, contenido y enlaces.»"}
+{"n": 789, "msgid": "\"It charges a monthly fee from 36 euros.\"", "msgstr": "«Cobra una cuota mensual a partir de 36 euros.»"}
+{"n": 790, "msgid": "\"Shopify charges a monthly fee from 36 euros.\"", "msgstr": "«Shopify cobra una cuota mensual a partir de 36 euros.»"}
+{"n": 791, "msgid": "A bold first sentence under each heading gives AI systems a ready-made answer for exactly that question.", "msgstr": "Una primera frase en negrita bajo cada encabezado da a los sistemas de IA una respuesta ya preparada justo para esa pregunta."}
+{"n": 792, "msgid": "AI answers quote the passage that answers the question fastest. That is usually the first two or three sentences of a page.", "msgstr": "Las respuestas de IA citan el pasaje que responde más rápido a la pregunta. Normalmente son las dos o tres primeras frases de una página."}
+{"n": 793, "msgid": "AI search engines can only cite what their crawlers may read. Blocked crawlers mean no visibility in ChatGPT, Claude or Perplexity.", "msgstr": "Los buscadores de IA solo pueden citar lo que sus rastreadores pueden leer. Si los rastreadores están bloqueados, no hay visibilidad en ChatGPT, Claude ni Perplexity."}
+{"n": 794, "msgid": "AI search engines prefer current sources. A visible date shows that a guide is maintained.", "msgstr": "Los buscadores de IA prefieren fuentes actuales. Una fecha visible muestra que una guía se mantiene actualizada."}
+{"n": 795, "msgid": "All settings were reset to the defaults.", "msgstr": "Se han restablecido todos los ajustes a los valores por defecto."}
+{"n": 796, "msgid": "Answer first", "msgstr": "Primero la respuesta"}
+{"n": 797, "msgid": "Answer first under each heading", "msgstr": "Primero la respuesta bajo cada encabezado"}
+{"n": 798, "msgid": "Attached is the GEO Score task list of my website. Work through it page by page, starting at the top.\n\nFor every task:\n1. Show the passage as it is now and your improved version.\n2. Change only what the task asks for. Keep the meaning, tone, facts, prices and names.\n3. Never invent figures, sources, customer quotes or references. If a value is missing, write [TO DO].\n4. Keep the language and the form of address of the page.\n\nStart with the first page and wait for my OK before you continue with the next one.", "msgstr": "Adjunto la lista de tareas de GEO Score de mi sitio web. Ve resolviéndola página a página, empezando por arriba.\n\nPara cada tarea:\n1. Muestra el pasaje tal como está ahora y tu versión mejorada.\n2. Cambia solo lo que pide la tarea. Mantén el sentido, el tono, los hechos, los precios y los nombres.\n3. Nunca inventes cifras, fuentes, citas de clientes ni referencias. Si falta un dato, escribe [PENDIENTE].\n4. Mantén el idioma y la forma de tratamiento de la página.\n\nEmpieza por la primera página y espera mi visto bueno antes de seguir con la siguiente."}
+{"n": 799, "msgid": "Author, job title, profiles and About us page: used for the author check and the Person in the structured data.", "msgstr": "Autor, cargo, perfiles y página «Sobre nosotros»: se usan para la comprobación del autor y el tipo Person de los datos estructurados."}
+{"n": 800, "note": "translators: %s: language name", "msgid": "Automatic – like WordPress (%s)", "msgstr": "Automático: como WordPress (%s)"}
+{"n": 801, "msgid": "Checking in the editor", "msgstr": "Comprobación en el editor"}
+{"n": 802, "msgid": "Country as two-letter code (DE, AT, CH, CY …).", "msgstr": "País como código de dos letras (ES, MX, AR, CO…)."}
+{"n": 803, "msgid": "Create a robots.txt that names the AI crawlers with \"Allow: /\" and points to your sitemap.", "msgstr": "Crea un robots.txt que nombre los rastreadores de IA con «Allow: /» y apunte a tu mapa del sitio."}
+{"n": 804, "msgid": "Different phone numbers on the website and in directories", "msgstr": "Números de teléfono distintos en el sitio web y en los directorios"}
+{"n": 805, "note": "translators: %s: language code", "msgid": "Downloads all open tasks of all pages as one file, sorted by the points they bring. Attach it in your AI assistant (Claude, ChatGPT, Gemini) together with the prompt from the help, check the suggested texts and paste them into your pages. You can also work through the list by hand.", "msgstr": "Descarga todas las tareas abiertas de todas las páginas en un solo archivo, ordenadas por los puntos que aportan. Adjúntalo en tu asistente de IA (Claude, ChatGPT, Gemini) junto con el prompt de la ayuda, revisa los textos propuestos y pégalos en tus páginas. También puedes ir resolviendo la lista a mano."}
+{"n": 806, "msgid": "English page: \"Read more\", breadcrumbs, alt texts, og:locale and schema description in English", "msgstr": "Página en inglés: «Read more», migas de pan, textos alternativos, og:locale y descripción del schema en inglés"}
+{"n": 807, "msgid": "FAQ and troubleshooting", "msgstr": "Preguntas frecuentes y solución de problemas"}
+{"n": 808, "msgid": "Fast – 4 pages at a time", "msgstr": "Rápido: 4 páginas a la vez"}
+{"n": 809, "msgid": "Faulty schema or statements that are not visible on the page are ignored, and can be seen as manipulation.", "msgstr": "Los schemas con errores o los datos que no se ven en la página se ignoran y pueden considerarse manipulación."}
+{"n": 810, "msgid": "GEO Score Help & FAQ", "msgstr": "GEO Score – Ayuda y preguntas frecuentes"}
+{"n": 811, "note": "translators: %s: company name", "msgid": "GEO Score by %s.", "msgstr": "GEO Score, por %s."}
+{"n": 812, "msgid": "Gentle – 2 pages at a time with short pauses (recommended)", "msgstr": "Moderado: 2 páginas a la vez con pausas cortas (recomendado)"}
+{"n": 813, "msgid": "Help & FAQ", "msgstr": "Ayuda y preguntas frecuentes"}
+{"n": 814, "msgid": "If this page should be cited itself, set the canonical to its own URL.", "msgstr": "Si es esta página la que debe citarse, apunta el canonical a su propia URL."}
+{"n": 815, "msgid": "If your AI assistant is connected to your website (e.g. via an MCP connector), it can read the task list directly. Ask it to read this REST route – one request for all pages:", "msgstr": "Si tu asistente de IA está conectado a tu sitio web (p. ej. mediante un conector MCP), puede leer la lista de tareas directamente. Pídele que lea esta ruta REST: una sola solicitud para todas las páginas:"}
+{"n": 816, "msgid": "Logo, slider title and page title all as H1", "msgstr": "Logo, título del carrusel y título de la página, todos como H1"}
+{"n": 817, "note": "Description of the plugin", "msgid": "Measures how well each page is prepared for AI search engines (ChatGPT, Gemini, Perplexity, Google AI Overviews) and shows concrete improvements.", "msgstr": "Mide lo bien preparada que está cada página para los buscadores de IA (ChatGPT, Gemini, Perplexity, vistas generales creadas con IA de Google) y muestra mejoras concretas."}
+{"n": 818, "note": "translators: %s: missing schema types", "msgid": "Missing: %s. Your SEO plugin (e.g. Yoast: Settings → Site representation) usually adds these; without an SEO plugin GEO Score outputs them (Settings → Output).", "msgstr": "Falta: %s. Normalmente los añade tu plugin SEO (p. ej. Yoast: Ajustes → Representación del sitio); sin plugin SEO, GEO Score los genera (Ajustes → Salida)."}
+{"n": 819, "msgid": "More in Help & FAQ →", "msgstr": "Más en Ayuda y preguntas frecuentes →"}
+{"n": 820, "note": "translators: %s: WPML or Polylang", "msgid": "Multilingual site (%s): choose the pages in the main language. Their translations get the same setting automatically – also the About us page and the home page.", "msgstr": "Sitio multilingüe (%s): elige las páginas en el idioma principal. Sus traducciones reciben automáticamente la misma configuración, también la página «Sobre nosotros» y la página de inicio."}
+{"n": 821, "msgid": "Open the explanation in Help & FAQ", "msgstr": "Abrir la explicación en Ayuda y preguntas frecuentes"}
+{"n": 822, "msgid": "Page types: choose service and guide sections, excluded pages and the About us page in the main language. Their translations get the same setting automatically.", "msgstr": "Tipos de página: elige las secciones de servicios y guías, las páginas excluidas y la página «Sobre nosotros» en el idioma principal. Sus traducciones reciben automáticamente la misma configuración."}
+{"n": 823, "msgid": "Pages that answer a topic completely are cited more often than short overviews.", "msgstr": "Las páginas que tratan un tema por completo se citan más que los resúmenes breves."}
+{"n": 824, "msgid": "Parts of the text are loaded later by JavaScript (tabs, sliders, \"load more\"). Put important text directly into the page.", "msgstr": "Partes del texto se cargan después con JavaScript (pestañas, carruseles, «cargar más»). Pon el texto importante directamente en la página."}
+{"n": 825, "msgid": "Personal profiles of the author (LinkedIn, Xing), one URL per line. Used as sameAs of the Person.", "msgstr": "Perfiles personales del autor (LinkedIn, Xing), una URL por línea. Se usan como sameAs del tipo Person."}
+{"n": 826, "msgid": "Reset all GEO Score settings to the defaults?", "msgstr": "¿Restablecer todos los ajustes de GEO Score a los valores por defecto?"}
+{"n": 827, "msgid": "Reset all settings to defaults", "msgstr": "Restablecer todos los ajustes a los valores por defecto"}
+{"n": 828, "msgid": "Runs in the background – you can leave this page.", "msgstr": "Se ejecuta en segundo plano: puedes salir de esta página."}
+{"n": 829, "msgid": "Slow – one page every 15 seconds, for shared hosting with strict limits", "msgstr": "Lento: una página cada 15 segundos, para alojamiento compartido con límites estrictos"}
+{"n": 830, "note": "translators: %d: maximum words", "msgid": "Start each section with one bold sentence (max. %d words) that answers the heading. Put details after it.", "msgstr": "Empieza cada sección con una frase en negrita (máx. %d palabras) que responda al encabezado. Pon los detalles a continuación."}
+{"n": 831, "msgid": "Start these sections with the topic itself instead of \"this\", \"it\" or \"here\", e.g. \"WooCommerce costs …\" instead of \"It costs …\".", "msgstr": "Empieza estas secciones con el propio tema en lugar de «esto», «ello» o «aquí», p. ej. «WooCommerce cuesta…» en lugar de «Cuesta…»."}
+{"n": 832, "msgid": "Tables, lists and steps are easy to extract. AI Overviews often take comparisons straight from tables.", "msgstr": "Las tablas, listas y pasos son fáciles de extraer. Las vistas generales creadas con IA suelen tomar las comparaciones directamente de las tablas."}
+{"n": 833, "note": "translators: %s: language code", "msgid": "Task list for AI (%s)", "msgstr": "Lista de tareas para IA (%s)"}
+{"n": 834, "note": "translators: 1: declared language, 2: language of the page", "msgid": "The page declares the language \"%1$s\", but it is the %2$s version.", "msgstr": "La página declara el idioma «%1$s», pero es la versión en %2$s."}
+{"n": 835, "msgid": "The public page shows other content than the editor (maintenance mode, login, cookie wall or an old cache?). Page checks were skipped.", "msgstr": "La página pública muestra un contenido distinto al del editor (¿modo mantenimiento, inicio de sesión, muro de cookies o una caché antigua?). Se omitieron las comprobaciones de la página."}
+{"n": 836, "msgid": "The text comes from the theme template (e.g. posts page), so it was read from the published page.", "msgstr": "El texto proviene de la plantilla del tema (p. ej. página de entradas), por eso se leyó de la página publicada."}
+{"n": 837, "msgid": "Turn off \"Discourage search engines from indexing this site\" under Settings → Reading.", "msgstr": "Desactiva «Disuadir a los motores de búsqueda de indexar este sitio» en Ajustes → Lectura."}
+{"n": 838, "msgid": "Which data leaves my website?", "msgstr": "¿Qué datos salen de mi sitio web?"}
+{"n": 839, "msgid": "Work through the tasks: open \"Details\" of a page, use the GEO Score sidebar in the editor, or export the \"Task list for AI\".", "msgstr": "Resuelve las tareas: abre los «Detalles» de una página, usa la barra lateral de GEO Score en el editor o exporta la «Lista de tareas para IA»."}
+{"n": 840, "msgid": "You can work through it by hand – or let an AI assistant write the improved texts. GEO Score itself sends nothing to an AI service.", "msgstr": "Puedes resolverla a mano o dejar que un asistente de IA escriba los textos mejorados. GEO Score en sí no envía nada a ningún servicio de IA."}
+{"n": 841, "note": "translators: %s: company name", "msgid": "by %s", "msgstr": "por %s"}
+{"n": 842, "msgid": "llms.txt gives AI systems a short company profile and a list of your important pages, like a sitemap for language models.", "msgstr": "llms.txt da a los sistemas de IA un breve perfil de la empresa y una lista de tus páginas importantes, como un mapa del sitio para modelos de lenguaje."}
+{"n": 843, "msgid": "\"Scan all pages\" checks every published page of the selected content types in the background, a few pages at a time. You can leave the screen; WP-Cron continues.", "msgstr": "«Comprobar todas las páginas» comprueba en segundo plano cada página publicada de los tipos de contenido elegidos, unas pocas a la vez. Puedes salir de la pantalla; WP-Cron continúa."}
+{"n": 844, "msgid": "\"Scan selected\" or the bulk action \"Check GEO Score\" in the page list checks only the chosen pages.", "msgstr": "«Comprobar selección» o la acción en lote «Comprobar GEO Score» de la lista de páginas comprueba solo las páginas elegidas."}
+{"n": 845, "note": "translators: 1: scanned pages, 2: all pages", "msgid": "%1$d of %2$d pages scanned", "msgstr": "%1$d de %2$d páginas comprobadas"}
+{"n": 846, "msgid": "Add these profiles to sameAs in the Organization structured data:", "msgstr": "Añade estos perfiles a sameAs en los datos estructurados Organization:"}
+{"n": 847, "msgid": "Add your LinkedIn, Xing, Google Business and directory profiles as sameAs in the Organization structured data.", "msgstr": "Añade tus perfiles de LinkedIn, Xing, Google Business y directorios como sameAs en los datos estructurados Organization."}
+{"n": 848, "msgid": "After changes, run \"Scan all pages\" once so all scores use the new settings.", "msgstr": "Después de cambiar algo, ejecuta una vez «Comprobar todas las páginas» para que todas las puntuaciones usen los nuevos ajustes."}
+{"n": 849, "msgid": "After changing checks or limits, run \"Scan all pages\" once so all scores use the new settings.", "msgstr": "Después de cambiar comprobaciones o límites, ejecuta una vez «Comprobar todas las páginas» para que todas las puntuaciones usen los nuevos ajustes."}
+{"n": 850, "msgid": "After every automatic full scan GEO Score can send a report: website GEO score with change, pages by result, areas and the five weakest pages. \"Send a test report now\" shows it immediately.", "msgstr": "Después de cada comprobación completa automática, GEO Score puede enviar un informe: puntuación GEO del sitio con su evolución, páginas por resultado, áreas y las cinco páginas más débiles. «Enviar ahora un informe de prueba» lo muestra al instante."}
+{"n": 851, "msgid": "Automatic full scan", "msgstr": "Comprobación completa automática"}
+{"n": 852, "note": "translators: %d: number of scans", "msgid": "Average of %d scans", "msgstr": "Media de %d comprobaciones"}
+{"n": 853, "msgid": "Change since the previous scan", "msgstr": "Cambio desde la comprobación anterior"}
+{"n": 854, "msgid": "Check the language settings: the lang attribute of the <html> tag must match the language of the page.", "msgstr": "Revisa los ajustes de idioma: el atributo lang de la etiqueta <html> debe coincidir con el idioma de la página."}
+{"n": 855, "msgid": "Checking: automatic check after saving, automatic full scan (nightly or weekly), check of the public page, CSS classes whose headings are ignored (e.g. call-to-action boxes).", "msgstr": "Comprobación: comprobación automática al guardar, comprobación completa automática (cada noche o cada semana), comprobación de la página pública, clases CSS cuyos encabezados se ignoran (p. ej. cajas de llamada a la acción)."}
+{"n": 856, "msgid": "Checks every published page in the background, a few at a time. You can leave this screen; the scan continues.", "msgstr": "Comprueba en segundo plano cada página publicada, unas pocas a la vez. Puedes salir de esta pantalla; la comprobación continúa."}
+{"n": 857, "msgid": "Does the scan slow down my website?", "msgstr": "¿La comprobación ralentiza mi sitio web?"}
+{"n": 858, "msgid": "GEO Score works with WPML and Polylang. Every language version is a page of its own and is checked in its own language.", "msgstr": "GEO Score funciona con WPML y Polylang. Cada versión de idioma es una página propia y se comprueba en su propio idioma."}
+{"n": 859, "msgid": "Language, scanned content, your company data, every check and its limits.", "msgstr": "Idioma, contenido comprobado, datos de tu empresa, cada comprobación y sus límites."}
+{"n": 860, "msgid": "Last 30 scans", "msgstr": "Últimas 30 comprobaciones"}
+{"n": 861, "msgid": "Last saved scan.", "msgstr": "Última comprobación guardada."}
+{"n": 862, "note": "translators: %s: human readable time difference", "msgid": "Last scan: %s ago", "msgstr": "Última comprobación: hace %s"}
+{"n": 863, "msgid": "Most websites score below 70 at the first scan. In the editor you see what is missing and how many points it brings.", "msgstr": "La mayoría de los sitios obtiene menos de 70 en la primera comprobación. En el editor ves qué falta y cuántos puntos aporta."}
+{"n": 864, "msgid": "New or stricter checks can lower scores. The changelog explains every change. Run \"Scan all pages\" once after an update.", "msgstr": "Las comprobaciones nuevas o más estrictas pueden bajar las puntuaciones. El registro de cambios explica cada cambio. Ejecuta una vez «Comprobar todas las páginas» después de una actualización."}
+{"n": 865, "msgid": "No pages scanned yet. Start the first scan.", "msgstr": "Todavía no se ha comprobado ninguna página. Inicia la primera comprobación."}
+{"n": 866, "msgid": "No structured data at all", "msgstr": "Sin datos estructurados"}
+{"n": 867, "msgid": "Not scanned", "msgstr": "Sin comprobar"}
+{"n": 868, "msgid": "Not scanned yet", "msgstr": "Aún sin comprobar"}
+{"n": 869, "msgid": "Only works while \"Discourage search engines from indexing this site\" is on (Settings → Reading). The scan then loads the pages as a public site would show them – with canonical link and without noindex. Visitors and search engines still see the locked test copy. Never turn this on for the live website.", "msgstr": "Solo funciona mientras «Disuadir a los motores de búsqueda de indexar este sitio» esté activado (Ajustes → Lectura). La comprobación carga entonces las páginas como las mostraría un sitio público, con enlace canonical y sin noindex. Los visitantes y los buscadores siguen viendo la copia de prueba bloqueada. No lo actives nunca en el sitio en producción."}
+{"n": 870, "msgid": "Overview → \"Scan all pages\". The scan runs in the background; you can leave the page.", "msgstr": "Resumen → «Comprobar todas las páginas». La comprobación se ejecuta en segundo plano; puedes salir de la página."}
+{"n": 871, "msgid": "Parts", "msgstr": "Partes"}
+{"n": 872, "msgid": "Scan", "msgstr": "Comprobar"}
+{"n": 873, "msgid": "Scan all pages", "msgstr": "Comprobar todas las páginas"}
+{"n": 874, "msgid": "Scan selected", "msgstr": "Comprobar selección"}
+{"n": 875, "msgid": "Scan selected (%d)", "msgstr": "Comprobar selección (%d)"}
+{"n": 876, "msgid": "Scan speed", "msgstr": "Velocidad de comprobación"}
+{"n": 877, "msgid": "Scan this page now", "msgstr": "Comprobar esta página ahora"}
+{"n": 878, "msgid": "Scanned content", "msgstr": "Contenido comprobado"}
+{"n": 879, "msgid": "Scanned content: which content types get a score (pages, posts, products …).", "msgstr": "Contenido comprobado: qué tipos de contenido reciben puntuación (páginas, entradas, productos…)."}
+{"n": 880, "msgid": "Scanning and history", "msgstr": "Comprobación e historial"}
+{"n": 881, "msgid": "Scanning…", "msgstr": "Comprobando…"}
+{"n": 882, "msgid": "Scans all pages in the background and records the website GEO score for the history chart. Also catches changes from themes, plugins or robots.txt.", "msgstr": "Comprueba todas las páginas en segundo plano y guarda la puntuación GEO del sitio para el historial. También detecta cambios de temas, plugins o robots.txt."}
+{"n": 883, "msgid": "Sections: Services, Guides, Company (home, about, contact), Optional. Pages with noindex, excluded pages and legal pages are left out. Each line uses the SEO meta description or the start of the text. Updated automatically after saving and after every full scan.", "msgstr": "Secciones: Services, Guides, Company (inicio, sobre nosotros, contacto), Optional. Se omiten las páginas con noindex, las excluidas y las legales. Cada línea usa la meta descripción SEO o el inicio del texto. Se actualiza automáticamente al guardar y tras cada comprobación completa."}
+{"n": 884, "msgid": "Send a report after every automatic full scan", "msgstr": "Enviar un informe después de cada comprobación completa automática"}
+{"n": 885, "msgid": "Server error during the scan – please scan again", "msgstr": "Error del servidor durante la comprobación: vuelve a comprobar"}
+{"n": 886, "note": "translators: %d: HTTP status code", "msgid": "Server error while scanning (HTTP %d) – the server was busy or limited the requests. Page checks were skipped; the page is scanned again automatically.", "msgstr": "Error del servidor durante la comprobación (HTTP %d): el servidor estaba saturado o limitó las solicitudes. Se omitieron las comprobaciones de la página; se volverá a comprobar automáticamente."}
+{"n": 887, "msgid": "Server error while scanning – the server sent an error page instead of the content. Page checks were skipped; the page is scanned again automatically.", "msgstr": "Error del servidor durante la comprobación: el servidor envió una página de error en lugar del contenido. Se omitieron las comprobaciones de la página; se volverá a comprobar automáticamente."}
+{"n": 888, "msgid": "Settings → General: keep the automatic full scan on and, if you like, the e-mail report under Settings → Output.", "msgstr": "Ajustes → General: deja activada la comprobación completa automática y, si quieres, el informe por correo en Ajustes → Salida."}
+{"n": 889, "msgid": "Shown from the next full scan on.", "msgstr": "Se muestra a partir de la próxima comprobación completa."}
+{"n": 890, "msgid": "Start the first scan now – it runs in the background.", "msgstr": "Inicia ahora la primera comprobación: se ejecuta en segundo plano."}
+{"n": 891, "msgid": "Starting the scan…", "msgstr": "Iniciando la comprobación…"}
+{"n": 892, "msgid": "The arrows next to a score show the change since the previous scan of that page.", "msgstr": "Las flechas junto a una puntuación muestran el cambio desde la comprobación anterior de esa página."}
+{"n": 893, "msgid": "The automatic full scan (every night or once a week) keeps all scores current and records the website GEO score for the history.", "msgstr": "La comprobación completa automática (cada noche o una vez por semana) mantiene todas las puntuaciones al día y guarda la puntuación GEO del sitio para el historial."}
+{"n": 894, "msgid": "The curve grows with every full scan (automatically or via \"Scan all pages\"). One point per day is kept for three years.", "msgstr": "La curva crece con cada comprobación completa (automática o mediante «Comprobar todas las páginas»). Se guarda un punto por día durante tres años."}
+{"n": 895, "msgid": "The report could not be sent. Scan the pages first and check that WordPress can send e-mails (e.g. with an SMTP plugin).", "msgstr": "No se pudo enviar el informe. Comprueba primero las páginas y asegúrate de que WordPress puede enviar correos (p. ej. con un plugin SMTP)."}
+{"n": 896, "msgid": "The scan could not start.", "msgstr": "No se pudo iniciar la comprobación."}
+{"n": 897, "msgid": "The server is answering slowly – the scan continues.", "msgstr": "El servidor responde despacio: la comprobación continúa."}
+{"n": 898, "msgid": "The website GEO score is the average of all scored pages. \"Points\" in the task list say how much a page score rises when a task is done completely.", "msgstr": "La puntuación GEO del sitio es la media de todas las páginas evaluadas. Los «Puntos» de la lista de tareas indican cuánto sube la puntuación de una página cuando una tarea se completa del todo."}
+{"n": 899, "msgid": "This page has not been scanned yet.", "msgstr": "Esta página aún no se ha comprobado."}
+{"n": 900, "msgid": "Usually a maintenance or coming-soon mode, a login, a cookie wall or a firewall blocks the request. Checks of the public page are skipped. After going live, or after allowing requests from your own server, run \"Scan all pages\" again.", "msgstr": "Normalmente, un modo de mantenimiento o «próximamente», un inicio de sesión, un muro de cookies o un cortafuegos bloquea la solicitud. Las comprobaciones de la página pública se omiten. Tras la puesta en marcha, o tras permitir las solicitudes desde tu propio servidor, vuelve a ejecutar «Comprobar todas las páginas»."}
+{"n": 901, "note": "translators: %s: plugin or HTTP status", "msgid": "Visitors, AI crawlers and the page checks only see the maintenance page (%s). Checks of the public page – structured data, canonical, profiles, content in the HTML – are skipped, so scores are lower. After going live, run \"Scan all pages\" once.", "msgstr": "Los visitantes, los rastreadores de IA y las comprobaciones solo ven la página de mantenimiento (%s). Se omiten las comprobaciones de la página pública (datos estructurados, canonical, perfiles, contenido en el HTML), por eso las puntuaciones son más bajas. Tras la puesta en marcha, ejecuta una vez «Comprobar todas las páginas»."}
+{"n": 902, "msgid": "Website GEO score with change, pages by result, areas and the five weakest pages. Frequency = automatic full scan (tab \"General\").", "msgstr": "Puntuación GEO del sitio con su evolución, páginas por resultado, áreas y las cinco páginas más débiles. Frecuencia = comprobación completa automática (pestaña «General»)."}
+{"n": 903, "msgid": "You are not allowed to scan pages.", "msgstr": "No tienes permiso para comprobar páginas."}
+{"n": 904, "msgid": "You are not allowed to scan this page.", "msgstr": "No tienes permiso para comprobar esta página."}
+{"n": 905, "msgid": "llms.txt is a short text file for language models: company profile and one line per important page. GEO Score generates /llms.txt from your pages and updates it after saving and after every full scan. A real llms.txt file on the server takes precedence.", "msgstr": "llms.txt es un breve archivo de texto para modelos de lenguaje: perfil de la empresa y una línea por página importante. GEO Score genera /llms.txt a partir de tus páginas y lo actualiza al guardar y tras cada comprobación completa. Un archivo llms.txt real en el servidor tiene prioridad."}
