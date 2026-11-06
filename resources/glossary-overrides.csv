@@ -1,3 +1,5 @@
 en,es,pos,description
 "meta title","meta título",expression,"Decisión del equipo es_ES, en lugar de la entrada del glosario oficial («meta title», no traducir). Dos palabras: «Meta título» como etiqueta, «meta título» en mitad de frase."
 "meta description","meta descripción",expression,"Decisión del equipo es_ES, en lugar de la entrada del glosario oficial («meta description», no traducir). Dos palabras: «Meta descripción» como etiqueta, «meta descripción» en mitad de frase."
+whitelist,"lista blanca",noun,"Decisión del equipo es_ES. Como verbo (to whitelist) es «añadir a los admitidos»; whitelisted = «admitido»."
+"two-factor authentication","identificación en dos pasos",expression,"Decisión del equipo es_ES. No usar «autenticación de dos factores». La sigla 2FA se deja."
