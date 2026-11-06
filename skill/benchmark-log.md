@@ -74,6 +74,16 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - Dudas: *viewport* como nombre de etiqueta HTML. Nilo lo dejó en inglés, y queda anotado en la referencia rápida.
 - Incidencia: `review-po` rompía el `.po` cuando la traducción original tenía saltos de línea (Poedit: *keyword unknown*). Corregido.
 
+## 2026-11-06 · Haiku · ronda 07 (WP Branches for Post, readme, 106 cadenas) · skill v3
+
+- Resultado: 20 cambios. Haiku propuso 18 cambios y 2 dudas. Mantenidos: 17. Editado: 1. Ni deshechos ni escapados.
+- Rechazos casi todos por el glosario: *delete* = «borrar», *legacy* = «heredado», *warning* = «advertencia», *capability* = «capacidad», *shortcut* = «atajo», *supported* = «compatible», *clear* = «vaciar», *rollback* = «retroceso». Nilo los mantuvo todos, también los que parecían de matiz («aviso» → «advertencia», «permisos» → «capacidades»): el glosario manda.
+- Además vio una frase que faltaba (#23) y un sentido incompleto (#87).
+- Editado (#68): Nilo acortó la frase y quitó la lista de estados («siempre que esté publicado, sea privado…»).
+- Dudas (#28, #70): *media item*. Nilo eligió «archivo de medios», según el glosario, y no «archivo multimedia». Queda en la referencia rápida.
+- `lint`: 53 pistas, muchas de ellas ruido por *review* («revisión» editorial, no «reseña»). Haiku las descartó bien con la nota del encargo.
+- Subida: el `corrected.po` de la ronda 06 fallaba con `ERR_FAILED` al subirlo desde la unidad `X:` (SMB), y funcionaba al copiarlo al disco local. Se cambió `FileInfoCacheLifetime` a 10 en Windows; pendiente comprobar si eso lo arregla.
+
 ## 2026-11-06 · Haiku frente a Sonnet · rondas 03 y 04 · skill v3
 
 Haiku revisó a ciegas los `original.po` de las rondas 03 y 04. Se compara con la revisión final de Nilo (`reviewed.po`). Ojo: Nilo revisó partiendo de las propuestas de Sonnet, así que la referencia favorece a Sonnet.

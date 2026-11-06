@@ -1,0 +1,102 @@
+# Translation of Plugins - WP Branches For Post - Stable Readme (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - WP Branches For Post - Stable Readme (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-09-30 08:32:34+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.1.0\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - WP Branches For Post - Stable Readme (latest release)\n"
+
+#. Found in description list item.
+msgid "Refuse incomplete or modified choices, stale reviews, unsafe or unsupported fields, and attempts to substitute different choices after approval."
+msgstr "Se rechazan las selecciones incompletas o modificadas, las revisiones obsoletas, los campos inseguros o no compatibles y los intentos de sustituir las opciones después de haberlas aprobado."
+
+#. Found in description list item.
+msgid "Find pending editorial reviews under Tools &gt; Branch Workflow; use the branch admin-bar and post-list shortcuts."
+msgstr "Consulta las revisiones editoriales pendientes en Herramientas &gt; Flujo de trabajo de ramas. También puedes usar los atajos de la barra de administración y de la lista de entradas."
+
+#. Found in faq paragraph.
+msgid "No. This policy is off by default to preserve existing workflows. Administrators may enable it under Tools &gt; Branch Workflow; when enabled, even a direct or forced merge requires an approval matching the current branch state. Editing either the original or the branch invalidates that approval."
+msgstr "No. Esta opción viene desactivada para mantener el funcionamiento habitual. Un administrador puede activarla en Herramientas &gt; Flujo de trabajo de ramas. Si está activa, incluso las fusiones directas o forzadas necesitan una aprobación que coincida con el estado actual de la rama. Cualquier cambio en el original o en la rama invalida esa aprobación."
+
+#. Found in faq paragraph.
+msgid "Featured-image metadata is part of normal synchronized metadata. The referenced media item keeps its existing attachment identity."
+msgstr "Los metadatos de la imagen destacada forman parte de los metadatos sincronizados habituales. El archivo de medios conserva su identidad de adjunto."
+
+#. Found in description list item.
+msgid "Successful merges and discarded branches go to Trash instead of being permanently deleted."
+msgstr "Las ramas fusionadas o descartadas van a la papelera en lugar de borrarse definitivamente."
+
+#. Found in description paragraph.
+msgid "The screenshots on the plugin page follow the same workflow described below, so you can see what each control looks like before using it:"
+msgstr "Las capturas de la página del plugin siguen el mismo flujo de trabajo que se describe a continuación, para que puedas reconocer cada control antes de utilizarlo:"
+
+#. Found in description list item.
+msgid "Legacy/unknown: an older branch does not have the full 2.1 baseline needed for an exact three-way review. Review it manually before any force merge."
+msgstr "Rama heredada o de estado desconocido: las ramas de versiones anteriores no incluyen toda la información de referencia necesaria para una comparación precisa de tres vías. Revísalas manualmente antes de forzar cualquier fusión."
+
+#. Screenshot description.
+msgid "Synced pattern warning: the editor explains that editing a referenced synced pattern is global and not isolated by the branch."
+msgstr "Advertencia sobre patrones sincronizados: el editor explica que modificar un patrón sincronizado afecta a todos los lugares donde se utiliza y que la rama no aísla esos cambios."
+
+#. Found in description list item.
+msgid "Open a published, private or scheduled post, page, or supported custom post type."
+msgstr "Abre una entrada, página o contenido de un tipo de contenido personalizado compatible."
+
+#. Found in description paragraph.
+msgid "Media IDs already referenced by content and featured-image metadata remain usable. Attachments are not re-parented."
+msgstr "Los ID de los archivos de medios que ya utilizan el contenido y las imágenes destacadas siguen siendo utilizables. Los adjuntos no se reasignan a otra entrada."
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Added future scheduled safe merges using WP-Cron with unique job IDs, due-time checks, capability revalidation, no forced conflicts and cancellation."
+msgstr "Se han añadido fusiones seguras programadas para el futuro mediante WP-Cron, con identificadores únicos de tareas, comprobaciones de la hora prevista, nueva validación de las capacidades del usuario, sin resolución forzada de conflictos y con opción de cancelación."
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Added optional two-person editorial approval, pending review requests, reviewer capability enforcement, staleness invalidation and a review queue."
+msgstr "Se han añadido la aprobación editorial opcional por otra persona, las solicitudes de revisión pendientes, la comprobación de las capacidades de los revisores, la invalidación de aprobaciones obsoletas y una cola de revisiones."
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Added workflow administration, REST endpoints, contextual errors, editor/admin-bar and post-list shortcuts."
+msgstr "Se han añadido herramientas de gestión del flujo de trabajo, rutas de la API REST, errores contextuales y atajos en el editor, en la barra de administración y en la lista de entradas."
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Kept branch-list counts and filtering aligned with WordPress author capabilities so users without edit_others_posts see only their own branches."
+msgstr "Los recuentos y los filtros de la lista de ramas respetan las capacidades de autor de WordPress: los usuarios sin la capacidad edit_others_posts solo pueden ver sus propias ramas."
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Improved merge review with readable Base / Original / Branch values for menu order, comment status, ping status and password state."
+msgstr "Se ha mejorado la revisión de fusiones: los valores de Referencia, Original y Rama se muestran de forma legible para el orden del menú, el estado de los comentarios, el estado de los pings y el estado de la protección por contraseña."
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Added dedicated Existing branches views to the Posts and Pages list tables, including legacy branch relationships."
+msgstr "Se han añadido vistas de «Ramas existentes» a las listas de entradas y páginas, incluidas las relaciones con ramas heredadas de versiones anteriores."
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Added rollback when a successfully written merge cannot move its branch to Trash, preventing partial-success states."
+msgstr "Se ha añadido un retroceso para cuando una fusión escrita correctamente no consigue mover su rama a la papelera. De este modo se evitan operaciones completadas solo parcialmente."
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Special thanks to @miyanialkesh7 for the work contributed through PRs #2–#6: real-WordPress security verification, Plugin Check and PHPCS improvements, i18n fixes, and WordPress.org release tooling."
+msgstr "Agradecimientos especiales a @miyanialkesh7 por sus aportaciones en las PR #2–#6: verificación de seguridad en instalaciones reales de WordPress, mejoras de Plugin Check y PHPCS, correcciones de internacionalización y herramientas para publicar versiones en WordPress.org."
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Reworked taxonomy synchronization so cleared taxonomies are also propagated."
+msgstr "Se ha modificado la sincronización de taxonomías para que también se propaguen los cambios que vacían una taxonomía."
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Moved merged/discarded branches to Trash instead of permanently deleting them."
+msgstr "Las ramas fusionadas o descartadas se mueven a la papelera en lugar de borrarse definitivamente."
