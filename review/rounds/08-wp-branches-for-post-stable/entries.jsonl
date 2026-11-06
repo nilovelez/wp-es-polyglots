@@ -1,0 +1,66 @@
+{"n": 1, "msgid": "Review the currently approved conflict choices before merging.", "msgstr": "Revisa las opciones de resolución de conflictos aprobadas antes de fusionar."}
+{"n": 2, "msgid": "Choose an original or branch value for every supported conflict before requesting review.", "msgstr": "Antes de solicitar una revisión, elige el valor del original o de la rama para cada conflicto que admita resolución."}
+{"n": 3, "msgid": "Proposed conflict resolutions", "msgstr": "Propuestas de resolución de conflictos"}
+{"n": 4, "msgid": "Choose the conflict values in the branch editor before requesting review.", "msgstr": "Elige los valores para resolver los conflictos en el editor de la rama antes de solicitar la revisión."}
+{"n": 5, "msgid": "Save changes before requesting review or scheduling a merge.", "msgstr": "Guarda los cambios antes de solicitar una revisión o programar una fusión."}
+{"n": 6, "msgid": "Choose", "msgstr": "Elegir"}
+{"n": 7, "msgid": "Confirm selected conflict values", "msgstr": "Confirmar los valores seleccionados para los conflictos"}
+{"n": 8, "msgid": "Other non-conflicting edits remain preserved. Inspect the values above.", "msgstr": "Se conservarán las demás modificaciones que no presenten conflictos. Revisa los valores anteriores."}
+{"n": 9, "msgid": "Resolve each conflicting field", "msgstr": "Resolver los conflictos campo por campo"}
+{"n": 10, "msgid": "Merge selected values", "msgstr": "Fusionar con los valores seleccionados"}
+{"n": 11, "msgid": "The selected values will replace those conflicts. Other independent edits remain preserved.", "msgstr": "Los valores seleccionados sustituirán los valores en conflicto. Los demás cambios independientes se conservarán."}
+{"n": 12, "msgid": "This branch needs approval for its current contents before it can be merged.", "msgstr": "Es necesario aprobar el contenido actual de esta rama antes de poder fusionarla."}
+{"n": 13, "msgid": "You cannot request review for this branch.", "msgstr": "No puedes solicitar una revisión de esta rama."}
+{"n": 14, "msgid": "An independent authorized editor must review this branch.", "msgstr": "Un editor autorizado distinto del creador debe revisar esta rama."}
+{"n": 15, "msgid": "This branch has not been submitted for review.", "msgstr": "Esta rama no se ha enviado a revisión."}
+{"n": 16, "msgid": "The branch review state could not be verified.", "msgstr": "No se ha podido verificar el estado de revisión de la rama."}
+{"n": 17, "msgid": "The branch changed after review was requested. Submit it for review again.", "msgstr": "La rama ha cambiado después de solicitar la revisión. Vuelve a enviarla para su revisión."}
+{"n": 18, "msgid": "Resolve conflicting or unknown branch changes before approval.", "msgstr": "Resuelve los cambios conflictivos o desconocidos de la rama antes de aprobarla."}
+{"n": 19, "msgid": "You cannot schedule a merge for this branch.", "msgstr": "No puedes programar una fusión de esta rama."}
+{"n": 20, "msgid": "Review and resolve conflicts before scheduling a merge.", "msgstr": "Revisa y resuelve los conflictos antes de programar una fusión."}
+{"n": 21, "msgid": "Make changes to the branch before scheduling a merge.", "msgstr": "Realiza cambios en la rama antes de programar una fusión."}
+{"n": 22, "msgid": "The current content state could not be verified.", "msgstr": "No se ha podido verificar el estado actual del contenido."}
+{"n": 23, "msgid": "WordPress could not schedule the merge.", "msgstr": "WordPress no ha podido programar la fusión."}
+{"n": 24, "msgid": "You cannot cancel this scheduled merge.", "msgstr": "No puedes cancelar esta fusión programada."}
+{"n": 25, "msgid": "Review / schedule", "msgstr": "Revisar / programar"}
+{"n": 26, "msgid": "Branch review & schedule", "msgstr": "Revisión y programación de la rama"}
+{"n": 27, "msgid": "Branch Workflow", "msgstr": "Flujo de trabajo de ramas"}
+{"n": 28, "msgid": "Review changes in branch editor", "msgstr": "Revisar los cambios en el editor de la rama"}
+{"n": 29, "msgid": "Review status:", "msgstr": "Estado de revisión:"}
+{"n": 30, "msgid": "Branch creator:", "msgstr": "Creador de la rama:"}
+{"n": 31, "msgid": "Last reviewed by:", "msgstr": "Última revisión realizada por:"}
+{"n": 32, "msgid": "Scheduled (UTC):", "msgstr": "Programada (UTC):"}
+{"n": 33, "msgid": "Request review", "msgstr": "Solicitar revisión"}
+{"n": 34, "msgid": "Approve current changes", "msgstr": "Aprobar los cambios actuales"}
+{"n": 35, "msgid": "Request changes", "msgstr": "Solicitar cambios"}
+{"n": 36, "msgid": "Schedule safe merge", "msgstr": "Programar una fusión segura"}
+{"n": 37, "msgid": "Schedule merge", "msgstr": "Programar fusión"}
+{"n": 38, "msgid": "Cancel scheduled merge", "msgstr": "Cancelar la fusión programada"}
+{"n": 39, "msgid": "Pending editorial reviews", "msgstr": "Revisiones editoriales pendientes"}
+{"n": 40, "msgid": "No reviews requiring your approval in the most recent 50 submissions.", "msgstr": "Ninguna de las 50 solicitudes más recientes requiere tu aprobación."}
+{"n": 41, "msgid": "Site-wide approval policy", "msgstr": "Política de aprobación para todo el sitio"}
+{"n": 42, "msgid": "Require independent approval before every branch merge", "msgstr": "Exigir aprobación independiente antes de cada fusión de ramas"}
+{"n": 43, "msgid": "Review note", "msgstr": "Nota de revisión"}
+{"n": 44, "msgid": "Unknown workflow operation.", "msgstr": "Operación de flujo de trabajo desconocida."}
+{"n": 45, "msgid": "Choose a future time within the next year.", "msgstr": "Elige una fecha y una hora futuras, dentro de los próximos 12 meses."}
+{"n": 46, "msgid": "You cannot view this workflow.", "msgstr": "No puedes ver este flujo de trabajo."}
+{"n": 47, "msgid": "This branch cannot be reviewed until its baseline is valid.", "msgstr": "Esta rama no se puede revisar hasta que su referencia inicial sea válida."}
+{"n": 48, "msgid": "Post Branch Workflow", "msgstr": "Flujo de trabajo de las ramas de entradas"}
+{"n": 49, "msgid": "Open an editable working branch and follow its Workflow link to request review or schedule a merge.", "msgstr": "Abre una rama de trabajo que puedas editar y selecciona su enlace «Flujo de trabajo» para solicitar una revisión o programar una fusión."}
+{"n": 50, "note": "translators: 1: branch changes, 2: original changes, 3: conflicts, 4: auto-mergeable fields.", "msgid": "%1$d branch changes · %2$d original changes · %3$d conflicts · %4$d auto-mergeable fields", "msgstr": "%1$d cambios en la rama · %2$d cambios en el original · %3$d conflictos · %4$d campos que se pueden fusionar automáticamente"}
+{"n": 51, "msgid": "Changes to the original or branch after approval or scheduling invalidate the stored review. Scheduled merges use WP-Cron and require a working WordPress cron runner.", "msgstr": "Si el original o la rama cambian después de la aprobación o la programación, la revisión deja de ser válida. Las fusiones programadas dependen de WP-Cron y requieren que las tareas programadas de WordPress se ejecuten correctamente."}
+{"n": 52, "msgid": "Open Review changes in the editor and inspect Base, Original and Branch before deciding. Approval applies only to the exact requested snapshot.", "msgstr": "Abre «Revisar cambios» en el editor y compara «Referencia», «Original» y «Rama» antes de decidir. La aprobación solo se aplica a la versión exacta enviada a revisión."}
+{"n": 53, "msgid": "Site-local date and time", "msgstr": "Fecha y hora según la zona horaria del sitio"}
+{"n": 54, "msgid": "Enter a valid site-local date and time.", "msgstr": "Introduce una fecha y hora válidas según la zona horaria del sitio."}
+{"n": 55, "msgid": "Merge review", "msgstr": "Revisión de la fusión"}
+{"n": 56, "msgid": "Legacy branch", "msgstr": "Rama de una versión anterior"}
+{"n": 57, "msgid": "Branch now", "msgstr": "Crear rama ahora"}
+{"n": 58, "msgid": "Parent", "msgstr": "Superior"}
+{"n": 59, "msgid": "Original now", "msgstr": "Original actual"}
+{"n": 60, "msgid": "Original updated · safe to refresh branch", "msgstr": "Original actualizado · puedes actualizar la rama de forma segura"}
+{"n": 61, "msgid": "Needs conflict review", "msgstr": "Requiere revisar los conflictos"}
+{"n": 62, "note": "translators: %d: number of synced patterns referenced by the branch.", "msgid": "This branch references %d synced pattern(s). Editing a synced pattern is global in WordPress and is not isolated by the branch.", "msgstr": "Esta rama hace referencia a patrones sincronizados (%d). En WordPress, modificar un patrón sincronizado afecta a todos los lugares donde se utiliza; los cambios no quedan aislados en esta rama."}
+{"n": 63, "msgid": "The original identity changed (for example status, slug, author, or parent). Those changes are preserved and are not overwritten by this branch.", "msgstr": "Cambió la identidad del original (por ejemplo, su estado, slug, autor o entrada superior). La rama no sobrescribirá esos cambios."}
+{"n": 64, "msgid": "No mergeable branch changes are currently detected.", "msgstr": "Por ahora no se han detectado cambios en la rama que se puedan fusionar."}
+{"n": 65, "note": "translators: %s: branch creator display name.", "msgid": "Created by %s", "msgstr": "Creada por %s"}
+{"n": 66, "note": "Description of the plugin", "msgid": "Create safe working branches for published WordPress content and merge them back without changing the public post while editing.", "msgstr": "Crea ramas de trabajo independientes para el contenido publicado de WordPress y fusiónalas con el original sin modificar la versión pública mientras editas."}

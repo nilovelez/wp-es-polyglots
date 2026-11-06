@@ -74,7 +74,7 @@ Create `<work-folder>/decisions.jsonl`, one line per entry that is not approved 
 ```
 
 - `msgstr` is the full final translation, as plain text (real quotes and newlines are escaped by JSON, not by PO rules). Plural entries use `"msgstr_plural": ["singular", "plural"]`.
-- `comment` is in Spanish, short, friendly, in *tú*, addressed to the translator: the concrete reason (glossary term, rule) and nothing else. In translation mode, comments are only needed for doubts.
+- `comment` is in Spanish, short, friendly, in *tú*, addressed to the translator: the concrete reason (glossary term, rule) and nothing else. The translator sees these comments: never mention review rounds, repository files or other internal references (say "en el readme del plugin", not "en la ronda 07"). In translation mode, comments are only needed for doubts.
 
 ## 4. Build and check
 

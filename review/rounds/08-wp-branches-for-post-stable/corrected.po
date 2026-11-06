@@ -1,0 +1,37 @@
+# Translation of Plugins - WP Branches For Post - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - WP Branches For Post - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-09-30 08:31:52+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.1.0\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - WP Branches For Post - Stable (latest release)\n"
+
+#: includes/class-workflow-service.php:207
+msgid "Choose an original or branch value for every supported conflict before requesting review."
+msgstr "Antes de solicitar una revisión, elige el valor del original o de la rama para cada conflicto que se pueda resolver."
+
+#: includes/class-workflow-service.php:196
+msgid "This branch cannot be reviewed until its baseline is valid."
+msgstr "Esta rama no se puede revisar hasta que su estado de referencia sea válido."
+
+#: includes/class-workflow-service.php:510
+msgid "Post Branch Workflow"
+msgstr "Flujo de trabajo de la rama de la entrada"
+
+#: includes/class-workflow-service.php:579 build/index.js:9
+msgid "Open Review changes in the editor and inspect Base, Original and Branch before deciding. Approval applies only to the exact requested snapshot."
+msgstr "Abre «Revisar cambios» en el editor y compara «Referencia», «Original» y «Rama» antes de decidir. La aprobación solo se aplica a la instantánea exacta enviada a revisión."
+
+#: build/index.js:3
+msgid "Legacy branch"
+msgstr "Rama heredada"
+
+#. Description of the plugin
+#: post-branch.php
+msgid "Create safe working branches for published WordPress content and merge them back without changing the public post while editing."
+msgstr "Crea ramas de trabajo independientes para el contenido publicado de WordPress y fusiónalas con el original sin modificar la entrada pública mientras editas."

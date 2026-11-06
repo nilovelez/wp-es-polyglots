@@ -84,6 +84,13 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - `lint`: 53 pistas, muchas de ellas ruido por *review* («revisión» editorial, no «reseña»). Haiku las descartó bien con la nota del encargo.
 - Subida: el `corrected.po` de la ronda 06 fallaba con `ERR_FAILED` al subirlo desde la unidad `X:` (SMB), y funcionaba al copiarlo al disco local. Se arregló devolviendo `FileInfoCacheLifetime` a 10 en Windows (las cachés de directorios y de archivos no encontrados siguen a 0).
 
+## 2026-11-06 · Haiku · ronda 08 (WP Branches for Post, stable, 66 cadenas) · skill v3
+
+- Resultado: 6 cambios. Haiku propuso 5 cambios y 1 duda, y Nilo mantuvo todo. Ni editados, ni deshechos, ni escapados.
+- Rechazos por coherencia con el readme aprobado en la ronda 07 (se le pasó como referencia): «estado de referencia», «Rama de la entrada», *snapshot* = «instantánea», *legacy* = «heredado», «entrada pública».
+- Duda (#2): en *supported conflict*, «compatible» no encaja. Nilo aceptó «conflicto que se pueda resolver»: el glosario no se aplica cuando el término no tiene ese sentido.
+- Incidencia: los comentarios para el traductor citaban «la ronda 07». Se reescribieron antes de pasarlos a Nilo, y SKILL.md ahora prohíbe citar rondas o archivos internos.
+
 ## 2026-11-06 · Haiku frente a Sonnet · rondas 03 y 04 · skill v3
 
 Haiku revisó a ciegas los `original.po` de las rondas 03 y 04. Se compara con la revisión final de Nilo (`reviewed.po`). Ojo: Nilo revisó partiendo de las propuestas de Sonnet, así que la referencia favorece a Sonnet.
