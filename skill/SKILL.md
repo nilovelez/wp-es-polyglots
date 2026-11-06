@@ -46,14 +46,16 @@ Then go through **every** entry and decide, following section 7 of the style gui
 | approve | Correct, or differs only in minor style from another valid option | No |
 | `fix` | Minor errors: accent, comma after «Por favor», non-Spanish quotes, extra capital letter, «ej.» | Yes |
 | `reject` | Breaks the glossary, informal register (tú), WordPress voice, placeholders/HTML; changes the meaning; clearly unnatural; leaves a glossary term in English | Yes |
-| `doubt` | Not enough context to decide | Yes, with your best proposal |
+| `doubt` | Not enough context to decide, and the guide and glossary do not settle it | Yes, with your best proposal |
+
+Decide on your own whenever the guide, the quick reference or the glossary settle the case; doubts are only for real questions the reviewer must answer. Apply the glossary also to small, common verbs (*set* = «establecer», *check* = «comprobar»), not only to nouns.
 
 Rules for review:
 
 - **Change only what is wrong.** If the translation is good enough, approve it even when you know a more correct option; see "Cuándo cambiar una cadena" in `resources/quick-reference.md`. When you do change a string, keep the translator's wording except for the error.
 - Read every translation against the source for meaning, not only for terms: prepositions, who does the action, words added or lost.
 - The generic masculine is not a reason to reject.
-- Consistency inside the file: the same source string or formula must get the same translation. Do not use the project's already approved strings as a reference: approved does not mean correct. In changelogs, do not change an entry only because its verb form differs from the others.
+- Consistency inside the file: the same source string or formula must get the same translation, and the same source term must get the same proposal in every entry (if you change *delete* to «borrar» in one entry, do it in all of them). Do not use the project's already approved strings as a reference: approved does not mean correct. In changelogs, do not change an entry only because its verb form differs from the others.
 - Product, plugin and theme names are not translated. Lists of languages, plans or tabs use lowercase after the first word.
 - Check placeholders, HTML tags, entities, URLs and `\n` against `msgid`.
 
