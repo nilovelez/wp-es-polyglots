@@ -59,4 +59,18 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
   - Términos que no se traducen: *FAQ Schema* → «Schema de FAQ».
   - *masonry* → «mosaico», *modal* → «emergente», «Lo sentimos» → «Lo siento».
   - «FAQs» → «FAQ».
-- **Cambios en la skill:** `lint` avisa también cuando se traduce un término que el glosario marca como «no se traduce». `po_tool.py` encuentra `resources/` desde cualquier carpeta.
+- **Cambios en la skill:** `lint` avisa también cuando se traduce un término que el glosario marca como «no se traduce».
+
+## 2026-11-06 · Haiku frente a Sonnet · rondas 03 y 04 · skill v3
+
+Haiku revisó a ciegas los `original.po` de las rondas 03 y 04. Se compara con la revisión final de Nilo (`reviewed.po`). Ojo: Nilo revisó partiendo de las propuestas de Sonnet, así que la referencia favorece a Sonnet.
+
+| Ronda | Cambios de Nilo | Sonnet: mantenidos / editados / deshechos / escapados / dudas | Haiku: mantenidos / editados / deshechos / escapados / dudas |
+|---|---|---|---|
+| 04 BetterDocs (164) | 8 | 8 / 0 / 0 / 0 / 0 | 3 / 1 / 1 / 3 / 6 |
+| 03 OrderFlow (356) | 46 | 44 / 1 / 0 / 0 / 1 | 35 / 5 / 0 / 6 / 1 |
+
+- Haiku acierta en lo gordo: glosario, «Lo siento», el texto añadido en la descripción. Se le escapan matices del glosario: *set* = «establecer», *check* = «comprobar», y coherencia con *delete* en todas las cadenas.
+- Hace más preguntas: 6 dudas en BetterDocs, algunas razonables («TOC», «text» como valor de ejemplo) y otras que Sonnet resolvió solo.
+- Un cambio de más: «Icono de impresión» por «Icono de imprimir».
+- En dos casos aplicó mejor que la referencia la nota del glosario de «eliminar» para plugins, pero Nilo optó por «borrar» en todo. `po_tool.py` encuentra `resources/` desde cualquier carpeta.
