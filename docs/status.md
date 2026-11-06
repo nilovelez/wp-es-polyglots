@@ -20,6 +20,12 @@ M1 (reorganize the repository and document the current state) is done.
 - Each round keeps `original.po`, `repaired.po` (tool output), `corrected.po` (only the strings to change) and the script that built it.
 - The `corrected.po` was built with a one-off Python script per round. A reusable script is a candidate for M2.
 
+- Rounds 03 (webandroll-orderflow dev) and 04 (betterdocs stable) done with the Poedit flow. Round 05 (torlann stable, 3053 strings) was a batch to reject whole (unchecked machine translation); its files were deleted.
+
+### Future requirement: detect batches to reject whole
+
+When a contributor uploads a batch like torlann (machine translation without consistency, hallucinations, glossary and style guide ignored, many strings copied in English), the tools must flag it and recommend rejecting it **before** spending a model review. Candidate signals, all cheap scripts: share of strings identical to the source, `lint` hints per string, formal register («usted»), inconsistent translations of the same source term, length ratios. Not for the current stage.
+
 ### polyglots
 
 - Rules: `polyglots/rules/es_ES.yaml`, 44 mistakes and 33 patterns, guidance at 1444 / 1500 characters. Tests pass (21 cases).

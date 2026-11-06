@@ -44,7 +44,13 @@ The `polyglots` tool and Ollama are not part of this loop for now.
 
 ## Large rounds
 
-Files with more than ~400 strings are reviewed in slices with `--range A-B` (`extract`, `glossary`, `lint`). Do **not** fan out to many parallel subagents on the same model: in round 05 (3053 strings) ten parallel Sonnet subagents burned a large share of the usage quota. Process the slices one after another in the translator session, or delegate slices to a cheaper model.
+Before any model review of a large round (more than ~400 strings), give Nilo the cheap numbers first (`lint` count, strings identical to English, untranslated) so he can look at the originals and decide whether the batch deserves a review at all.
+
+Files that do deserve it are reviewed in slices with `--range A-B` (`extract`, `glossary`, `lint`). Do **not** fan out to many parallel subagents on the same model: a 3053-string round reviewed by ten parallel Sonnet subagents burned most of a day's usage quota. Process the slices one after another in the translator session, or delegate slices to a cheaper model.
+
+## Batches to reject whole
+
+Some batches must be rejected entirely instead of reviewed: machine translations without consistency, with hallucinations, ignoring the glossary and the style guide, and many strings just copied in English. Reviewing them string by string is a waste (round 05, torlann, 3053 strings, was one; its files were deleted so they are never reused). Detecting them automatically, before any model runs, is a requirement for the future review tools (see `docs/status.md`).
 
 ## Round folder
 
