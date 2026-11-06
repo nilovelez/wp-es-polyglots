@@ -15,6 +15,7 @@ Prioridad si hay conflicto: instrucciones de Nilo → glosario → guía.
 
 - Tuteo; WordPress habla en primera persona del singular; infinitivo para acciones del usuario, imperativo para propuestas.
 - **website = «sitio web»; site = «sitio»** (glosario). No quitar «sitio web» cuando el original dice *website*.
+- **Se mantiene la puntuación del original**: el guion largo «—» (aunque el traductor lo cambie por «;» o «:», se devuelve al «—»), los puntos suspensivos `...` tal cual, los dos puntos y los signos de cierre. Las comillas son la excepción (siguiente punto).
 - Comillas «» siempre (también en lugar de `"…"` y `'…'`); «p. ej.», no «ej.».
 - Mayúscula solo en la primera palabra; los nombres comunes (idiomas, planes, pestañas) en minúscula dentro de listas. Los nombres de funciones, planes, opciones y servicios de un plugin **no son nombres propios**: «nube de traducción», «plan gratuito», «exclusiones de traducción», «bandera + nombre», «Directorio de plugins». Las mayúsculas de *Title Case* en mitad de frase se corrigen. Solo conservan mayúscula las marcas y los productos («WGRank Translate», «Search Console»).
 - Elementos de la interfaz citados (pestañas, botones, menús): se usa el nombre que ve el usuario en español, sin dejar el inglés con la traducción entre paréntesis. *Renamed "Cache" tab to "Translations"* → «Se renombró la pestaña «Caché» a «Traducciones»»; *a direct 'Settings' action link* → «un enlace de acción directo a Ajustes».
