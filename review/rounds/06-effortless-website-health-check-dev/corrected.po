@@ -1,0 +1,336 @@
+# Translation of Plugins - EffortLess Website Health Check - Development (trunk) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - EffortLess Website Health Check - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: +0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.1.0\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - EffortLess Website Health Check - Development (trunk)\n"
+
+#. Description of the plugin
+#: effortless-website-health-check.php
+msgid "Public website audit tool. A visitor submits a URL, receives a 0-100 health score with recommendations and an indicative quote, and is captured as a lead in the admin."
+msgstr "Herramienta pública de auditoría de sitios web. Un visitante envía una URL, recibe una puntuación de salud de 0 a 100 con recomendaciones y un presupuesto orientativo, y queda registrado como cliente potencial en el área de administración."
+
+#: admin/views/settings-fields.php:81
+msgid "0 disables automatic deletion."
+msgstr "0 desactiva el borrado automático."
+
+#: includes/class-elwhc-scoring-service.php:642
+msgid "Add Open Graph title, description and image tags (an SEO plugin can do this)."
+msgstr "Añade las etiquetas Open Graph de título, descripción e imagen (un plugin de SEO puede hacerlo)."
+
+#: includes/class-elwhc-scoring-service.php:187
+msgid "Add a server-side 301 redirect from HTTP to HTTPS."
+msgstr "Añade una redirección 301 en el servidor de HTTP a HTTPS."
+
+#: includes/class-elwhc-scoring-service.php:490
+msgid "Add caching headers and consider a caching plugin or CDN."
+msgstr "Añade cabeceras de caché y considera un plugin de caché o una CDN."
+
+#: includes/class-elwhc-scoring-service.php:572
+msgid "Add or configure this element, usually via the theme or an SEO plugin."
+msgstr "Añade o configura este elemento, normalmente desde el tema o un plugin de SEO."
+
+#: includes/class-elwhc-scoring-service.php:654
+msgid "Add structured data for your business, articles or products."
+msgstr "Añade datos estructurados para tu empresa, artículos o productos."
+
+#: includes/class-elwhc-scoring-service.php:277
+msgid "Add this header server-side after verifying it does not break existing functionality."
+msgstr "Añade esta cabecera en el servidor después de comprobar que no afecta a funciones existentes."
+
+#: includes/class-elwhc-plugin.php:168
+msgid "Analyzing your site…"
+msgstr "Analizando tu sitio…"
+
+#: admin/views/network-settings.php:37
+msgid "Apply the settings below to every site in the network (overrides each site’s own settings)."
+msgstr "Aplicar los ajustes siguientes a todos los sitios de la red (anula los ajustes propios de cada sitio)."
+
+#: admin/views/audits.php:26
+msgid "Audit deleted."
+msgstr "Auditoría borrada."
+
+#: includes/class-elwhc-scoring-service.php:509
+msgid "Combine and minify assets, or use an optimization plugin."
+msgstr "Combina y minimiza los recursos, o usa un plugin de optimización."
+
+#. translators: %s: website domain.
+#: includes/class-elwhc-audit-service.php:180
+msgid "Confirm to receive your website health check quote for %s"
+msgstr "Confirmar para recibir tu presupuesto del análisis de salud del sitio web %s"
+
+#: includes/class-elwhc-admin.php:66 includes/class-elwhc-admin.php:67
+msgid "Dashboard"
+msgstr "Escritorio"
+
+#: admin/views/settings-fields.php:98
+msgid "Delete all plugin data when the plugin is deleted."
+msgstr "Borrar todos los datos del plugin al eliminarlo."
+
+#: admin/views/audit-detail.php:215
+msgid "Delete audit"
+msgstr "Borrar auditoría"
+
+#: admin/views/audit-detail.php:211
+msgid "Delete this audit permanently?"
+msgstr "¿Borrar esta auditoría de forma permanente?"
+
+#: includes/class-elwhc-scoring-service.php:460
+msgid "Enable caching, review hosting resources and optimize the heaviest plugins."
+msgstr "Activa la caché, revisa los recursos del alojamiento y optimiza los plugins más pesados."
+
+#: includes/class-elwhc-scoring-service.php:475
+msgid "Enable gzip or brotli compression at the server level."
+msgstr "Activa la compresión gzip o brotli en el servidor."
+
+#: admin/views/tools.php:19
+msgid "Export leads to CSV"
+msgstr "Exportar clientes potenciales a CSV"
+
+#: includes/class-elwhc-plugin.php:181
+msgid "Great — no issues stood out in this quick check."
+msgstr "Excelente — ningún problema destacó en este análisis rápido."
+
+#: includes/class-elwhc-plugin.php:174
+msgid "Hello,\n\nI would like a quote for my website: {url}\n\nMy automatic health check scored {score}/100. The main priorities were:\n{priorities}\n\nPlease get back to me with details. Thank you."
+msgstr "Hola,\n\nMe gustaría recibir un presupuesto para mi sitio web: {url}\n\nMi análisis de salud automático obtuvo {score}/100. Las prioridades principales fueron:\n{priorities}\n\nPonte en contacto conmigo para darme los detalles. Gracias."
+
+#. translators: 1: Terms of Use link/label, 2: Privacy Policy link/label.
+#: public/views/form.php:50
+msgid "I would like to receive my personalized quote by email, and I accept the %1$s and %2$s (GDPR)."
+msgstr "Quiero recibir mi presupuesto personalizado por correo electrónico, y acepto las %1$s y la %2$s (RGPD)."
+
+#. translators: 1: name, 2: domain, 3: score, 4-6: priorities, 7: offer, 8:
+#. estimate.
+#: includes/class-elwhc-admin.php:558
+msgid "Hello %1$s,\n\nI have completed the quick diagnostic for your site: %2$s\n\nScore: %3$d/100\n\nThe 3 priorities are:\n1. %4$s\n2. %5$s\n3. %6$s\n\nRecommended intervention: %7$s\nIndicative estimate: %8$s\n\nThe exact price will depend on WordPress/hosting access and the real condition of the site. If you want, I can suggest the next step."
+msgstr "Hola %1$s,\n\nHe completado el diagnóstico rápido de tu sitio: %2$s\n\nPuntuación: %3$d/100\n\nLas 3 prioridades son:\n1. %4$s\n2. %5$s\n3. %6$s\n\nIntervención recomendada: %7$s\nEstimación orientativa: %8$s\n\nEl precio exacto dependerá del acceso a WordPress y al alojamiento, y del estado real del sitio. Si quieres, puedo proponerte el siguiente paso."
+
+#. translators: 1: name, 2: domain, 3: score, 4-6: priorities, 7: offer, 8:
+#. estimate.
+#: includes/class-elwhc-admin.php:571
+msgid "Hello %1$s,\n\nThank you for using our website health check. I have reviewed the quick diagnostic for %2$s and wanted to share a short summary.\n\nOverall score: %3$d/100\n\nThe three points I would prioritise:\n1. %4$s\n2. %5$s\n3. %6$s\n\nBased on this, I would suggest: %7$s\nIndicative estimate: %8$s\n\nThis figure is only a guide — the exact price depends on access to WordPress and hosting, the number of plugins, and the real condition of the site. I would be happy to arrange a short call to walk you through the details.\n\nKind regards"
+msgstr "Hola %1$s,\n\nGracias por utilizar nuestro análisis de salud del sitio web. He revisado el diagnóstico rápido de %2$s y quería compartir un breve resumen.\n\nPuntuación global: %3$d/100\n\nLos tres puntos que priorizaría:\n1. %4$s\n2. %5$s\n3. %6$s\n\nEn función de esto, te sugeriría: %7$s\nEstimación orientativa: %8$s\n\nEsta cifra es solo una referencia — el precio exacto depende del acceso a WordPress y al alojamiento, del número de plugins y del estado real del sitio. Con gusto organizaré una breve llamada para explicarte los detalles.\n\nUn saludo"
+
+#: includes/class-elwhc-scoring-service.php:666
+msgid "Install a privacy-respecting analytics tool to track results."
+msgstr "Instala una herramienta de analítica respetuosa con la privacidad para medir resultados."
+
+#: includes/class-elwhc-scoring-service.php:172
+msgid "Install a valid TLS certificate and serve the whole site over HTTPS."
+msgstr "Instala un certificado TLS válido y sirve todo el sitio por HTTPS."
+
+#: admin/views/audits.php:50
+msgid "Lead status"
+msgstr "Estado del cliente potencial"
+
+#: admin/views/audit-detail.php:40
+msgid "Lead updated."
+msgstr "Cliente potencial actualizado."
+
+#: admin/views/dashboard.php:33
+msgid "Leads with contact"
+msgstr "Clientes potenciales con datos de contacto"
+
+#: admin/views/settings-fields.php:52
+msgid "Leave empty to use the default text, translated to the site language."
+msgstr "Déjalo vacío para usar el texto por defecto, traducido al idioma del sitio."
+
+#: public/views/form.php:67 public/views/form.php:103
+msgid "Leave this field empty"
+msgstr "Deja este campo vacío"
+
+#: admin/views/settings-fields.php:63 admin/views/settings-fields.php:70
+msgid "Linked from the public form's consent checkbox. Leave empty to show the label as plain text."
+msgstr "Se enlaza desde la casilla de verificación de consentimiento del formulario público. Déjalo vacío para mostrar la etiqueta como texto sin formato."
+
+#: includes/class-elwhc-scoring-service.php:627
+msgid "Make contact details and a primary call-to-action visible above the fold."
+msgstr "Muestra los datos de contacto y una llamada a la acción principal antes de desplazarse."
+
+#: admin/views/audit-detail.php:165
+msgid "Manage lead"
+msgstr "Gestionar cliente potencial"
+
+#: includes/class-elwhc-scoring-service.php:552
+msgid "Missing meta description"
+msgstr "Falta la meta description"
+
+#: admin/views/settings-site-pricing.php:29
+msgid "Network-wide settings are active for all sites. You can still give this site its own currency and prices below — useful when sites target different countries."
+msgstr "Los ajustes de red están activos para todos los sitios. Aun así, puedes asignar a este sitio tu propia moneda y tus precios más abajo — algo útil cuando los sitios se dirigen a países distintos."
+
+#: includes/class-elwhc-scoring-service.php:640
+msgid "No Open Graph tags were found, so links shared on social media may look plain."
+msgstr "No se encontraron etiquetas Open Graph, por lo que los enlaces compartidos en medios sociales pueden verse sin formato."
+
+#: includes/class-elwhc-scoring-service.php:552
+msgid "No meta description was found on the home page."
+msgstr "No se encontró ninguna meta description en la página de inicio."
+
+#: includes/class-elwhc-url-validator.php:50
+msgid "Only http and https addresses are supported."
+msgstr "Solo son compatibles las direcciones http y https."
+
+#: includes/class-elwhc-url-validator.php:78
+msgid "Only standard web ports are supported."
+msgstr "Solo son compatibles los puertos web estándar."
+
+#: includes/class-elwhc-scoring-service.php:419
+msgid "Optimize images, reduce JavaScript, and add caching or a CDN."
+msgstr "Optimiza las imágenes, reduce el JavaScript y añade caché o una CDN."
+
+#: includes/class-elwhc-scoring-service.php:431
+msgid "Optimize the largest images and defer non-critical scripts."
+msgstr "Optimiza las imágenes más grandes y difiere los scripts no críticos."
+
+#: includes/class-elwhc-plugin.php:170
+msgid "Please confirm you are authorized to audit this site."
+msgstr "Confirma que estás autorizado para auditar este sitio."
+
+#: includes/class-elwhc-rest-controller.php:182
+msgid "Please enter a message."
+msgstr "Introduce un mensaje."
+
+#: includes/class-elwhc-audit-service.php:76
+#: includes/class-elwhc-plugin.php:171
+#: includes/class-elwhc-rest-controller.php:179
+msgid "Please enter a valid email address."
+msgstr "Introduce una dirección de correo electrónico válida."
+
+#: includes/class-elwhc-url-validator.php:30
+msgid "Please enter a website URL."
+msgstr "Introduce la URL de un sitio web."
+
+#: includes/class-elwhc-audit-service.php:334
+msgid "Questions? Reply to this email or contact us at"
+msgstr "¿Preguntas? Responde a este correo electrónico o contáctanos en"
+
+#: includes/class-elwhc-scoring-service.php:374
+msgid "Reduce Server / X-Powered-By verbosity at the web-server or PHP level."
+msgstr "Reduce la información de las cabeceras Server / X-Powered-By en el servidor web o en PHP."
+
+#: includes/class-elwhc-scoring-service.php:360
+msgid "Remove the generator meta tag, typically via a small theme or plugin adjustment."
+msgstr "Quita la metaetiqueta generator, normalmente con un pequeño ajuste del tema o de un plugin."
+
+#: includes/class-elwhc-scoring-service.php:219
+msgid "Renew the certificate immediately and enable auto-renewal."
+msgstr "Renueva el certificado de inmediato y activa la renovación automática."
+
+#: includes/class-elwhc-scoring-service.php:208
+msgid "Renew the certificate now, or enable auto-renewal (e.g. via Let’s Encrypt)."
+msgstr "Renueva el certificado ahora o activa la renovación automática (p. ej., con Let’s Encrypt)."
+
+#: includes/class-elwhc-scoring-service.php:641
+msgid "Rich link previews improve click-through from social media and messaging apps."
+msgstr "Las vistas previas enriquecidas de los enlaces aumentan los clics desde medios sociales y aplicaciones de mensajería."
+
+#: includes/class-elwhc-rest-controller.php:79
+msgid "Security check failed. Please reload the page and try again."
+msgstr "Falló la comprobación de seguridad. Recarga la página e inténtalo de nuevo."
+
+#: includes/class-elwhc-scoring-service.php:295
+msgid "Serve every image, script and stylesheet over HTTPS."
+msgstr "Sirve todas las imágenes, scripts y hojas de estilo por HTTPS."
+
+#: includes/class-elwhc-plugin.php:169
+#: includes/class-elwhc-rest-controller.php:107
+#: includes/class-elwhc-rest-controller.php:157
+msgid "Something went wrong. Please try again."
+msgstr "Algo salió mal. Inténtalo de nuevo."
+
+#: includes/class-elwhc-rest-controller.php:212
+msgid "Thank you! Your request has been sent. We will get back to you shortly."
+msgstr "¡Gracias! Tu solicitud ha sido enviada. Nos pondremos en contacto contigo en breve."
+
+#: includes/class-elwhc-plugin.php:263
+msgid "Thanks! Your personalized quote is on its way to your inbox."
+msgstr "¡Gracias! Tu presupuesto personalizado va de camino a tu bandeja de entrada."
+
+#: includes/class-elwhc-scoring-service.php:85
+msgid "The site responded, but not with a normal page — often a security filter, bot protection or maintenance page. Content-based checks (WordPress, SEO, contact) were skipped and are not counted in the score."
+msgstr "El sitio respondió, pero no con una página normal — suele tratarse de un filtro de seguridad, protección contra bots o una página de mantenimiento. Se omitieron las comprobaciones basadas en el contenido (WordPress, SEO, contacto) y no cuentan en la puntuación."
+
+#: includes/class-elwhc-rest-controller.php:189
+msgid "This audit could not be found. Please run the check again."
+msgstr "No se encontró esta auditoría. Ejecuta el análisis de nuevo."
+
+#: includes/class-elwhc-plugin.php:264
+msgid "This confirmation link is invalid or has expired. Please run the audit again and re-check the box to receive your quote by email."
+msgstr "Este enlace de confirmación no es válido o ha caducado. Ejecuta de nuevo la auditoría y vuelve a marcar la casilla para recibir tu presupuesto por correo electrónico."
+
+#: includes/class-elwhc-audit-service.php:191
+msgid "This link expires in 48 hours. If you did not request this, you can safely ignore this email."
+msgstr "Este enlace caduca en 48 horas. Si no lo has solicitado, puedes ignorar este correo electrónico."
+
+#: includes/class-elwhc-rate-limiter.php:56
+msgid "This website has already been audited several times today. Please try again later."
+msgstr "Este sitio web ya ha sido auditado varias veces hoy. Inténtalo de nuevo más tarde."
+
+#: includes/class-elwhc-audit-service.php:187
+msgid "To protect your inbox, please confirm this email address before we send your personalized quote:"
+msgstr "Para proteger tu bandeja de entrada, confirma esta dirección de correo electrónico antes de que enviemos tu presupuesto personalizado:"
+
+#: includes/class-elwhc-rate-limiter.php:37
+msgid "Too many requests in a short time. Please wait a moment and try again."
+msgstr "Demasiadas solicitudes en poco tiempo. Espera un momento e inténtalo de nuevo."
+
+#: includes/class-elwhc-rest-controller.php:163
+msgid "Too many requests. Please try again later."
+msgstr "Demasiadas solicitudes. Inténtalo de nuevo más tarde."
+
+#: includes/class-elwhc-audit-service.php:96
+msgid "We could not reach this website. Please check the address and try again."
+msgstr "No pudimos acceder a este sitio web. Comprueba la dirección e inténtalo de nuevo."
+
+#: admin/views/dashboard.php:16
+msgid "Website Health Check — Dashboard"
+msgstr "Website Health Check — Escritorio"
+
+#: includes/class-elwhc-scoring-service.php:665
+msgid "Without analytics you cannot measure traffic, sources or conversions."
+msgstr "Sin analítica no puedes medir el tráfico, las fuentes ni las conversiones."
+
+#: includes/class-elwhc-admin.php:199 includes/class-elwhc-admin.php:351
+msgid "You do not have permission to access this page."
+msgstr "No tienes permiso para acceder a esta página."
+
+#: includes/class-elwhc-admin.php:367
+msgid "You do not have permission to perform this action."
+msgstr "No tienes permiso para realizar esta acción."
+
+#: includes/class-elwhc-rate-limiter.php:46
+msgid "You have reached the maximum number of audits for today. Please try again later."
+msgstr "Has alcanzado el número máximo de auditorías de hoy. Inténtalo de nuevo más tarde."
+
+#: includes/class-elwhc-audit-service.php:71
+msgid "You must confirm you are authorized to audit this site."
+msgstr "Debes confirmar que estás autorizado para auditar este sitio."
+
+#: public/views/form.php:99
+msgid "Your message"
+msgstr "Tu mensaje"
+
+#: includes/class-elwhc-audit-service.php:694
+msgid "Your site is in good overall condition. A few refinements could still improve it."
+msgstr "Tu sitio está en buen estado general. Algunos ajustes aún podrían mejorarlo."
+
+#: includes/class-elwhc-audit-service.php:699
+msgid "Your site works, but a few points may reduce its performance, perceived security, and ability to convert visitors."
+msgstr "Tu sitio funciona, pero algunos puntos pueden reducir su rendimiento, la seguridad percibida y su capacidad de convertir visitantes."
+
+#: public/views/form.php:27
+msgid "Your website URL"
+msgstr "La URL de tu sitio web"
+
+#. translators: %s: website domain.
+#: includes/class-elwhc-audit-service.php:257
+msgid "Your website health check quote for %s"
+msgstr "Tu presupuesto del análisis de salud del sitio web %s"

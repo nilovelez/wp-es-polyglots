@@ -1,0 +1,80 @@
+{"n": 1, "verdict": "reject", "msgstr": "Herramienta pública de auditoría de sitios web. Un visitante envía una URL, recibe una puntuación de salud de 0 a 100 con recomendaciones y un presupuesto orientativo, y queda registrado como cliente potencial en el área de administración.", "comment": "Según el glosario, «lead» es «cliente potencial». «Admin» en este sentido es el área de administración; «administrador» es el perfil."}
+{"n": 3, "verdict": "reject", "msgstr": "0 desactiva el borrado automático.", "comment": "Según el glosario, «delete» es «borrar», no «eliminar»."}
+{"n": 8, "verdict": "reject", "msgstr": "Añade las etiquetas Open Graph de título, descripción e imagen (un plugin de SEO puede hacerlo).", "comment": "Tuteo: usa «añade», no «añada» (guía 3.1)."}
+{"n": 9, "verdict": "reject", "msgstr": "Añade una redirección 301 en el servidor de HTTP a HTTPS.", "comment": "Tuteo: «añade», no «añada»."}
+{"n": 10, "verdict": "reject", "msgstr": "Añade cabeceras de caché y considera un plugin de caché o una CDN.", "comment": "Tuteo: «añade» y «considera», no «añada» y «considere»."}
+{"n": 11, "verdict": "reject", "msgstr": "Añade o configura este elemento, normalmente desde el tema o un plugin de SEO.", "comment": "Tuteo: «añade» y «configura», no «añada» y «configure»."}
+{"n": 12, "verdict": "reject", "msgstr": "Añade datos estructurados para tu empresa, artículos o productos.", "comment": "Tuteo: «añade» y «tu», no «añada» y «su»."}
+{"n": 13, "verdict": "reject", "msgstr": "Añade esta cabecera en el servidor después de comprobar que no afecta a funciones existentes.", "comment": "Tuteo: «añade», no «añada»."}
+{"n": 19, "verdict": "reject", "msgstr": "Analizando tu sitio…", "comment": "Tuteo: «tu», no «su»."}
+{"n": 20, "verdict": "reject", "msgstr": "Aplicar los ajustes siguientes a todos los sitios de la red (anula los ajustes propios de cada sitio).", "comment": "Según el glosario, «settings» es «ajustes», no «configuración»."}
+{"n": 22, "verdict": "reject", "msgstr": "Auditoría borrada.", "comment": "Según el glosario, «delete» es «borrar», no «eliminar»."}
+{"n": 38, "verdict": "reject", "msgstr": "Combina y minimiza los recursos, o usa un plugin de optimización.", "comment": "Tuteo: «combina», «minimiza» y «usa»."}
+{"n": 41, "verdict": "reject", "msgstr": "Confirmar para recibir tu presupuesto del análisis de salud del sitio web %s", "comment": "Tuteo, y en botones se usa el infinitivo (guía 3.4)."}
+{"n": 53, "verdict": "reject", "msgstr": "Escritorio", "comment": "Según el glosario, «Dashboard» es «Escritorio», no «Panel»."}
+{"n": 58, "verdict": "reject", "msgstr": "Borrar todos los datos del plugin al eliminarlo.", "comment": "Según el glosario, «delete» es «borrar». «Eliminar» solo para el plugin, como indica la nota de «eliminar»."}
+{"n": 59, "verdict": "reject", "msgstr": "Borrar auditoría", "comment": "Según el glosario, «delete» es «borrar», no «eliminar»."}
+{"n": 60, "verdict": "reject", "msgstr": "¿Borrar esta auditoría de forma permanente?", "comment": "Según el glosario, «delete» es «borrar», no «eliminar»."}
+{"n": 66, "verdict": "reject", "msgstr": "Activa la caché, revisa los recursos del alojamiento y optimiza los plugins más pesados.", "comment": "Tuteo: «activa», «revisa» y «optimiza»."}
+{"n": 67, "verdict": "reject", "msgstr": "Activa la compresión gzip o brotli en el servidor.", "comment": "Tuteo: «activa», no «active»."}
+{"n": 71, "verdict": "reject", "msgstr": "Exportar clientes potenciales a CSV", "comment": "Según el glosario, «lead» es «cliente potencial», no «contacto»."}
+{"n": 83, "verdict": "fix", "msgstr": "Excelente — ningún problema destacó en este análisis rápido.", "comment": "Mantén el guion largo del original; no lo cambies por dos puntos."}
+{"n": 87, "verdict": "reject", "msgstr": "Hola,\n\nMe gustaría recibir un presupuesto para mi sitio web: {url}\n\nMi análisis de salud automático obtuvo {score}/100. Las prioridades principales fueron:\n{priorities}\n\nPonte en contacto conmigo para darme los detalles. Gracias.", "comment": "Tuteo: «ponte», no «póngase». Y mantén la coma de «Hello,» en el saludo."}
+{"n": 90, "verdict": "fix", "msgstr": "Quiero recibir mi presupuesto personalizado por correo electrónico, y acepto las %1$s y la %2$s (RGPD).", "comment": "«Condiciones de uso» es femenino plural: «las», no «los»."}
+{"n": 94, "verdict": "reject", "msgstr": "Hola %1$s,\n\nHe completado el diagnóstico rápido de tu sitio: %2$s\n\nPuntuación: %3$d/100\n\nLas 3 prioridades son:\n1. %4$s\n2. %5$s\n3. %6$s\n\nIntervención recomendada: %7$s\nEstimación orientativa: %8$s\n\nEl precio exacto dependerá del acceso a WordPress y al alojamiento, y del estado real del sitio. Si quieres, puedo proponerte el siguiente paso.", "comment": "Tuteo en todo el correo («tu», «quieres», «puedo proponerte»). Y la coma tras el saludo, como en el original."}
+{"n": 95, "verdict": "reject", "msgstr": "Hola %1$s,\n\nGracias por utilizar nuestro análisis de salud del sitio web. He revisado el diagnóstico rápido de %2$s y quería compartir un breve resumen.\n\nPuntuación global: %3$d/100\n\nLos tres puntos que priorizaría:\n1. %4$s\n2. %5$s\n3. %6$s\n\nEn función de esto, te sugeriría: %7$s\nEstimación orientativa: %8$s\n\nEsta cifra es solo una referencia — el precio exacto depende del acceso a WordPress y al alojamiento, del número de plugins y del estado real del sitio. Con gusto organizaré una breve llamada para explicarte los detalles.\n\nUn saludo", "comment": "Tuteo en todo el correo. Mantén también el guion largo del original y la coma del saludo."}
+{"n": 99, "verdict": "reject", "msgstr": "Instala una herramienta de analítica respetuosa con la privacidad para medir resultados.", "comment": "Tuteo: «instala», no «instale»."}
+{"n": 100, "verdict": "reject", "msgstr": "Instala un certificado TLS válido y sirve todo el sitio por HTTPS.", "comment": "Tuteo: «instala» y «sirve», no «instale» y «sirva»."}
+{"n": 107, "verdict": "reject", "msgstr": "Estado del cliente potencial", "comment": "Según el glosario, «lead» es «cliente potencial»."}
+{"n": 108, "verdict": "reject", "msgstr": "Cliente potencial actualizado.", "comment": "Según el glosario, «lead» es «cliente potencial»."}
+{"n": 109, "verdict": "reject", "msgstr": "Clientes potenciales con datos de contacto", "comment": "Según el glosario, «lead» es «cliente potencial». «Contactos con datos de contacto» también repetía la palabra."}
+{"n": 110, "verdict": "reject", "msgstr": "Déjalo vacío para usar el texto por defecto, traducido al idioma del sitio.", "comment": "Tuteo: «déjalo», no «déjelo». Según el glosario, «default» es «por defecto», no «predeterminado»."}
+{"n": 111, "verdict": "reject", "msgstr": "Deja este campo vacío", "comment": "Tuteo: «deja», no «deje»."}
+{"n": 115, "verdict": "reject", "msgstr": "Se enlaza desde la casilla de verificación de consentimiento del formulario público. Déjalo vacío para mostrar la etiqueta como texto sin formato.", "comment": "Según el glosario, «checkbox» es «casilla de verificación». Tuteo: «déjalo»."}
+{"n": 119, "verdict": "reject", "msgstr": "Muestra los datos de contacto y una llamada a la acción principal antes de desplazarse.", "comment": "Según el glosario, «above the fold» es «antes de desplazarse». Tuteo: «muestra»."}
+{"n": 120, "verdict": "reject", "msgstr": "Gestionar cliente potencial", "comment": "Según el glosario, «lead» es «cliente potencial»."}
+{"n": 125, "verdict": "reject", "msgstr": "Falta la meta description", "comment": "Según el glosario, «meta description» no se traduce."}
+{"n": 126, "verdict": "doubt", "msgstr": "Falta la etiqueta viewport para móviles", "comment": "¿«viewport» debe traducirse? El glosario dice «área visible» si la interfaz es para el usuario final. Aquí es el nombre de una etiqueta HTML. Propongo dejarlo en inglés, como «canonical», y te pregunto si lo confirmas."}
+{"n": 135, "verdict": "reject", "msgstr": "Los ajustes de red están activos para todos los sitios. Aun así, puedes asignar a este sitio tu propia moneda y tus precios más abajo — algo útil cuando los sitios se dirigen a países distintos.", "comment": "Tuteo: «puedes», «tu propia moneda». Y mantén el guion largo del original."}
+{"n": 139, "verdict": "reject", "msgstr": "No se encontraron etiquetas Open Graph, por lo que los enlaces compartidos en medios sociales pueden verse sin formato.", "comment": "Según el glosario, «social media» es «medios sociales»."}
+{"n": 152, "verdict": "reject", "msgstr": "No se encontró ninguna meta description en la página de inicio.", "comment": "Según el glosario, «meta description» no se traduce."}
+{"n": 154, "verdict": "doubt", "msgstr": "No se encontró la metaetiqueta viewport adaptable; es posible que el sitio no se muestre bien en móviles.", "comment": "Igual que #126: ¿«viewport» se deja en inglés como nombre de etiqueta HTML o se traduce según el glosario? Propongo dejarlo en inglés."}
+{"n": 164, "verdict": "reject", "msgstr": "Solo son compatibles las direcciones http y https.", "comment": "Según la guía, «supported» es «compatible», no «admitido»."}
+{"n": 165, "verdict": "reject", "msgstr": "Solo son compatibles los puertos web estándar.", "comment": "Según la guía, «supported» es «compatible», no «admitido»."}
+{"n": 166, "verdict": "reject", "msgstr": "Optimiza las imágenes, reduce el JavaScript y añade caché o una CDN.", "comment": "Tuteo: «optimiza», «reduce» y «añade»."}
+{"n": 167, "verdict": "reject", "msgstr": "Optimiza las imágenes más grandes y difiere los scripts no críticos.", "comment": "Tuteo: «optimiza» y «difiere»."}
+{"n": 170, "verdict": "reject", "msgstr": "Confirma que estás autorizado para auditar este sitio.", "comment": "Tuteo: «confirma» y «estás»."}
+{"n": 171, "verdict": "reject", "msgstr": "Introduce un mensaje.", "comment": "Tuteo: «introduce», no «introduzca»."}
+{"n": 172, "verdict": "reject", "msgstr": "Introduce una dirección de correo electrónico válida.", "comment": "Tuteo: «introduce», no «introduzca»."}
+{"n": 173, "verdict": "reject", "msgstr": "Introduce la URL de un sitio web.", "comment": "Tuteo: «introduce», no «introduzca»."}
+{"n": 186, "verdict": "reject", "msgstr": "¿Preguntas? Responde a este correo electrónico o contáctanos en", "comment": "Tuteo: «responde» y «contáctanos». Según la guía, en un texto de email «correo» a secas se cambia por «correo electrónico»."}
+{"n": 193, "verdict": "reject", "msgstr": "Reduce la información de las cabeceras Server / X-Powered-By en el servidor web o en PHP.", "comment": "Tuteo: «reduce», no «reduzca»."}
+{"n": 194, "verdict": "reject", "msgstr": "Quita la metaetiqueta generator, normalmente con un pequeño ajuste del tema o de un plugin.", "comment": "Tuteo: «quita», no «elimine»; y «quitar» es el término habitual para *remove* (glosario)."}
+{"n": 195, "verdict": "reject", "msgstr": "Renueva el certificado de inmediato y activa la renovación automática.", "comment": "Tuteo: «renueva» y «activa», no «renueve» ni «active»."}
+{"n": 196, "verdict": "reject", "msgstr": "Renueva el certificado ahora o activa la renovación automática (p. ej., con Let’s Encrypt).", "comment": "Tuteo: «renueva» y «activa»."}
+{"n": 201, "verdict": "reject", "msgstr": "Las vistas previas enriquecidas de los enlaces aumentan los clics desde medios sociales y aplicaciones de mensajería.", "comment": "Según el glosario, «social media» es «medios sociales»."}
+{"n": 208, "verdict": "reject", "msgstr": "Falló la comprobación de seguridad. Recarga la página e inténtalo de nuevo.", "comment": "Tuteo: «recarga» e «inténtalo», no «recargue» ni «inténtelo»."}
+{"n": 212, "verdict": "reject", "msgstr": "Sirve todas las imágenes, scripts y hojas de estilo por HTTPS.", "comment": "Tuteo: «sirve», no «sirva»."}
+{"n": 222, "verdict": "reject", "msgstr": "Algo salió mal. Inténtalo de nuevo.", "comment": "Tuteo: «inténtalo», no «inténtelo»."}
+{"n": 234, "verdict": "reject", "msgstr": "¡Gracias! Tu solicitud ha sido enviada. Nos pondremos en contacto contigo en breve.", "comment": "Tuteo: «tu» y «contigo», no «su» y «usted»."}
+{"n": 235, "verdict": "reject", "msgstr": "¡Gracias! Tu presupuesto personalizado va de camino a tu bandeja de entrada.", "comment": "Tuteo: «tu», no «su»."}
+{"n": 248, "verdict": "fix", "msgstr": "El sitio respondió, pero no con una página normal — suele tratarse de un filtro de seguridad, protección contra bots o una página de mantenimiento. Se omitieron las comprobaciones basadas en el contenido (WordPress, SEO, contacto) y no cuentan en la puntuación.", "comment": "Mantén el guion largo del original, en lugar del punto y coma."}
+{"n": 254, "verdict": "reject", "msgstr": "No se encontró esta auditoría. Ejecuta el análisis de nuevo.", "comment": "Tuteo: «ejecuta», no «ejecute»."}
+{"n": 255, "verdict": "reject", "msgstr": "Este enlace de confirmación no es válido o ha caducado. Ejecuta de nuevo la auditoría y vuelve a marcar la casilla para recibir tu presupuesto por correo electrónico.", "comment": "Tuteo: «ejecuta», «vuelve» y «tu»."}
+{"n": 258, "verdict": "reject", "msgstr": "Este enlace caduca en 48 horas. Si no lo has solicitado, puedes ignorar este correo electrónico.", "comment": "Tuteo: «has solicitado» y «puedes». Y «correo electrónico», según la guía."}
+{"n": 259, "verdict": "reject", "msgstr": "Este sitio web ya ha sido auditado varias veces hoy. Inténtalo de nuevo más tarde.", "comment": "Tuteo: «inténtalo», no «inténtelo»."}
+{"n": 262, "verdict": "reject", "msgstr": "Para proteger tu bandeja de entrada, confirma esta dirección de correo electrónico antes de que enviemos tu presupuesto personalizado:", "comment": "Tuteo: «tu» y «confirma», no «su» y «confirme»."}
+{"n": 263, "verdict": "reject", "msgstr": "Demasiadas solicitudes en poco tiempo. Espera un momento e inténtalo de nuevo.", "comment": "Tuteo: «espera» e «inténtalo», no «espere» e «inténtelo»."}
+{"n": 264, "verdict": "reject", "msgstr": "Demasiadas solicitudes. Inténtalo de nuevo más tarde.", "comment": "Tuteo: «inténtalo», no «inténtelo»."}
+{"n": 274, "verdict": "reject", "msgstr": "No pudimos acceder a este sitio web. Comprueba la dirección e inténtalo de nuevo.", "comment": "Tuteo: «comprueba» e «inténtalo», no «compruebe» e «inténtelo»."}
+{"n": 278, "verdict": "reject", "msgstr": "Website Health Check — Escritorio", "comment": "Según el glosario, «Dashboard» es «Escritorio», no «Panel»."}
+{"n": 285, "verdict": "reject", "msgstr": "Sin analítica no puedes medir el tráfico, las fuentes ni las conversiones.", "comment": "Tuteo: «puedes», no «puede»."}
+{"n": 290, "verdict": "reject", "msgstr": "No tienes permiso para acceder a esta página.", "comment": "Tuteo: «tienes», no «tiene»."}
+{"n": 291, "verdict": "reject", "msgstr": "No tienes permiso para realizar esta acción.", "comment": "Tuteo: «tienes», no «tiene»."}
+{"n": 292, "verdict": "reject", "msgstr": "Has alcanzado el número máximo de auditorías de hoy. Inténtalo de nuevo más tarde.", "comment": "Tuteo: «has alcanzado» e «inténtalo», no «ha alcanzado» e «inténtelo»."}
+{"n": 293, "verdict": "reject", "msgstr": "Debes confirmar que estás autorizado para auditar este sitio.", "comment": "Tuteo: «debes» y «estás», no «debe» y «esté»."}
+{"n": 294, "verdict": "reject", "msgstr": "Tu mensaje", "comment": "Tuteo: «tu», no «su»."}
+{"n": 295, "verdict": "reject", "msgstr": "Tu sitio está en buen estado general. Algunos ajustes aún podrían mejorarlo.", "comment": "Tuteo: «tu», no «su»."}
+{"n": 296, "verdict": "reject", "msgstr": "Tu sitio funciona, pero algunos puntos pueden reducir su rendimiento, la seguridad percibida y su capacidad de convertir visitantes.", "comment": "Tuteo: «tu sitio», no «su sitio»."}
+{"n": 297, "verdict": "reject", "msgstr": "La URL de tu sitio web", "comment": "Tuteo: «tu», no «su»."}
+{"n": 298, "verdict": "reject", "msgstr": "Tu presupuesto del análisis de salud del sitio web %s", "comment": "Tuteo: «tu», no «su»."}
