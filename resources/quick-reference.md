@@ -2,6 +2,8 @@
 
 Resumen de los criterios aprendidos en las rondas de revisión. El detalle está en `style-guide.md`, `moderation-guide.md` y `../polyglots/calibration-log.md`.
 
+El glosario, la guía de estilo y estos criterios son decisiones del equipo es_ES tomadas por consenso, no preferencias personales. El objetivo es la coherencia: se aplican siempre, aunque afecten a muchas cadenas o el término en inglés esté muy extendido.
+
 Prioridad si hay conflicto: instrucciones de Nilo → glosario → guía.
 
 ## Cuándo cambiar una cadena (revisión)
