@@ -4,7 +4,7 @@ Last updated: 2026-11-05.
 
 ## Current milestone
 
-**M2 – Skill-driven review rounds.** A Sonnet session ("Traductor - Sonnet") translates and reviews using only `skill/`; the Opus session audits and improves the skill. Steps:
+**M2 – Skill-driven review rounds.** A cheaper model session translates and reviews using only `skill/` ("Traductor - Sonnet" for rounds 03–04, "Traductor - Haiku" from round 06 on, measured round by round in `skill/benchmark-log.md`); the Opus session audits and improves the skill. Steps:
 
 1. Write `skill/SKILL.md` and `skill/scripts/po_tool.py`. Done.
 2. Blind benchmark on rounds 01 and 02 against the human-approved `corrected.po`. Done: 9/26 with skill v1, 39/50 with v2; v3 adds `lint` (see `skill/benchmark-log.md`).

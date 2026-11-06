@@ -5,7 +5,7 @@ Goal: clear the es_ES *waiting* queue fast, and learn from every round.
 ## Who does what
 
 - **Nilo** picks the project, reviews **every** string in Poedit (starting from the model's proposals), imports `corrected.po` in GlotPress and approves the rest. Only Nilo uploads or approves.
-- **Translator session** ("Traductor - Sonnet") reviews the strings using only `skill/SKILL.md` and `resources/`. It writes only in the round folder.
+- **Translator session** ("Traductor - Haiku" since round 06; "Traductor - Sonnet" before) reviews the strings using only `skill/SKILL.md` and `resources/`. It writes only in the round folder, temporary files included.
 - **Maintainer session** (Opus) downloads the round, sends it to the translator, prepares the review file, builds `corrected.po` from Nilo's saved file, and turns the differences into improvements of `resources/` and `skill/`.
 
 ## Exchange folder
