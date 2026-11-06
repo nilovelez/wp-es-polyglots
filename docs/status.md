@@ -14,7 +14,9 @@ M1 (reorganize the repository and document the current state) is done.
 
 ## Plan: shared sources for every tool
 
-Goal: every tool (a translation skill, a review skill for moderators, an AI agent that pre-reviews incoming translations) uses the same sources: the official translator guide and the official glossary. The skill keeps only the file tools (`po_tool.py`) and the workflows (translate, review), never its own rules.
+Goal: every tool (a translation skill, a review skill for moderators, an AI agent that pre-reviews incoming translations) uses the same sources: the official translator guide and the official glossary. The skill keeps only the file tools (`po_tool.py`) and the workflows (translate, review), never its own translation rules.
+
+What a skill or workflow may carry is fine-tuning for its scenario: how strict to be depending on what is being translated or reviewed. For example, changelogs allow more tolerance; a plugin's main file needs more care; WordPress core needs much more care. The "Cuándo cambiar una cadena" section of `resources/quick-reference.md` is this kind of rule and belongs in the review workflow, not in the guide.
 
 **Translator guide**
 
