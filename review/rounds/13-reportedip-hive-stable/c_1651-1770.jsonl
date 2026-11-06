@@ -1,0 +1,9 @@
+{"n": 1659, "verdict": "reject", "msgstr": "Host malintencionado", "comment": "Según el glosario, «malicious» se traduce como «malintencionado»."}
+{"n": 1688, "verdict": "reject", "msgstr": "Movida desde la lista de bloqueos mediante acción por lotes", "comment": "Según el glosario, «bulk» se traduce como «por lotes»."}
+{"n": 1716, "verdict": "reject", "msgstr": "Abrir escritorio de seguridad", "comment": "Según el glosario, «Dashboard» se traduce como «escritorio», no como «panel»."}
+{"n": 1734, "verdict": "reject", "msgstr": "Bloqueada mediante acción por lotes", "comment": "Según el glosario, «bulk» se traduce como «por lotes»."}
+{"n": 1735, "verdict": "reject", "msgstr": "Añadida mediante acción por lotes", "comment": "Según el glosario, «bulk» se traduce como «por lotes»."}
+{"n": 1747, "verdict": "reject", "msgstr": "Recomendado: mantén los valores por defecto. Cambia un umbral solo si un acceso o un bloqueo no se comporta como esperas.", "comment": "Según el glosario, «default» es «por defecto», no «predeterminado»; y «sign in» se traduce como «acceder»."}
+{"n": 1749, "verdict": "reject", "msgstr": "Recomendado: mantén los valores por defecto. Solo hace falta cambiarlos si un formulario no funciona como esperas.", "comment": "Según el glosario, «default» es «por defecto», no «predeterminado»."}
+{"n": 1754, "verdict": "reject", "msgstr": "Registros, correos electrónicos y la carga por petición. Nada de esto decide qué se bloquea.", "comment": "En textos largos, «correo» debe ser «correo electrónico»."}
+{"n": 1755, "verdict": "reject", "msgstr": "Disponible en la extensión ReportedIP Hive Pro (plan %s).", "comment": "Según el glosario, «add-on» se traduce como «extensión»."}

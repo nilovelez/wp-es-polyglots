@@ -1,0 +1,14 @@
+{"n": 896, "verdict": "reject", "msgstr": "Aviso limitado por frecuencia", "comment": "Según el glosario, «notification» se traduce como «aviso», no como «notificación»."}
+{"n": 897, "verdict": "reject", "msgstr": "Aviso suprimido (límite)", "comment": "Según el glosario, «notification» se traduce como «aviso», no como «notificación»."}
+{"n": 909, "verdict": "reject", "msgstr": "Simulación de acceso iniciada", "comment": "Según el glosario, «login» se traduce como «acceso» o «acceder», no como «inicio de sesión»."}
+{"n": 910, "verdict": "reject", "msgstr": "Acceso fallido simulado", "comment": "Según el glosario, «login» se traduce como «acceso» o «acceder», no como «inicio de sesión»."}
+{"n": 948, "verdict": "fix", "msgstr": "El slug «%s» está reservado por WordPress y no se puede usar.", "comment": "Usa comillas españolas «» en lugar de comillas rectas."}
+{"n": 949, "verdict": "fix", "msgstr": "El slug «%1$s» ya existe como %2$s. Elige otro slug.", "comment": "Usa comillas españolas «» en lugar de comillas rectas."}
+{"n": 969, "verdict": "fix", "msgstr": "Línea %1$d: dirección IP no válida «%2$s»", "comment": "Usa comillas españolas «» en lugar de comillas rectas."}
+{"n": 970, "verdict": "fix", "msgstr": "Línea %1$d: fecha de caducidad no válida «%2$s»", "comment": "Usa comillas españolas «» en lugar de comillas rectas."}
+{"n": 971, "verdict": "fix", "msgstr": "Línea %1$d: no se ha podido importar la IP «%2$s»", "comment": "Usa comillas españolas «» en lugar de comillas rectas."}
+{"n": 977, "verdict": "reject", "msgstr": "Supervisa y registra los accesos fallidos", "comment": "Según el glosario, «login» se traduce como «acceso» o «acceder», no como «inicio de sesión»."}
+{"n": 1003, "verdict": "reject", "msgstr": "Bloqueo inmediato en la primera petición a una ruta señuelo conocida (.env.backup, wp-config.old.php, ...), independiente del detector de exploraciones de N en Y.", "comment": "Según el glosario, «scan» (sustantivo) se traduce como «exploración»."}
+{"n": 1008, "verdict": "reject", "msgstr": "Conjuntos de reglas enviados por el servidor en lugar de la base incluida: firmas de cortafuegos más profundas, fuentes de rangos IP de bots y la lista actual de correos electrónicos desechables, actualizados con regularidad. Disponible desde el plan Colaborador, gratuito para los sitios que comparten sus informes.", "comment": "En textos de ayuda, «correo» debe ser «correo electrónico». Según el glosario, «contributor» se traduce como «colaborador»."}
+{"n": 1012, "verdict": "reject", "msgstr": "Bloquea los registros de proveedores de correo electrónico desechable. La lista básica es gratuita; la lista actual llega mediante la sincronización prioritaria.", "comment": "En textos de ayuda, «correo» debe ser «correo electrónico»."}
+{"n": 1021, "verdict": "reject", "msgstr": "Operador de señuelo, colaborador de la comunidad.", "comment": "Según el glosario, «honeypot» se traduce como «señuelo»."}

@@ -1,0 +1,5 @@
+{"n": 1817, "verdict": "reject", "msgstr": "nivel de protección preajuste relajado equilibrado estricto paranoico", "comment": "Según el glosario, «preset» se traduce como «preajuste»."}
+{"n": 1819, "verdict": "reject", "msgstr": "Define de una vez el umbral y la ventana de tiempo de accesos fallidos, la duración del bloqueo y el nivel de protección de la comunidad. Elige Personalizado para editarlos uno a uno.", "comment": "Según el glosario, «login» se traduce como «acceso» o «acceder», no como «inicio de sesión»."}
+{"n": 1848, "verdict": "reject", "msgstr": "Disponible en la extensión ReportedIP Hive Pro:", "comment": "Según el glosario, «add-on» se traduce como «extensión»."}
+{"n": 1851, "verdict": "fix", "msgstr": "Insignia «Protected by ReportedIP» en el pie de página", "comment": "Usa comillas españolas «» en lugar de comillas rectas."}
+{"n": 1872, "verdict": "reject", "msgstr": "Añade la clave de la API y la configuración cifrada del proveedor de SMS. Trata el archivo resultante como una contraseña, no lo compartas ni lo envíes por correo electrónico.", "comment": "En textos largos, «correo» debe ser «correo electrónico»."}

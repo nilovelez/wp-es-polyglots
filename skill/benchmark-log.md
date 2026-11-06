@@ -129,6 +129,17 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
   - #176: toda la cadena va entre comillas en el original (un texto de ejemplo). Haiku las quitó y Nilo las devolvió. Ahora está en la referencia rápida: se mantienen las comillas que forman parte del texto.
 - Duda (#873): *scan* → «comprobar» se mantiene. «Analizar» y «explorar» también valen.
 
+## 2026-11-06 · Haiku · ronda 13 (ReportedIP Hive, stable, 2287 cadenas) · skill v3 · prueba de tamaño
+
+- Tres tramos seguidos (1-765, 766-1530, 1531-2287) en la misma sesión, sin subagentes, con `terms.md` para la coherencia. Las decisiones se añadían al terminar cada tramo.
+- Primera pasada: 236 propuestas (89, 77 y 70 por tramo) y 1 duda. No se ve cansancio.
+- **Incoherencia entre tramos:** `terms.md` decía *authentication* = «identificación», pero solo se aplicó en 2 cadenas, y quedaron 38 con «autenticación» y 31 con «dos factores». La detecté (Opus) antes de pasar el archivo a Nilo, que decidió:
+  - Glosario: «identificación en dos pasos». Se evitan los anglicismos.
+  - *whitelist* como sustantivo = «lista blanca»; como verbo = «añadir a los admitidos».
+  - Haiku lo aplicó en una segunda pasada. Quedan 0 «autentic», pero al menos un verbo sin cambiar (#90).
+- Resultado: 291 cambios propuestos, aceptados en bloque por Nilo («me vale»), sin revisarlos cadena a cadena. La medición de esta ronda no es comparable con las demás.
+- Lección: en rondas por tramos, comprobar antes de `review-po` que los términos de `terms.md` se aplicaron en todo el archivo. Anotado en `review/README.md`.
+
 ## 2026-11-06 · Haiku frente a Sonnet · rondas 03 y 04 · skill v3
 
 Haiku revisó a ciegas los `original.po` de las rondas 03 y 04. Se compara con la revisión final de Nilo (`reviewed.po`). Ojo: Nilo revisó partiendo de las propuestas de Sonnet, así que la referencia favorece a Sonnet.

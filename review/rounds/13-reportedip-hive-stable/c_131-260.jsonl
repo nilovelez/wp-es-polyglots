@@ -1,0 +1,4 @@
+{"n": 192, "verdict": "doubt", "msgstr": "Configurar la autenticación de dos factores", "comment": "Pregunta: el glosario da «two-factor» como «dos pasos» y «authentication» como «identificación», pero la traducción usa «autenticación de dos factores», que es la forma habitual. ¿La mantenemos en todo el archivo o seguimos el glosario?"}
+{"n": 202, "verdict": "reject", "msgstr": "Te damos la bienvenida a la autenticación de dos factores de %s", "comment": "Según el glosario, «Welcome» se traduce como «Te damos la bienvenida»."}
+{"n": 229, "verdict": "reject", "msgstr": "Protege también tu cuenta de correo electrónico con 2FA.", "comment": "En textos de ayuda, «email» es «correo electrónico», no «correo»."}
+{"n": 258, "verdict": "reject", "msgstr": "Cuánto tiempo se reutiliza un resultado limpio. Menos que el anterior, porque una dirección puede pasar a ser malintencionada rápidamente.", "comment": "Según el glosario, «malicious» se traduce como «malintencionado»."}

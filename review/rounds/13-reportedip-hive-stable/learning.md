@@ -1,0 +1,1168 @@
+Strings 2287 · human changes 291 · model proposals 291 · kept 291 · edited 0 · reverted 0 · missed 0 · doubts 0
+
+## Model proposal kept (291)
+
+- #4 Require two-factor sign-in
+  - original: Exigir el inicio de sesión en dos pasos
+  - model: Exigir acceso en dos pasos
+  - reason: Según el glosario, «sign in» se traduce como «acceder» o «acceso», no como «inicio de sesión».
+- #5 A stolen password alone then no longer opens an administrator account. Switch two-factor on and pick the roles that must use it.
+  - original: Así una contraseña robada ya no abre por sí sola una cuenta de administrador. Activa el inicio de sesión en dos pasos y elige los roles que deben usarlo.
+  - model: Así una contraseña robada ya no abre por sí sola una cuenta de administrador. Activa el acceso en dos pasos y elige los perfiles que deben usarlo.
+  - reason: Según el glosario, «role» se traduce como «perfil» y «sign in» como «acceso».
+- #37 Administrator signed in from a new location
+  - original: Un administrador inició sesión desde un lugar nuevo
+  - model: Un administrador accedió desde un lugar nuevo
+  - reason: Según el glosario, «sign in» se traduce como «acceder».
+- #43 [%1$s] Warning: %2$s blocked
+  - original: [%1$s] Aviso: %2$s bloqueado
+  - model: [%1$s] Advertencia: %2$s bloqueado
+  - reason: Según el glosario, «warning» es «advertencia», no «aviso».
+- #44 Only with a single mail per event: how long to wait before mailing about the same kind of event again.
+  - original: Solo con un correo por evento: cuánto esperar antes de volver a avisar del mismo tipo de evento.
+  - model: Solo con un correo electrónico por evento: cuánto esperar antes de volver a avisar del mismo tipo de evento.
+  - reason: En textos de ayuda, «correo» debe ser «correo electrónico».
+- #46 Attacks the plugin already stopped. A daily summary keeps the inbox quiet; a single mail per event is meant for testing.
+  - original: Ataques que el plugin ya detuvo. Un resumen diario mantiene tranquila la bandeja de entrada; un correo por evento está pensado para pruebas.
+  - model: Ataques que el plugin ya detuvo. Un resumen diario mantiene tranquila la bandeja de entrada; un correo electrónico por evento está pensado para pruebas.
+  - reason: En textos de ayuda, «correo» debe ser «correo electrónico».
+- #48 Mail at once when something got through: a new admin account, an admin signing in from a new place, or protection that failed.
+  - original: Enviar un correo al momento cuando algo ha pasado: un administrador nuevo, un administrador que inicia sesión desde un lugar nuevo o una protección que falló.
+  - model: Enviar un correo electrónico al momento cuando algo ha pasado: una cuenta de administrador nueva, un administrador que accede desde un lugar nuevo o una protección que falló.
+  - reason: En textos de ayuda, «correo» debe ser «correo electrónico». «Sign in» se traduce como «acceder» según el glosario.
+- #49 Only with a single mail per event: how long the same address and event type stays quiet after a mail went out.
+  - original: Solo con un correo por evento: cuánto tiempo la misma dirección y el mismo tipo de evento quedan en silencio tras un correo.
+  - model: Solo con un correo electrónico por evento: cuánto tiempo la misma dirección y el mismo tipo de evento quedan en silencio tras un correo electrónico.
+  - reason: En textos de ayuda, «correo» debe ser «correo electrónico».
+- #50 You get these alerts at once. Switch them off under ReportedIP Hive > Protection Settings > Operations > Notifications.
+  - original: Estas alertas llegan al momento. Puedes desactivarlas en ReportedIP Hive > Ajustes de protección > Operación > Notificaciones.
+  - model: Estas alertas llegan al momento. Puedes desactivarlas en ReportedIP Hive > Ajustes de protección > Operación > Avisos.
+  - reason: Según el glosario, «notification» se traduce como «aviso», no como «notificación». Así el menú queda como «Avisos».
+- #51 One summary a day replaces the single warnings. Change this under ReportedIP Hive > Protection Settings > Operations > Notifications.
+  - original: Un resumen al día sustituye a los avisos sueltos. Puedes cambiarlo en ReportedIP Hive > Ajustes de protección > Operación > Notificaciones.
+  - model: Un resumen al día sustituye a los avisos sueltos. Puedes cambiarlo en ReportedIP Hive > Ajustes de protección > Operación > Avisos.
+  - reason: Según el glosario, «notification» se traduce como «aviso», no como «notificación».
+- #52 No action required if this matches your expectations. You can switch to a daily summary under ReportedIP Hive > Protection Settings > Operations > Notifications.
+  - original: No hace falta hacer nada si esto es lo esperado. Puedes cambiar a un resumen diario en ReportedIP Hive > Ajustes de protección > Operación > Notificaciones.
+  - model: No hace falta hacer nada si esto es lo esperado. Puedes cambiar a un resumen diario en ReportedIP Hive > Ajustes de protección > Operación > Avisos.
+  - reason: Según el glosario, «notification» se traduce como «aviso», no como «notificación».
+- #57 Every security event Hive recorded in this network, newest first: failed logins, firewall hits, scans, spam and the blocks that followed. Narrow the list with the filters, then block or whitelist an address straight from its row.
+  - original: Todos los eventos de seguridad que Hive ha registrado en esta red, los más recientes primero: inicios de sesión fallidos, coincidencias del cortafuegos, escaneos, spam y los bloqueos que siguieron. Acota la lista con los filtros y bloquea o añade una dirección a la lista blanca desde su propia fila.
+  - model: Todos los eventos de seguridad que Hive ha registrado en esta red, los más recientes primero: accesos fallidos, coincidencias del cortafuegos, exploraciones, spam y los bloqueos que siguieron. Acota la lista con los filtros y bloquea o añade una dirección a los admitidos desde su propia fila.
+  - reason: Según el criterio del equipo, «whitelist» como verbo o adjetivo se traduce como «añadir a los admitidos» o «admitido»; «lista blanca» se mantiene como sustantivo.
+- #62 The ReportedIP Hive Pro add-on adds the features below to this plugin. Download it from your account dashboard at reportedip.com, upload it in the Network Admin under Plugins, Add New Plugin and activate it network-wide; it works with the Community Access Key of this network.
+  - original: El complemento ReportedIP Hive Pro añade a este plugin las funciones de abajo. Descárgalo desde el panel de tu cuenta en reportedip.com, súbelo en la administración de la red en Plugins, Añadir nuevo plugin y actívalo en toda la red; funciona con la Community Access Key de esta red.
+  - model: La extensión ReportedIP Hive Pro añade a este plugin las funciones de abajo. Descárgalo desde el escritorio de tu cuenta en reportedip.com, súbelo en la administración de la red en Plugins, Añadir nuevo plugin y actívalo en toda la red; funciona con la Community Access Key de esta red.
+  - reason: Según el glosario, «Dashboard» se traduce como «escritorio», no como «panel».
+- #66 Your reportedip.com account is on the %1$s plan. Download the ReportedIP Hive Pro add-on from %2$s, upload it in the Network Admin and activate it network-wide.
+  - original: Tu cuenta de reportedip.com tiene el plan %1$s. Descarga el complemento ReportedIP Hive Pro desde %2$s, súbelo en la administración de la red y actívalo en toda la red.
+  - model: Tu cuenta de reportedip.com tiene el plan %1$s. Descarga la extensión ReportedIP Hive Pro desde %2$s, súbelo en la administración de la red y actívalo en toda la red.
+  - reason: Según el glosario, «add-on» se traduce como «extensión».
+- #122 Are you sure you want to delete this queue item?
+  - original: ¿Seguro que quieres eliminar este elemento de la cola?
+  - model: ¿Seguro que quieres borrar este elemento de la cola?
+  - reason: Según el glosario, «delete» se traduce como «borrar», no como «eliminar».
+- #124 Deleting...
+  - original: Eliminando...
+  - model: Borrando...
+  - reason: Según el glosario, «delete» se traduce como «borrar», no como «eliminar».
+- #126 Error deleting report
+  - original: Error al eliminar el informe
+  - model: Error al borrar el informe
+  - reason: Según el glosario, «delete» se traduce como «borrar», no como «eliminar».
+- #173 The sign-in method set up for your account is not available on this site right now, and no recovery codes are left. Please ask an administrator to reset two-factor authentication for your account.
+  - original: El método de acceso configurado para tu cuenta no está disponible ahora en este sitio y no te quedan códigos de recuperación. Pide a un administrador que restablezca la autenticación de dos factores de tu cuenta.
+  - model: El método de acceso configurado para tu cuenta no está disponible ahora en este sitio y no te quedan códigos de recuperación. Pide a un administrador que restablezca la identificación en dos pasos de tu cuenta.
+  - reason: Según el glosario y la guía, «authentication» se traduce como «identificación» y «two-factor» como «dos pasos»; no se usan anglicismos.
+- #174 Authenticator
+  - original: Autenticador
+  - model: App de identificación
+  - reason: Según el glosario y la guía, «authentication» se traduce como «identificación» y «two-factor» como «dos pasos»; no se usan anglicismos.
+- #175 6-digit code from your authenticator app
+  - original: Código de 6 dígitos de tu aplicación de autenticación
+  - model: Código de 6 dígitos de tu aplicación de identificación
+  - reason: Según el glosario y la guía, «authentication» se traduce como «identificación» y «two-factor» como «dos pasos»; no se usan anglicismos.
+- #180 Enter the 6-digit code from your authenticator app.
+  - original: Introduce el código de 6 dígitos de tu aplicación de autenticación.
+  - model: Introduce el código de 6 dígitos de tu aplicación de identificación.
+  - reason: Según el glosario y la guía, «authentication» se traduce como «identificación» y «two-factor» como «dos pasos»; no se usan anglicismos.
+- #181 Authenticator code
+  - original: Código del autenticador
+  - model: Código de la app de identificación
+  - reason: Según el glosario y la guía, «authentication» se traduce como «identificación» y «two-factor» como «dos pasos»; no se usan anglicismos.
+- #192 Set Up Two-Factor Authentication
+  - original: Configurar la autenticación de dos factores
+  - model: Configurar la identificación en dos pasos
+  - reason: Según el glosario y la guía, «authentication» se traduce como «identificación» y «two-factor» como «dos pasos»; no se usan anglicismos.
+- #202 Welcome to Two-Factor Authentication for %s
+  - original: Bienvenido a la autenticación de dos factores de %s
+  - model: Te damos la bienvenida a la identificación en dos pasos de %s
+  - reason: Según el glosario y la guía, «authentication» se traduce como «identificación» y «two-factor» como «dos pasos»; no se usan anglicismos.
+- #219 Set up authenticator app
+  - original: Configurar aplicación de autenticación
+  - model: Configurar aplicación de identificación
+  - reason: Según el glosario y la guía, «authentication» se traduce como «identificación» y «two-factor» como «dos pasos»; no se usan anglicismos.
+- #220 Install an authenticator app on your smartphone if you don't have one yet.
+  - original: Instala una aplicación de autenticación en tu móvil si aún no tienes una.
+  - model: Instala una aplicación de identificación en tu móvil si aún no tienes una.
+  - reason: Según el glosario y la guía, «authentication» se traduce como «identificación» y «two-factor» como «dos pasos»; no se usan anglicismos.
+- #229 Protect your email account with 2FA too.
+  - original: Protege también tu cuenta de correo con 2FA.
+  - model: Protege también tu cuenta de correo electrónico con 2FA.
+  - reason: En textos de ayuda, «email» es «correo electrónico», no «correo».
+- #258 How long a clean result is reused. Shorter than the above, because an address can turn bad quickly.
+  - original: Cuánto tiempo se reutiliza un resultado limpio. Menos que el anterior, porque una dirección puede volverse maliciosa rápido.
+  - model: Cuánto tiempo se reutiliza un resultado limpio. Menos que el anterior, porque una dirección puede pasar a ser malintencionada rápidamente.
+  - reason: Según el glosario, «malicious» se traduce como «malintencionado».
+- #277 Send notification preferences to the community server
+  - original: Enviar las preferencias de notificación al servidor de la comunidad
+  - model: Enviar las preferencias de aviso al servidor de la comunidad
+  - reason: Según el glosario, «notification» se traduce como «aviso», no como «notificación».
+- #278 Let the community server know your notification preferences, so it can reach you about your account.
+  - original: Informa al servidor de la comunidad de tus preferencias de notificación, para que pueda contactarte sobre tu cuenta.
+  - model: Informa al servidor de la comunidad de tus preferencias de aviso, para que pueda contactarte sobre tu cuenta.
+  - reason: Según el glosario, «notification» se traduce como «aviso», no como «notificación».
+- #279 Per-event notification cap (minutes)
+  - original: Límite de notificaciones por evento (minutos)
+  - model: Límite de avisos por evento (minutos)
+  - reason: Según el glosario, «notification» se traduce como «aviso», no como «notificación».
+- #280 Admin notifications
+  - original: Notificaciones al administrador
+  - model: Avisos al administrador
+  - reason: Según el glosario, «notification» se traduce como «aviso», no como «notificación».
+- #281 Mail the recipients below when something needs a person to look at it.
+  - original: Envía un correo a los destinatarios indicados abajo cuando algo requiera la revisión de una persona.
+  - model: Envía un correo electrónico a los destinatarios indicados abajo cuando algo requiera la revisión de una persona.
+  - reason: En textos de ayuda, «correo» debe ser «correo electrónico».
+- #282 Notification recipients
+  - original: Destinatarios de las notificaciones
+  - model: Destinatarios de los avisos
+  - reason: Según el glosario, «notification» se traduce como «aviso», no como «notificación».
+- #283 Who receives those mails. Several addresses can be separated by commas.
+  - original: Quién recibe esos correos. Puedes separar varias direcciones con comas.
+  - model: Quién recibe esos correos electrónicos. Puedes separar varias direcciones con comas.
+  - reason: En textos de ayuda, «correo» debe ser «correo electrónico».
+- #285 The sender name on mails this plugin sends.
+  - original: El nombre del remitente en los correos que envía este plugin.
+  - model: El nombre del remitente en los correos electrónicos que envía este plugin.
+  - reason: En textos de ayuda, «correo» debe ser «correo electrónico».
+- #287 The sender address. Use one at your own domain, otherwise the mails land in spam.
+  - original: La dirección del remitente. Usa una de tu propio dominio; si no, los correos acaban en spam.
+  - model: La dirección del remitente. Usa una de tu propio dominio; si no, los correos electrónicos acaban en spam.
+  - reason: En textos de ayuda, «correo» debe ser «correo electrónico».
+- #288 Notification cooldown (minutes)
+  - original: Pausa entre notificaciones (minutos)
+  - model: Pausa entre avisos (minutos)
+  - reason: Según el glosario, «notification» se traduce como «aviso», no como «notificación».
+- #293 Overview of two-factor authentication for all users
+  - original: Resumen de la autenticación de dos factores de todos los usuarios
+  - model: Resumen de la identificación en dos pasos de todos los usuarios
+  - reason: Según el glosario y la guía, «authentication» se traduce como «identificación» y «two-factor» como «dos pasos»; no se usan anglicismos.
+- #326 A sign-in attempt with the security key "%s" was blocked because its usage counter did not advance, which can indicate a cloned key. If your key was recently reset this may be a false alarm; otherwise treat the key as compromised, remove it and enrol a new one.
+  - original: Se bloqueó un intento de acceso con la llave de seguridad "%s" porque su contador de uso no avanzó, lo que puede indicar una llave clonada. Si la llave se restableció hace poco, puede ser una falsa alarma; si no, considera la llave comprometida, elimínala y registra una nueva.
+  - model: Se bloqueó un intento de acceso con la llave de seguridad «%s» porque su contador de uso no avanzó, lo que puede indicar una llave clonada. Si la llave se restableció hace poco, puede ser una falsa alarma; si no, considera la llave comprometida, elimínala y registra una nueva.
+  - reason: Usa comillas españolas «» en lugar de comillas rectas.
+- #331 Just letting you know, your account at %s was just accessed from a device that hasn't signed in here before. If that was you, no further action is needed.
+  - original: Te informamos de que se acaba de acceder a tu cuenta en %s desde un dispositivo que no había iniciado sesión aquí antes. Si fuiste tú, no tienes que hacer nada.
+  - model: Te informamos de que se acaba de acceder a tu cuenta en %s desde un dispositivo que no había accedido aquí antes. Si fuiste tú, no tienes que hacer nada.
+  - reason: Según el glosario, «sign in» se traduce como «acceder», no como «iniciar sesión».
+- #333 Set up two-factor
+  - original: Configurar dos factores
+  - model: Configurar dos pasos
+  - reason: Según el glosario y la guía, «authentication» se traduce como «identificación» y «two-factor» como «dos pasos»; no se usan anglicismos.
+- #334 Onboarding template is missing.
+  - original: Falta la plantilla de configuración inicial.
+  - model: Falta la plantilla de puesta en marcha.
+  - reason: Según el glosario, «onboarding» se traduce como «puesta en marcha».
+- #346 The request timed out or was cancelled. Touch your security key only when the browser dialog asks for it (pick "Security key" in the Windows dialog if offered), then try again or choose another method.
+  - original: La solicitud caducó o se canceló. Toca tu llave de seguridad solo cuando el navegador te lo pida (elige "Llave de seguridad" en el diálogo de Windows si aparece) y vuelve a intentarlo o elige otro método.
+  - model: La solicitud caducó o se canceló. Toca tu llave de seguridad solo cuando el navegador te lo pida (elige «Llave de seguridad» en el diálogo de Windows si aparece) y vuelve a intentarlo o elige otro método.
+  - reason: Usa comillas españolas «» en lugar de comillas rectas.
+- #349 Not signed in.
+  - original: No has iniciado sesión.
+  - model: No has accedido.
+  - reason: Según el glosario, «sign in» se traduce como «acceder», no como «iniciar sesión».
+- #350 Onboarding is no longer required.
+  - original: La configuración inicial ya no es obligatoria.
+  - model: La puesta en marcha ya no es obligatoria.
+  - reason: Según el glosario, «onboarding» se traduce como «puesta en marcha».
+- #352 Onboarding postponed.
+  - original: Configuración inicial pospuesta.
+  - model: Puesta en marcha pospuesta.
+  - reason: Según el glosario, «onboarding» se traduce como «puesta en marcha».
+- #353 A second factor (authenticator app, email or passkey) keeps your login safe even if your password leaks. Reminder %1$d of %2$d, after that you will need to set 2FA up before continuing.
+  - original: Un segundo factor (app de autenticación, correo o llave de acceso) mantiene segura tu cuenta aunque se filtre tu contraseña. Recordatorio %1$d de %2$d; después tendrás que configurar la 2FA para continuar.
+  - model: Un segundo factor (app de identificación, correo electrónico o llave de acceso) mantiene segura tu cuenta aunque se filtre tu contraseña. Recordatorio %1$d de %2$d; después tendrás que configurar la 2FA para continuar.
+  - reason: Según el glosario y la guía, «authentication» se traduce como «identificación» y «two-factor» como «dos pasos»; no se usan anglicismos.
+- #354 A second factor (authenticator app, email or passkey) keeps your login safe even if your password leaks.
+  - original: Un segundo factor (app de autenticación, correo o llave de acceso) mantiene segura tu cuenta aunque se filtre tu contraseña.
+  - model: Un segundo factor (app de identificación, correo electrónico o llave de acceso) mantiene segura tu cuenta aunque se filtre tu contraseña.
+  - reason: Según el glosario y la guía, «authentication» se traduce como «identificación» y «two-factor» como «dos pasos»; no se usan anglicismos.
+- #355 Two-factor authentication is recommended for your account
+  - original: Se recomienda la autenticación de dos factores para tu cuenta
+  - model: Se recomienda la identificación en dos pasos para tu cuenta
+  - reason: Según el glosario y la guía, «authentication» se traduce como «identificación» y «two-factor» como «dos pasos»; no se usan anglicismos.
+- #358 For security, this account requires a second factor other than email (for example an authenticator app, a security key or a recovery code) before passwords can be reset. Please contact your administrator.
+  - original: Por seguridad, esta cuenta necesita un segundo factor distinto del correo (por ejemplo, una app de autenticación, una llave de seguridad o un código de recuperación) para poder restablecer la contraseña. Contacta con tu administrador.
+  - model: Por seguridad, esta cuenta necesita un segundo factor distinto del correo electrónico (por ejemplo, una app de identificación, una llave de seguridad o un código de recuperación) para poder restablecer la contraseña. Contacta con tu administrador.
+  - reason: Según el glosario y la guía, «authentication» se traduce como «identificación» y «two-factor» como «dos pasos»; no se usan anglicismos.
+- #361 Two-factor verification required before password reset.
+  - original: Se requiere verificación en dos factores antes de restablecer la contraseña.
+  - model: Necesitas verificación en dos pasos antes de restablecer la contraseña.
+  - reason: Según el glosario y la guía, «authentication» se traduce como «identificación» y «two-factor» como «dos pasos»; no se usan anglicismos.
+- #362 Password reset blocked: two-factor verification missing.
+  - original: Restablecimiento de contraseña bloqueado: falta la verificación en dos factores.
+  - model: Restablecimiento de contraseña bloqueado: falta la verificación en dos pasos.
+  - reason: Según el glosario y la guía, «authentication» se traduce como «identificación» y «two-factor» como «dos pasos»; no se usan anglicismos.
+- #369 Two-Factor Verification
+  - original: Verificación en dos factores
+  - model: Verificación en dos pasos
+  - reason: Según el glosario y la guía, «authentication» se traduce como «identificación» y «two-factor» como «dos pasos»; no se usan anglicismos.
+- #371 Hello %s, please verify a second factor before setting a new password. The email channel is intentionally excluded from this step.
+  - original: Hola, %s: verifica un segundo factor antes de establecer una contraseña nueva. El correo queda excluido a propósito en este paso.
+  - model: Hola, %s: verifica un segundo factor antes de establecer una contraseña nueva. El correo electrónico queda excluido a propósito en este paso.
+  - reason: En textos de ayuda, «correo» debe ser «correo electrónico».
+- #379 A password reset was attempted for the user "%s". None of the second-factor methods configured on the account is currently usable (the secret may be missing or unreadable, a method may not be available on this site, or recovery codes are exhausted), the reset has been blocked.
+  - original: Se intentó restablecer la contraseña del usuario "%s". Ninguno de los métodos de segundo factor configurados en la cuenta se puede usar ahora (puede faltar el secreto o no ser legible, un método puede no estar disponible en este sitio o se han agotado los códigos de recuperación), así que se ha bloqueado el restablecimiento.
+  - model: Se intentó restablecer la contraseña del usuario «%s». Ninguno de los métodos de segundo factor configurados en la cuenta se puede usar ahora (puede faltar el secreto o no ser legible, un método puede no estar disponible en este sitio o se han agotado los códigos de recuperación), así que se ha bloqueado el restablecimiento.
+  - reason: Usa comillas españolas «» en lugar de comillas rectas.
+- #381 A password reset was attempted for the user "%s". After excluding the email channel (the channel that delivered the reset link itself), no eligible second factor remains, the reset has been blocked.
+  - original: Se intentó restablecer la contraseña del usuario "%s". Tras excluir el correo (el canal que entregó el propio enlace de restablecimiento), no queda ningún segundo factor válido, así que se ha bloqueado el restablecimiento.
+  - model: Se intentó restablecer la contraseña del usuario «%s». Tras excluir el correo electrónico (el canal que entregó el propio enlace de restablecimiento), no queda ningún segundo factor válido, así que se ha bloqueado el restablecimiento.
+  - reason: En textos de ayuda, «correo» debe ser «correo electrónico». Las comillas del nombre de usuario son españolas («»).
+- #383 A password reset was attempted for the user "%s". The account currently has only email-based 2FA configured and no recovery codes, for security, the reset has been blocked.
+  - original: Se intentó restablecer la contraseña del usuario "%s". La cuenta solo tiene configurada la 2FA por correo y no tiene códigos de recuperación; por seguridad, se ha bloqueado el restablecimiento.
+  - model: Se intentó restablecer la contraseña del usuario «%s». La cuenta solo tiene configurada la 2FA por correo electrónico y no tiene códigos de recuperación; por seguridad, se ha bloqueado el restablecimiento.
+  - reason: En textos de ayuda, «correo» debe ser «correo electrónico». Las comillas son españolas («»).
+- #385 To unblock the user, either reset their password manually via WP-CLI (`wp user reset-password <id> --skip-email`) or enrol an additional 2FA method (for example an authenticator app, a security key or recovery codes) on their behalf.
+  - original: Para desbloquear al usuario, restablece su contraseña manualmente con WP-CLI (`wp user reset-password <id> --skip-email`) o activa en su nombre otro método 2FA (por ejemplo una app de autenticación, una llave de seguridad o códigos de recuperación).
+  - model: Para desbloquear al usuario, restablece su contraseña manualmente con WP-CLI (`wp user reset-password <id> --skip-email`) o activa en su nombre otro método 2FA (por ejemplo una app de identificación, una llave de seguridad o códigos de recuperación).
+  - reason: Según el glosario y la guía, «authentication» se traduce como «identificación» y «two-factor» como «dos pasos»; no se usan anglicismos.
+- #387 authenticator-app secret is missing
+  - original: falta el secreto de la app de autenticación
+  - model: falta el secreto de la app de identificación
+  - reason: Según el glosario y la guía, «authentication» se traduce como «identificación» y «two-factor» como «dos pasos»; no se usan anglicismos.
+- #388 authenticator-app secret cannot be decrypted
+  - original: no se puede descifrar el secreto de la app de autenticación
+  - model: no se puede descifrar el secreto de la app de identificación
+  - reason: Según el glosario y la guía, «authentication» se traduce como «identificación» y «two-factor» como «dos pasos»; no se usan anglicismos.
+- #396 Enter the 6-digit code from your authenticator app
+  - original: Introduce el código de 6 dígitos de tu app de autenticación
+  - model: Introduce el código de 6 dígitos de tu app de identificación
+  - reason: Según el glosario y la guía, «authentication» se traduce como «identificación» y «two-factor» como «dos pasos»; no se usan anglicismos.
+- #400 Cross-origin authentication requests are not allowed.
+  - original: No se permiten solicitudes de autenticación de otro origen.
+  - model: No se permiten solicitudes de identificación de otro origen.
+  - reason: Según el glosario y la guía, «authentication» se traduce como «identificación» y «two-factor» como «dos pasos»; no se usan anglicismos.
+- #420 The authenticator did not confirm user presence.
+  - original: El autenticador no ha confirmado la presencia del usuario.
+  - model: El dispositivo de identificación no ha confirmado la presencia del usuario.
+  - reason: Según el glosario y la guía, «authentication» se traduce como «identificación» y «two-factor» como «dos pasos»; no se usan anglicismos.
+- #421 User verification is required but was not performed.
+  - original: Se requiere la verificación del usuario, pero no se ha realizado.
+  - model: La verificación del usuario es obligatoria, pero no se ha realizado.
+  - reason: La guía desaconseja «se requiere», una construcción impersonal calcada del inglés. Según el glosario, «required» es «obligatorio».
+- #427 This is your only security key and two-factor authentication is required for your account. Set up another method before removing it.
+  - original: Esta es tu única llave de seguridad y tu cuenta requiere autenticación de dos factores. Configura otro método antes de eliminarla.
+  - model: Esta es tu única llave de seguridad y tu cuenta requiere identificación en dos pasos. Configura otro método antes de eliminarla.
+  - reason: Según el glosario y la guía, «authentication» se traduce como «identificación» y «two-factor» como «dos pasos»; no se usan anglicismos.
+- #445 Your session has expired. Please sign in again.
+  - original: Tu sesión ha caducado. Vuelve a iniciar sesión.
+  - model: Tu sesión ha caducado. Vuelve a acceder.
+  - reason: Según el glosario, «sign in» se traduce como «acceder», no como «iniciar sesión».
+- #449 Authenticator app (TOTP)
+  - original: App de autenticación (TOTP)
+  - model: App de identificación (TOTP)
+  - reason: Según el glosario y la guía, «authentication» se traduce como «identificación» y «two-factor» como «dos pasos»; no se usan anglicismos.
+- #453 No valid code is active, you likely used an older code. Please click "Resend code" and use only the most recent code from your inbox.
+  - original: No hay ningún código válido activo; probablemente has usado un código antiguo. Haz clic en "Reenviar código" y usa solo el código más reciente de tu bandeja de entrada.
+  - model: No hay ningún código válido activo; probablemente has usado un código antiguo. Haz clic en «Reenviar código» y usa solo el código más reciente de tu bandeja de entrada.
+  - reason: Usa comillas españolas «» en lugar de comillas rectas.
+- #456 <strong>Two-factor authentication required.</strong> Your skip quota is exhausted. Please contact an administrator to reset 2FA.
+  - original: <strong>Se requiere autenticación de dos factores.</strong> Has agotado las veces que podías omitirla. Pide a un administrador que restablezca la 2FA.
+  - model: <strong>Necesitas identificación en dos pasos.</strong> Has agotado las veces que podías omitirla. Pide a un administrador que restablezca la 2FA.
+  - reason: Según el glosario y la guía, «authentication» se traduce como «identificación» y «two-factor» como «dos pasos»; no se usan anglicismos.
+- #457 Two-factor verification required.
+  - original: Se requiere verificación en dos factores.
+  - model: Necesitas verificación en dos pasos.
+  - reason: Según el glosario y la guía, «authentication» se traduce como «identificación» y «two-factor» como «dos pasos»; no se usan anglicismos.
+- #460 Your two-factor session has expired. This happens after 15 minutes of inactivity, or when the security cookie is missing, for example when the login form is loaded inside an iframe. Please sign in again.
+  - original: Tu sesión de dos factores ha caducado. Esto ocurre tras 15 minutos de inactividad o si falta la cookie de seguridad, por ejemplo cuando el formulario de acceso se carga dentro de un iframe. Vuelve a iniciar sesión.
+  - model: Tu sesión de dos pasos ha caducado. Esto ocurre tras 15 minutos de inactividad o si falta la cookie de seguridad, por ejemplo cuando el formulario de acceso se carga dentro de un iframe. Vuelve a acceder.
+  - reason: Según el glosario y la guía, «authentication» se traduce como «identificación» y «two-factor» como «dos pasos»; no se usan anglicismos.
+- #461 The user account from your two-factor session is no longer available. Please sign in again.
+  - original: La cuenta de usuario de tu sesión de dos factores ya no está disponible. Vuelve a iniciar sesión.
+  - model: La cuenta de usuario de tu sesión de dos pasos ya no está disponible. Vuelve a acceder.
+  - reason: Según el glosario y la guía, «authentication» se traduce como «identificación» y «two-factor» como «dos pasos»; no se usan anglicismos.
+- #463 Too many failed verification attempts. Your two-factor session was invalidated for security. Please sign in again.
+  - original: Demasiados intentos de verificación fallidos. Por seguridad, tu sesión de dos factores se ha invalidado. Vuelve a iniciar sesión.
+  - model: Demasiados intentos de verificación fallidos. Por seguridad, tu sesión de dos pasos se ha invalidado. Vuelve a acceder.
+  - reason: Según el glosario y la guía, «authentication» se traduce como «identificación» y «two-factor» como «dos pasos»; no se usan anglicismos.
+- #464 Your two-factor session expired. Please sign in again.
+  - original: Tu sesión de dos factores ha caducado. Vuelve a iniciar sesión.
+  - model: Tu sesión de dos pasos ha caducado. Vuelve a acceder.
+  - reason: Según el glosario y la guía, «authentication» se traduce como «identificación» y «two-factor» como «dos pasos»; no se usan anglicismos.
+- #492 Pro add-on
+  - original: Complemento Pro
+  - model: Extensión Pro
+  - reason: Según el glosario, «add-on» se traduce como «extensión».
+- #496 Are you sure you want to whitelist this IP?
+  - original: ¿Seguro que quieres añadir esta IP a la lista blanca?
+  - model: ¿Seguro que quieres añadir esta IP a los admitidos?
+  - reason: Según el criterio del equipo, «whitelist» como verbo o adjetivo se traduce como «añadir a los admitidos» o «admitido»; «lista blanca» se mantiene como sustantivo.
+- #499 WARNING: This will delete ALL plugin data including logs, blocked IPs, and whitelist entries. This cannot be undone!
+  - original: AVISO: Se borrarán TODOS los datos del plugin, incluidos registros, IP bloqueadas y entradas de la lista blanca. ¡No se puede deshacer!
+  - model: ADVERTENCIA: Se borrarán TODOS los datos del plugin, incluidos registros, IP bloqueadas y entradas de la lista blanca. ¡No se puede deshacer!
+  - reason: Según el glosario, «warning» es «advertencia», no «aviso».
+- #500 Are you absolutely sure?
+  - original: ¿Estás completamente seguro?
+  - model: ¿Seguro del todo?
+  - reason: Según el glosario, para preguntar sin género se usa «¿Seguro que…?», no «¿Estás seguro…?».
+- #502 Allow rule "%1$s" on path "%2$s"? The WAF stays active everywhere else.
+  - original: ¿Permitir la regla "%1$s" en la ruta "%2$s"? El WAF sigue activo en el resto del sitio.
+  - model: ¿Permitir la regla «%1$s» en la ruta «%2$s»? El WAF sigue activo en el resto del sitio.
+  - reason: Usa comillas españolas «» en lugar de comillas rectas.
+- #506 Enter reason for whitelisting (optional):
+  - original: Motivo para añadir a la lista blanca (opcional):
+  - model: Motivo para añadir a los admitidos (opcional):
+  - reason: Según el criterio del equipo, «whitelist» como verbo o adjetivo se traduce como «añadir a los admitidos» o «admitido»; «lista blanca» se mantiene como sustantivo.
+- #507 Manually whitelisted from blocked list
+  - original: Añadida manualmente a la lista blanca desde la lista de bloqueos
+  - model: Añadida manualmente a los admitidos desde la lista de bloqueos
+  - reason: Según el criterio del equipo, «whitelist» como verbo o adjetivo se traduce como «añadir a los admitidos» o «admitido»; «lista blanca» se mantiene como sustantivo.
+- #521 What happens when a registration uses a throwaway mail domain.
+  - original: Qué pasa cuando un registro usa un dominio de correo desechable.
+  - model: Qué pasa cuando un registro usa un dominio de correo electrónico desechable.
+  - reason: En textos de ayuda, «email» es «correo electrónico», no «correo».
+- #527 Also reject the built-in list of role names such as admin, administrator and root. It does not count towards the ten entries of the list above.
+  - original: Rechaza también la lista incluida de nombres de rol como admin, administrator y root. No cuenta para las diez entradas de la lista de arriba.
+  - model: Rechaza también la lista incluida de nombres de perfil como admin, administrator y root. No cuenta para las diez entradas de la lista de arriba.
+  - reason: Según el glosario, «role» se traduce como «perfil», no como «rol».
+- #540 Comment honeypot
+  - original: Honeypot de comentarios
+  - model: Señuelo de comentarios
+  - reason: Según el glosario, «honeypot» se traduce como «señuelo».
+- #551 What happens when a comment or a protected contact form carries an address from a throwaway mail provider. A refused sender is asked at the form for a permanent address.
+  - original: Qué pasa cuando un comentario o un formulario de contacto protegido lleva una dirección de un proveedor de correo desechable. Al remitente rechazado se le pide en el formulario una dirección permanente.
+  - model: Qué pasa cuando un comentario o un formulario de contacto protegido lleva una dirección de un proveedor de correo electrónico desechable. Al remitente rechazado se le pide en el formulario una dirección permanente.
+  - reason: En textos de ayuda, «correo» debe ser «correo electrónico».
+- #569 Append the login token to links WordPress generates. Convenient for password-reset mails, but it also puts the hidden path into anything that logs a URL.
+  - original: Añade el token de acceso a los enlaces que genera WordPress. Práctico para los correos de restablecimiento de contraseña, pero también pone la ruta oculta en todo lo que registre una URL.
+  - model: Añade el token de acceso a los enlaces que genera WordPress. Práctico para los correos electrónicos de restablecimiento de contraseña, pero también pone la ruta oculta en todo lo que registre una URL.
+  - reason: En textos de ayuda, «correo» debe ser «correo electrónico».
+- #574 Roles allowed to use the REST API
+  - original: Roles con permiso para usar la API REST
+  - model: Perfiles con permiso para usar la API REST
+  - reason: Según el glosario, «role» se traduce como «perfil», no como «rol».
+- #575 The roles that may use the REST API while access is restricted to roles.
+  - original: Los roles que pueden usar la API REST mientras el acceso está restringido por roles.
+  - model: Los perfiles que pueden usar la API REST mientras el acceso está restringido por perfiles.
+  - reason: Según el glosario, «role» se traduce como «perfil», no como «rol».
+- #581 Send signed-out visitors away from wp-admin instead of showing them the sign-in form.
+  - original: Envía a otra página a los visitantes sin sesión que intenten entrar en wp-admin, en lugar de mostrarles el formulario de acceso.
+  - model: Envía a otra página a los visitantes sin sesión que intenten acceder a wp-admin, en lugar de mostrarles el formulario de acceso.
+  - reason: Según el glosario, «login» y la acción de entrar se traducen como «acceder»; «entrar» no se usa.
+- #590 Two-factor authentication enabled
+  - original: Autenticación de dos factores activada
+  - model: Identificación en dos pasos activada
+  - reason: Según el glosario y la guía, «authentication» se traduce como «identificación» y «two-factor» como «dos pasos»; no se usan anglicismos.
+- #595 Subject line of the mail that carries the sign-in code. Leave empty for the default; {site_name} is replaced with the site title.
+  - original: Línea de asunto del correo que lleva el código de acceso. Déjalo vacío para usar el predeterminado; {site_name} se sustituye por el título del sitio.
+  - model: Línea de asunto del correo electrónico que lleva el código de acceso. Déjalo vacío para usar el valor por defecto; {site_name} se sustituye por el título del sitio.
+  - reason: Según el glosario, «default» es «por defecto», no «predeterminado», y en textos largos «correo» es «correo electrónico».
+- #600 Maximum onboarding skips
+  - original: Máximo de aplazamientos de la configuración
+  - model: Máximo de aplazamientos de la puesta en marcha
+  - reason: Según el glosario, «onboarding» se traduce como «puesta en marcha», no como «configuración inicial».
+- #607 Extend the trusted-device window on "remember me"
+  - original: Ampliar la validez del dispositivo de confianza con "Recuérdame"
+  - model: Ampliar la validez del dispositivo de confianza con «Recuérdame»
+  - reason: Usa comillas españolas «» en lugar de comillas rectas.
+- #608 Give the trusted-device cookie a longer life when the user ticked "remember me". More convenient, and a stolen laptop stays signed in longer.
+  - original: Da más vida a la cookie del dispositivo de confianza cuando el usuario marcó "Recuérdame". Es más cómodo, y un portátil robado sigue con la sesión iniciada más tiempo.
+  - model: Da más vida a la cookie del dispositivo de confianza cuando el usuario marcó «Recuérdame». Es más cómodo, y un portátil robado sigue con la sesión iniciada más tiempo.
+  - reason: Usa comillas españolas «» en lugar de comillas rectas.
+- #614 Mail the user when their account is used from a device it has not seen before.
+  - original: Envía un correo al usuario cuando su cuenta se usa desde un dispositivo que no se había visto antes.
+  - model: Envía un correo electrónico al usuario cuando su cuenta se usa desde un dispositivo que no se había visto antes.
+  - reason: En textos de ayuda, «correo» debe ser «correo electrónico».
+- #624 Refuse a password reset for users whose only second factor is e-mail. Otherwise a stolen mailbox is enough for both steps.
+  - original: Rechaza el restablecimiento de contraseña a los usuarios cuyo único segundo factor es el correo. Si no, basta con un buzón robado para ambos pasos.
+  - model: Rechaza el restablecimiento de contraseña a los usuarios cuyo único segundo factor es el correo electrónico. Si no, basta con un buzón robado para ambos pasos.
+  - reason: En textos de ayuda, «correo» debe ser «correo electrónico».
+- #659 If this IP belongs to a legitimate user (e.g. office router, monitoring service), add it to your whitelist.
+  - original: Si esta IP pertenece a un usuario legítimo (p. ej. el router de la oficina o un servicio de monitorización), añádela a tu lista blanca.
+  - model: Si esta IP pertenece a un usuario legítimo (p. ej. el router de la oficina o un servicio de supervisión), añádela a tu lista blanca.
+  - reason: Según el glosario, «monitoring» se traduce como «seguimiento», «vigilancia» o «supervisión», no como «monitorización».
+- #670 Who may create an account, under which name and with which mail address. Throwaway mail domains and the rate limit for sign-ups belong here too.
+  - original: Quién puede crear una cuenta, con qué nombre y con qué dirección de correo. Aquí también están los dominios de correo desechable y el límite de registros.
+  - model: Quién puede crear una cuenta, con qué nombre y con qué dirección de correo electrónico. Aquí también están los dominios de correo electrónico desechable y el límite de registros.
+  - reason: En textos de ayuda, «correo» debe ser «correo electrónico».
+- #683 Notifications
+  - original: Notificaciones
+  - model: Avisos
+  - reason: Según el glosario, «notification» se traduce como «aviso», no como «notificación».
+- #691 Monitor failed logins
+  - original: Vigilar inicios de sesión fallidos
+  - model: Vigilar accesos fallidos
+  - reason: Según el glosario, «login» se traduce como «acceso» o «acceder».
+- #692 Count failed sign-in attempts per address and act once the threshold is passed.
+  - original: Cuenta los intentos de inicio de sesión fallidos por dirección y actúa cuando se supera el umbral.
+  - model: Cuenta los intentos de acceso fallidos por dirección y actúa cuando se supera el umbral.
+  - reason: Según el glosario, «login» se traduce como «acceso» o «acceder».
+- #693 How many failed sign-ins one address may produce inside the window below.
+  - original: Cuántos inicios de sesión fallidos puede generar una dirección dentro de la ventana de abajo.
+  - model: Cuántos accesos fallidos puede generar una dirección dentro de la ventana de abajo.
+  - reason: Según el glosario, «login» se traduce como «acceso» o «acceder».
+- #694 Failed login window (minutes)
+  - original: Ventana de inicios de sesión fallidos (minutos)
+  - model: Ventana de accesos fallidos (minutos)
+  - reason: Según el glosario, «login» se traduce como «acceso» o «acceder».
+- #695 The window the failed sign-ins are counted in.
+  - original: La ventana en la que se cuentan los inicios de sesión fallidos.
+  - model: La ventana en la que se cuentan los accesos fallidos.
+  - reason: Según el glosario, «login» se traduce como «acceso» o «acceder».
+- #714 Monitor 404 scans
+  - original: Vigilar escaneos 404
+  - model: Vigilar exploraciones 404
+  - reason: Según el glosario, «scan» (sustantivo) se traduce como «exploración».
+- #716 404 scan threshold
+  - original: Umbral de escaneo 404
+  - model: Umbral de exploración 404
+  - reason: Según el glosario, «scan» (sustantivo) se traduce como «exploración».
+- #718 404 scan window (minutes)
+  - original: Ventana de escaneo 404 (minutos)
+  - model: Ventana de exploración 404 (minutos)
+  - reason: Según el glosario, «scan» (sustantivo) se traduce como «exploración».
+- #721 Watch application passwords, which authenticate without ever passing the second factor.
+  - original: Vigila las contraseñas de aplicación, que autentican sin pasar nunca por el segundo factor.
+  - model: Vigila las contraseñas de aplicación, que permiten identificarse sin pasar nunca por el segundo factor.
+  - reason: Según el glosario, «authenticate» se traduce como «identificar».
+- #742 Monitor country and network changes on login
+  - original: Vigilar cambios de país y de red al iniciar sesión
+  - model: Vigilar cambios de país y de red al acceder
+  - reason: Según el glosario, «login» se traduce como «acceso» o «acceder».
+- #743 Notice when an account signs in from a country or network it has never used.
+  - original: Avisa cuando una cuenta inicia sesión desde un país o una red que nunca ha usado.
+  - model: Avisa cuando una cuenta accede desde un país o una red que nunca ha usado.
+  - reason: Según el glosario, «sign in» se traduce como «acceder», no como «iniciar sesión».
+- #744 Login history window (days)
+  - original: Ventana del historial de inicios de sesión (días)
+  - model: Ventana del historial de accesos (días)
+  - reason: Según el glosario, «login» se traduce como «acceso» o «acceder».
+- #747 Drop the account's trusted devices when it signs in from a new country, so the second factor is asked for again.
+  - original: Elimina los dispositivos de confianza de la cuenta cuando inicia sesión desde un país nuevo, para que se vuelva a pedir el segundo factor.
+  - model: Elimina los dispositivos de confianza de la cuenta cuando accede desde un país nuevo, para que se vuelva a pedir el segundo factor.
+  - reason: Según el glosario, «sign in» se traduce como «acceder», no como «iniciar sesión».
+- #779 Inspect every front-end request against attack signatures before it reaches your site.
+  - original: Revisa cada petición a la parte pública con las firmas de ataque antes de que llegue a tu sitio.
+  - model: Revisa cada petición a la vista pública con las firmas de ataque antes de que llegue a tu sitio.
+  - reason: Según el glosario, «front-end» se traduce como «portada» o «vista pública».
+- #787 The pre-WordPress guard cannot see roles, only the sign-in cookie. With this on it leaves the request body of signed-in users alone, so an editor saving a post with a script tag in it is not refused before WordPress loads. URL and user-agent rules still run.
+  - original: La protección previa a WordPress no ve los roles, solo la cookie de acceso. Con esto activado deja sin revisar el cuerpo de las peticiones de usuarios conectados, así un editor que guarda una entrada con una etiqueta script no es rechazado antes de que cargue WordPress. Las reglas de URL y de agente de usuario se siguen aplicando.
+  - model: La protección previa a WordPress no ve los perfiles, solo la cookie de acceso. Con esto activado deja sin revisar el cuerpo de las peticiones de usuarios conectados, así un editor que guarda una entrada con una etiqueta script no es rechazado antes de que cargue WordPress. Las reglas de URL y de agente de usuario se siguen aplicando.
+  - reason: Según el glosario, «role» se traduce como «perfil», no como «rol».
+- #790 Manage this site from the reportedip.com dashboard: policies, per-site overrides and drift detection.
+  - original: Gestiona este sitio desde el panel de reportedip.com: políticas, ajustes propios por sitio y detección de desviaciones.
+  - model: Gestiona este sitio desde el escritorio de reportedip.com: políticas, ajustes propios por sitio y detección de desviaciones.
+  - reason: Según el glosario, «Dashboard» se traduce como «escritorio», no como «panel».
+- #801 A rule or group identifier is required for this exception scope.
+  - original: Este ámbito de excepción requiere un identificador de regla o de grupo.
+  - model: Es obligatorio un identificador de regla o de grupo para este ámbito de excepción.
+  - reason: Según el glosario, «required» se traduce como «obligatorio».
+- #803 Please use a permanent e-mail address. Disposable-mail providers are not accepted.
+  - original: Usa una dirección de correo electrónico permanente. No se aceptan proveedores de correo desechable.
+  - model: Usa una dirección de correo electrónico permanente. No se aceptan proveedores de correo electrónico desechable.
+  - reason: En textos de ayuda, «correo» debe ser «correo electrónico».
+- #804 Failed Login
+  - original: Inicio de sesión fallido
+  - model: Acceso fallido
+  - reason: Según el glosario, «login» se traduce como «acceso» o «acceder», no como «inicio de sesión».
+- #806 WooCommerce Login Failed
+  - original: Inicio de sesión de WooCommerce fallido
+  - model: Acceso de WooCommerce fallido
+  - reason: Según el glosario, «login» se traduce como «acceso» o «acceder», no como «inicio de sesión».
+- #811 Successful Login
+  - original: Inicio de sesión correcto
+  - model: Acceso correcto
+  - reason: Según el glosario, «login» se traduce como «acceso» o «acceder», no como «inicio de sesión».
+- #816 Unknown Username Probe
+  - original: Sondeo de usuario desconocido
+  - model: Sondeo de nombre de usuario desconocido
+  - reason: Según el glosario, «username» se traduce como «nombre de usuario», no como «usuario» en este contexto.
+- #820 Comment Honeypot
+  - original: Honeypot de comentarios
+  - model: Señuelo de comentarios
+  - reason: Según el glosario, «honeypot» se traduce como «señuelo».
+- #823 Scan Detected
+  - original: Escaneo detectado
+  - model: Exploración detectada
+  - reason: Según el glosario, «scan» (sustantivo) se traduce como «exploración».
+- #862 Would Send Notification
+  - original: Enviaría una notificación
+  - model: Enviaría un aviso
+  - reason: Según el glosario, «notification» se traduce como «aviso», no como «notificación».
+- #865 IP Whitelisted
+  - original: IP añadida a la lista blanca
+  - model: IP admitida
+  - reason: Según el criterio del equipo, «whitelist» como verbo o adjetivo se traduce como «añadir a los admitidos» o «admitido»; «lista blanca» se mantiene como sustantivo.
+- #873 Block Skipped (whitelisted)
+  - original: Bloqueo omitido (en lista blanca)
+  - model: Bloqueo omitido (admitida)
+  - reason: Según el criterio del equipo, «whitelist» como verbo o adjetivo se traduce como «añadir a los admitidos» o «admitido»; «lista blanca» se mantiene como sustantivo.
+- #886 Report Deleted
+  - original: Informe eliminado
+  - model: Informe borrado
+  - reason: Según el glosario, «delete» se traduce como «borrar», no como «eliminar».
+- #887 Reports Retried (bulk)
+  - original: Informes reintentados (en lote)
+  - model: Informes reintentados (por lotes)
+  - reason: Según el glosario, «bulk» se traduce como «por lotes».
+- #896 Notification Rate Limited
+  - original: Notificación limitada por frecuencia
+  - model: Aviso limitado por frecuencia
+  - reason: Según el glosario, «notification» se traduce como «aviso», no como «notificación».
+- #897 Notification Suppressed (cap)
+  - original: Notificación suprimida (límite)
+  - model: Aviso suprimido (límite)
+  - reason: Según el glosario, «notification» se traduce como «aviso», no como «notificación».
+- #909 Login Simulation Started
+  - original: Simulación de inicio de sesión iniciada
+  - model: Simulación de acceso iniciada
+  - reason: Según el glosario, «login» se traduce como «acceso» o «acceder», no como «inicio de sesión».
+- #910 Simulated Failed Login
+  - original: Inicio de sesión fallido simulado
+  - model: Acceso fallido simulado
+  - reason: Según el glosario, «login» se traduce como «acceso» o «acceder», no como «inicio de sesión».
+- #928 Two-Factor
+  - original: Dos factores
+  - model: Dos pasos
+  - reason: Según el glosario y la guía, «authentication» se traduce como «identificación» y «two-factor» como «dos pasos»; no se usan anglicismos.
+- #948 The slug "%s" is reserved by WordPress and cannot be used.
+  - original: El slug "%s" está reservado por WordPress y no se puede usar.
+  - model: El slug «%s» está reservado por WordPress y no se puede usar.
+  - reason: Usa comillas españolas «» en lugar de comillas rectas.
+- #949 The slug "%1$s" already exists as %2$s. Pick a different slug.
+  - original: El slug "%1$s" ya existe como %2$s. Elige otro slug.
+  - model: El slug «%1$s» ya existe como %2$s. Elige otro slug.
+  - reason: Usa comillas españolas «» en lugar de comillas rectas.
+- #955 IP address is already whitelisted.
+  - original: La dirección IP ya está en la lista blanca.
+  - model: La dirección IP ya está entre las admitidas.
+  - reason: Según el criterio del equipo, «whitelist» como verbo o adjetivo se traduce como «añadir a los admitidos» o «admitido»; «lista blanca» se mantiene como sustantivo.
+- #956 IP address has been whitelisted successfully.
+  - original: La dirección IP se ha añadido a la lista blanca.
+  - model: La dirección IP se ha añadido a los admitidos.
+  - reason: Según el criterio del equipo, «whitelist» como verbo o adjetivo se traduce como «añadir a los admitidos» o «admitido»; «lista blanca» se mantiene como sustantivo.
+- #957 Failed to whitelist IP address.
+  - original: No se ha podido añadir la dirección IP a la lista blanca.
+  - model: No se ha podido añadir la dirección IP a los admitidos.
+  - reason: Según el criterio del equipo, «whitelist» como verbo o adjetivo se traduce como «añadir a los admitidos» o «admitido»; «lista blanca» se mantiene como sustantivo.
+- #963 Cannot block whitelisted IP address.
+  - original: No se puede bloquear una dirección IP de la lista blanca.
+  - model: No se puede bloquear una dirección IP admitida.
+  - reason: Según el criterio del equipo, «whitelist» como verbo o adjetivo se traduce como «añadir a los admitidos» o «admitido»; «lista blanca» se mantiene como sustantivo.
+- #969 Line %1$d: Invalid IP address "%2$s"
+  - original: Línea %1$d: dirección IP no válida "%2$s"
+  - model: Línea %1$d: dirección IP no válida «%2$s»
+  - reason: Usa comillas españolas «» en lugar de comillas rectas.
+- #970 Line %1$d: Invalid expiration date "%2$s"
+  - original: Línea %1$d: fecha de caducidad no válida "%2$s"
+  - model: Línea %1$d: fecha de caducidad no válida «%2$s»
+  - reason: Usa comillas españolas «» en lugar de comillas rectas.
+- #971 Line %1$d: Failed to import IP "%2$s"
+  - original: Línea %1$d: no se ha podido importar la IP "%2$s"
+  - model: Línea %1$d: no se ha podido importar la IP «%2$s»
+  - reason: Usa comillas españolas «» en lugar de comillas rectas.
+- #977 Monitor and log failed login attempts
+  - original: Supervisa y registra los inicios de sesión fallidos
+  - model: Supervisa y registra los accesos fallidos
+  - reason: Según el glosario, «login» se traduce como «acceso» o «acceder», no como «inicio de sesión».
+- #1003 Instant ban on the first request to a known bait path (.env.backup, wp-config.old.php, ...), distinct from the N-of-Y scan-detector.
+  - original: Bloqueo inmediato en la primera petición a una ruta señuelo conocida (.env.backup, wp-config.old.php, ...), independiente del detector de escaneos de N en Y.
+  - model: Bloqueo inmediato en la primera petición a una ruta señuelo conocida (.env.backup, wp-config.old.php, ...), independiente del detector de exploraciones de N en Y.
+  - reason: Según el glosario, «scan» (sustantivo) se traduce como «exploración».
+- #1008 Server-delivered rulesets instead of the bundled baseline: deeper firewall signatures, bot IP-range feeds and the live disposable list, refreshed regularly. Available from the Contributor plan, which costs nothing for sites that share their reports.
+  - original: Conjuntos de reglas enviados por el servidor en lugar de la base incluida: firmas de cortafuegos más profundas, fuentes de rangos IP de bots y la lista actual de correos desechables, actualizados con regularidad. Disponible desde el plan Contributor, gratuito para los sitios que comparten sus informes.
+  - model: Conjuntos de reglas enviados por el servidor en lugar de la base incluida: firmas de cortafuegos más profundas, fuentes de rangos IP de bots y la lista actual de correos electrónicos desechables, actualizados con regularidad. Disponible desde el plan Colaborador, gratuito para los sitios que comparten sus informes.
+  - reason: En textos de ayuda, «correo» debe ser «correo electrónico». Según el glosario, «contributor» se traduce como «colaborador».
+- #1012 Block registrations from throwaway-mail providers. Baseline list is free; the live list arrives via Priority Sync.
+  - original: Bloquea los registros de proveedores de correo desechable. La lista básica es gratuita; la lista actual llega mediante la sincronización prioritaria.
+  - model: Bloquea los registros de proveedores de correo electrónico desechable. La lista básica es gratuita; la lista actual llega mediante la sincronización prioritaria.
+  - reason: En textos de ayuda, «correo» debe ser «correo electrónico».
+- #1021 Honeypot operator, community contributor.
+  - original: Operador de honeypot, colaborador de la comunidad.
+  - model: Operador de señuelo, colaborador de la comunidad.
+  - reason: Según el glosario, «honeypot» se traduce como «señuelo».
+- #1028 Unlimited domains, AVV, dedicated onboarding, priority phone support.
+  - original: Dominios ilimitados, AVV, incorporación dedicada, soporte telefónico prioritario.
+  - model: Dominios ilimitados, AVV, puesta en marcha dedicada, soporte telefónico prioritario.
+  - reason: Según el glosario, «onboarding» se traduce como «puesta en marcha», no como «incorporación».
+- #1029 Honeypot Operator
+  - original: Operador de honeypot
+  - model: Operador de señuelo
+  - reason: Según el glosario, «honeypot» se traduce como «señuelo».
+- #1030 Operating a honeypot node for the network.
+  - original: Opera un nodo honeypot para la red.
+  - model: Opera un nodo señuelo para la red.
+  - reason: Según el glosario, «honeypot» se traduce como «señuelo».
+- #1035 This site uses the ReportedIP Hive security plugin. On security-relevant events (failed logins, password spraying, comment spam, XML-RPC and REST-API abuse, application-password abuse, user enumeration, 404/scanner hits, decoy-path hits, geographic login anomalies and WooCommerce logins) it processes the IP address of the request, the username used in failed logins, and the time and type of the event in order to detect attacks and block offending IP addresses.
+  - original: Este sitio usa el plugin de seguridad ReportedIP Hive. Ante eventos relevantes para la seguridad (inicios de sesión fallidos, password spraying, spam en comentarios, abuso de XML-RPC y de la API REST, abuso de contraseñas de aplicación, enumeración de usuarios, accesos 404/de escáneres, accesos a rutas señuelo, anomalías geográficas de inicio de sesión e inicios de sesión de WooCommerce) procesa la dirección IP de la solicitud, el nombre de usuario usado en los inicios de sesión fallidos y la hora y el tipo del evento para detectar ataques y bloquear las direcciones IP atacantes.
+  - model: Este sitio usa el plugin de seguridad ReportedIP Hive. Ante eventos relevantes para la seguridad (accesos fallidos, password spraying, spam en comentarios, abuso de XML-RPC y de la API REST, abuso de contraseñas de aplicación, enumeración de usuarios, accesos 404 o de escáneres, accesos a rutas señuelo, anomalías geográficas de acceso y accesos de WooCommerce) procesa la dirección IP de la solicitud, el nombre de usuario usado en los accesos fallidos y la hora y el tipo del evento para detectar ataques y bloquear las direcciones IP atacantes.
+  - reason: Según el glosario, «login» se traduce como «acceso» o «acceder», no como «inicio de sesión».
+- #1037 If "Community Network" mode is enabled (off by default), the IP address of login/access attempts and detected attacks is also transmitted to ReportedIP (reportedip.com) for community threat intelligence. Each such request identifies the installation itself with the site address and the plugin/WordPress version (for licensing and support). No visitor usernames, comment content, full user agents or other personal data of regular visitors are transmitted.
+  - original: Si el modo "Community Network" está activado (desactivado por defecto), la dirección IP de los intentos de inicio de sesión o acceso y de los ataques detectados también se envía a ReportedIP (reportedip.com) para la inteligencia comunitaria de amenazas. Cada solicitud de este tipo identifica la propia instalación con la dirección del sitio y la versión del plugin y de WordPress (para licencias y soporte). No se envían nombres de usuario de visitantes, contenido de comentarios, agentes de usuario completos ni otros datos personales de los visitantes habituales.
+  - model: Si el modo «Community Network» está activado (desactivado por defecto), la dirección IP de los intentos de acceso y de los ataques detectados también se envía a ReportedIP (reportedip.com) para la inteligencia comunitaria de amenazas. Cada solicitud de este tipo identifica la propia instalación con la dirección del sitio y la versión del plugin y de WordPress (para licencias y soporte). No se envían nombres de usuario de visitantes, contenido de comentarios, agentes de usuario completos ni otros datos personales de los visitantes habituales.
+  - reason: Según el glosario, «login» se traduce como «acceso», no como «inicio de sesión». Las comillas son españolas («»).
+- #1040 ReportedIP Hive: login attempts
+  - original: ReportedIP Hive: intentos de inicio de sesión
+  - model: ReportedIP Hive: intentos de acceso
+  - reason: Según el glosario, «login» se traduce como «acceso» o «acceder», no como «inicio de sesión».
+- #1070 Two-factor authentication is on for this site, but your account has no method yet. An authenticator app takes two minutes.
+  - original: La autenticación de dos factores está activada en este sitio, pero tu cuenta aún no tiene ningún método. Una app de autenticación se configura en dos minutos.
+  - model: La identificación en dos pasos está activada en este sitio, pero tu cuenta aún no tiene ningún método. Una app de identificación se configura en dos minutos.
+  - reason: Según el glosario y la guía, «authentication» se traduce como «identificación» y «two-factor» como «dos pasos»; no se usan anglicismos.
+- #1073 WP-Cron has not fired any ReportedIP Hive hook in the last 24 h.
+  - original: WP-Cron no ha ejecutado ningún hook de ReportedIP Hive en las últimas 24 h.
+  - model: WP-Cron no ha ejecutado ningún gancho de ReportedIP Hive en las últimas 24 h.
+  - reason: Según el glosario, «hook» se traduce como «gancho».
+- #1084 %1$d outgoing mails failed in the last 24 hours. Two-factor codes, lockout alerts and quota warnings may not arrive. Last error: %2$s
+  - original: %1$d correos salientes fallaron en las últimas 24 horas. Puede que no lleguen los códigos de dos factores, los avisos de bloqueo ni los avisos de cuota. Último error: %2$s
+  - model: %1$d correos electrónicos salientes fallaron en las últimas 24 horas. Puede que no lleguen los códigos de dos pasos, los avisos de bloqueo ni los avisos de cuota. Último error: %2$s
+  - reason: Según el glosario y la guía, «authentication» se traduce como «identificación» y «two-factor» como «dos pasos»; no se usan anglicismos.
+- #1086 Neither libsodium nor OpenSSL is available on this server, so two-factor secrets and phone numbers cannot be encrypted at rest. Ask your host to enable one of the two PHP extensions.
+  - original: Ni libsodium ni OpenSSL están disponibles en este servidor, por lo que los secretos de dos factores y los números de teléfono no pueden guardarse cifrados. Pide a tu proveedor de alojamiento que active una de las dos extensiones de PHP.
+  - model: Ni libsodium ni OpenSSL están disponibles en este servidor, por lo que los secretos de dos pasos y los números de teléfono no pueden guardarse cifrados. Pide a tu proveedor de alojamiento que active una de las dos extensiones de PHP.
+  - reason: Según el glosario y la guía, «authentication» se traduce como «identificación» y «two-factor» como «dos pasos»; no se usan anglicismos.
+- #1102 Scan detector
+  - original: Detector de escaneos
+  - model: Detector de exploraciones
+  - reason: Según el glosario, «scan» (sustantivo) se traduce como «exploración».
+- #1111 Two-factor enforced for a role
+  - original: Dos factores obligatorio para un perfil
+  - model: Dos pasos obligatorio para un perfil
+  - reason: Según el glosario y la guía, «authentication» se traduce como «identificación» y «two-factor» como «dos pasos»; no se usan anglicismos.
+- #1166 The form protection has no visible surface, so this card first shows what is switched on and then proves it. The run touches no real form: no mail goes out, no comment is filed and no entry is stored.
+  - original: La protección de formularios no tiene una parte visible, así que esta tarjeta muestra primero qué está activado y luego lo comprueba. La prueba no toca ningún formulario real: no se envía ningún correo, no se registra ningún comentario y no se guarda ninguna entrada.
+  - model: La protección de formularios no tiene una parte visible, así que esta tarjeta muestra primero qué está activado y luego lo comprueba. La prueba no toca ningún formulario real: no se envía ningún correo electrónico, no se registra ningún comentario y no se guarda ninguna entrada.
+  - reason: En textos largos, «correo» debe ser «correo electrónico».
+- #1176 Really reset 2FA for this user? The user will be able to sign in without 2FA and will be sent back to onboarding on the next login (if their role requires 2FA).
+  - original: ¿Seguro que quieres restablecer la 2FA de este usuario? Podrá acceder sin 2FA y volverá a la configuración inicial en el próximo inicio de sesión (si su perfil requiere 2FA).
+  - model: ¿Seguro que quieres restablecer la 2FA de este usuario? Podrá acceder sin 2FA y volverá a la puesta en marcha en el próximo acceso (si su perfil requiere 2FA).
+  - reason: Según el glosario, «onboarding» se traduce como «puesta en marcha» y «sign in» como «acceder».
+- #1181 [%s] Your two-factor authentication was reset
+  - original: [%s] Se ha restablecido tu autenticación de dos factores
+  - model: [%s] Se ha restablecido tu identificación en dos pasos
+  - reason: Según el glosario y la guía, «authentication» se traduce como «identificación» y «two-factor» como «dos pasos»; no se usan anglicismos.
+- #1182 Hello %s,
+  - original: Hola, %s:
+  - model: Hola, %s,
+  - reason: Mantén la coma del original.
+- #1183 An administrator has reset two-factor authentication on your account. You can sign in without 2FA for now.
+  - original: Un administrador ha restablecido la autenticación de dos factores de tu cuenta. Por ahora puedes acceder sin 2FA.
+  - model: Un administrador ha restablecido la identificación en dos pasos de tu cuenta. Por ahora puedes acceder sin 2FA.
+  - reason: Según el glosario y la guía, «authentication» se traduce como «identificación» y «two-factor» como «dos pasos»; no se usan anglicismos.
+- #1188 Turn off two-factor authentication completely? Afterwards your account is protected by your password alone.
+  - original: ¿Desactivar por completo la autenticación de dos factores? Después, tu cuenta solo estará protegida por tu contraseña.
+  - model: ¿Desactivar por completo la identificación en dos pasos? Después, tu cuenta solo estará protegida por tu contraseña.
+  - reason: Según el glosario y la guía, «authentication» se traduce como «identificación» y «two-factor» como «dos pasos»; no se usan anglicismos.
+- #1190 Sign out all trusted devices? Every device will be asked for a code on the next sign-in again.
+  - original: ¿Cerrar la sesión de todos los dispositivos de confianza? Todos los dispositivos volverán a pedir un código en el próximo inicio de sesión.
+  - model: ¿Salir de la sesión en todos los dispositivos de confianza? Todos los dispositivos volverán a pedir un código en el próximo acceso.
+  - reason: Según el glosario, «sign out» se traduce como «salir», y «sign in» como «acceder».
+- #1191 Remove this sign-in method? You will no longer be able to use it to confirm your sign-in.
+  - original: ¿Quitar este método de acceso? Ya no podrás usarlo para confirmar tu inicio de sesión.
+  - model: ¿Quitar este método de acceso? Ya no podrás usarlo para confirmar tu acceso.
+  - reason: Según el glosario, «sign in» se traduce como «acceder», no como «iniciar sesión».
+- #1192 This is your last active method. Removing it turns off two-factor authentication for this account completely. Continue?
+  - original: Este es tu último método activo. Si lo quitas, se desactiva por completo la autenticación de dos factores de esta cuenta. ¿Continuar?
+  - model: Este es tu último método activo. Si lo quitas, se desactiva por completo la identificación en dos pasos de esta cuenta. ¿Continuar?
+  - reason: Según el glosario y la guía, «authentication» se traduce como «identificación» y «two-factor» como «dos pasos»; no se usan anglicismos.
+- #1193 Set up the authenticator app again? The existing app connection stops working as soon as you finish the new setup.
+  - original: ¿Volver a configurar la aplicación de autenticación? La conexión actual con la aplicación dejará de funcionar en cuanto termines la nueva configuración.
+  - model: ¿Volver a configurar la aplicación de identificación? La conexión actual con la aplicación dejará de funcionar en cuanto termines la nueva configuración.
+  - reason: Según el glosario y la guía, «authentication» se traduce como «identificación» y «two-factor» como «dos pasos»; no se usan anglicismos.
+- #1218 Authenticator app
+  - original: Aplicación de autenticación
+  - model: Aplicación de identificación
+  - reason: Según el glosario y la guía, «authentication» se traduce como «identificación» y «two-factor» como «dos pasos»; no se usan anglicismos.
+- #1221 Confirm your sign-in with your fingerprint, your face, or a hardware security key such as a YubiKey. This is the most secure option, because it only works on the real sign-in page.
+  - original: Confirma tu inicio de sesión con tu huella, tu cara o una llave de seguridad física como una YubiKey. Es la opción más segura, porque solo funciona en la página de acceso real.
+  - model: Confirma tu acceso con tu huella, tu cara o una llave de seguridad física como una YubiKey. Es la opción más segura, porque solo funciona en la página de acceso real.
+  - reason: Según el glosario, «sign in» se traduce como «acceder», no como «iniciar sesión».
+- #1224 Two-Factor Authentication
+  - original: Autenticación de dos factores
+  - model: Identificación en dos pasos
+  - reason: Según el glosario y la guía, «authentication» se traduce como «identificación» y «two-factor» como «dos pasos»; no se usan anglicismos.
+- #1227 Two-factor authentication adds a second check when you sign in. Even if someone finds out your password, they still cannot get into your account without this second step.
+  - original: La autenticación de dos factores añade una segunda comprobación al acceder. Aunque alguien averigüe tu contraseña, no podrá entrar en tu cuenta sin este segundo paso.
+  - model: La identificación en dos pasos añade una segunda comprobación al acceder. Aunque alguien averigüe tu contraseña, no podrá entrar en tu cuenta sin este segundo paso.
+  - reason: Según el glosario y la guía, «authentication» se traduce como «identificación» y «two-factor» como «dos pasos»; no se usan anglicismos.
+- #1230 You can set up more than one method. Your default method is asked for first when you sign in; every other active method stays available as an alternative on the sign-in screen.
+  - original: Puedes configurar más de un método. Al acceder se pide primero tu método predeterminado; los demás métodos activos siguen disponibles como alternativa en la pantalla de acceso.
+  - model: Puedes configurar más de un método. Al acceder se pide primero tu método por defecto; los demás métodos activos siguen disponibles como alternativa en la pantalla de acceso.
+  - reason: Según el glosario, «default» es «por defecto», no «predeterminado».
+- #1244 Turn off two-factor authentication
+  - original: Desactivar la autenticación de dos factores
+  - model: Desactivar la identificación en dos pasos
+  - reason: Según el glosario y la guía, «authentication» se traduce como «identificación» y «two-factor» como «dos pasos»; no se usan anglicismos.
+- #1245 This removes all your sign-in methods, recovery codes and trusted devices. Your account is then protected by your password alone. If your role requires 2FA, you will be asked to set it up again on your next sign-in.
+  - original: Esto elimina todos tus métodos de inicio de sesión, códigos de recuperación y dispositivos de confianza. Tu cuenta quedará protegida solo por tu contraseña. Si tu perfil exige 2FA, se te pedirá configurarla de nuevo en tu próximo inicio de sesión.
+  - model: Esto elimina todos tus métodos de acceso, códigos de recuperación y dispositivos de confianza. Tu cuenta quedará protegida solo por tu contraseña. Si tu perfil exige 2FA, se te pedirá configurarla de nuevo en tu próximo acceso.
+  - reason: Según el glosario, «sign in» se traduce como «acceder», no como «iniciar sesión».
+- #1247 This method is asked for first when you sign in.
+  - original: Este método se pide primero al iniciar sesión.
+  - model: Este método se pide primero al acceder.
+  - reason: Según el glosario, «sign in» se traduce como «acceder», no como «iniciar sesión».
+- #1248 Default
+  - original: Predeterminado
+  - model: Por defecto
+  - reason: Según el glosario, «default» es «por defecto», no «predeterminado».
+- #1249 Make default
+  - original: Hacer predeterminado
+  - model: Hacer por defecto
+  - reason: Según el glosario, «default» es «por defecto», no «predeterminado».
+- #1252 Scan this QR code with your authenticator app, then enter the 6-digit code the app shows to finish the setup. If you cannot scan, type the key below the code into the app instead.
+  - original: Escanea este código QR con tu app de autenticación y escribe el código de 6 dígitos que muestra la app para terminar la configuración. Si no puedes escanearlo, introduce en la app la clave que aparece debajo del código.
+  - model: Escanea este código QR con tu app de identificación y escribe el código de 6 dígitos que muestra la app para terminar la configuración. Si no puedes escanearlo, introduce en la app la clave que aparece debajo del código.
+  - reason: Según el glosario y la guía, «authentication» se traduce como «identificación» y «two-factor» como «dos pasos»; no se usan anglicismos.
+- #1261 An authenticator app is already connected. Starting a new setup replaces that connection, and codes from the previous app will stop working.
+  - original: Ya hay una app de autenticación conectada. Si inicias una nueva configuración, se sustituye esa conexión y los códigos de la app anterior dejarán de funcionar.
+  - model: Ya hay una app de identificación conectada. Si inicias una nueva configuración, se sustituye esa conexión y los códigos de la app anterior dejarán de funcionar.
+  - reason: Según el glosario y la guía, «authentication» se traduce como «identificación» y «two-factor» como «dos pasos»; no se usan anglicismos.
+- #1266 2FA with authenticator app enabled!
+  - original: ¡2FA con app de autenticación activada!
+  - model: ¡2FA con app de identificación activada!
+  - reason: Según el glosario y la guía, «authentication» se traduce como «identificación» y «two-factor» como «dos pasos»; no se usan anglicismos.
+- #1275 Only a method you have set up can be your default.
+  - original: Solo un método que hayas configurado puede ser el predeterminado.
+  - model: Solo un método que hayas configurado puede ser el método por defecto.
+  - reason: Según el glosario, «default» es «por defecto», no «predeterminado».
+- #1276 Default sign-in method updated.
+  - original: Método de inicio de sesión predeterminado actualizado.
+  - model: Método de acceso por defecto actualizado.
+  - reason: Según el glosario, «default» es «por defecto» y «sign in» es «acceder».
+- #1297 Whitelisted IP
+  - original: IP en lista blanca
+  - model: IP admitida
+  - reason: Según el criterio del equipo, «whitelist» como verbo o adjetivo se traduce como «añadir a los admitidos» o «admitido»; «lista blanca» se mantiene como sustantivo.
+- #1306 No whitelisted IPs found.
+  - original: No se encontraron IP en la lista blanca.
+  - model: No se encontraron IP admitidas.
+  - reason: Según el criterio del equipo, «whitelist» como verbo o adjetivo se traduce como «añadir a los admitidos» o «admitido»; «lista blanca» se mantiene como sustantivo.
+- #1311 The account can sign in again right away. Its password and its content were never touched.
+  - original: La cuenta puede volver a iniciar sesión de inmediato. Su contraseña y su contenido no se han modificado.
+  - model: La cuenta puede volver a acceder de inmediato. Su contraseña y su contenido no se han modificado.
+  - reason: Según el glosario, «sign in» se traduce como «acceder», no como «iniciar sesión».
+- #1316 Your reportedip.com account is on the %1$s plan. Download the ReportedIP Hive Pro add-on from %2$s to use it on this site.
+  - original: Tu cuenta de reportedip.com tiene el plan %1$s. Descarga el complemento ReportedIP Hive Pro desde %2$s para usarlo en este sitio.
+  - model: Tu cuenta de reportedip.com tiene el plan %1$s. Descarga la extensión ReportedIP Hive Pro desde %2$s para usarla en este sitio.
+  - reason: Según el glosario, «add-on» se traduce como «extensión».
+- #1326 This is a test message from ReportedIP Hive. If you can read this in your usual mail client, the brand template and your active mail provider are working correctly.
+  - original: Este es un mensaje de prueba de ReportedIP Hive. Si puedes leerlo en tu cliente de correo habitual, la plantilla de marca y tu proveedor de correo activo funcionan correctamente.
+  - model: Este es un mensaje de prueba de ReportedIP Hive. Si puedes leerlo en tu cliente de correo electrónico habitual, la plantilla de marca y tu proveedor de correo electrónico activo funcionan correctamente.
+  - reason: En textos largos, «correo» debe ser «correo electrónico».
+- #1327 No action required. This email was sent on demand from the plugin settings.
+  - original: No hace falta hacer nada. Este correo se envió a petición desde los ajustes del plugin.
+  - model: No hace falta hacer nada. Este correo electrónico se envió a petición desde los ajustes del plugin.
+  - reason: En textos largos, «correo» debe ser «correo electrónico».
+- #1329 Note: the managed relay is currently in cooldown for this recipient, the mail was delivered through the local wp_mail() fallback. Check the Activity log for the most recent 402/429 entry to see why.
+  - original: Nota: el relay gestionado está en pausa para este destinatario, así que el correo se entregó mediante la alternativa local wp_mail(). Revisa en el registro de Actividad la entrada 402/429 más reciente para ver el motivo.
+  - model: Nota: el relay gestionado está en pausa para este destinatario, así que el correo electrónico se entregó mediante la alternativa local wp_mail(). Revisa en el registro de Actividad la entrada 402/429 más reciente para ver el motivo.
+  - reason: En textos largos, «correo» debe ser «correo electrónico».
+- #1338 A valid exception id is required.
+  - original: Se requiere un ID de excepción válido.
+  - model: Necesitas un ID de excepción válido.
+  - reason: La guía desaconseja «se requiere», una construcción impersonal calcada del inglés.
+- #1344 Line %1$d: Invalid IP "%2$s"
+  - original: Línea %1$d: IP no válida "%2$s"
+  - model: Línea %1$d: IP no válida «%2$s»
+  - reason: Usa comillas españolas «» en lugar de comillas rectas.
+- #1345 Line %1$d: Failed to block "%2$s" - %3$s
+  - original: Línea %1$d: no se pudo bloquear "%2$s" - %3$s
+  - model: Línea %1$d: no se pudo bloquear «%2$s» - %3$s
+  - reason: Usa comillas españolas «» en lugar de comillas rectas.
+- #1357 Failed login threshold simulation completed. %1$d attempts recorded, threshold is %2$d. Threshold exceeded: %3$s
+  - original: Simulación del umbral de inicios de sesión fallidos completada. %1$d intentos registrados, el umbral es %2$d. Umbral superado: %3$s
+  - model: Simulación del umbral de accesos fallidos completada. %1$d intentos registrados, el umbral es %2$d. Umbral superado: %3$s
+  - reason: Según el glosario, «login» se traduce como «acceso» o «acceder», no como «inicio de sesión».
+- #1367 Queue item deleted.
+  - original: Elemento de la cola eliminado.
+  - model: Elemento de la cola borrado.
+  - reason: Según el glosario, «delete» se traduce como «borrar», no como «eliminar».
+- #1368 Failed to delete queue item.
+  - original: No se ha podido eliminar el elemento de la cola.
+  - model: No se ha podido borrar el elemento de la cola.
+  - reason: Según el glosario, «delete» se traduce como «borrar», no como «eliminar».
+- #1371 All plugin data has been deleted. The page will reload.
+  - original: Se han eliminado todos los datos del plugin. La página se recargará.
+  - model: Se han borrado todos los datos del plugin. La página se recargará.
+  - reason: Según el glosario, «delete» se traduce como «borrar», no como «eliminar».
+- #1385 Priority Sync requires a Contributor plan.
+  - original: La sincronización prioritaria requiere un plan Contributor.
+  - model: La sincronización prioritaria requiere un plan Colaborador.
+  - reason: Según el glosario, «contributor» se traduce como «colaborador».
+- #1397 Your API key currently has no report permission. Security events will be logged locally but not reported to the service. Report permission comes with a Contributor account; see your account on reportedip.com.
+  - original: Tu clave de API no tiene ahora permiso para enviar informes. Los eventos de seguridad se registrarán localmente, pero no se informarán al servicio. El permiso de informe viene con una cuenta Contributor; consulta tu cuenta en reportedip.com.
+  - model: Tu clave de API no tiene ahora permiso para enviar informes. Los eventos de seguridad se registrarán localmente, pero no se informarán al servicio. El permiso de informe viene con una cuenta Colaborador; consulta tu cuenta en reportedip.com.
+  - reason: Según el glosario, «contributor» se traduce como «colaborador».
+- #1399 API key authentication failed. Please check your API key.
+  - original: Ha fallado la autenticación con la clave de API. Comprueba tu clave de API.
+  - model: Ha fallado la identificación con la clave de API. Comprueba tu clave de API.
+  - reason: Según el glosario, «authentication» se traduce como «identificación», no como «autenticación».
+- #1404 Your API key currently has no report permission. Report permission comes with a Contributor account; see your account on reportedip.com.
+  - original: Tu clave de API no tiene ahora permiso para enviar informes. El permiso de informe viene con una cuenta Contributor; consulta tu cuenta en reportedip.com.
+  - model: Tu clave de API no tiene ahora permiso para enviar informes. El permiso de informe viene con una cuenta Colaborador; consulta tu cuenta en reportedip.com.
+  - reason: Según el glosario, «contributor» se traduce como «colaborador».
+- #1408 The REST API is only available to authenticated users on this site.
+  - original: La API REST solo está disponible para usuarios autenticados en este sitio.
+  - model: La API REST solo está disponible para usuarios identificados en este sitio.
+  - reason: Según el glosario, «authenticate» se traduce como «identificar».
+- #1409 Your account role is not allowed to use the REST API on this site.
+  - original: El rol de tu cuenta no puede usar la API REST en este sitio.
+  - model: El perfil de tu cuenta no tiene permisos para usar la API REST en este sitio.
+  - reason: Según el glosario, «role» se traduce como «perfil» y «not allowed» como «no tienes permisos».
+- #1412 Sends 2FA mails and alerts through a managed EU relay with its own sender reputation.
+  - original: Envía los correos de 2FA y las alertas a través de un servidor de retransmisión gestionado en la UE con su propia reputación de remitente.
+  - model: Envía los correos electrónicos de 2FA y las alertas a través de un servidor de retransmisión gestionado en la UE con su propia reputación de remitente.
+  - reason: En textos largos, «correo» debe ser «correo electrónico».
+- #1417 Adaptive 2FA policies per role
+  - original: Políticas de 2FA adaptativas por rol
+  - model: Políticas de 2FA adaptativas por perfil
+  - reason: Según el glosario, «role» se traduce como «perfil», no como «rol».
+- #1424 Refuses sign-in attempts from known Tor exit nodes using a signed list refreshed twice a day.
+  - original: Rechaza los intentos de inicio de sesión desde nodos de salida de Tor conocidos mediante una lista firmada que se actualiza dos veces al día.
+  - model: Rechaza los intentos de acceso desde nodos de salida de Tor conocidos mediante una lista firmada que se actualiza dos veces al día.
+  - reason: Según el glosario, «sign in» se traduce como «acceder», no como «iniciar sesión».
+- #1430 Several keys per account with a backup key, model detection and key lifecycle mails.
+  - original: Varias llaves por cuenta con una llave de respaldo, detección del modelo y correos sobre el ciclo de vida de las llaves.
+  - model: Varias llaves por cuenta con una llave de respaldo, detección del modelo y correos electrónicos sobre el ciclo de vida de las llaves.
+  - reason: En textos largos, «correo» debe ser «correo electrónico».
+- #1435 wp-cron.php has a per-spawn time budget (WP_CRON_LOCK_TIMEOUT, 60–90 s on most setups). When other plugins schedule heavy workers, the budget can be consumed before ReportedIP Hive's hooks are reached. A dedicated cron line that targets only our hooks via WP-CLI bypasses the shared budget completely.
+  - original: wp-cron.php tiene un tiempo límite por ejecución (WP_CRON_LOCK_TIMEOUT, de 60 a 90 s en la mayoría de instalaciones). Si otros plugins programan tareas pesadas, ese tiempo puede agotarse antes de llegar a los hooks de ReportedIP Hive. Una línea de cron dedicada que solo ejecuta nuestros hooks mediante WP-CLI evita por completo ese tiempo compartido.
+  - model: wp-cron.php tiene un tiempo límite por ejecución (WP_CRON_LOCK_TIMEOUT, de 60 a 90 s en la mayoría de instalaciones). Si otros plugins programan tareas pesadas, ese tiempo puede agotarse antes de llegar a los ganchos de ReportedIP Hive. Una línea de cron dedicada que solo ejecuta nuestros ganchos mediante WP-CLI evita por completo ese tiempo compartido.
+  - reason: Según el glosario, «hook» se traduce como «gancho».
+- #1450 Whitelisted
+  - original: En la lista blanca
+  - model: Admitida
+  - reason: Según el criterio del equipo, «whitelist» como verbo o adjetivo se traduce como «añadir a los admitidos» o «admitido»; «lista blanca» se mantiene como sustantivo.
+- #1484 Log level is set to "error" - many events may not be logged.
+  - original: El nivel de registro está en "error": es posible que muchos eventos no se registren.
+  - model: El nivel de registro está en «error»: es posible que muchos eventos no se registren.
+  - reason: Usa comillas españolas «» en lugar de comillas rectas.
+- #1500 Add-on
+  - original: Complemento
+  - model: Extensión
+  - reason: Según el glosario, «add-on» se traduce como «extensión».
+- #1524 Honeypot program (free!)
+  - original: Programa honeypot (¡gratis!)
+  - model: Programa de señuelos (¡gratis!)
+  - reason: Según el glosario, «honeypot» se traduce como «señuelo».
+- #1525 Running a honeypot server? Join our honeypot network and enjoy special benefits:
+  - original: ¿Tienes un servidor honeypot? Únete a nuestra red de honeypots y disfruta de ventajas especiales:
+  - model: ¿Tienes un servidor señuelo? Únete a nuestra red de señuelos y disfruta de ventajas especiales:
+  - reason: Según el glosario, «honeypot» se traduce como «señuelo».
+- #1534 Learn more about the honeypot program
+  - original: Más información sobre el programa honeypot
+  - model: Más información sobre el programa de señuelos
+  - reason: Según el glosario, «honeypot» se traduce como «señuelo».
+- #1535 ReportedIP Hive Pro add-on
+  - original: Complemento ReportedIP Hive Pro
+  - model: Extensión ReportedIP Hive Pro
+  - reason: Según el glosario, «add-on» se traduce como «extensión».
+- #1536 The add-on is installed and active, version %s.
+  - original: El complemento está instalado y activo, versión %s.
+  - model: La extensión está instalada y activa, versión %s.
+  - reason: Según el glosario, «add-on» se traduce como «extensión».
+- #1537 The add-on is installed and active.
+  - original: El complemento está instalado y activo.
+  - model: La extensión está instalada y activa.
+  - reason: Según el glosario, «add-on» se traduce como «extensión».
+- #1538 The ReportedIP Hive Pro add-on adds the features below to this plugin. Download it from your account dashboard at reportedip.com and upload it under Plugins, Add New Plugin; it works with the Community Access Key of this site.
+  - original: El complemento ReportedIP Hive Pro añade a este plugin las funciones de abajo. Descárgalo desde el panel de tu cuenta en reportedip.com y súbelo en Plugins, Añadir nuevo plugin; funciona con la Community Access Key de este sitio.
+  - model: La extensión ReportedIP Hive Pro añade a este plugin las funciones de abajo. Descárgala desde el escritorio de tu cuenta en reportedip.com y súbela en Plugins, Añadir nuevo plugin; funciona con la Community Access Key de este sitio.
+  - reason: Según el glosario, «add-on» se traduce como «extensión» y «Dashboard» como «escritorio».
+- #1555 Failed logins blocked, last 30 days
+  - original: Inicios de sesión fallidos bloqueados, últimos 30 días
+  - model: Accesos fallidos bloqueados, últimos 30 días
+  - reason: Según el glosario, «login» se traduce como «acceso» o «acceder», no como «inicio de sesión».
+- #1566 Failed logins blocked (30 days)
+  - original: Inicios de sesión fallidos bloqueados (30 días)
+  - model: Accesos fallidos bloqueados (30 días)
+  - reason: Según el glosario, «login» se traduce como «acceso» o «acceder», no como «inicio de sesión».
+- #1620 Show a small "Protected by ReportedIP Hive" badge in your footer. It is the quickest way to support the community, and it puts your site on the map.
+  - original: Muestra una pequeña insignia "Protected by ReportedIP Hive" en el pie de página. Es la forma más rápida de apoyar a la comunidad y da visibilidad a tu sitio.
+  - model: Muestra una pequeña insignia «Protected by ReportedIP Hive» en el pie de página. Es la forma más rápida de apoyar a la comunidad y da visibilidad a tu sitio.
+  - reason: Usa comillas españolas «» en lugar de comillas rectas.
+- #1625 Show a "Protected by ReportedIP Hive" badge in the site footer
+  - original: Mostrar una insignia "Protected by ReportedIP Hive" en el pie de página del sitio
+  - model: Mostrar una insignia «Protected by ReportedIP Hive» en el pie de página del sitio
+  - reason: Usa comillas españolas «» en lugar de comillas rectas.
+- #1637 Honeypot
+  - original: Honeypot
+  - model: Señuelo
+  - reason: Según el glosario, «honeypot» se traduce como «señuelo».
+- #1639 Run a honeypot for extra impact
+  - original: Ejecuta un honeypot para aportar más
+  - model: Ejecuta un señuelo para aportar más
+  - reason: Según el glosario, «honeypot» se traduce como «señuelo».
+- #1644 Failed logins
+  - original: Inicios de sesión fallidos
+  - model: Accesos fallidos
+  - reason: Según el glosario, «login» se traduce como «acceso» o «acceder», no como «inicio de sesión».
+- #1659 Malicious Host
+  - original: Host malicioso
+  - model: Host malintencionado
+  - reason: Según el glosario, «malicious» se traduce como «malintencionado».
+- #1687 Whitelist this IP
+  - original: Añadir esta IP a la lista blanca
+  - model: Añadir esta IP a los admitidos
+  - reason: Según el criterio del equipo, «whitelist» como verbo o adjetivo se traduce como «añadir a los admitidos» o «admitido»; «lista blanca» se mantiene como sustantivo.
+- #1688 Moved from blocked list via bulk action
+  - original: Movida desde la lista de bloqueos mediante acción en lote
+  - model: Movida desde la lista de bloqueos mediante acción por lotes
+  - reason: Según el glosario, «bulk» se traduce como «por lotes».
+- #1716 Open Security Dashboard
+  - original: Abrir panel de seguridad
+  - model: Abrir escritorio de seguridad
+  - reason: Según el glosario, «Dashboard» se traduce como «escritorio», no como «panel».
+- #1730 Whitelist IP
+  - original: Añadir IP a la lista blanca
+  - model: Añadir IP a los admitidos
+  - reason: Según el criterio del equipo, «whitelist» como verbo o adjetivo se traduce como «añadir a los admitidos» o «admitido»; «lista blanca» se mantiene como sustantivo.
+- #1734 Blocked from bulk action
+  - original: Bloqueada mediante acción en lote
+  - model: Bloqueada mediante acción por lotes
+  - reason: Según el glosario, «bulk» se traduce como «por lotes».
+- #1735 Added from bulk action
+  - original: Añadida mediante acción en lote
+  - model: Añadida mediante acción por lotes
+  - reason: Según el glosario, «bulk» se traduce como «por lotes».
+- #1747 Recommended: keep the defaults on. Change a threshold only when a sign-in or a block does not behave as expected.
+  - original: Recomendado: mantén los valores predeterminados. Cambia un umbral solo si un inicio de sesión o un bloqueo no se comporta como esperas.
+  - model: Recomendado: mantén los valores por defecto. Cambia un umbral solo si un acceso o un bloqueo no se comporta como esperas.
+  - reason: Según el glosario, «default» es «por defecto», no «predeterminado»; y «sign in» se traduce como «acceder».
+- #1749 Recommended: keep the defaults on. Changes are only needed when a form does not work as expected.
+  - original: Recomendado: mantén los valores predeterminados. Solo hace falta cambiarlos si un formulario no funciona como esperas.
+  - model: Recomendado: mantén los valores por defecto. Solo hace falta cambiarlos si un formulario no funciona como esperas.
+  - reason: Según el glosario, «default» es «por defecto», no «predeterminado».
+- #1754 Logs, mails and the footprint per request. None of it decides what is blocked.
+  - original: Registros, correos y la carga por petición. Nada de esto decide qué se bloquea.
+  - model: Registros, correos electrónicos y la carga por petición. Nada de esto decide qué se bloquea.
+  - reason: En textos largos, «correo» debe ser «correo electrónico».
+- #1755 Available in the ReportedIP Hive Pro add-on (%s plan).
+  - original: Disponible en el complemento ReportedIP Hive Pro (plan %s).
+  - model: Disponible en la extensión ReportedIP Hive Pro (plan %s).
+  - reason: Según el glosario, «add-on» se traduce como «extensión».
+- #1761 Two-factor authentication needs libsodium or OpenSSL to store secrets encrypted; neither is available on this server.
+  - original: La autenticación de dos factores necesita libsodium u OpenSSL para guardar los secretos cifrados; ninguno está disponible en este servidor.
+  - model: La identificación en dos pasos necesita libsodium u OpenSSL para guardar los secretos cifrados; ninguno está disponible en este servidor.
+  - reason: Según el glosario y la guía, «authentication» se traduce como «identificación» y «two-factor» como «dos pasos»; no se usan anglicismos.
+- #1817 protection level preset relaxed balanced strict paranoid
+  - original: nivel de protección predefinido relajado equilibrado estricto paranoico
+  - model: nivel de protección preajuste relajado equilibrado estricto paranoico
+  - reason: Según el glosario, «preset» se traduce como «preajuste».
+- #1819 Sets the failed-login threshold and window, the block duration and the community protection level in one go. Choose Custom to edit them one by one.
+  - original: Define de una vez el umbral y la ventana de tiempo de inicios de sesión fallidos, la duración del bloqueo y el nivel de protección de la comunidad. Elige Personalizado para editarlos uno a uno.
+  - model: Define de una vez el umbral y la ventana de tiempo de accesos fallidos, la duración del bloqueo y el nivel de protección de la comunidad. Elige Personalizado para editarlos uno a uno.
+  - reason: Según el glosario, «login» se traduce como «acceso» o «acceder», no como «inicio de sesión».
+- #1848 Available in the ReportedIP Hive Pro add-on:
+  - original: Disponible en el complemento ReportedIP Hive Pro:
+  - model: Disponible en la extensión ReportedIP Hive Pro:
+  - reason: Según el glosario, «add-on» se traduce como «extensión».
+- #1851 "Protected by ReportedIP" badge in the footer
+  - original: Insignia "Protected by ReportedIP" en el pie de página
+  - model: Insignia «Protected by ReportedIP» en el pie de página
+  - reason: Usa comillas españolas «» en lugar de comillas rectas.
+- #1872 Adds the API key and encrypted SMS-provider config. Treat the resulting file like a password, do not share or email it.
+  - original: Añade la clave de la API y la configuración cifrada del proveedor de SMS. Trata el archivo resultante como una contraseña, no lo compartas ni lo envíes por correo.
+  - model: Añade la clave de la API y la configuración cifrada del proveedor de SMS. Trata el archivo resultante como una contraseña, no lo compartas ni lo envíes por correo electrónico.
+  - reason: En textos largos, «correo» debe ser «correo electrónico».
+- #1914 More domains in use than your plan includes, manage them in your reportedip.com dashboard.
+  - original: Usas más dominios de los que incluye tu plan. Gestiónalos en tu panel de reportedip.com.
+  - model: Usas más dominios de los que incluye tu plan. Gestiónalos en tu escritorio de reportedip.com.
+  - reason: Según el glosario, «Dashboard» se traduce como «escritorio», no como «panel».
+- #1917 FAQ
+  - original: Preguntas frecuentes
+  - model: FAQ
+  - reason: Según el glosario, «FAQ» no se traduce.
+- #1921 One JSON file with what a support check needs: versions, the protection settings that differ from the defaults, health, the report queue, the events of the chosen period and the active blocks. It carries no access key, no passwords, no user names and no mail addresses. Addresses are cut to their network unless you tick the box.
+  - original: Un archivo JSON con lo que necesita una revisión de soporte: versiones, los ajustes de protección que difieren de los predeterminados, el estado, la cola de informes, los eventos del periodo elegido y los bloqueos activos. No incluye la clave de acceso, contraseñas, nombres de usuario ni direcciones de correo. Las direcciones IP se recortan a su red salvo que marques la casilla.
+  - model: Un archivo JSON con lo que necesita una revisión de soporte: versiones, los ajustes de protección que difieren de los valores por defecto, el estado, la cola de informes, los eventos del periodo elegido y los bloqueos activos. No incluye la clave de acceso, contraseñas, nombres de usuario ni direcciones de correo electrónico. Las direcciones IP se recortan a su red salvo que marques la casilla.
+  - reason: Según el glosario, «default» es «por defecto», y en textos largos «correo» es «correo electrónico».
+- #1930 reportedip.com dashboard
+  - original: panel de reportedip.com
+  - model: escritorio de reportedip.com
+  - reason: Según el glosario, «Dashboard» se traduce como «escritorio», no como «panel».
+- #1946 Failed logins (24h)
+  - original: Inicios de sesión fallidos (24 h)
+  - model: Accesos fallidos (24 h)
+  - reason: Según el glosario, «login» se traduce como «acceso» o «acceder», no como «inicio de sesión».
+- #1948 Whitelisted IPs (network-wide)
+  - original: IP en lista blanca (toda la red)
+  - model: IP admitidas (toda la red)
+  - reason: Según el criterio del equipo, «whitelist» como verbo o adjetivo se traduce como «añadir a los admitidos» o «admitido»; «lista blanca» se mantiene como sustantivo.
+- #1958 Per-site two-factor overrides
+  - original: Excepciones de dos factores por sitio
+  - model: Excepciones de dos pasos por sitio
+  - reason: Según el glosario y la guía, «authentication» se traduce como «identificación» y «two-factor» como «dos pasos»; no se usan anglicismos.
+- #1961 2FA enforcement, role overrides for this site
+  - original: Obligación de 2FA, excepciones de roles para este sitio
+  - model: Obligación de 2FA, excepciones de perfiles para este sitio
+  - reason: Según el glosario, «role» se traduce como «perfil», no como «rol».
+- #1962 The Super Admin enforces 2FA on certain roles network-wide. You can add roles on top of that list for this site only, but you cannot remove network-required roles here.
+  - original: El superadministrador exige 2FA para ciertos roles en toda la red. Puedes añadir roles a esa lista solo para este sitio, pero aquí no puedes quitar los roles exigidos por la red.
+  - model: El superadministrador exige 2FA para ciertos perfiles en toda la red. Puedes añadir perfiles a esa lista solo para este sitio, pero aquí no puedes quitar los perfiles exigidos por la red.
+  - reason: Según el glosario, «role» se traduce como «perfil», no como «rol».
+- #1963 Network-required roles (always enforced on this site)
+  - original: Roles exigidos por la red (siempre obligatorios en este sitio)
+  - model: Perfiles exigidos por la red (siempre obligatorios en este sitio)
+  - reason: Según el glosario, «role» se traduce como «perfil», no como «rol».
+- #1964 The Super Admin has not enforced 2FA on any role network-wide.
+  - original: El superadministrador no ha exigido 2FA para ningún rol en toda la red.
+  - model: El superadministrador no ha exigido 2FA para ningún perfil en toda la red.
+  - reason: Según el glosario, «role» se traduce como «perfil», no como «rol».
+- #1966 Additional roles to enforce on THIS site
+  - original: Roles adicionales obligatorios en ESTE sitio
+  - model: Perfiles adicionales obligatorios en ESTE sitio
+  - reason: Según el glosario, «role» se traduce como «perfil», no como «rol».
+- #1967 Pick roles that should require 2FA on this sub-site in addition to the network-required ones above. Network-required roles stay enforced regardless of the boxes here.
+  - original: Elige los roles que deben usar 2FA en este subsitio, además de los exigidos por la red. Los roles exigidos por la red siguen siendo obligatorios marques lo que marques aquí.
+  - model: Elige los perfiles que deben usar 2FA en este subsitio, además de los exigidos por la red. Los perfiles exigidos por la red siguen siendo obligatorios marques lo que marques aquí.
+  - reason: Según el glosario, «role» se traduce como «perfil», no como «rol».
+- #1992 Security Dashboard
+  - original: Panel de seguridad
+  - model: Escritorio de seguridad
+  - reason: Según el glosario, «Dashboard» se traduce como «escritorio», no como «panel».
+- #2002 Your dashboard will fill up automatically as ReportedIP Hive blocks attempts. We watch:
+  - original: Tu panel se irá llenando solo a medida que ReportedIP Hive bloquee intentos. Vigilamos:
+  - model: Tu escritorio se irá llenando solo a medida que ReportedIP Hive bloquee intentos. Vigilamos:
+  - reason: Según el glosario, «Dashboard» se traduce como «escritorio», no como «panel».
+- #2016 Every security event Hive recorded on this site, newest first: failed logins, firewall hits, scans, spam and the blocks that followed. Narrow the list with the filters, then block or whitelist an address straight from its row.
+  - original: Todos los eventos de seguridad que Hive ha registrado en este sitio, los más recientes primero: inicios de sesión fallidos, coincidencias del cortafuegos, escaneos, spam y los bloqueos que siguieron. Acota la lista con los filtros y bloquea o añade una dirección a la lista blanca desde su propia fila.
+  - model: Todos los eventos de seguridad que Hive ha registrado en este sitio, los más recientes primero: accesos fallidos, coincidencias del cortafuegos, exploraciones, spam y los bloqueos que siguieron. Acota la lista con los filtros y bloquea o añade una dirección a los admitidos desde su propia fila.
+  - reason: Según el criterio del equipo, «whitelist» como verbo o adjetivo se traduce como «añadir a los admitidos» o «admitido»; «lista blanca» se mantiene como sustantivo.
+- #2018 Ask the community network about a single IP address before you decide what to do with it. You see the current reputation, the reports behind it and whether the address is already blocked or whitelisted here.
+  - original: Consulta a la red de la comunidad sobre una única dirección IP antes de decidir qué hacer con ella. Verás la reputación actual, los informes en los que se basa y si la dirección ya está bloqueada o en la lista blanca aquí.
+  - model: Consulta a la red de la comunidad sobre una única dirección IP antes de decidir qué hacer con ella. Verás la reputación actual, los informes en los que se basa y si la dirección ya está bloqueada o admitida aquí.
+  - reason: Según el criterio del equipo, «whitelist» como verbo o adjetivo se traduce como «añadir a los admitidos» o «admitido»; «lista blanca» se mantiene como sustantivo.
+- #2020 Addresses Hive never blocks, whatever they do: your office, a monitoring service, a payment provider. Use a CIDR range for a connection whose address changes.
+  - original: Direcciones que Hive nunca bloquea, hagan lo que hagan: tu oficina, un servicio de monitorización, un proveedor de pagos. Usa un rango CIDR para una conexión cuya dirección cambia.
+  - model: Direcciones que Hive nunca bloquea, hagan lo que hagan: tu oficina, un servicio de supervisión, un proveedor de pagos. Usa un rango CIDR para una conexión cuya dirección cambia.
+  - reason: Según el glosario, «monitoring» se traduce como «seguimiento», «vigilancia» o «supervisión», no como «monitorización».
+- #2058 Select which HTTP header to trust for determining the client IP. Use "None" unless your site is behind a reverse proxy.
+  - original: Elige en qué cabecera HTTP confiar para determinar la IP del cliente. Usa "Ninguna" salvo que tu sitio esté detrás de un proxy inverso.
+  - model: Elige en qué cabecera HTTP confiar para determinar la IP del cliente. Usa «Ninguna» salvo que tu sitio esté detrás de un proxy inverso.
+  - reason: Usa comillas españolas «» en lugar de comillas rectas.
+- #2066 Sends a sample mail through the unified branded template and your active mail provider. Useful before flipping notifications on, or after changing SMTP settings.
+  - original: Envía un correo de prueba con la plantilla unificada y tu proveedor de correo activo. Útil antes de activar las notificaciones o tras cambiar los ajustes SMTP.
+  - model: Envía un correo electrónico de prueba con la plantilla unificada y tu proveedor de correo electrónico activo. Útil antes de activar los avisos o tras cambiar los ajustes SMTP.
+  - reason: En textos largos, «correo» debe ser «correo electrónico». Según el glosario, «notification» se traduce como «aviso».
+- #2078 Warning
+  - original: Aviso
+  - model: Advertencia
+  - reason: Según el glosario, «warning» se traduce como «advertencia», no como «aviso».
+- #2081 Operational faults that stop a protection layer from doing its job. Warnings can be hidden for seven days; critical entries stay until the cause is gone, and every entry disappears on its own once the condition clears.
+  - original: Fallos de funcionamiento que impiden que una capa de protección haga su trabajo. Los avisos se pueden ocultar durante siete días; las entradas críticas permanecen hasta que desaparece la causa, y cada entrada se quita sola cuando la condición se resuelve.
+  - model: Fallos de funcionamiento que impiden que una capa de protección haga su trabajo. Las advertencias se pueden ocultar durante siete días; las entradas críticas permanecen hasta que desaparece la causa, y cada entrada se quita sola cuando la condición se resuelve.
+  - reason: Según el glosario, «warning» se traduce como «advertencia», no como «aviso».
+- #2087 Dismiss for 7 days
+  - original: Ocultar durante 7 días
+  - model: Descartar durante 7 días
+  - reason: Según el glosario, «dismiss» se traduce como «descartar», no como «ocultar».
+- #2095 Hook
+  - original: Hook
+  - model: Gancho
+  - reason: Según el glosario, «hook» se traduce como «gancho».
+- #2108 The address this site connects from is in the community database: %1$s report, confidence %2$s. Check it on reportedip.com under Tools.
+  - original: La dirección desde la que se conecta este sitio figura en la base de datos de la comunidad: %1$s denuncia, confianza %2$s. Compruébala en reportedip.com, en Herramientas. / La dirección desde la que se conecta este sitio figura en la base de datos de la comunidad: %1$s denuncias, confianza %2$s. Compruébala en reportedip.com, en Herramientas.
+  - model: La dirección desde la que se conecta este sitio figura en la base de datos de la comunidad: %1$s informe, confianza %2$s. Compruébala en reportedip.com, en Herramientas. / La dirección desde la que se conecta este sitio figura en la base de datos de la comunidad: %1$s informes, confianza %2$s. Compruébala en reportedip.com, en Herramientas.
+  - reason: Según el glosario, «report» (sustantivo) se traduce como «informe».
+- #2109 Other members of the community have reported %1$s, the address this site connects from: %2$s report, confidence %3$s. A listed address can be refused by other sites and by mail servers. Check the address and the report behind it on reportedip.com under Tools, then clear the cause on this server.
+  - original: Otros miembros de la comunidad han denunciado %1$s, la dirección desde la que se conecta este sitio: %2$s denuncia, confianza %3$s. Otros sitios y servidores de correo pueden rechazar una dirección listada. Comprueba la dirección y la denuncia correspondiente en reportedip.com, en Herramientas, y luego corrige la causa en este servidor. / Otros miembros de la comunidad han denunciado %1$s, la dirección desde la que se conecta este sitio: %2$s denuncias, confianza %3$s. Otros sitios y servidores de correo pueden rechazar una dirección listada. Comprueba la dirección y las denuncias correspondientes en reportedip.com, en Herramientas, y luego corrige la causa en este servidor.
+  - model: Otros miembros de la comunidad han informado de %1$s, la dirección desde la que se conecta este sitio: %2$s informe, confianza %3$s. Otros sitios y servidores de correo electrónico pueden rechazar una dirección listada. Comprueba la dirección y el informe correspondiente en reportedip.com, en Herramientas, y luego corrige la causa en este servidor. / Otros miembros de la comunidad han informado de %1$s, la dirección desde la que se conecta este sitio: %2$s informes, confianza %3$s. Otros sitios y servidores de correo electrónico pueden rechazar una dirección listada. Comprueba la dirección y los informes correspondientes en reportedip.com, en Herramientas, y luego corrige la causa en este servidor.
+  - reason: Según el glosario, «report» se traduce como «informe»; en textos largos, «correo» es «correo electrónico».
+- #2120 Hive has written the setting. The server picks it up within five minutes; reload this page then. If it stays on "Setting up", use one of the manual options below.
+  - original: Hive ha escrito el ajuste. El servidor lo aplica en un máximo de cinco minutos; recarga entonces esta página. Si sigue en "Configurando", usa una de las opciones manuales de abajo.
+  - model: Hive ha escrito el ajuste. El servidor lo aplica en un máximo de cinco minutos; recarga entonces esta página. Si sigue en «Configurando», usa una de las opciones manuales de abajo.
+  - reason: Usa comillas españolas «» en lugar de comillas rectas.
+- #2140 Most managed hosts (ISPConfig, Plesk, cPanel) offer a "custom php.ini settings" field, paste this single line there and reload PHP-FPM. In a PHP-FPM pool config the equivalent line is php_admin_value[auto_prepend_file] = <the same path>. This is usually the easiest route on nginx.
+  - original: La mayoría de los alojamientos gestionados (ISPConfig, Plesk, cPanel) ofrecen un campo de "ajustes personalizados de php.ini": pega ahí esta única línea y recarga PHP-FPM. En la configuración de un pool de PHP-FPM, la línea equivalente es php_admin_value[auto_prepend_file] = <the same path>. Suele ser el camino más fácil con nginx.
+  - model: La mayoría de los alojamientos gestionados (ISPConfig, Plesk, cPanel) ofrecen un campo de «ajustes personalizados de php.ini»: pega ahí esta única línea y recarga PHP-FPM. En la configuración de un pool de PHP-FPM, la línea equivalente es php_admin_value[auto_prepend_file] = <the same path>. Suele ser el camino más fácil con nginx.
+  - reason: Usa comillas españolas «» en lugar de comillas rectas.
+- #2142 For direct nginx access: merge this into your existing "location ~ \.php$" block and reload nginx. Do not combine with Option A.
+  - original: Con acceso directo a nginx: integra esto en tu bloque "location ~ \.php$" existente y recarga nginx. No lo combines con la opción A.
+  - model: Con acceso directo a nginx: integra esto en tu bloque «location ~ \.php$» existente y recarga nginx. No lo combines con la opción A.
+  - reason: Usa comillas españolas «» en lugar de comillas rectas.
+- #2149 Blocks the bait paths at the web-server layer so real backup files on disk are never served directly. Every snippet rewrites to /index.php on purpose: the Hive sensor still loads, logs the hit and reports it, a bare return 403 would skip detection entirely.
+  - original: Bloquea las rutas cebo en la capa del servidor web para que las copias de seguridad reales del disco nunca se sirvan directamente. Cada fragmento reescribe a /index.php a propósito: el sensor de Hive sigue cargando, registra el impacto y lo notifica; un simple return 403 se saltaría la detección por completo.
+  - model: Bloquea las rutas cebo en la capa del servidor web para que las copias de seguridad reales del disco nunca se sirvan directamente. Cada fragmento reescribe a /index.php a propósito: el sensor de Hive sigue cargando, registra el impacto y lo informa; un simple return 403 se saltaría la detección por completo.
+  - reason: Según el glosario, «report» (verbo) se traduce como «informar».
+- #2156 Use this variant when your host template ships a "location ~ /\." dot-file deny rule before your custom directives, exact-match locations have higher priority than any regex location and survive that ordering.
+  - original: Usa esta variante cuando la plantilla de tu alojamiento incluye una regla "location ~ /\." que deniega los archivos ocultos antes de tus directivas propias: las locations de coincidencia exacta tienen más prioridad que cualquier location con regex y resisten ese orden.
+  - model: Usa esta variante cuando la plantilla de tu alojamiento incluye una regla «location ~ /\.» que deniega los archivos ocultos antes de tus directivas propias: las locations de coincidencia exacta tienen más prioridad que cualquier location con regex y resisten ese orden.
+  - reason: Usa comillas españolas «» en lugar de comillas rectas.
+- #2161 The detection rules behind the WAF, Bot Verification, Spam Defence, Scan Detection and Tor Exit Node Blocking are not hard-coded: they are versioned rulesets, maintained on reportedip.com, signed with Ed25519 and delivered through the Rule API. A bundled baseline ships with the plugin, so every install is protected even fully offline.
+  - original: Las reglas de detección del WAF, la verificación de bots, la defensa antispam, la detección de escaneos y el bloqueo de nodos de salida de Tor no están fijadas en el código: son conjuntos de reglas versionados, mantenidos en reportedip.com, firmados con Ed25519 y distribuidos a través de la Rule API. Con el plugin se incluye una base, así que cada instalación está protegida incluso totalmente sin conexión.
+  - model: Las reglas de detección del WAF, la verificación de bots, la defensa antispam, la detección de exploraciones y el bloqueo de nodos de salida de Tor no están fijadas en el código: son conjuntos de reglas versionados, mantenidos en reportedip.com, firmados con Ed25519 y distribuidos a través de la Rule API. Con el plugin se incluye una base, así que cada instalación está protegida incluso totalmente sin conexión.
+  - reason: Según el glosario, «scan» (sustantivo) se traduce como «exploración».
+- #2166 The bundled baseline rulesets stay active on every installation. Priority Sync is delivered through your reportedip.com account: deeper coverage and regular updates, starting with a free Contributor account.
+  - original: Los conjuntos de reglas base incluidos siguen activos en todas las instalaciones. La sincronización prioritaria llega a través de tu cuenta de reportedip.com: más cobertura y actualizaciones periódicas, desde una cuenta Contributor gratuita.
+  - model: Los conjuntos de reglas base incluidos siguen activos en todas las instalaciones. La sincronización prioritaria llega a través de tu cuenta de reportedip.com: más cobertura y actualizaciones periódicas, desde una cuenta Colaborador gratuita.
+  - reason: Según el glosario, «contributor» se traduce como «colaborador».
+- #2202 Scan Detection
+  - original: Detección de escaneos
+  - model: Detección de exploraciones
+  - reason: Según el glosario, «scan» (sustantivo) se traduce como «exploración».
+- #2211 How broadly the exception applies. Start with "Single rule", it is the narrowest and the right choice for almost every false positive.
+  - original: Hasta dónde llega la excepción. Empieza con "Regla única", es la más restringida y la opción correcta para casi cualquier falso positivo.
+  - model: Hasta dónde llega la excepción. Empieza con «Regla única», es la más restringida y la opción correcta para casi cualquier falso positivo.
+  - reason: Usa comillas españolas «» en lugar de comillas rectas.
+- #2213 The exact rule that fired. You will find it in the firewall log as <code>Rule:</code> (Security &rarr; Activity &rarr; WAF Block). Easiest of all: click the shield "Allow" button on the blocked event there and this is filled in for you.
+  - original: La regla exacta que saltó. La encontrarás en el registro del cortafuegos como <code>Rule:</code> (Seguridad &rarr; Actividad &rarr; Bloqueo WAF). Lo más fácil: haz clic allí en el botón del escudo "Permitir" del evento bloqueado y este campo se rellena solo.
+  - model: La regla exacta que saltó. La encontrarás en el registro del cortafuegos como <code>Rule:</code> (Seguridad &rarr; Actividad &rarr; Bloqueo WAF). Lo más fácil: haz clic allí en el botón del escudo «Permitir» del evento bloqueado y este campo se rellena solo.
+  - reason: Usa comillas españolas «» en lugar de comillas rectas.
+- #2215 Exempts every rule in this category at once, shown in the log as "Group:". Broader than a single rule, so use it only when several rules of the same kind keep misfiring.
+  - original: Exime a la vez todas las reglas de esta categoría, que aparece en el registro como "Group:". Es más amplio que una regla única, así que úsalo solo cuando varias reglas del mismo tipo fallen una y otra vez.
+  - model: Exime a la vez todas las reglas de esta categoría, que aparece en el registro como «Group:». Es más amplio que una regla única, así que úsalo solo cuando varias reglas del mismo tipo fallen una y otra vez.
+  - reason: Usa comillas españolas «» en lugar de comillas rectas.
+- #2216 No rule needed, the WAF skips the path and/or IP below entirely. Use this only for a first-party endpoint you fully trust (e.g. your own API that receives attack samples). A path or IP is required.
+  - original: No hace falta regla, el WAF omite por completo la ruta y/o la IP de abajo. Úsalo solo para un endpoint propio en el que confíes plenamente (p. ej. tu propia API que recibe muestras de ataques). Se requiere una ruta o una IP.
+  - model: No hace falta regla, el WAF omite por completo la ruta y/o la IP de abajo. Úsalo solo para un endpoint propio en el que confíes plenamente (p. ej. tu propia API que recibe muestras de ataques). Es obligatorio indicar una ruta o una IP.
+  - reason: Según el glosario, «required» se traduce como «obligatorio».
+- #2229 The WAF matches every front-end request against attack signatures (SQL injection, XSS, and so on). Occasionally a legitimate request looks like an attack, for example an API endpoint that receives reported attack samples, or a form that contains code. The rule fires even though nothing malicious is happening: a false positive. An exception tells the WAF to let that specific case through. Most sites never need one, only add an exception when you have confirmed a real false positive in the log.
+  - original: El WAF compara cada petición del front-end con firmas de ataque (inyección SQL, XSS, etc.). A veces una petición legítima parece un ataque, por ejemplo un endpoint de API que recibe muestras de ataques notificados o un formulario que contiene código. La regla salta aunque no ocurra nada malicioso: es un falso positivo. Una excepción le dice al WAF que deje pasar ese caso concreto. La mayoría de los sitios nunca necesitan una; añade una excepción solo cuando hayas confirmado un falso positivo real en el registro.
+  - model: El WAF compara cada petición de la vista pública con firmas de ataque (inyección SQL, XSS, etc.). A veces una petición legítima parece un ataque, por ejemplo un endpoint de API que recibe muestras de ataques informados o un formulario que contiene código. La regla salta aunque no ocurra nada malintencionado: es un falso positivo. Una excepción le dice al WAF que deje pasar ese caso concreto. La mayoría de los sitios nunca necesitan una; añade una excepción solo cuando hayas confirmado un falso positivo real en el registro.
+  - reason: Según el glosario, «front-end» se traduce como «vista pública», «malicious» como «malintencionado» y «report» (verbo) como «informar».
+- #2230 You normally do not type it at all. Every block is recorded under <strong>Security &rarr; Activity &rarr; WAF Block</strong>, and each entry names the rule that fired (<code>Rule: waf_sqli_union</code>) and its category (<code>Group: sql_injection</code>). The quickest path is the shield <strong>"Allow"</strong> button on that log row: it creates a single-rule exception for exactly that rule and path in one click, so you never have to know rule IDs. The form above is only for adding one by hand, copy the value after <code>Rule:</code> into the Rule ID field, or pick the category in the Rule group dropdown.
+  - original: Normalmente no tienes que escribirlo. Cada bloqueo se registra en <strong>Seguridad &rarr; Actividad &rarr; Bloqueo WAF</strong>, y cada entrada indica la regla que saltó (<code>Rule: waf_sqli_union</code>) y su categoría (<code>Group: sql_injection</code>). Lo más rápido es el botón del escudo <strong>"Permitir"</strong> en esa fila del registro: crea con un clic una excepción de regla única exactamente para esa regla y esa ruta, así que nunca necesitas conocer los ID de regla. El formulario de arriba es solo para añadir una a mano: copia el valor que sigue a <code>Rule:</code> en el campo ID de regla o elige la categoría en el desplegable Grupo de reglas.
+  - model: Normalmente no tienes que escribirlo. Cada bloqueo se registra en <strong>Seguridad &rarr; Actividad &rarr; Bloqueo WAF</strong>, y cada entrada indica la regla que saltó (<code>Rule: waf_sqli_union</code>) y su categoría (<code>Group: sql_injection</code>). Lo más rápido es el botón del escudo <strong>«Permitir»</strong> en esa fila del registro: crea con un clic una excepción de regla única exactamente para esa regla y esa ruta, así que nunca necesitas conocer los ID de regla. El formulario de arriba es solo para añadir una a mano: copia el valor que sigue a <code>Rule:</code> en el campo ID de regla o elige la categoría en el desplegable Grupo de reglas.
+  - reason: Usa comillas españolas «» en lugar de comillas rectas.
+- #2237 Whitelist
+  - original: Whitelist
+  - model: Lista blanca
+  - reason: Según el glosario y como en el resto del archivo, «whitelist» se traduce como «lista blanca».
+- #2239 Whitelisted IPs
+  - original: IP en la whitelist
+  - model: IP admitidas
+  - reason: Según el criterio del equipo, «whitelist» como verbo o adjetivo se traduce como «añadir a los admitidos» o «admitido»; «lista blanca» se mantiene como sustantivo.
+- #2260 Failed login threshold
+  - original: Umbral de inicios de sesión fallidos
+  - model: Umbral de accesos fallidos
+  - reason: Según el glosario, «login» se traduce como «acceso» o «acceder», no como «inicio de sesión».
+- #2263 Security Focused
+  - original: Security Focused
+  - model: Orientado a la seguridad
+  - reason: La etiqueta debe estar en español; no se deja en inglés.
+- #2264 GDPR Compliant
+  - original: GDPR Compliant
+  - model: Cumple el RGPD
+  - reason: Según el glosario, «GDPR» es «RGPD».
+- #2265 Made in Germany
+  - original: Made in Germany
+  - model: Hecho en Alemania
+  - reason: La etiqueta debe estar en español; no se deja en inglés.
+- #2287 Open dashboard
+  - original: Abrir panel
+  - model: Abrir escritorio
+  - reason: Según el glosario, «Dashboard» se traduce como «escritorio», no como «panel».

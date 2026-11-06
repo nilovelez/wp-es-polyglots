@@ -1,0 +1,13 @@
+{"n": 779, "verdict": "reject", "msgstr": "Revisa cada petición a la vista pública con las firmas de ataque antes de que llegue a tu sitio.", "comment": "Según el glosario, «front-end» se traduce como «portada» o «vista pública»."}
+{"n": 787, "verdict": "reject", "msgstr": "La protección previa a WordPress no ve los perfiles, solo la cookie de acceso. Con esto activado deja sin revisar el cuerpo de las peticiones de usuarios conectados, así un editor que guarda una entrada con una etiqueta script no es rechazado antes de que cargue WordPress. Las reglas de URL y de agente de usuario se siguen aplicando.", "comment": "Según el glosario, «role» se traduce como «perfil», no como «rol»."}
+{"n": 790, "verdict": "reject", "msgstr": "Gestiona este sitio desde el escritorio de reportedip.com: políticas, ajustes propios por sitio y detección de desviaciones.", "comment": "Según el glosario, «Dashboard» se traduce como «escritorio», no como «panel»."}
+{"n": 801, "verdict": "reject", "msgstr": "Es obligatorio un identificador de regla o de grupo para este ámbito de excepción.", "comment": "Según el glosario, «required» se traduce como «obligatorio»."}
+{"n": 803, "verdict": "reject", "msgstr": "Usa una dirección de correo electrónico permanente. No se aceptan proveedores de correo electrónico desechable.", "comment": "En textos de ayuda, «correo» debe ser «correo electrónico»."}
+{"n": 804, "verdict": "reject", "msgstr": "Acceso fallido", "comment": "Según el glosario, «login» se traduce como «acceso» o «acceder», no como «inicio de sesión»."}
+{"n": 806, "verdict": "reject", "msgstr": "Acceso de WooCommerce fallido", "comment": "Según el glosario, «login» se traduce como «acceso» o «acceder», no como «inicio de sesión»."}
+{"n": 811, "verdict": "reject", "msgstr": "Acceso correcto", "comment": "Según el glosario, «login» se traduce como «acceso» o «acceder», no como «inicio de sesión»."}
+{"n": 816, "verdict": "reject", "msgstr": "Sondeo de nombre de usuario desconocido", "comment": "Según el glosario, «username» se traduce como «nombre de usuario», no como «usuario» en este contexto."}
+{"n": 823, "verdict": "reject", "msgstr": "Exploración detectada", "comment": "Según el glosario, «scan» (sustantivo) se traduce como «exploración»."}
+{"n": 862, "verdict": "reject", "msgstr": "Enviaría un aviso", "comment": "Según el glosario, «notification» se traduce como «aviso», no como «notificación»."}
+{"n": 886, "verdict": "reject", "msgstr": "Informe borrado", "comment": "Según el glosario, «delete» se traduce como «borrar», no como «eliminar»."}
+{"n": 887, "verdict": "reject", "msgstr": "Informes reintentados (por lotes)", "comment": "Según el glosario, «bulk» se traduce como «por lotes»."}

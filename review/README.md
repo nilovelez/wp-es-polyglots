@@ -48,6 +48,8 @@ Before any model review of a large round (more than ~400 strings), give Nilo the
 
 Files that do deserve it are reviewed in slices with `--range A-B` (`extract`, `glossary`, `lint`). Do **not** fan out to many parallel subagents on the same model: a 3053-string round reviewed by ten parallel Sonnet subagents burned most of a day's usage quota. Process the slices one after another in the translator session, or delegate slices to a cheaper model.
 
+Measured with Haiku (rounds 11–13): up to ~900 UI strings fit in one pass with no drop in quality at the end. Above that, use slices of ~750 in the same session, appending each slice's decisions to `decisions.jsonl` as soon as it is done, and keep a `terms.md` with every term choice, re-read at the start of each slice. Before building `review.po`, check the final translations for terms that ended up inconsistent across slices and get Nilo's decision on them (round 13: «autenticación» vs «identificación»), so he does not review the same strings twice.
+
 ## Batches to reject whole
 
 Some batches must be rejected entirely instead of reviewed: machine translations without consistency, with hallucinations, ignoring the glossary and the style guide, and many strings just copied in English. Reviewing them string by string is a waste (round 05, torlann, 3053 strings, was one; its files were deleted so they are never reused). Detecting them automatically, before any model runs, is a requirement for the future review tools (see `docs/status.md`).
