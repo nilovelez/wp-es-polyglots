@@ -30,6 +30,8 @@ Commands:
   lint <file.po> [glossary.csv]
       Review hints on the current translations: glossary terms missing or
       left in English, capitals mid-sentence, «ej.», straight quotes.
+  --range A-B (extract, glossary, lint): only entries A to B, for large files
+      reviewed in slices.
   tm <file.po> [translation-memory.csv]
       Translation memory rows that exactly match a msgid in the file.
 
@@ -251,8 +253,18 @@ def write_report(path, entries, decisions):
 
 # ---------- commands ----------
 
+RANGE = None  # (first, last) entry numbers, set by --range A-B
+
+
+def parse_sel(path):
+    _, entries = parse(path)
+    if RANGE:
+        entries = [e for e in entries if RANGE[0] <= e['n'] <= RANGE[1]]
+    return entries
+
+
 def cmd_extract(args):
-    _, entries = parse(args[0])
+    entries = parse_sel(args[0])
     out = open(args[1], 'w', encoding='utf-8') if len(args) > 1 else sys.stdout
     for e in entries:
         o = {'n': e['n']}
@@ -444,7 +456,7 @@ def read_csv(path):
 def cmd_glossary(args):
     """Glossary entries whose English term appears in the file's msgids."""
     po, gl = args[0], (args[1] if len(args) > 1 else RES + 'glossary.csv')
-    _, entries = parse(po)
+    entries = parse_sel(po)
     text = '\n'.join(e['msgid'] + '\n' + (e['msgid_plural'] or '') for e in entries)
     text = TAG.sub(' ', text).lower()
     hits = {}
@@ -492,7 +504,7 @@ def cmd_lint(args):
     """Hints for review: glossary terms whose translation is missing or left in
     English, mid-sentence capitals, «ej.», straight quotes. Hints, not verdicts."""
     po, gl = args[0], (args[1] if len(args) > 1 else RES + 'glossary.csv')
-    _, entries = parse(po)
+    entries = parse_sel(po)
     merged = {}
     for row in read_csv(gl):
         en = row['en'].strip()
@@ -549,6 +561,13 @@ COMMANDS = {'extract': cmd_extract, 'check': cmd_check, 'build': cmd_build, 'com
             'review-po': cmd_review_po, 'finalize': cmd_finalize}
 
 if __name__ == '__main__':
+    argv = sys.argv[1:]
+    if '--range' in argv:
+        k = argv.index('--range')
+        a, b = argv[k + 1].split('-')
+        RANGE = (int(a), int(b))
+        del argv[k:k + 2]
+    sys.argv = sys.argv[:1] + argv
     if len(sys.argv) < 3 or sys.argv[1] not in COMMANDS:
         sys.exit(__doc__)
     COMMANDS[sys.argv[1]](sys.argv[2:])
