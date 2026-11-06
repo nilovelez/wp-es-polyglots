@@ -42,6 +42,10 @@ Goal: clear the es_ES *waiting* queue fast, and learn from every round.
 
 The `polyglots` tool and Ollama are not part of this loop for now.
 
+## Large rounds
+
+Files with more than ~400 strings are reviewed in slices with `--range A-B` (`extract`, `glossary`, `lint`). Do **not** fan out to many parallel subagents on the same model: in round 05 (3053 strings) ten parallel Sonnet subagents burned a large share of the usage quota. Process the slices one after another in the translator session, or delegate slices to a cheaper model.
+
 ## Round folder
 
 ```

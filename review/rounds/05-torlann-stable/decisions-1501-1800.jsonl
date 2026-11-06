@@ -1,0 +1,135 @@
+{"n": 1501, "verdict": "fix", "msgstr": "Es obligatorio un correo electrónico válido", "comment": "Según el glosario, «required» se traduce como «obligatorio»."}
+{"n": 1502, "verdict": "fix", "msgstr": "Añadir una dirección", "comment": "Según el glosario, «add» se traduce como «añadir», no «agregar»."}
+{"n": 1508, "verdict": "fix", "msgstr": "Establecer como dirección por defecto", "comment": "Según el glosario, «default» se traduce como «por defecto»."}
+{"n": 1512, "verdict": "reject", "msgstr": "Accede a tu espacio %s para ver tus pedidos y gestionar tus direcciones.", "comment": "Tuteo, no «usted». Según el glosario, «log in» es «acceder» y «manage» es «gestionar»."}
+{"n": 1513, "verdict": "fix", "msgstr": "A nivel local, los correos electrónicos no se envían a un buzón real. Usa este enlace para acceder:", "comment": "Según el glosario, «log in» se traduce como «acceder»; y tuteo."}
+{"n": 1514, "verdict": "fix", "msgstr": "Los correos electrónicos no se envían en esta demostración. Usa este enlace para acceder:", "comment": "Según el glosario, «log in» se traduce como «acceder», no «iniciar sesión»."}
+{"n": 1515, "verdict": "reject", "msgstr": "Enlace de acceso generado. A nivel local, los correos electrónicos generalmente no se envían; prueba en tu sitio en línea.", "comment": "Tuteo, no «usted». Según el glosario, «login» es «acceso», no «inicio de sesión»."}
+{"n": 1516, "verdict": "fix", "msgstr": "Se te acaba de enviar un enlace de conexión por correo electrónico. Recuerda revisar tu spam.", "comment": "Mantén el tuteo en toda la frase."}
+{"n": 1517, "verdict": "fix", "msgstr": "Por favor, introduce una dirección de correo electrónico válida.", "comment": "Tuteo, no «usted», y coma tras «Por favor»."}
+{"n": 1519, "verdict": "fix", "msgstr": "Este enlace de acceso no es válido o ha caducado. Pide uno nuevo.", "comment": "Según el glosario, «login» se traduce como «acceso», no «inicio de sesión»."}
+{"n": 1521, "verdict": "reject", "msgstr": "No se ha podido enviar el correo electrónico. Inténtalo de nuevo en unos momentos o ponte en contacto con el soporte.", "comment": "Tuteo, no «usted». «No se ha podido» según el glosario."}
+{"n": 1526, "verdict": "reject", "msgstr": "Recibe un enlace de acceso", "comment": "Tuteo, no «usted». Según el glosario, «login» es «acceso»."}
+{"n": 1528, "verdict": "fix", "msgstr": "Sin contraseña: en este entorno, el enlace de acceso se muestra en la pantalla.", "comment": "Según el glosario, «login» se traduce como «acceso», no «inicio de sesión»."}
+{"n": 1531, "verdict": "doubt", "msgstr": "Realizado %s", "comment": "No tengo claro el contexto de «Passed %s» con la fecha del pedido: «Aprobado» no parece encajar. Propuesta «Realizado %s» (pedido hecho en esa fecha). ¿Es la fecha en que se hizo el pedido?"}
+{"n": 1532, "verdict": "reject", "msgstr": "Tu solicitud de devolución se ha registrado.", "comment": "Tuteo, no «usted»."}
+{"n": 1533, "verdict": "fix", "msgstr": "Por favor, elige un motivo de devolución.", "comment": "Tuteo, no «usted», y coma tras «Por favor»."}
+{"n": 1534, "verdict": "reject", "msgstr": "No se ha podido guardar esta solicitud de devolución.", "comment": "Según el glosario, «unable» se traduce como «no se ha podido»."}
+{"n": 1538, "verdict": "reject", "msgstr": "Tu pedido se enviará pronto.", "comment": "Tuteo, no «usted»."}
+{"n": 1546, "verdict": "fix", "msgstr": "Factura", "comment": "Mayúscula inicial."}
+{"n": 1548, "verdict": "reject", "msgstr": "Gracias — has aceptado este presupuesto.", "comment": "Tuteo, no «usted». Según el glosario, «quote» se traduce como «presupuesto» (en comercio), no «cotización»."}
+{"n": 1549, "verdict": "reject", "msgstr": "Has rechazado este presupuesto. Se ha avisado a la tienda.", "comment": "Tuteo en lugar de «usted». Según el glosario, «quote» se traduce como «presupuesto» (en comercio), no «cotización». «Notification» es «aviso»."}
+{"n": 1550, "verdict": "fix", "msgstr": "Este presupuesto ya no se puede actualizar.", "comment": "Según el glosario, «quote» se traduce como «presupuesto» (en comercio), no «cotización»."}
+{"n": 1552, "verdict": "fix", "msgstr": "Rechazar el presupuesto", "comment": "Según el glosario, «quote» se traduce como «presupuesto» (en comercio), no «cotización»."}
+{"n": 1553, "verdict": "fix", "msgstr": "Aún no tienes ninguna solicitud de presupuesto.", "comment": "Según el glosario, «quote» se traduce como «presupuesto» (en comercio), no «cotización»."}
+{"n": 1554, "verdict": "doubt", "msgstr": "Importe por determinar", "comment": "Cadena en minúscula; «Amount to come» no parece significar «cantidad por venir». Propuesta «Importe por determinar». ¿Es el importe de un presupuesto aún sin precio?"}
+{"n": 1555, "verdict": "fix", "msgstr": "Ver presupuesto", "comment": "Según el glosario, «quote» se traduce como «presupuesto» (en comercio), no «cotización»."}
+{"n": 1558, "verdict": "reject", "msgstr": "Este carrito proviene de tu presupuesto. Continúa para indicar tus datos y pagar.", "comment": "Tuteo, no «usted»."}
+{"n": 1567, "verdict": "reject", "msgstr": "Tus datos se rellenan previamente desde tu cuenta. <a href=\"%s\">Editar mis direcciones</a>", "comment": "Tuteo, no «usted»."}
+{"n": 1568, "verdict": "fix", "msgstr": "Por favor, elige un método de pago válido.", "comment": "Tuteo, no «usted»."}
+{"n": 1569, "verdict": "fix", "msgstr": "Por favor, elige un método de envío compatible con tu dirección.", "comment": "Tuteo, no «usted»."}
+{"n": 1570, "verdict": "fix", "msgstr": "El código de promoción ya no es válido. Compruébalo o quítalo del carrito.", "comment": "Según el glosario, «remove» se traduce casi siempre como «quitar»."}
+{"n": 1571, "verdict": "reject", "msgstr": "Un artículo de tu carrito ya no está disponible. Por favor, revisa tu carrito.", "comment": "Tuteo, no «usted», y coma tras «Por favor»."}
+{"n": 1572, "verdict": "fix", "msgstr": "No se ha podido guardar el pedido. Inténtalo de nuevo en un momento.", "comment": "Según el glosario, «unable» se traduce como «no se ha podido»."}
+{"n": 1574, "verdict": "reject", "msgstr": "Establece un método de pago en %s.", "comment": "Tuteo, no «usted». Según el glosario, «set» se traduce como «establecer»."}
+{"n": 1575, "verdict": "fix", "msgstr": "ajustes de pago", "comment": "Según el glosario, «settings» se traduce como «ajustes», no «configuración»."}
+{"n": 1576, "verdict": "doubt", "msgstr": "Itinerario", "comment": "No tengo contexto de «Itinerary» en el pago. ¿Es el título de un paso del proceso (p. ej. el recorrido del pedido) o el itinerario de entrega? Si es un paso del pago, quizá «Recorrido»."}
+{"n": 1580, "verdict": "fix", "msgstr": "No se ha podido iniciar el pago con Stripe. Inténtalo de nuevo o elige otro método de pago.", "comment": "Según el glosario, «unable» se traduce como «no se ha podido»."}
+{"n": 1581, "verdict": "fix", "msgstr": "No se ha podido iniciar el pago con PayPal. Inténtalo de nuevo o elige otro método de pago.", "comment": "Según el glosario, «unable» se traduce como «no se ha podido»."}
+{"n": 1583, "verdict": "fix", "msgstr": "Tu pedido", "comment": "Mayúscula inicial."}
+{"n": 1584, "verdict": "reject", "msgstr": "Añade productos para empezar.", "comment": "Tuteo, no «usted». Según el glosario, «add» es «añadir»."}
+{"n": 1589, "verdict": "reject", "msgstr": "Tu pedido está registrado", "comment": "Tuteo, no «usted»."}
+{"n": 1590, "verdict": "reject", "msgstr": "Pedido %s — gracias. Completa la transferencia bancaria de abajo para finalizar el pago.", "comment": "Tuteo, no «usted»."}
+{"n": 1591, "verdict": "reject", "msgstr": "Gracias. Completa la transferencia bancaria de abajo para finalizar el pago.", "comment": "Tuteo, no «usted»."}
+{"n": 1592, "verdict": "fix", "msgstr": "Pagar por transferencia", "comment": "Mayúscula inicial."}
+{"n": 1593, "verdict": "reject", "msgstr": "Haz la transferencia con los datos bancarios siguientes.", "comment": "Tuteo, no «usted»."}
+{"n": 1594, "verdict": "reject", "msgstr": "Procesaremos tu pedido al recibir la transferencia.", "comment": "Tuteo, no «usted»."}
+{"n": 1596, "verdict": "reject", "msgstr": "Gracias por tu solicitud. Nuestro equipo se pondrá en contacto contigo en un plazo de 48 horas.", "comment": "Tuteo, no «usted»."}
+{"n": 1599, "verdict": "fix", "msgstr": "Oficina administrativa (acceder)", "comment": "Según el glosario, «login» se traduce como «acceder», no «iniciar sesión»."}
+{"n": 1600, "verdict": "reject", "msgstr": "¡GRACIAS! Tu pago se ha registrado correctamente.", "comment": "Tuteo, no «usted». Según el glosario, «successfully» es «correctamente»."}
+{"n": 1602, "verdict": "reject", "msgstr": "El pago no se ha completado correctamente. Puedes intentarlo de nuevo o ponerte en contacto con nosotros.", "comment": "Según el glosario, «successful» se traduce como «correcto»."}
+{"n": 1608, "verdict": "reject", "msgstr": "Describes tu necesidad.", "comment": "Tuteo, no «usted»."}
+{"n": 1610, "verdict": "reject", "msgstr": "El catálogo y el contenido permanecen visibles. Las ventas, la finalización de la compra y los pagos se suspenden hasta que se reactive una licencia de Torlann.", "comment": "«El pago» y «los pagos» se repetían; «checkout» es «finalizar compra» según el glosario."}
+{"n": 1613, "verdict": "fix", "msgstr": "Aumentar la cantidad", "comment": "Mayúscula inicial."}
+{"n": 1617, "verdict": "reject", "msgstr": "Vende en línea y gestiona presupuestos personalizados: la sencilla tienda de WordPress para autónomos y pequeñas empresas.", "comment": "Tuteo, no «usted». Según el glosario, «manage» es «gestionar» y «quote», «presupuesto»."}
+{"n": 1618, "verdict": "fix", "msgstr": "Volver a presupuestos", "comment": "Según el glosario, «quote» se traduce como «presupuesto» (en comercio), no «cotización»."}
+{"n": 1619, "verdict": "fix", "msgstr": "Añadir un presupuesto", "comment": "Según el glosario, «quote» se traduce como «presupuesto» (en comercio), no «cotización»."}
+{"n": 1620, "verdict": "reject", "msgstr": "Crea manualmente una solicitud de presupuesto para un cliente.", "comment": "Tuteo, no «usted». Según el glosario, «quote» se traduce como «presupuesto» (en comercio), no «cotización»."}
+{"n": 1621, "verdict": "reject", "msgstr": "No se ha podido crear el presupuesto. Comprueba los campos obligatorios.", "comment": "«No se ha podido» y «obligatorio» según el glosario; «quote» es «presupuesto»."}
+{"n": 1623, "verdict": "reject", "msgstr": "Tratamiento", "comment": "«Civilidad» es un calco del francés. Propuesta «Tratamiento» (Sr./Sra.)."}
+{"n": 1624, "verdict": "fix", "msgstr": "Sr.", "comment": "Mayúscula inicial y abreviatura habitual."}
+{"n": 1626, "verdict": "fix", "msgstr": "Ciudad", "comment": "Mayúscula inicial."}
+{"n": 1627, "verdict": "reject", "msgstr": "Detalles de la solicitud", "comment": "«Solicitar detalles» cambia el sentido: son los detalles de la solicitud."}
+{"n": 1630, "verdict": "reject", "msgstr": "Opcional: déjalo en blanco para una solicitud sin un producto del catálogo.", "comment": "Tuteo, no «usted»."}
+{"n": 1633, "verdict": "fix", "msgstr": "Crear presupuesto", "comment": "Según el glosario, «quote» se traduce como «presupuesto» (en comercio), no «cotización»."}
+{"n": 1638, "verdict": "fix", "msgstr": "Gestionar mi catálogo", "comment": "Según el glosario, «manage» se traduce como «gestionar», no «administrar»."}
+{"n": 1639, "verdict": "reject", "msgstr": "Importa o exporta tus productos y transfiere los ajustes de la tienda a otro sitio.", "comment": "Tuteo, no «usted». Según el glosario, «settings» es «ajustes»."}
+{"n": 1641, "verdict": "reject", "msgstr": "Añade nuevos productos o actualiza los existentes desde un archivo CSV/XLSX.", "comment": "Tuteo, no «usted». Según el glosario, «add» es «añadir»."}
+{"n": 1644, "verdict": "reject", "msgstr": "Descarga tu catálogo de Torlann para hacer una copia de seguridad o editarlo.", "comment": "Tuteo, no «usted»."}
+{"n": 1645, "verdict": "fix", "msgstr": "Exportar mis ajustes", "comment": "Según el glosario, «settings» se traduce como «ajustes», no «configuración»."}
+{"n": 1646, "verdict": "reject", "msgstr": "Descarga un archivo JSON con el diseño, los pagos, los correos electrónicos, los presupuestos y otros ajustes de la tienda.", "comment": "Tuteo, no «usted». «Email» es «correo electrónico» en textos largos y «quote», «presupuesto»."}
+{"n": 1648, "verdict": "fix", "msgstr": "¿Reemplazar los ajustes actuales de esta tienda por los del archivo?\\n\\nLos productos, los pedidos y las páginas de WordPress no se ven afectados.\\nEl archivo puede contener claves secretas (Stripe, etc.).", "comment": "Según el glosario, «settings» se traduce como «ajustes»."}
+{"n": 1649, "verdict": "fix", "msgstr": "Importar mis ajustes", "comment": "Según el glosario, «settings» se traduce como «ajustes»."}
+{"n": 1650, "verdict": "reject", "msgstr": "Vuelve a aplicar una configuración de Torlann exportada (p. ej., para clonar los ajustes en otro sitio).", "comment": "Tuteo, no «usted». «e.g.» es «p. ej.» y «settings», «ajustes»."}
+{"n": 1651, "verdict": "reject", "msgstr": "Sube tu archivo JSON de configuración", "comment": "Tuteo, no «usted». Según el glosario, «upload» es «subir», no «cargar»."}
+{"n": 1653, "verdict": "reject", "msgstr": "Esta acción restablecerá la tienda:\n- catálogo (productos, categorías, variantes, inventario)\n- páginas creadas (tienda, carrito, finalizar compra, presupuestos…)\n- todos los ajustes (diseño, pagos, envío, correos electrónicos…)\n\nSe mantendrán los clientes y los pedidos.\n\nEsta acción no se puede deshacer.", "comment": "Según el glosario, «stock» es «inventario», «checkout» (página) es «finalizar compra», «settings» es «ajustes» y «quote» es «presupuesto»."}
+{"n": 1655, "verdict": "reject", "msgstr": "Vacía el catálogo, las páginas creadas (tienda, carrito, presupuestos…) y todos los ajustes (incluido el diseño). Se mantienen los clientes y los pedidos.", "comment": "Según el glosario, «clear» es «vaciar», «settings» es «ajustes» y «quote» es «presupuesto»."}
+{"n": 1661, "verdict": "fix", "msgstr": "Imágenes del archivo de catálogo", "comment": "El original está en singular: «archivo»."}
+{"n": 1662, "verdict": "reject", "msgstr": "", "comment": "Sobra «el/los» tras «%d»; el plural no concuerda.", "msgstr_plural": ["%d producto tiene imágenes para descargar del archivo importado.", "%d productos tienen imágenes para descargar del archivo importado."]}
+{"n": 1664, "verdict": "fix", "msgstr": "Ver mis productos", "comment": "Mayúscula inicial."}
+{"n": 1665, "verdict": "fix", "msgstr": "Tu catálogo se ha actualizado", "comment": "El original no lleva punto final."}
+{"n": 1666, "verdict": "reject", "msgstr": "Los productos, las fotos y las variantes están actualizados. Puedes seguir vendiendo o perfeccionar las páginas de tus productos.", "comment": "Tuteo, no «usted»."}
+{"n": 1673, "verdict": "fix", "msgstr": "Se detectaron variantes visuales. Añade una galería por color: el material y el tamaño no cambian las fotos.", "comment": "Según el glosario, «add» se traduce como «añadir», no «agregar»."}
+{"n": 1676, "verdict": "fix", "msgstr": "Añadir fotos", "comment": "Según el glosario, «add» se traduce como «añadir», no «agregar»."}
+{"n": 1684, "verdict": "reject", "msgstr": "Tu catálogo se ha importado", "comment": "Tuteo, no «usted», y sin punto final como el original."}
+{"n": 1685, "verdict": "reject", "msgstr": "", "comment": "Tuteo, no «usted». Según el glosario, «add» es «añadir».", "msgstr_plural": ["%d producto sin imagen: puedes añadirlo más tarde desde Catálogo → Productos.", "%d productos sin imagen: puedes añadirlos más tarde desde Catálogo → Productos."]}
+{"n": 1687, "verdict": "reject", "msgstr": "Analicé tu archivo.", "comment": "«Expediente» es incorrecto; según el glosario, «file» es «archivo»."}
+{"n": 1688, "verdict": "fix", "msgstr": "Resultado del análisis de «%s».", "comment": "Comillas españolas «»."}
+{"n": 1692, "verdict": "fix", "msgstr": "Sí", "comment": "Falta la tilde y la mayúscula inicial."}
+{"n": 1695, "verdict": "fix", "msgstr": "Inconsistencias detectadas en la asignación", "comment": "Según el glosario, «mapping» se traduce como «asignación», no «mapeo»."}
+{"n": 1699, "verdict": "reject", "msgstr": "Comprobar la coincidencia", "comment": "«El partido» es un error de traducción de «match»; y mayúscula inicial."}
+{"n": 1700, "verdict": "reject", "msgstr": "Se detectaron las columnas automáticamente. Confirma el tipo de catálogo y continúa, o ajusta la asignación si es necesario.", "comment": "Está sin traducir."}
+{"n": 1703, "verdict": "reject", "msgstr": "Comprueba la asignación de cada columna y elige si este archivo incluye productos físicos o servicios.", "comment": "Está sin traducir."}
+{"n": 1704, "verdict": "reject", "msgstr": "Comprueba la asignación de cada columna antes de importar.", "comment": "Tuteo, no «usted». Según el glosario, «mapping» es «asignación»."}
+{"n": 1705, "verdict": "fix", "msgstr": "Tu columna", "comment": "Mayúscula inicial."}
+{"n": 1708, "verdict": "fix", "msgstr": "Variantes: opciones del cliente (color, tamaño, material…)", "comment": "Mantén los puntos suspensivos «…» del original."}
+{"n": 1709, "verdict": "reject", "msgstr": "Especificaciones: ficha técnica (marca, dimensiones…)", "comment": "«Técnica de ficha» está al revés («fiche technique» = ficha técnica) y se mantiene «…» del original."}
+{"n": 1711, "verdict": "reject", "msgstr": "Validar la coincidencia", "comment": "«El partido» es un error de traducción de «match»."}
+{"n": 1718, "verdict": "doubt", "msgstr": "creados", "comment": "Cadena en minúscula, probablemente tras un número de productos. Propuesta «creados» (plural). ¿Va siempre detrás de una cantidad (p. ej. «5 creados»)?"}
+{"n": 1719, "verdict": "doubt", "msgstr": "actualizados", "comment": "Igual que «created»: propuesta «actualizados» (plural). ¿Va siempre detrás de una cantidad?"}
+{"n": 1723, "verdict": "reject", "msgstr": "Para hacer coincidir un producto que ya está en la tienda, Torlann usa primero la columna id_produit (exportación de Torlann); de lo contrario, el SKU/referencia. En este archivo esos valores faltan o están vacíos: por lo tanto, cada fila se ofrece como un producto nuevo. Completa la columna sku o vuelve a exportar el catálogo de Torlann (con id_produit) antes de sincronizar.", "comment": "Tuteo, no «usted»."}
+{"n": 1725, "verdict": "doubt", "msgstr": "que se pueden quitar", "comment": "«Extraíble» no encaja (son variantes que se pueden quitar). Propuesta «que se pueden quitar». ¿Es una etiqueta junto a un contador de variantes?"}
+{"n": 1727, "verdict": "reject", "msgstr": "Para dejar de venderlos, selecciónalos y confirma la eliminación. Por defecto, no hay nada seleccionado.", "comment": "Tuteo, no «usted». Según el glosario, «default» es «por defecto»."}
+{"n": 1731, "verdict": "fix", "msgstr": "Solo las filas modificadas se escribirán en la base de datos. Las variantes que falten en el archivo no se eliminarán automáticamente. No se volverán a descargar imágenes de productos idénticas.", "comment": "«Solo» sin tilde (glosario y RAE)."}
+{"n": 1739, "verdict": "fix", "msgstr": "Resumen de las primeras líneas", "comment": "El original no lleva punto final."}
+{"n": 1743, "verdict": "fix", "msgstr": "Modo de sincronización: solo se escribirán las filas modificadas. Ninguna variante que falte en el archivo se eliminará automáticamente. Las imágenes remotas se enlazarán posteriormente.", "comment": "Según el glosario, «link» (verbo) se traduce como «enlazar», no «vincular»."}
+{"n": 1744, "verdict": "reject", "msgstr": "Los productos se crearán y publicarán. Las imágenes del archivo se enlazarán a continuación (paso de fotos) y, después, se configurará la tienda.", "comment": "«Enlazar» según el glosario; «then store setup» es «luego la configuración de la tienda», no «se almacenará»."}
+{"n": 1747, "verdict": "fix", "msgstr": "Los SKU existentes se ignorarán a menos que confirmes la sobrescritura.", "comment": "Tuteo, no «usted»."}
+{"n": 1748, "verdict": "fix", "msgstr": "Creando tus productos…", "comment": "Mantén «…» como en el original."}
+{"n": 1749, "verdict": "reject", "msgstr": "Importando tu catálogo… Todas las fotos se enlazarán después.", "comment": "Tuteo; «…» como el original; «enlazar» según el glosario."}
+{"n": 1753, "verdict": "reject", "msgstr": "Borra productos, categorías, pedidos, cupones, presupuestos y restablece todos los ajustes. Útil para empezar desde cero.", "comment": "Según el glosario, «delete» es «borrar», «settings» es «ajustes» y «quote» es «presupuesto»."}
+{"n": 1754, "verdict": "fix", "msgstr": "¿Borrar todos los datos de la tienda? Esta acción es irreversible.", "comment": "Según el glosario, «delete» se traduce como «borrar»."}
+{"n": 1756, "verdict": "fix", "msgstr": "Vaciar la tienda", "comment": "Mayúscula inicial."}
+{"n": 1757, "verdict": "reject", "msgstr": "Prueba el formulario de presupuesto", "comment": "Tuteo, no «usted». Según el glosario, «quote» se traduce como «presupuesto» (en comercio), no «cotización»."}
+{"n": 1758, "verdict": "reject", "msgstr": "Repetir la celebración", "comment": "«Celebración de repetición» no se entiende; es una acción: «Repetir la celebración»."}
+{"n": 1760, "verdict": "reject", "msgstr": "Tu catálogo está listo para recibir solicitudes de presupuesto.", "comment": "Tuteo, no «usted». Según el glosario, «quote» se traduce como «presupuesto» (en comercio), no «cotización»."}
+{"n": 1763, "verdict": "fix", "msgstr": "Gestionar mis productos", "comment": "Según el glosario, «manage» se traduce como «gestionar»."}
+{"n": 1765, "verdict": "reject", "msgstr": "¿Vaciar los productos, las categorías, los pedidos y los ajustes de Torlann y volver a iniciar el asistente?", "comment": "Según el glosario, «clear» es «vaciar» y «settings» es «ajustes»."}
+{"n": 1766, "verdict": "fix", "msgstr": "Vaciar y empezar de nuevo", "comment": "Según el glosario, «clear» se traduce como «vaciar»."}
+{"n": 1767, "verdict": "fix", "msgstr": "Otro país", "comment": "Falta la tilde."}
+{"n": 1768, "verdict": "fix", "msgstr": "Elige de la lista…", "comment": "Mantén «…» como en el original."}
+{"n": 1769, "verdict": "fix", "msgstr": "Estas opciones también se aplican a tus tarifas de envío. Puedes cambiarlas más tarde en Países e impuestos.", "comment": "Tuteo en toda la frase y concordancia («opciones» → «cambiarlas»)."}
+{"n": 1770, "verdict": "fix", "msgstr": "Tu situación", "comment": "Mayúscula inicial y tilde."}
+{"n": 1771, "verdict": "fix", "msgstr": "P. ej.: soy panadero y quiero vender mis panes en línea con entrega local.", "comment": "Abreviatura «P. ej.» y «en línea»."}
+{"n": 1772, "verdict": "fix", "msgstr": "Productos físicos", "comment": "Falta la tilde."}
+{"n": 1778, "verdict": "reject", "msgstr": "p. ej. Tu empresa en %s", "comment": "Tuteo, no «usted»."}
+{"n": 1784, "verdict": "fix", "msgstr": "Ejemplo: contacto@tudominio.com", "comment": "Tuteo, no «usted»."}
+{"n": 1785, "verdict": "fix", "msgstr": "Información legal (opcional: SIRET, IVA, forma jurídica)", "comment": "Coherencia con la cadena similar, «Legal information» = «Información legal»."}
+{"n": 1789, "verdict": "fix", "msgstr": "Número de IVA", "comment": "Mayúscula inicial."}
+{"n": 1790, "verdict": "fix", "msgstr": "Forma jurídica", "comment": "Mayúscula inicial."}
+{"n": 1792, "verdict": "reject", "msgstr": "Elige cómo preparar tus servicios:", "comment": "Tuteo, no «usted»."}
+{"n": 1793, "verdict": "reject", "msgstr": "Elige cómo completar tu catálogo:", "comment": "Tuteo, no «usted»."}
+{"n": 1794, "verdict": "reject", "msgstr": "Usa la plantilla de muestra", "comment": "Tuteo, no «usted»."}
+{"n": 1798, "verdict": "reject", "msgstr": "Empezar vacío — crea tus ofertas después desde el catálogo.", "comment": "Tuteo, no «usted»."}
+{"n": 1799, "verdict": "fix", "msgstr": "Importar mi archivo", "comment": "Mayúscula inicial."}
+{"n": 1800, "verdict": "reject", "msgstr": "Excel o CSV — tu lista de servicios.", "comment": "Tuteo, no «usted»."}

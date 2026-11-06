@@ -1,0 +1,124 @@
+{"n": 2701, "verdict": "fix", "msgstr": "Se utiliza para tarifas de envío por niveles de peso. P. ej. 0,5 por 500 g.", "comment": "Tipografía: «p. ej.» lleva punto y espacio."}
+{"n": 2707, "verdict": "reject", "msgstr": "Solicitud de presupuesto", "comment": "Según el glosario, «quote» en comercio se traduce como «presupuesto», no «cotización»."}
+{"n": 2708, "verdict": "reject", "msgstr": "Botón de presupuesto en la ficha del producto.", "comment": "Según el glosario, «quote» se traduce como «presupuesto»."}
+{"n": 2709, "verdict": "reject", "msgstr": "Este ajuste se aplica en el modo de catálogo mixto.", "comment": "Según el glosario, «setting» se traduce como «ajuste», no «configuración»."}
+{"n": 2711, "verdict": "reject", "msgstr": "Activa esto para ofrecer tallas, colores u otras opciones. Luego añade atributos abajo y genera combinaciones.", "comment": "Según el glosario, «enable» es «activar» y «add» es «añadir» (no «agregar»)."}
+{"n": 2712, "verdict": "reject", "msgstr": "Inventario", "comment": "Según el glosario, «stock» como palabra suelta es «inventario». «Valores» no es correcto."}
+{"n": 2713, "verdict": "reject", "msgstr": "Gestionar inventario", "comment": "Según el glosario, «stock» se traduce como «inventario»; no lo dejes en inglés."}
+{"n": 2716, "verdict": "reject", "msgstr_plural": ["%d producto borrado.", "%d productos borrados."], "msgstr": "%d producto borrado.", "comment": "Según el glosario, «delete» se traduce como «borrar»."}
+{"n": 2717, "verdict": "fix", "msgstr_plural": ["%d producto movido a borrador.", "%d productos movidos a borrador."], "msgstr": "%d producto movido a borrador.", "comment": "Había un carácter invisible en el plural y «pasados» no concordaba bien; unifico con «movido(s) a borrador»."}
+{"n": 2721, "verdict": "fix", "msgstr": "No se ha podido duplicar este producto.", "comment": "Según el glosario, «unable» se traduce como «no se ha podido»."}
+{"n": 2722, "verdict": "reject", "msgstr": "Activar una licencia", "comment": "Según el glosario, «enable» se traduce como «activar»."}
+{"n": 2726, "verdict": "reject", "msgstr": "No se ha podido importar: falta el archivo.", "comment": "Has dejado «manquant» sin traducir y «unable» es «no se ha podido» según el glosario."}
+{"n": 2727, "verdict": "reject", "msgstr": "Gestiona tu catálogo, precios y niveles de inventario.", "comment": "Según el glosario, «stock» se traduce como «inventario»."}
+{"n": 2731, "verdict": "fix", "msgstr": "Plantilla CSV", "comment": "Mayúscula inicial en la etiqueta."}
+{"n": 2734, "verdict": "reject", "msgstr": "Añade tu primer producto para lanzar tu tienda.", "comment": "Según el glosario, «add» es «añadir», no «agregar»."}
+{"n": 2735, "verdict": "fix", "msgstr": "Todas las categorías", "comment": "Falta la tilde en «categorías»."}
+{"n": 2738, "verdict": "reject", "msgstr": "¿Borrar los productos seleccionados? Esta acción es irreversible.", "comment": "Según el glosario, «delete» se traduce como «borrar»."}
+{"n": 2740, "verdict": "reject", "msgstr": "Ningún producto coincide con tu búsqueda.", "comment": "Usa el tuteo, nunca «usted»."}
+{"n": 2747, "verdict": "reject", "msgstr": "Ajustes de presupuestos", "comment": "Según el glosario, «settings» es «ajustes» (no «configuración») y «quote» es «presupuesto»."}
+{"n": 2750, "verdict": "reject", "msgstr": "Torlann envía correos electrónicos por ti. Introduce tu dirección habitual (Gmail, Orange, Yahoo…): no se necesita configuración técnica.", "comment": "Usa el tuteo («por ti», «introduce»), evita «ingrese» y, según el glosario, «required» es «obligatorio» o «necesario», no «requerido»."}
+{"n": 2751, "verdict": "reject", "msgstr": "Correo electrónico que recibirá avisos de nuevas solicitudes.", "comment": "Según el glosario, «notification» se traduce como «aviso», no «notificación»."}
+{"n": 2753, "verdict": "reject", "msgstr": "reCAPTCHA opcional para formularios de presupuesto.", "comment": "Según el glosario, «quote» es «presupuesto». Además, «reCAPTCHA» se escribe tal cual, sin mayúscula inicial."}
+{"n": 2755, "verdict": "reject", "msgstr": "Añade una capa adicional de protección con Google reCAPTCHA v3.", "comment": "Según el glosario, «add» es «añadir», no «agregar»; y usa el tuteo."}
+{"n": 2756, "verdict": "reject", "msgstr": "Obtener las claves", "comment": "Según el glosario, «key» (de API) es «clave», no «llave». Además, mayúscula inicial."}
+{"n": 2758, "verdict": "reject", "msgstr": "Textos y colores que se muestran en la lista y en los detalles del presupuesto.", "comment": "Según el glosario, «quote» es «presupuesto», no «cotización»."}
+{"n": 2761, "verdict": "reject", "msgstr": "Este estado es utilizado por al menos un presupuesto", "comment": "Según el glosario, «quote» es «presupuesto»."}
+{"n": 2762, "verdict": "reject", "msgstr": "Cambia las etiquetas y colores en cualquier momento. Un estado solo se puede borrar si no está asignado a ningún presupuesto.", "comment": "Según el glosario, «delete» es «borrar» y «quote» es «presupuesto». Además, «solo» va sin tilde."}
+{"n": 2763, "verdict": "reject", "msgstr": "Integra formularios y páginas de pago en tu sitio.", "comment": "Usa el tuteo, nunca «usted»."}
+{"n": 2764, "verdict": "reject", "msgstr": "Formulario de solicitud de presupuesto (barra lateral)", "comment": "Según el glosario, «quote» es «presupuesto»."}
+{"n": 2766, "verdict": "reject", "msgstr": "Formulario de solicitud de presupuesto de catálogo", "comment": "Según el glosario, «quote» es «presupuesto»."}
+{"n": 2768, "verdict": "reject", "msgstr": "Área de clientes para ver presupuestos", "comment": "Según el glosario, «quote» es «presupuesto»."}
+{"n": 2769, "verdict": "reject", "msgstr": "Guardar ajustes", "comment": "Según el glosario, «settings» es «ajustes», no «configuración»."}
+{"n": 2771, "verdict": "reject", "msgstr": "presupuesto. No puedes borrarlo.", "comment": "Según el glosario, «quote» en comercio es «presupuesto» (aquí «cita» no encaja) y «delete» es «borrar»."}
+{"n": 2772, "verdict": "reject", "msgstr": "¿Seguro que quieres borrar este estado?", "comment": "Según el glosario, «are you sure» es «¿Seguro que…?» y «delete» es «borrar»."}
+{"n": 2776, "verdict": "reject", "msgstr": "Escritorio", "comment": "Según el glosario, «Dashboard» se traduce como «Escritorio», no «panel de control»."}
+{"n": 2777, "verdict": "reject", "msgstr": "Solicitudes de catálogos y presupuestos: sigue tu actividad.", "comment": "Usa el tuteo y, según el glosario, «quote» es «presupuesto»."}
+{"n": 2778, "verdict": "reject", "msgstr": "Ventas, pedidos y presupuestos personalizados, todo en un solo lugar.", "comment": "Según el glosario, «quote» es «presupuesto», no «cotización»."}
+{"n": 2779, "verdict": "reject", "msgstr": "Ventas y pedidos: gestiona tu tienda en línea.", "comment": "Según el glosario, «manage» es «gestionar», no «administrar», y usa el tuteo."}
+{"n": 2781, "verdict": "reject", "msgstr": "Pedidos pendientes", "comment": "Según el glosario, en una tienda «order» es «pedido», no «orden»."}
+{"n": 2782, "verdict": "fix", "msgstr": "A tratar con prioridad", "comment": "«Ser tratado como una prioridad» suena calcado; propongo una forma más natural."}
+{"n": 2784, "verdict": "reject", "msgstr": "Presupuesto pendiente", "comment": "Según el glosario, «quote» es «presupuesto»."}
+{"n": 2789, "verdict": "reject", "msgstr": "Publica tus productos y prueba el formulario de presupuesto.", "comment": "Usa el tuteo y, según el glosario, «quote» es «presupuesto»."}
+{"n": 2790, "verdict": "reject", "msgstr": "Lanza tu tienda en solo unos pasos: ventas en línea y presupuestos a medida.", "comment": "Usa el tuteo y, según el glosario, «quote» es «presupuesto»."}
+{"n": 2791, "verdict": "reject", "msgstr": "Lanza tu tienda en solo unos pasos: ventas en línea.", "comment": "Usa el tuteo, nunca «usted»."}
+{"n": 2792, "verdict": "fix", "msgstr": "Crear un producto", "comment": "Mayúscula inicial."}
+{"n": 2795, "verdict": "reject", "msgstr": "Stripe conectado", "comment": "«Stripe» es un nombre de producto y no se traduce («Raya» es un error)."}
+{"n": 2796, "verdict": "reject", "msgstr": "Transferencia bancaria activada", "comment": "Según el glosario, «enabled» es «activado», no «habilitado»."}
+{"n": 2797, "verdict": "reject", "msgstr": "Activar Stripe o transferencia bancaria", "comment": "Según el glosario, «enable» es «activar», no «habilitar»."}
+{"n": 2798, "verdict": "reject", "msgstr": "Activar la transferencia bancaria. Stripe / PayPal: necesita una licencia", "comment": "Según el glosario, «enable» es «activar». Y, ya que lo cambiamos, «necesita» en lugar de «requiere»."}
+{"n": 2800, "verdict": "fix", "msgstr": "Probar la tienda", "comment": "Mayúscula inicial e infinitivo, como las demás acciones de la lista."}
+{"n": 2803, "verdict": "reject", "msgstr": "Solo modo presupuesto: gestiona tus solicitudes personalizadas.", "comment": "Según el glosario, «manage» es «gestionar» y «quote» es «presupuesto»; usa el tuteo."}
+{"n": 2804, "verdict": "reject", "msgstr": "Módulo de presupuestos activado: gestiona tus solicitudes personalizadas.", "comment": "Según el glosario, «quote» es «presupuesto»; usa el tuteo."}
+{"n": 2805, "verdict": "reject", "msgstr": "Ver presupuestos", "comment": "Según el glosario, «quote» es «presupuesto»."}
+{"n": 2806, "verdict": "reject", "msgstr": "Presupuesto (opcional)", "comment": "Según el glosario, «quote» es «presupuesto»."}
+{"n": 2807, "verdict": "reject", "msgstr": "Ofrece solicitudes personalizadas además de ventas en línea.", "comment": "Usa el tuteo, nunca «usted»."}
+{"n": 2808, "verdict": "reject", "msgstr": "Cambiar al modo mixto o de presupuestos", "comment": "Según el glosario, «quote» es «presupuesto»."}
+{"n": 2810, "verdict": "fix", "msgstr": "No se ha podido guardar la especificación.", "comment": "Según el glosario, «unable» se traduce como «no se ha podido»."}
+{"n": 2815, "verdict": "reject", "msgstr_plural": ["Se utiliza en %d producto; borrarlo también eliminará los valores", "Se utiliza en %d productos; borrarlo también eliminará los valores"], "msgstr": "Se utiliza en %d producto; borrarlo también eliminará los valores", "comment": "Según el glosario, «delete» es «borrar». Además, el plural tenía mal el orden («productos %d») y el singular decía «el producto %d»."}
+{"n": 2817, "verdict": "fix", "msgstr": "P. ej. material, marca…", "comment": "Tipografía: «p. ej.» (no «Por ej.») y minúscula tras él."}
+{"n": 2818, "verdict": "fix", "msgstr": "P. ej. cm, kg…", "comment": "Tipografía: «p. ej.»; además, el original lleva «cm, kg» y los puntos suspensivos son «…»."}
+{"n": 2835, "verdict": "fix", "msgstr_plural": ["La fila %d contiene una lista de tamaños (por ejemplo, 39, 40, 41) que se divide automáticamente en variantes.", "Las %d filas contienen listas de tamaños (por ejemplo, 39, 40, 41): se dividen automáticamente en variantes."], "msgstr": "La fila %d contiene una lista de tamaños (por ejemplo, 39, 40, 41) que se divide automáticamente en variantes.", "comment": "En el plural el número iba delante de «las filas» con una concordancia incorrecta («%d las filas contienen»)."}
+{"n": 2836, "verdict": "doubt", "msgstr": "Columnas Attr: / Opción / Variación completadas.", "comment": "Falta la preposición/orden («Attr: / Opción / Variación columnas»). ¿«Attr», «Option» y «Variation» son nombres literales de columnas del archivo importado (en inglés)? Si lo son, habría que dejarlos en inglés: «Columnas Attr: / Option / Variation completadas»."}
+{"n": 2847, "verdict": "reject", "msgstr": "Descubre este producto en nuestra tienda: calidad cuidada, pedido sencillo y entrega rápida.", "comment": "Usa el tuteo, nunca «usted»."}
+{"n": 2849, "verdict": "reject", "msgstr": "Pide %1$s de %2$s. Entrega cuidadosa y pago seguro.", "comment": "Usa el tuteo; «ordenar» solo se usa para el orden de elementos, en una tienda «order» como verbo es «pedir»."}
+{"n": 2853, "verdict": "reject", "msgstr": "Premium", "comment": "«Premium» es un término que no se traduce; «prima» es incorrecto."}
+{"n": 2866, "verdict": "fix", "msgstr": "Etiquetas/rótulos", "comment": "«Etiquetas/etiquetas» repite el término; distingue «tags» (etiquetas) de «labels» (rótulos)."}
+{"n": 2869, "verdict": "fix", "msgstr": "Altura", "comment": "Mayúscula inicial."}
+{"n": 2873, "verdict": "reject", "msgstr": "Tasa de IVA", "comment": "Según el glosario, «rate» unido a un impuesto es «tasa». Además, mayúscula inicial."}
+{"n": 2874, "verdict": "fix", "msgstr": "Código SA", "comment": "Mayúscula inicial."}
+{"n": 2883, "verdict": "reject", "msgstr": "Formato", "comment": "Te ha quedado «Format» sin traducir."}
+{"n": 2885, "verdict": "fix", "msgstr": "Modelo Torlann", "comment": "Mayúscula inicial y «Torlann» es nombre de producto."}
+{"n": 2889, "verdict": "reject", "msgstr": "Formato no compatible. Usa un archivo CSV o XLSX.", "comment": "Usa el tuteo, nunca «usted»."}
+{"n": 2890, "verdict": "fix", "msgstr": "No se ha podido abrir el archivo CSV.", "comment": "Según el glosario, «unable» se traduce como «no se ha podido»."}
+{"n": 2892, "verdict": "reject", "msgstr": "No se detectaron líneas de cabecera.", "comment": "Según el glosario, «header» se traduce como «cabecera», no «encabezado»."}
+{"n": 2894, "verdict": "fix", "msgstr": "No se ha podido abrir el archivo Excel.", "comment": "Según el glosario, «unable» se traduce como «no se ha podido»."}
+{"n": 2896, "verdict": "fix", "msgstr": "Tamaño máximo del ZIP: %1$s. Formatos: JPG, PNG, WEBP. Hasta %2$d fotos se asocian automáticamente con la importación; el resto se completa después.", "comment": "Mayúscula sobrante tras el punto y coma («Luego») y frase más natural."}
+{"n": 2897, "verdict": "reject", "msgstr": "El ZIP supera el tamaño máximo permitido (%s). Reduce el archivo o impórtalo en lotes.", "comment": "Usa el tuteo, nunca «usted»."}
+{"n": 2898, "verdict": "reject", "msgstr": "La subida se ha interrumpido. Inténtalo de nuevo.", "comment": "Según el glosario, «upload» es «subida»/«subir», no «carga». Además, usa «Inténtalo de nuevo» (no el infinitivo «Intentar»)."}
+{"n": 2900, "verdict": "fix", "msgstr": "No se ha podido recibir el archivo ZIP.", "comment": "Según el glosario, «unable» se traduce como «no se ha podido»."}
+{"n": 2901, "verdict": "reject", "msgstr": "La sesión del catálogo ha caducado.", "comment": "Según el glosario, «expired» es «caducado», no «expirado»."}
+{"n": 2903, "verdict": "reject", "msgstr": "Suelta un archivo ZIP (o un enlace a una carpeta de ZIP/imágenes).", "comment": "Usa el tuteo, nunca «usted»."}
+{"n": 2904, "verdict": "fix", "msgstr": "No se ha podido abrir el archivo ZIP.", "comment": "Según el glosario, «unable» se traduce como «no se ha podido»."}
+{"n": 2906, "verdict": "fix", "msgstr": "No se ha podido guardar la imagen.", "comment": "Según el glosario, «unable» se traduce como «no se ha podido»."}
+{"n": 2909, "verdict": "reject", "msgstr": "Enlace de Google Drive guardado. Primero importa tus productos y luego usa «Enlace automático» en el paso de las fotos.", "comment": "Usa el tuteo y las comillas españolas «»."}
+{"n": 2910, "verdict": "fix", "msgstr": "Para una carpeta de Google Drive, usa «Enlace automático» después de la importación (procesamiento por lotes).", "comment": "Comillas españolas «» y tuteo."}
+{"n": 2911, "verdict": "reject", "msgstr": "La sesión de fotos ha caducado.", "comment": "Según el glosario, «expired» es «caducado», no «expirado»."}
+{"n": 2913, "verdict": "fix", "msgstr": "No se han podido preparar las fotos.", "comment": "Según el glosario, «unable» se traduce como «no se ha podido»."}
+{"n": 2915, "verdict": "reject", "msgstr": "Se recuperaron fotos, pero ningún nombre de archivo coincide con un SKU, slug o nombre de producto. Cambia el nombre de los archivos (p. ej., SKU.jpg) y vuelve a intentarlo.", "comment": "Usa el tuteo, nunca «usted»."}
+{"n": 2920, "verdict": "reject", "msgstr": "No hay productos sin fotos para asignar. Importa primero tu catálogo.", "comment": "Usa el tuteo, nunca «usted»."}
+{"n": 2923, "verdict": "reject", "msgstr": "Emparejando fotos del ZIP…", "comment": "«Matching» es una acción en curso (emparejar), no «coincidentes»; y el original lleva «…», no «...»."}
+{"n": 2926, "verdict": "reject", "msgstr": "Emparejando fotos…", "comment": "«Matching» es una acción en curso (emparejar), no «coincidentes»; y el original lleva «…»."}
+{"n": 2930, "verdict": "reject", "msgstr": "Emparejando… %1$d / %2$d", "comment": "Es un mensaje de progreso: gerundio («Emparejando…»), como en las otras cadenas."}
+{"n": 2932, "verdict": "reject", "msgstr": "No se encontraron imágenes en esta carpeta de Google Drive (JPG, PNG, WEBP, GIF). Comprueba que la carpeta sea pública y contenga fotos.", "comment": "Usa el tuteo y, según el glosario, «check» (comprobar un ajuste) es «comprobar», no «verificar»."}
+{"n": 2934, "verdict": "fix", "msgstr": "%d foto(s) detectada(s): emparejamiento en curso…", "comment": "El original lleva «—» y «…»; usa los dos puntos y «…»."}
+{"n": 2936, "verdict": "reject", "msgstr": "Algunas imágenes no se han podido descargar. Puedes añadirlas o subirlas más tarde.", "comment": "Según el glosario, «add» es «añadir»; además fallaba la concordancia («agregarlos» por «imágenes»)."}
+{"n": 2938, "verdict": "reject", "msgstr": "Formato no compatible para «%s».", "comment": "Según el glosario, «supported» es «compatible», no «admitido». Comillas españolas «»."}
+{"n": 2939, "verdict": "reject", "msgstr": "La subida ha fallado para «%s».", "comment": "Según el glosario, «upload» es «subida», no «carga». Comillas españolas «»."}
+{"n": 2944, "verdict": "fix", "msgstr": "No se ha podido descargar: %s", "comment": "Según el glosario, «unable» se traduce como «no se ha podido»."}
+{"n": 2945, "verdict": "reject", "msgstr": "El enlace devuelve una página web (es necesario acceder o no se comparte públicamente), no un archivo. En Google Drive: Compartir → Acceso general → «Todos los usuarios con el enlace».", "comment": "Según el glosario, «login» es «acceder»; no uses «iniciar sesión». Comillas españolas «»."}
+{"n": 2946, "verdict": "reject", "msgstr": "No se han podido descargar imágenes de la carpeta. Comprueba que se comparte públicamente («Todos los usuarios con el enlace»).", "comment": "Usa el tuteo, «unable» es «no se ha podido» y «check» (comprobar un ajuste) es «comprobar», no «verificar». Comillas españolas «»."}
+{"n": 2947, "verdict": "reject", "msgstr": "No se puede acceder a esta carpeta de Google Drive sin una conexión. Abre Compartir → Acceso general → «Todos los usuarios con el enlace» (Lector) y luego pega el enlace de nuevo.", "comment": "Usa el tuteo, nunca «usted». Comillas españolas «»."}
+{"n": 2948, "verdict": "reject", "msgstr": "No se ha podido acceder a la carpeta de Google Drive. Comprueba el enlace y que esté compartida públicamente.", "comment": "«Check» es «comprobar» (no «consultar»), «unable» es «no se ha podido», y el texto original habla de comprobar que se comparte públicamente."}
+{"n": 2952, "verdict": "reject", "msgstr": "Coincidencia incompleta: nombre y precio obligatorios.", "comment": "Según el glosario, «required» es «obligatorio»."}
+{"n": 2953, "verdict": "reject", "msgstr": "Tu tienda ya contiene %d producto(s). Confirma la sobrescritura antes de continuar.", "comment": "Mezclas «tu» con «Confirme»: usa siempre el tuteo."}
+{"n": 2954, "verdict": "fix", "msgstr": "Línea %1$d ignorada: el SKU «%2$s» ya está presente.", "comment": "Comillas españolas «» y falta el artículo."}
+{"n": 2955, "verdict": "fix", "msgstr": "Línea %d: no se ha podido crear el producto.", "comment": "Según el glosario, «unable» se traduce como «no se ha podido»."}
+{"n": 2958, "verdict": "fix", "msgstr": "%d foto(s) para asignar más tarde a través de «Fotos de producto».", "comment": "Comillas españolas «»."}
+{"n": 2960, "verdict": "reject", "msgstr": "Importación cancelada: %1$d producto(s) y %2$d categoría(s) borrados.", "comment": "Según el glosario, «delete» se traduce como «borrar»."}
+{"n": 2961, "verdict": "fix", "msgstr": "Productos: %d creado(s)", "comment": "En español no se deja espacio antes de los dos puntos."}
+{"n": 2969, "verdict": "fix", "msgstr": "Fila %d: no se ha podido crear el producto principal.", "comment": "Según el glosario, «unable» se traduce como «no se ha podido»."}
+{"n": 2970, "verdict": "fix", "msgstr": "Producto «%1$s» (fila %2$d): variante no válida.", "comment": "Comillas españolas «»."}
+{"n": 2971, "verdict": "fix", "msgstr": "Producto «%1$s»: matriz no guardada (%2$s).", "comment": "Comillas españolas «»."}
+{"n": 2974, "verdict": "fix", "msgstr": "La columna «%1$s» no contiene colores %3$s. Se asoció con «%2$s» para evitar crear variaciones falsas.", "comment": "Comillas españolas «»."}
+{"n": 2975, "verdict": "fix", "msgstr": "La columna «%1$s» no contiene colores%2$s. Se eliminó la asignación de colores: elige Categorías o Etiquetas manualmente.", "comment": "Comillas españolas «» y tuteo («elige»)."}
+{"n": 2979, "verdict": "reject", "msgstr": "La sesión ha caducado. Envía tu archivo de nuevo.", "comment": "Según el glosario, «expired» es «caducado», no «expirado»; y usa el tuteo."}
+{"n": 2982, "verdict": "reject", "msgstr": "Formato no compatible. Sube un archivo CSV o XLSX.", "comment": "Según el glosario, «upload» es «subir», no «cargar»; y usa el tuteo."}
+{"n": 2983, "verdict": "fix", "msgstr": "No se ha podido guardar el archivo.", "comment": "Según el glosario, «unable» se traduce como «no se ha podido»."}
+{"n": 2984, "verdict": "fix", "msgstr": "No se ha podido guardar la sesión de importación. Inténtalo de nuevo con el mismo archivo.", "comment": "Según el glosario, «unable» se traduce como «no se ha podido»."}
+{"n": 2985, "verdict": "fix", "msgstr": "Archivo «%1$s» importado: %2$d producto(s) detectado(s).", "comment": "Comillas españolas «»."}
+{"n": 2986, "verdict": "reject", "msgstr": "Elige si este catálogo es de productos físicos o de servicios.", "comment": "Esta cadena se ha quedado en inglés."}
+{"n": 2990, "verdict": "reject", "msgstr": "La sesión ha caducado.", "comment": "Según el glosario, «expired» es «caducado», no «expirado»."}
+{"n": 2993, "verdict": "fix", "msgstr": "Es necesario confirmar antes de eliminar variantes del catálogo.", "comment": "Según el glosario, «required» es «obligatorio» o «necesario», no «requerido»."}
+{"n": 2994, "verdict": "reject", "msgstr": "Ninguna variante se puede quitar en la vista previa actual.", "comment": "Dejas «retirable» sin traducir bien y «actuel» es francés; usa «se puede quitar» y «actual»."}
+{"n": 2999, "verdict": "fix", "msgstr_plural": ["La variante %d se ha eliminado del catálogo. Ya no se ofrece a la venta.", "Se han eliminado %d variantes del catálogo. Ya no se ofrecen a la venta."], "msgstr": "La variante %d se ha eliminado del catálogo. Ya no se ofrece a la venta.", "comment": "En el plural el número iba tras «Se han eliminado» con mayúscula en mitad de frase; reordeno."}

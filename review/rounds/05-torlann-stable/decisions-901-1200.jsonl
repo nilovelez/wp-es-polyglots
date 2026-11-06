@@ -1,0 +1,66 @@
+{"n": 902, "verdict": "fix", "msgstr": "Demasiadas solicitudes. Inténtalo de nuevo más tarde.", "comment": "Tuteo siempre: «Inténtalo», no «Inténtelo»."}
+{"n": 903, "verdict": "fix", "msgstr": "Por favor, describe tu proyecto.", "comment": "Coma tras «Por favor»."}
+{"n": 907, "verdict": "reject", "msgstr": "Nombre y apellidos obligatorios.", "comment": "Según el glosario, «required» se traduce como «obligatorio» y «last name» como «apellidos»."}
+{"n": 908, "verdict": "reject", "msgstr": "Solicitud de presupuesto para «%s» a través de la tienda", "comment": "Según el glosario, en comercio «quote» se traduce como «presupuesto» (no «cotización»). Además, comillas españolas «»."}
+{"n": 910, "verdict": "reject", "msgstr": "La sesión ha caducado. Por favor, recarga la página.", "comment": "Según el glosario, «expired» se traduce como «caducado». Además, coma tras «Por favor»."}
+{"n": 911, "verdict": "fix", "msgstr": "¡Solicitud enviada correctamente!", "comment": "Según el glosario, «successfully» se traduce como «correctamente»."}
+{"n": 912, "verdict": "fix", "msgstr": "Ha fallado la comprobación de seguridad.", "comment": "Según el glosario, «check» (comprobar un dato) se traduce como «comprobar»."}
+{"n": 913, "verdict": "reject", "msgstr": "Presupuesto no encontrado. Por favor, contacta con nuestro equipo.", "comment": "Aquí «quote» es un presupuesto (glosario), no una «cita». Además, tuteo y coma tras «Por favor»."}
+{"n": 916, "verdict": "fix", "msgstr": "Actualmente no hay ningún método de pago activado.", "comment": "Según el glosario, «enabled» se traduce como «activado», no «habilitado»."}
+{"n": 917, "verdict": "reject", "msgstr": "No se ha podido iniciar el pago. Contacta con nuestro equipo.", "comment": "Según el glosario, «unable» se traduce como «no se ha podido». Además, tuteo: «Contacta», no «Contacte»."}
+{"n": 919, "verdict": "reject", "msgstr": "Este presupuesto ya ha sido pagado. ¡Gracias por tu confianza!", "comment": "Según el glosario, «quote» en comercio se traduce como «presupuesto», no «cotización»."}
+{"n": 922, "verdict": "reject", "msgstr": "Presupuesto %s", "comment": "Según el glosario, «quote» en comercio se traduce como «presupuesto», no «cita»."}
+{"n": 923, "verdict": "reject", "msgstr": "Normas de presupuestos", "comment": "Según el glosario, «quotation» se traduce como «presupuesto», no «cotización»."}
+{"n": 924, "verdict": "fix", "msgstr": "Enlace no válido o caducado. Solicita un nuevo enlace.", "comment": "Tuteo siempre: «Solicita», no «Solicite»."}
+{"n": 926, "verdict": "reject", "msgstr": "Presupuesto archivado", "comment": "Según el glosario, «quote» se traduce como «presupuesto». Además, el original empieza con mayúscula."}
+{"n": 927, "verdict": "reject", "msgstr": "Presupuesto archivado correctamente", "comment": "Según el glosario, «quote» es «presupuesto» y «successfully» es «correctamente»."}
+{"n": 928, "verdict": "reject", "msgstr": "Presupuesto restaurado desde el archivo", "comment": "Según el glosario, «quote» es «presupuesto», no «cita». Además, el original no lleva punto final."}
+{"n": 929, "verdict": "reject", "msgstr": "Presupuesto restaurado correctamente", "comment": "Según el glosario, «quote» es «presupuesto» y «successfully» es «correctamente»."}
+{"n": 930, "verdict": "reject", "msgstr": "Gestión de %s", "comment": "El orden está invertido: «%s management» es «Gestión de %s»."}
+{"n": 931, "verdict": "reject", "msgstr": "Se han detectado datos del antiguo plugin «Gestión de presupuestos».", "comment": "Según el glosario, «plugin» no se traduce (no «complemento») y «quotation» es «presupuesto». Además, comillas españolas «»."}
+{"n": 933, "verdict": "fix", "msgstr": "✅ ¡Correo electrónico de prueba enviado correctamente a %s!", "comment": "Según el glosario, «successfully» se traduce como «correctamente»."}
+{"n": 934, "verdict": "fix", "msgstr": "❌ Error: %s", "comment": "Falta el espacio tras el emoji, como en el original."}
+{"n": 935, "verdict": "fix", "msgstr": "Enviar mi solicitud", "comment": "El original empieza con mayúscula y es un botón: «Enviar mi solicitud»."}
+{"n": 936, "verdict": "reject", "msgstr": "Este producto no está disponible para solicitar presupuesto.", "comment": "Según el glosario, «quote» en comercio es «presupuesto», no «cotización»."}
+{"n": 937, "verdict": "reject", "msgstr": "Variante no válida.", "comment": "El original está en francés («Variant invalide»): significa «Variante no válida» (glosario: «invalid» → «no válido»), no «invalidada»."}
+{"n": 938, "verdict": "reject", "msgstr": "Solicitar un presupuesto", "comment": "Según el glosario, «quote» en comercio es «presupuesto», no «cotización»."}
+{"n": 939, "verdict": "reject", "msgstr": "El formulario de presupuesto está desactivado. Activa el modo de catálogo «Presupuesto» o «Mixto» en Ajustes → General.", "comment": "Según el glosario: «disabled» → «desactivado», «enable» → «activar» y «quote» → «presupuesto». Además, tuteo, comillas «» y sin mayúscula en «catálogo»."}
+{"n": 941, "verdict": "reject", "msgstr": "¡Gracias! Tu solicitud de presupuesto se ha registrado correctamente. Nos pondremos en contacto contigo muy pronto.", "comment": "Tuteo siempre (no «su»/«con usted»). Según el glosario, «quote» es «presupuesto» y «successfully» es «correctamente»."}
+{"n": 944, "verdict": "fix", "msgstr": "Comunidad autónoma", "comment": "Mayúscula solo en la primera palabra."}
+{"n": 949, "verdict": "fix", "msgstr": "Cantones", "comment": "El original empieza con mayúscula; mantenla, como en el resto de la lista."}
+{"n": 950, "verdict": "reject", "msgstr": "Estados federados", "comment": "«Lander» (Länder) son los estados federales de Alemania; «módulo de aterrizaje» no tiene sentido aquí."}
+{"n": 951, "verdict": "fix", "msgstr": "Comunidades autónomas", "comment": "El original empieza con mayúscula; mantenla, como en el resto de la lista."}
+{"n": 958, "verdict": "fix", "msgstr": "Voivodatos", "comment": "La forma correcta en español es «voivodatos» (RAE). Mayúscula inicial como en el resto de la lista."}
+{"n": 961, "verdict": "reject", "msgstr": "%s por defecto. Añade más para limitar el envío.", "comment": "Según el glosario, «default» se traduce como «por defecto» (no «predeterminado») y «add» como «añadir» (no «agregar»). Además, tuteo."}
+{"n": 965, "verdict": "fix", "msgstr": "Alta Francia", "comment": "El nombre español de la región es «Alta Francia»."}
+{"n": 975, "verdict": "reject", "msgstr": "Reunión", "comment": "Es la isla de Reunión, un nombre propio: con mayúscula."}
+{"n": 984, "verdict": "fix", "msgstr": "Manitoba", "comment": "Nombre propio: mayúscula inicial."}
+{"n": 989, "verdict": "fix", "msgstr": "Ontario", "comment": "Nombre propio: mayúscula inicial."}
+{"n": 1000, "verdict": "fix", "msgstr": "Jura", "comment": "Nombre propio (cantón suizo): mayúscula inicial."}
+{"n": 1003, "verdict": "fix", "msgstr": "Uri", "comment": "Nombre propio (cantón suizo): mayúscula inicial."}
+{"n": 1009, "verdict": "fix", "msgstr": "País Vasco", "comment": "Nombre propio: «País Vasco», con mayúsculas y tilde."}
+{"n": 1014, "verdict": "fix", "msgstr": "Madrid", "comment": "Nombre propio: mayúscula inicial."}
+{"n": 1016, "verdict": "fix", "msgstr": "La Rioja", "comment": "Nombre propio: mayúscula en «La Rioja»."}
+{"n": 1039, "verdict": "fix", "msgstr": "Flevoland", "comment": "El nombre en español de la provincia es «Flevoland»."}
+{"n": 1049, "verdict": "fix", "msgstr": "Braga", "comment": "Nombre propio: mayúscula inicial."}
+{"n": 1053, "verdict": "reject", "msgstr": "Faro", "comment": "Es el distrito portugués de Faro: nombre propio, con mayúscula."}
+{"n": 1064, "verdict": "reject", "msgstr": "Madeira", "comment": "Es la región autónoma portuguesa de Madeira, no «madera»."}
+{"n": 1065, "verdict": "fix", "msgstr": "Carlow", "comment": "Nombre propio: mayúscula inicial."}
+{"n": 1066, "verdict": "fix", "msgstr": "Cavan", "comment": "Nombre propio: mayúscula inicial."}
+{"n": 1067, "verdict": "reject", "msgstr": "Clare", "comment": "Es el condado irlandés de Clare; los topónimos no se traducen como nombres comunes."}
+{"n": 1068, "verdict": "reject", "msgstr": "Cork", "comment": "Es el condado irlandés de Cork, no «corcho»."}
+{"n": 1072, "verdict": "fix", "msgstr": "Kerry", "comment": "Nombre propio: mayúscula inicial."}
+{"n": 1075, "verdict": "fix", "msgstr": "Laois", "comment": "El condado se llama «Laois»; no lo cambies."}
+{"n": 1080, "verdict": "reject", "msgstr": "Mayo", "comment": "Es el condado irlandés de Mayo (Mayo en español), no «mayonesa»."}
+{"n": 1081, "verdict": "reject", "msgstr": "Meath", "comment": "Es el condado irlandés de Meath, no «carne»."}
+{"n": 1085, "verdict": "fix", "msgstr": "Sligo", "comment": "Nombre propio: mayúscula inicial."}
+{"n": 1099, "verdict": "fix", "msgstr": "Pomerania", "comment": "Nombre propio: mayúscula inicial."}
+{"n": 1100, "verdict": "reject", "msgstr": "Silesia", "comment": "Hay texto basura al final («poland. kgm»). La traducción es solo «Silesia»."}
+{"n": 1108, "verdict": "fix", "msgstr": "Kalmar", "comment": "Nombre propio: mayúscula inicial."}
+{"n": 1112, "verdict": "fix", "msgstr": "Halland", "comment": "Nombre propio: mayúscula inicial."}
+{"n": 1127, "verdict": "reject", "msgstr": "Syddanmark", "comment": "«Syddanmark» es una región (Dinamarca Meridional), no «Dinamarca»; el resto de regiones danesas de la lista se mantienen con su nombre local."}
+{"n": 1131, "verdict": "fix", "msgstr": "Macedonia oriental y Tracia", "comment": "Mayúscula solo en la primera palabra y nombres propios; coherente con «Macedonia occidental»."}
+{"n": 1147, "verdict": "fix", "msgstr": "Shikoku", "comment": "Nombre propio: mayúscula inicial."}
+{"n": 1151, "verdict": "fix", "msgstr": "Cambié de opinión", "comment": "El original empieza con mayúscula; mantenla."}
+{"n": 1154, "verdict": "reject", "msgstr": "No se ha podido guardar la solicitud de devolución.", "comment": "Según el glosario, «unable» se traduce como «no se ha podido»."}
+{"n": 1157, "verdict": "reject", "msgstr": "Reembolso de Stripe no disponible.", "comment": "«Stripe» es un nombre de producto y no se traduce (no «rayas»)."}
