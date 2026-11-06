@@ -16,7 +16,7 @@ M1 (reorganize the repository and document the current state) is done.
 
 Goal: every tool (a translation skill, a review skill for moderators, an AI agent that pre-reviews incoming translations) uses the same sources: the official translator guide and the official glossary. The skill keeps only the file tools (`po_tool.py`) and the workflows (translate, review), never its own translation rules.
 
-What a skill or workflow may carry is fine-tuning for its scenario: how strict to be depending on what is being translated or reviewed. For example, changelogs allow more tolerance; a plugin's main file needs more care; WordPress core needs much more care. The "Cuándo cambiar una cadena" section of `resources/quick-reference.md` is this kind of rule and belongs in the review workflow, not in the guide.
+What a skill or workflow may carry is fine-tuning for its scenario: how strict to be depending on what is being translated or reviewed. For example, changelogs allow more tolerance; a plugin's main file needs more care; WordPress core needs much more care. The "Cuándo cambiar una cadena" section of `resources/quick-reference.md` is this kind of rule and belongs in the review workflow, not in the guide. These are examples, to be adapted: the tuning is what the rounds teach us. It also covers how to run the work, such as the size from which slices or subagents make sense and the size that is too big for one pass (`review/README.md`, "Large rounds"). It depends on the agent: Claude with a small or a large model, or a local model with Ollama, will each need different tuning.
 
 **Translator guide**
 
