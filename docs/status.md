@@ -45,7 +45,7 @@ When a contributor uploads a batch like torlann (machine translation without con
 ## Open questions (locale)
 
 - «Escritorio» with a capital letter mid-sentence: confirm the es_ES core convention.
-- *Dashboard* of an external service: «escritorio» per the glossary, or a different wording?
+- *Dashboard* of an external service: «escritorio» per the glossary, or a different wording? Round 10: Nilo accepted «escritorio del vendedor» for ifthenpay's merchant dashboard (one case, not yet a rule).
 - *authentication salt* (AUTH_SALT): how does core translate it?
 - *Deselect All*: the glossary gives «anular selección»; «Anular toda la selección»?
 - Plugin name with a subtitle (WGRank Translate – …): leave untranslated?

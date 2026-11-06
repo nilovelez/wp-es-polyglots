@@ -98,6 +98,13 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - Guion largo (#28, #48): Haiku devolvió el «—» del inglés donde el traductor puso «;» o «:». Opus recomendó deshacerlo, por ser un anglicismo, y Nilo lo mantuvo: entra en la regla de mantener la puntuación del original, que ya está en la referencia rápida.
 - Dudas: «Pay by Link» se queda en inglés, como nombre del producto de ifthenpay; *form builder* se queda «constructor de formularios», no «maquetador».
 
+## 2026-11-06 · Haiku · ronda 10 (ifthenpay Payments for WPForms, readme, 66 cadenas) · skill v3
+
+- Resultado: 28 cambios. Haiku propuso 28 cambios y ninguna duda, y Nilo los mantuvo todos. Ni editados, ni deshechos, ni escapados.
+- Coherencia con la ronda 09, que se le pasó como referencia: «clave de pasarela», «clave de Backoffice», «Pasarela de pago», «registro».
+- Del glosario: *addon* = «extensión», *merchant* = «vendedor», *notify* = «avisar», *authentication* = «identificación», *bug* = «fallo», *frontend* = «parte pública», *sandbox* = «entorno de pruebas», *modal* = «emergente», *release* = «versión». Aplicó también la regla nueva del guion largo (#7 y #11) y «correo electrónico» en textos largos.
+- #49: Nilo aceptó «escritorio del vendedor» para el *dashboard* de un servicio externo (el Backoffice de ifthenpay). Es un dato para la pregunta abierta sobre el *Dashboard* externo.
+
 ## 2026-11-06 · Haiku frente a Sonnet · rondas 03 y 04 · skill v3
 
 Haiku revisó a ciegas los `original.po` de las rondas 03 y 04. Se compara con la revisión final de Nilo (`reviewed.po`). Ojo: Nilo revisó partiendo de las propuestas de Sonnet, así que la referencia favorece a Sonnet.
