@@ -42,6 +42,18 @@ Goal: clear the es_ES *waiting* queue fast, and learn from every round.
 
 The `polyglots` tool and Ollama are not part of this loop for now.
 
+## Direct rounds (no Poedit review)
+
+To clear the waiting queue, training rounds (above, with Nilo's review in Poedit) alternate with direct rounds:
+
+1. Fetch and cheap numbers; stop and ask Nilo if it looks like a batch to reject whole.
+2. The translator session reviews it as usual.
+3. Opus audits the decisions instead of Nilo: doubtful changes checked against the glossary, `glossary-overrides.csv` and the quick reference; term consistency across the whole file; `lint` hints left unanswered.
+4. Doubts that the guide, glossary or quick reference do not settle: the string stays as it was (no change) and goes to a list for Nilo.
+5. `build` gives `corrected.po` (only the strings to change), copied to the exchange folder. Nilo imports it and approves the rest.
+
+There is no human reference, so the round is logged in `skill/benchmark-log.md` as "sin revisión humana" and is not counted in the measurements. Whatever Nilo notices later while approving becomes a candidate or a rule as usual.
+
 ## Large rounds
 
 Before any model review of a large round (more than ~400 strings), give Nilo the cheap numbers first (`lint` count, strings identical to English, untranslated) so he can look at the originals and decide whether the batch deserves a review at all.
