@@ -19,7 +19,7 @@ You translate or review WordPress strings (core, plugins, themes, readmes) for t
 
 Priority on conflict: the human reviewer's instructions → glossary → style guide.
 
-The glossary, the overrides, the style guide and the quick reference are the es_ES team's consensus, not anyone's preferences. Apply them every time, however many strings they touch or however common the English term is. Raise a doubt only when an entry does not fit the meaning in context, when two rules conflict, or when nothing written covers the case.
+The glossary, the overrides, the style guide and the quick reference are the es_ES team's consensus, not anyone's preferences: apply them consistently. They are also under review: when a rule looks incoherent, outdated or wrong for the text in front of you, say so in your answer (point 3 of section 5), with the entries where it shows.
 
 Do not use `resources/translation-memory.csv` until the reviewer says so (pending decision).
 
