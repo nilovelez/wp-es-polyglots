@@ -1,0 +1,5 @@
+{"n": 2, "verdict": "reject", "msgstr": "https://quote3d.com/en/integrations/woocommerce", "comment": "Las URL no se traducen; se mantiene la dirección del original."}
+{"n": 3, "verdict": "reject", "msgstr": "Presupuestos instantáneos de impresión 3D en WooCommerce: los clientes suben un archivo STL, OBJ, 3MF o STEP y añaden la pieza presupuestada al carrito.", "comment": "Falta el formato STEP, que aparece en el original."}
+{"n": 23, "verdict": "reject", "msgstr": "El escritorio de Quote3D necesita JavaScript.", "comment": "Según el glosario, «Dashboard» se traduce como «escritorio», no como «panel»."}
+{"n": 26, "verdict": "reject", "msgstr": "Abrir el escritorio de Quote3D", "comment": "Según el glosario, «Dashboard» se traduce como «escritorio», no como «panel»."}
+{"n": 135, "verdict": "reject", "msgstr": "Vaciar filtros", "comment": "Según el glosario, «clear» (verbo) se traduce como «vaciar»."}

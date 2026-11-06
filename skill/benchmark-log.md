@@ -140,6 +140,28 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - Resultado: 291 cambios propuestos, aceptados en bloque por Nilo («me vale»), sin revisarlos cadena a cadena. La medición de esta ronda no es comparable con las demás.
 - Lección: en rondas por tramos, comprobar antes de `review-po` que los términos de `terms.md` se aplicaron en todo el archivo. Anotado en `review/README.md`.
 
+## 2026-11-06 · Haiku · rondas 14–16 · directas, sin revisión humana
+
+Haiku revisa y Opus audita en lugar de Nilo (`review/README.md`, «Direct rounds»). No cuentan en las mediciones.
+
+| Ronda | Cadenas | Propuestas de Haiku | Aplicadas | Descartadas por Opus |
+|---|---|---|---|---|
+| 14 quote3d-for-woocommerce stable | 834 | 36 | 33 (32 + 1 añadida) | 4 |
+| 15 paypercut-payments-for-woocommerce stable | 726 | 77 | 73 | 4 |
+| 16 route-finder dev | 1635 (dos tramos) | 360 | 358 | 2 |
+
+- Descartes de Opus:
+  - URL localizada que existe (#2 de la ronda 14).
+  - *Clear* → «Vaciar» en botones (14).
+  - «eliminar» → «quitar» en borrados físicos de ajustes y claves (15).
+  - «se borran» → «se vacían» (15).
+  - Dos dudas sin resolver (16), que se dejan como estaban.
+- Criterio nuevo de Nilo: *Clear filters* = «Quitar filtros» o «Limpiar filtros». Se aplicó al #135 de la ronda 14.
+- Ronda 16:
+  - 82 correcciones de mayúsculas de *Title Case* y 37 de comillas: el traductor no seguía la guía en eso.
+  - *zoom* → «ampliación» (35), según el glosario. Pendiente de confirmar con Nilo, por la cantidad de cadenas.
+  - El traductor usaba el tratamiento de usted en 4 cadenas («Configure», «Considere»), que se corrigieron.
+
 ## 2026-11-06 · Haiku frente a Sonnet · rondas 03 y 04 · skill v3
 
 Haiku revisó a ciegas los `original.po` de las rondas 03 y 04. Se compara con la revisión final de Nilo (`reviewed.po`). Ojo: Nilo revisó partiendo de las propuestas de Sonnet, así que la referencia favorece a Sonnet.

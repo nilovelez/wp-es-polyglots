@@ -1,0 +1,3158 @@
+# Translation of Plugins - Paypercut Payments for WooCommerce - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Paypercut Payments for WooCommerce - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: +0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.1.0\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Paypercut Payments for WooCommerce - Stable (latest release)\n"
+
+#: src/Subscriptions/WooLifecycle.php:126
+msgid "Manage this subscription in Paypercut Subscriptions. Paypercut must confirm changes before WooCommerce is updated."
+msgstr "Gestiona esta suscripción en Paypercut Subscriptions. Paypercut debe confirmar los cambios antes de que se actualice WooCommerce."
+
+#: src/Subscriptions/WooLifecycle.php:77
+msgid "The WooCommerce subscription could not be linked. Please contact the store."
+msgstr "No se pudo vincular la suscripción de WooCommerce. Por favor, contacta con la tienda."
+
+#: src/Subscriptions/WooLifecycle.php:56
+msgid "Trials, signup fees, end dates, recurring shipping and first-payment-only subscription discounts are not available yet."
+msgstr "Los periodos de prueba, cuotas de alta, fechas de finalización, envíos recurrentes y descuentos de suscripción solo para el primer pago aún no están disponibles."
+
+#: src/Subscriptions/WooLifecycle.php:54 src/Subscriptions/WooLifecycle.php:59
+msgid "The WooCommerce recurring order does not match this checkout."
+msgstr "El pedido recurrente de WooCommerce no coincide con este pago."
+
+#: src/Subscriptions/WooLifecycle.php:52
+msgid "Discounts limited to a number of payments are not available yet."
+msgstr "Los descuentos limitados a un número de pagos aún no están disponibles."
+
+#: src/Subscriptions/WooLifecycle.php:49
+msgid "Paypercut currently supports one WooCommerce subscription per checkout."
+msgstr "Actualmente, Paypercut admite una suscripción de WooCommerce por compra."
+
+#: src/Subscriptions/WooLifecycle.php:47
+msgid "Use a new subscription checkout. Manual renewals, switching and resubscriptions are not available yet."
+msgstr "Usa un nuevo proceso de pago de suscripción. Las renovaciones manuales, los cambios de suscripción y las resuscripciones aún no están disponibles."
+
+#: src/Subscriptions/WooBillingProvider.php:28
+msgid "Paypercut currently supports subscriptions with an immediate first payment and no trial, signup fee, end date or synchronized billing date."
+msgstr "Actualmente, Paypercut admite suscripciones con un primer pago inmediato y sin periodo de prueba, cuota de alta, fecha de finalización ni fecha de facturación sincronizada."
+
+#: src/Subscriptions/WooBillingProvider.php:22
+#: src/Subscriptions/WooLifecycle.php:46
+msgid "WooCommerce Subscriptions is required for this product."
+msgstr "Se requiere WooCommerce Subscriptions para este producto."
+
+#: src/Subscriptions/WebhookSetup.php:142
+msgid "Invalid webhook action."
+msgstr "Acción de webhook no válida."
+
+#: src/Subscriptions/WebhookSetup.php:140
+msgid "You cannot update subscription webhooks."
+msgstr "No puedes actualizar los webhooks de suscripción."
+
+#: src/Subscriptions/WebhookSetup.php:135
+msgid "Webhook setup is waiting for your store’s scheduled tasks. You can check its progress below."
+msgstr "La configuración del webhook está esperando las tareas programadas de tu tienda. Puedes comprobar su progreso a continuación."
+
+#: src/Subscriptions/WebhookSetup.php:134
+msgid "New subscription purchases will become available when webhook setup is complete."
+msgstr "Las nuevas compras de suscripciones estarán disponibles cuando se complete la configuración del webhook."
+
+#: src/Subscriptions/WebhookSetup.php:133
+msgid "Setting up…"
+msgstr "Configurando…"
+
+#: src/Subscriptions/WebhookSetup.php:129
+msgid "We could not verify the subscription webhook. New subscription purchases are unavailable. Please try again."
+msgstr "No pudimos verificar el webhook de suscripción. Las nuevas compras de suscripciones no están disponibles. Por favor, inténtalo de nuevo."
+
+#: src/Subscriptions/WebhookSetup.php:128
+msgid "Webhook setup could not be scheduled. Check your store’s scheduled tasks and try again."
+msgstr "No se pudo programar la configuración del webhook. Comprueba las tareas programadas de tu tienda y vuelve a intentarlo."
+
+#: src/Subscriptions/WebhookSetup.php:127
+msgid "The subscription webhook needs attention in your Paypercut dashboard. New subscription purchases are unavailable until it is ready."
+msgstr "El webhook de suscripción requiere atención en tu panel de control de Paypercut. Las nuevas compras de suscripciones no estarán disponibles hasta que esté listo."
+
+#: src/Subscriptions/WebhookSetup.php:126
+msgid "Reconnect Paypercut Payments to allow subscription webhook setup."
+msgstr "Vuelve a conectar Paypercut Payments para permitir la configuración del webhook de suscripción."
+
+#: src/Subscriptions/WebhookSetup.php:122
+msgid "Enable subscriptions and save your changes to set up webhooks automatically."
+msgstr "Activa las suscripciones y guarda los cambios para configurar los webhooks automáticamente."
+
+#: src/Subscriptions/WebhookSetup.php:121
+msgid "Not set up"
+msgstr "No configurado"
+
+#: src/Subscriptions/WebhookSetup.php:119
+msgid "Enabled — webhook setup verified"
+msgstr "Activado: configuración del webhook verificada"
+
+#: src/Subscriptions/WebhookSetup.php:118
+msgid "Webhook setup has been verified. Check delivery history in your dashboard for notification failures."
+msgstr "Se ha verificado la configuración del webhook. Comprueba el historial de entregas en tu panel de control para ver posibles fallos de notificación."
+
+#: src/Subscriptions/WebhookSetup.php:117
+msgid "Ready"
+msgstr "Listo"
+
+#: src/Subscriptions/WebhookSetup.php:107
+msgid "Connect Paypercut Payments before setting up subscription webhooks."
+msgstr "Conecta Paypercut Payments antes de configurar los webhooks de suscripción."
+
+#: src/Subscriptions/WebhookSetup.php:107
+msgid "New subscription purchases are off"
+msgstr "Las nuevas compras de suscripciones están desactivadas"
+
+#: src/Subscriptions/WebhookSetup.php:107
+msgid "Enabled — new purchases unavailable"
+msgstr "Activado: nuevas compras no disponibles"
+
+#: src/Subscriptions/WebhookSettings.php:61
+msgid "View logs"
+msgstr "Ver registros"
+
+#: src/Subscriptions/WebhookSettings.php:60
+msgid "Manage connection"
+msgstr "Gestionar conexión"
+
+#: src/Subscriptions/WebhookSettings.php:59
+msgid "To inspect deliveries in the dashboard, select the same account and mode shown above."
+msgstr "Para inspeccionar las entregas en el panel de control, selecciona la misma cuenta y modo mostrados arriba."
+
+#: src/Subscriptions/WebhookSettings.php:58
+msgid "Invoice paid and failed updates use this separate webhook. Payment confirmations use your Payments webhook."
+msgstr "Las actualizaciones de facturas pagadas y fallidas usan este webhook independiente. Las confirmaciones de pago usan tu webhook de Payments."
+
+#: src/Subscriptions/WebhookSettings.php:57
+msgid "Endpoint"
+msgstr "Endpoint"
+
+#: src/Subscriptions/WebhookSettings.php:56
+msgid "Last checked:"
+msgstr "Última comprobación:"
+
+#: src/Subscriptions/WebhookSettings.php:55
+msgid "Webhook details"
+msgstr "Detalles del webhook"
+
+#: src/Subscriptions/WebhookSettings.php:14
+msgid "Review webhook setup"
+msgstr "Revisar la configuración del webhook"
+
+#: src/Subscriptions/WebhookSettings.php:13
+msgid "Existing subscriptions may still be billed by Paypercut. Their payment status in WooCommerce may be delayed until webhooks are restored."
+msgstr "Es posible que Paypercut siga facturando las suscripciones existentes. Su estado de pago en WooCommerce puede demorarse hasta que se restablezcan los webhooks."
+
+#: src/Subscriptions/WebhookSettings.php:11
+msgid "Subscriptions are enabled, but new purchases are unavailable"
+msgstr "Las suscripciones están activadas, pero las nuevas compras no están disponibles"
+
+#: src/Subscriptions/SubscriptionViews.php:136
+msgid "Next"
+msgstr "Siguiente"
+
+#: src/Subscriptions/SubscriptionViews.php:135
+msgid "Previous"
+msgstr "Anterior"
+
+#: src/Subscriptions/SubscriptionViews.php:134
+msgid "Subscription pages"
+msgstr "Páginas de suscripción"
+
+#. translators: %s: date and time when the subscription status was last
+#. checked.
+#: src/Subscriptions/SubscriptionViews.php:121
+msgid "Last checked: %s"
+msgstr "Última comprobación: %s"
+
+#. translators: %s: date and time when the subscription status was last
+#. checked.
+#: src/Subscriptions/SubscriptionViews.php:121
+msgid "Cancellation pending"
+msgstr "Cancelación pendiente"
+
+#: src/Subscriptions/SubscriptionViews.php:118
+msgid "Unpaid"
+msgstr "No pagado"
+
+#: src/Subscriptions/SubscriptionViews.php:118
+msgid "Trial"
+msgstr "Prueba"
+
+#: src/Subscriptions/SubscriptionViews.php:118
+msgid "Expired"
+msgstr "Caducado"
+
+#: src/Subscriptions/SubscriptionViews.php:118
+msgid "Payment pending"
+msgstr "Pago pendiente"
+
+#: src/Subscriptions/SubscriptionViews.php:118
+msgid "Canceled"
+msgstr "Cancelado"
+
+#: src/Subscriptions/SubscriptionViews.php:118
+msgid "Paused"
+msgstr "En pausa"
+
+#: src/Subscriptions/SubscriptionViews.php:118
+msgid "Payment overdue"
+msgstr "Pago vencido"
+
+#: src/Subscriptions/SubscriptionViews.php:110
+msgid "Paid"
+msgstr "Pagado"
+
+#: src/Subscriptions/SubscriptionViews.php:108
+msgid "Initial purchase"
+msgstr "Compra inicial"
+
+#: src/Subscriptions/SubscriptionViews.php:102
+#: src/Subscriptions/SubscriptionViews.php:109
+msgid "Total"
+msgstr "Total"
+
+#: src/Subscriptions/SubscriptionViews.php:102
+#: src/Subscriptions/SubscriptionViews.php:106
+msgid "Order"
+msgstr "Pedido"
+
+#: src/Subscriptions/SubscriptionViews.php:98
+msgid "Orders and payments"
+msgstr "Pedidos y pagos"
+
+#: src/Subscriptions/SubscriptionViews.php:97
+msgid "For changes to your subscription, please contact the store."
+msgstr "Para realizar cambios en tu suscripción, por favor contacta con la tienda."
+
+#: src/Subscriptions/SubscriptionViews.php:94
+msgid "Cancel now"
+msgstr "Cancelar ahora"
+
+#: src/Subscriptions/SubscriptionViews.php:93
+msgid "View in Paypercut"
+msgstr "Ver en Paypercut"
+
+#: src/Subscriptions/SubscriptionViews.php:88
+msgid "Current billing period"
+msgstr "Periodo de facturación actual"
+
+#: src/Subscriptions/SubscriptionViews.php:84
+msgid "All subscriptions"
+msgstr "Todas las suscripciones"
+
+#: src/Subscriptions/SubscriptionViews.php:84
+msgid "Subscription details"
+msgstr "Detalles de la suscripción"
+
+#: src/Subscriptions/SubscriptionViews.php:74
+msgid "View"
+msgstr "Ver"
+
+#: src/Subscriptions/SubscriptionViews.php:70
+msgid "Guest"
+msgstr "Invitado"
+
+#: src/Subscriptions/SubscriptionViews.php:64
+#: src/Subscriptions/SubscriptionViews.php:73
+#: src/Subscriptions/SubscriptionViews.php:88
+msgid "Next payment"
+msgstr "Próximo pago"
+
+#: src/Subscriptions/SubscriptionViews.php:64
+#: src/Subscriptions/SubscriptionViews.php:70
+msgid "Customer"
+msgstr "Cliente"
+
+#: src/Subscriptions/SubscriptionViews.php:61
+msgid "No subscriptions to show yet. They will appear here after a subscription purchase."
+msgstr "Aún no hay suscripciones para mostrar. Aparecerán aquí después de una compra de suscripción."
+
+#: src/Subscriptions/SubscriptionViews.php:54
+msgid "Subscription details are unavailable for this account. Check your Paypercut connection or return to the subscription list."
+msgstr "Los detalles de la suscripción no están disponibles para esta cuenta. Comprueba tu conexión con Paypercut o vuelve a la lista de suscripciones."
+
+#: src/Subscriptions/SubscriptionViews.php:35
+#: src/Subscriptions/WooLifecycle.php:170
+msgid "Paypercut confirmed cancellation."
+msgstr "Paypercut confirmó la cancelación."
+
+#: src/Subscriptions/SubscriptionViews.php:35
+msgid "Canceling…"
+msgstr "Cancelando…"
+
+#: src/Subscriptions/SubscriptionViews.php:35
+msgid "Cancel this subscription now? This stops scheduled renewals. Past payments are not refunded, and a payment already in progress may still complete."
+msgstr "¿Cancelar esta suscripción ahora? Esto detiene las renovaciones programadas. Los pagos anteriores no se reembolsan, y un pago que ya esté en curso aún puede completarse."
+
+#: src/Subscriptions/SubscriptionViews.php:34
+msgid "Unable to update the subscription. Please try again."
+msgstr "No se puede actualizar la suscripción. Por favor, inténtalo de nuevo."
+
+#: src/Subscriptions/SubscriptionViews.php:34
+msgid "Status unavailable"
+msgstr "Estado no disponible"
+
+#: src/Subscriptions/SubscriptionViews.php:25
+msgid "Paypercut subscriptions"
+msgstr "Suscripciones de Paypercut"
+
+#: src/Subscriptions/SubscriptionState.php:93
+msgid "Paypercut confirmed cancellation of the subscription. Existing payments and orders are unchanged."
+msgstr "Paypercut confirmó la cancelación de la suscripción. Los pagos y pedidos existentes no han cambiado."
+
+#: src/Subscriptions/SubscriptionState.php:83
+msgid "The Paypercut connection changed. Reload this page."
+msgstr "La conexión de Paypercut ha cambiado. Recarga esta página."
+
+#: src/Subscriptions/SubscriptionState.php:76
+#: src/Subscriptions/SubscriptionState.php:82
+msgid "The subscription details could not be verified."
+msgstr "No se pudieron verificar los detalles de la suscripción."
+
+#: src/Subscriptions/SubscriptionState.php:69
+msgid "A subscription update is already in progress. Refresh the status shortly."
+msgstr "Ya hay una actualización de suscripción en curso. Actualiza el estado en breve."
+
+#: src/Subscriptions/SubscriptionState.php:55
+msgid "Cancellation could not be confirmed. Refresh the status or check the subscription in Paypercut."
+msgstr "No se pudo confirmar la cancelación. Actualiza el estado o comprueba la suscripción en Paypercut."
+
+#: src/Subscriptions/SubscriptionState.php:42
+msgid "Cancellation is awaiting confirmation. Refresh the status before trying again."
+msgstr "La cancelación está esperando confirmación. Actualiza el estado antes de volver a intentarlo."
+
+#: src/Subscriptions/SubscriptionState.php:35
+msgid "Only store administrators can cancel subscriptions."
+msgstr "Solo los administradores de la tienda pueden cancelar suscripciones."
+
+#: src/Subscriptions/SubscriptionOrders.php:21
+msgid "Subscription not found."
+msgstr "Suscripción no encontrada."
+
+#: src/Subscriptions/SubscriptionActions.php:33
+msgid "Subscription status is temporarily unavailable. Please try again shortly."
+msgstr "El estado de la suscripción no está disponible temporalmente. Por favor, inténtalo de nuevo en breve."
+
+#: src/Subscriptions/SubscriptionActions.php:19
+#: src/Subscriptions/SubscriptionActions.php:30
+msgid "You cannot perform this subscription action."
+msgstr "No puedes realizar esta acción en la suscripción."
+
+#: src/Subscriptions/SettingsGateway.php:243
+msgid "Preview: recurring checkout supports products with the same billing period and an immediate first payment. Renewals appear in WooCommerce orders. Customer subscription management is still being developed."
+msgstr "Vista previa: el pago recurrente admite productos con el mismo periodo de facturación y un primer pago inmediato. Las renovaciones aparecen en los pedidos de WooCommerce. La gestión de suscripciones por parte del cliente todavía está en desarrollo."
+
+#: src/Subscriptions/SettingsGateway.php:242
+msgid "When automatic sync is off, new product updates wait until you turn it on again. Your store’s scheduled tasks handle updates in the background."
+msgstr "Cuando la sincronización automática está desactivada, las actualizaciones de nuevos productos esperan hasta que la vuelvas a activar. Las tareas programadas de tu tienda gestionan las actualizaciones en segundo plano."
+
+#: src/Subscriptions/SettingsGateway.php:241
+msgid "Counts reflect products included in a sync for your current Paypercut connection. Larger stores take longer. You can pause and resume a sync at any time."
+msgstr "Los recuentos reflejan los productos incluidos en una sincronización para tu conexión actual de Paypercut. Las tiendas más grandes tardan más. Puedes pausar y reanudar una sincronización en cualquier momento."
+
+#: src/Subscriptions/SettingsGateway.php:240
+msgid "Pausing stops product updates and any import until you resume. Retry only includes products that failed to sync."
+msgstr "Pausar detiene las actualizaciones de productos y cualquier importación hasta que la reanudes. Reintentar solo incluye los productos cuya sincronización falló."
+
+#: src/Subscriptions/SettingsGateway.php:238
+#: src/Subscriptions/SubscriptionViews.php:90
+msgid "Refresh status"
+msgstr "Actualizar estado"
+
+#: src/Subscriptions/SettingsGateway.php:235
+msgid "Retry failed products"
+msgstr "Reintentar productos fallidos"
+
+#: src/Subscriptions/SettingsGateway.php:235
+msgid "Resume syncing"
+msgstr "Reanudar sincronización"
+
+#: src/Subscriptions/SettingsGateway.php:235
+msgid "Pause syncing"
+msgstr "Pausar sincronización"
+
+#: src/Subscriptions/SettingsGateway.php:233
+#: src/Subscriptions/WebhookSettings.php:61
+msgid "View scheduled tasks"
+msgstr "Ver tareas programadas"
+
+#: src/Subscriptions/SettingsGateway.php:233
+msgid "View sync logs"
+msgstr "Ver registros de sincronización"
+
+#: src/Subscriptions/SettingsGateway.php:232
+msgid "Next update expected:"
+msgstr "Próxima actualización prevista:"
+
+#: src/Subscriptions/SettingsGateway.php:231
+msgid "Last attempt:"
+msgstr "Último intento:"
+
+#: src/Subscriptions/SettingsGateway.php:230
+msgid "More sync options"
+msgstr "Más opciones de sincronización"
+
+#: src/Subscriptions/SettingsGateway.php:224
+msgid "Import all existing WooCommerce products, including variations. This runs in the background."
+msgstr "Importa todos los productos existentes de WooCommerce, incluidas las variaciones. Esto se ejecuta en segundo plano."
+
+#: src/Subscriptions/SettingsGateway.php:223
+msgid "Existing products"
+msgstr "Productos existentes"
+
+#: src/Subscriptions/SettingsGateway.php:220
+msgid "Open subscription settings"
+msgstr "Abrir ajustes de suscripción"
+
+#: src/Subscriptions/SettingsGateway.php:217
+msgid "Last synced:"
+msgstr "Última sincronización:"
+
+#: src/Subscriptions/SettingsGateway.php:216
+msgid "Checking products…"
+msgstr "Comprobando productos…"
+
+#: src/Subscriptions/SettingsGateway.php:216
+msgid "Connect Paypercut to sync products."
+msgstr "Conecta Paypercut para sincronizar productos."
+
+#: src/Subscriptions/SettingsGateway.php:212
+#: src/Subscriptions/WebhookSetup.php:124
+msgid "Needs attention"
+msgstr "Requiere atención"
+
+#: src/Subscriptions/SettingsGateway.php:212
+msgid "Waiting"
+msgstr "Esperando"
+
+#: src/Subscriptions/SettingsGateway.php:212
+msgid "Synced"
+msgstr "Sincronizado"
+
+#: src/Subscriptions/SettingsGateway.php:209
+msgid "Edit products"
+msgstr "Editar productos"
+
+#: src/Subscriptions/SettingsGateway.php:209
+msgid "Product sync"
+msgstr "Sincronización de productos"
+
+#: src/Subscriptions/SettingsGateway.php:202
+msgid "Automatically synchronize new and edited products"
+msgstr "Sincronizar automáticamente productos nuevos y editados"
+
+#: src/Subscriptions/SettingsGateway.php:196
+msgid "Updates happen in the background. Existing products are added only when you choose to sync them."
+msgstr "Las actualizaciones se realizan en segundo plano. Los productos existentes solo se añaden cuando decides sincronizarlos."
+
+#: src/Subscriptions/SettingsGateway.php:195
+msgid "Sync new and updated products"
+msgstr "Sincronizar productos nuevos y actualizados"
+
+#: src/Subscriptions/SettingsGateway.php:191
+msgid "Automatic sync"
+msgstr "Sincronización automática"
+
+#: src/Subscriptions/SettingsGateway.php:188
+msgid "Keep your WooCommerce products up to date in Paypercut."
+msgstr "Mantén tus productos de WooCommerce actualizados en Paypercut."
+
+#: src/Subscriptions/SettingsGateway.php:187
+msgid "Product updates"
+msgstr "Actualizaciones de productos"
+
+#: src/Subscriptions/SettingsGateway.php:174
+msgid "Recurring products must share one billing period and start with an immediate payment. One-time products and shipping are charged only with the first payment. Trials, signup fees, end dates and subscription changes are not available yet. Only store administrators can cancel subscriptions."
+msgstr "Los productos recurrentes deben compartir un mismo periodo de facturación y comenzar con un pago inmediato. Los productos puntuales y el envío solo se cobran con el primer pago. Los periodos de prueba, cuotas de alta, fechas de finalización y cambios de suscripción aún no están disponibles. Solo los administradores de la tienda pueden cancelar suscripciones."
+
+#: src/Subscriptions/SettingsGateway.php:172
+msgid "Trials, signup fees, end dates, synchronized billing dates, first-payment-only subscription discounts, recurring shipping, manual renewals and subscription changes are not supported yet. Only store administrators can cancel subscriptions."
+msgstr "Los periodos de prueba, cuotas de alta, fechas de finalización, fechas de facturación sincronizadas, descuentos de suscripción solo para el primer pago, envíos recurrentes, renovaciones manuales y cambios de suscripción aún no son compatibles. Solo los administradores de la tienda pueden cancelar suscripciones."
+
+#: src/Subscriptions/SettingsGateway.php:171
+msgid "Simple and variable subscriptions are supported, with one subscription per checkout and an immediate first payment. One-time products and their shipping are charged only with the first payment."
+msgstr "Se admiten suscripciones simples y variables, con una suscripción por compra y un primer pago inmediato. Los productos puntuales y su envío solo se cobran con el primer pago."
+
+#: src/Subscriptions/SettingsGateway.php:169
+msgid "Supported subscription options"
+msgstr "Opciones de suscripción admitidas"
+
+#: src/Subscriptions/SettingsGateway.php:167
+msgid "Review the supported options below before setting up your products."
+msgstr "Revisa las opciones admitidas a continuación antes de configurar tus productos."
+
+#: src/Subscriptions/SettingsGateway.php:167
+msgid "Not all WooCommerce Subscriptions features are supported by Paypercut."
+msgstr "No todas las funciones de WooCommerce Subscriptions son compatibles con Paypercut."
+
+#: src/Subscriptions/SettingsGateway.php:166
+msgid "Add your own subscription source"
+msgstr "Añadir tu propia fuente de suscripciones"
+
+#: src/Subscriptions/SettingsGateway.php:163
+msgid "Set billing periods on simple products and variations in the product editor."
+msgstr "Establece periodos de facturación en productos simples y variaciones en el editor de productos."
+
+#: src/Subscriptions/SettingsGateway.php:156
+msgid "Use this integration’s recurring product definitions."
+msgstr "Usar las definiciones de productos recurrentes de esta integración."
+
+#: src/Subscriptions/SettingsGateway.php:156
+msgid "Use your WooCommerce Subscriptions products and subscription records."
+msgstr "Usa tus productos y registros de suscripción de WooCommerce Subscriptions."
+
+#: src/Subscriptions/SettingsGateway.php:156
+msgid "Set billing periods in the WooCommerce product editor."
+msgstr "Establece periodos de facturación en el editor de productos de WooCommerce."
+
+#: src/Subscriptions/SettingsGateway.php:150
+msgid "Your selected subscription source is unavailable. Activate its plugin again or choose another source for new subscriptions."
+msgstr "La fuente de suscripciones seleccionada no está disponible. Activa su plugin de nuevo o elige otra fuente para nuevas suscripciones."
+
+#: src/Subscriptions/SettingsGateway.php:149
+msgid "Choose where you manage recurring products. Existing subscriptions keep their original source."
+msgstr "Elige dónde gestionas los productos recurrentes. Las suscripciones existentes mantienen su fuente original."
+
+#: src/Subscriptions/SettingsGateway.php:145
+msgid "Manage subscriptions"
+msgstr "Gestionar suscripciones"
+
+#: src/Subscriptions/SettingsGateway.php:144
+msgid "Turning this off stops new subscription purchases. It does not cancel existing subscriptions or stop their scheduled payments."
+msgstr "Desactivar esto detiene las nuevas compras de suscripciones. No cancela las suscripciones existentes ni detiene sus pagos programados."
+
+#: src/Subscriptions/SettingsGateway.php:143
+msgid "Existing subscriptions will keep billing"
+msgstr "Las suscripciones existentes se seguirán facturando"
+
+#: src/Subscriptions/SettingsGateway.php:131
+msgid "Collect recurring payments through your Paypercut connection."
+msgstr "Cobra pagos recurrentes a través de tu conexión de Paypercut."
+
+#: src/Subscriptions/SettingsGateway.php:130
+msgid "Enable subscriptions"
+msgstr "Activar suscripciones"
+
+#: src/Subscriptions/SettingsGateway.php:123
+msgid "Choose whether to offer recurring products in your store. Payment collection uses your existing Paypercut connection."
+msgstr "Elige si deseas ofrecer productos recurrentes en tu tienda. El cobro de pagos utiliza tu conexión actual de Paypercut."
+
+#: src/Subscriptions/SettingsGateway.php:111
+#: src/Subscriptions/SubscriptionViews.php:64
+#: src/Subscriptions/SubscriptionViews.php:69
+msgid "Products"
+msgstr "Productos"
+
+#: src/Subscriptions/SettingsGateway.php:110
+#: src/Subscriptions/SettingsGateway.php:122
+#: src/Subscriptions/SettingsGateway.php:126
+#: src/Subscriptions/SubscriptionViews.php:25
+#: src/Subscriptions/SubscriptionViews.php:60
+msgid "Subscriptions"
+msgstr "Suscripciones"
+
+#: src/Subscriptions/SettingsGateway.php:109
+msgid "Subscriptions settings"
+msgstr "Ajustes de suscripciones"
+
+#: src/Subscriptions/SettingsGateway.php:102
+#: src/Subscriptions/WebhookSetup.php:107
+msgid "Connection required"
+msgstr "Conexión requerida"
+
+#: src/Subscriptions/SettingsGateway.php:102
+msgid "Connected through Paypercut Payments"
+msgstr "Conectado a través de Paypercut Payments"
+
+#: src/Subscriptions/SettingsGateway.php:97
+msgid "Manage subscriptions and recurring products."
+msgstr "Gestiona suscripciones y productos recurrentes."
+
+#: src/Subscriptions/SettingsGateway.php:52
+msgid "Select an installed subscription source."
+msgstr "Selecciona una fuente de suscripciones instalada."
+
+#: src/Subscriptions/SettingsGateway.php:35
+#: src/Subscriptions/SettingsGateway.php:138
+msgid "Enable Paypercut Subscriptions"
+msgstr "Activar Paypercut Subscriptions"
+
+#: src/Subscriptions/SettingsGateway.php:32
+msgid "Automatic synchronization"
+msgstr "Sincronización automática"
+
+#: src/Subscriptions/SettingsGateway.php:31
+#: src/Subscriptions/SettingsGateway.php:148
+msgid "Subscription source"
+msgstr "Fuente de suscripciones"
+
+#: src/Subscriptions/SettingsGateway.php:19
+msgid "Configure recurring products and synchronize your WooCommerce catalog with Paypercut."
+msgstr "Configura productos recurrentes y sincroniza tu catálogo de WooCommerce con Paypercut."
+
+#: src/Subscriptions/SettingsGateway.php:18
+#: src/Subscriptions/WooLifecycle.php:115
+msgid "Paypercut Subscriptions"
+msgstr "Paypercut Subscriptions"
+
+#. translators: %d: number of years between subscription payments.
+#: src/Subscriptions/ProductPresentation.php:140
+msgid "Every %d year"
+msgid_plural "Every %d years"
+msgstr[0] "Cada %d año"
+msgstr[1] "Cada %d años"
+
+#. translators: %d: number of months between subscription payments.
+#: src/Subscriptions/ProductPresentation.php:138
+msgid "Every %d month"
+msgid_plural "Every %d months"
+msgstr[0] "Cada %d mes"
+msgstr[1] "Cada %d meses"
+
+#. translators: %d: number of weeks between subscription payments.
+#: src/Subscriptions/ProductPresentation.php:136
+msgid "Every %d week"
+msgid_plural "Every %d weeks"
+msgstr[0] "Cada %d semana"
+msgstr[1] "Cada %d semanas"
+
+#. translators: %d: number of days between subscription payments.
+#: src/Subscriptions/ProductPresentation.php:134
+msgid "Every %d day"
+msgid_plural "Every %d days"
+msgstr[0] "Cada %d día"
+msgstr[1] "Cada %d días"
+
+#: src/Subscriptions/ProductPresentation.php:109
+#: src/Subscriptions/SubscriptionViews.php:64
+#: src/Subscriptions/SubscriptionViews.php:71
+msgid "Billing"
+msgstr "Facturación"
+
+#: src/Subscriptions/ProductPresentation.php:71
+#: src/Subscriptions/WooLifecycle.php:115
+msgid "Paypercut manages recurring payments and retries."
+msgstr "Paypercut gestiona los pagos recurrentes y los reintentos."
+
+#: src/Subscriptions/ProductPresentation.php:69
+#: src/Subscriptions/WooLifecycle.php:117
+msgid "View subscription in Paypercut"
+msgstr "Ver suscripción en Paypercut"
+
+#. translators: %s: original WooCommerce order number.
+#: src/Subscriptions/ProductPresentation.php:64
+msgid "Original order #%s"
+msgstr "Pedido original #%s"
+
+#. translators: 1: billing period start date, 2: billing period end date.
+#: src/Subscriptions/ProductPresentation.php:59
+msgid "Billing period: %1$s – %2$s"
+msgstr "Periodo de facturación: %1$s – %2$s"
+
+#: src/Subscriptions/ProductPresentation.php:51
+msgid "Paypercut subscription"
+msgstr "Suscripción de Paypercut"
+
+#: src/Subscriptions/ProductPresentation.php:51
+msgid "Subscription renewal"
+msgstr "Renovación de suscripción"
+
+#: src/Subscriptions/ProductPresentation.php:42
+#: src/Subscriptions/ProductPresentation.php:98
+#: src/Subscriptions/ProductPresentation.php:128
+msgid "Subscription unavailable"
+msgstr "Suscripción no disponible"
+
+#: src/Subscriptions/ProductPresentation.php:41
+msgid "Your subscription payment has not been confirmed yet. Please do not pay again while its status is being checked."
+msgstr "Tu pago de suscripción aún no ha sido confirmado. Por favor, no vuelvas a pagar mientras se comprueba su estado."
+
+#. translators: %s: billing frequency, for example "Every 1 month".
+#: src/Subscriptions/ProductPresentation.php:39
+msgid "Subscription billing: %s. One-time products and shipping are charged only with your first payment."
+msgstr "Facturación de la suscripción: %s. Los productos puntuales y el envío solo se cobran con tu primer pago."
+
+#: src/Subscriptions/ProductPresentation.php:32
+msgid "This order records a subscription renewal. Paypercut manages payment retries; you do not need to pay this order separately."
+msgstr "Este pedido registra una renovación de suscripción. Paypercut gestiona los reintentos de pago; no es necesario pagar este pedido por separado."
+
+#: src/Subscriptions/ProductPresentation.php:31
+msgid "This order records a subscription renewal payment."
+msgstr "Este pedido registra el pago de una renovación de suscripción."
+
+#: src/Subscriptions/ProductCatalogSync.php:485
+msgid "Connect Paypercut to synchronize this product."
+msgstr "Conecta Paypercut para sincronizar este producto."
+
+#: src/Subscriptions/ProductCatalogSync.php:484
+msgid "Product synchronization pending. Subscription checkout stays unavailable until synchronization succeeds."
+msgstr "Sincronización del producto pendiente. El pago de la suscripción permanece no disponible hasta que la sincronización se complete con éxito."
+
+#: src/Subscriptions/ProductCatalogSync.php:484
+msgid "Product synchronized with Paypercut."
+msgstr "Producto sincronizado con Paypercut."
+
+#: src/Subscriptions/ProductCatalogSync.php:483
+msgid "Automatic synchronization is off. Enable it and save this product, or start a catalog pass from Subscriptions > Products."
+msgstr "La sincronización automática está desactivada. Actívala y guarda este producto, o inicia una pasada del catálogo desde Suscripciones > Productos."
+
+#: src/Subscriptions/ProductCatalogSync.php:480
+msgid "Product synchronization failed. Retry failed products from Subscriptions > Products."
+msgstr "Error en la sincronización del producto. Reintenta los productos fallidos desde Suscripciones > Productos."
+
+#: src/Subscriptions/ProductCatalogSync.php:479
+msgid "Reconnect Paypercut to grant Product permissions, then retry synchronization."
+msgstr "Vuelve a conectar Paypercut para otorgar permisos de Productos y luego reintenta la sincronización."
+
+#: src/Subscriptions/ProductCatalogSync.php:470
+msgid "Shipping is being prepared for subscription checkout. Please try again shortly."
+msgstr "Se está preparando el envío para el pago de la suscripción. Por favor, inténtalo de nuevo en breve."
+
+#: src/Subscriptions/ProductCatalogSync.php:457
+msgid "This subscription product is still synchronizing. Please try again later."
+msgstr "Este producto de suscripción aún se está sincronizando. Por favor, inténtalo de nuevo más tarde."
+
+#: src/Subscriptions/ProductCatalogSync.php:362
+msgid "Unable to update synchronization. Check your connection and try again."
+msgstr "No se puede actualizar la sincronización. Comprueba tu conexión y vuelve a intentarlo."
+
+#: src/Subscriptions/ProductCatalogSync.php:358
+msgid "You cannot manage product synchronization."
+msgstr "No tienes permisos para gestionar la sincronización de productos."
+
+#: src/Subscriptions/ProductCatalogSync.php:351
+msgid "A product could not be synced. Check the logs for details."
+msgstr "No se pudo sincronizar un producto. Consulta los registros para más detalles."
+
+#: src/Subscriptions/ProductCatalogSync.php:350
+msgid "Paypercut returned an unexpected response. Check the logs for details."
+msgstr "Paypercut devolvió una respuesta inesperada. Consulta los registros para más detalles."
+
+#: src/Subscriptions/ProductCatalogSync.php:349
+msgid "A previous product update could not be confirmed. Contact support before retrying."
+msgstr "No se pudo confirmar una actualización previa del producto. Contacta con soporte antes de volver a intentarlo."
+
+#: src/Subscriptions/ProductCatalogSync.php:348
+msgid "A product could not be accepted. Check the logs, update it and retry."
+msgstr "No se pudo aceptar un producto. Revisa los registros, actualízalo y vuelve a intentarlo."
+
+#: src/Subscriptions/ProductCatalogSync.php:347
+msgid "Reconnect Paypercut to allow product updates."
+msgstr "Vuelve a conectar Paypercut para permitir actualizaciones de productos."
+
+#: src/Subscriptions/ProductCatalogSync.php:346
+msgid "Paypercut asked us to slow down. Sync will resume automatically."
+msgstr "Paypercut nos ha solicitado reducir el ritmo de peticiones. La sincronización se reanudará automáticamente."
+
+#: src/Subscriptions/ProductCatalogSync.php:345
+msgid "Your store could not reach Paypercut. We’ll retry automatically."
+msgstr "Tu tienda no pudo comunicarse con Paypercut. Reintentaremos automáticamente."
+
+#: src/Subscriptions/ProductCatalogSync.php:344
+msgid "Paypercut is temporarily unavailable. We’ll retry automatically."
+msgstr "Paypercut no está disponible temporalmente. Reintentaremos automáticamente."
+
+#: src/Subscriptions/ProductCatalogSync.php:336
+msgid "Waiting for the next background update."
+msgstr "Esperando a la próxima actualización en segundo plano."
+
+#: src/Subscriptions/ProductCatalogSync.php:333
+msgid "Your store’s background tasks are delayed. Check scheduled tasks below."
+msgstr "Las tareas en segundo plano de tu tienda están retrasadas. Comprueba las tareas programadas a continuación."
+
+#: src/Subscriptions/ProductCatalogSync.php:330
+msgid "Automatic retries have stopped. Retry failed products to try again."
+msgstr "Los reintentos automáticos se han detenido. Reintenta los productos fallidos para volver a intentarlo."
+
+#: src/Subscriptions/ProductCatalogSync.php:308
+#: src/Subscriptions/SettingsGateway.php:217
+msgid "Never"
+msgstr "Nunca"
+
+#: src/Subscriptions/ProductCatalogSync.php:290
+msgid "Unknown synchronization action."
+msgstr "Acción de sincronización desconocida."
+
+#: src/Subscriptions/ProductCatalogSync.php:286
+msgid "Unable to start catalog synchronization."
+msgstr "No se puede iniciar la sincronización del catálogo."
+
+#: src/Subscriptions/ProductCatalogSync.php:281
+msgid "The existing catalog pass is still in progress. Resume it to continue."
+msgstr "La pasada actual del catálogo sigue en curso. Reanúdala para continuar."
+
+#: src/Subscriptions/ProductCatalogSync.php:277
+msgid "A synchronization batch is running. Try again shortly."
+msgstr "Hay un lote de sincronización en ejecución. Inténtalo de nuevo en breve."
+
+#: src/Subscriptions/ProductCatalogSync.php:269
+msgid "Enable Paypercut Subscriptions before synchronizing products."
+msgstr "Activa Paypercut Subscriptions antes de sincronizar productos."
+
+#: src/Subscriptions/ProductAdmin.php:78
+msgid "Year"
+msgstr "Año"
+
+#: src/Subscriptions/ProductAdmin.php:78
+msgid "Month"
+msgstr "Mes"
+
+#: src/Subscriptions/ProductAdmin.php:78
+msgid "Week"
+msgstr "Semana"
+
+#: src/Subscriptions/ProductAdmin.php:78
+msgid "Day"
+msgstr "Día"
+
+#: src/Subscriptions/ProductAdmin.php:64
+#: src/Subscriptions/WooBillingProvider.php:25
+msgid "Choose a valid subscription billing period and interval."
+msgstr "Elige un periodo e intervalo de facturación de suscripción válidos."
+
+#: src/Subscriptions/ProductAdmin.php:31
+msgid "The checkout price, including discounts and tax, repeats each billing period. Trials and setup fees are not available yet."
+msgstr "El precio al finalizar la compra, incluidos los descuentos e impuestos, se repite cada periodo de facturación. Los periodos de prueba y las cuotas de configuración aún no están disponibles."
+
+#: src/Subscriptions/ProductAdmin.php:30 src/Subscriptions/ProductAdmin.php:48
+msgid "Every"
+msgstr "Cada"
+
+#: src/Subscriptions/ProductAdmin.php:29 src/Subscriptions/ProductAdmin.php:47
+#: src/Subscriptions/SubscriptionViews.php:102
+#: src/Subscriptions/SubscriptionViews.php:108
+msgid "Billing period"
+msgstr "Periodo de facturación"
+
+#: src/Subscriptions/ProductAdmin.php:28
+msgid "Bill this product repeatedly with Paypercut."
+msgstr "Factura este producto de forma periódica con Paypercut."
+
+#: src/Subscriptions/ProductAdmin.php:28 src/Subscriptions/ProductAdmin.php:46
+msgid "Recurring payment"
+msgstr "Pago recurrente"
+
+#: src/Subscriptions/ProductAdmin.php:20
+msgid "Subscription"
+msgstr "Suscripción"
+
+#: src/Subscriptions/NativeRenewalOrders.php:94
+msgid "The renewal payment failed. Paypercut manages payment retries; the original order is unchanged."
+msgstr "El pago de renovación falló. Paypercut gestiona los reintentos de pago; el pedido original no ha cambiado."
+
+#: src/Subscriptions/NativeRenewalOrders.php:90
+msgid "Paypercut confirmed the renewal payment."
+msgstr "Paypercut confirmó el pago de renovación."
+
+#: src/Subscriptions/CheckoutBilling.php:86
+msgid "Subscription checkout requires an immediate payment without extra fees."
+msgstr "El pago de la suscripción requiere un pago inmediato sin cargos adicionales."
+
+#: src/Subscriptions/CheckoutBilling.php:73
+msgid "Use the same billing period for every subscription item."
+msgstr "Usa el mismo periodo de facturación para cada artículo de suscripción."
+
+#: src/Subscriptions/CheckoutBilling.php:70
+msgid "Choose recurring products from your selected subscription source. Trials and setup fees are not available yet."
+msgstr "Elige productos recurrentes de tu fuente de suscripción seleccionada. Los periodos de prueba y cuotas de configuración aún no están disponibles."
+
+#: src/Subscriptions/CheckoutBilling.php:54
+#: src/Subscriptions/CheckoutBilling.php:66
+msgid "The subscription order changed. Start a new checkout."
+msgstr "El pedido de suscripción ha cambiado. Inicia un nuevo proceso de pago."
+
+#: src/Subscriptions/CheckoutBilling.php:46
+msgid "Paypercut manages this renewal payment. A new checkout cannot be started for it."
+msgstr "Paypercut gestiona este pago de renovación. No se puede iniciar un nuevo proceso de pago para él."
+
+#: src/Services/CheckoutPayloadFactory.php:41
+msgid "Use Elements Checkout for Paypercut subscriptions."
+msgstr "Usa Elements Checkout para las suscripciones de Paypercut."
+
+#. translators: %s: comma-separated webhook event names.
+#: src/Gateway/PaypercutGateway.php:1960
+msgid "Events: %s"
+msgstr "Eventos: %s"
+
+#: src/ExpressCheckout/Placement.php:546
+msgid "Your cart could not be restored. Reload this page before starting another checkout."
+msgstr "No se pudo restaurar tu carrito. Recarga esta página antes de iniciar otro proceso de pago."
+
+#: src/Blocks/BlocksPaymentProcessor.php:997
+#: src/Subscriptions/CheckoutBilling.php:49
+msgid "Paypercut Subscriptions is currently unavailable."
+msgstr "Paypercut Subscriptions no está disponible actualmente."
+
+#: src/Assets/AdminAssets.php:138
+msgid "Import finished. Some products need attention. Products checked:"
+msgstr "Importación finalizada. Algunos productos requieren atención. Productos comprobados:"
+
+#: src/Assets/AdminAssets.php:137
+msgid "Full import complete. Products checked:"
+msgstr "Importación completa finalizada. Productos comprobados:"
+
+#: src/Assets/AdminAssets.php:136
+msgid "Import is waiting to continue. Products checked:"
+msgstr "La importación está esperando para continuar. Productos comprobados:"
+
+#: src/Assets/AdminAssets.php:135
+msgid "Import is waiting for your connection. Products checked:"
+msgstr "La importación está esperando tu conexión. Productos comprobados:"
+
+#: src/Assets/AdminAssets.php:134
+msgid "Import paused. Products checked:"
+msgstr "Importación pausada. Productos comprobados:"
+
+#: src/Assets/AdminAssets.php:133
+msgid "Import in progress. Products checked:"
+msgstr "Importación en curso. Productos comprobados:"
+
+#: src/Assets/AdminAssets.php:132
+msgid "Sync all products again"
+msgstr "Sincronizar todos los productos de nuevo"
+
+#: src/Assets/AdminAssets.php:130 src/Subscriptions/SettingsGateway.php:226
+msgid "Import all products"
+msgstr "Importar todos los productos"
+
+#: src/Assets/AdminAssets.php:129
+msgid "Existing products have not been imported."
+msgstr "Los productos existentes no han sido importados."
+
+#: src/Assets/AdminAssets.php:127
+msgid "Unable to update product sync. Please try again."
+msgstr "No se puede actualizar la sincronización de productos. Por favor, inténtalo de nuevo."
+
+#: src/Assets/AdminAssets.php:126
+msgid "Product sync needs attention. Check your store’s scheduled tasks."
+msgstr "La sincronización de productos requiere atención. Comprueba las tareas programadas de tu tienda."
+
+#: src/Assets/AdminAssets.php:125
+msgid "Automatic sync is off."
+msgstr "La sincronización automática está desactivada."
+
+#: src/Assets/AdminAssets.php:124
+msgid "Some products need attention."
+msgstr "Algunos productos requieren atención."
+
+#: src/Assets/AdminAssets.php:123
+msgid "No products synced yet."
+msgstr "Aún no hay productos sincronizados."
+
+#: src/Assets/AdminAssets.php:122
+msgid "No updates waiting."
+msgstr "No hay actualizaciones en espera."
+
+#: src/Assets/AdminAssets.php:121
+msgid "Retrying failed products…"
+msgstr "Reintentando productos fallidos…"
+
+#: src/Assets/AdminAssets.php:120
+msgid "Syncing products…"
+msgstr "Sincronizando productos…"
+
+#: src/Assets/AdminAssets.php:119
+msgid "Enable Subscriptions in Settings to sync products."
+msgstr "Activa las suscripciones en Ajustes para sincronizar productos."
+
+#: src/Assets/AdminAssets.php:118
+msgid "Reconnect Paypercut in Settings to continue syncing."
+msgstr "Vuelve a conectar Paypercut en Ajustes para continuar sincronizando."
+
+#: src/Assets/AdminAssets.php:117
+msgid "Product sync is paused."
+msgstr "La sincronización de productos está pausada."
+
+#: src/Assets/AdminAssets.php:109
+msgid "Unable to check webhook setup. Please try again."
+msgstr "No se puede comprobar la configuración del webhook. Por favor, inténtalo de nuevo."
+
+#: src/Assets/AdminAssets.php:108 src/Assets/AdminAssets.php:128
+msgid "Save your changes to continue."
+msgstr "Guarda los cambios para continuar."
+
+#: src/Assets/AdminAssets.php:107 src/Assets/AdminAssets.php:131
+#: src/Subscriptions/ProductCatalogSync.php:339
+#: src/Subscriptions/SettingsGateway.php:231
+#: src/Subscriptions/WebhookSettings.php:56
+msgid "Not yet"
+msgstr "Todavía no"
+
+#. translators: %s: date and time when the subscription status was last
+#. checked.
+#: src/Assets/AdminAssets.php:107 src/Subscriptions/SubscriptionViews.php:34
+#: src/Subscriptions/SubscriptionViews.php:121
+msgid "Checking…"
+msgstr "Comprobando…"
+
+#: src/Assets/AdminAssets.php:106 src/Subscriptions/WebhookSettings.php:47
+msgid "Check setup"
+msgstr "Comprobar configuración"
+
+#: src/Assets/AdminAssets.php:106 src/Subscriptions/WebhookSettings.php:47
+msgid "Retry setup"
+msgstr "Reintentar configuración"
+
+#: src/Assets/AdminAssets.php:96
+msgid "Supports subscriptions"
+msgstr "Admite suscripciones"
+
+#: src/Assets/AdminAssets.php:93 src/Subscriptions/SettingsGateway.php:94
+msgid "Beta"
+msgstr "Beta"
+
+#: src/Http/Ajax/ResetConfiguration.php:24
+msgid "Please confirm the configuration reset."
+msgstr "Por favor, confirma el restablecimiento de la configuración."
+
+#: src/Http/Admin/CompleteConnection.php:226
+#: src/Http/Admin/CompleteConnection.php:469
+#: src/Http/Ajax/StartConnection.php:171
+#: src/Http/Ajax/StartDebugSession.php:142
+msgid "Paypercut configuration was reset. Please start setup again."
+msgstr "Se ha restablecido la configuración de Paypercut. Por favor, inicia la configuración de nuevo."
+
+#: src/Assets/AdminAssets.php:215
+msgid "Wait for settings to finish saving, then try again."
+msgstr "Espera a que los ajustes terminen de guardarse y vuelve a intentarlo."
+
+#: src/Assets/AdminAssets.php:214 src/Http/Ajax/ResetConfiguration.php:31
+msgid "Configuration could not be reset. Please try again."
+msgstr "No se pudo restablecer la configuración. Por favor, inténtalo de nuevo."
+
+#: src/Assets/AdminAssets.php:213
+msgid "Resetting…"
+msgstr "Restableciendo…"
+
+#: src/Admin/ResetConfiguration.php:28
+msgid "Reset and return to setup"
+msgstr "Restablecer y volver a la configuración"
+
+#: src/Admin/ResetConfiguration.php:26
+msgid "Reset all Paypercut configuration? This cannot be undone. You will need to connect your account again."
+msgstr "¿Restablecer toda la configuración de Paypercut? Esta acción no se puede deshacer. Tendrás que conectar tu cuenta de nuevo."
+
+#: src/Admin/ResetConfiguration.php:21
+msgid "Orders, customers, saved payment methods and payment records will be kept. Your Paypercut account will not be deleted."
+msgstr "Se conservarán los pedidos, clientes, métodos de pago guardados y registros de pago. Tu cuenta de Paypercut no se eliminará."
+
+#: src/Admin/ResetConfiguration.php:20
+msgid "Remove all Paypercut plugin settings, including API keys, connection details and checkout preferences, and start setup again. Paypercut payments will be unavailable until you reconnect."
+msgstr "Elimina todos los ajustes del plugin Paypercut, incluidas las claves de API, los detalles de conexión y las preferencias de pago, e inicia la configuración de nuevo. Los pagos con Paypercut no estarán disponibles hasta que vuelvas a conectar."
+
+#: src/Admin/ResetConfiguration.php:19 src/Admin/ResetConfiguration.php:23
+msgid "Reset configuration"
+msgstr "Restablecer configuración"
+
+#: src/Admin/ResetConfiguration.php:17
+msgid "Danger zone"
+msgstr "Zona de peligro"
+
+#: src/Support/CheckoutExperienceStatus.php:121
+msgid "The selected experience is remembered, but new payment attempts are unavailable until its runtime requirements are restored."
+msgstr "Se recuerda la experiencia seleccionada, pero los nuevos intentos de pago no estarán disponibles hasta que se restablezcan sus requisitos de ejecución."
+
+#: src/Support/CheckoutExperienceStatus.php:120
+msgid "Elements Checkout is selected for new payment attempts."
+msgstr "Elements Checkout está seleccionado para nuevos intentos de pago."
+
+#: src/Support/CheckoutExperienceStatus.php:119
+msgid "Your current checkout experience remains active. You can opt in to Elements Checkout when ready."
+msgstr "Tu experiencia de pago actual sigue activa. Puedes cambiar a Elements Checkout cuando estés listo."
+
+#: src/Support/CheckoutExperienceStatus.php:118
+msgid "Reconnect Paypercut to restore the publishable key. Hosted Checkout and Checkout Widget stay available."
+msgstr "Vuelve a conectar Paypercut para restaurar la clave pública. Hosted Checkout y Checkout Widget siguen disponibles."
+
+#: src/Support/CheckoutExperienceStatus.php:111
+msgid "Selected experience unavailable"
+msgstr "Experiencia seleccionada no disponible"
+
+#: src/Support/CheckoutExperienceStatus.php:110
+msgid "Elements Enabled"
+msgstr "Elements activado"
+
+#: src/Support/CheckoutExperienceStatus.php:109
+msgid "Ready to Migrate"
+msgstr "Listo para migrar"
+
+#: src/Support/CheckoutExperienceStatus.php:108
+msgid "Requires Action"
+msgstr "Requiere acción"
+
+#: src/Support/PaymentErrorMessageMapper.php:56
+msgid "We could not process your payment. Please check your details or choose another payment method."
+msgstr "No pudimos procesar tu pago. Por favor, comprueba tus datos o elige otro método de pago."
+
+#: src/Support/PaymentErrorMessageMapper.php:55
+msgid "The payment amount could not be accepted. Review your order or choose another payment method."
+msgstr "No se pudo aceptar el importe del pago. Revisa tu pedido o elige otro método de pago."
+
+#: src/Support/PaymentErrorMessageMapper.php:54
+msgid "This payment method cannot be used. Please choose another payment method."
+msgstr "Este método de pago no se puede utilizar. Por favor, elige otro método de pago."
+
+#: src/Support/PaymentErrorMessageMapper.php:53
+msgid "Your payment could not be processed right now. Please try again later."
+msgstr "Tu pago no se ha podido procesar en este momento. Por favor, inténtalo de nuevo más tarde."
+
+#: src/Support/PaymentErrorMessageMapper.php:52
+msgid "We could not securely prepare your payment method. Please try again or choose another payment method."
+msgstr "No pudimos preparar de forma segura tu método de pago. Por favor, inténtalo de nuevo o elige otro método de pago."
+
+#: src/Support/PaymentErrorMessageMapper.php:51
+msgid "We could not confirm the latest payment status. Refresh the page before trying again."
+msgstr "No pudimos confirmar el estado más reciente del pago. Actualiza la página antes de volver a intentarlo."
+
+#: src/Support/PaymentErrorMessageMapper.php:50
+msgid "Your payment information is already being processed. Please wait."
+msgstr "Tu información de pago ya se está procesando. Por favor, espera."
+
+#: src/Support/PaymentErrorMessageMapper.php:49
+msgid "The payment form has expired. Refresh the page and enter your payment details again."
+msgstr "El formulario de pago ha caducado. Actualiza la página e introduce tus datos de pago de nuevo."
+
+#: src/Support/PaymentErrorMessageMapper.php:48
+msgid "Your bank requires a verification method that is not available here. Please choose another card or payment method."
+msgstr "Tu banco requiere un método de verificación que no está disponible aquí. Por favor, elige otra tarjeta u otro método de pago."
+
+#: src/Support/PaymentErrorMessageMapper.php:47
+msgid "We could not verify your payment method. Please try again or choose another payment method."
+msgstr "No pudimos verificar tu método de pago. Por favor, inténtalo de nuevo o elige otro método de pago."
+
+#: src/Support/PaymentErrorMessageMapper.php:46
+msgid "Payment verification was canceled. Please try again or choose another payment method."
+msgstr "La verificación del pago fue cancelada. Por favor, inténtalo de nuevo o elige otro método de pago."
+
+#: src/Support/PaymentErrorMessageMapper.php:45
+msgid "Your card was declined. Contact your card issuer or choose another payment method."
+msgstr "Tu tarjeta fue rechazada. Contacta con el emisor de tu tarjeta o elige otro método de pago."
+
+#: src/Support/PaymentErrorMessageMapper.php:44
+msgid "Your card has insufficient funds. Please use another payment method."
+msgstr "Tu tarjeta no tiene fondos suficientes. Por favor, utiliza otro método de pago."
+
+#: src/Support/PaymentErrorMessageMapper.php:43
+msgid "Your card has expired. Please use a different card."
+msgstr "Tu tarjeta ha caducado. Por favor, utiliza una tarjeta diferente."
+
+#: src/Support/PaymentErrorMessageMapper.php:42
+msgid "Your card security code is incorrect. Check the code and try again."
+msgstr "El código de seguridad de tu tarjeta es incorrecto. Comprueba el código y vuelve a intentarlo."
+
+#: src/Support/PaymentErrorMessageMapper.php:41
+msgid "Your card number is incorrect. Check the number and try again."
+msgstr "El número de tu tarjeta es incorrecto. Comprueba el número y vuelve a intentarlo."
+
+#: src/Support/PaymentErrorMessageMapper.php:40
+msgid "Some payment information is invalid. Please check your card details."
+msgstr "Parte de la información de pago no es válida. Por favor, comprueba los datos de tu tarjeta."
+
+#: src/Support/PaymentErrorMessageMapper.php:39
+msgid "Your payment information is incomplete. Please complete your card details."
+msgstr "Tu información de pago está incompleta. Por favor, completa los datos de tu tarjeta."
+
+#: src/Services/PaymentRecoveryManager.php:197
+msgid "Paypercut payment status could not be checked. The order was not charged again."
+msgstr "No se pudo comprobar el estado del pago en Paypercut. No se volvió a cobrar el pedido."
+
+#. translators: %1$s: recovery source, %2$s: authoritative result
+#: src/Services/PaymentRecoveryManager.php:145
+msgid "Paypercut payment status checked by %1$s: %2$s."
+msgstr "Estado del pago de Paypercut comprobado por %1$s: %2$s."
+
+#: src/Services/PaymentRecoveryManager.php:102
+msgid "Paypercut payment status check was refused because the user is not authorized."
+msgstr "La comprobación del estado del pago de Paypercut fue rechazada porque el usuario no está autorizado."
+
+#: src/Services/PaymentRecoveryManager.php:91
+msgid "Check Paypercut payment status"
+msgstr "Comprobar el estado del pago de Paypercut"
+
+#: src/Services/PaymentRecoveryManager.php:65
+msgid "Every five minutes (Paypercut recovery)"
+msgstr "Cada cinco minutos (recuperación de Paypercut)"
+
+#: src/Http/Rest/CheckoutSessionWebhook.php:688
+#: src/Services/DeferredPaymentReconciler.php:139
+msgid "Paypercut payment verification is processing."
+msgstr "La verificación del pago de Paypercut se está procesando."
+
+#: src/Http/Ajax/SaveGatewaySettings.php:62
+msgid "Paypercut settings are unavailable. Refresh the page and try again."
+msgstr "Los ajustes de Paypercut no están disponibles. Actualiza la página y vuelve a intentarlo."
+
+#: src/Http/Ajax/SaveGatewaySettings.php:54
+msgid "Invalid Paypercut gateway."
+msgstr "Pasarela de Paypercut no válida."
+
+#: src/Http/Ajax/ReconcileDeferredPayment.php:121
+msgid "Payment verification was unsuccessful. Your order was not charged again."
+msgstr "La verificación del pago no se realizó correctamente. No se volvió a cobrar tu pedido."
+
+#: src/Http/Ajax/ReconcileDeferredPayment.php:30
+msgid "Payment verification could not be completed. Your order has been preserved."
+msgstr "No se pudo completar la verificación del pago. Tu pedido se ha conservado."
+
+#: src/Http/Ajax/PaymentMethodSetup.php:92
+msgid "Invalid payment method setup request."
+msgstr "Solicitud de configuración del método de pago no válida."
+
+#: src/Http/Ajax/PaymentMethodSetup.php:68
+msgid "Paypercut card setup is not available."
+msgstr "La configuración de tarjeta de Paypercut no está disponible."
+
+#: src/Http/Ajax/PaymentMethodSetup.php:48
+msgid "Paypercut is not available."
+msgstr "Paypercut no está disponible."
+
+#: src/Http/Ajax/PaymentMethodSetup.php:43
+msgid "Your session expired. Reload the page and try again."
+msgstr "Tu sesión ha caducado. Recarga la página y vuelve a intentarlo."
+
+#: src/Http/Ajax/PaymentMethodSetup.php:40
+msgid "Sign in to add a payment method."
+msgstr "Inicia sesión para añadir un método de pago."
+
+#: src/Http/Ajax/ExpressCheckoutShipping.php:171
+msgid "Unable to apply this shipping method."
+msgstr "No se puede aplicar este método de envío."
+
+#: src/Http/Ajax/ExpressCheckoutShipping.php:116
+msgid "Unable to calculate shipping for this address."
+msgstr "No se puede calcular el envío para esta dirección."
+
+#: src/Http/Ajax/ExpressCheckoutShipping.php:75
+msgid "Unable to normalize the wallet address."
+msgstr "No se puede normalizar la dirección del monedero."
+
+#: src/Http/Ajax/ExpressCheckoutCart.php:90
+msgid "Unable to prepare Express Checkout for this selection."
+msgstr "No se puede preparar el pago exprés para esta selección."
+
+#: src/Support/CheckoutLabels.php:15 src/Support/CheckoutLabels.php:19
+msgid "Save payment information to my account for future purchases."
+msgstr "Guardar la información de pago en mi cuenta para futuras compras."
+
+#: src/Gateway/PaypercutGateway.php:1146
+msgid "Selected experience unavailable. Please contact the merchant."
+msgstr "La experiencia seleccionada no está disponible. Por favor, contacta con la tienda."
+
+#: src/Gateway/PaypercutGateway.php:978
+msgid "Requires Elements"
+msgstr "Requiere Elements"
+
+#: src/Gateway/PaypercutGateway.php:964
+msgid "Review checkout mode"
+msgstr "Revisar el modo de pago"
+
+#: src/Gateway/PaypercutGateway.php:961
+msgid "Apple Pay, Google Pay, and Express Checkout require Elements Checkout. Your wallet settings are preserved but remain inactive until you switch checkout mode."
+msgstr "Apple Pay, Google Pay y el pago exprés requieren Elements Checkout. Los ajustes de tu monedero se conservan, pero permanecerán inactivos hasta que cambies el modo de pago."
+
+#: src/Gateway/PaypercutGateway.php:960
+msgid "Unlock wallets with Elements Checkout"
+msgstr "Desbloquea los monederos con Elements Checkout"
+
+#: src/Gateway/PaypercutGateway.php:933
+msgid "Preview uses your connected Paypercut account and current unsaved settings."
+msgstr "La vista previa utiliza tu cuenta conectada de Paypercut y los ajustes actuales sin guardar."
+
+#: src/Gateway/PaypercutGateway.php:932
+msgid "Preview"
+msgstr "Vista previa"
+
+#: src/Gateway/PaypercutGateway.php:923
+msgid "Button theme"
+msgstr "Tema del botón"
+
+#: src/Gateway/PaypercutGateway.php:915
+msgid "Button size"
+msgstr "Tamaño del botón"
+
+#: src/Gateway/PaypercutGateway.php:905
+msgid "Layout"
+msgstr "Disposición"
+
+#: src/Gateway/PaypercutGateway.php:899
+msgid "Button label"
+msgstr "Etiqueta del botón"
+
+#: src/Gateway/PaypercutGateway.php:894
+msgid "Wallets"
+msgstr "Monederos"
+
+#: src/Gateway/PaypercutGateway.php:885
+msgid "Mini-cart"
+msgstr "Minicarrito"
+
+#: src/Gateway/PaypercutGateway.php:880
+msgid "Show express checkout on"
+msgstr "Mostrar el pago exprés en"
+
+#: src/Gateway/PaypercutGateway.php:877
+msgid "Display and appearance"
+msgstr "Visualización y apariencia"
+
+#: src/Gateway/PaypercutGateway.php:872
+msgid "Show eligible Apple Pay and Google Pay customers a faster way to pay."
+msgstr "Muestra a los clientes aptos para Apple Pay y Google Pay una forma más rápida de pagar."
+
+#: src/Gateway/PaypercutGateway.php:871
+msgid "Enable express checkout"
+msgstr "Activar el pago exprés"
+
+#: src/Gateway/PaypercutGateway.php:863
+msgid "Enabling both Apple Pay and Google Pay can increase conversion by giving customers more ways to pay."
+msgstr "Activar tanto Apple Pay como Google Pay puede aumentar la conversión al ofrecer a los clientes más formas de pagar."
+
+#: src/Gateway/PaypercutGateway.php:862
+msgid "Tip"
+msgstr "Consejo"
+
+#: src/Gateway/PaypercutGateway.php:861
+msgid "Express checkout lets eligible customers pay faster with digital wallets. Choose where to show the buttons, which wallets to accept, and how they should look."
+msgstr "El pago exprés permite a los clientes aptos pagar más rápido con monederos digitales. Elige dónde mostrar los botones, qué monederos aceptar y cómo deben verse."
+
+#: src/Gateway/PaypercutGateway.php:860
+msgid "About express checkout"
+msgstr "Acerca del pago exprés"
+
+#: src/Gateway/PaypercutGateway.php:856
+msgid "Customize express checkout"
+msgstr "Personalizar el pago exprés"
+
+#: src/Gateway/PaypercutGateway.php:854
+msgid "Back to Payment methods"
+msgstr "Volver a Métodos de pago"
+
+#: src/Gateway/PaypercutGateway.php:829
+msgid "Switch and save"
+msgstr "Cambiar y guardar"
+
+#: src/Gateway/PaypercutGateway.php:824
+msgid "Confirm checkout experience change"
+msgstr "Confirmar cambio de experiencia de pago"
+
+#: src/Gateway/PaypercutGateway.php:817
+msgid "Available after Paypercut is connected with a publishable key."
+msgstr "Disponible después de conectar Paypercut con una clave pública."
+
+#: src/Gateway/PaypercutGateway.php:800
+msgid "Choose which experience starts new payment attempts. Existing attempts always stay on their original experience."
+msgstr "Elige qué experiencia inicia los nuevos intentos de pago. Los intentos existentes siempre permanecen en su experiencia original."
+
+#: src/Gateway/PaypercutGateway.php:794
+msgid "Review checkout experience"
+msgstr "Revisar la experiencia de pago"
+
+#: src/Gateway/PaypercutGateway.php:792
+msgid "Review Elements Checkout"
+msgstr "Revisar Elements Checkout"
+
+#: src/Gateway/PaypercutGateway.php:790
+#: src/Subscriptions/SettingsGateway.php:219
+msgid "Reconnect Paypercut"
+msgstr "Reconectar Paypercut"
+
+#: src/Gateway/PaypercutGateway.php:788
+msgid "Checkout experience status:"
+msgstr "Estado de la experiencia de pago:"
+
+#: src/Gateway/PaypercutGateway.php:780
+msgid "Unknown legacy value"
+msgstr "Valor heredado desconocido"
+
+#: src/Gateway/PaypercutGateway.php:770
+msgid "Redirect shoppers to Paypercut Hosted Checkout."
+msgstr "Redirige a los compradores a Paypercut Hosted Checkout."
+
+#: src/Gateway/PaypercutGateway.php:766
+msgid "Use the existing inline or modal Paypercut checkout widget."
+msgstr "Utiliza el widget de pago de Paypercut existente, ya sea incrustado o en ventana modal."
+
+#: src/Gateway/PaypercutGateway.php:762
+#: src/Subscriptions/SettingsGateway.php:155
+msgid "Recommended"
+msgstr "Recomendado"
+
+#: src/Gateway/PaypercutGateway.php:761
+msgid "Keep shoppers in WooCommerce with card fields, saved cards, and eligible wallets."
+msgstr "Mantén a los compradores en WooCommerce con campos de tarjeta, tarjetas guardadas y monederos compatibles."
+
+#: src/Gateway/PaypercutGateway.php:744
+msgid "Customize"
+msgstr "Personalizar"
+
+#: src/Gateway/PaypercutGateway.php:740
+msgid "Display eligible wallet buttons for a faster, one-click checkout experience."
+msgstr "Muestra botones de monederos compatibles para una experiencia de pago más rápida y en un solo clic."
+
+#: src/Gateway/PaypercutGateway.php:739
+msgid "Apple Pay / Google Pay"
+msgstr "Apple Pay / Google Pay"
+
+#: src/Gateway/PaypercutGateway.php:727
+msgid "Offer a faster checkout with digital wallets on product, cart, mini-cart and checkout surfaces."
+msgstr "Ofrece un pago más rápido con monederos digitales en las páginas de producto, carrito, minicarrito y pago."
+
+#: src/Gateway/PaypercutGateway.php:716
+msgid "Let customers pay quickly and securely with Google Pay on supported browsers and devices."
+msgstr "Permite a los clientes pagar de forma rápida y segura con Google Pay en navegadores y dispositivos compatibles."
+
+#: src/Gateway/PaypercutGateway.php:708
+msgid "Let customers pay quickly and securely with Apple Pay on supported devices."
+msgstr "Permite a los clientes pagar de forma rápida y segura con Apple Pay en dispositivos compatibles."
+
+#: src/Gateway/PaypercutGateway.php:699
+msgid "Allow customers to save cards"
+msgstr "Permitir a los clientes guardar tarjetas"
+
+#: src/Gateway/PaypercutGateway.php:696
+msgid "Accept major credit and debit cards. Customers can also reuse saved cards when enabled."
+msgstr "Acepta las principales tarjetas de crédito y débito. Los clientes también pueden reutilizar tarjetas guardadas si está activado."
+
+#: src/Gateway/PaypercutGateway.php:683
+msgid "Choose which payment methods to offer. Customers only see options that are eligible for their browser, device and order."
+msgstr "Elige qué métodos de pago ofrecer. Los clientes solo ven las opciones disponibles para su navegador, dispositivo y pedido."
+
+#: src/Gateway/PaypercutGateway.php:682
+msgid "Payments accepted at checkout"
+msgstr "Pagos aceptados al finalizar la compra"
+
+#: src/Gateway/PaypercutGateway.php:568
+#: src/Subscriptions/SettingsGateway.php:112
+msgid "Settings"
+msgstr "Ajustes"
+
+#: src/Gateway/PaypercutGateway.php:565 src/Gateway/PaypercutGateway.php:687
+msgid "Payment methods"
+msgstr "Métodos de pago"
+
+#: src/Gateway/PaypercutGateway.php:563
+msgid "Paypercut settings sections"
+msgstr "Secciones de ajustes de Paypercut"
+
+#: src/Gateway/PaypercutGateway.php:553
+msgid "Connected"
+msgstr "Conectado"
+
+#: src/Gateway/PaypercutGateway.php:550
+msgid "Paypercut connection status"
+msgstr "Estado de la conexión de Paypercut"
+
+#: src/Gateway/PaypercutGateway.php:547
+msgid "Securely accept cards and digital wallets at checkout."
+msgstr "Acepta tarjetas y monederos digitales de forma segura al finalizar la compra."
+
+#: src/Gateway/PaypercutGateway.php:460 src/Gateway/PaypercutGateway.php:925
+msgid "Outline"
+msgstr "Contorno"
+
+#: src/Gateway/PaypercutGateway.php:456
+msgid "Choose a wallet button treatment that contrasts with your storefront."
+msgstr "Elige un estilo para el botón de monedero que contraste con tu tienda."
+
+#: src/Gateway/PaypercutGateway.php:454
+msgid "Express checkout button theme"
+msgstr "Tema del botón de pago exprés"
+
+#: src/Gateway/PaypercutGateway.php:449 src/Gateway/PaypercutGateway.php:917
+msgid "Large (56 px)"
+msgstr "Grande (56 px)"
+
+#: src/Gateway/PaypercutGateway.php:448 src/Gateway/PaypercutGateway.php:917
+msgid "Default (48 px)"
+msgstr "Por defecto (48 px)"
+
+#: src/Gateway/PaypercutGateway.php:447 src/Gateway/PaypercutGateway.php:917
+msgid "Small (40 px)"
+msgstr "Pequeño (40 px)"
+
+#: src/Gateway/PaypercutGateway.php:445
+msgid "Choose the height of Apple Pay and Google Pay buttons."
+msgstr "Elige la altura de los botones de Apple Pay y Google Pay."
+
+#: src/Gateway/PaypercutGateway.php:443
+msgid "Express checkout button size"
+msgstr "Tamaño del botón de pago exprés"
+
+#: src/Gateway/PaypercutGateway.php:437 src/Gateway/PaypercutGateway.php:900
+msgid "Pay"
+msgstr "Pagar"
+
+#: src/Gateway/PaypercutGateway.php:436 src/Gateway/PaypercutGateway.php:900
+msgid "Buy"
+msgstr "Comprar"
+
+#: src/Gateway/PaypercutGateway.php:435 src/Gateway/PaypercutGateway.php:900
+msgid "Wallet brand only"
+msgstr "Solo marca del monedero"
+
+#: src/Gateway/PaypercutGateway.php:433
+msgid "Choose the action label used by Apple Pay and Google Pay when the wallet supports it."
+msgstr "Elige la etiqueta de acción utilizada por Apple Pay y Google Pay cuando el monedero lo admita."
+
+#: src/Gateway/PaypercutGateway.php:431
+msgid "Express checkout button label"
+msgstr "Etiqueta del botón de pago exprés"
+
+#: src/Gateway/PaypercutGateway.php:426 src/Gateway/PaypercutGateway.php:907
+msgid "Column"
+msgstr "Columna"
+
+#: src/Gateway/PaypercutGateway.php:425 src/Gateway/PaypercutGateway.php:907
+msgid "Row"
+msgstr "Fila"
+
+#: src/Gateway/PaypercutGateway.php:424 src/Gateway/PaypercutGateway.php:907
+msgid "Automatic"
+msgstr "Automático"
+
+#: src/Gateway/PaypercutGateway.php:422
+msgid "Choose how wallet buttons are arranged inside the WooCommerce Express Checkout area."
+msgstr "Elige cómo se disponen los botones de monedero dentro del área de Pago exprés de WooCommerce."
+
+#: src/Gateway/PaypercutGateway.php:420
+msgid "Express checkout layout"
+msgstr "Disposición del pago exprés"
+
+#: src/Gateway/PaypercutGateway.php:412
+msgid "Choose which wallet buttons Paypercut may show. Device, browser, merchant-domain, and wallet eligibility checks still determine whether each button is available."
+msgstr "Elige qué botones de monedero puede mostrar Paypercut. Las comprobaciones de compatibilidad del dispositivo, navegador, dominio del comercio y monedero seguirán determinando si cada botón está disponible."
+
+#: src/Gateway/PaypercutGateway.php:408
+msgid "Express checkout wallets"
+msgstr "Monederos de pago exprés"
+
+#: src/Gateway/PaypercutGateway.php:403 src/Gateway/PaypercutGateway.php:438
+#: src/Gateway/PaypercutGateway.php:886 src/Gateway/PaypercutGateway.php:900
+msgid "Checkout"
+msgstr "Finalizar compra"
+
+#: src/Gateway/PaypercutGateway.php:402
+msgid "Mini-cart drawer"
+msgstr "Cajón del minicarrito"
+
+#: src/Gateway/PaypercutGateway.php:401 src/Gateway/PaypercutGateway.php:884
+msgid "Cart"
+msgstr "Carrito"
+
+#: src/Gateway/PaypercutGateway.php:400 src/Gateway/PaypercutGateway.php:883
+msgid "Product page"
+msgstr "Página del producto"
+
+#: src/Gateway/PaypercutGateway.php:397
+msgid "Choose where Paypercut may render wallet buttons. Product pages use the selected product or variation, while cart, mini-cart, and checkout use WooCommerce's current cart."
+msgstr "Elige dónde puede mostrar Paypercut los botones de monedero. Las páginas de producto usan el producto o variación seleccionado, mientras que el carrito, minicarrito y la página de pago usan el carrito actual de WooCommerce."
+
+#: src/Gateway/PaypercutGateway.php:393
+msgid "Express checkout locations"
+msgstr "Ubicaciones del pago exprés"
+
+#: src/Gateway/PaypercutGateway.php:389
+msgid "Customers on supported browsers and devices can choose Google Pay as their checkout payment method."
+msgstr "Los clientes con navegadores y dispositivos compatibles pueden elegir Google Pay como método de pago al finalizar la compra."
+
+#: src/Gateway/PaypercutGateway.php:387
+msgid "Show Google Pay in checkout payment options"
+msgstr "Mostrar Google Pay en las opciones de pago al finalizar la compra"
+
+#: src/Gateway/PaypercutGateway.php:386
+msgid "Google Pay payment method"
+msgstr "Método de pago Google Pay"
+
+#: src/Gateway/PaypercutGateway.php:382
+msgid "Customers on supported Apple devices can choose Apple Pay as their checkout payment method."
+msgstr "Los clientes en dispositivos Apple compatibles pueden elegir Apple Pay como método de pago al finalizar la compra."
+
+#: src/Gateway/PaypercutGateway.php:380
+msgid "Show Apple Pay in checkout payment options"
+msgstr "Mostrar Apple Pay en las opciones de pago al finalizar la compra"
+
+#: src/Gateway/PaypercutGateway.php:379
+msgid "Apple Pay payment method"
+msgstr "Método de pago Apple Pay"
+
+#: src/Gateway/PaypercutGateway.php:375
+msgid "Register each enabled wallet as a selectable checkout payment method in addition to any Express Checkout placement. Wallet payment methods require Elements Checkout."
+msgstr "Registra cada monedero activado como un método de pago seleccionable al finalizar la compra, además de cualquier ubicación de pago exprés. Los métodos de pago con monedero requieren Elements Checkout."
+
+#: src/Gateway/PaypercutGateway.php:373
+msgid "Show Apple Pay and Google Pay in checkout payment options"
+msgstr "Mostrar Apple Pay y Google Pay en las opciones de pago al finalizar la compra"
+
+#: src/Gateway/PaypercutGateway.php:372
+msgid "Wallet payment methods"
+msgstr "Métodos de pago con monedero"
+
+#: src/Gateway/PaypercutGateway.php:368
+msgid "Show Apple Pay and Google Pay on the selected product, cart, mini-cart, and checkout surfaces. Express Checkout requires Elements Checkout."
+msgstr "Muestra Apple Pay y Google Pay en las secciones de producto, carrito, minicarrito y pago seleccionadas. El pago exprés requiere Elements Checkout."
+
+#: src/Gateway/PaypercutGateway.php:366
+msgid "Enable Paypercut Express Checkout"
+msgstr "Activar el pago exprés de Paypercut"
+
+#: src/Gateway/PaypercutGateway.php:312 src/Gateway/PaypercutGateway.php:760
+#: src/Gateway/PaypercutGateway.php:784
+msgid "Elements Checkout"
+msgstr "Elements Checkout"
+
+#: src/Gateway/PaypercutGateway.php:311 src/Gateway/PaypercutGateway.php:765
+#: src/Gateway/PaypercutGateway.php:783
+msgid "Checkout Widget"
+msgstr "Checkout Widget"
+
+#: src/Gateway/PaypercutGateway.php:310 src/Gateway/PaypercutGateway.php:769
+#: src/Gateway/PaypercutGateway.php:782
+msgid "Hosted Checkout"
+msgstr "Hosted Checkout"
+
+#: src/Gateway/PaypercutGateway.php:307 src/Gateway/PaypercutGateway.php:799
+msgid "Checkout experience"
+msgstr "Experiencia de pago"
+
+#: src/Gateway/PaypercutGateway.php:158
+msgid "Accept cards, Apple Pay and Google Pay in 11 currencies across 30 EU and EEA countries."
+msgstr "Acepta tarjetas, Apple Pay y Google Pay en 11 divisas en 30 países de la UE y del EEE."
+
+#: src/Gateway/PaypercutBnplGateway.php:524
+#: src/Gateway/PaypercutGateway.php:2815
+msgid "Stored key is unchanged. Enter a new key to replace it."
+msgstr "La clave almacenada no ha cambiado. Introduce una nueva clave para reemplazarla."
+
+#: src/ExpressCheckout/Placement.php:547
+msgid "Choose product options before using Express Checkout."
+msgstr "Elige las opciones del producto antes de usar el pago exprés."
+
+#: src/Blocks/PaypercutBlocksSupport.php:345
+#: src/ExpressCheckout/Placement.php:545
+msgid "Express checkout could not be completed. Choose another payment method or try again."
+msgstr "No se pudo completar el pago exprés. Elige otro método de pago o inténtalo de nuevo."
+
+#: src/Blocks/PaypercutBlocksSupport.php:344
+msgid "Express checkout is not available for this browser or device."
+msgstr "El pago exprés no está disponible para este navegador o dispositivo."
+
+#: src/Blocks/PaypercutBlocksSupport.php:343
+msgid "Loading express checkout…"
+msgstr "Cargando el pago exprés…"
+
+#: src/Blocks/PaypercutBlocksSupport.php:342
+msgid "Pay faster with Apple Pay or Google Pay."
+msgstr "Paga más rápido con Apple Pay o Google Pay."
+
+#: src/Blocks/PaypercutBlocksSupport.php:341
+#: src/Gateway/PaypercutGateway.php:365 src/Gateway/PaypercutGateway.php:726
+#: src/Gateway/PaypercutGateway.php:731 src/Gateway/PaypercutGateway.php:742
+msgid "Express checkout"
+msgstr "Pago exprés"
+
+#: src/Blocks/PaypercutBlocksSupport.php:339
+#: src/ExpressCheckout/Placement.php:543
+#: src/Http/Ajax/ExpressCheckoutShipping.php:387
+msgid "Taxes and adjustments"
+msgstr "Impuestos y ajustes"
+
+#: src/Blocks/PaypercutBlocksSupport.php:338
+#: src/ExpressCheckout/Placement.php:542
+#: src/Http/Ajax/ExpressCheckoutShipping.php:380
+msgid "Fees"
+msgstr "Comisiones"
+
+#: src/Blocks/PaypercutBlocksSupport.php:336
+#: src/ExpressCheckout/Placement.php:540
+#: src/Http/Ajax/ExpressCheckoutShipping.php:368
+msgid "Discount"
+msgstr "Descuento"
+
+#: src/Blocks/PaypercutBlocksSupport.php:335
+#: src/ExpressCheckout/Placement.php:539
+#: src/Http/Ajax/ExpressCheckoutShipping.php:363
+msgid "Subtotal"
+msgstr "Subtotal"
+
+#: src/Blocks/PaypercutBlocksSupport.php:232
+msgid "Verifying your payment securely…"
+msgstr "Verificando tu pago de forma segura…"
+
+#: src/Blocks/PaypercutBlocksSupport.php:231
+msgid "Complete the secure payment verification to continue."
+msgstr "Completa la verificación segura del pago para continuar."
+
+#: src/Blocks/PaypercutBlocksSupport.php:207
+msgid "Check your connection and try again, or choose another payment method."
+msgstr "Comprueba tu conexión e inténtalo de nuevo, o elige otro método de pago."
+
+#: src/Blocks/PaypercutBlocksSupport.php:206
+msgid "We couldn't load the payment form."
+msgstr "No pudimos cargar el formulario de pago."
+
+#: src/Blocks/PaypercutBlocksSupport.php:169
+#: src/Gateway/PaypercutGateway.php:176 src/Gateway/PaypercutGateway.php:278
+#: src/Gateway/PaypercutGateway.php:695 src/Gateway/PaypercutGateway.php:702
+#: src/Gateway/PaypercutGateway.php:1822 src/Gateway/PaypercutGateway.php:1831
+msgid "Credit / Debit Card"
+msgstr "Tarjeta de crédito / débito"
+
+#: src/Blocks/BlocksPaymentProcessor.php:2088
+msgid "Paypercut payment authentication is awaiting customer action."
+msgstr "La autenticación del pago de Paypercut está esperando la acción del cliente."
+
+#: src/Blocks/BlocksPaymentProcessor.php:1961
+#: src/Blocks/BlocksPaymentProcessor.php:2002
+msgid "Paypercut payment confirmation is processing."
+msgstr "La confirmación del pago de Paypercut se está procesando."
+
+#: src/Assets/FrontendAssets.php:355 src/Http/Ajax/PaymentMethodSetup.php:95
+#: src/Http/Ajax/PaymentMethodSetup.php:97
+msgid "Unable to save this payment method. Please try again."
+msgstr "No se puede guardar este método de pago. Por favor, inténtalo de nuevo."
+
+#: src/Assets/FrontendAssets.php:308
+msgid "We could not load the payment form. Please try again or choose another payment method."
+msgstr "No pudimos cargar el formulario de pago. Por favor, inténtalo de nuevo o elige otro método de pago."
+
+#: src/Assets/FrontendAssets.php:299 src/Blocks/PaypercutBlocksSupport.php:267
+msgid "This wallet could not be completed. Choose another payment method or try again."
+msgstr "No se pudo completar este monedero. Elige otro método de pago o inténtalo de nuevo."
+
+#: src/Assets/FrontendAssets.php:298 src/Blocks/PaypercutBlocksSupport.php:266
+msgid "Loading wallet…"
+msgstr "Cargando el monedero…"
+
+#: src/Assets/AdminAssets.php:324
+msgid " Developer assistant is available for this authorized internal SDK session."
+msgstr " El asistente de desarrollador está disponible para esta sesión interna autorizada del SDK."
+
+#: src/Assets/AdminAssets.php:323
+msgid "The live SDK preview could not be loaded."
+msgstr "No se pudo cargar la vista previa del SDK en directo."
+
+#: src/Assets/AdminAssets.php:322
+msgid "No eligible wallet buttons are available in this browser or device."
+msgstr "No hay botones de monedero compatibles disponibles en este navegador o dispositivo."
+
+#: src/Assets/AdminAssets.php:321
+msgid "Live Paypercut SDK preview ready."
+msgstr "Vista previa en directo del SDK de Paypercut lista."
+
+#: src/Assets/AdminAssets.php:320
+msgid "Loading the Paypercut SDK preview…"
+msgstr "Cargando la vista previa del SDK de Paypercut…"
+
+#: src/Assets/AdminAssets.php:319
+msgid "Connect Paypercut to load the live SDK preview."
+msgstr "Conecta Paypercut para cargar la vista previa del SDK en directo."
+
+#: src/Assets/AdminAssets.php:152 src/Assets/AdminAssets.php:257
+msgid "Dismiss notification"
+msgstr "Descartar notificación"
+
+#: src/Assets/AdminAssets.php:150 src/Assets/AdminAssets.php:255
+#: src/Http/Ajax/SaveGatewaySettings.php:79
+#: src/Http/Ajax/SaveGatewaySettings.php:86
+msgid "Settings could not be saved. Please try again."
+msgstr "No se pudieron guardar los ajustes. Por favor, inténtalo de nuevo."
+
+#: src/Assets/AdminAssets.php:149 src/Assets/AdminAssets.php:254
+#: src/Http/Ajax/SaveGatewaySettings.php:92
+msgid "Settings saved."
+msgstr "Ajustes guardados."
+
+#: src/Assets/AdminAssets.php:148 src/Assets/AdminAssets.php:253
+msgid "Saving…"
+msgstr "Guardando…"
+
+#. translators: %s: Installed plugin version number.
+#: src/Admin/SetupWizard.php:71 src/Gateway/PaypercutBnplGateway.php:198
+#: src/Gateway/PaypercutGateway.php:543
+#: src/Subscriptions/SettingsGateway.php:95
+msgid "Plugin version %s"
+msgstr "Versión del plugin %s"
+
+#: src/Admin/SetupWizard.php:43 src/Support/CheckoutExperienceStatus.php:117
+msgid "Connect Paypercut before configuring checkout."
+msgstr "Conecta Paypercut antes de configurar el pago."
+
+#: src/Admin/SetupWizard.php:42 src/Support/CheckoutExperienceStatus.php:107
+msgid "Disconnected"
+msgstr "Desconectado"
+
+#. translators: %d: how many minutes this server's clock differs from
+#. Paypercut's.
+#: src/Telemetry/MintErrorMapper.php:148
+msgid "This server's clock appears to be out of sync with Paypercut (off by about %d minutes), so a debug session can't be started. Ask your host to enable time synchronisation (NTP), then try again."
+msgstr "El reloj de este servidor parece estar desincronizado con Paypercut (difiere en unos %d minutos), por lo que no se puede iniciar una sesión de depuración. Pide a tu proveedor de alojamiento que active la sincronización horaria (NTP) y vuelve a intentarlo."
+
+#: src/Telemetry/MintErrorMapper.php:113 src/Telemetry/MintErrorMapper.php:126
+msgid "Paypercut returned an unexpected response. The debug session was not started — please try again."
+msgstr "Paypercut devolvió una respuesta inesperada. La sesión de depuración no se inició; por favor, inténtalo de nuevo."
+
+#: src/Telemetry/MintErrorMapper.php:106
+msgid "Paypercut couldn't issue a debug token. Please try again — if it keeps happening, contact support and quote the reference below."
+msgstr "Paypercut no pudo emitir un token de depuración. Por favor, inténtalo de nuevo; si sigue sucediendo, contacta con soporte e indica la referencia que aparece a continuación."
+
+#: src/Telemetry/MintErrorMapper.php:98
+msgid "Paypercut's debug service is temporarily unavailable. Please try again in a few minutes."
+msgstr "El servicio de depuración de Paypercut no está disponible temporalmente. Por favor, inténtalo de nuevo en unos minutos."
+
+#: src/Telemetry/MintErrorMapper.php:90
+msgid "Too many attempts. Wait about a minute and try again."
+msgstr "Demasiados intentos. Espera aproximadamente un minuto y vuelve a intentarlo."
+
+#: src/Telemetry/MintErrorMapper.php:83
+msgid "Debug sessions aren't available for this store's Paypercut environment yet. Nothing was sent."
+msgstr "Las sesiones de depuración aún no están disponibles para el entorno de Paypercut de esta tienda. No se envió nada."
+
+#: src/Telemetry/MintErrorMapper.php:76
+msgid "This store's Paypercut account isn't allowed to start debug sessions. Contact Paypercut support."
+msgstr "La cuenta de Paypercut de esta tienda no tiene permisos para iniciar sesiones de depuración. Contacta con el soporte de Paypercut."
+
+#: src/Telemetry/MintErrorMapper.php:69
+msgid "Paypercut rejected the debug session request. Nothing has been sent. Contact Paypercut support if this keeps happening."
+msgstr "Paypercut rechazó la solicitud de sesión de depuración. No se ha enviado nada. Contacta con el soporte de Paypercut si esto sigue ocurriendo."
+
+#: src/Telemetry/MintErrorMapper.php:62
+msgid "This store's Paypercut API key isn't eligible for debug sessions yet — this usually means the key isn't fully activated on your Paypercut account. Nothing has been sent. Contact Paypercut support and quote your account name from the API Credentials section above."
+msgstr "La clave de API de Paypercut de esta tienda aún no es apta para sesiones de depuración; esto generalmente significa que la clave no está completamente activada en tu cuenta de Paypercut. No se ha enviado nada. Contacta con el soporte de Paypercut e indica el nombre de tu cuenta de la sección Credenciales de la API anterior."
+
+#: src/Telemetry/MintErrorMapper.php:54
+msgid "Paypercut couldn't verify this store's API key, so the debug session was not started and nothing was sent. Use Test Connection above, or reconnect from API Credentials, then try again."
+msgstr "Paypercut no pudo verificar la clave de API de esta tienda, por lo que la sesión de depuración no se inició y no se envió nada. Usa Probar conexión arriba o vuelve a conectar desde Credenciales de la API y vuelve a intentarlo."
+
+#: src/Telemetry/MintErrorMapper.php:47
+msgid "Your server couldn't reach Paypercut to start the debug session. Check that outbound HTTPS requests are allowed by your host or firewall, then try again."
+msgstr "Tu servidor no pudo comunicarse con Paypercut para iniciar la sesión de depuración. Comprueba que tu alojamiento o cortafuegos permitan las solicitudes HTTPS salientes y vuelve a intentarlo."
+
+#: src/Telemetry/DebugSessionAdmin.php:103
+msgid "Manage it"
+msgstr "Gestionarlo"
+
+#. translators: 1: name of the user who started the session, 2: time the
+#. session ends.
+#: src/Telemetry/DebugSessionAdmin.php:98
+msgid "Paypercut: a debug session started by %1$s is running until %2$s."
+msgstr "Paypercut: una sesión de depuración iniciada por %1$s está en ejecución hasta %2$s."
+
+#: src/Http/Ajax/StartDebugSession.php:129
+msgid "Debug sessions aren't available on this store's Paypercut environment."
+msgstr "Las sesiones de depuración no están disponibles en el entorno de Paypercut de esta tienda."
+
+#: src/Http/Ajax/StartDebugSession.php:128
+msgid "This store's Paypercut connection doesn't record which environment it uses, so a debug session can't be started. Reconnect from API Credentials above, then try again."
+msgstr "La conexión de Paypercut de esta tienda no registra qué entorno utiliza, por lo que no se puede iniciar una sesión de depuración. Vuelve a conectar desde Credenciales de la API arriba y vuelve a intentarlo."
+
+#: src/Http/Ajax/StartDebugSession.php:111
+msgid "This site blocks outgoing requests (WP_HTTP_BLOCK_EXTERNAL), so a debug session cannot be started."
+msgstr "Este sitio bloquea las peticiones salientes (WP_HTTP_BLOCK_EXTERNAL), por lo que no se puede iniciar una sesión de depuración."
+
+#: src/Http/Ajax/StartDebugSession.php:98
+msgid "Connect the Paypercut card gateway before starting a debug session."
+msgstr "Conecta la pasarela de tarjeta de Paypercut antes de iniciar una sesión de depuración."
+
+#: src/Http/Ajax/StartDebugSession.php:65
+msgid "A debug session is already being started."
+msgstr "Ya se está iniciando una sesión de depuración."
+
+#. translators: %s: the reason Paypercut gave
+#: src/Http/Ajax/SetupWizard.php:158
+msgid "Webhook setup failed: %s"
+msgstr "Error en la configuración del webhook: %s"
+
+#: src/Http/Ajax/CreateWebhook.php:81
+msgid "Webhook set up."
+msgstr "Webhook configurado."
+
+#: src/Gateway/PaypercutGateway.php:3248
+msgid "The session lasts about 60 minutes and then stops by itself. You can stop it sooner at any time."
+msgstr "La sesión dura unos 60 minutos y luego finaliza por sí sola. Puedes detenerla antes en cualquier momento."
+
+#: src/Gateway/PaypercutGateway.php:3244
+msgid "While the session is running, this store sends the diagnostic information below to Paypercut so support can see what is happening."
+msgstr "Mientras la sesión está en ejecución, esta tienda envía la información de diagnóstico mostrada abajo a Paypercut para que el equipo de soporte pueda ver qué está ocurriendo."
+
+#: src/Gateway/PaypercutGateway.php:3239
+msgid "Start a debug session?"
+msgstr "¿Iniciar una sesión de depuración?"
+
+#: src/Gateway/PaypercutGateway.php:3220
+msgid "Paypercut keeps this diagnostic data for 30 days."
+msgstr "Paypercut conserva estos datos de diagnóstico durante 30 días."
+
+#: src/Gateway/PaypercutGateway.php:3217
+msgid "Your API key is never sent to the telemetry service. It is used once, over HTTPS, to obtain a short-lived diagnostic token from api.paypercut.io."
+msgstr "Tu clave de API nunca se envía al servicio de telemetría. Se utiliza una sola vez, a través de HTTPS, para obtener un token de diagnóstico temporal desde api.paypercut.io."
+
+#: src/Gateway/PaypercutGateway.php:3214
+msgid "customer names, email addresses, billing or shipping addresses, order totals, product names and prices, payment card data, the reason text you type when issuing a refund, or any API key, webhook secret or password."
+msgstr "nombres de clientes, direcciones de correo electrónico, direcciones de facturación o envío, importes totales de pedidos, nombres y precios de productos, datos de tarjetas de pago, el motivo que escribes al emitir un reembolso, ni ninguna clave de API, secreto de webhook o contraseña."
+
+#: src/Gateway/PaypercutGateway.php:3213
+msgid "Not shared:"
+msgstr "No compartido:"
+
+#: src/Gateway/PaypercutGateway.php:3210
+msgid "Plugin, WordPress, WooCommerce, PHP and theme versions; the plugins active on this store and their versions; how this store has the Paypercut gateways configured (which checkout mode is selected and which options are switched on — never the values of your credentials); a record of each checkout, refund and payment notification the plugin handled and whether it succeeded, identified by WooCommerce order number and Paypercut payment reference; when an order is created and how many products, fees, coupons and shipping lines it carries; the names of any fees another plugin adds to the basket; when something fails, the error message, the file and line it came from, and which plugin or theme raised it; and when the session started and stopped."
+msgstr "Versiones del plugin, WordPress, WooCommerce, PHP y tema; los plugins activos en esta tienda y sus versiones; cómo tiene configuradas esta tienda las pasarelas de Paypercut (qué modo de pago está seleccionado y qué opciones están activadas, nunca los valores de tus credenciales); un registro de cada pago, reembolso y notificación de pago que gestionó el plugin y si tuvo éxito, identificado por el número de pedido de WooCommerce y la referencia de pago de Paypercut; cuándo se crea un pedido y cuántos productos, comisiones, cupones y líneas de envío contiene; los nombres de las comisiones que otro plugin añade a la cesta; cuando algo falla, el mensaje de error, el archivo y la línea de donde proviene, y qué plugin o tema lo originó; y cuándo se inició y detuvo la sesión."
+
+#: src/Gateway/PaypercutGateway.php:3208
+msgid "What is shared"
+msgstr "Qué se comparte"
+
+#: src/Gateway/PaypercutGateway.php:3144
+msgid "Copy JSON"
+msgstr "Copiar JSON"
+
+#: src/Gateway/PaypercutGateway.php:3141
+msgid "Show raw JSON"
+msgstr "Mostrar JSON sin procesar"
+
+#: src/Gateway/PaypercutGateway.php:3126
+msgid "Detail"
+msgstr "Detalle"
+
+#: src/Gateway/PaypercutGateway.php:3125
+msgid "Event"
+msgstr "Evento"
+
+#: src/Gateway/PaypercutGateway.php:3124
+msgid "Time (UTC)"
+msgstr "Hora (UTC)"
+
+#. translators: %s: the maximum number of events retained locally.
+#: src/Gateway/PaypercutGateway.php:3115
+msgid "Exactly what was sent to Paypercut, newest last. The most recent %s are kept on this store and cleared when a new session starts."
+msgstr "Exactamente lo que se envió a Paypercut, lo más nuevo al final. Los %s más recientes se conservan en esta tienda y se borran cuando se inicia una nueva sesión."
+
+#. translators: %s: number of delivered events held locally.
+#: src/Gateway/PaypercutGateway.php:3106
+msgid "Show the %s event sent"
+msgid_plural "Show the %s events sent"
+msgstr[0] "Mostrar el %s evento enviado"
+msgstr[1] "Mostrar los %s eventos enviados"
+
+#: src/Blocks/PaypercutBlocksSupport.php:208
+#: src/Gateway/PaypercutGateway.php:3075
+msgid "Try again"
+msgstr "Intentar de nuevo"
+
+#: src/Gateway/PaypercutGateway.php:3067
+msgid "Support reference"
+msgstr "Referencia de soporte"
+
+#. translators: %s: the identifier of the session that has just ended.
+#: src/Gateway/PaypercutGateway.php:3047
+msgid "Last session ID %s — quote this in your support ticket."
+msgstr "ID de la última sesión: %s; indica este dato en tu ticket de soporte."
+
+#: src/Gateway/PaypercutGateway.php:3041
+msgid "Paypercut stops receiving data from this store."
+msgstr "Paypercut deja de recibir datos de esta tienda."
+
+#: src/Gateway/PaypercutGateway.php:3040
+msgid "Debug session ended."
+msgstr "Sesión de depuración finalizada."
+
+#. translators: 1: number of events sent, 2: number of events dropped.
+#: src/Gateway/PaypercutGateway.php:3025
+msgid "%1$s events sent · %2$s dropped (approximate)"
+msgstr "%1$s eventos enviados · %2$s descartados (aproximado)"
+
+#: src/Gateway/PaypercutGateway.php:3015
+msgid "Session ID"
+msgstr "ID de sesión"
+
+#. translators: 1: name of the user who started the session, 2: time the
+#. session ends.
+#: src/Gateway/PaypercutGateway.php:3008
+msgid "Started by %1$s · ends at %2$s"
+msgstr "Iniciada por %1$s · finaliza a las %2$s"
+
+#. translators: %s: time remaining in the running debug session, e.g. 59:47.
+#: src/Gateway/PaypercutGateway.php:2999
+msgid "Debug session running — %s remaining"
+msgstr "Sesión de depuración en curso: quedan %s"
+
+#: src/Gateway/PaypercutGateway.php:2988 src/Gateway/PaypercutGateway.php:3057
+msgid "Start debug session"
+msgstr "Iniciar sesión de depuración"
+
+#: src/Gateway/PaypercutGateway.php:2983
+msgid "Turn on detailed diagnostics for about an hour so Paypercut support can see what your store is doing. The session ends by itself."
+msgstr "Activa diagnósticos detallados durante aproximadamente una hora para que el soporte de Paypercut pueda ver qué está haciendo tu tienda. La sesión finaliza por sí sola."
+
+#: src/Gateway/PaypercutGateway.php:2980
+msgid "Off. Nothing is sent to Paypercut until you start a session."
+msgstr "Desactivado. No se envía nada a Paypercut hasta que inicias una sesión."
+
+#: src/Gateway/PaypercutGateway.php:502
+msgid "Debug session"
+msgstr "Sesión de depuración"
+
+#: src/Assets/AdminAssets.php:394
+msgid "The debug session has ended."
+msgstr "La sesión de depuración ha finalizado."
+
+#: src/Assets/AdminAssets.php:393
+msgid "Lost connection to WordPress admin — the debug session may still be running. Reload this page."
+msgstr "Se perdió la conexión con la administración de WordPress; es posible que la sesión de depuración siga en ejecución. Recarga esta página."
+
+#: src/Assets/AdminAssets.php:391
+msgid "Copied"
+msgstr "Copiado"
+
+#: src/Assets/AdminAssets.php:390 src/Gateway/PaypercutGateway.php:3033
+msgid "Stop now"
+msgstr "Detener ahora"
+
+#: src/Assets/AdminAssets.php:389
+msgid "Stopping..."
+msgstr "Deteniendo..."
+
+#: src/Assets/AdminAssets.php:388 src/Gateway/PaypercutGateway.php:3260
+msgid "Start session"
+msgstr "Iniciar sesión"
+
+#: src/Assets/AdminAssets.php:387
+msgid "Starting..."
+msgstr "Iniciando..."
+
+#: src/Services/CheckoutLineItemMapper.php:199
+#: src/Services/CheckoutLineItemMapper.php:277
+msgid "Tax"
+msgstr "Impuesto"
+
+#: src/Blocks/PaypercutBlocksSupport.php:337
+#: src/ExpressCheckout/Placement.php:541
+#: src/Http/Ajax/ExpressCheckoutShipping.php:373
+#: src/Services/CheckoutLineItemMapper.php:93
+#: src/Services/CheckoutLineItemMapper.php:123
+#: src/Services/CheckoutLineItemMapper.php:217
+#: src/Subscriptions/CheckoutBilling.php:90
+msgid "Shipping"
+msgstr "Envío"
+
+#: src/Assets/FrontendAssets.php:182
+msgid "Your payment has already been received. Click “Place order” to finish your order."
+msgstr "Ya se ha recibido tu pago. Haz clic en «Realizar el pedido» para finalizar tu compra."
+
+#. Plugin URI of the plugin
+#: paypercut-payments-for-woocommerce.php
+msgid "https://wordpress.org/plugins/paypercut-payments-for-woocommerce"
+msgstr "https://wordpress.org/plugins/paypercut-payments-for-woocommerce"
+
+#: src/Plugin.php:402
+msgid "Pay now"
+msgstr "Pagar ahora"
+
+#: src/Plugin.php:400
+msgid "Your order has been created, but payment has not been completed yet."
+msgstr "Tu pedido se ha creado, pero el pago aún no se ha completado."
+
+#. translators: %s: Exception error message
+#: src/Http/Ajax/RegisterPaymentDomain.php:109
+msgid "Failed to register payment domain: %s"
+msgstr "Error al registrar el dominio de pago: %s"
+
+#: src/Http/Ajax/DisconnectGateway.php:125
+msgid "Paypercut has been disconnected from this store."
+msgstr "Se ha desconectado Paypercut de esta tienda."
+
+#: src/Http/Ajax/DisconnectGateway.php:50
+msgid "Unknown Paypercut gateway."
+msgstr "Pasarela de Paypercut desconocida."
+
+#: src/Http/Admin/CompleteConnection.php:173
+#: src/Http/Ajax/StartConnection.php:150
+msgid "Paypercut Connect returned an incomplete response. Please try again."
+msgstr "Paypercut Connect devolvió una respuesta incompleta. Por favor, inténtalo de nuevo."
+
+#: src/Http/Admin/CompleteConnection.php:115
+msgid "Paypercut Connect could not be verified. Please try again."
+msgstr "No se pudo verificar Paypercut Connect. Por favor, inténtalo de nuevo."
+
+#: src/Http/Admin/CompleteConnection.php:72
+#: src/Http/Admin/CompleteConnection.php:146
+#: src/Http/Admin/CompleteConnection.php:159
+msgid "Unable to finish Paypercut Connect. Please try again."
+msgstr "No se puede finalizar Paypercut Connect. Por favor, inténtalo de nuevo."
+
+#: src/Gateway/PaypercutGateway.php:2941
+msgid "Exchange response from BFF"
+msgstr "Respuesta de intercambio del BFF"
+
+#: src/Gateway/PaypercutGateway.php:2927
+msgid "The connected credential is stored as the API key secret. New Connect sessions should return a Gateway API key secret, not an Ory JWT. Older local sessions may still show the previous ppc_ bootstrap placeholder."
+msgstr "La credencial conectada se almacena como la clave secreta de la API. Las nuevas sesiones de Connect deben devolver una clave secreta de API de la pasarela, no un JWT de Ory. Las sesiones locales más antiguas aún pueden mostrar el marcador de posición anterior ppc_ bootstrap."
+
+#: src/Gateway/PaypercutGateway.php:2924
+msgid "Local Connect debug"
+msgstr "Depuración local de Connect"
+
+#: src/Gateway/PaypercutGateway.php:2917
+msgid "Paypercut API base URL"
+msgstr "URL base de la API de Paypercut"
+
+#: src/Gateway/PaypercutGateway.php:2916
+msgid "Connect BFF base URL"
+msgstr "URL base del BFF de Connect"
+
+#: src/Gateway/PaypercutGateway.php:2915
+msgid "Capabilities"
+msgstr "Capacidades"
+
+#: src/Gateway/PaypercutGateway.php:2914
+msgid "Credential prefix"
+msgstr "Prefijo de la credencial"
+
+#: src/Gateway/PaypercutGateway.php:2913
+msgid "Credential type"
+msgstr "Tipo de credencial"
+
+#: src/Gateway/PaypercutGateway.php:2912
+msgid "API key mode"
+msgstr "Modo de clave de API"
+
+#: src/Gateway/PaypercutGateway.php:2911
+msgid "Account ID"
+msgstr "ID de la cuenta"
+
+#: src/Gateway/PaypercutGateway.php:2910
+msgid "Account name"
+msgstr "Nombre de la cuenta"
+
+#: src/Gateway/PaypercutGateway.php:2909
+msgid "Integration ID"
+msgstr "ID de integración"
+
+#: src/Gateway/PaypercutGateway.php:2908
+msgid "Connection environment"
+msgstr "Entorno de conexión"
+
+#: src/Gateway/PaypercutGateway.php:2907
+msgid "Connection type"
+msgstr "Tipo de conexión"
+
+#: src/Gateway/PaypercutGateway.php:2887
+msgid "Connected with Paypercut"
+msgstr "Conectado con Paypercut"
+
+#: src/Gateway/PaypercutGateway.php:2880
+msgid "Account:"
+msgstr "Cuenta:"
+
+#: src/Gateway/PaypercutGateway.php:2259
+msgid "Unavailable"
+msgstr "No disponible"
+
+#: src/Gateway/PaypercutGateway.php:2195
+msgid "Read the Apple Pay setup guide"
+msgstr "Leer la guía de configuración de Apple Pay"
+
+#: src/Gateway/PaypercutGateway.php:2191
+msgid "WordPress domain"
+msgstr "Dominio de WordPress"
+
+#: src/Gateway/PaypercutGateway.php:2189
+msgid "This domain is required before wallet payment methods can be shown on your checkout, mainly Apple Pay. Paypercut will verify that the Apple Pay domain association file is available on this WordPress site and then register the domain for this account."
+msgstr "Este dominio es necesario para que se puedan mostrar los métodos de pago con monedero en la pantalla de pago, principalmente Apple Pay. Paypercut verificará que el archivo de asociación de dominio de Apple Pay esté disponible en este sitio de WordPress y luego registrará el dominio para esta cuenta."
+
+#: src/Gateway/PaypercutGateway.php:2184
+msgid "Register payment domain"
+msgstr "Registrar dominio de pago"
+
+#. translators: %s: Apple Pay setup documentation URL.
+#: src/Gateway/PaypercutGateway.php:2168
+msgid "Payment domains are required for wallet payments such as Apple Pay. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Read the Apple Pay setup guide</a>."
+msgstr "Los dominios de pago son obligatorios para los pagos con monederos como Apple Pay. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Lee la guía de configuración de Apple Pay</a>."
+
+#: src/Blocks/PaypercutBlocksSupport.php:171
+#: src/Gateway/PaypercutGateway.php:2155 src/Gateway/PaypercutGateway.php:2499
+#: src/Gateway/PaypercutGateway.php:3309 src/Gateway/PaypercutGateway.php:3326
+#: src/Subscriptions/SettingsGateway.php:105
+msgid "Test mode"
+msgstr "Modo de pruebas"
+
+#: src/Gateway/PaypercutGateway.php:2155 src/Gateway/PaypercutGateway.php:3308
+#: src/Gateway/PaypercutGateway.php:3322
+#: src/Subscriptions/SettingsGateway.php:105
+msgid "Live mode"
+msgstr "Modo en vivo"
+
+#: src/Gateway/PaypercutGateway.php:978 src/Gateway/PaypercutGateway.php:2138
+#: src/Subscriptions/SettingsGateway.php:137
+#: src/Subscriptions/SettingsGateway.php:201
+msgid "Disabled"
+msgstr "Desactivado"
+
+#: src/Gateway/PaypercutGateway.php:978 src/Gateway/PaypercutGateway.php:2138
+#: src/Subscriptions/SettingsGateway.php:137
+#: src/Subscriptions/SettingsGateway.php:201
+msgid "Enabled"
+msgstr "Activado"
+
+#: src/Gateway/PaypercutGateway.php:2127
+msgid "Domain"
+msgstr "Dominio"
+
+#. translators: %s: Current WordPress domain.
+#: src/Gateway/PaypercutGateway.php:2078
+msgid "No payment domain found for %s."
+msgstr "No se encontró ningún dominio de pago para %s."
+
+#. translators: %s: Apple Pay setup documentation URL.
+#: src/Gateway/PaypercutGateway.php:2066 src/Gateway/PaypercutGateway.php:2118
+msgid "Apple Pay verification file is not reachable from this WordPress site. Wallet payments may not be available until the file is accessible. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Read the Apple Pay setup guide</a>."
+msgstr "El archivo de verificación de Apple Pay no es accesible desde este sitio de WordPress. Es posible que los pagos con monedero no estén disponibles hasta que el archivo sea accesible. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Lee la guía de configuración de Apple Pay</a>."
+
+#: src/Gateway/PaypercutGateway.php:2051
+msgid "Unable to load payment domain. Please check your API credentials."
+msgstr "No se puede cargar el dominio de pago. Por favor, comprueba tus credenciales de la API."
+
+#: src/Gateway/PaypercutGateway.php:2029
+#: src/Http/Ajax/RegisterPaymentDomain.php:62
+msgid "Unable to determine this WordPress site domain."
+msgstr "No se puede determinar el dominio de este sitio de WordPress."
+
+#: src/Gateway/PaypercutGateway.php:2022
+msgid "Please configure your API credentials first to view payment domains."
+msgstr "Por favor, configura primero tus credenciales de la API para ver los dominios de pago."
+
+#: src/Gateway/PaypercutGateway.php:1999
+msgid "You can reconnect later with Paypercut Connect or enter an API key manually."
+msgstr "Puedes volver a conectar más tarde con Paypercut Connect o introducir una clave de API manualmente."
+
+#: src/Gateway/PaypercutGateway.php:1996
+msgid "This will remove the stored API key secret from WooCommerce and disable the Paypercut payment method for this store."
+msgstr "Esto eliminará la clave secreta de la API almacenada de WooCommerce y desactivará el método de pago de Paypercut para esta tienda."
+
+#: src/Gateway/PaypercutGateway.php:1991
+msgid "Disconnect Paypercut?"
+msgstr "¿Desconectar Paypercut?"
+
+#: src/Admin/ResetConfiguration.php:30 src/Assets/FrontendAssets.php:301
+#: src/Blocks/PaypercutBlocksSupport.php:200
+#: src/Gateway/PaypercutGateway.php:828 src/Gateway/PaypercutGateway.php:1966
+#: src/Gateway/PaypercutGateway.php:2004 src/Gateway/PaypercutGateway.php:2202
+#: src/Gateway/PaypercutGateway.php:3253
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: src/Gateway/PaypercutGateway.php:1954
+msgid "Paypercut uses this webhook to notify WooCommerce when checkout sessions are completed. The endpoint must be reachable from Paypercut so order status updates can be delivered reliably."
+msgstr "Paypercut utiliza este webhook para notificar a WooCommerce cuando se completan las sesiones de pago. El endpoint debe ser accesible desde Paypercut para que las actualizaciones de estado de los pedidos puedan entregarse de manera fiable."
+
+#: src/Gateway/PaypercutGateway.php:1950 src/Gateway/PaypercutGateway.php:1992
+#: src/Gateway/PaypercutGateway.php:2185 src/Gateway/PaypercutGateway.php:3240
+msgid "Close"
+msgstr "Cerrar"
+
+#: src/Gateway/PaypercutGateway.php:609 src/Gateway/PaypercutGateway.php:2210
+msgid "Register domain"
+msgstr "Registrar dominio"
+
+#: src/Gateway/PaypercutGateway.php:604 src/Gateway/PaypercutGateway.php:1949
+#: src/Gateway/PaypercutGateway.php:1973
+#: src/Subscriptions/WebhookSettings.php:28
+msgid "Register webhook"
+msgstr "Registrar webhook"
+
+#: src/Gateway/PaypercutGateway.php:601 src/Gateway/PaypercutGateway.php:614
+#: src/Subscriptions/WebhookSettings.php:27
+msgid "Open dashboard"
+msgstr "Abrir panel de control"
+
+#: src/Gateway/PaypercutGateway.php:592
+#: src/Subscriptions/WebhookSettings.php:25
+msgid "Open section actions"
+msgstr "Abrir acciones de sección"
+
+#: src/Gateway/PaypercutGateway.php:498
+msgid "Payment Domains"
+msgstr "Dominios de pago"
+
+#: src/Assets/AdminAssets.php:438
+msgid "Failed to register payment domain."
+msgstr "Error al registrar el dominio de pago."
+
+#: src/Assets/AdminAssets.php:437 src/Http/Ajax/RegisterPaymentDomain.php:88
+msgid "Payment domain registered successfully."
+msgstr "Dominio de pago registrado correctamente."
+
+#: src/Assets/AdminAssets.php:436
+msgid "Registering domain..."
+msgstr "Registrando dominio..."
+
+#: src/Assets/AdminAssets.php:363
+msgid "Hide"
+msgstr "Ocultar"
+
+#: src/Assets/AdminAssets.php:362
+msgid "Reveal"
+msgstr "Mostrar"
+
+#: src/Assets/AdminAssets.php:361 src/Http/Ajax/StartConnection.php:109
+#: src/Http/Ajax/StartConnection.php:125
+msgid "Unable to start Paypercut Connect. Please try again."
+msgstr "No se puede iniciar Paypercut Connect. Por favor, inténtalo de nuevo."
+
+#: src/Assets/AdminAssets.php:360 src/Assets/AdminAssets.php:495
+msgid "Starting Paypercut Connect..."
+msgstr "Iniciando Paypercut Connect..."
+
+#: src/Assets/AdminAssets.php:359 src/Gateway/PaypercutGateway.php:617
+msgid "Switch account"
+msgstr "Cambiar de cuenta"
+
+#: src/Assets/AdminAssets.php:358
+msgid "Disconnect failed. Please try again."
+msgstr "Error al desconectar. Por favor, inténtalo de nuevo."
+
+#: src/Assets/AdminAssets.php:357
+msgid "Disconnect Paypercut from this store? This will remove the stored API key secret and disable the payment method."
+msgstr "¿Desconectar Paypercut de esta tienda? Esto eliminará la clave secreta de la API almacenada y desactivará el método de pago."
+
+#: src/Assets/AdminAssets.php:356
+msgid "Disconnecting..."
+msgstr "Desconectando..."
+
+#: src/Assets/AdminAssets.php:355 src/Gateway/PaypercutGateway.php:620
+#: src/Gateway/PaypercutGateway.php:2007
+msgid "Disconnect"
+msgstr "Desconectar"
+
+#: src/Admin/SslNotice.php:65
+msgid "Paypercut is enabled, but an SSL certificate was not detected. Your checkout may not be secure. Please ensure your server has a valid SSL certificate."
+msgstr "Paypercut está activado, pero no se detectó un certificado SSL. Tu pantalla de pago podría no ser segura. Por favor, asegúrate de que tu servidor tenga un certificado SSL válido."
+
+#: src/Admin/SetupWizard.php:136
+msgid "Continue"
+msgstr "Continuar"
+
+#: src/Admin/SetupWizard.php:95
+msgid "Use this option if Paypercut support gave you an API key secret."
+msgstr "Usa esta opción si el soporte de Paypercut te proporcionó una clave secreta de API."
+
+#: src/Admin/SetupWizard.php:94
+msgid "Manual setup"
+msgstr "Configuración manual"
+
+#: src/Admin/SetupWizard.php:86
+msgid "Set up manually with an API key"
+msgstr "Configurar manualmente con una clave de API"
+
+#: src/Admin/SetupWizard.php:83 src/Assets/AdminAssets.php:494
+msgid "Connect with Paypercut"
+msgstr "Conectar con Paypercut"
+
+#: src/Admin/SetupWizard.php:81
+msgid "Sign in to Paypercut and we will configure this store automatically."
+msgstr "Inicia sesión en Paypercut y configuraremos esta tienda automáticamente."
+
+#: src/Admin/SetupWizard.php:80
+msgid "Get started with Paypercut"
+msgstr "Comenzar con Paypercut"
+
+#: src/Admin/SetupWizard.php:75
+msgid "Connect your account to start accepting payments in WooCommerce."
+msgstr "Conecta tu cuenta para empezar a aceptar pagos en WooCommerce."
+
+#: src/Admin/SetupWizard.php:59
+msgid "Production"
+msgstr "Producción"
+
+#: src/Admin/SetupWizard.php:58
+msgid "Stage"
+msgstr "Pruebas (Staging)"
+
+#: src/Admin/SetupWizard.php:57
+msgid "Dev"
+msgstr "Desarrollo"
+
+#: src/Admin/SetupWizard.php:56
+msgid "Local"
+msgstr "Local"
+
+#: src/Admin/SetupWizard.php:54
+msgid "Environment"
+msgstr "Entorno"
+
+#. translators: %1$s: sync status, %2$s: error message
+#: src/Services/PaymentReferenceSyncService.php:202
+msgid "Paypercut payment reference sync %1$s: %2$s"
+msgstr "Sincronización de referencia de pago de Paypercut %1$s: %2$s"
+
+#. translators: %s: error message
+#: src/Services/PaymentReferenceSyncService.php:145
+msgid "Paypercut payment reference sync failed: %s"
+msgstr "Error en la sincronización de la referencia de pago de Paypercut: %s"
+
+#. translators: %s: WooCommerce order ID
+#: src/Services/PaymentReferenceSyncService.php:100
+msgid "Paypercut payment reference synced with WooCommerce order ID: %s"
+msgstr "Referencia de pago de Paypercut sincronizada con el ID del pedido de WooCommerce: %s"
+
+#. translators: %s: Payment ID
+#: src/Blocks/BlocksPaymentProcessor.php:2473
+#: src/Gateway/PaypercutGateway.php:2574
+#: src/Http/Rest/CheckoutSessionWebhook.php:749
+msgid "Paypercut payment ID: %s"
+msgstr "ID de pago de Paypercut: %s"
+
+#. translators: %s: Exception error message
+#: src/Http/Ajax/CreateWebhook.php:104
+msgid "Failed to create webhooks: %s"
+msgstr "Error al crear webhooks: %s"
+
+#: src/Gateway/PaypercutGateway.php:1879
+msgid "No webhooks found for this account."
+msgstr "No se encontraron webhooks para esta cuenta."
+
+#: src/Gateway/PaypercutGateway.php:353
+msgid "Processing"
+msgstr "Procesando"
+
+#: src/Gateway/PaypercutGateway.php:352
+msgid "Completed"
+msgstr "Completado"
+
+#: src/Gateway/PaypercutGateway.php:350
+msgid "For orders that are authorized, when the order is set to this status."
+msgstr "Para pedidos que están autorizados, cuando el pedido pasa a este estado."
+
+#: src/Gateway/PaypercutGateway.php:348
+msgid "Order Status"
+msgstr "Estado del pedido"
+
+#: src/Gateway/PaypercutGateway.php:303
+msgid "When enabled, the Paypercut checkout script will log its full flow to the browser developer console. Recommended only for debugging."
+msgstr "Cuando está activado, el script de pago de Paypercut registrará todo su flujo en la consola de desarrollador del navegador. Recomendado únicamente para depuración."
+
+#: src/Gateway/PaypercutGateway.php:301
+msgid "Enable detailed Paypercut console logs on the checkout page"
+msgstr "Activar registros detallados de Paypercut en la consola en la página de pago"
+
+#: src/Gateway/PaypercutGateway.php:300
+msgid "Browser console debug"
+msgstr "Depuración en la consola del navegador"
+
+#: src/Assets/AdminAssets.php:435
+msgid "Failed to create webhooks."
+msgstr "Error al crear los webhooks."
+
+#: src/Assets/AdminAssets.php:434
+msgid "Webhooks created successfully."
+msgstr "Webhooks creados correctamente."
+
+#: src/Assets/AdminAssets.php:433
+msgid "Creating webhooks..."
+msgstr "Creando webhooks..."
+
+#. translators: %s: BNPL attempt ID
+#: src/Services/BnplReturnVerifier.php:148
+msgid "Paypercut BNPL attempt %s captured."
+msgstr "Intento de Paypercut BNPL %s capturado."
+
+#: src/Http/Rest/CheckoutSessionWebhook.php:170
+msgid "Invalid webhook signature."
+msgstr "Firma del webhook no válida."
+
+#: src/Http/Rest/CheckoutSessionWebhook.php:168
+msgid "Webhook timestamp is too old or too far in the future."
+msgstr "La marca de tiempo del webhook es demasiado antigua o está demasiado en el futuro."
+
+#: src/Http/Rest/CheckoutSessionWebhook.php:166
+msgid "Invalid signature structure."
+msgstr "Estructura de firma no válida."
+
+#: src/Http/Rest/CheckoutSessionWebhook.php:164
+msgid "Invalid signature format."
+msgstr "Formato de firma no válido."
+
+#: src/Http/Rest/CheckoutSessionWebhook.php:162
+msgid "Missing signature header."
+msgstr "Falta la cabecera de firma."
+
+#: src/Http/Rest/CheckoutSessionWebhook.php:160
+msgid "Empty request body."
+msgstr "Cuerpo de solicitud vacío."
+
+#: src/Http/Rest/CheckoutSessionWebhook.php:158
+msgid "Webhook secret not configured. Please set up webhooks in gateway settings."
+msgstr "Secreto de webhook no configurado. Por favor, configura los webhooks en los ajustes de la pasarela."
+
+#: src/Http/Rest/CheckoutSessionWebhook.php:156
+msgid "Gateway not available."
+msgstr "Pasarela no disponible."
+
+#. translators: %1$s: BNPL attempt ID, %2$s: Decline reason
+#: src/Http/Rest/BnplWebhook.php:273 src/Services/BnplReturnVerifier.php:189
+msgid "Paypercut BNPL attempt %1$s declined. Reason: %2$s"
+msgstr "Intento de Paypercut BNPL %1$s rechazado. Motivo: %2$s"
+
+#: src/Http/Rest/BnplWebhook.php:269 src/Services/BnplReturnVerifier.php:186
+msgid "Paypercut BNPL attempt declined."
+msgstr "Intento de Paypercut BNPL rechazado."
+
+#. translators: %1$s: BNPL attempt ID, %2$s: Error reason
+#: src/Http/Rest/BnplWebhook.php:251 src/Services/BnplReturnVerifier.php:168
+msgid "Paypercut BNPL attempt %1$s errored. Reason: %2$s"
+msgstr "Intento de Paypercut BNPL %1$s con error. Motivo: %2$s"
+
+#: src/Http/Rest/BnplWebhook.php:247 src/Services/BnplReturnVerifier.php:165
+msgid "Paypercut BNPL attempt errored."
+msgstr "Intento de Paypercut BNPL con error."
+
+#. translators: %1$s: BNPL attempt ID
+#: src/Http/Rest/BnplWebhook.php:238
+msgid "Paypercut BNPL attempt %1$s captured."
+msgstr "Intento de Paypercut BNPL %1$s capturado."
+
+#: src/Http/Ajax/TestConnection.php:86
+msgid "Connection successful! Your BNPL API key secret is valid."
+msgstr "¡Conexión correcta! Tu clave secreta de API de BNPL es válida."
+
+#. translators: %s: Exception error message
+#: src/Http/Ajax/DeleteWebhook.php:102
+msgid "Failed to delete webhook: %s"
+msgstr "Error al eliminar el webhook: %s"
+
+#: src/Http/Ajax/DeleteWebhook.php:82
+msgid "Webhook deleted successfully."
+msgstr "Webhook eliminado correctamente."
+
+#: src/Http/Ajax/CreateWebhook.php:52 src/Http/Ajax/DeleteWebhook.php:63
+#: src/Http/Ajax/RegisterPaymentDomain.php:52
+msgid "API credentials not configured."
+msgstr "Credenciales de la API no configuradas."
+
+#: src/Http/Ajax/DeleteWebhook.php:51
+msgid "Webhook ID is required."
+msgstr "El ID del webhook es obligatorio."
+
+#: src/Gateway/PaypercutGateway.php:1931
+msgid "Delete"
+msgstr "Eliminar"
+
+#: src/Gateway/PaypercutGateway.php:1895
+#: src/Subscriptions/WebhookSettings.php:38
+msgid "Actions"
+msgstr "Acciones"
+
+#: src/Gateway/PaypercutBnplGateway.php:422
+msgid "Awaiting completion of Paypercut BNPL hosted checkout."
+msgstr "Esperando la finalización del pago alojado de Paypercut BNPL."
+
+#. translators: %s: BNPL attempt ID
+#: src/Gateway/PaypercutBnplGateway.php:375
+msgid "Paypercut BNPL attempt ID: %s"
+msgstr "ID de intento de Paypercut BNPL: %s"
+
+#: src/Gateway/PaypercutBnplGateway.php:322
+#: src/Gateway/PaypercutBnplGateway.php:394
+#: src/Gateway/PaypercutBnplGateway.php:412
+msgid "Unable to start Paypercut BNPL checkout. Please try again."
+msgstr "No se puede iniciar el pago de Paypercut BNPL. Por favor, inténtalo de nuevo."
+
+#: src/Gateway/PaypercutBnplGateway.php:245
+msgid "Provide this URL to Paypercut when setting up your webhooks."
+msgstr "Proporciona esta URL a Paypercut al configurar tus webhooks."
+
+#: src/Gateway/PaypercutBnplGateway.php:242
+#: src/Gateway/PaypercutGateway.php:3018 src/Gateway/PaypercutGateway.php:3052
+#: src/Gateway/PaypercutGateway.php:3070
+msgid "Copy"
+msgstr "Copiar"
+
+#: src/Gateway/PaypercutBnplGateway.php:240
+msgid "Webhook URL copied to clipboard!"
+msgstr "¡URL del webhook copiada al portapapeles!"
+
+#: src/Gateway/PaypercutBnplGateway.php:223
+#: src/Gateway/PaypercutBnplGateway.php:227
+#: src/Gateway/PaypercutGateway.php:1956
+msgid "Webhook URL"
+msgstr "URL del webhook"
+
+#: src/Gateway/PaypercutBnplGateway.php:216
+msgid "Webhook configuration is required for automatic order status updates. Please contact Paypercut support to configure webhooks using the URL below."
+msgstr "La configuración de webhooks es obligatoria para las actualizaciones automáticas del estado de los pedidos. Por favor, contacta con el soporte de Paypercut para configurar los webhooks usando la URL que aparece a continuación."
+
+#: src/Gateway/PaypercutBnplGateway.php:202
+msgid "Configure Paypercut BNPL hosted checkout settings."
+msgstr "Configura los ajustes del pago alojado de Paypercut BNPL."
+
+#: src/Gateway/PaypercutBnplGateway.php:175
+msgid "Enable or disable debug logging for BNPL payments."
+msgstr "Activa o desactiva el registro de depuración para pagos con BNPL."
+
+#: src/Gateway/PaypercutBnplGateway.php:102
+msgid "Enable Paypercut BNPL"
+msgstr "Activar Paypercut BNPL"
+
+#: src/Gateway/PaypercutBnplGateway.php:77
+#: src/Gateway/PaypercutBnplGateway.php:109
+msgid "Pay later with Paypercut"
+msgstr "Paga después con Paypercut"
+
+#: src/Gateway/PaypercutBnplGateway.php:68
+msgid "Offer Paypercut Buy Now, Pay Later via hosted checkout."
+msgstr "Ofrece Paypercut Compra ahora y paga después mediante pago alojado."
+
+#: src/Gateway/PaypercutBnplGateway.php:67
+msgid "Paypercut BNPL"
+msgstr "Paypercut BNPL"
+
+#: src/Assets/AdminAssets.php:432
+msgid "Failed to delete webhook."
+msgstr "Error al eliminar el webhook."
+
+#: src/Assets/AdminAssets.php:431
+msgid "Deleting..."
+msgstr "Eliminando..."
+
+#: src/Assets/AdminAssets.php:430
+msgid "Are you sure you want to delete this webhook? This action cannot be undone."
+msgstr "¿Estás seguro de que deseas eliminar este webhook? Esta acción no se puede deshacer."
+
+#: src/Assets/AdminAssets.php:429
+msgid "Missing required data."
+msgstr "Faltan datos obligatorios."
+
+#: src/Admin/SetupWizard.php:110 src/Gateway/PaypercutBnplGateway.php:121
+msgid "Select Live for production or Test for development."
+msgstr "Selecciona Live para producción o Test para desarrollo."
+
+#: src/Admin/SetupWizard.php:107 src/Gateway/PaypercutBnplGateway.php:125
+msgid "Live"
+msgstr "Live"
+
+#: src/Admin/SetupWizard.php:106 src/Gateway/PaypercutBnplGateway.php:124
+msgid "Test"
+msgstr "Test"
+
+#: src/Admin/SetupWizard.php:102 src/Gateway/PaypercutBnplGateway.php:119
+#: src/Gateway/PaypercutGateway.php:2131
+msgid "Mode"
+msgstr "Modo"
+
+#: src/Services/CheckoutLineItemMapper.php:43
+#: src/Services/CheckoutLineItemMapper.php:66
+#: src/Services/CheckoutPayloadFactory.php:535
+msgid "Item"
+msgstr "Artículo"
+
+#: src/Lifecycle/Activator.php:36
+msgid "Plugin dependency check failed"
+msgstr "Fallo en la comprobación de dependencias del plugin"
+
+#: src/Lifecycle/Activator.php:35
+msgid "Paypercut Payments requires WooCommerce to be installed and active."
+msgstr "Paypercut Payments requiere que WooCommerce esté instalado y activo."
+
+#. translators: %s: Exception error message
+#: src/Http/Ajax/TestConnection.php:128
+msgid "Connection failed: %s"
+msgstr "Fallo de conexión: %s"
+
+#: src/Http/Ajax/TestConnection.php:103
+msgid "Connection successful! Your API key secret is valid."
+msgstr "¡Conexión correcta! Tu clave secreta de la API es válida."
+
+#: src/Http/Ajax/SetupWizard.php:251
+msgid "Setup complete! Gateway enabled and configured."
+msgstr "¡Configuración completada! Pasarela activada y configurada."
+
+#. translators: %s: Exception error message
+#: src/Http/Ajax/SetupWizard.php:129
+msgid "Invalid API key secret: %s"
+msgstr "Clave secreta de la API no válida: %s"
+
+#: src/Http/Ajax/CreateWebhook.php:40 src/Http/Ajax/DebugSessionStatus.php:32
+#: src/Http/Ajax/DeleteWebhook.php:40 src/Http/Ajax/DisconnectGateway.php:39
+#: src/Http/Ajax/RegisterPaymentDomain.php:40
+#: src/Http/Ajax/ResetConfiguration.php:20
+#: src/Http/Ajax/SaveGatewaySettings.php:43 src/Http/Ajax/SetupWizard.php:51
+#: src/Http/Ajax/StartConnection.php:57 src/Http/Ajax/StartDebugSession.php:50
+#: src/Http/Ajax/StopDebugSession.php:33 src/Http/Ajax/TestConnection.php:41
+msgid "Insufficient permissions."
+msgstr "Permisos insuficientes."
+
+#: src/Http/Ajax/CreateCheckoutSession.php:220
+msgid "Unable to create a Paypercut checkout session."
+msgstr "No se puede crear una sesión de pago de Paypercut."
+
+#: src/Http/Ajax/CreateCheckoutSession.php:181
+msgid "Paypercut did not return a session identifier."
+msgstr "Paypercut no devolvió un identificador de sesión."
+
+#: src/Http/Ajax/CreateCheckoutSession.php:107
+#: src/Http/Ajax/CreateCheckoutSession.php:121
+#: src/Http/Ajax/CreateCheckoutSession.php:141
+msgid "Paypercut gateway is not available."
+msgstr "La pasarela de Paypercut no está disponible."
+
+#. translators: 1: expiry month 2: expiry year
+#: src/Gateway/PaypercutPaymentToken.php:94
+msgid " (expires %1$s/%2$s)"
+msgstr " (caduca el %1$s/%2$s)"
+
+#. translators: 1: card brand 2: last 4 digits
+#: src/Gateway/PaypercutPaymentToken.php:82
+msgid "%1$s ending in %2$s"
+msgstr "%1$s terminada en %2$s"
+
+#. translators: %s: Payment Intent ID
+#: src/Blocks/BlocksPaymentProcessor.php:2480
+#: src/Gateway/PaypercutGateway.php:2582
+#: src/Http/Ajax/CreateCheckoutSession.php:408
+#: src/Http/Rest/CheckoutSessionWebhook.php:756
+msgid "Paypercut payment intent ID: %s"
+msgstr "ID de intención de pago de Paypercut: %s"
+
+#. translators: %s: Session ID
+#: src/Blocks/BlocksPaymentProcessor.php:2466
+#: src/Gateway/PaypercutGateway.php:2566
+#: src/Http/Ajax/CreateCheckoutSession.php:395
+#: src/Http/Rest/CheckoutSessionWebhook.php:742
+msgid "Paypercut checkout session ID: %s"
+msgstr "ID de sesión de pago de Paypercut: %s"
+
+#: src/Gateway/PaypercutGateway.php:1919 src/Gateway/PaypercutGateway.php:1920
+msgid "Inactive"
+msgstr "Inactivo"
+
+#: src/Gateway/PaypercutGateway.php:1914 src/Gateway/PaypercutGateway.php:1915
+#: src/Subscriptions/SubscriptionViews.php:118
+msgid "Active"
+msgstr "Activo"
+
+#: src/Gateway/PaypercutGateway.php:1894 src/Gateway/PaypercutGateway.php:2128
+#: src/Subscriptions/SubscriptionViews.php:64
+#: src/Subscriptions/SubscriptionViews.php:72
+#: src/Subscriptions/SubscriptionViews.php:88
+#: src/Subscriptions/SubscriptionViews.php:102
+#: src/Subscriptions/SubscriptionViews.php:110
+#: src/Subscriptions/WebhookSettings.php:37
+msgid "Status"
+msgstr "Estado"
+
+#: src/Gateway/PaypercutGateway.php:1893
+#: src/Subscriptions/WebhookSettings.php:36
+msgid "Events"
+msgstr "Eventos"
+
+#: src/Gateway/PaypercutGateway.php:1892
+#: src/Subscriptions/WebhookSettings.php:35
+msgid "ID"
+msgstr "ID"
+
+#: src/Gateway/PaypercutGateway.php:1869
+msgid "Unable to load webhooks. Please check your API credentials."
+msgstr "No se pueden cargar los webhooks. Por favor, comprueba tus credenciales de la API."
+
+#: src/Gateway/PaypercutGateway.php:1847
+msgid "Please configure your API credentials first to view webhooks."
+msgstr "Por favor, configura primero tus credenciales de la API para ver los webhooks."
+
+#. translators: %1$s: Refund ID (optional), %2$s: Formatted refund amount
+#: src/Gateway/PaypercutGateway.php:1753
+msgid "Paypercut refund created%1$s for %2$s."
+msgstr "Reembolso de Paypercut creado%1$s por %2$s."
+
+#: src/Gateway/PaypercutGateway.php:1744
+msgid "Unable to issue a Paypercut refund at this time. Please try again."
+msgstr "No se puede emitir un reembolso de Paypercut en este momento. Por favor, inténtalo de nuevo."
+
+#: src/Gateway/PaypercutGateway.php:1700
+msgid "Refund amount must be greater than zero."
+msgstr "El importe del reembolso debe ser mayor que cero."
+
+#: src/Gateway/PaypercutGateway.php:1686
+msgid "No Paypercut payment reference is stored for this order."
+msgstr "No hay ninguna referencia de pago de Paypercut guardada para este pedido."
+
+#: src/Gateway/PaypercutGateway.php:1670
+msgid "Unable to locate order for refund."
+msgstr "No se puede localizar el pedido para el reembolso."
+
+#: src/Gateway/PaypercutGateway.php:1627
+msgid "Awaiting completion of Paypercut hosted checkout."
+msgstr "Esperando la finalización del pago alojado de Paypercut."
+
+#: src/Gateway/PaypercutGateway.php:1579 src/Gateway/PaypercutGateway.php:1608
+msgid "Unable to start Paypercut checkout. Please try again."
+msgstr "No se puede iniciar el pago de Paypercut. Por favor, inténtalo de nuevo."
+
+#: src/Gateway/PaypercutGateway.php:1359
+msgid "Payment verification failed. Please contact support."
+msgstr "Error en la verificación del pago. Por favor, contacta con soporte."
+
+#: src/Gateway/PaypercutGateway.php:1102 src/Gateway/PaypercutGateway.php:1123
+msgid "Unable to add payment method. Please try again."
+msgstr "No se puede añadir el método de pago. Por favor, inténtalo de nuevo."
+
+#: src/Gateway/PaypercutGateway.php:1074
+msgid "Payment method setup was not completed. Please try again."
+msgstr "La configuración del método de pago no se completó. Por favor, inténtalo de nuevo."
+
+#: src/Gateway/PaypercutGateway.php:1054
+msgid "Invalid payment method setup session."
+msgstr "Sesión de configuración del método de pago no válida."
+
+#: src/Gateway/PaypercutBnplGateway.php:331
+#: src/Gateway/PaypercutGateway.php:1018 src/Gateway/PaypercutGateway.php:1375
+msgid "Payment gateway configuration error. Please contact support."
+msgstr "Error de configuración de la pasarela de pago. Por favor, contacta con soporte."
+
+#: src/Gateway/PaypercutGateway.php:1005
+msgid "Payment method setup failed. Please try again."
+msgstr "Error en la configuración del método de pago. Por favor, inténtalo de nuevo."
+
+#: src/Gateway/PaypercutGateway.php:991
+msgid "Please log in to add a payment method."
+msgstr "Por favor, inicia sesión para añadir un método de pago."
+
+#: src/Gateway/PaypercutGateway.php:507
+msgid "These options control the appearance of the embedded experience. The defaults are recommended—change them only if Paypercut support asks you to."
+msgstr "Estas opciones controlan la apariencia de la experiencia incrustada. Se recomiendan los valores predeterminados; cámbialos solo si el soporte de Paypercut te lo solicita."
+
+#: src/Gateway/PaypercutBnplGateway.php:174
+#: src/Gateway/PaypercutGateway.php:505
+msgid "Advanced"
+msgstr "Avanzado"
+
+#: src/Gateway/PaypercutBnplGateway.php:168
+#: src/Gateway/PaypercutGateway.php:494
+#: src/Subscriptions/WebhookSettings.php:23
+msgid "Webhooks"
+msgstr "Webhooks"
+
+#: src/Gateway/PaypercutGateway.php:485
+msgid "Checkout Configuration"
+msgstr "Configuración del pago"
+
+#: src/Gateway/PaypercutBnplGateway.php:164
+#: src/Gateway/PaypercutGateway.php:480
+msgid "API Credentials"
+msgstr "Credenciales de la API"
+
+#: src/Gateway/PaypercutBnplGateway.php:160
+#: src/Gateway/PaypercutGateway.php:523
+msgid "Display"
+msgstr "Visualización"
+
+#: src/Gateway/PaypercutGateway.php:361
+msgid "When enabled, Paypercut will display the option to store a payment method for reuse. Disable if you do not offer saved cards."
+msgstr "Cuando está activado, Paypercut mostrará la opción de guardar un método de pago para reutilizarlo. Desactívalo si no ofreces tarjetas guardadas."
+
+#: src/Gateway/PaypercutGateway.php:359
+msgid "Allow customers to save cards for future purchases"
+msgstr "Permitir a los clientes guardar tarjetas para futuras compras"
+
+#: src/Gateway/PaypercutGateway.php:358
+msgid "Saved payment methods"
+msgstr "Métodos de pago guardados"
+
+#: src/Gateway/PaypercutGateway.php:343
+msgid "Floating labels"
+msgstr "Etiquetas flotantes"
+
+#: src/Gateway/PaypercutGateway.php:342
+msgid "Inline (placeholder)"
+msgstr "En línea (marcador de posición)"
+
+#: src/Gateway/PaypercutGateway.php:341
+msgid "Above inputs"
+msgstr "Encima de los campos"
+
+#: src/Gateway/PaypercutGateway.php:339
+msgid "Control how Paypercut displays field labels inside the embedded form."
+msgstr "Controla cómo muestra Paypercut las etiquetas de los campos dentro del formulario incrustado."
+
+#: src/Gateway/PaypercutGateway.php:337
+msgid "Field labels"
+msgstr "Etiquetas de campos"
+
+#: src/Gateway/PaypercutGateway.php:332 src/Gateway/PaypercutGateway.php:458
+#: src/Gateway/PaypercutGateway.php:925
+msgid "Dark"
+msgstr "Oscuro"
+
+#: src/Gateway/PaypercutGateway.php:331 src/Gateway/PaypercutGateway.php:459
+#: src/Gateway/PaypercutGateway.php:925
+msgid "Light"
+msgstr "Claro"
+
+#: src/Gateway/PaypercutGateway.php:329
+msgid "Match the embedded Paypercut form with your storefront theme."
+msgstr "Adapta el formulario incrustado de Paypercut al tema de tu tienda."
+
+#: src/Gateway/PaypercutGateway.php:327
+msgid "Form theme"
+msgstr "Tema del formulario"
+
+#: src/Gateway/PaypercutGateway.php:322
+msgid "Modal overlay"
+msgstr "Ventana modal superpuesta"
+
+#: src/Gateway/PaypercutGateway.php:321
+msgid "Inline form"
+msgstr "Formulario incrustado"
+
+#: src/Gateway/PaypercutGateway.php:319
+msgid "Choose whether the embedded checkout appears inline or inside a modal."
+msgstr "Elige si el pago incrustado aparece directamente en la página o dentro de una ventana modal."
+
+#: src/Gateway/PaypercutGateway.php:317
+msgid "Embedded experience"
+msgstr "Experiencia incrustada"
+
+#: src/Gateway/PaypercutBnplGateway.php:137
+#: src/Gateway/PaypercutGateway.php:296
+msgid "Writes gateway events to WooCommerce Status → Logs."
+msgstr "Escribe eventos de la pasarela en WooCommerce Estado → Registros."
+
+#: src/Gateway/PaypercutBnplGateway.php:135
+#: src/Gateway/PaypercutGateway.php:294
+msgid "Log debug messages"
+msgstr "Registrar mensajes de depuración"
+
+#: src/Gateway/PaypercutBnplGateway.php:134
+#: src/Gateway/PaypercutGateway.php:293
+msgid "Logging"
+msgstr "Registro"
+
+#: src/Gateway/PaypercutBnplGateway.php:131
+#: src/Gateway/PaypercutGateway.php:290
+msgid "Bearer token for Paypercut API requests."
+msgstr "Token de portador (Bearer) para las solicitudes de la API de Paypercut."
+
+#: src/Gateway/PaypercutBnplGateway.php:116
+#: src/Gateway/PaypercutGateway.php:285
+msgid "Payment method description that the customer will see on your checkout."
+msgstr "Descripción del método de pago que el cliente verá al finalizar la compra."
+
+#: src/Gateway/PaypercutBnplGateway.php:113
+#: src/Gateway/PaypercutGateway.php:282
+msgid "Description"
+msgstr "Descripción"
+
+#: src/Gateway/PaypercutBnplGateway.php:110
+#: src/Gateway/PaypercutGateway.php:279
+msgid "Displayed to customers during checkout."
+msgstr "Se muestra a los clientes al finalizar la compra."
+
+#: src/Gateway/PaypercutBnplGateway.php:107
+#: src/Gateway/PaypercutGateway.php:276
+msgid "Title"
+msgstr "Título"
+
+#: src/Gateway/PaypercutBnplGateway.php:101
+#: src/Gateway/PaypercutGateway.php:270
+#: src/Subscriptions/SettingsGateway.php:34
+msgid "Enable/Disable"
+msgstr "Activar/Desactivar"
+
+#: src/Gateway/PaypercutGateway.php:157
+msgid "Paypercut Payments"
+msgstr "Paypercut Payments"
+
+#: src/Blocks/PaypercutBlocksSupport.php:175
+#: src/Blocks/PaypercutBlocksSupport.php:639
+#: src/Blocks/WalletPaymentMethodAvailability.php:84
+#: src/Gateway/PaypercutGateway.php:415 src/Gateway/PaypercutGateway.php:715
+#: src/Gateway/PaypercutGateway.php:718 src/Gateway/PaypercutGateway.php:896
+#: src/Gateway/PaypercutGateway.php:2130 src/Gateway/PaypercutGateway.php:2487
+msgid "Google Pay"
+msgstr "Google Pay"
+
+#: src/Blocks/PaypercutBlocksSupport.php:174
+#: src/Blocks/PaypercutBlocksSupport.php:634
+#: src/Blocks/WalletPaymentMethodAvailability.php:83
+#: src/Gateway/PaypercutGateway.php:414 src/Gateway/PaypercutGateway.php:707
+#: src/Gateway/PaypercutGateway.php:710 src/Gateway/PaypercutGateway.php:895
+#: src/Gateway/PaypercutGateway.php:2129 src/Gateway/PaypercutGateway.php:2486
+msgid "Apple Pay"
+msgstr "Apple Pay"
+
+#: src/Blocks/PaypercutBlocksSupport.php:629
+#: src/Gateway/PaypercutGateway.php:2516
+msgid "Mastercard"
+msgstr "Mastercard"
+
+#: src/Blocks/PaypercutBlocksSupport.php:624
+#: src/Gateway/PaypercutGateway.php:2511
+msgid "Visa"
+msgstr "Visa"
+
+#: src/Blocks/PaypercutBlocksSupport.php:211
+msgid "Paypercut not initialized"
+msgstr "Paypercut no inicializado"
+
+#: src/Blocks/PaypercutBlocksSupport.php:210
+msgid "Network error"
+msgstr "Error de red"
+
+#: src/Blocks/PaypercutBlocksSupport.php:209
+msgid "Failed to create checkout session"
+msgstr "Error al crear la sesión de pago"
+
+#: src/Blocks/PaypercutBlocksSupport.php:205
+msgid "Failed to initialize Paypercut"
+msgstr "Error al inicializar Paypercut"
+
+#: src/Blocks/PaypercutBlocksSupport.php:204
+msgid "Payment initialization failed"
+msgstr "Error al inicializar el pago"
+
+#: src/Blocks/PaypercutBlocksSupport.php:203
+msgid "Paypercut SDK not loaded"
+msgstr "SDK de Paypercut no cargado"
+
+#: src/Blocks/PaypercutBlocksSupport.php:202
+msgid "Please fill all required fields and accept the terms and conditions."
+msgstr "Por favor, completa todos los campos obligatorios y acepta los términos y condiciones."
+
+#: src/Assets/FrontendAssets.php:180
+msgid "Please fill all required fields to proceed and complete your order."
+msgstr "Por favor, completa todos los campos obligatorios para continuar y completar tu pedido."
+
+#: src/Assets/FrontendAssets.php:179
+msgid "Unable to initialise Paypercut checkout. Please try again."
+msgstr "No se puede inicializar el pago de Paypercut. Por favor, inténtalo de nuevo."
+
+#: src/Assets/FrontendAssets.php:178 src/Blocks/PaypercutBlocksSupport.php:230
+msgid "Setting up secure Paypercut checkout…"
+msgstr "Configurando el pago seguro de Paypercut…"
+
+#: src/Assets/AdminAssets.php:536
+msgid "Requested by customer"
+msgstr "Solicitado por el cliente"
+
+#: src/Assets/AdminAssets.php:535
+msgid "Fraudulent"
+msgstr "Fraudulento"
+
+#: src/Assets/AdminAssets.php:534
+msgid "Duplicate"
+msgstr "Duplicado"
+
+#: src/Assets/AdminAssets.php:532
+msgid "Select a Paypercut refund reason"
+msgstr "Selecciona un motivo de reembolso de Paypercut"
+
+#: src/Assets/AdminAssets.php:531
+msgid "Paypercut recommends using the literal values duplicate, fraudulent, or requested_by_customer."
+msgstr "Paypercut recomienda usar los valores literales duplicate, fraudulent o requested_by_customer."
+
+#: src/Assets/AdminAssets.php:493
+msgid "Security token missing. Please refresh the page."
+msgstr "Falta el token de seguridad. Por favor, actualiza la página."
+
+#: src/Assets/AdminAssets.php:492 src/Http/Ajax/SetupWizard.php:62
+#: src/Http/Ajax/TestConnection.php:59
+msgid "API key secret is required."
+msgstr "La clave secreta de la API es obligatoria."
+
+#: src/Assets/AdminAssets.php:491
+msgid "API key secret field not found. Please refresh the page."
+msgstr "No se encontró el campo de clave secreta de la API. Por favor, actualiza la página."
+
+#: src/Assets/AdminAssets.php:489
+msgid "An error occurred. Please try again."
+msgstr "Ocurrió un error. Por favor, inténtalo de nuevo."
+
+#: src/Assets/AdminAssets.php:488
+msgid "Setup complete! Redirecting..."
+msgstr "¡Configuración completada! Redirigiendo..."
+
+#: src/Assets/AdminAssets.php:354 src/Gateway/PaypercutBnplGateway.php:549
+#: src/Gateway/PaypercutGateway.php:2846
+msgid "Test Connection"
+msgstr "Probar conexión"
+
+#: src/Assets/AdminAssets.php:151 src/Assets/AdminAssets.php:256
+#: src/Assets/AdminAssets.php:353 src/Assets/AdminAssets.php:392
+#: src/Assets/AdminAssets.php:439 src/Assets/AdminAssets.php:490
+msgid "Network error. Please try again."
+msgstr "Error de red. Por favor, inténtalo de nuevo."
+
+#: src/Assets/AdminAssets.php:352
+msgid "Connection failed. Please check your API key secret."
+msgstr "Fallo de conexión. Por favor, comprueba tu clave secreta de la API."
+
+#: src/Assets/AdminAssets.php:351
+msgid "Connection successful!"
+msgstr "¡Conexión correcta!"
+
+#: src/Assets/AdminAssets.php:350
+msgid "Testing..."
+msgstr "Comprobando..."
+
+#: src/Assets/AdminAssets.php:349
+msgid "Please enter an API key secret before testing."
+msgstr "Por favor, introduce una clave secreta de la API antes de realizar la prueba."
+
+#: src/Admin/SetupWizard.php:137
+msgid "Setting up..."
+msgstr "Configurando..."
+
+#: src/Admin/SetupWizard.php:130
+msgid "Your API key secret from your Paypercut dashboard."
+msgstr "Tu clave secreta de la API de tu panel de control de Paypercut."
+
+#: src/Admin/SetupWizard.php:127
+msgid "Enter your Paypercut API key secret"
+msgstr "Introduce tu clave secreta de la API de Paypercut"
+
+#: src/Admin/SetupWizard.php:117 src/Gateway/PaypercutBnplGateway.php:129
+#: src/Gateway/PaypercutGateway.php:288
+msgid "API Key Secret"
+msgstr "Clave secreta de la API"
+
+#: src/Admin/SetupWizard.php:67
+msgid "Welcome to Paypercut Payments"
+msgstr "Te damos la bienvenida a Paypercut Payments"
+
+#: src/Admin/SetupWizard.php:64 src/Gateway/PaypercutBnplGateway.php:191
+#: src/Gateway/PaypercutGateway.php:536
+#: src/Subscriptions/SettingsGateway.php:90
+msgid "Paypercut logo"
+msgstr "Logotipo de Paypercut"
+
+#: src/Admin/SetupWizard.php:48 src/Gateway/PaypercutBnplGateway.php:187
+msgid "Paypercut banner"
+msgstr "Banner de Paypercut"
+
+#. Author URI of the plugin
+#: paypercut-payments-for-woocommerce.php
+msgid "https://paypercut.co/"
+msgstr "https://paypercut.co/"
+
+#. Author of the plugin
+#: paypercut-payments-for-woocommerce.php
+msgid "Paypercut"
+msgstr "Paypercut"
+
+#. Description of the plugin
+#: paypercut-payments-for-woocommerce.php
+msgid "Paypercut Payments enables WooCommerce merchants to accept online payments using Paypercut's checkout experience."
+msgstr "Paypercut Payments permite a las tiendas de WooCommerce aceptar pagos en línea mediante la experiencia de pago de Paypercut."
+
+#. Plugin Name of the plugin
+#: paypercut-payments-for-woocommerce.php
+msgid "Paypercut Payments for WooCommerce"
+msgstr "Paypercut Payments for WooCommerce"

@@ -1,0 +1,112 @@
+#3: glossary: upload → subida | subir?
+#23: glossary: Dashboard → Escritorio?
+#26: glossary: Dashboard → Escritorio?
+#29: glossary: fix → corrección?
+#42: capitals mid-sentence: Ajustes
+#47: glossary: save → guardar o ahorrar, según contexto?
+#49: glossary: scope → extensión?
+#82: glossary: upgrade → actualización | actualizar?
+#100: glossary: setting → ajuste?
+#105: glossary: set → establecer | conjunto?
+#107: glossary: set → establecer | conjunto?
+#120: glossary term left in English: rate → tasa / tarifa | valorar / puntuar
+#135: glossary: clear → vaciar?
+#156: glossary term left in English: page → página
+#176: glossary: set → establecer | conjunto?
+#179: glossary: save → guardar o ahorrar, según contexto?
+#181: glossary: save → guardar o ahorrar, según contexto?
+#188: capitals mid-sentence: El
+#199: glossary: save → guardar o ahorrar, según contexto?
+#203: glossary: set → establecer | conjunto?
+#206: glossary: Dashboard → Escritorio? | glossary: set → establecer | conjunto?
+#215: glossary: save → guardar o ahorrar, según contexto?
+#237: capitals mid-sentence: Conectar
+#249: glossary: set → establecer | conjunto?
+#250: glossary: Dashboard → Escritorio?
+#251: glossary term left in English: status → estado
+#254: capitals mid-sentence: Resumen
+#262: glossary: clear → vaciar?
+#297: glossary: support → es compatible con / dar soporte?
+#351: glossary: set → establecer | conjunto?
+#352: glossary: save → guardar o ahorrar, según contexto?
+#364: glossary: fix → corrección?
+#367: capitals mid-sentence: Estado
+#370: glossary: support → es compatible con / dar soporte?
+#374: glossary: support → es compatible con / dar soporte?
+#408: capitals mid-sentence: Procesando
+#410: glossary: order → pedido / orden | pedir / encargar / realizar pedido / ordenar?
+#417: glossary: email → correo electrónico? | capitals mid-sentence: Completado
+#421: glossary term left in English: order → pedido / orden | pedir / encargar / realizar pedido / ordenar | capitals mid-sentence: Impresos
+#448: glossary term left in English: status → estado
+#456: glossary term left in English: status → estado
+#458: glossary: save → guardar o ahorrar, según contexto?
+#469: glossary: quote → cita / presupuesto?
+#475: glossary: stock → inventario / existencias?
+#501: glossary: quote → cita / presupuesto?
+#502: glossary: quote → cita / presupuesto?
+#506: glossary: quote → cita / presupuesto?
+#509: glossary: quote → cita / presupuesto?
+#521: glossary: quote → cita / presupuesto?
+#526: glossary: clear → vaciar?
+#528: glossary: stock → inventario / existencias?
+#546: glossary: Dashboard → Escritorio? | glossary: quote → cita / presupuesto?
+#552: glossary: save → guardar o ahorrar, según contexto?
+#561: glossary: quote → cita / presupuesto?
+#569: glossary: save → guardar o ahorrar, según contexto?
+#577: glossary: save → guardar o ahorrar, según contexto?
+#602: glossary: stock → inventario / existencias?
+#607: glossary: stock → inventario / existencias?
+#608: glossary: stock → inventario / existencias?
+#618: glossary: save → guardar o ahorrar, según contexto?
+#625: glossary: save → guardar o ahorrar, según contexto?
+#627: glossary: default → por defecto? | glossary: set → establecer | conjunto?
+#628: glossary: quote → cita / presupuesto?
+#639: glossary: Dashboard → Escritorio?
+#646: capitals mid-sentence: Tecnologías
+#649: glossary term left in English: quote → cita / presupuesto | glossary: set → establecer | conjunto?
+#650: glossary: set → establecer | conjunto?
+#653: glossary term left in English: quote → cita / presupuesto | glossary: support → es compatible con / dar soporte?
+#656: glossary: stock → inventario / existencias?
+#657: glossary: quote → cita / presupuesto?
+#662: glossary: upgrade → actualización | actualizar?
+#668: capitals mid-sentence: Tecnologías
+#671: glossary: setting → ajuste?
+#673: glossary: setting → ajuste?
+#682: glossary: save → guardar o ahorrar, según contexto?
+#685: glossary: check → marcar / comprobar | cheque? | capitals mid-sentence: Avanzado
+#688: glossary: check → marcar / comprobar | cheque? | capitals mid-sentence: Avanzado
+#697: glossary: support → es compatible con / dar soporte?
+#700: glossary: upgrade → actualización | actualizar?
+#702: glossary: Dashboard → Escritorio?
+#703: glossary: Dashboard → Escritorio?
+#705: glossary: Dashboard → Escritorio? | capitals mid-sentence: Tokens
+#707: glossary: Dashboard → Escritorio? | glossary: save → guardar o ahorrar, según contexto? | glossary: set → establecer | conjunto?
+#708: glossary: next → siguiente? | glossary: save → guardar o ahorrar, según contexto? | glossary: set → establecer | conjunto?
+#709: glossary: support → es compatible con / dar soporte?
+#718: capitals mid-sentence: Completado, Entregado
+#720: glossary: scope → extensión?
+#722: glossary: save → guardar o ahorrar, según contexto?
+#723: glossary: Dashboard → Escritorio?
+#724: glossary: save → guardar o ahorrar, según contexto?
+#726: capitals mid-sentence: Ajustes
+#728: glossary: Dashboard → Escritorio?
+#734: glossary: support → es compatible con / dar soporte?
+#735: glossary: Dashboard → Escritorio? | glossary: upgrade → actualización | actualizar?
+#739: glossary: Dashboard → Escritorio?
+#742: glossary: Dashboard → Escritorio?
+#754: glossary: upload → subida | subir?
+#763: glossary: support → es compatible con / dar soporte?
+#767: glossary: set → establecer | conjunto?
+#771: capitals mid-sentence: Catálogo
+#772: capitals mid-sentence: Catálogo
+#783: glossary: check → marcar / comprobar | cheque? | capitals mid-sentence: Catálogo
+#787: glossary: next → siguiente?
+#793: glossary: quote → cita / presupuesto?
+#795: glossary: quote → cita / presupuesto? | glossary: set → establecer | conjunto?
+#797: glossary: set → establecer | conjunto?
+#803: glossary: quote → cita / presupuesto?
+#804: glossary: quote → cita / presupuesto? | glossary term left in English: stock → inventario / existencias
+#806: glossary: quote → cita / presupuesto? | glossary: support → es compatible con / dar soporte?
+#817: glossary: add → añadir?
+#822: glossary: Dashboard → Escritorio? | capitals mid-sentence: Precios
+#827: glossary: check → marcar / comprobar | cheque? | glossary: Dashboard → Escritorio? | glossary term left in English: quote → cita / presupuesto

@@ -1,0 +1,14 @@
+{"n": 638, "verdict": "reject", "msgstr": "No se han podido cargar los webhooks. Por favor, comprueba tus credenciales de la API.", "comment": "Según el glosario, «unable» se traduce como «no se ha podido»."}
+{"n": 641, "verdict": "reject", "msgstr": "No se ha podido emitir un reembolso de Paypercut en este momento. Por favor, inténtalo de nuevo.", "comment": "Según el glosario, «unable» se traduce como «no se ha podido»."}
+{"n": 644, "verdict": "reject", "msgstr": "No se ha podido localizar el pedido para el reembolso.", "comment": "Según el glosario, «unable» se traduce como «no se ha podido»."}
+{"n": 646, "verdict": "reject", "msgstr": "No se ha podido iniciar el pago de Paypercut. Por favor, inténtalo de nuevo.", "comment": "Según el glosario, «unable» se traduce como «no se ha podido»."}
+{"n": 648, "verdict": "reject", "msgstr": "No se ha podido añadir el método de pago. Por favor, inténtalo de nuevo.", "comment": "Según el glosario, «unable» se traduce como «no se ha podido»."}
+{"n": 653, "verdict": "reject", "msgstr": "Por favor, accede para añadir un método de pago.", "comment": "Según el glosario, «log in» se traduce como «acceder», no como «iniciar sesión»."}
+{"n": 654, "verdict": "reject", "msgstr": "Estas opciones controlan la apariencia de la experiencia incrustada. Se recomienda dejar los valores por defecto; cámbialos solo si el soporte de Paypercut te lo pide.", "comment": "Según el glosario, «default» se traduce como «por defecto», no como «predeterminado»."}
+{"n": 664, "verdict": "reject", "msgstr": "Integrado (marcador de posición)", "comment": "Según el glosario, «inline» se traduce como «integrado», no como «en línea»."}
+{"n": 672, "verdict": "reject", "msgstr": "Superposición emergente", "comment": "Según el glosario, «modal» se traduce como «emergente»."}
+{"n": 673, "verdict": "reject", "msgstr": "Formulario integrado", "comment": "Según el glosario, «inline» se traduce como «integrado», no como «incrustado»."}
+{"n": 674, "verdict": "reject", "msgstr": "Elige si el pago integrado aparece directamente en la página o dentro de una ventana emergente.", "comment": "Según el glosario, «inline» se traduce como «integrado» y «modal» como «emergente»."}
+{"n": 698, "verdict": "reject", "msgstr": "No se ha podido inicializar el pago de Paypercut. Por favor, inténtalo de nuevo.", "comment": "Según el glosario, «unable» se traduce como «no se ha podido»."}
+{"n": 717, "verdict": "reject", "msgstr": "Tu clave secreta de la API del escritorio de Paypercut.", "comment": "Según el glosario, «Dashboard» se traduce como «escritorio», no como «panel de control»."}
+{"n": 725, "verdict": "reject", "msgstr": "Paypercut Payments permite a los vendedores de WooCommerce aceptar pagos en línea mediante la experiencia de pago de Paypercut.", "comment": "Según el glosario, «merchant» se traduce como «vendedor»."}

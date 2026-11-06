@@ -29,6 +29,7 @@ Prioridad si hay conflicto: instrucciones de Nilo → glosario → guía.
 - Nombres de idiomas con variante: *Chinese, Simplified* = «chino simplificado», *Chinese, Traditional* = «chino tradicional» (no «chino (China)» ni «chino (Taiwán)»). Se traduce la variante que dice el original.
 - **Anglicismos:** se evitan cuando hay término en español, también en textos técnicos de seguridad. *authentication* = «identificación» (no «autenticación»), *authenticate* = «identificar», *two-factor authentication* / *2FA* = «identificación en dos pasos» (no «autenticación de dos factores»; la sigla 2FA se deja).
 - *whitelist* como sustantivo = «lista blanca»; *to whitelist* (verbo) = «añadir a los admitidos»; *whitelisted* = «admitido» («IP admitidas»). *blacklist* = «lista negra».
+- *Clear filters* (dejar de aplicar un filtro) = «Quitar filtros» o «Limpiar filtros», no «Borrar filtros» ni «Vaciar filtros». El *clear* = «vaciar» del glosario es para vaciar contenidos (papelera, caché).
 - *media* = «medios» (glosario), también en *media item* / *media file* = «archivo de medios», no «archivo multimedia».
 - *badge*: «insignia» (glosario) encaja sobre todo en productos (el cartelito de «en oferta»). Para el globo con un contador junto a un elemento del menú, «distintivo» y otras opciones razonables también son válidas: se aprueba.
 - Los términos del glosario que el traductor deja en inglés (*checkout*, *slider*, *hook*, *frontend*, *sitemap*, *firewall*) son error.

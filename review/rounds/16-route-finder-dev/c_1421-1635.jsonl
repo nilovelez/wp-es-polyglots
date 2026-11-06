@@ -1,0 +1,63 @@
+{"n": 1422, "verdict": "reject", "msgstr": "Desnivel", "comment": "Usa «desnivel» para «ascent», como en el resto del plugin."}
+{"n": 1431, "verdict": "reject", "msgstr": "m desnivel", "comment": "Usa «desnivel» para «ascent», como en el resto del plugin."}
+{"n": 1432, "verdict": "reject", "msgstr": "ft desnivel", "comment": "Usa «desnivel» para «ascent», como en el resto del plugin."}
+{"n": 1451, "verdict": "reject", "msgstr": "Vista de mapa destacada", "comment": "Según el glosario, «hero» se traduce como «destacada»."}
+{"n": 1452, "verdict": "reject", "msgstr": "Página destacada del grupo", "comment": "Debe coincidir con la página destacada del grupo usada en el resto del plugin."}
+{"n": 1477, "verdict": "reject", "msgstr": "Debes acceder para usar el filtro de rutas.", "comment": "Según el glosario, «logged in» se traduce como «acceder» y no se usa «iniciar sesión»."}
+{"n": 1483, "verdict": "reject", "msgstr": "Título &amp; desc", "comment": "La entidad «&amp;» debe quedar tal cual; en la traducción anterior se ha roto."}
+{"n": 1512, "verdict": "fix", "msgstr": "Tipos de actividad", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1514, "verdict": "fix", "msgstr": "Nombre de la actividad", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1515, "verdict": "fix", "msgstr": "Método de detección", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1519, "verdict": "fix", "msgstr": "Añadir tipo de actividad", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1520, "verdict": "fix", "msgstr": "Filtros por defecto", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1522, "verdict": "fix", "msgstr": "Tipos de actividad por defecto", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1524, "verdict": "fix", "msgstr": "Guardar tipos de actividad", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1526, "verdict": "fix", "msgstr": "Descripción de la ruta", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1527, "verdict": "fix", "msgstr": "Grupos del club", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1529, "verdict": "fix", "msgstr": "Ocultar de la búsqueda", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1530, "verdict": "fix", "msgstr": "Mostrar en la búsqueda", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1531, "verdict": "fix", "msgstr": "Establecer protección por contraseña", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1533, "verdict": "reject", "msgstr": "Quitar protección por contraseña", "comment": "Según el glosario, «remove» se traduce casi siempre como «quitar»."}
+{"n": 1534, "verdict": "fix", "msgstr": "Establecer tipo de actividad...", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1535, "verdict": "fix", "msgstr": "Establecer grupos del club...", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1536, "verdict": "fix", "msgstr": "Añadir a región(es)...", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1539, "verdict": "reject", "msgstr_plural": ["Protección por contraseña quitada de %s ruta.", "Protección por contraseña quitada de %s rutas."], "comment": "Según el glosario, «remove» se traduce casi siempre como «quitar»."}
+{"n": 1548, "verdict": "fix", "msgstr": "Aplicar a las rutas seleccionadas", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1549, "verdict": "fix", "msgstr": "Establecer tipo de actividad", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1550, "verdict": "fix", "msgstr": "Establecer grupos del club", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1551, "verdict": "fix", "msgstr": "Añadir a región(es)", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1552, "verdict": "reject", "msgstr": "Editar rutas por lotes", "comment": "Según el glosario, «bulk» se traduce como «por lotes»."}
+{"n": 1553, "verdict": "fix", "msgstr": "Acción de contraseña", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1555, "verdict": "fix", "msgstr": "Establecer contraseña global", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1556, "verdict": "reject", "msgstr": "Usar el ajuste de contraseña global existente", "comment": "Según el glosario, «setting» se traduce como «ajuste», no como «configuración»."}
+{"n": 1557, "verdict": "fix", "msgstr": "Establecer contraseña única", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1561, "verdict": "reject", "msgstr": "Quitar contraseñas", "comment": "Según el glosario, «remove» se traduce casi siempre como «quitar»."}
+{"n": 1562, "verdict": "reject", "msgstr": "Quitar la protección por contraseña de todas las rutas seleccionadas", "comment": "Según el glosario, «remove» se traduce casi siempre como «quitar»."}
+{"n": 1563, "verdict": "fix", "msgstr": "Tipo de actividad", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1564, "verdict": "fix", "msgstr": "— Seleccionar tipo de actividad —", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1568, "verdict": "fix", "msgstr": "Regiones de la ruta", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1574, "verdict": "reject", "msgstr": "Acción por lotes no válida.", "comment": "Según el glosario, «bulk» se traduce como «por lotes»."}
+{"n": 1576, "verdict": "fix", "msgstr": "Detección de dificultad de subida", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1580, "verdict": "fix", "msgstr": "Parámetros de detección", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1581, "verdict": "fix", "msgstr": "Ganancia mínima de elevación", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1583, "verdict": "fix", "msgstr": "Pendiente media mínima", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1585, "verdict": "fix", "msgstr": "Tolerancia a la interrupción", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1587, "verdict": "fix", "msgstr": "Ventana de suavizado", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1589, "verdict": "fix", "msgstr": "Etiquetas de nivel de dificultad", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1594, "verdict": "reject", "msgstr": "Los conmutadores para mostrar las insignias de dificultad y los detalles de la subida se encuentran en la pestaña Opciones del mapa, en las secciones Información de la ruta, Tarjetas de ruta y Página destacada.", "comment": "Según el glosario, «toggle» se traduce como «conmutador» y «hero» como «destacada»."}
+{"n": 1595, "verdict": "reject", "msgstr": "Borrar", "comment": "Según el glosario, «delete» se traduce como «borrar»."}
+{"n": 1600, "verdict": "fix", "msgstr": "Configuración del mapa", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1602, "verdict": "reject", "msgstr": "Configuración obligatoria:", "comment": "Según el glosario, «required» se traduce como «obligatorio»."}
+{"n": 1604, "verdict": "fix", "msgstr": "Asistente de configuración", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1606, "verdict": "fix", "msgstr": "Ajustes de configuración de Route Finder", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1607, "verdict": "fix", "msgstr": "Visualización de información de la ruta", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1608, "verdict": "fix", "msgstr": "Mapas grandes", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1609, "verdict": "reject", "msgstr": "Minimapas", "comment": "Según el glosario, «mini map» se traduce como «minimapa»."}
+{"n": 1610, "verdict": "fix", "msgstr": "Ubicación del mapa por defecto", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1611, "verdict": "fix", "msgstr": "Opciones del mapa", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1615, "verdict": "fix", "msgstr": "Opciones de filtro", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1617, "verdict": "fix", "msgstr": "Tipos de ruta", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1620, "verdict": "fix", "msgstr": "Gestión de caché", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1622, "verdict": "fix", "msgstr": "Expandir todo", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1623, "verdict": "reject", "msgstr": "Plegar todo", "comment": "Según el glosario, «collapse» se traduce como «plegar», no como «contraer»."}
+{"n": 1624, "verdict": "fix", "msgstr": "Versión de enlace de ruta (v1 / v2)", "comment": "Solo la primera palabra del título va con mayúscula."}

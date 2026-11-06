@@ -1,0 +1,834 @@
+{"n": 1, "note": "Plugin Name of the plugin", "msgid": "Quote3D for WooCommerce", "msgstr": "Quote3D for WooCommerce"}
+{"n": 2, "note": "Plugin URI of the plugin", "msgid": "https://quote3d.com/en/integrations/woocommerce", "msgstr": "https://quote3d.com/es/integrations/woocommerce"}
+{"n": 3, "note": "Description of the plugin", "msgid": "Instant 3D printing quotes on WooCommerce: shoppers upload an STL, OBJ, 3MF or STEP file and add the quoted part to the cart.", "msgstr": "Presupuestos instantáneos de impresión 3D en WooCommerce: los clientes suben un archivo STL, OBJ o 3MF y añaden la pieza presupuestada al carrito."}
+{"n": 4, "note": "Author of the plugin", "msgid": "Quote3D", "msgstr": "Quote3D"}
+{"n": 5, "note": "Author URI of the plugin", "msgid": "https://quote3d.com", "msgstr": "https://quote3d.com"}
+{"n": 6, "msgid": "This product is created with our 3D print configurator and cannot be added to the cart directly.", "msgstr": "Este producto se crea con nuestro configurador de impresión 3D y no se puede añadir directamente al carrito."}
+{"n": 7, "msgid": "File", "msgstr": "Archivo"}
+{"n": 8, "ctx": "shop.material", "msgid": "Material", "msgstr": "Material"}
+{"n": 9, "ctx": "shop.color", "msgid": "Color", "msgstr": "Color"}
+{"n": 10, "ctx": "shop.quote_id", "msgid": "Quote ID", "msgstr": "ID de presupuesto"}
+{"n": 11, "ctx": "shop.model", "msgid": "Model", "msgstr": "Modelo"}
+{"n": 12, "msgid": "Preview", "msgstr": "Vista previa"}
+{"n": 13, "msgid": "Quote3D configurator", "msgstr": "Configurador de Quote3D"}
+{"n": 14, "msgid": "Show the Quote3D configurator on this product page. Quotes are added to the cart as this product. Not needed for the [quote3d_widget] shortcode.", "msgstr": "Muestra el configurador de Quote3D en esta página de producto. Los presupuestos se añaden al carrito como este producto. No es necesario para el shortcode [quote3d_widget]."}
+{"n": 15, "msgid": "3D Print", "msgstr": "Impresión 3D"}
+{"n": 16, "msgid": "Custom 3D print, priced by the Quote3D configurator.", "msgstr": "Impresión 3D personalizada, con precio calculado por el configurador de Quote3D."}
+{"n": 17, "ctx": "menu.title", "msgid": "Quote3D", "msgstr": "Quote3D"}
+{"n": 18, "msgid": "Overview", "msgstr": "Resumen"}
+{"n": 19, "ctx": "nav.quotes", "msgid": "Quotes", "msgstr": "Presupuestos"}
+{"n": 20, "msgid": "Reports", "msgstr": "Informes"}
+{"n": 21, "msgid": "Settings", "msgstr": "Ajustes"}
+{"n": 22, "msgid": "Setup", "msgstr": "Configuración"}
+{"n": 23, "msgid": "The Quote3D dashboard needs JavaScript.", "msgstr": "El panel de Quote3D necesita JavaScript."}
+{"n": 24, "ctx": "dashboard.title", "msgid": "Quote3D", "msgstr": "Quote3D"}
+{"n": 25, "msgid": "Quotes this month", "msgstr": "Presupuestos este mes"}
+{"n": 26, "msgid": "Open the Quote3D dashboard", "msgstr": "Abrir el panel de Quote3D"}
+{"n": 27, "note": "translators: keep {days} as written; it is replaced with a value.", "msgid": "Resets in {days} days", "msgstr": "Se restablece en {days} días"}
+{"n": 28, "msgid": "Continue setup", "msgstr": "Continuar la configuración"}
+{"n": 29, "msgid": "Fix it now", "msgstr": "Corregir ahora"}
+{"n": 30, "msgid": "View usage", "msgstr": "Ver uso"}
+{"n": 31, "note": "translators: keep {used}, {limit} as written; they are replaced with a value.", "msgid": "Your Quote3D file storage is filling up ({used} of {limit} MB). When it is full, new uploads are refused and shoppers cannot get quotes.", "msgstr": "Tu almacenamiento de archivos de Quote3D se está llenando ({used} de {limit} MB). Cuando se llene, se rechazarán las nuevas subidas y los clientes no podrán obtener presupuestos."}
+{"n": 32, "note": "translators: keep {used}, {limit} as written; they are replaced with a value.", "msgid": "Your Quote3D file storage is full ({used} of {limit} MB); shoppers cannot get new quotes.", "msgstr": "Tu almacenamiento de archivos de Quote3D está lleno ({used} de {limit} MB); los clientes no pueden obtener presupuestos nuevos."}
+{"n": 33, "msgid": "Dismiss", "msgstr": "Descartar"}
+{"n": 34, "msgid": "Try again", "msgstr": "Reintentar"}
+{"n": 35, "msgid": "Refresh", "msgstr": "Actualizar"}
+{"n": 36, "note": "translators: keep {time} as written; it is replaced with a value.", "msgid": "Updated {time}", "msgstr": "Actualizado {time}"}
+{"n": 37, "msgid": "No data for this period yet.", "msgstr": "Todavía no hay datos para este periodo."}
+{"n": 38, "msgid": "This period has more orders than can be summed at once; the totals cover the most recent 5,000.", "msgstr": "Este periodo tiene más pedidos de los que se pueden sumar a la vez; los totales abarcan los 5.000 más recientes."}
+{"n": 39, "note": "translators: keep {count}, {currency} as written; they are replaced with a value.", "msgid": "{count} orders in another currency are counted, but their amounts are left out of revenue in {currency}.", "msgstr": "Se cuentan {count} pedidos en otra moneda, pero sus importes no se suman a los ingresos en {currency}."}
+{"n": 40, "msgid": "Details", "msgstr": "Detalles"}
+{"n": 41, "msgid": "Close", "msgstr": "Cerrar"}
+{"n": 42, "msgid": "Add a server token in Settings to see your plan, remaining limits and how many quotes shoppers calculated. Carts, orders and revenue below come from this shop and work without it.", "msgstr": "Añade un token de servidor en Ajustes para ver tu plan, los límites restantes y cuántos presupuestos calcularon los clientes. El carrito, los pedidos y los ingresos de abajo vienen de esta tienda y funcionan sin él."}
+{"n": 43, "msgid": "Add server token", "msgstr": "Añadir token de servidor"}
+{"n": 44, "msgid": "Check the tokens", "msgstr": "Comprobar los tokens"}
+{"n": 45, "ctx": "error.title", "msgid": "Quote3D could not be reached", "msgstr": "No se ha podido conectar con Quote3D"}
+{"n": 46, "msgid": "The request was not valid.", "msgstr": "La solicitud no es válida."}
+{"n": 47, "msgid": "No server token is saved yet.", "msgstr": "Todavía no hay ningún token de servidor guardado."}
+{"n": 48, "msgid": "Quote3D sent an answer the plugin could not read.", "msgstr": "Quote3D ha enviado una respuesta que el plugin no ha podido leer."}
+{"n": 49, "msgid": "This is a widget token. The server token field needs a server token (a token without the widget scope).", "msgstr": "Este es un token de widget. El campo del token de servidor necesita un token de servidor (un token sin el ámbito widget)."}
+{"n": 50, "msgid": "This widget token belongs to a different Quote3D account than the server token.", "msgstr": "Este token de widget pertenece a una cuenta de Quote3D distinta de la del token de servidor."}
+{"n": 51, "msgid": "In cart", "msgstr": "En el carrito"}
+{"n": 52, "ctx": "status.filter.all", "msgid": "All", "msgstr": "Todos"}
+{"n": 53, "msgid": "Open (not paid)", "msgstr": "Abiertos (sin pagar)"}
+{"n": 54, "msgid": "Sold", "msgstr": "Vendidos"}
+{"n": 55, "ctx": "period.label", "msgid": "Period", "msgstr": "Periodo"}
+{"n": 56, "msgid": "Today", "msgstr": "Hoy"}
+{"n": 57, "msgid": "7 days", "msgstr": "7 días"}
+{"n": 58, "msgid": "30 days", "msgstr": "30 días"}
+{"n": 59, "msgid": "90 days", "msgstr": "90 días"}
+{"n": 60, "msgid": "This month", "msgstr": "Este mes"}
+{"n": 61, "msgid": "This year", "msgstr": "Este año"}
+{"n": 62, "msgid": "12 months", "msgstr": "12 meses"}
+{"n": 63, "msgid": "Custom", "msgstr": "Personalizado"}
+{"n": 64, "msgid": "From", "msgstr": "Desde"}
+{"n": 65, "msgid": "To", "msgstr": "Hasta"}
+{"n": 66, "msgid": "Apply", "msgstr": "Aplicar"}
+{"n": 67, "msgid": "New", "msgstr": "Nuevo"}
+{"n": 68, "msgid": "Compared with the previous period of the same length", "msgstr": "En comparación con el periodo anterior de la misma duración"}
+{"n": 69, "msgid": "Current plan", "msgstr": "Plan actual"}
+{"n": 70, "msgid": "Active", "msgstr": "Activo"}
+{"n": 71, "msgid": "Free", "msgstr": "Gratis"}
+{"n": 72, "msgid": "Payment due", "msgstr": "Pago pendiente"}
+{"n": 73, "msgid": "Cancelled", "msgstr": "Cancelado"}
+{"n": 74, "msgid": "Expired", "msgstr": "Caducado"}
+{"n": 75, "msgid": "Paused", "msgstr": "En pausa"}
+{"n": 76, "msgid": "Limits reset", "msgstr": "Restablecimiento de límites"}
+{"n": 77, "note": "translators: keep {days} as written; it is replaced with a value.", "msgid": "in {days} days", "msgstr": "en {days} días"}
+{"n": 78, "msgid": "today", "msgstr": "hoy"}
+{"n": 79, "msgid": "Billing", "msgstr": "Facturación"}
+{"n": 80, "note": "translators: keep {date} as written; it is replaced with a value.", "msgid": "Renews on {date}", "msgstr": "Se renueva el {date}"}
+{"n": 81, "note": "translators: keep {date} as written; it is replaced with a value.", "msgid": "Ends on {date}", "msgstr": "Finaliza el {date}"}
+{"n": 82, "msgid": "Upgrade plan", "msgstr": "Mejorar plan"}
+{"n": 83, "msgid": "Manage subscription", "msgstr": "Gestionar suscripción"}
+{"n": 84, "msgid": "Usage this period", "msgstr": "Uso en este periodo"}
+{"n": 85, "note": "translators: keep {date} as written; it is replaced with a value.", "msgid": "Resets on {date}", "msgstr": "Se restablece el {date}"}
+{"n": 86, "ctx": "usage.quotes", "msgid": "Quotes", "msgstr": "Presupuestos"}
+{"n": 87, "msgid": "API requests", "msgstr": "Solicitudes a la API"}
+{"n": 88, "msgid": "Storage (MB)", "msgstr": "Almacenamiento (MB)"}
+{"n": 89, "note": "translators: keep {used}, {limit} as written; they are replaced with a value.", "msgid": "{used} of {limit}", "msgstr": "{used} de {limit}"}
+{"n": 90, "note": "translators: keep {count} as written; it is replaced with a value.", "msgid": "{count} left", "msgstr": "Quedan {count}"}
+{"n": 91, "note": "translators: keep {value} as written; it is replaced with a value.", "msgid": "{value} MB free", "msgstr": "{value} MB libres"}
+{"n": 92, "msgid": "See plans", "msgstr": "Ver planes"}
+{"n": 93, "note": "translators: keep {used}, {limit}, {date} as written; they are replaced with a value.", "msgid": "{used} of {limit} quotes used. The count resets on {date}.", "msgstr": "{used} de {limit} presupuestos usados. El contador se restablece el {date}."}
+{"n": 94, "msgid": "Your file storage is filling up", "msgstr": "Tu almacenamiento de archivos se está llenando"}
+{"n": 95, "msgid": "Your file storage is full", "msgstr": "Tu almacenamiento de archivos está lleno"}
+{"n": 96, "note": "translators: keep {used}, {limit} as written; they are replaced with a value.", "msgid": "{used} of {limit} MB used. New uploads are refused, so shoppers cannot get quotes.", "msgstr": "{used} de {limit} MB usados. Se rechazan las nuevas subidas, así que los clientes no pueden obtener presupuestos."}
+{"n": 97, "msgid": "Automatic cleanup is on: the oldest files never added to a cart make room for new uploads.", "msgstr": "La limpieza automática está activada: los archivos más antiguos que nunca se añadieron a un carrito dejan sitio a las nuevas subidas."}
+{"n": 98, "msgid": "Manage files", "msgstr": "Gestionar archivos"}
+{"n": 99, "msgid": "Quote3D is ready", "msgstr": "Quote3D está listo"}
+{"n": 100, "msgid": "Finish setting up", "msgstr": "Terminar la configuración"}
+{"n": 101, "note": "translators: keep {done}, {total} as written; they are replaced with a value.", "msgid": "{done} of {total} done", "msgstr": "{done} de {total} completados"}
+{"n": 102, "msgid": "Choose the configurator language", "msgstr": "Elegir el idioma del configurador"}
+{"n": 103, "msgid": "Add the widget token", "msgstr": "Añadir el token de widget"}
+{"n": 104, "msgid": "Add the server token", "msgstr": "Añadir el token de servidor"}
+{"n": 105, "msgid": "Set up a cart product", "msgstr": "Configurar un producto de carrito"}
+{"n": 106, "msgid": "Show the configurator on a product or page", "msgstr": "Mostrar el configurador en un producto o una página"}
+{"n": 107, "msgid": "Set up", "msgstr": "Configurar"}
+{"n": 108, "ctx": "kpi.quotes", "msgid": "Quotes", "msgstr": "Presupuestos"}
+{"n": 109, "ctx": "kpi.in_cart", "msgid": "Added to cart", "msgstr": "Añadidos al carrito"}
+{"n": 110, "ctx": "kpi.ordered", "msgid": "Ordered", "msgstr": "Pedidos"}
+{"n": 111, "msgid": "Orders", "msgstr": "Pedidos"}
+{"n": 112, "msgid": "Conversion", "msgstr": "Conversión"}
+{"n": 113, "msgid": "Order revenue", "msgstr": "Ingresos por pedidos"}
+{"n": 114, "msgid": "Average order", "msgstr": "Pedido medio"}
+{"n": 115, "msgid": "Quotes in WooCommerce orders that are paid or on hold.", "msgstr": "Presupuestos incluidos en pedidos de WooCommerce pagados o en espera."}
+{"n": 116, "msgid": "Ordered quotes divided by all quotes in the period.", "msgstr": "Presupuestos pedidos divididos entre todos los presupuestos del periodo."}
+{"n": 117, "msgid": "The Quote3D lines of paid and on-hold orders, before tax.", "msgstr": "Las líneas de Quote3D de los pedidos pagados y en espera, antes de impuestos."}
+{"n": 118, "msgid": "Quotes and orders", "msgstr": "Presupuestos y pedidos"}
+{"n": 119, "msgid": "Quote funnel", "msgstr": "Embudo de presupuestos"}
+{"n": 120, "note": "translators: keep {rate} as written; it is replaced with a value.", "msgid": "{rate} of quotes", "msgstr": "{rate} de los presupuestos"}
+{"n": 121, "msgid": "The quote count comes from Quote3D; cart additions and orders are this shop's own data.", "msgstr": "El número de presupuestos viene de Quote3D; las adiciones al carrito y los pedidos son datos propios de esta tienda."}
+{"n": 122, "msgid": "Latest cart additions", "msgstr": "Últimas adiciones al carrito"}
+{"n": 123, "ctx": "recent.all", "msgid": "All", "msgstr": "Todos"}
+{"n": 124, "msgid": "What shoppers add to the cart", "msgstr": "Qué añaden los clientes al carrito"}
+{"n": 125, "ctx": "breakdown.technologies", "msgid": "Technologies", "msgstr": "Tecnologías"}
+{"n": 126, "msgid": "Materials", "msgstr": "Materiales"}
+{"n": 127, "msgid": "No quotes in the cart yet", "msgstr": "Aún no hay presupuestos en el carrito"}
+{"n": 128, "msgid": "As soon as a shopper adds a 3D print to the cart, it appears here.", "msgstr": "En cuanto un cliente añada una impresión 3D al carrito, aparecerá aquí."}
+{"n": 129, "msgid": "Add the configurator to a product", "msgstr": "Añadir el configurador a un producto"}
+{"n": 130, "msgid": "Nothing matches these filters", "msgstr": "Nada coincide con estos filtros"}
+{"n": 131, "ctx": "filter.status", "msgid": "Status", "msgstr": "Estado"}
+{"n": 132, "ctx": "filter.technology", "msgid": "Technology", "msgstr": "Tecnología"}
+{"n": 133, "msgid": "All technologies", "msgstr": "Todas las tecnologías"}
+{"n": 134, "msgid": "Search by file name or quote ID", "msgstr": "Buscar por nombre de archivo o ID de presupuesto"}
+{"n": 135, "msgid": "Clear filters", "msgstr": "Borrar filtros"}
+{"n": 136, "ctx": "col.model", "msgid": "Model", "msgstr": "Modelo"}
+{"n": 137, "msgid": "Technology · material", "msgstr": "Tecnología · material"}
+{"n": 138, "msgid": "Qty", "msgstr": "Cant."}
+{"n": 139, "ctx": "col.price", "msgid": "Price", "msgstr": "Precio"}
+{"n": 140, "ctx": "col.status", "msgid": "Status", "msgstr": "Estado"}
+{"n": 141, "msgid": "Date", "msgstr": "Fecha"}
+{"n": 142, "ctx": "col.actions", "msgid": "Actions", "msgstr": "Acciones"}
+{"n": 143, "ctx": "col.technology", "msgid": "Technology", "msgstr": "Tecnología"}
+{"n": 144, "ctx": "col.material", "msgid": "Material", "msgstr": "Material"}
+{"n": 145, "ctx": "col.color", "msgid": "Color", "msgstr": "Color"}
+{"n": 146, "ctx": "col.added_to_cart", "msgid": "Added to cart", "msgstr": "Añadido al carrito"}
+{"n": 147, "ctx": "col.ordered_at", "msgid": "Ordered", "msgstr": "Pedido"}
+{"n": 148, "ctx": "col.quote_id", "msgid": "Quote ID", "msgstr": "ID de presupuesto"}
+{"n": 149, "ctx": "col.order", "msgid": "Order", "msgstr": "Pedido"}
+{"n": 150, "msgid": "Customer", "msgstr": "Cliente"}
+{"n": 151, "ctx": "col.period", "msgid": "Period", "msgstr": "Periodo"}
+{"n": 152, "msgid": "Period start", "msgstr": "Inicio del periodo"}
+{"n": 153, "note": "translators: keep {from}, {to}, {total} as written; they are replaced with a value.", "msgid": "{from}–{to} of {total}", "msgstr": "{from}–{to} de {total}"}
+{"n": 154, "msgid": "Previous", "msgstr": "Anterior"}
+{"n": 155, "msgid": "Next", "msgstr": "Siguiente"}
+{"n": 156, "note": "translators: keep {page}, {pages} as written; they are replaced with a value.", "msgid": "Page {page} of {pages}", "msgstr": "Página {page} de {pages}"}
+{"n": 157, "note": "translators: keep {number} as written; it is replaced with a value.", "msgid": "Open order #{number}", "msgstr": "Abrir pedido #{number}"}
+{"n": 158, "ctx": "drawer.open_quote3d", "msgid": "Open in Quote3D", "msgstr": "Abrir en Quote3D"}
+{"n": 159, "msgid": "Group by", "msgstr": "Agrupar por"}
+{"n": 160, "msgid": "Day", "msgstr": "Día"}
+{"n": 161, "msgid": "Week", "msgstr": "Semana"}
+{"n": 162, "msgid": "Month", "msgstr": "Mes"}
+{"n": 163, "msgid": "Year", "msgstr": "Año"}
+{"n": 164, "msgid": "Daily activity", "msgstr": "Actividad diaria"}
+{"n": 165, "msgid": "Weekly activity", "msgstr": "Actividad semanal"}
+{"n": 166, "msgid": "Monthly activity", "msgstr": "Actividad mensual"}
+{"n": 167, "msgid": "Yearly activity", "msgstr": "Actividad anual"}
+{"n": 168, "msgid": "Breakdown", "msgstr": "Desglose"}
+{"n": 169, "msgid": "Download CSV", "msgstr": "Descargar CSV"}
+{"n": 170, "msgid": "Print", "msgstr": "Imprimir"}
+{"n": 171, "msgid": "Total", "msgstr": "Total"}
+{"n": 172, "note": "translators: keep {date} as written; it is replaced with a value.", "msgid": "Week of {date}", "msgstr": "Semana del {date}"}
+{"n": 173, "msgid": "Settings sections", "msgstr": "Secciones de ajustes"}
+{"n": 174, "msgid": "Connected", "msgstr": "Conectado"}
+{"n": 175, "msgid": "No server token", "msgstr": "Sin token de servidor"}
+{"n": 176, "msgid": "Not set up", "msgstr": "Sin configurar"}
+{"n": 177, "msgid": "Ready", "msgstr": "Listo"}
+{"n": 178, "msgid": "Needs attention", "msgstr": "Revisar"}
+{"n": 179, "msgid": "Changes apply as soon as you save.", "msgstr": "Los cambios se aplican en cuanto guardas."}
+{"n": 180, "msgid": "You have unsaved changes", "msgstr": "Hay cambios sin guardar"}
+{"n": 181, "msgid": "Save settings", "msgstr": "Guardar ajustes"}
+{"n": 182, "msgid": "Run the setup wizard again", "msgstr": "Volver a ejecutar el asistente de configuración"}
+{"n": 183, "msgid": "Advanced", "msgstr": "Avanzado"}
+{"n": 184, "ctx": "settings.language.title", "msgid": "Configurator language", "msgstr": "Idioma del configurador"}
+{"n": 185, "ctx": "settings.language.label", "msgid": "Configurator language", "msgstr": "Idioma del configurador"}
+{"n": 186, "ctx": "settings.connection.title", "msgid": "Quote3D connection", "msgstr": "Conexión con Quote3D"}
+{"n": 187, "msgid": "Quote3D address", "msgstr": "Dirección de Quote3D"}
+{"n": 188, "msgid": "The Quote3D address must start with https://. The server token is sent to it, so plain http is only accepted for a local development address. The previous address was kept.", "msgstr": "La dirección de Quote3D debe empezar por https://. El token de servidor se envía a ella, así que http sin cifrar solo se acepta para una dirección de desarrollo local. Se ha mantenido la dirección anterior."}
+{"n": 189, "ctx": "settings.cart.title", "msgid": "Cart", "msgstr": "Carrito"}
+{"n": 190, "msgid": "Quotes are added to the WooCommerce cart as a product whose price the plugin replaces with the quoted price.", "msgstr": "Los presupuestos se añaden al carrito de WooCommerce como un producto cuyo precio el plugin sustituye por el precio presupuestado."}
+{"n": 191, "msgid": "Cart product", "msgstr": "Producto del carrito"}
+{"n": 192, "msgid": "— Choose a product —", "msgstr": "— Elige un producto —"}
+{"n": 193, "msgid": "no regular price", "msgstr": "sin precio normal"}
+{"n": 194, "msgid": "hidden in catalog", "msgstr": "oculto en el catálogo"}
+{"n": 195, "msgid": "not published", "msgstr": "no publicado"}
+{"n": 196, "msgid": "not a simple product", "msgstr": "no es un producto simple"}
+{"n": 197, "msgid": "Edit product", "msgstr": "Editar producto"}
+{"n": 198, "note": "translators: keep {name} as written; it is replaced with a value.", "msgid": "{name} created and selected", "msgstr": "{name} creado y seleccionado"}
+{"n": 199, "msgid": "The saved product no longer exists. Choose another one or let the plugin create it.", "msgstr": "El producto guardado ya no existe. Elige otro o deja que el plugin lo cree."}
+{"n": 200, "msgid": "This is not a simple product. Choose a simple product, otherwise quotes cannot be added to the cart.", "msgstr": "No es un producto simple. Elige un producto simple; si no, los presupuestos no se pueden añadir al carrito."}
+{"n": 201, "msgid": "No product with this ID", "msgstr": "No hay ningún producto con este ID"}
+{"n": 202, "msgid": "Create one for me", "msgstr": "Crearlo por mí"}
+{"n": 203, "msgid": "Quotes are added to the cart as this product and its price is replaced by the quote price. Shoppers see this product’s name in the cart and the order, with the file, material and preview under it. Choose a simple product with regular price 0 that is hidden in the catalog, or let \"Create one for me\" set one up.", "msgstr": "Los presupuestos se añaden al carrito como este producto y su precio se sustituye por el del presupuesto. Los clientes ven el nombre de este producto en el carrito y en el pedido, con el archivo, el material y la vista previa debajo. Elige un producto simple con precio normal 0 y oculto en el catálogo, o deja que «Crearlo por mí» lo configure."}
+{"n": 204, "msgid": "Appearance", "msgstr": "Apariencia"}
+{"n": 205, "msgid": "How the configurator looks in your shop.", "msgstr": "Cómo se ve el configurador en tu tienda."}
+{"n": 206, "msgid": "Theme, colours, font, corners, form fields and texts are set on the Widget page of your Quote3D dashboard. Changes show in your shop at once, without touching the plugin.", "msgstr": "El tema, los colores, la fuente, las esquinas, los campos del formulario y los textos se configuran en la página Widget de tu panel de Quote3D. Los cambios se ven al instante en la tienda, sin tocar el plugin."}
+{"n": 207, "msgid": "Edit the look in Quote3D", "msgstr": "Editar el aspecto en Quote3D"}
+{"n": 208, "msgid": "Go to the cart after adding", "msgstr": "Ir al carrito después de añadir"}
+{"n": 209, "msgid": "Storage", "msgstr": "Almacenamiento"}
+{"n": 210, "note": "translators: keep {used}, {limit} as written; they are replaced with a value.", "msgid": "{used} of {limit} MB used", "msgstr": "{used} de {limit} MB usados"}
+{"n": 211, "note": "translators: keep {used} as written; it is replaced with a value.", "msgid": "{used} MB used · unlimited", "msgstr": "{used} MB usados · ilimitado"}
+{"n": 212, "msgid": "Add a server token above to see storage and use these settings.", "msgstr": "Añade un token de servidor arriba para ver el almacenamiento y usar estos ajustes."}
+{"n": 213, "msgid": "Storage could not be read from Quote3D right now. The automatic cleanup setting is kept as it is.", "msgstr": "No se pudo leer el almacenamiento de Quote3D en este momento. El ajuste de limpieza automática se mantiene como está."}
+{"n": 214, "msgid": "Automatic cleanup when storage is full", "msgstr": "Limpieza automática cuando el almacenamiento está lleno"}
+{"n": 215, "note": "translators: keep {error} as written; it is replaced with a value.", "msgid": "The automatic cleanup setting could not be saved on Quote3D: {error}", "msgstr": "No se pudo guardar el ajuste de limpieza automática en Quote3D: {error}"}
+{"n": 216, "msgid": "Public", "msgstr": "Público"}
+{"n": 217, "msgid": "Widget token", "msgstr": "Token de widget"}
+{"n": 218, "note": "translators: keep {origin} as written; it is replaced with a value.", "msgid": "Widget token is valid and allows {origin}.", "msgstr": "El token de widget es válido y permite {origin}."}
+{"n": 219, "msgid": "Secret", "msgstr": "Secreto"}
+{"n": 220, "msgid": "Server token", "msgstr": "Token de servidor"}
+{"n": 221, "msgid": "Stays on this WordPress server. It is never printed into a page or sent to a browser.", "msgstr": "Permanece en este servidor de WordPress. Nunca se inserta en una página ni se envía a un navegador."}
+{"n": 222, "msgid": "Reads only your plan, remaining limits and how many quotes were calculated. Carts and orders stay in this shop's database.", "msgstr": "Solo lee tu plan, los límites restantes y cuántos presupuestos se calcularon. El carrito y los pedidos se quedan en la base de datos de esta tienda."}
+{"n": 223, "note": "translators: keep {name}, {plan} as written; they are replaced with a value.", "msgid": "Connected as {name} · {plan} plan", "msgstr": "Conectado como {name} · plan {plan}"}
+{"n": 224, "msgid": "Show", "msgstr": "Mostrar"}
+{"n": 225, "msgid": "Hide", "msgstr": "Ocultar"}
+{"n": 226, "msgid": "Test connection", "msgstr": "Probar conexión"}
+{"n": 227, "msgid": "Testing…", "msgstr": "Probando…"}
+{"n": 228, "msgid": "Open API tokens in Quote3D", "msgstr": "Abrir los tokens de API en Quote3D"}
+{"n": 229, "msgid": "Setup progress", "msgstr": "Progreso de la configuración"}
+{"n": 230, "msgid": "Connect", "msgstr": "Conectar"}
+{"n": 231, "msgid": "Plan", "msgstr": "Plan"}
+{"n": 232, "ctx": "setup.step.cart", "msgid": "Cart", "msgstr": "Carrito"}
+{"n": 233, "msgid": "Done", "msgstr": "Listo"}
+{"n": 234, "msgid": "Back", "msgstr": "Atrás"}
+{"n": 235, "msgid": "Skip for now", "msgstr": "Omitir por ahora"}
+{"n": 236, "msgid": "Continue", "msgstr": "Continuar"}
+{"n": 237, "msgid": "Back to Connect", "msgstr": "Volver a Conectar"}
+{"n": 238, "msgid": "Recommended", "msgstr": "Recomendado"}
+{"n": 239, "msgid": "/ month", "msgstr": "/ mes"}
+{"n": 240, "note": "translators: keep {count} as written; it is replaced with a value.", "msgid": "{count} quotes per month", "msgstr": "{count} presupuestos al mes"}
+{"n": 241, "note": "translators: keep {count} as written; it is replaced with a value.", "msgid": "{count} API requests per month", "msgstr": "{count} solicitudes a la API al mes"}
+{"n": 242, "note": "translators: keep {mb} as written; it is replaced with a value.", "msgid": "{mb} MB storage", "msgstr": "{mb} MB de almacenamiento"}
+{"n": 243, "note": "translators: keep {count} as written; it is replaced with a value.", "msgid": "Up to {count} technologies", "msgstr": "Hasta {count} tecnologías"}
+{"n": 244, "note": "translators: keep {plan} as written; it is replaced with a value.", "msgid": "Choose {plan}", "msgstr": "Elegir {plan}"}
+{"n": 245, "msgid": "Cart and placement", "msgstr": "Carrito y ubicación"}
+{"n": 246, "msgid": "Where shoppers find the configurator", "msgstr": "Dónde encuentran los clientes el configurador"}
+{"n": 247, "msgid": "On a product page", "msgstr": "En una página de producto"}
+{"n": 248, "msgid": "On any page", "msgstr": "En cualquier página"}
+{"n": 249, "msgid": "All set", "msgstr": "Todo listo"}
+{"n": 250, "msgid": "Open the dashboard", "msgstr": "Abrir el panel"}
+{"n": 251, "note": "translators: keep {number}, {status} as written; they are replaced with a value.", "msgid": "Order #{number} · {status}", "msgstr": "Pedido n.º {number} · {status}"}
+{"n": 252, "msgid": "Order status", "msgstr": "Estado del pedido"}
+{"n": 253, "msgid": "Connect your Quote3D account to see how many quotes shoppers calculated; cart additions and orders come from this shop.", "msgstr": "Conecta tu cuenta de Quote3D para ver cuántos presupuestos calcularon los clientes; el carrito y los pedidos vienen de esta tienda."}
+{"n": 254, "msgid": "This list shows quotes shoppers added to the cart. Quotes they only calculated are counted on the Overview.", "msgstr": "Esta lista muestra los presupuestos que los clientes añadieron al carrito. Los que solo se calcularon se cuentan en el Resumen."}
+{"n": 255, "msgid": "See every quote in Quote3D", "msgstr": "Ver todos los presupuestos en Quote3D"}
+{"n": 256, "msgid": "Cancel", "msgstr": "Cancelar"}
+{"n": 257, "msgid": "Download", "msgstr": "Descargar"}
+{"n": 258, "msgid": "Download model", "msgstr": "Descargar modelo"}
+{"n": 259, "msgid": "You are not allowed to download models.", "msgstr": "No tienes permiso para descargar modelos."}
+{"n": 260, "note": "translators: keep {error} as written; it is replaced with a value.", "msgid": "The model could not be downloaded from Quote3D: {error}", "msgstr": "No se pudo descargar el modelo de Quote3D: {error}"}
+{"n": 261, "note": "translators: keep {count} as written; it is replaced with a value.", "msgid": "{count} selected", "msgstr": "{count} seleccionado(s)"}
+{"n": 262, "msgid": "Clear selection", "msgstr": "Borrar selección"}
+{"n": 263, "ctx": "bulk.select_all", "msgid": "Select all", "msgstr": "Seleccionar todo"}
+{"n": 264, "note": "translators: keep {name} as written; it is replaced with a value.", "msgid": "Select {name}", "msgstr": "Seleccionar {name}"}
+{"n": 265, "msgid": "Quotes that belong to an order are kept; they are removed with their order.", "msgstr": "Los presupuestos que pertenecen a un pedido se conservan; se eliminan junto con su pedido."}
+{"n": 266, "msgid": "The model file stays on Quote3D and can still be downloaded there.", "msgstr": "El archivo de modelo sigue en Quote3D y se puede descargar allí."}
+{"n": 267, "note": "translators: keep {count} as written; it is replaced with a value.", "msgid": "{count} quote(s) in an order were kept.", "msgstr": "Se conservaron {count} presupuesto(s) de un pedido."}
+{"n": 268, "msgid": "In an order: removed together with the order", "msgstr": "En un pedido: se elimina con el pedido"}
+{"n": 269, "ctx": "trash.button", "msgid": "Move to trash", "msgstr": "Mover a la papelera"}
+{"n": 270, "note": "translators: keep {count} as written; it is replaced with a value.", "msgid": "Move {count} order(s) to the trash?", "msgstr": "¿Mover {count} pedido(s) a la papelera?"}
+{"n": 271, "ctx": "trash.confirm", "msgid": "Move to trash", "msgstr": "Mover a la papelera"}
+{"n": 272, "note": "translators: keep {count} as written; it is replaced with a value.", "msgid": "{count} order(s) moved to the trash.", "msgstr": "{count} pedido(s) movido(s) a la papelera."}
+{"n": 273, "note": "translators: keep {count} as written; it is replaced with a value.", "msgid": "{count} order(s) were skipped.", "msgstr": "Se omitieron {count} pedido(s)."}
+{"n": 274, "msgid": "Quote3D model files", "msgstr": "Archivos de modelo de Quote3D"}
+{"n": 275, "msgid": "Quote3D privacy policy", "msgstr": "Política de privacidad de Quote3D"}
+{"n": 276, "ctx": "privacy.export.quote_id", "msgid": "Quote ID", "msgstr": "ID del presupuesto"}
+{"n": 277, "ctx": "privacy.export.order", "msgid": "Order", "msgstr": "Pedido"}
+{"n": 278, "msgid": "Model file", "msgstr": "Archivo del modelo"}
+{"n": 279, "msgid": "Technology, material and colour", "msgstr": "Tecnología, material y color"}
+{"n": 280, "msgid": "Quantity", "msgstr": "Cantidad"}
+{"n": 281, "msgid": "Added to cart (UTC)", "msgstr": "Añadido al carrito (UTC)"}
+{"n": 282, "msgid": "Preview image", "msgstr": "Imagen de vista previa"}
+{"n": 283, "ctx": "specs.printer", "msgid": "Printer", "msgstr": "Impresora"}
+{"n": 284, "msgid": "Layer height", "msgstr": "Altura de capa"}
+{"n": 285, "msgid": "Infill", "msgstr": "Relleno"}
+{"n": 286, "msgid": "Infill pattern", "msgstr": "Patrón de relleno"}
+{"n": 287, "msgid": "Rectilinear", "msgstr": "Rectilíneo"}
+{"n": 288, "msgid": "Zig Zag", "msgstr": "Zig Zag"}
+{"n": 289, "msgid": "Line", "msgstr": "Línea"}
+{"n": 290, "msgid": "Grid", "msgstr": "Cuadrícula"}
+{"n": 291, "ctx": "specs.pattern.triangles", "msgid": "Triangles", "msgstr": "Triángulos"}
+{"n": 292, "msgid": "Cubic", "msgstr": "Cúbico"}
+{"n": 293, "msgid": "Honeycomb", "msgstr": "Panal de abeja"}
+{"n": 294, "msgid": "Gyroid", "msgstr": "Giroide"}
+{"n": 295, "msgid": "Monotonic", "msgstr": "Monotónico"}
+{"n": 296, "msgid": "Walls", "msgstr": "Paredes"}
+{"n": 297, "msgid": "Supports", "msgstr": "Soportes"}
+{"n": 298, "note": "translators: keep {weight} as written; it is replaced with a value.", "msgid": "Yes ({weight} g)", "msgstr": "Sí ({weight} g)"}
+{"n": 299, "msgid": "No", "msgstr": "No"}
+{"n": 300, "msgid": "Hollowing", "msgstr": "Vaciado"}
+{"n": 301, "msgid": "Solid", "msgstr": "Macizo"}
+{"n": 302, "note": "translators: keep {wall} as written; it is replaced with a value.", "msgid": "Hollow, {wall} wall", "msgstr": "Hueco, pared de {wall}"}
+{"n": 303, "msgid": "Post-processing", "msgstr": "Posprocesado"}
+{"n": 304, "msgid": "Standard", "msgstr": "Estándar"}
+{"n": 305, "msgid": "Sanding", "msgstr": "Lijado"}
+{"n": 306, "msgid": "Painting", "msgstr": "Pintura"}
+{"n": 307, "msgid": "Painted", "msgstr": "Pintado"}
+{"n": 308, "msgid": "Dimensions (X × Y × Z)", "msgstr": "Dimensiones (X × Y × Z)"}
+{"n": 309, "msgid": "Volume", "msgstr": "Volumen"}
+{"n": 310, "msgid": "Weight", "msgstr": "Peso"}
+{"n": 311, "ctx": "specs.print_time", "msgid": "Print time", "msgstr": "Tiempo de impresión"}
+{"n": 312, "note": "translators: keep {h}, {m} as written; they are replaced with a value.", "msgid": "{h} h {m} min", "msgstr": "{h} h {m} min"}
+{"n": 313, "msgid": "Layers", "msgstr": "Capas"}
+{"n": 314, "msgid": "Complexity", "msgstr": "Complejidad"}
+{"n": 315, "msgid": "Simple", "msgstr": "Simple"}
+{"n": 316, "msgid": "Moderate", "msgstr": "Media"}
+{"n": 317, "msgid": "Complex", "msgstr": "Compleja"}
+{"n": 318, "msgid": "Very complex", "msgstr": "Muy compleja"}
+{"n": 319, "ctx": "specs.triangles", "msgid": "Triangles", "msgstr": "Triángulos"}
+{"n": 320, "msgid": "Unit price", "msgstr": "Precio unitario"}
+{"n": 321, "msgid": "Quote", "msgstr": "Presupuesto"}
+{"n": 322, "ctx": "drawer.section_print", "msgid": "Print settings", "msgstr": "Ajustes de impresión"}
+{"n": 323, "ctx": "drawer.section_model", "msgid": "Model", "msgstr": "Modelo"}
+{"n": 324, "msgid": "Loading print settings…", "msgstr": "Cargando ajustes de impresión…"}
+{"n": 325, "note": "translators: keep {error} as written; it is replaced with a value.", "msgid": "Print settings could not be loaded: {error}", "msgstr": "No se pudieron cargar los ajustes de impresión: {error}"}
+{"n": 326, "msgid": "Quote3D has no print settings for this quote.", "msgstr": "Quote3D no tiene ajustes de impresión para este presupuesto."}
+{"n": 327, "msgid": "Quote not found.", "msgstr": "Presupuesto no encontrado."}
+{"n": 328, "msgid": "Carts that did not sell", "msgstr": "Carritos sin venta"}
+{"n": 329, "msgid": "Quotes added to a cart in this period that are not in a paid order: still in the cart, left there, or in an order that was never paid. Customers who were signed in, or who started checkout, are shown by name. Cancelled and refunded orders are counted separately.", "msgstr": "Presupuestos añadidos a un carrito en este periodo que no están en ningún pedido pagado: siguen en el carrito, se abandonaron o están en un pedido que nunca se pagó. Los clientes con sesión iniciada o que empezaron el pago aparecen con su nombre. Los pedidos cancelados y reembolsados se cuentan aparte."}
+{"n": 330, "msgid": "See all", "msgstr": "Ver todos"}
+{"n": 331, "note": "translators: keep {count}, {share} as written; they are replaced with a value.", "msgid": "{count} quotes · {share} of cart additions", "msgstr": "{count} presupuestos · {share} de los añadidos al carrito"}
+{"n": 332, "msgid": "Every quote added to a cart in this period ended up in a paid order.", "msgstr": "Todos los presupuestos añadidos a un carrito en este periodo acabaron en un pedido pagado."}
+{"n": 333, "msgid": "Guest", "msgstr": "Invitado"}
+{"n": 334, "msgid": "System status", "msgstr": "Estado del sistema"}
+{"n": 335, "ctx": "health.connection", "msgid": "Quote3D connection", "msgstr": "Conexión con Quote3D"}
+{"n": 336, "note": "translators: keep {time} as written; it is replaced with a value.", "msgid": "Working · last successful request {time}", "msgstr": "Funciona · última solicitud correcta {time}"}
+{"n": 337, "msgid": "No request made yet", "msgstr": "Aún no se ha hecho ninguna solicitud"}
+{"n": 338, "note": "translators: keep {time}, {message} as written; they are replaced with a value.", "msgid": "Failing since {time}: {message}", "msgstr": "Fallando desde {time}: {message}"}
+{"n": 339, "msgid": "Not connected", "msgstr": "No conectado"}
+{"n": 340, "msgid": "Webhook", "msgstr": "Webhook"}
+{"n": 341, "note": "translators: keep {time} as written; it is replaced with a value.", "msgid": "Registered · last event {time}", "msgstr": "Registrado · último evento {time}"}
+{"n": 342, "msgid": "Registered · no event received yet", "msgstr": "Registrado · aún no se ha recibido ningún evento"}
+{"n": 343, "note": "translators: keep {error} as written; it is replaced with a value.", "msgid": "Registration failed: {error}", "msgstr": "Error en el registro: {error}"}
+{"n": 344, "msgid": "Not registered yet", "msgstr": "Aún no registrado"}
+{"n": 345, "msgid": "Needs the server token", "msgstr": "Necesita el token de servidor"}
+{"n": 346, "msgid": "Adding to cart (last 24 hours)", "msgstr": "Añadir al carrito (últimas 24 horas)"}
+{"n": 347, "note": "translators: keep {time} as written; it is replaced with a value.", "msgid": "No failures · last addition {time}", "msgstr": "Sin errores · último añadido {time}"}
+{"n": 348, "msgid": "No failures · nothing added yet", "msgstr": "Sin errores · aún no se ha añadido nada"}
+{"n": 349, "note": "translators: keep {count} as written; it is replaced with a value.", "msgid": "{count} failed attempts", "msgstr": "{count} intentos fallidos"}
+{"n": 350, "msgid": "The cart product cannot be bought (no price, or not published)", "msgstr": "El producto del carrito no se puede comprar (sin precio o sin publicar)"}
+{"n": 351, "msgid": "The cart product is set to “Sold individually”", "msgstr": "El producto del carrito está marcado como «Vendido individualmente»"}
+{"n": 352, "msgid": "No token is saved", "msgstr": "No hay ningún token guardado"}
+{"n": 353, "msgid": "Quote3D rejected the token", "msgstr": "Quote3D rechazó el token"}
+{"n": 354, "ctx": "health.reason.unreachable", "msgid": "Quote3D could not be reached", "msgstr": "No se pudo contactar con Quote3D"}
+{"n": 355, "msgid": "The quote could not be read from Quote3D", "msgstr": "No se pudo leer el presupuesto en Quote3D"}
+{"n": 356, "msgid": "The quote has no price", "msgstr": "El presupuesto no tiene precio"}
+{"n": 357, "msgid": "The quote currency differs from the shop currency", "msgstr": "La moneda del presupuesto no coincide con la de la tienda"}
+{"n": 358, "msgid": "Quote3D refused to read the quote (the token may not read quotes, or the plan limit is reached)", "msgstr": "Quote3D rechazó leer el presupuesto (el token no puede leer presupuestos o se alcanzó el límite del plan)"}
+{"n": 359, "msgid": "Quote3D received too many requests at once", "msgstr": "Quote3D recibió demasiadas solicitudes a la vez"}
+{"n": 360, "msgid": "WooCommerce refused to add it", "msgstr": "WooCommerce rechazó añadirlo"}
+{"n": 361, "msgid": "The cart changed the quoted quantity", "msgstr": "El carrito cambió la cantidad presupuestada"}
+{"n": 362, "msgid": "Unknown reason", "msgstr": "Motivo desconocido"}
+{"n": 363, "note": "translators: keep {count} as written; it is replaced with a value.", "msgid": "×{count}", "msgstr": "×{count}"}
+{"n": 364, "msgid": "Fix", "msgstr": "Corregir"}
+{"n": 365, "msgid": "WooCommerce status report", "msgstr": "Informe de estado de WooCommerce"}
+{"n": 366, "note": "translators: keep {count} as written; it is replaced with a value.", "msgid": "{count} quotes could not be added to the cart in the last 24 hours", "msgstr": "{count} presupuestos no se pudieron añadir al carrito en las últimas 24 horas"}
+{"n": 367, "msgid": "These shoppers saw an error instead of their cart. The System status card below says why.", "msgstr": "Estos clientes vieron un error en lugar de su carrito. La tarjeta Estado del sistema de abajo explica el motivo."}
+{"n": 368, "msgid": "See why", "msgstr": "Ver el motivo"}
+{"n": 369, "msgid": "Print load of sold parts", "msgstr": "Carga de impresión de las piezas vendidas"}
+{"n": 370, "msgid": "Machine time and material for the parts in paid orders placed in this period, taken from each quote's print settings. The material total includes support material.", "msgstr": "Tiempo de máquina y material de las piezas de los pedidos pagados de este periodo, según los ajustes de impresión de cada presupuesto. El total de material incluye el soporte."}
+{"n": 371, "msgid": "Parts sold", "msgstr": "Piezas vendidas"}
+{"n": 372, "ctx": "production.print_time", "msgid": "Print time", "msgstr": "Tiempo de impresión"}
+{"n": 373, "ctx": "production.material", "msgid": "Material", "msgstr": "Material"}
+{"n": 374, "msgid": "Of which support", "msgstr": "De ello, soporte"}
+{"n": 375, "ctx": "production.col.material", "msgid": "Material", "msgstr": "Material"}
+{"n": 376, "msgid": "Share of time", "msgstr": "Parte del tiempo"}
+{"n": 377, "note": "translators: keep {count}, {total} as written; they are replaced with a value.", "msgid": "{count} of {total} order lines have no print settings yet: they were ordered before the plugin kept them.", "msgstr": "{count} de {total} líneas de pedido aún no tienen ajustes de impresión: se pidieron antes de que el plugin los guardara."}
+{"n": 378, "msgid": "Fetch from Quote3D", "msgstr": "Obtener de Quote3D"}
+{"n": 379, "note": "translators: keep {done} as written; it is replaced with a value.", "msgid": "Fetching… {done} done", "msgstr": "Obteniendo… {done} listas"}
+{"n": 380, "note": "translators: keep {count} as written; it is replaced with a value.", "msgid": "Print settings fetched for {count} order lines.", "msgstr": "Ajustes de impresión obtenidos para {count} líneas de pedido."}
+{"n": 381, "note": "translators: keep {error} as written; it is replaced with a value.", "msgid": "Stopped: {error}", "msgstr": "Detenido: {error}"}
+{"n": 382, "note": "translators: keep {count} as written; it is replaced with a value.", "msgid": "Quote3D returned no print settings for {count} order lines.", "msgstr": "Quote3D no devolvió ajustes de impresión para {count} líneas de pedido."}
+{"n": 383, "msgid": "No parts were sold in this period.", "msgstr": "No se vendieron piezas en este periodo."}
+{"n": 384, "msgid": "SLS, MJF and SLM times are full build times per quote, so parts printed in the same build are counted more than once.", "msgstr": "Los tiempos de SLS, MJF y SLM son tiempos de fabricación completos por presupuesto, así que las piezas impresas en la misma fabricación se cuentan más de una vez."}
+{"n": 385, "msgid": "Print time (h)", "msgstr": "Tiempo de impresión (h)"}
+{"n": 386, "msgid": "Material (g)", "msgstr": "Material (g)"}
+{"n": 387, "note": "translators: keep {value}, {count} as written; they are replaced with a value.", "msgid": "{value} (all {count} parts)", "msgstr": "{value} (total de {count} piezas)"}
+{"n": 388, "msgid": "Production", "msgstr": "Producción"}
+{"n": 389, "ctx": "status.printed", "msgid": "Printed", "msgstr": "Impreso"}
+{"n": 390, "msgid": "In production", "msgstr": "En producción"}
+{"n": 391, "msgid": "This server cannot create zip files (the PHP zip extension is missing). Download the models one by one.", "msgstr": "Este servidor no puede crear archivos zip (falta la extensión zip de PHP). Descarga los modelos uno a uno."}
+{"n": 392, "msgid": "Production stages", "msgstr": "Etapas de producción"}
+{"n": 393, "msgid": "Queue", "msgstr": "Cola"}
+{"n": 394, "ctx": "production.view.printed", "msgid": "Printed", "msgstr": "Impresos"}
+{"n": 395, "msgid": "Awaiting payment", "msgstr": "Pago pendiente"}
+{"n": 396, "msgid": "Completed", "msgstr": "Completados"}
+{"n": 397, "msgid": "View", "msgstr": "Vista"}
+{"n": 398, "msgid": "By part", "msgstr": "Por pieza"}
+{"n": 399, "msgid": "By order", "msgstr": "Por pedido"}
+{"n": 400, "msgid": "Group", "msgstr": "Agrupar"}
+{"n": 401, "msgid": "No grouping", "msgstr": "Sin agrupar"}
+{"n": 402, "msgid": "By material", "msgstr": "Por material"}
+{"n": 403, "msgid": "By printer", "msgstr": "Por impresora"}
+{"n": 404, "msgid": "By technology", "msgstr": "Por tecnología"}
+{"n": 405, "msgid": "Search file, quote or #order", "msgstr": "Buscar archivo, presupuesto o #pedido"}
+{"n": 406, "msgid": "Paid parts that are not printed yet. The oldest order is at the top.", "msgstr": "Piezas pagadas que aún no se han impreso. El pedido más antiguo está arriba."}
+{"n": 407, "msgid": "Printed parts whose order is not completed yet. When every part of an order is printed, complete the order here.", "msgstr": "Piezas impresas cuyo pedido aún no está completado. Cuando todas las piezas de un pedido estén impresas, complétalo aquí."}
+{"n": 408, "msgid": "Orders on hold until their payment is confirmed (for example a bank transfer). Print them once the order moves to Processing.", "msgstr": "Pedidos en espera hasta que se confirme el pago (por ejemplo, una transferencia). Imprímelos cuando el pedido pase a Procesando."}
+{"n": 409, "msgid": "Orders that are completed, shipped or delivered. When an order changes to one of these statuses in WooCommerce, its parts move here on their own.", "msgstr": "Pedidos completados, enviados o entregados. Cuando un pedido cambia a uno de estos estados en WooCommerce, sus piezas pasan aquí automáticamente."}
+{"n": 410, "note": "translators: keep {count} as written; it is replaced with a value.", "msgid": "{count} parts here have no print settings yet: they were ordered before the plugin kept them.", "msgstr": "{count} piezas de aquí aún no tienen ajustes de impresión: se pidieron antes de que el plugin los guardara."}
+{"n": 411, "note": "translators: keep {shown}, {total} as written; they are replaced with a value.", "msgid": "Showing the first {shown} of {total} parts.", "msgstr": "Se muestran las primeras {shown} de {total} piezas."}
+{"n": 412, "msgid": "Mark as printed", "msgstr": "Marcar como impreso"}
+{"n": 413, "ctx": "production.mark_printed_short", "msgid": "Printed", "msgstr": "Impreso"}
+{"n": 414, "msgid": "Back to the queue", "msgstr": "Volver a la cola"}
+{"n": 415, "msgid": "Complete order", "msgstr": "Completar pedido"}
+{"n": 416, "note": "translators: keep {number} as written; it is replaced with a value.", "msgid": "Complete order #{number}?", "msgstr": "¿Completar el pedido n.º {number}?"}
+{"n": 417, "msgid": "All Quote3D parts of this order are printed. WooCommerce marks the order Completed and emails the customer.", "msgstr": "Todas las piezas de Quote3D de este pedido están impresas. WooCommerce marca el pedido como Completado y envía un correo al cliente."}
+{"n": 418, "note": "translators: keep {number} as written; it is replaced with a value.", "msgid": "Order #{number} is completed.", "msgstr": "El pedido n.º {number} está completado."}
+{"n": 419, "note": "translators: keep {count} as written; it is replaced with a value.", "msgid": "{count} parts marked as printed.", "msgstr": "{count} piezas marcadas como impresas."}
+{"n": 420, "note": "translators: keep {count} as written; it is replaced with a value.", "msgid": "{count} parts are back in the queue.", "msgstr": "{count} piezas han vuelto a la cola."}
+{"n": 421, "note": "translators: keep {orders} as written; it is replaced with a value.", "msgid": "Every part of {orders} is printed: complete the order in the Printed tab.", "msgstr": "Todas las piezas de {orders} están impresas: completa el pedido en la pestaña Impresos."}
+{"n": 422, "msgid": "Download models (zip)", "msgstr": "Descargar modelos (zip)"}
+{"n": 423, "msgid": "None of the selected parts has a model file to download.", "msgstr": "Ninguna de las piezas seleccionadas tiene un archivo de modelo para descargar."}
+{"n": 424, "note": "translators: keep {count} as written; it is replaced with a value.", "msgid": "Select at most {count} models for one zip.", "msgstr": "Selecciona como máximo {count} modelos por zip."}
+{"n": 425, "ctx": "production.col.print", "msgid": "Print settings", "msgstr": "Ajustes de impresión"}
+{"n": 426, "msgid": "Time · weight", "msgstr": "Tiempo · peso"}
+{"n": 427, "note": "translators: keep {value} as written; it is replaced with a value.", "msgid": "{value}% infill", "msgstr": "{value} % de relleno"}
+{"n": 428, "note": "translators: keep {count} as written; it is replaced with a value.", "msgid": "{count} walls", "msgstr": "{count} paredes"}
+{"n": 429, "ctx": "production.group_totals", "note": "translators: keep {parts}, {time}, {weight} as written; they are replaced with a value.", "msgid": "{parts} parts · {time} · {weight}", "msgstr": "{parts} piezas · {time} · {weight}"}
+{"n": 430, "msgid": "No printer", "msgstr": "Sin impresora"}
+{"n": 431, "msgid": "The queue is empty", "msgstr": "La cola está vacía"}
+{"n": 432, "msgid": "Paid orders with Quote3D parts appear here until they are printed.", "msgstr": "Los pedidos pagados con piezas de Quote3D aparecen aquí hasta que se imprimen."}
+{"n": 433, "msgid": "Nothing printed and waiting", "msgstr": "No hay piezas impresas en espera"}
+{"n": 434, "msgid": "Parts you mark as printed wait here until their order is completed.", "msgstr": "Las piezas que marques como impresas esperan aquí hasta que se complete su pedido."}
+{"n": 435, "msgid": "No orders awaiting payment", "msgstr": "No hay pedidos con pago pendiente"}
+{"n": 436, "msgid": "Orders on hold (for example bank transfers) appear here until the payment is confirmed.", "msgstr": "Los pedidos en espera (por ejemplo, transferencias) aparecen aquí hasta que se confirma el pago."}
+{"n": 437, "msgid": "No completed orders yet", "msgstr": "Aún no hay pedidos completados"}
+{"n": 438, "msgid": "Completed and shipped orders appear here.", "msgstr": "Aquí aparecen los pedidos completados y enviados."}
+{"n": 439, "msgid": "Not every part of this order is printed yet, or the order is no longer in production.", "msgstr": "Aún no están impresas todas las piezas de este pedido, o el pedido ya no está en producción."}
+{"n": 440, "note": "translators: keep {parts} as written; it is replaced with a value.", "msgid": "Quote3D: printed {parts}.", "msgstr": "Quote3D: {parts} impreso."}
+{"n": 441, "note": "translators: keep {parts} as written; it is replaced with a value.", "msgid": "Quote3D: {parts} put back in the print queue.", "msgstr": "Quote3D: {parts} ha vuelto a la cola de impresión."}
+{"n": 442, "msgid": "Quote3D: every part is printed.", "msgstr": "Quote3D: todas las piezas están impresas."}
+{"n": 443, "msgid": "Print queue", "msgstr": "Cola de impresión"}
+{"n": 444, "ctx": "production.tile_body", "note": "translators: keep {parts}, {time}, {weight} as written; they are replaced with a value.", "msgid": "{parts} parts · {time} · {weight}", "msgstr": "{parts} piezas · {time} · {weight}"}
+{"n": 445, "msgid": "Nothing to print", "msgstr": "Nada que imprimir"}
+{"n": 446, "note": "translators: keep {count} as written; it is replaced with a value.", "msgid": "{count} printed, order not completed", "msgstr": "{count} impresas, pedido sin completar"}
+{"n": 447, "note": "translators: keep {count} as written; it is replaced with a value.", "msgid": "{count} awaiting payment", "msgstr": "{count} con pago pendiente"}
+{"n": 448, "note": "translators: keep {status}, {parts} as written; they are replaced with a value.", "msgid": "Quote3D: the order moved to {status} before these parts were marked printed: {parts}.", "msgstr": "Quote3D: el pedido pasó a {status} antes de que estas piezas se marcaran como impresas: {parts}."}
+{"n": 449, "note": "translators: keep {date} as written; it is replaced with a value.", "msgid": "Printed {date}", "msgstr": "Impreso el {date}"}
+{"n": 450, "msgid": "Not marked printed", "msgstr": "No marcado como impreso"}
+{"n": 451, "ctx": "production.view.cancelled", "msgid": "Cancelled / refunded", "msgstr": "Cancelados / reembolsados"}
+{"n": 452, "msgid": "Orders that were cancelled or refunded. Their parts left the queue; a part printed before that shows its print date.", "msgstr": "Pedidos cancelados o reembolsados. Sus piezas salieron de la cola; una pieza impresa antes muestra su fecha de impresión."}
+{"n": 453, "msgid": "No cancelled or refunded orders", "msgstr": "No hay pedidos cancelados ni reembolsados"}
+{"n": 454, "msgid": "Orders with Quote3D parts that are cancelled or refunded in WooCommerce appear here.", "msgstr": "Aquí aparecen los pedidos con piezas de Quote3D cancelados o reembolsados en WooCommerce."}
+{"n": 455, "ctx": "status.filter.cancelled", "msgid": "Cancelled / refunded", "msgstr": "Cancelados / reembolsados"}
+{"n": 456, "note": "translators: keep {status}, {parts} as written; they are replaced with a value.", "msgid": "Quote3D: the order moved to {status}; these parts left production: {parts}.", "msgstr": "Quote3D: el pedido pasó a {status}; estas piezas salieron de producción: {parts}."}
+{"n": 457, "ctx": "nav.catalog", "msgid": "Catalog", "msgstr": "Catálogo"}
+{"n": 458, "msgid": "Save", "msgstr": "Guardar"}
+{"n": 459, "msgid": "Edit", "msgstr": "Editar"}
+{"n": 460, "msgid": "Loading…", "msgstr": "Cargando…"}
+{"n": 461, "msgid": "Remove", "msgstr": "Quitar"}
+{"n": 462, "msgid": "Search", "msgstr": "Buscar"}
+{"n": 463, "ctx": "setup.step.catalog", "msgid": "Catalog", "msgstr": "Catálogo"}
+{"n": 464, "msgid": "Build your catalog", "msgstr": "Crea tu catálogo"}
+{"n": 465, "note": "translators: keep {count} as written; it is replaced with a value.", "msgid": "Your catalog already has {count} materials.", "msgstr": "Tu catálogo ya tiene {count} materiales."}
+{"n": 466, "msgid": "Manage the catalog", "msgstr": "Gestionar el catálogo"}
+{"n": 467, "msgid": "The quote form cannot offer every technology", "msgstr": "El formulario de presupuesto no puede ofrecer todas las tecnologías"}
+{"n": 468, "note": "translators: keep {material}, {color}, {grams}, {balance} as written; they are replaced with a value.", "msgid": "{material} {color} {grams} g (left: {balance} g)", "msgstr": "{material} {color} {grams} g (queda: {balance} g)"}
+{"n": 469, "msgid": "What the quote form offers", "msgstr": "Lo que ofrece el formulario"}
+{"n": 470, "ctx": "catalog.open_dashboard", "msgid": "Open in Quote3D", "msgstr": "Abrir en Quote3D"}
+{"n": 471, "msgid": "No technology is enabled yet.", "msgstr": "Aún no hay ninguna tecnología activada."}
+{"n": 472, "note": "translators: keep {materials}, {printers} as written; they are replaced with a value.", "msgid": "Materials: {materials} · printers: {printers}", "msgstr": "Materiales: {materials} · impresoras: {printers}"}
+{"n": 473, "msgid": "no printer — the form does not offer it", "msgstr": "sin impresora — el formulario no la ofrece"}
+{"n": 474, "msgid": "no material — the form does not offer it", "msgstr": "sin material — el formulario no la ofrece"}
+{"n": 475, "msgid": "every colour is out of stock", "msgstr": "todos los colores están agotados"}
+{"n": 476, "msgid": "Your list", "msgstr": "Tu lista"}
+{"n": 477, "msgid": "Quote3D list", "msgstr": "Lista de Quote3D"}
+{"n": 478, "msgid": "Materials: the form offers only the active materials in your catalog.", "msgstr": "Materiales: el formulario solo ofrece los materiales activos de tu catálogo."}
+{"n": 479, "msgid": "Materials: you have none of your own yet, so the form offers Quote3D's ready-made list.", "msgstr": "Materiales: aún no tienes propios, así que el formulario ofrece la lista predefinida de Quote3D."}
+{"n": 480, "msgid": "Printers: quotes are priced on the active printers in your catalog.", "msgstr": "Impresoras: los presupuestos se calculan con las impresoras activas de tu catálogo."}
+{"n": 481, "msgid": "Printers: quotes are priced on Quote3D's reference machines.", "msgstr": "Impresoras: los presupuestos se calculan con las máquinas de referencia de Quote3D."}
+{"n": 482, "msgid": "Printers", "msgstr": "Impresoras"}
+{"n": 483, "ctx": "catalog.tab.pricing", "msgid": "Pricing", "msgstr": "Precios"}
+{"n": 484, "ctx": "catalog.tab.technologies", "msgid": "Technologies", "msgstr": "Tecnologías"}
+{"n": 485, "ctx": "catalog.all", "msgid": "All", "msgstr": "Todos"}
+{"n": 486, "msgid": "All categories", "msgstr": "Todas las categorías"}
+{"n": 487, "ctx": "catalog.filter_technology", "msgid": "Technology", "msgstr": "Tecnología"}
+{"n": 488, "msgid": "Category", "msgstr": "Categoría"}
+{"n": 489, "msgid": "Search materials", "msgstr": "Buscar materiales"}
+{"n": 490, "msgid": "Search printers", "msgstr": "Buscar impresoras"}
+{"n": 491, "note": "translators: keep {x}, {y}, {z} as written; they are replaced with a value.", "msgid": "{x} × {y} × {z} mm", "msgstr": "{x} × {y} × {z} mm"}
+{"n": 492, "msgid": "hour", "msgstr": "hora"}
+{"n": 493, "ctx": "catalog.col.material", "msgid": "Material", "msgstr": "Material"}
+{"n": 494, "ctx": "catalog.col.colors", "msgid": "Colours", "msgstr": "Colores"}
+{"n": 495, "ctx": "catalog.col.price", "msgid": "Price", "msgstr": "Precio"}
+{"n": 496, "ctx": "catalog.col.offered", "msgid": "Offered", "msgstr": "Ofrecido"}
+{"n": 497, "ctx": "catalog.col.actions", "msgid": "Actions", "msgstr": "Acciones"}
+{"n": 498, "ctx": "catalog.col.printer", "msgid": "Printer", "msgstr": "Impresora"}
+{"n": 499, "msgid": "Build volume", "msgstr": "Volumen de impresión"}
+{"n": 500, "msgid": "Hourly cost", "msgstr": "Coste por hora"}
+{"n": 501, "msgid": "Off: kept in your catalog but not offered in the quote form.", "msgstr": "Desactivado: queda en tu catálogo pero no se ofrece en el formulario."}
+{"n": 502, "note": "translators: keep {name} as written; it is replaced with a value.", "msgid": "Offer {name} in the quote form", "msgstr": "Ofrecer {name} en el formulario"}
+{"n": 503, "note": "translators: keep {name} as written; it is replaced with a value.", "msgid": "{name} is offered again.", "msgstr": "{name} vuelve a ofrecerse."}
+{"n": 504, "note": "translators: keep {name} as written; it is replaced with a value.", "msgid": "{name} is no longer offered.", "msgstr": "{name} ya no se ofrece."}
+{"n": 505, "msgid": "It leaves your catalog; quotes use your other printers. Orders already placed are not affected.", "msgstr": "Sale de tu catálogo; los presupuestos usan tus otras impresoras. Los pedidos ya hechos no se ven afectados."}
+{"n": 506, "ctx": "catalog.delete_last_material", "msgid": "This is your last active material. Without it the quote form goes back to Quote3D's ready-made material list.", "msgstr": "Es tu último material activo. Sin él, el formulario vuelve a la lista predefinida de Quote3D."}
+{"n": 507, "ctx": "catalog.delete_last_printer", "msgid": "This is your last active printer. Without it quotes are priced on Quote3D's reference machines.", "msgstr": "Es tu última impresora activa. Sin ella, los presupuestos se calculan con las máquinas de referencia de Quote3D."}
+{"n": 508, "msgid": "Stop offering your own list?", "msgstr": "¿Dejar de ofrecer tu propia lista?"}
+{"n": 509, "ctx": "catalog.last_material", "msgid": "This is your last active material. Without it the quote form goes back to Quote3D's ready-made material list.", "msgstr": "Es tu último material activo. Sin él, el formulario vuelve a la lista predefinida de Quote3D."}
+{"n": 510, "ctx": "catalog.last_printer", "msgid": "This is your last active printer. Without it quotes are priced on Quote3D's reference machines.", "msgstr": "Es tu última impresora activa. Sin ella, los presupuestos se calculan con las máquinas de referencia de Quote3D."}
+{"n": 511, "msgid": "Yes, turn it off", "msgstr": "Sí, desactivar"}
+{"n": 512, "msgid": "Build your own material list", "msgstr": "Crea tu propia lista de materiales"}
+{"n": 513, "msgid": "No printers of your own yet", "msgstr": "Aún no tienes impresoras propias"}
+{"n": 514, "msgid": "Add the machines you own so quotes use your build volume, speeds and hourly cost. Until then Quote3D's reference machines are used.", "msgstr": "Añade tus máquinas para que los presupuestos usen tu volumen, tus velocidades y tu coste por hora. Hasta entonces se usan las máquinas de referencia de Quote3D."}
+{"n": 515, "msgid": "You have no printers of your own, so quotes use Quote3D's reference machines. Add your machines for prices that match your workshop.", "msgstr": "No tienes impresoras propias, así que los presupuestos usan las máquinas de referencia de Quote3D. Añade las tuyas para precios acordes a tu taller."}
+{"n": 516, "msgid": "Add from catalog", "msgstr": "Añadir del catálogo"}
+{"n": 517, "ctx": "catalog.adopt.cta_printers", "msgid": "Add printers", "msgstr": "Añadir impresoras"}
+{"n": 518, "msgid": "Add materials from the Quote3D catalog", "msgstr": "Añadir materiales del catálogo de Quote3D"}
+{"n": 519, "msgid": "Add printers from the Quote3D catalog", "msgstr": "Añadir impresoras del catálogo de Quote3D"}
+{"n": 520, "msgid": "Each printer becomes your own copy; adjust its hourly cost and settings afterwards.", "msgstr": "Cada impresora se convierte en tu copia; ajusta después su coste por hora y sus ajustes."}
+{"n": 521, "msgid": "Once you add your first material, the quote form offers only your materials instead of Quote3D's ready-made list.", "msgstr": "En cuanto añadas tu primer material, el formulario ofrecerá solo tus materiales en lugar de la lista de Quote3D."}
+{"n": 522, "msgid": "Select all shown", "msgstr": "Seleccionar los mostrados"}
+{"n": 523, "note": "translators: keep {chosen}, {total} as written; they are replaced with a value.", "msgid": "Colours: {chosen} of {total}", "msgstr": "Colores: {chosen} de {total}"}
+{"n": 524, "ctx": "catalog.adopt.colors_available", "note": "translators: keep {count} as written; it is replaced with a value.", "msgid": "{count} colours", "msgstr": "{count} colores"}
+{"n": 525, "ctx": "catalog.adopt.all", "msgid": "Select all", "msgstr": "Seleccionar todo"}
+{"n": 526, "msgid": "Clear", "msgstr": "Borrar"}
+{"n": 527, "msgid": "Your price", "msgstr": "Tu precio"}
+{"n": 528, "msgid": "The same amount for every chosen colour; correct single colours later with a stock count.", "msgstr": "La misma cantidad para cada color elegido; corrige los colores después con un recuento."}
+{"n": 529, "msgid": "In your catalog", "msgstr": "En tu catálogo"}
+{"n": 530, "note": "translators: keep {count} as written; it is replaced with a value.", "msgid": "{count} new colours", "msgstr": "{count} colores nuevos"}
+{"n": 531, "msgid": "Nothing matches this filter.", "msgstr": "Nada coincide con este filtro."}
+{"n": 532, "note": "translators: keep {count} as written; it is replaced with a value.", "msgid": "{count} more are for technologies your plan or selection does not include.", "msgstr": "{count} más son de tecnologías que tu plan o tu selección no incluyen."}
+{"n": 533, "msgid": "Tick what you want to add.", "msgstr": "Marca lo que quieras añadir."}
+{"n": 534, "note": "translators: keep {count}, {colors} as written; they are replaced with a value.", "msgid": "{count} materials, {colors} colours selected", "msgstr": "{count} materiales, {colors} colores seleccionados"}
+{"n": 535, "note": "translators: keep {count} as written; it is replaced with a value.", "msgid": "{count} printers selected", "msgstr": "{count} impresoras seleccionadas"}
+{"n": 536, "msgid": "Add to my catalog", "msgstr": "Añadir a mi catálogo"}
+{"n": 537, "ctx": "catalog.adopt.submit_printers", "msgid": "Add printers", "msgstr": "Añadir impresoras"}
+{"n": 538, "msgid": "Adding…", "msgstr": "Añadiendo…"}
+{"n": 539, "msgid": "A selected material has no colour chosen. Choose at least one colour, or untick the material.", "msgstr": "Un material seleccionado no tiene ningún color. Elige al menos uno o desmarca el material."}
+{"n": 540, "note": "translators: keep {count}, {colors} as written; they are replaced with a value.", "msgid": "{count} materials added, {colors} colours in your catalog.", "msgstr": "{count} materiales añadidos, {colors} colores en tu catálogo."}
+{"n": 541, "note": "translators: keep {count} as written; it is replaced with a value.", "msgid": "{count} printers added.", "msgstr": "{count} impresoras añadidas."}
+{"n": 542, "msgid": "Add all", "msgstr": "Añadir todos"}
+{"n": 543, "msgid": "New material", "msgstr": "Nuevo material"}
+{"n": 544, "msgid": "Edit material", "msgstr": "Editar material"}
+{"n": 545, "msgid": "Edit printer", "msgstr": "Editar impresora"}
+{"n": 546, "msgid": "The same fields and explanations as the Quote3D dashboard. Changes reach the quote form at once.", "msgstr": "Los mismos campos y explicaciones que el panel de Quote3D. Los cambios llegan al formulario al instante."}
+{"n": 547, "msgid": "Start from", "msgstr": "Partir de"}
+{"n": 548, "msgid": "Copies a catalogue material's physical values (density, temperatures, flow) so the weight and time come out right. You give it your own name, price and colours.", "msgstr": "Copia los valores físicos de un material del catálogo (densidad, temperaturas, flujo) para que el peso y el tiempo salgan bien. Tú pones el nombre, el precio y los colores."}
+{"n": 549, "msgid": "(copy)", "msgstr": "(copia)"}
+{"n": 550, "msgid": "Create", "msgstr": "Crear"}
+{"n": 551, "note": "translators: keep {name} as written; it is replaced with a value.", "msgid": "{name} was created. Now add its colours.", "msgstr": "{name} se creó. Ahora añade sus colores."}
+{"n": 552, "note": "translators: keep {name} as written; it is replaced with a value.", "msgid": "{name} was saved.", "msgstr": "{name} se guardó."}
+{"n": 553, "msgid": "Some fields need a look; they are marked in red.", "msgstr": "Algunos campos deben corregirse; están en rojo."}
+{"n": 554, "msgid": "Required", "msgstr": "Obligatorio"}
+{"n": 555, "msgid": "Enter a number", "msgstr": "Introduce un número"}
+{"n": 556, "note": "translators: keep {min} as written; it is replaced with a value.", "msgid": "At least {min}", "msgstr": "Como mínimo {min}"}
+{"n": 557, "note": "translators: keep {max} as written; it is replaced with a value.", "msgid": "At most {max}", "msgstr": "Como máximo {max}"}
+{"n": 558, "msgid": "Printer value", "msgstr": "Valor de la impresora"}
+{"n": 559, "ctx": "catalog.section_status", "msgid": "Status", "msgstr": "Estado"}
+{"n": 560, "msgid": "Offer", "msgstr": "Ofrecer"}
+{"n": 561, "msgid": "Off: shoppers cannot pick this option in the quote form.", "msgstr": "Desactivado: el cliente no puede elegir esta opción."}
+{"n": 562, "msgid": "Standard cleaning is always offered.", "msgstr": "La limpieza estándar siempre se ofrece."}
+{"n": 563, "note": "translators: keep {diameter}, {count} as written; they are replaced with a value.", "msgid": "{diameter} mm × {count}", "msgstr": "{diameter} mm × {count}"}
+{"n": 564, "msgid": "No drain holes", "msgstr": "Sin orificios de drenaje"}
+{"n": 565, "msgid": "Diameter (mm)", "msgstr": "Diámetro (mm)"}
+{"n": 566, "msgid": "Count", "msgstr": "Cantidad"}
+{"n": 567, "msgid": "Add hole", "msgstr": "Añadir orificio"}
+{"n": 568, "msgid": "Discard your changes?", "msgstr": "¿Descartar los cambios?"}
+{"n": 569, "msgid": "What you changed here has not been saved.", "msgstr": "Lo que cambiaste aquí no se ha guardado."}
+{"n": 570, "msgid": "Unsaved changes", "msgstr": "Cambios sin guardar"}
+{"n": 571, "msgid": "Discard", "msgstr": "Descartar"}
+{"n": 572, "ctx": "catalog.colors", "msgid": "Colours", "msgstr": "Colores"}
+{"n": 573, "msgid": "The colours shoppers can pick for this material, and how much of each you have.", "msgstr": "Los colores que el cliente puede elegir para este material y cuánto tienes de cada uno."}
+{"n": 574, "ctx": "catalog.colors_count", "note": "translators: keep {count} as written; it is replaced with a value.", "msgid": "{count} colours", "msgstr": "{count} colores"}
+{"n": 575, "msgid": "Switch a colour off to hide it without deleting it. The name is what shoppers see and what appears on the order.", "msgstr": "Desactiva un color para ocultarlo sin borrarlo. El nombre es lo que ve el cliente y lo que aparece en el pedido."}
+{"n": 576, "msgid": "No colours yet. Add the first one below.", "msgstr": "Aún no hay colores. Añade el primero abajo."}
+{"n": 577, "msgid": "Colours saved.", "msgstr": "Colores guardados."}
+{"n": 578, "msgid": "Name", "msgstr": "Nombre"}
+{"n": 579, "note": "translators: keep {color} as written; it is replaced with a value.", "msgid": "Colour of {color}", "msgstr": "Color de {color}"}
+{"n": 580, "msgid": "Colour", "msgstr": "Color"}
+{"n": 581, "ctx": "catalog.color_offered", "msgid": "Offered", "msgstr": "Ofrecido"}
+{"n": 582, "note": "translators: keep {color} as written; it is replaced with a value.", "msgid": "Offer {color}", "msgstr": "Ofrecer {color}"}
+{"n": 583, "msgid": "Add colour", "msgstr": "Añadir color"}
+{"n": 584, "msgid": "New colour name, e.g. Galaxy Black", "msgstr": "Nombre del color, p. ej. Galaxy Black"}
+{"n": 585, "note": "translators: keep {color} as written; it is replaced with a value.", "msgid": "Remove {color}", "msgstr": "Quitar {color}"}
+{"n": 586, "note": "translators: keep {color} as written; it is replaced with a value.", "msgid": "Remove {color}?", "msgstr": "¿Quitar {color}?"}
+{"n": 587, "note": "translators: keep {color} as written; it is replaced with a value.", "msgid": "There is already a colour called {color}.", "msgstr": "Ya existe un color llamado {color}."}
+{"n": 588, "msgid": "Every colour needs a name.", "msgstr": "Cada color necesita un nombre."}
+{"n": 589, "note": "translators: keep {count} as written; it is replaced with a value.", "msgid": "Quote3D added {count} new colours to this material since you copied it.", "msgstr": "Quote3D añadió {count} colores nuevos a este material desde que lo copiaste."}
+{"n": 590, "msgid": "Add the ones you have:", "msgstr": "Añade los que tengas:"}
+{"n": 591, "msgid": "A colour at or below this amount is flagged on the Overview.", "msgstr": "Un color en esta cantidad o por debajo se marca en el resumen."}
+{"n": 592, "msgid": "One spool weighs", "msgstr": "Una bobina pesa"}
+{"n": 593, "msgid": "One bottle holds", "msgstr": "Una botella contiene"}
+{"n": 594, "msgid": "One bag holds", "msgstr": "Una bolsa contiene"}
+{"n": 595, "note": "translators: keep {count} as written; it is replaced with a value.", "msgid": "{count} spools", "msgstr": "{count} bobinas"}
+{"n": 596, "note": "translators: keep {count} as written; it is replaced with a value.", "msgid": "{count} bottles", "msgstr": "{count} botellas"}
+{"n": 597, "note": "translators: keep {count} as written; it is replaced with a value.", "msgid": "{count} bags", "msgstr": "{count} bolsas"}
+{"n": 598, "msgid": "spools", "msgstr": "bobinas"}
+{"n": 599, "msgid": "bottles", "msgstr": "botellas"}
+{"n": 600, "msgid": "bags", "msgstr": "bolsas"}
+{"n": 601, "msgid": "Low", "msgstr": "Bajo"}
+{"n": 602, "msgid": "Out of stock", "msgstr": "Agotado"}
+{"n": 603, "note": "translators: keep {count} as written; it is replaced with a value.", "msgid": "{count} out", "msgstr": "{count} agotados"}
+{"n": 604, "note": "translators: keep {count} as written; it is replaced with a value.", "msgid": "{count} low", "msgstr": "{count} bajos"}
+{"n": 605, "msgid": "Not tracked", "msgstr": "Sin control"}
+{"n": 606, "msgid": "Type of change", "msgstr": "Tipo de cambio"}
+{"n": 607, "msgid": "Stock in", "msgstr": "Entrada"}
+{"n": 608, "msgid": "Stock count", "msgstr": "Recuento"}
+{"n": 609, "msgid": "Waste", "msgstr": "Merma"}
+{"n": 610, "ctx": "catalog.movement.order", "msgid": "Order", "msgstr": "Pedido"}
+{"n": 611, "msgid": "Order cancelled", "msgstr": "Pedido cancelado"}
+{"n": 612, "msgid": "Amount", "msgstr": "Cantidad"}
+{"n": 613, "msgid": "Counted amount", "msgstr": "Cantidad contada"}
+{"n": 614, "msgid": "Unit", "msgstr": "Unidad"}
+{"n": 615, "msgid": "Note", "msgstr": "Nota"}
+{"n": 616, "msgid": "Optional, e.g. supplier or invoice number", "msgstr": "Opcional, p. ej. proveedor o n.º de factura"}
+{"n": 617, "note": "translators: keep {before}, {after} as written; they are replaced with a value.", "msgid": "{before} → {after}", "msgstr": "{before} → {after}"}
+{"n": 618, "msgid": "Save change", "msgstr": "Guardar cambio"}
+{"n": 619, "note": "translators: keep {value} as written; it is replaced with a value.", "msgid": "Left {value}", "msgstr": "Queda {value}"}
+{"n": 620, "note": "translators: keep {number} as written; it is replaced with a value.", "msgid": "order #{number}", "msgstr": "pedido n.º {number}"}
+{"n": 621, "msgid": "No changes yet.", "msgstr": "Aún no hay cambios."}
+{"n": 622, "msgid": "Show older", "msgstr": "Mostrar anteriores"}
+{"n": 623, "ctx": "catalog.pricing_title", "msgid": "Pricing", "msgstr": "Precios"}
+{"n": 624, "msgid": "Your own settings", "msgstr": "Tus propios ajustes"}
+{"n": 625, "msgid": "Pricing saved. New quotes use it at once.", "msgstr": "Precios guardados. Los nuevos presupuestos los usan al instante."}
+{"n": 626, "msgid": "Your own pricing is removed; the technology selection stays.", "msgstr": "Se eliminan tus precios; la selección de tecnologías se mantiene."}
+{"n": 627, "msgid": "Every pricing value you set here is replaced by Quote3D's defaults. Quotes already given keep their price.", "msgstr": "Todos los valores que pusiste aquí se sustituyen por los de Quote3D. Los presupuestos ya dados mantienen su precio."}
+{"n": 628, "msgid": "Shoppers choose among these in the quote form. Your plan decides how many you can offer; a technology you turn on stays on for 30 days.", "msgstr": "El cliente elige entre estas en el formulario. Tu plan decide cuántas puedes ofrecer; una tecnología activada queda así 30 días."}
+{"n": 629, "note": "translators: keep {chosen}, {max} as written; they are replaced with a value.", "msgid": "{chosen} of {max} selected", "msgstr": "{chosen} de {max} seleccionadas"}
+{"n": 630, "note": "translators: keep {date} as written; it is replaced with a value.", "msgid": "Can be turned off after {date}", "msgstr": "Se puede desactivar después del {date}"}
+{"n": 631, "msgid": "Your selection needs a look: it is over your plan's allowance or includes a technology that is no longer available.", "msgstr": "Revisa tu selección: supera lo que permite tu plan o incluye una tecnología ya no disponible."}
+{"n": 632, "note": "translators: keep {technology} as written; it is replaced with a value.", "msgid": "Turn on {technology}?", "msgstr": "¿Activar {technology}?"}
+{"n": 633, "msgid": "A technology you turn on now cannot be turned off for 30 days.", "msgstr": "Una tecnología que actives ahora no podrá desactivarse durante 30 días."}
+{"n": 634, "msgid": "Filament printing (FDM)", "msgstr": "Impresión con filamento (FDM)"}
+{"n": 635, "msgid": "Resin printing (SLA)", "msgstr": "Impresión en resina (SLA)"}
+{"n": 636, "msgid": "Powder sintering (SLS)", "msgstr": "Sinterizado de polvo (SLS)"}
+{"n": 637, "msgid": "Multi Jet Fusion (MJF)", "msgstr": "Multi Jet Fusion (MJF)"}
+{"n": 638, "msgid": "Metal melting (SLM)", "msgstr": "Fusión de metal (SLM)"}
+{"n": 639, "msgid": "Someone changed this in the meantime (on the dashboard or in another tab). Close it, open it again and apply your change.", "msgstr": "Alguien lo cambió mientras tanto (en el panel o en otra pestaña). Ciérralo, ábrelo de nuevo y repite el cambio."}
+{"n": 640, "msgid": "Your catalog already has one with this name. Choose another name.", "msgstr": "Tu catálogo ya tiene uno con este nombre. Elige otro."}
+{"n": 641, "msgid": "A technology turned on in the last 30 days cannot be turned off yet.", "msgstr": "Una tecnología activada en los últimos 30 días aún no se puede desactivar."}
+{"n": 642, "msgid": "That is more technologies than your plan allows.", "msgstr": "Son más tecnologías de las que permite tu plan."}
+{"n": 643, "msgid": "That technology is not part of your plan.", "msgstr": "Esa tecnología no está en tu plan."}
+{"n": 644, "msgid": "Keep at least one technology.", "msgstr": "Deja al menos una tecnología."}
+{"n": 645, "msgid": "This technology is not included in your plan.", "msgstr": "Esta tecnología no está incluida en tu plan."}
+{"n": 646, "msgid": "This technology is not turned on. Turn it on under Technologies first.", "msgstr": "Esta tecnología no está activada. Actívala primero en Tecnologías."}
+{"n": 647, "note": "translators: keep {chosen} as written; it is replaced with a value.", "msgid": "{chosen} selected", "msgstr": "{chosen} seleccionadas"}
+{"n": 648, "msgid": "Currencies do not match", "msgstr": "Las monedas no coinciden"}
+{"n": 649, "note": "translators: keep {quote}, {store} as written; they are replaced with a value.", "msgid": "Quotes are priced in {quote}, but your shop sells in {store}, so shoppers cannot add a quote to the cart. Set the currency of your Quote3D account to {store}, or the shop currency to {quote}.", "msgstr": "Los presupuestos se calculan en {quote}, pero tu tienda vende en {store}, así que el cliente no puede añadirlos al carrito. Pon la moneda de tu cuenta de Quote3D en {store} o la de la tienda en {quote}."}
+{"n": 650, "note": "translators: keep {store} as written; it is replaced with a value.", "msgid": "Set Quote3D to {store}", "msgstr": "Cambiar Quote3D a {store}"}
+{"n": 651, "note": "translators: keep {store} as written; it is replaced with a value.", "msgid": "Your Quote3D account now prices in {store}.", "msgstr": "Tu cuenta de Quote3D ahora calcula en {store}."}
+{"n": 652, "note": "translators: keep {store} as written; it is replaced with a value.", "msgid": "Price quotes in {store}?", "msgstr": "¿Calcular los presupuestos en {store}?"}
+{"n": 653, "note": "translators: keep {quote}, {store} as written; they are replaced with a value.", "msgid": "Quotes are priced in {quote}, but your shop sells in {store}, which Quote3D does not support. Shoppers cannot add a quote to the cart until the shop currency is one Quote3D supports.", "msgstr": "Los presupuestos se calculan en {quote}, pero tu tienda vende en {store}, que Quote3D no admite. El cliente no podrá añadir presupuestos al carrito hasta que la moneda de la tienda sea una admitida por Quote3D."}
+{"n": 654, "msgid": "Material or colour not in the catalog", "msgstr": "Material o color fuera del catálogo"}
+{"n": 655, "note": "translators: keep {count} as written; it is replaced with a value.", "msgid": "{count} more colours of this material in the Quote3D catalogue", "msgstr": "{count} colores más de este material en el catálogo de Quote3D"}
+{"n": 656, "msgid": "You left these out when copying. Add the ones you have in stock:", "msgstr": "Los dejaste fuera al copiar. Añade los que tengas:"}
+{"n": 657, "note": "translators: keep {technology} as written; it is replaced with a value.", "msgid": "{technology} is on. The quote form offers it now.", "msgstr": "{technology} está activada. El formulario ya la ofrece."}
+{"n": 658, "note": "translators: keep {technology} as written; it is replaced with a value.", "msgid": "{technology} is off. Its printers, materials and pricing are hidden.", "msgstr": "{technology} está desactivada. Se ocultan sus impresoras, materiales y precios."}
+{"n": 659, "msgid": "At least one technology must stay on.", "msgstr": "Al menos una tecnología debe quedar activada."}
+{"n": 660, "msgid": "Turn on", "msgstr": "Activar"}
+{"n": 661, "msgid": "Available on your plan", "msgstr": "Disponible en tu plan"}
+{"n": 662, "msgid": "Your plan's allowance is used; turn another technology off or upgrade", "msgstr": "Tu cupo está completo; desactiva otra tecnología o mejora el plan"}
+{"n": 663, "msgid": "Not included in your plan", "msgstr": "No incluida en tu plan"}
+{"n": 664, "msgid": "Not available on Quote3D right now", "msgstr": "No disponible en Quote3D en este momento"}
+{"n": 665, "note": "translators: keep {plan} as written; it is replaced with a value.", "msgid": "{plan} plan", "msgstr": "Plan {plan}"}
+{"n": 666, "msgid": "Need another technology?", "msgstr": "¿Necesitas otra tecnología?"}
+{"n": 667, "msgid": "See the plans", "msgstr": "Ver los planes"}
+{"n": 668, "note": "translators: keep {count} as written; it is replaced with a value.", "msgid": "{count} profiles of technologies you do not offer are hidden. Turn the technology on under Technologies to see them.", "msgstr": "Se ocultan {count} perfiles de tecnologías que no ofreces. Activa la tecnología en Tecnologías para verlos."}
+{"n": 669, "msgid": "The 3D print has been added to your cart.", "msgstr": "La impresión 3D se ha añadido a tu carrito."}
+{"n": 670, "msgid": "The 3D print could not be added to the cart. Please try again or contact us.", "msgstr": "No se ha podido añadir la impresión 3D al carrito. Inténtalo de nuevo o ponte en contacto con nosotros."}
+{"n": 671, "msgid": "This shop has not finished setting up online 3D print orders yet. Please contact us for a quote.", "msgstr": "Esta tienda aún no ha terminado de configurar los pedidos de impresión 3D en línea. Ponte en contacto con nosotros para solicitar un presupuesto."}
+{"n": 672, "msgid": "Quote3D for WooCommerce needs WooCommerce. Install and activate WooCommerce to use it.", "msgstr": "Quote3D para WooCommerce necesita WooCommerce. Instala y activa WooCommerce para usarlo."}
+{"n": 673, "msgid": "Finish setting up Quote3D to see your plan, quotes and orders here.", "msgstr": "Termina de configurar Quote3D para ver aquí tu plan, tus presupuestos y tus pedidos."}
+{"n": 674, "msgid": "The widget token field holds a full-access server token. Anyone visiting your shop can read it. Replace it with a widget token.", "msgstr": "El campo del token de widget contiene un token de servidor con acceso completo. Cualquier visitante de tu tienda puede leerlo. Sustitúyelo por un token de widget."}
+{"n": 675, "note": "translators: keep {used}, {limit}, {date} as written; they are replaced with a value.", "msgid": "You have used {used} of {limit} quotes this period. The count resets on {date}.", "msgstr": "Has usado {used} de {limit} presupuestos en este periodo. El contador se restablece el {date}."}
+{"n": 676, "note": "translators: keep {used}, {limit}, {date} as written; they are replaced with a value.", "msgid": "Your quote limit is used up ({used}/{limit}); shoppers cannot get new quotes until {date}.", "msgstr": "Has agotado tu límite de presupuestos ({used}/{limit}); los clientes no podrán obtener nuevos presupuestos hasta el {date}."}
+{"n": 677, "ctx": "connect.title", "msgid": "Connect your Quote3D account", "msgstr": "Conecta tu cuenta de Quote3D"}
+{"n": 678, "msgid": "Something went wrong. Please try again in a moment.", "msgstr": "Algo ha salido mal. Vuelve a intentarlo en un momento."}
+{"n": 679, "msgid": "You are not allowed to do this.", "msgstr": "No tienes permiso para hacer esto."}
+{"n": 680, "msgid": "Pick a start date on or before the end date, at most ten years apart.", "msgstr": "Elige una fecha de inicio igual o anterior a la fecha de fin, con un máximo de diez años de diferencia."}
+{"n": 681, "msgid": "The cart product could not be created. Create a simple product at price 0 and enter its ID.", "msgstr": "No se ha podido crear el producto del carrito. Crea un producto simple con precio 0 e introduce su ID."}
+{"n": 682, "msgid": "No widget token is saved yet. Without it the configurator cannot load on your shop.", "msgstr": "Todavía no hay ningún token de widget guardado. Sin él, el configurador no puede cargarse en tu tienda."}
+{"n": 683, "msgid": "Quote3D rejected the server token. It may have been deleted, rotated or expired, or its IP allowlist does not include this server.", "msgstr": "Quote3D ha rechazado el token de servidor. Puede que se haya borrado, renovado o haya caducado, o que su lista de IP permitidas no incluya este servidor."}
+{"n": 684, "msgid": "This token is not allowed to read account data. Use a server token (not a widget token).", "msgstr": "Este token no tiene permiso para leer los datos de la cuenta. Usa un token de servidor (no un token de widget)."}
+{"n": 685, "msgid": "Your Quote3D server does not offer this yet. Check the Quote3D address under Advanced.", "msgstr": "Tu servidor de Quote3D todavía no ofrece esta función. Comprueba la dirección de Quote3D en Avanzado."}
+{"n": 686, "msgid": "Too many requests right now. Wait a minute and refresh.", "msgstr": "Demasiadas solicitudes en este momento. Espera un minuto y actualiza."}
+{"n": 687, "msgid": "Quote3D had a temporary problem. Please try again shortly.", "msgstr": "Quote3D ha tenido un problema temporal. Vuelve a intentarlo en breve."}
+{"n": 688, "msgid": "This server could not connect to Quote3D. Check the Quote3D address under Advanced, and that outgoing connections are allowed.", "msgstr": "Este servidor no ha podido conectarse con Quote3D. Comprueba la dirección de Quote3D en Avanzado y que las conexiones salientes estén permitidas."}
+{"n": 689, "msgid": "Pick a start date on or before the end date.", "msgstr": "Elige una fecha de inicio igual o anterior a la fecha de fin."}
+{"n": 690, "msgid": "This is a full-access server token. The widget token is visible to shoppers, so use a widget token here.", "msgstr": "Este es un token de servidor con acceso completo. El token de widget es visible para los clientes, así que usa aquí un token de widget."}
+{"n": 691, "msgid": "Quote3D does not recognise this widget token. It may have been deleted or rotated.", "msgstr": "Quote3D no reconoce este token de widget. Puede que se haya borrado o renovado."}
+{"n": 692, "msgid": "This widget token does not allow your shop's address. Add it to the token's allowed origins in Quote3D.", "msgstr": "Este token de widget no permite la dirección de tu tienda. Añádela a los orígenes permitidos del token en Quote3D."}
+{"n": 693, "msgid": "You are not allowed to see this page.", "msgstr": "No tienes permiso para ver esta página."}
+{"n": 694, "msgid": "Your session has expired. Reload the page.", "msgstr": "Tu sesión ha caducado. Vuelve a cargar la página."}
+{"n": 695, "msgid": "Trial", "msgstr": "Periodo de prueba"}
+{"n": 696, "msgid": "You are on the Free plan", "msgstr": "Estás en el plan Free"}
+{"n": 697, "msgid": "The Standard plan gives your shop more quotes every month, more storage and priority support.", "msgstr": "El plan Standard ofrece a tu tienda más presupuestos cada mes, más almacenamiento y soporte prioritario."}
+{"n": 698, "msgid": "Your quote limit is almost used up", "msgstr": "Tu límite de presupuestos está casi agotado"}
+{"n": 699, "msgid": "Your quote limit is used up", "msgstr": "Has agotado tu límite de presupuestos"}
+{"n": 700, "note": "translators: keep {used}, {limit}, {date} as written; they are replaced with a value.", "msgid": "{used} of {limit} quotes used. Shoppers cannot get new quotes until {date} unless you upgrade.", "msgstr": "{used} de {limit} presupuestos usados. Los clientes no podrán obtener nuevos presupuestos hasta el {date}, salvo que mejores tu plan."}
+{"n": 701, "note": "translators: keep {used}, {limit} as written; they are replaced with a value.", "msgid": "{used} of {limit} MB used. Storage does not reset monthly; it frees up only when files are deleted.", "msgstr": "{used} de {limit} MB usados. El almacenamiento no se restablece cada mes; solo se libera al borrar archivos."}
+{"n": 702, "msgid": "Delete files you no longer need or turn on automatic cleanup in your Quote3D dashboard.", "msgstr": "Borra los archivos que ya no necesites o activa la limpieza automática en tu panel de Quote3D."}
+{"n": 703, "msgid": "This is your dashboard: plan, limits, quotes and the orders they turned into, all in one place.", "msgstr": "Este es tu panel: plan, límites, presupuestos y los pedidos que generaron, todo en un solo lugar."}
+{"n": 704, "msgid": "Try a wider date range or another status.", "msgstr": "Prueba con un rango de fechas más amplio o con otro estado."}
+{"n": 705, "msgid": "The plugin uses two tokens with different jobs. Create both in your Quote3D dashboard under API tokens.", "msgstr": "El plugin usa dos tokens con funciones distintas. Crea ambos en tu panel de Quote3D, en Tokens de API."}
+{"n": 706, "msgid": "Instant notifications are on: Quote3D tells this site right away when a model file is deleted or a usage limit is crossed.", "msgstr": "Los avisos instantáneos están activados: Quote3D avisa a este sitio en cuanto se borra un archivo de modelo o se supera un límite de uso."}
+{"n": 707, "note": "translators: keep {error} as written; it is replaced with a value.", "msgid": "Instant notifications could not be set up ({error}). The plugin keeps working over the API; this information updates when the dashboard is opened. Save the settings again once the site is reachable from the internet.", "msgstr": "No se pudieron configurar los avisos instantáneos ({error}). El plugin sigue funcionando mediante la API; esta información se actualiza al abrir el panel. Vuelve a guardar los ajustes cuando el sitio sea accesible desde internet."}
+{"n": 708, "msgid": "Instant notifications will be set up on the next save.", "msgstr": "Los avisos instantáneos se configurarán al guardar la próxima vez."}
+{"n": 709, "msgid": "Leave this at https://quote3d.com unless Quote3D support asked you to change it.", "msgstr": "Deja https://quote3d.com a menos que el soporte de Quote3D te haya pedido cambiarla."}
+{"n": 710, "msgid": "This product is not published. Guests cannot buy it: publish it (you can still hide it from the catalog).", "msgstr": "Este producto no está publicado. Los invitados no pueden comprarlo: publícalo (puedes seguir ocultándolo del catálogo)."}
+{"n": 711, "msgid": "\"Sold individually\" is ticked on this product. Untick it, otherwise quotes for more than one part cannot be added.", "msgstr": "La opción «Vendido individualmente» está marcada en este producto. Desmárcala; de lo contrario, no se podrán añadir presupuestos de más de una pieza."}
+{"n": 712, "note": "translators: keep {shortcode} as written; it is replaced with a value.", "msgid": "To show the configurator, tick \"Quote3D configurator\" on a product's General tab, or put {shortcode} on any page.", "msgstr": "Para mostrar el configurador, marca «Configurador de Quote3D» en la pestaña General de un producto, o inserta {shortcode} en cualquier página."}
+{"n": 713, "msgid": "Off: the configurator shows \"Go to cart\" and the shopper stays on the page. On: the shopper is taken to the cart right away.", "msgstr": "Desactivado: el configurador muestra «Ir al carrito» y el cliente permanece en la página. Activado: el cliente va directamente al carrito."}
+{"n": 714, "msgid": "Uploaded models are stored on Quote3D. Storage does not reset monthly; space frees up only when files are deleted.", "msgstr": "Los modelos subidos se guardan en Quote3D. El almacenamiento no se restablece cada mes; el espacio solo se libera al borrar archivos."}
+{"n": 715, "msgid": "When an upload does not fit, the oldest files that were never added to a cart are deleted to make room. Files of quotes added to a cart and files used in the last 24 hours are never deleted. This is your Quote3D account setting; it applies to all your shops.", "msgstr": "Cuando una subida no cabe, se borran los archivos más antiguos que nunca se añadieron a un carrito para hacer sitio. Los archivos de presupuestos añadidos a un carrito y los usados en las últimas 24 horas nunca se borran. Es un ajuste de tu cuenta de Quote3D; se aplica a todas tus tiendas."}
+{"n": 716, "note": "translators: keep {days} as written; it is replaced with a value.", "msgid": "Delete an order’s model files {days} days after delivery", "msgstr": "Borrar los archivos de modelo de un pedido {days} días después de la entrega"}
+{"n": 717, "msgid": "Printed into your shop pages, so shoppers can see it.", "msgstr": "Se inserta en las páginas de tu tienda, por lo que los clientes pueden verlo."}
+{"n": 718, "note": "translators: keep {days} as written; it is replaced with a value.", "msgid": "When an order becomes Completed (or Delivered, if a shipping plugin adds that status), its model files are deleted from Quote3D {days} days later. A file still used by another open order or a recent cart is kept. The quote records and the order stay; an order note says what was deleted.", "msgstr": "Cuando un pedido pasa a Completado (o Entregado, si un plugin de envíos añade ese estado), sus archivos de modelo se borran de Quote3D {days} días después. Un archivo que aún usa otro pedido abierto o un carrito reciente se conserva. Los registros de presupuestos y el pedido se mantienen; una nota del pedido indica qué se borró."}
+{"n": 719, "msgid": "Can only request quotes and add them to the cart; it cannot read your account.", "msgstr": "Solo puede solicitar presupuestos y añadirlos al carrito; no puede leer tu cuenta."}
+{"n": 720, "note": "translators: keep {origin} as written; it is replaced with a value.", "msgid": "In Quote3D, create it with the Widget scope and allow {origin}.", "msgstr": "En Quote3D, créalo con el ámbito Widget y permite {origin}."}
+{"n": 721, "msgid": "Paste the server token", "msgstr": "Pega el token de servidor"}
+{"n": 722, "note": "translators: keep {last4} as written; it is replaced with a value.", "msgid": "Saved ({last4}). Paste a new token to replace it.", "msgstr": "Guardado ({last4}). Pega un token nuevo para sustituirlo."}
+{"n": 723, "msgid": "The dashboard's reads do not count against your monthly API requests.", "msgstr": "Las consultas del panel no cuentan para tus solicitudes mensuales a la API."}
+{"n": 724, "msgid": "Remove the saved server token", "msgstr": "Quitar el token de servidor guardado"}
+{"n": 725, "msgid": "Welcome to Quote3D", "msgstr": "Te damos la bienvenida a Quote3D"}
+{"n": 726, "msgid": "You can change it any time in Quote3D → Settings.", "msgstr": "Puedes cambiarlo en cualquier momento en Quote3D → Ajustes."}
+{"n": 727, "ctx": "setup.connect.title", "msgid": "Connect your Quote3D account", "msgstr": "Conecta tu cuenta de Quote3D"}
+{"n": 728, "msgid": "Paste your two tokens. The widget token loads the configurator for shoppers; the server token lets this dashboard show your plan, limits and quotes. Test the connection before you continue.", "msgstr": "Pega tus dos tokens. El token de widget carga el configurador para los clientes; el token de servidor permite que este panel muestre tu plan, tus límites y tus presupuestos. Prueba la conexión antes de continuar."}
+{"n": 729, "msgid": "Your plan", "msgstr": "Tu plan"}
+{"n": 730, "msgid": "Connect first", "msgstr": "Conéctate primero"}
+{"n": 731, "msgid": "Add the server token so the plugin can read your plan.", "msgstr": "Añade el token de servidor para que el plugin pueda leer tu plan."}
+{"n": 732, "note": "translators: keep {plan} as written; it is replaced with a value.", "msgid": "You are on the {plan} plan", "msgstr": "Estás en el plan {plan}"}
+{"n": 733, "msgid": "Your shop is ready for real orders. Here is how much of this period you have used.", "msgstr": "Tu tienda está lista para recibir pedidos reales. Esto es lo que has usado en este periodo."}
+{"n": 734, "msgid": "You are on the Free plan. For a shop taking real orders we recommend at least Standard: more quotes every month, more storage and priority support.", "msgstr": "Estás en el plan Free. Para una tienda que recibe pedidos reales, recomendamos como mínimo Standard: más presupuestos cada mes, más almacenamiento y soporte prioritario."}
+{"n": 735, "note": "translators: keep {limit} as written; it is replaced with a value.", "msgid": "You can also continue on the Free plan ({limit} quotes per month) and upgrade later from the dashboard.", "msgstr": "También puedes continuar con el plan Free ({limit} presupuestos al mes) y mejorarlo más adelante desde el panel."}
+{"n": 736, "msgid": "Quotes go into the WooCommerce cart as a carrier product. Let the plugin create it, or pick one of your own.", "msgstr": "Los presupuestos se añaden al carrito de WooCommerce como un producto contenedor. Deja que el plugin lo cree o elige uno de tus productos."}
+{"n": 737, "msgid": "Edit any product and tick \"Quote3D configurator\" on its General tab.", "msgstr": "Edita cualquier producto y marca «Configurador de Quote3D» en su pestaña General."}
+{"n": 738, "note": "translators: keep {shortcode} as written; it is replaced with a value.", "msgid": "Add the {shortcode} shortcode to a page, for example \"Get a quote\".", "msgstr": "Añade el shortcode {shortcode} a una página, por ejemplo «Solicitar presupuesto»."}
+{"n": 739, "msgid": "Quote3D is installed. Anything still open is listed below and in your dashboard.", "msgstr": "Quote3D está instalado. Lo que quede pendiente aparece a continuación y en tu panel."}
+{"n": 740, "msgid": "File deleted", "msgstr": "Archivo borrado"}
+{"n": 741, "note": "translators: keep {count}, {days} as written; they are replaced with a value.", "msgid": "Quote3D: {count} model file(s) of this order were deleted {days} days after delivery.", "msgstr": "Quote3D: se borraron {count} archivo(s) de modelo de este pedido {days} días después de la entrega."}
+{"n": 742, "note": "translators: keep {error} as written; it is replaced with a value.", "msgid": "Quote3D: the model files of this order could not be deleted after several attempts ({error}). You can delete them in your Quote3D dashboard.", "msgstr": "Quote3D: los archivos de modelo de este pedido no se pudieron borrar tras varios intentos ({error}). Puedes borrarlos en tu panel de Quote3D."}
+{"n": 743, "msgid": "This model file no longer exists on Quote3D. It was deleted automatically or by hand.", "msgstr": "Este archivo de modelo ya no existe en Quote3D. Se borró automáticamente o a mano."}
+{"n": 744, "ctx": "delete.button", "msgid": "Delete", "msgstr": "Borrar"}
+{"n": 745, "note": "translators: keep {count} as written; it is replaced with a value.", "msgid": "Delete {count} quote record(s)?", "msgstr": "¿Borrar {count} registro(s) de presupuesto?"}
+{"n": 746, "msgid": "Delete the record only", "msgstr": "Borrar solo el registro"}
+{"n": 747, "msgid": "Delete the record and its model file", "msgstr": "Borrar el registro y su archivo"}
+{"n": 748, "msgid": "The file is also deleted on Quote3D and frees up storage. This cannot be undone.", "msgstr": "El archivo también se borra en Quote3D y libera almacenamiento. No se puede deshacer."}
+{"n": 749, "ctx": "delete.confirm", "msgid": "Delete", "msgstr": "Borrar"}
+{"n": 750, "note": "translators: keep {count} as written; it is replaced with a value.", "msgid": "{count} quote record(s) deleted.", "msgstr": "{count} registro(s) de presupuesto borrado(s)."}
+{"n": 751, "note": "translators: keep {count} as written; it is replaced with a value.", "msgid": "{count} model file(s) deleted on Quote3D.", "msgstr": "{count} archivo(s) de modelo borrado(s) en Quote3D."}
+{"n": 752, "note": "translators: keep {error} as written; it is replaced with a value.", "msgid": "The model files could not be deleted on Quote3D, so no record was deleted: {error}", "msgstr": "No se pudieron borrar los archivos en Quote3D, así que no se borró ningún registro: {error}"}
+{"n": 753, "msgid": "They move to WooCommerce's trash, where you can restore or permanently delete them. Keep invoiced orders for their legal retention period.", "msgstr": "Pasan a la papelera de WooCommerce, donde puedes restaurarlos o borrarlos permanentemente. Conserva los pedidos facturados durante el plazo legal."}
+{"n": 754, "msgid": "When you use the 3D print configurator, the model file you upload (STL, OBJ, 3MF or STEP) and the print options you choose are sent to Quote3D (quote3d.com), the service that calculates the price. Your name, email address and payment details are not sent.", "msgstr": "Cuando usas el configurador de impresión 3D, el archivo de modelo que subes (STL, OBJ o 3MF) y las opciones de impresión que eliges se envían a Quote3D (quote3d.com), el servicio que calcula el precio. No se envían tu nombre, tu dirección de correo electrónico ni tus datos de pago."}
+{"n": 755, "msgid": "Quote3D keeps the model file for this shop so the part can be printed. The shop keeps the file name, a preview image and the print options with your cart and order.", "msgstr": "Quote3D conserva el archivo de modelo para esta tienda, de modo que la pieza pueda imprimirse. La tienda guarda el nombre del archivo, una imagen de vista previa y las opciones de impresión junto con tu carrito y tu pedido."}
+{"n": 756, "msgid": "If the shop turned it on, model files are deleted from Quote3D some days after the order is delivered. You can ask the shop to delete your model files at any time; this is done with the personal data erasure request.", "msgstr": "Si la tienda lo ha activado, los archivos de modelo se borran de Quote3D unos días después de entregar el pedido. Puedes pedir a la tienda que borre tus archivos de modelo en cualquier momento; se hace mediante la solicitud de borrado de datos personales."}
+{"n": 757, "note": "translators: keep {number}, {error} as written; they are replaced with a value.", "msgid": "Order #{number}: the model files could not be deleted on Quote3D ({error}). Run the request again later.", "msgstr": "Pedido n.º {number}: no se pudieron borrar los archivos de modelo en Quote3D ({error}). Vuelve a ejecutar la solicitud más tarde."}
+{"n": 758, "msgid": "Aligned Rectilinear", "msgstr": "Rectilíneo alineado"}
+{"n": 759, "msgid": "Cross Zag", "msgstr": "Zig Zag cruzado"}
+{"n": 760, "msgid": "Locked Zag", "msgstr": "Zig Zag bloqueado"}
+{"n": 761, "msgid": "Tri-Hexagon", "msgstr": "Tri-hexágono"}
+{"n": 762, "msgid": "Adaptive Cubic", "msgstr": "Cúbico adaptativo"}
+{"n": 763, "msgid": "Support Cubic", "msgstr": "Cúbico de soporte"}
+{"n": 764, "msgid": "3D Honeycomb", "msgstr": "Panal de abeja 3D"}
+{"n": 765, "msgid": "Lateral Honeycomb", "msgstr": "Panal de abeja lateral"}
+{"n": 766, "msgid": "Monotonic Line", "msgstr": "Línea monotónica"}
+{"n": 767, "msgid": "The cart product is not set or was deleted", "msgstr": "El producto del carrito no está configurado o se borró"}
+{"n": 768, "msgid": "The quote already includes tax and WooCommerce would add its own on top (Quote3D tax rate above 0, WooCommerce prices entered without tax)", "msgstr": "El presupuesto ya incluye impuestos y WooCommerce añadiría los suyos (tasa de impuesto de Quote3D mayor que 0, precios de WooCommerce introducidos sin impuestos)"}
+{"n": 769, "note": "translators: keep {error} as written; it is replaced with a value.", "msgid": "The models of this customer's unordered carts could not be deleted on Quote3D: {error}", "msgstr": "No se pudieron borrar en Quote3D los modelos de los carritos sin pedido de este cliente: {error}"}
+{"n": 770, "msgid": "Order deleted", "msgstr": "Pedido borrado"}
+{"n": 771, "msgid": "Here is every material and colour Quote3D knows. Tick the ones you print; each becomes your own copy that you can price and stock. The quote form then offers only these. You can change it any time under Quote3D › Catalog.", "msgstr": "Aquí están todos los materiales y colores que conoce Quote3D. Marca los que imprimes; cada uno se convierte en tu propia copia, con tu precio y tu inventario. El formulario de presupuesto solo ofrecerá esos. Puedes cambiarlo cuando quieras en Quote3D › Catálogo."}
+{"n": 772, "msgid": "Connect the server token first; the catalog is read from your Quote3D account. You can skip this step and do it later under Quote3D › Catalog.", "msgstr": "Conecta primero el token de servidor; el catálogo se lee de tu cuenta de Quote3D. Puedes omitir este paso y hacerlo luego en Quote3D › Catálogo."}
+{"n": 773, "msgid": "Catalog and stock", "msgstr": "Catálogo e inventario"}
+{"n": 774, "ctx": "overview.stock_low", "note": "translators: keep {count} as written; it is replaced with a value.", "msgid": "Colours running low: {count}", "msgstr": "Colores con pocas existencias: {count}"}
+{"n": 775, "note": "translators: keep {out}, {count} as written; they are replaced with a value.", "msgid": "Colours out of stock: {out} · need attention: {count}", "msgstr": "Colores sin existencias: {out} · requieren atención: {count}"}
+{"n": 776, "msgid": "The colour ran out of stock", "msgstr": "El color se quedó sin existencias"}
+{"n": 777, "msgid": "Sorry, there is not enough of this colour in stock right now. Please choose another colour or material.", "msgstr": "Lo siento, ahora mismo no hay suficientes existencias de este color. Elige otro color o material."}
+{"n": 778, "msgid": "This quote has already been ordered. Please create a new quote to order the part again.", "msgstr": "Este presupuesto ya se ha pedido. Crea un presupuesto nuevo para volver a pedir la pieza."}
+{"n": 779, "note": "translators: keep {lines} as written; it is replaced with a value.", "msgid": "Quote3D: taken from stock — {lines}.", "msgstr": "Quote3D: descontado del inventario — {lines}."}
+{"n": 780, "note": "translators: keep {lines} as written; it is replaced with a value.", "msgid": "Quote3D: put back into stock — {lines}.", "msgstr": "Quote3D: devuelto al inventario — {lines}."}
+{"n": 781, "note": "translators: keep {material}, {color} as written; they are replaced with a value.", "msgid": "{material} {color} is not in the catalog, stock not changed", "msgstr": "{material} {color} no está en el catálogo, inventario sin cambios"}
+{"n": 782, "note": "translators: keep {parts} as written; it is replaced with a value.", "msgid": "Quote3D: these parts were already printed, so their material was not put back into stock: {parts}.", "msgstr": "Quote3D: estas piezas ya estaban impresas, su material no se devolvió al inventario: {parts}."}
+{"n": 783, "note": "translators: keep {error} as written; it is replaced with a value.", "msgid": "Quote3D: the stock could not be updated ({error}). Check it in Quote3D › Catalog.", "msgstr": "Quote3D: no se pudo actualizar el inventario ({error}). Revísalo en Quote3D › Catálogo."}
+{"n": 784, "msgid": "Materials & stock", "msgstr": "Materiales e inventario"}
+{"n": 785, "ctx": "catalog.low_banner", "note": "translators: keep {count} as written; it is replaced with a value.", "msgid": "Colours running low: {count}", "msgstr": "Colores con pocas existencias: {count}"}
+{"n": 786, "note": "translators: keep {out}, {count} as written; they are replaced with a value.", "msgid": "Colours out of stock: {out}. They cannot be picked in the quote form. Need attention: {count}.", "msgstr": "Colores sin existencias: {out}. No se pueden elegir en el formulario de presupuesto. Requieren atención: {count}."}
+{"n": 787, "msgid": "Add stock with “Update stock” next to the colour; out-of-stock colours come back to the form as soon as they have stock again.", "msgstr": "Añade existencias con «Actualizar inventario» junto al color; los colores agotados vuelven al formulario en cuanto vuelve a haber existencias."}
+{"n": 788, "msgid": "Default", "msgstr": "Por defecto"}
+{"n": 789, "ctx": "catalog.col.stock", "msgid": "Stock", "msgstr": "Inventario"}
+{"n": 790, "ctx": "catalog.delete", "msgid": "Delete", "msgstr": "Borrar"}
+{"n": 791, "note": "translators: keep {name} as written; it is replaced with a value.", "msgid": "Delete {name}", "msgstr": "Borrar {name}"}
+{"n": 792, "note": "translators: keep {name} as written; it is replaced with a value.", "msgid": "Delete {name}?", "msgstr": "¿Borrar {name}?"}
+{"n": 793, "msgid": "It leaves your catalog and the quote form. Its stock history is kept. Orders already placed are not affected.", "msgstr": "Sale de tu catálogo y del formulario. Su historial de inventario se conserva. Los pedidos ya hechos no se ven afectados."}
+{"n": 794, "note": "translators: keep {name} as written; it is replaced with a value.", "msgid": "{name} was deleted.", "msgstr": "{name} se borró."}
+{"n": 795, "msgid": "The quote form now shows Quote3D's ready-made list. Pick the materials and colours you really print from the full catalogue, set your own prices and, if you like, track the stock of each colour.", "msgstr": "El formulario muestra ahora la lista predefinida de Quote3D. Elige del catálogo completo los materiales y colores que realmente imprimes, pon tus precios y, si quieres, controla el inventario de cada color."}
+{"n": 796, "msgid": "Quotes are priced on these machines. The widget does not ask shoppers for a printer; it uses the default one of each technology.", "msgstr": "Los presupuestos se calculan con estas máquinas. El widget no pregunta la impresora; usa la impresora por defecto de cada tecnología."}
+{"n": 797, "msgid": "Each material becomes your own copy: set its price, choose its colours, track its stock.", "msgstr": "Cada material se convierte en tu copia: fija su precio, elige sus colores, controla su inventario."}
+{"n": 798, "msgid": "Track stock of these colours", "msgstr": "Controlar el inventario de estos colores"}
+{"n": 799, "msgid": "Starting stock per colour", "msgstr": "Inventario inicial por color"}
+{"n": 800, "msgid": "Blank (general defaults)", "msgstr": "En blanco (valores generales por defecto)"}
+{"n": 801, "msgid": "Colours & stock", "msgstr": "Colores e inventario"}
+{"n": 802, "note": "translators: keep {material} as written; it is replaced with a value.", "msgid": "Colours and stock — {material}", "msgstr": "Colores e inventario — {material}"}
+{"n": 803, "msgid": "Off: hidden in the quote form, kept here with its stock.", "msgstr": "Desactivado: oculto en el formulario, se queda aquí con su inventario."}
+{"n": 804, "note": "translators: keep {stock} as written; it is replaced with a value.", "msgid": "It still has {stock} in stock. Its stock history is kept, but the colour leaves the quote form. Switching it off hides it and keeps the stock.", "msgstr": "Aún quedan {stock} en existencias. El historial se conserva, pero el color sale del formulario. Desactivarlo lo oculta y conserva el inventario."}
+{"n": 805, "msgid": "Track stock", "msgstr": "Controlar inventario"}
+{"n": 806, "msgid": "Paid orders take their weight (parts and supports) out of the colour's stock; cancelled orders put back what was not printed. A colour with no stock cannot be picked in the quote form.", "msgstr": "Los pedidos pagados descuentan su peso (piezas y soportes) del inventario del color; los cancelados devuelven lo no impreso. Un color sin existencias no se puede elegir."}
+{"n": 807, "msgid": "Stock is not tracked; every active colour can always be picked. Switch it on to enter what you have and let orders count it down.", "msgstr": "El inventario no se controla; cualquier color activo se puede elegir siempre. Actívalo para introducir lo que tienes y que los pedidos lo descuenten."}
+{"n": 808, "msgid": "Low-stock warning at", "msgstr": "Advertencia de inventario bajo a partir de"}
+{"n": 809, "msgid": "No warning", "msgstr": "Sin advertencia"}
+{"n": 810, "msgid": "Stock is kept in grams; this lets you enter and read it in packages too.", "msgstr": "El inventario se lleva en gramos; así también puedes introducirlo y verlo por unidades."}
+{"n": 811, "ctx": "catalog.stock.column", "msgid": "In stock", "msgstr": "Existencias"}
+{"n": 812, "ctx": "catalog.stock.initial", "msgid": "Starting stock", "msgstr": "Inventario inicial"}
+{"n": 813, "note": "translators: keep {color} as written; it is replaced with a value.", "msgid": "Starting stock of {color}", "msgstr": "Inventario inicial de {color}"}
+{"n": 814, "msgid": "Update stock", "msgstr": "Actualizar inventario"}
+{"n": 815, "ctx": "catalog.stock.ok", "msgid": "In stock", "msgstr": "Hay existencias"}
+{"n": 816, "ctx": "catalog.movement.initial", "msgid": "Starting stock", "msgstr": "Inventario inicial"}
+{"n": 817, "msgid": "Material you received: it is added to the stock.", "msgstr": "Material recibido: se suma al inventario."}
+{"n": 818, "msgid": "What you counted on the shelf: it replaces the stock.", "msgstr": "Lo que contaste en el estante: sustituye al inventario."}
+{"n": 819, "msgid": "Failed prints, tests or damaged material: it is taken from the stock.", "msgstr": "Impresiones fallidas, pruebas o material dañado: se resta del inventario."}
+{"n": 820, "note": "translators: keep {color}, {balance} as written; they are replaced with a value.", "msgid": "{color}: stock is now {balance}.", "msgstr": "{color}: el inventario ahora es {balance}."}
+{"n": 821, "msgid": "Stock history", "msgstr": "Historial de inventario"}
+{"n": 822, "msgid": "How Quote3D turns a model into a price: fees, tax, minimum price, post-processing and batch production. The same settings as the Pricing tab of the Quote3D dashboard.", "msgstr": "Cómo convierte Quote3D un modelo en un precio: cuotas, impuestos, precio mínimo, posprocesado y producción en serie. Los mismos ajustes que la pestaña Precios del panel de Quote3D."}
+{"n": 823, "msgid": "Quote3D defaults", "msgstr": "Valores por defecto de Quote3D"}
+{"n": 824, "msgid": "Go back to Quote3D defaults", "msgstr": "Volver a los valores por defecto de Quote3D"}
+{"n": 825, "msgid": "Use Quote3D's default pricing?", "msgstr": "¿Usar los precios por defecto de Quote3D?"}
+{"n": 826, "msgid": "Quote3D's default pricing is in use.", "msgstr": "Se usan los precios por defecto de Quote3D."}
+{"n": 827, "note": "translators: keep {store}, {quote} as written; they are replaced with a value.", "msgid": "The currency of your Quote3D account changes too, so the dashboard, the widget and the API all price in {store}. Amounts are not converted: a material at 25 {quote}/kg becomes 25 {store}/kg. Check your material prices, hourly rates and fees afterwards.", "msgstr": "También cambia la moneda de tu cuenta de Quote3D: el panel, el widget y la API calcularán en {store}. Los importes no se convierten: un material a 25 {quote}/kg pasa a 25 {store}/kg. Revisa después los precios de materiales, las tarifas por hora y las cuotas."}
+{"n": 828, "ctx": "col.stock", "msgid": "Stock", "msgstr": "Inventario"}
+{"n": 829, "note": "translators: keep {grams} as written; it is replaced with a value.", "msgid": "{grams} g taken from stock", "msgstr": "{grams} g descontados del inventario"}
+{"n": 830, "note": "translators: keep {grams} as written; it is replaced with a value.", "msgid": "{grams} g put back into stock", "msgstr": "{grams} g devueltos al inventario"}
+{"n": 831, "msgid": "Stock is not tracked for this material", "msgstr": "Este material no controla inventario"}
+{"n": 832, "msgid": "Stock could not be updated", "msgstr": "No se pudo actualizar el inventario"}
+{"n": 833, "msgid": "Being taken from stock…", "msgstr": "Descontando del inventario…"}
+{"n": 834, "msgid": "Being put back into stock…", "msgstr": "Devolviendo al inventario…"}

@@ -1,0 +1,6 @@
+{"n": 620, "verdict": "reject", "msgstr": "pedido #{number}", "comment": "Se mantiene «#» como en el original, no «n.º»."}
+{"n": 639, "verdict": "reject", "msgstr": "Alguien lo cambió mientras tanto (en el escritorio o en otra pestaña). Ciérralo, ábrelo de nuevo y repite el cambio.", "comment": "Según el glosario, «Dashboard» se traduce como «escritorio», no como «panel»."}
+{"n": 653, "verdict": "reject", "msgstr": "Los presupuestos se calculan en {quote}, pero tu tienda vende en {store}, que Quote3D no es compatible. El cliente no podrá añadir presupuestos al carrito hasta que la moneda de la tienda sea una compatible con Quote3D.", "comment": "Según el glosario, «support» en sentido de compatibilidad se traduce como «es compatible con»."}
+{"n": 679, "verdict": "reject", "msgstr": "No tienes permisos para hacer esto.", "comment": "Según el glosario, «not allowed» se traduce como «no tienes permisos» (en plural)."}
+{"n": 684, "verdict": "reject", "msgstr": "Este token no tiene permisos para leer los datos de la cuenta. Usa un token de servidor (no un token de widget).", "comment": "Según el glosario, «not allowed» se traduce como «no tienes permisos» (en plural)."}
+{"n": 693, "verdict": "reject", "msgstr": "No tienes permisos para ver esta página.", "comment": "Según el glosario, «not allowed» se traduce como «no tienes permisos» (en plural)."}

@@ -1,0 +1,358 @@
+{"n": 13, "verdict": "reject", "msgstr": "Copia este shortcode con los ajustes de filtro actuales para usarlo en otras páginas:", "comment": "Según el glosario, «settings» se traduce como «ajustes», no como «configuración»."}
+{"n": 33, "verdict": "reject", "msgstr": "Las ubicaciones de estas cafeterías provienen de datos de la comunidad de OpenStreetMap. Esta información no ha sido seleccionada, verificada, respaldada ni aprobada por RFCC. Los detalles de las cafeterías, los horarios de apertura y la disponibilidad pueden estar desactualizados o ser incorrectos. Por favor, verifícalo de forma independiente antes de tu visita.", "comment": "Según el glosario, «curated» se traduce como «seleccionado» cuando se habla de selección de contenidos."}
+{"n": 47, "verdict": "reject", "msgstr": "Anular selección", "comment": "Según el glosario, «deselect» se traduce como «anular selección», no como «deseleccionar»."}
+{"n": 48, "verdict": "reject", "msgstr": "Anular selección de destino", "comment": "Según el glosario, «deselect» se traduce como «anular selección», no como «deseleccionar»."}
+{"n": 74, "verdict": "reject", "msgstr": "Bloquear/desbloquear al pasar el cursor: cuando está desbloqueado, al pasar el cursor sobre el gráfico se mueve el marcador del mapa", "comment": "Según el glosario, «hover» se traduce como «al pasar el cursor», no se deja en inglés."}
+{"n": 75, "verdict": "reject", "msgstr": "Al pasar el cursor está bloqueado: haz clic para desbloquearlo. Cuando está desbloqueado, al pasar el cursor sobre el gráfico se mueve el marcador del mapa", "comment": "Según el glosario, «hover» se traduce como «al pasar el cursor», no se deja en inglés."}
+{"n": 188, "verdict": "fix", "msgstr": "Añadido «%s» a la ruta", "comment": "Las comillas del texto deben ser «»."}
+{"n": 189, "verdict": "fix", "msgstr": "Añadido «%s» a la ruta (no se pudo calcular la distancia)", "comment": "Las comillas del texto deben ser «»."}
+{"n": 191, "verdict": "fix", "msgstr": "No se encontraron destinos que coincidan con «%s» con el tipo de marcador seleccionado.", "comment": "Las comillas del texto deben ser «»."}
+{"n": 195, "verdict": "reject", "msgstr": "La biblioteca de mapas Leaflet no está disponible", "comment": "Según el glosario, «library» se traduce como «biblioteca», no como «librería»."}
+{"n": 200, "verdict": "reject", "msgstr": "La ventana emergente de marcadores personalizados no está disponible. Por favor, actualiza la página.", "comment": "Según el glosario, «modal» se traduce como «emergente»."}
+{"n": 204, "verdict": "fix", "msgstr": "¡Marcador «%s» actualizado correctamente!", "comment": "Las comillas del texto deben ser «»."}
+{"n": 205, "verdict": "reject", "msgstr": "¿Seguro que quieres borrar este marcador?", "comment": "Según el glosario, «are you sure» se traduce como «¿Seguro que…?» y «delete» como «borrar»."}
+{"n": 206, "verdict": "reject", "msgstr": "Marcador borrado correctamente", "comment": "Según el glosario, «delete» se traduce como «borrar»."}
+{"n": 207, "verdict": "fix", "msgstr": "Edita los detalles del destino a través de la gestión de destinos", "comment": "Las palabras de los nombres de sección no llevan mayúscula en mitad de la frase."}
+{"n": 215, "verdict": "fix", "msgstr": "Este es un destino global - edítalo a través de la gestión de destinos", "comment": "Las palabras de los nombres de sección no llevan mayúscula en mitad de la frase."}
+{"n": 218, "verdict": "fix", "msgstr": "No se encontraron resultados para «%s»", "comment": "Las comillas del texto deben ser «»."}
+{"n": 222, "verdict": "fix", "msgstr": "¡Marcador específico de la ruta «%s» añadido correctamente!", "comment": "Las comillas del texto deben ser «»."}
+{"n": 227, "verdict": "reject", "msgstr": "No se ha podido identificar esta ruta.", "comment": "Según el glosario, «unable» se traduce como «no se ha podido»."}
+{"n": 231, "verdict": "fix", "msgstr": "Filtro de rutas (avanzado)", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 232, "verdict": "reject", "msgstr": "Filtro de rutas completo con distancia, desnivel, dirección, tipo de actividad, agrupación y desplazamiento infinito.", "comment": "Según el glosario, «scroll» se traduce como «desplazamiento»."}
+{"n": 238, "verdict": "reject", "msgstr": "Filtro de rutas interactivo con todos los criterios y desplazamiento infinito", "comment": "Según el glosario, «scroll» se traduce como «desplazamiento»."}
+{"n": 260, "verdict": "reject", "msgstr": "Requerir acceso", "comment": "Según el glosario, «login» se traduce como «acceder» o «acceso», no como «inicio de sesión»."}
+{"n": 270, "verdict": "reject", "msgstr": "Quita el enlace a la página de la ruta", "comment": "Según el glosario, «remove» se traduce casi siempre como «quitar»."}
+{"n": 282, "verdict": "reject", "msgstr": "Este bloque muestra el formulario de filtro de rutas en la parte pública", "comment": "Según el glosario, «frontend» se traduce como «parte pública» (o «portada», según contexto)."}
+{"n": 293, "verdict": "reject", "msgstr": "Muestra el buscador de rutas interactivo en la parte pública", "comment": "Según el glosario, «frontend» se traduce como «parte pública» (o «portada», según contexto)."}
+{"n": 304, "verdict": "fix", "msgstr": "Mapa + tabla", "comment": "Solo la primera palabra de la etiqueta va con mayúscula."}
+{"n": 308, "verdict": "reject", "msgstr": "Nivel de ampliación", "comment": "Según el glosario, «zoom» se traduce como «ampliar» o «acercar»; no se deja en inglés."}
+{"n": 323, "verdict": "reject", "msgstr": "Sección destacada", "comment": "Según el glosario, «hero» se traduce como «Sección destacada»."}
+{"n": 340, "verdict": "reject", "msgstr": "Tarjeta de mapa de sección destacada a ancho completo", "comment": "Según el glosario, «hero» se traduce como «sección destacada»."}
+{"n": 341, "verdict": "reject", "msgstr": "Tarjeta de mapa de sección destacada (ancho del tema)", "comment": "Según el glosario, «hero» se traduce como «sección destacada»."}
+{"n": 345, "verdict": "fix", "msgstr": "Dirección de la ruta", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 346, "verdict": "fix", "msgstr": "Destinos principales", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 347, "verdict": "fix", "msgstr": "Destinos adicionales", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 349, "verdict": "fix", "msgstr": "Detección de pueblos", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 350, "verdict": "fix", "msgstr": "Descripción completa", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 351, "verdict": "fix", "msgstr": "Ver ruta", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 352, "verdict": "fix", "msgstr": "Atajos de ruta", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 353, "verdict": "fix", "msgstr": "Perfiles de escalada", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 354, "verdict": "fix", "msgstr": "Editar ruta", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 360, "verdict": "fix", "msgstr": "Filtros avanzados", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 361, "verdict": "fix", "msgstr": "Todas las rutas", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 364, "verdict": "fix", "msgstr": "Mostrar todo", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 365, "verdict": "fix", "msgstr": "Guardar preferencias de columna", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 367, "verdict": "fix", "msgstr": "Establecer contraseña para la ruta", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 370, "verdict": "fix", "msgstr": "Borrar contraseña", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 371, "verdict": "fix", "msgstr": "Guardar contraseña", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 374, "verdict": "fix", "msgstr": "Nombre del perfil", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 375, "verdict": "fix", "msgstr": "Elevación mín.", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 376, "verdict": "fix", "msgstr": "Elevación máx.", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 378, "verdict": "reject", "msgstr": "Texto de la información emergente", "comment": "Según el glosario, «tooltip» se traduce como «información emergente»."}
+{"n": 379, "verdict": "fix", "msgstr": "Añadir fila", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 380, "verdict": "fix", "msgstr": "Restablecer todo", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 381, "verdict": "reject", "msgstr": "Cargar valores por defecto", "comment": "Según el glosario, «default» se traduce como «por defecto», no como «predeterminado»."}
+{"n": 383, "verdict": "fix", "msgstr": "Método de asignación de grupos del club", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 384, "verdict": "fix", "msgstr": "Modo de asignación", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 385, "verdict": "fix", "msgstr": "Solo cálculo automático", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 386, "verdict": "fix", "msgstr": "Solo asignación manual", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 388, "verdict": "fix", "msgstr": "Ambos (anulación manual)", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 390, "verdict": "fix", "msgstr": "Nombre del grupo", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 391, "verdict": "fix", "msgstr": "Distancia mín.", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 392, "verdict": "fix", "msgstr": "Distancia máx.", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 393, "verdict": "reject", "msgstr": "¿Seguro que quieres borrar el grupo?", "comment": "Según el glosario, «are you sure» se traduce como «¿Seguro que…?» y «delete» como «borrar». El original no lleva signo de cierre; lo he añadido porque el español lo necesita."}
+{"n": 399, "verdict": "fix", "msgstr": "Página destacada del grupo", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 401, "verdict": "fix", "msgstr": "La página que contiene el shortcode [rfcc_v2_group]. Se utiliza para el botón «Página destacada del grupo» en las páginas de detalles de la ruta.", "comment": "Las comillas del texto deben ser «» y el nombre del botón va en minúscula."}
+{"n": 402, "verdict": "fix", "msgstr": "Mostrar botón de página destacada del grupo", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 403, "verdict": "fix", "msgstr": "Mostrar un botón «Página destacada del grupo» en las páginas de detalles de la ruta cuando se ve desde un grupo.", "comment": "Las comillas del texto deben ser «»."}
+{"n": 404, "verdict": "fix", "msgstr": "Tabla de estadísticas e información de la ruta", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 440, "verdict": "reject", "msgstr": "Controla la sección «Información de la ruta» en las páginas de rutas individuales (aparece encima de la descripción de la ruta). Las rutas individuales pueden anular este ajuste.", "comment": "Las comillas deben ser «», y según el glosario «setting» se traduce como «ajuste»."}
+{"n": 442, "verdict": "reject", "msgstr": "Controla la sección «Descripción de la ruta» en las páginas de rutas individuales. Las rutas individuales pueden anular este ajuste.", "comment": "Las comillas deben ser «», y según el glosario «setting» se traduce como «ajuste»."}
+{"n": 443, "verdict": "fix", "msgstr": "Tarjeta de indicaciones (giro a giro)", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 445, "verdict": "fix", "msgstr": "Controla si se muestran las instrucciones «giro a giro» para las rutas donde la información está almacenada para esa ruta.", "comment": "Las comillas del texto deben ser «»."}
+{"n": 453, "verdict": "reject", "msgstr": "Color de fondo del área del gráfico del perfil de elevación. El valor por defecto es el verde claro original (#ebf3d3).", "comment": "Según el glosario, «default» se traduce como «por defecto», no como «predeterminado»."}
+{"n": 456, "verdict": "reject", "msgstr": "Quita las líneas de referencia horizontales del gráfico. Se aplica tanto a v1 como a v2.", "comment": "Según el glosario, «remove» se traduce casi siempre como «quitar»."}
+{"n": 471, "verdict": "reject", "msgstr": "Relleno por defecto del gráfico de elevación. El gradiente mantiene el color basado en la elevación; el sólido rellena el área con un solo color.", "comment": "Según el glosario, «default» se traduce como «por defecto», no como «predeterminado»."}
+{"n": 474, "verdict": "reject", "msgstr": "Los iconos de los marcadores se dibujan a lo largo del perfil a su distancia en la ruta. Al pasar el cursor se muestra una información emergente; al hacer clic se bloquea la posición y se muestra el marcador en el mapa (mismo comportamiento que al hacer clic en un destino).", "comment": "Según el glosario, «hover» se traduce como «al pasar el cursor» y «tooltip» como «información emergente»."}
+{"n": 482, "verdict": "fix", "msgstr": "Muestra las «paradas» de destino/destino a mitad de ruta (como cafeterías) en la página de información de la ruta.", "comment": "Las comillas del texto deben ser «»."}
+{"n": 483, "verdict": "fix", "msgstr": "Controla si las «paradas» del destino «principal» y del destino a mitad de ruta se muestran en la tabla de información de la ruta, cuando estén disponibles.", "comment": "Las comillas del texto deben ser «»."}
+{"n": 487, "verdict": "fix", "msgstr": "Mostrar información detallada sobre el destino principal de la ruta seleccionada (si está disponible). Controla si se muestra información detallada sobre el destino principal de la ruta. Esto puede mostrar información enriquecida y fotografías que se pueden editar en el editor de destinos.", "comment": "Las palabras «destino» y «destinos» no llevan mayúscula en mitad de la frase."}
+{"n": 492, "verdict": "fix", "msgstr": "Muestra «paradas» cercanas de OSM en caché (como cafeterías) en la página de información de la ruta.", "comment": "Las comillas del texto deben ser «»."}
+{"n": 496, "verdict": "reject", "msgstr": "Si se ha procesado la detección automática de localidades para la ruta, permitir al usuario hacer clic en los nombres de las localidades para centrar el mapa que se muestra en la página de información de la ruta y acercarlo.", "comment": "Según el glosario, «zoom» se traduce como «acercar» o «ampliar», no se deja en inglés."}
+{"n": 511, "verdict": "fix", "msgstr": "API de Google Places (opción premium):", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 519, "verdict": "fix", "msgstr": "OpenStreetMap (opción gratuita):", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 526, "verdict": "reject", "msgstr": "Para activar la búsqueda de Google Places, primero configura una clave de API de Google Places en", "comment": "Hay que tutear: «configura», no «configure»."}
+{"n": 530, "verdict": "reject", "msgstr": "• Considera establecer <strong>cuotas diarias</strong> para controlar los costes", "comment": "Hay que tutear: «considera», no «considere»."}
+{"n": 562, "verdict": "fix", "msgstr": "Controla si los enlaces de rutas externas se muestran en las tablas de información de la ruta. Cuando está desactivado, la fila «Enlace(s) de la ruta» se ocultará tanto en las visualizaciones de rutas individuales como múltiples.", "comment": "Las comillas del texto deben ser «»."}
+{"n": 564, "verdict": "fix", "msgstr": "Descripción completa (recurre a la descripción de la ruta si está vacía)", "comment": "Las palabras de los nombres de campo no llevan mayúscula en mitad de la frase."}
+{"n": 565, "verdict": "fix", "msgstr": "Descripción de la ruta (recurre a la descripción completa si está vacía)", "comment": "Las palabras de los nombres de campo no llevan mayúscula en mitad de la frase."}
+{"n": 569, "verdict": "fix", "msgstr": "Controla las descargas de archivos GPX, la personalización de rutas y la función de navegación «ruta hasta mí».", "comment": "Las comillas del texto deben ser «»."}
+{"n": 573, "verdict": "reject", "msgstr": "Quitar autor del GPX subido", "comment": "Según el glosario, «remove» se traduce casi siempre como «quitar»; «eliminar» solo para borrados físicos."}
+{"n": 574, "verdict": "reject", "msgstr": "Quitar el nombre del autor y los enlaces de Strava al subir un archivo GPX", "comment": "Según el glosario, «remove» se traduce casi siempre como «quitar»; «eliminar» solo para borrados físicos."}
+{"n": 575, "verdict": "reject", "msgstr": "Cuando está activado, el bloque &lt;author&gt; (nombre y enlace del atleta) y cualquier enlace de ruta de Strava se quitan de los metadatos del GPX antes de guardar el archivo. La información de copyright y del creador se mantiene. Activado por defecto.", "comment": "Según el glosario, «remove» se traduce casi siempre como «quitar»."}
+{"n": 576, "verdict": "fix", "msgstr": "Sección para personalizar esta ruta", "comment": "Según el glosario, «customize» se traduce como «personalizar», en minúscula."}
+{"n": 577, "verdict": "fix", "msgstr": "Mostrar el panel «Personalizar esta ruta» en las páginas de rutas individuales", "comment": "Las comillas del texto deben ser «»."}
+{"n": 581, "verdict": "fix", "msgstr": "Activa la opción de personalización «Empezar desde el punto más cercano». El navegador solicitará la ubicación del usuario; este sitio no almacena ningún dato de ubicación.", "comment": "Las comillas del texto deben ser «»."}
+{"n": 583, "verdict": "fix", "msgstr": "Mostrar enlace «Ruta al punto más cercano en la ruta»", "comment": "Las comillas del texto deben ser «»."}
+{"n": 584, "verdict": "fix", "msgstr": "Permitir a los visitantes no registrados usar la función «ruta hasta mí»", "comment": "Las comillas del texto deben ser «»."}
+{"n": 587, "verdict": "reject", "msgstr": "Cuando está desactivado, todos los usuarios pueden hacer solicitudes de ruta ilimitadas. Desmárcalo solo para pruebas y vuelve a activarlo antes de ponerlo en producción.", "comment": "Hay que tutear: «desmárcalo» y «vuelve», no las formas de usted."}
+{"n": 592, "verdict": "reject", "msgstr": "Ajustes de la página destacada (tarjeta de mapa)", "comment": "Según el glosario, «hero» se traduce como «destacada» y «settings» como «ajustes»."}
+{"n": 593, "verdict": "reject", "msgstr": "Mostrar insignias de escalada en las páginas destacadas", "comment": "Según el glosario, «hero» se traduce como «destacada»."}
+{"n": 594, "verdict": "reject", "msgstr": "Mostrar insignias de clasificación de colinas en las páginas destacadas de la tarjeta de mapa", "comment": "Según el glosario, «hero» se traduce como «destacada»."}
+{"n": 595, "verdict": "reject", "msgstr": "Estadísticas de subida (tarjetas destacadas)", "comment": "Según el glosario, «hero» se traduce como «destacada»."}
+{"n": 596, "verdict": "reject", "msgstr": "Mostrar estadísticas de subida en las páginas destacadas de la tarjeta de mapa", "comment": "Según el glosario, «hero» se traduce como «destacada»."}
+{"n": 597, "verdict": "reject", "msgstr": "Mostrar selector de capas en las páginas destacadas", "comment": "Según el glosario, «hero» se traduce como «destacada»."}
+{"n": 598, "verdict": "reject", "msgstr": "Permitir a los usuarios cambiar las capas de mosaicos del mapa en las páginas destacadas", "comment": "Según el glosario, «hero» se traduce como «destacada»."}
+{"n": 599, "verdict": "reject", "msgstr": "Mostrar enlace a la página destacada en las páginas de ruta v2", "comment": "Según el glosario, «hero» se traduce como «destacada»."}
+{"n": 600, "verdict": "reject", "msgstr": "Añadir un botón «Vista de mapa destacada» a las páginas de detalle de la ruta v2", "comment": "Según el glosario, «hero» se traduce como «destacada»; las comillas deben ser «»."}
+{"n": 601, "verdict": "reject", "msgstr": "Página destacada", "comment": "Según el glosario, «hero» se traduce como «destacada»."}
+{"n": 603, "verdict": "reject", "msgstr": "La página que contiene el shortcode <code>[rfcc_v2_mapcard]</code>. Se utiliza para el enlace «Vista de mapa destacada».", "comment": "Según el glosario, «hero» se traduce como «destacada»; las comillas deben ser «»."}
+{"n": 609, "verdict": "reject", "msgstr": "Configura los proveedores de mosaicos para mapas grandes (páginas de rutas individuales, mapas principales de grupo). Los valores por defecto específicos de la actividad permiten diferentes proveedores/estilos según el tipo de ruta.", "comment": "Hay que tutear («configura») y, según el glosario, «default» se traduce como «por defecto»."}
+{"n": 611, "verdict": "reject", "msgstr": "Configura proveedores, estilos y niveles de ampliación para mapas de ruta de tamaño completo", "comment": "Hay que tutear («configura», no «configure»); y según el glosario, «zoom» se traduce como «ampliación»."}
+{"n": 613, "verdict": "reject", "msgstr": "Valores por defecto específicos de la actividad<br><small style=\"font-weight: normal; color: #666;\">Cada columna puede seleccionar un proveedor + estilo diferente</small>", "comment": "Según el glosario, «default» se traduce como «por defecto», no como «predeterminado»."}
+{"n": 614, "verdict": "reject", "msgstr": "Límites de ampliación", "comment": "Según el glosario, «zoom» se traduce como «ampliación» en la interfaz."}
+{"n": 643, "verdict": "reject", "msgstr": "Configura los proveedores de mosaicos para minimapas (miniaturas en la página de filtro, página de grupo). Los minimapas muestran vistas previas compactas de la ruta.", "comment": "Hay que tutear («configura», no «configure»)."}
+{"n": 645, "verdict": "reject", "msgstr": "Configura proveedores, estilos y niveles de ampliación para las miniaturas de ruta", "comment": "Hay que tutear («configura», no «configure»); y según el glosario, «zoom» se traduce como «ampliación»."}
+{"n": 651, "verdict": "fix", "msgstr": "Mejora la velocidad de carga del mapa al almacenar en caché los mosaicos de OSM. Requiere permisos de escritura en el directorio de subidas.", "comment": "Para mantener el término, «mosaicos» es la forma usada en el resto del texto para «tiles»."}
+{"n": 652, "verdict": "reject", "msgstr": "Establece el punto central y el nivel de ampliación por defecto para los mapas cuando no hay ninguna ruta cargada.", "comment": "Según el glosario, «default» se traduce como «por defecto», y «zoom» como «ampliación»."}
+{"n": 661, "verdict": "reject", "msgstr": "Punto central por defecto para los mapas cuando no hay ninguna ruta cargada. El nivel de ampliación por defecto se establece en <strong>Opciones de mapa &rarr; Mapas grandes &mdash; Controles y ampliación</strong>.", "comment": "Según el glosario, «default» se traduce como «por defecto» y «zoom» como «ampliación»."}
+{"n": 664, "verdict": "reject", "msgstr": "Interacción y comportamiento de la ampliación para los minimapas en las páginas de filtro y de grupo.", "comment": "Según el glosario, «zoom» se traduce como «ampliación» en la interfaz."}
+{"n": 665, "verdict": "reject", "msgstr": "Activar ampliación con la rueda del ratón", "comment": "Según el glosario, «zoom» se traduce como «ampliar» o «ampliación»."}
+{"n": 666, "verdict": "reject", "msgstr": "Permitir ampliar con la rueda del ratón en los minimapas", "comment": "Según el glosario, «zoom» se traduce como «ampliar»."}
+{"n": 667, "verdict": "reject", "msgstr": "Mostrar controles de ampliación", "comment": "Según el glosario, «zoom» se traduce como «ampliación»."}
+{"n": 671, "verdict": "reject", "msgstr": "Ajustar a los límites de ampliación", "comment": "Según el glosario, «zoom» se traduce como «ampliación»."}
+{"n": 672, "verdict": "reject", "msgstr": "Ajustar a los límites del nivel de ampliación (evita niveles de ampliación entre mín./máx.)", "comment": "Según el glosario, «zoom» se traduce como «ampliación»."}
+{"n": 673, "verdict": "reject", "msgstr": "Cuando está activado, la ampliación se ajustará a los niveles mínimo/máximo exactos", "comment": "Según el glosario, «zoom» se traduce como «ampliación»."}
+{"n": 676, "verdict": "reject", "msgstr": "Cuando está activado, los minimapas se ajustarán automáticamente para mostrar la ruta completa en lugar de usar el nivel de ampliación por defecto", "comment": "Según el glosario, «zoom» se traduce como «ampliación» y «default» como «por defecto»."}
+{"n": 685, "verdict": "reject", "msgstr": "Mapas grandes — Controles y ampliación", "comment": "Según el glosario, «zoom» se traduce como «ampliación»."}
+{"n": 686, "verdict": "reject", "msgstr": "Interacción, ampliación y comportamiento de ajuste a los límites para mapas grandes en las páginas de ruta individual y de grupo.", "comment": "Según el glosario, «zoom» se traduce como «ampliación»."}
+{"n": 687, "verdict": "reject", "msgstr": "Permitir ampliar con la rueda del ratón en los mapas grandes", "comment": "Según el glosario, «zoom» se traduce como «ampliar»."}
+{"n": 690, "verdict": "reject", "msgstr": "Cuando está activado, los mapas grandes se ajustan automáticamente para mostrar la ruta completa; utiliza el <strong>Margen de ajuste a los límites</strong> a continuación para controlar cuán ceñido o suelto es ese encuadre. Cuando está desactivado, los mapas se abren con la <strong>Ampliación por defecto</strong> fija a continuación, centrados en la ruta.", "comment": "Según el glosario, «zoom» se traduce como «ampliación» y «default» como «por defecto»."}
+{"n": 691, "verdict": "reject", "msgstr": "Ampliación por defecto", "comment": "Según el glosario, «zoom» se traduce como «ampliación» y «default» como «por defecto»."}
+{"n": 692, "verdict": "reject", "msgstr": "Nivel de ampliación utilizado cuando <strong>Ajustar a los límites al cargar</strong> está desactivado (y como ampliación inicial del mapa antes de que se cargue una ruta). Se ignora cuando el ajuste a los límites está activado.", "comment": "Según el glosario, «zoom» se traduce como «ampliación»."}
+{"n": 693, "verdict": "reject", "msgstr": "Margen alrededor de la ruta cuando el ajuste a los límites está activado. 0.2 = encuadre ceñido por defecto; un valor más alto añade margen (0.5 = moderado, 1.0 = grande). Los valores iguales o inferiores a 0.2 utilizan el encuadre por defecto.", "comment": "Según el glosario, «default» se traduce como «por defecto», no como «predeterminado»."}
+{"n": 695, "verdict": "reject", "msgstr": "Activar límites de ampliación para el ajuste", "comment": "Según el glosario, «zoom» se traduce como «ampliación»."}
+{"n": 696, "verdict": "reject", "msgstr": "Ampliación mínima de ajuste:", "comment": "Según el glosario, «zoom» se traduce como «ampliación»."}
+{"n": 697, "verdict": "reject", "msgstr": "El nivel de ampliación mínimo al que los usuarios pueden alejarse (menor = más alejado)", "comment": "Según el glosario, «zoom» se traduce como «ampliación»."}
+{"n": 698, "verdict": "reject", "msgstr": "Ampliación máxima de ajuste:", "comment": "Según el glosario, «zoom» se traduce como «ampliación»."}
+{"n": 699, "verdict": "reject", "msgstr": "El nivel de ampliación máximo absoluto al que los usuarios pueden acercarse (mayor = más detalle, normalmente 18-19 para la mayoría de los proveedores)", "comment": "Según el glosario, «zoom» se traduce como «ampliación»."}
+{"n": 700, "verdict": "reject", "msgstr": "Ampliación máxima de la vista general de la ruta:", "comment": "Según el glosario, «zoom» se traduce como «ampliación»."}
+{"n": 701, "verdict": "reject", "msgstr": "Ampliación máxima al mostrar rutas inicialmente (evita una ampliación excesiva en rutas cortas). Debe ser &le; que la ampliación máxima de ajuste. Recomendado: 16-17", "comment": "Según el glosario, «zoom» se traduce como «ampliación»."}
+{"n": 711, "verdict": "fix", "msgstr": "Cuando está activado, los usuarios verán una opción «Estilo de línea» en el menú Ver en las páginas de ruta individual para alternar entre los estilos de gradiente y sólido.", "comment": "Las comillas del texto deben ser «»."}
+{"n": 716, "verdict": "reject", "msgstr": "Ampliación con rueda por defecto (escritorio)", "comment": "Según el glosario, «zoom» se traduce como «ampliación» y «default» como «por defecto»."}
+{"n": 717, "verdict": "reject", "msgstr": "Cmd/Ctrl + rueda para ampliar (cooperativo — recomendado)", "comment": "Según el glosario, «zoom» se traduce como «ampliar»."}
+{"n": 718, "verdict": "reject", "msgstr": "Rueda libre para ampliar — el botón se muestra como activado", "comment": "Según el glosario, «zoom» se traduce como «ampliar»."}
+{"n": 719, "verdict": "reject", "msgstr": "Controla el estado por defecto del botón de ampliación con rueda en escritorio/trackpad. Rueda libre significa que cualquier gesto de desplazamiento amplía el mapa sin mantener pulsado Cmd/Ctrl.", "comment": "Según el glosario, «default» se traduce como «por defecto» y «zoom» como «ampliar»."}
+{"n": 720, "verdict": "reject", "msgstr": "Arrastre de mapa por defecto (móvil)", "comment": "Según el glosario, «default» se traduce como «por defecto», no como «predeterminado»."}
+{"n": 726, "verdict": "reject", "msgstr": "Ampliación con doble clic", "comment": "Según el glosario, «zoom» se traduce como «ampliación»."}
+{"n": 727, "verdict": "reject", "msgstr": "Permitir ampliar haciendo doble clic en los mapas", "comment": "Según el glosario, «zoom» se traduce como «ampliar»."}
+{"n": 728, "verdict": "reject", "msgstr": "Ampliación táctil", "comment": "Según el glosario, «zoom» se traduce como «ampliación»."}
+{"n": 729, "verdict": "reject", "msgstr": "Permitir pellizcar para ampliar en dispositivos táctiles", "comment": "Según el glosario, «zoom» se traduce como «ampliar»."}
+{"n": 732, "verdict": "reject", "msgstr": "Cuando está activado, un solo dedo desplaza el mapa en el móvil. Cuando está desactivado, el mapa utiliza el manejo táctil por defecto del navegador (los usuarios pueden necesitar dos dedos para desplazarse).", "comment": "Según el glosario, «default» se traduce como «por defecto», no como «predeterminado»."}
+{"n": 734, "verdict": "reject", "msgstr": "Activar controles de teclado (teclas de flecha, +/- para ampliar)", "comment": "Según el glosario, «zoom» se traduce como «ampliar»."}
+{"n": 745, "verdict": "fix", "msgstr": "El color de fondo para los botones «Ver ruta» y «Ver rutas»", "comment": "Las comillas del texto deben ser «»."}
+{"n": 747, "verdict": "fix", "msgstr": "El color de fondo al pasar el ratón sobre los botones «Ver ruta» y «Ver rutas»", "comment": "Las comillas del texto deben ser «»."}
+{"n": 750, "verdict": "fix", "msgstr": "El color de fondo para el botón «Copiar enlace para este grupo»", "comment": "Las comillas del texto deben ser «»."}
+{"n": 752, "verdict": "fix", "msgstr": "El color de fondo al pasar el ratón sobre el botón «Copiar enlace para este grupo»", "comment": "Las comillas del texto deben ser «»."}
+{"n": 762, "verdict": "reject", "msgstr": "Relleno del control deslizante", "comment": "Según el glosario, «slider» se traduce como «control deslizante» en widgets y filtros, no como «deslizador»."}
+{"n": 763, "verdict": "reject", "msgstr": "El color para la porción activa de los controles deslizantes de rango (distancia, desnivel)", "comment": "Según el glosario, «slider» se traduce como «control deslizante»."}
+{"n": 764, "verdict": "reject", "msgstr": "Tirador del control deslizante", "comment": "Según el glosario, «slider» se traduce como «control deslizante»."}
+{"n": 765, "verdict": "reject", "msgstr": "El color del borde para los tiradores de los controles deslizantes", "comment": "Según el glosario, «slider» se traduce como «control deslizante»."}
+{"n": 779, "verdict": "reject", "msgstr": "Umbral de luminancia para cambiar entre texto claro y oscuro (0.0 a 1.0). Por defecto: 0.5<br><strong>Valores más bajos (p. ej., 0.3):</strong> Se necesitan fondos más oscuros antes de cambiar a texto claro<br><strong>Valores más altos (p. ej., 0.7):</strong> Cambia a texto claro más fácilmente<br><em>El fondo actual (#2b3d50) tiene una luminancia de: 0.0443</em>", "comment": "Según el glosario, «default» se traduce como «por defecto», no como «predeterminado»."}
+{"n": 782, "verdict": "reject", "msgstr": "Altura del gráfico del perfil de elevación en las páginas de ruta individual (80–400px). Por defecto: 170px.", "comment": "Según el glosario, «default» se traduce como «por defecto», no como «predeterminado»."}
+{"n": 793, "verdict": "reject", "msgstr": "Mostrar botón de conmutación en la parte pública", "comment": "Según el glosario, «frontend» se traduce como «parte pública» (o «portada», según contexto)."}
+{"n": 820, "verdict": "reject", "msgstr": "Borrar PDI", "comment": "Según el glosario, «delete» se traduce como «borrar»."}
+{"n": 247, "verdict": "reject", "msgstr": "Cabecera", "comment": "Según el glosario, «header» se traduce como «cabecera», no como «encabezado»."}
+{"n": 418, "verdict": "reject", "msgstr": "En v2 se muestra como una línea más pequeña dentro del mosaico de desnivel. En v1 se muestra como una fila separada debajo de Desnivel. Se rellena automáticamente cuando se procesa el GPX.", "comment": "Usa «desnivel» como en el resto del plugin para «ascent»."}
+{"n": 421, "verdict": "reject", "msgstr": "Controla los iconos del perfil de escalada junto a la información de desnivel en la tabla de información de la ruta. Esta opción no es aplicable si la opción anterior no está configurada.", "comment": "Usa «desnivel» como en el resto del plugin para «ascent»."}
+{"n": 486, "verdict": "reject", "msgstr": "Plegado por defecto", "comment": "Según el glosario, «collapsed» se traduce como «plegado», y «default» como «por defecto»."}
+{"n": 337, "verdict": "fix", "msgstr": "Dejar en blanco para «Ver ruta»", "comment": "Las comillas del texto deben ser «»."}
+{"n": 12, "verdict": "reject", "msgstr": "Limpiar todos los filtros", "comment": "Aquí el botón quita los filtros aplicados; según la referencia rápida, «Clear filters» se traduce como «Limpiar filtros»."}
+{"n": 822, "verdict": "reject", "msgstr": "Añade marcadores de puntos de interés personalizados que se pueden usar en los datos de la ruta. Por defecto: marcador azul con icono de estrella.", "comment": "Según el glosario, «default» se traduce como «por defecto»; y «puntos de interés» va en minúscula."}
+{"n": 835, "verdict": "reject", "msgstr": "Los marcadores del mapa solo son compatibles con colores de icono blanco o negro.", "comment": "Según el glosario, «support» se traduce como «es compatible con» cuando habla de compatibilidad."}
+{"n": 843, "verdict": "reject", "msgstr": "¿Seguro que quieres borrar este marcador de PDI?\\n\\nAdvertencia: Los datos de cualquier ruta que utilice este PDI ya no mostrarán marcadores.", "comment": "Según el glosario, «are you sure» se traduce como «¿Seguro que…?», «delete» como «borrar» y «warning» como «advertencia»."}
+{"n": 850, "verdict": "reject", "msgstr": "⚠️ Advertencia: Esto podría causar problemas de rendimiento si hay muchos resultados", "comment": "Según el glosario, «warning» se traduce como «advertencia», no como «aviso»."}
+{"n": 851, "verdict": "reject", "msgstr": "Desplazamiento infinito (por defecto)", "comment": "Según el glosario, «default» se traduce como «por defecto», no como «predeterminado»."}
+{"n": 861, "verdict": "fix", "msgstr": "Altura de la ficha completa. Usa «auto» para una altura flexible, o px/% fijo (p. ej., auto, 500px, 600px)", "comment": "Las comillas del texto deben ser «»."}
+{"n": 335, "verdict": "fix", "msgstr": "Altura personalizada, p. ej. «600px» o «90vh». Dejar en blanco para el valor por defecto.", "comment": "Las comillas del texto deben ser «»."}
+{"n": 864, "verdict": "fix", "msgstr": "Número de fichas por fila. «Automático» ajustará tantas como sea posible según el ancho mínimo.", "comment": "Las comillas del texto deben ser «»."}
+{"n": 865, "verdict": "reject", "msgstr": "Restablecer valores por defecto", "comment": "Según el glosario, «default» se traduce como «por defecto», no como «predeterminado»."}
+{"n": 866, "verdict": "fix", "msgstr": "Estos ajustes controlan cómo se muestran los resultados en la página del buscador de rutas. Cuando «Agrupar rutas similares» está activado, el recuento se refiere al número de fichas mostradas, que pueden contener múltiples rutas individuales dentro de las fichas agrupadas.", "comment": "Las comillas del texto deben ser «»."}
+{"n": 868, "verdict": "reject", "msgstr": "Controla el estado por defecto y la visibilidad del cuadro de filtro.", "comment": "Según el glosario, «default» se traduce como «por defecto», no como «predeterminado»."}
+{"n": 869, "verdict": "reject", "msgstr": "Cuadro de filtro por defecto", "comment": "Según el glosario, «default» se traduce como «por defecto», no como «predeterminado»."}
+{"n": 870, "verdict": "reject", "msgstr": "Plegado", "comment": "Según el glosario, «collapsed» se traduce como «plegado», no como «contraído»."}
+{"n": 872, "verdict": "reject", "msgstr": "Controla si el cuadro de filtro está plegado o expandido por defecto. Los usuarios pueden cambiarlo igualmente, independientemente de este ajuste.", "comment": "Según el glosario, «collapsed» se traduce como «plegado» y «default» como «por defecto»."}
+{"n": 874, "verdict": "reject", "msgstr": "Mostrar un cuadro de búsqueda cuando el cuadro de filtro está plegado", "comment": "Según el glosario, «collapsed» se traduce como «plegado»."}
+{"n": 875, "verdict": "reject", "msgstr": "Cuando está activado, aparece un cuadro de búsqueda rápida sobre la cabecera «Filtrar rutas» mientras el filtro está plegado, permitiendo a los usuarios buscar sin expandir el filtro completo. El cuadro de búsqueda se oculta automáticamente cuando se expande el filtro.", "comment": "Según el glosario, «collapsed» se traduce como «plegado»; las comillas deben ser «»."}
+{"n": 877, "verdict": "reject", "msgstr": "Cualquiera (no conectado)", "comment": "Según el glosario, «logged in» se traduce como «conectado»."}
+{"n": 881, "verdict": "reject", "msgstr": "Selecciona qué perfiles de usuario pueden ver el cuadro de filtro. Los administradores siempre pueden verlo independientemente de los ajustes.", "comment": "Según el glosario, «role» se traduce como «perfil», no como «rol»."}
+{"n": 882, "verdict": "reject", "msgstr": "Preajustes de filtro", "comment": "Según el glosario, «preset» se traduce como «preajuste»."}
+{"n": 883, "verdict": "reject", "msgstr": "Enlaces de preajuste clicables que aplican ajustes de filtro predefinidos en la parte pública.", "comment": "Según el glosario, «preset» se traduce como «preajuste» y «frontend» como «parte pública»."}
+{"n": 884, "verdict": "reject", "msgstr": "Mostrar enlaces de preajustes de filtro", "comment": "Según el glosario, «preset» se traduce como «preajuste»."}
+{"n": 885, "verdict": "reject", "msgstr": "Los preajustes de filtro aparecen como enlaces clicables que aplican ajustes de filtro predefinidos. Genéralos seleccionando las opciones relevantes en el formulario de filtro y luego copiando los ajustes dentro del cuadro de shortcode en un preajuste a continuación. Puedes ajustar para quién son visibles. Los preajustes de filtro aparecerán sobre el formulario de filtro en la parte pública.", "comment": "Según el glosario, «preset» se traduce como «preajuste» y «frontend» como «parte pública»."}
+{"n": 886, "verdict": "reject", "msgstr": "Nombre del preajuste", "comment": "Según el glosario, «preset» se traduce como «preajuste»."}
+{"n": 889, "verdict": "fix", "msgstr": "p. ej., rutas largas", "comment": "Las palabras de los ejemplos no llevan mayúscula en mitad de la frase."}
+{"n": 892, "verdict": "reject", "msgstr": "No conectado", "comment": "Según el glosario, «logged in» se traduce como «conectado»."}
+{"n": 900, "verdict": "fix", "msgstr": "Mostrar casilla «Agrupar rutas similares»", "comment": "Las comillas del texto deben ser «»."}
+{"n": 903, "verdict": "fix", "msgstr": "Mostrar el conmutador «Mapa de destinos» en la página de filtros", "comment": "Las comillas del texto deben ser «»."}
+{"n": 905, "verdict": "reject", "msgstr": "Siempre visible (sin controles para plegar)", "comment": "Según el glosario, «collapse» se traduce como «plegar», no como «contraer»."}
+{"n": 906, "verdict": "reject", "msgstr": "Visible por defecto (el usuario puede plegar)", "comment": "Según el glosario, «collapse» se traduce como «plegar», no como «contraer»."}
+{"n": 911, "verdict": "fix", "msgstr": "Controla la visibilidad de la sección de filtro de región de la ruta. Solo aparece si hay regiones configuradas.", "comment": "Las palabras de los nombres de sección no llevan mayúscula en mitad de la frase."}
+{"n": 912, "verdict": "reject", "msgstr": "Controla la visibilidad y el estado por defecto de la sección de atajos de rutas.", "comment": "Según el glosario, «shortcut» se traduce como «atajo»."}
+{"n": 917, "verdict": "reject", "msgstr": "Perfil de escalada", "comment": "Usa «escalada» para «climbing» como en el resto del plugin; «desnivel» solo para «ascent»."}
+{"n": 918, "verdict": "reject", "msgstr": "Controla la visibilidad y el estado por defecto de la sección de perfil de escalada.", "comment": "Usa «escalada» para «climbing» como en el resto del plugin."}
+{"n": 919, "verdict": "reject", "msgstr": "Controles deslizantes de desnivel", "comment": "Usa «desnivel» para «ascent», como en el resto del plugin."}
+{"n": 920, "verdict": "reject", "msgstr": "Controla el filtro del control deslizante de rango de desnivel.", "comment": "Usa «desnivel» para «ascent», como en el resto del plugin."}
+{"n": 923, "verdict": "reject", "msgstr": "Controla el desplegable de ordenación que permite a los usuarios ordenar los resultados por nombre, distancia o desnivel.", "comment": "Usa «desnivel» para «ascent», como en el resto del plugin."}
+{"n": 925, "verdict": "fix", "msgstr": "La funcionalidad de tipos de actividad no está cargada actualmente.", "comment": "Las palabras de los nombres de sección no llevan mayúscula en mitad de la frase."}
+{"n": 927, "verdict": "fix", "msgstr": "La funcionalidad de regiones no está cargada actualmente.", "comment": "Las palabras de los nombres de sección no llevan mayúscula en mitad de la frase."}
+{"n": 932, "verdict": "reject", "msgstr": "El sistema de caché de grupos de rutas almacena datos de rutas procesados para un filtrado y visualización rápidos. Esta caché mejora el rendimiento al evitar consultas a la base de datos y cálculos complejos de agrupación en cada carga de página. La caché se actualiza automáticamente cuando se añaden, actualizan o borran rutas, pero también puedes programar actualizaciones regulares y gestionar la caché manualmente aquí.", "comment": "Según el glosario, «delete» se traduce como «borrar»."}
+{"n": 954, "verdict": "reject", "msgstr": "La caché se actualiza automáticamente cuando se añaden, actualizan o borran rutas mediante la subida de GPX o desde el administrador de WordPress.", "comment": "Según el glosario, «delete» se traduce como «borrar»."}
+{"n": 968, "verdict": "reject", "msgstr": "Activa o desactiva la protección con contraseña globalmente. Cuando está desactivada, todas las rutas son accesibles independientemente del ajuste de contraseña individual.", "comment": "Según el glosario, «setting» se traduce como «ajuste», no como «configuración»."}
+{"n": 974, "verdict": "fix", "msgstr": "p. ej., Bob, acceso de enero", "comment": "Las palabras de los ejemplos no llevan mayúscula en mitad de la frase."}
+{"n": 989, "verdict": "reject", "msgstr": "Controla cómo se muestran las rutas protegidas en la parte pública antes de introducir la contraseña.", "comment": "Según el glosario, «frontend» se traduce como «parte pública» (o «portada», según contexto)."}
+{"n": 1007, "verdict": "fix", "msgstr": "Cuando está activado, aparecerá un banner de desbloqueo con contraseña sobre la lista de rutas cuando haya rutas con protección global (ya sean ocultas o visibles). Independiente del ajuste «Ocultar resultados hasta desbloquear».", "comment": "Las comillas del texto deben ser «»."}
+{"n": 1009, "verdict": "fix", "msgstr": "Cuando está activado, aparecerá un botón «Cerrar sesión» después de desbloquear, permitiéndote limpiar la sesión de desbloqueo global para fines de prueba.", "comment": "Las comillas del texto deben ser «»."}
+{"n": 1015, "verdict": "reject", "msgstr": "No se ha podido obtener tu ubicación.", "comment": "Según el glosario, «unable» se traduce como «no se ha podido»."}
+{"n": 1021, "verdict": "fix", "msgstr": "Arrástrame para establecer la ubicación por defecto del mapa", "comment": "Lleva tilde: «arrástrame»."}
+{"n": 1026, "verdict": "reject", "msgstr": "Lo siento, no tienes permisos para acceder a esta página.", "comment": "Según el glosario, «sorry» se traduce como «lo siento» y «not allowed» como «no tienes permisos»."}
+{"n": 1034, "verdict": "fix", "msgstr": "Elige cómo se muestran los destinos. El modo «Tabla debajo» permite hacer clic en los marcadores del mapa para resaltar las filas de la tabla. Esto se puede anular en shortcodes individuales.", "comment": "Las comillas del texto deben ser «»."}
+{"n": 1036, "verdict": "fix", "msgstr": "La URL de tu página principal de filtro de rutas. Los enlaces «Mostrar rutas a este destino» irán aquí con un parámetro de filtro de destino. Puede ser una ruta relativa (p. ej., /rutas/) o una URL completa.", "comment": "Las comillas del texto deben ser «»."}
+{"n": 1039, "verdict": "reject", "msgstr": "Nivel de ampliación por defecto", "comment": "Según el glosario, «zoom» se traduce como «ampliación» y «default» como «por defecto»."}
+{"n": 1040, "verdict": "reject", "msgstr": "Nivel de ampliación por defecto para los mapas de destinos (1-18). Solo se usa si el ajuste automático está desactivado. Se puede anular en shortcodes individuales.", "comment": "Según el glosario, «zoom» se traduce como «ampliación» y «default» como «por defecto»."}
+{"n": 1046, "verdict": "fix", "msgstr": "Cuando está activado, los administradores verán todas las rutas, incluidas aquellas marcadas como «ocultas de la búsqueda» en los listados de destinos.", "comment": "Las comillas del texto deben ser «»."}
+{"n": 1053, "verdict": "reject", "msgstr": "(clave de API obligatoria)", "comment": "Según el glosario, «required» se traduce como «obligatorio»; evita «se requiere», construcción impersonal calcada del inglés."}
+{"n": 1070, "verdict": "reject", "msgstr": "Los administradores siempre pueden crear y publicar nuevos destinos inmediatamente. Este ajuste solo se aplica a los usuarios con perfil de editor.", "comment": "Según el glosario, «role» se traduce como «perfil», no como «rol»."}
+{"n": 1081, "verdict": "fix", "msgstr": "verde = visible, ámbar = temporalmente desactivado/estacional, rojo = oculto (puede entrar en conflicto con los colores de marcador existentes).", "comment": "Los nombres de color van en minúscula en mitad de la frase."}
+{"n": 1084, "verdict": "fix", "msgstr": "Los marcadores de destino usan el estilo de marcador «Destinos de la ruta» configurado en la pestaña Marcadores. Para personalizar la apariencia, cambia a la pestaña Marcadores y edita los ajustes del marcador «Destino(s) de la ruta».", "comment": "Las comillas del texto deben ser «»."}
+{"n": 1090, "verdict": "reject", "msgstr": "Muestra el mapa con la tabla debajo, 500px de altura, nivel de ampliación 10", "comment": "Según el glosario, «zoom» se traduce como «ampliación»."}
+{"n": 1096, "verdict": "reject", "msgstr": "Configura tus grupos de rutas, permitiendo a los usuarios elegir atajos a rutas según su título. Por ejemplo, «Fuera de carretera», «Carretera», «Ruta con colinas a...», «Sesión de transición»...", "comment": "Según el glosario, «shortcut» se traduce como «atajo», y las comillas deben ser «»."}
+{"n": 1097, "verdict": "fix", "msgstr": "Aún no hay grupos de filtros de rutas configurados. Usa «Cargar valores por defecto» para empezar o añade tus propios grupos personalizados.", "comment": "Las comillas del texto deben ser «»."}
+{"n": 1099, "verdict": "reject", "msgstr": "Nombre del atajo", "comment": "Según el glosario, «shortcut» se traduce como «atajo»."}
+{"n": 1103, "verdict": "reject", "msgstr": "¿Seguro que quieres restablecer todos los grupos de filtros de rutas? Esta acción no se puede deshacer.", "comment": "Según el glosario, «are you sure» se traduce como «¿Seguro que…?»."}
+{"n": 1104, "verdict": "reject", "msgstr": "¿Seguro que quieres cargar los grupos de filtros de rutas por defecto? Esto reemplazará los datos existentes.", "comment": "Según el glosario, «are you sure» se traduce como «¿Seguro que…?»."}
+{"n": 1105, "verdict": "reject", "msgstr": "Introduce el nombre del atajo", "comment": "Según el glosario, «shortcut» se traduce como «atajo»."}
+{"n": 1106, "verdict": "reject", "msgstr": "Introduce el texto de la información emergente", "comment": "Según el glosario, «tooltip» se traduce como «información emergente»."}
+{"n": 1112, "verdict": "fix", "msgstr": "p. ej., vuelta local, entrenamiento", "comment": "Las palabras de los ejemplos no llevan mayúscula en mitad de la frase."}
+{"n": 1114, "verdict": "fix", "msgstr": "p. ej., fuera de carretera, montaña", "comment": "Las palabras de los ejemplos no llevan mayúscula en mitad de la frase."}
+{"n": 1119, "verdict": "fix", "msgstr": "Distancia corta-larga", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1120, "verdict": "fix", "msgstr": "Distancia larga-corta", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1121, "verdict": "reject", "msgstr": "Desnivel bajo-alto", "comment": "Usa «desnivel» para «ascent», como en el resto del plugin."}
+{"n": 1122, "verdict": "reject", "msgstr": "Desnivel alto-bajo", "comment": "Usa «desnivel» para «ascent», como en el resto del plugin."}
+{"n": 1129, "verdict": "reject", "msgstr": "Define regiones para agrupar rutas por área o tipo (p. ej., Rutas del club, Rutas fuera de casa, Desafíos). Asigna regiones a cada ruta a través del campo «Región de la ruta» en la pantalla de edición de la ruta. Las rutas sin región asignada se consideran pertenecientes a la región por defecto.", "comment": "Las comillas del texto deben ser «»; y «Rutas fuera» necesita «de casa» para sonar natural."}
+{"n": 1134, "verdict": "fix", "msgstr": "Recomendado: establece esto en tu región principal «de casa» para que las rutas existentes permanezcan visibles por defecto.", "comment": "Las comillas del texto deben ser «»."}
+{"n": 1136, "verdict": "reject", "msgstr": "La clave se usa en las URL y los parámetros de filtro — usa slugs cortos en minúsculas. El nombre se muestra a los usuarios en el cuadro de filtro.", "comment": "Según el glosario, «key» se traduce como «clave»; las palabras de la frase no llevan mayúscula en mitad de la frase."}
+{"n": 1140, "verdict": "reject", "msgstr": "Borrar región", "comment": "Según el glosario, «delete» se traduce como «borrar»."}
+{"n": 1141, "verdict": "reject", "msgstr": "¿Borrar esta región?", "comment": "Según el glosario, «delete» se traduce como «borrar»."}
+{"n": 1149, "verdict": "reject", "msgstr": "Copiar shortcode de incrustación al portapapeles", "comment": "Según el glosario, «embed» se traduce como «incrustar», no como «inserción»."}
+{"n": 1150, "verdict": "reject", "msgstr": "Incrustar", "comment": "Según el glosario, «embed» se traduce como «incrustar»."}
+{"n": 1175, "verdict": "reject", "msgstr": "Borrar ruta", "comment": "Según el glosario, «delete» se traduce como «borrar»."}
+{"n": 1177, "verdict": "reject", "msgstr": "Quitar autor/Strava del GPX", "comment": "Según el glosario, «remove» se traduce casi siempre como «quitar»."}
+{"n": 1188, "verdict": "reject", "msgstr": "Protección por contraseña quitada de %d ruta(s).", "comment": "Según el glosario, «remove» se traduce casi siempre como «quitar»."}
+{"n": 1193, "verdict": "reject", "msgstr_plural": ["Datos de autor/Strava quitados de %d archivo GPX.", "Datos de autor/Strava quitados de %d archivos GPX."], "comment": "Según el glosario, «remove» se traduce casi siempre como «quitar»; mantener el mismo término que en «Quitar autor» del mismo plugin."}
+{"n": 1198, "verdict": "reject", "msgstr": "Restablecer a valores por defecto", "comment": "Según el glosario, «default» se traduce como «por defecto», no como «predeterminado»."}
+{"n": 1201, "verdict": "reject", "msgstr": "Edición integrada:", "comment": "Según el glosario, «inline» se traduce como «integrado»."}
+{"n": 1212, "verdict": "reject", "msgstr": "Anular toda la selección", "comment": "Según el glosario, «deselect» se traduce como «anular selección», no como «deseleccionar»."}
+{"n": 1146, "verdict": "reject", "msgstr": "Elevación", "comment": "Usa «elevación» para «elevation» en todo el plugin; «desnivel» solo para «ascent»."}
+{"n": 1152, "verdict": "reject", "msgstr": "Sin datos de elevación", "comment": "Usa «elevación» para «elevation» en todo el plugin; «desnivel» solo para «ascent»."}
+{"n": 1236, "verdict": "reject", "msgstr": "Borrar ruta", "comment": "Según el glosario, «delete» se traduce como «borrar»."}
+{"n": 1238, "verdict": "reject", "msgstr": "Elige cómo borrar esta ruta:", "comment": "Según el glosario, «delete» se traduce como «borrar»."}
+{"n": 1241, "verdict": "reject", "msgstr": "Mover ruta y borrar archivo GPX", "comment": "Según el glosario, «delete» se traduce como «borrar»."}
+{"n": 1242, "verdict": "reject", "msgstr": "Tanto la ruta como el archivo GPX se borrarán permanentemente", "comment": "Según el glosario, «delete» se traduce como «borrar»."}
+{"n": 1244, "verdict": "reject", "msgstr": "Ruta y archivo GPX borrados correctamente", "comment": "Según el glosario, «delete» se traduce como «borrar»."}
+{"n": 1246, "verdict": "reject", "msgstr": "Error al borrar la ruta:", "comment": "Según el glosario, «delete» se traduce como «borrar»."}
+{"n": 1247, "verdict": "reject", "msgstr": "Ocurrió un error de red al borrar la ruta", "comment": "Según el glosario, «delete» se traduce como «borrar»."}
+{"n": 1252, "verdict": "reject", "msgstr": "Rango de elevación (pies)", "comment": "Usa «elevación» para «elevation» en todo el plugin; «desnivel» solo para «ascent»."}
+{"n": 1253, "verdict": "reject", "msgstr": "Rango de elevación (metros)", "comment": "Usa «elevación» para «elevation» en todo el plugin; «desnivel» solo para «ascent»."}
+{"n": 1266, "verdict": "fix", "msgstr": "Función de shortcode del buscador de rutas V2 no encontrada.", "comment": "Los nombres de funciones no llevan mayúscula en mitad de la frase."}
+{"n": 1267, "verdict": "fix", "msgstr": "Función de shortcode del formulario de filtro de ruta no encontrada.", "comment": "Los nombres de funciones no llevan mayúscula en mitad de la frase."}
+{"n": 1268, "verdict": "fix", "msgstr": "Función de shortcode de resultados de filtro de ruta no encontrada.", "comment": "Los nombres de funciones no llevan mayúscula en mitad de la frase."}
+{"n": 1269, "verdict": "fix", "msgstr": "Función de shortcode del mapa de destinos no encontrada.", "comment": "Los nombres de funciones no llevan mayúscula en mitad de la frase."}
+{"n": 1270, "verdict": "fix", "msgstr": "Función de shortcode de la tarjeta de mapa de ruta no encontrada.", "comment": "Los nombres de funciones no llevan mayúscula en mitad de la frase."}
+{"n": 1271, "verdict": "fix", "msgstr": "Función de shortcode de la vista de grupo de ruta no encontrada.", "comment": "Los nombres de funciones no llevan mayúscula en mitad de la frase."}
+{"n": 1272, "verdict": "fix", "msgstr": "Función de shortcode de la tarjeta de ruta no encontrada.", "comment": "Los nombres de funciones no llevan mayúscula en mitad de la frase."}
+{"n": 1273, "verdict": "fix", "msgstr": "Función de shortcode de rutas filtradas no encontrada.", "comment": "Los nombres de funciones no llevan mayúscula en mitad de la frase."}
+{"n": 1274, "verdict": "fix", "msgstr": "Función de shortcode del mapa de todos los destinos no encontrada.", "comment": "Los nombres de funciones no llevan mayúscula en mitad de la frase."}
+{"n": 1275, "verdict": "fix", "msgstr": "Función de shortcode de la tabla de rutas no encontrada.", "comment": "Los nombres de funciones no llevan mayúscula en mitad de la frase."}
+{"n": 1276, "verdict": "fix", "msgstr": "Función de shortcode del formulario de filtro de tabla de rutas no encontrada.", "comment": "Los nombres de funciones no llevan mayúscula en mitad de la frase."}
+{"n": 1277, "verdict": "fix", "msgstr": "Función de shortcode de la vista completa del mapa GPX no encontrada.", "comment": "Los nombres de funciones no llevan mayúscula en mitad de la frase."}
+{"n": 1278, "verdict": "fix", "msgstr": "Función de shortcode de rutas por destino no encontrada.", "comment": "Los nombres de funciones no llevan mayúscula en mitad de la frase."}
+{"n": 1279, "verdict": "fix", "msgstr": "Función de shortcode del filtro de ruta no encontrada.", "comment": "Los nombres de funciones no llevan mayúscula en mitad de la frase."}
+{"n": 1298, "verdict": "reject", "msgstr": "Debes acceder para ver las rutas.", "comment": "Según el glosario, «login» se traduce como «acceder» y no se usa «iniciar sesión»."}
+{"n": 1299, "verdict": "reject", "msgstr": "Accede aquí", "comment": "Según el glosario, «login» se traduce como «acceder» y no se usa «iniciar sesión»."}
+{"n": 1304, "verdict": "reject", "msgstr": "Alternar perfil de elevación", "comment": "Usa «elevación» para «elevation» en todo el plugin."}
+{"n": 1316, "verdict": "reject", "msgstr": "Perfil de elevación", "comment": "Usa «elevación» para «elevation» en todo el plugin."}
+{"n": 1326, "verdict": "reject", "msgstr": "Debes acceder para usar el buscador de rutas.", "comment": "Según el glosario, «login» se traduce como «acceder» y no se usa «iniciar sesión»."}
+{"n": 1327, "verdict": "fix", "msgstr": "Dependencias del buscador de rutas no cargadas.", "comment": "Los nombres de funciones no llevan mayúscula en mitad de la frase."}
+{"n": 1360, "verdict": "reject", "msgstr": "No se especificó ninguna ruta para la vista incrustada.", "comment": "Según el glosario, «embed» se traduce como «incrustar»."}
+{"n": 1372, "verdict": "reject", "msgstr": "Contraseña obligatoria", "comment": "Según el glosario, «required» se traduce como «obligatorio»; evita «se requiere»."}
+{"n": 1379, "verdict": "reject", "msgstr": "Acceder", "comment": "Según el glosario, «sign in» se traduce como «acceder», no como «iniciar sesión»."}
+{"n": 1380, "verdict": "reject", "msgstr": "Salir", "comment": "Según el glosario, «sign out» se traduce como «salir»."}
+{"n": 1386, "verdict": "reject", "msgstr": "Por defecto", "comment": "Según el glosario, «default» se traduce como «por defecto», no como «predeterminado»."}
+{"n": 1399, "verdict": "reject", "msgstr": "Plegar barra lateral", "comment": "Según el glosario, «collapse» se traduce como «plegar», no como «contraer»."}
+{"n": 1260, "verdict": "reject", "msgstr": "Falta elevación", "comment": "Usa «elevación» para «elevation» en todo el plugin; «desnivel» solo para «ascent»."}
+{"n": 1400, "verdict": "reject", "msgstr": "Limpiar todos los filtros", "comment": "Este botón está en la barra de filtros y quita los filtros aplicados; usa «Limpiar», no «Borrar»."}
+{"n": 1418, "verdict": "reject", "msgstr": "Limpiar", "comment": "Esta opción quita el filtro aplicado; usa «Limpiar», no «Borrar»."}
+{"n": 1422, "verdict": "reject", "msgstr": "Desnivel", "comment": "Usa «desnivel» para «ascent», como en el resto del plugin."}
+{"n": 1431, "verdict": "reject", "msgstr": "m desnivel", "comment": "Usa «desnivel» para «ascent», como en el resto del plugin."}
+{"n": 1432, "verdict": "reject", "msgstr": "ft desnivel", "comment": "Usa «desnivel» para «ascent», como en el resto del plugin."}
+{"n": 1451, "verdict": "reject", "msgstr": "Vista de mapa destacada", "comment": "Según el glosario, «hero» se traduce como «destacada»."}
+{"n": 1452, "verdict": "reject", "msgstr": "Página destacada del grupo", "comment": "Debe coincidir con la página destacada del grupo usada en el resto del plugin."}
+{"n": 1477, "verdict": "reject", "msgstr": "Debes acceder para usar el filtro de rutas.", "comment": "Según el glosario, «logged in» se traduce como «acceder» y no se usa «iniciar sesión»."}
+{"n": 1483, "verdict": "reject", "msgstr": "Título &amp; desc", "comment": "La entidad «&amp;» debe quedar tal cual; en la traducción anterior se ha roto."}
+{"n": 1512, "verdict": "fix", "msgstr": "Tipos de actividad", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1514, "verdict": "fix", "msgstr": "Nombre de la actividad", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1515, "verdict": "fix", "msgstr": "Método de detección", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1519, "verdict": "fix", "msgstr": "Añadir tipo de actividad", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1520, "verdict": "fix", "msgstr": "Filtros por defecto", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1522, "verdict": "fix", "msgstr": "Tipos de actividad por defecto", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1524, "verdict": "fix", "msgstr": "Guardar tipos de actividad", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1526, "verdict": "fix", "msgstr": "Descripción de la ruta", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1527, "verdict": "fix", "msgstr": "Grupos del club", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1529, "verdict": "fix", "msgstr": "Ocultar de la búsqueda", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1530, "verdict": "fix", "msgstr": "Mostrar en la búsqueda", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1531, "verdict": "fix", "msgstr": "Establecer protección por contraseña", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1533, "verdict": "reject", "msgstr": "Quitar protección por contraseña", "comment": "Según el glosario, «remove» se traduce casi siempre como «quitar»."}
+{"n": 1534, "verdict": "fix", "msgstr": "Establecer tipo de actividad...", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1535, "verdict": "fix", "msgstr": "Establecer grupos del club...", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1536, "verdict": "fix", "msgstr": "Añadir a región(es)...", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1539, "verdict": "reject", "msgstr_plural": ["Protección por contraseña quitada de %s ruta.", "Protección por contraseña quitada de %s rutas."], "comment": "Según el glosario, «remove» se traduce casi siempre como «quitar»."}
+{"n": 1548, "verdict": "fix", "msgstr": "Aplicar a las rutas seleccionadas", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1549, "verdict": "fix", "msgstr": "Establecer tipo de actividad", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1550, "verdict": "fix", "msgstr": "Establecer grupos del club", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1551, "verdict": "fix", "msgstr": "Añadir a región(es)", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1552, "verdict": "reject", "msgstr": "Editar rutas por lotes", "comment": "Según el glosario, «bulk» se traduce como «por lotes»."}
+{"n": 1553, "verdict": "fix", "msgstr": "Acción de contraseña", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1555, "verdict": "fix", "msgstr": "Establecer contraseña global", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1556, "verdict": "reject", "msgstr": "Usar el ajuste de contraseña global existente", "comment": "Según el glosario, «setting» se traduce como «ajuste», no como «configuración»."}
+{"n": 1557, "verdict": "fix", "msgstr": "Establecer contraseña única", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1561, "verdict": "reject", "msgstr": "Quitar contraseñas", "comment": "Según el glosario, «remove» se traduce casi siempre como «quitar»."}
+{"n": 1562, "verdict": "reject", "msgstr": "Quitar la protección por contraseña de todas las rutas seleccionadas", "comment": "Según el glosario, «remove» se traduce casi siempre como «quitar»."}
+{"n": 1563, "verdict": "fix", "msgstr": "Tipo de actividad", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1564, "verdict": "fix", "msgstr": "— Seleccionar tipo de actividad —", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1568, "verdict": "fix", "msgstr": "Regiones de la ruta", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1574, "verdict": "reject", "msgstr": "Acción por lotes no válida.", "comment": "Según el glosario, «bulk» se traduce como «por lotes»."}
+{"n": 1576, "verdict": "fix", "msgstr": "Detección de dificultad de subida", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1580, "verdict": "fix", "msgstr": "Parámetros de detección", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1581, "verdict": "fix", "msgstr": "Ganancia mínima de elevación", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1583, "verdict": "fix", "msgstr": "Pendiente media mínima", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1585, "verdict": "fix", "msgstr": "Tolerancia a la interrupción", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1587, "verdict": "fix", "msgstr": "Ventana de suavizado", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1589, "verdict": "fix", "msgstr": "Etiquetas de nivel de dificultad", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1594, "verdict": "reject", "msgstr": "Los conmutadores para mostrar las insignias de dificultad y los detalles de la subida se encuentran en la pestaña Opciones del mapa, en las secciones Información de la ruta, Tarjetas de ruta y Página destacada.", "comment": "Según el glosario, «toggle» se traduce como «conmutador» y «hero» como «destacada»."}
+{"n": 1595, "verdict": "reject", "msgstr": "Borrar", "comment": "Según el glosario, «delete» se traduce como «borrar»."}
+{"n": 1600, "verdict": "fix", "msgstr": "Configuración del mapa", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1602, "verdict": "reject", "msgstr": "Configuración obligatoria:", "comment": "Según el glosario, «required» se traduce como «obligatorio»."}
+{"n": 1604, "verdict": "fix", "msgstr": "Asistente de configuración", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1606, "verdict": "fix", "msgstr": "Ajustes de configuración de Route Finder", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1607, "verdict": "fix", "msgstr": "Visualización de información de la ruta", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1608, "verdict": "fix", "msgstr": "Mapas grandes", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1609, "verdict": "reject", "msgstr": "Minimapas", "comment": "Según el glosario, «mini map» se traduce como «minimapa»."}
+{"n": 1610, "verdict": "fix", "msgstr": "Ubicación del mapa por defecto", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1611, "verdict": "fix", "msgstr": "Opciones del mapa", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1615, "verdict": "fix", "msgstr": "Opciones de filtro", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1617, "verdict": "fix", "msgstr": "Tipos de ruta", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1620, "verdict": "fix", "msgstr": "Gestión de caché", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1622, "verdict": "fix", "msgstr": "Expandir todo", "comment": "Solo la primera palabra del título va con mayúscula."}
+{"n": 1623, "verdict": "reject", "msgstr": "Plegar todo", "comment": "Según el glosario, «collapse» se traduce como «plegar», no como «contraer»."}
+{"n": 1624, "verdict": "fix", "msgstr": "Versión de enlace de ruta (v1 / v2)", "comment": "Solo la primera palabra del título va con mayúscula."}

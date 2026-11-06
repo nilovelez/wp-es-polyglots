@@ -1,0 +1,430 @@
+#12: glossary: clear → vaciar?
+#13: glossary: setting → ajuste? | glossary: settings → ajustes?
+#19: capitals mid-sentence: Buscador
+#31: glossary: scroll → desplazamiento?
+#33: glossary: curate → seleccionar? | glossary: curated → seleccionado?
+#47: glossary: deselect → anular selección?
+#48: glossary: deselect → anular selección?
+#74: glossary term left in English: hover → al pasar el cursor
+#75: glossary term left in English: hover → al pasar el cursor
+#78: glossary term left in English: map → mapa | asignar
+#118: glossary: save → guardar o ahorrar, según contexto?
+#147: glossary: save → guardar o ahorrar, según contexto?
+#148: glossary: save → guardar o ahorrar, según contexto?
+#151: glossary: save → guardar o ahorrar, según contexto?
+#156: capitals mid-sentence: Distancia
+#188: non-Spanish quotes
+#189: non-Spanish quotes
+#191: non-Spanish quotes
+#195: glossary: library → biblioteca?
+#200: glossary term left in English: modal → emergente
+#202: glossary: by clicking → al hacer clic?
+#204: non-Spanish quotes
+#205: glossary: delete → borrar?
+#206: glossary: delete → borrar?
+#207: capitals mid-sentence: Gestión, Destinos
+#215: capitals mid-sentence: Gestión, Destinos
+#218: non-Spanish quotes
+#219: glossary: by clicking → al hacer clic?
+#222: non-Spanish quotes
+#227: glossary: unable → no se ha podido?
+#232: glossary term left in English: scroll → desplazamiento
+#238: glossary term left in English: scroll → desplazamiento
+#247: glossary: header → cabecera?
+#260: glossary: login → acceder / acceso?
+#282: glossary term left in English: frontend → portada / vista pública / parte pública
+#293: glossary term left in English: frontend → portada / vista pública / parte pública
+#304: capitals mid-sentence: Tabla
+#308: glossary term left in English: zoom → ampliar / acercar
+#323: glossary term left in English: hero → Sección destacada
+#332: glossary: viewport → área visible?
+#335: non-Spanish quotes
+#337: non-Spanish quotes
+#340: glossary term left in English: hero → Sección destacada
+#341: glossary term left in English: hero → Sección destacada
+#345: capitals mid-sentence: Ruta
+#346: capitals mid-sentence: Principales
+#347: capitals mid-sentence: Adicionales
+#349: capitals mid-sentence: Pueblos
+#350: capitals mid-sentence: Completa
+#351: capitals mid-sentence: Ruta
+#352: capitals mid-sentence: Ruta
+#353: capitals mid-sentence: Escalada
+#354: capitals mid-sentence: Ruta
+#360: capitals mid-sentence: Avanzados
+#361: capitals mid-sentence: Rutas
+#364: capitals mid-sentence: Todo
+#365: glossary: save → guardar o ahorrar, según contexto? | capitals mid-sentence: Preferencias, Columna
+#366: glossary: save → guardar o ahorrar, según contexto?
+#367: capitals mid-sentence: Contraseña, Ruta
+#370: glossary: clear → vaciar? | capitals mid-sentence: Contraseña
+#371: glossary: save → guardar o ahorrar, según contexto? | capitals mid-sentence: Contraseña
+#374: capitals mid-sentence: Perfil
+#375: capitals mid-sentence: Mín
+#376: capitals mid-sentence: Máx
+#378: glossary: tooltip → información emergente? | capitals mid-sentence: Información
+#379: capitals mid-sentence: Fila
+#380: capitals mid-sentence: Todo
+#381: glossary: default → por defecto? | capitals mid-sentence: Predeterminados
+#383: capitals mid-sentence: Asignación, Grupos
+#384: capitals mid-sentence: Asignación
+#385: capitals mid-sentence: Cálculo, Automático
+#386: capitals mid-sentence: Asignación
+#390: capitals mid-sentence: Grupo
+#391: capitals mid-sentence: Mín
+#392: capitals mid-sentence: Máx
+#393: glossary: delete → borrar?
+#401: capitals mid-sentence: Destacada, Grupo | non-Spanish quotes
+#402: capitals mid-sentence: Página, Destacada, Grupo
+#403: capitals mid-sentence: Destacada, Grupo | non-Spanish quotes
+#404: capitals mid-sentence: Estadísticas, Información, Ruta
+#407: capitals mid-sentence: Ruta
+#410: capitals mid-sentence: Ruta
+#411: glossary: next → siguiente?
+#418: capitals mid-sentence: Ascenso
+#421: glossary: next → siguiente?
+#432: glossary: listing → anuncio / catálogo / ficha?
+#440: glossary: setting → ajuste? | capitals mid-sentence: Descripción | non-Spanish quotes
+#442: glossary: setting → ajuste? | non-Spanish quotes
+#443: glossary: prompt → instrucción?
+#444: glossary: prompt → instrucción?
+#445: non-Spanish quotes
+#453: glossary: default → por defecto? | glossary: defaults to → por defecto es?
+#463: glossary: toggle → conmutador | cambiar / alternar?
+#465: capitals mid-sentence: Ver
+#469: glossary: link → enlazar | enlace?
+#471: glossary: default → por defecto?
+#474: glossary: hover → al pasar el cursor? | glossary: tooltip → información emergente?
+#478: capitals mid-sentence: Ver
+#482: non-Spanish quotes
+#483: non-Spanish quotes
+#486: glossary: collapse → plegar? | glossary: collapsed → plegado?
+#487: glossary: about → acerca de? | capitals mid-sentence: Destino, Principal, Destinos
+#492: non-Spanish quotes
+#496: glossary term left in English: zoom → ampliar / acercar | glossary: zoom in → ampliar / acercar?
+#498: glossary: next → siguiente?
+#499: glossary: next → siguiente? | capitals mid-sentence: Destinos
+#513: capitals mid-sentence: Datos
+#514: capitals mid-sentence: Incluye
+#515: capitals mid-sentence: Mejor
+#516: capitals mid-sentence: Incurre
+#518: capitals mid-sentence: Configuración
+#521: capitals mid-sentence: Totalmente
+#522: glossary: required → obligatorio / requerido / necesario?
+#523: capitals mid-sentence: Buena
+#524: capitals mid-sentence: Datos
+#525: capitals mid-sentence: Sin
+#529: capitals mid-sentence: Restricciones
+#530: glossary: setting → ajuste? | capitals mid-sentence: Considere
+#533: glossary: toggle → conmutador | cambiar / alternar? | capitals mid-sentence: Ver
+#535: glossary: toggle → conmutador | cambiar / alternar? | capitals mid-sentence: Ver
+#536: capitals mid-sentence: Ver
+#537: capitals mid-sentence: Rutas, Marcadores
+#539: glossary: toggle → conmutador | cambiar / alternar? | capitals mid-sentence: Ver
+#540: glossary: toggle → conmutador | cambiar / alternar? | capitals mid-sentence: Ver
+#541: capitals mid-sentence: Ver
+#542: capitals mid-sentence: Tienda, Mirador, Marcadores
+#544: glossary: feature → característica | destacar?
+#549: capitals mid-sentence: Ver
+#562: non-Spanish quotes
+#564: capitals mid-sentence: Descripción
+#565: capitals mid-sentence: Descripción
+#569: glossary: feature → característica | destacar? | non-Spanish quotes
+#575: glossary term left in English: author → autor | glossary: save → guardar o ahorrar, según contexto?
+#576: capitals mid-sentence: Personalizar
+#577: non-Spanish quotes
+#581: non-Spanish quotes
+#583: non-Spanish quotes
+#584: glossary: feature → característica | destacar? | non-Spanish quotes
+#585: glossary: feature → característica | destacar?
+#592: glossary: hero → Sección destacada?
+#593: glossary: hero → Sección destacada?
+#594: glossary: hero → Sección destacada?
+#595: glossary: hero → Sección destacada?
+#596: glossary: hero → Sección destacada?
+#597: glossary: hero → Sección destacada?
+#598: glossary: hero → Sección destacada?
+#599: glossary: hero → Sección destacada?
+#600: glossary: hero → Sección destacada? | non-Spanish quotes
+#601: glossary: hero → Sección destacada?
+#603: glossary: hero → Sección destacada? | non-Spanish quotes
+#609: glossary: default → por defecto?
+#611: glossary term left in English: zoom → ampliar / acercar
+#613: glossary: default → por defecto? | capitals mid-sentence: Cada
+#614: glossary term left in English: zoom → ampliar / acercar
+#628: glossary term left in English: map → mapa | asignar
+#632: glossary term left in English: map → mapa | asignar
+#642: glossary: map → mapa | asignar?
+#643: glossary: map → mapa | asignar?
+#644: glossary: map → mapa | asignar?
+#645: glossary term left in English: zoom → ampliar / acercar
+#652: glossary: default → por defecto? | glossary term left in English: zoom → ampliar / acercar
+#661: glossary: default → por defecto? | glossary term left in English: zoom → ampliar / acercar | capitals mid-sentence: Opciones, Mapas, Controles
+#663: glossary: map → mapa | asignar?
+#664: glossary: map → mapa | asignar? | glossary term left in English: zoom → ampliar / acercar
+#665: glossary: scroll → desplazamiento? | glossary term left in English: zoom → ampliar / acercar
+#666: glossary: map → mapa | asignar? | glossary term left in English: zoom → ampliar / acercar
+#667: glossary term left in English: zoom → ampliar / acercar
+#668: glossary: map → mapa | asignar?
+#670: glossary: map → mapa | asignar?
+#671: glossary term left in English: zoom → ampliar / acercar
+#672: glossary term left in English: zoom → ampliar / acercar
+#673: glossary term left in English: zoom → ampliar / acercar
+#676: glossary: default → por defecto? | glossary: map → mapa | asignar? | glossary term left in English: zoom → ampliar / acercar
+#679: glossary: map → mapa | asignar?
+#680: glossary: map → mapa | asignar?
+#682: glossary: map → mapa | asignar?
+#684: glossary: map → mapa | asignar? | glossary: pixel is not translated (píxel)
+#685: glossary term left in English: zoom → ampliar / acercar
+#686: glossary term left in English: zoom → ampliar / acercar
+#687: glossary term left in English: zoom → ampliar / acercar
+#690: glossary: default → por defecto? | glossary: fix → corrección? | glossary: fixed → corregido? | glossary term left in English: zoom → ampliar / acercar | capitals mid-sentence: Margen
+#691: glossary: default → por defecto? | glossary term left in English: zoom → ampliar / acercar
+#692: glossary term left in English: zoom → ampliar / acercar | capitals mid-sentence: Ajustar
+#693: glossary: default → por defecto?
+#695: glossary term left in English: zoom → ampliar / acercar
+#696: glossary term left in English: zoom → ampliar / acercar
+#697: glossary term left in English: zoom → ampliar / acercar
+#698: glossary term left in English: zoom → ampliar / acercar
+#699: glossary term left in English: zoom → ampliar / acercar
+#700: glossary term left in English: zoom → ampliar / acercar
+#701: glossary term left in English: zoom → ampliar / acercar
+#711: capitals mid-sentence: Ver | non-Spanish quotes
+#713: capitals mid-sentence: Ver, Ajustes
+#716: glossary: default → por defecto? | glossary: scroll → desplazamiento? | glossary term left in English: zoom → ampliar / acercar
+#717: glossary: scroll → desplazamiento? | glossary term left in English: zoom → ampliar / acercar
+#718: glossary: scroll → desplazamiento? | glossary term left in English: zoom → ampliar / acercar
+#719: glossary: default → por defecto? | glossary term left in English: zoom → ampliar / acercar
+#720: glossary: default → por defecto?
+#726: glossary term left in English: zoom → ampliar / acercar
+#727: glossary term left in English: zoom → ampliar / acercar
+#728: glossary term left in English: zoom → ampliar / acercar
+#734: glossary: key → clave? | glossary term left in English: zoom → ampliar / acercar
+#744: capitals mid-sentence: Ver
+#745: non-Spanish quotes
+#746: glossary: hover → al pasar el cursor? | capitals mid-sentence: Ver
+#747: glossary: hover → al pasar el cursor? | non-Spanish quotes
+#748: capitals mid-sentence: Copiar
+#749: capitals mid-sentence: Copiar
+#750: non-Spanish quotes
+#751: glossary: hover → al pasar el cursor? | capitals mid-sentence: Copiar
+#752: glossary: hover → al pasar el cursor? | non-Spanish quotes
+#757: capitals mid-sentence: Grupo, Escalada, Dirección, Tipo
+#758: glossary: hover → al pasar el cursor?
+#759: glossary: hover → al pasar el cursor?
+#762: glossary: slider → carrusel / control deslizante?
+#763: glossary: slider → carrusel / control deslizante?
+#779: glossary: default → por defecto? | capitals mid-sentence: Valores, El
+#782: glossary: default → por defecto?
+#787: capitals mid-sentence: Información, Descripción
+#793: glossary term left in English: frontend → portada / vista pública / parte pública
+#794: glossary: toggle → conmutador | cambiar / alternar?
+#797: glossary: set → establecer | conjunto?
+#799: glossary: save → guardar o ahorrar, según contexto? | capitals mid-sentence: Página, Páginas, Fichas, Mapas, Preferencia
+#806: capitals mid-sentence: En
+#807: capitals mid-sentence: Controla
+#820: glossary: delete → borrar?
+#822: glossary: default → por defecto? | capitals mid-sentence: Puntos, Interés
+#835: glossary: support → es compatible con / dar soporte?
+#840: glossary: save → guardar o ahorrar, según contexto?
+#843: glossary: delete → borrar?
+#850: glossary: warning → advertencia? | capitals mid-sentence: Aviso
+#851: glossary: default → por defecto?
+#852: glossary: scroll → desplazamiento?
+#861: glossary: fix → corrección? | glossary: fixed → corregido? | non-Spanish quotes
+#864: non-Spanish quotes
+#865: glossary: default → por defecto?
+#866: non-Spanish quotes
+#868: glossary: default → por defecto?
+#869: glossary: default → por defecto?
+#870: glossary: collapse → plegar? | glossary: collapsed → plegado?
+#872: glossary: collapse → plegar? | glossary: collapsed → plegado?
+#874: glossary: collapse → plegar? | glossary: collapsed → plegado?
+#875: glossary: collapse → plegar? | glossary: collapsed → plegado? | non-Spanish quotes
+#877: glossary: logged in → conectado?
+#881: glossary term left in English: role → perfil | glossary term left in English: roles → perfiles
+#882: glossary: preset → preajuste?
+#883: glossary term left in English: frontend → portada / vista pública / parte pública | glossary: preset → preajuste?
+#884: glossary: preset → preajuste?
+#885: glossary term left in English: frontend → portada / vista pública / parte pública | glossary: preset → preajuste?
+#886: glossary: preset → preajuste?
+#889: capitals mid-sentence: Rutas
+#892: glossary: logged in → conectado?
+#896: capitals mid-sentence: Añadir
+#900: glossary: checkbox → casilla de verificación? | non-Spanish quotes
+#901: glossary: toggle → conmutador | cambiar / alternar?
+#903: non-Spanish quotes
+#905: glossary: collapse → plegar?
+#906: glossary: collapse → plegar?
+#911: capitals mid-sentence: Región
+#912: glossary: shortcut → atajo?
+#925: capitals mid-sentence: Tipos
+#927: capitals mid-sentence: Regiones
+#932: glossary: delete → borrar?
+#949: glossary: next → siguiente?
+#950: glossary: save → guardar o ahorrar, según contexto? | capitals mid-sentence: Tarea
+#954: glossary: delete → borrar?
+#958: glossary: set → establecer | conjunto? | glossary: updated → actualizado?
+#960: glossary: clear → vaciar?
+#961: glossary: clear → vaciar?
+#962: glossary: clear → vaciar?
+#968: glossary: setting → ajuste? | glossary: settings → ajustes?
+#974: capitals mid-sentence: Acceso, Enero
+#977: glossary: clear → vaciar?
+#978: glossary: expiration → caducidad?
+#989: glossary: entry → entrada / registro? | glossary term left in English: frontend → portada / vista pública / parte pública
+#1007: non-Spanish quotes
+#1009: glossary: clear → vaciar? | non-Spanish quotes
+#1015: glossary: unable → no se ha podido?
+#1026: glossary: sorry → lo siento?
+#1034: non-Spanish quotes
+#1036: non-Spanish quotes
+#1039: glossary term left in English: zoom → ampliar / acercar
+#1040: glossary term left in English: zoom → ampliar / acercar
+#1042: glossary: pixel is not translated (píxel)
+#1043: glossary: pixel is not translated (píxel)
+#1046: glossary: listing → anuncio / catálogo / ficha? | non-Spanish quotes
+#1049: glossary: clear → vaciar?
+#1053: glossary: required → obligatorio / requerido / necesario?
+#1067: glossary: review → reseña / valoración? | glossary: save → guardar o ahorrar, según contexto?
+#1073: glossary: toggle → conmutador | cambiar / alternar?
+#1081: capitals mid-sentence: Ámbar, Rojo
+#1084: capitals mid-sentence: Marcadores | non-Spanish quotes
+#1090: glossary term left in English: zoom → ampliar / acercar
+#1096: glossary: shortcut → atajo? | non-Spanish quotes
+#1097: glossary: get started → primeros pasos? | non-Spanish quotes
+#1099: glossary: shortcut → atajo?
+#1105: glossary: shortcut → atajo?
+#1106: glossary: tooltip → información emergente?
+#1112: capitals mid-sentence: Vuelta, Entrenamiento
+#1114: capitals mid-sentence: Fuera, Montaña
+#1119: capitals mid-sentence: Corta
+#1120: capitals mid-sentence: Larga
+#1121: capitals mid-sentence: Bajo
+#1122: capitals mid-sentence: Alto
+#1125: glossary: save → guardar o ahorrar, según contexto?
+#1129: capitals mid-sentence: Rutas, Desafíos | non-Spanish quotes
+#1134: glossary: home → inicio / página de inicio? | non-Spanish quotes
+#1136: capitals mid-sentence: Clave, Nombre
+#1139: glossary: save → guardar o ahorrar, según contexto?
+#1140: glossary: delete → borrar?
+#1141: glossary: delete → borrar?
+#1142: glossary: save → guardar o ahorrar, según contexto?
+#1143: glossary: save → guardar o ahorrar, según contexto?
+#1147: glossary: prompt → instrucción?
+#1149: glossary: embed → incrustar?
+#1150: glossary: embed → incrustar?
+#1164: glossary: prompt → instrucción?
+#1165: glossary: prompt → instrucción?
+#1175: glossary: delete → borrar?
+#1196: glossary: writable → tener permisos de escritura?
+#1198: glossary: default → por defecto?
+#1201: glossary: inline → integrado?
+#1211: glossary: save → guardar o ahorrar, según contexto?
+#1212: glossary: deselect → anular selección?
+#1220: glossary: prompt → instrucción?
+#1224: glossary: prompt → instrucción?
+#1225: glossary: prompt → instrucción?
+#1228: glossary: prompt → instrucción?
+#1232: glossary: prompt → instrucción? | glossary: save → guardar o ahorrar, según contexto?
+#1233: glossary: save → guardar o ahorrar, según contexto?
+#1236: glossary: delete → borrar?
+#1238: glossary: delete → borrar?
+#1241: glossary: delete → borrar?
+#1242: glossary: delete → borrar?
+#1244: glossary: delete → borrar?
+#1264: glossary: clear → vaciar?
+#1266: capitals mid-sentence: Buscador, Rutas
+#1267: capitals mid-sentence: Formulario, Filtro, Ruta
+#1268: capitals mid-sentence: Resultados, Filtro, Ruta
+#1269: capitals mid-sentence: Mapa, Destinos
+#1270: capitals mid-sentence: Tarjeta, Mapa, Ruta
+#1271: capitals mid-sentence: Vista, Grupo, Ruta
+#1272: capitals mid-sentence: Tarjeta, Ruta
+#1273: capitals mid-sentence: Rutas, Filtradas
+#1274: capitals mid-sentence: Mapa, Todos, Destinos
+#1275: capitals mid-sentence: Tabla, Rutas
+#1276: capitals mid-sentence: Formulario, Filtro, Tabla, Rutas
+#1277: capitals mid-sentence: Vista, Completa, Mapa
+#1278: capitals mid-sentence: Rutas, Destino
+#1279: capitals mid-sentence: Filtro, Ruta
+#1280: glossary: check → marcar / comprobar | cheque?
+#1298: glossary: logged in → conectado?
+#1299: glossary: login → acceder / acceso?
+#1313: glossary: scroll → desplazamiento?
+#1326: glossary: logged in → conectado?
+#1327: capitals mid-sentence: Buscador, Rutas
+#1359: glossary: clear → vaciar?
+#1360: glossary: embed → incrustar?
+#1372: glossary: required → obligatorio / requerido / necesario?
+#1379: glossary: sign in → acceder?
+#1380: glossary: sign out → salir?
+#1386: glossary: default → por defecto?
+#1399: glossary: collapse → plegar?
+#1400: glossary: clear → vaciar?
+#1402: glossary: scroll → desplazamiento?
+#1403: glossary: scroll → desplazamiento?
+#1408: glossary: scope → extensión?
+#1418: glossary: clear → vaciar?
+#1451: glossary: hero → Sección destacada?
+#1462: capitals mid-sentence: Ver
+#1477: glossary: logged in → conectado?
+#1496: glossary: clear → vaciar?
+#1512: capitals mid-sentence: Actividad
+#1513: capitals mid-sentence: Fuera
+#1514: capitals mid-sentence: Actividad
+#1515: capitals mid-sentence: Detección
+#1519: capitals mid-sentence: Tipo, Actividad
+#1520: capitals mid-sentence: Defecto
+#1522: capitals mid-sentence: Actividad, Defecto
+#1524: glossary: save → guardar o ahorrar, según contexto? | capitals mid-sentence: Tipos, Actividad
+#1525: glossary: save → guardar o ahorrar, según contexto?
+#1526: capitals mid-sentence: Ruta
+#1529: capitals mid-sentence: Búsqueda
+#1530: capitals mid-sentence: Búsqueda
+#1531: capitals mid-sentence: Protección, Contraseña
+#1533: capitals mid-sentence: Protección, Contraseña
+#1534: capitals mid-sentence: Tipo, Actividad
+#1535: capitals mid-sentence: Grupos
+#1536: capitals mid-sentence: Región
+#1548: capitals mid-sentence: Rutas, Seleccionadas
+#1549: capitals mid-sentence: Tipo, Actividad
+#1550: capitals mid-sentence: Grupos
+#1551: capitals mid-sentence: Región
+#1552: glossary: bulk → por lotes? | capitals mid-sentence: Rutas, Lote
+#1553: capitals mid-sentence: Contraseña
+#1555: capitals mid-sentence: Contraseña
+#1557: capitals mid-sentence: Contraseña, Única
+#1561: capitals mid-sentence: Contraseñas
+#1563: capitals mid-sentence: Actividad
+#1564: capitals mid-sentence: Tipo, Actividad
+#1568: capitals mid-sentence: Ruta
+#1571: glossary: setting → ajuste?
+#1574: glossary: bulk → por lotes?
+#1575: glossary: check → marcar / comprobar | cheque?
+#1576: capitals mid-sentence: Dificultad, Subida
+#1580: capitals mid-sentence: Detección
+#1581: capitals mid-sentence: Mínima, Elevación
+#1583: capitals mid-sentence: Media, Mínima
+#1585: capitals mid-sentence: Interrupción
+#1587: capitals mid-sentence: Suavizado
+#1589: capitals mid-sentence: Nivel, Dificultad
+#1594: glossary: hero → Sección destacada? | glossary: toggle → conmutador | cambiar / alternar? | capitals mid-sentence: Opciones, Mapa, Información, Ruta, Tarjetas, Página, Principal
+#1595: glossary: delete → borrar?
+#1597: glossary: clear → vaciar? | glossary: successfully → correctamente?
+#1598: glossary: check → marcar / comprobar | cheque? | glossary: clear → vaciar?
+#1600: capitals mid-sentence: Mapa
+#1602: capitals mid-sentence: Requerida
+#1604: capitals mid-sentence: Configuración
+#1606: capitals mid-sentence: Configuración
+#1607: capitals mid-sentence: Información, Ruta
+#1608: capitals mid-sentence: Grandes
+#1609: capitals mid-sentence: Mapas
+#1610: capitals mid-sentence: Mapa, Defecto
+#1611: capitals mid-sentence: Mapa
+#1615: capitals mid-sentence: Filtro
+#1617: capitals mid-sentence: Ruta
+#1620: capitals mid-sentence: Caché
+#1622: capitals mid-sentence: Todo
+#1623: glossary: collapse → plegar? | capitals mid-sentence: Todo
+#1624: capitals mid-sentence: Enlace, Ruta

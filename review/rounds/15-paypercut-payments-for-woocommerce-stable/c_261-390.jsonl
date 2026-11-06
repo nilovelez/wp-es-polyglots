@@ -1,0 +1,8 @@
+{"n": 287, "verdict": "reject", "msgstr": "Accede para añadir un método de pago.", "comment": "Según el glosario, «sign in» se traduce como «acceder», no como «iniciar sesión»."}
+{"n": 288, "verdict": "reject", "msgstr": "No se ha podido aplicar este método de envío.", "comment": "Según el glosario, «unable» se traduce como «no se ha podido»."}
+{"n": 289, "verdict": "reject", "msgstr": "No se ha podido calcular el envío para esta dirección.", "comment": "Según el glosario, «unable» se traduce como «no se ha podido»."}
+{"n": 290, "verdict": "reject", "msgstr": "No se ha podido normalizar la dirección del monedero.", "comment": "Según el glosario, «unable» se traduce como «no se ha podido»."}
+{"n": 291, "verdict": "reject", "msgstr": "No se ha podido preparar el pago exprés para esta selección.", "comment": "Según el glosario, «unable» se traduce como «no se ha podido»."}
+{"n": 293, "verdict": "reject", "msgstr": "La experiencia seleccionada no está disponible. Por favor, contacta con el vendedor.", "comment": "Según el glosario, «merchant» se traduce como «vendedor»."}
+{"n": 326, "verdict": "reject", "msgstr": "Utiliza el widget de pago de Paypercut existente, ya sea integrado o en ventana emergente.", "comment": "Según el glosario, «modal» se traduce como «emergente» e «inline» como «integrado»."}
+{"n": 363, "verdict": "reject", "msgstr": "Elige qué botones de monedero puede mostrar Paypercut. Las comprobaciones de compatibilidad del dispositivo, navegador, dominio del vendedor y monedero seguirán determinando si cada botón está disponible.", "comment": "Según el glosario, «merchant» se traduce como «vendedor»."}
