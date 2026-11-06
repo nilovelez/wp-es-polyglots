@@ -364,8 +364,9 @@ def cmd_review_po(args):
             blocks.append(write_entry(e))
             continue
         label = {'fix': 'Corrección', 'reject': 'Rechazo', 'doubt': 'DUDA'}[d['verdict']]
-        cur = value(e).replace('\x00', ' / ')
-        notes = [f'# [{label}] {d.get("comment", "").strip()}', f'# Original: {cur}']
+        one_line = lambda s: s.replace('\r', '').replace('\n', '\\n')
+        cur = one_line(value(e).replace('\x00', ' / '))
+        notes = [f'# [{label}] {one_line(d.get("comment", "").strip())}', f'# Original: {cur}']
         f = dict(e)
         f['comments'] = [c for c in e['comments'] if not c.startswith('#,') and not c.startswith('# polyglots:')]
         flags = [x for x in e['flags'] if x != 'fuzzy'] + ['fuzzy']

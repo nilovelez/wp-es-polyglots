@@ -436,14 +436,7 @@ msgid "HTTPS not detected"
 msgstr "HTTPS no detectado"
 
 # [Rechazo] Tuteo: «ponte», no «póngase». Y mantén la coma de «Hello,» en el saludo.
-# Original: Hola:
-
-Me gustaría recibir un presupuesto para mi sitio web: {url}
-
-Mi análisis de salud automático obtuvo {score}/100. Las prioridades principales fueron:
-{priorities}
-
-Póngase en contacto conmigo para darme los detalles. Gracias.
+# Original: Hola:\n\nMe gustaría recibir un presupuesto para mi sitio web: {url}\n\nMi análisis de salud automático obtuvo {score}/100. Las prioridades principales fueron:\n{priorities}\n\nPóngase en contacto conmigo para darme los detalles. Gracias.
 #: includes/class-elwhc-plugin.php:174
 #, fuzzy
 msgid "Hello,\n\nI would like a quote for my website: {url}\n\nMy automatic health check scored {score}/100. The main priorities were:\n{priorities}\n\nPlease get back to me with details. Thank you."
@@ -479,21 +472,7 @@ msgid "Indicative estimate"
 msgstr "Estimación orientativa"
 
 # [Rechazo] Tuteo en todo el correo («tu», «quieres», «puedo proponerte»). Y la coma tras el saludo, como en el original.
-# Original: Hola %1$s:
-
-He completado el diagnóstico rápido de su sitio: %2$s
-
-Puntuación: %3$d/100
-
-Las 3 prioridades son:
-1. %4$s
-2. %5$s
-3. %6$s
-
-Intervención recomendada: %7$s
-Estimación orientativa: %8$s
-
-El precio exacto dependerá del acceso a WordPress y al alojamiento, y del estado real del sitio. Si lo desea, puedo proponerle el siguiente paso.
+# Original: Hola %1$s:\n\nHe completado el diagnóstico rápido de su sitio: %2$s\n\nPuntuación: %3$d/100\n\nLas 3 prioridades son:\n1. %4$s\n2. %5$s\n3. %6$s\n\nIntervención recomendada: %7$s\nEstimación orientativa: %8$s\n\nEl precio exacto dependerá del acceso a WordPress y al alojamiento, y del estado real del sitio. Si lo desea, puedo proponerle el siguiente paso.
 #. translators: 1: name, 2: domain, 3: score, 4-6: priorities, 7: offer, 8:
 #. estimate.
 #: includes/class-elwhc-admin.php:558
@@ -502,23 +481,7 @@ msgid "Hello %1$s,\n\nI have completed the quick diagnostic for your site: %2$s\
 msgstr "Hola %1$s,\n\nHe completado el diagnóstico rápido de tu sitio: %2$s\n\nPuntuación: %3$d/100\n\nLas 3 prioridades son:\n1. %4$s\n2. %5$s\n3. %6$s\n\nIntervención recomendada: %7$s\nEstimación orientativa: %8$s\n\nEl precio exacto dependerá del acceso a WordPress y al alojamiento, y del estado real del sitio. Si quieres, puedo proponerte el siguiente paso."
 
 # [Rechazo] Tuteo en todo el correo. Mantén también el guion largo del original y la coma del saludo.
-# Original: Hola %1$s:
-
-Gracias por utilizar nuestro análisis de salud del sitio web. He revisado el diagnóstico rápido de %2$s y quería compartir un breve resumen.
-
-Puntuación global: %3$d/100
-
-Los tres puntos que priorizaría:
-1. %4$s
-2. %5$s
-3. %6$s
-
-En función de esto, le sugeriría: %7$s
-Estimación orientativa: %8$s
-
-Esta cifra es solo una referencia: el precio exacto depende del acceso a WordPress y al alojamiento, del número de plugins y del estado real del sitio. Con gusto organizaré una breve llamada para explicarle los detalles.
-
-Un cordial saludo
+# Original: Hola %1$s:\n\nGracias por utilizar nuestro análisis de salud del sitio web. He revisado el diagnóstico rápido de %2$s y quería compartir un breve resumen.\n\nPuntuación global: %3$d/100\n\nLos tres puntos que priorizaría:\n1. %4$s\n2. %5$s\n3. %6$s\n\nEn función de esto, le sugeriría: %7$s\nEstimación orientativa: %8$s\n\nEsta cifra es solo una referencia: el precio exacto depende del acceso a WordPress y al alojamiento, del número de plugins y del estado real del sitio. Con gusto organizaré una breve llamada para explicarle los detalles.\n\nUn cordial saludo
 #. translators: 1: name, 2: domain, 3: score, 4-6: priorities, 7: offer, 8:
 #. estimate.
 #: includes/class-elwhc-admin.php:571
