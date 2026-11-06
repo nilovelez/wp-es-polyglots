@@ -1,6 +1,6 @@
 # Status
 
-Last updated: 2026-11-05.
+Last updated: 2026-11-06.
 
 ## Current milestone
 
@@ -11,6 +11,29 @@ Last updated: 2026-11-05.
 3. Real rounds from the waiting queue with Nilo's feedback, following `review/README.md`. In progress.
 
 M1 (reorganize the repository and document the current state) is done.
+
+## Plan: shared sources for every tool
+
+Goal: every tool (a translation skill, a review skill for moderators, an AI agent that pre-reviews incoming translations) uses the same sources: the official translator guide and the official glossary. The skill keeps only the file tools (`po_tool.py`) and the workflows (translate, review), never its own rules.
+
+**Translator guide**
+
+1. Nilo reviews by hand the guide published in the es handbook and `resources/style-guide.md` (inherited: based on the official guide, more complete, with more cases). He reports inconsistencies; Claude fixes them in the Markdown.
+2. Two versions with the same rules, more complete and better explained than the published one:
+   - **Human guide** (HTML): replaces the current page in the es handbook; Nilo publishes it. Claude creates it when Nilo asks. It links to the agent guide.
+   - **Agent guide** (Markdown): the same rules plus the information for agents; it goes to the WordPress España community's GitHub account.
+3. The skill then references the published agent guide instead of carrying rules.
+4. From then on, new criteria from the rounds are reviewed one by one as changes to that base.
+
+**Glossary**
+
+- The glossary is the GlotPress glossary that moderators edit; `resources/glossary.csv` is its CSV export. Do not edit it by hand.
+- Exceptions found in the rounds live in `resources/glossary-overrides.csv`, and every exception and every change to propose is recorded in `resources/proposals.md`. Nilo proposes them in GlotPress; once published, the export is refreshed and the local exception removed.
+- The more the guide and the glossary hold, the fewer local exceptions: the end state is no exceptions at all.
+
+**Later: central Polyglots repository**
+
+A central WordPress Polyglots repository (not the es one) with the general instructions on how agents must work and the agent guide of each locale. Any skill or tool of any locale then uses the general Polyglots guide plus its locale's agent guide, instead of each one interpreting the rules its own way. This repository must stay clonable by other locales for that reason.
 
 ## Subprojects
 
