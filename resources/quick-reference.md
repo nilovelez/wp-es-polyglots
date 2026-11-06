@@ -22,6 +22,7 @@ Prioridad si hay conflicto: instrucciones de Nilo → glosario → guía.
 - Registros de cambios: al traducir, una sola forma verbal en todas las entradas (participio: «Añadido», «Corregido»); *Fix* = Corrección, *Tweak* = Retoque, *Feature* = Característica. Al revisar, una entrada con otra forma verbal no es motivo de cambio si el sentido es correcto.
 - *admin* / *administrator*: «administrador» es la persona o el perfil; «administración» es el área de administración. *Administrator request* = «solicitudes del administrador», no «solicitudes de administración».
 - *host name* / *hostname* = «nombre de host», no «nombre de servidor».
+- Nombres de etiquetas y atributos HTML (*viewport*, *canonical*, *hreflang*, *og:url*) no se traducen cuando nombran la etiqueta: «la etiqueta viewport», «la metaetiqueta viewport». La traducción del glosario («área visible») es para la interfaz del usuario final.
 - *badge*: «insignia» (glosario) encaja sobre todo en productos (el cartelito de «en oferta»). Para el globo con un contador junto a un elemento del menú, «distintivo» y otras opciones razonables también son válidas: se aprueba.
 - Los términos del glosario que el traductor deja en inglés (*checkout*, *slider*, *hook*, *frontend*, *sitemap*, *firewall*) son error.
 - El masculino genérico no es motivo de rechazo. Cambios mínimos de estilo: se aprueba. Tilde o coma tras «Por favor,»: se corrige y se publica.

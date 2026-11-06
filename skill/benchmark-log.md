@@ -67,6 +67,13 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - Sonnet la revisó con diez subagentes en paralelo y se gastó casi toda la cuota diaria. Lección: en rondas grandes, primero las cifras baratas (`lint`, cadenas iguales al inglés) y la decisión de Nilo. Nunca subagentes en paralelo con el mismo modelo.
 - Se borraron sus archivos para que no se reutilice por accidente.
 
+## 2026-11-06 · Haiku · ronda 06 (Effortless Website Health Check, dev, 300 cadenas) · skill v3 · primera ronda real con Haiku
+
+- Resultado: 78 cambios. Haiku propuso 78 cambios y 2 dudas: Nilo mantuvo los 78. Ni editados, ni deshechos, ni escapados.
+- Problema principal del traductor: tratamiento de usted en todo el plugin («Añada», «considere», «su empresa») sin escribir nunca «usted». La cuenta de «usted» y `lint` no lo detectan. Es una señal que falta para detectar lotes malos.
+- Dudas: *viewport* como nombre de etiqueta HTML. Nilo lo dejó en inglés, y queda anotado en la referencia rápida.
+- Incidencia: `review-po` rompía el `.po` cuando la traducción original tenía saltos de línea (Poedit: *keyword unknown*). Corregido.
+
 ## 2026-11-06 · Haiku frente a Sonnet · rondas 03 y 04 · skill v3
 
 Haiku revisó a ciegas los `original.po` de las rondas 03 y 04. Se compara con la revisión final de Nilo (`reviewed.po`). Ojo: Nilo revisó partiendo de las propuestas de Sonnet, así que la referencia favorece a Sonnet.
