@@ -1,0 +1,118 @@
+{"n": 1, "msgid": "Popup Title", "msgstr": "Título de la ventana emergente"}
+{"n": 2, "note": "translators: %s: ifthenpay transaction id.", "msgid": "ifthenpay transaction ID received: %s (verifying payment status)", "msgstr": "ID de transacción de ifthenpay recibido: %s (verificando el estado del pago)"}
+{"n": 3, "msgid": "A ready-made example form showing the ifthenpay | Payment Gateway field alongside common field types.", "msgstr": "Un formulario de ejemplo ya preparado que muestra el campo ifthenpay | Payment Gateway junto con tipos de campo habituales."}
+{"n": 4, "msgid": "ifthenpay Simple Template", "msgstr": "Plantilla simple de ifthenpay"}
+{"n": 5, "msgid": "Thanks! We will be in touch shortly.", "msgstr": "¡Gracias! Nos pondremos en contacto contigo en breve."}
+{"n": 6, "msgid": "Sending...", "msgstr": "Enviando..."}
+{"n": 7, "msgid": "Submit", "msgstr": "Enviar"}
+{"n": 8, "msgid": "Total", "msgstr": "Total"}
+{"n": 9, "msgid": "Custom Captcha", "msgstr": "Captcha personalizado"}
+{"n": 10, "msgid": "Fourth Item", "msgstr": "Cuarto elemento"}
+{"n": 11, "msgid": "Third Item", "msgstr": "Tercer elemento"}
+{"n": 12, "msgid": "Second Item", "msgstr": "Segundo elemento"}
+{"n": 13, "msgid": "First Item", "msgstr": "Primer elemento"}
+{"n": 14, "msgid": "Dropdown Items", "msgstr": "Elementos del desplegable"}
+{"n": 15, "msgid": "Address", "msgstr": "Dirección"}
+{"n": 16, "msgid": "Email", "msgstr": "Correo electrónico"}
+{"n": 17, "msgid": "Name", "msgstr": "Nombre"}
+{"n": 18, "msgid": "Next", "msgstr": "Siguiente"}
+{"n": 19, "msgid": "Step {current_page} of {last_page}", "msgstr": "Paso {current_page} de {last_page}"}
+{"n": 20, "msgid": "Page Break", "msgstr": "Salto de página"}
+{"n": 21, "msgid": "A 3-step example checkout showing the ifthenpay | Payment Gateway field alongside page breaks, a payment dropdown, and a spam-check field.", "msgstr": "Un ejemplo de pago en 3 pasos que muestra el campo ifthenpay | Payment Gateway junto con saltos de página, un desplegable de pago y un campo de verificación anti-spam."}
+{"n": 22, "msgid": "ifthenpay Complex Template", "msgstr": "Plantilla compleja de ifthenpay"}
+{"n": 23, "msgid": "Payment failed", "msgstr": "Pago fallido"}
+{"n": 24, "msgid": "Payment processing", "msgstr": "Pago en proceso"}
+{"n": 25, "msgid": "Payment received", "msgstr": "Pago recibido"}
+{"n": 26, "msgid": "Payment cancelled", "msgstr": "Pago cancelado"}
+{"n": 27, "msgid": "Please allow pop-ups for this site to complete the payment, then try again.", "msgstr": "Permite las ventanas emergentes en este sitio para completar el pago e inténtalo de nuevo."}
+{"n": 28, "msgid": "Complete your payment in the tab that just opened — we'll update this page automatically.", "msgstr": "Completa el pago en la pestaña que se acaba de abrir; actualizaremos esta página automáticamente."}
+{"n": 29, "msgid": "ifthenpay pay-by-link return received (pending confirmation).", "msgstr": "Retorno de pay-by-link de ifthenpay recibido (pendiente de confirmación)."}
+{"n": 30, "note": "translators: 1: ifthenpay gateway label, 2: formatted paid amount.", "msgid": "%1$s - %2$s - Paid", "msgstr": "%1$s - %2$s - Pagado"}
+{"n": 31, "note": "translators: %s: ifthenpay request id.", "msgid": "ifthenpay request ID: %s", "msgstr": "ID de solicitud de ifthenpay: %s"}
+{"n": 32, "note": "translators: %s: Pay By Link URL.", "msgid": "Pay by Link: %s", "msgstr": "Pay by Link: %s"}
+{"n": 33, "msgid": "Confirmation Redirect URL", "msgstr": "URL de redirección de la confirmación"}
+{"n": 34, "msgid": "Confirmation Page", "msgstr": "Página de confirmación"}
+{"n": 35, "msgid": "— Select a page —", "msgstr": "— Selecciona una página —"}
+{"n": 36, "msgid": "Show entry preview after confirmation message", "msgstr": "Mostrar vista previa de la entrada después del mensaje de confirmación"}
+{"n": 37, "msgid": "Confirmation Message", "msgstr": "Mensaje de confirmación"}
+{"n": 38, "msgid": "Go to URL (Redirect)", "msgstr": "Ir a una URL (redirección)"}
+{"n": 39, "msgid": "Show Page", "msgstr": "Mostrar página"}
+{"n": 40, "msgid": "Message", "msgstr": "Mensaje"}
+{"n": 41, "msgid": "Confirmation Type", "msgstr": "Tipo de confirmación"}
+{"n": 42, "msgid": "Customize what customers see in the ifthenpay payment popup for each outcome, pre-filled with the default text below. This is separate from the WPForms Confirmations tab, which does not apply to this popup.", "msgstr": "Personaliza lo que ven los clientes en la ventana emergente de pago de ifthenpay para cada resultado, rellenado de antemano con el texto predeterminado que aparece abajo. Es independiente de la pestaña Confirmaciones de WPForms, que no se aplica a esta ventana."}
+{"n": 43, "msgid": "Popup Confirmation Messages", "msgstr": "Mensajes de confirmación de la ventana emergente"}
+{"n": 44, "msgid": "You cancelled the payment.", "msgstr": "Has cancelado el pago."}
+{"n": 45, "msgid": "Cancelled", "msgstr": "Cancelado"}
+{"n": 46, "msgid": "Your payment could not be completed.", "msgstr": "No se ha podido completar tu pago."}
+{"n": 47, "msgid": "Failed", "msgstr": "Fallido"}
+{"n": 48, "msgid": "We're waiting for your payment to be confirmed. You don't need to do anything else — this will update automatically once it's complete.", "msgstr": "Estamos esperando la confirmación de tu pago. No tienes que hacer nada más: se actualizará automáticamente cuando se complete."}
+{"n": 49, "msgid": "Pending", "msgstr": "Pendiente"}
+{"n": 50, "msgid": "Your payment was successful. Thank you!", "msgstr": "Tu pago se ha realizado correctamente. ¡Gracias!"}
+{"n": 51, "msgid": "Paid", "msgstr": "Pagado"}
+{"n": 52, "msgid": "Set as default payment method", "msgstr": "Establecer como método de pago predeterminado"}
+{"n": 53, "msgid": "Default", "msgstr": "Predeterminado"}
+{"n": 54, "msgid": "Ifthenpay", "msgstr": "Ifthenpay"}
+{"n": 55, "msgid": "Hide the payment methods box and show only the Pay now button.", "msgstr": "Oculta el cuadro de métodos de pago y muestra solo el botón Pagar ahora."}
+{"n": 56, "msgid": "Show pay button only", "msgstr": "Mostrar solo el botón de pago"}
+{"n": 57, "msgid": "Hide the ifthenpay logo shown in the payment box.", "msgstr": "Oculta el logotipo de ifthenpay que aparece en el cuadro de pago."}
+{"n": 58, "msgid": "Hide ifthenpay logo", "msgstr": "Ocultar logotipo de ifthenpay"}
+{"n": 59, "msgid": "Choose how wide the ifthenpay payment box appears.", "msgstr": "Elige el ancho con el que se muestra el cuadro de pago de ifthenpay."}
+{"n": 60, "msgid": "Large", "msgstr": "Grande"}
+{"n": 61, "msgid": "Medium", "msgstr": "Mediano"}
+{"n": 62, "msgid": "Small", "msgstr": "Pequeño"}
+{"n": 63, "msgid": "Box size", "msgstr": "Tamaño del cuadro"}
+{"n": 64, "msgid": "Connection Status", "msgstr": "Estado de la conexión"}
+{"n": 65, "note": "Plugin URI of the plugin", "msgid": "https://github.com/ifthenpay/ifthenpay-payments-for-wpforms", "msgstr": "https://github.com/ifthenpay/ifthenpay-payments-for-wpforms"}
+{"n": 66, "msgid": "Unable to open payment", "msgstr": "No se puede abrir el pago"}
+{"n": 67, "msgid": "The payment total is not ready yet. Please review the form and try again.", "msgstr": "El total del pago aún no está listo. Revisa el formulario e inténtalo de nuevo."}
+{"n": 68, "msgid": "ifthenpay pay-by-link initialized.", "msgstr": "Pay-by-link de ifthenpay iniciado."}
+{"n": 69, "msgid": "Ifthenpay payment settings alert", "msgstr": "Aviso de ajustes de pago de ifthenpay"}
+{"n": 70, "msgid": "Heads up! ifthenpay payments can't be enabled yet.", "msgstr": "¡Atención! Los pagos de ifthenpay aún no se pueden activar."}
+{"n": 71, "msgid": "Choose the gateway key that should be used by this form.", "msgstr": "Elige la Gateway Key que debe usar este formulario."}
+{"n": 72, "msgid": "Gateway key", "msgstr": "Gateway Key"}
+{"n": 73, "msgid": "Shown to customers as the payment description.", "msgstr": "Se muestra a los clientes como descripción del pago."}
+{"n": 74, "msgid": "No accounts.", "msgstr": "No hay cuentas."}
+{"n": 75, "note": "translators: %s - cooldown time in human readable format", "msgid": "Activation request sent. Try again in %s.", "msgstr": "Solicitud de activación enviada. Inténtalo de nuevo en %s."}
+{"n": 76, "msgid": "Payment Methods", "msgstr": "Métodos de pago"}
+{"n": 77, "msgid": "Missing gateway, method, or Backoffice Key.", "msgstr": "Falta la pasarela, el método o la Backoffice Key."}
+{"n": 78, "msgid": "Connect a valid Backoffice Key in WPForms Settings > Payments before activating payment methods.", "msgstr": "Conecta una Backoffice Key válida en Ajustes de WPForms > Pagos antes de activar métodos de pago."}
+{"n": 79, "msgid": "Unable to load this gateway configuration.", "msgstr": "No se ha podido cargar la configuración de esta pasarela."}
+{"n": 80, "msgid": "Select a valid ifthenpay gateway key.", "msgstr": "Selecciona una Gateway Key de ifthenpay válida."}
+{"n": 81, "msgid": "Gateway methods can only be loaded for a saved form that contains the ifthenpay field.", "msgstr": "Los métodos de la pasarela solo se pueden cargar para un formulario guardado que contenga el campo de ifthenpay."}
+{"n": 82, "msgid": "You do not have permission to load ifthenpay gateway methods.", "msgstr": "No tienes permiso para cargar los métodos de la pasarela de ifthenpay."}
+{"n": 83, "msgid": "Unable to load the payment methods for this gateway. Please try again.", "msgstr": "No se han podido cargar los métodos de pago de esta pasarela. Inténtalo de nuevo."}
+{"n": 84, "msgid": "Failed to send the activation email. Please try again later.", "msgstr": "No se ha podido enviar el correo de activación. Inténtalo de nuevo más tarde."}
+{"n": 85, "msgid": "Your activation request has been sent to support.", "msgstr": "Tu solicitud de activación se ha enviado a soporte."}
+{"n": 86, "msgid": "Add the ifthenpay field to this form before enabling ifthenpay.", "msgstr": "Añade el campo de ifthenpay a este formulario antes de activar ifthenpay."}
+{"n": 87, "note": "translators: %s - payment field that is causing a conflict with ifthenpay field", "msgid": "This form contains another payment field or gateway field that conflicts with ifthenpay: %s.", "msgstr": "Este formulario contiene otro campo de pago o de pasarela que entra en conflicto con ifthenpay: %s."}
+{"n": 88, "note": "translators: %s - payment provider name", "msgid": "Heads up! %s cannot be enabled yet.", "msgstr": "¡Atención! %s aún no se puede activar."}
+{"n": 89, "msgid": "Allow customers to pay through ifthenpay using this form.", "msgstr": "Permite que los clientes paguen con ifthenpay mediante este formulario."}
+{"n": 90, "msgid": "Learn more about ifthenpay | Payment Gateway.", "msgstr": "Más información sobre ifthenpay | Payment Gateway."}
+{"n": 91, "note": "translators: %s - payment gateway name", "msgid": "To use %s, first add the ifthenpay payment field to your form.", "msgstr": "Para usar %s, primero añade el campo de pago de ifthenpay a tu formulario."}
+{"n": 92, "msgid": "This field is disabled because no gateway key is selected in the Payments tab.", "msgstr": "Este campo está desactivado porque no hay ninguna Gateway Key seleccionada en la pestaña Pagos."}
+{"n": 93, "msgid": "This field is disabled because ifthenpay is turned off in the Payments tab for this form.", "msgstr": "Este campo está desactivado porque ifthenpay está desactivado en la pestaña Pagos de este formulario."}
+{"n": 94, "msgid": "Connect your ifthenpay Backoffice Key in WPForms Settings » Payments » ifthenpay to use this field.", "msgstr": "Conecta tu Backoffice Key de ifthenpay en Ajustes de WPForms » Pagos » ifthenpay para usar este campo."}
+{"n": 95, "msgid": "Configuration Required", "msgstr": "Configuración necesaria"}
+{"n": 96, "msgid": "Every field should have a descriptive label. You can hide the label from the Advanced tab.", "msgstr": "Todos los campos deben tener una etiqueta descriptiva. Puedes ocultar la etiqueta desde la pestaña Avanzado."}
+{"n": 97, "msgid": "Label Hidden", "msgstr": "Etiqueta oculta"}
+{"n": 98, "msgid": "Add one or more CSS classes to the public ifthenpay field box, separated by spaces.", "msgstr": "Añade una o más clases CSS al cuadro público del campo de ifthenpay, separadas por espacios."}
+{"n": 99, "msgid": "Public box CSS classes", "msgstr": "Clases CSS del cuadro público"}
+{"n": 100, "msgid": "Enter the label for the pay now button.", "msgstr": "Introduce la etiqueta del botón Pagar ahora."}
+{"n": 101, "msgid": "Pay now button label", "msgstr": "Etiqueta del botón Pagar ahora"}
+{"n": 102, "msgid": "Enter text for the form field label.", "msgstr": "Introduce el texto de la etiqueta del campo del formulario."}
+{"n": 103, "msgid": "<p>{name} requires a gateway key to be selected.</p><p>To proceed, please go to <strong>Payments Â» {name}</strong> and choose a <strong>Gateway key</strong>.</p>", "msgstr": "<p>{name} requiere que se seleccione una Gateway Key.</p><p>Para continuar, ve a <strong>Pagos » {name}</strong> y elige una <strong>Gateway Key</strong>.</p>"}
+{"n": 104, "msgid": "<p>ifthenpay account connection is required when using the ifthenpay field.</p><p>To proceed, please go to <strong>WPForms Settings » Payments » ifthenpay</strong> and connect your account.</p>", "msgstr": "<p>Se requiere conectar la cuenta de ifthenpay al usar el campo de ifthenpay.</p><p>Para continuar, ve a <strong>Ajustes de WPForms » Pagos » ifthenpay</strong> y conecta tu cuenta.</p>"}
+{"n": 105, "msgid": "Connection request failed. Please try again.", "msgstr": "La solicitud de conexión ha fallado. Inténtalo de nuevo."}
+{"n": 106, "msgid": "Enter your Backoffice Key and click Connect to load your WPForms gateways.", "msgstr": "Introduce tu Backoffice Key y haz clic en Conectar para cargar tus pasarelas de WPForms."}
+{"n": 107, "msgid": "Connected. Gateway keys and methods are configured inside the form builder.", "msgstr": "Conectado. Las Gateway Keys y los métodos se configuran dentro del constructor de formularios."}
+{"n": 108, "msgid": "Connect your Backoffice Key here. Per-form gateway selection and method settings are configured inside the form builder.", "msgstr": "Conecta aquí tu Backoffice Key. La selección de pasarela y los ajustes de métodos de cada formulario se configuran dentro del constructor de formularios."}
+{"n": 109, "msgid": "ifthenpay | Payment Gateway", "msgstr": "ifthenpay | Payment Gateway"}
+{"n": 110, "msgid": "Backoffice Key connected successfully.", "msgstr": "Backoffice Key conectada correctamente."}
+{"n": 111, "msgid": "become one here", "msgstr": "hazte cliente aquí"}
+{"n": 112, "note": "translators: 1: support email link, 2: sign-up link", "msgid": "No WPForms gateway found for this Backoffice Key. If you are an ifthenpay client, %1$s to request a WPForms context gateway. If you are not yet a client, %2$s.", "msgstr": "No se ha encontrado ninguna pasarela de WPForms para esta Backoffice Key. Si eres cliente de ifthenpay, %1$s para solicitar una pasarela de contexto WPForms. Si aún no eres cliente, %2$s."}
+{"n": 113, "msgid": "Enter a valid Backoffice Key before connecting.", "msgstr": "Introduce una Backoffice Key válida antes de conectar."}
+{"n": 114, "msgid": "Connect your ifthenpay account to load gateway keys and payment methods.", "msgstr": "Conecta tu cuenta de ifthenpay para cargar las Gateway Keys y los métodos de pago."}
+{"n": 115, "msgid": "Backoffice Key", "msgstr": "Backoffice Key"}
+{"n": 116, "msgid": "Select an ifthenpay gateway key in the Payments tab first.", "msgstr": "Selecciona primero una Gateway Key de ifthenpay en la pestaña Pagos."}
+{"n": 117, "msgid": "Connect your ifthenpay Backoffice Key in WPForms Settings > Payments first.", "msgstr": "Conecta primero tu Backoffice Key de ifthenpay en Ajustes de WPForms > Pagos."}
+{"n": 118, "note": "Description of the plugin", "msgid": "ifthenpay Pay by Link integration for WPForms.", "msgstr": "Integración de ifthenpay Pay by Link para WPForms."}

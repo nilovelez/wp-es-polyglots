@@ -1,0 +1,605 @@
+# Translation of Plugins - ifthenpay | Payments for WPForms - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - ifthenpay | Payments for WPForms - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-10-15 09:09:20+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.1.0\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - ifthenpay | Payments for WPForms - Stable (latest release)\n"
+
+#: src/Api/WPForms/Payments.php:929
+msgid "Popup Title"
+msgstr "Título de la ventana emergente"
+
+#. translators: %s: ifthenpay transaction id.
+#: src/Api/WPForms/Process/EntryManager.php:416
+msgid "ifthenpay transaction ID received: %s (verifying payment status)"
+msgstr "ID de transacción de ifthenpay recibido: %s (verificando el estado del pago)"
+
+# [Rechazo] Según el glosario, «payment gateway» es «pasarela de pago», también en el nombre del campo.
+# Original: Un formulario de ejemplo ya preparado que muestra el campo ifthenpay | Payment Gateway junto con tipos de campo habituales.
+#: src/Templates/ExampleFormTemplate.php:33
+#, fuzzy
+msgid "A ready-made example form showing the ifthenpay | Payment Gateway field alongside common field types."
+msgstr "Un formulario de ejemplo ya preparado que muestra el campo ifthenpay | Pasarela de pago junto con tipos de campo habituales."
+
+#: src/Templates/ExampleFormTemplate.php:27
+msgid "ifthenpay Simple Template"
+msgstr "Plantilla simple de ifthenpay"
+
+#: src/Templates/ComplexFormTemplate.php:163
+#: src/Templates/ExampleFormTemplate.php:120
+msgid "Thanks! We will be in touch shortly."
+msgstr "¡Gracias! Nos pondremos en contacto contigo en breve."
+
+#: src/Templates/ComplexFormTemplate.php:150
+#: src/Templates/ExampleFormTemplate.php:107
+msgid "Sending..."
+msgstr "Enviando..."
+
+#: src/Templates/ComplexFormTemplate.php:149
+#: src/Templates/ExampleFormTemplate.php:106
+msgid "Submit"
+msgstr "Enviar"
+
+#: src/Templates/ComplexFormTemplate.php:132
+msgid "Total"
+msgstr "Total"
+
+#: src/Templates/ComplexFormTemplate.php:119
+msgid "Custom Captcha"
+msgstr "Captcha personalizado"
+
+#: src/Templates/ComplexFormTemplate.php:107
+msgid "Fourth Item"
+msgstr "Cuarto elemento"
+
+#: src/Templates/ComplexFormTemplate.php:102
+#: src/Templates/ExampleFormTemplate.php:85
+msgid "Third Item"
+msgstr "Tercer elemento"
+
+#: src/Templates/ComplexFormTemplate.php:97
+#: src/Templates/ExampleFormTemplate.php:80
+msgid "Second Item"
+msgstr "Segundo elemento"
+
+#: src/Templates/ComplexFormTemplate.php:92
+#: src/Templates/ExampleFormTemplate.php:75
+msgid "First Item"
+msgstr "Primer elemento"
+
+#: src/Templates/ComplexFormTemplate.php:89
+#: src/Templates/ExampleFormTemplate.php:72
+msgid "Dropdown Items"
+msgstr "Elementos del desplegable"
+
+#: src/Templates/ComplexFormTemplate.php:73
+#: src/Templates/ExampleFormTemplate.php:62
+msgid "Address"
+msgstr "Dirección"
+
+#: src/Templates/ComplexFormTemplate.php:66
+#: src/Templates/ExampleFormTemplate.php:55
+msgid "Email"
+msgstr "Correo electrónico"
+
+#: src/Templates/ComplexFormTemplate.php:59
+#: src/Templates/ExampleFormTemplate.php:48
+msgid "Name"
+msgstr "Nombre"
+
+#: src/Templates/ComplexFormTemplate.php:53
+#: src/Templates/ComplexFormTemplate.php:82
+#: src/Templates/ComplexFormTemplate.php:127
+msgid "Next"
+msgstr "Siguiente"
+
+#: src/Templates/ComplexFormTemplate.php:52
+msgid "Step {current_page} of {last_page}"
+msgstr "Paso {current_page} de {last_page}"
+
+#: src/Templates/ComplexFormTemplate.php:49
+msgid "Page Break"
+msgstr "Salto de página"
+
+# [Rechazo] Según el glosario, «payment gateway» es «pasarela de pago», también en el nombre del campo.
+# Original: Un ejemplo de pago en 3 pasos que muestra el campo ifthenpay | Payment Gateway junto con saltos de página, un desplegable de pago y un campo de verificación anti-spam.
+#: src/Templates/ComplexFormTemplate.php:35
+#, fuzzy
+msgid "A 3-step example checkout showing the ifthenpay | Payment Gateway field alongside page breaks, a payment dropdown, and a spam-check field."
+msgstr "Un ejemplo de pago en 3 pasos que muestra el campo ifthenpay | Pasarela de pago junto con saltos de página, un desplegable de pago y un campo de verificación anti-spam."
+
+#: src/Templates/ComplexFormTemplate.php:25
+msgid "ifthenpay Complex Template"
+msgstr "Plantilla compleja de ifthenpay"
+
+#: src/Api/WPForms/Payments.php:809 src/Plugin.php:249
+msgid "Payment failed"
+msgstr "Pago fallido"
+
+#: src/Api/WPForms/Payments.php:804 src/Plugin.php:247
+msgid "Payment processing"
+msgstr "Pago en proceso"
+
+#: src/Api/WPForms/Payments.php:799 src/Plugin.php:245
+msgid "Payment received"
+msgstr "Pago recibido"
+
+#: src/Api/WPForms/Payments.php:814 src/Plugin.php:243
+msgid "Payment cancelled"
+msgstr "Pago cancelado"
+
+#: src/Plugin.php:239
+msgid "Please allow pop-ups for this site to complete the payment, then try again."
+msgstr "Permite las ventanas emergentes en este sitio para completar el pago e inténtalo de nuevo."
+
+# [Rechazo] Mantén el guion largo (—) del original; no lo cambies por punto y coma.
+# Original: Completa el pago en la pestaña que se acaba de abrir; actualizaremos esta página automáticamente.
+#: src/Plugin.php:238
+#, fuzzy
+msgid "Complete your payment in the tab that just opened — we'll update this page automatically."
+msgstr "Completa el pago en la pestaña que se acaba de abrir — actualizaremos esta página automáticamente."
+
+#: src/Api/WPForms/Process/PaymentDataPreparer.php:153
+#: src/Builder/Process.php:162
+msgid "ifthenpay pay-by-link return received (pending confirmation)."
+msgstr "Retorno de pay-by-link de ifthenpay recibido (pendiente de confirmación)."
+
+#. translators: 1: ifthenpay gateway label, 2: formatted paid amount.
+#: src/Api/WPForms/Process/EntryManager.php:479 src/Builder/Process.php:1308
+msgid "%1$s - %2$s - Paid"
+msgstr "%1$s - %2$s - Pagado"
+
+#. translators: %s: ifthenpay request id.
+#: src/Api/WPForms/Process/EntryManager.php:460 src/Builder/Process.php:1289
+msgid "ifthenpay request ID: %s"
+msgstr "ID de solicitud de ifthenpay: %s"
+
+# [DUDA] Pregunta: ¿«Pay by Link» es el nombre del producto de ifthenpay (lo dejamos en inglés) o un término genérico que traducimos como «pago por enlace»? La misma duda afecta a «pay-by-link» (#29 y #68) y a la descripción del plugin (#118).
+# Original: Pay by Link: %s
+#. translators: %s: Pay By Link URL.
+#: src/Api/WPForms/Process/EntryManager.php:370 src/Builder/Process.php:1243
+#, fuzzy
+msgid "Pay by Link: %s"
+msgstr "Pay by Link: %s"
+
+#: src/Api/WPForms/Payments.php:1014
+msgid "Confirmation Redirect URL"
+msgstr "URL de redirección de la confirmación"
+
+#: src/Api/WPForms/Payments.php:999
+msgid "Confirmation Page"
+msgstr "Página de confirmación"
+
+#: src/Api/WPForms/Payments.php:992
+msgid "— Select a page —"
+msgstr "— Selecciona una página —"
+
+# [Rechazo] Según el glosario, «entry» es «registro» cuando se refiere a datos guardados, como un envío del formulario.
+# Original: Mostrar vista previa de la entrada después del mensaje de confirmación
+#: src/Api/WPForms/Payments.php:976
+#, fuzzy
+msgid "Show entry preview after confirmation message"
+msgstr "Mostrar vista previa del registro después del mensaje de confirmación"
+
+#: src/Api/WPForms/Payments.php:946
+msgid "Confirmation Message"
+msgstr "Mensaje de confirmación"
+
+#: src/Api/WPForms/Payments.php:895
+msgid "Go to URL (Redirect)"
+msgstr "Ir a una URL (redirección)"
+
+#: src/Api/WPForms/Payments.php:894
+msgid "Show Page"
+msgstr "Mostrar página"
+
+#: src/Api/WPForms/Payments.php:893 src/Api/WPForms/Payments.php:947
+msgid "Message"
+msgstr "Mensaje"
+
+#: src/Api/WPForms/Payments.php:891
+msgid "Confirmation Type"
+msgstr "Tipo de confirmación"
+
+# [Rechazo] Según el glosario, «default» es «por defecto», no «predeterminado».
+# Original: Personaliza lo que ven los clientes en la ventana emergente de pago de ifthenpay para cada resultado, rellenado de antemano con el texto predeterminado que aparece abajo. Es independiente de la pestaña Confirmaciones de WPForms, que no se aplica a esta ventana.
+#: src/Api/WPForms/Payments.php:838
+#, fuzzy
+msgid "Customize what customers see in the ifthenpay payment popup for each outcome, pre-filled with the default text below. This is separate from the WPForms Confirmations tab, which does not apply to this popup."
+msgstr "Personaliza lo que ven los clientes en la ventana emergente de pago de ifthenpay para cada resultado, rellenado de antemano con el texto por defecto que aparece abajo. Es independiente de la pestaña Confirmaciones de WPForms, que no se aplica a esta ventana."
+
+#: src/Api/WPForms/Payments.php:837
+msgid "Popup Confirmation Messages"
+msgstr "Mensajes de confirmación de la ventana emergente"
+
+#: src/Api/WPForms/Payments.php:815 src/Plugin.php:244
+msgid "You cancelled the payment."
+msgstr "Has cancelado el pago."
+
+#: src/Api/WPForms/Payments.php:813
+msgid "Cancelled"
+msgstr "Cancelado"
+
+#: src/Api/WPForms/Payments.php:810 src/Plugin.php:250
+msgid "Your payment could not be completed."
+msgstr "No se ha podido completar tu pago."
+
+#: src/Api/WPForms/Payments.php:808
+msgid "Failed"
+msgstr "Fallido"
+
+# [Rechazo] Mantén el guion largo (—) del original; no lo cambies por dos puntos.
+# Original: Estamos esperando la confirmación de tu pago. No tienes que hacer nada más: se actualizará automáticamente cuando se complete.
+#: src/Api/WPForms/Payments.php:805 src/Plugin.php:248
+#, fuzzy
+msgid "We're waiting for your payment to be confirmed. You don't need to do anything else — this will update automatically once it's complete."
+msgstr "Estamos esperando la confirmación de tu pago. No tienes que hacer nada más — se actualizará automáticamente cuando se complete."
+
+#: src/Api/WPForms/Payments.php:803
+msgid "Pending"
+msgstr "Pendiente"
+
+#: src/Api/WPForms/Payments.php:800 src/Plugin.php:246
+msgid "Your payment was successful. Thank you!"
+msgstr "Tu pago se ha realizado correctamente. ¡Gracias!"
+
+#: src/Api/WPForms/Payments.php:798
+msgid "Paid"
+msgstr "Pagado"
+
+# [Rechazo] Según el glosario, «default» es «por defecto», no «predeterminado».
+# Original: Establecer como método de pago predeterminado
+#: src/Api/WPForms/Payments.php:657 src/Builder/Payments.php:648
+#, fuzzy
+msgid "Set as default payment method"
+msgstr "Establecer como método de pago por defecto"
+
+# [Rechazo] Según el glosario, «default» es «por defecto», no «predeterminado».
+# Original: Predeterminado
+#: src/Api/WPForms/Payments.php:617 src/Builder/Payments.php:608
+#, fuzzy
+msgid "Default"
+msgstr "Por defecto"
+
+#: src/Api/WPForms/Field.php:545 src/Api/WPForms/Field.php:918
+#: src/Builder/Field.php:543 src/Builder/Field.php:845
+msgid "Ifthenpay"
+msgstr "Ifthenpay"
+
+#: src/Api/WPForms/Field.php:328 src/Builder/Field.php:330
+msgid "Hide the payment methods box and show only the Pay now button."
+msgstr "Oculta el cuadro de métodos de pago y muestra solo el botón Pagar ahora."
+
+#: src/Api/WPForms/Field.php:326 src/Builder/Field.php:328
+msgid "Show pay button only"
+msgstr "Mostrar solo el botón de pago"
+
+#: src/Api/WPForms/Field.php:320 src/Builder/Field.php:322
+msgid "Hide the ifthenpay logo shown in the payment box."
+msgstr "Oculta el logotipo de ifthenpay que aparece en el cuadro de pago."
+
+#: src/Api/WPForms/Field.php:318 src/Builder/Field.php:320
+msgid "Hide ifthenpay logo"
+msgstr "Ocultar logotipo de ifthenpay"
+
+#: src/Api/WPForms/Field.php:286 src/Builder/Field.php:288
+msgid "Choose how wide the ifthenpay payment box appears."
+msgstr "Elige el ancho con el que se muestra el cuadro de pago de ifthenpay."
+
+#: src/Api/WPForms/Field.php:284 src/Builder/Field.php:286
+msgid "Large"
+msgstr "Grande"
+
+#: src/Api/WPForms/Field.php:283 src/Builder/Field.php:285
+msgid "Medium"
+msgstr "Mediano"
+
+#: src/Api/WPForms/Field.php:282 src/Builder/Field.php:284
+msgid "Small"
+msgstr "Pequeño"
+
+#: src/Api/WPForms/Field.php:279 src/Builder/Field.php:281
+msgid "Box size"
+msgstr "Tamaño del cuadro"
+
+#: src/Admin/Settings.php:122
+msgid "Connection Status"
+msgstr "Estado de la conexión"
+
+#. Plugin URI of the plugin
+#: ifthenpay-payments-for-wpforms.php
+msgid "https://github.com/ifthenpay/ifthenpay-payments-for-wpforms"
+msgstr "https://github.com/ifthenpay/ifthenpay-payments-for-wpforms"
+
+# [Rechazo] Según el glosario, «unable» es «no se ha podido».
+# Original: No se puede abrir el pago
+#: src/Plugin.php:242
+#, fuzzy
+msgid "Unable to open payment"
+msgstr "No se ha podido abrir el pago"
+
+#: src/Plugin.php:240
+msgid "The payment total is not ready yet. Please review the form and try again."
+msgstr "El total del pago aún no está listo. Revisa el formulario e inténtalo de nuevo."
+
+#: src/Api/WPForms/Process/PaymentDataPreparer.php:154
+#: src/Builder/Process.php:163
+msgid "ifthenpay pay-by-link initialized."
+msgstr "Pay-by-link de ifthenpay iniciado."
+
+#: src/Api/WPForms/Payments.php:1242 src/Builder/Payments.php:948
+msgid "Ifthenpay payment settings alert"
+msgstr "Aviso de ajustes de pago de ifthenpay"
+
+#: src/Api/WPForms/Payments.php:1200 src/Builder/Payments.php:921
+msgid "Heads up! ifthenpay payments can't be enabled yet."
+msgstr "¡Atención! Los pagos de ifthenpay aún no se pueden activar."
+
+# [Rechazo] Según el glosario, «key» es «clave» y «gateway» es «pasarela». Lo mismo vale para «Gateway Key» y «Backoffice Key» en el resto del archivo.
+# Original: Elige la Gateway Key que debe usar este formulario.
+#: src/Api/WPForms/Payments.php:1190 src/Builder/Payments.php:911
+#, fuzzy
+msgid "Choose the gateway key that should be used by this form."
+msgstr "Elige la clave de pasarela que debe usar este formulario."
+
+# [Rechazo] Según el glosario, «key» es «clave» y «gateway» es «pasarela».
+# Original: Gateway Key
+#: src/Api/WPForms/Payments.php:1181 src/Builder/Payments.php:902
+#, fuzzy
+msgid "Gateway key"
+msgstr "Clave de pasarela"
+
+#: src/Builder/Payments.php:736
+msgid "Shown to customers as the payment description."
+msgstr "Se muestra a los clientes como descripción del pago."
+
+#: src/Api/WPForms/Payments.php:692 src/Builder/Payments.php:683
+msgid "No accounts."
+msgstr "No hay cuentas."
+
+#. translators: %s - cooldown time in human readable format
+#: src/Api/WPForms/Payments.php:688 src/Builder/Payments.php:679
+msgid "Activation request sent. Try again in %s."
+msgstr "Solicitud de activación enviada. Inténtalo de nuevo en %s."
+
+#: src/Api/WPForms/Payments.php:613 src/Builder/Payments.php:604
+msgid "Payment Methods"
+msgstr "Métodos de pago"
+
+# [Rechazo] Según el glosario, «key» es «clave».
+# Original: Falta la pasarela, el método o la Backoffice Key.
+#: src/Api/WPForms/Payments.php:319 src/Builder/Payments.php:313
+#, fuzzy
+msgid "Missing gateway, method, or Backoffice Key."
+msgstr "Falta la pasarela, el método o la clave de Backoffice."
+
+# [Rechazo] Según el glosario, «key» es «clave» y no se deja en inglés.
+# Original: Conecta una Backoffice Key válida en Ajustes de WPForms > Pagos antes de activar métodos de pago.
+#: src/Api/WPForms/Payments.php:311 src/Builder/Payments.php:305
+#, fuzzy
+msgid "Connect a valid Backoffice Key in WPForms Settings > Payments before activating payment methods."
+msgstr "Conecta una clave de Backoffice válida en Ajustes de WPForms > Pagos antes de activar métodos de pago."
+
+#: src/Api/WPForms/Payments.php:267 src/Builder/Payments.php:261
+msgid "Unable to load this gateway configuration."
+msgstr "No se ha podido cargar la configuración de esta pasarela."
+
+# [Rechazo] Según el glosario, «key» es «clave» y «gateway» es «pasarela».
+# Original: Selecciona una Gateway Key de ifthenpay válida.
+#: src/Api/WPForms/Payments.php:262 src/Builder/Payments.php:256
+#, fuzzy
+msgid "Select a valid ifthenpay gateway key."
+msgstr "Selecciona una clave de pasarela de ifthenpay válida."
+
+#: src/Api/WPForms/Payments.php:240 src/Builder/Payments.php:234
+msgid "Gateway methods can only be loaded for a saved form that contains the ifthenpay field."
+msgstr "Los métodos de la pasarela solo se pueden cargar para un formulario guardado que contenga el campo de ifthenpay."
+
+#: src/Api/WPForms/Payments.php:236 src/Builder/Payments.php:230
+msgid "You do not have permission to load ifthenpay gateway methods."
+msgstr "No tienes permiso para cargar los métodos de la pasarela de ifthenpay."
+
+#: src/Api/WPForms/Payments.php:226 src/Builder/Payments.php:220
+msgid "Unable to load the payment methods for this gateway. Please try again."
+msgstr "No se han podido cargar los métodos de pago de esta pasarela. Inténtalo de nuevo."
+
+#: src/Api/WPForms/Payments.php:223 src/Api/WPForms/Payments.php:353
+#: src/Builder/Payments.php:217 src/Builder/Payments.php:347
+msgid "Failed to send the activation email. Please try again later."
+msgstr "No se ha podido enviar el correo de activación. Inténtalo de nuevo más tarde."
+
+#: src/Api/WPForms/Payments.php:222 src/Api/WPForms/Payments.php:348
+#: src/Builder/Payments.php:216 src/Builder/Payments.php:342
+msgid "Your activation request has been sent to support."
+msgstr "Tu solicitud de activación se ha enviado a soporte."
+
+#: src/Api/WPForms/Payments.php:219 src/Builder/Payments.php:213
+msgid "Add the ifthenpay field to this form before enabling ifthenpay."
+msgstr "Añade el campo de ifthenpay a este formulario antes de activar ifthenpay."
+
+#. translators: %s - payment field that is causing a conflict with ifthenpay
+#. field
+#: src/Api/WPForms/Payments.php:165 src/Builder/Payments.php:160
+msgid "This form contains another payment field or gateway field that conflicts with ifthenpay: %s."
+msgstr "Este formulario contiene otro campo de pago o de pasarela que entra en conflicto con ifthenpay: %s."
+
+#. translators: %s - payment provider name
+#: src/Api/WPForms/Payments.php:158 src/Builder/Payments.php:153
+msgid "Heads up! %s cannot be enabled yet."
+msgstr "¡Atención! %s aún no se puede activar."
+
+#: src/Api/WPForms/Payments.php:152 src/Builder/Payments.php:147
+msgid "Allow customers to pay through ifthenpay using this form."
+msgstr "Permite que los clientes paguen con ifthenpay mediante este formulario."
+
+#: src/Api/WPForms/Payments.php:135 src/Api/WPForms/Payments.php:1206
+#: src/Builder/Payments.php:130 src/Builder/Payments.php:927
+msgid "Learn more about ifthenpay | Payment Gateway."
+msgstr "Más información sobre ifthenpay | Payment Gateway."
+
+#. translators: %s - payment gateway name
+#: src/Api/WPForms/Payments.php:132 src/Builder/Payments.php:127
+msgid "To use %s, first add the ifthenpay payment field to your form."
+msgstr "Para usar %s, primero añade el campo de pago de ifthenpay a tu formulario."
+
+# [Rechazo] Según el glosario, «key» es «clave» y «gateway» es «pasarela».
+# Original: Este campo está desactivado porque no hay ninguna Gateway Key seleccionada en la pestaña Pagos.
+#: src/Api/WPForms/Field.php:643 src/Builder/Field.php:584
+#, fuzzy
+msgid "This field is disabled because no gateway key is selected in the Payments tab."
+msgstr "Este campo está desactivado porque no hay ninguna clave de pasarela seleccionada en la pestaña Pagos."
+
+#: src/Api/WPForms/Field.php:640 src/Builder/Field.php:581
+msgid "This field is disabled because ifthenpay is turned off in the Payments tab for this form."
+msgstr "Este campo está desactivado porque ifthenpay está desactivado en la pestaña Pagos de este formulario."
+
+# [Rechazo] Según el glosario, «key» es «clave» y no se deja en inglés.
+# Original: Conecta tu Backoffice Key de ifthenpay en Ajustes de WPForms » Pagos » ifthenpay para usar este campo.
+#: src/Api/WPForms/Field.php:490 src/Builder/Field.php:492
+#, fuzzy
+msgid "Connect your ifthenpay Backoffice Key in WPForms Settings » Payments » ifthenpay to use this field."
+msgstr "Conecta tu clave de Backoffice de ifthenpay en Ajustes de WPForms » Pagos » ifthenpay para usar este campo."
+
+#: src/Api/WPForms/Field.php:488 src/Builder/Field.php:490 src/Plugin.php:241
+msgid "Configuration Required"
+msgstr "Configuración necesaria"
+
+#: src/Api/WPForms/Field.php:480 src/Builder/Field.php:482
+msgid "Every field should have a descriptive label. You can hide the label from the Advanced tab."
+msgstr "Todos los campos deben tener una etiqueta descriptiva. Puedes ocultar la etiqueta desde la pestaña Avanzado."
+
+#: src/Api/WPForms/Field.php:479 src/Builder/Field.php:481
+msgid "Label Hidden"
+msgstr "Etiqueta oculta"
+
+#: src/Api/WPForms/Field.php:294 src/Builder/Field.php:296
+msgid "Add one or more CSS classes to the public ifthenpay field box, separated by spaces."
+msgstr "Añade una o más clases CSS al cuadro público del campo de ifthenpay, separadas por espacios."
+
+#: src/Api/WPForms/Field.php:292 src/Builder/Field.php:294
+msgid "Public box CSS classes"
+msgstr "Clases CSS del cuadro público"
+
+#: src/Api/WPForms/Field.php:267 src/Builder/Field.php:269
+msgid "Enter the label for the pay now button."
+msgstr "Introduce la etiqueta del botón Pagar ahora."
+
+#: src/Api/WPForms/Field.php:265 src/Builder/Field.php:267
+msgid "Pay now button label"
+msgstr "Etiqueta del botón Pagar ahora"
+
+#: src/Api/WPForms/Field.php:259 src/Builder/Field.php:261
+msgid "Enter text for the form field label."
+msgstr "Introduce el texto de la etiqueta del campo del formulario."
+
+# [Rechazo] Según el glosario, «gateway key» es «clave de pasarela». El original trae «Â»» en lugar de «»» (mal codificado); conviene avisar al autor del plugin.
+# Original: <p>{name} requiere que se seleccione una Gateway Key.</p><p>Para continuar, ve a <strong>Pagos » {name}</strong> y elige una <strong>Gateway Key</strong>.</p>
+#: src/Api/WPForms/Field.php:181 src/Builder/Field.php:183
+#, fuzzy
+msgid "<p>{name} requires a gateway key to be selected.</p><p>To proceed, please go to <strong>Payments Â» {name}</strong> and choose a <strong>Gateway key</strong>.</p>"
+msgstr "<p>{name} requiere que se seleccione una clave de pasarela.</p><p>Para continuar, ve a <strong>Pagos » {name}</strong> y elige una <strong>clave de pasarela</strong>.</p>"
+
+# [Rechazo] Según el glosario, «required» es «obligatorio». «Se requiere» es una construcción impersonal que la guía desaconseja.
+# Original: <p>Se requiere conectar la cuenta de ifthenpay al usar el campo de ifthenpay.</p><p>Para continuar, ve a <strong>Ajustes de WPForms » Pagos » ifthenpay</strong> y conecta tu cuenta.</p>
+#: src/Api/WPForms/Field.php:171 src/Builder/Field.php:173
+#, fuzzy
+msgid "<p>ifthenpay account connection is required when using the ifthenpay field.</p><p>To proceed, please go to <strong>WPForms Settings » Payments » ifthenpay</strong> and connect your account.</p>"
+msgstr "<p>Es obligatorio conectar la cuenta de ifthenpay para usar el campo de ifthenpay.</p><p>Para continuar, ve a <strong>Ajustes de WPForms » Pagos » ifthenpay</strong> y conecta tu cuenta.</p>"
+
+#: src/Admin/Settings.php:300
+msgid "Connection request failed. Please try again."
+msgstr "La solicitud de conexión ha fallado. Inténtalo de nuevo."
+
+# [Rechazo] Según el glosario, «key» es «clave» y no se deja en inglés.
+# Original: Introduce tu Backoffice Key y haz clic en Conectar para cargar tus pasarelas de WPForms.
+#: src/Admin/Settings.php:240
+#, fuzzy
+msgid "Enter your Backoffice Key and click Connect to load your WPForms gateways."
+msgstr "Introduce tu clave de Backoffice y haz clic en Conectar para cargar tus pasarelas de WPForms."
+
+# [Rechazo] Según el glosario, «gateway key» es «clave de pasarela» y no se deja en inglés.
+# Original: Conectado. Las Gateway Keys y los métodos se configuran dentro del constructor de formularios.
+#: src/Admin/Settings.php:234
+#, fuzzy
+msgid "Connected. Gateway keys and methods are configured inside the form builder."
+msgstr "Conectado. Las claves de pasarela y los métodos se configuran dentro del constructor de formularios."
+
+# [DUDA] Pregunta: el glosario da «builder» como «maquetador» (y «editor» con arrastrar y soltar). ¿Mantenemos «constructor de formularios» o usamos otra opción del glosario?
+# Original: Conecta aquí tu Backoffice Key. La selección de pasarela y los ajustes de métodos de cada formulario se configuran dentro del constructor de formularios.
+#: src/Admin/Settings.php:225
+#, fuzzy
+msgid "Connect your Backoffice Key here. Per-form gateway selection and method settings are configured inside the form builder."
+msgstr "Conecta aquí tu clave de Backoffice. La selección de pasarela y los ajustes de métodos de cada formulario se configuran dentro del constructor de formularios."
+
+# [Rechazo] Según el glosario, «payment gateway» es «pasarela de pago».
+# Original: ifthenpay | Payment Gateway
+#: src/Admin/Settings.php:224 src/Plugin.php:205
+#, fuzzy
+msgid "ifthenpay | Payment Gateway"
+msgstr "ifthenpay | Pasarela de pago"
+
+# [Rechazo] Según el glosario, «key» es «clave» y no se deja en inglés.
+# Original: Backoffice Key conectada correctamente.
+#: src/Admin/Settings.php:181
+#, fuzzy
+msgid "Backoffice Key connected successfully."
+msgstr "Clave de Backoffice conectada correctamente."
+
+#: src/Admin/Settings.php:173
+msgid "become one here"
+msgstr "hazte cliente aquí"
+
+# [Rechazo] Según el glosario, «key» es «clave» y no se deja en inglés.
+# Original: No se ha encontrado ninguna pasarela de WPForms para esta Backoffice Key. Si eres cliente de ifthenpay, %1$s para solicitar una pasarela de contexto WPForms. Si aún no eres cliente, %2$s.
+#. translators: 1: support email link, 2: sign-up link
+#: src/Admin/Settings.php:171
+#, fuzzy
+msgid "No WPForms gateway found for this Backoffice Key. If you are an ifthenpay client, %1$s to request a WPForms context gateway. If you are not yet a client, %2$s."
+msgstr "No se ha encontrado ninguna pasarela de WPForms para esta clave de Backoffice. Si eres cliente de ifthenpay, %1$s para solicitar una pasarela de contexto WPForms. Si aún no eres cliente, %2$s."
+
+# [Rechazo] Según el glosario, «key» es «clave» y no se deja en inglés.
+# Original: Introduce una Backoffice Key válida antes de conectar.
+#: src/Admin/Settings.php:154 src/Admin/Settings.php:301
+#, fuzzy
+msgid "Enter a valid Backoffice Key before connecting."
+msgstr "Introduce una clave de Backoffice válida antes de conectar."
+
+# [Rechazo] Según el glosario, «key» es «clave» y «gateway» es «pasarela».
+# Original: Conecta tu cuenta de ifthenpay para cargar las Gateway Keys y los métodos de pago.
+#: src/Admin/Settings.php:113
+#, fuzzy
+msgid "Connect your ifthenpay account to load gateway keys and payment methods."
+msgstr "Conecta tu cuenta de ifthenpay para cargar las claves de pasarela y los métodos de pago."
+
+# [Rechazo] Según el glosario, «key» es «clave» y no se deja en inglés.
+# Original: Backoffice Key
+#: src/Admin/Settings.php:109
+#, fuzzy
+msgid "Backoffice Key"
+msgstr "Clave de Backoffice"
+
+# [Rechazo] Según el glosario, «key» es «clave» y «gateway» es «pasarela».
+# Original: Selecciona primero una Gateway Key de ifthenpay en la pestaña Pagos.
+#: src/Admin/Settings.php:87 src/Api/WPForms/Payments.php:220
+#: src/Builder/Payments.php:214
+#, fuzzy
+msgid "Select an ifthenpay gateway key in the Payments tab first."
+msgstr "Selecciona primero una clave de pasarela de ifthenpay en la pestaña Pagos."
+
+# [Rechazo] Según el glosario, «key» es «clave» y no se deja en inglés.
+# Original: Conecta primero tu Backoffice Key de ifthenpay en Ajustes de WPForms > Pagos.
+#: src/Admin/Settings.php:83
+#, fuzzy
+msgid "Connect your ifthenpay Backoffice Key in WPForms Settings > Payments first."
+msgstr "Conecta primero tu clave de Backoffice de ifthenpay en Ajustes de WPForms > Pagos."
+
+#. Description of the plugin
+#: ifthenpay-payments-for-wpforms.php
+msgid "ifthenpay Pay by Link integration for WPForms."
+msgstr "Integración de ifthenpay Pay by Link para WPForms."

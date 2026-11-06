@@ -91,6 +91,13 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - Duda (#2): en *supported conflict*, «compatible» no encaja. Nilo aceptó «conflicto que se pueda resolver»: el glosario no se aplica cuando el término no tiene ese sentido.
 - Incidencia: los comentarios para el traductor citaban «la ronda 07». Se reescribieron antes de pasarlos a Nilo, y SKILL.md ahora prohíbe citar rondas o archivos internos.
 
+## 2026-11-06 · Haiku · ronda 09 (ifthenpay Payments for WPForms, stable, 118 cadenas) · skill v3
+
+- Resultado: 29 cambios. Haiku propuso 28 cambios y 2 dudas: Nilo los mantuvo todos. Ni editados, ni deshechos, ni escapados. Según Nilo, era una traducción complicada y la hizo muy bien.
+- Cambios principales: *Gateway Key* → «clave de pasarela» y *Backoffice Key* → «clave de Backoffice», que estaban en inglés (unas 15 cadenas, todas coherentes); *Payment Gateway* → «Pasarela de pago», también en el nombre del campo; del glosario, *default*, *entry* = «registro», *unable* y *required*.
+- Guion largo (#28, #48): Haiku devolvió el «—» del inglés donde el traductor puso «;» o «:». Opus recomendó deshacerlo, por ser un anglicismo, y Nilo lo mantuvo. No es regla: queda como candidato y hay que preguntarlo si vuelve a salir.
+- Dudas: «Pay by Link» se queda en inglés, como nombre del producto de ifthenpay; *form builder* se queda «constructor de formularios», no «maquetador».
+
 ## 2026-11-06 · Haiku frente a Sonnet · rondas 03 y 04 · skill v3
 
 Haiku revisó a ciegas los `original.po` de las rondas 03 y 04. Se compara con la revisión final de Nilo (`reviewed.po`). Ojo: Nilo revisó partiendo de las propuestas de Sonnet, así que la referencia favorece a Sonnet.
