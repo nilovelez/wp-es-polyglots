@@ -49,3 +49,14 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
   - Texto añadido por el traductor en la descripción del plugin.
 - Feedback de Nilo: hay pequeñas desviaciones que no son motivo de rechazo. «requiere» es mejorable («necesita») y «No se pudo» también («No se ha podido»), pero no se cambian solo por eso.
 - **Cambios en la skill:** formas preferidas solo cuando ya se cambia la cadena.
+
+## 2026-11-06 · Sonnet · ronda 04 (BetterDocs, stable, 164 cadenas) · skill v3
+
+- Traducciones hechas por otro usuario con su propia skill de traducción: aplica bien el glosario (`lint` solo marcó 12 cadenas).
+- Resultado: 8 cambios, los 8 propuestos por Sonnet y aceptados. Ni deshechos ni escapados.
+- Cambios:
+  - Puntos suspensivos `...` respetados como en el original (3).
+  - Términos que no se traducen: *FAQ Schema* → «Schema de FAQ».
+  - *masonry* → «mosaico», *modal* → «emergente», «Lo sentimos» → «Lo siento».
+  - «FAQs» → «FAQ».
+- **Cambios en la skill:** `lint` avisa también cuando se traduce un término que el glosario marca como «no se traduce». `po_tool.py` encuentra `resources/` desde cualquier carpeta.
