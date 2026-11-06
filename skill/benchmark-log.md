@@ -82,7 +82,7 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - Editado (#68): Nilo acortó la frase y quitó la lista de estados («siempre que esté publicado, sea privado…»).
 - Dudas (#28, #70): *media item*. Nilo eligió «archivo de medios», según el glosario, y no «archivo multimedia». Queda en la referencia rápida.
 - `lint`: 53 pistas, muchas de ellas ruido por *review* («revisión» editorial, no «reseña»). Haiku las descartó bien con la nota del encargo.
-- Subida: el `corrected.po` de la ronda 06 fallaba con `ERR_FAILED` al subirlo desde la unidad `X:` (SMB), y funcionaba al copiarlo al disco local. Se cambió `FileInfoCacheLifetime` a 10 en Windows; pendiente comprobar si eso lo arregla.
+- Subida: el `corrected.po` de la ronda 06 fallaba con `ERR_FAILED` al subirlo desde la unidad `X:` (SMB), y funcionaba al copiarlo al disco local. Se arregló devolviendo `FileInfoCacheLifetime` a 10 en Windows (las cachés de directorios y de archivos no encontrados siguen a 0).
 
 ## 2026-11-06 · Haiku frente a Sonnet · rondas 03 y 04 · skill v3
 
