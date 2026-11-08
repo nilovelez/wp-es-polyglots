@@ -1,0 +1,94 @@
+#2834: glossary: file → archivo?
+#2848: glossary: check → marcar / comprobar | cheque?
+#2862: glossary: recurring → periódico?
+#2869: glossary: check → marcar / comprobar | cheque?
+#2873: glossary: set → establecer | conjunto?
+#2901: glossary: fee → cuota?
+#2913: glossary: sorry → lo siento?
+#2925: glossary: recurring → periódico?
+#2927: glossary: check → marcar / comprobar | cheque?
+#2929: glossary: fee → cuota?
+#2931: glossary: review → reseña / valoración?
+#2938: glossary: toggle → conmutador | cambiar / alternar?
+#2941: glossary: set → establecer | conjunto?
+#2949: glossary: lead → cliente potencial?
+#2953: glossary: next → siguiente?
+#2972: glossary: recurring → periódico?
+#2974: glossary: next → siguiente?
+#2975: glossary: map → mapa | asignar?
+#2980: glossary: support → es compatible con / dar soporte?
+#2981: glossary: support → es compatible con / dar soporte?
+#2982: glossary: support → es compatible con / dar soporte?
+#2983: glossary: support → es compatible con / dar soporte?
+#2984: glossary: support → es compatible con / dar soporte?
+#2985: glossary: support → es compatible con / dar soporte?
+#2986: glossary: support → es compatible con / dar soporte?
+#2987: glossary: support → es compatible con / dar soporte?
+#2993: glossary: status → estado?
+#2996: glossary: worth → valor?
+#3024: glossary: save → guardar o ahorrar, según contexto?
+#3026: glossary: set → establecer | conjunto?
+#3030: capitals mid-sentence: Ajustes, Pasarelas
+#3031: glossary: support → es compatible con / dar soporte? | glossary: recurring → periódico?
+#3033: glossary: support → es compatible con / dar soporte? | glossary: recurring → periódico?
+#3034: glossary: support → es compatible con / dar soporte? | glossary: recurring → periódico?
+#3035: glossary: support → es compatible con / dar soporte? | glossary: supported → compatible? | glossary: recurring → periódico?
+#3047: glossary: set → establecer | conjunto?
+#3048: glossary: set → establecer | conjunto? | capitals mid-sentence: Ajustes, Correos
+#3069: glossary: toggle → conmutador | cambiar / alternar? | glossary: recurring → periódico?
+#3070: glossary: toggle → conmutador | cambiar / alternar? | glossary: recurring → periódico?
+#3071: glossary: toggle → conmutador | cambiar / alternar? | glossary: recurring → periódico?
+#3079: glossary: recurring → periódico?
+#3081: capitals mid-sentence: Quedan
+#3097: glossary: suite → solución completa?
+#3102: glossary: set → establecer | conjunto?
+#3104: glossary: set → establecer | conjunto?
+#3105: glossary: link → enlazar | enlace?
+#3106: glossary: fee → cuota?
+#3107: capitals mid-sentence: Ajustes, Consentimientos
+#3127: glossary: issue → problema / conflicto / incidencia?
+#3133: glossary: next → siguiente?
+#3151: glossary: account → cuenta?
+#3156: glossary: recurring → periódico?
+#3165: glossary: issue → problema / conflicto / incidencia?
+#3177: capitals mid-sentence: En
+#3184: glossary: recurring → periódico?
+#3185: glossary: account → cuenta? | glossary: remove → quitar / eliminar?
+#3187: glossary: save → guardar o ahorrar, según contexto?
+#3197: glossary: recurring → periódico?
+#3198: glossary: recurring → periódico?
+#3199: glossary: recurring → periódico?
+#3200: glossary: recurring → periódico?
+#3201: glossary: recurring → periódico?
+#3206: glossary: issue → problema / conflicto / incidencia?
+#3207: glossary: recurring → periódico?
+#3208: glossary: bill → factura? | glossary: billing → facturación?
+#3209: glossary: recurring → periódico?
+#3210: glossary: admin → administrador / administración?
+#3223: glossary: set → establecer | conjunto?
+#3228: glossary: review → reseña / valoración?
+#3231: glossary term left in English: core → núcleo
+#3232: glossary: about → acerca de? | glossary: login → acceder / acceso?
+#3234: glossary: support → es compatible con / dar soporte?
+#3272: glossary: body is not translated (cuerpo)
+#3287: glossary: body is not translated (cuerpo)
+#3291: glossary term left in English: theme → tema
+#3297: glossary: default → por defecto?
+#3320: glossary: scroll → desplazamiento?
+#3324: glossary: above the fold → antes de desplazarse? | glossary: lead → cliente potencial?
+#3330: glossary: about → acerca de?
+#3333: glossary: next → siguiente?
+#3340: glossary: hero → Sección destacada?
+#3352: glossary: about → acerca de?
+#3362: glossary: set → establecer | conjunto?
+#3373: glossary: remove → quitar / eliminar?
+#3389: glossary: check → marcar / comprobar | cheque?
+#3391: glossary: check → marcar / comprobar | cheque?
+#3404: glossary: only → solo | solo / solamente?
+#3417: glossary: clear → vaciar?
+#3418: glossary: clear → vaciar?
+#3427: glossary: issue → problema / conflicto / incidencia?
+#3448: glossary: set → establecer | conjunto?
+#3461: glossary term left in English: post → entrada
+#3505: capitals mid-sentence: Ajustes, Datos
+#3506: glossary: Spam is not translated (Spam)

@@ -1,0 +1,90 @@
+#1424: capitals mid-sentence: Estos
+#1429: glossary: next → siguiente?
+#1439: glossary: next → siguiente?
+#1459: glossary: next → siguiente?
+#1460: glossary: file → archivo? | glossary: recurring → periódico?
+#1465: glossary: recurring → periódico?
+#1468: glossary: recurring → periódico?
+#1469: glossary: issue → problema / conflicto / incidencia?
+#1490: glossary: recurring → periódico?
+#1493: glossary: recurring → periódico?
+#1497: glossary: rate → tasa / tarifa | valorar / puntuar?
+#1499: glossary: next → siguiente?
+#1507: glossary: recurring → periódico? | capitals mid-sentence: Recurrente
+#1511: glossary: recurring → periódico?
+#1512: glossary: next → siguiente?
+#1513: glossary: recurring → periódico?
+#1514: glossary: recurring → periódico?
+#1515: glossary: recurring → periódico?
+#1519: glossary: issue → problema / conflicto / incidencia?
+#1547: glossary: bill → factura? | glossary: billing → facturación?
+#1548: glossary: recurring → periódico?
+#1558: glossary: about → acerca de?
+#1590: glossary: remove → quitar / eliminar?
+#1591: glossary: remove → quitar / eliminar?
+#1601: glossary: recurring → periódico? | capitals mid-sentence: Suscripciones
+#1602: glossary: recurring → periódico? | capitals mid-sentence: Suscripciones
+#1605: glossary: issue → problema / conflicto / incidencia?
+#1606: glossary: recurring → periódico?
+#1607: glossary: issue → problema / conflicto / incidencia? | glossary: recurring → periódico?
+#1616: glossary: issue → problema / conflicto / incidencia?
+#1618: glossary: release → versión?
+#1622: glossary: release → versión?
+#1623: glossary: recurring → periódico?
+#1624: glossary: recurring → periódico?
+#1626: glossary: recurring → periódico?
+#1647: glossary: about → acerca de?
+#1648: glossary: save → guardar o ahorrar, según contexto?
+#1658: glossary: issue → problema / conflicto / incidencia?
+#1669: glossary: issue → problema / conflicto / incidencia?
+#1672: glossary: fee → cuota?
+#1674: glossary: fee → cuota?
+#1686: capitals mid-sentence: Total, Primera
+#1692: glossary: recurring → periódico?
+#1699: glossary: fee → cuota?
+#1700: glossary: fee → cuota?
+#1703: glossary: recurring → periódico?
+#1712: glossary: issue → problema / conflicto / incidencia?
+#1713: glossary: recurring → periódico?
+#1717: glossary: fix → corrección? | glossary: fixed → corregido? | glossary: recurring → periódico?
+#1718: glossary: recurring → periódico?
+#1721: glossary: review → reseña / valoración?
+#1752: glossary: quote → cita / presupuesto?
+#1756: glossary: clear → vaciar?
+#1766: glossary: remove → quitar / eliminar?
+#1767: glossary: remove → quitar / eliminar?
+#1804: glossary: recurring → periódico?
+#1819: glossary: set → establecer | conjunto?
+#1837: glossary: check → marcar / comprobar | cheque?
+#1839: glossary: previous → anterior?
+#1841: glossary: quote → cita / presupuesto?
+#1847: glossary: recurring → periódico?
+#1856: glossary: next → siguiente?
+#1860: glossary: recurring → periódico?
+#1861: glossary: recurring → periódico?
+#1879: glossary: onboarding → puesta en marcha?
+#1886: glossary: notification → aviso?
+#1887: glossary: remove → quitar / eliminar? | glossary: recurring → periódico?
+#1902: glossary: render → procesar / mostrar?
+#1906: glossary: toggle → conmutador | cambiar / alternar? | glossary: tweak → retoque?
+#1907: glossary: inline → integrado?
+#1911: glossary: tweak → retoque?
+#1923: glossary: recurring → periódico?
+#1925: glossary: hero → Sección destacada?
+#1943: glossary: save → guardar o ahorrar, según contexto?
+#1944: glossary: save → guardar o ahorrar, según contexto?
+#1945: glossary: save → guardar o ahorrar, según contexto?
+#1961: capitals mid-sentence: Estos
+#1964: glossary: get started → primeros pasos?
+#1968: capitals mid-sentence: Borrar
+#1993: glossary: check → marcar / comprobar | cheque?
+#2017: glossary: save → guardar o ahorrar, según contexto?
+#2020: glossary: about → acerca de?
+#2022: glossary: recurring → periódico?
+#2034: glossary: review → reseña / valoración?
+#2037: glossary: set → establecer | conjunto? | capitals mid-sentence: Objetivo
+#2054: glossary: recurring → periódico?
+#2057: glossary: recurring → periódico?
+#2067: capitals mid-sentence: Presencial
+#2102: glossary: about → acerca de?
+#2110: glossary: set → establecer | conjunto?

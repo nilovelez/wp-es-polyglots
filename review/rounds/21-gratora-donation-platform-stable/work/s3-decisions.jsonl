@@ -1,0 +1,15 @@
+{"n": 562, "verdict": "reject", "msgstr": "Se envía cuando se cancela una donación recurrente, ya sea por parte del donante o de un administrador.", "comment": "Según el glosario, «admin» como persona se traduce como «administrador»; «administración» es el área."}
+{"n": 1429, "verdict": "reject", "msgstr": "Omitir el siguiente pago", "comment": "Según el glosario, «next» se traduce como «siguiente», no como «próximo»."}
+{"n": 1439, "verdict": "reject", "msgstr": "Omitir el siguiente pago", "comment": "Según el glosario, «next» se traduce como «siguiente», no como «próximo»."}
+{"n": 1459, "verdict": "reject", "msgstr": "Siguiente intento", "comment": "Según el glosario, «next» se traduce como «siguiente», no como «próximo»."}
+{"n": 1464, "verdict": "reject", "msgstr": "por un administrador", "comment": "Según el glosario, «admin» como persona se traduce como «administrador»; «administración» es el área."}
+{"n": 1499, "verdict": "reject", "msgstr": "Planes activos: %1$d · siguiente pago: %2$s", "comment": "Según el glosario, «next» se traduce como «siguiente», no como «próximo»."}
+{"n": 1512, "verdict": "reject", "msgstr": "Siguiente pago omitido", "comment": "Según el glosario, «next» se traduce como «siguiente», no como «próximo»."}
+{"n": 1647, "verdict": "reject", "msgstr": "Escribe una nota sobre esta donación. Las notas solo las ven los administradores.", "comment": "Según el glosario, «admin» como persona se traduce como «administrador»; «administración» es el área."}
+{"n": 1686, "verdict": "fix", "msgstr": "Donaciones: %1$s · total acumulado: %2$s · primera donación: %3$s", "comment": "En las etiquetas, solo la primera palabra va con mayúscula: «total acumulado» y «primera donación» van en minúscula."}
+{"n": 1819, "verdict": "reject", "msgstr": "No se han podido cargar las campañas, así que la donación se registrará sin campaña. Alguien con acceso a las campañas puede establecer una después.", "comment": "Según el glosario, «set» como verbo se traduce como «establecer»."}
+{"n": 1825, "verdict": "reject", "msgstr": "Dinero recibido fuera del sitio: un cheque, efectivo en un evento, una transferencia bancaria.", "comment": "Según el glosario, «site» se traduce como «sitio»; «sitio web» solo cuando el original dice «website»."}
+{"n": 1856, "verdict": "reject", "msgstr": "Previsión para los 30 días siguientes", "comment": "Según el glosario, «next» se traduce como «siguiente», no como «próximo»."}
+{"n": 1879, "verdict": "reject", "msgstr": "Gratora: Abrir asistente de puesta en marcha", "comment": "Según el glosario, «onboarding» se traduce como «puesta en marcha»."}
+{"n": 1886, "verdict": "reject", "msgstr": "Avisos", "comment": "El glosario indica «aviso» para «notification» y pide no usar «notificación»."}
+{"n": 1925, "verdict": "reject", "msgstr": "Tamaño recomendado: 1600 × 900 (16:9). Se muestra en la sección destacada de la página y en la cuadrícula de campañas.", "comment": "Según el glosario, «hero» se traduce como «sección destacada»."}

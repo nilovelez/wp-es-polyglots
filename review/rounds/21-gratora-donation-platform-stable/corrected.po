@@ -1,0 +1,371 @@
+# Translation of Plugins - Gratora &#8211; Donation and Fundraising Platform - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Gratora &#8211; Donation and Fundraising Platform - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: +0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.1.0\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Gratora &#8211; Donation and Fundraising Platform - Stable (latest release)\n"
+
+#: build/donor-portal/index/index.js:8
+msgid "Skip just the next charge"
+msgstr "Saltar solo el siguiente cobro"
+
+#: build/donor-portal/index/index.js:4
+msgid "Skip next charge"
+msgstr "Saltar el siguiente cobro"
+
+#. translators: %s: date of the next scheduled payment
+#: build/donor-portal/index/index.js:4
+msgid "Next: %s"
+msgstr "Siguiente cobro: %s"
+
+#: build/admin/tools/index.js:40
+msgid "Entry detail"
+msgstr "Detalle del registro"
+
+#: build/admin/tools/index.js:40
+msgid "Deletes every entry: the failures Gratora recorded and the history of what your gateways sent. The log fills again as things happen."
+msgstr "Se borrarán todos los registros: los fallos que ha registrado Gratora y el historial de lo que han enviado tus pasarelas de pago. El registro volverá a llenarse a medida que ocurran cosas."
+
+#. translators: %s: the log source being cleared, e.g. webhook.stripe
+#: build/admin/tools/index.js:40
+msgid "Deletes every entry recorded under %s. Nothing else is touched."
+msgstr "Se borrarán todos los registros con el origen %s. No se tocará nada más."
+
+#. translators: %d: number of log entries deleted.
+#: build/admin/tools/index.js:39
+msgid "%d entry cleared."
+msgid_plural "%d entries cleared."
+msgstr[0] "%d registro borrado."
+msgstr[1] "%d registros borrados."
+
+#: build/admin/tools/index.js:6
+msgid "Email has to be mapped before this file can be previewed."
+msgstr "Hay que asignar el correo electrónico antes de poder previsualizar este archivo."
+
+#. translators: %d: number of paid recurring donations with no plan.
+#: build/admin/subscriptions/index.js:45
+msgid "%d recurring donation was charged, but no plan was created for it. Nothing will collect the next payment."
+msgid_plural "%d recurring donations were charged, but no plans were created for them. Nothing will collect their next payments."
+msgstr[0] "Se ha cobrado %d donación recurrente, pero no se ha creado ningún plan para ella. No hay nada que vaya a cobrar el siguiente pago."
+msgstr[1] "Se han cobrado %d donaciones recurrentes, pero no se ha creado ningún plan para ellas. No hay nada que vaya a cobrar sus siguientes pagos."
+
+#: build/admin/settings/index.js:29
+msgid "The base currency changed in this save, so the exchange rates you entered are in the currency you left. Reload the page and set them again."
+msgstr "La moneda base ha cambiado en este guardado, así que los tipos de cambio que has introducido están en la moneda anterior. Recarga la página y vuelve a establecerlos."
+
+#: build/admin/settings/index.js:29
+msgid "Leave empty unless a CDN, load balancer or reverse proxy serves this site. Write cloudflare, or private_ranges for a proxy on your own network, or list addresses and CIDR ranges one per line. Spam limits count visitors by address, and behind a proxy every visitor arrives as the proxy, so the whole site would share one visitor's allowance."
+msgstr "Déjalo vacío salvo que una CDN, un balanceador de carga o un proxy inverso sirva este sitio. Escribe cloudflare, o private_ranges para un proxy en tu propia red, o enumera direcciones y rangos CIDR, uno por línea. Los límites de spam cuentan a los visitantes por dirección, y detrás de un proxy todos los visitantes llegan como si fueran el proxy, así que todo el sitio compartiría el cupo de un solo visitante."
+
+#: build/admin/settings/index.js:29
+msgid "Older entries are deleted. Only the log is affected; donations, donors and receipts are kept. 0 turns this off."
+msgstr "Los registros más antiguos se borran. Solo afecta al registro; las donaciones, los donantes y los recibos se conservan. Con 0 se desactiva."
+
+#: build/admin/settings/index.js:29
+msgid "Every visitor is reaching the site as the same address, so spam limits are counting the whole site as one visitor. Donors can be turned away because of somebody else."
+msgstr "Todos los visitantes llegan al sitio con la misma dirección, así que los límites de spam cuentan todo el sitio como un único visitante. Se puede rechazar a un donante por culpa de otra persona."
+
+#: build/admin/settings/index.js:28
+msgid "They are erased on the next nightly run."
+msgstr "Se anonimizarán en la siguiente ejecución nocturna."
+
+#: build/admin/settings/index.js:28
+msgid "No donor is due for erasure in the next 30 days."
+msgstr "No está previsto anonimizar a ningún donante en los 30 días siguientes."
+
+#: build/admin/settings/index.js:25
+msgid "What donors can opt into. Each toggle is logged in an append-only audit trail. Bump the version when you change a description so existing donors are prompted to re-consent."
+msgstr "Aquello a lo que los donantes pueden dar su consentimiento. Cada cambio queda anotado en un registro de auditoría que solo admite nuevos registros. Sube la versión cuando cambies una descripción para que a los donantes actuales se les pida de nuevo el consentimiento."
+
+#: build/admin/settings/index.js:23
+msgid "Disable to skip this notification entirely."
+msgstr "Desactívalo para omitir por completo este aviso."
+
+#: build/admin/settings/index.js:23
+msgid "It went out over PHP mail, which does not authenticate your domain. Gmail and Outlook reject unauthenticated mail outright, so this can be accepted here and still never arrive."
+msgstr "Ha salido mediante PHP mail, que no identifica tu dominio. Gmail y Outlook rechazan de plano el correo electrónico sin identificar, así que puede aceptarse aquí y aun así no llegar nunca."
+
+#: build/admin/settings/index.js:23
+msgid "the recipient"
+msgstr "el destinatario"
+
+#: build/admin/settings/index.js:23
+msgid "If test emails arrive but donors report nothing, the cause is almost always authentication rather than Gratora. Mailboxes such as Gmail reject mail that is not signed for your domain, and PHP mail on shared hosting is not. An SMTP plugin pointed at an authenticated provider fixes it for every email your site sends."
+msgstr "Si los correos electrónicos de prueba llegan pero los donantes dicen que no reciben nada, la causa casi siempre es la identificación y no Gratora. Buzones como Gmail rechazan el correo electrónico que no está firmado para tu dominio, y el de PHP mail en un alojamiento compartido no lo está. Un plugin SMTP conectado a un proveedor identificado lo soluciona para todos los correos electrónicos que envía tu sitio."
+
+#: build/admin/settings/index.js:22
+msgid "Sent when someone at the organization skips one upcoming payment. The recurring donation itself continues."
+msgstr "Se envía cuando alguien de la organización omite el siguiente pago. La donación recurrente en sí continúa."
+
+#: build/admin/settings/index.js:22
+msgid "Next donation skipped"
+msgstr "Siguiente donación omitida"
+
+#: build/admin/settings/index.js:22
+msgid "Sent when someone at the organization restarts a paused recurring donation, with the next payment date."
+msgstr "Se envía cuando alguien de la organización reanuda una donación recurrente en pausa, con la fecha del siguiente pago."
+
+#: build/admin/settings/index.js:22
+msgid "Sent when a recurring donation is cancelled, either by the donor or by an admin."
+msgstr "Se envía cuando se cancela una donación recurrente, ya sea por parte del donante o de un administrador."
+
+#: build/admin/settings/index.js:20
+msgid "Remove the saved webhook id? The client id and secret stay on file, but PayPal notifications for this mode will be rejected until you add another one."
+msgstr "¿Quitar el ID de webhook guardado? El ID de cliente y el secreto se conservan, pero los avisos de PayPal de este modo se rechazarán hasta que añadas otro."
+
+#: build/admin/settings/index.js:20
+msgid "No webhook id saved for this mode. Every PayPal notification will be rejected until you add one, so donations PayPal settles later will stay unpaid, and refunds, disputes and renewals will not reach this site."
+msgstr "No hay ningún ID de webhook guardado para este modo. Todos los avisos de PayPal se rechazarán hasta que añadas uno, así que las donaciones que PayPal liquide más tarde se quedarán sin pagar, y los reembolsos, las disputas y las renovaciones no llegarán a este sitio."
+
+#: build/admin/onboarding/index.js:1
+msgid "Could not finalize onboarding."
+msgstr "No se ha podido finalizar la puesta en marcha."
+
+#: build/admin/funds/index.js:30
+msgid "Maps this fund to a GL account in your bookkeeping. Included in exports."
+msgstr "Asigna este fondo a una cuenta del libro mayor de tu contabilidad. Se incluye en las exportaciones."
+
+#: build/admin/forms/index.js:23
+msgid "Modal (button opens form)"
+msgstr "Emergente (un botón abre el formulario)"
+
+#: build/admin/forms/index.js:23
+msgid "A styled container for headings and copy. Use it for hero areas, impact statements, or intro blurbs."
+msgstr "Un contenedor con estilo para encabezados y texto. Úsalo para secciones destacadas, mensajes de impacto o textos de introducción."
+
+#: build/admin/forms/index.js:23
+msgid "Single yes/no checkbox for agreements, opt-ins, or any boolean."
+msgstr "Una única casilla de verificación de sí/no para aceptaciones, consentimientos o cualquier valor booleano."
+
+#: build/admin/forms/index.js:23
+msgid "Nothing to preview: scripts and embeds are removed when the form is saved."
+msgstr "No hay nada que previsualizar: los scripts y los incrustados se quitan al guardar el formulario."
+
+#: build/admin/forms/index.js:21
+msgid "Set to 0 for no upper limit."
+msgstr "Establece 0 para que no haya límite máximo."
+
+#: build/admin/forms/index.js:21
+msgid "Checkbox label"
+msgstr "Etiqueta de la casilla de verificación"
+
+#: build/admin/forms/index.js:19
+msgid "Set the campaign goal"
+msgstr "Establecer el objetivo de la campaña"
+
+#: build/admin/forms/index.js:19
+msgid "Link this form to a campaign to show its goal."
+msgstr "Enlaza este formulario a una campaña para mostrar su objetivo."
+
+#: build/admin/forms/index.js:19
+msgid "No goal set for this form. Set one in Settings, Goal."
+msgstr "Este formulario no tiene ningún objetivo definido. Establece uno en Ajustes, Objetivo."
+
+#: build/admin/donors/index.js:67
+msgid "Saving rehashes the donor identity. Future donations from this address will link to this record."
+msgstr "Al guardar se vuelve a calcular el hash de la identidad del donante. Las futuras donaciones desde esta dirección se enlazarán a este registro."
+
+#: build/admin/donors/index.js:67
+msgid "Change this donor's email? Future donations from the new address will link to this record."
+msgstr "¿Cambiar el correo electrónico de este donante? Las futuras donaciones desde la nueva dirección se enlazarán a este registro."
+
+#: build/admin/donors/index.js:58 build/admin/subscriptions/index.js:50
+#: build/donor-portal/index/index.js:4
+msgid "Next charge"
+msgstr "Siguiente cobro"
+
+#: build/admin/donors/index.js:58 build/admin/subscriptions/index.js:38
+#: build/admin/subscriptions/index.js:51
+msgid "Not linked"
+msgstr "Sin enlazar"
+
+#: build/admin/donors/index.js:55 build/admin/subscriptions/index.js:26
+msgid "Notify donor"
+msgstr "Avisar al donante"
+
+#: build/admin/donors/index.js:55 build/admin/subscriptions/index.js:26
+msgid "The next payment is skipped and the donation carries on one cycle later. Nothing is charged in between."
+msgstr "Se omite el siguiente pago y la donación continúa un ciclo más tarde. Entretanto no se cobra nada."
+
+#: build/admin/donors/index.js:52 build/admin/subscriptions/index.js:23
+msgid "Skip the next payment"
+msgstr "Omitir el siguiente pago"
+
+#: build/admin/donors/index.js:52 build/admin/donors/index.js:61
+#: build/admin/subscriptions/index.js:23 build/admin/subscriptions/index.js:61
+msgid "Skip next"
+msgstr "Omitir el siguiente pago"
+
+#: build/admin/donors/index.js:43
+msgid "Status changes, refunds, and admin notes show up here over time."
+msgstr "Los cambios de estado, los reembolsos y las notas de los administradores irán apareciendo aquí con el tiempo."
+
+#: build/admin/donors/index.js:43
+msgid "Next attempt"
+msgstr "Siguiente intento"
+
+#: build/admin/donors/index.js:43 build/admin/donors/index.js:44
+msgid "by an admin"
+msgstr "por un administrador"
+
+#. translators: 1: active plan count, 2: next payment date
+#: build/admin/donors/index.js:32
+msgid "%1$d active · next %2$s"
+msgstr "Planes activos: %1$d · siguiente pago: %2$s"
+
+#: build/admin/donors/index.js:28
+msgid "Next payment skipped"
+msgstr "Siguiente pago omitido"
+
+#: build/admin/donations/index.js:48
+msgid "Write a note about this donation. Notes are visible to admins only."
+msgstr "Escribe una nota sobre esta donación. Las notas solo las ven los administradores."
+
+#: build/admin/donations/index.js:26
+msgid "Campaigns could not be loaded, so this will be recorded without one. Someone with campaign access can set it afterwards."
+msgstr "No se han podido cargar las campañas, así que la donación se registrará sin campaña. Alguien con acceso a las campañas puede establecer una después."
+
+#: build/admin/donations/index.js:25
+msgid "Money that arrived off the site: a check, cash at an event, a bank transfer."
+msgstr "Dinero recibido fuera del sitio: un cheque, efectivo en un evento, una transferencia bancaria."
+
+#: build/admin/dashboard/index.js:3
+msgid "Projected next 30 days"
+msgstr "Previsión para los 30 días siguientes"
+
+#: build/admin/command-palette/index.js:1
+msgid "Gratora: Open onboarding wizard"
+msgstr "Gratora: Abrir asistente de puesta en marcha"
+
+#: build/admin/campaigns/index.js:57 build/admin/dashboard/index.js:1
+#: build/admin/donations/index.js:55 build/admin/donors/index.js:22
+#: build/admin/forms/index.js:1 build/admin/funds/index.js:31
+#: build/admin/settings/index.js:2 build/admin/subscriptions/index.js:66
+#: build/admin/tools/index.js:1
+msgid "Notifications"
+msgstr "Avisos"
+
+#: build/admin/campaigns/index.js:54
+msgid "Recommended 1600 × 900 (16:9). Shows on the page hero and campaign grid."
+msgstr "Tamaño recomendado: 1600 × 900 (16:9). Se muestra en la sección destacada de la página y en la cuadrícula de campañas."
+
+#: build/admin/campaigns/index.js:23 build/admin/campaigns/index.js:54
+msgid "One or two sentences. Shows on campaign cards and the page hero."
+msgstr "Una o dos frases. Se muestra en las tarjetas de campaña y en la sección destacada de la página."
+
+#: build/admin/campaigns/index.js:23
+msgid "Toggle to publish now"
+msgstr "Alternar para publicar ahora"
+
+#: build/admin/campaigns/index.js:23 build/admin/funds/index.js:23
+msgid "Set a schedule"
+msgstr "Establecer un calendario"
+
+#: build/admin/campaign-blocks/index.js:1
+msgid "No donations yet, so the feed will be empty on the page."
+msgstr "Aún no hay donaciones, así que el feed aparecerá vacío en la página."
+
+#: build/admin/campaign-blocks/index.js:1
+msgid "Live feed of the most recent paid donations for this campaign."
+msgstr "Feed en directo de las donaciones pagadas más recientes de esta campaña."
+
+#: build/admin/campaign-blocks/index.js:1
+msgid "No goal set on this campaign. Until you set one, the bar will sit at 0%."
+msgstr "Esta campaña no tiene ningún objetivo definido. Hasta que establezcas uno, la barra se quedará en el 0%."
+
+#: src/Settings/SettingsService.php:379
+msgid "Hi {donor_first_name},\n\nYour next recurring donation of {amount} to {campaign_title} has been skipped. Nothing will be charged this time, and the donation continues on {next_payment_at}.\n\nYou can manage it any time here:\n{portal_url}\n\nThanks,\n{organisation_name}"
+msgstr "Hola, {donor_first_name}:\n\nTu siguiente donación recurrente de {amount} a {campaign_title} se ha omitido. Esta vez no se cobrará nada, y la donación continuará el {next_payment_at}.\n\nPuedes gestionarla cuando quieras aquí:\n{portal_url}\n\nGracias,\n{organisation_name}"
+
+#: src/Settings/SettingsService.php:378
+msgid "Your next donation has been skipped"
+msgstr "Tu siguiente donación se ha omitido"
+
+#: src/Settings/SettingsService.php:374
+msgid "Hi {donor_first_name},\n\nYour recurring donation of {amount} to {campaign_title} has restarted. Your next payment is due on {next_payment_at}.\n\nYou can manage it any time here:\n{portal_url}\n\nThanks,\n{organisation_name}"
+msgstr "Hola, {donor_first_name}:\n\nTu donación recurrente de {amount} a {campaign_title} se ha reanudado. Tu siguiente pago está previsto para el {next_payment_at}.\n\nPuedes gestionarla cuando quieras aquí:\n{portal_url}\n\nGracias,\n{organisation_name}"
+
+#: src/Settings/SettingsService.php:359
+msgid "Hi {donor_first_name},\n\nYour recurring donation to {campaign_title} has been changed from {old_amount} to {amount}, starting with your next payment.\n\nIf that is not what you expected, you can change it back or stop the donation here:\n{portal_url}\n\nThanks,\n{organisation_name}"
+msgstr "Hola, {donor_first_name}:\n\nTu donación recurrente a {campaign_title} ha pasado de {old_amount} a {amount}, a partir de tu siguiente pago.\n\nSi no es lo que esperabas, puedes volver al importe anterior o detener la donación aquí:\n{portal_url}\n\nGracias,\n{organisation_name}"
+
+#: src/Foundation/License/LicenseNotice.php:70
+#: src/Settings/ReadinessService.php:745
+msgid "Your add-ons are not linked to a license key"
+msgstr "Tus extensiones no están enlazadas a una clave de licencia"
+
+#: src/Settings/ReadinessService.php:425
+msgid "Every PayPal notification will be rejected. Donations PayPal settles after checkout will stay unpaid, and refunds, disputes and renewals will not reach this site."
+msgstr "Todos los avisos de PayPal se rechazarán. Las donaciones que PayPal liquide después del pago se quedarán sin pagar, y los reembolsos, las disputas y las renovaciones no llegarán a este sitio."
+
+#: src/Rest/Admin/ToolsController.php:317
+msgid "Entries like these are the record of what was done to your donors and their donations, so they are kept. Clear log removes recorded errors and gateway deliveries."
+msgstr "Los registros como estos son la constancia de lo que se ha hecho con tus donantes y sus donaciones, así que se conservan. «Vaciar registro» quita los errores registrados y las entregas de las pasarelas de pago."
+
+#. translators: %s: reason PayPal could not be asked
+#: src/Rest/Admin/PayPalKeysController.php:300
+msgid "PayPal could not be asked whether that webhook id is right: %s. It has not been saved, because an id PayPal does not know rejects every notification. Try again in a moment."
+msgstr "No se ha podido preguntar a PayPal si ese ID de webhook es correcto: %s. No se ha guardado, porque con un ID que PayPal no conoce se rechazan todos los avisos. Inténtalo de nuevo en un momento."
+
+#: src/Rest/Admin/FxController.php:94
+msgid "The base currency changed while this screen was open, so the rates shown are no longer in the currency they were entered against. Reload the page and set them again."
+msgstr "La moneda base ha cambiado mientras esta pantalla estaba abierta, así que los tipos de cambio que se muestran ya no están en la moneda con la que se introdujeron. Recarga la página y vuelve a establecerlos."
+
+#: src/Recurring/PlanRow.php:298
+msgid "Admin"
+msgstr "Administrador"
+
+#: src/Onboarding/OnboardingPage.php:31
+msgid "Onboarding"
+msgstr "Puesta en marcha"
+
+#: src/Forms/Shortcode/DonationFormShortcode.php:1729
+msgid "The end date on this campaign has passed. Change the schedule to reopen it."
+msgstr "La fecha de finalización de esta campaña ya ha pasado. Cambia el calendario para reabrirla."
+
+#: src/Forms/Shortcode/DonationFormShortcode.php:805
+msgid "Sorry, something went wrong. Please try again."
+msgstr "Lo siento, algo ha ido mal. Inténtalo de nuevo."
+
+#: src/Forms/FormTemplates.php:179
+msgid "Long-scroll campaign page where each donation level maps to a named tier and a tangible outcome."
+msgstr "Página de campaña de desplazamiento largo en la que cada nivel de donación se asigna a un nombre y a un resultado tangible."
+
+#: src/Forms/FormTemplates.php:151
+msgid "Champion - supports a family for a month"
+msgstr "Campeón - apoya a una familia durante un mes"
+
+#: src/Forms/Blocks/GoalBlock.php:63
+msgid "Goal will appear once the form is linked to a campaign."
+msgstr "El objetivo aparecerá cuando el formulario esté enlazado a una campaña."
+
+#: src/Donors/Privacy/WordPressPrivacy.php:246 build/admin/donors/index.js:58
+#: build/admin/subscriptions/index.js:38
+msgid "Next payment"
+msgstr "Siguiente pago"
+
+#: src/Dashboard/DashboardMetricsService.php:435
+msgid "Set form"
+msgstr "Establecer formulario"
+
+#: src/Campaigns/Styling/StylePresets.php:37
+msgid "Balanced, friendly, accent green. The Gratora default."
+msgstr "Equilibrado, cercano, con verde de acento. El estilo por defecto de Gratora."
+
+#: src/Campaigns/CampaignTemplates.php:49
+msgid "Colour hero"
+msgstr "Sección destacada de color"
+
+#: src/Admin/ProxyNotice.php:53
+msgid "This site is being reached through a CDN, load balancer or reverse proxy, and no trusted proxy has been declared. Spam limits count visitors by address, so they are counting the whole site as one visitor: donors can be refused because of somebody else, and one caller can close the donation form for everyone."
+msgstr "A este sitio se llega a través de una CDN, un balanceador de carga o un proxy inverso, y no se ha declarado ningún proxy de confianza. Los límites de spam cuentan a los visitantes por dirección, así que están contando todo el sitio como un solo visitante: se puede rechazar a donantes por culpa de otra persona, y un solo visitante puede cerrar el formulario de donación para todo el mundo."
+
+#: src/Admin/AdminFooter.php:33
+msgid "Leave a five star review on WordPress.org"
+msgstr "Deja una valoración de cinco estrellas en WordPress.org"

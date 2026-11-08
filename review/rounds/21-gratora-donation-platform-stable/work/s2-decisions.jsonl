@@ -1,0 +1,17 @@
+{"n": 814, "verdict": "reject", "msgstr": "No se ha podido finalizar la puesta en marcha.", "comment": "Según el glosario, «onboarding» se traduce como «puesta en marcha»."}
+{"n": 850, "verdict": "reject", "msgstr": "Asigna este fondo a una cuenta del libro mayor de tu contabilidad. Se incluye en las exportaciones.", "comment": "Según el glosario, «map» como verbo se traduce como «asignar»."}
+{"n": 981, "verdict": "reject", "msgstr": "Emergente (un botón abre el formulario)", "comment": "Según el glosario, «modal» se traduce como «emergente», no se deja en inglés."}
+{"n": 988, "verdict": "reject", "msgstr": "Un contenedor con estilo para encabezados y texto. Úsalo para secciones destacadas, mensajes de impacto o textos de introducción.", "comment": "Según el glosario, «hero» se traduce como «sección destacada»."}
+{"n": 994, "verdict": "reject", "msgstr": "Una única casilla de verificación de sí/no para aceptaciones, consentimientos o cualquier valor booleano.", "comment": "Según el glosario, «checkbox» se traduce como «casilla de verificación», como en el resto del formulario."}
+{"n": 1028, "verdict": "reject", "msgstr": "No hay nada que previsualizar: los scripts y los incrustados se quitan al guardar el formulario.", "comment": "Como verbo, «preview» se traduce como «previsualizar» según el glosario."}
+{"n": 1103, "verdict": "reject", "msgstr": "Establece 0 para que no haya límite máximo.", "comment": "Según el glosario, «set» como verbo se traduce como «establecer»."}
+{"n": 1136, "verdict": "reject", "msgstr": "Etiqueta de la casilla de verificación", "comment": "Según el glosario, «checkbox» se traduce como «casilla de verificación»."}
+{"n": 1184, "verdict": "reject", "msgstr": "Establecer el objetivo de la campaña", "comment": "Según el glosario, «set» como verbo se traduce como «establecer»."}
+{"n": 1192, "verdict": "reject", "msgstr": "Enlaza este formulario a una campaña para mostrar su objetivo.", "comment": "El glosario indica «enlazar» para «link» como verbo y pide no usar «vincular»."}
+{"n": 1194, "verdict": "reject", "msgstr": "Este formulario no tiene ningún objetivo definido. Establece uno en Ajustes, Objetivo.", "comment": "Según el glosario, «set» como verbo se traduce como «establecer»."}
+{"n": 1326, "verdict": "reject", "msgstr": "Al guardar se vuelve a calcular el hash de la identidad del donante. Las futuras donaciones desde esta dirección se enlazarán a este registro.", "comment": "El glosario indica «enlazar» para «link» como verbo y pide no usar «vincular»."}
+{"n": 1330, "verdict": "reject", "msgstr": "¿Cambiar el correo electrónico de este donante? Las futuras donaciones desde la nueva dirección se enlazarán a este registro.", "comment": "El glosario indica «enlazar» para «link» como verbo y pide no usar «vincular»."}
+{"n": 1388, "verdict": "reject", "msgstr": "Siguiente cobro", "comment": "Según el glosario, «next» se traduce como «siguiente», no como «próximo»."}
+{"n": 1392, "verdict": "reject", "msgstr": "Sin enlazar", "comment": "El glosario indica «enlazar» para «link» como verbo y pide no usar «vincular»."}
+{"n": 1405, "verdict": "reject", "msgstr": "Avisar al donante", "comment": "El glosario indica «avisar» para «notify» y pide no usar «notificar»."}
+{"n": 1407, "verdict": "reject", "msgstr": "Se omite el siguiente pago y la donación continúa un ciclo más tarde. Entretanto no se cobra nada.", "comment": "Según el glosario, «next» se traduce como «siguiente», no como «próximo»."}

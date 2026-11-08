@@ -1,0 +1,705 @@
+{"n": 1411, "note": "translators: %s: the payment gateway's name, such as PayPal.", "msgid": "Asking %s to collect it…", "msgstr": "Pidiendo a %s que lo cobre…"}
+{"n": 1412, "msgid": "The gateway will try to collect the outstanding renewal again now. If it succeeds the donation appears within a few moments, once the gateway confirms it.", "msgstr": "La pasarela de pago intentará ahora cobrar de nuevo la renovación pendiente. Si lo consigue, la donación aparecerá en unos instantes, en cuanto la pasarela lo confirme."}
+{"n": 1413, "msgid": "Pause for", "msgstr": "Pausar durante"}
+{"n": 1414, "msgid": "The donor stays paid up to their current date. The new schedule starts from the charge after that.", "msgstr": "El donante sigue al corriente de pago hasta su fecha actual. La nueva frecuencia se aplica a partir del cobro siguiente."}
+{"n": 1415, "msgid": "Choose a schedule", "msgstr": "Elige una frecuencia"}
+{"n": 1416, "msgid": "Charge this donation", "msgstr": "Cobrar esta donación"}
+{"n": 1417, "msgid": "New amount", "msgstr": "Nuevo importe"}
+{"n": 1418, "msgid": "Apply change", "msgstr": "Aplicar cambio"}
+{"n": 1419, "msgid": "That change could not be made.", "msgstr": "No se ha podido hacer ese cambio."}
+{"n": 1420, "msgid": "Enter an amount.", "msgstr": "Introduce un importe."}
+{"n": 1421, "msgid": "That is the schedule it is on already.", "msgstr": "Esa es la frecuencia que ya tiene."}
+{"n": 1422, "msgid": "Choose a schedule.", "msgstr": "Elige una frecuencia."}
+{"n": 1423, "msgid": "Change this donation", "msgstr": "Cambiar esta donación"}
+{"n": 1424, "msgid": "This payment cannot be retried", "msgid_plural": "These payments cannot be retried", "msgstr_plural": ["Este pago no se puede reintentar", "Estos pagos no se pueden reintentar"]}
+{"n": 1425, "msgid": "Retry now", "msgstr": "Reintentar ahora"}
+{"n": 1426, "msgid": "Cancel this donation", "msgstr": "Cancelar esta donación"}
+{"n": 1427, "msgid": "Change the schedule", "msgstr": "Cambiar la frecuencia"}
+{"n": 1428, "msgid": "Change the amount", "msgstr": "Cambiar el importe"}
+{"n": 1429, "msgid": "Skip the next payment", "msgstr": "Omitir el próximo pago"}
+{"n": 1430, "msgid": "Resume this donation", "msgstr": "Reanudar esta donación"}
+{"n": 1431, "msgid": "Pause this donation", "msgstr": "Pausar esta donación"}
+{"n": 1432, "msgid": "Retry the payment", "msgstr": "Reintentar el pago"}
+{"n": 1433, "msgid": "Every year", "msgstr": "Cada año"}
+{"n": 1434, "msgid": "Every 3 months", "msgstr": "Cada 3 meses"}
+{"n": 1435, "msgid": "Every month", "msgstr": "Cada mes"}
+{"n": 1436, "msgid": "Every week", "msgstr": "Cada semana"}
+{"n": 1437, "msgid": "Change schedule", "msgstr": "Cambiar frecuencia"}
+{"n": 1438, "msgid": "Change amount", "msgstr": "Cambiar importe"}
+{"n": 1439, "msgid": "Skip next", "msgstr": "Omitir el próximo pago"}
+{"n": 1440, "msgid": "Pause", "msgstr": "Pausar"}
+{"n": 1441, "msgid": "Resume", "msgstr": "Reanudar"}
+{"n": 1442, "msgid": "Cancel subscription", "msgstr": "Cancelar suscripción"}
+{"n": 1443, "msgid": "in %d day", "msgid_plural": "in %d days", "msgstr_plural": ["dentro de %d día", "dentro de %d días"]}
+{"n": 1444, "msgid": "today", "msgstr": "hoy"}
+{"n": 1445, "msgid": "%d day overdue", "msgid_plural": "%d days overdue", "msgstr_plural": ["%d día de retraso", "%d días de retraso"]}
+{"n": 1446, "msgid": "Search by reference", "msgstr": "Buscar por referencia"}
+{"n": 1447, "msgid": "Open the trash", "msgstr": "Abrir la papelera"}
+{"n": 1448, "note": "translators: %d: number of trashed attempts.", "msgid": "%d attempt from this donor is in the trash and is not shown here.", "msgid_plural": "%d attempts from this donor are in the trash and are not shown here.", "msgstr_plural": ["%d intento de este donante está en la papelera y no se muestra aquí.", "%d intentos de este donante están en la papelera y no se muestran aquí."]}
+{"n": 1449, "note": "translators: %d: number of donations", "msgid": "Mark %d donation as paid? Receipts will be sent.", "msgid_plural": "Mark %d donations as paid? Receipts will be sent.", "msgstr_plural": ["¿Marcar %d donación como pagada? Se enviarán los recibos.", "¿Marcar %d donaciones como pagadas? Se enviarán los recibos."]}
+{"n": 1450, "msgid": "Could not load donations. Refresh to try again.", "msgstr": "No se han podido cargar las donaciones. Actualiza la página para volver a intentarlo."}
+{"n": 1451, "msgid": "Partial refund", "msgstr": "Reembolso parcial"}
+{"n": 1452, "msgid": "Could not load activity. Refresh to try again.", "msgstr": "No se ha podido cargar la actividad. Actualiza la página para volver a intentarlo."}
+{"n": 1453, "msgid": "All activity →", "msgstr": "Toda la actividad →"}
+{"n": 1454, "note": "translators: %d: total number of recorded events for this donor.", "msgid": "%d event", "msgid_plural": "%d events", "msgstr_plural": ["%d evento", "%d eventos"]}
+{"n": 1455, "msgid": "Status changes, refunds, and admin notes show up here over time.", "msgstr": "Los cambios de estado, los reembolsos y las notas de administración irán apareciendo aquí con el tiempo."}
+{"n": 1456, "msgid": "No events yet", "msgstr": "Aún no hay eventos"}
+{"n": 1457, "msgid": "Lifetime on plan", "msgstr": "Total acumulado en el plan"}
+{"n": 1458, "msgid": "Last successful", "msgstr": "Último pago correcto"}
+{"n": 1459, "msgid": "Next attempt", "msgstr": "Próximo intento"}
+{"n": 1460, "msgid": "No recurring plan on file.", "msgstr": "No hay ningún plan recurrente registrado."}
+{"n": 1461, "msgid": "All donations →", "msgstr": "Todas las donaciones →"}
+{"n": 1462, "note": "translators: %d: how many donations this donor has", "msgid": "%d in total", "msgstr": "%d en total"}
+{"n": 1463, "msgid": "This donor’s donations will appear here as they come in.", "msgstr": "Las donaciones de este donante aparecerán aquí a medida que lleguen."}
+{"n": 1464, "msgid": "by an admin", "msgstr": "desde la administración"}
+{"n": 1465, "msgid": "Recurring amount changed from", "msgstr": "Importe de la donación recurrente cambiado de"}
+{"n": 1466, "msgid": "was declined", "msgstr": "rechazada"}
+{"n": 1467, "msgid": "Renewal of", "msgstr": "Renovación de"}
+{"n": 1468, "msgid": "Recurring renewal of", "msgstr": "Renovación recurrente de"}
+{"n": 1469, "msgid": "issued", "msgstr": "emitido"}
+{"n": 1470, "msgid": "Refund of", "msgstr": "Reembolso de"}
+{"n": 1471, "msgid": "failed", "msgstr": "fallido"}
+{"n": 1472, "msgid": "Payment of", "msgstr": "Pago de"}
+{"n": 1473, "msgid": "Started a donation of", "msgstr": "Iniciada una donación de"}
+{"n": 1474, "msgid": "View details", "msgstr": "Ver detalles"}
+{"n": 1475, "note": "translators: %d: number of years between charges.", "msgid": "%d year", "msgid_plural": "%d years", "msgstr_plural": ["%d año", "%d años"]}
+{"n": 1476, "note": "translators: %d: number of months between charges. translators: %d: number of months", "msgid": "%d month", "msgid_plural": "%d months", "msgstr_plural": ["%d mes", "%d meses"]}
+{"n": 1477, "note": "translators: %d: number of weeks between charges.", "msgid": "%d week", "msgid_plural": "%d weeks", "msgstr_plural": ["%d semana", "%d semanas"]}
+{"n": 1478, "note": "translators: %d: number of days between charges.", "msgid": "%d day", "msgid_plural": "%d days", "msgstr_plural": ["%d día", "%d días"]}
+{"n": 1479, "note": "translators: %s: the gap between charges, for example \"6 months\".", "msgid": "Every %s", "msgstr": "Cada %s"}
+{"n": 1480, "msgid": "Works once. The donor can revoke it by signing out of the portal.", "msgstr": "Funciona una sola vez. El donante puede revocarlo al salir del portal."}
+{"n": 1481, "note": "translators: %s: date and time the link stops working", "msgid": "Works once, until %s. The donor can revoke it by signing out of the portal.", "msgstr": "Funciona una sola vez, hasta el %s. El donante puede revocarlo al salir del portal."}
+{"n": 1482, "msgid": "Signs whoever opens it in as this donor, once. Create one only when they have asked.", "msgstr": "Quien lo abra accederá como este donante, una sola vez. Créalo solo cuando te lo hayan pedido."}
+{"n": 1483, "msgid": "Create a sign-in link", "msgstr": "Crear un enlace de acceso"}
+{"n": 1484, "msgid": "Creating…", "msgstr": "Creando…"}
+{"n": 1485, "msgid": "The link could not be created.", "msgstr": "No se ha podido crear el enlace."}
+{"n": 1486, "note": "translators: %s: date", "msgid": "Last donation %s", "msgstr": "Última donación: %s"}
+{"n": 1487, "msgid": "Copy", "msgstr": "Copiar"}
+{"n": 1488, "msgid": "Donor sections", "msgstr": "Secciones de donantes"}
+{"n": 1489, "msgid": "Notes", "msgstr": "Notas"}
+{"n": 1490, "msgid": "Recurring MRR", "msgstr": "MRR recurrente"}
+{"n": 1491, "msgid": "Per donation", "msgstr": "Por donación"}
+{"n": 1492, "msgid": "Avg. donation", "msgstr": "Donación media"}
+{"n": 1493, "note": "translators: 1: one-time donation count, 2: recurring donation count", "msgid": "%1$d one-time, %2$d recurring", "msgstr": "Únicas: %1$d, recurrentes: %2$d"}
+{"n": 1494, "msgid": "Donations received", "msgstr": "Donaciones recibidas"}
+{"n": 1495, "note": "translators: %s: amount", "msgid": "Largest donation %s", "msgstr": "Mayor donación: %s"}
+{"n": 1496, "msgid": "Lifetime given", "msgstr": "Total donado"}
+{"n": 1497, "note": "translators: %d: number of plans with no exchange rate", "msgid": "%d plan has no exchange rate and is not counted", "msgid_plural": "%d plans have no exchange rate and are not counted", "msgstr_plural": ["%d plan no tiene tipo de cambio y no se cuenta", "%d planes no tienen tipo de cambio y no se cuentan"]}
+{"n": 1498, "msgid": "No active plans", "msgstr": "Sin planes activos"}
+{"n": 1499, "note": "translators: 1: active plan count, 2: next payment date", "msgid": "%1$d active · next %2$s", "msgstr": "Planes activos: %1$d · próximo pago: %2$s"}
+{"n": 1500, "note": "translators: %d: number of paused plans.", "msgid": "%d paused", "msgid_plural": "%d paused", "msgstr_plural": ["%d en pausa", "%d en pausa"]}
+{"n": 1501, "note": "translators: %d: number of plans the gateway has not started yet.", "msgid": "%d pending", "msgid_plural": "%d pending", "msgstr_plural": ["%d pendiente", "%d pendientes"]}
+{"n": 1502, "note": "translators: %d: number of plans the gateway could not collect.", "msgid": "%d past due", "msgid_plural": "%d past due", "msgstr_plural": ["%d con pago atrasado", "%d con pago atrasado"]}
+{"n": 1503, "msgid": "Edit details", "msgstr": "Editar datos"}
+{"n": 1504, "msgid": "Redacted", "msgstr": "Anonimizado"}
+{"n": 1505, "note": "translators: %d: donor id", "msgid": "ID %d", "msgstr": "ID %d"}
+{"n": 1506, "note": "translators: %s: month", "msgid": "Donor since %s", "msgstr": "Donante desde %s"}
+{"n": 1507, "msgid": "Open Recurring →", "msgstr": "Abrir la pestaña Recurrente →"}
+{"n": 1508, "msgid": "Action failed", "msgstr": "Acción fallida"}
+{"n": 1509, "msgid": "Subscription not created", "msgstr": "Suscripción no creada"}
+{"n": 1510, "msgid": "Renewal failed", "msgstr": "Renovación fallida"}
+{"n": 1511, "msgid": "Recurring amount changed", "msgstr": "Importe de la donación recurrente cambiado"}
+{"n": 1512, "msgid": "Next payment skipped", "msgstr": "Próximo pago omitido"}
+{"n": 1513, "msgid": "Recurring resumed", "msgstr": "Donación recurrente reanudada"}
+{"n": 1514, "msgid": "Recurring paused", "msgstr": "Donación recurrente en pausa"}
+{"n": 1515, "msgid": "Recurring payment", "msgstr": "Pago recurrente"}
+{"n": 1516, "msgid": "Reversal reinstated", "msgstr": "Reversión anulada"}
+{"n": 1517, "msgid": "Dispute opened", "msgstr": "Disputa abierta"}
+{"n": 1518, "msgid": "Refund reversed", "msgstr": "Reembolso revertido"}
+{"n": 1519, "msgid": "Refund issued", "msgstr": "Reembolso emitido"}
+{"n": 1520, "msgid": "Payment failed", "msgstr": "Pago fallido"}
+{"n": 1521, "msgid": "Donation paid", "msgstr": "Donación pagada"}
+{"n": 1522, "msgid": "Payment processing", "msgstr": "Pago en proceso"}
+{"n": 1523, "msgid": "Awaiting payment", "msgstr": "Pendiente de pago"}
+{"n": 1524, "msgid": "Donation started", "msgstr": "Donación iniciada"}
+{"n": 1525, "msgid": "Top donors by lifetime value", "msgstr": "Principales donantes por valor de vida"}
+{"n": 1526, "msgid": "Needs attention: at-risk donors", "msgstr": "Requiere atención: donantes en riesgo"}
+{"n": 1527, "msgid": "Cohort retention", "msgstr": "Retención por cohortes"}
+{"n": 1528, "msgid": "Lifetime value distribution", "msgstr": "Distribución del valor de vida"}
+{"n": 1529, "msgid": "Donor segments", "msgstr": "Segmentos de donantes"}
+{"n": 1530, "msgid": "Lifetime value, segments and retention are built from money actually taken, so there is no test version of them.", "msgstr": "El valor de vida, los segmentos y la retención se calculan con dinero realmente cobrado, así que no tienen versión de prueba."}
+{"n": 1531, "note": "translators: %d: donors whose donations are all test-mode.", "msgid": "%d donor has only test donations, so they are not in this analysis.", "msgid_plural": "%d donors have only test donations, so they are not in this analysis.", "msgstr_plural": ["%d donante solo tiene donaciones de prueba, así que no entra en este análisis.", "%d donantes solo tienen donaciones de prueba, así que no entran en este análisis."]}
+{"n": 1532, "msgid": "Loading insights…", "msgstr": "Cargando análisis…"}
+{"n": 1533, "msgid": "Next", "msgstr": "Siguiente"}
+{"n": 1534, "note": "translators: 1: current page, 2: total pages", "msgid": "Page %1$d of %2$d", "msgstr": "Página %1$d de %2$d"}
+{"n": 1535, "msgid": "Prev", "msgstr": "Anterior"}
+{"n": 1536, "msgid": "Donors appear here when they have gone quiet for longer than usual, so you can reach them before they lapse.", "msgstr": "Los donantes aparecen aquí cuando llevan sin donar más tiempo de lo habitual, para que puedas retomar el contacto antes de que dejen de donar."}
+{"n": 1537, "msgid": "No donors are slipping", "msgstr": "Ningún donante se está alejando"}
+{"n": 1538, "msgid": "Loading…", "msgstr": "Cargando…"}
+{"n": 1539, "note": "translators: %s: count", "msgid": "%s at-risk donor", "msgid_plural": "%s at-risk donors", "msgstr_plural": ["%s donante en riesgo", "%s donantes en riesgo"]}
+{"n": 1540, "msgid": "Could not load at-risk donors.", "msgstr": "No se han podido cargar los donantes en riesgo."}
+{"n": 1541, "note": "translators: %d: count", "msgid": "%d cancellations", "msgstr": "Cancelaciones: %d"}
+{"n": 1542, "msgid": "Churn this month", "msgstr": "Bajas este mes"}
+{"n": 1543, "msgid": "plans started", "msgstr": "planes iniciados"}
+{"n": 1544, "msgid": "New this month", "msgstr": "Nuevos este mes"}
+{"n": 1545, "msgid": "monthly-equivalent revenue", "msgstr": "ingresos en equivalente mensual"}
+{"n": 1546, "msgid": "MRR", "msgstr": "MRR"}
+{"n": 1547, "msgid": "plans currently billing", "msgstr": "planes con cobros en curso"}
+{"n": 1548, "msgid": "Active recurring", "msgstr": "Recurrentes activos"}
+{"n": 1549, "msgid": "One cell per cohort falls in the month now running, and counts only the days so far. Those are marked and left out of the shading.", "msgstr": "Una celda por cohorte cae en el mes en curso y solo cuenta los días transcurridos. Esas celdas aparecen marcadas y quedan fuera del sombreado."}
+{"n": 1550, "note": "translators: %s: a percentage reached so far this month", "msgid": "%s%% so far", "msgstr": "%s%% hasta ahora"}
+{"n": 1551, "note": "translators: 1: donors so far, 2: cohort size, 3: a percentage", "msgid": "%1$s of %2$s so far (%3$s%%). This month is still running.", "msgstr": "%1$s de %2$s hasta ahora (%3$s%%). Este mes aún está en curso."}
+{"n": 1552, "msgid": "M0", "msgstr": "M0"}
+{"n": 1553, "msgid": "Cohort", "msgstr": "Cohorte"}
+{"n": 1554, "msgid": "Cohort retention needs at least one donation in a cohort month before the heatmap can render.", "msgstr": "La retención por cohortes necesita al menos una donación en un mes de cohorte para poder mostrar el mapa de calor."}
+{"n": 1555, "msgid": "Not enough history yet", "msgstr": "Aún no hay suficiente historial"}
+{"n": 1556, "msgid": "The top donor leaderboard fills in as your first completed donations roll in.", "msgstr": "La clasificación de principales donantes se irá llenando a medida que lleguen tus primeras donaciones completadas."}
+{"n": 1557, "msgid": "Why", "msgstr": "Motivo"}
+{"n": 1558, "note": "translators: %d: number of days", "msgid": "About %d day between donations, on average.", "msgid_plural": "About %d days between donations, on average.", "msgstr_plural": ["Aproximadamente %d día entre donaciones, de media.", "Aproximadamente %d días entre donaciones, de media."]}
+{"n": 1559, "msgid": "Total LTV", "msgstr": "LTV total"}
+{"n": 1560, "msgid": "Avg LTV", "msgstr": "LTV medio"}
+{"n": 1561, "msgid": "% of base", "msgstr": "% de la base"}
+{"n": 1562, "msgid": "Segment", "msgstr": "Segmento"}
+{"n": 1563, "msgid": "Donor segment distribution", "msgstr": "Distribución de segmentos de donantes"}
+{"n": 1564, "msgid": "avg", "msgstr": "media"}
+{"n": 1565, "msgid": "Median LTV", "msgstr": "Mediana del LTV"}
+{"n": 1566, "msgid": "> 365d silent", "msgstr": "> 365 d sin donar"}
+{"n": 1567, "msgid": "silent 180-365d", "msgstr": "sin donar 180-365 d"}
+{"n": 1568, "msgid": "Lapsed", "msgstr": "Inactivos"}
+{"n": 1569, "msgid": "silent 90-180d", "msgstr": "sin donar 90-180 d"}
+{"n": 1570, "msgid": "of base · gave in 90d", "msgstr": "de la base · donaron en 90 d"}
+{"n": 1571, "msgid": "no new donors", "msgstr": "sin donantes nuevos"}
+{"n": 1572, "msgid": "new (30d)", "msgstr": "nuevos (30 d)"}
+{"n": 1573, "msgid": "Giving donors", "msgstr": "Donantes con donaciones"}
+{"n": 1574, "msgid": "Uncategorised", "msgstr": "Sin categorizar"}
+{"n": 1575, "msgid": "> 12 months silent", "msgstr": "> 12 meses sin donar"}
+{"n": 1576, "msgid": "Lost", "msgstr": "Perdido"}
+{"n": 1577, "msgid": "Long lapsed, low LTV", "msgstr": "Mucho tiempo sin donar, LTV bajo"}
+{"n": 1578, "msgid": "Hibernating", "msgstr": "En hibernación"}
+{"n": 1579, "msgid": "Was active, slowing down", "msgstr": "Tuvo actividad, va a menos"}
+{"n": 1580, "msgid": "At risk", "msgstr": "En riesgo"}
+{"n": 1581, "msgid": "Joined recently", "msgstr": "Incorporación reciente"}
+{"n": 1582, "msgid": "New", "msgstr": "Nuevo"}
+{"n": 1583, "msgid": "Active, 2+ donations", "msgstr": "Con actividad, 2 o más donaciones"}
+{"n": 1584, "msgid": "Loyal", "msgstr": "Leal"}
+{"n": 1585, "msgid": "Active, frequent, high LTV", "msgstr": "Activos, frecuentes, LTV alto"}
+{"n": 1586, "msgid": "Champions", "msgstr": "Campeones"}
+{"n": 1587, "msgid": "Donations you take off the list appear here, with their payments stopped, until you delete them.", "msgstr": "Las donaciones que quitas de la lista aparecen aquí, con sus pagos detenidos, hasta que las borras."}
+{"n": 1588, "msgid": "The trash is empty", "msgstr": "La papelera está vacía"}
+{"n": 1589, "msgid": "Also delete donors who are left with nothing", "msgstr": "Borrar también a los donantes que se queden sin nada"}
+{"n": 1590, "note": "translators: %d: number of donations", "msgid": "This removes %d donation and everything describing it. It cannot be undone.", "msgid_plural": "This removes %d donations and everything describing them. It cannot be undone.", "msgstr_plural": ["Esto borra %d donación y todo lo que la describe. No se puede deshacer.", "Esto borra %d donaciones y todo lo que las describe. No se puede deshacer."]}
+{"n": 1591, "msgid": "This removes the donation and everything describing it. It cannot be undone.", "msgstr": "Esto borra la donación y todo lo que la describe. No se puede deshacer."}
+{"n": 1592, "note": "translators: %d: number of donations", "msgid": "%d donation could not be restored.", "msgid_plural": "%d donations could not be restored.", "msgstr_plural": ["%d donación no se ha podido restaurar.", "%d donaciones no se han podido restaurar."]}
+{"n": 1593, "note": "translators: %d: number of donations", "msgid": "%d donation restored. Its payment is still stopped.", "msgid_plural": "%d donations restored. Their payments are still stopped.", "msgstr_plural": ["%d donación restaurada. Su pago sigue detenido.", "%d donaciones restauradas. Sus pagos siguen detenidos."]}
+{"n": 1594, "note": "translators: %d: number of donations", "msgid": "%d donation restored.", "msgid_plural": "%d donations restored.", "msgstr_plural": ["%d donación restaurada.", "%d donaciones restauradas."]}
+{"n": 1595, "msgid": "Failed to load the trash.", "msgstr": "No se ha podido cargar la papelera."}
+{"n": 1596, "msgid": "Reason (optional)", "msgstr": "Motivo (opcional)"}
+{"n": 1597, "msgid": "Mark this donation as failed? Optionally add a reason (shown in the donation timeline). It will be excluded from totals.", "msgstr": "¿Marcar esta donación como fallida? Si quieres, añade un motivo (se muestra en la cronología de la donación). Se excluirá de los totales."}
+{"n": 1598, "msgid": "Could not update donation.", "msgstr": "No se ha podido actualizar la donación."}
+{"n": 1599, "msgid": "Donation marked as failed.", "msgstr": "Donación marcada como fallida."}
+{"n": 1600, "msgid": "Mark donation as failed", "msgstr": "Marcar donación como fallida"}
+{"n": 1601, "msgid": "The refund went through, but the recurring schedule was not cancelled. Cancel it from the Subscriptions screen.", "msgstr": "El reembolso se ha realizado, pero los cobros recurrentes no se han cancelado. Cancélalos desde la pantalla de Suscripciones."}
+{"n": 1602, "note": "translators: %s: why the schedule could not be cancelled", "msgid": "The refund went through, but the recurring schedule was not cancelled. Cancel it from the Subscriptions screen. Reason: %s", "msgstr": "El reembolso se ha realizado, pero los cobros recurrentes no se han cancelado. Cancélalos desde la pantalla de Suscripciones. Motivo: %s"}
+{"n": 1603, "msgid": "It has not settled yet, so the donor does not have the money back and the donation stays paid. This amount is already off the refundable balance.", "msgstr": "Todavía no se ha liquidado, así que el donante aún no ha recuperado el dinero y la donación sigue como pagada. Este importe ya se ha descontado del saldo reembolsable."}
+{"n": 1604, "msgid": "Refund accepted by the gateway.", "msgstr": "Reembolso aceptado por la pasarela de pago."}
+{"n": 1605, "msgid": "Refund issued.", "msgstr": "Reembolso emitido."}
+{"n": 1606, "msgid": "Refund accepted by the gateway, and the recurring schedule is stopped.", "msgstr": "Reembolso aceptado por la pasarela de pago, y los cobros recurrentes se han detenido."}
+{"n": 1607, "msgid": "Refund issued, and the recurring schedule is stopped.", "msgstr": "Reembolso emitido, y los cobros recurrentes se han detenido."}
+{"n": 1608, "msgid": "Could not restore this donation.", "msgstr": "No se ha podido restaurar esta donación."}
+{"n": 1609, "msgid": "Restored. Its payment is still stopped.", "msgstr": "Donación restaurada. Su pago sigue detenido."}
+{"n": 1610, "msgid": "Could not move this donation to the trash.", "msgstr": "No se ha podido mover esta donación a la papelera."}
+{"n": 1611, "msgid": "Moved to the trash.", "msgstr": "Movida a la papelera."}
+{"n": 1612, "msgid": "There is nothing to close at the gateway, so a reference already emailed to the donor could still be paid by hand.", "msgstr": "No hay nada que cerrar en la pasarela de pago, así que una referencia ya enviada por correo electrónico al donante todavía podría pagarse manualmente."}
+{"n": 1613, "msgid": "Gratora will ask the gateway to stop the payment behind it.", "msgstr": "Gratora pedirá a la pasarela de pago que detenga el pago correspondiente."}
+{"n": 1614, "msgid": "Could not mark donation as paid.", "msgstr": "No se ha podido marcar la donación como pagada."}
+{"n": 1615, "msgid": "Donation marked as paid.", "msgstr": "Donación marcada como pagada."}
+{"n": 1616, "msgid": "Mark this donation as paid? This issues the receipt and updates donor totals.", "msgstr": "¿Marcar esta donación como pagada? Esto emite el recibo y actualiza los totales del donante."}
+{"n": 1617, "msgid": "Mark donation as paid", "msgstr": "Marcar donación como pagada"}
+{"n": 1618, "msgid": "Could not release the held amount.", "msgstr": "No se ha podido liberar el importe retenido."}
+{"n": 1619, "msgid": "The held amount is refundable again.", "msgstr": "El importe retenido vuelve a ser reembolsable."}
+{"n": 1620, "msgid": "It never arrived", "msgstr": "Nunca llegó"}
+{"n": 1621, "msgid": "Say this refund never reached the donor? The amount goes back to what can be refunded. Do this only once the gateway shows it did not go through, or the donor could be repaid twice.", "msgstr": "¿Indicar que este reembolso nunca llegó al donante? El importe vuelve a estar disponible para reembolsar. Hazlo solo cuando la pasarela de pago muestre que no se completó, o el donante podría recibir el reembolso dos veces."}
+{"n": 1622, "msgid": "Release the held amount", "msgstr": "Liberar el importe retenido"}
+{"n": 1623, "msgid": "Could not create the recurring plan.", "msgstr": "No se ha podido crear el plan recurrente."}
+{"n": 1624, "msgid": "Recurring plan created.", "msgstr": "Plan recurrente creado."}
+{"n": 1625, "msgid": "Create plan", "msgstr": "Crear plan"}
+{"n": 1626, "msgid": "Create the recurring plan at the gateway from this donation? The donor is not charged again today. The schedule restarts from now, so any renewal that fell due since this donation was made is not collected.", "msgstr": "¿Crear el plan recurrente en la pasarela de pago a partir de esta donación? Hoy no se vuelve a cobrar al donante. El calendario de cobros se reinicia desde ahora, así que no se cobrará ninguna renovación que haya vencido desde que se hizo esta donación."}
+{"n": 1627, "msgid": "Could not resend receipt.", "msgstr": "No se ha podido reenviar el recibo."}
+{"n": 1628, "msgid": "Receipt re-queued.", "msgstr": "El recibo se ha vuelto a poner en cola."}
+{"n": 1629, "msgid": "Back to donations", "msgstr": "Volver a las donaciones"}
+{"n": 1630, "msgid": "Loading donation…", "msgstr": "Cargando donación…"}
+{"n": 1631, "msgid": "Could not load donation.", "msgstr": "No se ha podido cargar la donación."}
+{"n": 1632, "msgid": "Donor country", "msgstr": "País del donante"}
+{"n": 1633, "msgid": "Metadata", "msgstr": "Metadatos"}
+{"n": 1634, "msgid": "Refunds capped at", "msgstr": "Reembolsos limitados a"}
+{"n": 1635, "msgid": "No receipt yet", "msgstr": "Aún no hay recibo"}
+{"n": 1636, "msgid": "Download receipt PDF", "msgstr": "Descargar recibo en PDF"}
+{"n": 1637, "msgid": "Donor erased, cannot email", "msgstr": "Donante anonimizado, no se puede enviar correo electrónico"}
+{"n": 1638, "msgid": "Refund donation", "msgstr": "Reembolsar donación"}
+{"n": 1639, "msgid": "Mark as failed", "msgstr": "Marcar como fallida"}
+{"n": 1640, "msgid": "Captured", "msgstr": "Cobro"}
+{"n": 1641, "msgid": "Previous donation", "msgstr": "Donación anterior"}
+{"n": 1642, "msgid": "Donor lifetime", "msgstr": "Total acumulado del donante"}
+{"n": 1643, "msgid": "Quick stats", "msgstr": "Estadísticas rápidas"}
+{"n": 1644, "msgid": "(this one)", "msgstr": "(esta)"}
+{"n": 1645, "msgid": "Add note", "msgstr": "Añadir nota"}
+{"n": 1646, "msgid": "Saving…", "msgstr": "Guardando…"}
+{"n": 1647, "msgid": "Write a note about this donation. Notes are visible to admins only.", "msgstr": "Escribe una nota sobre esta donación. Las notas solo se ven desde la administración."}
+{"n": 1648, "msgid": "Could not save", "msgstr": "No se ha podido guardar"}
+{"n": 1649, "msgid": "Could not delete", "msgstr": "No se ha podido borrar"}
+{"n": 1650, "msgid": "Delete this note?", "msgstr": "¿Borrar esta nota?"}
+{"n": 1651, "msgid": "Delete note", "msgstr": "Borrar nota"}
+{"n": 1652, "msgid": "System", "msgstr": "Sistema"}
+{"n": 1653, "msgid": "Unknown user", "msgstr": "Usuario desconocido"}
+{"n": 1654, "msgid": "Add notes to keep context attached to this donation: refund reasons, follow-ups, special handling.", "msgstr": "Añade notas para conservar el contexto de esta donación: motivos de reembolso, seguimientos, gestiones especiales."}
+{"n": 1655, "msgid": "No notes yet", "msgstr": "Aún no hay notas"}
+{"n": 1656, "msgid": "Note added", "msgstr": "Nota añadida"}
+{"n": 1657, "msgid": "Receipt voided", "msgstr": "Recibo anulado"}
+{"n": 1658, "msgid": "Receipt issued", "msgstr": "Recibo emitido"}
+{"n": 1659, "msgid": "Closed at the gateway, so nothing further can be collected.", "msgstr": "Cerrado en la pasarela de pago, así que ya no se puede cobrar nada más."}
+{"n": 1660, "msgid": "There was nothing open at the gateway to close.", "msgstr": "No había nada abierto en la pasarela de pago que cerrar."}
+{"n": 1661, "msgid": "Payment stopped", "msgstr": "Pago detenido"}
+{"n": 1662, "msgid": "Marked as failed", "msgstr": "Marcada como fallida"}
+{"n": 1663, "msgid": "Payment captured", "msgstr": "Pago cobrado"}
+{"n": 1664, "msgid": "Through", "msgstr": "A través de"}
+{"n": 1665, "msgid": "Donation created", "msgstr": "Donación creada"}
+{"n": 1666, "msgid": "Never arrived", "msgstr": "Nunca llegó"}
+{"n": 1667, "msgid": "Gateway ID", "msgstr": "ID en la pasarela de pago"}
+{"n": 1668, "msgid": "When", "msgstr": "Cuándo"}
+{"n": 1669, "msgid": "Issue another refund →", "msgstr": "Emitir otro reembolso →"}
+{"n": 1670, "msgid": "awaiting settlement", "msgstr": "pendientes de liquidación"}
+{"n": 1671, "msgid": "refunded", "msgstr": "reembolsados"}
+{"n": 1672, "msgid": "Gateway fee", "msgstr": "Comisión de la pasarela de pago"}
+{"n": 1673, "msgid": "Gross", "msgstr": "Bruto"}
+{"n": 1674, "msgid": "Fees breakdown", "msgstr": "Desglose de comisiones"}
+{"n": 1675, "msgid": "Copy transaction ID", "msgstr": "Copiar ID de transacción"}
+{"n": 1676, "msgid": "Transaction ID", "msgstr": "ID de transacción"}
+{"n": 1677, "msgid": "Copy intent ID", "msgstr": "Copiar ID de intención de pago"}
+{"n": 1678, "msgid": "Intent ID", "msgstr": "ID de intención de pago"}
+{"n": 1679, "msgid": "A receipt will be generated as soon as the renderer runs.", "msgstr": "Se generará un recibo en cuanto se ejecute el generador de recibos."}
+{"n": 1680, "msgid": "Receipt queued", "msgstr": "Recibo en cola"}
+{"n": 1681, "msgid": "PDF", "msgstr": "PDF"}
+{"n": 1682, "msgid": "Could not download the receipt.", "msgstr": "No se ha podido descargar el recibo."}
+{"n": 1683, "msgid": "emailed", "msgstr": "enviado por correo electrónico"}
+{"n": 1684, "msgid": "Open donor →", "msgstr": "Abrir donante →"}
+{"n": 1685, "msgid": "First donation from this donor", "msgstr": "Primera donación de este donante"}
+{"n": 1686, "note": "translators: 1: donation count, 2: lifetime amount, 3: first donation date", "msgid": "%1$s donations · %2$s lifetime · first donation %3$s", "msgstr": "Donaciones: %1$s · Total acumulado: %2$s · Primera donación: %3$s"}
+{"n": 1687, "note": "translators: %s: donor-provided name", "msgid": "Given as \"%s\" on this donation", "msgstr": "En esta donación figura como «%s»"}
+{"n": 1688, "msgid": "This donor asked not to be named on public donor lists. Their details are unchanged here and on their receipt.", "msgstr": "Este donante pidió que no se mostrara su nombre en las listas públicas de donantes. Sus datos se mantienen sin cambios aquí y en su recibo."}
+{"n": 1689, "msgid": "No donor record is attached to this donation.", "msgstr": "Esta donación no tiene ningún registro de donante asociado."}
+{"n": 1690, "msgid": "Form fields", "msgstr": "Campos del formulario"}
+{"n": 1691, "msgid": "Donor note", "msgstr": "Nota del donante"}
+{"n": 1692, "msgid": "Part of a recurring plan", "msgstr": "Forma parte de un plan recurrente"}
+{"n": 1693, "msgid": "not paid", "msgstr": "sin pagar"}
+{"n": 1694, "msgid": "Donated", "msgstr": "Donado"}
+{"n": 1695, "msgid": "Channel", "msgstr": "Canal"}
+{"n": 1696, "msgid": "Fundraiser", "msgstr": "Recaudador"}
+{"n": 1697, "msgid": "Team", "msgstr": "Equipo"}
+{"n": 1698, "msgid": "ending", "msgstr": "que termina en"}
+{"n": 1699, "msgid": "fee", "msgstr": "de comisión"}
+{"n": 1700, "msgid": "Fee & net", "msgstr": "Comisión y neto"}
+{"n": 1701, "msgid": "Refunding…", "msgstr": "Reembolsando…"}
+{"n": 1702, "msgid": "The donor is emailed when a schedule is cancelled.", "msgstr": "Al donante se le envía un correo electrónico cuando se cancelan los cobros recurrentes."}
+{"n": 1703, "msgid": "Cancel the recurring schedule as well", "msgstr": "Cancelar también los cobros recurrentes"}
+{"n": 1704, "msgid": "Refunding this donation does not stop it, and the donor will be charged again.", "msgstr": "Reembolsar esta donación no detiene los cobros recurrentes, y al donante se le volverá a cobrar."}
+{"n": 1705, "note": "translators: %s: date of the next scheduled payment", "msgid": "Refunding this donation does not stop it, and the donor will be charged again on %s.", "msgstr": "Reembolsar esta donación no detiene los cobros recurrentes, y al donante se le volverá a cobrar el %s."}
+{"n": 1706, "msgid": "optional", "msgstr": "opcional"}
+{"n": 1707, "msgid": "Reason", "msgstr": "Motivo"}
+{"n": 1708, "note": "translators: %s: amount already sent to the gateway", "msgid": "%s is already on its way back to the donor and has not settled yet, so it is not offered here.", "msgstr": "%s ya va de camino al donante y aún no se ha liquidado, así que no se ofrece aquí."}
+{"n": 1709, "note": "translators: %s: amount", "msgid": "Up to %s can be refunded back to the donor. Stripe refunds typically settle in 5-10 business days.", "msgstr": "Se pueden reembolsar al donante hasta %s. Los reembolsos de Stripe suelen liquidarse en un plazo de 5 a 10 días hábiles."}
+{"n": 1710, "msgid": "Refund failed", "msgstr": "El reembolso ha fallado"}
+{"n": 1711, "note": "translators: 1: minimum amount, 2: maximum amount", "msgid": "Amount must be between %1$s and %2$s", "msgstr": "El importe debe estar entre %1$s y %2$s"}
+{"n": 1712, "msgid": "Issue refund", "msgstr": "Emitir reembolso"}
+{"n": 1713, "msgid": "Create the recurring plan", "msgstr": "Crear el plan recurrente"}
+{"n": 1714, "msgid": "Creating plan…", "msgstr": "Creando plan…"}
+{"n": 1715, "msgid": "Last attempt failed:", "msgstr": "El último intento ha fallado:"}
+{"n": 1716, "msgid": "Gateway reason:", "msgstr": "Motivo de la pasarela de pago:"}
+{"n": 1717, "msgid": "The donor was charged for this donation, but no recurring plan exists at the gateway. Nothing will renew until this is fixed.", "msgstr": "Al donante se le ha cobrado esta donación, pero no existe ningún plan recurrente en la pasarela de pago. No se renovará nada hasta que esto se corrija."}
+{"n": 1718, "msgid": "Recurring plan was not created.", "msgstr": "No se ha creado el plan recurrente."}
+{"n": 1719, "msgid": "Payment failed.", "msgstr": "Pago fallido."}
+{"n": 1720, "msgid": "Payment not settled yet.", "msgstr": "Pago aún no liquidado."}
+{"n": 1721, "msgid": "Review the dispute in your gateway dashboard before refunding.", "msgstr": "Revisa la disputa en el escritorio de tu pasarela de pago antes de reembolsar."}
+{"n": 1722, "msgid": "Chargeback in progress.", "msgstr": "Contracargo en curso."}
+{"n": 1723, "note": "translators: %s: the replacement donation's reference.", "msgid": "Open %s", "msgstr": "Abrir %s"}
+{"n": 1724, "msgid": "It is still pending, and it can still settle if the payment it is waiting on goes through.", "msgstr": "Sigue pendiente, y aún puede liquidarse si sale adelante el pago que está esperando."}
+{"n": 1725, "msgid": "The donor backed out here and started again, so this attempt is left out of the donations list, its counts and the CSV export.", "msgstr": "El donante se echó atrás aquí y volvió a empezar, así que este intento queda fuera de la lista de donaciones, de sus recuentos y de la exportación CSV."}
+{"n": 1726, "msgid": "Replaced by a later attempt.", "msgstr": "Sustituida por un intento posterior."}
+{"n": 1727, "msgid": "No real money changed hands.", "msgstr": "No se ha movido dinero real."}
+{"n": 1728, "msgid": "Test-mode donation.", "msgstr": "Donación en modo de prueba."}
+{"n": 1729, "msgid": "Whatever the gateway was holding open for this donation has been closed, so nothing further can be collected against it. Restoring the record does not reopen the payment.", "msgstr": "Lo que la pasarela de pago mantenía abierto para esta donación se ha cerrado, así que ya no se puede cobrar nada más por ella. Restaurar el registro no reabre el pago."}
+{"n": 1730, "msgid": "Payment stopped.", "msgstr": "Pago detenido."}
+{"n": 1731, "msgid": "This donation is left out of the donations list, its counts and the CSV export. Nothing has been deleted, and no money total changes.", "msgstr": "Esta donación queda fuera de la lista de donaciones, de sus recuentos y de la exportación CSV. No se ha borrado nada y no cambia ningún total de dinero."}
+{"n": 1732, "msgid": "In the trash.", "msgstr": "En la papelera."}
+{"n": 1733, "msgid": "Refund", "msgstr": "Reembolsar"}
+{"n": 1734, "msgid": "Refund remaining", "msgstr": "Reembolsar el resto"}
+{"n": 1735, "msgid": "net", "msgstr": "neto"}
+{"n": 1736, "msgid": "Donated to", "msgstr": "Donado a"}
+{"n": 1737, "msgid": "Anonymous publicly", "msgstr": "Anónima en público"}
+{"n": 1738, "msgid": "Their name is hidden from public donor lists. It still appears here and on their receipt.", "msgstr": "Su nombre está oculto en las listas públicas de donantes. Sigue apareciendo aquí y en su recibo."}
+{"n": 1739, "msgid": "Left out of the donations list, its counts and the CSV export. Nothing has been deleted.", "msgstr": "Queda fuera de la lista de donaciones, de sus recuentos y de la exportación CSV. No se ha borrado nada."}
+{"n": 1740, "msgid": "Manual", "msgstr": "Manual"}
+{"n": 1741, "msgid": "Embedded form", "msgstr": "Formulario incrustado"}
+{"n": 1742, "msgid": "QR code", "msgstr": "Código QR"}
+{"n": 1743, "msgid": "Social", "msgstr": "Redes sociales"}
+{"n": 1744, "msgid": "Reversed", "msgstr": "Revertido"}
+{"n": 1745, "msgid": "Not settled yet", "msgstr": "Aún sin liquidar"}
+{"n": 1746, "msgid": "Partial", "msgstr": "Parcial"}
+{"n": 1747, "msgid": "Total donations", "msgstr": "Total de donaciones"}
+{"n": 1748, "note": "translators: %s: currency code", "msgid": "in %s, includes test donations", "msgstr": "en %s, incluye donaciones de prueba"}
+{"n": 1749, "msgid": "Includes test donations", "msgstr": "Incluye donaciones de prueba"}
+{"n": 1750, "msgid": "Donations made through your published forms will appear here. Donors are created automatically from each completed donation.", "msgstr": "Las donaciones hechas a través de tus formularios publicados aparecerán aquí. Los donantes se crean automáticamente a partir de cada donación completada."}
+{"n": 1751, "msgid": "Search by reference or name, or a whole email address", "msgstr": "Buscar por referencia o nombre, o por una dirección de correo electrónico completa"}
+{"n": 1752, "msgid": "Test donations are counted in the figures above and shown in the list below. These totals include money that was never actually taken, so they cannot be quoted as income.", "msgstr": "Las donaciones de prueba se cuentan en las cifras de arriba y se muestran en la lista de abajo. Estos totales incluyen dinero que nunca se llegó a cobrar, así que no pueden presentarse como ingresos."}
+{"n": 1753, "note": "translators: %d: number of test donations hidden.", "msgid": "%d test donation is hidden.", "msgid_plural": "%d test donations are hidden.", "msgstr_plural": ["Hay %d donación de prueba oculta.", "Hay %d donaciones de prueba ocultas."]}
+{"n": 1754, "note": "translators: %s: the new donation's reference.", "msgid": "Recorded as %s.", "msgstr": "Registrada como %s."}
+{"n": 1755, "msgid": "Show test donations", "msgstr": "Mostrar donaciones de prueba"}
+{"n": 1756, "msgid": "Clear", "msgstr": "Limpiar"}
+{"n": 1757, "msgid": "Filter donations to", "msgstr": "Filtrar donaciones hasta"}
+{"n": 1758, "msgid": "To", "msgstr": "Hasta"}
+{"n": 1759, "msgid": "Any", "msgstr": "Cualquiera"}
+{"n": 1760, "msgid": "Filter donations from", "msgstr": "Filtrar donaciones desde"}
+{"n": 1761, "msgid": "From", "msgstr": "Desde"}
+{"n": 1762, "msgid": "Could not delete. Refresh and try again.", "msgstr": "No se ha podido borrar. Recarga la página e inténtalo de nuevo."}
+{"n": 1763, "note": "translators: %d: number of donations", "msgid": "%d donation could not be deleted.", "msgid_plural": "%d donations could not be deleted.", "msgstr_plural": ["%d donación no se ha podido borrar.", "%d donaciones no se han podido borrar."]}
+{"n": 1764, "note": "translators: %d: number of donations", "msgid": "%d donation deleted.", "msgid_plural": "%d donations deleted.", "msgstr_plural": ["%d donación borrada.", "%d donaciones borradas."]}
+{"n": 1765, "msgid": "Deleting…", "msgstr": "Borrando…"}
+{"n": 1766, "note": "translators: %d: number of donations", "msgid": "This removes %d donation and everything describing it. Money already recorded against them comes out of your totals. It cannot be undone.", "msgid_plural": "This removes %d donations and everything describing them. Money already recorded against them comes out of your totals. It cannot be undone.", "msgstr_plural": ["Esto borra %d donación y todo lo que la describe. El dinero ya registrado en ella se descuenta de tus totales. No se puede deshacer.", "Esto borra %d donaciones y todo lo que las describe. El dinero ya registrado en ellas se descuenta de tus totales. No se puede deshacer."]}
+{"n": 1767, "msgid": "This removes the donation and everything describing it. Money already recorded against it comes out of your totals. It cannot be undone.", "msgstr": "Esto borra la donación y todo lo que la describe. El dinero ya registrado en ella se descuenta de tus totales. No se puede deshacer."}
+{"n": 1768, "msgid": "Delete permanently", "msgstr": "Borrar permanentemente"}
+{"n": 1769, "note": "translators: %d: number of donations", "msgid": "%d donation could not be moved.", "msgid_plural": "%d donations could not be moved.", "msgstr_plural": ["%d donación no se ha podido mover.", "%d donaciones no se han podido mover."]}
+{"n": 1770, "msgid": "Could not restore. Refresh and try again.", "msgstr": "No se ha podido restaurar. Recarga la página e inténtalo de nuevo."}
+{"n": 1771, "msgid": "Restored. The payment stays stopped.", "msgstr": "Restauración completada. El pago sigue detenido."}
+{"n": 1772, "msgid": "Restore", "msgstr": "Restaurar"}
+{"n": 1773, "note": "translators: %d: number of donations", "msgid": "%d donation moved to the trash.", "msgid_plural": "%d donations moved to the trash.", "msgstr_plural": ["%d donación movida a la papelera.", "%d donaciones movidas a la papelera."]}
+{"n": 1774, "msgid": "Could not move to the trash. Refresh and try again.", "msgstr": "No se ha podido mover a la papelera. Recarga la página e inténtalo de nuevo."}
+{"n": 1775, "msgid": "There is nothing to close at the gateway for these, so a reference already emailed to a donor could still be paid by hand.", "msgstr": "No hay nada que cerrar en la pasarela de pago para estos intentos, así que una referencia ya enviada por correo electrónico a un donante todavía podría pagarse manualmente."}
+{"n": 1776, "msgid": "Nothing is open at the gateway for these: the money has already moved and the bin does not touch it.", "msgstr": "No hay nada abierto en la pasarela de pago para estas donaciones: el dinero ya se ha movido y la papelera no lo toca."}
+{"n": 1777, "note": "translators: %d: number of donations whose payment will be stopped", "msgid": "Gratora will ask the gateway to stop %d payment that is still open.", "msgid_plural": "Gratora will ask the gateway to stop %d payments that are still open.", "msgstr_plural": ["Gratora pedirá a la pasarela de pago que detenga %d pago que sigue abierto.", "Gratora pedirá a la pasarela de pago que detenga %d pagos que siguen abiertos."]}
+{"n": 1778, "msgid": "Move to trash", "msgstr": "Mover a la papelera"}
+{"n": 1779, "note": "translators: %d: receipt count", "msgid": "%d receipt could not be resent.", "msgid_plural": "%d receipts could not be resent.", "msgstr_plural": ["%d recibo no se ha podido reenviar.", "%d recibos no se han podido reenviar."]}
+{"n": 1780, "note": "translators: %d: receipt count", "msgid": "%d receipt resent.", "msgid_plural": "%d receipts resent.", "msgstr_plural": ["%d recibo reenviado.", "%d recibos reenviados."]}
+{"n": 1781, "msgid": "Resend", "msgstr": "Reenviar"}
+{"n": 1782, "note": "translators: %d: number of donations", "msgid": "Resend receipts for %d donation?", "msgid_plural": "Resend receipts for %d donations?", "msgstr_plural": ["¿Reenviar el recibo de %d donación?", "¿Reenviar los recibos de %d donaciones?"]}
+{"n": 1783, "msgid": "Resend the receipt for this donation?", "msgstr": "¿Reenviar el recibo de esta donación?"}
+{"n": 1784, "msgid": "Resend receipt", "msgstr": "Reenviar recibo"}
+{"n": 1785, "note": "translators: %d: number of donations", "msgid": "%d donation could not be marked paid.", "msgid_plural": "%d donations could not be marked paid.", "msgstr_plural": ["%d donación no se ha podido marcar como pagada.", "%d donaciones no se han podido marcar como pagadas."]}
+{"n": 1786, "note": "translators: %d: number of donations", "msgid": "%d donation marked paid.", "msgid_plural": "%d donations marked paid.", "msgstr_plural": ["%d donación marcada como pagada.", "%d donaciones marcadas como pagadas."]}
+{"n": 1787, "msgid": "Mark donations as paid", "msgstr": "Marcar donaciones como pagadas"}
+{"n": 1788, "note": "translators: %d: number of donations", "msgid": "Mark %d donation as paid? Receipts will be sent to each donor.", "msgid_plural": "Mark %d donations as paid? Receipts will be sent to each donor.", "msgstr_plural": ["¿Marcar %d donación como pagada? Se enviará un recibo a cada donante.", "¿Marcar %d donaciones como pagadas? Se enviará un recibo a cada donante."]}
+{"n": 1789, "msgid": "Mark this donation as paid? A receipt will be sent.", "msgstr": "¿Marcar esta donación como pagada? Se enviará un recibo."}
+{"n": 1790, "msgid": "Mark as paid", "msgstr": "Marcar como pagada"}
+{"n": 1791, "msgid": "Failed to load donations.", "msgstr": "Error al cargar las donaciones."}
+{"n": 1792, "msgid": "The campaign filter could not be loaded.", "msgstr": "No se ha podido cargar el filtro de campañas."}
+{"n": 1793, "note": "translators: %d: number of donations", "msgid": "Take %d attempt off the list? Nothing is deleted, and no money total changes.", "msgid_plural": "Take %d attempts off the list? Nothing is deleted, and no money totals change.", "msgstr_plural": ["¿Quitar %d intento de la lista? No se borra nada y no cambia ningún total de dinero.", "¿Quitar %d intentos de la lista? No se borra nada y no cambia ningún total de dinero."]}
+{"n": 1794, "msgid": "Take this attempt off the list? Nothing is deleted, and no money total changes.", "msgstr": "¿Quitar este intento de la lista? No se borra nada y no cambia ningún total de dinero."}
+{"n": 1795, "note": "translators: %d: number of donations", "msgid": "Take %d donation off the list? Nothing is deleted, and your campaign totals, reports and exports do not change. The summary above this list leaves out what is in the bin, so it will read lower.", "msgid_plural": "Take %d donations off the list? Nothing is deleted, and your campaign totals, reports and exports do not change. The summary above this list leaves out what is in the bin, so it will read lower.", "msgstr_plural": ["¿Quitar %d donación de la lista? No se borra nada, y los totales de tus campañas, los informes y las exportaciones no cambian. El resumen que hay sobre esta lista no cuenta lo que está en la papelera, así que mostrará cifras más bajas.", "¿Quitar %d donaciones de la lista? No se borra nada, y los totales de tus campañas, los informes y las exportaciones no cambian. El resumen que hay sobre esta lista no cuenta lo que está en la papelera, así que mostrará cifras más bajas."]}
+{"n": 1796, "msgid": "Take this donation off the list? Nothing is deleted, and your campaign totals, reports and exports do not change. The summary above this list leaves out what is in the bin, so it will read lower.", "msgstr": "¿Quitar esta donación de la lista? No se borra nada, y los totales de tus campañas, los informes y las exportaciones no cambian. El resumen que hay sobre esta lista no cuenta lo que está en la papelera, así que mostrará cifras más bajas."}
+{"n": 1797, "msgid": "Trash", "msgstr": "Papelera"}
+{"n": 1798, "msgid": "Donation views", "msgstr": "Vistas de donaciones"}
+{"n": 1799, "msgid": "Trashed by", "msgstr": "Movida a la papelera por"}
+{"n": 1800, "msgid": "Trashed", "msgstr": "Movida a la papelera"}
+{"n": 1801, "msgid": "(no name)", "msgstr": "(sin nombre)"}
+{"n": 1802, "msgid": "Replaced", "msgstr": "Sustituida"}
+{"n": 1803, "msgid": "The donor started again on another gateway. Nothing they do now can collect this attempt.", "msgstr": "El donante volvió a empezar en otra pasarela de pago. Nada de lo que haga ahora puede hacer que se cobre este intento."}
+{"n": 1804, "msgid": "Recurring (any)", "msgstr": "Recurrente (cualquiera)"}
+{"n": 1805, "msgid": "One time", "msgstr": "Única"}
+{"n": 1806, "msgid": "Nothing is sent, not even a receipt.", "msgstr": "No se envía nada, ni siquiera un recibo."}
+{"n": 1807, "msgid": "The donor gets a receipt for this donation.", "msgstr": "Al donante le llega un recibo de esta donación."}
+{"n": 1808, "msgid": "Do not email the donor", "msgstr": "No enviar ningún correo electrónico al donante"}
+{"n": 1809, "msgid": "Email a receipt", "msgstr": "Enviar un recibo por correo electrónico"}
+{"n": 1810, "msgid": "Email the donor a receipt", "msgstr": "Enviar un recibo al donante por correo electrónico"}
+{"n": 1811, "msgid": "Only your team sees this.", "msgstr": "Solo tu equipo ve esto."}
+{"n": 1812, "msgid": "Note", "msgstr": "Nota"}
+{"n": 1813, "msgid": "Optional. Leave empty to use the default fund.", "msgstr": "Opcional. Déjalo vacío para usar el fondo por defecto."}
+{"n": 1814, "msgid": "The campaign itself", "msgstr": "La propia campaña"}
+{"n": 1815, "msgid": "Optional. A check handed to somebody raising for this campaign counts towards their total as well as the campaign's.", "msgstr": "Opcional. Un cheque entregado a alguien que recauda para esta campaña cuenta tanto para su total como para el de la campaña."}
+{"n": 1816, "msgid": "Credit to", "msgstr": "Atribuir a"}
+{"n": 1817, "msgid": "Unavailable", "msgstr": "No disponible"}
+{"n": 1818, "msgid": "Optional. Leave empty for a general donation.", "msgstr": "Opcional. Déjalo vacío para una donación general."}
+{"n": 1819, "msgid": "Campaigns could not be loaded, so this will be recorded without one. Someone with campaign access can set it afterwards.", "msgstr": "No se han podido cargar las campañas, así que la donación se registrará sin campaña. Alguien con acceso a las campañas puede asignar una después."}
+{"n": 1820, "msgid": "How it arrived", "msgstr": "Cómo llegó"}
+{"n": 1821, "msgid": "When the money arrived, which is not always today. A check banked last month belongs to last month, and the totals for that month depend on this.", "msgstr": "Cuándo llegó el dinero, que no siempre es hoy. Un cheque ingresado en el banco el mes pasado corresponde al mes pasado, y los totales de ese mes dependen de esto."}
+{"n": 1822, "msgid": "Date received", "msgstr": "Fecha de recepción"}
+{"n": 1823, "msgid": "Matches an existing donor, or creates one.", "msgstr": "Se asocia a un donante existente o se crea uno nuevo."}
+{"n": 1824, "note": "translators: %s: the reference of the donation already on the books.", "msgid": "%s is already down for this donor, this amount and this date. If they really gave twice, record it anyway. Otherwise change something above.", "msgstr": "%s ya consta para este donante, con este importe y en esta fecha. Si de verdad donó dos veces, regístrala de todos modos. Si no, cambia algo arriba."}
+{"n": 1825, "msgid": "Money that arrived off the site: a check, cash at an event, a bank transfer.", "msgstr": "Dinero recibido fuera del sitio web: un cheque, efectivo en un evento, una transferencia bancaria."}
+{"n": 1826, "msgid": "Record a donation", "msgstr": "Registrar una donación"}
+{"n": 1827, "msgid": "Record donation", "msgstr": "Registrar donación"}
+{"n": 1828, "msgid": "Record it anyway", "msgstr": "Registrarla de todos modos"}
+{"n": 1829, "msgid": "Recording…", "msgstr": "Registrando…"}
+{"n": 1830, "msgid": "Could not record this donation.", "msgstr": "No se ha podido registrar esta donación."}
+{"n": 1831, "note": "translators: %s: campaign title.", "msgid": "%s (archived)", "msgstr": "%s (archivada)"}
+{"n": 1832, "note": "translators: %s: fund name.", "msgid": "%s (default)", "msgstr": "%s (por defecto)"}
+{"n": 1833, "msgid": "Bank transfer", "msgstr": "Transferencia bancaria"}
+{"n": 1834, "msgid": "Cash", "msgstr": "Efectivo"}
+{"n": 1835, "msgid": "Check", "msgstr": "Cheque"}
+{"n": 1836, "msgid": "Retry", "msgstr": "Reintentar"}
+{"n": 1837, "msgid": "Something went wrong fetching your metrics. Check your connection and try again.", "msgstr": "Algo ha ido mal al obtener tus métricas. Comprueba tu conexión e inténtalo de nuevo."}
+{"n": 1838, "msgid": "Could not load your dashboard", "msgstr": "No se ha podido cargar tu escritorio"}
+{"n": 1839, "msgid": "These numbers are from the previous range. The one you picked could not be loaded.", "msgstr": "Estas cifras son del intervalo que tenías seleccionado antes. No se ha podido cargar el que has elegido."}
+{"n": 1840, "msgid": "Hide them", "msgstr": "Ocultarlos"}
+{"n": 1841, "msgid": "These figures include test records. They contain money that was never actually taken, so they cannot be quoted as income.", "msgstr": "Estas cifras incluyen registros de prueba. Contienen dinero que nunca se llegó a cobrar, así que no pueden presentarse como ingresos."}
+{"n": 1842, "msgid": "Show them", "msgstr": "Mostrar"}
+{"n": 1843, "note": "translators: %d: number of test records not counted.", "msgid": "%d test record is not counted here.", "msgid_plural": "%d test records are not counted here.", "msgstr_plural": ["%d registro de prueba no se cuenta aquí.", "%d registros de prueba no se cuentan aquí."]}
+{"n": 1844, "msgid": "Quick actions", "msgstr": "Acciones rápidas"}
+{"n": 1845, "msgid": "Channels", "msgstr": "Canales"}
+{"n": 1846, "msgid": "Top campaigns", "msgstr": "Campañas principales"}
+{"n": 1847, "msgid": "Recurring revenue", "msgstr": "Ingresos recurrentes"}
+{"n": 1848, "msgid": "Active campaigns", "msgstr": "Campañas activas"}
+{"n": 1849, "msgid": "Needs attention", "msgstr": "Requiere atención"}
+{"n": 1850, "msgid": "Activity (last 24h)", "msgstr": "Actividad (últimas 24 h)"}
+{"n": 1851, "msgid": "Could not dismiss that.", "msgstr": "No se ha podido descartar."}
+{"n": 1852, "msgid": "Could not bring that back.", "msgstr": "No se ha podido recuperar."}
+{"n": 1853, "msgid": "Undo", "msgstr": "Deshacer"}
+{"n": 1854, "msgid": "Dismissed. It comes back if the situation changes.", "msgstr": "Descartado. Volverá a aparecer si la situación cambia."}
+{"n": 1855, "msgid": "Nothing needs attention right now.", "msgstr": "Ahora mismo nada requiere atención."}
+{"n": 1856, "msgid": "Projected next 30 days", "msgstr": "Previsión para los próximos 30 días"}
+{"n": 1857, "note": "translators: %d: count", "msgid": "+%d new this month", "msgid_plural": "+%d new this month", "msgstr_plural": ["+%d nuevo este mes", "+%d nuevos este mes"]}
+{"n": 1858, "note": "translators: %d: count", "msgid": "%d active plan", "msgid_plural": "%d active plans", "msgstr_plural": ["%d plan activo", "%d planes activos"]}
+{"n": 1859, "msgid": "/ month", "msgstr": "/ mes"}
+{"n": 1860, "msgid": "Enable a recurring frequency on your form to unlock predictable monthly revenue.", "msgstr": "Activa una frecuencia recurrente en tu formulario para conseguir ingresos mensuales previsibles."}
+{"n": 1861, "msgid": "No recurring plans yet", "msgstr": "Aún no hay planes recurrentes"}
+{"n": 1862, "msgid": "Pick a wider date range or wait for new donations to come in.", "msgstr": "Elige un intervalo de fechas más amplio o espera a que lleguen nuevas donaciones."}
+{"n": 1863, "msgid": "No donations in this range", "msgstr": "No hay donaciones en este intervalo"}
+{"n": 1864, "msgid": "No campaign", "msgstr": "Sin campaña"}
+{"n": 1865, "msgid": "Test", "msgstr": "Prueba"}
+{"n": 1866, "msgid": "Donor activity rolls in here as soon as your first donation is received.", "msgstr": "La actividad de los donantes irá apareciendo aquí en cuanto recibas tu primera donación."}
+{"n": 1867, "msgid": "Last 24 hours", "msgstr": "Últimas 24 horas"}
+{"n": 1868, "msgid": "Quiet so far today.", "msgstr": "Por ahora, hoy está todo tranquilo."}
+{"n": 1869, "note": "translators: %d: number of donations", "msgid": "%d refund", "msgid_plural": "%d refunds", "msgstr_plural": ["%d reembolso", "%d reembolsos"]}
+{"n": 1870, "note": "translators: %d: number of donations", "msgid": "%d note", "msgid_plural": "%d notes", "msgstr_plural": ["%d nota", "%d notas"]}
+{"n": 1871, "msgid": "Could not create the campaign. Please try again.", "msgstr": "No se ha podido crear la campaña. Inténtalo de nuevo."}
+{"n": 1872, "note": "translators: %s: relative time", "msgid": "Last: %s", "msgstr": "Última: %s"}
+{"n": 1873, "note": "translators: 1: raised value, 2: target value, 3: percent", "msgid": "%1$s of %2$s · %3$d%%", "msgstr": "%1$s de %2$s · %3$d%%"}
+{"n": 1874, "msgid": "Publish a campaign to see it appear here with goal progress.", "msgstr": "Publica una campaña para verla aquí con el progreso de su objetivo."}
+{"n": 1875, "msgid": "No active campaigns", "msgstr": "No hay campañas activas"}
+{"n": 1876, "msgid": "paid only", "msgstr": "solo pagadas"}
+{"n": 1877, "msgid": "incl. test", "msgstr": "incl. pruebas"}
+{"n": 1878, "msgid": "Gratora: New campaign", "msgstr": "Gratora: Nueva campaña"}
+{"n": 1879, "msgid": "Gratora: Open onboarding wizard", "msgstr": "Gratora: Abrir asistente de configuración inicial"}
+{"n": 1880, "msgid": "Gratora: Open settings", "msgstr": "Gratora: Abrir ajustes"}
+{"n": 1881, "msgid": "Gratora: View funds", "msgstr": "Gratora: Ver fondos"}
+{"n": 1882, "msgid": "Gratora: View campaigns", "msgstr": "Gratora: Ver campañas"}
+{"n": 1883, "msgid": "Gratora: View donors", "msgstr": "Gratora: Ver donantes"}
+{"n": 1884, "msgid": "Gratora: View donations", "msgstr": "Gratora: Ver donaciones"}
+{"n": 1885, "msgid": "Gratora: Open dashboard", "msgstr": "Gratora: Abrir escritorio"}
+{"n": 1886, "msgid": "Notifications", "msgstr": "Notificaciones"}
+{"n": 1887, "msgid": "Removes the campaign, its forms, and the WordPress page it created. A campaign that has any donations or recurring plans is never deleted: archive it instead to keep its records.", "msgstr": "Borra la campaña, sus formularios y la página de WordPress que creó. Una campaña que tenga donaciones o planes recurrentes nunca se borra: archívala para conservar sus registros."}
+{"n": 1888, "msgid": "Delete this campaign", "msgstr": "Borrar esta campaña"}
+{"n": 1889, "msgid": "Irreversible actions. Use with care.", "msgstr": "Acciones irreversibles. Úsalas con cuidado."}
+{"n": 1890, "msgid": "Danger zone", "msgstr": "Zona de peligro"}
+{"n": 1891, "note": "translators: %s: fund name", "msgid": "%s (inactive)", "msgstr": "%s (inactivo)"}
+{"n": 1892, "msgid": "( Unassigned )", "msgstr": "( Sin asignar )"}
+{"n": 1893, "msgid": "Where donations from this campaign are routed. Useful when separating restricted donations from general operations.", "msgstr": "A dónde se destinan las donaciones de esta campaña. Útil para separar las donaciones con un fin concreto de las destinadas al funcionamiento general."}
+{"n": 1894, "msgid": "Edit form", "msgstr": "Editar formulario"}
+{"n": 1895, "note": "translators: %s: form title", "msgid": "%s (not published)", "msgstr": "%s (no publicado)"}
+{"n": 1896, "msgid": "( None )", "msgstr": "( Ninguno )"}
+{"n": 1897, "msgid": "Only published forms that belong to this campaign appear here. A draft cannot be the default: the page would fall back to a different form without saying so.", "msgstr": "Aquí solo aparecen los formularios publicados que pertenecen a esta campaña. Un borrador no puede ser el formulario por defecto: la página recurriría a otro formulario sin avisar."}
+{"n": 1898, "msgid": "Form", "msgstr": "Formulario"}
+{"n": 1899, "msgid": "The form the campaign page and donate-button block submit to by default.", "msgstr": "El formulario que usan por defecto la página de la campaña y el bloque del botón de donar."}
+{"n": 1900, "msgid": "Hide theme footer", "msgstr": "Ocultar el pie de página del tema"}
+{"n": 1901, "msgid": "Hide theme header", "msgstr": "Ocultar la cabecera del tema"}
+{"n": 1902, "msgid": "Hide the theme's header or footer on every page this campaign renders on.", "msgstr": "Oculta la cabecera o el pie de página del tema en todas las páginas en las que se muestra esta campaña."}
+{"n": 1903, "msgid": "Discard overrides", "msgstr": "Descartar personalizaciones"}
+{"n": 1904, "note": "translators: %d: number of tokens this campaign overrides", "msgid": "Turning this off drops the %d token this campaign overrides. Saving makes that permanent.", "msgid_plural": "Turning this off drops the %d tokens this campaign overrides. Saving makes that permanent.", "msgstr_plural": ["Al desactivar esta opción se descarta %d token personalizado de esta campaña. Al guardar, el cambio será definitivo.", "Al desactivar esta opción se descartan los %d tokens personalizados de esta campaña. Al guardar, el cambio será definitivo."]}
+{"n": 1905, "msgid": "Discard token overrides", "msgstr": "Descartar tokens personalizados"}
+{"n": 1906, "msgid": "Toggle on to tweak individual tokens without creating a new brand preset.", "msgstr": "Actívalo para ajustar tokens concretos sin crear un nuevo preajuste de marca."}
+{"n": 1907, "msgid": "Inline overrides applied on top of the chosen preset.", "msgstr": "Personalizaciones propias aplicadas sobre el preajuste elegido."}
+{"n": 1908, "msgid": "Customize tokens for this campaign", "msgstr": "Personalizar tokens para esta campaña"}
+{"n": 1909, "msgid": "Use org default", "msgstr": "Por defecto de la organización"}
+{"n": 1910, "msgid": "Style preset", "msgstr": "Preajuste de estilo"}
+{"n": 1911, "msgid": "Pick which brand preset this campaign uses. Optionally tweak individual tokens for a one-off look.", "msgstr": "Elige qué preajuste de marca usa esta campaña. Si quieres, ajusta tokens concretos para darle un aspecto único."}
+{"n": 1912, "msgid": "Campaign appearance", "msgstr": "Apariencia de la campaña"}
+{"n": 1913, "msgid": "This campaign has reached its goal and is not accepting donations.", "msgstr": "Esta campaña ha alcanzado su objetivo y no acepta donaciones."}
+{"n": 1914, "msgid": "Set a target above first. Without one there is nothing to reach.", "msgstr": "Primero establece un objetivo arriba. Sin él no hay nada que alcanzar."}
+{"n": 1915, "msgid": "The campaign stops accepting donations as soon as it reaches the target. Reopen it by raising the target or turning this off.", "msgstr": "La campaña deja de aceptar donaciones en cuanto alcanza el objetivo. Para reabrirla, sube el objetivo o desactiva esta opción."}
+{"n": 1916, "msgid": "Close when the goal is met", "msgstr": "Cerrar al alcanzar el objetivo"}
+{"n": 1917, "msgid": "Target donors", "msgstr": "Objetivo de donantes"}
+{"n": 1918, "msgid": "Target donations", "msgstr": "Objetivo de donaciones"}
+{"n": 1919, "msgid": "Target amount", "msgstr": "Importe objetivo"}
+{"n": 1920, "msgid": "Drives the progress widget on the campaign page and the goal donut on the overview.", "msgstr": "Se usa en el widget de progreso de la página de la campaña y en el gráfico de anillo del objetivo del resumen."}
+{"n": 1921, "msgid": "Campaign goal", "msgstr": "Objetivo de la campaña"}
+{"n": 1922, "msgid": "Optional. Leave blank for an open-ended campaign.", "msgstr": "Opcional. Déjalo en blanco para una campaña sin fecha de finalización."}
+{"n": 1923, "msgid": "Active campaigns accept donations. Drafts and archived campaigns don't. Archive from the campaign menu, which handles any recurring donations first.", "msgstr": "Las campañas activas aceptan donaciones. Los borradores y las campañas archivadas, no. Archiva desde el menú de la campaña, que antes se ocupa de las donaciones recurrentes que haya."}
+{"n": 1924, "msgid": "Whether donors can give right now, and when the campaign runs.", "msgstr": "Si los donantes pueden donar ahora mismo y cuándo está en marcha la campaña."}
+{"n": 1925, "msgid": "Recommended 1600 × 900 (16:9). Shows on the page hero and campaign grid.", "msgstr": "Tamaño recomendado: 1600 × 900 (16:9). Se muestra en la cabecera de la página y en la cuadrícula de campañas."}
+{"n": 1926, "msgid": "How donors will see this:", "msgstr": "Así lo verán los donantes:"}
+{"n": 1927, "msgid": "Try to keep it under 6 words.", "msgstr": "Intenta que tenga menos de 6 palabras."}
+{"n": 1928, "msgid": "Donor-facing. Appears in the page header, on cards, in receipts.", "msgstr": "Visible para los donantes. Aparece en la cabecera de la página, en las tarjetas y en los recibos."}
+{"n": 1929, "msgid": "Title and short description, used everywhere this campaign appears.", "msgstr": "Título y descripción corta, que se usan allí donde aparece esta campaña."}
+{"n": 1930, "msgid": "This campaign has no page yet, so it has no public address. One is created when the campaign is published.", "msgstr": "Esta campaña aún no tiene página, así que no tiene dirección pública. Se crea una al publicar la campaña."}
+{"n": 1931, "msgid": "Saving moves the page. WordPress adds a suffix if another page already holds the slug, so check this address again afterwards.", "msgstr": "Al guardar, la página cambia de dirección. WordPress añade un sufijo si otra página ya tiene ese slug, así que vuelve a comprobar esta dirección después."}
+{"n": 1932, "msgid": "Visit page ↗", "msgstr": "Visitar página ↗"}
+{"n": 1933, "msgid": "Public URL", "msgstr": "URL pública"}
+{"n": 1934, "msgid": "Letters, numbers, and hyphens only.", "msgstr": "Solo letras, números y guiones."}
+{"n": 1935, "msgid": "Slug", "msgstr": "Slug"}
+{"n": 1936, "msgid": "The URL donors land on. Changing this may break inbound links.", "msgstr": "La URL a la que llegan los donantes. Si la cambias, pueden romperse los enlaces entrantes."}
+{"n": 1937, "msgid": "Convert", "msgstr": "Convertir"}
+{"n": 1938, "msgid": "Converting…", "msgstr": "Convirtiendo…"}
+{"n": 1939, "msgid": "Conversion failed.", "msgstr": "Error al convertir."}
+{"n": 1940, "msgid": "This can't be undone.", "msgstr": "Esto no se puede deshacer."}
+{"n": 1941, "note": "translators: %s: campaign type label", "msgid": "Convert to %s", "msgstr": "Convertir a %s"}
+{"n": 1942, "msgid": "Set when the campaign is created. A standard campaign can be converted to a richer type, but not back.", "msgstr": "Se establece al crear la campaña. Una campaña estándar se puede convertir a un tipo más completo, pero no al revés."}
+{"n": 1943, "msgid": "Save changes", "msgstr": "Guardar cambios"}
+{"n": 1944, "msgid": "Save failed.", "msgstr": "Error al guardar."}
+{"n": 1945, "msgid": "Campaign saved.", "msgstr": "Campaña guardada."}
+{"n": 1946, "msgid": "Discard", "msgstr": "Descartar"}
+{"n": 1947, "note": "translators: 1: first three section names, 2: count of remaining translators: 1: first three style setting names, 2: count of the remaining ones.", "msgid": "%1$s, and %2$d more", "msgstr": "%1$s y %2$d más"}
+{"n": 1948, "msgid": "in", "msgstr": "en"}
+{"n": 1949, "msgid": "unsaved change", "msgid_plural": "unsaved changes", "msgstr_plural": ["cambio sin guardar", "cambios sin guardar"]}
+{"n": 1950, "msgid": "Unsaved changes", "msgstr": "Cambios sin guardar"}
+{"n": 1951, "msgid": "Could not load forms.", "msgstr": "No se han podido cargar los formularios."}
+{"n": 1952, "msgid": "Could not load funds.", "msgstr": "No se han podido cargar los fondos."}
+{"n": 1953, "msgid": "Default fund", "msgstr": "Fondo por defecto"}
+{"n": 1954, "msgid": "Default form", "msgstr": "Formulario por defecto"}
+{"n": 1955, "msgid": "Page header & footer", "msgstr": "Cabecera y pie de página"}
+{"n": 1956, "msgid": "Status & schedule", "msgstr": "Estado y calendario"}
+{"n": 1957, "msgid": "Public address", "msgstr": "Dirección pública"}
+{"n": 1958, "msgid": "Identity", "msgstr": "Identidad"}
+{"n": 1959, "msgid": "Advanced", "msgstr": "Avanzado"}
+{"n": 1960, "msgid": "Defaults", "msgstr": "Valores por defecto"}
+{"n": 1961, "msgid": "This form cannot be deleted", "msgid_plural": "These forms cannot be deleted", "msgstr_plural": ["Este formulario no se puede borrar", "Estos formularios no se pueden borrar"]}
+{"n": 1962, "msgid": "Could not create form.", "msgstr": "No se ha podido crear el formulario."}
+{"n": 1963, "msgid": "Add your first form", "msgstr": "Añadir tu primer formulario"}
+{"n": 1964, "msgid": "Donation forms collect the actual donations for this campaign. Pick a template to get started, then customize everything inside.", "msgstr": "Los formularios de donación son los que recogen las donaciones de esta campaña. Elige una plantilla para empezar y luego personaliza todo lo que contiene."}
+{"n": 1965, "msgid": "No forms yet", "msgstr": "Aún no hay formularios"}
+{"n": 1966, "msgid": "Add new form", "msgstr": "Añadir nuevo formulario"}
+{"n": 1967, "msgid": "Could not delete one or more forms.", "msgstr": "No se han podido borrar uno o varios formularios."}
+{"n": 1968, "msgid": "Delete form", "msgid_plural": "Delete forms", "msgstr_plural": ["Borrar formulario", "Borrar formularios"]}
+{"n": 1969, "note": "translators: %d: number of forms to delete", "msgid": "Permanently delete %d form? Nothing has been recorded against it, so no donation or total moves.", "msgid_plural": "Permanently delete %d forms? Nothing has been recorded against them, so no donation or total moves.", "msgstr_plural": ["¿Borrar permanentemente %d formulario? No tiene nada registrado, así que no cambia ninguna donación ni ningún total.", "¿Borrar permanentemente %d formularios? No tienen nada registrado, así que no cambia ninguna donación ni ningún total."]}
+{"n": 1970, "msgid": "Permanently delete this form? Nothing has been recorded against it, so no donation or total moves.", "msgstr": "¿Borrar permanentemente este formulario? No tiene nada registrado, así que no cambia ninguna donación ni ningún total."}
+{"n": 1971, "msgid": "Could not duplicate one or more forms.", "msgstr": "No se han podido duplicar uno o varios formularios."}
+{"n": 1972, "msgid": "Set as default", "msgstr": "Establecer por defecto"}
+{"n": 1973, "msgid": "Could not set default form.", "msgstr": "No se ha podido establecer el formulario por defecto."}
+{"n": 1974, "msgid": "Shortcode", "msgstr": "Shortcode"}
+{"n": 1975, "msgid": "Default", "msgstr": "Por defecto"}
+{"n": 1976, "msgid": "Failed to load forms.", "msgstr": "Error al cargar los formularios."}
+{"n": 1977, "msgid": "Copied", "msgstr": "Copiado"}
+{"n": 1978, "msgid": "Copy shortcode", "msgstr": "Copiar shortcode"}
+{"n": 1979, "msgid": "Goal progress", "msgstr": "Progreso del objetivo"}
+{"n": 1980, "msgid": "Top supporters appear here after the first donation completes.", "msgstr": "Los principales simpatizantes aparecerán aquí cuando se complete la primera donación."}
+{"n": 1981, "msgid": "Gateway breakdown shows up after the first paid donation.", "msgstr": "El desglose por pasarela de pago aparecerá tras la primera donación pagada."}
+{"n": 1982, "msgid": "No payments yet", "msgstr": "Aún no hay pagos"}
+{"n": 1983, "msgid": "Once donations come in, this card ranks your forms by total raised.", "msgstr": "Cuando lleguen donaciones, esta tarjeta ordenará tus formularios por total recaudado."}
+{"n": 1984, "msgid": "This campaign's donations were recorded without a form, so there is nothing to rank. Donations made through a donation form appear here.", "msgstr": "Las donaciones de esta campaña se registraron sin formulario, así que no hay nada que ordenar. Aquí aparecen las donaciones hechas a través de un formulario de donación."}
+{"n": 1985, "msgid": "No form data yet", "msgstr": "Aún no hay datos de formularios"}
+{"n": 1986, "msgid": "No donations through a form yet", "msgstr": "Aún no hay donaciones a través de un formulario"}
+{"n": 1987, "msgid": "Recent donor activity will appear here once your form is live and the first donation lands.", "msgstr": "La actividad reciente de los donantes aparecerá aquí cuando tu formulario esté publicado y llegue la primera donación."}
+{"n": 1988, "msgid": "No donations yet", "msgstr": "Aún no hay donaciones"}
+{"n": 1989, "note": "translators: %d: total days", "msgid": "of %d total", "msgstr": "de %d en total"}
+{"n": 1990, "msgid": "Days running", "msgstr": "Días en marcha"}
+{"n": 1991, "msgid": "Days since ended", "msgstr": "Días desde que terminó"}
+{"n": 1992, "msgid": "Days remaining", "msgstr": "Días restantes"}
+{"n": 1993, "msgid": "Nothing was measured, so nothing is shown. Check your connection and try again.", "msgstr": "No se ha medido nada, así que no se muestra nada. Comprueba tu conexión e inténtalo de nuevo."}
+{"n": 1994, "msgid": "Could not load these metrics", "msgstr": "No se han podido cargar estas métricas"}
+{"n": 1995, "msgid": "Download report", "msgstr": "Descargar informe"}
+{"n": 1996, "msgid": "Could not build the report.", "msgstr": "No se ha podido generar el informe."}
+{"n": 1997, "msgid": "By payment method", "msgstr": "Por método de pago"}
+{"n": 1998, "msgid": "By channel", "msgstr": "Por canal"}
+{"n": 1999, "msgid": "Top forms", "msgstr": "Formularios principales"}
+{"n": 2000, "msgid": "Stories", "msgstr": "Historias"}
+{"n": 2001, "msgid": "Timeline", "msgstr": "Cronología"}
+{"n": 2002, "msgid": "When donors give", "msgstr": "Cuándo llegan las donaciones"}
+{"n": 2003, "msgid": "Donation shape", "msgstr": "Distribución de donaciones"}
+{"n": 2004, "msgid": "Donor cohort", "msgstr": "Cohorte de donantes"}
+{"n": 2005, "msgid": "Key metrics", "msgstr": "Métricas clave"}
+{"n": 2006, "msgid": "Could not load campaign metrics.", "msgstr": "No se han podido cargar las métricas de la campaña."}
+{"n": 2007, "msgid": "Delete…", "msgstr": "Borrar…"}
+{"n": 2008, "msgid": "Restore to draft", "msgstr": "Restaurar como borrador"}
+{"n": 2009, "msgid": "Duplicate campaign", "msgstr": "Duplicar campaña"}
+{"n": 2010, "msgid": "Move to draft", "msgstr": "Pasar a borrador"}
+{"n": 2011, "msgid": "Publish campaign", "msgstr": "Publicar campaña"}
+{"n": 2012, "msgid": "Campaign actions", "msgstr": "Acciones de la campaña"}
+{"n": 2013, "msgid": "View page ↗", "msgstr": "Ver página ↗"}
+{"n": 2014, "msgid": "Edit campaign page", "msgstr": "Editar página de la campaña"}
+{"n": 2015, "msgid": "Campaign sections", "msgstr": "Secciones de la campaña"}
+{"n": 2016, "msgid": "Overview", "msgstr": "Resumen"}
+{"n": 2017, "note": "translators: %s: relative time ago, e.g. \"4m ago\"", "msgid": "Last saved %s", "msgstr": "Último guardado %s"}
+{"n": 2018, "msgid": "Also cancel these subscriptions (donors will be emailed)", "msgstr": "Cancelar también estas suscripciones (se enviará un correo electrónico a los donantes)"}
+{"n": 2019, "msgid": "Archiving stops new donations. These subscriptions are left as they are and stay credited to this campaign unless you cancel them.", "msgstr": "Archivar detiene las nuevas donaciones. Estas suscripciones se quedan como están y siguen atribuidas a esta campaña, a menos que las canceles."}
+{"n": 2020, "note": "translators: %s: formatted monthly amount", "msgid": "About %s a month is at stake.", "msgstr": "Hay en juego unos %s al mes."}
+{"n": 2021, "msgid": "Live counts active, paused and past-due donations: a paused one resumes and a past-due one is still being retried.", "msgstr": "Se cuentan como vigentes las donaciones activas, en pausa y con pagos atrasados: las que están en pausa se reanudan y las atrasadas se siguen intentando cobrar."}
+{"n": 2022, "note": "translators: %d: number of live recurring donations", "msgid": "This campaign has %d live recurring donation.", "msgid_plural": "This campaign has %d live recurring donations.", "msgstr_plural": ["Esta campaña tiene %d donación recurrente vigente.", "Esta campaña tiene %d donaciones recurrentes vigentes."]}
+{"n": 2023, "msgid": "Archive campaign", "msgstr": "Archivar campaña"}
+{"n": 2024, "msgid": "Duplicate failed.", "msgstr": "Error al duplicar."}
+{"n": 2025, "msgid": "Delete failed.", "msgstr": "Error al borrar."}
+{"n": 2026, "msgid": "Campaign moved to draft.", "msgstr": "Campaña pasada a borrador."}
+{"n": 2027, "msgid": "Campaign published.", "msgstr": "Campaña publicada."}
+{"n": 2028, "msgid": "Update failed.", "msgstr": "Error al actualizar."}
+{"n": 2029, "msgid": "Campaign restored to draft.", "msgstr": "Campaña restaurada como borrador."}
+{"n": 2030, "msgid": "Campaign archived.", "msgstr": "Campaña archivada."}
+{"n": 2031, "note": "translators: %d: number of subscriptions", "msgid": "Campaign archived. Cancelling %d subscription in the background.", "msgid_plural": "Campaign archived. Cancelling %d subscriptions in the background.", "msgstr_plural": ["Campaña archivada. Cancelando %d suscripción en segundo plano.", "Campaña archivada. Cancelando %d suscripciones en segundo plano."]}
+{"n": 2032, "msgid": "Back to campaigns", "msgstr": "Volver a las campañas"}
+{"n": 2033, "msgid": "This campaign could not be loaded.", "msgstr": "No se ha podido cargar esta campaña."}
+{"n": 2034, "note": "translators: %s: source campaign title", "msgid": "Duplicated from \"%s\". Review and rename before publishing.", "msgstr": "Duplicada de «%s». Revísala y cámbiale el nombre antes de publicarla."}
+{"n": 2035, "msgid": "Publish it now", "msgstr": "Publicarla ahora"}
+{"n": 2036, "msgid": "This campaign is not taking donations.", "msgstr": "Esta campaña no acepta donaciones."}
+{"n": 2037, "msgid": "This campaign has reached its goal and is set to close when it does, so it is no longer taking donations. Raise the target or turn that setting off in Goal to reopen it.", "msgstr": "Esta campaña ha alcanzado su objetivo y está configurada para cerrarse al alcanzarlo, así que ya no acepta donaciones. Sube el objetivo o desactiva ese ajuste en Objetivo para reabrirla."}
+{"n": 2038, "msgid": "This campaign has ended and is no longer taking donations.", "msgstr": "Esta campaña ha terminado y ya no acepta donaciones."}
+{"n": 2039, "msgid": "This campaign has not started yet, so it is not taking donations until its start date.", "msgstr": "Esta campaña aún no ha empezado, así que no aceptará donaciones hasta su fecha de inicio."}
+{"n": 2040, "msgid": "This campaign is archived and is not taking donations.", "msgstr": "Esta campaña está archivada y no acepta donaciones."}
+{"n": 2041, "msgid": "This campaign is a draft, so it is not taking donations yet. Anyone who opens its form is turned away.", "msgstr": "Esta campaña es un borrador, así que aún no acepta donaciones. Quien abra su formulario no podrá donar."}
+{"n": 2042, "msgid": "Archive instead", "msgstr": "Archivar en su lugar"}
+{"n": 2043, "msgid": "Permanently delete this campaign?", "msgstr": "¿Borrar permanentemente esta campaña?"}
+{"n": 2044, "note": "translators: %d: number of forms attached to the campaign.", "msgid": "Permanently delete this campaign? Its %d form will also be deleted.", "msgid_plural": "Permanently delete this campaign? Its %d forms will also be deleted.", "msgstr_plural": ["¿Borrar permanentemente esta campaña? También se borrará %d formulario asociado.", "¿Borrar permanentemente esta campaña? También se borrarán %d formularios asociados."]}
+{"n": 2045, "msgid": "Fewer", "msgstr": "Menos"}
+{"n": 2046, "note": "translators: 1: day name, 2: hour, 3: donation count", "msgid": "%1$s at %2$d:00, %3$d donation", "msgid_plural": "%1$s at %2$d:00, %3$d donations", "msgstr_plural": ["%1$s, %2$d:00, %3$d donación", "%1$s, %2$d:00, %3$d donaciones"]}
+{"n": 2047, "msgid": "No donation activity yet to plot timing.", "msgstr": "Aún no hay actividad de donaciones para representar los horarios."}
+{"n": 2048, "note": "translators: %d: total donation count", "msgid": "%d donation in this period", "msgid_plural": "%d donations in this period", "msgstr_plural": ["%d donación en este periodo", "%d donaciones en este periodo"]}
+{"n": 2049, "msgid": "median", "msgstr": "mediana"}
+{"n": 2050, "note": "translators: 1: donation count, 2: total amount in that bucket", "msgid": "%1$d × %2$s", "msgstr": "%1$d × %2$s"}
+{"n": 2051, "note": "translators: 1: donation count, 2: amount threshold (e.g. $100)", "msgid": "%1$d donation over %2$s", "msgid_plural": "%1$d donations over %2$s", "msgstr_plural": ["%1$d donación de más de %2$s", "%1$d donaciones de más de %2$s"]}
+{"n": 2052, "note": "translators: %s: median donation amount", "msgid": "Median: %s", "msgstr": "Mediana: %s"}
+{"n": 2053, "msgid": "Not enough donations yet to plot a distribution.", "msgstr": "Aún no hay suficientes donaciones para representar una distribución."}
+{"n": 2054, "note": "translators: %d: percent of revenue from recurring donors", "msgid": "%d%% of revenue is recurring", "msgstr": "El %d%% de los ingresos es recurrente"}
+{"n": 2055, "msgid": "No new plans in range.", "msgstr": "No hay planes nuevos en el intervalo."}
+{"n": 2056, "note": "translators: %d: new recurring plans in this range", "msgid": "+%d new in range", "msgid_plural": "+%d new in range", "msgstr_plural": ["+%d nuevo en el intervalo", "+%d nuevos en el intervalo"]}
+{"n": 2057, "msgid": "Recurring donors", "msgstr": "Donantes recurrentes"}
+{"n": 2058, "msgid": "No repeat donations yet.", "msgstr": "Todavía nadie ha vuelto a donar."}
+{"n": 2059, "note": "translators: 1: number of returning donors, 2: conversion percent", "msgid": "%1$d came back (%2$s%%)", "msgstr": "Han vuelto a donar: %1$d (%2$s%%)"}
+{"n": 2060, "msgid": "New donors", "msgstr": "Nuevos donantes"}
+{"n": 2061, "msgid": "No donor activity yet.", "msgstr": "Aún no hay actividad de donantes."}
+{"n": 2062, "msgid": "anonymous publicly", "msgstr": "anónimo en público"}
+{"n": 2063, "msgid": "Their name is hidden from public donor lists. It still appears here.", "msgstr": "Su nombre no se muestra en las listas públicas de donantes. Aquí sigue apareciendo."}
+{"n": 2064, "msgid": "No donor notes yet. Donors can leave a message at checkout, and it will appear here.", "msgstr": "Aún no hay notas de donantes. Los donantes pueden dejar un mensaje durante el pago, y aparecerá aquí."}
+{"n": 2065, "msgid": "No donations yet. Channels appear once attribution flows through.", "msgstr": "Aún no hay donaciones. Los canales aparecerán cuando lleguen datos de atribución."}
+{"n": 2066, "msgid": "Peer-to-peer", "msgstr": "Peer-to-peer"}
+{"n": 2067, "msgid": "QR / In-person", "msgstr": "QR / Presencial"}
+{"n": 2068, "msgid": "Referral", "msgstr": "Sitios de referencia"}
+{"n": 2069, "msgid": "Paid search", "msgstr": "Búsqueda de pago"}
+{"n": 2070, "msgid": "Organic search", "msgstr": "Búsqueda orgánica"}
+{"n": 2071, "msgid": "Paid social", "msgstr": "Redes sociales de pago"}
+{"n": 2072, "msgid": "Organic social", "msgstr": "Redes sociales orgánicas"}
+{"n": 2073, "msgid": "Direct", "msgstr": "Directo"}
+{"n": 2074, "msgid": "No data yet.", "msgstr": "Aún no hay datos."}
+{"n": 2075, "msgid": "Previous", "msgstr": "Anterior"}
+{"n": 2076, "msgid": "Current", "msgstr": "Actual"}
+{"n": 2077, "msgid": "More", "msgstr": "Más"}
+{"n": 2078, "msgid": "vs previous period", "msgstr": "frente al periodo anterior"}
+{"n": 2079, "msgid": "Same period last year", "msgstr": "Mismo periodo del año anterior"}
+{"n": 2080, "msgid": "Previous period", "msgstr": "Periodo anterior"}
+{"n": 2081, "msgid": "No comparison", "msgstr": "Sin comparación"}
+{"n": 2082, "msgid": "Compare to", "msgstr": "Comparar con"}
+{"n": 2083, "msgid": "Compare to…", "msgstr": "Comparar con…"}
+{"n": 2084, "msgid": "vs same period last year", "msgstr": "frente al mismo periodo del año anterior"}
+{"n": 2085, "msgid": "vs previous %d days", "msgstr": "frente a los %d días anteriores"}
+{"n": 2086, "msgid": "All-time", "msgstr": "Desde el principio"}
+{"n": 2087, "msgid": "Reset layout", "msgstr": "Restablecer disposición"}
+{"n": 2088, "msgid": "Show again", "msgstr": "Volver a mostrar"}
+{"n": 2089, "note": "translators: %d: number of hidden widgets", "msgid": "%d hidden widget", "msgid_plural": "%d hidden widgets", "msgstr_plural": ["%d widget oculto", "%d widgets ocultos"]}
+{"n": 2090, "msgid": "Customize", "msgstr": "Personalizar"}
+{"n": 2091, "msgid": "Hide widget", "msgstr": "Ocultar widget"}
+{"n": 2092, "msgid": "Move down", "msgstr": "Mover abajo"}
+{"n": 2093, "msgid": "Move up", "msgstr": "Mover arriba"}
+{"n": 2094, "msgid": "Widget options", "msgstr": "Opciones del widget"}
+{"n": 2095, "msgid": "Drag to reorder", "msgstr": "Arrastra para reordenar"}
+{"n": 2096, "msgid": "Past best", "msgstr": "Máximo histórico"}
+{"n": 2097, "msgid": "Past average", "msgstr": "Media histórica"}
+{"n": 2098, "msgid": "Your target", "msgstr": "Tu objetivo"}
+{"n": 2099, "note": "translators: %s: multiplier of historical average, e.g. \"1.4×\"", "msgid": "%s× avg", "msgstr": "%s× la media"}
+{"n": 2100, "msgid": "Substantially above what you've raised before. Make sure outreach plans match.", "msgstr": "Muy por encima de lo que has recaudado hasta ahora. Asegúrate de que tus planes de difusión estén a la altura."}
+{"n": 2101, "msgid": "Very ambitious", "msgstr": "Muy ambicioso"}
+{"n": 2102, "msgid": "About double your average. Realistic for a strong campaign.", "msgstr": "Aproximadamente el doble de tu media. Realista para una campaña fuerte."}
+{"n": 2103, "msgid": "Ambitious target", "msgstr": "Objetivo ambicioso"}
+{"n": 2104, "msgid": "Right around your historical average.", "msgstr": "Muy cerca de tu media histórica."}
+{"n": 2105, "msgid": "In line with past campaigns", "msgstr": "En línea con campañas anteriores"}
+{"n": 2106, "msgid": "You've raised more than this in past campaigns. Consider aiming higher.", "msgstr": "Has recaudado más que esto en campañas anteriores. Plantéate apuntar más alto."}
+{"n": 2107, "msgid": "Modest target", "msgstr": "Objetivo modesto"}
+{"n": 2108, "msgid": "Limited history", "msgstr": "Historial limitado"}
+{"n": 2109, "msgid": "Add a target above to see how it compares.", "msgstr": "Añade un objetivo arriba para ver cómo se compara."}
+{"n": 2110, "msgid": "No target set", "msgstr": "Sin objetivo definido"}
+{"n": 2111, "msgid": "No historical data", "msgstr": "Sin datos históricos"}
+{"n": 2112, "msgid": "We'll show you how this target compares to your other campaigns once you have a few finished ones.", "msgstr": "Te mostraremos cómo se compara este objetivo con el de tus otras campañas cuando tengas algunas terminadas."}
+{"n": 2113, "msgid": "Your first campaign", "msgstr": "Tu primera campaña"}
+{"n": 2114, "note": "translators: %s: relative time, e.g. \"12d ago\"", "msgid": "Uploaded %s", "msgstr": "Subida %s"}
+{"n": 2115, "msgid": "1600 × 900 (16:9) recommended.", "msgstr": "Se recomienda 1600 × 900 (16:9)."}

@@ -140,6 +140,15 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - Resultado: 291 cambios propuestos, aceptados en bloque por Nilo («me vale»), sin revisarlos cadena a cadena. La medición de esta ronda no es comparable con las demás.
 - Lección: en rondas por tramos, comprobar antes de `review-po` que los términos de `terms.md` se aplicaron en todo el archivo. Anotado en `review/README.md`.
 
+## 2026-11-08 · Haiku · ronda 21 (Gratora, stable, 3523 cadenas) · directa, sin revisión humana
+
+- Cinco tramos seguidos de unas 705 cadenas, unos 15 minutos. Traducción humana y buena.
+- Durante la revisión, Nilo cambió el criterio de *recurring*: se prefiere «periódico», pero «recurrente» se acepta (128 cadenas sin tocar). Se le avisó a Haiku a mitad de ronda y lo aplicó.
+- Haiku: 100 decisiones (89 rechazos, 4 correcciones, 7 dudas). Casi todo del glosario: *next* = «siguiente» (22), *set* = «establecer» (10), «aviso» (7), *entry* de datos = «registro» (7), «enlazar» (6), *admin* persona = «administrador» (5), *hero*, *onboarding*, «casilla de verificación».
+- Auditoría de Opus: 8 descartadas, todas reformulaciones de algo correcto o sin entrada de glosario («programación», «juego de credenciales», «online», «ni tú ni el donante podéis», #3296 «Bold» en tokens de estilo = «Negrita»). Quedan 85 cambios; las 7 dudas se quedan como estaban.
+- Dudas: *sandbox* en PayPal (6 cadenas; el traductor lo deja como en la interfaz de PayPal) y #3170 «Friend».
+- Conflictos con el glosario que señala Haiku: *fee* = «cuota» frente a «comisiones» de pasarela, *designation* = «nombramiento», *fixed* = «corregido» para valores fijos, *wizard*, *get started*, *preset* = «preajuste» frente a «predefinidos».
+
 ## 2026-11-08 · Haiku · ronda 20 (TWT AEO Ultimate, stable, 3707 cadenas) · directa, sin revisión humana
 
 - La más grande hasta ahora de una vez. Cinco tramos seguidos de unas 750 cadenas en la misma sesión, con `terms.md`, unos 26 minutos. Traducción humana y buena.

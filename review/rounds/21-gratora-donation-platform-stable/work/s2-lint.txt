@@ -1,0 +1,145 @@
+#711: glossary: set → establecer | conjunto?
+#713: glossary: rate → tasa / tarifa | valorar / puntuar?
+#714: capitals mid-sentence: Europeo
+#715: glossary: rate → tasa / tarifa | valorar / puntuar?
+#716: glossary: rate → tasa / tarifa | valorar / puntuar?
+#719: glossary: about → acerca de? | glossary: author → autor? | glossary: preset → preajuste? | glossary: rate → tasa / tarifa | valorar / puntuar? | glossary: worth → valor?
+#720: glossary: rate → tasa / tarifa | valorar / puntuar?
+#722: glossary: rate → tasa / tarifa | valorar / puntuar? | glossary: set → establecer | conjunto?
+#723: glossary: rate → tasa / tarifa | valorar / puntuar?
+#724: glossary: rate → tasa / tarifa | valorar / puntuar?
+#726: glossary: rate → tasa / tarifa | valorar / puntuar?
+#727: glossary: rate → tasa / tarifa | valorar / puntuar?
+#731: glossary: rate → tasa / tarifa | valorar / puntuar?
+#732: glossary: rate → tasa / tarifa | valorar / puntuar?
+#737: glossary: get started → primeros pasos?
+#748: glossary: tax → impuesto?
+#750: glossary: tax → impuesto?
+#755: glossary: set → establecer | conjunto? | glossary: tax → impuesto?
+#762: glossary: fix → corrección?
+#765: glossary: worth → valor?
+#766: glossary: fix → corrección? | glossary: fixed → corregido?
+#776: glossary: inline → integrado?
+#786: glossary: set → establecer | conjunto?
+#788: glossary: save → guardar o ahorrar, según contexto?
+#806: glossary: about → acerca de?
+#812: glossary: get started → primeros pasos?
+#813: glossary: save → guardar o ahorrar, según contexto?
+#814: glossary: onboarding → puesta en marcha?
+#829: glossary: only → solo | solo / solamente?
+#837: glossary: remove → quitar / eliminar?
+#850: glossary: map → mapa | asignar?
+#851: glossary: account → cuenta?
+#852: glossary: account → cuenta?
+#853: glossary: account → cuenta?
+#861: glossary: account → cuenta?
+#864: glossary: save → guardar o ahorrar, según contexto?
+#865: glossary: save → guardar o ahorrar, según contexto?
+#870: glossary: designation → nombramiento?
+#876: glossary: clear → vaciar?
+#877: glossary: clear → vaciar?
+#878: glossary: clear → vaciar?
+#879: glossary: clear → vaciar?
+#881: glossary: set → establecer | conjunto?
+#897: capitals mid-sentence: Ajustes, Marca, Heredar
+#901: glossary: save → guardar o ahorrar, según contexto?
+#904: glossary: set → establecer | conjunto?
+#906: glossary: set → establecer | conjunto? | glossary: successful → correcto?
+#909: capitals mid-sentence: Ajustes
+#911: capitals mid-sentence: Ajustes
+#914: capitals mid-sentence: Objetivo
+#918: glossary: render → procesar / mostrar?
+#929: capitals mid-sentence: Publicar
+#940: glossary: review → reseña / valoración?
+#941: glossary: fix → corrección?
+#947: capitals mid-sentence: Ajustes
+#955: glossary: save → guardar o ahorrar, según contexto?
+#966: glossary: recurring → periódico?
+#971: glossary: save → guardar o ahorrar, según contexto?
+#976: glossary: save → guardar o ahorrar, según contexto?
+#977: glossary: save → guardar o ahorrar, según contexto?
+#981: glossary term left in English: modal → emergente
+#985: glossary: click → clic | hacer clic? | capitals mid-sentence: Paso
+#987: glossary: wizard → asistente? | capitals mid-sentence: Pasos
+#988: glossary: hero → Sección destacada?
+#994: glossary: checkbox → casilla de verificación?
+#999: glossary: set → establecer | conjunto? | capitals mid-sentence: Ajustes, Privacidad
+#1000: glossary: about → acerca de?
+#1003: capitals mid-sentence: Ajustes
+#1005: glossary: designation → nombramiento?
+#1006: glossary: fee → cuota?
+#1010: glossary: preset → preajuste?
+#1021: capitals mid-sentence: Privacidad
+#1022: glossary: set → establecer | conjunto?
+#1025: glossary: lead → cliente potencial?
+#1028: glossary: save → guardar o ahorrar, según contexto?
+#1029: glossary: save → guardar o ahorrar, según contexto?
+#1032: glossary: set → establecer | conjunto?
+#1047: glossary: fix → corrección? | glossary: fixed → corregido?
+#1054: capitals mid-sentence: Añadir
+#1056: capitals mid-sentence: Siguiente
+#1058: capitals mid-sentence: Atrás
+#1060: glossary: wizard → asistente?
+#1083: glossary: recurring → periódico?
+#1084: glossary: recurring → periódico?
+#1085: glossary: recurring → periódico?
+#1087: glossary: toggle → conmutador | cambiar / alternar? | glossary: recurring → periódico?
+#1093: glossary term left in English: pattern → patrón
+#1101: glossary: inline → integrado?
+#1103: glossary: set → establecer | conjunto?
+#1112: glossary: inline → integrado?
+#1116: glossary: inline → integrado?
+#1123: glossary: inline → integrado?
+#1136: glossary: checkbox → casilla de verificación?
+#1140: capitals mid-sentence: Ajustes, Consentimientos
+#1141: capitals mid-sentence: Ajustes, Consentimientos
+#1143: capitals mid-sentence: Ajustes, Consentimientos
+#1147: glossary: inline → integrado?
+#1165: glossary: inline → integrado?
+#1171: glossary: skip → omitir?
+#1173: capitals mid-sentence: Donaciones, Fondos
+#1177: capitals mid-sentence: Donaciones, Fondos
+#1181: capitals mid-sentence: Donaciones, Fondos
+#1184: glossary: set → establecer | conjunto?
+#1189: glossary: set → establecer | conjunto? | capitals mid-sentence: Ajustes, Objetivo
+#1192: glossary: link → enlazar | enlace?
+#1193: glossary: set → establecer | conjunto?
+#1194: glossary: set → establecer | conjunto? | capitals mid-sentence: Ajustes, Objetivo
+#1207: glossary: fee → cuota? | glossary: fix → corrección? | glossary: fixed → corregido?
+#1209: glossary: fee → cuota?
+#1210: glossary: fee → cuota?
+#1219: glossary: inline → integrado?
+#1221: glossary: toggle → conmutador | cambiar / alternar?
+#1247: capitals mid-sentence: Ajustes
+#1250: capitals mid-sentence: Ajustes
+#1256: glossary: key → clave?
+#1262: glossary: preset → preajuste?
+#1263: glossary: preset → preajuste?
+#1276: glossary: fee → cuota?
+#1299: glossary: recurring → periódico?
+#1300: glossary: recurring → periódico?
+#1304: capitals mid-sentence: Herramientas
+#1307: capitals mid-sentence: Borrar
+#1312: glossary: remove → quitar / eliminar? | glossary: recurring → periódico?
+#1313: glossary: remove → quitar / eliminar? | glossary: recurring → periódico?
+#1314: glossary: recurring → periódico?
+#1321: glossary: suite → solución completa?
+#1323: glossary: recurring → periódico?
+#1326: glossary: link → enlazar | enlace?
+#1327: glossary: save → guardar o ahorrar, según contexto?
+#1330: glossary: link → enlazar | enlace?
+#1336: glossary: account → cuenta? | glossary: tax → impuesto? | glossary: recurring → periódico?
+#1339: glossary: bundle → lote?
+#1354: capitals mid-sentence: Anonimizar
+#1356: glossary: account → cuenta? | glossary: remove → quitar / eliminar? | glossary: tax → impuesto? | glossary: recurring → periódico?
+#1359: glossary: about → acerca de?
+#1360: glossary: about → acerca de?
+#1364: glossary: issue → problema / conflicto / incidencia?
+#1376: glossary: tax → impuesto?
+#1378: glossary: set → establecer | conjunto? | glossary: recurring → periódico?
+#1379: glossary: file → archivo?
+#1388: glossary: next → siguiente?
+#1392: glossary: link → enlazar | enlace?
+#1404: glossary: about → acerca de?
+#1405: glossary: notify → avisar?
+#1407: glossary: next → siguiente?

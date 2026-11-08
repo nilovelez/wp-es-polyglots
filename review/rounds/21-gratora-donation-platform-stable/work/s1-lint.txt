@@ -1,0 +1,154 @@
+#17: glossary: recurring → periódico?
+#24: glossary: about → acerca de?
+#29: glossary: save → guardar o ahorrar, según contexto? | glossary: tax → impuesto?
+#31: glossary: review → reseña / valoración?
+#32: glossary: review → reseña / valoración?
+#35: glossary: save → guardar o ahorrar, según contexto?
+#36: glossary: save → guardar o ahorrar, según contexto?
+#37: glossary: save → guardar o ahorrar, según contexto?
+#38: glossary: check → marcar / comprobar | cheque?
+#45: glossary: save → guardar o ahorrar, según contexto?
+#51: glossary: review → reseña / valoración?
+#53: glossary: save → guardar o ahorrar, según contexto?
+#57: glossary: tax → impuesto?
+#62: glossary: tax → impuesto?
+#64: glossary: tax → impuesto?
+#65: glossary: save → guardar o ahorrar, según contexto?
+#66: glossary: save → guardar o ahorrar, según contexto?
+#73: glossary: next → siguiente?
+#87: glossary: next → siguiente? | glossary: skip → omitir?
+#92: glossary: recurring → periódico?
+#94: glossary: save → guardar o ahorrar, según contexto?
+#99: glossary: save → guardar o ahorrar, según contexto?
+#103: glossary: save → guardar o ahorrar, según contexto?
+#104: glossary: save → guardar o ahorrar, según contexto?
+#113: glossary: next → siguiente? | glossary: skip → omitir?
+#120: glossary: recurring → periódico?
+#121: glossary: next → siguiente?
+#122: glossary: recurring → periódico?
+#126: glossary: fee → cuota?
+#135: glossary: fee → cuota?
+#145: glossary: recurring → periódico?
+#157: glossary: set → establecer | conjunto?
+#160: glossary: set → establecer | conjunto?
+#163: glossary: setting → ajuste?
+#180: glossary: support → es compatible con / dar soporte?
+#183: glossary: set → establecer | conjunto?
+#186: glossary: clear → vaciar?
+#187: glossary: clear → vaciar?
+#189: glossary: clear → vaciar?
+#194: glossary: recurring → periódico?
+#196: glossary: recurring → periódico?
+#198: glossary: clear → vaciar? | glossary: quote → cita / presupuesto? | glossary: recurring → periódico? | glossary: set → establecer | conjunto?
+#200: glossary: rate → tasa / tarifa | valorar / puntuar?
+#207: glossary: scope → extensión?
+#209: glossary: rate → tasa / tarifa | valorar / puntuar?
+#213: glossary: recurring → periódico? | glossary: scope → extensión?
+#215: glossary: rate → tasa / tarifa | valorar / puntuar? | capitals mid-sentence: Ajustes
+#216: glossary: rate → tasa / tarifa | valorar / puntuar? | capitals mid-sentence: Ajustes
+#222: capitals mid-sentence: Se
+#225: glossary: bill → factura?
+#227: glossary: recurring → periódico?
+#231: glossary: check → marcar / comprobar | cheque? | capitals mid-sentence: Actualizar
+#243: glossary: clear → vaciar?
+#251: glossary: check → marcar / comprobar | cheque?
+#257: glossary: recurring → periódico?
+#260: capitals mid-sentence: Exportar
+#263: glossary: recurring → periódico? | capitals mid-sentence: Exportar, Todo
+#310: glossary: recurring → periódico? | capitals mid-sentence: Importar
+#339: glossary: recurring → periódico?
+#347: capitals mid-sentence: Cancelar
+#368: glossary: recurring → periódico?
+#370: glossary: recurring → periódico? | glossary: set → establecer | conjunto?
+#372: glossary: issue → problema / conflicto / incidencia? | glossary: recurring → periódico?
+#373: glossary: recurring → periódico?
+#375: glossary: recurring → periódico?
+#379: glossary: check → marcar / comprobar | cheque? | glossary: set → establecer | conjunto?
+#380: glossary: issue → problema / conflicto / incidencia?
+#383: capitals mid-sentence: Mostrar
+#387: glossary: next → siguiente? | glossary: recurring → periódico?
+#388: glossary: recurring → periódico?
+#393: glossary: recurring → periódico?
+#397: glossary: recurring → periódico?
+#400: glossary: save → guardar o ahorrar, según contexto?
+#401: glossary: save → guardar o ahorrar, según contexto?
+#402: capitals mid-sentence: Cambios
+#404: glossary: save → guardar o ahorrar, según contexto?
+#405: glossary: rate → tasa / tarifa | valorar / puntuar?
+#406: glossary: rate → tasa / tarifa | valorar / puntuar?
+#407: glossary: rate → tasa / tarifa | valorar / puntuar? | glossary: save → guardar o ahorrar, según contexto? | glossary: set → establecer | conjunto?
+#408: glossary: rate → tasa / tarifa | valorar / puntuar?
+#420: glossary: account → cuenta? | glossary: tax → impuesto?
+#424: glossary: toggle → conmutador | cambiar / alternar?
+#428: glossary: Spam is not translated (Spam)
+#430: glossary: clear → vaciar?
+#434: glossary: recurring → periódico?
+#438: glossary: link → enlazar | enlace?
+#445: glossary: save → guardar o ahorrar, según contexto?
+#446: glossary: fix → corrección?
+#447: glossary: Spam is not translated (Spam)
+#451: glossary: save → guardar o ahorrar, según contexto?
+#452: glossary: next → siguiente?
+#453: glossary: next → siguiente?
+#457: glossary: set → establecer | conjunto?
+#468: glossary: toggle → conmutador | cambiar / alternar?
+#470: glossary: logged in → conectado? | glossary: prompt → instrucción?
+#480: glossary: save → guardar o ahorrar, según contexto?
+#481: glossary: next → siguiente?
+#485: glossary: reset → restablecer?
+#491: glossary: lead → cliente potencial?
+#492: glossary: lead → cliente potencial?
+#499: glossary: tax → impuesto? | capitals mid-sentence: Organización
+#500: glossary: tax → impuesto?
+#502: glossary: footer → pie de página?
+#520: glossary: body is not translated (cuerpo)
+#522: glossary: notification → aviso?
+#537: glossary: authenticate → identificar?
+#538: glossary: recipient → destinatario?
+#539: glossary: check → marcar / comprobar | cheque?
+#540: glossary: authenticate → identificar? | glossary: authentication → identificación? | glossary: fix → corrección? | glossary: report → informe | informar?
+#545: glossary: recurring → periódico?
+#554: glossary: recurring → periódico?
+#555: glossary: next → siguiente?
+#556: glossary: next → siguiente? | glossary: recurring → periódico?
+#557: glossary: recurring → periódico?
+#558: glossary: recurring → periódico?
+#559: glossary: recurring → periódico?
+#560: glossary: recurring → periódico?
+#561: glossary: recurring → periódico?
+#562: glossary: recurring → periódico?
+#565: glossary: recurring → periódico?
+#566: glossary: recurring → periódico?
+#567: glossary: recurring → periódico?
+#576: glossary: issue → problema / conflicto / incidencia?
+#579: glossary: Welcome → Te damos la bienvenida?
+#580: glossary: Welcome → Te damos la bienvenida?
+#581: glossary: tax → impuesto?
+#597: glossary: save → guardar o ahorrar, según contexto?
+#598: glossary: file → archivo?
+#605: glossary: set → establecer | conjunto?
+#608: glossary: save → guardar o ahorrar, según contexto?
+#609: glossary term left in English: sandbox → entorno de pruebas | glossary: save → guardar o ahorrar, según contexto?
+#615: glossary: file → archivo? | glossary: notification → aviso? | glossary: save → guardar o ahorrar, según contexto?
+#619: glossary: set → establecer | conjunto?
+#620: glossary: save → guardar o ahorrar, según contexto?
+#621: glossary: save → guardar o ahorrar, según contexto?
+#624: glossary: save → guardar o ahorrar, según contexto?
+#625: glossary: check → marcar / comprobar | cheque? | glossary: file → archivo?
+#627: glossary: notification → aviso? | glossary: save → guardar o ahorrar, según contexto?
+#629: glossary term left in English: sandbox → entorno de pruebas
+#630: glossary: endpoint → variable? | glossary: issue → problema / conflicto / incidencia? | glossary: save → guardar o ahorrar, según contexto?
+#632: glossary: endpoint → variable? | glossary: save → guardar o ahorrar, según contexto? | glossary: set → establecer | conjunto?
+#634: glossary: endpoint → variable?
+#635: glossary: endpoint → variable? | glossary: save → guardar o ahorrar, según contexto?
+#637: glossary: set → establecer | conjunto?
+#640: glossary: save → guardar o ahorrar, según contexto?
+#641: glossary: file → archivo?
+#661: glossary: support → es compatible con / dar soporte?
+#665: glossary: set → establecer | conjunto?
+#666: glossary: save → guardar o ahorrar, según contexto?
+#668: glossary: save → guardar o ahorrar, según contexto?
+#671: glossary: save → guardar o ahorrar, según contexto?
+#672: glossary: save → guardar o ahorrar, según contexto?
+#677: glossary: set → establecer | conjunto?
+#703: glossary: set → establecer | conjunto?
