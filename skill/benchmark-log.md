@@ -140,6 +140,11 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - Resultado: 291 cambios propuestos, aceptados en bloque por Nilo («me vale»), sin revisarlos cadena a cadena. La medición de esta ronda no es comparable con las demás.
 - Lección: en rondas por tramos, comprobar antes de `review-po` que los términos de `terms.md` se aplicaron en todo el archivo. Anotado en `review/README.md`.
 
+## 2026-11-08 · RestoCommerce (dev, 2892 cadenas) · descartada, sin número de ronda
+
+- Traducción mezclada: «su» en 80 cadenas y «tu» en 71, «Por favor seleccione…», formas de América («órdenes», «ingrese»), calcos («han sido cambiados», «La activación falló»), 84 cadenas iguales al inglés (algunas genéricas: «Test», «no») y 758 pistas de `lint`. Detectado con las cifras baratas.
+- El autor había pedido revisión y permisos. Nilo rechaza el lote y le escribe pidiéndole que repase la guía y el glosario, con este resumen como resultado del script de pre-revisión.
+
 ## 2026-11-08 · GDA Kraft Booking (dev, 2447 cadenas) · descartada, sin número de ronda
 
 - El traductor usa usted de forma sistemática: 108 cadenas con «su» para *your* (ninguna con «tu») y 53 imperativos de usted. La guía dice «Tuteo siempre». Detectado con las cifras baratas, sin pasar por ningún modelo.
