@@ -1,0 +1,83 @@
+#2662: glossary: check → marcar / comprobar | cheque? [nota: Dependiendo del contexto. Por ejemplo: marcar una casilla / comprobar un ajuste / En comercio, como medio de pago.] | glossary: save → guardar o ahorrar, según contexto? [nota: No utilizar: Salvar (incorrecto)]
+#2663: glossary: save → guardar o ahorrar, según contexto? [nota: No utilizar: Salvar (incorrecto)]
+#2664: glossary: save → guardar o ahorrar, según contexto? [nota: No utilizar: Salvar (incorrecto)]
+#2668: glossary: save → guardar o ahorrar, según contexto? [nota: No utilizar: Salvar (incorrecto)] | capitals mid-sentence: Guardar
+#2682: glossary: delete → borrar?
+#2683: glossary: delete → borrar?
+#2684: glossary: are you sure → ¿Seguro que…?? [nota: Para hacer la pregunta sin género no usar «¿Estás seguro…?» o «¿Estás segura…?» sino «¿Seguro que…?» adaptable a ambos géneros] | glossary: delete → borrar?
+#2687: glossary: core → núcleo? [nota: Se suele referir al núcleo de WordPress]
+#2692: capitals mid-sentence: Visualización
+#2693: capitals mid-sentence: Definición
+#2696: glossary: save → guardar o ahorrar, según contexto? [nota: No utilizar: Salvar (incorrecto)]
+#2697: glossary: save → guardar o ahorrar, según contexto? [nota: No utilizar: Salvar (incorrecto)]
+#2711: glossary: save → guardar o ahorrar, según contexto? [nota: No utilizar: Salvar (incorrecto)]
+#2712: glossary: default → por defecto? | glossary: delete → borrar?
+#2713: glossary: default → por defecto?
+#2714: glossary: default → por defecto?
+#2720: glossary: default → por defecto?
+#2721: glossary: default → por defecto?
+#2723: glossary: default → por defecto?
+#2724: glossary: default → por defecto?
+#2728: glossary: not allowed → no tienes permisos? [nota: No usar «permiso» sino «permisos» debido a que no es un «permiso» que da alguien sino «permisos» asociados a las capacidades de un perfil de usuario. Según el contexto, puede traducirse por «no (está) permitido»]
+#2729: glossary: not allowed → no tienes permisos? [nota: No usar «permiso» sino «permisos» debido a que no es un «permiso» que da alguien sino «permisos» asociados a las capacidades de un perfil de usuario. Según el contexto, puede traducirse por «no (está) permitido»]
+#2733: glossary: delete → borrar?
+#2736: glossary: delete → borrar?
+#2740: glossary: delete → borrar?
+#2742: glossary: delete → borrar?
+#2766: glossary: delete → borrar?
+#2767: glossary: save → guardar o ahorrar, según contexto? [nota: No utilizar: Salvar (incorrecto)]
+#2769: glossary: are you sure → ¿Seguro que…?? [nota: Para hacer la pregunta sin género no usar «¿Estás seguro…?» o «¿Estás segura…?» sino «¿Seguro que…?» adaptable a ambos géneros]
+#2795: glossary: save → guardar o ahorrar, según contexto? [nota: No utilizar: Salvar (incorrecto)]
+#2796: glossary: save → guardar o ahorrar, según contexto? [nota: No utilizar: Salvar (incorrecto)]
+#2801: capitals mid-sentence: Mis
+#2828: glossary: about → acerca de? [nota: Preferimos «Acerca de» antes que «Sobre», pero dependerá del contexto. «Acerca del tema Baskerville» «Sobre el autor»]
+#2835: capitals mid-sentence: Crear
+#2840: glossary: add-on → extensión?
+#2843: glossary: add-on → extensión?
+#2862: glossary: link → enlazar | enlace? [nota: No usar «vincular», «linkear» ni ninguna otra cosa / no usar «link», «vínculo» ni «liga»]
+#2863: glossary: link → enlazar | enlace? [nota: No usar «vincular», «linkear» ni ninguna otra cosa / no usar «link», «vínculo» ni «liga»]
+#2867: glossary: link → enlazar | enlace? [nota: No usar «vincular», «linkear» ni ninguna otra cosa / no usar «link», «vínculo» ni «liga»]
+#2869: glossary: login → acceder / acceso? [nota: Usar «Acceder» cuando sea 1) una etiqueta de un botón, cuando se haga la acción de acceder al pulsarlo. 2) se refiera en un texto a la acción de acceder. No utilizar: Iniciar Sesión (Incorrecto). Entrar (Incorrecto). Identificarse (Incorrecto)]
+#2875: glossary: check → marcar / comprobar | cheque? [nota: Dependiendo del contexto. Por ejemplo: marcar una casilla / comprobar un ajuste / En comercio, como medio de pago.]
+#2894: glossary: about → acerca de? [nota: Preferimos «Acerca de» antes que «Sobre», pero dependerá del contexto. «Acerca del tema Baskerville» «Sobre el autor»]
+#2899: glossary: about → acerca de? [nota: Preferimos «Acerca de» antes que «Sobre», pero dependerá del contexto. «Acerca del tema Baskerville» «Sobre el autor»] | capitals mid-sentence: Fecha
+#2900: glossary: about → acerca de? [nota: Preferimos «Acerca de» antes que «Sobre», pero dependerá del contexto. «Acerca del tema Baskerville» «Sobre el autor»] | capitals mid-sentence: Completa
+#2901: capitals mid-sentence: Fecha, Importe
+#2925: glossary: receipt → recibo?
+#2926: glossary: receipt → recibo?
+#2927: glossary: receipt → recibo?
+#2928: glossary: receipt → recibo?
+#2931: glossary: receipt → recibo?
+#2932: capitals mid-sentence: Descargar
+#2933: glossary: receipt → recibo?
+#2941: glossary: receipt → recibo?
+#2959: glossary: license → licencia?
+#2965: glossary: fix → corrección? | glossary: fixed → corregido?
+#2982: glossary: save → guardar o ahorrar, según contexto? [nota: No utilizar: Salvar (incorrecto)]
+#2985: glossary: expire → caduca? | glossary: expired → caducado? [nota: No usar «expirado»]
+#2988: glossary: expire → caduca? | glossary: expired → caducado? [nota: No usar «expirado»]
+#3009: glossary: receipt → recibo?
+#3010: glossary: receipt → recibo?
+#3013: «#%d» → keep «#», not «n.º»
+#3077: glossary: license → licencia?
+#3082: glossary: check → marcar / comprobar | cheque? [nota: Dependiendo del contexto. Por ejemplo: marcar una casilla / comprobar un ajuste / En comercio, como medio de pago.]
+#3085: glossary: sorry → lo siento? [nota: No utilizar: Lo sentimos (Incorrecto) Perdona (Incorrecto)]
+#3093: capitals mid-sentence: Puedes
+#3105: glossary term left in English: admin → administrador / administración [nota: «administrador» cuando se refiere al perfil dentro del sistema. «administración» cuando se refiere al área de administración de WordPress.] | capitals mid-sentence: Reserva | «#%d» → keep «#», not «n.º»
+#3129: glossary: add-on → extensión?
+#3130: glossary: add-on → extensión?
+#3138: glossary: issue → problema / conflicto / incidencia?
+#3151: glossary: fix → corrección? | glossary: fixed → corregido?
+#3154: glossary: addon → extensión?
+#3155: glossary: addon → extensión?
+#3165: glossary: fix → corrección? | glossary: fixed → corregido?
+#3194: glossary: delete → borrar?
+#3204: glossary term left in English: post → entrada
+#3218: glossary term left in English: post → entrada
+#3235: glossary: support → es compatible con / dar soporte? [nota: Si se refiere a compatibilidad entre versiones/software se traduce como «compatible con» si se refiere a dar ayuda en foros se traduce como «dar soporte»]
+#3243: glossary: support → es compatible con / dar soporte? [nota: Si se refiere a compatibilidad entre versiones/software se traduce como «compatible con» si se refiere a dar ayuda en foros se traduce como «dar soporte»]
+#3250: glossary: support → es compatible con / dar soporte? [nota: Si se refiere a compatibilidad entre versiones/software se traduce como «compatible con» si se refiere a dar ayuda en foros se traduce como «dar soporte»]
+#3279: glossary: about → acerca de? [nota: Preferimos «Acerca de» antes que «Sobre», pero dependerá del contexto. «Acerca del tema Baskerville» «Sobre el autor»]
+#3285: glossary: support → es compatible con / dar soporte? [nota: Si se refiere a compatibilidad entre versiones/software se traduce como «compatible con» si se refiere a dar ayuda en foros se traduce como «dar soporte»]
+#3293: glossary: check → marcar / comprobar | cheque? [nota: Dependiendo del contexto. Por ejemplo: marcar una casilla / comprobar un ajuste / En comercio, como medio de pago.]
+#3300: glossary: frontend → portada / vista pública / parte pública?

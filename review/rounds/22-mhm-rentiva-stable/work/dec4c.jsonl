@@ -1,0 +1,13 @@
+{"n": 2428, "verdict": "reject", "msgstr": "No se ha encontrado la información del cliente. Accede o regístrate.", "comment": "Según el glosario, «login» se traduce como «acceder»; no se usa «iniciar sesión»."}
+{"n": 2450, "verdict": "reject", "msgstr": "El borrado de la copia de seguridad ha finalizado con algunas advertencias", "comment": "Según el glosario, «delete» se traduce como «borrar»."}
+{"n": 2456, "verdict": "reject", "msgstr": "No se ha podido borrar la copia de seguridad", "comment": "Según el glosario, «delete» se traduce como «borrar»."}
+{"n": 2457, "verdict": "reject", "msgstr": "Copia de seguridad borrada correctamente", "comment": "Según el glosario, «delete» se traduce como «borrar»."}
+{"n": 2491, "verdict": "reject", "msgstr": "Acciones en lote", "comment": "Según el glosario, «bulk actions» se traduce como «acciones en lote»."}
+{"n": 2493, "verdict": "reject", "msgstr": "Restablecer valores por defecto", "comment": "Según el glosario y la guía, «default» se traduce como «por defecto»."}
+{"n": 2499, "verdict": "reject", "msgstr": "Soporte y contacto", "comment": "Según el glosario, «support» en el sentido de ayuda se traduce como «soporte»."}
+{"n": 2502, "verdict": "reject", "msgstr": "Accede para ver este contenido.", "comment": "Según el glosario, «login» se traduce como «acceder»; no se usa «iniciar sesión»."}
+{"n": 2504, "verdict": "reject", "msgstr": "Formato de array no válido.", "comment": "Según el glosario, «array» no se traduce."}
+{"n": 2521, "verdict": "reject", "msgstr": "Campo personalizado borrado.", "comment": "Según el glosario, «delete» se traduce como «borrar»."}
+{"n": 2529, "verdict": "reject", "msgstr": "Quitar imagen de %s", "comment": "Según el glosario, «remove» se traduce casi siempre como «quitar»."}
+{"n": 2620, "verdict": "reject", "msgstr": "Vaciar", "comment": "Según el glosario, «clear» se traduce como «vaciar»."}
+{"n": 2635, "verdict": "reject", "msgstr": "¿Restablecer esta pestaña a los valores por defecto?", "comment": "Según el glosario y la guía, «default» se traduce como «por defecto»."}

@@ -1,0 +1,48 @@
+{"n": 1541, "verdict": "fix", "msgstr": "El estado de la reserva #{booking_id} ha cambiado a {new_status}.", "comment": "Con «#{booking_id}» se deja «#» tal cual, sin «n.º»."}
+{"n": 1543, "verdict": "fix", "msgstr": "Se ha procesado un reembolso de {amount} para la reserva #{booking_id}.", "comment": "Con «#{booking_id}» se deja «#» tal cual, sin «n.º»."}
+{"n": 1544, "verdict": "reject", "msgstr": "Aviso de reembolso", "comment": "Según el glosario, «notification» se traduce como «aviso», no como «notificación»."}
+{"n": 1546, "verdict": "fix", "msgstr": "Se ha procesado un reembolso de {amount} para tu reserva #{booking_id}.", "comment": "Con «#{booking_id}» se deja «#» tal cual, sin «n.º»."}
+{"n": 1547, "verdict": "fix", "msgstr": "Tu reserva #{booking_id} ha sido cancelada.", "comment": "Con «#{booking_id}» se deja «#» tal cual, sin «n.º»."}
+{"n": 1553, "verdict": "reject", "msgstr": "Comunícate directamente con nuestro equipo de soporte", "comment": "Según el glosario, «support» en el sentido de ayuda se traduce como «soporte»."}
+{"n": 1556, "verdict": "reject", "msgstr": "Desde el escritorio de cliente puedes:", "comment": "Según el glosario, «Dashboard» se traduce como «escritorio», no como «panel»."}
+{"n": 1560, "verdict": "reject", "msgstr": "No hemos recibido el pago obligatorio dentro del plazo establecido, por lo que la reserva se ha liberado.", "comment": "Según el glosario, «required» se traduce como «obligatorio»."}
+{"n": 1561, "verdict": "fix", "msgstr": "Tu reserva #{booking_id} se ha cancelado automáticamente.", "comment": "Con «#{booking_id}» se deja «#» tal cual, sin «n.º»."}
+{"n": 1564, "verdict": "reject", "msgstr": "Se ha enviado una nueva solicitud de reserva desde tu sitio web. Accede al panel de administración para tramitarla.", "comment": "Según el glosario, «login» se traduce como «acceder»; no se usa «iniciar sesión»."}
+{"n": 1567, "verdict": "reject", "msgstr": "Puedes consultar el estado de tu reserva y todos sus detalles desde el escritorio de cliente.", "comment": "Según el glosario, «Dashboard» se traduce como «escritorio», no como «panel»."}
+{"n": 1569, "verdict": "fix", "msgstr": "Se ha actualizado el estado de tu reserva #{booking_id}:", "comment": "Con «#{booking_id}» se deja «#» tal cual, sin «n.º»."}
+{"n": 1576, "verdict": "fix", "msgstr": "Tu reserva #{booking_id} se ha creado correctamente. A continuación encontrarás los detalles:", "comment": "Con «#{booking_id}» se deja «#» tal cual, sin «n.º»."}
+{"n": 1577, "verdict": "reject", "msgstr": "Hola {contact_name},", "comment": "La guía prohíbe los desdoblamientos como «Estimado/a»; «Hola» sirve para cualquier género."}
+{"n": 1584, "verdict": "reject", "msgstr": "Tiempo de vida por defecto de la caché (horas)", "comment": "Según el glosario y la guía, «default» se traduce como «por defecto»."}
+{"n": 1592, "verdict": "reject", "msgstr": "Enviar un aviso por correo electrónico al usuario cuando se apruebe su comentario.", "comment": "Según el glosario, «notification» se traduce como «aviso» y «notify» como «avisar»."}
+{"n": 1593, "verdict": "reject", "msgstr": "Avisar al usuario cuando se apruebe un comentario", "comment": "Según el glosario, «notify» se traduce como «avisar», no como «notificar»."}
+{"n": 1594, "verdict": "reject", "msgstr": "Enviar un aviso por correo electrónico al administrador cuando se publique un comentario nuevo.", "comment": "Según el glosario, «notification» se traduce como «aviso» y «notify» como «avisar»."}
+{"n": 1595, "verdict": "reject", "msgstr": "Avisar al administrador cuando haya un comentario nuevo", "comment": "Según el glosario, «notify» se traduce como «avisar», no como «notificar»."}
+{"n": 1596, "verdict": "reject", "msgstr": "Lista de palabras de spam que se filtrarán, separadas por comas.", "comment": "Según el glosario, «spam» no se traduce."}
+{"n": 1597, "verdict": "reject", "msgstr": "Palabras de spam", "comment": "Según el glosario, «spam» no se traduce."}
+{"n": 1612, "verdict": "reject", "msgstr": "Permitir que los usuarios borren sus propios comentarios.", "comment": "Según el glosario, «delete» se traduce como «borrar»."}
+{"n": 1613, "verdict": "reject", "msgstr": "Permitir borrar comentarios", "comment": "Según el glosario, «delete» se traduce como «borrar»."}
+{"n": 1618, "verdict": "reject", "msgstr": "Mostrar puntuaciones con estrellas junto a los comentarios.", "comment": "Según el glosario, «rating» se traduce como «puntuación» fuera del directorio de plugins y temas."}
+{"n": 1619, "verdict": "reject", "msgstr": "Mostrar puntuaciones", "comment": "Según el glosario, «rating» se traduce como «puntuación» fuera del directorio de plugins y temas."}
+{"n": 1622, "verdict": "reject", "msgstr": "Permitir comentarios de usuarios invitados (requiere que el acceso esté desactivado).", "comment": "Según el glosario, «login» se traduce con el término «acceso»; «inicio de sesión» no está en el glosario."}
+{"n": 1624, "verdict": "reject", "msgstr": "Exigir que los usuarios estén conectados para comentar.", "comment": "Según el glosario, «logged in» es «conectado» y no se usa «iniciar sesión»."}
+{"n": 1625, "verdict": "reject", "msgstr": "Exigir acceso", "comment": "Según el glosario, «login» se traduce con el término «acceso»."}
+{"n": 1628, "verdict": "reject", "msgstr": "Configura los ajustes del sistema de comentarios y puntuaciones de los vehículos.", "comment": "Según el glosario, «rating» se traduce como «puntuación» fuera del directorio de plugins y temas."}
+{"n": 1630, "verdict": "reject", "msgstr": "Avisos", "comment": "Según el glosario, «notification» se traduce como «aviso», no como «notificación»."}
+{"n": 1636, "verdict": "reject", "msgstr": "Enviar un aviso al cliente cuando una reserva se cancele automáticamente por agotarse el plazo.", "comment": "Según el glosario, «notification» se traduce como «aviso»."}
+{"n": 1638, "verdict": "reject", "msgstr": "Enviar avisos por correo electrónico al administrador cuando se creen nuevas reservas", "comment": "Según el glosario, «notification» se traduce como «aviso»."}
+{"n": 1639, "verdict": "reject", "msgstr": "Avisos al administrador", "comment": "Según el glosario, «notification» se traduce como «aviso»."}
+{"n": 1644, "verdict": "reject", "msgstr": "Ajustes de avisos por correo electrónico de las reservas.", "comment": "Según el glosario, «notification» se traduce como «aviso»."}
+{"n": 1645, "verdict": "reject", "msgstr": "Ajustes de avisos", "comment": "Según el glosario, «notification» se traduce como «aviso»."}
+{"n": 1656, "verdict": "reject", "msgstr": "Duración por defecto del alquiler en el formulario de reserva (días).", "comment": "Según el glosario y la guía, «default» se traduce como «por defecto»."}
+{"n": 1657, "verdict": "reject", "msgstr": "Días de alquiler por defecto", "comment": "Según el glosario y la guía, «default» se traduce como «por defecto»."}
+{"n": 1667, "verdict": "reject", "msgstr": "Orden del menú (por defecto)", "comment": "Según el glosario y la guía, «default» se traduce como «por defecto»."}
+{"n": 1678, "verdict": "reject", "msgstr": "Los ajustes de la API REST se han restablecido correctamente a sus valores por defecto.", "comment": "Según el glosario y la guía, «default» se traduce como «por defecto»."}
+{"n": 1679, "verdict": "reject", "msgstr": "No se han podido restablecer los ajustes de la API REST a sus valores por defecto.", "comment": "Según el glosario y la guía, «default» se traduce como «por defecto»."}
+{"n": 1684, "verdict": "reject", "msgstr": "Quitado de la comparación", "comment": "Según el glosario, «remove» se traduce casi siempre como «quitar»."}
+{"n": 1688, "verdict": "reject", "msgstr": "Número máximo de solicitudes por minuto para usuarios identificados.", "comment": "Según el glosario y la guía, «authenticated» se traduce como «identificado», no como «autenticado»."}
+{"n": 1728, "verdict": "reject", "msgstr": "Lo siento, el vehículo «%1$s» ya no está disponible para las fechas seleccionadas (%2$s - %3$s). Es posible que otro cliente lo haya reservado. Selecciona otras fechas u otro vehículo.", "comment": "Según el glosario, en la voz de WordPress se dice «Lo siento», no «Lo sentimos»."}
+{"n": 1730, "verdict": "reject", "msgstr": "Lo siento, se ha cancelado la reserva del vehículo «%s». Selecciona otro vehículo.", "comment": "Según el glosario, en la voz de WordPress se dice «Lo siento», no «Lo sentimos»."}
+{"n": 1731, "verdict": "reject", "msgstr": "Lo siento, el vehículo «%1$s» ya no está disponible para las fechas seleccionadas (%2$s - %3$s). Selecciona otras fechas u otro vehículo.", "comment": "Según el glosario, en la voz de WordPress se dice «Lo siento», no «Lo sentimos»."}
+{"n": 1748, "verdict": "fix", "msgstr": "Pago del importe restante - %1$s #%2$d", "comment": "Con «#%d» se deja «#» tal cual, sin «n.º»."}
+{"n": 1750, "verdict": "reject", "msgstr": "No se ha encontrado el producto de la reserva. Ponte en contacto con soporte.", "comment": "Según el glosario, «support» en el sentido de ayuda se traduce como «soporte»."}
+{"n": 1755, "verdict": "reject", "msgstr": "No se ha podido enviar el aviso de reembolso:", "comment": "Según el glosario, «notification» se traduce como «aviso», no como «notificación»."}

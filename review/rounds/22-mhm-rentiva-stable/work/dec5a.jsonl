@@ -1,0 +1,28 @@
+{"n": 2682, "verdict": "reject", "msgstr": "No se ha podido borrar el campo.", "comment": "Según el glosario, «delete» se traduce como «borrar»."}
+{"n": 2683, "verdict": "reject", "msgstr": "Campo borrado.", "comment": "Según el glosario, «delete» se traduce como «borrar»."}
+{"n": 2684, "verdict": "reject", "msgstr": "El campo «%s» se borrará definitivamente. ¿Seguro?", "comment": "Según el glosario, «delete» se traduce como «borrar», y «¿Estás seguro?» se sustituye por «¿Seguro?»."}
+{"n": 2712, "verdict": "reject", "msgstr": "¿Seguro que quieres restablecer todos los ajustes de vehículos a sus valores por defecto? Las definiciones de campos personalizados NO se borrarán.", "comment": "Según el glosario y la guía, «default» se traduce como «por defecto»; «delete» como «borrar»."}
+{"n": 2713, "verdict": "reject", "msgstr": "¿Seguro que quieres restablecer todos los ajustes de la API REST a sus valores por defecto? Esta acción no se puede deshacer.", "comment": "Según el glosario y la guía, «default» se traduce como «por defecto»."}
+{"n": 2714, "verdict": "reject", "msgstr": "¿Seguro que quieres restablecer esta plantilla a sus valores por defecto?", "comment": "Según el glosario y la guía, «default» se traduce como «por defecto»."}
+{"n": 2720, "verdict": "reject", "msgstr": "No se han podido restablecer los ajustes a sus valores por defecto.", "comment": "Según el glosario y la guía, «default» se traduce como «por defecto»."}
+{"n": 2721, "verdict": "reject", "msgstr": "Los ajustes se han restablecido correctamente a sus valores por defecto. La página se volverá a cargar…", "comment": "Según el glosario y la guía, «default» se traduce como «por defecto»."}
+{"n": 2723, "verdict": "reject", "msgstr": "¿Seguro que quieres restablecer los ajustes de esta pestaña a sus valores por defecto? Esta acción no se puede deshacer.", "comment": "Según el glosario y la guía, «default» se traduce como «por defecto»."}
+{"n": 2724, "verdict": "reject", "msgstr": "Plantilla restablecida a los valores por defecto", "comment": "Según el glosario y la guía, «default» se traduce como «por defecto»."}
+{"n": 2733, "verdict": "reject", "msgstr": "¿Seguro que quieres borrar este estado?", "comment": "Según el glosario, «delete» se traduce como «borrar»."}
+{"n": 2736, "verdict": "reject", "msgstr": "¿Seguro que quieres borrar esta categoría?", "comment": "Según el glosario, «delete» se traduce como «borrar»."}
+{"n": 2740, "verdict": "reject", "msgstr": "¿Borrar definitivamente esta reserva?", "comment": "Según el glosario, «delete» se traduce como «borrar»."}
+{"n": 2742, "verdict": "reject", "msgstr": "¿Borrar definitivamente las %d reservas seleccionadas?", "comment": "Según el glosario, «delete» se traduce como «borrar»."}
+{"n": 2746, "verdict": "reject", "msgstr": "Error al quitar la imagen", "comment": "Según el glosario, «remove» se traduce casi siempre como «quitar»; la imagen se quita de la galería."}
+{"n": 2748, "verdict": "reject", "msgstr": "Quitar imagen", "comment": "Según el glosario, «remove» se traduce casi siempre como «quitar»; la imagen se quita de la galería."}
+{"n": 2749, "verdict": "reject", "msgstr": "¿Seguro que quieres quitar esta imagen?", "comment": "Según el glosario, «remove» se traduce casi siempre como «quitar»; la imagen se quita de la galería."}
+{"n": 2766, "verdict": "reject", "msgstr": "Borrar", "comment": "Según el glosario, «delete» se traduce como «borrar»."}
+{"n": 2769, "verdict": "reject", "msgstr": "¿Seguro?", "comment": "Según el glosario, «are you sure» se traduce sin género: «¿Seguro?» o «¿Seguro que…?»."}
+{"n": 2788, "verdict": "reject", "msgstr": "Quitar", "comment": "Según el glosario, «remove» se traduce casi siempre como «quitar»."}
+{"n": 2804, "verdict": "reject", "msgstr": "Quitado de la comparación.", "comment": "Según el glosario, «remove» se traduce casi siempre como «quitar»."}
+{"n": 2806, "verdict": "reject", "msgstr": "Quitando de la comparación…", "comment": "Según el glosario, «remove» se traduce casi siempre como «quitar»."}
+{"n": 2810, "verdict": "reject", "msgstr": "Quitado de favoritos.", "comment": "Según el glosario, «remove» se traduce casi siempre como «quitar»."}
+{"n": 2812, "verdict": "reject", "msgstr": "Quitando de favoritos…", "comment": "Según el glosario, «remove» se traduce casi siempre como «quitar»."}
+{"n": 2862, "verdict": "reject", "msgstr": "Cuenta de cliente creada y enlazada a la reserva.", "comment": "Según el glosario, «link» como verbo se traduce como «enlazar», no como «vincular»."}
+{"n": 2863, "verdict": "reject", "msgstr": "Cuenta existente enlazada a la reserva.", "comment": "Según el glosario, «link» como verbo se traduce como «enlazar», no como «vincular»."}
+{"n": 2867, "verdict": "reject", "msgstr": "No hay ninguna cuenta de cliente enlazada", "comment": "Según el glosario, «link» como verbo se traduce como «enlazar», no como «vincular»."}
+{"n": 2869, "verdict": "reject", "msgstr": "El cliente puede acceder con su correo electrónico y contraseña para consultar esta reserva.", "comment": "Según el glosario, «login» se traduce como «acceder»; no se usa «iniciar sesión»."}

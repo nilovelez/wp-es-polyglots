@@ -1,0 +1,4 @@
+{"n": 1034, "verdict": "reject", "msgstr": "Imagen quitada correctamente", "comment": "Según el glosario, «remove» se traduce casi siempre como «quitar»; la imagen se quita de la galería."}
+{"n": 1039, "verdict": "reject", "msgstr": "Se ha producido un error al quitar la imagen", "comment": "Según el glosario, «remove» se traduce casi siempre como «quitar»; la imagen se quita de la galería."}
+{"n": 1048, "verdict": "reject", "msgstr": "Quitado de %d vehículos.", "comment": "Según el glosario, «remove» se traduce casi siempre como «quitar»."}
+{"n": 1050, "verdict": "reject", "msgstr": "Se quitarán de todos los demás vehículos todas las fechas bloqueadas seleccionadas para este vehículo. ¿Quieres continuar?", "comment": "Según el glosario, «remove» se traduce casi siempre como «quitar»."}

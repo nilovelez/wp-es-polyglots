@@ -1,0 +1,45 @@
+{"n": 885, "verdict": "reject", "msgstr": "Error en el retroceso: %s", "comment": "Según el glosario, «rollback» se traduce como «retroceso»."}
+{"n": 886, "verdict": "reject", "msgstr": "Retroceso completado correctamente para el ID de entrada: %d.", "comment": "Según el glosario, «rollback» se traduce como «retroceso»."}
+{"n": 889, "verdict": "reject", "msgstr": "El retroceso es posible. (%s)", "comment": "Según el glosario, «rollback» se traduce como «retroceso»."}
+{"n": 892, "verdict": "reject", "msgstr": "Iniciando el retroceso atómico del ID de entrada: %d…", "comment": "Según el glosario, «rollback» se traduce como «retroceso»."}
+{"n": 893, "verdict": "reject", "msgstr": "Ejecutando una simulación de retroceso sin efectos secundarios…", "comment": "Según el glosario, «rollback» se traduce como «retroceso»."}
+{"n": 895, "verdict": "reject", "msgstr": "Error en la importación: %s. Se ha ejecutado el retroceso.", "comment": "Según el glosario, «rollback» se traduce como «retroceso»."}
+{"n": 901, "verdict": "fix", "msgstr": "Falta instance_id en la instancia del componente #%1$d de la página #%2$d", "comment": "Con «#%d» se deja «#» tal cual, sin «n.º»."}
+{"n": 902, "verdict": "fix", "msgstr": "Falta la clave %2$s en la página #%1$d", "comment": "Con «#%d» se deja «#» tal cual, sin «n.º»."}
+{"n": 903, "verdict": "reject", "msgstr": "La sección de componentes del manifiesto debe ser un objeto o un array.", "comment": "Según el glosario, «array» no se traduce."}
+{"n": 906, "verdict": "reject", "msgstr": "Versión del modelo no compatible: %s", "comment": "Según el glosario, «blueprint» se traduce como «modelo»."}
+{"n": 915, "verdict": "reject", "msgstr": "Heredar (vendedor/global)", "comment": "Según el glosario, «vendor» se traduce como «vendedor»."}
+{"n": 920, "verdict": "reject", "msgstr": "Borrar seleccionados", "comment": "Según el glosario, «delete» se traduce como «borrar»."}
+{"n": 928, "verdict": "reject", "msgstr": "Añadir o quitar categorías", "comment": "Según el glosario, «remove» se traduce casi siempre como «quitar»."}
+{"n": 942, "verdict": "reject", "msgstr": "Ajustes restablecidos a los valores por defecto.", "comment": "Según el glosario y la guía, «default» se traduce como «por defecto»."}
+{"n": 959, "verdict": "reject", "msgstr": "Quitar elemento", "comment": "Según el glosario, «remove» se traduce casi siempre como «quitar»."}
+{"n": 985, "verdict": "reject", "msgstr": "Arrastra los elementos para cambiar su orden o haz clic en quitar para ocultar características de la sección destacada de la página de detalles.", "comment": "Según el glosario, «remove» se traduce casi siempre como «quitar»."}
+{"n": 995, "verdict": "reject", "msgstr": "Arrastra los elementos para cambiar su orden o haz clic para quitarlos de la tarjeta del vehículo.", "comment": "Según el glosario, «remove» se traduce casi siempre como «quitar»."}
+{"n": 1018, "verdict": "reject", "msgstr": "Triángulo de advertencia", "comment": "Según el glosario, «warning» se traduce como «advertencia»."}
+{"n": 1054, "verdict": "reject", "msgstr": "Quitar de todos los vehículos", "comment": "Según el glosario, «remove» se traduce casi siempre como «quitar»."}
+{"n": 1089, "verdict": "reject", "msgstr": "Error: debes asignar a este vehículo una puntuación válida (de 1 a 5 estrellas).", "comment": "Según el glosario, «rating» se traduce como «puntuación» fuera del directorio de plugins y temas."}
+{"n": 1129, "verdict": "reject", "msgstr": "Limpieza cancelada: no se han podido leer las definiciones de campos personalizados de los vehículos, por lo que no se pueden distinguir los datos de campos personalizados de los metadatos obsoletos. No se ha borrado nada.", "comment": "Según el glosario, «delete» se traduce como «borrar»."}
+{"n": 1134, "verdict": "reject", "msgstr": "El gancho de Cron es obligatorio", "comment": "Según el glosario, «hook» se traduce como «gancho»."}
+{"n": 1137, "verdict": "reject", "msgstr": "El gancho de Cron «%s» no está registrado. Es posible que la clase asociada no se haya cargado. Comprueba que el plugin esté completamente activado.", "comment": "Según el glosario, «hook» se traduce como «gancho»."}
+{"n": 1138, "verdict": "reject", "msgstr": "Gancho de Cron no válido", "comment": "Según el glosario, «hook» se traduce como «gancho»."}
+{"n": 1149, "verdict": "reject", "msgstr": "Función wp_mail() por defecto", "comment": "Según el glosario y la guía, «default» se traduce como «por defecto»."}
+{"n": 1152, "verdict": "reject", "msgstr": "Activa WP-Cron o establece una tarea Cron real para los recordatorios.", "comment": "Según el glosario, «set» como verbo se traduce como «establecer»."}
+{"n": 1178, "verdict": "reject", "msgstr": "La estructura de enlaces permanentes de WordPress está establecida como «Simple». Para que funcionen correctamente las páginas públicas (formulario de reserva, páginas de cuenta, etc.), actualiza los ajustes de enlaces permanentes y utiliza una estructura optimizada para SEO.", "comment": "Según el glosario, «set» como verbo se traduce como «establecer»."}
+{"n": 1179, "verdict": "reject", "msgstr": "⚠️ Importante: ajustes de enlaces permanentes obligatorios", "comment": "Según el glosario, «required» se traduce como «obligatorio», no como «se requiere»."}
+{"n": 1180, "verdict": "reject", "msgstr": "No tienes permisos para realizar esta acción.", "comment": "Según el glosario, «not allowed» es «no tienes permisos»."}
+{"n": 1186, "verdict": "reject", "msgstr": "La estructura de enlaces permanentes de WordPress está establecida como «Simple». Para que funcionen las páginas públicas, actualiza los ajustes de enlaces permanentes y utiliza una estructura optimizada para SEO (por ejemplo, «Nombre de la entrada»).", "comment": "Según el glosario, «set» como verbo se traduce como «establecer»."}
+{"n": 1193, "verdict": "reject", "msgstr": "Mostrar insignia de disponibilidad", "comment": "Según el glosario, «badge» se traduce como «insignia»."}
+{"n": 1194, "verdict": "reject", "msgstr": "Mostrar insignias de características", "comment": "Según el glosario, «badge» se traduce como «insignia»."}
+{"n": 1199, "verdict": "reject", "msgstr": "Ajusta los valores por defecto visibles en los formularios de reserva y las tarjetas de vehículos.", "comment": "Según el glosario y la guía, «default» se traduce como «por defecto»."}
+{"n": 1214, "verdict": "reject", "msgstr": "Para garantizar el envío ininterrumpido de los avisos de reserva, instala y configura un plugin SMTP.", "comment": "Según el glosario, «notification» se traduce como «aviso», no como «notificación»."}
+{"n": 1215, "verdict": "reject", "msgstr": "El sistema de correo por defecto de WordPress puede no ser fiable según la configuración del servidor y provocar que los mensajes acaben en las carpetas de spam o correo no deseado.", "comment": "Según el glosario y la guía, «default» se traduce como «por defecto»."}
+{"n": 1217, "verdict": "reject", "msgstr": "Configura los datos del remitente y activa los avisos automáticos de las reservas.", "comment": "Según el glosario, «notification» se traduce como «aviso», no como «notificación»."}
+{"n": 1218, "verdict": "reject", "msgstr": "Paso 3: correo electrónico y avisos", "comment": "Según el glosario, «notification» se traduce como «aviso», no como «notificación»."}
+{"n": 1227, "verdict": "reject", "msgstr": "Rentiva utiliza páginas específicas de WordPress para las reservas, las confirmaciones y las cuentas de cliente. Crea automáticamente las páginas que falten o enlaza las que ya existan.", "comment": "Según el glosario, para «link» como verbo se usa «enlazar», no «vincular»."}
+{"n": 1257, "verdict": "reject", "msgstr": "Retroceder", "comment": "Según el glosario, «rollback» como verbo se traduce como «retroceder»."}
+{"n": 1277, "verdict": "reject", "msgstr": "Vaciar la caché del sistema", "comment": "Según el glosario, «clear» se traduce como «vaciar», que es el término para la caché."}
+{"n": 1298, "verdict": "reject", "msgstr": "No se ha encontrado el gancho; se ha cancelado la ejecución.", "comment": "Según el glosario, «hook» se traduce como «gancho»."}
+{"n": 1310, "verdict": "reject", "msgstr": "Nombre del gancho", "comment": "Según el glosario, «hook» se traduce como «gancho»."}
+{"n": 1240, "verdict": "doubt", "msgstr": "Referencia de endpoints para desarrolladores", "comment": "El glosario da «variable» para «endpoint», pero aquí son rutas de la API REST. ¿Mantenemos «endpoints»?"}
+{"n": 1241, "verdict": "doubt", "msgstr": "Guardar configuración de API", "comment": "El glosario dice «hacer commit» para el verbo «commit». ¿En este botón se usa «Guardar» o «hacer commit»?"}
+{"n": 1274, "verdict": "doubt", "msgstr": "¿Confirmas la purga de los metadatos huérfanos? Se creará una instantánea.", "comment": "El glosario dice «hacer commit» para el verbo «commit». ¿Se mantiene «Confirmas»?"}

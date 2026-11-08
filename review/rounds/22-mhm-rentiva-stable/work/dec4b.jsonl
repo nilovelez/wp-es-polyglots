@@ -1,0 +1,39 @@
+{"n": 2202, "verdict": "reject", "msgstr": "Se ha producido un error al borrar la cuenta", "comment": "Según el glosario, «delete» se traduce como «borrar»."}
+{"n": 2203, "verdict": "reject", "msgstr": "La cuenta se ha borrado correctamente. Se te redirigirá a la página de inicio.", "comment": "Según el glosario, «delete» se traduce como «borrar»."}
+{"n": 2204, "verdict": "reject", "msgstr": "Borrando…", "comment": "Según el glosario, «delete» se traduce como «borrar»."}
+{"n": 2205, "verdict": "reject", "msgstr": "¿Seguro del todo? Se borrarán definitivamente tu cuenta y todos sus datos.", "comment": "Según el glosario, «delete» es «borrar», y «¿Estás seguro?» se sustituye por «¿Seguro que…?» o similar, sin género."}
+{"n": 2206, "verdict": "reject", "msgstr": "Esta acción no se puede deshacer. Escribe «DELETE» para confirmar el borrado de la cuenta:", "comment": "Según el glosario, «delete» se traduce como «borrar»."}
+{"n": 2214, "verdict": "fix", "msgstr": "Aviso de reembolso: reserva #{booking_id}", "comment": "Con «#{booking_id}» se deja «#» tal cual, sin «n.º»."}
+{"n": 2215, "verdict": "fix", "msgstr": "Reembolso procesado para la reserva #{booking_id}", "comment": "Con «#{booking_id}» se deja «#» tal cual, sin «n.º»."}
+{"n": 2216, "verdict": "reject", "msgstr": "Marcadores de posición disponibles: {booking_id}, {vehicle_title}, {amount}, {currency}, {status}, {reason}, {contact_name}, {contact_email}, {site_name}", "comment": "Según el glosario, «placeholder» se traduce como «marcador de posición»."}
+{"n": 2226, "verdict": "reject", "msgstr": "Aviso de reembolso (cliente)", "comment": "Según el glosario, «notification» se traduce como «aviso», no como «notificación»."}
+{"n": 2243, "verdict": "fix", "msgstr": "Recordatorio: tu reserva #{booking_id} comienza pronto", "comment": "Con «#{booking_id}» se deja «#» tal cual, sin «n.º»."}
+{"n": 2246, "verdict": "fix", "msgstr": "Reserva cancelada: #{booking_id}", "comment": "Con «#{booking_id}» se deja «#» tal cual, sin «n.º»."}
+{"n": 2249, "verdict": "fix", "msgstr": "Reserva cancelada (plazo de pago vencido): #{booking_id}", "comment": "Con «#{booking_id}» se deja «#» tal cual, sin «n.º»."}
+{"n": 2251, "verdict": "reject", "msgstr": "Correo de aviso al administrador", "comment": "Según el glosario, «notification» se traduce como «aviso», no como «notificación»."}
+{"n": 2252, "verdict": "fix", "msgstr": "Aviso de nueva reserva: #{booking_id} - {site_name}", "comment": "Con «#{booking_id}» se deja «#» tal cual, sin «n.º»."}
+{"n": 2257, "verdict": "fix", "msgstr": "Estado actualizado de la reserva #{booking_id}", "comment": "Con «#{booking_id}» se deja «#» tal cual, sin «n.º»."}
+{"n": 2261, "verdict": "fix", "msgstr": "Reserva confirmada: #{booking_id}", "comment": "Con «#{booking_id}» se deja «#» tal cual, sin «n.º»."}
+{"n": 2264, "verdict": "reject", "msgstr": "Marcadores de posición disponibles: {booking_id}, {vehicle_title}, {pickup_date}, {dropoff_date}, {total_price}, {contact_name}, {contact_email}, {status}, {site_name}, {site_url}", "comment": "Según el glosario, «placeholder» se traduce como «marcador de posición»."}
+{"n": 2265, "verdict": "reject", "msgstr": "Configura los avisos por correo electrónico para la creación de reservas y los cambios de estado.", "comment": "Según el glosario, «notification» se traduce como «aviso», no como «notificación»."}
+{"n": 2280, "verdict": "fix", "msgstr": "Aviso de reembolso: reserva #{{booking.order_id}}", "comment": "Con «#{{booking.order_id}}» se deja «#» tal cual, sin «n.º»."}
+{"n": 2281, "verdict": "fix", "msgstr": "Reembolso procesado para la reserva #{{booking.order_id}}", "comment": "Con «#{{booking.order_id}}» se deja «#» tal cual, sin «n.º»."}
+{"n": 2282, "verdict": "fix", "msgstr": "Reserva #{{booking.order_id}} cancelada - {{site.name}}", "comment": "Con «#{{booking.order_id}}» se deja «#» tal cual, sin «n.º»."}
+{"n": 2285, "verdict": "fix", "msgstr": "Recordatorio: tu reserva #{{booking.order_id}} comienza pronto - {{site.name}}", "comment": "Con «#{{booking.order_id}}» se deja «#» tal cual, sin «n.º»."}
+{"n": 2286, "verdict": "fix", "msgstr": "Estado de la reserva #{{booking.order_id}} actualizado - {{site.name}}", "comment": "Con «#{{booking.order_id}}» se deja «#» tal cual, sin «n.º»."}
+{"n": 2287, "verdict": "fix", "msgstr": "Nueva solicitud de reserva #{{booking.order_id}} - {{site.name}}", "comment": "Con «#{{booking.order_id}}» se deja «#» tal cual, sin «n.º»."}
+{"n": 2288, "verdict": "fix", "msgstr": "Reserva #{{booking.order_id}} confirmada - {{site.name}}", "comment": "Con «#{{booking.order_id}}» se deja «#» tal cual, sin «n.º»."}
+{"n": 2293, "verdict": "reject", "msgstr": "¡Plantilla restablecida a los valores por defecto!", "comment": "Según el glosario y la guía, «default» se traduce como «por defecto»."}
+{"n": 2309, "verdict": "fix", "msgstr": "Reserva de prueba #9999", "comment": "Con «#9999» se deja «#» tal cual, sin «n.º»."}
+{"n": 2312, "verdict": "reject", "msgstr": "Avisos de reserva", "comment": "Según el glosario, «notification» se traduce como «aviso», no como «notificación»."}
+{"n": 2316, "verdict": "reject", "msgstr": "Plantillas de aviso", "comment": "Según el glosario, «notification» se traduce como «aviso», no como «notificación»."}
+{"n": 2320, "verdict": "reject", "msgstr": "ids debe ser un array no vacío.", "comment": "Según el glosario, «array» no se traduce."}
+{"n": 2321, "verdict": "reject", "msgstr": "No tienes permiso para borrar clientes.", "comment": "Según el glosario, «delete» se traduce como «borrar»."}
+{"n": 2345, "verdict": "fix", "msgstr": "Comprueba tu conexión a internet", "comment": "«internet» va en minúscula; no es un nombre propio."}
+{"n": 2362, "verdict": "reject", "msgstr": "Sistema actualizado. Hay nuevas características disponibles.", "comment": "Según el glosario, «feature» se traduce como «característica» por defecto."}
+{"n": 2363, "verdict": "reject", "msgstr": "Nueva característica: {feature}. Haz clic para ver los detalles.", "comment": "Según el glosario, «feature» se traduce como «característica» por defecto."}
+{"n": 2387, "verdict": "fix", "msgstr": "La conexión ha fallado. Comprueba tu conexión a internet.", "comment": "«internet» va en minúscula; no es un nombre propio."}
+{"n": 2389, "verdict": "reject", "msgstr": "Debes acceder para realizar esta acción.", "comment": "Según el glosario, «login» se traduce como «acceder»; no se usa «iniciar sesión»."}
+{"n": 2401, "verdict": "reject", "msgstr": "Tu sesión ha caducado. Accede de nuevo.", "comment": "Según el glosario, «login» se traduce como «acceder»; no se usa «iniciar sesión»."}
+{"n": 2403, "verdict": "reject", "msgstr": "Esta característica está desactivada temporalmente.", "comment": "Según el glosario, «feature» se traduce como «característica» por defecto."}
+{"n": 2412, "verdict": "reject", "msgstr": "No se ha encontrado la información del cliente. Accede.", "comment": "Según el glosario, «login» se traduce como «acceder»; no se usa «iniciar sesión»."}

@@ -1,0 +1,107 @@
+#672: glossary: set → establecer | conjunto?
+#686: glossary: check → marcar / comprobar | cheque? [nota: Dependiendo del contexto. Por ejemplo: marcar una casilla / comprobar un ajuste / En comercio, como medio de pago.]
+#695: glossary: toggle → conmutador | cambiar / alternar?
+#701: glossary: by clicking → al hacer clic?
+#703: glossary: about → acerca de? [nota: Preferimos «Acerca de» antes que «Sobre», pero dependerá del contexto. «Acerca del tema Baskerville» «Sobre el autor»]
+#704: «#%d» → keep «#», not «n.º»
+#711: glossary: receipt → recibo? | glossary: review → reseña / valoración? [nota: Depende del contexto se usa reseña (foros) o valoración (directorio de plugins y temas)] | glossary: upload → subida | subir? [nota: No utilizar: carga (incorrecto) / No utilizar: cargar (incorrecto)]
+#714: glossary: receipt → recibo? | glossary: review → reseña / valoración? [nota: Depende del contexto se usa reseña (foros) o valoración (directorio de plugins y temas)]
+#715: glossary: receipt → recibo? | glossary: review → reseña / valoración? [nota: Depende del contexto se usa reseña (foros) o valoración (directorio de plugins y temas)]
+#717: glossary: clear → vaciar?
+#718: glossary: receipt → recibo?
+#720: capitals mid-sentence: Reserva | «#%d» → keep «#», not «n.º»
+#725: glossary: license → licencia?
+#733: «#%d» → keep «#», not «n.º»
+#736: glossary: receipt → recibo?
+#737: glossary: receipt → recibo?
+#738: glossary: receipt → recibo? | capitals mid-sentence: Reserva | «#%d» → keep «#», not «n.º»
+#750: glossary: save → guardar o ahorrar, según contexto? [nota: No utilizar: Salvar (incorrecto)]
+#752: glossary: login → acceder / acceso? [nota: Usar «Acceder» cuando sea 1) una etiqueta de un botón, cuando se haga la acción de acceder al pulsarlo. 2) se refiera en un texto a la acción de acceder. No utilizar: Iniciar Sesión (Incorrecto). Entrar (Incorrecto). Identificarse (Incorrecto)]
+#753: glossary: Dashboard → Escritorio? [nota: No utilizar «tablero» o «panel de control»]
+#771: glossary: check → marcar / comprobar | cheque? [nota: Dependiendo del contexto. Por ejemplo: marcar una casilla / comprobar un ajuste / En comercio, como medio de pago.]
+#774: glossary: sorry → lo siento? [nota: No utilizar: Lo sentimos (Incorrecto) Perdona (Incorrecto)]
+#781: glossary term left in English: hook → gancho [nota: Action hook -> gancho de acción Filter hook -> gancho de filtro]
+#784: glossary: receipt → recibo?
+#792: glossary: clear → vaciar?
+#794: glossary: by clicking → al hacer clic?
+#798: glossary: delete → borrar?
+#799: glossary: delete → borrar?
+#808: glossary: support → es compatible con / dar soporte? [nota: Si se refiere a compatibilidad entre versiones/software se traduce como «compatible con» si se refiere a dar ayuda en foros se traduce como «dar soporte»]
+#817: «#%d» → keep «#», not «n.º»
+#828: glossary: fee → cuota? [nota: WooCommerce]
+#842: glossary: next → siguiente? [nota: Si es comienzo de frase traducir como «A continuación»]
+#857: glossary: support → es compatible con / dar soporte? [nota: Si se refiere a compatibilidad entre versiones/software se traduce como «compatible con» si se refiere a dar ayuda en foros se traduce como «dar soporte»]
+#861: glossary: rollback → retroceso | retroceder?
+#865: glossary: rollback → retroceso | retroceder?
+#868: glossary: set → establecer | conjunto?
+#872: glossary: render → procesar / mostrar? [nota: Usar según el contexto. En programación usar «procesar», cuando se refiere a mostrar elementos en una página usar «mostrar»]
+#885: glossary: rollback → retroceso | retroceder?
+#886: glossary: rollback → retroceso | retroceder?
+#889: glossary: rollback → retroceso | retroceder?
+#892: glossary: rollback → retroceso | retroceder?
+#893: glossary: rollback → retroceso | retroceder?
+#895: glossary: rollback → retroceso | retroceder?
+#901: «#%d» → keep «#», not «n.º»
+#902: «#%d» → keep «#», not «n.º»
+#903: glossary: array is not translated (array) [nota: No se traduce]
+#906: glossary: blueprint → modelo? [nota: Se refiere a modelos (como bocetos) de instalación, de WordPress, WooCommerce y otros, para reutilizar en otras instalaciones.]
+#908: glossary: review → reseña / valoración? [nota: Depende del contexto se usa reseña (foros) o valoración (directorio de plugins y temas)]
+#915: glossary: vendor → vendedor?
+#918: glossary: drag and drop → arrastrar y soltar?
+#920: glossary: delete → borrar?
+#942: glossary: default → por defecto?
+#953: glossary: core → núcleo? [nota: Se suele referir al núcleo de WordPress]
+#955: glossary: save → guardar o ahorrar, según contexto? [nota: No utilizar: Salvar (incorrecto)]
+#956: glossary: save → guardar o ahorrar, según contexto? [nota: No utilizar: Salvar (incorrecto)]
+#960: glossary: save → guardar o ahorrar, según contexto? [nota: No utilizar: Salvar (incorrecto)]
+#970: capitals mid-sentence: Diésel
+#974: glossary: core → núcleo? [nota: Se suele referir al núcleo de WordPress]
+#977: glossary: save → guardar o ahorrar, según contexto? [nota: No utilizar: Salvar (incorrecto)]
+#988: capitals mid-sentence: Mi
+#1011: glossary: holder → titular? [nota: Cuando se habla del titular de una tarjeta o cuenta de banco «account holder» «card holder»]
+#1018: glossary: warning → advertencia?
+#1129: glossary: delete → borrar?
+#1131: glossary: save → guardar o ahorrar, según contexto? [nota: No utilizar: Salvar (incorrecto)]
+#1134: glossary term left in English: hook → gancho [nota: Action hook -> gancho de acción Filter hook -> gancho de filtro]
+#1135: capitals mid-sentence: Cron
+#1137: glossary term left in English: hook → gancho [nota: Action hook -> gancho de acción Filter hook -> gancho de filtro]
+#1138: glossary term left in English: hook → gancho [nota: Action hook -> gancho de acción Filter hook -> gancho de filtro] | capitals mid-sentence: Cron
+#1140: glossary: post → entrada?
+#1147: glossary term left in English: post → entrada
+#1149: glossary: default → por defecto?
+#1152: glossary: set → establecer | conjunto?
+#1153: glossary: email → correo electrónico? [nota: No utilizar: email (Incorrecto). correo e (Incorrecto). e-mail (Incorrecto). Correo Electrónico (con E mayúscula) (Incorrecto) email address = dirección de correo electrónico (Correcto)]
+#1178: glossary: frontend → portada / vista pública / parte pública? | glossary: set → establecer | conjunto?
+#1179: glossary: required → obligatorio / requerido / necesario? [nota: Usar siempre «obligatorio», y solo en contadas ocasiones - muy justificadas por el contexto - se puede usar requerido. También «necesario», que es menos impositivo.] | glossary: setting → ajuste? | glossary: settings → ajustes? [nota: No utilizar: Opciones (Incorrecto)] | capitals mid-sentence: Importante
+#1184: glossary: save → guardar o ahorrar, según contexto? [nota: No utilizar: Salvar (incorrecto)]
+#1186: glossary: frontend → portada / vista pública / parte pública? | glossary: set → establecer | conjunto?
+#1187: capitals mid-sentence: Importante
+#1188: glossary: review → reseña / valoración? [nota: Depende del contexto se usa reseña (foros) o valoración (directorio de plugins y temas)]
+#1193: glossary: badge → acreditación / insignia / distinción?
+#1194: glossary: badge → acreditación / insignia / distinción?
+#1199: glossary: default → por defecto?
+#1200: glossary: frontend → portada / vista pública / parte pública?
+#1205: glossary: save → guardar o ahorrar, según contexto? [nota: No utilizar: Salvar (incorrecto)]
+#1206: glossary: post → entrada?
+#1207: glossary: email → correo electrónico? [nota: No utilizar: email (Incorrecto). correo e (Incorrecto). e-mail (Incorrecto). Correo Electrónico (con E mayúscula) (Incorrecto) email address = dirección de correo electrónico (Correcto)]
+#1208: glossary: email → correo electrónico? [nota: No utilizar: email (Incorrecto). correo e (Incorrecto). e-mail (Incorrecto). Correo Electrónico (con E mayúscula) (Incorrecto) email address = dirección de correo electrónico (Correcto)]
+#1210: glossary: email → correo electrónico? [nota: No utilizar: email (Incorrecto). correo e (Incorrecto). e-mail (Incorrecto). Correo Electrónico (con E mayúscula) (Incorrecto) email address = dirección de correo electrónico (Correcto)]
+#1214: glossary: notification → aviso? [nota: No usar «notificación»]
+#1215: glossary: default → por defecto? | glossary: email → correo electrónico? [nota: No utilizar: email (Incorrecto). correo e (Incorrecto). e-mail (Incorrecto). Correo Electrónico (con E mayúscula) (Incorrecto) email address = dirección de correo electrónico (Correcto)]
+#1216: capitals mid-sentence: Importante
+#1217: glossary: notification → aviso? [nota: No usar «notificación»]
+#1218: glossary: notification → aviso? [nota: No usar «notificación»]
+#1227: glossary: link → enlazar | enlace? [nota: No usar «vincular», «linkear» ni ninguna otra cosa / no usar «link», «vínculo» ni «liga»] | glossary: screen → pantalla?
+#1240: glossary term left in English: endpoint → variable [nota: se refiere a las variables/constantes en los slugs normalmente / En WooCommerce de refiere a slugs de la URL para diferentes situaciones en el proceso de compra. En el resto de situaciones a variables de programación.]
+#1241: glossary: commit is not translated (commit | hacer commit) [nota: (No se traduce)]
+#1242: glossary: core → núcleo? [nota: Se suele referir al núcleo de WordPress]
+#1250: glossary: streaming → transmisión?
+#1257: glossary: rollback → retroceso | retroceder?
+#1274: glossary: commit is not translated (commit | hacer commit) [nota: (No se traduce)]
+#1277: glossary: clear → vaciar?
+#1290: capitals mid-sentence: Word
+#1298: glossary term left in English: hook → gancho [nota: Action hook -> gancho de acción Filter hook -> gancho de filtro]
+#1306: glossary: next → siguiente? [nota: Si es comienzo de frase traducir como «A continuación»]
+#1310: glossary term left in English: hook → gancho [nota: Action hook -> gancho de acción Filter hook -> gancho de filtro]
+#1318: glossary term left in English: monitor → supervisar / seguir / vigilar [nota: No usar «monitorear» o similares]
+#1320: glossary: frontend → portada / vista pública / parte pública?

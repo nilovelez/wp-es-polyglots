@@ -1,0 +1,189 @@
+==  valoraci 1
+   1325 Configura la moderación de comentarios, los ajustes de valoración, la protección contra el spam y las opciones de visualización.
+==  puntuaci 29
+   3 Las puntuaciones de vehículos no están disponibles aquí.
+   28 Mostrar lista de puntuaciones
+   29 Mostrar formulario de puntuación
+   30 Mostrar resumen de puntuaciones
+   51 Se ha producido un error al enviar la puntuación.
+   53 Selecciona una puntuación.
+   378 Formulario de puntuación y reseña del vehículo.
+   379 Formulario de puntuación del vehículo
+   535 Filtrar por puntuación
+   586 Debes estar conectado para enviar una puntuación y una reseña.
+   588 Borrar puntuación
+   589 Enviar puntuación
+   590 Actualizar puntuación
+   594 Tu puntuación:
+   1089 Error: debes asignar a este vehículo una puntuación válida (de 1 a 5 estrellas).
+   1336 Formulario de puntuación y reseña de vehículos: los clientes pueden puntuar y reseñar los vehículos
+   1344 Reseñas y puntuaciones de los clientes
+   1618 Mostrar puntuaciones con estrellas junto a los comentarios.
+   1619 Mostrar puntuaciones
+   1628 Configura los ajustes del sistema de comentarios y puntuaciones de los vehículos.
+   1770 Formulario de puntuación del vehículo
+   1791 Mostrar número de puntuaciones
+   1792 Mostrar puntuación con estrellas
+   1824 Filtrar por puntuación mínima en estrellas (déjalo vacío para mostrar todos).
+   1857 Mostrar puntuación
+   1912 No se ha podido enviar la puntuación
+   1920 Vehículo o valor de puntuación no válido
+   1960 Número de puntuaciones
+   2038 La puntuación debe estar entre 1 y 5.
+==  [Ee]liminad|[Ee]liminar|[Ee]limina\b 28
+   67 Obsoleto: este bloque muestra un aviso que dirige a los clientes a la página de cuenta de WooCommerce. Se eliminará en la versión 7.0.
+   133 ['¿Eliminar definitivamente %d mensaje? Esta acción no se puede deshacer.', '¿Eliminar definitivamente %d mensajes? Esta acción no se puede deshacer.']
+   156 Rentiva: este escritorio del cliente está obsoleto y se eliminará en la versión 7.0. Quita el shortcode, bloque o widget de esta página; los clientes deberán ut
+   167 ['No se ha podido mover %d archivo adjunto de un mensaje de contacto a la carpeta privada. Se ha eliminado su enlace del mensaje, pero el archivo permanece en s
+   407 Eliminar página
+   947 Equipamiento personalizado eliminado correctamente
+   948 Equipamiento eliminado correctamente
+   949 Característica personalizada eliminada correctamente
+   950 Característica eliminada correctamente
+   951 Detalle personalizado eliminado correctamente
+   952 Campo eliminado correctamente.
+   953 Este es un campo del sistema y no se puede eliminar.
+   1109 No se ha podido eliminar la tabla de la base de datos %s.
+   1111 Se han eliminado correctamente todos los datos del plugin
+   1112 No se ha podido eliminar el índice obsoleto de la base de datos %s.
+   2172 No se ha podido eliminar el archivo del recibo.
+   2173 Recibo eliminado correctamente.
+   2174 No se ha encontrado ningún recibo para eliminar.
+   2175 No tienes permisos para eliminar el recibo de esta reserva.
+   2194 ¿Seguro que quieres eliminar este recibo?
+   2699 ¡Equipamiento personalizado eliminado correctamente!
+   2700 ¿Seguro que quieres eliminar este equipamiento personalizado?
+   2701 ¡Característica personalizada eliminada correctamente!
+   2702 ¿Seguro que quieres eliminar esta característica personalizada?
+   2703 ¡Detalle personalizado eliminado correctamente!
+   2704 ¿Seguro que quieres eliminar este detalle personalizado?
+   2790 ¿Seguro que quieres eliminar este equipamiento?
+   2791 ¿Seguro que quieres eliminar esta característica?
+==  predetermin 0
+==  justificante 1
+   330 Indica por qué no corresponde ningún reembolso. Esta acción cierra una obligación económica y el motivo quedará registrado como justificante.
+==  n\.º 0
+==  vincul 0
+==  otificaci|otificar 0
+==  Lo sentimos 0
+==  [Ii]niciar sesi|[Ii]nicia sesi|[Ii]niciado sesi 0
+==  Estimado/a 0
+==  tipo impositivo 0
+==  autentic 0
+==  \bpanel\b 5
+   155 Abrir en el panel de administración
+   771 Se ha recibido una nueva solicitud de reserva. Compruébala desde el panel de administración.
+   1439 Selecciona la combinación de colores del panel de administración.
+   1564 Se ha enviado una nueva solicitud de reserva desde tu sitio web. Accede al panel de administración para tramitarla.
+   1757 Reembolso tramitado desde el panel de Rentiva
+==  asistencia 1
+   352 p. ej., asistencia en carretera
+==  correo\b(?! electr) 5
+   1215 El sistema de correo por defecto de WordPress puede no ser fiable según la configuración del servidor y provocar que los mensajes acaben en las carpetas de spam
+   1323 Configura el servidor de correo saliente y los datos del remitente.
+   1522 Enviar correo de bienvenida
+   1637 Enviar correo de cancelación automática
+   2237 Envía un correo de prueba y consulta su vista previa en directo junto a él.
+==  \bcaché|\bcache 16
+   411 Se vaciará la caché. ¿Quieres continuar?
+   421 Vaciar caché
+   1277 Vaciar la caché del sistema
+   1403 Ajustes de caché
+   1579 Duración de la caché para los cálculos de informes.
+   1580 Tiempo de vida de la caché de informes (minutos)
+   1581 Duración de la caché para las listas de vehículos y reservas.
+   1582 Tiempo de vida de la caché de listas (minutos)
+   1583 Tiempo durante el que se mantienen en caché los datos generales.
+   1584 Tiempo de vida por defecto de la caché (horas)
+   1585 La caché de objetos activa reduce considerablemente la carga de la base de datos.
+   1586 Activar caché de objetos
+   1588 Duración de la caché en minutos.
+   1589 Duración de la caché (minutos)
+   1590 Activa la caché de comentarios para mejorar el rendimiento.
+   1591 Activar caché de comentarios
+==  Borrar|borrar 31
+   132 Sí, borrar
+   134 Borrar definitivamente
+   160 Solo se puede borrar definitivamente un mensaje que esté en la papelera.
+   341 Borrar %s
+   367 No se ha podido borrar el servicio adicional.
+   408 Borrar todo
+   409 Se borrarán definitivamente todas las páginas de shortcodes creadas. ¿Seguro?
+   443 Error al borrar elementos en bloque.
+   588 Borrar puntuación
+   798 Borrar definitivamente tu cuenta y todos los datos asociados
+   799 Borrar cuenta
+   920 Borrar seleccionados
+   1400 Si se activa esta opción, al desinstalar el plugin se borrarán definitivamente todas las tablas y los ajustes de MHM Rentiva.
+   1409 Número de días que se conservarán los registros antes de borrarlos.
+   1410 Borrar automáticamente los registros antiguos según el periodo de retención.
+   1613 Permitir borrar comentarios
+   1922 Error al borrar el comentario. Inténtalo de nuevo.
+   1923 Error al borrar el comentario:  
+   2202 Se ha producido un error al borrar la cuenta
+   2205 ¿Seguro del todo? Se borrarán definitivamente tu cuenta y todos sus datos.
+   2321 No tienes permiso para borrar clientes.
+   2456 No se ha podido borrar la copia de seguridad
+   2682 No se ha podido borrar el campo.
+   2684 El campo «%s» se borrará definitivamente. ¿Seguro?
+   2712 ¿Seguro que quieres restablecer todos los ajustes de vehículos a sus valores por defecto? Las definiciones de campos personalizados NO se borrarán.
+   2733 ¿Seguro que quieres borrar este estado?
+   2736 ¿Seguro que quieres borrar esta categoría?
+   2740 ¿Borrar definitivamente esta reserva?
+   2742 ¿Borrar definitivamente las %d reservas seleccionadas?
+   2766 Borrar
+   3194 ¿Seguro que quieres borrar los servicios adicionales seleccionados? Esta acción no se puede deshacer.
+==  \bparámetro 2
+   868 No se ha encontrado la página y no se ha indicado el parámetro --create.
+   2319 Faltan parámetros.
+==  \bmultimedia 0
+==  \bmatriz 1
+   1265 Restaurando matriz…
+==  \bformato\b 1
+   1808 Muestra la tarjeta de un único vehículo, en formato de lista o independiente.
+==  \bcontenidos\b 0
+==  \bdefecto\b 34
+   486 Por defecto: «Ver todos los vehículos»
+   505 Introduce un ID de página para sobrescribir el ajuste global. Vacíalo para volver al valor por defecto.
+   507 Déjalo con el valor por defecto para utilizar la página global de resultados.
+   517 Valor por defecto global
+   563 Días por defecto
+   942 Ajustes restablecidos a los valores por defecto.
+   1149 Función wp_mail() por defecto
+   1199 Ajusta los valores por defecto visibles en los formularios de reserva y las tarjetas de vehículos.
+   1215 El sistema de correo por defecto de WordPress puede no ser fiable según la configuración del servidor y provocar que los mensajes acaben en las carpetas de spam
+   1364 Esta ubicación se utilizará como alternativa si un vehículo no tiene una ubicación específica y su propietario (vendedor) tampoco tiene una ubicación por defect
+   1365 Ubicación por defecto del alquiler
+   1366 Por defecto (ninguno)
+   1389 Segmento de URL utilizado para las páginas de detalles de vehículos. Por defecto: vehicle → example.com/vehicle/nombre-del-vehiculo/
+   1447 Por defecto: «%s»
+   1493 Personaliza las etiquetas y los textos de los botones que se muestran en la parte pública. Déjalos vacíos para utilizar los valores por defecto.
+   1494 Orden por defecto del catálogo de vehículos
+   1513 Orden por defecto
+   1584 Tiempo de vida por defecto de la caché (horas)
+   1656 Duración por defecto del alquiler en el formulario de reserva (días).
+   1657 Días de alquiler por defecto
+   1667 Orden del menú (por defecto)
+   1678 Los ajustes de la API REST se han restablecido correctamente a sus valores por defecto.
+   1679 No se han podido restablecer los ajustes de la API REST a sus valores por defecto.
+   1884 Número por defecto de días
+   2293 ¡Plantilla restablecida a los valores por defecto!
+   2493 Restablecer valores por defecto
+   2635 ¿Restablecer esta pestaña a los valores por defecto?
+   2712 ¿Seguro que quieres restablecer todos los ajustes de vehículos a sus valores por defecto? Las definiciones de campos personalizados NO se borrarán.
+   2713 ¿Seguro que quieres restablecer todos los ajustes de la API REST a sus valores por defecto? Esta acción no se puede deshacer.
+   2714 ¿Seguro que quieres restablecer esta plantilla a sus valores por defecto?
+   2720 No se han podido restablecer los ajustes a sus valores por defecto.
+   2721 Los ajustes se han restablecido correctamente a sus valores por defecto. La página se volverá a cargar…
+   2723 ¿Seguro que quieres restablecer los ajustes de esta pestaña a sus valores por defecto? Esta acción no se puede deshacer.
+   2724 Plantilla restablecida a los valores por defecto
+==  \bcanal 0
+==  \bdeshacer 8
+   133 ['¿Eliminar definitivamente %d mensaje? Esta acción no se puede deshacer.', '¿Eliminar definitivamente %d mensajes? Esta acción no se puede deshacer.']
+   841 ¿Seguro que quieres cancelar esta reserva? Esta acción no se puede deshacer.
+   1333 ¿Seguro que quieres restablecer esta pestaña? Esta acción no se puede deshacer.
+   2206 Esta acción no se puede deshacer. Escribe «DELETE» para confirmar el borrado de la cuenta:
+   2612 Esta acción no se puede deshacer
+   2713 ¿Seguro que quieres restablecer todos los ajustes de la API REST a sus valores por defecto? Esta acción no se puede deshacer.
+   2723 ¿Seguro que quieres restablecer los ajustes de esta pestaña a sus valores por defecto? Esta acción no se puede deshacer.
+   3194 ¿Seguro que quieres borrar los servicios adicionales seleccionados? Esta acción no se puede deshacer.

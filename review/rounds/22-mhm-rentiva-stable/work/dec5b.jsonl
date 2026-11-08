@@ -1,0 +1,9 @@
+{"n": 2925, "verdict": "reject", "msgstr": "Tu recibo de pago ha sido rechazado", "comment": "Según el glosario, «receipt» se traduce como «recibo»."}
+{"n": 2926, "verdict": "reject", "msgstr": "Tu recibo de pago ha sido aprobado", "comment": "Según el glosario, «receipt» se traduce como «recibo»."}
+{"n": 2927, "verdict": "reject", "msgstr": "Rechazar recibo", "comment": "Según el glosario, «receipt» se traduce como «recibo»."}
+{"n": 2928, "verdict": "reject", "msgstr": "Aprobar recibo", "comment": "Según el glosario, «receipt» se traduce como «recibo»."}
+{"n": 2931, "verdict": "reject", "msgstr": "No se ha subido ningún recibo.", "comment": "Según el glosario, «receipt» se traduce como «recibo»."}
+{"n": 2933, "verdict": "reject", "msgstr": "Archivo del recibo:", "comment": "Según el glosario, «receipt» se traduce como «recibo»."}
+{"n": 2941, "verdict": "reject", "msgstr": "Recibo de pago", "comment": "Según el glosario, «receipt» se traduce como «recibo»."}
+{"n": 3013, "verdict": "fix", "msgstr": "Reserva #%d", "comment": "Con «#%d» se deja «#» tal cual, sin «n.º»."}
+{"n": 3085, "verdict": "reject", "msgstr": "Lo siento, no se ha encontrado ningún vehículo para las fechas seleccionadas. Prueba con otras fechas.", "comment": "Según el glosario, en la voz de WordPress se dice «Lo siento», no «Lo sentimos»."}

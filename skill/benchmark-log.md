@@ -140,6 +140,13 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - Resultado: 291 cambios propuestos, aceptados en bloque por Nilo («me vale»), sin revisarlos cadena a cadena. La medición de esta ronda no es comparable con las demás.
 - Lección: en rondas por tramos, comprobar antes de `review-po` que los términos de `terms.md` se aplicaron en todo el archivo. Anotado en `review/README.md`.
 
+## 2026-11-08 · Haiku · ronda 22 (MHM Rentiva, stable, 3302 cadenas) · directa, sin revisión humana
+
+- Cinco tramos seguidos de unas 660 cadenas, unos 14 minutos. Traducción humana y buena. Primera ronda con las notas del glosario en las pistas de `lint`.
+- Haiku: 388 decisiones (337 rechazos, 48 correcciones, 3 dudas). Casi todo del glosario y aplicando sus notas: *delete* = «borrar» (~49), *rating* fuera del directorio = «puntuación» (~45), «#%d» en lugar de «n.º» (~45), *default* (~38), *remove* = «quitar» salvo borrados físicos (~32), *login* / *logged in* = «acceder» / «conectado» (~28), *receipt* = «recibo» (~26), «aviso» (~23).
+- Auditoría de Opus: 13 descartadas y 1 editada. «asistencia» → «soporte» (13): el glosario solo da «dar soporte» para el verbo y «asistencia» es correcto. #2205: Haiku reformulaba «¿Estás completamente seguro?»; solo se aplica «borrar». Quedan 372 cambios.
+- Dudas que se dejan como estaban: *endpoint* en la API REST (#1240) y *Commit* en botones (#1241, #1274).
+
 ## 2026-11-08 · Haiku · ronda 21 (Gratora, stable, 3523 cadenas) · directa, sin revisión humana
 
 - Cinco tramos seguidos de unas 705 cadenas, unos 15 minutos. Traducción humana y buena.

@@ -1,0 +1,1693 @@
+# Translation of Plugins - MHM Rentiva - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - MHM Rentiva - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: +0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.1.0\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - MHM Rentiva - Stable (latest release)\n"
+
+#: templates/shortcodes/vehicle-rating-form.php:49
+msgid "Vehicle ratings are not available here."
+msgstr "Las puntuaciones de vehículos no están disponibles aquí."
+
+#: src/Admin/Frontend/Widgets/Base/ParityLabels.php:297
+msgid "Show Ratings List"
+msgstr "Mostrar lista de puntuaciones"
+
+#: src/Admin/Frontend/Widgets/Base/ParityLabels.php:296
+msgid "Show Rating Form"
+msgstr "Mostrar formulario de puntuación"
+
+#: src/Admin/Frontend/Widgets/Base/ParityLabels.php:295
+msgid "Show Rating Summary"
+msgstr "Mostrar resumen de puntuaciones"
+
+#: src/Admin/Frontend/Widgets/Base/ParityLabels.php:271
+msgid "Show View Toggle"
+msgstr "Mostrar conmutador de vista"
+
+#: src/Admin/Frontend/Shortcodes/VehicleRatingForm.php:131
+msgid "An error occurred while submitting the rating."
+msgstr "Se ha producido un error al enviar la puntuación."
+
+#: src/Admin/Frontend/Shortcodes/VehicleRatingForm.php:129
+msgid "Please select a rating."
+msgstr "Selecciona una puntuación."
+
+#: src/Admin/Frontend/Shortcodes/VehicleDetails.php:210
+msgid "No vehicle selected. Set a vehicle ID in the widget settings, or place this widget on a vehicle page."
+msgstr "No se ha seleccionado ningún vehículo. Establece un ID de vehículo en los ajustes del widget o coloca este widget en una página de vehículo."
+
+#: src/Admin/Frontend/Shortcodes/Account/MyBookings.php:51
+#: src/Admin/Frontend/Shortcodes/Account/MyFavorites.php:143
+#: src/Admin/Frontend/Shortcodes/Account/PaymentHistory.php:53
+#: src/Admin/Frontend/Shortcodes/VehicleComparison.php:187
+msgid "Preview: sample data. Logged-in customers see their own records."
+msgstr "Vista previa: datos de ejemplo. Los clientes conectados verán sus propios registros."
+
+#. translators: %s: the error message the template rendering raised.
+#: src/Admin/Emails/Ajax/EmailAjaxHandler.php:86
+msgid "Could not render the preview: %s"
+msgstr "No se ha podido mostrar la vista previa: %s"
+
+#: build/admin/contact-messages.js:17
+msgid "This message is in the trash. Restore it, or delete it permanently."
+msgstr "Este mensaje está en la papelera. Restáuralo o bórralo definitivamente."
+
+#. translators: %d: message number.
+#: build/admin/contact-messages.js:17
+msgid "Message #%d"
+msgstr "Mensaje #%d"
+
+#: build/admin/contact-messages.js:13
+msgid "The bulk action could not be completed."
+msgstr "No se ha podido completar la acción en lote."
+
+#: build/admin/contact-messages.js:4
+msgid "Clear selection"
+msgstr "Quitar selección"
+
+#: build/admin/contact-messages.js:3
+msgid "Bulk actions"
+msgstr "Acciones en lote"
+
+#: build/admin/contact-messages.js:3 build/admin/contact-messages.js:18
+#: build/admin/contact-messages.js:20
+msgid "Deleting…"
+msgstr "Borrando…"
+
+#: build/admin/contact-messages.js:3 build/admin/contact-messages.js:18
+msgid "Yes, delete"
+msgstr "Sí, borrar"
+
+#. translators: %d: number of selected messages.
+#: build/admin/contact-messages.js:3
+msgid "Delete %d message permanently? This cannot be undone."
+msgid_plural "Delete %d messages permanently? This cannot be undone."
+msgstr[0] "¿Borrar definitivamente %d mensaje? Esta acción no se puede deshacer."
+msgstr[1] "¿Borrar definitivamente %d mensajes? Esta acción no se puede deshacer."
+
+#: build/admin/contact-messages.js:2 build/admin/contact-messages.js:17
+#: build/admin/contact-messages.js:18
+msgid "Delete permanently"
+msgstr "Borrar definitivamente"
+
+#: src/Admin/Vehicle/Templates/vehicle-gallery.php:64
+msgid "This image is not shown on the site and will be removed when the gallery is saved."
+msgstr "Esta imagen no se muestra en el sitio y se quitará al guardar la galería."
+
+#: src/Admin/Vehicle/Meta/VehicleGallery.php:663
+msgid "You are not allowed to attach media to this vehicle."
+msgstr "No tienes permisos para adjuntar archivos de medios a este vehículo."
+
+#: src/Admin/Vehicle/Meta/VehicleGallery.php:511
+msgid "This featured image is not shown on the site and will be removed when the vehicle is saved."
+msgstr "Esta imagen destacada no se muestra en el sitio y se quitará al guardar el vehículo."
+
+#: src/Admin/Frontend/Widgets/Elementor/UserDashboardWidget.php:68
+msgid "Deprecated: this widget renders a notice pointing customers to the WooCommerce account page. Remove it from this page; it will stop working in 7.0."
+msgstr "Obsoleto: este widget muestra un aviso que dirige a los clientes a la página de cuenta de WooCommerce. Quítalo de esta página; dejará de funcionar en la versión 7.0."
+
+#: src/Admin/Frontend/Widgets/Elementor/UserDashboardWidget.php:23
+#: src/Admin/Settings/ShortcodePages/ShortcodePageActions.php:35
+msgid "User Dashboard (deprecated)"
+msgstr "Escritorio del usuario (obsoleto)"
+
+#: src/Admin/Frontend/Shortcodes/Account/UserDashboard.php:101
+msgid "Rentiva: this customer dashboard is deprecated and will be removed in 7.0. Remove the shortcode, block or widget from this page; customers use the WooCommerce account page instead. Only administrators see this notice."
+msgstr "Rentiva: este escritorio del cliente está obsoleto y se eliminará en la versión 7.0. Quita el shortcode, bloque o widget de esta página; los clientes deberán utilizar la página de cuenta de WooCommerce. Solo los administradores ven este aviso."
+
+#: src/Admin/ContactMessages/REST/ContactMessagesRestController.php:257
+msgid "Only a message in the trash can be deleted permanently."
+msgstr "Solo se puede borrar definitivamente un mensaje que esté en la papelera."
+
+#. translators: %d: number of contact message attachments that were not moved.
+#: src/Admin/ContactMessages/ContactAttachmentMigration.php:331
+msgid "%d contact message attachment could not be moved into the private folder. Its link was removed from the message; the file itself was left where it was:"
+msgid_plural "%d contact message attachments could not be moved into the private folder. Their links were removed from the messages; the files themselves were left where they were:"
+msgstr[0] "No se ha podido mover %d archivo adjunto de un mensaje de contacto a la carpeta privada. Se ha quitado su enlace del mensaje, pero el archivo permanece en su ubicación original:"
+msgstr[1] "No se han podido mover %d archivos adjuntos de mensajes de contacto a la carpeta privada. Se han quitado sus enlaces de los mensajes, pero los archivos permanecen en sus ubicaciones originales:"
+
+#: src/Admin/Utilities/Database/DatabaseCleanupPage.php:245
+msgid "Cleanup cancelled: this site's table prefix is too long for the cleanup to name a backup table. Nothing was deleted."
+msgstr "Limpieza cancelada: el prefijo de las tablas de este sitio es demasiado largo para asignar un nombre a la tabla de copia de seguridad. No se ha borrado nada."
+
+#. translators: 1: current table-prefix length in characters. 2: maximum
+#. supported length in characters.
+#: src/Admin/Core/Utilities/DatabaseCleaner.php:1215
+msgid "This site's table prefix (%1$d characters) is too long for the invalid-meta cleanup to name a backup table within MySQL's 64-character identifier limit (maximum supported: %2$d characters). The cleanup was not run."
+msgstr "El prefijo de las tablas de este sitio (%1$d caracteres) es demasiado largo para que la limpieza de metadatos no válidos pueda asignar un nombre a una tabla de copia de seguridad dentro del límite de 64 caracteres de MySQL (máximo compatible: %2$d caracteres). No se ha ejecutado la limpieza."
+
+#: src/Admin/Core/Utilities/DatabaseCleaner.php:1032
+msgid "Cleanup cancelled: the backup table could not be created or filled. Nothing was deleted."
+msgstr "Limpieza cancelada: no se ha podido crear ni rellenar la tabla de copia de seguridad. No se ha borrado nada."
+
+#: src/Layout/Versioning/LayoutRollbackService.php:137
+msgid "Rollback wrote nothing for this page: the previous manifest no longer resolves to it."
+msgstr "El retroceso no ha modificado nada en esta página: el manifiesto anterior ya no la identifica."
+
+#. translators: %d: page index in the manifest.
+#: src/Layout/LayoutErrorMessages.php:126
+msgid "Page #%d is not a valid page object"
+msgstr "La página #%d no es un objeto de página válido"
+
+#. translators: %d: booking id
+#: src/Helpers/NotificationHelper.php:322
+msgid "Booking #%d has been cancelled. Its paid orders are in more than one currency, so the plugin cannot total or move a refund for it automatically."
+msgstr "La reserva #%d se ha cancelado. Sus pedidos pagados están en más de una divisa, por lo que el plugin no puede calcular ni tramitar el reembolso automáticamente."
+
+#. translators: 1: order id, 2: booking id
+#: src/Helpers/NotificationHelper.php:267
+msgid "Order #%1$d on booking #%2$d was cancelled or failed. Another order on this booking still holds paid money -- the order that died was not necessarily the debt."
+msgstr "El pedido #%1$d de la reserva #%2$d se canceló o falló. Otro pedido de esta reserva todavía conserva un importe pagado; el pedido que falló no tiene por qué ser el que representa la deuda."
+
+#. translators: %d: booking id
+#: src/Helpers/NotificationHelper.php:214
+msgid "Booking #%d was cancelled, but something went wrong afterward and the refund may not have completed."
+msgstr "La reserva #%d se ha cancelado, pero se ha producido un problema posterior y es posible que el reembolso no se haya completado."
+
+#. translators: %d: booking id
+#: src/Helpers/NotificationHelper.php:135
+msgid "Auto-cancel found booking #%d already holding a paid order and left it alone -- it did not cancel the booking or its order."
+msgstr "La cancelación automática ha detectado que la reserva #%d ya tenía un pedido pagado y no la ha modificado; no ha cancelado la reserva ni el pedido."
+
+#. translators: 1: booking id, 2: the surface (auto_cancel) that could not park
+#. this booking for review.
+#: src/Admin/PostTypes/Maintenance/AutoCancel.php:633
+msgid "Refund lock refused for booking #%1$d (surface: %2$s): the booking holds paid money and could not park the booking for review -- its refund lock could not be taken. Another refund operation may still be running, or a lock left behind by one that did not finish is waiting to expire."
+msgstr "Bloqueo del reembolso rechazado para la reserva #%1$d (origen: %2$s): la reserva conserva un importe pagado y no se ha podido poner en revisión porque no se ha podido adquirir el bloqueo del reembolso. Es posible que otra operación de reembolso siga ejecutándose o que esté pendiente de caducar un bloqueo dejado por una operación que no terminó."
+
+#. translators: 1: booking id, 2: the surface (auto_cancel) that parked this
+#. booking for review.
+#: src/Admin/PostTypes/Maintenance/AutoCancel.php:596
+msgid "Refund review notification failed for booking #%1$d (surface: %2$s): the booking is parked in needs_review, but the notification e-mail could not be sent -- no one has been told that it is holding paid money."
+msgstr "No se ha podido enviar el aviso de revisión del reembolso para la reserva #%1$d (origen: %2$s): la reserva se ha dejado en estado needs_review, pero no se ha podido enviar el correo electrónico de aviso. Nadie ha sido informado de que conserva un importe pagado."
+
+#. translators: 1: the WooCommerce order id that was cancelled/failed, 2: the
+#. booking id it belongs to.
+#: src/Admin/Payment/WooCommerce/WooCommerceBridge.php:1574
+msgid "Order #%1$d was cancelled/failed on booking #%2$d while a sibling order still holds paid money, but the notification e-mail could not be sent -- no one has been told a new payment link may be needed."
+msgstr "El pedido #%1$d de la reserva #%2$d se canceló o falló mientras otro pedido relacionado seguía pagado, pero no se ha podido enviar el correo electrónico de aviso. Nadie ha sido informado de que quizá sea necesario generar un nuevo enlace de pago."
+
+#. translators: %d: the WooCommerce order id with no items.
+#: src/Admin/Payment/WooCommerce/WooCommerceBridge.php:1133
+msgid "No items found in order #%d"
+msgstr "No se han encontrado artículos en el pedido #%d"
+
+#: src/Admin/Emails/Notifications/RefundNotifications.php:204
+msgid "Refund notice not sent: no customer address on this booking."
+msgstr "No se ha enviado el aviso de reembolso: esta reserva no contiene una dirección de correo electrónico del cliente."
+
+#. translators: 1: booking id, 2: the booking's current refund_status, which
+#. has no outgoing edge to needs_review.
+#: src/Admin/Booking/Helpers/CancellationHandler.php:986
+msgid "Mixed-currency NEEDS_REVIEW could not be recorded for booking #%1$d: current refund_status is '%2$s'."
+msgstr "No se ha podido registrar NEEDS_REVIEW por divisas mezcladas para la reserva #%1$d: el refund_status actual es «%2$s»."
+
+#. translators: %d: booking id.
+#: src/Admin/Booking/Helpers/CancellationHandler.php:959
+msgid "Mixed-currency refund review notification could not be sent for booking #%d: the booking is parked in needs_review, but no one has been told it is holding money across more than one currency."
+msgstr "No se ha podido enviar el aviso de revisión de reembolso por divisas mezcladas para la reserva #%d: la reserva está en estado needs_review, pero nadie ha sido informado de que conserva dinero en más de una divisa."
+
+#. translators: 1: booking id, 2: the user id attempting the refund.
+#: src/Admin/Booking/Helpers/CancellationHandler.php:894
+msgid "Refund lock refused for booking #%1$d (actor #%2$d): another refund attempt holds this booking's lock -- refund not attempted."
+msgstr "Se ha rechazado el bloqueo del reembolso para la reserva #%1$d (usuario #%2$d): otro intento de reembolso mantiene el bloqueo de esta reserva; no se ha intentado el reembolso."
+
+#: src/Admin/Booking/Helpers/CancellationHandler.php:421
+msgid "Refund-failed notification could not be sent. A post-commit cancellation problem occurred, but the operator notification e-mail could not be sent -- no one has been told."
+msgstr "No se ha podido enviar el aviso de reembolso fallido. Se ha producido un problema al cancelar la reserva después de confirmar los cambios, pero no se ha podido enviar el correo electrónico de aviso al responsable; nadie ha sido informado."
+
+#: src/Admin/Booking/Actions/DepositManagementAjax.php:770
+msgid "Say why no refund is due. This closes a money obligation and the reason is the record of it."
+msgstr "Indica por qué no corresponde ningún reembolso. Esta acción cierra una obligación económica y el motivo quedará registrado como constancia."
+
+#. translators: %s: name of the additional service.
+#: src/Admin/Addons/AddonScreen.php:1053
+msgid "Delete %s"
+msgstr "Borrar %s"
+
+#: src/Admin/Addons/AddonScreen.php:206
+msgid "The additional service could not be deleted."
+msgstr "No se ha podido borrar el servicio adicional."
+
+#: assets/blocks/vehicles-list/block.json
+msgctxt "block description"
+msgid "Display vehicles in a list layout."
+msgstr "Muestra los vehículos en un diseño de lista."
+
+#: assets/blocks/vehicles-grid/block.json
+msgctxt "block description"
+msgid "Display vehicles in a responsive grid layout."
+msgstr "Muestra los vehículos en un diseño de cuadrícula adaptable."
+
+#: assets/blocks/vehicle-rating-form/block.json
+msgctxt "block description"
+msgid "Vehicle rating and review form."
+msgstr "Formulario de puntuación y reseña del vehículo."
+
+#: assets/blocks/vehicle-rating-form/block.json
+msgctxt "block title"
+msgid "Vehicle Rating Form"
+msgstr "Formulario de puntuación del vehículo"
+
+#: build/admin/shortcode-pages.js:4
+msgid "Delete All"
+msgstr "Borrar todo"
+
+#: build/admin/shortcode-pages.js:4
+msgid "This will permanently delete all created shortcode pages. Are you sure?"
+msgstr "Se borrarán definitivamente todas las páginas de shortcodes creadas. ¿Seguro?"
+
+#: build/admin/shortcode-pages.js:4
+msgid "Cache will be cleared. Do you want to continue?"
+msgstr "Se vaciará la caché. ¿Quieres continuar?"
+
+#: build/admin/shortcode-pages.js:1 build/admin/shortcode-pages.js:4
+msgid "Clear Cache"
+msgstr "Vaciar caché"
+
+#: build/admin/customers.js:6
+msgid "Bulk delete failed."
+msgstr "Error al borrar elementos en bloque."
+
+#: build/admin/about.js:1
+msgid "Use GitHub Issues to report bugs or suggest new features."
+msgstr "Utiliza GitHub Issues para informar de fallos o sugerir nuevas características."
+
+#: build/admin/about.js:1
+msgid "Bug Reports & Feature Requests"
+msgstr "Informes de fallos y solicitudes de características"
+
+#: assets/blocks/vehicles-grid/index.js:188
+msgid "Default: \"View All Vehicles\""
+msgstr "Por defecto: «Ver todos los vehículos»"
+
+#: src/Admin/Frontend/Widgets/Base/ParityLabels.php:284
+#: assets/blocks/vehicles-grid/index.js:87
+#: assets/blocks/vehicles-list/index.js:63
+msgid "Min Rating (1-5)"
+msgstr "Puntuación mínima (1-5)"
+
+#: assets/blocks/unified-search/index.js:158
+msgid "Enter a Page ID to override global setting. Clear to reset to Default."
+msgstr "Introduce un ID de página para sobrescribir el ajuste global. Vacíalo para volver al valor por defecto."
+
+#: assets/blocks/unified-search/index.js:152
+msgid "Leave as default to use global results page."
+msgstr "Déjalo con el valor por defecto para utilizar la página global de resultados."
+
+#: src/Admin/Frontend/Widgets/Base/ParityLabels.php:304
+#: src/Admin/Frontend/Widgets/Base/ParityLabels.php:351
+#: src/Admin/Frontend/Widgets/Base/ParityLabels.php:356
+#: assets/blocks/unified-search/index.js:83
+#: assets/blocks/unified-search/index.js:93
+#: assets/blocks/unified-search/index.js:103
+#: assets/blocks/unified-search/index.js:113
+#: assets/blocks/unified-search/index.js:123
+#: assets/blocks/unified-search/index.js:133
+#: assets/blocks/unified-search/index.js:148
+msgid "Global Default"
+msgstr "Valor por defecto global"
+
+#: assets/blocks/testimonials/index.js:49
+msgid "Filter by Rating"
+msgstr "Filtrar por puntuación"
+
+#: assets/blocks/booking-form/index.js:63
+msgid "Default Days"
+msgstr "Días por defecto"
+
+#: templates/shortcodes/vehicle-rating-form.php:386
+msgid "Login"
+msgstr "Acceder"
+
+#: templates/shortcodes/vehicle-rating-form.php:383
+msgid "You must be logged in to submit a rating and review."
+msgstr "Debes estar conectado para enviar una puntuación y una reseña."
+
+#: templates/shortcodes/vehicle-rating-form.php:382
+msgid "Login Required"
+msgstr "Acceso obligatorio"
+
+#: templates/shortcodes/vehicle-rating-form.php:365
+msgid "Delete Rating"
+msgstr "Borrar puntuación"
+
+#: src/Admin/Frontend/Shortcodes/VehicleRatingForm.php:132
+#: templates/shortcodes/vehicle-rating-form.php:361
+msgid "Submit Rating"
+msgstr "Enviar puntuación"
+
+#: src/Admin/Frontend/Shortcodes/VehicleRatingForm.php:136
+#: templates/shortcodes/vehicle-rating-form.php:361
+msgid "Update Rating"
+msgstr "Actualizar puntuación"
+
+#: templates/shortcodes/vehicle-rating-form.php:315
+msgid "Your Rating:"
+msgstr "Tu puntuación:"
+
+#: templates/shortcodes/vehicle-rating-form.php:287
+msgid "Rate This Vehicle"
+msgstr "Puntuar este vehículo"
+
+#: templates/shortcodes/vehicle-details.php:296
+msgid "Ratings & Reviews"
+msgstr "Puntuaciones y reseñas"
+
+#: templates/shortcodes/vehicle-comparison.php:95
+#: templates/shortcodes/vehicle-comparison.php:224
+#: templates/shortcodes/vehicle-comparison.php:312
+msgid "Remove vehicle"
+msgstr "Quitar vehículo"
+
+#: templates/shortcodes/contact-form.php:243
+msgid "Supported formats: JPG, PNG, GIF, PDF, DOC, DOCX (Max: "
+msgstr "Formatos compatibles: JPG, PNG, GIF, PDF, DOC, DOCX (máx.: "
+
+#: templates/shortcodes/booking-form.php:268
+#: templates/shortcodes/booking-form.php:317
+msgid "Return time is automatically set to match pickup time."
+msgstr "La hora de devolución se establece automáticamente para que coincida con la hora de recogida."
+
+#. translators: %s: average vehicle rating.
+#: templates/partials/vehicle-card.php:171
+msgid "Rated %s out of 5"
+msgstr "Puntuación: %s sobre 5"
+
+#: templates/partials/selected-vehicle-summary.php:77
+msgid "Toggle favorite"
+msgstr "Alternar favorito"
+
+#. translators: %s: booking ID
+#: templates/emails/refund-customer.html.php:10
+msgid "Your refund for booking #%s has been processed."
+msgstr "Se ha procesado el reembolso de tu reserva #%s."
+
+#: templates/emails/receipt-status-email.html.php:269
+msgid "Please review the admin note above and upload a new receipt if needed."
+msgstr "Revisa la nota del administrador anterior y, si es necesario, sube un nuevo recibo."
+
+#: templates/emails/receipt-status-email.html.php:236
+msgid "We have reviewed your payment receipt, but unfortunately it could not be approved at this time."
+msgstr "Hemos revisado tu recibo de pago, pero lamentablemente no se ha podido aprobar por el momento."
+
+#: templates/emails/receipt-status-email.html.php:234
+msgid "Great news! Your payment receipt has been reviewed and approved by our team."
+msgstr "¡Buenas noticias! Nuestro equipo ha revisado y aprobado tu recibo de pago."
+
+#: templates/emails/offline-verified-rejected-customer.html.php:30
+msgid "Please reply to this email with a clear receipt image or contact us for assistance."
+msgstr "Responde a este correo electrónico adjuntando una imagen nítida del recibo o ponte en contacto con nosotros para recibir ayuda."
+
+#: templates/emails/offline-verified-rejected-customer.html.php:29
+msgid "We could not verify your payment receipt for the booking below."
+msgstr "No hemos podido verificar el recibo de pago de la siguiente reserva."
+
+#. translators: %s: booking ID.
+#: templates/emails/offline-verified-rejected-customer.html.php:11
+msgid "Payment Verification Failed · Booking #%s"
+msgstr "Verificación del pago fallida · Reserva #%s"
+
+#. translators: %s: booking ID.
+#: templates/emails/offline-verified-approved-customer.html.php:123
+msgid "Your payment for Reservation #%s has been successfully verified."
+msgstr "Se ha verificado correctamente el pago de tu reserva #%s."
+
+#: templates/emails/offline-receipt-uploaded-admin.html.php:38
+msgid "Receipt:"
+msgstr "Recibo:"
+
+#: templates/emails/offline-receipt-uploaded-admin.html.php:30
+msgid "Receipt Uploaded (Admin)"
+msgstr "Recibo subido (administración)"
+
+#. translators: %s: booking ID.
+#: templates/emails/offline-receipt-uploaded-admin.html.php:11
+msgid "New Receipt · Booking #%s"
+msgstr "Nuevo recibo · Reserva #%s"
+
+#. translators: %s: customer name
+#. translators: %s: customer name HTML.
+#. translators: %s: customer name.
+#: templates/emails/booking-status-changed-customer.html.php:9
+#: templates/emails/offline-verified-approved-customer.html.php:138
+#: templates/emails/remaining-payment-link-customer.html.php:9
+msgid "Dear %s,"
+msgstr "Hola %s,"
+
+#: templates/emails/booking-created-customer.html.php:182
+msgid "Login with your registered email and password"
+msgstr "Accede con tu correo electrónico y contraseña registrados"
+
+#: templates/emails/booking-created-customer.html.php:173
+msgid "You can view and manage your booking from your account dashboard."
+msgstr "Puedes consultar y gestionar tu reserva desde el escritorio de tu cuenta."
+
+#. translators: %s: customer name.
+#: templates/emails/booking-created-customer.html.php:10
+msgid "Dear %s, your booking has been successfully created."
+msgstr "Hola %s, tu reserva se ha creado correctamente."
+
+#: templates/emails/booking-created-admin.html.php:7
+msgid "A new reservation request has been received. Please check from the admin panel."
+msgstr "Se ha recibido una nueva solicitud de reserva. Compruébala desde el panel de administración."
+
+#: templates/admin/settings-page.php:86
+msgid "Custom or unknown tab detected. Attempting legacy hook dispatch."
+msgstr "Se ha detectado una pestaña personalizada o desconocida. Se intentará ejecutar el gancho heredado."
+
+#: templates/account/payment-history.php:180
+msgid "Upload Receipt"
+msgstr "Subir recibo"
+
+#: templates/account/favorites.php:117
+msgid "Clear All Favorites"
+msgstr "Vaciar todos los favoritos"
+
+#: templates/account/dashboard.php:316
+msgid "Permanently delete your account and all associated data"
+msgstr "Borrar definitivamente tu cuenta y todos los datos asociados"
+
+#: templates/account/dashboard.php:315 templates/account/dashboard.php:318
+msgid "Delete Account"
+msgstr "Borrar cuenta"
+
+#. translators: %s: booking number shown to the customer (the order number when
+#. there is one).
+#: templates/account/dashboard.php:139
+msgid "Booking #%s"
+msgstr "Reserva #%s"
+
+#: templates/account/bookings.php:174 templates/account/bookings.php:291
+msgid "Fee"
+msgstr "Cuota"
+
+#: src/Layout/Versioning/LayoutRollbackService.php:112
+msgid "Rollback is possible and valid."
+msgstr "El retroceso es posible y válido."
+
+#: src/Layout/Versioning/LayoutRollbackService.php:52
+msgid "No rollback version available for this post."
+msgstr "No hay ninguna versión anterior disponible para retroceder esta entrada."
+
+#. translators: %s: the forbidden framework pattern found in rendered markup.
+#: src/Layout/LayoutErrorMessages.php:168
+msgid "Tailwind leakage detected in rendered markup: %s"
+msgstr "Se ha detectado una filtración de estilos de Tailwind en el marcado procesado: %s"
+
+#. translators: %s: rollback error message.
+#: src/Layout/CLI/LayoutImportCommand.php:215
+msgid "Rollback failed: %s"
+msgstr "Error en el retroceso: %s"
+
+#. translators: %d: post ID.
+#: src/Layout/CLI/LayoutImportCommand.php:206
+msgid "Rollback successful for Post ID: %d."
+msgstr "Retroceso completado correctamente para el ID de entrada: %d."
+
+#. translators: %s: rollback validation message.
+#: src/Layout/CLI/LayoutImportCommand.php:184
+msgid "Rollback is possible. (%s)"
+msgstr "El retroceso es posible. (%s)"
+
+#. translators: %d: post ID.
+#: src/Layout/CLI/LayoutImportCommand.php:157
+msgid "Initiating atomic rollback for Post ID: %d..."
+msgstr "Iniciando el retroceso atómico del ID de entrada: %d…"
+
+#: src/Layout/CLI/LayoutImportCommand.php:152
+msgid "Executing side-effect free dry-run for rollback..."
+msgstr "Ejecutando una simulación de retroceso sin efectos secundarios…"
+
+#. translators: %s: import error message.
+#: src/Layout/CLI/LayoutImportCommand.php:122
+msgid "Import failed: %s. Rollback executed."
+msgstr "Error en la importación: %s. Se ha ejecutado el retroceso."
+
+#. translators: 1: the component instance's index within its page. 2: the page
+#. index.
+#: src/Layout/LayoutErrorMessages.php:146
+msgid "Component instance #%1$d in page #%2$d missing instance_id"
+msgstr "Falta instance_id en la instancia del componente #%1$d de la página #%2$d"
+
+#. translators: 1: page index in the manifest. 2: the page's missing key.
+#: src/Layout/LayoutErrorMessages.php:118
+msgid "Page #%1$d is missing key: %2$s"
+msgstr "Falta la clave %2$s en la página #%1$d"
+
+#: src/Layout/LayoutErrorMessages.php:105
+msgid "Manifest components section must be an object/array."
+msgstr "La sección de componentes del manifiesto debe ser un objeto o un array."
+
+#. translators: %s: the manifest's declared version string.
+#: src/Layout/LayoutErrorMessages.php:90
+msgid "Unsupported blueprint version: %s"
+msgstr "Versión del modelo no compatible: %s"
+
+#: src/Admin/Vehicle/Templates/vehicle-meta.php:52
+msgid "Inherit (Vendor/Global)"
+msgstr "Heredar (vendedor/global)"
+
+#: src/Admin/Vehicle/Templates/vehicle-gallery.php:44
+#: build/admin/customers.js:6
+msgid "Delete Selected"
+msgstr "Borrar seleccionados"
+
+#: src/Admin/Vehicle/Taxonomies/VehicleCategory.php:71
+msgid "Add or remove categories"
+msgstr "Añadir o quitar categorías"
+
+#: src/Admin/Vehicle/Settings/VehicleSettings.php:1656
+msgid "Settings reset to defaults."
+msgstr "Ajustes restablecidos a los valores por defecto."
+
+#: src/Admin/Vehicle/Settings/VehicleSettings.php:724
+msgid "Remove item"
+msgstr "Quitar elemento"
+
+#: src/Admin/Vehicle/Settings/VehicleSettings.php:402
+msgid "Drag to reorder or click remove to hide features in the detail page highlighted section."
+msgstr "Arrastra los elementos para cambiar su orden o haz clic en quitar para ocultar características de la sección destacada de la página de detalles."
+
+#: src/Admin/Vehicle/Settings/VehicleSettings.php:361
+msgid "Drag to reorder or click to remove items from the vehicle card."
+msgstr "Arrastra los elementos para cambiar su orden o haz clic para quitarlos de la tarjeta del vehículo."
+
+#: src/Admin/Vehicle/Meta/VehicleMeta.php:518
+#: src/Admin/Vehicle/Settings/VehicleSettings.php:798
+msgid "Warning Triangle"
+msgstr "Triángulo de advertencia"
+
+#: src/Admin/Vehicle/Meta/VehicleGallery.php:870
+msgid "Image successfully removed"
+msgstr "Imagen quitada correctamente"
+
+#: src/Admin/Vehicle/Meta/VehicleGallery.php:138
+msgid "Error occurred while removing image"
+msgstr "Se ha producido un error al quitar la imagen"
+
+#. translators: %d: number of vehicles
+#: src/Admin/Vehicle/Meta/BlockedDatesMetaBox.php:511
+msgid "Removed from %d vehicles."
+msgstr "Quitado de %d vehículos."
+
+#: src/Admin/Vehicle/Meta/BlockedDatesMetaBox.php:507
+msgid "All blocked dates selected for this vehicle will be removed from all other vehicles. Do you want to continue?"
+msgstr "Se quitarán de todos los demás vehículos todas las fechas bloqueadas seleccionadas para este vehículo. ¿Quieres continuar?"
+
+#: src/Admin/Vehicle/Meta/BlockedDatesMetaBox.php:104
+msgid "Remove from All Vehicles"
+msgstr "Quitar de todos los vehículos"
+
+#: src/Admin/Vehicle/Hooks/ReviewEnforcer.php:67
+msgid "Error: You must provide a valid rating (1-5 stars) for this vehicle."
+msgstr "Error: debes asignar a este vehículo una puntuación válida (de 1 a 5 estrellas)."
+
+#: src/Admin/Utilities/Database/DatabaseCleanupPage.php:251
+msgid "Cleanup cancelled: the vehicle custom field definitions could not be read, so custom field data cannot be told apart from stale meta. Nothing was deleted."
+msgstr "Limpieza cancelada: no se han podido leer las definiciones de campos personalizados de los vehículos, por lo que no se pueden distinguir los datos de campos personalizados de los metadatos obsoletos. No se ha borrado nada."
+
+#: src/Admin/Utilities/Cron/CronMonitorPage.php:69
+msgid "Cron hook is required"
+msgstr "El gancho de Cron es obligatorio"
+
+#. translators: Dynamic value.
+#: src/Admin/Utilities/Cron/CronMonitor.php:186
+msgid "Cron hook \"%s\" is not registered. The associated class may not be loaded. Ensure the plugin is fully activated."
+msgstr "El gancho de Cron «%s» no está registrado. Es posible que la clase asociada no se haya cargado. Comprueba que el plugin esté completamente activado."
+
+#: src/Admin/Utilities/Cron/CronMonitor.php:169
+msgid "Invalid cron hook"
+msgstr "Gancho de Cron no válido"
+
+#: src/Admin/Setup/SetupWizard.php:955
+msgid "Default wp_mail()"
+msgstr "Función wp_mail() por defecto"
+
+#: src/Admin/Setup/SetupWizard.php:949
+msgid "Enable WP-Cron or set a real cron job for reminders."
+msgstr "Activa WP-Cron o establece una tarea Cron real para los recordatorios."
+
+#: src/Admin/Setup/SetupWizard.php:714
+msgid "Your WordPress permalink structure is set to \"Plain\". For the frontend pages (booking form, account pages, etc.) to work correctly, please update your permalink settings to a SEO-friendly structure."
+msgstr "La estructura de enlaces permanentes de WordPress está establecida como «Simple». Para que funcionen correctamente las páginas públicas (formulario de reserva, páginas de cuenta, etc.), actualiza los ajustes de enlaces permanentes y utiliza una estructura optimizada para SEO."
+
+#: src/Admin/Setup/SetupWizard.php:711
+msgid "⚠️ Important: Permalink Settings Required"
+msgstr "⚠️ Importante: ajustes de enlaces permanentes obligatorios"
+
+#: src/Admin/Setup/SetupWizard.php:532 src/Admin/Setup/SetupWizard.php:554
+#: src/Admin/Setup/SetupWizard.php:576 src/Admin/Setup/SetupWizard.php:612
+#: src/Admin/Setup/SetupWizard.php:632 src/Admin/Setup/SetupWizard.php:644
+msgid "You are not allowed to perform this action."
+msgstr "No tienes permisos para realizar esta acción."
+
+#: src/Admin/Setup/SetupWizard.php:499
+msgid "Your WordPress permalink structure is set to \"Plain\". For the frontend pages to work correctly, please update your permalink settings to a SEO-friendly structure (e.g., \"Post name\")."
+msgstr "La estructura de enlaces permanentes de WordPress está establecida como «Simple». Para que funcionen las páginas públicas, actualiza los ajustes de enlaces permanentes y utiliza una estructura optimizada para SEO (por ejemplo, «Nombre de la entrada»)."
+
+#: src/Admin/Setup/SetupWizard.php:443
+msgid "Show availability badge"
+msgstr "Mostrar insignia de disponibilidad"
+
+#: src/Admin/Setup/SetupWizard.php:442
+msgid "Show feature badges"
+msgstr "Mostrar insignias de características"
+
+#: src/Admin/Setup/SetupWizard.php:362
+msgid "Fine tune the visible defaults that appear on booking forms and vehicle cards."
+msgstr "Ajusta los valores por defecto visibles en los formularios de reserva y las tarjetas de vehículos."
+
+#: src/Admin/Setup/SetupWizard.php:272
+msgid "For uninterrupted communication and delivery of booking notifications, please install and configure an SMTP Plugin."
+msgstr "Para garantizar el envío ininterrumpido de los avisos de reserva, instala y configura un plugin SMTP."
+
+#: src/Admin/Setup/SetupWizard.php:269
+msgid "The default WordPress email system can be unreliable depending on server configuration, causing your emails to fall into Spam/Junk folders."
+msgstr "El sistema de correo por defecto de WordPress puede no ser fiable según la configuración del servidor y provocar que los mensajes acaben en las carpetas de spam o correo no deseado."
+
+#: src/Admin/Setup/SetupWizard.php:264
+msgid "Configure the sender information and enable automatic notifications for bookings."
+msgstr "Configura los datos del remitente y activa los avisos automáticos de las reservas."
+
+#: src/Admin/Setup/SetupWizard.php:263
+msgid "Step 3: Email & Notifications"
+msgstr "Paso 3: correo electrónico y avisos"
+
+#: src/Admin/Setup/SetupWizard.php:199
+msgid "Rentiva uses dedicated WordPress pages for booking, confirmation and customer account screens. Create missing pages automatically or link existing ones."
+msgstr "Rentiva utiliza páginas específicas de WordPress para las reservas, las confirmaciones y las cuentas de cliente. Crea automáticamente las páginas que falten o enlaza las que ya existan."
+
+#: src/Admin/Settings/View/Tabs/DatabaseCleanupRenderer.php:147
+msgid "Rollback"
+msgstr "Retroceder"
+
+#: src/Admin/Settings/View/Tabs/DatabaseCleanupRenderer.php:124
+msgid "Clear System Cache"
+msgstr "Vaciar la caché del sistema"
+
+#: src/Admin/Settings/View/Tabs/CronMonitorRenderer.php:116
+msgid "Hook not found - execution aborted."
+msgstr "No se ha encontrado el gancho; se ha cancelado la ejecución."
+
+#: src/Admin/Settings/View/Tabs/CronMonitorRenderer.php:102
+msgid "Hook Name"
+msgstr "Nombre del gancho"
+
+#: src/Admin/Settings/View/TabRendererRegistry.php:132
+msgid "Configure comment moderation, rating settings, spam protection, and display options."
+msgstr "Configura la moderación de comentarios, los ajustes de puntuación, la protección contra el spam y las opciones de visualización."
+
+#: src/Admin/Settings/ShortcodePages/ShortcodePageActions.php:118
+msgid "Vehicle rating and review form - customers can rate and review vehicles"
+msgstr "Formulario de puntuación y reseña de vehículos: los clientes pueden puntuar y reseñar los vehículos"
+
+#: src/Admin/Settings/ShortcodePages/ShortcodePageActions.php:108
+msgid "Vehicles displayed in list layout - multiple vehicles in list format"
+msgstr "Vehículos mostrados en diseño de lista"
+
+#: src/Admin/Settings/ShortcodePages/ShortcodePageActions.php:103
+msgid "Vehicles displayed in grid layout - multiple vehicles in grid format"
+msgstr "Vehículos mostrados en diseño de cuadrícula"
+
+#: src/Admin/Settings/ShortcodePages/ShortcodePageActions.php:88
+msgid "Customer reviews and ratings"
+msgstr "Reseñas y puntuaciones de los clientes"
+
+#: src/Admin/Settings/ShortcodePages/ShortcodePageActions.php:78
+msgid "Vehicle search results page - detailed results with sidebar filters"
+msgstr "Página de resultados de búsqueda de vehículos: resultados detallados con filtros en la barra lateral"
+
+#: src/Admin/Settings/Groups/VehicleManagementSettings.php:271
+msgid "Tax rate percentage (e.g., 18 for 18%)"
+msgstr "Porcentaje de la tasa de impuestos (por ejemplo, 18 para el 18 %)"
+
+#: src/Admin/Settings/Groups/VehicleManagementSettings.php:265
+msgid "Tax rates are managed by WooCommerce settings."
+msgstr "Las tasas de impuestos se gestionan desde los ajustes de WooCommerce."
+
+#: src/Admin/Settings/Groups/VehicleManagementSettings.php:240
+msgid "This location will be used as a fallback if a vehicle has no specific location and its owner (vendor) has no default location set."
+msgstr "Esta ubicación se utilizará como alternativa si un vehículo no tiene una ubicación específica y su propietario (vendedor) tampoco tiene una ubicación por defecto establecida."
+
+#: src/Admin/Settings/Groups/VehicleManagementSettings.php:238
+msgid "Default Rental Location"
+msgstr "Ubicación por defecto del alquiler"
+
+#: src/Admin/Settings/Groups/VehicleManagementSettings.php:230
+msgid "Default (None)"
+msgstr "Por defecto (ninguno)"
+
+#: src/Admin/Settings/Groups/VehicleManagementSettings.php:138
+msgid "Tax Rate (%)"
+msgstr "Tasa de impuestos (%)"
+
+#: src/Admin/Settings/Groups/VehicleManagementSettings.php:94
+msgid "URL segment used for vehicle detail pages. Default: vehicle → example.com/vehicle/car-name/"
+msgstr "Segmento de URL utilizado para las páginas de detalles de vehículos. Por defecto: vehicle → example.com/vehicle/nombre-del-vehiculo/"
+
+#: src/Admin/Settings/Groups/MaintenanceSettings.php:161
+msgid "If enabled, all MHM Rentiva database tables and settings will be permanently deleted when the plugin is uninstalled."
+msgstr "Si se activa esta opción, al desinstalar el plugin se borrarán definitivamente todas las tablas y los ajustes de MHM Rentiva."
+
+#: src/Admin/Settings/Groups/LogsSettings.php:97
+msgid "How many days to keep logs before deleting them."
+msgstr "Número de días que se conservarán los registros antes de borrarlos."
+
+#: src/Admin/Settings/Groups/LogsSettings.php:87
+msgid "Automatically delete old logs based on retention period."
+msgstr "Borrar automáticamente los registros antiguos según el periodo de retención."
+
+#. translators: %s: default value
+#: src/Admin/Settings/Groups/FrontendSettings.php:407
+msgid "Default: \"%s\""
+msgstr "Por defecto: «%s»"
+
+#: src/Admin/Settings/Groups/FrontendSettings.php:390
+msgid "View Dashboard"
+msgstr "Ver escritorio"
+
+#: src/Admin/Settings/Groups/FrontendSettings.php:390
+msgid "View Dashboard Text"
+msgstr "Texto «Ver escritorio»"
+
+#: src/Admin/Settings/Groups/FrontendSettings.php:311
+msgid "Login Here"
+msgstr "Accede aquí"
+
+#: src/Admin/Settings/Groups/FrontendSettings.php:311
+msgid "Login Here Text"
+msgstr "Texto «Accede aquí»"
+
+#: src/Admin/Settings/Groups/FrontendSettings.php:310
+msgid "Login Required Message"
+msgstr "Mensaje de acceso obligatorio"
+
+#: src/Admin/Settings/Groups/FrontendSettings.php:309
+msgid "Removed from Favorites Message"
+msgstr "Mensaje al quitar de favoritos"
+
+#: src/Admin/Settings/Groups/FrontendSettings.php:275
+msgid "Customize the text labels and button texts displayed throughout the frontend. Leave empty to use default values."
+msgstr "Personaliza las etiquetas y los textos de los botones que se muestran en la parte pública. Déjalos vacíos para utilizar los valores por defecto."
+
+#: src/Admin/Settings/Groups/FrontendSettings.php:268
+msgid "Default sort order for vehicle listings"
+msgstr "Orden por defecto del catálogo de vehículos"
+
+#: src/Admin/Settings/Groups/FrontendSettings.php:220
+msgid "The URL of your custom login page."
+msgstr "URL de tu página de acceso personalizada."
+
+#: src/Admin/Settings/Groups/FrontendSettings.php:219
+msgid "Login Page URL"
+msgstr "URL de la página de acceso"
+
+#: src/Admin/Frontend/Widgets/Elementor/SearchResultsWidget.php:94
+#: src/Admin/Settings/Groups/FrontendSettings.php:132
+#: assets/blocks/search-results/index.js:48
+msgid "Default Sort Order"
+msgstr "Orden por defecto"
+
+#: src/Admin/Settings/Groups/EmailSettings.php:311
+msgid "Send Booking Notifications"
+msgstr "Enviar avisos de reserva"
+
+#: src/Admin/Settings/Groups/EmailSettings.php:305
+msgid "Customer Notification Toggles"
+msgstr "Conmutadores de avisos al cliente"
+
+#: src/Admin/Settings/Groups/EmailSettings.php:262
+msgid "The status of booking #{booking_id} has been changed to {new_status}."
+msgstr "El estado de la reserva #{booking_id} ha cambiado a {new_status}."
+
+#: src/Admin/Settings/Groups/EmailSettings.php:258
+msgid "A refund of {amount} has been processed for booking #{booking_id}."
+msgstr "Se ha procesado un reembolso de {amount} para la reserva #{booking_id}."
+
+#: src/Admin/Settings/Groups/EmailSettings.php:258
+msgid "Refund Notification"
+msgstr "Aviso de reembolso"
+
+#: src/Admin/Settings/Groups/EmailSettings.php:250
+msgid "A refund of {amount} has been processed for your booking #{booking_id}."
+msgstr "Se ha procesado un reembolso de {amount} para tu reserva #{booking_id}."
+
+#: src/Admin/Settings/Groups/EmailSettings.php:237
+msgid "Your booking #{booking_id} has been cancelled."
+msgstr "Tu reserva #{booking_id} ha sido cancelada."
+
+#: src/Admin/Settings/Groups/EmailSettings.php:207
+msgid "Through your customer dashboard, you can:"
+msgstr "Desde el escritorio del cliente puedes:"
+
+#: src/Admin/Settings/Groups/EmailSettings.php:191
+msgid "We did not receive the required payment within the allotted time frame, so the reservation has been released."
+msgstr "No hemos recibido el pago obligatorio dentro del plazo establecido, por lo que la reserva se ha liberado."
+
+#: src/Admin/Settings/Groups/EmailSettings.php:190
+msgid "Your booking #{booking_id} has been automatically cancelled."
+msgstr "Tu reserva #{booking_id} se ha cancelado automáticamente."
+
+#: src/Admin/Settings/Groups/EmailSettings.php:172
+msgid "A new reservation request has been submitted on your website. Please log in to the admin panel to process the request."
+msgstr "Se ha enviado una nueva solicitud de reserva desde tu sitio web. Accede al panel de administración para tramitarla."
+
+#: src/Admin/Settings/Groups/EmailSettings.php:159
+msgid "You can track your reservation and view all details in your customer dashboard."
+msgstr "Puedes consultar el estado de tu reserva y todos sus detalles desde el escritorio del cliente."
+
+#: src/Admin/Settings/Groups/EmailSettings.php:152
+msgid "The status of your booking #{booking_id} has been updated:"
+msgstr "Se ha actualizado el estado de tu reserva #{booking_id}:"
+
+#: src/Admin/Settings/Groups/EmailSettings.php:129
+msgid "Your booking #{booking_id} has been successfully created. Below are your reservation details:"
+msgstr "Tu reserva #{booking_id} se ha creado correctamente. A continuación encontrarás los detalles:"
+
+#: src/Admin/Settings/Groups/EmailSettings.php:128
+#: src/Admin/Settings/Groups/EmailSettings.php:151
+#: src/Admin/Settings/Groups/EmailSettings.php:189
+#: src/Admin/Settings/Groups/EmailSettings.php:221
+#: src/Admin/Settings/Groups/EmailSettings.php:237
+#: src/Admin/Settings/Groups/EmailSettings.php:250
+msgid "Dear {contact_name},"
+msgstr "Hola {contact_name},"
+
+#: src/Admin/Settings/Groups/CoreSettings.php:58
+msgid "Default Cache TTL (Hours)"
+msgstr "Tiempo de vida por defecto de la caché (horas)"
+
+#: src/Admin/Settings/Groups/CommentsSettingsGroup.php:388
+msgid "Send email notification to user when comment is approved."
+msgstr "Enviar un aviso por correo electrónico al usuario cuando se apruebe su comentario."
+
+#: src/Admin/Settings/Groups/CommentsSettingsGroup.php:387
+msgid "Notify User on Comment Approval"
+msgstr "Avisar al usuario cuando se apruebe un comentario"
+
+#: src/Admin/Settings/Groups/CommentsSettingsGroup.php:379
+msgid "Send email notification to admin when new comment is posted."
+msgstr "Enviar un aviso por correo electrónico al administrador cuando se publique un comentario nuevo."
+
+#: src/Admin/Settings/Groups/CommentsSettingsGroup.php:378
+msgid "Notify Admin on New Comment"
+msgstr "Avisar al administrador cuando haya un comentario nuevo"
+
+#: src/Admin/Settings/Groups/CommentsSettingsGroup.php:355
+msgid "Comma-separated list of spam words to filter out."
+msgstr "Lista de palabras de spam que se filtrarán, separadas por comas."
+
+#: src/Admin/Settings/Groups/CommentsSettingsGroup.php:354
+msgid "Spam Words"
+msgstr "Palabras de spam"
+
+#: src/Admin/Settings/Groups/CommentsSettingsGroup.php:227
+msgid "Allow users to delete their own comments."
+msgstr "Permitir que los usuarios borren sus propios comentarios."
+
+#: src/Admin/Settings/Groups/CommentsSettingsGroup.php:226
+msgid "Allow Comment Deletion"
+msgstr "Permitir borrar comentarios"
+
+#: src/Admin/Settings/Groups/CommentsSettingsGroup.php:200
+msgid "Show star ratings with comments."
+msgstr "Mostrar puntuaciones con estrellas junto a los comentarios."
+
+#: src/Admin/Settings/Groups/CommentsSettingsGroup.php:199
+msgid "Show Ratings"
+msgstr "Mostrar puntuaciones"
+
+#: src/Admin/Settings/Groups/CommentsSettingsGroup.php:165
+msgid "Allow guest users to comment (requires login to be disabled)."
+msgstr "Permitir comentarios de usuarios invitados (requiere que el acceso esté desactivado)."
+
+#: src/Admin/Settings/Groups/CommentsSettingsGroup.php:156
+msgid "Require users to be logged in to comment."
+msgstr "Exigir que los usuarios estén conectados para comentar."
+
+#: src/Admin/Settings/Groups/CommentsSettingsGroup.php:155
+msgid "Require Login"
+msgstr "Exigir acceso"
+
+#: src/Admin/Settings/Groups/CommentsSettingsGroup.php:126
+msgid "Configure comment and rating system settings for vehicles."
+msgstr "Configura los ajustes del sistema de comentarios y puntuaciones de los vehículos."
+
+#: src/Admin/Settings/Groups/CommentsSettingsGroup.php:109
+#: src/Admin/Settings/Groups/CommentsSettingsGroup.php:370
+#: src/Admin/Settings/Groups/FrontendSettings.php:158
+#: src/Admin/Settings/Groups/FrontendSettings.php:303
+msgid "Notifications"
+msgstr "Avisos"
+
+#: src/Admin/Settings/Groups/BookingSettings.php:167
+msgid "Send notification to customer when booking is auto-cancelled due to timeout."
+msgstr "Enviar un aviso al cliente cuando una reserva se cancele automáticamente por agotarse el plazo."
+
+#: src/Admin/Settings/Groups/BookingSettings.php:159
+msgid "Send email notifications to admin when new bookings are created"
+msgstr "Enviar avisos por correo electrónico al administrador cuando se creen nuevas reservas"
+
+#: src/Admin/Settings/Groups/BookingSettings.php:158
+msgid "Admin Notifications"
+msgstr "Avisos al administrador"
+
+#: src/Admin/Settings/Groups/BookingSettings.php:135
+msgid "Email notification settings for bookings."
+msgstr "Ajustes de avisos por correo electrónico de las reservas."
+
+#: src/Admin/Settings/Groups/BookingSettings.php:134
+msgid "Notification Settings"
+msgstr "Ajustes de avisos"
+
+#: src/Admin/Settings/Groups/BookingSettings.php:81
+msgid "Default rental duration in booking form (days)."
+msgstr "Duración por defecto del alquiler en el formulario de reserva (días)."
+
+#: src/Admin/Settings/Groups/BookingSettings.php:78
+#: src/Admin/Setup/SetupWizard.php:428
+msgid "Default Rental Days"
+msgstr "Días de alquiler por defecto"
+
+#: src/Admin/Settings/Groups/AddonSettings.php:85
+msgid "Menu Order (Default)"
+msgstr "Orden del menú (por defecto)"
+
+#: src/Admin/Settings/APIKeysPage.php:147
+msgid "REST API settings reset to defaults successfully."
+msgstr "Los ajustes de la API REST se han restablecido correctamente a sus valores por defecto."
+
+#: src/Admin/Settings/APIKeysPage.php:142
+msgid "Failed to reset REST API settings to defaults."
+msgstr "No se han podido restablecer los ajustes de la API REST a sus valores por defecto."
+
+#: src/Admin/Services/CompareService.php:239
+msgid "Removed from comparison"
+msgstr "Quitado de la comparación"
+
+#: src/Admin/REST/Settings/RESTSettings.php:149
+msgid "Max requests per minute for authenticated users."
+msgstr "Número máximo de solicitudes por minuto para usuarios identificados."
+
+#. translators: 1: Vehicle title, 2: Pickup date, 3: Dropoff date
+#: src/Admin/Payment/WooCommerce/WooCommerceBridge.php:2508
+msgid "Sorry, the vehicle \"%1$s\" is no longer available for the selected dates (%2$s - %3$s). The vehicle may have been booked by another customer. Please select different dates or another vehicle."
+msgstr "Lo siento, el vehículo «%1$s» ya no está disponible para las fechas seleccionadas (%2$s - %3$s). Es posible que otro cliente lo haya reservado. Selecciona otras fechas u otro vehículo."
+
+#. translators: %s: Vehicle title
+#: src/Admin/Payment/WooCommerce/WooCommerceBridge.php:2442
+#: src/Admin/Payment/WooCommerce/WooCommerceBridge.php:2548
+msgid "Sorry, booking for vehicle \"%s\" has been cancelled. Please select another vehicle."
+msgstr "Lo siento, se ha cancelado la reserva del vehículo «%s». Selecciona otro vehículo."
+
+#. translators: 1: Vehicle title, 2: Pickup date, 3: Dropoff date
+#: src/Admin/Payment/WooCommerce/WooCommerceBridge.php:2393
+msgid "Sorry, the vehicle \"%1$s\" is no longer available for the selected dates (%2$s - %3$s). Please select different dates or another vehicle."
+msgstr "Lo siento, el vehículo «%1$s» ya no está disponible para las fechas seleccionadas (%2$s - %3$s). Selecciona otras fechas u otro vehículo."
+
+#. translators: 1: vehicle name, 2: booking ID
+#: src/Admin/Payment/WooCommerce/RemainingPaymentHandler.php:227
+msgid "Remaining Payment - %1$s #%2$d"
+msgstr "Pago del importe restante - %1$s #%2$d"
+
+#: src/Admin/Payment/Refunds/Service.php:719
+msgid "Refund notification could not be sent:"
+msgstr "No se ha podido enviar el aviso de reembolso:"
+
+#: src/Admin/Frontend/Widgets/Elementor/VehicleRatingWidget.php:26
+#: src/Admin/Settings/ShortcodePages/ShortcodePageActions.php:116
+msgid "Vehicle Rating Form"
+msgstr "Formulario de puntuación del vehículo"
+
+#: src/Admin/Frontend/Widgets/Elementor/VehicleComparisonWidget.php:128
+msgid "Show Remove Buttons"
+msgstr "Mostrar botones para quitar"
+
+#: src/Admin/Frontend/Widgets/Base/ParityLabels.php:270
+msgid "Show Badges"
+msgstr "Mostrar insignias"
+
+#: src/Admin/Frontend/Widgets/Elementor/VehicleCardWidget.php:466
+msgid "Show Rating Count"
+msgstr "Mostrar número de puntuaciones"
+
+#: src/Admin/Frontend/Widgets/Elementor/VehicleCardWidget.php:454
+msgid "Show Star Rating"
+msgstr "Mostrar puntuación con estrellas"
+
+#: src/Admin/Frontend/Widgets/Elementor/TestimonialsWidget.php:120
+msgid "Filter by minimum star rating (leave empty for all)."
+msgstr "Filtrar por puntuación mínima en estrellas (déjalo vacío para mostrar todos)."
+
+#: src/Admin/Frontend/Widgets/Elementor/TestimonialsWidget.php:115
+msgid "Minimum Rating"
+msgstr "Puntuación mínima"
+
+#: assets/blocks/my-favorites/index.js:104
+msgid "Show Remove Button"
+msgstr "Mostrar botón para quitar"
+
+#: src/Admin/Frontend/Widgets/Base/ParityLabels.php:268
+#: src/Admin/Frontend/Widgets/Elementor/FeaturedVehiclesWidget.php:125
+#: src/Admin/Frontend/Widgets/Elementor/MyFavoritesWidget.php:142
+#: src/Admin/Frontend/Widgets/Elementor/TestimonialsWidget.php:138
+#: assets/blocks/my-favorites/index.js:114
+#: assets/blocks/testimonials/index.js:127
+#: assets/blocks/vehicle-details/index.js:72
+#: assets/blocks/vehicles-grid/index.js:145
+#: assets/blocks/vehicles-list/index.js:107
+msgid "Show Rating"
+msgstr "Mostrar puntuación"
+
+#: src/Admin/Frontend/Widgets/Elementor/BookingFormWidget.php:172
+msgid "Default Number of Days"
+msgstr "Número por defecto de días"
+
+#: src/Admin/Frontend/Shortcodes/VehicleRatingForm.php:460
+msgid "Rating deleted successfully"
+msgstr "Puntuación borrada correctamente"
+
+#: src/Admin/Frontend/Shortcodes/VehicleRatingForm.php:414
+msgid "Login required"
+msgstr "Debes acceder"
+
+#: src/Admin/Frontend/Shortcodes/VehicleRatingForm.php:402
+msgid "Failed to submit rating"
+msgstr "No se ha podido enviar la puntuación"
+
+#: src/Admin/Frontend/Shortcodes/VehicleRatingForm.php:394
+msgid "Rating submitted and awaiting approval"
+msgstr "Puntuación enviada y pendiente de aprobación"
+
+#: src/Admin/Frontend/Shortcodes/VehicleRatingForm.php:342
+msgid "Rating updated successfully"
+msgstr "Puntuación actualizada correctamente"
+
+#: src/Admin/Frontend/Shortcodes/VehicleRatingForm.php:270
+msgid "Login required to post a review"
+msgstr "Debes acceder para publicar una reseña"
+
+#: src/Admin/Frontend/Shortcodes/VehicleRatingForm.php:254
+#: src/Admin/Frontend/Shortcodes/VehicleRatingForm.php:262
+msgid "Invalid vehicle or rating value"
+msgstr "Vehículo o valor de puntuación no válido"
+
+#: src/Admin/Frontend/Shortcodes/VehicleRatingForm.php:128
+msgid "Comment deletion is disabled."
+msgstr "El borrado de comentarios está desactivado."
+
+#: src/Admin/Frontend/Shortcodes/VehicleRatingForm.php:126
+msgid "Error deleting comment. Please try again."
+msgstr "Error al borrar el comentario. Inténtalo de nuevo."
+
+#: src/Admin/Frontend/Shortcodes/VehicleRatingForm.php:124
+msgid "Error deleting comment: "
+msgstr "Error al borrar el comentario:  "
+
+#: src/Admin/Frontend/Shortcodes/VehicleRatingForm.php:123
+msgid "Your comment has been deleted successfully!"
+msgstr "¡Tu comentario se ha borrado correctamente!"
+
+#: src/Admin/Frontend/Shortcodes/VehicleRatingForm.php:119
+#: src/Admin/Frontend/Shortcodes/VehicleRatingForm.php:393
+msgid "Rating submitted successfully"
+msgstr "Puntuación enviada correctamente"
+
+#: src/Admin/Frontend/Shortcodes/VehicleComparison.php:327
+msgid "Rating Count"
+msgstr "Número de puntuaciones"
+
+#: src/Admin/Frontend/Shortcodes/VehicleComparison.php:326
+msgid "Rating Average"
+msgstr "Puntuación media"
+
+#: src/Admin/Frontend/Shortcodes/VehicleComparison.php:134
+msgid "Vehicle removed from comparison"
+msgstr "Vehículo quitado de la comparación"
+
+#. translators: %d: count of filters.
+#: src/Admin/Frontend/Shortcodes/SearchResults.php:386
+msgid "Clear All (%d)"
+msgstr "Quitar todo (%d)"
+
+#: src/Admin/Frontend/Shortcodes/SearchResults.php:384
+#: src/Admin/Vehicle/Meta/BlockedDatesMetaBox.php:69
+#: src/Admin/Vehicle/Settings/VehicleSettings.php:359
+#: src/Admin/Vehicle/Settings/VehicleSettings.php:400
+#: templates/shortcodes/search-results.php:136
+msgid "Clear All"
+msgstr "Quitar todo"
+
+#: src/Admin/Frontend/Shortcodes/SearchResults.php:383
+msgid "Clear all filters"
+msgstr "Quitar todos los filtros"
+
+#: src/Admin/Frontend/Shortcodes/ContactForm.php:841
+msgid "Rating:"
+msgstr "Puntuación:"
+
+#: src/Admin/ContactMessages/REST/ContactMessagesRestController.php:433
+#: src/Admin/Frontend/Shortcodes/ContactForm.php:700
+#: src/Admin/Frontend/Widgets/Base/ParityLabels.php:316
+#: src/Admin/Frontend/Widgets/Elementor/TestimonialsWidget.php:93
+#: src/Admin/Frontend/Widgets/Elementor/VehicleCardWidget.php:132
+#: templates/shortcodes/contact-form.php:199
+#: assets/blocks/featured-vehicles/index.js:30
+#: assets/blocks/testimonials/index.js:64
+#: assets/blocks/vehicles-grid/index.js:53
+#: assets/blocks/vehicles-list/index.js:31
+msgid "Rating"
+msgstr "Puntuación"
+
+#: src/Admin/Frontend/Shortcodes/ContactForm.php:650
+msgid "Please rate between 1-5."
+msgstr "La puntuación debe estar entre 1 y 5."
+
+#: src/Admin/Frontend/Shortcodes/ContactForm.php:285
+msgid "Important issues"
+msgstr "Incidencias importantes"
+
+#: src/Admin/Frontend/Shortcodes/BookingForm.php:269
+msgid "Please log in to manage favorites."
+msgstr "Accede para gestionar tus favoritos."
+
+#: src/Admin/Frontend/Shortcodes/AvailabilityCalendar.php:302
+msgid "Please login to add favorites."
+msgstr "Accede para añadir vehículos a tus favoritos."
+
+#: src/Admin/Frontend/Account/AccountRenderer.php:442
+#: src/Admin/Frontend/Shortcodes/AvailabilityCalendar.php:336
+#: src/Admin/Frontend/Shortcodes/VehiclesGrid.php:212
+#: src/Admin/Frontend/Shortcodes/VehiclesGrid.php:439
+#: src/Admin/Frontend/Shortcodes/VehiclesList.php:670
+#: src/Admin/Services/FavoritesService.php:154
+#: src/Admin/Settings/Groups/FrontendSettings.php:310
+msgid "You must be logged in to add to favorites"
+msgstr "Debes estar conectado para añadir elementos a favoritos"
+
+#: src/Admin/Frontend/Account/AccountRenderer.php:441
+#: src/Admin/Frontend/Shortcodes/AvailabilityCalendar.php:338
+#: src/Admin/Frontend/Shortcodes/BookingForm.php:271
+#: src/Admin/Frontend/Shortcodes/SearchResults.php:390
+#: src/Admin/Frontend/Shortcodes/VehiclesGrid.php:211
+#: src/Admin/Frontend/Shortcodes/VehiclesGrid.php:438
+#: src/Admin/Frontend/Shortcodes/VehiclesList.php:669
+#: src/Admin/Services/FavoritesService.php:171
+#: src/Admin/Settings/Groups/FrontendSettings.php:309
+msgid "Removed from favorites"
+msgstr "Quitado de favoritos"
+
+#: src/Admin/Frontend/Account/AccountRenderer.php:162
+msgid "Welcome to your dashboard. From your account dashboard you can view your recent orders, manage your shipping and billing addresses, and edit your password and account details."
+msgstr "Te damos la bienvenida a tu escritorio. Desde aquí puedes consultar tus pedidos recientes, gestionar tus direcciones de envío y facturación y editar tu contraseña y los datos de tu cuenta."
+
+#: src/Admin/Frontend/Account/AccountController.php:1158
+msgid "You must be logged in to cancel a booking."
+msgstr "Debes estar conectado para cancelar una reserva."
+
+#: src/Admin/Frontend/Account/AccountController.php:1009
+msgid "Please login."
+msgstr "Accede."
+
+#: src/Admin/Frontend/Account/AccountController.php:984
+msgid "Failed to remove receipt file."
+msgstr "No se ha podido eliminar el archivo del recibo."
+
+#: src/Admin/Frontend/Account/AccountController.php:982
+msgid "Receipt removed successfully."
+msgstr "Recibo eliminado correctamente."
+
+#: src/Admin/Frontend/Account/AccountController.php:969
+msgid "No receipt found to remove."
+msgstr "No se ha encontrado ningún recibo para eliminar."
+
+#: src/Admin/Frontend/Account/AccountController.php:964
+msgid "You are not allowed to remove receipt for this booking."
+msgstr "No tienes permisos para eliminar el recibo de esta reserva."
+
+#: src/Admin/Frontend/Account/AccountController.php:824
+msgid "Receipt not found."
+msgstr "No se ha encontrado el recibo."
+
+#: src/Admin/Frontend/Account/AccountController.php:817
+msgid "You are not allowed to view this receipt."
+msgstr "No tienes permisos para ver este recibo."
+
+#: src/Admin/Frontend/Account/AccountController.php:692
+msgid "You are not allowed to upload for this booking."
+msgstr "No tienes permisos para subir archivos a esta reserva."
+
+#: src/Admin/Frontend/Account/AccountController.php:672
+#: src/Admin/Frontend/Account/AccountController.php:945
+#: src/Admin/Payment/WooCommerce/RemainingPaymentHandler.php:50
+msgid "You must be logged in."
+msgstr "Debes estar conectado."
+
+#: src/Admin/Frontend/Account/AccountController.php:659
+msgid "All favorites cleared"
+msgstr "Se han vaciado todos los favoritos"
+
+#: src/Admin/Frontend/Account/AccountController.php:651
+msgid "You must be logged in"
+msgstr "Debes estar conectado"
+
+#: src/Admin/Frontend/Account/AccountController.php:413
+#: src/Admin/Frontend/Shortcodes/Account/AbstractAccountShortcode.php:77
+msgid "All favorites cleared."
+msgstr "Se han vaciado todos los favoritos."
+
+#: src/Admin/Frontend/Account/AccountController.php:411
+#: src/Admin/Frontend/Shortcodes/Account/AbstractAccountShortcode.php:75
+msgid "Vehicle removed from favorites."
+msgstr "Vehículo quitado de favoritos."
+
+#: src/Admin/Frontend/Account/AccountController.php:409
+#: src/Admin/Frontend/Shortcodes/Account/AbstractAccountShortcode.php:73
+msgid "Are you sure you want to remove this receipt?"
+msgstr "¿Seguro que quieres eliminar este recibo?"
+
+#: src/Admin/Frontend/Account/AccountController.php:408
+#: src/Admin/Frontend/Shortcodes/Account/AbstractAccountShortcode.php:72
+msgid "Receipt upload failed."
+msgstr "Error al subir el recibo."
+
+#: src/Admin/Frontend/Account/AccountController.php:407
+#: src/Admin/Frontend/Account/AccountController.php:770
+#: src/Admin/Frontend/Shortcodes/Account/AbstractAccountShortcode.php:71
+msgid "Receipt uploaded successfully."
+msgstr "Recibo subido correctamente."
+
+#: src/Admin/Frontend/Account/AccountController.php:289
+msgid "An error occurred while deleting account"
+msgstr "Se ha producido un error al borrar la cuenta"
+
+#: src/Admin/Frontend/Account/AccountController.php:288
+msgid "Account deleted successfully. You will be redirected to the homepage."
+msgstr "La cuenta se ha borrado correctamente. Se te redirigirá a la página de inicio."
+
+#: src/Admin/Frontend/Account/AccountController.php:287
+#: src/Admin/Frontend/Shortcodes/VehicleRatingForm.php:122
+msgid "Deleting..."
+msgstr "Borrando…"
+
+#: src/Admin/Frontend/Account/AccountController.php:286
+msgid "Are you absolutely sure? This will permanently delete your account and all data."
+msgstr "¿Estás completamente seguro? Se borrarán definitivamente tu cuenta y todos sus datos."
+
+#: src/Admin/Frontend/Account/AccountController.php:285
+msgid "This action cannot be undone. Type \"DELETE\" to confirm account deletion:"
+msgstr "Esta acción no se puede deshacer. Escribe «DELETE» para confirmar el borrado de la cuenta:"
+
+#: src/Admin/Emails/Templates/RefundEmails.php:80
+#: src/Admin/Settings/Groups/EmailSettings.php:114
+msgid "Refund Alert: Booking #{booking_id}"
+msgstr "Aviso de reembolso: reserva #{booking_id}"
+
+#: src/Admin/Emails/Templates/RefundEmails.php:52
+#: src/Admin/Settings/Groups/EmailSettings.php:112
+msgid "Refund Processed for Booking #{booking_id}"
+msgstr "Reembolso procesado para la reserva #{booking_id}"
+
+#: src/Admin/Emails/Templates/RefundEmails.php:26
+msgid "Available placeholders: {booking_id}, {vehicle_title}, {amount}, {currency}, {status}, {reason}, {contact_name}, {contact_email}, {site_name}"
+msgstr "Marcadores de posición disponibles: {booking_id}, {vehicle_title}, {amount}, {currency}, {status}, {reason}, {contact_name}, {contact_email}, {site_name}"
+
+#: src/Admin/Emails/Core/Templates.php:120
+msgid "Refund Notification (Customer)"
+msgstr "Aviso de reembolso (cliente)"
+
+#: src/Admin/Emails/Templates/BookingNotifications.php:201
+#: src/Admin/Settings/Groups/EmailSettings.php:108
+msgid "Reminder: Your Booking #{booking_id} Starts Soon"
+msgstr "Recordatorio: tu reserva #{booking_id} comienza pronto"
+
+#: src/Admin/Emails/Templates/BookingNotifications.php:172
+msgid "Booking Cancelled: #{booking_id}"
+msgstr "Reserva cancelada: #{booking_id}"
+
+#: src/Admin/Emails/Templates/BookingNotifications.php:143
+#: src/Admin/Settings/Groups/EmailSettings.php:104
+msgid "Booking Cancelled (Payment Timeout): #{booking_id}"
+msgstr "Reserva cancelada (plazo de pago vencido): #{booking_id}"
+
+#: src/Admin/Emails/Templates/BookingNotifications.php:132
+msgid "Admin Notification Email"
+msgstr "Correo de aviso al administrador"
+
+#: src/Admin/Emails/Templates/BookingNotifications.php:120
+#: src/Admin/Settings/Groups/EmailSettings.php:100
+msgid "New Booking Alert: #{booking_id} - {site_name}"
+msgstr "Aviso de nueva reserva: #{booking_id} - {site_name}"
+
+#: src/Admin/Emails/Templates/BookingNotifications.php:84
+#: src/Admin/Settings/Groups/EmailSettings.php:96
+msgid "Booking #{booking_id} status updated"
+msgstr "Estado actualizado de la reserva #{booking_id}"
+
+#: src/Admin/Emails/Templates/BookingNotifications.php:55
+#: src/Admin/Settings/Groups/EmailSettings.php:92
+msgid "Booking Confirmed: #{booking_id}"
+msgstr "Reserva confirmada: #{booking_id}"
+
+#: src/Admin/Emails/Templates/BookingNotifications.php:26
+msgid "Available placeholders: {booking_id}, {vehicle_title}, {pickup_date}, {dropoff_date}, {total_price}, {contact_name}, {contact_email}, {status}, {site_name}, {site_url}"
+msgstr "Marcadores de posición disponibles: {booking_id}, {vehicle_title}, {pickup_date}, {dropoff_date}, {total_price}, {contact_name}, {contact_email}, {status}, {site_name}, {site_url}"
+
+#: src/Admin/Emails/Templates/BookingNotifications.php:25
+msgid "Configure email notifications for booking creation and status changes."
+msgstr "Configura los avisos por correo electrónico para la creación de reservas y los cambios de estado."
+
+#: src/Admin/Emails/Core/Templates.php:90
+msgid "Refund Alert: Booking #{{booking.order_id}}"
+msgstr "Aviso de reembolso: reserva #{{booking.order_id}}"
+
+#: src/Admin/Emails/Core/Templates.php:86
+msgid "Refund Processed for Booking #{{booking.order_id}}"
+msgstr "Reembolso procesado para la reserva #{{booking.order_id}}"
+
+#: src/Admin/Emails/Core/Templates.php:74
+#: src/Admin/Emails/Core/Templates.php:80
+msgid "Booking #{{booking.order_id}} Cancelled - {{site.name}}"
+msgstr "Reserva #{{booking.order_id}} cancelada - {{site.name}}"
+
+#: src/Admin/Emails/Core/Templates.php:59
+msgid "Reminder: Your Booking #{{booking.order_id}} Starts Soon - {{site.name}}"
+msgstr "Recordatorio: tu reserva #{{booking.order_id}} comienza pronto - {{site.name}}"
+
+#: src/Admin/Emails/Core/Templates.php:51
+#: src/Admin/Emails/Core/Templates.php:55
+msgid "Booking #{{booking.order_id}} Status Updated - {{site.name}}"
+msgstr "Estado de la reserva #{{booking.order_id}} actualizado - {{site.name}}"
+
+#: src/Admin/Emails/Core/Templates.php:47
+msgid "New Booking Request #{{booking.order_id}} - {{site.name}}"
+msgstr "Nueva solicitud de reserva #{{booking.order_id}} - {{site.name}}"
+
+#: src/Admin/Emails/Core/Templates.php:43
+msgid "Booking #{{booking.order_id}} Confirmed - {{site.name}}"
+msgstr "Reserva #{{booking.order_id}} confirmada - {{site.name}}"
+
+#: src/Admin/Emails/Core/EmailTemplates.php:576
+msgid "Template reset to default!"
+msgstr "¡Plantilla restablecida a los valores por defecto!"
+
+#: src/Admin/Emails/Core/EmailTemplates.php:463
+msgid "Mock Booking #9999"
+msgstr "Reserva de prueba #9999"
+
+#: src/Admin/Emails/Core/EmailTemplates.php:296
+#: src/Admin/Emails/Templates/BookingNotifications.php:24
+msgid "Booking Notifications"
+msgstr "Avisos de reserva"
+
+#: src/Admin/Emails/Core/EmailTemplates.php:79
+#: src/Admin/Settings/View/TabRendererRegistry.php:162
+msgid "Notification Templates"
+msgstr "Plantillas de aviso"
+
+#: src/Admin/Customers/REST/CustomersRestController.php:198
+msgid "ids must be a non-empty array."
+msgstr "ids debe ser un array no vacío."
+
+#: src/Admin/Customers/REST/CustomersRestController.php:187
+msgid "You do not have permission to delete customers."
+msgstr "No tienes permiso para borrar clientes."
+
+#: src/Admin/Core/Utilities/UXHelper.php:290
+msgid "Check your internet connection"
+msgstr "Comprueba tu conexión a internet"
+
+#: src/Admin/Core/Utilities/UXHelper.php:236
+msgid "System updated. New features available."
+msgstr "Sistema actualizado. Hay nuevas características disponibles."
+
+#. translators: {feature} is replaced with a runtime value.
+#: src/Admin/Core/Utilities/UXHelper.php:235
+msgid "New feature: {feature}. Click for details."
+msgstr "Nueva característica: {feature}. Haz clic para ver los detalles."
+
+#: src/Admin/Core/Utilities/UXHelper.php:144
+msgid "Connection failed. Please check your internet connection."
+msgstr "La conexión ha fallado. Comprueba tu conexión a internet."
+
+#: src/Admin/Core/Utilities/UXHelper.php:140
+msgid "You need to log in for this action."
+msgstr "Debes acceder para realizar esta acción."
+
+#: src/Admin/Core/Utilities/UXHelper.php:122
+msgid "Your session has expired. Please log in again."
+msgstr "Tu sesión ha caducado. Accede de nuevo."
+
+#: src/Admin/Core/Utilities/UXHelper.php:119
+msgid "This feature is temporarily disabled."
+msgstr "Esta característica está desactivada temporalmente."
+
+#: src/Admin/Core/Utilities/UXHelper.php:107
+msgid "Customer information not found. Please log in."
+msgstr "No se ha encontrado la información del cliente. Accede."
+
+#: src/Admin/Core/Utilities/UXHelper.php:84
+msgid "Customer information not found. Please log in or register."
+msgstr "No se ha encontrado la información del cliente. Accede o regístrate."
+
+#: src/Admin/Core/Utilities/DatabaseCleaner.php:2576
+msgid "Backup deletion completed with some warnings"
+msgstr "El borrado de la copia de seguridad ha finalizado con algunas advertencias"
+
+#: src/Admin/Core/Utilities/DatabaseCleaner.php:2162
+#: src/Admin/Utilities/Database/DatabaseCleanupPage.php:450
+#: src/Admin/Utilities/Database/DatabaseCleanupPage.php:597
+msgid "Failed to delete backup"
+msgstr "No se ha podido borrar la copia de seguridad"
+
+#: src/Admin/Core/Utilities/DatabaseCleaner.php:2162
+#: src/Admin/Core/Utilities/DatabaseCleaner.php:2575
+msgid "Backup deleted successfully"
+msgstr "Copia de seguridad borrada correctamente"
+
+#: src/Admin/Core/Traits/AdminHelperTrait.php:406
+msgid "Bulk Actions"
+msgstr "Acciones en lote"
+
+#: src/Admin/Core/Traits/AdminHelperTrait.php:126
+msgid "Reset to Defaults"
+msgstr "Restablecer valores por defecto"
+
+#: src/Admin/Core/ShortcodeServiceProvider.php:326
+msgid "Please login to view this content."
+msgstr "Accede para ver este contenido."
+
+#: src/Admin/Core/SecurityHelper.php:493
+msgid "Invalid array format."
+msgstr "Formato de array no válido."
+
+#: src/Admin/Core/PostTypes/AbstractPostType.php:170
+msgid "Custom field deleted."
+msgstr "Campo personalizado borrado."
+
+#. translators: %s placeholder.
+#: src/Admin/Core/PostTypes/AbstractPostType.php:126
+msgid "Remove %s image"
+msgstr "Quitar imagen de %s"
+
+#: src/Admin/Core/AssetManager.php:1390
+#: src/Admin/Frontend/Shortcodes/BookingForm.php:1753
+#: build/admin/shortcode-pages.js:4
+msgid "Clear"
+msgstr "Vaciar"
+
+#: src/Admin/Core/AssetManager.php:1288
+msgid "Reset this tab to defaults?"
+msgstr "¿Restablecer esta pestaña a los valores por defecto?"
+
+#: src/Admin/Core/AssetManager.php:1234
+msgid "Could not delete the field."
+msgstr "No se ha podido borrar el campo."
+
+#: src/Admin/Core/AssetManager.php:1233
+msgid "Field deleted."
+msgstr "Campo borrado."
+
+#. translators: %s: field name
+#: src/Admin/Core/AssetManager.php:1232
+msgid "The field \"%s\" will be permanently deleted. Are you sure?"
+msgstr "El campo «%s» se borrará definitivamente. ¿Seguro?"
+
+#: src/Admin/Core/AssetManager.php:1193
+msgid "Are you sure you want to reset all vehicle settings to defaults? Custom field definitions will NOT be deleted."
+msgstr "¿Seguro que quieres restablecer todos los ajustes de vehículos a sus valores por defecto? Las definiciones de campos personalizados NO se borrarán."
+
+#: src/Admin/Core/AssetManager.php:1119
+msgid "Are you sure you want to reset all REST API settings to default values? This action cannot be undone."
+msgstr "¿Seguro que quieres restablecer todos los ajustes de la API REST a sus valores por defecto? Esta acción no se puede deshacer."
+
+#: src/Admin/Core/AssetManager.php:1078
+msgid "Are you sure you want to reset this template to default?"
+msgstr "¿Seguro que quieres restablecer esta plantilla a sus valores por defecto?"
+
+#: src/Admin/Core/AssetManager.php:1071 src/Admin/Core/AssetManager.php:1122
+msgid "Failed to reset settings to defaults."
+msgstr "No se han podido restablecer los ajustes a sus valores por defecto."
+
+#: src/Admin/Core/AssetManager.php:1070 src/Admin/Core/AssetManager.php:1121
+msgid "Settings reset to defaults successfully. Page will reload..."
+msgstr "Los ajustes se han restablecido correctamente a sus valores por defecto. La página se volverá a cargar…"
+
+#: src/Admin/Core/AssetManager.php:1068
+msgid "Are you sure you want to reset this tab's settings to default values? This action cannot be undone."
+msgstr "¿Seguro que quieres restablecer los ajustes de esta pestaña a sus valores por defecto? Esta acción no se puede deshacer."
+
+#: src/Admin/Core/AssetManager.php:1067
+msgid "Template reset to default"
+msgstr "Plantilla restablecida a los valores por defecto"
+
+#: src/Admin/Core/AssetManager.php:1056
+msgid "Are you sure you want to delete this status?"
+msgstr "¿Seguro que quieres borrar este estado?"
+
+#: src/Admin/Core/AssetManager.php:1053
+msgid "Are you sure you want to delete this category?"
+msgstr "¿Seguro que quieres borrar esta categoría?"
+
+#: src/Admin/Core/AssetManager.php:1019
+msgid "Permanently delete this booking?"
+msgstr "¿Borrar definitivamente esta reserva?"
+
+#. translators: %d: number of selected bookings.
+#: src/Admin/Core/AssetManager.php:1017
+msgid "Permanently delete %d selected bookings?"
+msgstr "¿Borrar definitivamente las %d reservas seleccionadas?"
+
+#: src/Admin/Core/AssetManager.php:975
+msgid "Error removing image"
+msgstr "Error al quitar la imagen"
+
+#: src/Admin/Core/AssetManager.php:973
+#: src/Admin/Vehicle/Meta/VehicleGallery.php:129
+#: src/Admin/Vehicle/Templates/vehicle-gallery.php:72
+msgid "Remove Image"
+msgstr "Quitar imagen"
+
+#: src/Admin/Core/AssetManager.php:972
+#: src/Admin/Vehicle/Meta/VehicleGallery.php:134
+msgid "Are you sure you want to remove this image?"
+msgstr "¿Seguro que quieres quitar esta imagen?"
+
+#: src/Admin/Addons/AddonScreen.php:763 src/Admin/Addons/AddonScreen.php:1054
+#: src/Admin/Core/AssetManager.php:906 src/Admin/Core/AssetManager.php:1064
+#: src/Admin/Core/AssetManager.php:1378
+#: src/Admin/Frontend/Shortcodes/VehicleRatingForm.php:127
+#: templates/shortcodes/vehicle-rating-form.php:263
+msgid "Delete"
+msgstr "Borrar"
+
+#: src/Admin/Core/AssetManager.php:903 src/Admin/Core/AssetManager.php:1401
+#: src/Admin/Frontend/Account/AccountController.php:405
+#: src/Admin/Frontend/Shortcodes/Account/AbstractAccountShortcode.php:69
+#: src/Admin/Frontend/Shortcodes/VehicleRatingForm.php:120
+msgid "Are you sure?"
+msgstr "¿Seguro?"
+
+#: src/Admin/Core/AssetManager.php:791 src/Admin/Core/AssetManager.php:1200
+#: src/Admin/Frontend/Shortcodes/VehicleComparison.php:138
+#: src/Admin/Settings/Core/SettingsHelper.php:236
+#: src/Admin/Vehicle/Settings/VehicleSettings.php:631
+#: src/Admin/Vehicle/Settings/VehicleSettings.php:683
+#: templates/account/payment-history.php:171 build/admin/shortcode-pages.js:1
+#: build/admin/shortcode-pages.js:4
+msgid "Remove"
+msgstr "Quitar"
+
+#: src/Admin/Core/AssetManager.php:370
+msgid "Removed from comparison."
+msgstr "Quitado de la comparación."
+
+#: src/Admin/Core/AssetManager.php:368
+msgid "Removing from comparison..."
+msgstr "Quitando de la comparación…"
+
+#: src/Admin/Core/AssetManager.php:364
+msgid "Removed from favorites."
+msgstr "Quitado de favoritos."
+
+#: src/Admin/Core/AssetManager.php:362
+msgid "Removing from favorites..."
+msgstr "Quitando de favoritos…"
+
+#: src/Admin/Booking/Meta/BookingPortalMetaBox.php:195
+msgid "Customer account created and linked to booking."
+msgstr "Cuenta de cliente creada y enlazada a la reserva."
+
+#: src/Admin/Booking/Meta/BookingPortalMetaBox.php:155
+msgid "Existing account linked to booking."
+msgstr "Cuenta existente enlazada a la reserva."
+
+#: src/Admin/Booking/Meta/BookingPortalMetaBox.php:89
+msgid "No customer account linked"
+msgstr "No hay ninguna cuenta de cliente enlazada"
+
+#: src/Admin/Booking/Meta/BookingPortalMetaBox.php:78
+msgid "Customer can login with their email and password to view this booking."
+msgstr "El cliente puede acceder con su correo electrónico y contraseña para consultar esta reserva."
+
+#: src/Admin/Booking/Meta/BookingMeta.php:297
+#: src/Admin/Booking/Meta/BookingMeta.php:342
+#: templates/emails/receipt-status-email.html.php:27
+msgid "Your payment receipt has been rejected"
+msgstr "Tu recibo de pago ha sido rechazado"
+
+#: src/Admin/Booking/Meta/BookingMeta.php:296
+#: src/Admin/Booking/Meta/BookingMeta.php:341
+#: templates/emails/receipt-status-email.html.php:26
+msgid "Your payment receipt has been approved"
+msgstr "Tu recibo de pago ha sido aprobado"
+
+#: src/Admin/Booking/Meta/BookingMeta.php:263
+#: templates/admin/booking-meta/receipt-box.php:52
+msgid "Reject Receipt"
+msgstr "Rechazar recibo"
+
+#: src/Admin/Booking/Meta/BookingMeta.php:262
+#: templates/admin/booking-meta/receipt-box.php:49
+msgid "Approve Receipt"
+msgstr "Aprobar recibo"
+
+#: src/Admin/Booking/Meta/BookingMeta.php:255
+#: templates/admin/booking-meta/receipt-box.php:30
+msgid "No receipt uploaded."
+msgstr "No se ha subido ningún recibo."
+
+#: src/Admin/Booking/Meta/BookingMeta.php:252
+#: templates/admin/booking-meta/receipt-box.php:24
+msgid "Receipt file:"
+msgstr "Archivo del recibo:"
+
+#: src/Admin/Booking/Meta/BookingMeta.php:152
+msgid "Payment Receipt"
+msgstr "Recibo de pago"
+
+#. translators: %d: booking ID
+#: src/Admin/Booking/ListTable/BookingColumns.php:1965
+msgid "Booking #%d"
+msgstr "Reserva #%d"
+
+#: src/Admin/Booking/Helpers/Util.php:495
+msgid "Sorry, no vehicle found for selected dates. Please try different dates."
+msgstr "Lo siento, no se ha encontrado ningún vehículo para las fechas seleccionadas. Prueba con otras fechas."
+
+#. translators: %d placeholder.
+#: src/Admin/Booking/Helpers/CancellationHandler.php:626
+msgid "[ADMIN] Booking Cancelled - #%d"
+msgstr "[ADMIN] Reserva cancelada - #%d"
+
+#: src/Admin/Addons/AddonListTable.php:81 src/Admin/Addons/AddonManager.php:280
+msgid "Are you sure you want to delete selected additional services? This action cannot be undone."
+msgstr "¿Seguro que quieres borrar los servicios adicionales seleccionados? Esta acción no se puede deshacer."

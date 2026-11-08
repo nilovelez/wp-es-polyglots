@@ -1,0 +1,32 @@
+{"n": 1998, "verdict": "reject", "msgstr": "Quitar todo (%d)", "comment": "Según la guía rápida, «clear» de filtros es «quitar»; «vaciar» solo para contenidos como la caché o la papelera."}
+{"n": 1999, "verdict": "reject", "msgstr": "Quitar todo", "comment": "Según la guía rápida, «clear» de filtros es «quitar»; «borrar» no se usa para «clear»."}
+{"n": 2000, "verdict": "reject", "msgstr": "Quitar todos los filtros", "comment": "Según la guía rápida, para «clear filters» se usa «quitar filtros», no «borrar filtros»."}
+{"n": 2022, "verdict": "reject", "msgstr": "Puntuación:", "comment": "Según el glosario, «rating» se traduce como «puntuación» fuera del directorio de plugins y temas."}
+{"n": 2032, "verdict": "reject", "msgstr": "Puntuación", "comment": "Según el glosario, «rating» se traduce como «puntuación» fuera del directorio de plugins y temas."}
+{"n": 2038, "verdict": "reject", "msgstr": "La puntuación debe estar entre 1 y 5.", "comment": "Según el glosario, «rating» se traduce como «puntuación» fuera del directorio de plugins y temas."}
+{"n": 2049, "verdict": "reject", "msgstr": "Incidencias importantes", "comment": "Según el glosario, «issue» se traduce como «problema», «conflicto» o «incidencia»."}
+{"n": 2055, "verdict": "reject", "msgstr": "Nuestro equipo de soporte te ayudará con tus problemas técnicos.", "comment": "Según el glosario, «support» en el sentido de ayuda se traduce como «soporte»."}
+{"n": 2056, "verdict": "reject", "msgstr": "Soporte técnico", "comment": "Según el glosario, «support» en el sentido de ayuda se traduce como «soporte»."}
+{"n": 2061, "verdict": "reject", "msgstr": "Soporte 24/7", "comment": "Según el glosario, «support» en el sentido de ayuda se traduce como «soporte»."}
+{"n": 2111, "verdict": "reject", "msgstr": "Accede para gestionar tus favoritos.", "comment": "Según el glosario, «login» se traduce como «acceder»; no se usa «iniciar sesión»."}
+{"n": 2136, "verdict": "reject", "msgstr": "Accede para añadir vehículos a tus favoritos.", "comment": "Según el glosario, «login» se traduce como «acceder»; no se usa «iniciar sesión»."}
+{"n": 2157, "verdict": "reject", "msgstr": "Debes estar conectado para añadir elementos a favoritos", "comment": "Según el glosario, «logged in» es «conectado»; no se usa «iniciar sesión»."}
+{"n": 2158, "verdict": "reject", "msgstr": "Quitado de favoritos", "comment": "Según el glosario, «remove» se traduce casi siempre como «quitar»."}
+{"n": 2163, "verdict": "reject", "msgstr": "Te damos la bienvenida a tu escritorio. Desde aquí puedes consultar tus pedidos recientes, gestionar tus direcciones de envío y facturación y editar tu contraseña y los datos de tu cuenta.", "comment": "Según el glosario, «Dashboard» se traduce como «escritorio», no como «panel»."}
+{"n": 2166, "verdict": "reject", "msgstr": "Debes estar conectado para cancelar una reserva.", "comment": "Según el glosario, «logged in» es «conectado»; no se usa «iniciar sesión»."}
+{"n": 2171, "verdict": "reject", "msgstr": "Accede.", "comment": "Según el glosario, «login» se traduce como «acceder»; no se usa «iniciar sesión»."}
+{"n": 2172, "verdict": "reject", "msgstr": "No se ha podido eliminar el archivo del recibo.", "comment": "Según el glosario, «receipt» se traduce como «recibo»."}
+{"n": 2173, "verdict": "reject", "msgstr": "Recibo eliminado correctamente.", "comment": "Según el glosario, «receipt» se traduce como «recibo»."}
+{"n": 2174, "verdict": "reject", "msgstr": "No se ha encontrado ningún recibo para eliminar.", "comment": "Según el glosario, «receipt» se traduce como «recibo»."}
+{"n": 2175, "verdict": "reject", "msgstr": "No tienes permisos para eliminar el recibo de esta reserva.", "comment": "Según el glosario, «not allowed» es «no tienes permisos» y «receipt» es «recibo»."}
+{"n": 2176, "verdict": "reject", "msgstr": "No se ha encontrado el recibo.", "comment": "Según el glosario, «receipt» se traduce como «recibo»."}
+{"n": 2177, "verdict": "reject", "msgstr": "No tienes permisos para ver este recibo.", "comment": "Según el glosario, «not allowed» es «no tienes permisos» y «receipt» es «recibo»."}
+{"n": 2179, "verdict": "reject", "msgstr": "No tienes permisos para subir archivos a esta reserva.", "comment": "Según el glosario, «not allowed» es «no tienes permisos»."}
+{"n": 2180, "verdict": "reject", "msgstr": "Debes estar conectado.", "comment": "Según el glosario, «logged in» es «conectado»; no se usa «iniciar sesión»."}
+{"n": 2181, "verdict": "reject", "msgstr": "Se han vaciado todos los favoritos", "comment": "Según el glosario, «clear» se traduce como «vaciar»."}
+{"n": 2182, "verdict": "reject", "msgstr": "Debes estar conectado", "comment": "Según el glosario, «logged in» es «conectado»; no se usa «iniciar sesión»."}
+{"n": 2190, "verdict": "reject", "msgstr": "Se han vaciado todos los favoritos.", "comment": "Según el glosario, «clear» se traduce como «vaciar»."}
+{"n": 2192, "verdict": "reject", "msgstr": "Vehículo quitado de favoritos.", "comment": "Según el glosario, «remove» se traduce casi siempre como «quitar»."}
+{"n": 2194, "verdict": "reject", "msgstr": "¿Seguro que quieres eliminar este recibo?", "comment": "Según el glosario, «receipt» se traduce como «recibo»; «¿Estás seguro?» se sustituye por «¿Seguro que…?»."}
+{"n": 2195, "verdict": "reject", "msgstr": "Error al subir el recibo.", "comment": "Según el glosario, «receipt» se traduce como «recibo»."}
+{"n": 2196, "verdict": "reject", "msgstr": "Recibo subido correctamente.", "comment": "Según el glosario, «receipt» se traduce como «recibo»."}

@@ -1,0 +1,480 @@
+#1: glossary: license → licencia?
+#5: glossary: license → licencia?
+#17: glossary: check → marcar / comprobar | cheque? [nota: Dependiendo del contexto. Por ejemplo: marcar una casilla / comprobar un ajuste / En comercio, como medio de pago.]
+#33: glossary: toggle → conmutador | cambiar / alternar?
+#55: glossary: set → establecer | conjunto?
+#59: glossary: render → procesar / mostrar? [nota: Usar según el contexto. En programación usar «procesar», cuando se refiere a mostrar elementos en una página usar «mostrar»]
+#62: glossary: save → guardar o ahorrar, según contexto? [nota: No utilizar: Salvar (incorrecto)]
+#63: glossary: save → guardar o ahorrar, según contexto? [nota: No utilizar: Salvar (incorrecto)]
+#67: glossary: deprecate → descarta? | glossary: render → procesar / mostrar? [nota: Usar según el contexto. En programación usar «procesar», cuando se refiere a mostrar elementos en una página usar «mostrar»]
+#86: glossary: delete → borrar?
+#88: «#%d» → keep «#», not «n.º»
+#91: glossary: save → guardar o ahorrar, según contexto? [nota: No utilizar: Salvar (incorrecto)]
+#108: glossary: bulk → por lotes? [nota: Según el contexto podría ser «en lotes» o «en bloque». No usar «en masa» ni «masivamente»]
+#124: glossary: clear → vaciar?
+#130: glossary: bulk → por lotes? [nota: Según el contexto podría ser «en lotes» o «en bloque». No usar «en masa» ni «masivamente»] | glossary: bulk actions → acciones en lote?
+#132: glossary: delete → borrar?
+#133: glossary: delete → borrar?
+#134: glossary: delete → borrar?
+#144: glossary: save → guardar o ahorrar, según contexto? [nota: No utilizar: Salvar (incorrecto)]
+#146: glossary: media → medios?
+#147: glossary: save → guardar o ahorrar, según contexto? [nota: No utilizar: Salvar (incorrecto)]
+#150: glossary: deprecate → descarta? | glossary: render → procesar / mostrar? [nota: Usar según el contexto. En programación usar «procesar», cuando se refiere a mostrar elementos en una página usar «mostrar»]
+#151: glossary: Dashboard → Escritorio? [nota: No utilizar «tablero» o «panel de control»] | glossary: deprecate → descarta?
+#156: glossary: Dashboard → Escritorio? [nota: No utilizar «tablero» o «panel de control»] | glossary: deprecate → descarta?
+#160: glossary: delete → borrar?
+#161: glossary: save → guardar o ahorrar, según contexto? [nota: No utilizar: Salvar (incorrecto)]
+#168: glossary: next → siguiente? [nota: Si es comienzo de frase traducir como «A continuación»] | glossary: save → guardar o ahorrar, según contexto? [nota: No utilizar: Salvar (incorrecto)]
+#177: glossary: delete → borrar?
+#178: glossary: support → es compatible con / dar soporte? [nota: Si se refiere a compatibilidad entre versiones/software se traduce como «compatible con» si se refiere a dar ayuda en foros se traduce como «dar soporte»] | glossary: supported → compatible?
+#179: glossary: delete → borrar?
+#181: glossary: rollback → retroceso | retroceder?
+#184: «#%d» → keep «#», not «n.º»
+#189: glossary: required → obligatorio / requerido / necesario? [nota: Usar siempre «obligatorio», y solo en contadas ocasiones - muy justificadas por el contexto - se puede usar requerido. También «necesario», que es menos impositivo.]
+#205: glossary: support → es compatible con / dar soporte? [nota: Si se refiere a compatibilidad entre versiones/software se traduce como «compatible con» si se refiere a dar ayuda en foros se traduce como «dar soporte»]
+#207: glossary: ship → enviar?
+#211: «#%d» → keep «#», not «n.º»
+#214: «#%d» → keep «#», not «n.º»
+#216: «#%d» → keep «#», not «n.º»
+#221: «#%d» → keep «#», not «n.º»
+#238: «#%d» → keep «#», not «n.º»
+#239: glossary: e-mail → correo electrónico? | «#%d» → keep «#», not «n.º»
+#241: glossary: e-mail → correo electrónico? | «#%d» → keep «#», not «n.º»
+#242: «#%d» → keep «#», not «n.º»
+#256: glossary: review → reseña / valoración? [nota: Depende del contexto se usa reseña (foros) o valoración (directorio de plugins y temas)]
+#261: glossary: about → acerca de? [nota: Preferimos «Acerca de» antes que «Sobre», pero dependerá del contexto. «Acerca del tema Baskerville» «Sobre el autor»]
+#270: capitals mid-sentence: Volver
+#276: capitals mid-sentence: Volver
+#277: capitals mid-sentence: Volver
+#316: «#%d» → keep «#», not «n.º»
+#317: «#%d» → keep «#», not «n.º»
+#318: «#%d» → keep «#», not «n.º»
+#321: glossary: e-mail → correo electrónico?
+#327: glossary: release → versión? [nota: No confudir con Released --> Lanzamiento]
+#341: glossary: delete → borrar?
+#363: glossary: save → guardar o ahorrar, según contexto? [nota: No utilizar: Salvar (incorrecto)]
+#367: glossary: delete → borrar?
+#374: glossary: layout → estructura / disposición / diseño / plantilla? [nota: Si se refiere a una página se usa «plantilla» si es relativo a la distribución de contenidos, según contexto se puede usar «estructura», «diseño», »disposición»]
+#376: glossary: layout → estructura / disposición / diseño / plantilla? [nota: Si se refiere a una página se usa «plantilla» si es relativo a la distribución de contenidos, según contexto se puede usar «estructura», «diseño», »disposición»]
+#404: glossary: next → siguiente? [nota: Si es comienzo de frase traducir como «A continuación»]
+#408: glossary: delete → borrar?
+#409: glossary: are you sure → ¿Seguro que…?? [nota: Para hacer la pregunta sin género no usar «¿Estás seguro…?» o «¿Estás segura…?» sino «¿Seguro que…?» adaptable a ambos géneros] | glossary: delete → borrar?
+#411: glossary: clear → vaciar?
+#421: glossary: clear → vaciar?
+#425: capitals mid-sentence: Resumen
+#430: capitals mid-sentence: Anterior
+#443: glossary: bulk → por lotes? [nota: Según el contexto podría ser «en lotes» o «en bloque». No usar «en masa» ni «masivamente»] | glossary: delete → borrar?
+#449: capitals mid-sentence: Anterior
+#481: glossary: bug → fallo? | glossary: feature → característica | destacar? [nota: Por defecto, traducir por «característica», aunque en muchas ocasiones será más preciso «función»] | glossary term left in English: issue → problema / conflicto / incidencia
+#482: glossary: bug → fallo? | glossary: feature → característica | destacar? [nota: Por defecto, traducir por «característica», aunque en muchas ocasiones será más preciso «función»]
+#486: glossary: default → por defecto?
+#505: glossary: clear → vaciar? | glossary: default → por defecto? | glossary: reset → restablecer?
+#507: glossary: default → por defecto?
+#517: glossary: default → por defecto?
+#563: glossary: default → por defecto?
+#585: glossary: login → acceder / acceso? [nota: Usar «Acceder» cuando sea 1) una etiqueta de un botón, cuando se haga la acción de acceder al pulsarlo. 2) se refiera en un texto a la acción de acceder. No utilizar: Iniciar Sesión (Incorrecto). Entrar (Incorrecto). Identificarse (Incorrecto)]
+#586: glossary: logged in → conectado?
+#587: glossary: login → acceder / acceso? [nota: Usar «Acceder» cuando sea 1) una etiqueta de un botón, cuando se haga la acción de acceder al pulsarlo. 2) se refiera en un texto a la acción de acceder. No utilizar: Iniciar Sesión (Incorrecto). Entrar (Incorrecto). Identificarse (Incorrecto)]
+#588: glossary: delete → borrar?
+#592: glossary: about → acerca de? [nota: Preferimos «Acerca de» antes que «Sobre», pero dependerá del contexto. «Acerca del tema Baskerville» «Sobre el autor»]
+#603: glossary: check → marcar / comprobar | cheque? [nota: Dependiendo del contexto. Por ejemplo: marcar una casilla / comprobar un ajuste / En comercio, como medio de pago.]
+#614: glossary: license → licencia? | glossary: required → obligatorio / requerido / necesario? [nota: Usar siempre «obligatorio», y solo en contadas ocasiones - muy justificadas por el contexto - se puede usar requerido. También «necesario», que es menos impositivo.]
+#615: glossary: license → licencia?
+#656: glossary: support → es compatible con / dar soporte? [nota: Si se refiere a compatibilidad entre versiones/software se traduce como «compatible con» si se refiere a dar ayuda en foros se traduce como «dar soporte»] | glossary: supported → compatible?
+#672: glossary: set → establecer | conjunto?
+#686: glossary: check → marcar / comprobar | cheque? [nota: Dependiendo del contexto. Por ejemplo: marcar una casilla / comprobar un ajuste / En comercio, como medio de pago.]
+#695: glossary: toggle → conmutador | cambiar / alternar?
+#701: glossary: by clicking → al hacer clic?
+#703: glossary: about → acerca de? [nota: Preferimos «Acerca de» antes que «Sobre», pero dependerá del contexto. «Acerca del tema Baskerville» «Sobre el autor»]
+#704: «#%d» → keep «#», not «n.º»
+#711: glossary: receipt → recibo? | glossary: review → reseña / valoración? [nota: Depende del contexto se usa reseña (foros) o valoración (directorio de plugins y temas)] | glossary: upload → subida | subir? [nota: No utilizar: carga (incorrecto) / No utilizar: cargar (incorrecto)]
+#714: glossary: receipt → recibo? | glossary: review → reseña / valoración? [nota: Depende del contexto se usa reseña (foros) o valoración (directorio de plugins y temas)]
+#715: glossary: receipt → recibo? | glossary: review → reseña / valoración? [nota: Depende del contexto se usa reseña (foros) o valoración (directorio de plugins y temas)]
+#717: glossary: clear → vaciar?
+#718: glossary: receipt → recibo?
+#720: capitals mid-sentence: Reserva | «#%d» → keep «#», not «n.º»
+#725: glossary: license → licencia?
+#733: «#%d» → keep «#», not «n.º»
+#736: glossary: receipt → recibo?
+#737: glossary: receipt → recibo?
+#738: glossary: receipt → recibo? | capitals mid-sentence: Reserva | «#%d» → keep «#», not «n.º»
+#750: glossary: save → guardar o ahorrar, según contexto? [nota: No utilizar: Salvar (incorrecto)]
+#752: glossary: login → acceder / acceso? [nota: Usar «Acceder» cuando sea 1) una etiqueta de un botón, cuando se haga la acción de acceder al pulsarlo. 2) se refiera en un texto a la acción de acceder. No utilizar: Iniciar Sesión (Incorrecto). Entrar (Incorrecto). Identificarse (Incorrecto)]
+#753: glossary: Dashboard → Escritorio? [nota: No utilizar «tablero» o «panel de control»]
+#771: glossary: check → marcar / comprobar | cheque? [nota: Dependiendo del contexto. Por ejemplo: marcar una casilla / comprobar un ajuste / En comercio, como medio de pago.]
+#774: glossary: sorry → lo siento? [nota: No utilizar: Lo sentimos (Incorrecto) Perdona (Incorrecto)]
+#781: glossary term left in English: hook → gancho [nota: Action hook -> gancho de acción Filter hook -> gancho de filtro]
+#784: glossary: receipt → recibo?
+#792: glossary: clear → vaciar?
+#794: glossary: by clicking → al hacer clic?
+#798: glossary: delete → borrar?
+#799: glossary: delete → borrar?
+#808: glossary: support → es compatible con / dar soporte? [nota: Si se refiere a compatibilidad entre versiones/software se traduce como «compatible con» si se refiere a dar ayuda en foros se traduce como «dar soporte»]
+#817: «#%d» → keep «#», not «n.º»
+#828: glossary: fee → cuota? [nota: WooCommerce]
+#842: glossary: next → siguiente? [nota: Si es comienzo de frase traducir como «A continuación»]
+#857: glossary: support → es compatible con / dar soporte? [nota: Si se refiere a compatibilidad entre versiones/software se traduce como «compatible con» si se refiere a dar ayuda en foros se traduce como «dar soporte»]
+#861: glossary: rollback → retroceso | retroceder?
+#865: glossary: rollback → retroceso | retroceder?
+#868: glossary: set → establecer | conjunto?
+#872: glossary: render → procesar / mostrar? [nota: Usar según el contexto. En programación usar «procesar», cuando se refiere a mostrar elementos en una página usar «mostrar»]
+#885: glossary: rollback → retroceso | retroceder?
+#886: glossary: rollback → retroceso | retroceder?
+#889: glossary: rollback → retroceso | retroceder?
+#892: glossary: rollback → retroceso | retroceder?
+#893: glossary: rollback → retroceso | retroceder?
+#895: glossary: rollback → retroceso | retroceder?
+#901: «#%d» → keep «#», not «n.º»
+#902: «#%d» → keep «#», not «n.º»
+#903: glossary: array is not translated (array) [nota: No se traduce]
+#906: glossary: blueprint → modelo? [nota: Se refiere a modelos (como bocetos) de instalación, de WordPress, WooCommerce y otros, para reutilizar en otras instalaciones.]
+#908: glossary: review → reseña / valoración? [nota: Depende del contexto se usa reseña (foros) o valoración (directorio de plugins y temas)]
+#915: glossary: vendor → vendedor?
+#918: glossary: drag and drop → arrastrar y soltar?
+#920: glossary: delete → borrar?
+#942: glossary: default → por defecto?
+#953: glossary: core → núcleo? [nota: Se suele referir al núcleo de WordPress]
+#955: glossary: save → guardar o ahorrar, según contexto? [nota: No utilizar: Salvar (incorrecto)]
+#956: glossary: save → guardar o ahorrar, según contexto? [nota: No utilizar: Salvar (incorrecto)]
+#960: glossary: save → guardar o ahorrar, según contexto? [nota: No utilizar: Salvar (incorrecto)]
+#970: capitals mid-sentence: Diésel
+#974: glossary: core → núcleo? [nota: Se suele referir al núcleo de WordPress]
+#977: glossary: save → guardar o ahorrar, según contexto? [nota: No utilizar: Salvar (incorrecto)]
+#988: capitals mid-sentence: Mi
+#1011: glossary: holder → titular? [nota: Cuando se habla del titular de una tarjeta o cuenta de banco «account holder» «card holder»]
+#1018: glossary: warning → advertencia?
+#1129: glossary: delete → borrar?
+#1131: glossary: save → guardar o ahorrar, según contexto? [nota: No utilizar: Salvar (incorrecto)]
+#1134: glossary term left in English: hook → gancho [nota: Action hook -> gancho de acción Filter hook -> gancho de filtro]
+#1135: capitals mid-sentence: Cron
+#1137: glossary term left in English: hook → gancho [nota: Action hook -> gancho de acción Filter hook -> gancho de filtro]
+#1138: glossary term left in English: hook → gancho [nota: Action hook -> gancho de acción Filter hook -> gancho de filtro] | capitals mid-sentence: Cron
+#1140: glossary: post → entrada?
+#1147: glossary term left in English: post → entrada
+#1149: glossary: default → por defecto?
+#1152: glossary: set → establecer | conjunto?
+#1153: glossary: email → correo electrónico? [nota: No utilizar: email (Incorrecto). correo e (Incorrecto). e-mail (Incorrecto). Correo Electrónico (con E mayúscula) (Incorrecto) email address = dirección de correo electrónico (Correcto)]
+#1178: glossary: frontend → portada / vista pública / parte pública? | glossary: set → establecer | conjunto?
+#1179: glossary: required → obligatorio / requerido / necesario? [nota: Usar siempre «obligatorio», y solo en contadas ocasiones - muy justificadas por el contexto - se puede usar requerido. También «necesario», que es menos impositivo.] | glossary: setting → ajuste? | glossary: settings → ajustes? [nota: No utilizar: Opciones (Incorrecto)] | capitals mid-sentence: Importante
+#1184: glossary: save → guardar o ahorrar, según contexto? [nota: No utilizar: Salvar (incorrecto)]
+#1186: glossary: frontend → portada / vista pública / parte pública? | glossary: set → establecer | conjunto?
+#1187: capitals mid-sentence: Importante
+#1188: glossary: review → reseña / valoración? [nota: Depende del contexto se usa reseña (foros) o valoración (directorio de plugins y temas)]
+#1193: glossary: badge → acreditación / insignia / distinción?
+#1194: glossary: badge → acreditación / insignia / distinción?
+#1199: glossary: default → por defecto?
+#1200: glossary: frontend → portada / vista pública / parte pública?
+#1205: glossary: save → guardar o ahorrar, según contexto? [nota: No utilizar: Salvar (incorrecto)]
+#1206: glossary: post → entrada?
+#1207: glossary: email → correo electrónico? [nota: No utilizar: email (Incorrecto). correo e (Incorrecto). e-mail (Incorrecto). Correo Electrónico (con E mayúscula) (Incorrecto) email address = dirección de correo electrónico (Correcto)]
+#1208: glossary: email → correo electrónico? [nota: No utilizar: email (Incorrecto). correo e (Incorrecto). e-mail (Incorrecto). Correo Electrónico (con E mayúscula) (Incorrecto) email address = dirección de correo electrónico (Correcto)]
+#1210: glossary: email → correo electrónico? [nota: No utilizar: email (Incorrecto). correo e (Incorrecto). e-mail (Incorrecto). Correo Electrónico (con E mayúscula) (Incorrecto) email address = dirección de correo electrónico (Correcto)]
+#1214: glossary: notification → aviso? [nota: No usar «notificación»]
+#1215: glossary: default → por defecto? | glossary: email → correo electrónico? [nota: No utilizar: email (Incorrecto). correo e (Incorrecto). e-mail (Incorrecto). Correo Electrónico (con E mayúscula) (Incorrecto) email address = dirección de correo electrónico (Correcto)]
+#1216: capitals mid-sentence: Importante
+#1217: glossary: notification → aviso? [nota: No usar «notificación»]
+#1218: glossary: notification → aviso? [nota: No usar «notificación»]
+#1227: glossary: link → enlazar | enlace? [nota: No usar «vincular», «linkear» ni ninguna otra cosa / no usar «link», «vínculo» ni «liga»] | glossary: screen → pantalla?
+#1240: glossary term left in English: endpoint → variable [nota: se refiere a las variables/constantes en los slugs normalmente / En WooCommerce de refiere a slugs de la URL para diferentes situaciones en el proceso de compra. En el resto de situaciones a variables de programación.]
+#1241: glossary: commit is not translated (commit | hacer commit) [nota: (No se traduce)]
+#1242: glossary: core → núcleo? [nota: Se suele referir al núcleo de WordPress]
+#1250: glossary: streaming → transmisión?
+#1257: glossary: rollback → retroceso | retroceder?
+#1274: glossary: commit is not translated (commit | hacer commit) [nota: (No se traduce)]
+#1277: glossary: clear → vaciar?
+#1290: capitals mid-sentence: Word
+#1298: glossary term left in English: hook → gancho [nota: Action hook -> gancho de acción Filter hook -> gancho de filtro]
+#1306: glossary: next → siguiente? [nota: Si es comienzo de frase traducir como «A continuación»]
+#1310: glossary term left in English: hook → gancho [nota: Action hook -> gancho de acción Filter hook -> gancho de filtro]
+#1318: glossary term left in English: monitor → supervisar / seguir / vigilar [nota: No usar «monitorear» o similares]
+#1320: glossary: frontend → portada / vista pública / parte pública?
+#1327: glossary: addon → extensión?
+#1331: glossary: setting → ajuste? | glossary: settings → ajustes? [nota: No utilizar: Opciones (Incorrecto)]
+#1338: glossary: layout → estructura / disposición / diseño / plantilla? [nota: Si se refiere a una página se usa «plantilla» si es relativo a la distribución de contenidos, según contexto se puede usar «estructura», «diseño», »disposición»]
+#1340: glossary: layout → estructura / disposición / diseño / plantilla? [nota: Si se refiere a una página se usa «plantilla» si es relativo a la distribución de contenidos, según contexto se puede usar «estructura», «diseño», »disposición»]
+#1347: glossary: sidebar → barra lateral?
+#1357: glossary: save → guardar o ahorrar, según contexto? [nota: No utilizar: Salvar (incorrecto)]
+#1360: glossary: rate → tasa / tarifa | valorar / puntuar? [nota: Usar «tasa» cuando va unido a otro nombre, por ejemplo «taxes rate» - «tasa de impuestos». Usar «tarifa» cuando va unido a envío. Ej. «shipping rate» = «tarifa de envío» / Usa «valorar» en el directorio de plugins y temas. Usa «puntuar» en el resto de situaciones] | glossary: tax → impuesto? | glossary: tax rate → tasa de impuesto?
+#1361: glossary: rate → tasa / tarifa | valorar / puntuar? [nota: Usar «tasa» cuando va unido a otro nombre, por ejemplo «taxes rate» - «tasa de impuestos». Usar «tarifa» cuando va unido a envío. Ej. «shipping rate» = «tarifa de envío» / Usa «valorar» en el directorio de plugins y temas. Usa «puntuar» en el resto de situaciones] | glossary: tax → impuesto? | glossary: tax rate → tasa de impuesto?
+#1364: glossary: default → por defecto? | glossary: set → establecer | conjunto? | glossary: vendor → vendedor?
+#1365: glossary: default → por defecto?
+#1366: glossary: default → por defecto?
+#1380: glossary: rate → tasa / tarifa | valorar / puntuar? [nota: Usar «tasa» cuando va unido a otro nombre, por ejemplo «taxes rate» - «tasa de impuestos». Usar «tarifa» cuando va unido a envío. Ej. «shipping rate» = «tarifa de envío» / Usa «valorar» en el directorio de plugins y temas. Usa «puntuar» en el resto de situaciones] | glossary: tax → impuesto? | glossary: tax rate → tasa de impuesto?
+#1386: glossary: setting → ajuste? | glossary: settings → ajustes? [nota: No utilizar: Opciones (Incorrecto)]
+#1389: glossary: default → por defecto?
+#1391: glossary: save → guardar o ahorrar, según contexto? [nota: No utilizar: Salvar (incorrecto)] | capitals mid-sentence: Ajustes, Enlaces, Guardar
+#1400: glossary: delete → borrar?
+#1410: glossary: delete → borrar?
+#1427: glossary: support → es compatible con / dar soporte? [nota: Si se refiere a compatibilidad entre versiones/software se traduce como «compatible con» si se refiere a dar ayuda en foros se traduce como «dar soporte»]
+#1428: glossary: support → es compatible con / dar soporte? [nota: Si se refiere a compatibilidad entre versiones/software se traduce como «compatible con» si se refiere a dar ayuda en foros se traduce como «dar soporte»]
+#1432: glossary: support → es compatible con / dar soporte? [nota: Si se refiere a compatibilidad entre versiones/software se traduce como «compatible con» si se refiere a dar ayuda en foros se traduce como «dar soporte»]
+#1433: glossary: support → es compatible con / dar soporte? [nota: Si se refiere a compatibilidad entre versiones/software se traduce como «compatible con» si se refiere a dar ayuda en foros se traduce como «dar soporte»]
+#1447: glossary: default → por defecto?
+#1452: glossary: Dashboard → Escritorio? [nota: No utilizar «tablero» o «panel de control»]
+#1453: glossary: Dashboard → Escritorio? [nota: No utilizar «tablero» o «panel de control»]
+#1483: glossary: login → acceder / acceso? [nota: Usar «Acceder» cuando sea 1) una etiqueta de un botón, cuando se haga la acción de acceder al pulsarlo. 2) se refiera en un texto a la acción de acceder. No utilizar: Iniciar Sesión (Incorrecto). Entrar (Incorrecto). Identificarse (Incorrecto)]
+#1484: glossary: login → acceder / acceso? [nota: Usar «Acceder» cuando sea 1) una etiqueta de un botón, cuando se haga la acción de acceder al pulsarlo. 2) se refiera en un texto a la acción de acceder. No utilizar: Iniciar Sesión (Incorrecto). Entrar (Incorrecto). Identificarse (Incorrecto)]
+#1485: glossary: login → acceder / acceso? [nota: Usar «Acceder» cuando sea 1) una etiqueta de un botón, cuando se haga la acción de acceder al pulsarlo. 2) se refiera en un texto a la acción de acceder. No utilizar: Iniciar Sesión (Incorrecto). Entrar (Incorrecto). Identificarse (Incorrecto)]
+#1493: glossary: default → por defecto?
+#1494: glossary: default → por defecto? | glossary: listing → anuncio / catálogo / ficha? [nota: De forma general usar «anuncio(s)», si es un catálogo de clasificados se puede usar «catálogo» y en casos particulares (ofertas de empleo, etc) usar el adecuado al producto: «oferta», «inmueble», etc]
+#1501: glossary: login → acceder / acceso? [nota: Usar «Acceder» cuando sea 1) una etiqueta de un botón, cuando se haga la acción de acceder al pulsarlo. 2) se refiera en un texto a la acción de acceder. No utilizar: Iniciar Sesión (Incorrecto). Entrar (Incorrecto). Identificarse (Incorrecto)]
+#1502: glossary: login → acceder / acceso? [nota: Usar «Acceder» cuando sea 1) una etiqueta de un botón, cuando se haga la acción de acceder al pulsarlo. 2) se refiera en un texto a la acción de acceder. No utilizar: Iniciar Sesión (Incorrecto). Entrar (Incorrecto). Identificarse (Incorrecto)]
+#1513: glossary: default → por defecto?
+#1520: glossary: notification → aviso? [nota: No usar «notificación»]
+#1521: glossary: Welcome → Te damos la bienvenida? [nota: Para que encaje el saludo para cualquier persona]
+#1522: glossary: email → correo electrónico? [nota: No utilizar: email (Incorrecto). correo e (Incorrecto). e-mail (Incorrecto). Correo Electrónico (con E mayúscula) (Incorrecto) email address = dirección de correo electrónico (Correcto)] | glossary: Welcome → Te damos la bienvenida? [nota: Para que encaje el saludo para cualquier persona]
+#1524: glossary: notification → aviso? [nota: No usar «notificación»] | glossary: toggle → conmutador | cambiar / alternar?
+#1544: glossary: notification → aviso? [nota: No usar «notificación»]
+#1548: glossary: license → licencia?
+#1552: glossary: save → guardar o ahorrar, según contexto? [nota: No utilizar: Salvar (incorrecto)]
+#1553: glossary: support → es compatible con / dar soporte? [nota: Si se refiere a compatibilidad entre versiones/software se traduce como «compatible con» si se refiere a dar ayuda en foros se traduce como «dar soporte»]
+#1556: glossary: Dashboard → Escritorio? [nota: No utilizar «tablero» o «panel de control»]
+#1560: glossary: release → versión? [nota: No confudir con Released --> Lanzamiento]
+#1564: glossary: log → registro? | glossary: log in → acceder?
+#1567: glossary: Dashboard → Escritorio? [nota: No utilizar «tablero» o «panel de control»]
+#1570: glossary: review → reseña / valoración? [nota: Depende del contexto se usa reseña (foros) o valoración (directorio de plugins y temas)]
+#1584: glossary: default → por defecto?
+#1592: glossary: notification → aviso? [nota: No usar «notificación»]
+#1593: glossary: notify → avisar? [nota: No usar «notificar»]
+#1594: glossary: notification → aviso? [nota: No usar «notificación»] | glossary: post → entrada?
+#1595: glossary: notify → avisar? [nota: No usar «notificar»]
+#1596: glossary: Spam is not translated (Spam) [nota: No se traduce]
+#1597: glossary: Spam is not translated (Spam) [nota: No se traduce]
+#1600: glossary: rate → tasa / tarifa | valorar / puntuar? [nota: Usar «tasa» cuando va unido a otro nombre, por ejemplo «taxes rate» - «tasa de impuestos». Usar «tarifa» cuando va unido a envío. Ej. «shipping rate» = «tarifa de envío» / Usa «valorar» en el directorio de plugins y temas. Usa «puntuar» en el resto de situaciones]
+#1601: glossary: rate → tasa / tarifa | valorar / puntuar? [nota: Usar «tasa» cuando va unido a otro nombre, por ejemplo «taxes rate» - «tasa de impuestos». Usar «tarifa» cuando va unido a envío. Ej. «shipping rate» = «tarifa de envío» / Usa «valorar» en el directorio de plugins y temas. Usa «puntuar» en el resto de situaciones]
+#1602: glossary: rate → tasa / tarifa | valorar / puntuar? [nota: Usar «tasa» cuando va unido a otro nombre, por ejemplo «taxes rate» - «tasa de impuestos». Usar «tarifa» cuando va unido a envío. Ej. «shipping rate» = «tarifa de envío» / Usa «valorar» en el directorio de plugins y temas. Usa «puntuar» en el resto de situaciones]
+#1603: glossary: rate → tasa / tarifa | valorar / puntuar? [nota: Usar «tasa» cuando va unido a otro nombre, por ejemplo «taxes rate» - «tasa de impuestos». Usar «tarifa» cuando va unido a envío. Ej. «shipping rate» = «tarifa de envío» / Usa «valorar» en el directorio de plugins y temas. Usa «puntuar» en el resto de situaciones]
+#1612: glossary: delete → borrar?
+#1622: glossary: login → acceder / acceso? [nota: Usar «Acceder» cuando sea 1) una etiqueta de un botón, cuando se haga la acción de acceder al pulsarlo. 2) se refiera en un texto a la acción de acceder. No utilizar: Iniciar Sesión (Incorrecto). Entrar (Incorrecto). Identificarse (Incorrecto)]
+#1624: glossary: logged in → conectado?
+#1625: glossary: login → acceder / acceso? [nota: Usar «Acceder» cuando sea 1) una etiqueta de un botón, cuando se haga la acción de acceder al pulsarlo. 2) se refiera en un texto a la acción de acceder. No utilizar: Iniciar Sesión (Incorrecto). Entrar (Incorrecto). Identificarse (Incorrecto)]
+#1630: glossary: notification → aviso? [nota: No usar «notificación»]
+#1636: glossary: notification → aviso? [nota: No usar «notificación»]
+#1637: glossary: email → correo electrónico? [nota: No utilizar: email (Incorrecto). correo e (Incorrecto). e-mail (Incorrecto). Correo Electrónico (con E mayúscula) (Incorrecto) email address = dirección de correo electrónico (Correcto)]
+#1638: glossary: notification → aviso? [nota: No usar «notificación»]
+#1639: glossary: notification → aviso? [nota: No usar «notificación»]
+#1641: glossary: email → correo electrónico? [nota: No utilizar: email (Incorrecto). correo e (Incorrecto). e-mail (Incorrecto). Correo Electrónico (con E mayúscula) (Incorrecto) email address = dirección de correo electrónico (Correcto)]
+#1643: glossary: email → correo electrónico? [nota: No utilizar: email (Incorrecto). correo e (Incorrecto). e-mail (Incorrecto). Correo Electrónico (con E mayúscula) (Incorrecto) email address = dirección de correo electrónico (Correcto)]
+#1644: glossary: notification → aviso? [nota: No usar «notificación»]
+#1645: glossary: notification → aviso? [nota: No usar «notificación»]
+#1656: glossary: default → por defecto?
+#1657: glossary: default → por defecto?
+#1660: glossary: item → elemento / artículo? [nota: Solo usar «artículo» en tiendas online]
+#1667: glossary: default → por defecto?
+#1678: glossary: default → por defecto?
+#1679: glossary: default → por defecto?
+#1688: glossary: authenticate → identificar? [nota: NO usar autenticar, autentificar ni cosas similares]
+#1691: glossary: rate → tasa / tarifa | valorar / puntuar? [nota: Usar «tasa» cuando va unido a otro nombre, por ejemplo «taxes rate» - «tasa de impuestos». Usar «tarifa» cuando va unido a envío. Ej. «shipping rate» = «tarifa de envío» / Usa «valorar» en el directorio de plugins y temas. Usa «puntuar» en el resto de situaciones]
+#1692: glossary: rate → tasa / tarifa | valorar / puntuar? [nota: Usar «tasa» cuando va unido a otro nombre, por ejemplo «taxes rate» - «tasa de impuestos». Usar «tarifa» cuando va unido a envío. Ej. «shipping rate» = «tarifa de envío» / Usa «valorar» en el directorio de plugins y temas. Usa «puntuar» en el resto de situaciones]
+#1694: capitals mid-sentence: Woo
+#1728: glossary: sorry → lo siento? [nota: No utilizar: Lo sentimos (Incorrecto) Perdona (Incorrecto)]
+#1730: glossary: sorry → lo siento? [nota: No utilizar: Lo sentimos (Incorrecto) Perdona (Incorrecto)]
+#1731: glossary: sorry → lo siento? [nota: No utilizar: Lo sentimos (Incorrecto) Perdona (Incorrecto)]
+#1748: «#%d» → keep «#», not «n.º»
+#1750: glossary: support → es compatible con / dar soporte? [nota: Si se refiere a compatibilidad entre versiones/software se traduce como «compatible con» si se refiere a dar ayuda en foros se traduce como «dar soporte»]
+#1755: glossary: notification → aviso? [nota: No usar «notificación»]
+#1787: glossary: badge → acreditación / insignia / distinción?
+#1839: glossary: add → añadir? [nota: No traducir como «agregar», «agrega»]
+#1868: glossary: slider → carrusel / control deslizante? [nota: Traducir como «carrusel» para pases de diapositivas / Traducir como «control deslizante» para selectores de precios, en widgets, etc]
+#1884: glossary: default → por defecto?
+#1886: glossary: add-on → extensión?
+#1894: glossary: add-on → extensión?
+#1909: glossary: delete → borrar?
+#1911: glossary: login → acceder / acceso? [nota: Usar «Acceder» cuando sea 1) una etiqueta de un botón, cuando se haga la acción de acceder al pulsarlo. 2) se refiera en un texto a la acción de acceder. No utilizar: Iniciar Sesión (Incorrecto). Entrar (Incorrecto). Identificarse (Incorrecto)]
+#1914: glossary: required → obligatorio / requerido / necesario? [nota: Usar siempre «obligatorio», y solo en contadas ocasiones - muy justificadas por el contexto - se puede usar requerido. También «necesario», que es menos impositivo.]
+#1919: glossary: login → acceder / acceso? [nota: Usar «Acceder» cuando sea 1) una etiqueta de un botón, cuando se haga la acción de acceder al pulsarlo. 2) se refiera en un texto a la acción de acceder. No utilizar: Iniciar Sesión (Incorrecto). Entrar (Incorrecto). Identificarse (Incorrecto)] | glossary: post → entrada? | glossary: required → obligatorio / requerido / necesario? [nota: Usar siempre «obligatorio», y solo en contadas ocasiones - muy justificadas por el contexto - se puede usar requerido. También «necesario», que es menos impositivo.]
+#1924: glossary: delete → borrar?
+#1936: glossary: required → obligatorio / requerido / necesario? [nota: Usar siempre «obligatorio», y solo en contadas ocasiones - muy justificadas por el contexto - se puede usar requerido. También «necesario», que es menos impositivo.]
+#1946: glossary: backup → copia de seguridad?
+#1998: glossary: clear → vaciar?
+#1999: glossary: clear → vaciar?
+#2000: glossary: clear → vaciar?
+#2019: capitals mid-sentence: Hemos
+#2029: glossary: save → guardar o ahorrar, según contexto? [nota: No utilizar: Salvar (incorrecto)]
+#2037: glossary: fix → corrección?
+#2049: glossary: issue → problema / conflicto / incidencia?
+#2055: glossary: support → es compatible con / dar soporte? [nota: Si se refiere a compatibilidad entre versiones/software se traduce como «compatible con» si se refiere a dar ayuda en foros se traduce como «dar soporte»]
+#2056: glossary: support → es compatible con / dar soporte? [nota: Si se refiere a compatibilidad entre versiones/software se traduce como «compatible con» si se refiere a dar ayuda en foros se traduce como «dar soporte»]
+#2057: glossary: about → acerca de? [nota: Preferimos «Acerca de» antes que «Sobre», pero dependerá del contexto. «Acerca del tema Baskerville» «Sobre el autor»]
+#2061: glossary: support → es compatible con / dar soporte? [nota: Si se refiere a compatibilidad entre versiones/software se traduce como «compatible con» si se refiere a dar ayuda en foros se traduce como «dar soporte»]
+#2098: glossary: add-on → extensión?
+#2111: glossary: log → registro? | glossary: log in → acceder?
+#2116: glossary: check → marcar / comprobar | cheque? [nota: Dependiendo del contexto. Por ejemplo: marcar una casilla / comprobar un ajuste / En comercio, como medio de pago.]
+#2134: glossary: order → pedido / orden | pedir / encargar / realizar pedido / ordenar? [nota: En una tienda online, como nombre se refiere al «pedido», pero en ocasiones también al orden de elementos. Según contexto. / Usar «ordenar» solo para referirse al orden de elementos. Si es en una tienda siempre se refiere a algo relacionado con pedidos]
+#2136: glossary: login → acceder / acceso? [nota: Usar «Acceder» cuando sea 1) una etiqueta de un botón, cuando se haga la acción de acceder al pulsarlo. 2) se refiera en un texto a la acción de acceder. No utilizar: Iniciar Sesión (Incorrecto). Entrar (Incorrecto). Identificarse (Incorrecto)]
+#2140: glossary: order → pedido / orden | pedir / encargar / realizar pedido / ordenar? [nota: En una tienda online, como nombre se refiere al «pedido», pero en ocasiones también al orden de elementos. Según contexto. / Usar «ordenar» solo para referirse al orden de elementos. Si es en una tienda siempre se refiere a algo relacionado con pedidos]
+#2157: glossary: logged in → conectado?
+#2163: glossary: Dashboard → Escritorio? [nota: No utilizar «tablero» o «panel de control»]
+#2166: glossary: logged in → conectado?
+#2167: glossary: deprecate → descarta? | glossary term left in English: endpoint → variable [nota: se refiere a las variables/constantes en los slugs normalmente / En WooCommerce de refiere a slugs de la URL para diferentes situaciones en el proceso de compra. En el resto de situaciones a variables de programación.]
+#2171: glossary: login → acceder / acceso? [nota: Usar «Acceder» cuando sea 1) una etiqueta de un botón, cuando se haga la acción de acceder al pulsarlo. 2) se refiera en un texto a la acción de acceder. No utilizar: Iniciar Sesión (Incorrecto). Entrar (Incorrecto). Identificarse (Incorrecto)]
+#2172: glossary: receipt → recibo?
+#2173: glossary: receipt → recibo?
+#2174: glossary: receipt → recibo?
+#2175: glossary: receipt → recibo?
+#2176: glossary: receipt → recibo?
+#2177: glossary: receipt → recibo?
+#2180: glossary: logged in → conectado?
+#2181: glossary: clear → vaciar?
+#2182: glossary: logged in → conectado?
+#2186: glossary: save → guardar o ahorrar, según contexto? [nota: No utilizar: Salvar (incorrecto)]
+#2190: glossary: clear → vaciar?
+#2193: glossary: save → guardar o ahorrar, según contexto? [nota: No utilizar: Salvar (incorrecto)]
+#2194: glossary: receipt → recibo?
+#2195: glossary: receipt → recibo?
+#2196: glossary: receipt → recibo?
+#2203: glossary: delete → borrar?
+#2205: glossary: delete → borrar?
+#2206: glossary term left in English: delete → borrar
+#2216: glossary: placeholder → marcador de posición? | glossary term left in English: status → estado
+#2219: capitals mid-sentence: Vista
+#2226: glossary: notification → aviso? [nota: No usar «notificación»]
+#2227: glossary: email → correo electrónico? [nota: No utilizar: email (Incorrecto). correo e (Incorrecto). e-mail (Incorrecto). Correo Electrónico (con E mayúscula) (Incorrecto) email address = dirección de correo electrónico (Correcto)] | glossary: Welcome → Te damos la bienvenida? [nota: Para que encaje el saludo para cualquier persona]
+#2238: glossary: email → correo electrónico? [nota: No utilizar: email (Incorrecto). correo e (Incorrecto). e-mail (Incorrecto). Correo Electrónico (con E mayúscula) (Incorrecto) email address = dirección de correo electrónico (Correcto)] | glossary: onboarding → puesta en marcha? [nota: Proceso de bienvenida para ajustes iniciales de algunos plugins, como WooCommerce]
+#2239: glossary: email → correo electrónico? [nota: No utilizar: email (Incorrecto). correo e (Incorrecto). e-mail (Incorrecto). Correo Electrónico (con E mayúscula) (Incorrecto) email address = dirección de correo electrónico (Correcto)] | glossary: Welcome → Te damos la bienvenida? [nota: Para que encaje el saludo para cualquier persona]
+#2242: glossary: email → correo electrónico? [nota: No utilizar: email (Incorrecto). correo e (Incorrecto). e-mail (Incorrecto). Correo Electrónico (con E mayúscula) (Incorrecto) email address = dirección de correo electrónico (Correcto)]
+#2245: glossary: email → correo electrónico? [nota: No utilizar: email (Incorrecto). correo e (Incorrecto). e-mail (Incorrecto). Correo Electrónico (con E mayúscula) (Incorrecto) email address = dirección de correo electrónico (Correcto)]
+#2247: glossary: expire → caduca? | glossary: expires → caduca? [nota: No usar «expira»]
+#2248: glossary: email → correo electrónico? [nota: No utilizar: email (Incorrecto). correo e (Incorrecto). e-mail (Incorrecto). Correo Electrónico (con E mayúscula) (Incorrecto) email address = dirección de correo electrónico (Correcto)]
+#2251: glossary: email → correo electrónico? [nota: No utilizar: email (Incorrecto). correo e (Incorrecto). e-mail (Incorrecto). Correo Electrónico (con E mayúscula) (Incorrecto) email address = dirección de correo electrónico (Correcto)] | glossary: notification → aviso? [nota: No usar «notificación»]
+#2256: glossary: email → correo electrónico? [nota: No utilizar: email (Incorrecto). correo e (Incorrecto). e-mail (Incorrecto). Correo Electrónico (con E mayúscula) (Incorrecto) email address = dirección de correo electrónico (Correcto)]
+#2259: glossary: email → correo electrónico? [nota: No utilizar: email (Incorrecto). correo e (Incorrecto). e-mail (Incorrecto). Correo Electrónico (con E mayúscula) (Incorrecto) email address = dirección de correo electrónico (Correcto)]
+#2264: glossary: placeholder → marcador de posición? | glossary term left in English: status → estado
+#2265: glossary: notification → aviso? [nota: No usar «notificación»]
+#2282: glossary term left in English: site → sitio [nota: No traducir como «página web» o «sitio web», solo como «sitio»]
+#2283: glossary term left in English: site → sitio [nota: No traducir como «página web» o «sitio web», solo como «sitio»]
+#2284: glossary term left in English: site → sitio [nota: No traducir como «página web» o «sitio web», solo como «sitio»]
+#2285: glossary term left in English: site → sitio [nota: No traducir como «página web» o «sitio web», solo como «sitio»]
+#2286: glossary term left in English: site → sitio [nota: No traducir como «página web» o «sitio web», solo como «sitio»]
+#2287: glossary term left in English: site → sitio [nota: No traducir como «página web» o «sitio web», solo como «sitio»]
+#2288: glossary term left in English: site → sitio [nota: No traducir como «página web» o «sitio web», solo como «sitio»]
+#2290: glossary: save → guardar o ahorrar, según contexto? [nota: No utilizar: Salvar (incorrecto)]
+#2291: glossary: email → correo electrónico? [nota: No utilizar: email (Incorrecto). correo e (Incorrecto). e-mail (Incorrecto). Correo Electrónico (con E mayúscula) (Incorrecto) email address = dirección de correo electrónico (Correcto)]
+#2292: glossary: email → correo electrónico? [nota: No utilizar: email (Incorrecto). correo e (Incorrecto). e-mail (Incorrecto). Correo Electrónico (con E mayúscula) (Incorrecto) email address = dirección de correo electrónico (Correcto)]
+#2293: glossary: default → por defecto?
+#2294: glossary: save → guardar o ahorrar, según contexto? [nota: No utilizar: Salvar (incorrecto)]
+#2303: glossary: content → contenido? [nota: No usar «contenidos»]
+#2304: glossary: body is not translated (cuerpo) [nota: No se traduce si se refiere a la etiqueta <body>] | glossary: content → contenido? [nota: No usar «contenidos»]
+#2311: glossary: email → correo electrónico? [nota: No utilizar: email (Incorrecto). correo e (Incorrecto). e-mail (Incorrecto). Correo Electrónico (con E mayúscula) (Incorrecto) email address = dirección de correo electrónico (Correcto)]
+#2312: glossary: notification → aviso? [nota: No usar «notificación»]
+#2316: glossary: notification → aviso? [nota: No usar «notificación»]
+#2317: glossary: check → marcar / comprobar | cheque? [nota: Dependiendo del contexto. Por ejemplo: marcar una casilla / comprobar un ajuste / En comercio, como medio de pago.]
+#2320: glossary: array is not translated (array) [nota: No se traduce]
+#2321: glossary: delete → borrar?
+#2345: glossary: check → marcar / comprobar | cheque? [nota: Dependiendo del contexto. Por ejemplo: marcar una casilla / comprobar un ajuste / En comercio, como medio de pago.] | capitals mid-sentence: Internet
+#2351: glossary: check → marcar / comprobar | cheque? [nota: Dependiendo del contexto. Por ejemplo: marcar una casilla / comprobar un ajuste / En comercio, como medio de pago.]
+#2354: glossary: check → marcar / comprobar | cheque? [nota: Dependiendo del contexto. Por ejemplo: marcar una casilla / comprobar un ajuste / En comercio, como medio de pago.]
+#2357: glossary: check → marcar / comprobar | cheque? [nota: Dependiendo del contexto. Por ejemplo: marcar una casilla / comprobar un ajuste / En comercio, como medio de pago.]
+#2362: glossary: feature → característica | destacar? [nota: Por defecto, traducir por «característica», aunque en muchas ocasiones será más preciso «función»]
+#2363: glossary term left in English: feature → característica | destacar [nota: Por defecto, traducir por «característica», aunque en muchas ocasiones será más preciso «función»]
+#2375: glossary: save → guardar o ahorrar, según contexto? [nota: No utilizar: Salvar (incorrecto)]
+#2387: glossary: check → marcar / comprobar | cheque? [nota: Dependiendo del contexto. Por ejemplo: marcar una casilla / comprobar un ajuste / En comercio, como medio de pago.] | capitals mid-sentence: Internet
+#2389: glossary: log → registro? | glossary: log in → acceder?
+#2390: glossary: required → obligatorio / requerido / necesario? [nota: Usar siempre «obligatorio», y solo en contadas ocasiones - muy justificadas por el contexto - se puede usar requerido. También «necesario», que es menos impositivo.]
+#2401: glossary: log → registro? | glossary: log in → acceder?
+#2403: glossary: feature → característica | destacar? [nota: Por defecto, traducir por «característica», aunque en muchas ocasiones será más preciso «función»]
+#2408: glossary: license → licencia? | glossary: upload → subida | subir? [nota: No utilizar: carga (incorrecto) / No utilizar: cargar (incorrecto)]
+#2410: glossary: check → marcar / comprobar | cheque? [nota: Dependiendo del contexto. Por ejemplo: marcar una casilla / comprobar un ajuste / En comercio, como medio de pago.]
+#2412: glossary: log → registro? | glossary: log in → acceder?
+#2423: glossary: check → marcar / comprobar | cheque? [nota: Dependiendo del contexto. Por ejemplo: marcar una casilla / comprobar un ajuste / En comercio, como medio de pago.]
+#2426: glossary: check → marcar / comprobar | cheque? [nota: Dependiendo del contexto. Por ejemplo: marcar una casilla / comprobar un ajuste / En comercio, como medio de pago.]
+#2428: glossary: log in → acceder?
+#2435: glossary: check → marcar / comprobar | cheque? [nota: Dependiendo del contexto. Por ejemplo: marcar una casilla / comprobar un ajuste / En comercio, como medio de pago.]
+#2444: glossary: required → obligatorio / requerido / necesario? [nota: Usar siempre «obligatorio», y solo en contadas ocasiones - muy justificadas por el contexto - se puede usar requerido. También «necesario», que es menos impositivo.]
+#2445: glossary: listing → anuncio / catálogo / ficha? [nota: De forma general usar «anuncio(s)», si es un catálogo de clasificados se puede usar «catálogo» y en casos particulares (ofertas de empleo, etc) usar el adecuado al producto: «oferta», «inmueble», etc]
+#2456: glossary: delete → borrar?
+#2457: glossary: delete → borrar?
+#2491: glossary: bulk → por lotes? [nota: Según el contexto podría ser «en lotes» o «en bloque». No usar «en masa» ni «masivamente»] | glossary: bulk actions → acciones en lote?
+#2493: glossary: default → por defecto?
+#2499: glossary: support → es compatible con / dar soporte? [nota: Si se refiere a compatibilidad entre versiones/software se traduce como «compatible con» si se refiere a dar ayuda en foros se traduce como «dar soporte»]
+#2502: glossary: login → acceder / acceso? [nota: Usar «Acceder» cuando sea 1) una etiqueta de un botón, cuando se haga la acción de acceder al pulsarlo. 2) se refiera en un texto a la acción de acceder. No utilizar: Iniciar Sesión (Incorrecto). Entrar (Incorrecto). Identificarse (Incorrecto)]
+#2504: glossary: array is not translated (array) [nota: No se traduce]
+#2518: glossary: save → guardar o ahorrar, según contexto? [nota: No utilizar: Salvar (incorrecto)]
+#2521: glossary: delete → borrar?
+#2599: capitals mid-sentence: Unido
+#2600: capitals mid-sentence: Unidos
+#2620: glossary: clear → vaciar?
+#2635: glossary: default → por defecto?
+#2662: glossary: check → marcar / comprobar | cheque? [nota: Dependiendo del contexto. Por ejemplo: marcar una casilla / comprobar un ajuste / En comercio, como medio de pago.] | glossary: save → guardar o ahorrar, según contexto? [nota: No utilizar: Salvar (incorrecto)]
+#2663: glossary: save → guardar o ahorrar, según contexto? [nota: No utilizar: Salvar (incorrecto)]
+#2664: glossary: save → guardar o ahorrar, según contexto? [nota: No utilizar: Salvar (incorrecto)]
+#2668: glossary: save → guardar o ahorrar, según contexto? [nota: No utilizar: Salvar (incorrecto)] | capitals mid-sentence: Guardar
+#2682: glossary: delete → borrar?
+#2683: glossary: delete → borrar?
+#2684: glossary: are you sure → ¿Seguro que…?? [nota: Para hacer la pregunta sin género no usar «¿Estás seguro…?» o «¿Estás segura…?» sino «¿Seguro que…?» adaptable a ambos géneros] | glossary: delete → borrar?
+#2687: glossary: core → núcleo? [nota: Se suele referir al núcleo de WordPress]
+#2692: capitals mid-sentence: Visualización
+#2693: capitals mid-sentence: Definición
+#2696: glossary: save → guardar o ahorrar, según contexto? [nota: No utilizar: Salvar (incorrecto)]
+#2697: glossary: save → guardar o ahorrar, según contexto? [nota: No utilizar: Salvar (incorrecto)]
+#2711: glossary: save → guardar o ahorrar, según contexto? [nota: No utilizar: Salvar (incorrecto)]
+#2712: glossary: default → por defecto? | glossary: delete → borrar?
+#2713: glossary: default → por defecto?
+#2714: glossary: default → por defecto?
+#2720: glossary: default → por defecto?
+#2721: glossary: default → por defecto?
+#2723: glossary: default → por defecto?
+#2724: glossary: default → por defecto?
+#2728: glossary: not allowed → no tienes permisos? [nota: No usar «permiso» sino «permisos» debido a que no es un «permiso» que da alguien sino «permisos» asociados a las capacidades de un perfil de usuario. Según el contexto, puede traducirse por «no (está) permitido»]
+#2729: glossary: not allowed → no tienes permisos? [nota: No usar «permiso» sino «permisos» debido a que no es un «permiso» que da alguien sino «permisos» asociados a las capacidades de un perfil de usuario. Según el contexto, puede traducirse por «no (está) permitido»]
+#2733: glossary: delete → borrar?
+#2736: glossary: delete → borrar?
+#2740: glossary: delete → borrar?
+#2742: glossary: delete → borrar?
+#2766: glossary: delete → borrar?
+#2767: glossary: save → guardar o ahorrar, según contexto? [nota: No utilizar: Salvar (incorrecto)]
+#2769: glossary: are you sure → ¿Seguro que…?? [nota: Para hacer la pregunta sin género no usar «¿Estás seguro…?» o «¿Estás segura…?» sino «¿Seguro que…?» adaptable a ambos géneros]
+#2795: glossary: save → guardar o ahorrar, según contexto? [nota: No utilizar: Salvar (incorrecto)]
+#2796: glossary: save → guardar o ahorrar, según contexto? [nota: No utilizar: Salvar (incorrecto)]
+#2801: capitals mid-sentence: Mis
+#2828: glossary: about → acerca de? [nota: Preferimos «Acerca de» antes que «Sobre», pero dependerá del contexto. «Acerca del tema Baskerville» «Sobre el autor»]
+#2835: capitals mid-sentence: Crear
+#2840: glossary: add-on → extensión?
+#2843: glossary: add-on → extensión?
+#2862: glossary: link → enlazar | enlace? [nota: No usar «vincular», «linkear» ni ninguna otra cosa / no usar «link», «vínculo» ni «liga»]
+#2863: glossary: link → enlazar | enlace? [nota: No usar «vincular», «linkear» ni ninguna otra cosa / no usar «link», «vínculo» ni «liga»]
+#2867: glossary: link → enlazar | enlace? [nota: No usar «vincular», «linkear» ni ninguna otra cosa / no usar «link», «vínculo» ni «liga»]
+#2869: glossary: login → acceder / acceso? [nota: Usar «Acceder» cuando sea 1) una etiqueta de un botón, cuando se haga la acción de acceder al pulsarlo. 2) se refiera en un texto a la acción de acceder. No utilizar: Iniciar Sesión (Incorrecto). Entrar (Incorrecto). Identificarse (Incorrecto)]
+#2875: glossary: check → marcar / comprobar | cheque? [nota: Dependiendo del contexto. Por ejemplo: marcar una casilla / comprobar un ajuste / En comercio, como medio de pago.]
+#2894: glossary: about → acerca de? [nota: Preferimos «Acerca de» antes que «Sobre», pero dependerá del contexto. «Acerca del tema Baskerville» «Sobre el autor»]
+#2899: glossary: about → acerca de? [nota: Preferimos «Acerca de» antes que «Sobre», pero dependerá del contexto. «Acerca del tema Baskerville» «Sobre el autor»] | capitals mid-sentence: Fecha
+#2900: glossary: about → acerca de? [nota: Preferimos «Acerca de» antes que «Sobre», pero dependerá del contexto. «Acerca del tema Baskerville» «Sobre el autor»] | capitals mid-sentence: Completa
+#2901: capitals mid-sentence: Fecha, Importe
+#2925: glossary: receipt → recibo?
+#2926: glossary: receipt → recibo?
+#2927: glossary: receipt → recibo?
+#2928: glossary: receipt → recibo?
+#2931: glossary: receipt → recibo?
+#2932: capitals mid-sentence: Descargar
+#2933: glossary: receipt → recibo?
+#2941: glossary: receipt → recibo?
+#2959: glossary: license → licencia?
+#2965: glossary: fix → corrección? | glossary: fixed → corregido?
+#2982: glossary: save → guardar o ahorrar, según contexto? [nota: No utilizar: Salvar (incorrecto)]
+#2985: glossary: expire → caduca? | glossary: expired → caducado? [nota: No usar «expirado»]
+#2988: glossary: expire → caduca? | glossary: expired → caducado? [nota: No usar «expirado»]
+#3009: glossary: receipt → recibo?
+#3010: glossary: receipt → recibo?
+#3013: «#%d» → keep «#», not «n.º»
+#3077: glossary: license → licencia?
+#3082: glossary: check → marcar / comprobar | cheque? [nota: Dependiendo del contexto. Por ejemplo: marcar una casilla / comprobar un ajuste / En comercio, como medio de pago.]
+#3085: glossary: sorry → lo siento? [nota: No utilizar: Lo sentimos (Incorrecto) Perdona (Incorrecto)]
+#3093: capitals mid-sentence: Puedes
+#3105: glossary term left in English: admin → administrador / administración [nota: «administrador» cuando se refiere al perfil dentro del sistema. «administración» cuando se refiere al área de administración de WordPress.] | capitals mid-sentence: Reserva | «#%d» → keep «#», not «n.º»
+#3129: glossary: add-on → extensión?
+#3130: glossary: add-on → extensión?
+#3138: glossary: issue → problema / conflicto / incidencia?
+#3151: glossary: fix → corrección? | glossary: fixed → corregido?
+#3154: glossary: addon → extensión?
+#3155: glossary: addon → extensión?
+#3165: glossary: fix → corrección? | glossary: fixed → corregido?
+#3194: glossary: delete → borrar?
+#3204: glossary term left in English: post → entrada
+#3218: glossary term left in English: post → entrada
+#3235: glossary: support → es compatible con / dar soporte? [nota: Si se refiere a compatibilidad entre versiones/software se traduce como «compatible con» si se refiere a dar ayuda en foros se traduce como «dar soporte»]
+#3243: glossary: support → es compatible con / dar soporte? [nota: Si se refiere a compatibilidad entre versiones/software se traduce como «compatible con» si se refiere a dar ayuda en foros se traduce como «dar soporte»]
+#3250: glossary: support → es compatible con / dar soporte? [nota: Si se refiere a compatibilidad entre versiones/software se traduce como «compatible con» si se refiere a dar ayuda en foros se traduce como «dar soporte»]
+#3279: glossary: about → acerca de? [nota: Preferimos «Acerca de» antes que «Sobre», pero dependerá del contexto. «Acerca del tema Baskerville» «Sobre el autor»]
+#3285: glossary: support → es compatible con / dar soporte? [nota: Si se refiere a compatibilidad entre versiones/software se traduce como «compatible con» si se refiere a dar ayuda en foros se traduce como «dar soporte»]
+#3293: glossary: check → marcar / comprobar | cheque? [nota: Dependiendo del contexto. Por ejemplo: marcar una casilla / comprobar un ajuste / En comercio, como medio de pago.]
+#3300: glossary: frontend → portada / vista pública / parte pública?
