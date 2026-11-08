@@ -23,8 +23,9 @@ Estados: **pendiente** (sin proponer) · **propuesta** (enviada al equipo) · **
 | *recurring* | «periódico». Nota: «NO usar recurrente» | Cambiar la nota: se prefiere «periódico», pero «recurrente» también se acepta (no es motivo de rechazo) | Ronda 21 (Gratora, unas 125 cadenas) | pendiente |
 | *scope* | «extensión» (cabecera de tabla) | Añadir acepción: «ámbito» para el alcance de un permiso o ajuste | Ronda 20 | pendiente |
 | *zoom* (sustantivo) | Solo el verbo: «ampliar / acercar» | Añadir sustantivo: «ampliación» | Ronda 16 | pendiente |
+| *toggle* (verbo) | Solo el sustantivo: «conmutador» | Añadir verbo: «alternar» (*Toggle X* = «Alternar X») | Ronda 20 | pendiente |
 | *page*, *endpoint* | Entradas duplicadas en el CSV | Dejar una de cada | Revisión del CSV | pendiente |
-| A debatir (sin decisión) | *FAQ* en textos explicativos, *OK* como estado, *login* sustantivo, *sign out* en frases, *bulk* = «en lote», *feed* que no es RSS, *vendor* de software, *merchant* en nombres de producto, *release* como paquete, *upsell* | Ver el documento de propuestas | Rondas 12 a 20 | pendiente |
+| A debatir (sin decisión) | *FAQ* en textos explicativos, *OK* como estado, *login* sustantivo, *sign out* en frases, *bulk* = «en lote», *feed* que no es RSS, *vendor* de software, *merchant* en nombres de producto, *release* como paquete, *upsell*, *fee* de pasarela = «comisiones», *designation* = «destino», *fixed* = «fijo», *preset* = «predefinido» | Ver el documento de propuestas | Rondas 12 a 21 | pendiente |
 
 ## Guía de traductores
 
