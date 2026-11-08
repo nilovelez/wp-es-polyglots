@@ -18,6 +18,7 @@ Estados: **pendiente** (sin proponer) · **propuesta** (enviada al equipo) · **
 | *supported* | «compatible» | Añadir nota: cuando no habla de compatibilidad (p. ej., *supported conflict*, un conflicto que el plugin sabe resolver), se traduce por el sentido | Ronda 08 (#2) | pendiente |
 | *endpoint* | «variable» | Revisar: «variable» solo vale para los *endpoints* de WooCommerce (Nilo); en «REST endpoints» o una API, «rutas» o se deja «endpoint» | Rondas 07 (#82), 13 y 20 | pendiente |
 | *Dashboard*, *role* | «Escritorio», «perfil» | Añadir nota: son los nombres de WordPress. Los roles de un servicio externo usan el nombre de su interfaz en español («rol: Lector» en GA4); su *dashboard*, preferentemente «panel», aunque «escritorio» también vale | Rondas 10, 14, 15, 19 y 20 | pendiente |
+| *recurring* | «periódico». Nota: «NO usar recurrente» | Cambiar la nota: se prefiere «periódico», pero «recurrente» también se acepta (no es motivo de rechazo) | Ronda 21 (Gratora, unas 125 cadenas) | pendiente |
 
 ## Guía de traductores
 
