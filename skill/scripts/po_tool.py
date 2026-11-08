@@ -526,12 +526,16 @@ def cmd_lint(args):
         desc = norm(row.get('description', ''))
         if not en or not es or len(en) < 3:
             continue
-        m = merged.setdefault(en.lower(), {'en': en, 'es': [], 'opts': [], 'keep': False})
+        m = merged.setdefault(en.lower(), {'en': en, 'es': [], 'opts': [], 'keep': False, 'notes': []})
         m['keep'] |= 'no se traduce' in desc or norm(en) == norm(es)
         if es not in m['es']:
             m['es'].append(es)
+        note = ' '.join(row.get('description', '').split())
+        if note and note not in m['notes']:
+            m['notes'].append(note)
         m['opts'] += [o.strip() for o in re.split(r'\s*/\s*', es) if o.strip()]
-    rows = [(m['en'], ' | '.join(m['es']), m['opts'], m['keep']) for m in merged.values()]
+    rows = [(m['en'], ' | '.join(m['es']), m['opts'], m['keep'],
+             (' [nota: ' + ' / '.join(m['notes']) + ']') if m['notes'] else '') for m in merged.values()]
     code = re.compile(r'<code>.*?</code>|https?://\S+', re.S)
     for e in entries:
         src = e['msgid'] + ' ' + (e['msgid_plural'] or '')
@@ -541,18 +545,18 @@ def cmd_lint(args):
         s_plain, t_plain = TAG.sub(' ', code.sub(' ', src)), TAG.sub(' ', code.sub(' ', tr))
         s_low, t_norm = s_plain.lower(), norm(t_plain)
         hints = []
-        for en, es, opts, keep in rows:
+        for en, es, opts, keep, note in rows:
             rx = r'(?<![\w-])' + re.escape(en.lower()) + r'(?:s|es|ed|d|ing)?(?![\w-])'
             if not re.search(rx, s_low):
                 continue
             if keep:
                 if not re.search(rx, t_plain.lower()):
-                    hints.append(f'glossary: {en} is not translated ({es})')
+                    hints.append(f'glossary: {en} is not translated ({es}){note}')
                 continue
             if re.search(rx, t_plain.lower()):
-                hints.append(f'glossary term left in English: {en} → {es}')
+                hints.append(f'glossary term left in English: {en} → {es}{note}')
             elif not any(stem_in(o, t_norm) for o in opts):
-                hints.append(f'glossary: {en} → {es}?')
+                hints.append(f'glossary: {en} → {es}?{note}')
         # Capitalized words mid-sentence that are not in the source (Title Case).
         caps = []
         for m in re.finditer(r'(?<=[^\s.:!?¡¿*>«(\-–—])\s+([A-ZÁÉÍÓÚÑ][a-záéíóúñü]+)', t_plain):
