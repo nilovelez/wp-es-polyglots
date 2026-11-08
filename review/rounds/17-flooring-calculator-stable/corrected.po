@@ -1,0 +1,86 @@
+# Translation of Plugins - Flooring Calculator for WooCommerce - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Flooring Calculator for WooCommerce - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: +0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.1.0\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Flooring Calculator for WooCommerce - Stable (latest release)\n"
+
+#. Plugin Name of the plugin
+#: flooring-calculator.php
+msgid "Flooring Calculator for WooCommerce"
+msgstr "Flooring Calculator for WooCommerce"
+
+#: flooring-calculator.php:108
+msgid "Flooring Calculator for WooCommerce needs WooCommerce to be installed and active."
+msgstr "Flooring Calculator for WooCommerce necesita que WooCommerce esté instalado y activo."
+
+#: includes/class-caqc-admin.php:206
+msgid "Reset to shop default"
+msgstr "Restablecer al valor por defecto de la tienda"
+
+#: includes/class-caqc-admin.php:212 includes/class-caqc-product-meta.php:70
+msgid "Shop default"
+msgstr "Valor por defecto de la tienda"
+
+#: includes/class-caqc-product-meta.php:68
+msgid "Leave empty to use the shop default. 0 hides the waste checkbox for this product. Applies to area and length types."
+msgstr "Déjalo vacío para usar el valor de la tienda. Con 0 se oculta la casilla de verificación de merma en este producto. Se aplica a los tipos de superficie y de longitud."
+
+#: includes/class-caqc-settings.php:89
+msgid "Default the customer can add with a checkbox. Products can set their own value."
+msgstr "Valor por defecto que el cliente puede añadir con una casilla de verificación. Cada producto puede establecer el suyo."
+
+#: includes/class-caqc-settings.php:99
+msgid "Applies to packs, rolls and panels. 0 hides the checkbox."
+msgstr "Se aplica a paquetes, rollos y paneles. Con 0 se oculta la casilla de verificación."
+
+#: includes/class-caqc-settings.php:103
+msgid "Default for skirting boards and goods sold by the meter. Products can set their own value."
+msgstr "Valor por defecto para rodapiés y artículos que se venden por metros. Cada producto puede establecer el suyo."
+
+#: includes/class-caqc-settings.php:113
+msgid "Applies to meters / pieces and meters. 0 hides the checkbox."
+msgstr "Se aplica a metros / piezas y a metros. Con 0 se oculta la casilla de verificación."
+
+#: includes/class-caqc-settings.php:124
+msgid "Convert stock display"
+msgstr "Convertir la visualización del inventario"
+
+#: includes/class-caqc-settings.php:125
+msgid "Show stock in the product's measure instead of units"
+msgstr "Mostrar el inventario en la medida del producto en lugar de en unidades"
+
+#: includes/class-caqc-settings.php:129
+msgid "\"534 in stock\" becomes \"534.06 m² in stock\". Only affects area based quantity types."
+msgstr "«Hay 534 en existencias» pasa a ser «Hay 534,06 m² en existencias». Solo afecta a los tipos de cantidad basados en superficie."
+
+#: includes/class-caqc-settings.php:133
+msgid "Fixed text below the quantity field for the type Meters. Leave empty to show the product's piece length instead."
+msgstr "Texto fijo bajo el campo de cantidad para el tipo «Metros». Déjalo vacío para mostrar en su lugar la longitud por pieza del producto."
+
+#. translators: %d: number of meta keys.
+#: includes/class-caqc-settings.php:175
+msgid "%d field still uses an old name. The plugin takes it over on the next activation."
+msgid_plural "%d fields still use old names. The plugin takes them over on the next activation."
+msgstr[0] "%d campo todavía usa un nombre antiguo. El plugin lo adopta en la siguiente activación."
+msgstr[1] "%d campos todavía usan un nombre antiguo. El plugin los adopta en la siguiente activación."
+
+#. translators: %s: remaining stock with unit, e.g. "12.5 m²".
+#: includes/class-caqc-stock.php:80
+msgid "Only %s left in stock"
+msgstr "Solo quedan %s en existencias"
+
+#. translators: %s: stock with unit, e.g. "534.06 m²".
+#: includes/class-caqc-stock.php:84
+msgid "%s in stock"
+msgstr "Hay %s en existencias"
+
+#: includes/class-caqc-types.php:182
+msgid "Pieces (default)"
+msgstr "Piezas (por defecto)"

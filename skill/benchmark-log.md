@@ -162,6 +162,14 @@ Haiku revisa y Opus audita en lugar de Nilo (`review/README.md`, «Direct rounds
   - *zoom* → «ampliación» (35), según el glosario. Pendiente de confirmar con Nilo, por la cantidad de cadenas.
   - El traductor usaba el tratamiento de usted en 4 cadenas («Configure», «Considere»), que se corrigieron.
 
+## 2026-11-08 · Haiku · ronda 17 (Flooring Calculator for WooCommerce, stable, 114 cadenas) · skill v3
+
+- Haiku como subagente (`model: haiku`); Nilo lo sigue en la pestaña de subprocesos.
+- Resultado: 17 cambios. Haiku propuso 16 cambios y 2 dudas. Mantenidos: 15. Deshecho: 1. Ni editados ni escapados.
+- Deshecho (#52): en el menú, «Flooring calculator» no es el nombre del plugin sino lo que hace la pantalla, así que se traduce: «Calculadora de suelos». El nombre completo del plugin (#1, #5) sí se queda en inglés.
+- Dudas (#17, #18): *shop default* → «valor por defecto de la tienda», sin omitir *default*.
+- Nilo confirmó las preguntas de Haiku: la pasiva refleja («se vende por metros») vale, y «Hay %s en existencias» para *%s in stock*.
+
 ## 2026-11-06 · Haiku frente a Sonnet · rondas 03 y 04 · skill v3
 
 Haiku revisó a ciegas los `original.po` de las rondas 03 y 04. Se compara con la revisión final de Nilo (`reviewed.po`). Ojo: Nilo revisó partiendo de las propuestas de Sonnet, así que la referencia favorece a Sonnet.
