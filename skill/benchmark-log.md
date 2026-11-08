@@ -170,6 +170,13 @@ Haiku revisa y Opus audita en lugar de Nilo (`review/README.md`, «Direct rounds
 - Dudas (#17, #18): *shop default* → «valor por defecto de la tienda», sin omitir *default*.
 - Nilo confirmó las preguntas de Haiku: la pasiva refleja («se vende por metros») vale, y «Hay %s en existencias» para *%s in stock*.
 
+## 2026-11-08 · Haiku · ronda 18 (Flooring Calculator for WooCommerce, readme, 139 cadenas) · skill v3
+
+- Haiku como subagente, con los términos que Nilo eligió en la ronda 17 como contexto.
+- Resultado: 34 cambios. Haiku propuso 34 cambios, sin dudas. Mantenidos: 34. Ni editados, ni deshechos, ni escapados.
+- Aprobados sin cambio, como Haiku: «Funciones» para *feature*, «finalización de compra», «edición en lote» y «está en» para *is set to*.
+- Fallo de `po_tool.py check`: toma «5 % for» o «10% for» por marcadores de printf (#16, #60, #76). Pendiente de arreglar.
+
 ## 2026-11-06 · Haiku frente a Sonnet · rondas 03 y 04 · skill v3
 
 Haiku revisó a ciegas los `original.po` de las rondas 03 y 04. Se compara con la revisión final de Nilo (`reviewed.po`). Ojo: Nilo revisó partiendo de las propuestas de Sonnet, así que la referencia favorece a Sonnet.

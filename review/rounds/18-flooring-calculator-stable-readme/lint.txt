@@ -1,0 +1,49 @@
+#1: glossary: page → página?
+#3: glossary: set → establecer | conjunto?
+#5: glossary: map → mapa | asignar?
+#6: glossary term left in English: stock → inventario / existencias
+#7: glossary: feature → característica | destacar?
+#9: glossary: set → establecer | conjunto? | capitals mid-sentence: Piezas
+#11: glossary: email → correo electrónico? | glossary: save → guardar o ahorrar, según contexto?
+#13: glossary: default → por defecto?
+#15: glossary: bulk → por lotes? | glossary: checkbox → casilla de verificación? | glossary: default → por defecto? | glossary: set → establecer | conjunto?
+#16: glossary term left in English: click → clic | hacer clic | glossary: default → por defecto? | glossary: set → establecer | conjunto?
+#17: glossary: page → página?
+#18: glossary: page → página? | glossary: set → establecer | conjunto?
+#19: glossary: delete → borrar?
+#30: glossary: set → establecer | conjunto?
+#35: capitals mid-sentence: Datos
+#36: glossary: default → por defecto? | glossary: set → establecer | conjunto? | capitals mid-sentence: Ajustes, Productos, Calculadora
+#37: glossary: upload → subida | subir? | capitals mid-sentence: Añadir
+#39: glossary term left in English: license → licencia | glossary: release → versión? | capitals mid-sentence: Publicado
+#41: glossary: bug → fallo? | glossary: support → es compatible con / dar soporte? | glossary: Welcome → Te damos la bienvenida?
+#42: glossary: check → marcar / comprobar | cheque? | glossary term left in English: license → licencia
+#43: glossary: upsell → venta dirigida?
+#44: glossary term left in English: hook → gancho
+#53: glossary term left in English: hook → gancho
+#54: glossary term left in English: stock → inventario / existencias
+#57: glossary: default → por defecto? | glossary term left in English: stock → inventario / existencias
+#60: glossary term left in English: click → clic | hacer clic | glossary: default → por defecto?
+#62: glossary: set → establecer | conjunto? | glossary term left in English: stock → inventario / existencias
+#63: glossary term left in English: stock → inventario / existencias
+#64: glossary: email → correo electrónico? | glossary: save → guardar o ahorrar, según contexto?
+#66: glossary: item → elemento / artículo?
+#70: glossary: fix → corrección? | glossary: fixed → corregido?
+#73: glossary term left in English: stock → inventario / existencias
+#76: glossary: checkbox → casilla de verificación?
+#79: glossary: order → pedido / orden | pedir / encargar / realizar pedido / ordenar?
+#81: glossary: save → guardar o ahorrar, según contexto?
+#94: glossary: fix → corrección? | glossary: fixed → corregido?
+#95: glossary: support → es compatible con / dar soporte? | glossary: supported → compatible?
+#101: glossary: next → siguiente?
+#107: glossary: support → es compatible con / dar soporte?
+#111: glossary: feature → característica | destacar?
+#112: glossary: feature → característica | destacar?
+#113: glossary: feature → característica | destacar? | glossary: page → página?
+#119: glossary: default → por defecto? | glossary term left in English: stock → inventario / existencias
+#120: glossary: sale → oferta?
+#121: glossary: item → elemento / artículo? | glossary: save → guardar o ahorrar, según contexto?
+#128: glossary: email → correo electrónico? | glossary: save → guardar o ahorrar, según contexto?
+#129: glossary: save → guardar o ahorrar, según contexto?
+#137: glossary: checkbox → casilla de verificación?
+#139: glossary: default → por defecto? | glossary: set → establecer | conjunto?
