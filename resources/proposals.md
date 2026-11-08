@@ -16,7 +16,7 @@ Estados: **pendiente** (sin proponer) · **propuesta** (enviada al equipo) · **
 | *clear* | «vaciar» (verbo) | Añadir nota: para dejar de aplicar un filtro, «quitar» o «limpiar» (*Clear filters* = «Quitar filtros»); «vaciar» es para contenidos (papelera, caché) | Rondas 14 y 16 | pendiente |
 | *media item* / *media file* | *media* = «medios» | Añadir: «archivo de medios» (no «archivo multimedia») | Ronda 07 (WP Branches for Post, #28, #70) | pendiente |
 | *supported* | «compatible» | Añadir nota: cuando no habla de compatibilidad (p. ej., *supported conflict*, un conflicto que el plugin sabe resolver), se traduce por el sentido | Ronda 08 (#2) | pendiente |
-| *endpoint* | «variable» | Revisar: en «REST endpoints» la traducción habitual es «rutas» o se deja «endpoint» | Rondas 07 (#82) y 13 | pendiente |
+| *endpoint* | «variable» | Revisar: «variable» solo vale para los *endpoints* de WooCommerce (Nilo); en «REST endpoints» o una API, «rutas» o se deja «endpoint» | Rondas 07 (#82), 13 y 20 | pendiente |
 | *Dashboard* de un servicio externo | «Escritorio» | Confirmar que vale también para el panel de un servicio externo («escritorio del vendedor», «escritorio de Quote3D») | Rondas 10, 14 y 15 | pendiente |
 
 ## Guía de traductores

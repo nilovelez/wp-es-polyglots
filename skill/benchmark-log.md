@@ -143,13 +143,15 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 ## 2026-11-08 · Haiku · ronda 20 (TWT AEO Ultimate, stable, 3707 cadenas) · directa, sin revisión humana
 
 - La más grande hasta ahora de una vez. Cinco tramos seguidos de unas 750 cadenas en la misma sesión, con `terms.md`, unos 26 minutos. Traducción humana y buena.
-- Haiku: 553 cambios. Guion largo restaurado en 449 cadenas (el traductor lo cambiaba por «:», «;» o paréntesis), 30 de mayúsculas, 55 de glosario y precisión (*set*, *check*, *next*, *fix*, *delete*, *render*, *caption*, *membership*, *frontend*…).
-- Auditoría de Opus: 14 descartadas y 8 editadas.
-  - Raya: donde el traductor ya la tenía, pegada al inciso según la norma del español («—reseñas, comparativas—»), Haiku solo cambiaba el espaciado al del inglés. Se descartan 12 y en 7 se mantiene el resto de la corrección con la raya pegada. Queda pendiente el espaciado de las 449 restauradas, que siguen el del original.
-  - «preguntas frecuentes» → «FAQ» por el glosario (FAQ: «No se traduce»): se mantiene lo del traductor (#310, #560). En la ronda 12 Nilo también cambió «bloque FAQ» por «bloque de preguntas frecuentes». Posible propuesta para el glosario.
+- Haiku: 553 cambios. Guion largo restaurado en 449 cadenas, por la regla que había entonces (el traductor lo cambiaba por «:», «;» o paréntesis), 30 de mayúsculas, 55 de glosario y precisión (*set*, *check*, *next*, *fix*, *delete*, *render*, *caption*, *membership*, *frontend*…).
+- Auditoría de Opus, corregida con Nilo: 553 decisiones, 431 descartadas y 50 editadas o añadidas; quedan 134 cambios.
+  - Guion largo: Nilo no lo habría cambiado. La raya se puede sustituir por «:» o «;», no rompe nada y no es motivo de rechazo. Lo que se mantiene es lo que puede romper, como los puntos suspensivos finales. La regla de la referencia rápida venía de generalizar un caso de la ronda 10 y se ha corregido. Se descartan los cambios que solo ponían la raya, y en los que tenían otra corrección se mantiene la puntuación del traductor.
+  - *Toggle X* = «Alternar X» (12 etiquetas): «Activar o desactivar X» alarga mucho la cadena.
+  - «preguntas frecuentes» → «FAQ» por el glosario: se mantiene lo del traductor (#310, #560). En la ronda 12 Nilo también puso «preguntas frecuentes».
   - #712 «Open Knowledge File» es el nombre de un formato: no se traduce.
+  - #202: faltaba «↳ Follow-up rows:» del original, y a Haiku también se le pasó.
+- Nilo: *scope* = «ámbito» es correcto. *endpoint* = «variable» del glosario solo vale para WooCommerce: hay que revisarlo en el glosario. «OK» = «Correcto» es arriesgado, porque «OK» puede ser un estado o el botón «Aceptar».
 - Falso positivo de `check` en #2035 («80% structural»), el mismo de la ronda 18.
-- Dudas que se dejan como estaban: «OK» = «Correcto» en estados (#564), «Toggle X» = «Activar o desactivar X», «rol: Lector» en la interfaz de GA4 (#2357), *endpoint* (el glosario da «variable»), *scope* = «ámbito», *Merchant Center* sin traducir.
 
 ## 2026-11-08 · Haiku · ronda 19 (Ensomedia Security, dev, 2467 cadenas) · directa, sin revisión humana
 
