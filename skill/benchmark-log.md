@@ -177,6 +177,12 @@ Haiku revisa y Opus audita en lugar de Nilo (`review/README.md`, «Direct rounds
 - Aprobados sin cambio, como Haiku: «Funciones» para *feature*, «finalización de compra», «edición en lote» y «está en» para *is set to*.
 - Fallo de `po_tool.py check`: toma «5 % for» o «10% for» por marcadores de printf (#16, #60, #76). Pendiente de arreglar.
 
+## 2026-11-08 · ronda 19 (Arcadys Municipal Core, stable, 2672 cadenas) · descartada
+
+- El original está en español de América, no en inglés: 2650 cadenas son copia exacta del original y las otras 22 solo añaden el plural. Detectado con las cifras baratas, sin pasar por ningún modelo.
+- Nilo: se rechaza el lote entero y se avisa a quien lo envió de que, para poder traducir un plugin, el original tiene que estar en inglés de EE. UU.
+- Se borraron sus archivos, como en la ronda 05.
+
 ## 2026-11-06 · Haiku frente a Sonnet · rondas 03 y 04 · skill v3
 
 Haiku revisó a ciegas los `original.po` de las rondas 03 y 04. Se compara con la revisión final de Nilo (`reviewed.po`). Ojo: Nilo revisó partiendo de las propuestas de Sonnet, así que la referencia favorece a Sonnet.
