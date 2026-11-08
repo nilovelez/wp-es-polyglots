@@ -4,6 +4,8 @@ Criterios de coherencia que han salido en las rondas de revisión y que no está
 
 Mientras no se publiquen, se aplican desde `quick-reference.md` y `glossary-overrides.csv`. Cuando una propuesta se publique, se marca como publicada y su copia local se quita o se ajusta para que coincida con el texto oficial.
 
+Documento para los moderadores: [Propuestas de cambio al glosario es_ES](https://claude.ai/artifact/8JUkHKheM5j3NHLAtywhcs).
+
 Estados: **pendiente** (sin proponer) · **propuesta** (enviada al equipo) · **aprobada** · **publicada** · **descartada**.
 
 ## Glosario
@@ -19,12 +21,16 @@ Estados: **pendiente** (sin proponer) · **propuesta** (enviada al equipo) · **
 | *endpoint* | «variable» | Revisar: «variable» solo vale para los *endpoints* de WooCommerce (Nilo); en «REST endpoints» o una API, «rutas» o se deja «endpoint» | Rondas 07 (#82), 13 y 20 | pendiente |
 | *Dashboard*, *role* | «Escritorio», «perfil» | Añadir nota: son los nombres de WordPress. Los roles de un servicio externo usan el nombre de su interfaz en español («rol: Lector» en GA4); su *dashboard*, preferentemente «panel», aunque «escritorio» también vale | Rondas 10, 14, 15, 19 y 20 | pendiente |
 | *recurring* | «periódico». Nota: «NO usar recurrente» | Cambiar la nota: se prefiere «periódico», pero «recurrente» también se acepta (no es motivo de rechazo) | Ronda 21 (Gratora, unas 125 cadenas) | pendiente |
+| *scope* | «extensión» (cabecera de tabla) | Añadir acepción: «ámbito» para el alcance de un permiso o ajuste | Ronda 20 | pendiente |
+| *zoom* (sustantivo) | Solo el verbo: «ampliar / acercar» | Añadir sustantivo: «ampliación» | Ronda 16 | pendiente |
+| *page*, *endpoint* | Entradas duplicadas en el CSV | Dejar una de cada | Revisión del CSV | pendiente |
+| A debatir (sin decisión) | *FAQ* en textos explicativos, *OK* como estado, *login* sustantivo, *sign out* en frases, *bulk* = «en lote», *feed* que no es RSS, *vendor* de software, *merchant* en nombres de producto, *release* como paquete, *upsell* | Ver el documento de propuestas | Rondas 12 a 20 | pendiente |
 
 ## Guía de traductores
 
 | Tema | Propuesta | Origen | Estado |
 |---|---|---|---|
-| Puntuación del original | Se mantiene la puntuación del original, incluido el guion largo «—» (no se cambia por «;» o «:») y los puntos suspensivos `...`. Excepción: las comillas, que pasan a «». | Rondas 04, 09 y 10 | pendiente |
+| Puntuación del original | Se mantiene la puntuación que puede romper algo: los puntos suspensivos finales tal como vienen y los signos de cierre al final. El guion largo «—» se puede sustituir por «:», «;» o «,», y no es motivo para cambiar una traducción. Las comillas pasan a «». | Rondas 04, 09, 10 y 20 | pendiente |
 | Comillas en texto literal | Si toda la cadena es un texto literal para un buscador o un agente de IA (una instrucción, una consulta de ejemplo), se dejan las comillas del original, también las rectas. | Ronda 12 (#176) | pendiente |
 | Numeración «#%d» | «Pedido #%d» se deja con «#», como en el original; no se cambia por «n.º %d». | Ronda 11 (6 cadenas) | pendiente |
 | *email* en textos largos | En textos largos, «correo electrónico»; en cadenas cortas de interfaz, «correo» es válido. | Ronda 01 | pendiente |
