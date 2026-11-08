@@ -1,0 +1,5 @@
+{"n": 3528, "verdict": "fix", "msgstr": "Error — consulta el mensaje", "comment": "Se mantiene el guion largo «—» del original en lugar de los dos puntos."}
+{"n": 3529, "verdict": "fix", "msgstr": "Rápido y fiable. Haiku está ajustado para resúmenes cortos — normalmente uno o dos segundos por entrada.", "comment": "Se mantiene el guion largo «—» del original en lugar de los dos puntos."}
+{"n": 3530, "verdict": "fix", "msgstr": "Más lento que Claude u OpenAI, sobre todo en el plan gratuito — una ejecución por lotes grande puede tardar varios minutos. Sigue funcionando en segundo plano, así que puedes salir de esta página y volver más tarde.", "comment": "Se mantiene el guion largo «—» del original en lugar de los dos puntos."}
+{"n": 3552, "verdict": "fix", "msgstr": "%1$s terminado — %2$d creadas.", "comment": "Se mantiene el guion largo «—» del original en lugar de los dos puntos."}
+{"n": 3581, "verdict": "fix", "msgstr": "Exploración en segundo plano de TWT AEO terminada — %d páginas exploradas.", "comment": "Se mantiene el guion largo «—» del original en lugar de los dos puntos."}

@@ -1,0 +1,3 @@
+{"n": 2175, "verdict": "fix", "msgstr": "El archivo openid-configuration aún no se ha escrito — guarda para generarlo.", "comment": "Se mantiene el guion largo «—» del original en lugar de los dos puntos."}
+{"n": 2214, "verdict": "fix", "msgstr": "Añade una biografía de autor — ve a Usuarios → Perfil y rellena el campo Información biográfica.", "comment": "Se mantiene el guion largo «—» del original en lugar de los dos puntos."}
+{"n": 2240, "verdict": "fix", "msgstr": "Enlazar los perfiles sociales mediante sameAs establece la coherencia de la entidad en toda la web — una señal clave para los paneles de conocimiento de Google y las citas de IA.", "comment": "Se mantiene el guion largo «—» del original en lugar de los dos puntos."}

@@ -1,0 +1,5 @@
+{"n": 3248, "verdict": "fix", "msgstr": "Google Analytics 4 — ID de medición", "comment": "Se mantiene el guion largo «—» del original en lugar de los dos puntos."}
+{"n": 3294, "verdict": "fix", "msgstr": "Sigue Analytics, Search Console, Bing, el tráfico de IA y el estado de indexación — y aplica correcciones directamente.", "comment": "Se mantiene el guion largo «—» del original en lugar de la coma."}
+{"n": 3341, "verdict": "fix", "msgstr": "%1$d páginas exploradas — %2$d requieren atención", "comment": "Se mantiene el guion largo «—» del original en lugar de los dos puntos."}
+{"n": 3342, "verdict": "fix", "msgstr": "Nueva exploración completada — %1$d páginas exploradas, %2$d requieren atención.", "comment": "Se mantiene el guion largo «—» del original en lugar de los dos puntos."}
+{"n": 3350, "verdict": "fix", "msgstr": "La opción con IA hace una llamada a la API con coste por entrada y se ejecuta en segundo plano — puedes salir de esta página una vez iniciada y detenerla en cualquier momento. Primero se te pedirá que confirmes el número.", "comment": "Se mantiene el guion largo «—» del original en lugar de los dos puntos."}

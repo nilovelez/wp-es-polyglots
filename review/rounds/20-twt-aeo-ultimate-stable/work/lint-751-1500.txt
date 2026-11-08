@@ -1,0 +1,164 @@
+#758: capitals mid-sentence: Anular
+#761: glossary: setting → ajuste? | glossary: settings → ajustes?
+#763: glossary: check → marcar / comprobar | cheque?
+#768: glossary: set → establecer | conjunto?
+#771: glossary: render → procesar / mostrar?
+#780: glossary term left in English: tag → etiqueta
+#781: capitals mid-sentence: Java
+#782: glossary: render → procesar / mostrar? | capitals mid-sentence: Java
+#784: glossary: ship → enviar?
+#785: glossary: render → procesar / mostrar?
+#786: capitals mid-sentence: Java
+#787: glossary: fix → corrección? | glossary term left in English: review → reseña / valoración | capitals mid-sentence: Reseñas
+#789: glossary: fix → corrección? | glossary: only → solo | solo / solamente?
+#791: glossary term left in English: lazy → diferida | glossary: library → biblioteca? | capitals mid-sentence: Java
+#795: capitals mid-sentence: Java
+#803: glossary: ship → enviar?
+#804: glossary term left in English: blockquote → cita | glossary: post → entrada? | glossary: upgrade → actualización | actualizar?
+#806: glossary term left in English: blockquote → cita | glossary: caption → leyenda? | glossary: next → siguiente? | glossary: post → entrada?
+#807: glossary: render → procesar / mostrar? | capitals mid-sentence: Los
+#808: glossary: next → siguiente? | glossary: post → entrada?
+#810: glossary: about → acerca de?
+#819: glossary: save → guardar o ahorrar, según contexto?
+#820: glossary: fix → corrección?
+#821: glossary: save → guardar o ahorrar, según contexto?
+#824: capitals mid-sentence: Ajustes
+#831: capitals mid-sentence: Credenciales
+#833: glossary: issue → problema / conflicto / incidencia?
+#834: glossary: body is not translated (cuerpo) | capitals mid-sentence: Ministerio, Territorio, Infraestructuras, Transporte, Turismo, Japón
+#835: glossary: review → reseña / valoración?
+#837: glossary: review → reseña / valoración? | glossary: save → guardar o ahorrar, según contexto?
+#839: glossary: check → marcar / comprobar | cheque?
+#843: glossary term left in English: fee → cuota
+#863: glossary: scope → extensión?
+#866: glossary: scope → extensión? | glossary: worth → valor?
+#876: glossary: membership → membresía?
+#878: capitals mid-sentence: Arquitecto
+#885: glossary: body is not translated (cuerpo)
+#886: glossary term left in English: content → contenido | glossary term left in English: merchant → vendedor
+#887: glossary term left in English: merchant → vendedor | glossary: setting → ajuste? | glossary: settings → ajustes? | capitals mid-sentence: Configuración
+#888: glossary term left in English: merchant → vendedor
+#889: glossary term left in English: merchant → vendedor | capitals mid-sentence: Fuentes
+#890: glossary: save → guardar o ahorrar, según contexto?
+#892: glossary: about → acerca de? | glossary: bill → factura? | capitals mid-sentence: Iniciar
+#899: glossary: file → archivo?
+#901: glossary: fee → cuota? | glossary: feed is not translated (feed)
+#905: glossary: report → informe | informar?
+#907: glossary: save → guardar o ahorrar, según contexto?
+#909: glossary: quote → cita / presupuesto?
+#915: glossary: scope → extensión?
+#916: glossary: scope → extensión? | capitals mid-sentence: Asignación
+#943: glossary: save → guardar o ahorrar, según contexto?
+#944: glossary: save → guardar o ahorrar, según contexto?
+#957: glossary: fix → corrección?
+#967: capitals mid-sentence: Centro
+#978: glossary: file → archivo?
+#980: capitals mid-sentence: Ajustes
+#983: glossary: file → archivo?
+#1000: glossary: save → guardar o ahorrar, según contexto?
+#1008: glossary: save → guardar o ahorrar, según contexto?
+#1014: glossary: review → reseña / valoración?
+#1016: glossary: save → guardar o ahorrar, según contexto?
+#1025: capitals mid-sentence: Ajustes
+#1056: glossary: scope → extensión?
+#1057: glossary: scope → extensión?
+#1059: glossary: scope → extensión?
+#1066: glossary: scope → extensión?
+#1067: glossary: fix → corrección?
+#1074: glossary: scope → extensión?
+#1075: glossary: scope → extensión?
+#1076: glossary: scope → extensión?
+#1077: glossary: scope → extensión?
+#1093: capitals mid-sentence: Visibilidad
+#1111: capitals mid-sentence: Ajustes
+#1114: capitals mid-sentence: Ajustes
+#1121: glossary: save → guardar o ahorrar, según contexto?
+#1124: glossary: save → guardar o ahorrar, según contexto?
+#1125: glossary: save → guardar o ahorrar, según contexto?
+#1126: glossary: save → guardar o ahorrar, según contexto?
+#1138: glossary: fix → corrección?
+#1141: glossary: save → guardar o ahorrar, según contexto?
+#1147: glossary: core → núcleo?
+#1149: capitals mid-sentence: Servicio
+#1151: glossary: core → núcleo?
+#1162: glossary: set → establecer | conjunto? | capitals mid-sentence: Grafo
+#1164: glossary: skip → omitir?
+#1165: capitals mid-sentence: Grafo
+#1168: capitals mid-sentence: Grafo
+#1171: glossary: clear → vaciar?
+#1173: glossary: clear → vaciar?
+#1177: glossary: review → reseña / valoración?
+#1180: capitals mid-sentence: Escritorio
+#1199: capitals mid-sentence: Mapa
+#1202: glossary: review → reseña / valoración? | capitals mid-sentence: Módulos
+#1203: glossary term left in English: merchant → vendedor
+#1204: glossary term left in English: merchant → vendedor
+#1205: glossary term left in English: merchant → vendedor
+#1207: capitals mid-sentence: Ajustes
+#1228: glossary: bill → factura? | glossary: is missing → falta?
+#1232: glossary: bill → factura?
+#1241: glossary term left in English: merchant → vendedor
+#1243: glossary: setting → ajuste?
+#1244: glossary term left in English: merchant → vendedor | capitals mid-sentence: Reglas
+#1246: glossary: COD → contra reembolso? | glossary term left in English: merchant → vendedor
+#1249: glossary: check → marcar / comprobar | cheque? | glossary term left in English: fee → cuota | glossary term left in English: merchant → vendedor
+#1254: capitals mid-sentence: Cupones
+#1258: capitals mid-sentence: Reglas
+#1263: glossary term left in English: order → pedido / orden | pedir / encargar / realizar pedido / ordenar
+#1265: glossary term left in English: merchant → vendedor
+#1270: glossary: only → solo | solo / solamente?
+#1274: glossary: about → acerca de?
+#1275: glossary: set → establecer | conjunto?
+#1302: glossary: COD → contra reembolso?
+#1303: glossary: COD → contra reembolso? | glossary: only → solo | solo / solamente?
+#1304: glossary: COD → contra reembolso?
+#1308: glossary: COD → contra reembolso?
+#1309: glossary: save → guardar o ahorrar, según contexto?
+#1317: glossary: notice → aviso?
+#1324: glossary: next → siguiente?
+#1333: glossary: fix → corrección? | glossary: fixed → corregido?
+#1335: glossary: plugins is not translated (plugins)
+#1341: glossary: check → marcar / comprobar | cheque?
+#1343: glossary term left in English: merchant → vendedor
+#1344: glossary term left in English: merchant → vendedor
+#1346: glossary term left in English: merchant → vendedor | capitals mid-sentence: Productos
+#1347: capitals mid-sentence: Productos
+#1349: glossary term left in English: merchant → vendedor
+#1353: glossary: about → acerca de? | capitals mid-sentence: Tienda
+#1354: glossary: save → guardar o ahorrar, según contexto?
+#1358: glossary term left in English: merchant → vendedor
+#1359: glossary term left in English: merchant → vendedor
+#1360: glossary term left in English: merchant → vendedor
+#1361: glossary term left in English: content → contenido | glossary term left in English: endpoint → variable | glossary term left in English: fee → cuota
+#1362: glossary term left in English: fee → cuota
+#1363: glossary: save → guardar o ahorrar, según contexto?
+#1364: glossary: save → guardar o ahorrar, según contexto?
+#1366: glossary term left in English: merchant → vendedor
+#1367: glossary: save → guardar o ahorrar, según contexto?
+#1370: glossary: render → procesar / mostrar?
+#1373: glossary: bill → factura?
+#1374: glossary: bill → factura?
+#1377: glossary: bill → factura?
+#1383: glossary: file → archivo?
+#1392: glossary: bill → factura?
+#1396: capitals mid-sentence: Equipos, Menos
+#1397: glossary: save → guardar o ahorrar, según contexto?
+#1403: glossary: review → reseña / valoración? | glossary: save → guardar o ahorrar, según contexto?
+#1406: glossary: check → marcar / comprobar | cheque? | capitals mid-sentence: Ajustes
+#1407: capitals mid-sentence: Ajustes
+#1409: capitals mid-sentence: Ajustes
+#1422: glossary: set → establecer | conjunto?
+#1432: capitals mid-sentence: Descubrir
+#1434: capitals mid-sentence: Equipo, Uso
+#1439: glossary: save → guardar o ahorrar, según contexto?
+#1440: glossary: home → inicio / página de inicio? | glossary: landing → destino? | glossary: landing page → página de destino?
+#1447: capitals mid-sentence: Ajustes
+#1448: glossary: save → guardar o ahorrar, según contexto?
+#1455: capitals mid-sentence: Ajustes
+#1464: capitals mid-sentence: Ajustes
+#1469: glossary: draft → borrador?
+#1477: glossary: draft → borrador? | glossary: landing → destino? | glossary: landing page → página de destino? | glossary: review → reseña / valoración? | glossary: stock → inventario / existencias?
+#1478: glossary: save → guardar o ahorrar, según contexto? | capitals mid-sentence: Deshacer
+#1487: glossary: report → informe | informar?
+#1492: glossary: save → guardar o ahorrar, según contexto?
+#1494: capitals mid-sentence: Volver

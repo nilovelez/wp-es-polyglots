@@ -1,0 +1,163 @@
+#4: glossary: save → guardar o ahorrar, según contexto?
+#5: capitals mid-sentence: Editar
+#9: glossary: wallet → monedero / billetera / cartera virtual? | glossary: worth → valor?
+#13: glossary: about → acerca de?
+#16: glossary: about → acerca de?
+#17: glossary: about → acerca de?
+#19: glossary: about → acerca de?
+#23: glossary: about → acerca de?
+#40: glossary term left in English: page → página
+#66: glossary: feed is not translated (feed) | capitals mid-sentence: Citas, Motor
+#68: glossary: about → acerca de?
+#69: glossary: lead → cliente potencial?
+#78: glossary: about → acerca de?
+#79: glossary: about → acerca de?
+#80: glossary: about → acerca de? | glossary: clear → vaciar? | glossary: topic → debate?
+#81: glossary: topic → debate?
+#86: glossary: check → marcar / comprobar | cheque? | glossary: topic → debate?
+#87: glossary: topic → debate?
+#90: glossary: review → reseña / valoración?
+#91: glossary: set → establecer | conjunto?
+#101: glossary: save → guardar o ahorrar, según contexto?
+#112: glossary: save → guardar o ahorrar, según contexto?
+#126: glossary: support → es compatible con / dar soporte?
+#129: glossary: check → marcar / comprobar | cheque?
+#131: glossary: set → establecer | conjunto? | capitals mid-sentence: Registro
+#136: capitals mid-sentence: Visibilidad
+#141: glossary term left in English: page → página | glossary term left in English: post → entrada | non-Spanish quotes
+#145: capitals mid-sentence: Motor
+#146: capitals mid-sentence: Diagnóstico
+#147: capitals mid-sentence: Visibilidad
+#152: glossary: post → entrada?
+#153: glossary: Dashboard → Escritorio?
+#158: glossary: upload → subida | subir? | capitals mid-sentence: Motor, Módulos
+#159: glossary: fix → corrección?
+#160: non-Spanish quotes
+#161: glossary: next → siguiente?
+#171: glossary: save → guardar o ahorrar, según contexto?
+#172: glossary: about → acerca de? | glossary: next → siguiente?
+#176: capitals mid-sentence: Perfil
+#179: capitals mid-sentence: Intro
+#181: glossary: save → guardar o ahorrar, según contexto?
+#196: glossary: how-to → guía práctica?
+#201: capitals mid-sentence: Seguimiento
+#202: glossary: hover → al pasar el cursor?
+#205: glossary: next → siguiente?
+#219: glossary: save → guardar o ahorrar, según contexto? | capitals mid-sentence: Visibilidad
+#226: glossary: check → marcar / comprobar | cheque? | glossary: next → siguiente?
+#227: glossary: add → añadir? | capitals mid-sentence: Visibilidad
+#239: glossary: set → establecer | conjunto?
+#241: glossary: are you sure → ¿Seguro que…?? | glossary: save → guardar o ahorrar, según contexto?
+#242: glossary: save → guardar o ahorrar, según contexto? | capitals mid-sentence: Guardar
+#252: glossary: about → acerca de?
+#254: glossary: save → guardar o ahorrar, según contexto?
+#263: glossary: rating → valoración / puntuación?
+#267: glossary: about → acerca de?
+#281: glossary: COD → contra reembolso? | glossary: code → código | programar?
+#289: glossary: save → guardar o ahorrar, según contexto?
+#294: capitals mid-sentence: Copiar
+#303: glossary: FAQ is not translated (FAQ) | capitals mid-sentence: Motor, Vista, Documentos, Posicionamiento, Citas
+#305: glossary term left in English: tools → herramientas
+#306: capitals mid-sentence: Visibilidad
+#307: capitals mid-sentence: Motor
+#308: glossary: set → establecer | conjunto? | glossary term left in English: tools → herramientas | capitals mid-sentence: Vista, Motor
+#310: glossary: FAQ is not translated (FAQ) | glossary: upload → subida | subir?
+#313: glossary: update → actualización | actualizar?
+#315: glossary: feed is not translated (feed) | capitals mid-sentence: Posicionamiento
+#318: glossary: feed is not translated (feed) | capitals mid-sentence: Posicionamiento
+#321: capitals mid-sentence: Visibilidad
+#322: capitals mid-sentence: Visibilidad, Módulos
+#324: capitals mid-sentence: Módulos
+#326: glossary: upload → subida | subir?
+#329: capitals mid-sentence: Visibilidad
+#330: capitals mid-sentence: Copiar, Editar
+#331: capitals mid-sentence: Visibilidad
+#332: capitals mid-sentence: Visibilidad
+#335: glossary term left in English: tools → herramientas
+#344: glossary term left in English: tools → herramientas
+#347: glossary: upload → subida | subir?
+#349: capitals mid-sentence: Visibilidad
+#351: capitals mid-sentence: Visibilidad
+#352: capitals mid-sentence: Visibilidad, Módulos
+#353: capitals mid-sentence: Visibilidad
+#354: capitals mid-sentence: Visibilidad
+#355: capitals mid-sentence: Visibilidad
+#357: glossary: upload → subida | subir? | capitals mid-sentence: Visibilidad
+#367: glossary: report → informe | informar?
+#368: glossary: report → informe | informar?
+#378: glossary: code → código | programar?
+#379: glossary: code → código | programar?
+#382: glossary: COD → contra reembolso? | glossary: code → código | programar?
+#383: glossary: upload → subida | subir?
+#385: capitals mid-sentence: Motor
+#388: capitals mid-sentence: Visibilidad
+#392: glossary: check → marcar / comprobar | cheque? | glossary: next → siguiente? | capitals mid-sentence: Ajustes
+#393: capitals mid-sentence: Escritorio, Actualizaciones
+#394: glossary: check → marcar / comprobar | cheque? | capitals mid-sentence: Ajustes
+#402: glossary: about → acerca de?
+#417: glossary: support → es compatible con / dar soporte? | glossary: upload → subida | subir?
+#418: glossary: save → guardar o ahorrar, según contexto? | glossary: upload → subida | subir?
+#419: glossary: upload → subida | subir?
+#420: glossary: save → guardar o ahorrar, según contexto? | glossary: upload → subida | subir? | capitals mid-sentence: Guardar
+#421: glossary: scan → explorar | exploración? | glossary: upload → subida | subir? | capitals mid-sentence: Documentos
+#423: glossary: save → guardar o ahorrar, según contexto? | capitals mid-sentence: Guardar, Documento
+#424: glossary: save → guardar o ahorrar, según contexto? | glossary: upload → subida | subir?
+#426: glossary: save → guardar o ahorrar, según contexto? | glossary: upload → subida | subir?
+#430: glossary: save → guardar o ahorrar, según contexto?
+#434: glossary: check → marcar / comprobar | cheque? | glossary: save → guardar o ahorrar, según contexto? | glossary term left in English: upload → subida | subir
+#436: glossary: upload → subida | subir?
+#437: glossary: save → guardar o ahorrar, según contexto?
+#438: glossary: check → marcar / comprobar | cheque? | glossary: is not writable → no tiene permisos de escritura? | glossary: save → guardar o ahorrar, según contexto? | glossary term left in English: upload → subida | subir | glossary: writable → tener permisos de escritura?
+#446: glossary: check → marcar / comprobar | cheque? | glossary: save → guardar o ahorrar, según contexto? | glossary: writable → tener permisos de escritura?
+#449: glossary: code → código | programar?
+#464: glossary: set → establecer | conjunto?
+#476: non-Spanish quotes
+#477: capitals mid-sentence: Vista
+#478: glossary: writable → tener permisos de escritura?
+#484: glossary: set → establecer | conjunto?
+#489: glossary: upload → subida | subir? | capitals mid-sentence: Organizar, Dividir, Vista, Previa
+#495: glossary: code → código | programar?
+#496: glossary: code → código | programar?
+#497: glossary: code → código | programar?
+#499: glossary: check → marcar / comprobar | cheque?
+#504: glossary: check → marcar / comprobar | cheque? | glossary: COD → contra reembolso? | glossary: code → código | programar? | capitals mid-sentence: Ajustes
+#505: glossary: check → marcar / comprobar | cheque? | capitals mid-sentence: Editar
+#506: glossary: check → marcar / comprobar | cheque? | glossary: COD → contra reembolso? | glossary: code → código | programar?
+#507: glossary: check → marcar / comprobar | cheque?
+#512: glossary term left in English: tools → herramientas
+#526: glossary: save → guardar o ahorrar, según contexto?
+#543: glossary: save → guardar o ahorrar, según contexto?
+#548: glossary: save → guardar o ahorrar, según contexto? | capitals mid-sentence: Guardar
+#549: glossary: save → guardar o ahorrar, según contexto? | capitals mid-sentence: Guardar
+#551: glossary: setting → ajuste? | glossary: settings → ajustes? | capitals mid-sentence: Configuración, Usuarios
+#556: glossary: save → guardar o ahorrar, según contexto?
+#558: glossary: code → código | programar?
+#560: glossary: FAQ is not translated (FAQ) | glossary: upload → subida | subir?
+#561: glossary: support → es compatible con / dar soporte? | capitals mid-sentence: Tu
+#574: glossary: COD → contra reembolso? | glossary: code → código | programar? | glossary: remove → quitar / eliminar?
+#587: glossary: delete → borrar?
+#591: glossary: save → guardar o ahorrar, según contexto?
+#599: glossary: report → informe | informar?
+#600: glossary: ship → enviar?
+#621: glossary: save → guardar o ahorrar, según contexto?
+#627: glossary: caption → leyenda?
+#631: glossary: check → marcar / comprobar | cheque? | capitals mid-sentence: Vista
+#641: glossary: topic → debate?
+#644: glossary: caption → leyenda?
+#645: glossary: caption → leyenda?
+#647: capitals mid-sentence: Motor
+#648: capitals mid-sentence: Motor
+#649: capitals mid-sentence: Vista
+#650: capitals mid-sentence: Motor
+#662: glossary: support → es compatible con / dar soporte?
+#678: glossary: ship → enviar?
+#691: glossary: fix → corrección?
+#694: capitals mid-sentence: Reseñas
+#695: capitals mid-sentence: Puntuación
+#698: capitals mid-sentence: Vista
+#702: glossary: check → marcar / comprobar | cheque?
+#707: capitals mid-sentence: Rescate
+#712: glossary term left in English: file → archivo
+#713: glossary: about → acerca de?
+#717: capitals mid-sentence: Vista
+#743: glossary: path → ruta?

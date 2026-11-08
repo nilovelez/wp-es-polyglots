@@ -1,0 +1,1414 @@
+3001 S: Make email address a required field
+   T: Hacer obligatorio el campo de correo electrónico
+3002 S: Form Title
+   T: Título del formulario
+3003 S: Leave a Review
+   T: Deja una reseña
+3004 S: Submit Button Label
+   T: Texto del botón de envío
+3005 S: Submit Review
+   T: Enviar reseña
+3006 S: Success Message
+   T: Mensaje de confirmación
+3007 S: Thank you! Your review is pending approval.
+   T: ¡Gracias! Tu reseña está pendiente de aprobación.
+3008 S: The Reviews module auto-detects the right schema type from your active modules. Use the override below only if the auto-detection is wrong for your site.
+   T: El módulo Reseñas detecta automáticamente el tipo de schema adecuado a partir de tus módulos activos. Usa la opción manual de abajo solo si la detección automática no es correcta para tu sitio.
+3009 S: Auto-Detected Context
+   T: Contexto detectado automáticamente
+3010 S: Context Override
+   T: Contexto manual
+3011 S: Auto-detect (recommended)
+   T: Detección automática (recomendado)
+3012 S: Organization (general)
+   T: Organization (general)
+3013 S: Local Business
+   T: Negocio local
+3014 S: WooCommerce Product
+   T: Producto de WooCommerce
+3015 S: Service Page
+   T: Página de servicio
+3016 S: Overrides the auto-detected context. Auto-detect checks which modules are active: Local Pack → LocalBusiness, WooCommerce → Product, Service Detector → Service, fallback → Organization.
+   T: Sustituye el contexto detectado automáticamente. La detección automática comprueba qué módulos están activos: Local Pack → LocalBusiness, WooCommerce → Product, Detector de servicios → Service, en otro caso → Organization.
+3017 S: Schema Output by Context
+   T: Salida del schema según el contexto
+3018 S: Address from Local Pack
+   T: Dirección de Local Pack
+3019 S: Per-product page
+   T: Por página de producto
+3020 S: Per-service page
+   T: Por página de servicio
+3021 S: Front page / home only
+   T: Solo en la página de inicio
+3022 S: ← Active
+   T: ← Activo
+3023 S: Displays a list of approved reviews.
+   T: Muestra una lista de reseñas aprobadas.
+3024 S: Scope to a post/product ID. -1 = all reviews. Default: -1
+   T: Limitar a un ID de entrada/producto. -1 = todas las reseñas. Por defecto: -1
+3025 S: Max reviews to show. Default: 10
+   T: Máximo de reseñas que mostrar. Por defecto: 10
+3026 S: Show star rating per review. Default: true
+   T: Mostrar la valoración con estrellas de cada reseña. Por defecto: true
+3027 S: Show review date. Default: true
+   T: Mostrar la fecha de la reseña. Por defecto: true
+3028 S: Displays the review submission form. Controlled by the Show Form setting.
+   T: Muestra el formulario para enviar reseñas. Lo controla el ajuste Mostrar formulario.
+3029 S: Associate submitted review with a specific post/product ID. Defaults to current post.
+   T: Asociar la reseña enviada a un ID de entrada/producto concreto. Por defecto, la entrada actual.
+3030 S: Displays an average star rating bar with review count.
+   T: Muestra una barra de valoración media con estrellas y el número de reseñas.
+3031 S: Scope to a post/product ID. -1 = aggregate across all reviews. Default: -1
+   T: Limitar a un ID de entrada/producto. -1 = total de todas las reseñas. Por defecto: -1
+3032 S: Attributes
+   T: Atributos
+3033 S: Example
+   T: Ejemplo
+3034 S: Tip: Combine shortcodes on a Reviews page
+   T: Consejo: combina shortcodes en una página de reseñas
+3035 S: Review settings saved.
+   T: Ajustes de reseñas guardados.
+3036 S: Where should you be getting reviews?
+   T: ¿Dónde deberías conseguir reseñas?
+3037 S: Where to Get More Reviews
+   T: Dónde conseguir más reseñas
+3038 S: Recommended platforms for %s businesses
+   T: Plataformas recomendadas para negocios de %s
+3039 S: Change category
+   T: Cambiar categoría
+3040 S: Links open the business/pro sign-up page for each platform in a new tab.
+   T: Los enlaces abren en una pestaña nueva la página de alta para empresas/profesionales de cada plataforma.
+3041 S: Schema Conflict Detector
+   T: Detector de conflictos de schema
+3042 S: Detects when Yoast SEO, Rank Math, All in One SEO, or Schema & Structured Data for WP & AMP is outputting the same schema types as your AEO schemas. Compare field-level quality and choose whether to supplement or suppress competitor output.
+   T: Detecta cuándo Yoast SEO, Rank Math, All in One SEO o Schema & Structured Data for WP & AMP generan los mismos tipos de schema que tus schemas AEO. Compara la calidad campo por campo y elige si complementar o suprimir la salida del otro plugin.
+3043 S: %d active suppression(s) applied.
+   T: %d supresión(es) activa(s) aplicada(s).
+3044 S: The suppressed schema types are being removed from their respective plugin's output on the frontend. Run a scan to review.
+   T: Los tipos de schema suprimidos se están eliminando de la salida pública de sus respectivos plugins. Ejecuta una exploración para revisarlo.
+3045 S: Leftover schema data detected from deactivated plugin(s):
+   T: Se han detectado restos de datos de schema de plugins desactivados:
+3046 S: Use the Delete panel below to clean up.
+   T: Usa el panel Borrar de abajo para limpiarlos.
+3047 S: Scan Schema Output
+   T: Explorar la salida del schema
+3048 S: Fetching homepage and parsing schema…
+   T: Descargando la página de inicio y analizando el schema…
+3049 S: Delete SEO Plugin Schema Data
+   T: Borrar los datos de schema del plugin de SEO
+3050 S: Permanently remove schema postmeta written by a competitor plugin from your database. This does not uninstall the plugin — it only clears the stored schema records it has saved to posts. Use this when you want a clean slate and are relying solely on AEO schemas.
+   T: Elimina definitivamente de tu base de datos los postmeta de schema escritos por otro plugin. No desinstala el plugin: solo vacía los registros de schema que ha guardado en las entradas. Úsalo cuando quieras empezar de cero y confíes solo en los schemas AEO.
+3051 S: Inactive
+   T: Inactivo
+3052 S: No data found
+   T: No se han encontrado datos
+3053 S: Keys:
+   T: Claves:
+3054 S: Delete Data
+   T: Borrar datos
+3055 S: Scan failed.
+   T: La exploración ha fallado.
+3056 S: Scanned:
+   T: Explorado:
+3057 S: Plugins detected:
+   T: Plugins detectados:
+3058 S: None (no SEO plugin active)
+   T: Ninguno (no hay ningún plugin de SEO activo)
+3059 S: Schema Conflicts
+   T: Conflictos de schema
+3060 S: No conflicts detected.
+   T: No se han detectado conflictos.
+3061 S: No competitor plugin is outputting the same schema types as your AEO schemas.
+   T: Ningún otro plugin genera los mismos tipos de schema que tus schemas AEO.
+3062 S: Competitor-only Schema (no AEO version yet)
+   T: Schema solo del otro plugin (aún sin versión AEO)
+3063 S: fields
+   T: campos
+3064 S: AEO-only Schema (no competitor overlap)
+   T: Schema solo de AEO (sin solapamiento con otros plugins)
+3065 S: (we also have this)
+   T: (nosotros también lo tenemos)
+3066 S: (we have, they don't)
+   T: (lo tenemos nosotros, ellos no)
+3067 S: richer fields
+   T: campos más completos
+3068 S: Suppress this plugin's schema type on the frontend
+   T: Suprimir este tipo de schema del plugin en la parte pública
+3069 S: Suppressing
+   T: Suprimiendo la salida de
+3070 S: s output
+   T: s
+3071 S: Suppress
+   T: Suprimir la versión de
+3072 S: s version
+   T: s
+3073 S: Supplement (coexist): your @graph block outputs alongside theirs — search engines merge them.
+   T: Complementar (coexistir): tu bloque @graph se genera junto al suyo y los buscadores los combinan.
+3074 S: Suppressed
+   T: Suprimido
+3075 S: semantic fields
+   T: campos semánticos
+3076 S: Suppressing their output
+   T: Suprimiendo su salida
+3077 S: Suppress their version
+   T: Suprimir su versión
+3078 S: Applied — takes effect on next frontend load.
+   T: Aplicado: surte efecto en la próxima carga de la parte pública.
+3079 S: Removed.
+   T: Eliminado.
+3080 S: Deleting…
+   T: Borrando…
+3081 S: record(s) deleted.
+   T: registro(s) borrado(s).
+3082 S: Delete failed.
+   T: No se ha podido borrar.
+3083 S: Rescan complete — schema detection refreshed.
+   T: Nuevo análisis completado: detección de schema actualizada.
+3084 S: FAQ
+   T: FAQ
+3085 S: Service
+   T: Servicio
+3086 S: Contact
+   T: Contacto
+3087 S: Conflicts
+   T: Conflictos
+3088 S: Showing Pages + Posts — Show Pages Only
+   T: Mostrando páginas + entradas — Mostrar solo páginas
+3089 S: Show Blog Posts Too
+   T: Mostrar también las entradas del blog
+3090 S: %1$d %2$s with service content — %3$d missing Service schema
+   T: %1$d %2$s con contenido de servicio: a %3$d les falta el schema Service
+3091 S: pages/posts
+   T: páginas/entradas
+3092 S: pages
+   T: páginas
+3093 S: Pages with Service Content
+   T: Páginas con contenido de servicio
+3094 S: Missing Service Schema
+   T: Falta el schema Service
+3095 S: This detector identifies service-oriented content using four strategies, in order:
+   T: Este detector identifica el contenido orientado a servicios con cuatro estrategias, en este orden:
+3096 S: Page intent classifier — pages classified as Service Page or Product-Service Page
+   T: Clasificador de intención de página: páginas clasificadas como página de servicio o página de producto-servicio
+3097 S: URL slug — contains service, repair, install, maintenance, consulting
+   T: Slug de la URL: contiene service, repair, install, maintenance, consulting
+3098 S: Content keywords — service-related terms in headings and first 300 words (3+ required)
+   T: Palabras clave del contenido: términos relacionados con servicios en los encabezados y las primeras 300 palabras (se necesitan 3 o más)
+3099 S: WooCommerce products — only products whose title, slug, or content contains service keywords (not all products)
+   T: Productos de WooCommerce: solo los productos cuyo título, slug o contenido contiene palabras clave de servicio (no todos los productos)
+3100 S: Pages & Posts with Service Content
+   T: Páginas y entradas con contenido de servicio
+3101 S: No pages with service content were detected. Pages with service-related slugs, keywords, or intent classification will appear here.
+   T: No se han detectado páginas con contenido de servicio. Aquí aparecerán las páginas con slugs, palabras clave o clasificación de intención relacionados con servicios.
+3102 S: Keyword Hits
+   T: Coincidencias de palabras clave
+3103 S: Service Schema
+   T: Schema Service
+3104 S: TWT Schema
+   T: Schema de TWT
+3105 S: Add Service schema
+   T: Añadir schema Service
+3106 S: Edit Schema
+   T: Editar schema
+3107 S: Generate Schema
+   T: Generar schema
+3108 S: Generate Service Schema
+   T: Generar schema Service
+3109 S: Fill in the fields below. The schema will be output as JSON-LD on the frontend and will not conflict with your SEO plugin.
+   T: Rellena los campos de abajo. El schema se generará como JSON-LD en la parte pública y no entrará en conflicto con tu plugin de SEO.
+3110 S: Service Name
+   T: Nombre del servicio
+3111 S: e.g. CNC Spindle Repair
+   T: p. ej., Reparación de husillos CNC
+3112 S: Describe what this service offers...
+   T: Describe qué ofrece este servicio...
+3113 S: Service Type
+   T: Tipo de servicio
+3114 S: e.g. Repair, Installation, Consulting
+   T: p. ej., Reparación, Instalación, Consultoría
+3115 S: e.g. Florida, United States
+   T: p. ej., Florida, Estados Unidos
+3116 S: Phone Number
+   T: Número de teléfono
+3117 S: e.g. +1-813-555-0100
+   T: p. ej., +1-813-555-0100
+3118 S: Save Schema
+   T: Guardar schema
+3119 S: Service Name is required.
+   T: El nombre del servicio es obligatorio.
+3120 S: Schema saved. It will now appear on the frontend.
+   T: Schema guardado. Ahora aparecerá en la parte pública.
+3121 S: Save failed. Please try again.
+   T: No se ha podido guardar. Inténtalo de nuevo.
+3122 S: Remove the TWT-generated Service schema from this page?
+   T: ¿Eliminar de esta página el schema Service generado por TWT?
+3123 S: Your Business Info
+   T: Información de tu negocio
+3124 S: Fill this in once. Use "Create from this info" on any contact page below to add complete Organization, PostalAddress, and ContactPoint schema instantly — no editor needed. Saving also updates your central Local Pack business profile.
+   T: Rellénalo una vez. Usa «Crear con esta información» en cualquier página de contacto de abajo para añadir al instante los schemas Organization, PostalAddress y ContactPoint completos, sin necesidad de editor. Al guardar también se actualiza el perfil central de tu negocio en Local Pack.
+3125 S: Entity Type
+   T: Tipo de entidad
+3126 S: LocalBusiness
+   T: LocalBusiness
+3127 S: Corporation
+   T: Corporation
+3128 S: ProfessionalService
+   T: ProfessionalService
+3129 S: City / State / ZIP / Country
+   T: Ciudad / estado / código postal / país
+3130 S: Recreate from info
+   T: Volver a crear con la información
+3131 S: Create from this info
+   T: Crear con esta información
+3132 S: Edit in modal
+   T: Editar en ventana
+3133 S: Edit Contact Schema
+   T: Editar el schema de contacto
+3134 S: These fields are pre-filled from your business info. Saving writes Organization, PostalAddress, and ContactPoint schema to this page and updates your Local Pack profile.
+   T: Estos campos se rellenan con la información de tu negocio. Al guardar se escriben los schemas Organization, PostalAddress y ContactPoint en esta página y se actualiza tu perfil de Local Pack.
+3135 S: Contact Type
+   T: Tipo de contacto
+3136 S: e.g. customer service, sales, support
+   T: p. ej., atención al cliente, ventas, soporte
+3137 S: Business Name is required (top panel).
+   T: El nombre del negocio es obligatorio (panel superior).
+3138 S: ✓ Schema added — reloading…
+   T: ✓ Schema añadido: recargando…
+3139 S: ✗ Request failed.
+   T: ✗ La solicitud ha fallado.
+3140 S: Business Name is required.
+   T: El nombre del negocio es obligatorio.
+3141 S: Remove the TWT-generated contact schema from this page?
+   T: ¿Eliminar de esta página el schema de contacto generado por TWT?
+3142 S: Service Detector
+   T: Detector de servicios
+3143 S: Pages &amp; Posts with Service Content
+   T: Páginas y entradas con contenido de servicio
+3144 S: AI API Keys
+   T: Claves de API de IA
+3145 S: <strong>WordPress 7 detected:</strong> leave the Claude and OpenAI fields blank to generate content using the AI providers you connected at <a href="%s">Settings &rsaquo; Connectors</a>. A key entered below overrides the connected provider for that service.
+   T: <strong>WordPress 7 detectado:</strong> deja vacíos los campos de Claude y OpenAI para generar contenido con los proveedores de IA que conectaste en <a href="%s">Ajustes &rsaquo; Conectores</a>. Una clave introducida abajo sustituye al proveedor conectado para ese servicio.
+3146 S: Used by the plugin's AI features — meta descriptions, PR Bridge, WooCommerce product enrichment, and image analysis. Each key is optional — only providers with a key are used.
+   T: La usan las características de IA del plugin: meta descripciones, PR Bridge, enriquecimiento de productos de WooCommerce y análisis de imágenes. Cada clave es opcional: solo se usan los proveedores que tienen clave.
+3147 S: — protected via server constant —
+   T: — protegida mediante una constante del servidor —
+3148 S: Claude (Anthropic)
+   T: Claude (Anthropic)
+3149 S: Descriptions & PR
+   T: Descripciones y notas de prensa
+3150 S: OpenAI (ChatGPT)
+   T: OpenAI (ChatGPT)
+3151 S: Descriptions & images
+   T: Descripciones e imágenes
+3152 S: Gemini (Google)
+   T: Gemini (Google)
+3153 S: Summaries & meta
+   T: Resúmenes y meta
+3154 S: Perplexity
+   T: Perplexity
+3155 S: Brand & gap research
+   T: Investigación de marca y carencias
+3156 S: AI Enrichment
+   T: Enriquecimiento con IA
+3157 S: Which providers power on-demand product enrichment (extract attributes from descriptions, resolve brand authority links). Uses the API keys above.
+   T: Qué proveedores hacen funcionar el enriquecimiento de productos bajo demanda (extraer atributos de las descripciones, resolver enlaces de autoridad de la marca). Usa las claves de API de arriba.
+3158 S: Attribute extraction
+   T: Extracción de atributos
+3159 S: Inherit meta-description provider (%s)
+   T: Heredar el proveedor de meta descripciones (%s)
+3160 S: Parses product text into structured attributes (color, material, dimensions, specs).
+   T: Analiza el texto del producto para convertirlo en atributos estructurados (color, material, dimensiones, especificaciones).
+3161 S: Live retrieval
+   T: Recuperación en directo
+3162 S: Gemini (Google Search grounding)
+   T: Gemini (anclaje con la Búsqueda de Google)
+3163 S: Used for web-grounded lookups such as brand sameAs authority links.
+   T: Se usa para consultas ancladas en la web, como los enlaces de autoridad sameAs de la marca.
+3164 S: Usage Telemetry
+   T: Telemetría de uso
+3165 S: Help us publish real-world AI cost estimates by sharing anonymous token counts from your content generations. This data is aggregated across all plugin users — no content, titles, URLs, or site information is ever collected.
+   T: Ayúdanos a publicar estimaciones reales del coste de la IA compartiendo recuentos anónimos de tokens de tus generaciones de contenido. Estos datos se agregan entre todos los usuarios del plugin: nunca se recoge contenido, títulos, URL ni información del sitio.
+3166 S: Share token usage
+   T: Compartir el uso de tokens
+3167 S: Opt in to anonymous token telemetry
+   T: Aceptar la telemetría anónima de tokens
+3168 S: What we collect
+   T: Qué recogemos
+3169 S: Provider (Claude / OpenAI / Perplexity)
+   T: Proveedor (Claude / OpenAI / Perplexity)
+3170 S: Model name
+   T: Nombre del modelo
+3171 S: Input and output token counts
+   T: Recuentos de tokens de entrada y de salida
+3172 S: Cache hit / miss token counts (Claude)
+   T: Recuentos de tokens con acierto / fallo de caché (Claude)
+3173 S: Plugin version
+   T: Versión del plugin
+3174 S: What we never collect
+   T: Qué no recogemos nunca
+3175 S: Page titles or content
+   T: Títulos o contenido de las páginas
+3176 S: Site URL or name
+   T: URL o nombre del sitio
+3177 S: API keys
+   T: Claves de API
+3178 S: User or account information
+   T: Información del usuario o de la cuenta
+3179 S: Wire Service API Keys
+   T: Claves de API de servicios de distribución
+3180 S: Used by PR Bridge AI to distribute press releases. Add a key for each wire service you have an account with.
+   T: Las usa PR Bridge AI para distribuir notas de prensa. Añade una clave por cada servicio de distribución en el que tengas cuenta.
+3181 S: EIN Presswire
+   T: EIN Presswire
+3182 S: EIN Presswire Bearer token
+   T: Token Bearer de EIN Presswire
+3183 S: SMBs & agencies
+   T: Pymes y agencias
+3184 S: EasyPRWire
+   T: EasyPRWire
+3185 S: EasyPRWire API key
+   T: Clave de API de EasyPRWire
+3186 S: Niche & local
+   T: Nicho y local
+3187 S: Connect this site to <strong>TWT Agency</strong> so your SEO professional can monitor changes and generate monthly reports. Your professional will provide the Dashboard URL and API Key. <a href="%s" target="_blank">Learn more.</a>
+   T: Conecta este sitio a <strong>TWT Agency</strong> para que tu profesional de SEO pueda supervisar los cambios y generar informes mensuales. Tu profesional te dará la URL del panel y la clave de API. <a href="%s" target="_blank">Más información.</a>
+3188 S: Enable Connection
+   T: Activar la conexión
+3189 S: Send data to TWT Agency
+   T: Enviar datos a TWT Agency
+3190 S: Dashboard URL
+   T: URL del panel
+3191 S: Provided by your SEO professional
+   T: Te la da tu profesional de SEO
+3192 S: Last sync: %s
+   T: Última sincronización: %s
+3193 S: Never
+   T: Nunca
+3194 S: Don't have a TWT Agency account yet?
+   T: ¿Aún no tienes cuenta de TWT Agency?
+3195 S: Learn more about TWT Agency &rarr;
+   T: Más información sobre TWT Agency &rarr;
+3196 S: Agency Security: Protecting Client API Keys
+   T: Seguridad para agencias: proteger las claves de API de los clientes
+3197 S: Keys entered in the form above are stored in the WordPress database. Anyone with database access (hosting panel, phpMyAdmin, staging sync, DB backup) can read them. For agency-managed client sites, define keys as PHP constants or server environment variables instead — they are never written to the database, never logged, and take priority over any database value.
+   T: Las claves introducidas en el formulario de arriba se guardan en la base de datos de WordPress. Cualquiera con acceso a la base de datos (panel del alojamiento, phpMyAdmin, sincronización de staging, copia de seguridad de la base de datos) puede leerlas. En sitios de clientes gestionados por una agencia, define las claves como constantes de PHP o variables de entorno del servidor: nunca se escriben en la base de datos, nunca se registran y tienen prioridad sobre cualquier valor de la base de datos.
+3198 S: Add to wp-config.php (above "That's all, stop editing"):
+   T: Añádelo a wp-config.php (encima de «¡Eso es todo, deja de editar!»):
+3199 S: Alternatively, set the same names as server environment variables (LSAPI_CHILDREN, Nginx fastcgi_param, or Docker ENV). On WordPress 7.0 you can instead leave the Claude and OpenAI fields blank and connect those providers at Settings → Connectors; the plugin then generates through the WordPress AI Client without ever handling the key.
+   T: También puedes definir los mismos nombres como variables de entorno del servidor (LSAPI_CHILDREN, fastcgi_param de Nginx o ENV de Docker). En WordPress 7.0 puedes, en su lugar, dejar vacíos los campos de Claude y OpenAI y conectar esos proveedores en Ajustes → Conectores; el plugin genera entonces a través del cliente de IA de WordPress sin manejar nunca la clave.
+3200 S: Welcome to TWT AEO Ultimate
+   T: Te damos la bienvenida a TWT AEO Ultimate
+3201 S: Choose your setup experience to get started optimizing for AI search.
+   T: Elige cómo quieres configurarlo para empezar a optimizar para la búsqueda con IA.
+3202 S: Autopilot
+   T: Piloto automático
+3203 S: Let AEO configure itself using your existing site data. Review what will run, then click Go.
+   T: Deja que AEO se configure solo con los datos que ya tiene tu sitio. Revisa lo que se va a ejecutar y haz clic en Adelante.
+3204 S: FAQ schema detection
+   T: Detección de schema de FAQ
+3205 S: Company info auto-import
+   T: Importación automática de la información de la empresa
+3206 S: Social profiles from your profile
+   T: Perfiles sociales desde tu perfil
+3207 S: Author box pre-fill
+   T: Rellenado previo de la caja de autor
+3208 S: Get started →
+   T: Empezar →
+3209 S: The Basics
+   T: Lo básico
+3210 S: Enter your business info, set up social profiles, and connect analytics tools. Two quick steps.
+   T: Introduce la información de tu negocio, configura los perfiles sociales y conecta las herramientas de analítica. Dos pasos rápidos.
+3211 S: Business name & contact info
+   T: Nombre del negocio y datos de contacto
+3212 S: Social profile URLs
+   T: URL de perfiles sociales
+3213 S: Google Analytics 4 Measurement ID
+   T: ID de medición de Google Analytics 4
+3214 S: IndexNow & XML sitemap
+   T: IndexNow y mapa del sitio XML
+3215 S: Start basics →
+   T: Empezar con lo básico →
+3216 S: Expert
+   T: Experto
+3217 S: Full control over every setting. Configure schema, author profiles, modules, and API keys step by step.
+   T: Control total de cada ajuste. Configura el schema, los perfiles de autor, los módulos y las claves de API paso a paso.
+3218 S: Complete company identity
+   T: Identidad completa de la empresa
+3219 S: All social platforms
+   T: Todas las plataformas sociales
+3220 S: Author schema & credentials
+   T: Schema y credenciales del autor
+3221 S: Module selection & API keys
+   T: Selección de módulos y claves de API
+3222 S: Configure all settings →
+   T: Configurar todos los ajustes →
+3223 S: Skip — go to Dashboard
+   T: Omitir: ir al escritorio
+3224 S: FAQ Schema Detection
+   T: Detección de schema de FAQ
+3225 S: An SEO plugin is active — FAQ detection will run alongside it without conflicts.
+   T: Hay un plugin de SEO activo: la detección de FAQ funcionará junto a él sin conflictos.
+3226 S: Enable FAQ schema detection to automatically identify and mark up Q&A content on your site.
+   T: Activa la detección de schema de FAQ para identificar y marcar automáticamente el contenido de preguntas y respuestas de tu sitio.
+3227 S: Company Information
+   T: Información de la empresa
+3228 S: Yoast SEO detected — will sync company name, logo, and social profiles from Yoast.
+   T: Yoast SEO detectado: se sincronizarán desde Yoast el nombre de la empresa, el logotipo y los perfiles sociales.
+3229 S: Rank Math detected — will sync company data from Rank Math settings.
+   T: Rank Math detectado: se sincronizarán los datos de la empresa desde los ajustes de Rank Math.
+3230 S: Will import "%s" company name, URL, and contact details from WordPress settings.
+   T: Se importarán desde los ajustes de WordPress el nombre de empresa «%s», la URL y los datos de contacto.
+3231 S: Twitter/X profile found — will map your user profile social links to the company profile.
+   T: Perfil de Twitter/X encontrado: los enlaces sociales de tu perfil de usuario se asignarán al perfil de la empresa.
+3232 S: Will check your WordPress user profile for social links and map them to the company profile.
+   T: Se revisará tu perfil de usuario de WordPress en busca de enlaces sociales y se asignarán al perfil de la empresa.
+3233 S: Profile bio found — will enable author schema and pre-fill your author box from your WordPress profile.
+   T: Biografía de perfil encontrada: se activará el schema de autor y se rellenará tu caja de autor a partir de tu perfil de WordPress.
+3234 S: Will enable the author entity module. Add a bio to your WordPress profile to complete your author box.
+   T: Se activará el módulo de entidad de autor. Añade una biografía a tu perfil de WordPress para completar tu caja de autor.
+3235 S: Autopilot Setup
+   T: Configuración en piloto automático
+3236 S: These tasks will run automatically in the background. Review them, then click Launch.
+   T: Estas tareas se ejecutarán automáticamente en segundo plano. Revísalas y haz clic en Lanzar.
+3237 S: ← Back
+   T: ← Volver
+3238 S: Launch Autopilot
+   T: Lanzar piloto automático
+3239 S: Next →
+   T: Siguiente →
+3240 S: Finish Setup →
+   T: Terminar la configuración →
+3241 S: Business Information
+   T: Información del negocio
+3242 S: Enter your business details and key social profiles.
+   T: Introduce los datos de tu negocio y tus principales perfiles sociales.
+3243 S: Your Business Name
+   T: Nombre de tu negocio
+3244 S: Short Description
+   T: Descripción breve
+3245 S: What your business does
+   T: A qué se dedica tu negocio
+3246 S: Analytics & Webmaster Tools
+   T: Herramientas de analítica y para webmasters
+3247 S: Connect your tracking and search engine tools.
+   T: Conecta tus herramientas de seguimiento y de buscadores.
+3248 S: Google Analytics 4 — Measurement ID
+   T: Google Analytics 4: ID de medición
+3249 S: Paste your GA4 Measurement ID. You'll find it in Analytics → Admin → Data Streams.
+   T: Pega tu ID de medición de GA4. Lo encontrarás en Analytics → Administrar → Flujos de datos.
+3250 S: Search Engine Ping
+   T: Aviso a buscadores
+3251 S: Automatically ping Bing, Yandex, and other IndexNow-compatible engines when you publish or update content.
+   T: Avisa automáticamente a Bing, Yandex y otros buscadores compatibles con IndexNow cuando publicas o actualizas contenido.
+3252 S: XML Sitemap Generator
+   T: Generador de mapa del sitio XML
+3253 S: Generate and serve an XML sitemap at /aeo-sitemap.xml for search engine crawlers.
+   T: Genera y sirve un mapa del sitio XML en /aeo-sitemap.xml para los rastreadores de los buscadores.
+3254 S: Author Information
+   T: Información del autor
+3255 S: API Keys
+   T: Claves de API
+3256 S: Define your organization's core identity for structured data and schema output.
+   T: Define la identidad principal de tu organización para los datos estructurados y la salida del schema.
+3257 S: Registered legal entity name
+   T: Nombre legal registrado de la entidad
+3258 S: Year Founded
+   T: Año de fundación
+3259 S: Pinterest
+   T: Pinterest
+3260 S: Wikipedia
+   T: Wikipedia
+3261 S: These URLs populate your Organization schema's sameAs property and Open Graph tags.
+   T: Estas URL rellenan la propiedad sameAs de tu schema Organization y las etiquetas Open Graph.
+3262 S: Meta / Facebook
+   T: Meta / Facebook
+3263 S: Used to output the fb:app_id meta tag for Facebook Insights and pixel attribution.
+   T: Se usa para generar la meta etiqueta fb:app_id para Facebook Insights y la atribución del píxel.
+3264 S: Setting up author information for %s. This data feeds the Author schema and E-E-A-T signals.
+   T: Configurando la información de autor de %s. Estos datos alimentan el schema de autor y las señales E-E-A-T.
+3265 S: e.g. Founder, Lead Developer
+   T: p. ej., Fundador, Desarrollador principal
+3266 S: e.g. MBA, PhD, CISSP
+   T: p. ej., MBA, doctorado, CISSP
+3267 S: Areas of Expertise
+   T: Áreas de especialidad
+3268 S: SEO, WordPress, Marketing (comma-separated)
+   T: SEO, WordPress, Marketing (separados por comas)
+3269 S: Years of Experience
+   T: Años de experiencia
+3270 S: Author Social Links
+   T: Enlaces sociales del autor
+3271 S: GitHub
+   T: GitHub
+3272 S: Finds Q&A content and flags missing FAQPage schema.
+   T: Encuentra contenido de preguntas y respuestas y señala el schema FAQPage que falta.
+3273 S: Service Schema Detection
+   T: Detección de schema de servicio
+3274 S: Identifies service pages and flags missing Service schema.
+   T: Identifica páginas de servicio y señala el schema Service que falta.
+3275 S: Contact Schema Detection
+   T: Detección de schema de contacto
+3276 S: Finds contact forms and flags missing ContactPoint schema.
+   T: Encuentra formularios de contacto y señala el schema ContactPoint que falta.
+3277 S: Outputs Person schema with job title, credentials, and social links.
+   T: Genera el schema Person con cargo, credenciales y enlaces sociales.
+3278 S: Social Graph (Open Graph)
+   T: Grafo social (Open Graph)
+3279 S: Generates Open Graph and Twitter Card meta tags for every page.
+   T: Genera las meta etiquetas Open Graph y Twitter Card de cada página.
+3280 S: Pings Bing, Yandex, and others when content is published or updated.
+   T: Avisa a Bing, Yandex y otros cuando se publica o actualiza contenido.
+3281 S: Adds LocalBusiness schema with NAP data for map-pack visibility.
+   T: Añade el schema LocalBusiness con los datos NAP para aparecer en el paquete local de mapas.
+3282 S: XML Sitemap
+   T: Mapa del sitio XML
+3283 S: Generates a /aeo-sitemap.xml for search engine crawlers.
+   T: Genera un /aeo-sitemap.xml para los rastreadores de los buscadores.
+3284 S: Enable the modules you need. You can change these at any time from the Modules page.
+   T: Activa los módulos que necesites. Puedes cambiarlos en cualquier momento desde la página Módulos.
+3285 S: API keys are optional. Add only the services you use.
+   T: Las claves de API son opcionales. Añade solo los servicios que uses.
+3286 S: Analytics
+   T: Analítica
+3287 S: AI Content Generation (Optional)
+   T: Generación de contenido con IA (opcional)
+3288 S: WordPress 7 detected
+   T: WordPress 7 detectado
+3289 S: Leave the Claude and OpenAI fields blank to generate content using the AI providers you connect at <a href="%s">Settings &rsaquo; Connectors</a>. A key entered below overrides the connected provider for that service.
+   T: Deja vacíos los campos de Claude y OpenAI para generar contenido con los proveedores de IA que conectes en <a href="%s">Ajustes &rsaquo; Conectores</a>. Una clave introducida abajo sustituye al proveedor conectado para ese servicio.
+3290 S: Used by the plugin's AI features (meta descriptions, PR Bridge, product enrichment, image analysis). Only providers with a key will be used.
+   T: La usan las características de IA del plugin (meta descripciones, PR Bridge, enriquecimiento de productos, análisis de imágenes). Solo se usarán los proveedores que tengan clave.
+3291 S: — blank: use connected provider —
+   T: — vacío: usar el proveedor conectado —
+3292 S: You're all set!
+   T: ¡Todo listo!
+3293 S: TWT AEO Ultimate is configured and running. Here's where to go next.
+   T: TWT AEO Ultimate está configurado y funcionando. Esto es lo siguiente que puedes hacer.
+3294 S: Track Analytics, Search Console, Bing, AI traffic, and index status — and run inline fixes.
+   T: Sigue Analytics, Search Console, Bing, el tráfico de IA y el estado de indexación, y aplica correcciones directamente.
+3295 S: See your AEO scan results and schema coverage at a glance.
+   T: Ve de un vistazo los resultados de tu exploración AEO y la cobertura del schema.
+3296 S: E-E-A-T Scorecard
+   T: Cuadro de mando E-E-A-T
+3297 S: Review your Experience, Expertise, Authority, and Trustworthiness signals.
+   T: Revisa tus señales de experiencia, especialización, autoridad y confianza.
+3298 S: Enable or disable features any time from the Modules page.
+   T: Activa o desactiva características en cualquier momento desde la página Módulos.
+3299 S: AI Ready Audit
+   T: Auditoría de preparación para IA
+3300 S: Check robots.txt, schema completeness, and AI crawler access.
+   T: Comprueba robots.txt, la completitud del schema y el acceso de los rastreadores de IA.
+3301 S: Go to Dashboard →
+   T: Ir al escritorio →
+3302 S: Business Info
+   T: Información del negocio
+3303 S: Identity
+   T: Identidad
+3304 S: Social
+   T: Redes sociales
+3305 S: Sitemap Generator
+   T: Generador de mapa del sitio
+3306 S: Generates and serves an XML sitemap at /aeo-sitemap.xml. Helps search engines discover and prioritize your content.
+   T: Genera y sirve un mapa del sitio XML en /aeo-sitemap.xml. Ayuda a los buscadores a descubrir y priorizar tu contenido.
+3307 S: Settings saved. Sitemap cache cleared and rewrite rules queued for refresh.
+   T: Ajustes guardados. Caché del mapa del sitio vaciada y reglas de reescritura en cola para regenerarse.
+3308 S: Sitemap cache cleared and rewrite rules refreshed.
+   T: Caché del mapa del sitio vaciada y reglas de reescritura regeneradas.
+3309 S: Conflict detected:
+   T: Conflicto detectado:
+3310 S: %1$s is active and already provides an XML sitemap. Running two sitemaps can confuse search engines. Consider disabling the %2$s sitemap or this module.
+   T: %1$s está activo y ya ofrece un mapa del sitio XML. Tener dos mapas del sitio puede confundir a los buscadores. Plantéate desactivar el mapa del sitio de %2$s o este módulo.
+3311 S: Sitemap URL
+   T: URL del mapa del sitio
+3312 S: View Sitemap
+   T: Ver mapa del sitio
+3313 S: Flush Cache
+   T: Vaciar caché
+3314 S: Settings → Permalinks
+   T: Ajustes → Enlaces permanentes
+3315 S: query string fallback
+   T: alternativa con parámetros de consulta
+3316 S: AI Crawler Handshake (llms-full.txt)
+   T: Presentación para rastreadores de IA (llms-full.txt)
+3317 S: View llms-full.txt
+   T: Ver llms-full.txt
+3318 S: A curated Markdown document for AI crawlers (ChatGPT, Perplexity, Claude, etc.). Follows the llmstxt.org spec: site header, indexed links by content type, then full page content. Flushed together with the XML sitemap cache.
+   T: Un documento Markdown seleccionado para rastreadores de IA (ChatGPT, Perplexity, Claude, etc.). Sigue la especificación de llmstxt.org: cabecera del sitio, enlaces indexados por tipo de contenido y después el contenido completo de las páginas. Se vacía junto con la caché del mapa del sitio XML.
+3319 S: AI Permissions (ai.txt)
+   T: Permisos de IA (ai.txt)
+3320 S: View ai.txt
+   T: Ver ai.txt
+3321 S: Declares per-crawler AI permissions in a robots.txt-style format. Controls which AI systems may index or train on your content. Configure below.
+   T: Declara los permisos de IA por rastreador en un formato similar a robots.txt. Controla qué sistemas de IA pueden indexar tu contenido o entrenarse con él. Configúralo abajo.
+3322 S: Select which post types to include and configure their change frequency and priority hints for search engines.
+   T: Selecciona qué tipos de contenido incluir y configura sus indicaciones de frecuencia de cambio y prioridad para los buscadores.
+3323 S: Post Type
+   T: Tipo de contenido
+3324 S: Change Frequency
+   T: Frecuencia de cambio
+3325 S: Priority
+   T: Prioridad
+3326 S: Exclude Posts / Pages
+   T: Excluir entradas / páginas
+3327 S: Enter post IDs to exclude from the sitemap, separated by commas. Find a post ID in the URL when editing it (e.g. ?post=42).
+   T: Introduce los ID de las entradas que quieras excluir del mapa del sitio, separados por comas. Encontrarás el ID de una entrada en la URL al editarla (p. ej., ?post=42).
+3328 S: Controls what AI systems are permitted to do with your content, per media type and action. The default stance is opt-out for commercial AI training (EU Article 4 / TDMRep compliant).
+   T: Controla lo que los sistemas de IA pueden hacer con tu contenido, por tipo de medio y acción. La postura por defecto es excluirse del entrenamiento comercial de IA (cumple con el artículo 4 de la UE / TDMRep).
+3329 S: Text Content
+   T: Contenido de texto
+3330 S: Audio
+   T: Audio
+3331 S: Allow Training
+   T: Permitir entrenamiento
+3332 S: Use content to train AI/ML models
+   T: Usar el contenido para entrenar modelos de IA/ML
+3333 S: Allow Summarising
+   T: Permitir resúmenes
+3334 S: Summarise content in AI responses
+   T: Resumir el contenido en las respuestas de IA
+3335 S: Allow Indexing
+   T: Permitir indexación
+3336 S: Index content for retrieval / search
+   T: Indexar el contenido para recuperación / búsqueda
+3337 S: Media Type
+   T: Tipo de medio
+3338 S: Licensing Contact Email
+   T: Correo electrónico de contacto para licencias
+3339 S: Optional. Added as a comment to ai.txt for AI licensing inquiries.
+   T: Opcional. Se añade como comentario a ai.txt para consultas sobre licencias de IA.
+3340 S: Products
+   T: Productos
+3341 S: %1$d pages scanned — %2$d need attention
+   T: %1$d páginas exploradas: %2$d requieren atención
+3342 S: Rescan complete — %1$d pages scanned, %2$d need attention.
+   T: Nueva exploración completada: %1$d páginas exploradas, %2$d requieren atención.
+3343 S: %1$s is handling Open Graph and Twitter Card output. Data you save here is stored and visible in this dashboard. TWT AEO will not output duplicate meta tags while %2$s is active.
+   T: %1$s se encarga de la salida de Open Graph y Twitter Card. Los datos que guardes aquí se almacenan y se ven en esta pantalla. TWT AEO no generará meta etiquetas duplicadas mientras %2$s esté activo.
+3344 S: Fill missing social descriptions
+   T: Rellenar las descripciones para redes que faltan
+3345 S: reuse the meta descriptions you already have (free and instant), or ask AI to write punchier, share-friendly copy for posts that are missing an og:description.
+   T: reutiliza las meta descripciones que ya tienes (gratis e instantáneo) o pide a la IA que redacte textos más atractivos y fáciles de compartir para las entradas que no tienen og:description.
+3346 S: Use existing meta descriptions
+   T: Usar las meta descripciones existentes
+3347 S: or
+   T: o
+3348 S: AI
+   T: IA
+3349 S: Generate social-friendly with AI
+   T: Generar con IA textos pensados para redes
+3350 S: The AI option makes one billed API call per post and runs in the background — you can leave this page once it starts, and stop it at any time. You will be asked to confirm the count first.
+   T: La opción con IA hace una llamada a la API con coste por entrada y se ejecuta en segundo plano: puedes salir de esta página una vez iniciada y detenerla en cualquier momento. Primero se te pedirá que confirmes el número.
+3351 S: X / Twitter @site handle
+   T: Usuario @ del sitio en X / Twitter
+3352 S: Outputs as twitter:site on every post. Used by X to attribute shares to your brand account.
+   T: Se genera como twitter:site en cada entrada. X lo usa para atribuir las veces que se comparte a la cuenta de tu marca.
+3353 S: LinkedIn company page URL
+   T: URL de la página de empresa en LinkedIn
+3354 S: LinkedIn reads your Open Graph tags automatically. This URL is added to your Organisation schema sameAs and synced with Company Profile.
+   T: LinkedIn lee tus etiquetas Open Graph automáticamente. Esta URL se añade al sameAs de tu schema Organization y se sincroniza con el Perfil de empresa.
+3355 S: Rescan All
+   T: Volver a analizar todo
+3356 S: Pages Scanned
+   T: Páginas exploradas
+3357 S: Full OG Coverage
+   T: Cobertura OG completa
+3358 S: Missing OG Image
+   T: Falta imagen OG
+3359 S: %1$d–%2$d of %3$d
+   T: %1$d–%2$d de %3$d
+3360 S: Page Coverage
+   T: Cobertura de páginas
+3361 S: No published pages or posts found.
+   T: No se han encontrado páginas ni entradas publicadas.
+3362 S: Image
+   T: Imagen
+3363 S: og:type
+   T: og:type
+3364 S: Twitter Card
+   T: Twitter Card
+3365 S: What Social Graph Controls
+   T: Qué controla el Grafo social
+3366 S: og:image — thumbnail shown when shared (1200×630px)
+   T: og:image: miniatura que se muestra al compartir (1200×630 px)
+3367 S: og:title — headline, keep under 60 characters
+   T: og:title: titular, mantenlo por debajo de 60 caracteres
+3368 S: og:description — shown below title, 120–160 characters
+   T: og:description: se muestra debajo del título, 120–160 caracteres
+3369 S: og:type — website, article, or product
+   T: og:type: website, article o product
+3370 S: twitter:card — summary or summary_large_image layout
+   T: twitter:card: diseño summary o summary_large_image
+3371 S: twitter:creator — @handle of the post author, pulled from Author Entity schema
+   T: twitter:creator: @usuario del autor de la entrada, tomado del schema de Entidad de autor
+3372 S: twitter:site — your brand @handle, set globally above
+   T: twitter:site: el @usuario de tu marca, configurado de forma global arriba
+3373 S: Title, description, image — inherited from Open Graph (X falls back automatically)
+   T: Título, descripción, imagen: heredados de Open Graph (X recurre a ellos automáticamente)
+3374 S: Edit Social Graph
+   T: Editar el Grafo social
+3375 S: Social Image
+   T: Imagen para redes
+3376 S: Click to select image
+   T: Haz clic para seleccionar la imagen
+3377 S: Click to select
+   T: Haz clic para seleccionar
+3378 S: AI image style
+   T: Estilo de la imagen con IA
+3379 S: Base it on:
+   T: Basarla en:
+3380 S: Post title
+   T: Título de la entrada
+3381 S: Brand name
+   T: Nombre de la marca
+3382 S: Generates a 1.91:1 landscape image with OpenAI, adds it to your Media Library, and sets it as the social image above. One billed API call — image generation costs more than text and can take 10–30 seconds. "Description" uses the social description, falling back to the meta description.
+   T: Genera con OpenAI una imagen horizontal 1,91:1, la añade a tu biblioteca de medios y la establece como imagen para redes arriba. Una llamada a la API con coste: generar imágenes cuesta más que el texto y puede tardar de 10 a 30 segundos. «Descripción» usa la descripción para redes y, si no la hay, la meta descripción.
+3383 S: Shared by OG and Twitter. Recommended: 1200×630px. Falls back to featured image.
+   T: Compartida por OG y Twitter. Recomendado: 1200×630 px. Si no hay, se usa la imagen destacada.
+3384 S: Image Label (og:image:alt)
+   T: Etiqueta de la imagen (og:image:alt)
+3385 S: Describe what the image shows…
+   T: Describe lo que muestra la imagen…
+3386 S: Auto-filled from the image's alt text or media title when it's descriptive (generic camera names like IMG_4302 are skipped). Selecting a new image refreshes this.
+   T: Se rellena automáticamente con el texto alternativo o el título del medio cuando son descriptivos (se omiten nombres genéricos de cámara como IMG_4302). Al seleccionar una imagen nueva se actualiza.
+3387 S: Page title
+   T: Título de la página
+3388 S: Description will appear here…
+   T: La descripción aparecerá aquí…
+3389 S: Auto-filled from page title
+   T: Se rellena automáticamente con el título de la página
+3390 S: Used by og:title. X falls back to this automatically. Keep under 60 characters.
+   T: Lo usa og:title. X recurre a él automáticamente. Mantenlo por debajo de 60 caracteres.
+3391 S: Write a compelling description for social shares…
+   T: Escribe una descripción atractiva para compartir en redes…
+3392 S: Use meta description
+   T: Usar la meta descripción
+3393 S: Used by og:description. X inherits this. Recommended: 120–160 characters.
+   T: Lo usa og:description. X lo hereda. Recomendado: 120–160 caracteres.
+3394 S: Open Graph
+   T: Open Graph
+3395 S: website — standard page
+   T: website: página estándar
+3396 S: article — blog post or news
+   T: article: entrada de blog o noticia
+3397 S: product — WooCommerce or shop item
+   T: product: artículo de WooCommerce o de tienda
+3398 S: Auto-selected by post type. Posts → article, Products → product, Pages → website.
+   T: Se elige automáticamente según el tipo de contenido. Entradas → article, productos → product, páginas → website.
+3399 S: Company Page
+   T: Página de empresa
+3400 S: LinkedIn reads your og:title, og:description, and og:image set above — no extra tags needed. This URL is your global setting used for Organisation schema.
+   T: LinkedIn lee tus og:title, og:description y og:image configurados arriba: no hacen falta etiquetas adicionales. Esta URL es tu ajuste global que se usa para el schema Organization.
+3401 S: Twitter / X Card
+   T: Tarjeta de Twitter / X
+3402 S: twitter:card
+   T: twitter:card
+3403 S: summary_large_image — full-width image card (recommended)
+   T: summary_large_image: tarjeta con imagen a todo lo ancho (recomendado)
+3404 S: summary — small square thumbnail card
+   T: summary: tarjeta con una miniatura cuadrada pequeña
+3405 S: Controls how the link preview looks when shared on X. summary_large_image gets more clicks.
+   T: Controla cómo se ve la vista previa del enlace al compartirlo en X. summary_large_image consigue más clics.
+3406 S: twitter:creator
+   T: twitter:creator
+3407 S: Fill from author
+   T: Rellenar desde el autor
+3408 S: Author's X @handle. Attributes the post to them when shared.
+   T: El @usuario de X del autor. Le atribuye la entrada cuando se comparte.
+3409 S: Not set.
+   T: Sin definir.
+3410 S: Add your LinkedIn company URL ↑
+   T: Añade la URL de tu empresa en LinkedIn ↑
+3411 S: Author's X @handle. Click "Fill from author" to use their handle from Author Entity schema.
+   T: El @usuario de X del autor. Haz clic en «Rellenar desde el autor» para usar el usuario del schema de Entidad de autor.
+3412 S: Author's X @handle. Attributes the post to them when shared. Add a Twitter handle via Author Entity to auto-fill.
+   T: El @usuario de X del autor. Le atribuye la entrada cuando se comparte. Añade un usuario de Twitter en Entidad de autor para rellenarlo automáticamente.
+3413 S: Select Social Image
+   T: Seleccionar imagen para redes
+3414 S: Saved!
+   T: ¡Guardado!
+3415 S: auto
+   T: auto
+3416 S: Error saving.
+   T: Error al guardar.
+3417 S: Done — review and Save.
+   T: Hecho: revisa y guarda.
+3418 S: Generate a social image with OpenAI? This makes one billed API call and can take up to 30 seconds.
+   T: ¿Generar una imagen para redes con OpenAI? Hace una llamada a la API con coste y puede tardar hasta 30 segundos.
+3419 S: Generating image… this can take up to 30s.
+   T: Generando imagen… puede tardar hasta 30 s.
+3420 S: Image added — review and Save.
+   T: Imagen añadida: revisa y guarda.
+3421 S: Also set this image as the post's featured image?
+   T: ¿Establecer también esta imagen como imagen destacada de la entrada?
+3422 S: Image added and set as featured — review and Save.
+   T: Imagen añadida y establecida como destacada: revisa y guarda.
+3423 S: Could not set featured image.
+   T: No se ha podido establecer la imagen destacada.
+3424 S: Request failed or timed out.
+   T: La solicitud ha fallado o ha agotado el tiempo.
+3425 S: Filling from existing meta…
+   T: Rellenando con las meta existentes…
+3426 S: Reloading…
+   T: Recargando…
+3427 S: created
+   T: creadas
+3428 S: Generate social descriptions for every page, post and product missing one? This makes one billed API call per item and runs in the background.
+   T: ¿Generar descripciones para redes en todas las páginas, entradas y productos que no la tienen? Hace una llamada a la API con coste por elemento y se ejecuta en segundo plano.
+3429 S: WooCommerce is not active. Please install and activate WooCommerce to use this module.
+   T: WooCommerce no está activo. Instala y activa WooCommerce para usar este módulo.
+3430 S: Connected to Bing Merchant Center.
+   T: Conectado a Bing Merchant Center.
+3431 S: Connected to Google Merchant Center.
+   T: Conectado a Google Merchant Center.
+3432 S: Google Merchant Center
+   T: Google Merchant Center
+3433 S: Bing Merchant Center
+   T: Bing Merchant Center
+3434 S: %1$d products — %2$d missing schema
+   T: %1$d productos: a %2$d les falta schema
+3435 S: Generate Schema for All
+   T: Generar schema para todos
+3436 S: Total Products
+   T: Total de productos
+3437 S: Physical Products
+   T: Productos físicos
+3438 S: Service Products
+   T: Productos de servicio
+3439 S: Shipping & Returns Defaults
+   T: Valores por defecto de envío y devoluciones
+3440 S: Applied to every product’s schema
+   T: Se aplican al schema de todos los productos
+3441 S: Include shipping details
+   T: Incluir datos de envío
+3442 S: Add OfferShippingDetails to product schema
+   T: Añadir OfferShippingDetails al schema del producto
+3443 S: Ships to (country code)
+   T: Envía a (código de país)
+3444 S: Shipping rate
+   T: Tarifa de envío
+3445 S: Flat rate
+   T: Tarifa plana
+3446 S: Free shipping
+   T: Envío gratuito
+3447 S: Handling time (days)
+   T: Tiempo de preparación (días)
+3448 S: Transit time (days)
+   T: Tiempo de tránsito (días)
+3449 S: Include return policy
+   T: Incluir política de devoluciones
+3450 S: Add hasMerchantReturnPolicy to product schema
+   T: Añadir hasMerchantReturnPolicy al schema del producto
+3451 S: Applies to (country code)
+   T: Se aplica a (código de país)
+3452 S: Return window (days)
+   T: Plazo de devolución (días)
+3453 S: Return fees
+   T: Gastos de devolución
+3454 S: Free returns
+   T: Devoluciones gratuitas
+3455 S: Customer pays return shipping
+   T: El cliente paga el envío de la devolución
+3456 S: Return method
+   T: Método de devolución
+3457 S: Return by mail
+   T: Devolución por correo
+3458 S: Return in store
+   T: Devolución en tienda
+3459 S: Return at kiosk
+   T: Devolución en quiosco
+3460 S: Save Defaults
+   T: Guardar valores por defecto
+3461 S: No published products found. Add products in WooCommerce to see them here.
+   T: No se han encontrado productos publicados. Añade productos en WooCommerce para verlos aquí.
+3462 S: Product
+   T: Producto
+3463 S: Type / Intent
+   T: Tipo / intención
+3464 S: Missing Info
+   T: Información que falta
+3465 S: Coverage of AI-generated image alt text
+   T: Cobertura del texto alternativo de imágenes generado por IA
+3466 S: Image Alt
+   T: Texto alternativo
+3467 S: How rich the product schema is for rich results & AI agents
+   T: Lo completo que es el schema del producto para resultados enriquecidos y agentes de IA
+3468 S: Optimization
+   T: Optimización
+3469 S: Add %s
+   T: Añadir %s
+3470 S: Measures alignment between your WooCommerce catalog and Google Merchant Center feed data.
+   T: Mide la coincidencia entre tu catálogo de WooCommerce y los datos del feed de Google Merchant Center.
+3471 S: Run a sync to calculate your score.
+   T: Ejecuta una sincronización para calcular tu puntuación.
+3472 S: Last synced %s
+   T: Última sincronización hace %s
+3473 S: Connection
+   T: Conexión
+3474 S: Merchant ID: %s
+   T: ID de comerciante: %s
+3475 S: Not Connected
+   T: No conectado
+3476 S: Google Client ID
+   T: ID de cliente de Google
+3477 S: 123456789-abc…
+   T: 123456789-abc…
+3478 S: Google Client Secret
+   T: Secreto de cliente de Google
+3479 S: Merchant Center ID
+   T: ID de Merchant Center
+3480 S: 123456789
+   T: 123456789
+3481 S: Find this in Google Merchant Center → Settings → Account information.
+   T: Encuéntralo en Google Merchant Center → Configuración → Información de la cuenta.
+3482 S: Redirect URI
+   T: URI de redirección
+3483 S: Add this exact URL to Authorised redirect URIs in your Google Cloud Console OAuth app.
+   T: Añade esta URL exacta a los URI de redirección autorizados de tu app OAuth en la consola de Google Cloud.
+3484 S: Re-authorise Google
+   T: Volver a autorizar Google
+3485 S: Connect to Google Merchant Center
+   T: Conectar con Google Merchant Center
+3486 S: Product Feed
+   T: Feed de productos
+3487 S: No sync data yet. Click "Sync Now" above to fetch your Merchant Center feed.
+   T: Todavía no hay datos de sincronización. Haz clic en «Sincronizar ahora» arriba para obtener tu feed de Merchant Center.
+3488 S: GTIN / MPN / SKU
+   T: GTIN / MPN / SKU
+3489 S: Price
+   T: Precio
+3490 S: Availability
+   T: Disponibilidad
+3491 S: Sync Latency
+   T: Retraso de sincronización
+3492 S: Not in GMC feed
+   T: No está en el feed de GMC
+3493 S: Rejection Log
+   T: Registro de rechazos
+3494 S: %d error(s)
+   T: %d error(es)
+3495 S: Measures alignment between your WooCommerce catalog and Bing Merchant Center feed data.
+   T: Mide la coincidencia entre tu catálogo de WooCommerce y los datos del feed de Bing Merchant Center.
+3496 S: Store ID: %s
+   T: ID de tienda: %s
+3497 S: Azure Client ID
+   T: ID de cliente de Azure
+3498 S: xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+   T: xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+3499 S: Application (client) ID from Azure portal → App registrations.
+   T: ID de aplicación (cliente) del portal de Azure → Registros de aplicaciones.
+3500 S: Azure Client Secret
+   T: Secreto de cliente de Azure
+3501 S: Developer Token
+   T: Token de desarrollador
+3502 S: Found in Microsoft Advertising UI → Tools → API access → Developer token.
+   T: Se encuentra en la interfaz de Microsoft Advertising → Herramientas → Acceso a la API → Token de desarrollador.
+3503 S: Merchant Center Store ID
+   T: ID de tienda de Merchant Center
+3504 S: 123456
+   T: 123456
+3505 S: Found in Bing Merchant Center → Store settings → Store ID.
+   T: Se encuentra en Bing Merchant Center → Configuración de la tienda → ID de tienda.
+3506 S: Add this exact URL to Redirect URIs in your Azure app registration.
+   T: Añade esta URL exacta a los URI de redirección del registro de tu app en Azure.
+3507 S: Re-authorise Microsoft
+   T: Volver a autorizar Microsoft
+3508 S: Connect to Bing Merchant Center
+   T: Conectar con Bing Merchant Center
+3509 S: No sync data yet. Click "Sync Now" above to fetch your Bing Merchant Center feed.
+   T: Todavía no hay datos de sincronización. Haz clic en «Sincronizar ahora» arriba para obtener tu feed de Bing Merchant Center.
+3510 S: Not in Bing feed
+   T: No está en el feed de Bing
+3511 S: No API key configured for %s. Add one under TWT AEO → Settings.
+   T: No hay ninguna clave de API configurada para %s. Añade una en TWT AEO → Ajustes.
+3512 S: Unknown AI provider.
+   T: Proveedor de IA desconocido.
+3513 S: AI response was not valid JSON.
+   T: La respuesta de la IA no era un JSON válido.
+3514 S: Claude returned no content.
+   T: Claude no ha devuelto contenido.
+3515 S: OpenAI returned no content.
+   T: OpenAI no ha devuelto contenido.
+3516 S: Gemini returned no usable text (finishReason: %s).
+   T: Gemini no ha devuelto texto utilizable (finishReason: %s).
+3517 S: Gemini returned no content.
+   T: Gemini no ha devuelto contenido.
+3518 S: Perplexity returned no content.
+   T: Perplexity no ha devuelto contenido.
+3519 S: The WordPress AI Client is not available.
+   T: El cliente de IA de WordPress no está disponible.
+3520 S: Image analysis requires a configured provider key.
+   T: El análisis de imágenes requiere una clave de proveedor configurada.
+3521 S: The WordPress AI Client returned no content.
+   T: El cliente de IA de WordPress no ha devuelto contenido.
+3522 S: AI Crawler Watch: %1$s crawled "%2$s". %3$s
+   T: AI Crawler Watch: %1$s rastreó «%2$s». %3$s
+3523 S: View AI Crawler Watch →
+   T: Ver AI Crawler Watch →
+3524 S: AEO Meta Description
+   T: Meta descripción AEO
+3525 S: Meta description…
+   T: Meta descripción…
+3526 S: Add an AI key under TWT AEO → Settings to enable generation.
+   T: Añade una clave de IA en TWT AEO → Ajustes para activar la generación.
+3527 S: Uses %s. Change the provider on the TWT AEO dashboard.
+   T: Usa %s. Cambia el proveedor en el escritorio de TWT AEO.
+3528 S: Error — see message
+   T: Error: consulta el mensaje
+3529 S: Fast and reliable. Haiku is tuned for short summaries — usually a second or two per post.
+   T: Rápido y fiable. Haiku está ajustado para resúmenes cortos: normalmente uno o dos segundos por entrada.
+3530 S: Slower than Claude or OpenAI, especially on the free tier — a large bulk run can take several minutes. It keeps working in the background, so you can leave this page and check back later.
+   T: Más lento que Claude u OpenAI, sobre todo en el plan gratuito: una ejecución por lotes grande puede tardar varios minutos. Sigue funcionando en segundo plano, así que puedes salir de esta página y volver más tarde.
+3531 S: Post not found.
+   T: Entrada no encontrada.
+3532 S: This post has no content to summarise.
+   T: Esta entrada no tiene contenido que resumir.
+3533 S: Not enough page content to write a useful description.
+   T: No hay suficiente contenido en la página para redactar una descripción útil.
+3534 S: The AI returned an empty description.
+   T: La IA ha devuelto una descripción vacía.
+3535 S: The WordPress AI Client returned an unexpected response.
+   T: El cliente de IA de WordPress ha devuelto una respuesta inesperada.
+3536 S: Clean & professional
+   T: Limpio y profesional
+3537 S: Bold & vibrant
+   T: Atrevido y vibrante
+3538 S: Minimal & modern
+   T: Minimalista y moderno
+3539 S: Photographic / realistic
+   T: Fotográfico / realista
+3540 S: AI image generation needs an OpenAI API key. Add one under TWT AEO → Settings.
+   T: La generación de imágenes con IA necesita una clave de API de OpenAI. Añade una en TWT AEO → Ajustes.
+3541 S: The generated image could not be decoded.
+   T: No se ha podido decodificar la imagen generada.
+3542 S: The generated image could not be downloaded.
+   T: No se ha podido descargar la imagen generada.
+3543 S: Social share image for %s
+   T: Imagen para compartir en redes de %s
+3544 S: AI-generated social share image
+   T: Imagen para compartir en redes generada con IA
+3545 S: No response from the image API.
+   T: No hay respuesta de la API de imágenes.
+3546 S: OpenAI rate limit reached.
+   T: Se ha alcanzado el límite de solicitudes de OpenAI.
+3547 S: OpenAI returned no image.
+   T: OpenAI no ha devuelto ninguna imagen.
+3548 S: Could not add the image to the media library.
+   T: No se ha podido añadir la imagen a la biblioteca de medios.
+3549 S: AI social descriptions
+   T: Descripciones para redes con IA
+3550 S: AI meta descriptions
+   T: Meta descripciones con IA
+3551 S: %1$s stopped after creating %2$d — %3$s
+   T: %1$s se detuvo tras crear %2$d — %3$s
+3552 S: %1$s finished — %2$d created.
+   T: %1$s terminado: %2$d creadas.
+3553 S: Dismiss
+   T: Descartar
+3554 S: View Full Profile
+   T: Ver perfil completo
+3555 S: e.g. Senior Editor
+   T: p. ej., Editor jefe
+3556 S: e.g. Ph.D., MBA
+   T: p. ej., doctorado, MBA
+3557 S: e.g. SEO, Content Marketing
+   T: p. ej., SEO, marketing de contenidos
+3558 S: AEO Author Entity
+   T: Entidad de autor AEO
+3559 S: These fields strengthen E-E-A-T signals, author schema, and AI entity recognition.
+   T: Estos campos refuerzan las señales E-E-A-T, el schema de autor y el reconocimiento de la entidad por la IA.
+3560 S: e.g. Senior Marketing Strategist
+   T: p. ej., Estratega de marketing sénior
+3561 S: Used in Person schema as jobTitle.
+   T: Se usa en el schema Person como jobTitle.
+3562 S: e.g. MBA, Ph.D., CPA
+   T: p. ej., MBA, doctorado, CPA
+3563 S: Degrees and credential abbreviations shown after your name.
+   T: Títulos y abreviaturas de credenciales que se muestran después de tu nombre.
+3564 S: Expertise Areas
+   T: Áreas de especialidad
+3565 S: e.g. SEO, Content Strategy, Analytics
+   T: p. ej., SEO, estrategia de contenidos, analítica
+3566 S: Comma-separated. Used in knowsAbout schema property.
+   T: Separadas por comas. Se usan en la propiedad knowsAbout del schema.
+3567 S: Social Profiles (sameAs)
+   T: Perfiles sociales (sameAs)
+3568 S: These URLs are added to the sameAs array in your Person schema to establish entity identity across the web.
+   T: Estas URL se añaden a la lista sameAs de tu schema Person para establecer la identidad de la entidad en toda la web.
+3569 S: Each certification is added to your Person schema as an EducationalOccupationalCredential.
+   T: Cada certificación se añade a tu schema Person como EducationalOccupationalCredential.
+3570 S: Add Certification
+   T: Añadir certificación
+3571 S: Certification Name
+   T: Nombre de la certificación
+3572 S: Issuing Organization
+   T: Organización emisora
+3573 S: e.g. Google, HubSpot, AWS
+   T: p. ej., Google, HubSpot, AWS
+3574 S: Credential ID
+   T: ID de la credencial
+3575 S: Optional credential ID or certificate number
+   T: ID de credencial o número de certificado opcional
+3576 S: Issue Date
+   T: Fecha de emisión
+3577 S: Expiry Date
+   T: Fecha de caducidad
+3578 S: Leave blank if the certification does not expire.
+   T: Déjalo vacío si la certificación no caduca.
+3579 S: Verification URL
+   T: URL de verificación
+3580 S: Description / Notes
+   T: Descripción / notas
+3581 S: TWT AEO background scan finished — %d pages scanned.
+   T: Exploración en segundo plano de TWT AEO terminada: %d páginas exploradas.
+3582 S: (%d pages could not be scanned.)
+   T: (No se han podido explorar %d páginas.)
+3583 S: View results
+   T: Ver resultados
+3584 S: Hubs
+   T: Hubs
+3585 S: Hub
+   T: Hub
+3586 S: Add New Hub
+   T: Añadir nuevo hub
+3587 S: Edit Hub
+   T: Editar hub
+3588 S: New Hub
+   T: Nuevo hub
+3589 S: View Hub
+   T: Ver hub
+3590 S: Search Hubs
+   T: Buscar hubs
+3591 S: No hubs found.
+   T: No se han encontrado hubs.
+3592 S: No hubs in trash.
+   T: No hay hubs en la papelera.
+3593 S: All Hubs
+   T: Todos los hubs
+3594 S: Parent Hub:
+   T: Hub superior:
+3595 S: Hub Contents
+   T: Contenido del hub
+3596 S: In This Hub
+   T: En este hub
+3597 S: Hub Navigation
+   T: Navegación del hub
+3598 S: This page has no images.
+   T: Esta página no tiene imágenes.
+3599 S: Mark as Google News article
+   T: Marcar como artículo de Google News
+3600 S: Adds NewsArticle schema and includes this post in the news sitemap (while it is within Google's 48-hour window). Leave off for evergreen content.
+   T: Añade el schema NewsArticle e incluye esta entrada en el mapa del sitio de noticias (mientras esté dentro del plazo de 48 horas de Google). Déjalo desactivado para contenido atemporal.
+3601 S: Article Section
+   T: Sección del artículo
+3602 S: News Keywords
+   T: Palabras clave de la noticia
+3603 S: keyword1, keyword2
+   T: palabra1, palabra2
+3604 S: Comma-separated. Used in NewsArticle schema.
+   T: Separadas por comas. Se usan en el schema NewsArticle.
+3605 S: External script in content
+   T: Script externo en el contenido
+3606 S: An external script include was pasted into the page body — it can block rendering and is often a duplicate of something the theme already loads.
+   T: Se ha pegado la inclusión de un script externo en el cuerpo de la página: puede bloquear la carga y a menudo duplica algo que el tema ya carga.
+3607 S: Inline JavaScript
+   T: JavaScript en línea
+3608 S: %1$d inline script block(s), ~%2$s of JS — render-blocking and uncacheable.
+   T: %1$d bloque(s) de script en línea, ~%2$s de JS: bloquean la carga y no se pueden guardar en caché.
+3609 S: Inline CSS block
+   T: Bloque CSS en línea
+3610 S: An inline style block in content bloats the HTML and can't be cached separately.
+   T: Un bloque de estilos en línea en el contenido engorda el HTML y no se puede guardar en caché por separado.
+3611 S: Base64 inline image
+   T: Imagen en línea en base64
+3612 S: Image data is embedded in the HTML instead of the media library — it can't be lazy-loaded, cached, or served as WebP.
+   T: Los datos de la imagen están incrustados en el HTML en lugar de en la biblioteca de medios: no se pueden cargar de forma diferida, guardar en caché ni servir como WebP.
+3613 S: Embedded iframe
+   T: Iframe incrustado
+3614 S: Iframes load a whole extra document; add loading="lazy" or defer non-critical embeds.
+   T: Los iframes cargan todo un documento adicional; añade loading="lazy" o aplaza los contenidos incrustados no críticos.
+3615 S: Unauthorized
+   T: No autorizado
+3616 S: Handshake unavailable.
+   T: Conexión inicial no disponible.
+3617 S: Not connected to the Agency Hub. Add your Agency URL and API key in Settings first.
+   T: No está conectado al Agency Hub. Añade primero la URL de tu agencia y la clave de API en Ajustes.
+3618 S: The Agency Hub did not confirm receipt. Nothing was purged — will retry on the next scheduled sync.
+   T: El Agency Hub no confirmó la recepción. No se ha purgado nada: se volverá a intentar en la próxima sincronización programada.
+3619 S: Handshake complete.
+   T: Conexión inicial completada.
+3620 S: Connect your Google account in Settings first.
+   T: Conecta primero tu cuenta de Google en Ajustes.
+3621 S: Set your Search Console site URL in Settings first.
+   T: Configura primero la URL de tu sitio en Search Console en Ajustes.
+3622 S: Enter a URL to inspect.
+   T: Introduce una URL para inspeccionar.
+3623 S: Enter a URL to analyze.
+   T: Introduce una URL para analizar.
+3624 S: You do not have permission to add media.
+   T: No tienes permiso para añadir medios.
+3625 S: That image could not be found.
+   T: No se ha podido encontrar esa imagen.
+3626 S: Could not set the featured image.
+   T: No se ha podido establecer la imagen destacada.
+3627 S: PR Bridge AI:
+   T: PR Bridge AI:
+3628 S: This post looks like a press release (detected via %s). Open the PR Bridge panel to professionalize and distribute it.
+   T: Esta entrada parece una nota de prensa (detectada mediante %s). Abre el panel de PR Bridge para darle un acabado profesional y distribuirla.
+3629 S: Product not found.
+   T: Producto no encontrado.
+3630 S: Not enough product text to analyze.
+   T: No hay suficiente texto del producto para analizar.
+3631 S: No custom attributes to standardize.
+   T: No hay atributos personalizados que estandarizar.
+3632 S: Enter a brand name first.
+   T: Introduce primero un nombre de marca.
+3633 S: Not enough product information to enhance.
+   T: No hay suficiente información del producto para mejorarla.
+3634 S: This product has no images to analyze.
+   T: Este producto no tiene imágenes que analizar.
+3635 S: Could not resolve the product image URL.
+   T: No se ha podido resolver la URL de la imagen del producto.
+3636 S: No image
+   T: Sin imagen
+3637 S: %d image missing alt text || %d images missing alt text
+   T: [0] %d imagen sin texto alternativo || [1] %d imágenes sin texto alternativo
+3638 S: This product has no images.
+   T: Este producto no tiene imágenes.
+3639 S: Name and review are required.
+   T: El nombre y la reseña son obligatorios.
+3640 S: Email address is required.
+   T: La dirección de correo electrónico es obligatoria.
+3641 S: Invalid email address.
+   T: Dirección de correo electrónico no válida.
+3642 S: Failed to submit review. Please try again.
+   T: No se ha podido enviar la reseña. Inténtalo de nuevo.
+3643 S: Thank you for your review!
+   T: ¡Gracias por tu reseña!
+3644 S: No reviews yet. Be the first to leave one!
+   T: Todavía no hay reseñas. ¡Sé el primero en dejar una!
+3645 S: %d out of 5 stars
+   T: %d de 5 estrellas
+3646 S: Your Name
+   T: Tu nombre
+3647 S: Jane Smith
+   T: Ana García
+3648 S: Email Address
+   T: Dirección de correo electrónico
+3649 S: jane@example.com
+   T: ana@ejemplo.com
+3650 S: (optional)
+   T: (opcional)
+3651 S: Select a star rating
+   T: Selecciona una valoración con estrellas
+3652 S: %d star || %d stars
+   T: [0] %d estrella || [1] %d estrellas
+3653 S: Your Review
+   T: Tu reseña
+3654 S: Share your experience…
+   T: Comparte tu experiencia…
+3655 S: %.1f out of 5
+   T: %.1f de 5
+3656 S: review || reviews
+   T: [0] reseña || [1] reseñas
+3657 S: Set your GA4 Property ID in Settings first.
+   T: Configura primero tu ID de propiedad de GA4 en Ajustes.
+3658 S: This scan is no longer active.
+   T: Esta exploración ya no está activa.
+3659 S: No such candidate.
+   T: No existe esa candidata.
+3660 S: Speed unknown
+   T: Velocidad desconocida
+3661 S: Leaking — slow & high bounce
+   T: Con fugas: lenta y rebote alto
+3662 S: At risk — watch speed
+   T: En riesgo: vigila la velocidad
+3663 S: Fast — bounce is content, not speed
+   T: Rápida: el rebote se debe al contenido, no a la velocidad
+3664 S: Acceptable
+   T: Aceptable
+3665 S: Strong
+   T: Sólido
+3666 S: Basic
+   T: Básico
+3667 S: All key schema signals present
+   T: Están todas las señales de schema clave
+3668 S: Missing: %s
+   T: Falta: %s
+3669 S: Enter a name to look up.
+   T: Introduce un nombre para buscar.
+3670 S: Add a Google API key in Command Center → Settings first.
+   T: Añade primero una clave de API de Google en Centro de mando → Ajustes.
+3671 S: Knowledge Graph API error (HTTP %d).
+   T: Error de la API de Knowledge Graph (HTTP %d).
+3672 S: PageSpeed API error (HTTP %d).
+   T: Error de la API de PageSpeed (HTTP %d).
+3673 S: Injecting…
+   T: Inyectando…
+3674 S: Done! Content-Signal directive written.
+   T: ¡Hecho! Directiva Content-Signal escrita.
+3675 S: Physical robots.txt detected — Content-Signal present.
+   T: Se ha detectado un robots.txt físico: Content-Signal presente.
+3676 S: Delete the physical robots.txt file? WordPress will serve robots.txt dynamically afterward. This cannot be undone.
+   T: ¿Borrar el archivo robots.txt físico? Después, WordPress servirá robots.txt de forma dinámica. No se puede deshacer.
+3677 S: Removed. WordPress now serves robots.txt dynamically — reload to refresh.
+   T: Eliminado. WordPress sirve ahora robots.txt de forma dinámica: recarga para actualizar.
+3678 S: Applying fix…
+   T: Aplicando la corrección…
+3679 S: Disconnect failed.
+   T: No se ha podido desconectar.
+3680 S: Verifying…
+   T: Verificando…
+3681 S: Submitting…
+   T: Enviando…
+3682 S: Error.
+   T: Error.
+3683 S: Please enter at least one URL.
+   T: Introduce al menos una URL.
+3684 S: Submit all published URLs to IndexNow?
+   T: ¿Enviar a IndexNow todas las URL publicadas?
+3685 S: Checking…
+   T: Comprobando…
+3686 S: Select Image
+   T: Seleccionar imagen
+3687 S: Detecting…
+   T: Detectando…
+3688 S: Auto-fill failed.
+   T: El rellenado automático ha fallado.
+3689 S: All fields already have values — nothing was overwritten.
+   T: Todos los campos ya tienen valores: no se ha sobrescrito nada.
+3690 S: Error generating press release.
+   T: Error al generar la nota de prensa.
+3691 S: Request timed out. Please try again.
+   T: La solicitud ha agotado el tiempo. Inténtalo de nuevo.
+3692 S: Server error. Please try again.
+   T: Error del servidor. Inténtalo de nuevo.
+3693 S: The press release is empty.
+   T: La nota de prensa está vacía.
+3694 S: Saved! Reload the page to see distribution options.
+   T: ¡Guardada! Recarga la página para ver las opciones de distribución.
+3695 S: Failed to save.
+   T: No se ha podido guardar.
+3696 S: Delete the saved press release? This cannot be undone.
+   T: ¿Borrar la nota de prensa guardada? No se puede deshacer.
+3697 S: Failed to delete.
+   T: No se ha podido borrar.
+3698 S: Server error.
+   T: Error del servidor.
+3699 S: Submitted successfully.
+   T: Enviado correctamente.
+3700 S: Submission failed.
+   T: El envío ha fallado.
+3701 S: Request timed out.
+   T: La solicitud ha agotado el tiempo.
+3702 S: An error occurred. Please try again.
+   T: Se ha producido un error. Inténtalo de nuevo.
+3703 S: Connection error. Please try again.
+   T: Error de conexión. Inténtalo de nuevo.
+3704 S: min
+   T: mínimo
+3705 S: max
+   T: máximo
+3706 S: %s yrs exp
+   T: %s años de experiencia
+3707 S: %s cert || %s certs
+   T: [0] %s certificación || [1] %s certificaciones

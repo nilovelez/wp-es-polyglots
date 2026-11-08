@@ -1,0 +1,1500 @@
+2251 S: Google Analytics
+   T: Google Analytics
+2252 S: Search Console
+   T: Search Console
+2253 S: Crawlability Audit
+   T: Auditoría de rastreabilidad
+2254 S: Page Speed
+   T: Velocidad de página
+2255 S: Index Status
+   T: Estado de indexación
+2256 S: AI Crawler Watch
+   T: AI Crawler Watch
+2257 S: Command Center tabs
+   T: Pestañas del Centro de mando
+2258 S: Connected
+   T: Conectado
+2259 S: Not connected
+   T: No conectado
+2260 S: Sessions
+   T: Sesiones
+2261 S: Users
+   T: Usuarios
+2262 S: Page Views
+   T: Páginas vistas
+2263 S: View full report →
+   T: Ver informe completo →
+2264 S: Connected. Enter your GA4 Property ID in Settings to load data.
+   T: Conectado. Introduce el ID de propiedad de GA4 en Ajustes para cargar los datos.
+2265 S: Configure
+   T: Configurar
+2266 S: Connect your Google account to see Analytics data here.
+   T: Conecta tu cuenta de Google para ver aquí los datos de Analytics.
+2267 S: Connect Google
+   T: Conectar Google
+2268 S: Clicks
+   T: Clics
+2269 S: Impressions
+   T: Impresiones
+2270 S: Avg CTR
+   T: CTR medio
+2271 S: Avg Position
+   T: Posición media
+2272 S: Connected. Enter your verified site URL in Settings to load data.
+   T: Conectado. Introduce la URL verificada de tu sitio en Ajustes para cargar los datos.
+2273 S: Connect your Google account to see Search Console data here.
+   T: Conecta tu cuenta de Google para ver aquí los datos de Search Console.
+2274 S: Connect Bing Webmaster Tools to monitor your Bing search performance.
+   T: Conecta Bing Webmaster Tools para seguir tu rendimiento en las búsquedas de Bing.
+2275 S: Connect Bing
+   T: Conectar Bing
+2276 S: Data is cached for 1 hour.
+   T: Los datos se guardan en caché durante 1 hora.
+2277 S: Refresh now
+   T: Actualizar ahora
+2278 S: Connect your Google account in Settings to view GA4 Analytics data.
+   T: Conecta tu cuenta de Google en Ajustes para ver los datos de GA4 Analytics.
+2279 S: Enter GA4 Property ID
+   T: Introduce el ID de propiedad de GA4
+2280 S: Go to Settings and enter your GA4 numeric Property ID to load Analytics data.
+   T: Ve a Ajustes e introduce el ID numérico de propiedad de GA4 para cargar los datos de Analytics.
+2281 S: Last 30 Days
+   T: Últimos 30 días
+2282 S: Bounce Rate
+   T: Tasa de rebote
+2283 S: Avg Session
+   T: Sesión media
+2284 S: Top Pages by Sessions
+   T: Páginas principales por sesiones
+2285 S: Avg Time
+   T: Tiempo medio
+2286 S: Events
+   T: Eventos
+2287 S: Conversions
+   T: Conversiones
+2288 S: Signal
+   T: Señal
+2289 S: Signal is a quick read of each page: Converting = drove a key event; Needs work = high bounce or very short visits; Likely bots = traffic with almost no engagement; Healthy = engaged visitors. Treat “Likely bots” as a hint — event counts vary by site.
+   T: La señal es una lectura rápida de cada página: Convierte = generó un evento clave; Mejorable = rebote alto o visitas muy cortas; Posibles bots = tráfico casi sin interacción; Correcta = visitantes que interactúan. Toma «Posibles bots» como una pista: el número de eventos varía según el sitio.
+2290 S: AI Assistant Traffic
+   T: Tráfico de asistentes de IA
+2291 S: AI Sessions
+   T: Sesiones de IA
+2292 S: AI Users
+   T: Usuarios de IA
+2293 S: % of All Sessions
+   T: % del total de sesiones
+2294 S: AI Conversions
+   T: Conversiones de IA
+2295 S: AI Source
+   T: Fuente de IA
+2296 S: No AI assistant traffic detected in the last 30 days. Google began tagging this channel on May 13, 2026, so there is no history before then.
+   T: No se ha detectado tráfico de asistentes de IA en los últimos 30 días. Google empezó a etiquetar este canal el 13 de mayo de 2026, así que no hay historial anterior.
+2297 S: Source: GA4’s native “AI Assistant” channel (ChatGPT, Gemini, DeepSeek, Copilot, Grok). Forward-only — no data before May 13, 2026. Perplexity and Claude currently land in Referral, AI Overviews count as Organic Search, and most AI traffic arrives without a referrer (counted as Direct), so real AI influence is higher than shown.
+   T: Fuente: el canal nativo «AI Assistant» de GA4 (ChatGPT, Gemini, DeepSeek, Copilot, Grok). Solo hacia delante: no hay datos anteriores al 13 de mayo de 2026. Perplexity y Claude aparecen ahora en Referencia, AI Overviews cuenta como Búsqueda orgánica y la mayor parte del tráfico de IA llega sin referente (contado como Directo), así que la influencia real de la IA es mayor de lo que se muestra.
+2298 S: Google Search Console
+   T: Google Search Console
+2299 S: Connect your Google account in Settings to view Search Console data.
+   T: Conecta tu cuenta de Google en Ajustes para ver los datos de Search Console.
+2300 S: Enter Site URL
+   T: Introduce la URL del sitio
+2301 S: Go to Settings and enter your verified site URL to load Search Console data.
+   T: Ve a Ajustes e introduce la URL verificada de tu sitio para cargar los datos de Search Console.
+2302 S: Total Clicks
+   T: Clics totales
+2303 S: URL Inspection
+   T: Inspección de URL
+2304 S: Check live index status, the Google-selected canonical, and rich-result eligibility for any URL on this property. Needs Owner or Full permission. Results are cached for 1 hour.
+   T: Comprueba el estado de indexación en directo, la URL canónica elegida por Google y la elegibilidad para resultados enriquecidos de cualquier URL de esta propiedad. Requiere permiso de Propietario o Completo. Los resultados se guardan en caché durante 1 hora.
+2305 S: Inspect URL
+   T: Inspeccionar URL
+2306 S: Pass
+   T: Correcto
+2307 S: Partial
+   T: Parcial
+2308 S: Fail
+   T: Incorrecto
+2309 S: Neutral
+   T: Neutro
+2310 S: Inspection failed.
+   T: La inspección ha fallado.
+2311 S: Match
+   T: Coincide
+2312 S: Mismatch
+   T: No coincide
+2313 S: Google:
+   T: Google:
+2314 S: Declared:
+   T: Declarada:
+2315 S: None detected
+   T: No se ha detectado ninguna
+2316 S: Overall:
+   T: General:
+2317 S: cached
+   T: en caché
+2318 S: Coverage
+   T: Cobertura
+2319 S: Indexing allowed
+   T: Indexación permitida
+2320 S: robots.txt
+   T: robots.txt
+2321 S: Page fetch
+   T: Obtención de la página
+2322 S: Crawled as
+   T: Rastreada como
+2323 S: Last crawl
+   T: Último rastreo
+2324 S: Canonical
+   T: Canónica
+2325 S: Rich results
+   T: Resultados enriquecidos
+2326 S: Mobile usability
+   T: Usabilidad móvil
+2327 S: Open full report in Search Console ↗
+   T: Abrir el informe completo en Search Console ↗
+2328 S: Request failed. Check your connection.
+   T: La solicitud ha fallado. Comprueba tu conexión.
+2329 S: Top Queries
+   T: Consultas principales
+2330 S: Query
+   T: Consulta
+2331 S: CTR
+   T: CTR
+2332 S: Position
+   T: Posición
+2333 S: AI Search (AI Mode & AI Overviews)
+   T: Búsqueda con IA (Modo IA y AI Overviews)
+2334 S: Open AI report in Search Console ↗
+   T: Abrir el informe de IA en Search Console ↗
+2335 S: Bing Webmaster Tools
+   T: Bing Webmaster Tools
+2336 S: Add your Bing Webmaster API key in Settings to see Bing search performance.
+   T: Añade tu clave de API de Bing Webmaster en Ajustes para ver el rendimiento en las búsquedas de Bing.
+2337 S: Last 6 Months
+   T: Últimos 6 meses
+2338 S: Total Impressions
+   T: Impresiones totales
+2339 S: No query data available yet. Data may take 48 hours to appear after connecting.
+   T: Todavía no hay datos de consultas. Los datos pueden tardar 48 horas en aparecer tras conectar.
+2340 S: Google launched AI search performance reports (AI Mode and AI Overviews) in Search Console on June 3, 2026, but does not yet expose this data through its API — so it can’t be pulled in here automatically. For now, view your AI Mode / AI Overview impressions directly in Search Console. This panel will show live data once Google adds API support.
+   T: Google lanzó los informes de rendimiento de búsqueda con IA (Modo IA y AI Overviews) en Search Console el 3 de junio de 2026, pero todavía no ofrece estos datos a través de su API, así que no se pueden traer aquí automáticamente. Por ahora, consulta tus impresiones de Modo IA / AI Overviews directamente en Search Console. Este panel mostrará datos en directo cuando Google añada soporte en la API.
+2341 S: AI Citations (Copilot & Bing AI)
+   T: Citas de IA (Copilot y Bing AI)
+2342 S: Bing Webmaster Tools added an AI Performance report (public preview, February 2026) showing how often your pages are cited in Copilot and Bing AI answers — total citations and your most-cited pages. Microsoft does not yet expose this through the Webmaster API, so it can’t be pulled in here automatically. For now, view your cited pages directly in Bing Webmaster Tools. This panel will list pages and citation counts once Bing adds API support.
+   T: Bing Webmaster Tools añadió un informe de rendimiento de IA (vista previa pública, febrero de 2026) que muestra con qué frecuencia se citan tus páginas en las respuestas de Copilot y Bing AI: total de citas y tus páginas más citadas. Microsoft todavía no ofrece esto a través de la API para webmasters, así que no se puede traer aquí automáticamente. Por ahora, consulta tus páginas citadas directamente en Bing Webmaster Tools. Este panel mostrará páginas y número de citas cuando Bing añada soporte en la API.
+2343 S: Open AI Performance in Bing ↗
+   T: Abrir el rendimiento de IA en Bing ↗
+2344 S: Severity
+   T: Gravedad
+2345 S: Issue
+   T: Problema
+2346 S: Action
+   T: Acción
+2347 S: Edit Page
+   T: Editar página
+2348 S: IndexNow
+   T: IndexNow
+2349 S: Instantly notify Bing, Yandex, and other IndexNow-compatible engines when your content is published or updated — no waiting for the next crawl.
+   T: Avisa al instante a Bing, Yandex y otros buscadores compatibles con IndexNow cuando publicas o actualizas contenido, sin esperar al siguiente rastreo.
+2350 S: Notice
+   T: Aviso
+2351 S: Google Analytics &amp; Search Console
+   T: Google Analytics y Search Console
+2352 S: Service Account
+   T: Cuenta de servicio
+2353 S: Active
+   T: Activa
+2354 S: Google access is authenticated with this service account — no sign-in, no consent screens, tokens never expire.
+   T: El acceso a Google se autentica con esta cuenta de servicio: sin inicio de sesión, sin pantallas de consentimiento y los tokens nunca caducan.
+2355 S: Make sure this email is added as a user (copy it):
+   T: Asegúrate de añadir este correo electrónico como usuario (cópialo):
+2356 S: Search Console → Settings → Users and permissions → Add user → permission: Full
+   T: Search Console → Configuración → Usuarios y permisos → Añadir usuario → permiso: Completo
+2357 S: GA4 → Admin → Property access management → Add user → role: Viewer
+   T: GA4 → Administrar → Gestión del acceso a la propiedad → Añadir usuario → rol: Lector
+2358 S: Key is defined in wp-config (TWTAEO_GOOGLE_SA_KEY) and cannot be changed here.
+   T: La clave está definida en wp-config (TWTAEO_GOOGLE_SA_KEY) y no se puede cambiar aquí.
+2359 S: Remove the service-account key from this site?
+   T: ¿Eliminar de este sitio la clave de la cuenta de servicio?
+2360 S: Remove key
+   T: Eliminar clave
+2361 S: A wp-config key is defined but could not be parsed — check TWTAEO_GOOGLE_SA_KEY.
+   T: Hay una clave definida en wp-config, pero no se ha podido leer: revisa TWTAEO_GOOGLE_SA_KEY.
+2362 S: Save Service Account Key
+   T: Guardar clave de la cuenta de servicio
+2363 S: Skip the OAuth setup below entirely: paste your agency's service-account JSON key once, then add its email address as a user on this site's Search Console property (Full) and GA4 property (Viewer). No Google Cloud setup per site, no consent screens, and the connection never expires.
+   T: Sáltate por completo la configuración OAuth de abajo: pega una vez la clave JSON de la cuenta de servicio de tu agencia y añade su dirección de correo electrónico como usuario en la propiedad de Search Console (Completo) y en la propiedad de GA4 (Lector) de este sitio. Sin configurar Google Cloud para cada sitio, sin pantallas de consentimiento y la conexión nunca caduca.
+2364 S: — or connect with OAuth below (requires a Google Cloud app with this site's redirect URI authorized) —
+   T: — o conecta con OAuth a continuación (requiere una app de Google Cloud con el URI de redirección de este sitio autorizado) —
+2365 S: Google Cloud API Credentials
+   T: Credenciales de la API de Google Cloud
+2366 S: Create OAuth 2.0 credentials in your %s. Choose "Web application" type and add the Redirect URI below to your authorized redirect URIs.
+   T: Crea credenciales OAuth 2.0 en tu %s. Elige el tipo «Aplicación web» y añade el URI de redirección de abajo a tus URI de redirección autorizados.
+2367 S: Authorized Redirect URI (copy this exactly):
+   T: URI de redirección autorizado (cópialo exactamente):
+2368 S: Save Google Credentials
+   T: Guardar credenciales de Google
+2369 S: Connect Google Account
+   T: Conectar cuenta de Google
+2370 S: Google account connected.
+   T: Cuenta de Google conectada.
+2371 S: Click below to authorize access to Google Analytics and Search Console.
+   T: Haz clic abajo para autorizar el acceso a Google Analytics y Search Console.
+2372 S: Save your Client ID and Client Secret above first.
+   T: Guarda primero tu ID de cliente y tu secreto de cliente arriba.
+2373 S: Configure Properties
+   T: Configurar propiedades
+2374 S: GA4 Property ID
+   T: ID de propiedad de GA4
+2375 S: Find in GA4: Admin → Property Settings → Property ID (numeric).
+   T: Búscalo en GA4: Administrar → Configuración de la propiedad → ID de propiedad (numérico).
+2376 S: Search Console Site URL
+   T: URL del sitio en Search Console
+2377 S: Save Configuration
+   T: Guardar configuración
+2378 S: Additional Google APIs
+   T: Otras API de Google
+2379 S: API key saved
+   T: Clave de API guardada
+2380 S: These power URL Inspection, brand/entity verification, and PageSpeed audits. Because you have already connected Analytics &amp; Search Console, setup is minimal — everything below lives in the same Google Cloud project you used earlier.
+   T: Estas API hacen funcionar la inspección de URL, la verificación de marca/entidad y las auditorías de PageSpeed. Como ya has conectado Analytics y Search Console, la configuración es mínima: todo lo de abajo está en el mismo proyecto de Google Cloud que usaste antes.
+2381 S: No setup needed
+   T: No hace falta configurar nada
+2382 S: There is nothing to enable in Google Cloud — URL Inspection is part of the Search Console API you already connected. It just needs a higher permission level than basic stats:
+   T: No hay nada que activar en Google Cloud: la inspección de URL forma parte de la API de Search Console que ya has conectado. Solo necesita un nivel de permiso mayor que el de las estadísticas básicas:
+2383 S: Open Search Console → Settings → Users and permissions.
+   T: Abre Search Console → Configuración → Usuarios y permisos.
+2384 S: Find the account (or service-account email) you connected this plugin with.
+   T: Busca la cuenta (o el correo electrónico de la cuenta de servicio) con la que conectaste este plugin.
+2385 S: Make sure its permission is Owner or Full — not Restricted. If it is Restricted, raise it to Full.
+   T: Asegúrate de que su permiso sea Propietario o Completo, no Restringido. Si es Restringido, súbelo a Completo.
+2386 S: Knowledge Graph &amp; PageSpeed API Key
+   T: Clave de API de Knowledge Graph y PageSpeed
+2387 S: These two APIs read public Google data, so they use a single free API key — no OAuth, and no billing card required (PageSpeed allows 25,000 checks/day free). Create the key once in the same project:
+   T: Estas dos API leen datos públicos de Google, así que usan una sola clave de API gratuita: sin OAuth y sin tarjeta de facturación (PageSpeed permite 25.000 comprobaciones al día gratis). Crea la clave una vez en el mismo proyecto:
+2388 S: In %s, search "Knowledge Graph Search API" and click Enable, then do the same for "PageSpeed Insights API".
+   T: En %s, busca «Knowledge Graph Search API» y haz clic en Habilitar; luego haz lo mismo con «PageSpeed Insights API».
+2389 S: APIs &amp; Services → Library
+   T: APIs y servicios → Biblioteca
+2390 S: Go to %s → Create Credentials → API key, then copy the key.
+   T: Ve a %s → Crear credenciales → Clave de API y copia la clave.
+2391 S: APIs &amp; Services → Credentials
+   T: APIs y servicios → Credenciales
+2392 S: Recommended: edit the key → Restrict key → allow only Knowledge Graph Search API and PageSpeed Insights API.
+   T: Recomendado: edita la clave → Restringir clave → permite solo Knowledge Graph Search API y PageSpeed Insights API.
+2393 S: Paste the key below and save.
+   T: Pega la clave abajo y guarda.
+2394 S: Google API Key
+   T: Clave de API de Google
+2395 S: Leave empty and save to remove the key.
+   T: Déjalo vacío y guarda para eliminar la clave.
+2396 S: Save API Key
+   T: Guardar clave de API
+2397 S: Get your API key from the %s. Go to Settings → API Access → Generate API Key.
+   T: Consigue tu clave de API en el %s. Ve a Configuración → Acceso a la API → Generar clave de API.
+2398 S: API Key
+   T: Clave de API
+2399 S: Site URL
+   T: URL del sitio
+2400 S: The exact URL of your verified site in Bing Webmaster Tools.
+   T: La URL exacta de tu sitio verificado en Bing Webmaster Tools.
+2401 S: Save Bing Settings
+   T: Guardar ajustes de Bing
+2402 S: Crawl Stats — Host Status Error:
+   T: Estadísticas de rastreo: error de estado del servidor:
+2403 S: Crawl Stats — Host Status Warning:
+   T: Estadísticas de rastreo: advertencia de estado del servidor:
+2404 S: Bing reports your host status as "%s".
+   T: Bing indica que el estado de tu servidor es «%s».
+2405 S: %d crawl error detected. || %d crawl errors detected.
+   T: [0] Se ha detectado %d error de rastreo. || [1] Se han detectado %d errores de rastreo.
+2406 S: AI Crawler Visibility Audit
+   T: Auditoría de visibilidad para rastreadores de IA
+2407 S: Simulates a homepage request for each major AI crawler by spoofing its User-Agent header. A Firewall Block or Rate Limit here means that bot cannot index your site — even if robots.txt allows it.
+   T: Simula una solicitud a la página de inicio por cada rastreador de IA importante falseando su cabecera User-Agent. Un bloqueo del cortafuegos o un límite de solicitudes aquí significa que ese bot no puede indexar tu sitio, aunque robots.txt lo permita.
+2408 S: Run Crawlability Audit
+   T: Ejecutar auditoría de rastreabilidad
+2409 S: Testing…
+   T: Probando…
+2410 S: HTTP
+   T: HTTP
+2411 S: Transport
+   T: Transporte
+2412 S: Recommendation / Error Detail
+   T: Recomendación / detalle del error
+2413 S: Tests run against: %s
+   T: Pruebas ejecutadas contra: %s
+2414 S: — Results reflect server-side access control only, not robots.txt directives.
+   T: — Los resultados solo reflejan el control de acceso del servidor, no las directivas de robots.txt.
+2415 S: Audit failed. Check server logs.
+   T: La auditoría ha fallado. Revisa los registros del servidor.
+2416 S: Error:
+   T: Error:
+2417 S: UA Shuffle: neutral Chrome returned
+   T: Cambio de UA: un Chrome neutro devolvió
+2418 S: blocking is User-Agent specific.
+   T: el bloqueo depende del User-Agent.
+2419 S: No action needed.
+   T: No hace falta hacer nada.
+2420 S: Last tested:
+   T: Última prueba:
+2421 S: Traffic Leak Scan
+   T: Exploración de fugas de tráfico
+2422 S: Finds your highest-traffic pages that also bounce hard, then audits each one's mobile speed — surfacing pages that may be losing visitors to slow loads. Uses GA4 (last 28 days) + PageSpeed.
+   T: Encuentra tus páginas con más tráfico que además tienen un rebote alto y audita la velocidad móvil de cada una, para sacar a la luz páginas que pueden estar perdiendo visitas por cargar lento. Usa GA4 (últimos 28 días) + PageSpeed.
+2423 S: Connect Google Analytics and set your GA4 Property ID in Settings to run this scan.
+   T: Conecta Google Analytics y configura tu ID de propiedad de GA4 en Ajustes para ejecutar esta exploración.
+2424 S: Min sessions (28d)
+   T: Sesiones mínimas (28 d)
+2425 S: Scan for traffic leaks
+   T: Buscar fugas de tráfico
+2426 S: Bounce
+   T: Rebote
+2427 S: Mobile
+   T: Móvil
+2428 S: LCP
+   T: LCP
+2429 S: Page Speed (PageSpeed Insights)
+   T: Velocidad de página (PageSpeed Insights)
+2430 S: Running without a Google API key (lower daily quota). Add one under %s for the full 25,000/day limit.
+   T: Funcionando sin clave de API de Google (cuota diaria más baja). Añade una en %s para tener el límite completo de 25.000 al día.
+2431 S: Settings → Additional Google APIs
+   T: Ajustes → Otras API de Google
+2432 S: Check a page's mobile or desktop performance — the Lighthouse score plus the Core Web Vitals that affect both ranking and how cleanly AI crawlers render the page. Results are cached for 6 hours.
+   T: Comprueba el rendimiento de una página en móvil o escritorio: la puntuación de Lighthouse y las Core Web Vitals que afectan tanto al posicionamiento como a la limpieza con la que los rastreadores de IA procesan la página. Los resultados se guardan en caché durante 6 horas.
+2433 S: Desktop
+   T: Escritorio
+2434 S: Analyze
+   T: Analizar
+2435 S: Running Lighthouse… up to a minute.
+   T: Ejecutando Lighthouse… hasta un minuto.
+2436 S: Code Health
+   T: Salud del código
+2437 S: Scans your published pages for performance anti-patterns that page-builders and AI-pasted code often introduce — inline scripts, external scripts in content, base64 images, and iframes. On-server only; nothing is changed.
+   T: Explora tus páginas publicadas en busca de malas prácticas de rendimiento que suelen introducir los maquetadores visuales y el código pegado desde la IA: scripts en línea, scripts externos en el contenido, imágenes en base64 e iframes. Solo en el servidor; no se cambia nada.
+2438 S: Scan content for performance issues
+   T: Explorar el contenido en busca de problemas de rendimiento
+2439 S: Analysis failed.
+   T: El análisis ha fallado.
+2440 S: Performance score
+   T: Puntuación de rendimiento
+2441 S: Lab data — simulated mobile load
+   T: Datos de laboratorio: carga móvil simulada
+2442 S: Speed Index
+   T: Speed Index
+2443 S: Real-world field data (CrUX):
+   T: Datos de campo reales (CrUX):
+2444 S: Request failed or timed out. PageSpeed can take up to a minute — try again.
+   T: La solicitud ha fallado o ha agotado el tiempo. PageSpeed puede tardar hasta un minuto: inténtalo de nuevo.
+2445 S: Showing your last scan.
+   T: Mostrando tu última exploración.
+2446 S: Finding candidates…
+   T: Buscando candidatas…
+2447 S: No high-traffic, high-bounce pages found.
+   T: No se han encontrado páginas con mucho tráfico y mucho rebote.
+2448 S: Done — pages audited:
+   T: Hecho: páginas auditadas:
+2449 S: Auditing
+   T: Auditando
+2450 S: Scanned
+   T: Exploradas
+2451 S: pages —
+   T: páginas —
+2452 S: with issues.
+   T: con problemas.
+2453 S: No performance anti-patterns found.
+   T: No se han encontrado malas prácticas de rendimiento.
+2454 S: (untitled)
+   T: (sin título)
+2455 S: Converting
+   T: Convierte
+2456 S: Likely bots
+   T: Posibles bots
+2457 S: Needs work
+   T: Mejorable
+2458 S: Healthy
+   T: Correcta
+2459 S: (query not provided)
+   T: (consulta no proporcionada)
+2460 S: Index Status requires a Google Search Console connection. Connect Google in the Settings tab first.
+   T: El estado de indexación requiere conexión con Google Search Console. Conecta primero Google en la pestaña Ajustes.
+2461 S: Go to Settings
+   T: Ir a Ajustes
+2462 S: Enter your GSC Site URL in Settings → Google Configuration to enable Index Status scans.
+   T: Introduce la URL del sitio de GSC en Ajustes → Configuración de Google para activar las exploraciones del estado de indexación.
+2463 S: Showing %1$d–%2$d of %3$d pages that need work.
+   T: Mostrando %1$d–%2$d de %3$d páginas que necesitan mejoras.
+2464 S: Showing %1$d–%2$d of %3$d scanned pages.
+   T: Mostrando %1$d–%2$d de %3$d páginas exploradas.
+2465 S: All scanned
+   T: Todas las exploradas
+2466 S: Total Pages
+   T: Total de páginas
+2467 S: Need Work
+   T: Necesitan mejoras
+2468 S: Indexed
+   T: Indexadas
+2469 S: Re-scan All
+   T: Volver a explorar todo
+2470 S: Run Index Scan
+   T: Ejecutar exploración de indexación
+2471 S: Send %d De-indexed to TWT Agency
+   T: Enviar %d desindexadas a TWT Agency
+2472 S: Clear Results
+   T: Vaciar resultados
+2473 S: Why isn't a page indexed?
+   T: ¿Por qué no se indexa una página?
+2474 S: A meta description alone won't get a page indexed — it only affects the snippet Google shows. The most common reasons a page stays out of the index are: a "noindex" setting, a canonical URL pointing to a different page, the page missing from your XML sitemap, thin or duplicate content, or no internal links pointing to it. Fix the red Critical items first, then the Warnings.
+   T: Una meta descripción por sí sola no hace que una página se indexe: solo afecta al fragmento que muestra Google. Los motivos más habituales por los que una página queda fuera del índice son: un ajuste «noindex», una URL canónica que apunta a otra página, que la página falte en tu mapa del sitio XML, contenido escaso o duplicado, o que ningún enlace interno apunte a ella. Corrige primero los elementos críticos en rojo y después las advertencias.
+2475 S: Last Crawl
+   T: Último rastreo
+2476 S: Issues & Fixes
+   T: Problemas y soluciones
+2477 S: No pages scanned yet. Click “Run Index Scan” to check your pages against Google.
+   T: Todavía no se ha explorado ninguna página. Haz clic en «Ejecutar exploración de indexación» para comprobar tus páginas con Google.
+2478 S: 🎉 No pages need work — every scanned page is indexed and issue-free.
+   T: 🎉 Ninguna página necesita mejoras: todas las páginas exploradas están indexadas y sin problemas.
+2479 S: No scanned pages to show.
+   T: No hay páginas exploradas que mostrar.
+2480 S: Not scanned
+   T: Sin explorar
+2481 S: No issues
+   T: Sin problemas
+2482 S: Fix →
+   T: Corregir →
+2483 S: Edit page
+   T: Editar página
+2484 S: Prev
+   T: Anterior
+2485 S: Next
+   T: Siguiente
+2486 S: Scanning…
+   T: Explorando…
+2487 S: Scan complete. Reload to see updated totals.
+   T: Exploración completada. Recarga para ver los totales actualizados.
+2488 S: Clear all scan results?
+   T: ¿Vaciar todos los resultados de la exploración?
+2489 S: Sending…
+   T: Enviando…
+2490 S: Fixed ✓
+   T: Corregido ✓
+2491 S: Fix: Open Graph — %s
+   T: Corregir: Open Graph — %s
+2492 S: OG Title
+   T: Título OG
+2493 S: OG Description
+   T: Descripción OG
+2494 S: Generate with AI
+   T: Generar con IA
+2495 S: OG Image
+   T: Imagen OG
+2496 S: Generate image with AI
+   T: Generar imagen con IA
+2497 S: Save
+   T: Guardar
+2498 S: Generating… (~20s)
+   T: Generando… (~20 s)
+2499 S: Saved ✓
+   T: Guardado ✓
+2500 S: Fix: FAQ schema — %s
+   T: Corregir: schema de FAQ — %s
+2501 S: Generate FAQPage schema from the Q&A-style content already on this page. This adds structured data — it does not change your content.
+   T: Genera el schema FAQPage a partir del contenido en formato de preguntas y respuestas que ya tiene esta página. Añade datos estructurados; no cambia tu contenido.
+2502 S: Generate FAQ schema
+   T: Generar schema de FAQ
+2503 S: Q&A pairs added ✓
+   T: Pares de pregunta y respuesta añadidos ✓
+2504 S: Total Crawls (30 days)
+   T: Rastreos totales (30 días)
+2505 S: Unique Bots
+   T: Bots únicos
+2506 S: Last AI Crawl
+   T: Último rastreo de IA
+2507 S: AI Discovery File Hits
+   T: Accesos de IA a archivos de descubrimiento
+2508 S: 30-day window
+   T: Periodo de 30 días
+2509 S: How many AI crawlers fetched your machine-readable discovery files. A rising count means bots are actively using your structured signals.
+   T: Cuántos rastreadores de IA descargaron tus archivos de descubrimiento legibles por máquinas. Un recuento creciente significa que los bots están usando activamente tus señales estructuradas.
+2510 S: bot crawls
+   T: rastreos de bots
+2511 S: A physical robots.txt on disk is served by the web server without running PHP, so crawler hits to it cannot be counted.
+   T: El servidor web sirve un robots.txt físico del disco sin ejecutar PHP, así que no se pueden contar los accesos de rastreadores a él.
+2512 S: Static file — not tracked
+   T: Archivo estático: no se registra
+2513 S: Last: %s ago
+   T: Último: hace %s
+2514 S: Not yet recorded
+   T: Aún no registrado
+2515 S: Note: hits are only recorded when WordPress handles the request in PHP. A physical robots.txt on disk, or a full-page cache in front of WordPress (a host page cache such as Nexcess NxAccel, or a CDN like Cloudflare), serves these files without invoking PHP — so those hits are not captured and the counts may understate real crawler activity. The plugin sends no-cache headers on llms.txt and llms-full.txt to reduce this, though some host caches ignore them.
+   T: Nota: los accesos solo se registran cuando WordPress gestiona la solicitud en PHP. Un robots.txt físico en el disco, o una caché de página completa delante de WordPress (una caché del alojamiento como Nexcess NxAccel, o una CDN como Cloudflare), sirve estos archivos sin ejecutar PHP, así que esos accesos no se registran y los recuentos pueden quedarse por debajo de la actividad real de los rastreadores. El plugin envía cabeceras no-cache en llms.txt y llms-full.txt para reducirlo, aunque algunas cachés de alojamiento las ignoran.
+2516 S: Bot Breakdown
+   T: Desglose por bot
+2517 S: Block or rate-limit specific crawlers
+   T: Bloquea o limita rastreadores concretos
+2518 S: Manage bot controls
+   T: Gestionar controles de bots
+2519 S: No AI crawls recorded yet.
+   T: Todavía no se han registrado rastreos de IA.
+2520 S: Visits
+   T: Visitas
+2521 S: Last Seen
+   T: Última vez visto
+2522 S: Google does not publish a dedicated AI bot. The Google bots tracked here (Googlebot, GoogleOther, Google-Agent, Google-InspectionTool, Google-NotebookLM) are standard Google crawlers whose purpose is inferred from their documented behavior — not from an official AI-specific declaration by Google.
+   T: Google no publica un bot de IA específico. Los bots de Google registrados aquí (Googlebot, GoogleOther, Google-Agent, Google-InspectionTool, Google-NotebookLM) son rastreadores estándar de Google cuya finalidad se deduce de su comportamiento documentado, no de una declaración oficial de Google específica para IA.
+2523 S: Most Crawled Pages
+   T: Páginas más rastreadas
+2524 S: No pages recorded yet.
+   T: Todavía no se ha registrado ninguna página.
+2525 S: %s crawl || %s crawls
+   T: [0] %s rastreo || [1] %s rastreos
+2526 S: Live Feed — Last 48 Hours
+   T: Actividad en directo: últimas 48 horas
+2527 S: Live Feed — Last 50 Crawls (30 Days)
+   T: Actividad en directo: últimos 50 rastreos (30 días)
+2528 S: Clear all crawler log entries?
+   T: ¿Vaciar todas las entradas del registro de rastreadores?
+2529 S: Clear Log
+   T: Vaciar registro
+2530 S: No AI crawlers detected yet. Logs will appear here as AI bots visit your site.
+   T: Todavía no se han detectado rastreadores de IA. Los registros aparecerán aquí a medida que los bots de IA visiten tu sitio.
+2531 S: Monitoring: OpenAI GPTBot, ClaudeBot, Google-Extended, PerplexityBot, and 20+ more.
+   T: Supervisando: OpenAI GPTBot, ClaudeBot, Google-Extended, PerplexityBot y más de 20 más.
+2532 S: Time
+   T: Hora
+2533 S: What AI Crawler Watch monitors:
+   T: Qué supervisa AI Crawler Watch:
+2534 S: OpenAI GPTBot &amp; ChatGPT-User · Anthropic ClaudeBot · Google-Extended · PerplexityBot · Meta FacebookBot · Apple Applebot-Extended · ByteDance Bytespider · Amazon Amazonbot · Diffbot · Cohere · Common Crawl CCBot · You.com YouBot · and more.
+   T: OpenAI GPTBot y ChatGPT-User · Anthropic ClaudeBot · Google-Extended · PerplexityBot · Meta FacebookBot · Apple Applebot-Extended · ByteDance Bytespider · Amazon Amazonbot · Diffbot · Cohere · Common Crawl CCBot · You.com YouBot · y más.
+2535 S: Logs are stored locally for 30 days.
+   T: Los registros se guardan localmente durante 30 días.
+2536 S: Google credentials saved.
+   T: Credenciales de Google guardadas.
+2537 S: Google configuration saved.
+   T: Configuración de Google guardada.
+2538 S: Service account saved. Now add %s as a Full user in Search Console and a Viewer in GA4.
+   T: Cuenta de servicio guardada. Ahora añade %s como usuario con permiso Completo en Search Console y como Lector en GA4.
+2539 S: Service account key removed.
+   T: Clave de la cuenta de servicio eliminada.
+2540 S: Google API key saved.
+   T: Clave de API de Google guardada.
+2541 S: Google API key removed.
+   T: Clave de API de Google eliminada.
+2542 S: Bing settings saved.
+   T: Ajustes de Bing guardados.
+2543 S: Crawler log cleared.
+   T: Registro de rastreadores vaciado.
+2544 S: Google account connected successfully.
+   T: Cuenta de Google conectada correctamente.
+2545 S: Refresh data
+   T: Actualizar datos
+2546 S: Refresh
+   T: Actualizar
+2547 S: Set up %s
+   T: Configurar %s
+2548 S: Company Profile
+   T: Perfil de empresa
+2549 S: Your Publisher entity. Drives article:publisher attribution, Organization JSON-LD schema, and the fb:app_id tag that unlocks Meta Domain Insights and AI Ad Attribution. Correctly splits Publisher (company) from Author (individual) for maximum E-E-A-T signal.
+   T: Tu entidad editora. Alimenta la atribución article:publisher, el schema JSON-LD Organization y la etiqueta fb:app_id que desbloquea Meta Domain Insights y la atribución de anuncios con IA. Separa correctamente el editor (empresa) del autor (persona) para obtener la máxima señal E-E-A-T.
+2550 S: Company profile saved.
+   T: Perfil de empresa guardado.
+2551 S: Synced from %s. Empty fields have been filled — your existing values were not changed.
+   T: Sincronizado desde %s. Se han rellenado los campos vacíos; tus valores existentes no se han cambiado.
+2552 S: %s detected
+   T: %s detectado
+2553 S: %1$s is configured as your site's Organization entity and will output its own Organization schema. We'll skip our duplicate block but still output article:publisher and fb:app_id — fields %2$s typically leaves empty.
+   T: %1$s está configurado como la entidad Organization de tu sitio y generará su propio schema Organization. Omitiremos nuestro bloque duplicado, pero seguiremos generando article:publisher y fb:app_id, campos que %2$s suele dejar vacíos.
+2554 S: %s social data is available. Click Sync to pre-fill any empty fields below — existing values will not be overwritten.
+   T: Hay datos sociales de %s disponibles. Haz clic en Sincronizar para rellenar los campos vacíos de abajo: los valores existentes no se sobrescribirán.
+2555 S: Sync from %s
+   T: Sincronizar desde %s
+2556 S: Preview available data
+   T: Vista previa de los datos disponibles
+2557 S: Company Identity
+   T: Identidad de la empresa
+2558 S: Core publisher data used in Organization schema and as the structured article:publisher entity.
+   T: Datos principales del editor que se usan en el schema Organization y como entidad estructurada article:publisher.
+2559 S: Publisher Name
+   T: Nombre del editor
+2560 S: The trading name shown in search results and schema (e.g. "Acme Corp").
+   T: El nombre comercial que aparece en los resultados de búsqueda y en el schema (p. ej., «Acme Corp»).
+2561 S: Legal Name
+   T: Razón social
+2562 S: Optional — e.g. Acme Corporation LLC
+   T: Opcional; p. ej., Acme Corporation LLC
+2563 S: Logo
+   T: Logotipo
+2564 S: Choose from Media Library
+   T: Elegir de la biblioteca de medios
+2565 S: Website URL
+   T: URL del sitio web
+2566 S: Description
+   T: Descripción
+2567 S: Founding Year
+   T: Año de fundación
+2568 S: Contact Email
+   T: Correo electrónico de contacto
+2569 S: Phone
+   T: Teléfono
+2570 S: Social Profiles
+   T: Perfiles sociales
+2571 S: Used for Organization sameAs links in schema and — critically — the Facebook Page URL drives article:publisher attribution for Meta's AI and ad attribution systems.
+   T: Se usan para los enlaces sameAs de Organization en el schema y, sobre todo, la URL de la página de Facebook alimenta la atribución article:publisher para los sistemas de IA y de atribución de anuncios de Meta.
+2572 S: Meta Business Sync
+   T: Sincronización con Meta Business
+2573 S: The fb:app_id tag is output sitewide and enables Meta's Domain Insights dashboard and AI-powered Ad Attribution — features most SEO plugins omit. Find your App ID at %s.
+   T: La etiqueta fb:app_id se genera en todo el sitio y activa el panel Domain Insights de Meta y la atribución de anuncios con IA, características que la mayoría de plugins de SEO omiten. Encuentra tu ID de app en %s.
+2574 S: Facebook App ID
+   T: ID de app de Facebook
+2575 S: Numbers only. Outputs as &lt;meta property="fb:app_id"&gt; on every page.
+   T: Solo números. Se genera como &lt;meta property="fb:app_id"&gt; en todas las páginas.
+2576 S: Output Controls
+   T: Controles de salida
+2577 S: Toggle which structured signals this profile outputs. Disable any item if another plugin handles it.
+   T: Elige qué señales estructuradas genera este perfil. Desactiva cualquier elemento si lo gestiona otro plugin.
+2578 S: Organization Schema
+   T: Schema Organization
+2579 S: Output Organization JSON-LD schema
+   T: Generar el schema JSON-LD Organization
+2580 S: %s is already outputting Organization schema. This block will be skipped automatically to prevent duplicates.
+   T: %s ya genera el schema Organization. Este bloque se omitirá automáticamente para evitar duplicados.
+2581 S: article:publisher
+   T: article:publisher
+2582 S: Output article:publisher and article:author OG tags on posts
+   T: Generar las etiquetas OG article:publisher y article:author en las entradas
+2583 S: Runs at priority 1 — fires before Yoast / Rank Math to fill the gap they leave on these fields.
+   T: Se ejecuta con prioridad 1: actúa antes que Yoast / Rank Math para cubrir el hueco que dejan en estos campos.
+2584 S: fb:app_id
+   T: fb:app_id
+2585 S: Output fb:app_id on every page
+   T: Generar fb:app_id en todas las páginas
+2586 S: Save Company Profile
+   T: Guardar perfil de empresa
+2587 S: How the Publisher ↔ Author Split Works
+   T: Cómo funciona la separación entre editor y autor
+2588 S: Set to your company's Facebook Page URL (from Social Profiles above). Tells Meta and Facebook's graph which business entity published this content — required for Domain Insights and Ad Attribution.
+   T: Establécelo en la URL de la página de Facebook de tu empresa (de Perfiles sociales, arriba). Indica a Meta y al grafo de Facebook qué entidad empresarial publicó este contenido: es necesario para Domain Insights y la atribución de anuncios.
+2589 S: article:author
+   T: article:author
+2590 S: Set to the individual post author's Facebook profile URL (configured per-user under Users → Edit Profile → Social Profiles). This is the Person entity — separate from the Publisher.
+   T: Establécelo en la URL del perfil de Facebook del autor de cada entrada (se configura por usuario en Usuarios → Editar perfil → Perfiles sociales). Es la entidad Person, separada del editor.
+2591 S: Organization schema
+   T: Schema Organization
+2592 S: JSON-LD block on every page identifying the publishing entity with name, logo, social links (sameAs), and contact info. AI crawlers and LLMs use this to reliably identify who is behind the content.
+   T: Bloque JSON-LD en cada página que identifica a la entidad editora con nombre, logotipo, enlaces sociales (sameAs) y datos de contacto. Los rastreadores de IA y los LLM lo usan para saber con seguridad quién está detrás del contenido.
+2593 S: Sitewide meta tag that associates your site with a Facebook App. Enables the Meta Domain Insights dashboard and is the key signal Meta's AI Ad Attribution systems use to credit your organic reach — commonly missed by other plugins.
+   T: Meta etiqueta para todo el sitio que asocia tu sitio con una app de Facebook. Activa el panel Domain Insights de Meta y es la señal clave que usan los sistemas de atribución de anuncios con IA de Meta para acreditar tu alcance orgánico; otros plugins suelen olvidarla.
+2594 S: Choose Company Logo
+   T: Elegir el logotipo de la empresa
+2595 S: Use as logo
+   T: Usar como logotipo
+2596 S: Contact Detector
+   T: Detector de contacto
+2597 S: %1$d contact pages found — %2$d need attention
+   T: %1$d páginas de contacto encontradas: %2$d requieren atención
+2598 S: Contact Pages
+   T: Páginas de contacto
+2599 S: Need Attention
+   T: Requieren atención
+2600 S: Complete
+   T: Completas
+2601 S: What This Checks
+   T: Qué comprueba
+2602 S: For each contact page, the detector validates:
+   T: En cada página de contacto, el detector valida:
+2603 S: Organization or LocalBusiness schema — confirms your business entity is defined
+   T: Schema Organization o LocalBusiness: confirma que tu entidad empresarial está definida
+2604 S: PostalAddress — street, city, state, zip, country
+   T: PostalAddress: calle, ciudad, estado o provincia, código postal y país
+2605 S: ContactPoint — phone number and/or email address
+   T: ContactPoint: número de teléfono o dirección de correo electrónico, o ambos
+2606 S: Entity consolidation — only one Organization entity across the page
+   T: Consolidación de la entidad: una sola entidad Organization en toda la página
+2607 S: No contact pages detected. Pages with "contact" in the slug, title, or content will appear here.
+   T: No se han detectado páginas de contacto. Aquí aparecerán las páginas que tengan «contact» en el slug, el título o el contenido.
+2608 S: Organization
+   T: Organization
+2609 S: Address
+   T: Dirección
+2610 S: Contact Point
+   T: Punto de contacto
+2611 S: Entity
+   T: Entidad
+2612 S: Actions
+   T: Acciones
+2613 S: Consolidated
+   T: Consolidada
+2614 S: Duplicate
+   T: Duplicada
+2615 S: issue || issues
+   T: [0] problema || [1] problemas
+2616 S: How to Fix Contact Page Schema
+   T: Cómo corregir el schema de la página de contacto
+2617 S: Rank Math: Go to Rank Math → Titles & Meta → Local SEO and fill in your business name, address, phone, and email.
+   T: Rank Math: ve a Rank Math → Títulos y meta → SEO local y rellena el nombre, la dirección, el teléfono y el correo electrónico de tu negocio.
+2618 S: Yoast SEO: Go to Yoast → Company Info and fill in your organization name, logo, and contact details.
+   T: Yoast SEO: ve a Yoast → Información de la empresa y rellena el nombre, el logotipo y los datos de contacto de tu organización.
+2619 S: Use Schema & Structured Data For WP or Rank Math to add Organization, PostalAddress, and ContactPoint schema to your contact page.
+   T: Usa Schema & Structured Data For WP o Rank Math para añadir los schemas Organization, PostalAddress y ContactPoint a tu página de contacto.
+2620 S: For entity consolidation — make sure all schema on the page uses the same @id value for your Organization so AI systems recognize them as the same entity.
+   T: Para consolidar la entidad, asegúrate de que todo el schema de la página use el mismo valor @id para tu Organization, para que los sistemas de IA la reconozcan como una misma entidad.
+2621 S: Once saved, TWT AEO Ultimate will automatically rescan and update the status here.
+   T: Una vez guardado, TWT AEO Ultimate volverá a analizar automáticamente y actualizará el estado aquí.
+2622 S: Professional Mode
+   T: Modo profesional
+2623 S: Scan All Pages
+   T: Explorar todas las páginas
+2624 S: Bundle baseline, schema & performance data, send it to the Agency Hub, then purge transmitted local logs.
+   T: Agrupa los datos de referencia, de schema y de rendimiento, los envía al Agency Hub y luego purga los registros locales ya transmitidos.
+2625 S: Sync Now
+   T: Sincronizar ahora
+2626 S: Last sync: %s ago
+   T: Última sincronización: hace %s
+2627 S: AI Meta Descriptions
+   T: Meta descripciones con IA
+2628 S: Turn this on and the plugin will automatically write a meta description for a post the first time you save it (existing descriptions are never overwritten). You can also generate one on demand from each post's editor, or fill in everything that's missing in bulk below. Pick which AI does the writing.
+   T: Actívalo y el plugin escribirá automáticamente una meta descripción para una entrada la primera vez que la guardes (las descripciones existentes nunca se sobrescriben). También puedes generar una cuando quieras desde el editor de cada entrada o rellenar por lotes todo lo que falte más abajo. Elige qué IA redacta.
+2629 S: No AI provider is configured yet. Add a Claude, OpenAI, or Gemini key under <a href="%s">TWT AEO &rsaquo; Settings</a> to enable this.
+   T: Todavía no hay ningún proveedor de IA configurado. Añade una clave de Claude, OpenAI o Gemini en <a href="%s">TWT AEO &rsaquo; Ajustes</a> para activar esto.
+2630 S: Auto-generate on save
+   T: Generar automáticamente al guardar
+2631 S: AI provider
+   T: Proveedor de IA
+2632 S: Generate all missing
+   T: Generar todas las que faltan
+2633 S: Usage & cost: each description is one API call to your chosen provider, billed to your own account based on token usage. Generating a single post from its editor costs a fraction of a cent; the bulk run processes every post that is missing a description, so it scales with your site size. Before a bulk run you will be shown the exact number of posts and asked to confirm. Bulk generation runs in the background — you can safely leave this page once it starts.
+   T: Uso y coste: cada descripción es una llamada a la API del proveedor que elijas, que se cobra en tu propia cuenta según los tokens usados. Generar una sola entrada desde su editor cuesta una fracción de céntimo; la ejecución por lotes procesa todas las entradas sin descripción, así que crece con el tamaño de tu sitio. Antes de una ejecución por lotes se te mostrará el número exacto de entradas y se te pedirá confirmación. La generación por lotes se ejecuta en segundo plano: puedes salir de esta página sin problema una vez iniciada.
+2634 S: SEO Plugin Conflict Detected
+   T: Conflicto de plugins de SEO detectado
+2635 S: Recommendation: Choose one SEO plugin and deactivate the other. Having both active creates duplicate and conflicting structured data that harms AI visibility.
+   T: Recomendación: elige un plugin de SEO y desactiva el otro. Tener ambos activos crea datos estructurados duplicados y contradictorios que perjudican la visibilidad en IA.
+2636 S: Duplicated schema types:
+   T: Tipos de schema duplicados:
+2637 S: Missing Schema
+   T: Falta schema
+2638 S: Not Yet Scanned
+   T: Aún sin explorar
+2639 S: Page AEO Status
+   T: Estado AEO de las páginas
+2640 S: No published pages found. Create and save a page to trigger a scan.
+   T: No se han encontrado páginas publicadas. Crea y guarda una página para iniciar una exploración.
+2641 S: Intent
+   T: Intención
+2642 S: Confidence
+   T: Confianza
+2643 S: Schema Present
+   T: Schema presente
+2644 S: Last Scanned
+   T: Última exploración
+2645 S: —
+   T: —
+2646 S: Edit schema
+   T: Editar schema
+2647 S: Create schema
+   T: Crear schema
+2648 S: All present
+   T: Todos presentes
+2649 S: Scan Now
+   T: Explorar ahora
+2650 S: %d page(s) have not been scanned yet. Use "Scan All Pages" above or open and save each page.
+   T: %d página(s) aún no se han explorado. Usa «Explorar todas las páginas» arriba o abre y guarda cada página.
+2651 S: AEO Gaps in Your SEO Plugin
+   T: Carencias AEO de tu plugin de SEO
+2652 S: These are things your SEO plugin does not handle — areas where TWT AEO Ultimate adds value.
+   T: Son cosas que tu plugin de SEO no gestiona: áreas en las que TWT AEO Ultimate aporta valor.
+2653 S: What Your SEO Plugin Doesn't Cover
+   T: Lo que tu plugin de SEO no cubre
+2654 S: %s is installed but leaves some AEO gaps. TWT AEO Ultimate fills these in. Switch to Professional Mode in Settings to see full details.
+   T: %s está instalado, pero deja algunas carencias AEO. TWT AEO Ultimate las cubre. Cambia al Modo profesional en Ajustes para ver todos los detalles.
+2655 S: → Go to Settings
+   T: → Ir a Ajustes
+2656 S: generating in background (you can leave this page)…
+   T: generando en segundo plano (puedes salir de esta página)…
+2657 S: created — stopped.
+   T: creadas: detenido.
+2658 S: descriptions created.
+   T: descripciones creadas.
+2659 S: Finding posts…
+   T: Buscando entradas…
+2660 S: All posts already have descriptions.
+   T: Todas las entradas ya tienen descripción.
+2661 S: posts are missing a description.
+   T: entradas no tienen descripción.
+2662 S: This will make one API call per post
+   T: Esto hará una llamada a la API por entrada
+2663 S: using
+   T: usando
+2664 S: billed to your account. It runs in the background, so you can leave this page. Continue?
+   T: con cargo a tu cuenta. Se ejecuta en segundo plano, así que puedes salir de esta página. ¿Continuar?
+2665 S: Cancelled.
+   T: Cancelado.
+2666 S: Network error.
+   T: Error de red.
+2667 S: Log cleared.
+   T: Registro vaciado.
+2668 S: Support Report
+   T: Informe para soporte
+2669 S: If you hit a problem, click Copy and paste this to support.
+   T: Si tienes un problema, haz clic en Copiar y pega esto al soporte.
+2670 S: <strong>Before you share:</strong> this report lists your server software, WordPress/PHP version numbers, and active plugins with their versions. That information is useful for troubleshooting but can also help an attacker, so only send it to support you trust. It does <strong>not</strong> include passwords, API keys, or your site content.
+   T: <strong>Antes de compartirlo:</strong> este informe incluye el software de tu servidor, las versiones de WordPress y PHP y los plugins activos con sus versiones. Esa información es útil para resolver problemas, pero también puede ayudar a un atacante, así que envíala solo a un soporte de confianza. <strong>No</strong> incluye contraseñas, claves de API ni el contenido de tu sitio.
+2671 S: Copy report to clipboard
+   T: Copiar informe al portapapeles
+2672 S: Recent Log (%d)
+   T: Registro reciente (%d)
+2673 S: No errors logged. That's a good thing.
+   T: No hay errores registrados. Y eso es bueno.
+2674 S: Level
+   T: Nivel
+2675 S: Message
+   T: Mensaje
+2676 S: Clear log
+   T: Vaciar registro
+2677 S: Type
+   T: Tipo
+2678 S: Search
+   T: Buscar
+2679 S: Rescan
+   T: Volver a analizar
+2680 S: Author Info
+   T: Información del autor
+2681 S: Company Info
+   T: Información de la empresa
+2682 S: Overall Grade
+   T: Calificación general
+2683 S: E-E-A-T Score
+   T: Puntuación E-E-A-T
+2684 S: Create Page
+   T: Crear página
+2685 S: Add Links
+   T: Añadir enlaces
+2686 S: No signals detected for this section.
+   T: No se han detectado señales en esta sección.
+2687 S: Author Metadata
+   T: Metadatos del autor
+2688 S: Author completeness directly impacts E-E-A-T signals. Fill in each author's credentials, expertise, and profile links.
+   T: La completitud del autor influye directamente en las señales E-E-A-T. Rellena las credenciales, la especialidad y los enlaces de perfil de cada autor.
+2689 S: No authors found.
+   T: No se han encontrado autores.
+2690 S: Role
+   T: Rol
+2691 S: Job Title
+   T: Cargo
+2692 S: Credentials
+   T: Credenciales
+2693 S: Expertise
+   T: Especialidad
+2694 S: Completeness
+   T: Completitud
+2695 S: Edit profile to add expertise
+   T: Edita el perfil para añadir la especialidad
+2696 S: Missing — Edit
+   T: Falta — Editar
+2697 S: Profile ↗
+   T: Perfil ↗
+2698 S: Edit Author Signals
+   T: Editar las señales del autor
+2699 S: A short professional bio...
+   T: Una breve biografía profesional...
+2700 S: Add sameAs Links
+   T: Añadir enlaces sameAs
+2701 S: sameAs links tell AI systems and search engines that these profiles belong to your organisation. Add any that apply.
+   T: Los enlaces sameAs indican a los sistemas de IA y a los buscadores que estos perfiles pertenecen a tu organización. Añade los que correspondan.
+2702 S: Check Google Knowledge Graph
+   T: Comprobar Google Knowledge Graph
+2703 S: Look up your brand in Google's entity database to confirm Google recognises it as an entity, and see its Knowledge Graph ID. This is a read-only check — nothing is saved to your schema.
+   T: Busca tu marca en la base de datos de entidades de Google para confirmar que Google la reconoce como entidad y ver su ID de Knowledge Graph. Es una comprobación de solo lectura: no se guarda nada en tu schema.
+2704 S: Your brand or organisation name
+   T: El nombre de tu marca u organización
+2705 S: LinkedIn
+   T: LinkedIn
+2706 S: Facebook
+   T: Facebook
+2707 S: Twitter / X
+   T: Twitter / X
+2708 S: Instagram
+   T: Instagram
+2709 S: YouTube
+   T: YouTube
+2710 S: Google Business
+   T: Google Business
+2711 S: Creating…
+   T: Creando…
+2712 S: Page Created ✓
+   T: Página creada ✓
+2713 S: Failed to create page.
+   T: No se ha podido crear la página.
+2714 S: Request failed. Please try again.
+   T: La solicitud ha fallado. Inténtalo de nuevo.
+2715 S: Save Links
+   T: Guardar enlaces
+2716 S: Cancel
+   T: Cancelar
+2717 S: match score
+   T: puntuación de coincidencia
+2718 S: Lookup failed.
+   T: La búsqueda ha fallado.
+2719 S: No matching entities found. Google may not recognise this brand yet.
+   T: No se han encontrado entidades coincidentes. Es posible que Google aún no reconozca esta marca.
+2720 S: Knowledge Graph ID:
+   T: ID de Knowledge Graph:
+2721 S: preview
+   T: vista previa
+2722 S: Links saved. Rescanning…
+   T: Enlaces guardados. Volviendo a analizar…
+2723 S: Save failed.
+   T: No se ha podido guardar.
+2724 S: Saved successfully.
+   T: Guardado correctamente.
+2725 S: FAQ Detector
+   T: Detector de FAQ
+2726 S: %1$d pages with FAQ content found — %2$d missing FAQPage schema
+   T: %1$d páginas con contenido de FAQ encontradas: a %2$d les falta el schema FAQPage
+2727 S: Pages with FAQ Content
+   T: Páginas con contenido de FAQ
+2728 S: Missing FAQPage Schema
+   T: Falta el schema FAQPage
+2729 S: Detection Methods
+   T: Métodos de detección
+2730 S: This detector looks for FAQ-style content using six strategies, in order:
+   T: Este detector busca contenido de tipo FAQ con seis estrategias, en este orden:
+2731 S: Gutenberg FAQ blocks (core, Rank Math, Yoast)
+   T: Bloques de FAQ de Gutenberg (core, Rank Math, Yoast)
+2732 S: Accordion blocks (GenerateBlocks, Kadence, Stackable, Otter, and others)
+   T: Bloques de acordeón (GenerateBlocks, Kadence, Stackable, Otter y otros)
+2733 S: Yoast FAQ block in post content
+   T: Bloque de FAQ de Yoast en el contenido de la entrada
+2734 S: H3/H4 heading followed by paragraph — classic Q&A layout (2+ pairs required)
+   T: Encabezado H3/H4 seguido de un párrafo: el formato clásico de pregunta y respuesta (se necesitan 2 pares o más)
+2735 S: Question-word headings: What, How, Why, Can, Is, Are, Do, Does, Will, Should (2+ required)
+   T: Encabezados con palabras interrogativas: What, How, Why, Can, Is, Are, Do, Does, Will, Should, y sus equivalentes (se necesitan 2 o más)
+2736 S: Numbered Q&A paragraphs: Q1:, Q2:, Q: prefix pattern (2+ required)
+   T: Párrafos de preguntas y respuestas numerados: patrón con prefijo Q1:, Q2:, Q: (se necesitan 2 o más)
+2737 S: Generate All (%d missing)
+   T: Generar todos (faltan %d)
+2738 S: No pages with FAQ-style content were detected. Once you add FAQ blocks, accordion sections, or Q&A-style headings to a page, it will appear here.
+   T: No se ha detectado ninguna página con contenido de tipo FAQ. Cuando añadas a una página bloques de FAQ, secciones de acordeón o encabezados de tipo pregunta y respuesta, aparecerá aquí.
+2739 S: Detection Method
+   T: Método de detección
+2740 S: Q&A Pairs
+   T: Pares de pregunta y respuesta
+2741 S: FAQPage Schema
+   T: Schema FAQPage
+2742 S: Add FAQPage schema
+   T: Añadir schema FAQPage
+2743 S: How to Add FAQPage Schema
+   T: Cómo añadir el schema FAQPage
+2744 S: FAQPage schema tells AI systems and search engines that this page directly answers questions. Here are the easiest ways to add it:
+   T: El schema FAQPage indica a los sistemas de IA y a los buscadores que esta página responde directamente a preguntas. Estas son las formas más fáciles de añadirlo:
+2745 S: Rank Math: Add the Rank Math FAQ block to your page — it generates FAQPage schema automatically.
+   T: Rank Math: añade a tu página el bloque de FAQ de Rank Math; genera el schema FAQPage automáticamente.
+2746 S: Yoast SEO: Use the Yoast FAQ block inside the Gutenberg editor — it generates FAQPage schema automatically.
+   T: Yoast SEO: usa el bloque de FAQ de Yoast en el editor Gutenberg; genera el schema FAQPage automáticamente.
+2747 S: Use a plugin like Rank Math or Yoast SEO to add FAQPage schema through their FAQ block, or add the JSON-LD manually in your theme.
+   T: Usa un plugin como Rank Math o Yoast SEO para añadir el schema FAQPage con su bloque de FAQ, o añade el JSON-LD manualmente en tu tema.
+2748 S: Once added, save the page — TWT AEO Ultimate will re-scan and update the status here.
+   T: Una vez añadido, guarda la página: TWT AEO Ultimate volverá a explorarla y actualizará el estado aquí.
+2749 S: Nothing to generate.
+   T: No hay nada que generar.
+2750 S: saved
+   T: guardado
+2751 S: skipped
+   T: omitido
+2752 S: Processing
+   T: Procesando
+2753 S: Regenerate
+   T: Regenerar
+2754 S: Schema
+   T: Schema
+2755 S: No published posts or pages with images were found.
+   T: No se han encontrado entradas ni páginas publicadas con imágenes.
+2756 S: Images
+   T: Imágenes
+2757 S: Alt Coverage
+   T: Cobertura del texto alternativo
+2758 S: Generate alt (AI)
+   T: Generar texto alternativo (IA)
+2759 S: Use this image
+   T: Usar esta imagen
+2760 S: Settings saved.
+   T: Ajustes guardados.
+2761 S: API key regenerated. Your old key file URL is no longer valid — search engines will re-verify on the next submission.
+   T: Clave de API regenerada. La URL de tu antiguo archivo de clave ya no es válida: los buscadores volverán a verificarla en el próximo envío.
+2762 S: IndexNow is already active in %s. Disable it there first to avoid double-submissions.
+   T: IndexNow ya está activo en %s. Desactívalo allí primero para evitar envíos duplicados.
+2763 S: Your Key
+   T: Tu clave
+2764 S: Key File URL
+   T: URL del archivo de clave
+2765 S: Verify Key File
+   T: Verificar archivo de clave
+2766 S: Open
+   T: Abrir
+2767 S: This file is served automatically by the plugin — no upload required. Search engines fetch it to confirm you own the site.
+   T: El plugin sirve este archivo automáticamente: no hace falta subirlo. Los buscadores lo descargan para confirmar que el sitio es tuyo.
+2768 S: Regenerate Key
+   T: Regenerar clave
+2769 S: Generate New Key
+   T: Generar clave nueva
+2770 S: This will invalidate your current key. Are you sure?
+   T: Esto invalidará tu clave actual. ¿Seguro?
+2771 S: Only do this if your key has been compromised. Search engines will re-verify automatically on the next submission.
+   T: Hazlo solo si tu clave se ha visto comprometida. Los buscadores volverán a verificarla automáticamente en el próximo envío.
+2772 S: Submission Settings
+   T: Ajustes de envío
+2773 S: Or submit directly to individual engines — redundant if api.indexnow.org is already checked above.
+   T: O envía directamente a buscadores concretos: es redundante si api.indexnow.org ya está marcado arriba.
+2774 S: Auto-Submit on Publish
+   T: Envío automático al publicar
+2775 S: Automatically ping IndexNow when a post is published or updated
+   T: Avisar automáticamente a IndexNow cuando se publica o actualiza una entrada
+2776 S: Post Types to Watch
+   T: Tipos de contenido que vigilar
+2777 S: Save Settings
+   T: Guardar ajustes
+2778 S: Manual URL Submission
+   T: Envío manual de URL
+2779 S: Enter one URL per line. Useful for bulk submission after a site migration or when auto-submit is disabled.
+   T: Introduce una URL por línea. Útil para envíos por lotes tras una migración del sitio o cuando el envío automático está desactivado.
+2780 S: Submit URLs
+   T: Enviar URL
+2781 S: Submit All Published URLs
+   T: Enviar todas las URL publicadas
+2782 S: Submission Log
+   T: Registro de envíos
+2783 S: (last %d)
+   T: (últimos %d)
+2784 S: Clear the submission log?
+   T: ¿Vaciar el registro de envíos?
+2785 S: No submissions yet.
+   T: Todavía no hay envíos.
+2786 S: URLs Submitted
+   T: URL enviadas
+2787 S: Instantly notify Bing, Yandex, and other IndexNow-compatible search engines when your content is published or updated — no waiting for the next crawl.
+   T: Avisa al instante a Bing, Yandex y otros buscadores compatibles con IndexNow cuando publicas o actualizas contenido, sin esperar al siguiente rastreo.
+2788 S: Monday
+   T: Lunes
+2789 S: Tuesday
+   T: Martes
+2790 S: Wednesday
+   T: Miércoles
+2791 S: Thursday
+   T: Jueves
+2792 S: Friday
+   T: Viernes
+2793 S: Saturday
+   T: Sábado
+2794 S: Sunday
+   T: Domingo
+2795 S: Mon
+   T: Lun
+2796 S: Tue
+   T: Mar
+2797 S: Wed
+   T: Mié
+2798 S: Thu
+   T: Jue
+2799 S: Fri
+   T: Vie
+2800 S: Sat
+   T: Sáb
+2801 S: Sun
+   T: Dom
+2802 S: Build your LocalBusiness schema, check NAP consistency on Google and Bing, and configure where your schema outputs.
+   T: Crea tu schema LocalBusiness, comprueba la coherencia de NAP en Google y Bing y configura dónde se genera tu schema.
+2803 S: Auto-Fill from Site
+   T: Rellenar automáticamente desde el sitio
+2804 S: Business Identity
+   T: Identidad del negocio
+2805 S: Business Name
+   T: Nombre del negocio
+2806 S: Business Type
+   T: Tipo de negocio
+2807 S: Type to search (e.g. plumber, restaurant)…
+   T: Escribe para buscar (p. ej., fontanero, restaurante)…
+2808 S: Narrows the schema @type to the most specific matching schema.org subtype.
+   T: Acota el @type del schema al subtipo de schema.org más específico que coincida.
+2809 S: Email
+   T: Correo electrónico
+2810 S: Defaults to your homepage if left blank.
+   T: Si se deja vacío, se usa tu página de inicio.
+2811 S: Price Range
+   T: Rango de precios
+2812 S: — None —
+   T: — Ninguno —
+2813 S: Street Address
+   T: Dirección
+2814 S: State
+   T: Estado / provincia
+2815 S: ZIP
+   T: Código postal
+2816 S: Country
+   T: País
+2817 S: Coordinates
+   T: Coordenadas
+2818 S: Latitude
+   T: Latitud
+2819 S: Longitude
+   T: Longitud
+2820 S: Used to localize Bing NAP checks and populate geo schema.
+   T: Se usa para localizar las comprobaciones de NAP en Bing y rellenar el schema geográfico.
+2821 S: Google Maps URL
+   T: URL de Google Maps
+2822 S: Output as hasMap in schema. Find it in your GBP → Share → Copy link.
+   T: Se genera como hasMap en el schema. Encuéntrala en tu perfil de empresa de Google → Compartir → Copiar enlace.
+2823 S: Opening Hours
+   T: Horario de apertura
+2824 S: Each row maps one or more days to an open/close time. Add multiple rows for split shifts or weekend-only hours.
+   T: Cada fila asigna uno o varios días a una hora de apertura y de cierre. Añade varias filas para horarios partidos o solo de fin de semana.
+2825 S: to
+   T: a
+2826 S: ✕ Remove
+   T: ✕ Quitar
+2827 S: + Add Hours Row
+   T: + Añadir fila de horario
+2828 S: Leave "closes" as 00:00 for businesses open past midnight.
+   T: Deja «cierra» en 00:00 para negocios abiertos después de medianoche.
+2829 S: Images & Service Area
+   T: Imágenes y zona de servicio
+2830 S: Select from Media Library
+   T: Seleccionar de la biblioteca de medios
+2831 S: Or paste an image URL…
+   T: O pega la URL de una imagen…
+2832 S: Photo
+   T: Foto
+2833 S: Used as the image property in LocalBusiness schema (e.g. a photo of your storefront).
+   T: Se usa como propiedad image en el schema LocalBusiness (p. ej., una foto de la fachada de tu tienda).
+2834 S: Area Served
+   T: Zona de servicio
+2835 S: Comma-separated cities, regions, or states. Output as areaServed in schema.
+   T: Ciudades, regiones o estados separados por comas. Se genera como areaServed en el schema.
+2836 S: Google NAP Check
+   T: Comprobación de NAP en Google
+2837 S: Choose how to check your NAP against Google:
+   T: Elige cómo comprobar tu NAP con Google:
+2838 S: Knowledge Graph API
+   T: API de Knowledge Graph
+2839 S: Searches Google's public Knowledge Graph entity database for your business. Free to use — requires a Google Cloud API key. No account login needed. Returns what Google's knowledge base currently says about your business entity.
+   T: Busca tu negocio en la base de datos pública de entidades Knowledge Graph de Google. Gratis: requiere una clave de API de Google Cloud. No hace falta iniciar sesión con ninguna cuenta. Devuelve lo que la base de conocimiento de Google dice actualmente sobre tu entidad empresarial.
+2840 S: Google Business Profile (OAuth)
+   T: Perfil de empresa de Google (OAuth)
+2841 S: Connects directly to your Google Business Profile account via OAuth. Returns your authoritative, live GBP listing data — the exact NAP Google uses to populate the Local Pack. Requires signing in with the Google account that manages your GBP.
+   T: Se conecta directamente con tu cuenta del perfil de empresa de Google mediante OAuth. Devuelve los datos oficiales y en directo de tu ficha: el NAP exacto que usa Google para el Local Pack. Requiere iniciar sesión con la cuenta de Google que gestiona tu perfil de empresa.
+2842 S: Knowledge Graph API Key
+   T: Clave de API de Knowledge Graph
+2843 S: How to get a free API key
+   T: Cómo conseguir una clave de API gratuita
+2844 S: Go to <strong>console.cloud.google.com</strong> and create or select a project.
+   T: Ve a <strong>console.cloud.google.com</strong> y crea o selecciona un proyecto.
+2845 S: Search for <strong>Knowledge Graph Search API</strong> and enable it.
+   T: Busca <strong>Knowledge Graph Search API</strong> y habilítala.
+2846 S: Go to <strong>APIs & Services → Credentials → Create Credentials → API Key</strong>.
+   T: Ve a <strong>APIs y servicios → Credenciales → Crear credenciales → Clave de API</strong>.
+2847 S: Copy the key and paste it above. The API is free with generous limits.
+   T: Copia la clave y pégala arriba. La API es gratuita, con límites generosos.
+2848 S: Google Business Profile connected
+   T: Perfil de empresa de Google conectado
+2849 S: Check Google Business Profile
+   T: Comprobar el perfil de empresa de Google
+2850 S: Google OAuth credentials are not configured. Set up your Client ID and Secret in the <a href="%s">Command Center</a> first.
+   T: Las credenciales OAuth de Google no están configuradas. Configura primero tu ID de cliente y tu secreto en el <a href="%s">Centro de mando</a>.
+2851 S: Authorize access to your Google Business Profile. This uses the same Google OAuth app you configured in the Command Center but requests the additional Business Profile permission.
+   T: Autoriza el acceso a tu perfil de empresa de Google. Usa la misma app OAuth de Google que configuraste en el Centro de mando, pero solicita además el permiso del perfil de empresa.
+2852 S: Connect Google Business Profile
+   T: Conectar el perfil de empresa de Google
+2853 S: Bing NAP Check
+   T: Comprobación de NAP en Bing
+2854 S: Uses the Bing Maps Local Search API to find your business listing and compare NAP. Requires a free Bing Maps key (no Azure account needed).
+   T: Usa la API de búsqueda local de Bing Maps para encontrar la ficha de tu negocio y comparar el NAP. Requiere una clave gratuita de Bing Maps (no hace falta una cuenta de Azure).
+2855 S: Bing Maps API Key
+   T: Clave de API de Bing Maps
+2856 S: How to get a free Bing Maps API key
+   T: Cómo conseguir una clave de API gratuita de Bing Maps
+2857 S: Go to <strong>bingmapsportal.com</strong> and sign in with a Microsoft account (free to create).
+   T: Ve a <strong>bingmapsportal.com</strong> e inicia sesión con una cuenta de Microsoft (crearla es gratis).
+2858 S: Click <strong>My Keys</strong> in the top menu, then <strong>Create a new key</strong>.
+   T: Haz clic en <strong>My Keys</strong> en el menú superior y luego en <strong>Create a new key</strong>.
+2859 S: Application name: your site name. Key type: Basic. Application type: Dev/Test.
+   T: Nombre de la aplicación: el nombre de tu sitio. Tipo de clave: Basic. Tipo de aplicación: Dev/Test.
+2860 S: Click Create, copy your key, and paste it above.
+   T: Haz clic en Create, copia tu clave y pégala arriba.
+2861 S: Free tier includes 125,000 transactions/year — more than enough.
+   T: El nivel gratuito incluye 125.000 transacciones al año: más que suficiente.
+2862 S: Check Bing Maps
+   T: Comprobar Bing Maps
+2863 S: Schema Output
+   T: Salida del schema
+2864 S: Choose which pages the LocalBusiness JSON-LD is injected on.
+   T: Elige en qué páginas se inserta el JSON-LD LocalBusiness.
+2865 S: Output On
+   T: Generar en
+2866 S: Page IDs
+   T: ID de páginas
+2867 S: Comma-separated post/page IDs.
+   T: ID de entradas o páginas separados por comas.
+2868 S: Entity Validation Directories
+   T: Directorios de validación de la entidad
+2869 S: Based on your business type (%s), these are the top 5 free directories where a listing builds trusted entity signals for AI search engines. Consistent NAP data across authoritative directories tells AI assistants — and Google's Knowledge Graph — that your business is real, established, and worth surfacing in answers.
+   T: Según tu tipo de negocio (%s), estos son los 5 directorios gratuitos principales en los que una ficha genera señales de entidad fiables para los buscadores con IA. Unos datos NAP coherentes en directorios de referencia indican a los asistentes de IA —y al Knowledge Graph de Google— que tu negocio es real, está consolidado y merece aparecer en las respuestas.
+2870 S: Claim / List Your Business
+   T: Reclamar / dar de alta tu negocio
+2871 S: Essential Local Listings — Every Brick-and-Mortar Business
+   T: Fichas locales esenciales: para cualquier negocio físico
+2872 S: Regardless of your industry, these five platforms form the foundation of local entity validation. AI engines cross-reference them to confirm your business exists and that your NAP is consistent.
+   T: Sea cual sea tu sector, estas cinco plataformas son la base de la validación local de la entidad. Los motores de IA las cruzan para confirmar que tu negocio existe y que tu NAP es coherente.
+2873 S: Must Have
+   T: Imprescindible
+2874 S: High Value
+   T: Muy valioso
+2875 S: Optional
+   T: Opcional
+2876 S: Customer Review Platforms
+   T: Plataformas de reseñas de clientes
+2877 S: Best review sites for a %s
+   T: Los mejores sitios de reseñas para %s
+2878 S: Reviews on these platforms feed star ratings into AI search results and Google's Knowledge Panel. Consistent, high-quality reviews across these sites directly improve your Local Pack ranking and AEO visibility.
+   T: Las reseñas en estas plataformas aportan valoraciones con estrellas a los resultados de búsqueda con IA y al panel de conocimiento de Google. Unas reseñas coherentes y de calidad en estos sitios mejoran directamente tu posición en el Local Pack y tu visibilidad AEO.
+2879 S: Set Up Profile
+   T: Crear perfil
+2880 S: Links open the business/pro sign-up page in a new tab. Google Business Profile always applies — claim it first if you haven't already.
+   T: Los enlaces abren la página de alta para empresas/profesionales en una pestaña nueva. El perfil de empresa de Google siempre aplica: reclámalo primero si aún no lo has hecho.
+2881 S: Enable or disable features. Each module only runs when you need it.
+   T: Activa o desactiva características. Cada módulo solo se ejecuta cuando lo necesitas.
+2882 S: Free Modules
+   T: Módulos gratuitos
+2883 S: Pro Plugins
+   T: Plugins Pro
+2884 S: Standalone
+   T: Independiente
+2885 S: Available
+   T: Disponible
+2886 S: Learn More
+   T: Más información
+2887 S: TWT Agency
+   T: TWT Agency
+2888 S: PRO
+   T: PRO
+2889 S: Settings appear under: %s
+   T: Los ajustes aparecen en: %s
+2890 S: Manage your Google News sitemap and NewsArticle schema. Only posts published in the last 2 days appear in the news sitemap — this is a Google requirement.
+   T: Gestiona tu mapa del sitio de Google News y el schema NewsArticle. En el mapa del sitio de noticias solo aparecen las entradas publicadas en los últimos 2 días: es un requisito de Google.
+2891 S: News Sitemap:
+   T: Mapa del sitio de noticias:
+2892 S: Fallback:
+   T: Alternativa:
+2893 S: Sitemap Preview
+   T: Vista previa del mapa del sitio
+2894 S: Publication
+   T: Publicación
+2895 S: These values populate the &lt;news:publication&gt; element in your news sitemap.
+   T: Estos valores rellenan el elemento &lt;news:publication&gt; de tu mapa del sitio de noticias.
+2896 S: Publication Name
+   T: Nombre de la publicación
+2897 S: Defaults to your site name if left blank.
+   T: Si se deja vacío, se usa el nombre de tu sitio.
+2898 S: Language
+   T: Idioma
+2899 S: Derived from your WordPress site language setting.
+   T: Se obtiene del ajuste de idioma de tu sitio WordPress.
+2900 S: Post Types
+   T: Tipos de contenido
+2901 S: Choose which post types are eligible for the news sitemap and NewsArticle schema. The Google News metabox will appear on all enabled types.
+   T: Elige qué tipos de contenido pueden entrar en el mapa del sitio de noticias y el schema NewsArticle. La caja meta de Google News aparecerá en todos los tipos activados.
+2902 S: Options
+   T: Opciones
+2903 S: Ping Google on Publish
+   T: Avisar a Google al publicar
+2904 S: Notify Google when a new article is published
+   T: Notificar a Google cuando se publica un artículo nuevo
+2905 S: Sends a GET request to google.com/ping with your news sitemap URL. Fires instantly on publish_post.
+   T: Envía una solicitud GET a google.com/ping con la URL de tu mapa del sitio de noticias. Se dispara al instante con publish_post.
+2906 S: NewsArticle Schema
+   T: Schema NewsArticle
+2907 S: Output NewsArticle JSON-LD on enabled post types
+   T: Generar JSON-LD NewsArticle en los tipos de contenido activados
+2908 S: Includes full author Person node (from Author Entity) and publisher Organization. Automatically deferred if Yoast or Rank Math already declares NewsArticle schema.
+   T: Incluye el nodo Person completo del autor (de Entidad de autor) y la Organization editora. Se omite automáticamente si Yoast o Rank Math ya declaran el schema NewsArticle.
+2909 S: Schema Structure
+   T: Estructura del schema
+2910 S: This is the NewsArticle schema structure output on each eligible post.
+   T: Esta es la estructura del schema NewsArticle que se genera en cada entrada válida.
+2911 S: Current News Sitemap Entries
+   T: Entradas actuales del mapa del sitio de noticias
+2912 S: View Raw XML
+   T: Ver XML sin procesar
+2913 S: A post appears here only when it is marked as a Google News article (in the post's "Google News" box) AND was published within the last 48 hours — Google's freshness requirement.
+   T: Una entrada solo aparece aquí cuando está marcada como artículo de Google News (en la caja «Google News» de la entrada) Y se publicó en las últimas 48 horas: el requisito de actualidad de Google.
+2914 S: No news articles in the last 48 hours.
+   T: No hay artículos de noticias en las últimas 48 horas.
+2915 S: Mark a recent post as a Google News article in its "Google News" box and it will appear here.
+   T: Marca una entrada reciente como artículo de Google News en su caja «Google News» y aparecerá aquí.
+2916 S: Published
+   T: Publicado
+2917 S: Section
+   T: Sección
+2918 S: Keywords
+   T: Palabras clave
+2919 S: ago
+   T: hace
+2920 S: NewsArticle schema active
+   T: Schema NewsArticle activo
+2921 S: Schema disabled in settings
+   T: Schema desactivado en los ajustes
+2922 S: %d entry in the news sitemap. || %d entries in the news sitemap.
+   T: [0] %d entrada en el mapa del sitio de noticias. || [1] %d entradas en el mapa del sitio de noticias.
+2923 S: Cache TTL: 5 minutes.
+   T: Duración de la caché: 5 minutos.
+2924 S: News settings saved.
+   T: Ajustes de noticias guardados.
+2925 S: Not Indexed Pages
+   T: Páginas no indexadas
+2926 S: pages not indexed
+   T: páginas no indexadas
+2927 S: Google Search Console Not Connected
+   T: Google Search Console no está conectado
+2928 S: Connect Google Search Console to detect pages that are published but not appearing in Google search results. Once connected, run a scan from the Command Center to populate this report.
+   T: Conecta Google Search Console para detectar páginas publicadas que no aparecen en los resultados de búsqueda de Google. Una vez conectado, ejecuta una exploración desde el Centro de mando para rellenar este informe.
+2929 S: → Connect in Command Center
+   T: → Conectar en el Centro de mando
+2930 S: No Scan Data Yet
+   T: Todavía no hay datos de exploración
+2931 S: GSC is connected but no URL inspection results are stored. Go to the Command Center and run an index status scan to identify not-indexed pages.
+   T: GSC está conectado, pero no hay resultados de inspección de URL guardados. Ve al Centro de mando y ejecuta una exploración del estado de indexación para identificar las páginas no indexadas.
+2932 S: → Run Scan in Command Center
+   T: → Ejecutar exploración en el Centro de mando
+2933 S: All Scanned Pages Are Indexed
+   T: Todas las páginas exploradas están indexadas
+2934 S: Great news — every scanned page is confirmed indexed by Google. Run a fresh scan periodically to catch newly published or de-indexed pages.
+   T: Buenas noticias: Google confirma que todas las páginas exploradas están indexadas. Ejecuta una exploración nueva de vez en cuando para detectar páginas recién publicadas o desindexadas.
+2935 S: %d page(s) are published but not appearing in Google search results.
+   T: %d página(s) están publicadas pero no aparecen en los resultados de búsqueda de Google.
+2936 S: Google's Reason
+   T: Motivo según Google
+2937 S: Issues Found
+   T: Problemas encontrados
+2938 S: Last Crawled
+   T: Último rastreo
+2939 S: Unknown
+   T: Desconocido
+2940 S: No heuristic issues
+   T: Sin problemas heurísticos
+2941 S: %d words
+   T: %d palabras
+2942 S: PR Bridge — Media Report
+   T: PR Bridge — Informe de medios
+2943 S: Track every press release distributed through PR Bridge AI.
+   T: Sigue cada nota de prensa distribuida a través de PR Bridge AI.
+2944 S: Finish setting up PR Bridge AI
+   T: Termina de configurar PR Bridge AI
+2945 S: Claude API key — needed to transform posts into AP-style copy
+   T: Clave de API de Claude: necesaria para transformar las entradas en textos de estilo AP
+2946 S: Claude API key — configured
+   T: Clave de API de Claude: configurada
+2947 S: Wire service key — needed to distribute (EIN Presswire or EasyPRWire)
+   T: Clave del servicio de distribución: necesaria para distribuir (EIN Presswire o EasyPRWire)
+2948 S: Wire service key — configured
+   T: Clave del servicio de distribución: configurada
+2949 S: No press releases distributed yet.
+   T: Todavía no se ha distribuido ninguna nota de prensa.
+2950 S: When you submit a post to a wire service via the PR Bridge panel, it will appear here.
+   T: Cuando envíes una entrada a un servicio de distribución desde el panel de PR Bridge, aparecerá aquí.
+2951 S: Post / Page
+   T: Entrada / página
+2952 S: Provider
+   T: Proveedor
+2953 S: Submitted
+   T: Enviado
+2954 S: Release Link
+   T: Enlace a la nota
+2955 S: Distributed
+   T: Distribuida
+2956 S: Failed
+   T: Fallida
+2957 S: View release
+   T: Ver nota
+2958 S: Edit Post
+   T: Editar entrada
+2959 S: %d release distributed || %d releases distributed
+   T: [0] %d nota distribuida || [1] %d notas distribuidas
+2960 S: Code
+   T: Código
+2961 S: Manage customer reviews and schema output. Reviews power your AggregateRating and Review schema in search results.
+   T: Gestiona las reseñas de clientes y la salida del schema. Las reseñas alimentan tu schema AggregateRating y Review en los resultados de búsqueda.
+2962 S: Total
+   T: Total
+2963 S: Approved
+   T: Aprobadas
+2964 S: Pending
+   T: Pendientes
+2965 S: Avg Rating
+   T: Valoración media
+2966 S: Schema Context
+   T: Contexto del schema
+2967 S: override
+   T: manual
+2968 S: auto-detected
+   T: detectado automáticamente
+2969 S: All
+   T: Todas
+2970 S: + Embed on your site
+   T: + Incrustar en tu sitio
+2971 S: No reviews found.
+   T: No se han encontrado reseñas.
+2972 S: Add the [twtaeo_review_form] shortcode to any page to start collecting reviews.
+   T: Añade el shortcode [twtaeo_review_form] a cualquier página para empezar a recoger reseñas.
+2973 S: Reviewer
+   T: Autor de la reseña
+2974 S: Rating
+   T: Valoración
+2975 S: Date
+   T: Fecha
+2976 S: %d out of 5
+   T: %d de 5
+2977 S: Approve
+   T: Aprobar
+2978 S: Unapprove
+   T: Desaprobar
+2979 S: Delete this review? This cannot be undone.
+   T: ¿Borrar esta reseña? No se puede deshacer.
+2980 S: — Select your business type —
+   T: — Selecciona tu tipo de negocio —
+2981 S: Home Services
+   T: Servicios para el hogar
+2982 S: Retail
+   T: Comercio minorista
+2983 S: Industrial / B2B
+   T: Industrial / B2B
+2984 S: Healthcare
+   T: Salud
+2985 S: Legal
+   T: Legal
+2986 S: Real Estate
+   T: Inmobiliaria
+2987 S: Restaurant / Food & Drink
+   T: Restaurante / comida y bebida
+2988 S: Automotive
+   T: Automoción
+2989 S: Financial Services
+   T: Servicios financieros
+2990 S: General / Other
+   T: General / otro
+2991 S: Business Category
+   T: Categoría del negocio
+2992 S: Select your industry to see which review platforms matter most for your business. Recommendations appear on the Reviews tab.
+   T: Selecciona tu sector para ver qué plataformas de reseñas importan más para tu negocio. Las recomendaciones aparecen en la pestaña Reseñas.
+2993 S: Review Form
+   T: Formulario de reseñas
+2994 S: Controls the [twtaeo_review_form] shortcode behavior.
+   T: Controla el comportamiento del shortcode [twtaeo_review_form].
+2995 S: Show Form
+   T: Mostrar formulario
+2996 S: Enable the front-end review submission form
+   T: Activar el formulario público para enviar reseñas
+2997 S: Auto-Approve
+   T: Aprobación automática
+2998 S: Automatically publish new reviews without moderation
+   T: Publicar automáticamente las reseñas nuevas sin moderación
+2999 S: Leave unchecked to hold new reviews for manual approval in the Reviews tab.
+   T: Déjalo sin marcar para retener las reseñas nuevas hasta aprobarlas a mano en la pestaña Reseñas.
+3000 S: Require Email
+   T: Exigir correo electrónico

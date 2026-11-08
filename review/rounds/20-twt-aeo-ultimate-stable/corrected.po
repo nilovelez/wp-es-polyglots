@@ -1,0 +1,2298 @@
+# Translation of Plugins - TWT AEO Ultimate - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - TWT AEO Ultimate - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: +0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.1.0\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - TWT AEO Ultimate - Stable (latest release)\n"
+
+#: admin/class-admin-assets.php:326
+msgid "Not you — we will not ask again."
+msgstr "No eres tú — no volveremos a preguntar."
+
+#: admin/class-admin-assets.php:329
+msgid "Changed — click “Save question set” to keep it."
+msgstr "Modificado — haz clic en «Guardar conjunto de preguntas» para conservarlo."
+
+#: admin/pages/class-page-ai-visibility.php:2596
+msgid "Your name is in the account part of these addresses. Yes adds the page to what counts as you and re-scores your kept runs for free; No means we never ask about it again. Other sites often make pages about a product — only say yes to the ones you run."
+msgstr "Tu nombre aparece en la parte de la cuenta de estas direcciones. Sí añade la página a lo que cuenta como tú y vuelve a puntuar gratis tus ejecuciones guardadas; No significa que no volveremos a preguntar por ella. Otros sitios suelen crear páginas sobre un producto — di que sí solo a las que gestionas tú."
+
+#: admin/pages/class-page-ai-visibility.php:2642
+msgid "Pages other sites wrote about you — reviews, comparisons, roundups — that the engines cited in this run, plus listings still waiting for your answer above. They are counted as their own slice, not as competitors."
+msgstr "Páginas que otros sitios escribieron sobre ti —reseñas, comparativas, recopilaciones— que los motores citaron en esta ejecución, además de las fichas que siguen esperando tu respuesta arriba. Se cuentan como una porción propia, no como competidores."
+
+#: includes/class-visibility.php:596
+msgid "Noted — we will not ask about that page again."
+msgstr "Entendido — no volveremos a preguntar por esa página."
+
+#: includes/class-visibility.php:604
+msgid "Added to the pages your company owns. Your kept runs were re-scored — reload to see the new numbers."
+msgstr "Añadida a las páginas propiedad de tu empresa. Tus ejecuciones guardadas se han vuelto a puntuar — recarga para ver las cifras nuevas."
+
+#: admin/class-admin-assets.php:306
+msgid "still out. Safe to close this page — the run finishes on its own."
+msgstr "aún pendientes. Puedes cerrar esta página — la ejecución termina por sí sola."
+
+#. translators: %s: time since the run.
+#: admin/pages/class-page-rag-engine.php:227
+msgid "Last run %s ago. Feeds AI Citations — the RAG Engine reads these results and never re-runs them. A new run shows up there by itself as soon as it has answers; nothing needs rebuilding."
+msgstr "Última ejecución hace %s. Alimenta citas de IA — el motor RAG lee estos resultados y nunca los vuelve a ejecutar. Una ejecución nueva aparece allí sola en cuanto tiene respuestas; no hace falta reconstruir nada."
+
+#: admin/pages/class-page-rag-engine.php:859
+msgid "set to private"
+msgstr "establecida como privada"
+
+#: includes/class-ai-models.php:80
+msgid "GPT-6.1 Sol — near-Astra quality, higher cost"
+msgstr "GPT-6.1 Sol — calidad cercana a Astra, coste mayor"
+
+#: includes/class-ai-models.php:81
+msgid "GPT-6 Sol — previous Sol"
+msgstr "GPT-6 Sol — Sol anterior"
+
+#: admin/pages/class-page-ai-ready.php:402
+msgid "How it works: /llms.txt is built by PHP on each request, so it always reflects your latest published pages and every AI crawler visit is recorded in the Crawler Log. Pages set to noindex in your SEO plugin, password-protected pages, and WooCommerce cart, checkout and account pages are left out."
+msgstr "Cómo funciona: PHP genera /llms.txt en cada solicitud, así que siempre refleja tus últimas páginas publicadas y cada visita de un rastreador de IA se registra en el registro de rastreadores. Se excluyen las páginas establecidas como noindex en tu plugin de SEO, las páginas protegidas con contraseña y las páginas de carrito, finalizar compra y cuenta de WooCommerce."
+
+#: includes/class-abilities.php:89
+msgid "Results of the latest AI Visibility run: for each AI engine (ChatGPT, Gemini, Claude and others), how many tracked questions cited this site, mentioned it without a link, or did not cite it, plus the per-question result. Answers \"am I showing up in AI answers?\"."
+msgstr "Resultados de la última ejecución de visibilidad en IA: para cada motor de IA (ChatGPT, Gemini, Claude y otros), cuántas preguntas supervisadas citaron este sitio, lo mencionaron sin enlace o no lo citaron, además del resultado por pregunta. Úsalo para responder a «¿aparezco en las respuestas de IA?»."
+
+#: includes/class-abilities.php:144
+msgid "From the RAG Engine: questions AI engines answered without citing this site that the owner's uploaded documents could answer, and follow-up questions the engines predicted that no page or document answers yet."
+msgstr "Del motor RAG: preguntas que los motores de IA respondieron sin citar este sitio y que los documentos subidos por el propietario podrían responder, y preguntas de seguimiento predichas por los motores que todavía no responde ninguna página ni documento."
+
+#. translators: %s: Diagnostics reference code.
+#: includes/class-abilities.php:398
+msgid "AEO Ultimate could not read this data. Reference %s on the Diagnostics page."
+msgstr "AEO Ultimate no ha podido leer estos datos. Referencia %s en la página de diagnóstico."
+
+#: includes/class-abilities.php:418
+msgid "No AI Visibility run with results yet. Run one from AEO Ultimate → AI Visibility."
+msgstr "Todavía no hay ninguna ejecución de visibilidad en IA con resultados. Ejecuta una desde AEO Ultimate → Visibilidad en IA."
+
+#: includes/class-abilities.php:832
+msgid "The RAG Engine module is off. Turn it on under AEO Ultimate → Modules and upload documents to find content gaps."
+msgstr "El módulo motor RAG está desactivado. Actívalo en AEO Ultimate → Módulos y sube documentos para encontrar carencias de contenido."
+
+#: includes/class-abilities.php:874
+msgid "missed_citations_docs_answer: questions AI engines answered without citing this site, where the owner's uploaded documents hold the answer. Adding that answer to the listed page is the fix."
+msgstr "missed_citations_docs_answer: preguntas que los motores de IA respondieron sin citar este sitio, en las que los documentos subidos por el propietario contienen la respuesta. La corrección es añadir esa respuesta a la página indicada."
+
+#: admin/class-admin-assets.php:323
+msgid "Buyer personas were suggested from your site — pick one under “Ask as” for your next run."
+msgstr "Se han sugerido perfiles de comprador a partir de tu sitio — elige uno en «Preguntar como» para tu siguiente ejecución."
+
+#: admin/class-admin-assets.php:365
+msgid "That’s the maximum — remove one to add another."
+msgstr "Ese es el máximo — elimina uno para añadir otro."
+
+#: admin/pages/class-page-ai-visibility.php:676
+msgid "The consumer assistants know things about the person asking, and their answers change with it. A run can be asked as one of your buyers — the persona goes to the assistant as background about the user, the way the apps do it, and the question itself is sent exactly as written. Each answer also comes back with the follow-up questions that engine expects this person to ask next."
+msgstr "Los asistentes de consumo saben cosas de la persona que pregunta, y sus respuestas cambian según ella. Una ejecución puede preguntar como uno de tus compradores — el perfil llega al asistente como información de fondo sobre el usuario, igual que en las apps, y la pregunta se envía exactamente como está escrita. Cada respuesta incluye además las preguntas de seguimiento que ese motor espera que haga esa persona."
+
+#: admin/pages/class-page-ai-visibility.php:681
+msgid "Runs still work without them — they ask as nobody in particular, and follow-ups are recorded either way. Type your own, or let the plugin suggest some from your main pages."
+msgstr "Las ejecuciones funcionan igual sin ellos — preguntan como nadie en particular, y los seguimientos se registran en cualquier caso. Escribe los tuyos o deja que el plugin sugiera algunos a partir de tus páginas principales."
+
+#: admin/pages/class-page-ai-visibility.php:689
+msgid "— edit it in either place."
+msgstr "— edítala en cualquiera de los dos sitios."
+
+#: admin/pages/class-page-ai-visibility.php:723
+msgid "Type a persona and press Enter — e.g. machine shop owner"
+msgstr "Escribe un perfil y pulsa Intro — p. ej., dueño de un taller mecánico"
+
+#: admin/pages/class-page-ai-visibility.php:726
+msgid "Enter or a comma adds one; paste a comma-separated list to add several. Click a persona to edit it. Up to 10 — each run is asked as one of them."
+msgstr "Intro o una coma añade uno; pega una lista separada por comas para añadir varios. Haz clic en un perfil para editarlo. Hasta 10 — cada ejecución pregunta como uno de ellos."
+
+#: admin/pages/class-page-ai-visibility.php:1179
+msgid "One persona per run, so its numbers compare like with like. To see each buyer, run once per persona — each run costs the same number of checks."
+msgstr "Un perfil por ejecución, para que sus cifras se comparen en igualdad de condiciones. Para ver a cada comprador, haz una ejecución por perfil — cada ejecución cuesta el mismo número de comprobaciones."
+
+#: admin/pages/class-page-ai-visibility.php:1186
+msgid "Off — first answers only"
+msgstr "Desactivado — solo primeras respuestas"
+
+#: admin/pages/class-page-ai-visibility.php:1440
+msgid "One row per question asked, each followed by the follow-up questions that engine predicted — with the persona, the verdict, the full answer and pattern columns (brand and subject position, model numbers, place, hiring or how-to). Every row names the site and business type, so exports from several sites stack into one sheet. Follow-ups are each engine’s prediction, not questions real users typed."
+msgstr "Una fila por pregunta hecha, seguida de las preguntas de seguimiento que predijo ese motor — con el perfil, el veredicto, la respuesta completa y columnas de patrones (posición de la marca y del tema, números de modelo, lugar, contratación o guía práctica). Cada fila indica el sitio y el tipo de negocio, para que las exportaciones de varios sitios se apilen en una sola hoja. Los seguimientos son la predicción de cada motor, no preguntas que hayan escrito usuarios reales."
+
+#: admin/pages/class-page-ai-visibility.php:1706
+msgid "↳ Follow-up rows: each engine asked its own next question — hover a dot to see it, click to read the conversation."
+msgstr "Cada motor hizo su propia siguiente pregunta — al pasar el cursor sobre un punto, la verás; haz clic para leer la conversación."
+
+#: admin/pages/class-page-local-pack.php:192
+msgid "Who buys from you. AI Visibility asks the assistants as each of these people to show how answers change per customer. Saved with this form; the same list is on the AI Visibility page."
+msgstr "Quién te compra. Visibilidad en IA pregunta a los asistentes como cada una de estas personas para mostrar cómo cambian las respuestas según el cliente. Se guarda con este formulario; la misma lista está en la página de visibilidad en IA."
+
+#: admin/pages/class-page-rag-engine.php:566
+msgid "With each answer, the AI engines also predict what the buyer is likely to ask next. These are those follow-up questions, checked against your pages and your documents. They are each engine's prediction — not questions real people typed — so treat them as a map of where the conversation goes after the first answer."
+msgstr "Con cada respuesta, los motores de IA también predicen qué es probable que pregunte después el comprador. Estas son esas preguntas de seguimiento, comprobadas con tus páginas y tus documentos. Son la predicción de cada motor —no preguntas que haya escrito gente real—, así que tómalas como un mapa de hacia dónde va la conversación después de la primera respuesta."
+
+#: admin/pages/class-page-rag-engine.php:571
+msgid "The latest AI Visibility run recorded no follow-up questions. Runs from before follow-ups were added have none — run a new check to see them here."
+msgstr "La última ejecución de visibilidad en IA no registró preguntas de seguimiento. Las ejecuciones anteriores a la incorporación de los seguimientos no los tienen — ejecuta una comprobación nueva para verlos aquí."
+
+#: admin/pages/class-page-rag-engine.php:621
+msgid "Neither your pages nor your documents cover these. They are the next thing your buyers are expected to ask — content that answers them gives the engines something of yours to cite at the next step of the conversation."
+msgstr "Ni tus páginas ni tus documentos las cubren. Son lo siguiente que se espera que pregunten tus compradores — un contenido que las responda da a los motores algo tuyo que citar en el siguiente paso de la conversación."
+
+#. translators: %s: "Settings" link.
+#: admin/pages/class-page-reviews.php:701
+msgid "Set your business category in %s to see a personalized list of the top review platforms for your industry."
+msgstr "Establece la categoría de tu negocio en %s para ver una lista personalizada de las principales plataformas de reseñas de tu sector."
+
+#: includes/ai-visibility/class-visibility-personas.php:220
+msgid "There isn’t enough text on your main pages to suggest personas from. Add a few by hand — the people who research, choose or buy what you sell."
+msgstr "No hay suficiente texto en tus páginas principales para sugerir perfiles. Añade algunos a mano — las personas que investigan, eligen o compran lo que vendes."
+
+#: includes/class-visibility.php:434
+msgid "Nothing new to suggest — your list already covers what your pages describe."
+msgstr "No hay nada nuevo que sugerir — tu lista ya cubre lo que describen tus páginas."
+
+#: admin/pages/class-page-documents.php:630
+msgid "Quote exactly — word for word, with its citation (laws, codes, safety data, contracts)"
+msgstr "Citar literalmente — palabra por palabra, con su referencia (leyes, normas, datos de seguridad, contratos)"
+
+#: admin/pages/class-page-documents.php:631
+msgid "Explain from this document — may be put in your own words, credited to the document"
+msgstr "Explicar a partir de este documento — puede expresarse con tus propias palabras, atribuido al documento"
+
+#: admin/pages/class-page-documents.php:724
+msgid "Safety data: publish hazard, first-aid and physical values exactly as printed, and link to the SDS itself — reworded safety information can end up wrong."
+msgstr "Datos de seguridad: publica los peligros, los primeros auxilios y los valores físicos exactamente como aparecen impresos, y enlaza a la propia ficha de datos de seguridad (SDS) — la información de seguridad reformulada puede acabar siendo errónea."
+
+#: admin/pages/class-page-rag-engine.php:147
+msgid "AI answer engines like ChatGPT, Perplexity and Google's AI Overviews don't read your pages top to bottom — they use retrieval-augmented generation (RAG): they cut the web into short passages, pull back the few passages that best match a question, and write their answer from those. The RAG Engine shows your site the way that process sees it. Chunk View shows how each page is cut into passages and which ones fall apart on their own; Documents holds the spec sheets, manuals and FAQs your business already works from; and Search Placement and AI Citations compare those documents with the searches you nearly rank for and the questions AI engines answered without citing you — so you can see exactly which answers your site is missing, where they belong, and copy them straight into the page."
+msgstr "Los motores de respuesta con IA como ChatGPT, Perplexity y los AI Overviews de Google no leen tus páginas de arriba abajo — usan la generación aumentada por recuperación (RAG). Dividen la web en pasajes cortos, recuperan los pocos que mejor responden a una pregunta y redactan su respuesta a partir de ellos. El motor RAG te muestra tu sitio tal como lo ve ese proceso. La vista de fragmentos muestra cómo se divide cada página en pasajes y cuáles no se sostienen por sí solos; Documentos guarda las fichas técnicas, manuales y preguntas frecuentes con los que ya trabaja tu negocio; y posicionamiento en búsquedas y citas de IA comparan esos documentos con las búsquedas en las que casi posicionas y las preguntas que los motores de IA respondieron sin citarte, para que veas exactamente qué respuestas le faltan a tu sitio, dónde deben ir y las copies directamente en la página."
+
+#: admin/pages/class-page-rag-engine.php:159
+msgid "no AI Visibility citation check has been run"
+msgstr "no se ha ejecutado ninguna comprobación de citas de visibilidad en IA"
+
+#: admin/pages/class-page-rag-engine.php:165
+msgid "The RAG Engine is running on documents alone."
+msgstr "El motor RAG está funcionando solo con documentos."
+
+#: admin/pages/class-page-rag-engine.php:166
+msgid "You haven't connected Google Search Console or Bing Webmaster Tools, and no AI citation check has been run yet. Document search and Chunk View still work, but the RAG Engine can't tell you which searches you nearly rank for or which AI answers leave you out until at least one of these is set up — see the checklist below."
+msgstr "No has conectado Google Search Console ni Bing Webmaster Tools, y todavía no se ha ejecutado ninguna comprobación de citas de IA. La búsqueda en documentos y la vista de fragmentos siguen funcionando, pero el motor RAG no puede decirte en qué búsquedas casi posicionas ni qué respuestas de IA te dejan fuera hasta que configures al menos una de estas cosas — consulta la lista de abajo."
+
+#: admin/pages/class-page-rag-engine.php:187
+msgid "Upload the documents your business works from — spec sheets, manuals, FAQs."
+msgstr "Sube los documentos con los que trabaja tu negocio — fichas técnicas, manuales, preguntas frecuentes."
+
+#. translators: %s: Search Console property.
+#: admin/pages/class-page-rag-engine.php:206
+msgid "Connected (%s). Feeds Search Placement."
+msgstr "Conectado (%s). Alimenta posicionamiento en búsquedas."
+
+#: admin/pages/class-page-rag-engine.php:217
+msgid "Connected. Feeds Search Placement."
+msgstr "Conectado. Alimenta posicionamiento en búsquedas."
+
+#: admin/pages/class-page-rag-engine.php:229
+msgid "No AI Visibility run yet. Run one to see which AI answers leave you out."
+msgstr "Todavía no hay ninguna ejecución de visibilidad en IA. Ejecuta una para ver qué respuestas de IA te dejan fuera."
+
+#: admin/pages/class-page-rag-engine.php:230
+msgid "The AI Visibility module is switched off. Turn it on under Modules, then run a check."
+msgstr "El módulo visibilidad en IA está desactivado. Actívalo en Módulos y luego ejecuta una comprobación."
+
+#: admin/pages/class-page-rag-engine.php:243
+msgid "questions from your last AI Visibility run where an engine left you out or cited someone else, with the document passages that answer them."
+msgstr "preguntas de tu última ejecución de visibilidad en IA en las que un motor te dejó fuera o citó a otro, con los pasajes de documentos que las responden."
+
+#: admin/pages/class-page-rag-engine.php:246
+msgid "Nothing on this screen changes your pages. Every suggestion comes with a Copy button and an Edit page link — paste the text wherever your theme or page builder allows."
+msgstr "Nada de esta pantalla cambia tus páginas. Cada sugerencia incluye un botón Copiar y un enlace Editar página — pega el texto donde lo permita tu tema o tu maquetador."
+
+#: admin/pages/class-page-rag-engine.php:260
+msgid "it paused at the daily spending limit; resume it on the AI Visibility screen"
+msgstr "se pausó al llegar al límite de gasto diario; reanúdala en la pantalla de visibilidad en IA"
+
+#: admin/pages/class-page-rag-engine.php:261
+msgid "it has not finished; open the AI Visibility screen to continue it"
+msgstr "no ha terminado; abre la pantalla de visibilidad en IA para continuarla"
+
+#: admin/pages/class-page-rag-engine.php:325
+msgid "Searches where Google or Bing already ranks you just off the top. With ads and AI Overviews above the results, page one effectively ends around position 3 — so these are the searches where one better answer on the right page can move you up. Each one below is a search your documents answer and the ranking page does not."
+msgstr "Búsquedas en las que Google o Bing ya te posicionan justo por debajo de los primeros puestos. Con anuncios y AI Overviews por encima de los resultados, la primera página termina en la práctica hacia la posición 3 — así que estas son las búsquedas en las que una respuesta mejor en la página adecuada puede hacerte subir. Cada una de las de abajo es una búsqueda que tus documentos responden y la página posicionada no."
+
+#. translators: %s: number of searches.
+#: admin/pages/class-page-rag-engine.php:388
+msgid "%s search is left out because the person searching is looking for a business to hire — it says \"services\", \"near me\" or \"buy\", names a town or state, asks for a repair without asking a question, or is your business's own name. Your documents cannot answer that; your service pages, reviews and local listings can."
+msgid_plural "%s searches are left out because the people searching are looking for a business to hire — they say \"services\", \"near me\" or \"buy\", name a town or state, ask for a repair without asking a question, or are your business's own name. Your documents cannot answer those; your service pages, reviews and local listings can."
+msgstr[0] "%s búsqueda queda fuera porque quien busca quiere contratar un negocio — dice «servicios», «cerca de mí» o «comprar», nombra una ciudad o un estado, pide una reparación sin hacer una pregunta o es el propio nombre de tu negocio. Tus documentos no pueden responder a eso; tus páginas de servicios, tus reseñas y tus fichas locales sí."
+msgstr[1] "%s búsquedas quedan fuera porque quienes buscan quieren contratar un negocio — dicen «servicios», «cerca de mí» o «comprar», nombran una ciudad o un estado, piden una reparación sin hacer una pregunta o son el propio nombre de tu negocio. Tus documentos no pueden responder a eso; tus páginas de servicios, tus reseñas y tus fichas locales sí."
+
+#: admin/pages/class-page-rag-engine.php:433
+msgid "Questions from your most recent AI Visibility run where at least one AI engine answered without citing your site — it named you without a link, left you out, or cited someone else — and your documents contain the answer. This tab reads the results you already have; it never runs new checks."
+msgstr "Preguntas de tu ejecución más reciente de visibilidad en IA en las que al menos un motor de IA respondió sin citar tu sitio —te nombró sin enlace, te dejó fuera o citó a otro— y tus documentos contienen la respuesta. Esta pestaña lee los resultados que ya tienes; nunca ejecuta comprobaciones nuevas."
+
+#: admin/pages/class-page-rag-engine.php:440
+msgid "Run an AI Visibility check first. It asks ChatGPT, Gemini, Claude, Perplexity, Grok, Le Chat, DeepSeek and Muse the questions your customers ask and records who they cite; this tab then shows which of those answers your documents could win."
+msgstr "Ejecuta primero una comprobación de visibilidad en IA. Hace a ChatGPT, Gemini, Claude, Perplexity, Grok, Le Chat, DeepSeek y Muse las preguntas que hacen tus clientes y registra a quién citan; después, esta pestaña muestra cuáles de esas respuestas podrían ganar tus documentos."
+
+#: admin/pages/class-page-rag-engine.php:441
+msgid "The AI Visibility module is switched off. Turn it on under Modules, run a check, and this tab will show which AI answers your documents could win."
+msgstr "El módulo visibilidad en IA está desactivado. Actívalo en Módulos, ejecuta una comprobación y esta pestaña mostrará qué respuestas de IA podrían ganar tus documentos."
+
+#. translators: 1: time since run, 2: questions asked.
+#: admin/pages/class-page-rag-engine.php:458
+msgid "From the AI Visibility run %1$s ago: %2$s questions."
+msgstr "De la ejecución de visibilidad en IA de hace %1$s: %2$s preguntas."
+
+#: admin/pages/class-page-rag-engine.php:472
+msgid "Either every engine cited you, or your documents don't cover the questions where you were left out. Upload more documents, or run a new AI Visibility check after updating your pages."
+msgstr "O todos los motores te citaron, o tus documentos no cubren las preguntas en las que quedaste fuera. Sube más documentos o ejecuta una nueva comprobación de visibilidad en IA después de actualizar tus páginas."
+
+#: admin/pages/class-page-rag-engine.php:830
+msgid "Bing does not report which page ranks. These are your likeliest pages, most likely first — Bing favours pages with the search words in their web address:"
+msgstr "Bing no indica qué página posiciona. Estas son tus páginas más probables, de más a menos — Bing favorece las páginas que tienen las palabras de la búsqueda en su dirección web:"
+
+#: admin/pages/class-page-rag-engine.php:911
+msgid "No page on your site matches this yet — add the answer where it fits best, or give it a page of its own."
+msgstr "Todavía no hay ninguna página de tu sitio que coincida con esto — añade la respuesta donde mejor encaje o dale una página propia."
+
+#: admin/pages/class-page-rag-engine.php:930
+msgid "Your domain name spells out this search. Bing gives that a lot of weight, so your home page may be the one ranking — consider adding the answer there too."
+msgstr "Tu nombre de dominio contiene esta búsqueda. Bing le da mucho peso a eso, así que puede que sea tu página de inicio la que posiciona — plantéate añadir la respuesta también allí."
+
+#: admin/pages/class-page-rag-engine.php:993
+msgid "Your documents answer it — copy, then paste into the page:"
+msgstr "Tus documentos lo responden — copia y pega en la página:"
+
+#: admin/pages/class-page-rag-engine.php:1037
+msgid "To tell whether a page already answers a search, the RAG Engine needs your pages indexed."
+msgstr "Para saber si una página ya responde a una búsqueda, el motor RAG necesita tener tus páginas indexadas."
+
+#: admin/pages/class-page-settings.php:249
+msgid "Which model each provider uses for meta descriptions, enrichment and extraction. Stronger models write better but cost more per request. AI Visibility checks are not affected — they always use each app's own default model, so results match what your customers see."
+msgstr "Qué modelo usa cada proveedor para las meta descripciones, el enriquecimiento y la extracción. Los modelos más potentes escriben mejor, pero cuestan más por solicitud. Las comprobaciones de visibilidad en IA no se ven afectadas — siempre usan el modelo por defecto de cada app, para que los resultados coincidan con lo que ven tus clientes."
+
+#: includes/ai-visibility/class-visibility-store.php:1558
+msgid "Check the key in Settings; the next run will try it again."
+msgstr "Comprueba la clave en Ajustes; la siguiente ejecución la volverá a probar."
+
+#: includes/class-ai-client.php:501
+msgid "Perplexity no longer accepts the request this version of TWT AEO Ultimate sends — Perplexity has retired that API. Update TWT AEO Ultimate under Dashboard → Updates to restore Perplexity features."
+msgstr "Perplexity ya no acepta la solicitud que envía esta versión de TWT AEO Ultimate — Perplexity ha retirado esa API. Actualiza TWT AEO Ultimate en Escritorio → Actualizaciones para recuperar las características de Perplexity."
+
+#: includes/class-ai-client.php:503
+msgid "Perplexity rejected the API key. Check the key under TWT AEO → Settings, and that it is active in your Perplexity account."
+msgstr "Perplexity ha rechazado la clave de API. Comprueba la clave en TWT AEO → Ajustes y que esté activa en tu cuenta de Perplexity."
+
+#: includes/class-ai-client.php:509
+msgid "Perplexity had a server error. This is usually temporary — try again shortly."
+msgstr "Perplexity ha tenido un error de servidor. Suele ser temporal — vuelve a intentarlo en breve."
+
+#: includes/class-ai-description.php:220
+msgid "Fast and low-cost. The Luna and mini models are quick for this task — comparable to Claude."
+msgstr "Rápido y barato. Los modelos Luna y mini son rápidos para esta tarea — comparables a Claude."
+
+#: includes/class-ai-models.php:73
+msgid "Claude Haiku 4.5 — fastest, lowest cost (recommended)"
+msgstr "Claude Haiku 4.5 — el más rápido y barato (recomendado)"
+
+#: includes/class-ai-models.php:74
+msgid "Claude Sonnet 5 — stronger writing, about 2× the cost"
+msgstr "Claude Sonnet 5 — mejor redacción, aproximadamente el doble de coste"
+
+#: includes/class-ai-models.php:75
+msgid "Claude Sonnet 4.6 — previous Sonnet"
+msgstr "Claude Sonnet 4.6 — Sonnet anterior"
+
+#: includes/class-ai-models.php:76
+msgid "Claude Opus 5 — most capable, highest cost"
+msgstr "Claude Opus 5 — el más capaz, el de mayor coste"
+
+#: includes/class-ai-models.php:79
+msgid "GPT-6 Luna — fastest, lowest cost (recommended)"
+msgstr "GPT-6 Luna — el más rápido y barato (recomendado)"
+
+#: includes/class-ai-models.php:82
+msgid "GPT-6 Astra — most capable, highest cost"
+msgstr "GPT-6 Astra — el más capaz, el de mayor coste"
+
+#: includes/class-ai-models.php:83
+msgid "GPT-5.6 Luna — previous generation"
+msgstr "GPT-5.6 Luna — generación anterior"
+
+#: includes/class-ai-models.php:84
+msgid "GPT-5.4 mini — used by this plugin through 2.23"
+msgstr "GPT-5.4 mini — el que usaba este plugin hasta la 2.23"
+
+#: includes/class-ai-models.php:87
+msgid "Gemini 3.6 Flash — balanced (recommended)"
+msgstr "Gemini 3.6 Flash — equilibrado (recomendado)"
+
+#: includes/class-ai-models.php:88
+msgid "Gemini 3.5 Flash-Lite — lowest cost"
+msgstr "Gemini 3.5 Flash-Lite — el de menor coste"
+
+#: includes/class-ai-models.php:89
+msgid "Gemini 3.8 Flash — newest, most capable Flash"
+msgstr "Gemini 3.8 Flash — el Flash más nuevo y capaz"
+
+#: includes/class-ai-models.php:92
+msgid "Gemini 2.5 Flash — legacy; only for accounts already using it"
+msgstr "Gemini 2.5 Flash — heredado; solo para cuentas que ya lo usan"
+
+#. translators: 1: HTTP status the crawler received, 2: HTTP status a browser
+#. received.
+#: includes/class-chunk-view.php:104
+msgid "This server refuses GPTBot: it answered HTTP %1$d to the crawler but HTTP %2$d to a normal browser. The real GPTBot is turned away the same way, so ChatGPT cannot read or cite this page. The block sits in front of WordPress — look for a user-agent rule in .htaccess, a security or \"block AI bots\" plugin, a firewall/CDN bot setting, or ask your host."
+msgstr "Este servidor rechaza a GPTBot: respondió HTTP %1$d al rastreador pero HTTP %2$d a un navegador normal. Al GPTBot real se le rechaza igual, así que ChatGPT no puede leer ni citar esta página. El bloqueo está delante de WordPress — busca una regla de user agent en .htaccess, un plugin de seguridad o de «bloquear bots de IA», un ajuste de bots del cortafuegos o la CDN, o pregunta a tu proveedor de alojamiento."
+
+#: includes/class-doc-extractor.php:142
+msgid "This PDF has no readable text — it looks like a scan or a set of images. Run it through OCR first (Adobe Acrobat \"Recognize Text\", or Google Drive: open with Google Docs), then upload the result."
+msgstr "Este PDF no tiene texto legible — parece un escaneo o un conjunto de imágenes. Pásalo primero por OCR (en Adobe Acrobat, «Reconocer texto»; o en Google Drive, abrirlo con Documentos de Google) y sube el resultado."
+
+#: includes/class-doc-library.php:273
+msgid "The server could not save the upload. Ask your host to check the folder permissions on wp-content/uploads."
+msgstr "El servidor no ha podido guardar la subida. Pide a tu proveedor de alojamiento que compruebe los permisos de la carpeta wp-content/uploads."
+
+#: includes/class-doc-library.php:383 includes/class-doc-requirements.php:100
+msgid "Uploaded documents cannot be saved because the WordPress uploads folder is not writable. Ask your host to check the folder permissions on wp-content/uploads."
+msgstr "Los documentos subidos no se pueden guardar porque la carpeta de subidas de WordPress no tiene permisos de escritura. Pide a tu proveedor de alojamiento que compruebe los permisos de la carpeta wp-content/uploads."
+
+#: includes/class-doc-library.php:885
+msgid "Your server ran out of memory or time while reading this file — it is too large to read in one go on this hosting plan."
+msgstr "Tu servidor se ha quedado sin memoria o sin tiempo al leer este archivo — es demasiado grande para leerlo de una vez con este plan de alojamiento."
+
+#: includes/class-doc-library.php:983
+msgid "Your server could not save the upload (no writable temporary folder). Ask your host to check PHP's upload_tmp_dir."
+msgstr "Tu servidor no ha podido guardar la subida (no hay ninguna carpeta temporal con permisos de escritura). Pide a tu proveedor de alojamiento que compruebe upload_tmp_dir de PHP."
+
+#: includes/class-doc-requirements.php:62
+msgid "PDF reading needs PHP's mbstring extension. Ask your host to enable it — most control panels have a \"PHP extensions\" or \"Select PHP version\" page. Word and text files still work."
+msgstr "La lectura de PDF necesita la extensión mbstring de PHP. Pide a tu proveedor de alojamiento que la active — la mayoría de los paneles de control tienen una página de «Extensiones de PHP» o «Seleccionar versión de PHP». Los archivos de Word y de texto siguen funcionando."
+
+#: includes/class-doc-requirements.php:92
+msgid "This server cannot run document processing. See the host panel on the Chunk View screen."
+msgstr "Este servidor no puede procesar documentos. Consulta el panel del servidor en la vista de fragmentos."
+
+#. translators: %s: size such as "2 MB".
+#: includes/class-doc-requirements.php:109
+msgid "Your server accepts uploads up to %s (PHP upload_max_filesize / post_max_size). Long PDFs can be larger than that — ask your host to raise both limits if an upload is refused."
+msgstr "Tu servidor acepta subidas de hasta %s (upload_max_filesize / post_max_size de PHP). Los PDF largos pueden superar ese tamaño — pide a tu proveedor de alojamiento que suba ambos límites si se rechaza una subida."
+
+#. translators: 1: host upload limit, 2: largest readable document.
+#: includes/class-doc-requirements.php:114
+msgid "Host limit %1$s per upload — documents are sent in pieces, so files up to %2$s still work"
+msgstr "Límite del servidor: %1$s por subida — los documentos se envían por partes, así que siguen funcionando archivos de hasta %2$s"
+
+#. translators: 1: file size, 2: limit.
+#: includes/class-doc-requirements.php:215
+msgid "This file is %1$s. Your server can read documents up to %2$s in one go — the PDF reader holds the whole file in memory, and this server's PHP memory limit sets the ceiling."
+msgstr "Este archivo ocupa %1$s. Tu servidor puede leer documentos de hasta %2$s de una vez — el lector de PDF mantiene todo el archivo en memoria y el límite de memoria de PHP de este servidor establece el máximo."
+
+#. translators: %s: amending act and date.
+#: includes/class-law-check.php:351
+msgid "The passages below are from your copy — check them against the current version before publishing."
+msgstr "Los pasajes de abajo proceden de tu copia — compruébalos con la versión actual antes de publicar."
+
+#: includes/class-law-check.php:386
+msgid "No date was found in this document, so there is no telling how current it is. Add its edition or effective date under Edit label, and check it against the current version before publishing."
+msgstr "No se ha encontrado ninguna fecha en este documento, así que no se sabe lo actualizado que está. Añade su edición o fecha de entrada en vigor en Editar etiqueta y compruébalo con la versión actual antes de publicar."
+
+#. translators: %s: the document's date.
+#: includes/class-law-check.php:390
+msgid "Your copy is dated %s — over a year ago. Laws and codes change; this may not be the current version. Check it before publishing."
+msgstr "Tu copia tiene fecha de %s — hace más de un año. Las leyes y normas cambian; puede que no sea la versión actual. Compruébalo antes de publicar."
+
+#. translators: %s: the document's date.
+#: includes/class-law-check.php:394
+msgid "Your copy is dated %s, within the last year. Laws can still change at any time — check it before publishing."
+msgstr "Tu copia tiene fecha de %s, dentro del último año. Las leyes pueden cambiar en cualquier momento — compruébalo antes de publicar."
+
+#. translators: %s: domain name.
+#: includes/Integrations/class-google-oauth.php:162
+msgid "%s — domain property (every version of the site)"
+msgstr "%s — propiedad de dominio (todas las versiones del sitio)"
+
+#. translators: %s: address.
+#: includes/Integrations/class-google-oauth.php:164
+msgid "%s — URL-prefix property"
+msgstr "%s — propiedad de prefijo de URL"
+
+#. translators: %s: seconds.
+#: admin/class-admin-assets.php:176
+msgid "Connection lost — retrying in %s seconds. You can leave this page open; the upload continues where it stopped. If you close it, choose the same file again later to resume."
+msgstr "Conexión perdida — reintentando en %s segundos. Puedes dejar esta página abierta; la subida continúa donde se detuvo. Si la cierras, vuelve a elegir el mismo archivo más tarde para reanudarla."
+
+#: admin/pages/class-page-command-center.php:1104
+msgid "These are the Search Console properties the connected Google account can use. Choose the one for this site — a domain property covers every version of it (www, non-www, http, https)."
+msgstr "Estas son las propiedades de Search Console que puede usar la cuenta de Google conectada. Elige la de este sitio — una propiedad de dominio cubre todas sus versiones (www, sin www, http, https)."
+
+#. translators: %d: number of files.
+#: admin/pages/class-page-documents.php:90
+msgid "%d document uploaded. It is being read now — this page updates as it finishes."
+msgid_plural "%d documents uploaded. They are being read now — this page updates as they finish."
+msgstr[0] "%d documento subido. Se está leyendo ahora — esta página se actualiza cuando termine."
+msgstr[1] "%d documentos subidos. Se están leyendo ahora — esta página se actualiza a medida que terminan."
+
+#: admin/pages/class-page-documents.php:236
+msgid "⚠ Your server is missing something documents need — see below"
+msgstr "⚠ A tu servidor le falta algo que necesitan los documentos — consulta más abajo"
+
+#. translators: %s: AI provider.
+#: admin/pages/class-page-documents.php:314
+msgid "Let AI read the first few pages to label each document — what kind it is, the state or city it applies to, its edition, and what to cite it as. Only those pages are sent, once, to %s."
+msgstr "Deja que la IA lea las primeras páginas para etiquetar cada documento — de qué tipo es, el estado o la ciudad a la que se aplica, su edición y cómo citarlo. Solo se envían esas páginas, una vez, a %s."
+
+#: admin/pages/class-page-documents.php:408
+msgid "Its tables were read before tables could be rebuilt, so they copy as scrambled marks. Delete it and upload it again to get them as real tables."
+msgstr "Sus tablas se leyeron antes de que se pudieran reconstruir, así que se copian como signos desordenados. Bórralo y vuelve a subirlo para obtenerlas como tablas reales."
+
+#: admin/pages/class-page-chunk-view.php:97
+msgid "AI engines do not retrieve whole pages — they retrieve passages. This shows how your page is cut into those passages, and flags any that cannot be understood on their own once separated from the rest of the page."
+msgstr "Los motores de IA no recuperan páginas enteras — recuperan pasajes. Esto muestra cómo se divide tu página en esos pasajes y señala los que no se entienden por sí solos una vez separados del resto de la página."
+
+#: admin/pages/class-page-chunk-view.php:243
+msgid "Works on competitor pages too — useful for seeing why their passages get cited."
+msgstr "También funciona con páginas de la competencia — útil para ver por qué se citan sus pasajes."
+
+#: admin/pages/class-page-chunk-view.php:487
+msgid "Not prose — links, buttons or image captions"
+msgstr "No es texto — enlaces, botones o leyendas de imagen"
+
+#. translators: %d: HTTP status code.
+#: includes/class-chunk-view.php:115
+msgid "The crawler received HTTP %d with no usable content. Check Bot View for this URL first."
+msgstr "El rastreador recibió HTTP %d sin contenido utilizable. Comprueba primero esta URL en la vista de bot."
+
+#: includes/class-chunk-view.php:128
+msgid "The crawler received HTML but no readable text — the content is probably rendered by JavaScript. Bot View will show what arrived."
+msgstr "El rastreador recibió HTML pero ningún texto legible — probablemente el contenido lo genera JavaScript. Vista de bot mostrará lo que llegó."
+
+#. translators: %s: the pronoun the chunk opens with.
+#: includes/class-chunker.php:538
+msgid "Opens with \"%s\" — nothing in this chunk says what that refers to."
+msgstr "Empieza con «%s» — nada en este fragmento dice a qué se refiere."
+
+#. translators: %s: the back-reference phrase found.
+#: includes/class-chunker.php:555
+msgid "Contains \"%s\" — points at content outside this chunk."
+msgstr "Contiene «%s» — apunta a contenido fuera de este fragmento."
+
+#. translators: %d: estimated token count.
+#: includes/class-chunker.php:582
+msgid "Only ~%d tokens — usually too thin to satisfy a query by itself."
+msgstr "Solo ~%d tokens — normalmente demasiado escaso para responder por sí solo a una consulta."
+
+#. translators: %d: estimated token count.
+#: includes/class-chunker.php:597
+msgid "~%d tokens — covers enough separate ideas that it matches none of them strongly."
+msgstr "~%d tokens — abarca tantas ideas distintas que no coincide con fuerza con ninguna."
+
+#: includes/class-chunker.php:613
+msgid "Mostly links, buttons or image captions rather than sentences — there is no passage here to retrieve."
+msgstr "Sobre todo enlaces, botones o leyendas de imagen en lugar de frases — aquí no hay ningún pasaje que recuperar."
+
+#: includes/class-chunker.php:620
+msgid "Heavy on links and captions relative to explanatory text."
+msgstr "Demasiados enlaces y leyendas en proporción al texto explicativo."
+
+#. translators: %s: the host's PHP memory_limit, e.g. "64M".
+#: includes/class-host-profile.php:170
+msgid "PHP memory_limit is %s. The Content Gap Engine needs at least 96M."
+msgstr "El memory_limit de PHP es %s. El motor de carencias de contenido necesita al menos 96M."
+
+#: includes/class-host-profile.php:418
+msgid "The Content Gap Engine is switched off."
+msgstr "El motor de carencias de contenido está desactivado."
+
+#: includes/class-host-profile.php:425
+msgid "Indexing is paused because your host could not complete it. Reduce the amount of content, or reset from the Chunk View screen."
+msgstr "La indexación está en pausa porque tu servidor no pudo completarla. Reduce la cantidad de contenido o restablécela desde la vista de fragmentos."
+
+#: includes/class-host-profile.php:433
+msgid "This host cannot run the Content Gap Engine."
+msgstr "Este servidor no puede ejecutar el motor de carencias de contenido."
+
+#: admin/pages/class-page-bot-view.php:65
+msgid "See any page the way AI crawlers do — raw HTML, no JavaScript. Google runs JavaScript; GPTBot, ClaudeBot, PerplexityBot and most AI agents do not. Every audit also fetches the page as a normal browser and compares the two, exposing firewalls and challenge pages that silently blind AI crawlers."
+msgstr "Mira cualquier página como la ven los rastreadores de IA — HTML en bruto, sin JavaScript. Google ejecuta JavaScript; GPTBot, ClaudeBot, PerplexityBot y la mayoría de los agentes de IA no. Cada auditoría también descarga la página como un navegador normal y compara ambas, lo que destapa cortafuegos y páginas de verificación que dejan ciegos sin avisar a los rastreadores de IA."
+
+#: admin/pages/class-page-bot-view.php:163
+msgid "These values already ship in the page HTML as JSON for JavaScript to use — crawlers simply ignore script contents. Any of them missing from your static schema are safe candidates to re-emit as server-rendered JSON-LD, since the data source is your own site."
+msgstr "Estos valores ya vienen en el HTML de la página como JSON para que los use JavaScript — los rastreadores simplemente ignoran el contenido de los scripts. Los que falten en tu schema estático son candidatos seguros para volver a emitirse como JSON-LD generado en el servidor, ya que la fuente de los datos es tu propio sitio."
+
+#: admin/pages/class-page-bot-view.php:261
+msgid "Fetches up to 10 pages twice each — takes a minute."
+msgstr "Descarga hasta 10 páginas dos veces cada una — tarda un minuto."
+
+#: admin/pages/class-page-dashboard-v2.php:42
+msgid "Re-reads every published post, page and product: classifies its intent (blog post, service page, product…), detects what schema is on it and from which plugin, and re-evaluates what is missing. Runs in the background in batches — safe on large sites."
+msgstr "Vuelve a leer cada entrada, página y producto publicados: clasifica su intención (entrada de blog, página de servicio, producto…), detecta qué schema tiene y de qué plugin, y vuelve a evaluar qué falta. Se ejecuta en segundo plano por lotes — seguro en sitios grandes."
+
+#: admin/pages/class-page-dashboard-v2.php:63
+msgid "Checks your published pages against Google Search Console to find pages missing from the index, and flags likely causes: thin content, duplicate meta descriptions, heading problems."
+msgstr "Comprueba tus páginas publicadas con Google Search Console para encontrar las que faltan en el índice y señala las causas probables: contenido escaso, meta descripciones duplicadas, problemas de encabezados."
+
+#: admin/pages/class-page-dashboard-v2.php:73
+msgid "Enable the Smart 404 Rescue module to use this."
+msgstr "Activa el módulo rescate de 404 inteligente para usar esto."
+
+#: admin/pages/class-page-dashboard-v2.php:122
+msgid "Schema rescan started — it runs in the background in batches."
+msgstr "Nuevo análisis de schema iniciado — se ejecuta en segundo plano por lotes."
+
+#. translators: 1: pages scanned, 2: critical count.
+#: admin/pages/class-page-dashboard-v2.php:127
+msgid "Bot View scan finished: %1$d pages, %2$d critical findings."
+msgstr "Exploración de la vista de bot terminada: %1$d páginas, %2$d hallazgos críticos."
+
+#: admin/pages/class-page-dashboard-v2.php:140
+msgid "Index status scan started — results appear on the Not Indexed screen as batches complete."
+msgstr "Exploración del estado de indexación iniciada — los resultados aparecen en la pantalla No indexadas a medida que terminan los lotes."
+
+#: admin/pages/class-page-dashboard-v2.php:143
+msgid "Smart 404 rescue scan finished — see the Smart 404 screen for redirects created and links healed."
+msgstr "Exploración de rescate de 404 inteligente terminada — consulta la pantalla 404 inteligente para ver las redirecciones creadas y los enlaces reparados."
+
+#: admin/pages/class-page-dashboard-v2.php:246
+msgid "Run everything from here, or fine-tune each feature on its own screen. Every switch below controls one specific thing this plugin publishes — turn off anything you handle yourself."
+msgstr "Ejecútalo todo desde aquí o ajusta cada característica en su propia pantalla. Cada interruptor de abajo controla una cosa concreta que publica este plugin — desactiva lo que gestiones tú."
+
+#: admin/pages/class-page-dashboard-v2.php:318
+msgid "Fine-grained switches — not modules. If you handle any of these yourself (your own sitemap, your own llms.txt, another schema plugin), switch ours off and nothing else changes. Everything defaults to on; absent has always meant on, so flipping a switch is always your deliberate act."
+msgstr "Interruptores detallados — no módulos. Si gestionas tú alguno de estos elementos (tu propio mapa del sitio, tu propio llms.txt, otro plugin de schema), desactiva el nuestro y nada más cambia. Todo está activado por defecto; la ausencia de ajuste siempre ha significado activado, así que cambiar un interruptor es siempre una decisión tuya."
+
+#: admin/pages/class-page-dashboard-v2.php:348
+#: admin/pages/class-page-dashboard-v2.php:366
+msgid "On — turn off"
+msgstr "Activado — desactivar"
+
+#: admin/pages/class-page-dashboard-v2.php:348
+#: admin/pages/class-page-dashboard-v2.php:366
+msgid "Off — turn on"
+msgstr "Desactivado — activar"
+
+#: admin/pages/class-page-funnel-audit.php:56
+msgid "AI engines cite informational posts, not money pages — and the visitors they send leak away without a path to conversion. This audit connects AI attention (crawler hits + referrals from ChatGPT, Perplexity, Claude, Gemini) with your internal link structure to show which money pages are buried and which cited posts have no bridge to them."
+msgstr "Los motores de IA citan entradas informativas, no páginas de dinero — y las visitas que envían se escapan sin un camino hacia la conversión. Esta auditoría relaciona la atención de la IA (accesos de rastreadores + referencias de ChatGPT, Perplexity, Claude, Gemini) con tu estructura de enlaces internos para mostrar qué páginas de dinero están enterradas y qué entradas citadas no tienen un puente hacia ellas."
+
+#: admin/pages/class-page-funnel-audit.php:168
+msgid "Money pages are detected automatically from WooCommerce products, EDD downloads, service/contact/location page intent, and lead-gen forms — use Override where the guess is wrong. AI attention combines AI Crawler Watch hits (bots reading the page) with visits referred from AI engines (detected via referrer and ChatGPT's utm_source). Referral counting starts now, so those numbers grow from today."
+msgstr "Las páginas de dinero se detectan automáticamente a partir de productos de WooCommerce, descargas de EDD, la intención de páginas de servicio, contacto o ubicación y los formularios de captación — usa Anular cuando la suposición sea errónea. La atención de la IA combina los accesos de AI Crawler Watch (bots leyendo la página) con las visitas que llegan desde motores de IA (detectadas por el referente y por el utm_source de ChatGPT). El recuento de referencias empieza ahora, así que esas cifras crecen a partir de hoy."
+
+#: includes/class-bot-view.php:210
+msgid "A security layer refuses this page to the GPTBot user agent while serving it normally to browsers. AI crawlers cannot index anything here. Allow-list the AI crawler user agents in your firewall or CDN bot settings."
+msgstr "Una capa de seguridad le niega esta página al user agent de GPTBot mientras la sirve con normalidad a los navegadores. Los rastreadores de IA no pueden indexar nada aquí. Añade los user agents de los rastreadores de IA a la lista de permitidos en los ajustes de bots de tu cortafuegos o CDN."
+
+#. translators: %s: matched fingerprint text.
+#: includes/class-bot-view.php:225
+msgid "The response sent to the bot contains a verification/challenge page (\"%s\") instead of your content — often with HTTP 200, so it never shows up as an error. Crawlers index the challenge text, not your page. Check Cloudflare Bot Fight Mode or similar protections."
+msgstr "La respuesta enviada al bot contiene una página de verificación («%s») en lugar de tu contenido — a menudo con HTTP 200, así que nunca aparece como error. Los rastreadores indexan el texto de la verificación, no tu página. Comprueba el Bot Fight Mode de Cloudflare o protecciones similares."
+
+#: includes/class-bot-view.php:244
+msgid "Something between your server and the crawler serves bots reduced content. Compare the two responses — user-agent-based caching, ad/bot middleware, or a misconfigured CDN rule are the usual causes."
+msgstr "Algo entre tu servidor y el rastreador sirve a los bots un contenido reducido. Compara las dos respuestas — las causas habituales son una caché basada en el user agent, un middleware de anuncios o bots o una regla de CDN mal configurada."
+
+#. translators: 1: bot HTTP code, 2: bot page size in KB.
+#: includes/class-bot-view.php:254
+msgid "The GPTBot user agent got HTTP %1$d and %2$d KB of HTML, in line with what a browser receives — no firewall or challenge interference."
+msgstr "El user agent de GPTBot recibió HTTP %1$d y %2$d KB de HTML, en línea con lo que recibe un navegador — sin interferencias de cortafuegos ni verificaciones."
+
+#: includes/class-bot-view.php:305
+msgid "Page is set to noindex in the copy bots receive"
+msgstr "La página está establecida como noindex en la copia que reciben los bots"
+
+#: includes/class-bot-view.php:318
+msgid "AI crawlers that do not run JavaScript see zero structured data on this page. If schema is added by a tag manager or theme JavaScript, it is invisible to them — it must be rendered server-side."
+msgstr "Los rastreadores de IA que no ejecutan JavaScript no ven ningún dato estructurado en esta página. Si el schema lo añade un gestor de etiquetas o el JavaScript del tema, para ellos es invisible — debe procesarse en el servidor."
+
+#: includes/class-bot-view.php:372
+msgid "GTM is present and no static JSON-LD was found. If your schema is injected through a GTM tag, no-JS crawlers never see it — it must be moved server-side."
+msgstr "GTM está presente y no se ha encontrado JSON-LD estático. Si tu schema se inserta mediante una etiqueta de GTM, los rastreadores sin JavaScript nunca lo ven — hay que pasarlo al servidor."
+
+#: includes/class-bot-view.php:373
+msgid "GTM is present. Make sure schema is rendered server-side (as it is here) rather than through GTM tags, which no-JS crawlers cannot see."
+msgstr "GTM está presente. Asegúrate de que el schema se procese en el servidor (como aquí) y no mediante etiquetas de GTM, que los rastreadores sin JavaScript no pueden ver."
+
+#. translators: %s: widget name.
+#: includes/class-bot-view.php:479
+msgid "%s renders client-side"
+msgstr "%s se procesa en el navegador"
+
+#: includes/class-bot-view.php:484
+msgid "Its stars and review text never appear in the raw HTML — to crawlers this page has no reviews. The compliant fix: render the reviews (or a representative sample) as visible HTML on this page, with matching Review schema carrying author, datePublished and a link to the original source. Google requires marked-up reviews to be first-party and visible on the marked-up page — never add aggregateRating alone for reviews a crawler cannot see. The Reviews module in this plugin publishes compliant first-party review schema."
+msgstr "Sus estrellas y el texto de sus reseñas nunca aparecen en el HTML sin procesar — para los rastreadores, esta página no tiene reseñas. La corrección que cumple las normas: muestra las reseñas (o una muestra representativa) como HTML visible en esta página, con un schema Review equivalente que incluya autor, datePublished y un enlace a la fuente original. Google exige que las reseñas marcadas sean propias y visibles en la página marcada: nunca añadas solo un aggregateRating para reseñas que un rastreador no puede ver. El módulo de reseñas de este plugin publica schema de reseñas propias que cumple las normas."
+
+#. translators: %s: element id.
+#: includes/class-bot-view.php:503
+msgid "The container #%s is nearly empty in the raw HTML — the page content is rendered entirely by JavaScript, so no-JS crawlers see a blank page. Server-side rendering or static schema is the only fix."
+msgstr "El contenedor #%s está casi vacío en el HTML sin procesar — el contenido de la página se muestra por completo con JavaScript, así que los rastreadores sin JavaScript ven una página en blanco. La única corrección es procesarlo en el servidor o usar schema estático."
+
+#: includes/class-bot-view.php:523
+msgid "These images have their real URL in a data-src attribute and no usable src, so no-JS crawlers and image search never see them. Modern browsers lazy-load natively — use a real src with loading=\"lazy\" instead of a JS lazyload library."
+msgstr "Estas imágenes tienen su URL real en un atributo data-src y ningún src utilizable, así que los rastreadores sin JavaScript y la búsqueda de imágenes nunca las ven. Los navegadores modernos hacen la carga diferida de forma nativa — usa un src real con loading=\"lazy\" en lugar de una biblioteca de lazyload en JavaScript."
+
+#: includes/class-bot-view.php:546
+msgid "Iframe content belongs to the framed site, not this page — crawlers do not credit it to you. Anything important inside an iframe should also exist as text or schema on the page itself."
+msgstr "El contenido de un iframe pertenece al sitio incrustado, no a esta página — los rastreadores no te lo atribuyen. Todo lo importante dentro de un iframe también debería existir como texto o schema en la propia página."
+
+#: includes/class-bot-view.php:561
+msgid "Scripts on this page fetch additional content from the REST API or admin-ajax after load. Whatever they load (tabs, reviews, related items) is invisible to no-JS crawlers — keep anything important in the initial HTML or schema."
+msgstr "Los scripts de esta página obtienen contenido adicional de la API REST o de admin-ajax después de cargarse. Lo que cargan (pestañas, reseñas, artículos relacionados) es invisible para los rastreadores sin JavaScript — mantén todo lo importante en el HTML inicial o en el schema."
+
+#. translators: 1: visible characters, 2: page size in KB.
+#: includes/class-bot-view.php:606
+msgid "Only %1$d characters of visible text in a %2$d KB page — the content is built by JavaScript. No-JS crawlers effectively see an empty page."
+msgstr "Solo %1$d caracteres de texto visible en una página de %2$d KB — el contenido lo construye JavaScript. En la práctica, los rastreadores sin JavaScript ven una página vacía."
+
+#: includes/class-bot-view.php:855
+msgid "The embed includes its text content in a blockquote that JavaScript later upgrades to the interactive card — crawlers read the blockquote text, so the post content is visible to them."
+msgstr "El contenido incrustado incluye su texto en un blockquote que JavaScript convierte después en la tarjeta interactiva — los rastreadores leen el texto del blockquote, así que el contenido de la publicación es visible para ellos."
+
+#: includes/class-bot-view.php:867
+msgid "The embed blockquote is essentially empty in the raw HTML — crawlers see a bare link, not the post content or caption. Paste the post text or a summary next to the embed so the content exists on your page."
+msgstr "El blockquote del contenido incrustado está prácticamente vacío en el HTML sin procesar — los rastreadores ven un enlace a secas, no el contenido de la publicación ni su leyenda. Pega el texto de la publicación o un resumen junto al contenido incrustado para que el contenido exista en tu página."
+
+#. translators: %d: number of embeds.
+#: includes/class-bot-view.php:881
+msgid "Facebook embed renders client-side (%d embed)"
+msgid_plural "Facebook embeds render client-side (%d embeds)"
+msgstr[0] "El contenido incrustado de Facebook se procesa en el navegador (%d contenido incrustado)"
+msgstr[1] "Los contenidos incrustados de Facebook se procesan en el navegador (%d contenidos incrustados)"
+
+#: includes/class-bot-view.php:884
+msgid "Facebook embeds are empty containers filled by the Facebook SDK — no fallback text exists in the raw HTML, so crawlers see nothing. Quote the post text next to the embed if the content matters for search or AI."
+msgstr "Los contenidos incrustados de Facebook son contenedores vacíos que rellena el SDK de Facebook — no hay texto alternativo en el HTML sin procesar, así que los rastreadores no ven nada. Cita el texto de la publicación junto al contenido incrustado si el contenido importa para la búsqueda o la IA."
+
+#: includes/class-funnel-audit.php:551
+msgid "Orphaned — not reachable from the homepage or navigation. Add it to the main nav or link it from key pages."
+msgstr "Huérfana — no se llega a ella desde la página de inicio ni desde la navegación. Añádela al menú principal o enlázala desde páginas clave."
+
+#. translators: %d: click depth.
+#: includes/class-funnel-audit.php:555
+msgid "Buried at click depth %d — add to the main navigation or link from your top informational guides."
+msgstr "Enterrada a una profundidad de %d clics — añádela a la navegación principal o enlázala desde tus principales guías informativas."
+
+#. translators: %d: inbound link count.
+#: includes/class-funnel-audit.php:563
+msgid "Only %d inbound internal link — link to this page from informational posts."
+msgid_plural "Only %d inbound internal links — link to this page from informational posts."
+msgstr[0] "Solo %d enlace interno entrante — enlaza esta página desde entradas informativas."
+msgstr[1] "Solo %d enlaces internos entrantes — enlaza esta página desde entradas informativas."
+
+#: includes/class-funnel-audit.php:567
+msgid "Most inbound anchors are generic (\"click here\") — rewrite them with descriptive commercial anchor text."
+msgstr "La mayoría de los textos de anclaje entrantes son genéricos («haz clic aquí») — reescríbelos con un texto de anclaje comercial descriptivo."
+
+#: includes/class-funnel-audit.php:571
+msgid "No schema detected — a money page needs Product, Service or Offer schema for AI engines to understand what is sold."
+msgstr "No se ha detectado schema — una página de dinero necesita schema Product, Service u Offer para que los motores de IA entiendan qué se vende."
+
+#. translators: %s: detected schema types.
+#: includes/class-funnel-audit.php:575
+msgid "Schema present (%s) but no Product/Service/Offer node — AI engines cannot tell what this page sells."
+msgstr "Hay schema (%s), pero ningún nodo Product/Service/Offer — los motores de IA no pueden saber qué vende esta página."
+
+#. translators: 1: AI attention count, 2: suggested money page title.
+#: includes/class-funnel-audit.php:593
+msgid "AI engines touched this page %1$d times in 30 days but it has no link to any money page — add a contextual CTA bridge (e.g. to \"%2$s\")."
+msgstr "Los motores de IA tocaron esta página %1$d veces en 30 días, pero no tiene ningún enlace a una página de dinero — añade un puente con una llamada a la acción contextual (p. ej., a «%2$s»)."
+
+#: includes/class-funnel-audit.php:600
+msgid "Links to a money page but has no visible CTA — add a button or form so AI-referred visitors have a next step."
+msgstr "Enlaza a una página de dinero, pero no tiene ninguna llamada a la acción visible — añade un botón o un formulario para que los visitantes que llegan desde la IA tengan un siguiente paso."
+
+#: admin/pages/class-page-dashboard.php:522
+msgid "Saved schema — publishing, but not one of this page's recommended types"
+msgstr "Schema guardado — se publica, pero no es uno de los tipos recomendados para esta página"
+
+#: admin/pages/class-page-not-indexed.php:436
+msgid "This page shares its meta description word-for-word with other pages on the site. Identical descriptions read as templated duplicate content to Google and AI engines. Generate a description that only fits this page — it is written from the page's own content and saved immediately."
+msgstr "Esta página comparte su meta descripción palabra por palabra con otras páginas del sitio. Para Google y los motores de IA, las descripciones idénticas parecen contenido duplicado de plantilla. Genera una descripción que solo encaje con esta página — se redacta a partir del propio contenido de la página y se guarda al momento."
+
+#: admin/pages/class-page-not-indexed.php:445
+msgid "AI descriptions are not available — configure a provider under Settings first."
+msgstr "Las descripciones con IA no están disponibles — configura primero un proveedor en Ajustes."
+
+#: includes/class-author-meta.php:359
+msgid "Session expired — reload the page and try again."
+msgstr "La sesión ha caducado — recarga la página y vuelve a intentarlo."
+
+#: includes/class-author-meta.php:389
+msgid "The AI returned an empty response — try again."
+msgstr "La IA ha devuelto una respuesta vacía — vuelve a intentarlo."
+
+#: includes/class-author-meta.php:406
+msgid "Add at least one certification (or fill in the Credentials field) first — the statement is written from them."
+msgstr "Añade primero al menos una certificación (o rellena el campo Credenciales) — la declaración se redacta a partir de ellas."
+
+#: includes/class-author-meta.php:674
+msgid "A short paragraph that spells out what your credentials mean — who issued them and what those institutions are. AI systems trained mostly on English content often cannot recognize regional or non-English credentials from the name alone; stating the relationship in plain prose (alongside the schema) makes the expertise machine-readable. Shown after your bio and included in your Person schema."
+msgstr "Un párrafo breve que explica qué significan tus credenciales — quién las emitió y qué son esas instituciones. Los sistemas de IA entrenados sobre todo con contenido en inglés a menudo no reconocen credenciales regionales o no inglesas solo por el nombre; expresar la relación en texto claro (junto al schema) hace que la especialidad sea legible por máquinas. Se muestra después de tu biografía y se incluye en tu schema Person."
+
+#: includes/class-author-meta.php:685
+msgid "Drafts from your certifications using your configured AI provider (one API call). Review and edit before saving — nothing is stored until you click \"Update Profile\"."
+msgstr "Redacta un borrador a partir de tus certificaciones con el proveedor de IA que hayas configurado (una llamada a la API). Revísalo y edítalo antes de guardar — no se guarda nada hasta que haces clic en «Actualizar perfil»."
+
+#: includes/class-author-meta.php:738
+msgid "Draft ready — review it, then click \"Update Profile\" to save."
+msgstr "Borrador listo — revísalo y haz clic en «Actualizar perfil» para guardarlo."
+
+#: includes/class-author-meta.php:744
+msgid "Request failed — check your connection and try again."
+msgstr "La solicitud ha fallado — comprueba tu conexión y vuelve a intentarlo."
+
+#: includes/class-content-provenance.php:115
+msgid "Published as digitalSourceType in this page's schema so AI systems and search engines know the content's origin. Human-created publishes nothing — absence is the human default."
+msgstr "Se publica como digitalSourceType en el schema de esta página para que los sistemas de IA y los buscadores conozcan el origen del contenido. «Creado por una persona» no publica nada — la ausencia es el valor por defecto humano."
+
+#: admin/pages/class-page-ai-visibility.php:2098
+msgid "One run so far. A second real run gives each brand a line to compare against — a single point is a reading, not a trend."
+msgstr "Por ahora, una sola ejecución. Una segunda ejecución real da a cada marca una línea con la que comparar — un solo punto es una lectura, no una tendencia."
+
+#: admin/pages/class-page-ai-visibility.php:2193
+msgid "People arrive anyway — for questions you are not asking"
+msgstr "La gente llega igualmente — por preguntas que no estás haciendo"
+
+#: admin/pages/class-page-ai-visibility.php:2210
+msgid "You have a scope selected, so the left column is narrowed and the right is not — compare them at “All”."
+msgstr "Tienes un ámbito seleccionado, así que la columna izquierda está acotada y la derecha no — compáralas en «Todo»."
+
+#. translators: 1: questions where you were absent, 2: how many of those cited
+#. somebody else.
+#: admin/pages/class-page-ai-visibility.php:2338
+msgid "You were absent from %1$s questions in this scope. On %2$s of them the assistant cited somebody else — those are the ones worth writing for, because the answer already exists and it simply is not yours."
+msgstr "Estuviste ausente en %1$s preguntas de este ámbito. En %2$s de ellas el asistente citó a otro — esas son las que merece la pena trabajar, porque la respuesta ya existe y simplemente no es la tuya."
+
+#: admin/pages/class-page-ai-visibility.php:2374
+msgid "No sources cited at all — the assistants answered from memory, so there is no page to outrank here, only an entity to be better known as."
+msgstr "No se citó ninguna fuente — los asistentes respondieron de memoria, así que aquí no hay ninguna página que superar, solo una entidad que dar más a conocer."
+
+#. translators: %s: number of further questions not listed.
+#: admin/pages/class-page-ai-visibility.php:2388
+msgid "and %s more not listed here — the table above carries every one of them."
+msgstr "y %s más que no aparecen aquí — la tabla de arriba las incluye todas."
+
+#: includes/class-author-meta.php:465
+msgid "Professional Membership"
+msgstr "Membresía profesional"
+
+#: includes/class-author-meta.php:784
+msgid "e.g. First-Class Registered Architect"
+msgstr "p. ej., arquitecto registrado de primera clase"
+
+#: includes/class-author-meta.php:815
+msgid "Comma-separated. Grounds the issuing body to a known entity so AI models can recognize what the credential represents — especially important for regional or non-English credentials."
+msgstr "Separadas por comas. Ancla el organismo emisor a una entidad conocida para que los modelos de IA puedan reconocer qué representa la credencial — especialmente importante para credenciales regionales o no inglesas."
+
+#: admin/class-admin-assets.php:322
+msgid "Not saved — these would not match anything:"
+msgstr "No guardado — estos no coincidirían con nada:"
+
+#: admin/pages/class-page-ai-visibility.php:91
+msgid "Each engine column is that assistant’s API with web search, asked the same question on your key. Cited means the answer linked to something you own — your domain, or a profile registered under “What counts as you”; the surface is shown alongside, so a citation that only ever lands on your LinkedIn page still reads as one. Named means it mentioned you without a link; absent means neither; unavailable means no answer was recorded (a refused or errored call), which is never counted as absent. The shares are of answered checks. This board reports presence and citations — it does not track positions, because assistants do not have them."
+msgstr "Cada columna de motor es la API de ese asistente con búsqueda web, a la que se hace la misma pregunta con tu clave. Citado significa que la respuesta enlazó a algo tuyo — tu dominio o un perfil registrado en «Qué cuenta como tú»; la superficie se muestra al lado, así que una cita que solo cae en tu página de LinkedIn sigue contando como cita. Mencionado significa que te nombró sin enlace; ausente, ninguna de las dos cosas; no disponible significa que no se registró ninguna respuesta (una llamada rechazada o con error), y nunca cuenta como ausente. Los porcentajes son sobre las comprobaciones respondidas. Este panel informa de presencia y citas — no de posiciones, porque los asistentes no las tienen."
+
+#: admin/pages/class-page-ai-visibility.php:304
+msgid "Asks ChatGPT, Gemini, Claude, Perplexity, Grok, Le Chat, DeepSeek and Muse the questions people ask about your company, your brands, your categories, your products and your posts, then records per engine whether you were cited (a link to something you own), named without a link, or absent — and who was cited instead. A citation of a profile you own counts as a citation; the board shows which surface it landed on, so you can still tell your own pages from your LinkedIn. Where we already know the answer (your policies, where you ship, your variants and prices) it also checks whether what the engine said was true. Every check is one model call with one web search on your key, so your provider bills it at their rate — this page shows counts, never dollars. Nothing runs until you press Start, and a run pauses at your daily cap rather than failing."
+msgstr "Hace a ChatGPT, Gemini, Claude, Perplexity, Grok, Le Chat, DeepSeek y Muse las preguntas que la gente hace sobre tu empresa, tus marcas, tus categorías, tus productos y tus entradas, y registra por motor si se te citó (un enlace a algo tuyo), si se te mencionó sin enlace o si estuviste ausente — y a quién se citó en tu lugar. Una cita de un perfil tuyo cuenta como cita; el panel muestra en qué superficie cayó, para que sigas distinguiendo tus propias páginas de tu LinkedIn. Cuando ya conocemos la respuesta (tus políticas, adónde envías, tus variantes y precios), también comprueba si lo que dijo el motor era cierto. Cada comprobación es una llamada al modelo con una búsqueda web con tu clave, así que tu proveedor la cobra a su tarifa — esta página muestra recuentos, nunca importes. No se ejecuta nada hasta que pulsas Iniciar, y una ejecución se pausa al llegar a tu límite diario en lugar de fallar."
+
+#: admin/pages/class-page-ai-visibility.php:572
+msgid "— they feed your schema as well, and they will be counted here automatically."
+msgstr "— también alimentan tu schema y se contarán aquí automáticamente."
+
+#: admin/pages/class-page-ai-visibility.php:579
+msgid "A domain of your own goes in whole — every page under it counts. On a shared platform (LinkedIn, X, YouTube, GitHub…) paste the full page address instead: your page there is yours, the platform is not, and the bare domain would count every citation on it as yours."
+msgstr "Un dominio propio se añade completo — cuenta cada página que contenga. En una plataforma compartida (LinkedIn, X, YouTube, GitHub…) pega en su lugar la dirección completa de la página: tu página allí es tuya, la plataforma no, y el dominio a secas contaría como tuya cualquier cita en ella."
+
+#: admin/pages/class-page-ai-visibility.php:584
+msgid "A product or sub-brand you want tracked in its own right. Give it a phrase to watch for and whatever it owns — its own website, its pages on other platforms, or both. A channel the brand does not have is simply left blank; it is never reported as a gap."
+msgstr "Un producto o submarca que quieras seguir por separado. Indica una frase que vigilar y lo que le pertenece — su propio sitio web, sus páginas en otras plataformas o ambas cosas. Si la marca no tiene un canal, simplemente se deja en blanco; nunca se informa como carencia."
+
+#: admin/pages/class-page-ai-visibility.php:633
+msgid "In quotes = that exact phrase. Without quotes = every word of three letters or more, in any order — looser, so it also catches “the Ultimate AEO plugin”. Whole words either way: “Ace” never matches “Aceto”."
+msgstr "Entre comillas = esa frase exacta. Sin comillas = cada palabra de tres letras o más, en cualquier orden — más flexible, así que también detecta «el plugin Ultimate AEO». En ambos casos, palabras completas: «Ace» nunca coincide con «Aceto»."
+
+#. translators: %s: scope name, e.g. "Category: Shoes".
+#: admin/pages/class-page-ai-visibility.php:1606
+msgid "%s — not in this run"
+msgstr "%s — no está en esta ejecución"
+
+#: admin/pages/class-page-ai-visibility.php:1615
+msgid "This run asked nothing in that scope, so there is nothing to chart — which is not the same as “you were not cited there”."
+msgstr "Esta ejecución no preguntó nada en ese ámbito, así que no hay nada que representar — lo que no es lo mismo que «no se te citó ahí»."
+
+#: admin/pages/class-page-ai-visibility.php:2024
+msgid "Every citation this run landed on your page on somebody else’s platform rather than on a site you own. That still counts — but your own pages are not what the assistants are reaching for yet."
+msgstr "Todas las citas de esta ejecución cayeron en tu página de la plataforma de otro, no en un sitio tuyo. Siguen contando — pero los asistentes todavía no recurren a tus propias páginas."
+
+#: admin/pages/class-page-ai-visibility.php:2052
+msgid "Named counts cited answers too, so it is never lower than cited. A brand with no owned profiles can still be named — it simply cannot be cited until it has somewhere to be cited."
+msgstr "Mencionado incluye también las respuestas citadas, así que nunca es menor que citado. Una marca sin perfiles propios puede ser mencionada — simplemente no puede ser citada hasta que tenga algún sitio donde citarla."
+
+#: admin/pages/class-page-ai-visibility.php:2813
+msgid "Cited — linked to your page on another platform, not to a site you own"
+msgstr "Citado — enlazó a tu página en otra plataforma, no a un sitio tuyo"
+
+#: admin/pages/class-page-ai-visibility.php:2816
+msgid "Cited — linked to a site you own and to your page on another platform"
+msgstr "Citado — enlazó a un sitio tuyo y a tu página en otra plataforma"
+
+#: admin/pages/class-page-ai-visibility.php:2818
+msgid "Cited — linked to a site you own"
+msgstr "Citado — enlazó a un sitio tuyo"
+
+#: includes/class-visibility.php:635
+msgid "This is a shared platform, so add the full page address — your own page on it, like linkedin.com/company/your-brand. The bare domain would count every citation on that platform as yours. (A domain of your own needs no path — paste it as it is.)"
+msgstr "Es una plataforma compartida, así que añade la dirección completa de la página — tu propia página en ella, como linkedin.com/company/tu-marca. El dominio a secas contaría como tuya cualquier cita en esa plataforma. (Un dominio propio no necesita ruta — pégalo tal cual.)"
+
+#: admin/class-admin-assets.php:297
+msgid "Run complete — loading results…"
+msgstr "Ejecución completada — cargando resultados…"
+
+#: admin/class-admin-assets.php:300
+msgid "Building the list — reads your catalogue, spends nothing…"
+msgstr "Creando la lista — lee tu catálogo y no gasta nada…"
+
+#: admin/class-admin-assets.php:303
+msgid "Network hiccup — retrying…"
+msgstr "Fallo de red momentáneo — reintentando…"
+
+#: admin/class-admin-assets.php:304
+msgid "The background worker is on it — waiting…"
+msgstr "El proceso en segundo plano se está encargando — esperando…"
+
+#. translators: %1$s: number of questions rephrased.
+#: admin/class-admin-assets.php:313
+msgid "%1$s questions rephrased — saved with source “ai”."
+msgstr "%1$s preguntas reformuladas — guardadas con la fuente «ai»."
+
+#: admin/class-admin-assets.php:314
+msgid "Too many network failures in a row — the run is saved; resume it any time."
+msgstr "Demasiados fallos de red seguidos — la ejecución está guardada; reanúdala cuando quieras."
+
+#: admin/pages/class-page-ai-visibility.php:291
+msgid "Free — your own keys"
+msgstr "Gratis — con tus propias claves"
+
+#: admin/pages/class-page-ai-visibility.php:300
+msgid "What these checks are — and are not."
+msgstr "Qué son estas comprobaciones — y qué no son."
+
+#: admin/pages/class-page-ai-visibility.php:301
+msgid "These checks call the assistants’ APIs with web search on your own keys. They approximate what the consumer apps say — those personalise and change daily — and are the closest reproducible measure. A question you’re not named for is a finding with a fix, not a failure."
+msgstr "Estas comprobaciones llaman a las API de los asistentes con búsqueda web usando tus propias claves. Se aproximan a lo que dicen las apps de consumo —que personalizan y cambian a diario— y son la medida reproducible más cercana. Una pregunta en la que no se te nombra es un hallazgo con corrección, no un fracaso."
+
+#: admin/pages/class-page-ai-visibility.php:319
+msgid "AI referrals — who is sending visitors"
+msgstr "Referencias de IA — quién te envía visitas"
+
+#: admin/pages/class-page-ai-visibility.php:376
+msgid "Search Console — top queries"
+msgstr "Search Console — consultas principales"
+
+#: admin/pages/class-page-ai-visibility.php:463
+msgid "Connected — no rows in this window yet."
+msgstr "Conectado — todavía no hay filas en este periodo."
+
+#: admin/pages/class-page-ai-visibility.php:509
+msgid "The consumer app’s default model — what a shopper’s phone runs"
+msgstr "El modelo por defecto de la app de consumo — el que usa el móvil de un comprador"
+
+#: admin/pages/class-page-ai-visibility.php:515
+msgid "A key on file means we can ask that engine. Whether that key’s tier allows web search is only known once a check runs — an engine that refuses is recorded as unavailable for that check, never as absent."
+msgstr "Una clave guardada significa que podemos consultar a ese motor. Si el plan de esa clave permite la búsqueda web solo se sabe al ejecutar una comprobación — un motor que se niega se registra como no disponible para esa comprobación, nunca como ausente."
+
+#: admin/pages/class-page-ai-visibility.php:856
+msgid "Allocation — how many questions, where"
+msgstr "Asignación — cuántas preguntas y dónde"
+
+#: admin/pages/class-page-ai-visibility.php:978
+msgid "Post titles dropped into templates can read clumsily. This sends the post questions to your enrichment AI provider (the one behind meta descriptions) and keeps the natural rewrites — a few cheap calls, nothing web-searched, nothing run."
+msgstr "Los títulos de las entradas insertados en plantillas pueden sonar torpes. Esto envía las preguntas de las entradas a tu proveedor de IA de enriquecimiento (el que genera las meta descripciones) y conserva las reformulaciones naturales — unas pocas llamadas baratas, sin búsquedas web y sin ejecutar nada."
+
+#: admin/pages/class-page-ai-visibility.php:988
+msgid "No question set yet — build one from the templates above. A run without a saved set uses the templates for the saved allocation."
+msgstr "Todavía no hay conjunto de preguntas — crea uno a partir de las plantillas de arriba. Una ejecución sin conjunto guardado usa las plantillas de la asignación guardada."
+
+#: admin/pages/class-page-ai-visibility.php:1211
+msgid "You can close this page mid-run — a background worker picks the run up from where it stopped and finishes it. It rides WordPress cron, so progress between visits depends on your site getting traffic; keeping this page open is always the fastest way through a run."
+msgstr "Puedes cerrar esta página a mitad de una ejecución — un proceso en segundo plano la retoma donde se detuvo y la termina. Funciona con el cron de WordPress, así que el avance entre visitas depende de que tu sitio reciba tráfico; mantener esta página abierta siempre es la forma más rápida de completar una ejecución."
+
+#: admin/pages/class-page-ai-visibility.php:1386
+msgid "Sample data — not real answers."
+msgstr "Datos de ejemplo — no son respuestas reales."
+
+#. translators: %d: number of past runs shown in the trend.
+#: admin/pages/class-page-ai-visibility.php:1560
+msgid "Trend — cited %% of answered checks, per engine, across your last %d runs"
+msgstr "Tendencia — %% de citas sobre comprobaciones respondidas, por motor, en tus últimas %d ejecuciones"
+
+#: admin/pages/class-page-ai-visibility.php:1592
+msgid "Who gets cited instead — share of voice from this run"
+msgstr "A quién se cita en tu lugar — cuota de voz de esta ejecución"
+
+#: admin/pages/class-page-ai-visibility.php:1940
+msgid "API approximates the app — the consumer assistant personalises and changes daily; this is the closest reproducible measure."
+msgstr "La API se aproxima a la app — el asistente de consumo personaliza y cambia a diario; esta es la medida reproducible más cercana."
+
+#: admin/pages/class-page-ai-visibility.php:2769
+msgid "Company profile — policies"
+msgstr "Perfil de empresa — políticas"
+
+#: admin/pages/class-page-ai-visibility.php:2820
+msgid "Named — mentioned, no link"
+msgstr "Mencionado — te nombró, sin enlace"
+
+#: admin/pages/class-page-ai-visibility.php:2822
+msgid "Absent — not mentioned"
+msgstr "Ausente — no te mencionó"
+
+#: admin/pages/class-page-ai-visibility.php:2824
+msgid "Unavailable — no answer recorded"
+msgstr "No disponible — no se registró respuesta"
+
+#. translators: %s: number of checks
+#: includes/ai-visibility/class-visibility-budget.php:74
+msgid "Paused at today's cap of %s checks — resumes tomorrow; raise the cap in settings."
+msgstr "En pausa al llegar al límite de hoy de %s comprobaciones — se reanuda mañana; sube el límite en los ajustes."
+
+#: includes/ai-visibility/class-visibility-store.php:586
+msgid "No engine has a key yet — add one in Settings."
+msgstr "Ningún motor tiene clave todavía — añade una en Ajustes."
+
+#: includes/ai-visibility/class-visibility-store.php:587
+msgid "No questions to ask — raise the allocation or enable some questions."
+msgstr "No hay preguntas que hacer — sube la asignación o activa algunas preguntas."
+
+#. translators: %s: engine name
+#: includes/ai-visibility/class-visibility-store.php:759
+msgid "No key for %s — add it in Settings."
+msgstr "No hay clave para %s — añádela en Ajustes."
+
+#: includes/class-visibility.php:743
+msgid "Build and save the question list first — polishing works on the saved set."
+msgstr "Crea y guarda primero la lista de preguntas — el pulido funciona sobre el conjunto guardado."
+
+#: admin/pages/class-page-dashboard.php:332
+msgid "Click any page's score ring below for its line-by-line breakdown — every point named, every gap linked to its fix."
+msgstr "Haz clic en el anillo de puntuación de cualquier página de abajo para ver su desglose línea por línea — cada punto con su nombre y cada carencia enlazada a su corrección."
+
+#: admin/pages/class-page-dashboard.php:358
+msgid "History starts today — one point is saved per day, so the trend line appears from tomorrow."
+msgstr "El historial empieza hoy — se guarda un punto al día, así que la línea de tendencia aparecerá a partir de mañana."
+
+#: admin/pages/class-page-dashboard.php:395
+msgid "Create every missing schema that can be built from data the site already has — titles, authors, company profile, business info, detected FAQs, WooCommerce products. Types needing facts only you know (event dates, prices outside WooCommerce) are reported, never guessed."
+msgstr "Crea todos los schemas que faltan y que se pueden construir con datos que el sitio ya tiene — títulos, autores, perfil de empresa, información del negocio, FAQ detectadas, productos de WooCommerce. Los tipos que necesitan datos que solo tú conoces (fechas de eventos, precios fuera de WooCommerce) se señalan, nunca se inventan."
+
+#: includes/class-aeo-score.php:321
+msgid "Set it on the Social Graph screen"
+msgstr "Establécelo en la pantalla grafo social"
+
+#: includes/class-aeo-score.php:328
+msgid "A one-paragraph summary engines can lift verbatim. Without it they guess — or skip the page."
+msgstr "Un resumen de un párrafo que los motores pueden tomar literalmente. Sin él, adivinan — o se saltan la página."
+
+#: includes/class-aeo-score.php:330
+msgid "Generate it on the Social Graph screen"
+msgstr "Genérala en la pantalla grafo social"
+
+#: includes/class-aeo-score.php:339
+msgid "Add an image on the Social Graph screen"
+msgstr "Añade una imagen en la pantalla grafo social"
+
+#: includes/class-aeo-score.php:366
+msgid "This page is marked noindex — engines are told to ignore it. Everything else on this list is moot until this is cleared."
+msgstr "Esta página está marcada como noindex — se indica a los motores que la ignoren. Todo lo demás de esta lista es irrelevante hasta que se quite."
+
+#: includes/class-aeo-score.php:378
+msgid "This page is its own canonical — citations credit this URL."
+msgstr "Esta página es su propia canónica — las citas se atribuyen a esta URL."
+
+#: includes/class-aeo-score.php:408
+msgid "The page's own one-line answer to \"what is this?\" — the cheapest quotable text you can give an engine."
+msgstr "La respuesta de una línea de la propia página a «¿qué es esto?» — el texto citable más barato que puedes dar a un motor."
+
+#: includes/class-aeo-score.php:410
+msgid "Generate one from the Dashboard's AI Meta Descriptions panel"
+msgstr "Genera una desde el panel Meta descripciones con IA del escritorio"
+
+#: includes/class-aeo-score.php:426
+msgid "Thin pages rarely survive an engine's answer-selection pass — there is not enough there to be the source."
+msgstr "Las páginas escasas rara vez superan la selección de respuestas de un motor — no hay suficiente contenido para ser la fuente."
+
+#. translators: %s: comma-separated author names.
+#: includes/class-aeo-score.php:502
+msgid "Incomplete: %s. One filled-out author does not cover the others — E-E-A-T is judged per byline."
+msgstr "Incompletos: %s. Un autor con el perfil completo no cubre a los demás — E-E-A-T se evalúa por firma."
+
+#: includes/class-aeo-score.php:520
+msgid "Pushes every change to Bing and friends immediately — the engines several AI assistants read from. Without it you wait to be recrawled."
+msgstr "Envía cada cambio de inmediato a Bing y compañía — los motores de los que leen varios asistentes de IA. Sin ello, esperas a que vuelvan a rastrear."
+
+#: includes/class-aeo-score.php:534
+msgid "Enable the Sitemap module"
+msgstr "Activa el módulo mapa del sitio"
+
+#: includes/class-plugin.php:461
+msgid "No score yet — scan this page first."
+msgstr "Todavía no hay puntuación — explora primero esta página."
+
+#: includes/class-plugin.php:489
+msgid "AI descriptions are not enabled — configure a provider under Settings first."
+msgstr "Las descripciones con IA no están activadas — configura primero un proveedor en Ajustes."
+
+#: admin/class-admin-assets.php:98
+msgid "Skipped — handled by another plugin"
+msgstr "Omitido — lo gestiona otro plugin"
+
+#. translators: %1$d: pages scanned, %2$d: images missing alt text, %3$d: pages
+#. with no images at all.
+#: admin/pages/class-page-image-seo.php:61
+msgid "%1$d pages scanned — %2$d images missing alt text, %3$d pages have no images at all"
+msgstr "%1$d páginas exploradas — %2$d imágenes sin texto alternativo, %3$d páginas sin ninguna imagen"
+
+#: admin/pages/class-page-image-seo.php:104
+msgid "This uses AI: one billed API call per image that is missing alt text. You will be asked to confirm the count before anything runs, and you can stop at any time — pages already processed keep their new alt text."
+msgstr "Esto usa IA: una llamada a la API con coste por cada imagen sin texto alternativo. Se te pedirá que confirmes el número antes de ejecutar nada, y puedes detenerlo en cualquier momento — las páginas ya procesadas conservan su nuevo texto alternativo."
+
+#: admin/pages/class-page-image-seo.php:220
+msgid "Nothing to generate — all images have alt text."
+msgstr "No hay nada que generar — todas las imágenes tienen texto alternativo."
+
+#. translators: %1$d: number of images missing alt text. %2$d: number of pages
+#. they are on.
+#: admin/pages/class-page-image-seo.php:226
+msgid "This will run AI vision over %1$d image(s) across %2$d page(s) — one billed AI call per image. Continue?"
+msgstr "Esto aplicará visión por IA a %1$d imagen(es) en %2$d página(s) — una llamada de IA con coste por imagen. ¿Continuar?"
+
+#: admin/pages/class-page-promotions.php:157
+msgid "Where it charges less than your catalogue price for a single unit, that lower figure is what your product pages already show — so that is what gets published and what the Merchant Center comparison uses. Run a scan on the Price Rules tab after changing your discount rules."
+msgstr "Cuando cobra menos que el precio de catálogo por una sola unidad, esa cifra más baja es la que ya muestran tus páginas de producto — así que es la que se publica y la que usa la comparación con Merchant Center. Ejecuta una exploración en la pestaña Reglas de precios después de cambiar tus reglas de descuento."
+
+#. translators: %s: comma-separated plugin folder names.
+#: admin/pages/class-page-promotions.php:174
+msgid "%s. We cannot read what these do to your prices, so check that the price on a product page matches the price in your Merchant Center feed — if they disagree, the feed is disapproved for a price mismatch and the page's structured data is wrong for the same reason."
+msgstr "%s. No podemos leer qué hacen con tus precios, así que comprueba que el precio de la página de un producto coincide con el de tu feed de Merchant Center — si no coinciden, el feed se rechaza por discrepancia de precio y los datos estructurados de la página son incorrectos por el mismo motivo."
+
+#: admin/pages/class-page-promotions.php:249
+msgid "Write a discount code into your product schema. There is no schema.org property for a promo code on an offer — discountCode belongs to Order, not Offer, so publishing it would validate as nothing at all."
+msgstr "Escribir un código de descuento en el schema de tu producto. No existe ninguna propiedad de schema.org para un código promocional en una oferta — discountCode pertenece a Order, no a Offer, así que publicarlo no validaría como nada."
+
+#: admin/pages/class-page-promotions.php:299
+msgid "It answers a documented filter asking what it will charge for a product at a given quantity, so a published tier is its own answer rather than anything typed here. That makes the price enforced by construction — the thing that charges it is what told us. Prices read this way override the tiers below."
+msgstr "Responde a un filtro documentado que le pregunta cuánto cobrará por un producto en una cantidad dada, así que un tramo publicado es su propia respuesta y no algo escrito aquí. Eso hace que el precio se cumpla por diseño — lo que lo cobra es lo que nos lo dijo. Los precios leídos de esta forma sustituyen a los tramos de abajo."
+
+#: admin/pages/class-page-promotions.php:361
+msgid "Applied to every product unless a product overrides them in its own AEO panel. Leave a row blank to skip it. A tier must start at 2 or more — a tier starting at 1 is just the price."
+msgstr "Se aplican a todos los productos salvo que un producto los sustituya en su propio panel AEO. Deja una fila vacía para omitirla. Un tramo debe empezar en 2 o más — un tramo que empieza en 1 es simplemente el precio."
+
+#: admin/pages/class-page-promotions.php:392
+msgid "The second safe conditional price: a price available to a membership tier. Google reads this as a pair — a member programme declared on your organisation, and a price on each product valid for one of its tiers. Both halves are published together or neither is."
+msgstr "El segundo precio condicional seguro: un precio disponible para un nivel de membresía. Google lo interpreta como un par — un programa de miembros declarado en tu organización y un precio en cada producto válido para uno de sus niveles. Las dos mitades se publican juntas o no se publica ninguna."
+
+#. translators: 1: scanned, 2: total, 3: with tiers, 4: engine-priced.
+#: admin/pages/class-page-promotions.php:489
+msgid "Scanned %1$d of %2$d products. %3$d have quantity breaks. On %4$d your pricing plugin charges less than the catalogue price for a single unit, so that lower figure is what gets published — it is what your product pages already show."
+msgstr "Explorados %1$d de %2$d productos. %3$d tienen descuentos por cantidad. En %4$d tu plugin de precios cobra menos que el precio de catálogo por una sola unidad, así que esa cifra más baja es la que se publica — es la que ya muestran tus páginas de producto."
+
+#: admin/pages/class-page-promotions.php:497
+msgid "More to go — run it again to continue."
+msgstr "Quedan más — vuelve a ejecutarlo para continuar."
+
+#: admin/pages/class-page-promotions.php:542
+msgid "Ending or editing a discount rule does not touch any product, so nothing here notices on its own. Once a week this rescans the catalogue in small batches and rewrites each stored price in place. Between sweeps, a promotion that ends and does not come back leaves the old, lower price published — so if you end a promotion for good, scan above rather than waiting."
+msgstr "Terminar o editar una regla de descuento no toca ningún producto, así que aquí nada se entera por sí solo. Una vez por semana, esto vuelve a explorar el catálogo en lotes pequeños y reescribe cada precio guardado. Entre barridos, una promoción que termina y no vuelve deja publicado el precio antiguo y más bajo — así que, si terminas una promoción definitivamente, explora arriba en lugar de esperar."
+
+#: admin/pages/class-page-promotions.php:556
+msgid "Never — the first sweep has not finished yet."
+msgstr "Nunca — el primer barrido todavía no ha terminado."
+
+#: admin/pages/class-page-promotions.php:580
+msgid "Next sweep"
+msgstr "Siguiente barrido"
+
+#. translators: 1: products done, 2: total.
+#: admin/pages/class-page-promotions.php:586
+msgid "Running now — %1$d of %2$d done."
+msgstr "Ejecutándose ahora — %1$d de %2$d hechos."
+
+#: admin/pages/class-page-promotions.php:733
+msgid "Not connected to Google Merchant Center. Connect it on the Products & Feeds page first — the same connection is used here."
+msgstr "No está conectado a Google Merchant Center. Conéctalo primero en la página Productos y feeds — aquí se usa la misma conexión."
+
+#: admin/pages/class-page-promotions.php:752
+msgid "Merchant Center requires an end date on every promotion. A coupon with no expiry has none to send, so state how long such a coupon should run as a promotion. Leave at 0 to skip those coupons entirely — a promotion that outlives what you intended is worse than one that was never created."
+msgstr "Merchant Center exige una fecha de fin en cada promoción. Un cupón sin caducidad no tiene ninguna que enviar, así que indica cuánto tiempo debe durar un cupón así como promoción. Déjalo en 0 para omitir por completo esos cupones — una promoción que dura más de lo que pretendías es peor que una que nunca se creó."
+
+#: admin/pages/class-page-promotions.php:767
+msgid "Available once the Local Store module is publishing a real shop address. Claiming in-store redemption without a store is a false statement about the business."
+msgstr "Disponible cuando el módulo tienda local publique una dirección de tienda real. Afirmar que se puede canjear en tienda sin tener tienda es una declaración falsa sobre el negocio."
+
+#: admin/pages/class-page-promotions.php:830
+msgid "Microsoft's Shopping Content API has no promotions endpoint — its product records only reference a promotion defined in a separate feed you upload. So this is a file to download and upload there, not something we can send for you."
+msgstr "La API Shopping Content de Microsoft no tiene un endpoint de promociones — sus registros de producto solo hacen referencia a una promoción definida en un feed aparte que subes tú. Así que esto es un archivo para descargar y subir allí, no algo que podamos enviar por ti."
+
+#: admin/pages/class-page-schema-conflicts.php:143
+msgid "Everything below is switched on by default. If another plugin already writes one of these, you can switch this plugin’s version off here — nothing is turned off for you."
+msgstr "Todo lo de abajo está activado por defecto. Si otro plugin ya escribe alguno de estos elementos, puedes desactivar aquí la versión de este plugin — no se desactiva nada por ti."
+
+#: admin/pages/class-page-schema-conflicts.php:146
+msgid "Detected from each plugin’s own settings and the schema types it says it writes, not by reading your rendered pages — so a plugin listed here may only write it on some page types."
+msgstr "Se detecta a partir de los ajustes de cada plugin y de los tipos de schema que dice escribir, no leyendo tus páginas ya procesadas — así que es posible que un plugin de esta lista solo lo escriba en algunos tipos de página."
+
+#: admin/pages/class-page-schema-detector.php:189
+msgid "Generate All builds FAQPage schema from the Q&A content already detected on each page — free and instant, no AI calls, nothing is billed. Pages where the Q&A pairs cannot be extracted cleanly are skipped and keep their per-row button."
+msgstr "Generar todos crea el schema FAQPage a partir del contenido de preguntas y respuestas ya detectado en cada página — gratis e instantáneo, sin llamadas a la IA y sin coste. Las páginas cuyas preguntas y respuestas no se pueden extraer limpiamente se omiten y conservan su botón por fila."
+
+#: admin/pages/class-page-schema-detector.php:592
+msgid "Generate All auto-fills each page's Service schema from its own title and content plus your business info — free and instant, no AI calls, nothing is billed. You can open any page's \"Edit Schema\" afterwards to refine the wording."
+msgstr "Generar todos rellena automáticamente el schema Service de cada página a partir de su propio título y contenido más la información de tu negocio — gratis e instantáneo, sin llamadas a la IA y sin coste. Después puedes abrir «Editar schema» en cualquier página para afinar la redacción."
+
+#: admin/pages/class-page-schema-detector.php:929
+msgid "Applies the business info above to every contact page that still needs attention — free and instant, no AI calls, nothing is billed."
+msgstr "Aplica la información del negocio de arriba a todas las páginas de contacto que aún requieren atención — gratis e instantáneo, sin llamadas a la IA y sin coste."
+
+#: admin/pages/class-page-setup-wizard.php:234
+msgid "Builds FAQ and Service schema for every detected page still missing it, from content already on the page — free, no AI. Pages that already carry schema from another plugin are never touched. Runs in the background."
+msgstr "Crea el schema de FAQ y de servicio en cada página detectada que aún no lo tenga, a partir del contenido que ya hay en la página — gratis, sin IA. Nunca se tocan las páginas que ya tienen schema de otro plugin. Se ejecuta en segundo plano."
+
+#: admin/pages/class-page-setup-wizard.php:249
+msgid "Your SEO plugin owns Open Graph output — this step will be skipped so the two never disagree."
+msgstr "Tu plugin de SEO controla la salida de Open Graph — este paso se omitirá para que los dos nunca se contradigan."
+
+#: admin/pages/class-page-setup-wizard.php:250
+msgid "Fills missing og:description tags from the meta descriptions you already have — free, no AI. Runs in the background."
+msgstr "Rellena las etiquetas og:description que faltan a partir de las meta descripciones que ya tienes — gratis, sin IA. Se ejecuta en segundo plano."
+
+#. translators: %s: why this setup step was skipped.
+#: admin/pages/class-page-setup-wizard.php:832
+msgid "Skipped — %s"
+msgstr "Omitido — %s"
+
+#: admin/pages/class-page-setup-wizard.php:838
+msgid "Filling missing schema and social descriptions in the background — no AI, nothing billed. This page updates when it finishes."
+msgstr "Rellenando en segundo plano el schema y las descripciones para redes que faltan — sin IA y sin coste. Esta página se actualiza cuando termine."
+
+#: admin/pages/class-page-smart-collections.php:90
+msgid "A catalogue answers \"what do you sell\". It does not answer \"what should a beginner buy\", which is the question a shopper asks two steps before they know what they want. This turns the categories you already built — Starter Kits, Pro Setups, Under $500 — into published Collections: a group of products, a written explanation of who it is for, and structured data an AI assistant can quote. It creates no pages and no categories of its own."
+msgstr "Un catálogo responde a «qué vendes». No responde a «qué debería comprar un principiante», que es la pregunta que hace un comprador dos pasos antes de saber lo que quiere. Esto convierte las categorías que ya creaste —kits de iniciación, equipos profesionales, menos de 500 $— en colecciones publicadas: un grupo de productos, una explicación escrita de para quién es y datos estructurados que un asistente de IA puede citar. No crea páginas ni categorías propias."
+
+#: admin/pages/class-page-smart-collections.php:192
+msgid "Summary written by AI. Read it before you publish — you own what it says."
+msgstr "Resumen redactado por la IA. Léelo antes de publicarlo — eres responsable de lo que dice."
+
+#. translators: 1: collection title, 2: number of products.
+#: admin/pages/class-page-smart-collections.php:235
+msgid "Created the \"%1$s\" category and added %2$d products to it. Nothing was removed from any category they were already in. The collection is saved but NOT live — review it, then tick \"Publish this collection\"."
+msgstr "Se ha creado la categoría «%1$s» y se le han añadido %2$d productos. No se ha quitado nada de ninguna categoría en la que ya estuvieran. La colección está guardada pero NO publicada — revísala y después marca «Publicar esta colección»."
+
+#: admin/pages/class-page-smart-collections.php:327
+msgid "Right now both are writing on your category archives, and two CollectionPage nodes on one page is worse than either alone. Either switch take-over on under Settings, or turn that plugin's collection schema off — but pick one."
+msgstr "Ahora mismo ambos están escribiendo en los archivos de tus categorías, y dos nodos CollectionPage en una misma página es peor que cualquiera de los dos por separado. Activa la sustitución en Ajustes o desactiva el schema de colecciones de ese plugin — pero elige uno."
+
+#: admin/pages/class-page-smart-collections.php:423
+msgid "set"
+msgstr "establecido"
+
+#: admin/pages/class-page-smart-collections.php:519
+msgid "Becomes the name of the CollectionPage. Write it the way a shopper would describe what they want — \"Photography Starter Kit\", not \"Category 12\"."
+msgstr "Se convierte en el nombre de la CollectionPage. Escríbelo como describiría un comprador lo que quiere — «Kit de iniciación a la fotografía», no «Categoría 12»."
+
+#: admin/pages/class-page-smart-collections.php:545
+msgid "Comma-separated, e.g. Starter Kit, Pro Setup, Heavy Duty. Required if you picked \"Other\"; optional otherwise, where they are added to the preset's own phrases."
+msgstr "Separadas por comas; p. ej., kit de iniciación, equipo profesional, uso intensivo. Obligatorias si elegiste «Otro»; opcionales en los demás casos, en los que se añaden a las frases propias del preajuste."
+
+#: admin/pages/class-page-smart-collections.php:569
+msgid "Anywhere you place the shortcode — no new URLs, no taxonomy changes"
+msgstr "En cualquier lugar donde pongas el shortcode — sin URL nuevas ni cambios en la taxonomía"
+
+#: admin/pages/class-page-smart-collections.php:575
+msgid "Save first — the shortcode contains the collection's ID."
+msgstr "Guarda primero — el shortcode contiene el ID de la colección."
+
+#: admin/pages/class-page-smart-collections.php:579
+msgid "This module never creates a page or a category. If you want a collection that has no home yet, make the page yourself and drop the shortcode in — auto-generating landing pages from search queries is the doorway-page pattern search engines penalise."
+msgstr "Este módulo nunca crea una página ni una categoría. Si quieres una colección que todavía no tiene dónde estar, crea tú la página y pon el shortcode en ella — generar automáticamente páginas de destino a partir de consultas de búsqueda es el patrón de páginas puerta que penalizan los buscadores."
+
+#: admin/pages/class-page-smart-collections.php:596
+msgid "Leave blank and one is built from your catalogue automatically — product count, price range and stock, all read live. Anything you type here wins and is never overwritten."
+msgstr "Déjalo vacío y se creará uno automáticamente a partir de tu catálogo — número de productos, rango de precios y existencias, todo leído en directo. Lo que escribas aquí tiene prioridad y nunca se sobrescribe."
+
+#: admin/pages/class-page-smart-collections.php:607
+msgid "Also requires publishing to be switched on under Settings. Both gates, deliberately — one to arm the module, one per collection."
+msgstr "También requiere que la publicación esté activada en Ajustes. Las dos condiciones, a propósito — una para activar el módulo y otra para cada colección."
+
+#: admin/pages/class-page-smart-collections.php:691
+msgid "Switch AI summaries on under Settings first — it spends your API budget."
+msgstr "Activa primero los resúmenes con IA en Ajustes — consumen tu presupuesto de API."
+
+#: admin/pages/class-page-smart-collections.php:710
+msgid "Your category names are read against the intent archetypes. A category called \"Cameras\" is a catalogue division and is not listed; one called \"Starter Kits\" is an answer to a question, and that is what belongs here. Nothing below has been changed — these are suggestions."
+msgstr "Los nombres de tus categorías se comparan con los arquetipos de intención. Una categoría llamada «Cámaras» es una división del catálogo y no aparece; una llamada «Kits de iniciación» es la respuesta a una pregunta, y eso es lo que va aquí. No se ha cambiado nada de lo de abajo — son sugerencias."
+
+#: admin/pages/class-page-smart-collections.php:714
+msgid "No intent-shaped categories found. That is a normal result for a catalogue organised by product type — map a collection by hand, or use the shortcode on a page you have already written."
+msgstr "No se han encontrado categorías con forma de intención. Es un resultado normal en un catálogo organizado por tipo de producto — asigna una colección a mano o usa el shortcode en una página que ya hayas escrito."
+
+#: admin/pages/class-page-smart-collections.php:748
+msgid "Nothing to show. This reads your connected Search Console property for queries carrying intent words — \"for beginners\", \"complete\", \"commercial\", \"under\". Connect Google under Settings to populate it. An empty list here means no data, not no opportunity."
+msgstr "No hay nada que mostrar. Esto lee tu propiedad conectada de Search Console en busca de consultas con palabras de intención — «para principiantes», «completo», «profesional», «menos de». Conecta Google en Ajustes para rellenarlo. Una lista vacía aquí significa que no hay datos, no que no haya oportunidades."
+
+#: admin/pages/class-page-smart-collections.php:839
+msgid "Ticked products are added to the new category. They keep every category they are already in — nothing is moved."
+msgstr "Los productos marcados se añaden a la nueva categoría. Conservan todas las categorías en las que ya están — no se mueve nada."
+
+#: admin/pages/class-page-smart-collections.php:787
+msgid "\"Build one\" is for a query where none of your existing categories is a good answer. It drafts a grouping from products you actually stock, you edit it, and only then is anything created. There is no way to build them all at once, on purpose — one at a time, each one reviewed, is what separates a useful landing page from the kind of bulk-generated page search engines penalise."
+msgstr "«Crear una» es para una consulta a la que ninguna de tus categorías existentes responde bien. Propone una agrupación con productos que tienes de verdad en tu catálogo, tú la editas y solo entonces se crea algo. No hay forma de crearlas todas a la vez, a propósito — de una en una, revisando cada una, es lo que distingue una página de destino útil del tipo de página generada en masa que penalizan los buscadores."
+
+#: admin/pages/class-page-smart-collections.php:845
+msgid "Creating this makes the category live immediately — it appears in your shop navigation and your sitemap. The collection itself is saved switched off, so no schema is published until you turn it on. If you change your mind, the collection list has an Undo that deletes the category and detaches only the products added here."
+msgstr "Al crearla, la categoría se publica de inmediato — aparece en la navegación de tu tienda y en tu mapa del sitio. La colección en sí se guarda desactivada, así que no se publica ningún schema hasta que la actives. Si cambias de opinión, la lista de colecciones tiene un Deshacer que borra la categoría y desvincula solo los productos añadidos aquí."
+
+#: admin/pages/class-page-smart-collections.php:893
+msgid "Only on mapped categories — every other archive stays theirs. Leave this off and both plugins write a CollectionPage on the same page, which is worse than either one alone."
+msgstr "Solo en las categorías asignadas — los demás archivos siguen siendo suyos. Si lo dejas desactivado, ambos plugins escriben una CollectionPage en la misma página, lo que es peor que cualquiera de los dos por separado."
+
+#: admin/pages/class-page-smart-collections.php:911
+msgid "Category-mapped collections only — a shortcode collection has no single URL this file can point at."
+msgstr "Solo las colecciones asignadas a categorías — una colección con shortcode no tiene una única URL a la que este archivo pueda apuntar."
+
+#: admin/pages/class-page-smart-collections.php:922
+msgid "Availability is worked out from each product's variations, not its parent record — a variable product routinely reports itself out of stock while every variation is available."
+msgstr "La disponibilidad se calcula a partir de las variaciones de cada producto, no de su registro principal — un producto variable suele informar de que está sin existencias aunque todas sus variaciones estén disponibles."
+
+#: admin/pages/class-page-social-graph.php:124
+msgid "These cards cover only the newest block so far — run Rescan All to check every page on the site."
+msgstr "Por ahora estas tarjetas solo cubren el bloque más reciente — ejecuta Volver a analizar todo para comprobar todas las páginas del sitio."
+
+#. translators: %1$d: pages scanned. %2$d: total published pages. %3$d: pages
+#. needing attention.
+#: admin/pages/class-page-social-graph.php:153
+msgid "%1$d of %2$d pages scanned (most recent first) — %3$d of those need attention"
+msgstr "%1$d de %2$d páginas exploradas (las más recientes primero) — %3$d de ellas requieren atención"
+
+#. translators: %1$d: total pages checked site-wide. %2$d: pages needing
+#. attention.
+#: admin/pages/class-page-social-graph.php:179
+msgid "Site-wide rescan complete — all %1$d pages checked, %2$d need attention."
+msgstr "Nuevo análisis de todo el sitio completado — las %1$d páginas comprobadas, %2$d requieren atención."
+
+#. translators: %1$d: matching items. %2$s: the search term.
+#: admin/pages/class-page-social-graph.php:459
+msgid "%1$d item matches “%2$s” — searched across every page, post and product."
+msgid_plural "%1$d items match “%2$s” — searched across every page, post and product."
+msgstr[0] "%1$d elemento coincide con «%2$s» — se ha buscado en todas las páginas, entradas y productos."
+msgstr[1] "%1$d elementos coinciden con «%2$s» — se ha buscado en todas las páginas, entradas y productos."
+
+#: admin/pages/class-page-social-graph.php:614
+msgid "Applied automatically — edit the page to override."
+msgstr "Se aplica automáticamente — edita la página para cambiarlo."
+
+#: admin/pages/class-page-social-graph.php:1473
+msgid "Nothing to generate — every page, post and product already has a social description."
+msgstr "No hay nada que generar — todas las páginas, entradas y productos ya tienen descripción para redes."
+
+#: admin/pages/class-page-woocommerce-detector.php:173
+msgid "This module is off — click to enable it on the Modules page."
+msgstr "Este módulo está desactivado — haz clic para activarlo en la página Módulos."
+
+#. translators: %1$d: products scanned on this page. %2$d: products missing
+#. schema among them.
+#: admin/pages/class-page-woocommerce-detector.php:285
+msgid "Rescan complete — %1$d products scanned, %2$d missing schema."
+msgstr "Nueva exploración completada — %1$d productos explorados, a %2$d les falta schema."
+
+#. translators: %1$d: first product shown. %2$d: last product shown. %3$d:
+#. total in view. %4$d: products missing schema on this page.
+#: admin/pages/class-page-woocommerce-detector.php:303
+msgid "Products %1$d–%2$d of %3$d (newest first) — %4$d on this page missing schema"
+msgstr "Productos %1$d–%2$d de %3$d (los más nuevos primero) — a %4$d de esta página les falta schema"
+
+#. translators: %1$d: products scanned on this page. %2$d: catalogue total.
+#: admin/pages/class-page-woocommerce-detector.php:418
+msgid "These cards describe the %1$d products scanned on this page. Page through below to cover all %2$d — or use \"Generate Schema for All\", which always walks the whole catalogue."
+msgstr "Estas tarjetas describen los %1$d productos explorados en esta página. Avanza página a página abajo para cubrir los %2$d — o usa «Generar schema para todos», que siempre recorre todo el catálogo."
+
+#: admin/pages/class-page-woocommerce-detector.php:366
+msgid "WooCommerce ships a basic Product block of its own — classic themes publish it on every product page; some block themes don’t. Where it appears alongside AEO’s connected graph (variants, shipping, returns, identifiers, reviews), search engines see two competing descriptions of the same product and may warn about it — a conflicted signal cites worse than a clear one. Letting AEO be the only Product schema suppresses WooCommerce’s block where it exists and changes nothing where it doesn’t. Keep both if another tool depends on WooCommerce’s block."
+msgstr "WooCommerce incluye su propio bloque Product básico — los temas clásicos lo publican en todas las páginas de producto; algunos temas de bloques no. Donde aparece junto al grafo conectado de AEO (variantes, envío, devoluciones, identificadores, reseñas), los buscadores ven dos descripciones contradictorias del mismo producto y pueden avisar de ello — una señal contradictoria se cita peor que una clara. Dejar que AEO sea el único schema Product suprime el bloque de WooCommerce donde existe y no cambia nada donde no. Mantén ambos si otra herramienta depende del bloque de WooCommerce."
+
+#. translators: %1$d: matching products. %2$s: the search term.
+#: admin/pages/class-page-woocommerce-detector.php:544
+msgid "%1$d product matches “%2$s” — searched across the whole catalogue."
+msgid_plural "%1$d products match “%2$s” — searched across the whole catalogue."
+msgstr[0] "%1$d producto coincide con «%2$s» — se ha buscado en todo el catálogo."
+msgstr[1] "%1$d productos coinciden con «%2$s» — se ha buscado en todo el catálogo."
+
+#. translators: %1$d: number of product images missing alt text. %2$d: number
+#. of products they belong to.
+#: admin/pages/class-page-woocommerce-detector.php:1464
+msgid "This will run AI vision over %1$d image(s) across %2$d product(s) — one billed AI call per image. Continue?"
+msgstr "Esto aplicará visión por IA a %1$d imagen(es) en %2$d producto(s) — una llamada de IA con coste por imagen. ¿Continuar?"
+
+#: includes/class-ai-client.php:546
+msgid "The WordPress AI Client did not return a prompt builder."
+msgstr "El cliente de IA de WordPress no ha devuelto un generador de instrucciones."
+
+#. translators: 1: feature label, 2: number created, 3: number skipped.
+#: includes/class-ai-description.php:1221
+msgid "%1$s finished — %2$d created, %3$d skipped (not enough content to summarise)."
+msgstr "%1$s terminado — %2$d creadas, %3$d omitidas (no hay suficiente contenido para resumir)."
+
+#: includes/class-autopilot.php:229
+msgid "No business contact details on file yet — fill in the Business Info panel (Schema Detector → Contact) and re-run from there."
+msgstr "Todavía no hay datos de contacto del negocio guardados — rellena el panel Información del negocio (Detector de schema → Contacto) y vuelve a ejecutarlo desde allí."
+
+#: includes/class-autopilot.php:266
+msgid "Your SEO plugin owns Open Graph output — nothing was written, so the two never disagree."
+msgstr "Tu plugin de SEO controla la salida de Open Graph — no se ha escrito nada, para que los dos nunca se contradigan."
+
+#. translators: %1$d: posts whose og:description was filled. %2$d: posts with
+#. no meta description to reuse.
+#: includes/class-autopilot.php:289
+msgid "%1$d social description(s) filled from existing meta descriptions. %2$d post(s) have no meta description to reuse — the AI generator on the Social Graph page can write those (billed, and it always asks first)."
+msgstr "%1$d descripción(es) para redes rellenada(s) a partir de las meta descripciones existentes. %2$d entrada(s) no tienen meta descripción que reutilizar — el generador con IA de la página grafo social puede redactarlas (con coste, y siempre pregunta antes)."
+
+#: includes/class-buyer-intent.php:40
+msgid "Complete Offer schema — price, currency, availability and condition"
+msgstr "Schema Offer completo — precio, moneda, disponibilidad y estado"
+
+#: includes/class-buyer-intent.php:50
+msgid "The shopper is weighing choices — \"best\", \"vs\", \"review\". Win these and you are in the consideration set before they search to buy."
+msgstr "El comprador está sopesando alternativas — «mejor», «vs», «opiniones». Gana estas y estarás entre las opciones consideradas antes de que busque para comprar."
+
+#: includes/class-buyer-intent.php:61
+msgid "The shopper is learning — how, what, why. This is where AI assistants answer directly, so being the cited source builds the trust that pays off later."
+msgstr "El comprador está aprendiendo — cómo, qué, por qué. Aquí es donde los asistentes de IA responden directamente, así que ser la fuente citada genera la confianza que da frutos después."
+
+#: includes/class-buyer-intent.php:71
+msgid "The shopper already knows your brand and is searching for it by name. Protect these — losing them means losing customers you already earned."
+msgstr "El comprador ya conoce tu marca y la busca por su nombre. Protege estas búsquedas — perderlas significa perder clientes que ya te habías ganado."
+
+#: includes/class-buyer-intent.php:227
+msgid "These queries show your store to people ready to purchase, but almost nobody clicks. That usually means the result looks thin next to competitors — no price, no rating, no availability in the listing. Completing Offer and review schema on the matching products is the fix."
+msgstr "Estas consultas muestran tu tienda a gente lista para comprar, pero casi nadie hace clic. Eso suele significar que el resultado parece pobre frente a la competencia — sin precio, sin valoración, sin disponibilidad en la ficha. La corrección es completar el schema Offer y de reseñas en los productos correspondientes."
+
+#: includes/class-buyer-intent.php:243
+msgid "You already rank for these buying searches, just not high enough to earn traffic. These are the cheapest wins available — richer product data and stronger review coverage move them furthest."
+msgstr "Ya posicionas para estas búsquedas de compra, pero no lo bastante alto como para conseguir tráfico. Son las victorias más baratas disponibles — unos datos de producto más completos y una mejor cobertura de reseñas son lo que más las hace subir."
+
+#: includes/class-buyer-intent.php:253
+msgid "More people find you while weighing choices than while ready to buy. Comparison results are decided by ratings, specifications and clear differences — make sure your products carry verified reviews and a real specification table."
+msgstr "Te encuentra más gente mientras sopesa alternativas que cuando está lista para comprar. Los resultados comparativos se deciden por valoraciones, especificaciones y diferencias claras — asegúrate de que tus productos tengan reseñas verificadas y una tabla de especificaciones real."
+
+#: includes/class-coupon-rules.php:110
+msgid "Its coupons are WooCommerce coupons. Auto-apply and cart-count conditions are private and are not read, so every coupon is treated as requiring a code — the conservative assumption for structured data."
+msgstr "Sus cupones son cupones de WooCommerce. Las condiciones de aplicación automática y de número de artículos en el carrito son privadas y no se leen, así que todos los cupones se tratan como si requirieran un código — la suposición prudente para los datos estructurados."
+
+#: includes/class-coupon-rules.php:130
+msgid "Dynamic pricing, not coupons: it changes the price without a code, and keeps its rules in its own database tables. Those rules cannot be read back — but it publishes a documented filter that answers what it will charge for a product at a given quantity, and that is read instead. Tier prices come from its own answers rather than from anything typed by hand."
+msgstr "Precios dinámicos, no cupones: cambia el precio sin código y guarda sus reglas en sus propias tablas de la base de datos. Esas reglas no se pueden leer — pero publica un filtro documentado que responde cuánto cobrará por un producto en una cantidad dada, y eso es lo que se lee en su lugar. Los precios por tramos salen de sus propias respuestas, no de nada escrito a mano."
+
+#: includes/class-coupon-rules.php:432
+msgid "Discounts nothing — the amount is zero and free shipping is off."
+msgstr "No descuenta nada — el importe es cero y el envío gratuito está desactivado."
+
+#: includes/class-output-control.php:76
+msgid "The Organization, WebSite and WebPage nodes — who the site is, and what this page is."
+msgstr "Los nodos Organization, WebSite y WebPage — quién es el sitio y qué es esta página."
+
+#: includes/class-product-enricher.php:677
+msgid "No images at all. Answer engines cite the pages that give them the most to work with — an image plus its description is data a text-only page simply does not have. Add an image in the editor."
+msgstr "No hay ninguna imagen. Los motores de respuesta citan las páginas que más material les dan — una imagen con su descripción son datos que una página solo de texto simplemente no tiene. Añade una imagen en el editor."
+
+#. translators: %s: product name.
+#: includes/class-product-faq-generator.php:238
+msgid "What sizes or variations are available for %s?"
+msgstr "¿Qué tallas o variaciones hay disponibles de %s?"
+
+#: includes/class-product-faq-generator.php:447
+msgid "Frequently Asked Questions about this product. These are automatically added to the frontend product tab and emitted in JSON-LD schema so answer engines and search engines can read them."
+msgstr "Preguntas frecuentes sobre este producto. Se añaden automáticamente a la pestaña del producto en la parte pública de la tienda y se emiten en el schema JSON-LD para que los motores de respuesta y los buscadores puedan leerlas."
+
+#: includes/class-promotions-feed.php:170
+msgid "Has no expiry date. Merchant Center requires an end date — either set one on the coupon, or set a default run length on this tab."
+msgstr "No tiene fecha de caducidad. Merchant Center exige una fecha de fin — establece una en el cupón o establece una duración por defecto en esta pestaña."
+
+#: includes/class-smart-collections.php:422
+msgid "The Smart Collections module is switched off."
+msgstr "El módulo colecciones inteligentes está desactivado."
+
+#: includes/class-smart-collections.php:637
+msgid "A collection needs a title — it becomes the name of the CollectionPage."
+msgstr "Una colección necesita un título — se convierte en el nombre de la CollectionPage."
+
+#. translators: %s: existing collection title.
+#: includes/class-smart-collections.php:664
+msgid "That category is already mapped to the collection \"%s\". Edit that one instead — a category can only publish one collection."
+msgstr "Esa categoría ya está asignada a la colección «%s». Edita esa en su lugar — una categoría solo puede publicar una colección."
+
+#: includes/class-smart-collections.php:1301
+msgid "The AI could not find enough products that genuinely fit that search. Rather than pad the group out, it returned nothing — pick the products yourself, or leave this query alone."
+msgstr "La IA no ha encontrado suficientes productos que encajen de verdad con esa búsqueda. En lugar de rellenar el grupo, no ha devuelto nada — elige tú los productos o deja esta consulta."
+
+#: includes/class-wc-extensions.php:1047
+msgid "Your Local Store inventory feed publishes shelf stock per location. Booking products have no shelf stock, so either exclude them from the feed or switch the Local Store module off while you sell bookings."
+msgstr "Tu feed de inventario de tienda local publica las existencias en estantería por ubicación. Los productos de reserva no tienen existencias en estantería, así que exclúyelos del feed o desactiva el módulo tienda local mientras vendas reservas."
+
+#: admin/pages/class-page-knowledge-graph.php:57
+msgid "Define your entities once, centrally, and this module weaves them into the single unified @graph on every page — cross-referenced by @id, with about/mentions declarations, entity relationships, and Wikidata-grounded topics. No per-post metaboxes."
+msgstr "Define tus entidades una sola vez, de forma centralizada, y este módulo las integra en un único @graph unificado en cada página — con referencias cruzadas por @id, declaraciones about/mentions, relaciones entre entidades y temas anclados en Wikidata. Sin cajas meta por entrada."
+
+#. translators: %s: link to the Modules page.
+#: admin/pages/class-page-knowledge-graph.php:66
+msgid "The <strong>Knowledge Graph</strong> module is currently off — nothing here is emitted until you enable it on the <a href=\"%s\">Modules</a> page."
+msgstr "El módulo <strong>Knowledge Graph</strong> está desactivado — no se emite nada de esto hasta que lo actives en la página <a href=\"%s\">Módulos</a>."
+
+#: admin/pages/class-page-knowledge-graph.php:148
+msgid "Each entity becomes a node in your @graph, referenceable by @id. Add authority sameAs links (official site, Wikipedia, Wikidata) so AI systems can ground the entity — or let AI find them for you."
+msgstr "Cada entidad se convierte en un nodo de tu @graph, referenciable por @id. Añade enlaces sameAs de autoridad (sitio oficial, Wikipedia, Wikidata) para que los sistemas de IA puedan anclar la entidad — o deja que la IA los encuentre por ti."
+
+#: admin/pages/class-page-knowledge-graph.php:237
+msgid "sameAs — authority links (one URL per line)"
+msgstr "sameAs — enlaces de autoridad (una URL por línea)"
+
+#: admin/pages/class-page-knowledge-graph.php:436
+msgid "e.g. Content marketing"
+msgstr "p. ej., marketing de contenidos"
+
+#: admin/pages/class-page-smart-404.php:38
+msgid "Turns 404s into fixes instead of database bloat. Hacker/bot probes are ignored; genuine visitor 404s are matched to the closest page and broken internal links are healed at the source. The GSC scan recovers renamed and moved pages with permanent 301s."
+msgstr "Convierte los 404 en correcciones en lugar de en basura en la base de datos. Se ignoran los sondeos de hackers y bots; los 404 de visitantes reales se asocian a la página más parecida y los enlaces internos rotos se reparan en su origen. La exploración de GSC recupera páginas renombradas o movidas con redirecciones 301 permanentes."
+
+#. translators: %s: human-readable time until the next scheduled scan.
+#: admin/pages/class-page-smart-404.php:52
+msgid "next GSC scan %s from now"
+msgstr "siguiente exploración de GSC dentro de %s"
+
+#: admin/pages/class-page-smart-404.php:228
+msgid "https://… (no confident match — enter a target)"
+msgstr "https://… (sin coincidencia fiable — introduce un destino)"
+
+#: admin/pages/class-page-smart-404.php:272
+msgid "A bundled baseline already blocks common attack paths (wp-login, .env, /.git, shells, and more). Add extra substrings here — one per line — to skip the rescue pipeline for any path that contains them."
+msgstr "Una base incluida ya bloquea las rutas de ataque habituales (wp-login, .env, /.git, shells y más). Añade aquí fragmentos adicionales —uno por línea— para omitir el proceso de rescate en cualquier ruta que los contenga."
+
+#. Description of the plugin
+#: twt-aeo-ultimate.php
+msgid "Schema markup, structured data & llms.txt for SEO and AI search — FAQ, Product, Local Business & Article JSON-LD, plus E-E-A-T author signals and AI crawler controls."
+msgstr "Marcado schema, datos estructurados y llms.txt para SEO y búsqueda con IA — JSON-LD de FAQ, Product, Local Business y Article, además de señales de autor E-E-A-T y control de rastreadores de IA."
+
+#: admin/class-hub-metabox.php:142
+msgid "Paste into hub content — auto-lists sub-pages."
+msgstr "Pégalo en el contenido del hub — lista las subpáginas automáticamente."
+
+#: admin/class-hub-metabox.php:153
+msgid "Paste at the top — links back to the parent hub."
+msgstr "Pégalo arriba del todo — enlaza de vuelta al hub principal."
+
+#: admin/class-metabox.php:87
+msgid "✓ Added — reload to refresh status."
+msgstr "✓ Añadido — recarga para actualizar el estado."
+
+#: admin/pages/class-page-ai-ready.php:67
+msgid "Rewrite rules updated — new endpoints are now live."
+msgstr "Reglas de reescritura actualizadas — los nuevos endpoints ya están activos."
+
+#: admin/pages/class-page-ai-ready.php:75
+msgid "OAuth client created — save these credentials now. The secret will not be shown again."
+msgstr "Cliente OAuth creado — guarda estas credenciales ahora. El secreto no se volverá a mostrar."
+
+#. translators: token endpoint URL
+#: admin/pages/class-page-ai-ready.php:100
+msgid "Token endpoint: %s — POST grant_type=client_credentials with Basic auth or body params."
+msgstr "Endpoint del token: %s — POST grant_type=client_credentials con identificación Basic o parámetros en el cuerpo."
+
+#: admin/pages/class-page-ai-ready.php:206
+msgid "detected — compatibility notes below."
+msgstr "detectado — notas de compatibilidad a continuación."
+
+#: admin/pages/class-page-ai-ready.php:210
+msgid "robots.txt — if your SEO plugin writes a physical robots.txt file, the Content-Signal directive cannot be added automatically. Use the \"Inject into robots.txt\" button on the Content-Signal card below."
+msgstr "robots.txt — si tu plugin de SEO escribe un archivo robots.txt físico, la directiva Content-Signal no se puede añadir automáticamente. Usa el botón «Inyectar en robots.txt» de la tarjeta Content-Signal más abajo."
+
+#: admin/pages/class-page-ai-ready.php:212
+msgid "Rank Math (v1.0.219+) includes its own llms.txt generator. If both are active, only one can serve /llms.txt — disable the duplicate in Rank Math → Modules, or disable this plugin's llms.txt below."
+msgstr "Rank Math (v1.0.219+) incluye su propio generador de llms.txt. Si ambos están activos, solo uno puede servir /llms.txt — desactiva el duplicado en Rank Math → Módulos o desactiva el llms.txt de este plugin más abajo."
+
+#: admin/pages/class-page-ai-ready.php:254
+msgid "Cannot create /.well-known/ directory — file permission error."
+msgstr "No se puede crear el directorio /.well-known/ — error de permisos de archivo."
+
+#. translators: path
+#: admin/pages/class-page-ai-ready.php:266
+msgid "PHP cannot write to %s. In cPanel File Manager, right-click your public_html (or www) root folder → Change Permissions → 755. The plugin will create .well-known/ automatically on the next Save."
+msgstr "PHP no puede escribir en %s. En el Administrador de archivos de cPanel, haz clic derecho en la carpeta raíz public_html (o www) → Cambiar permisos → 755. El plugin creará .well-known/ automáticamente la siguiente vez que guardes."
+
+#. translators: 1: permissions, 2: path
+#: admin/pages/class-page-ai-ready.php:277
+msgid "Permissions on %2$s are %1$s — needs 755. In cPanel: right-click .well-known/ → Change Permissions → 755."
+msgstr "Los permisos de %2$s son %1$s — se necesita 755. En cPanel: haz clic derecho en .well-known/ → Cambiar permisos → 755."
+
+#: admin/pages/class-page-ai-ready.php:289
+msgid "A .htaccess inside .well-known/ is blocking all access. Delete it:"
+msgstr "Un .htaccess dentro de .well-known/ está bloqueando todo el acceso. Bórralo:"
+
+#: admin/pages/class-page-ai-ready.php:301
+msgid "If your host will not let WordPress write to the site root, you can create each file below by hand. In cPanel File Manager (or over SFTP/FTP), starting from your WordPress root folder — the one that contains wp-config.php:"
+msgstr "Si tu proveedor no permite que WordPress escriba en la raíz del sitio, puedes crear a mano cada uno de los archivos siguientes. En el Administrador de archivos de cPanel (o por SFTP/FTP), partiendo de la carpeta raíz de WordPress — la que contiene wp-config.php:"
+
+#: admin/pages/class-page-ai-ready.php:305
+msgid "Set each file’s permissions to 644 so the web server can read it. The api-catalog and oauth files have no extension — that is correct, do not add .txt or .json."
+msgstr "Establece los permisos de cada archivo en 644 para que el servidor web pueda leerlo. Los archivos api-catalog y oauth no tienen extensión — y es correcto: no añadas .txt ni .json."
+
+#: admin/pages/class-page-ai-ready.php:340
+msgid "These features carry virtually no security risk. They serve AI-optimized versions of your existing content and broadcast your data-use preferences — no interactive access is granted."
+msgstr "Estas características prácticamente no suponen ningún riesgo de seguridad. Sirven versiones optimizadas para IA de tu contenido existente y comunican tus preferencias de uso de datos — no se concede ningún acceso interactivo."
+
+#: admin/pages/class-page-ai-ready.php:356
+msgid "HTML is roughly 80% structural noise — navigation, footers, scripts, and ads. By serving clean Markdown, you ensure AI agents capture your brand voice accurately and cite your facts without being confused by website code."
+msgstr "El HTML es aproximadamente un 80 % de ruido estructural — navegación, pies de página, scripts y anuncios. Al servir Markdown limpio, te aseguras de que los agentes de IA capten fielmente la voz de tu marca y citen tus datos sin confundirse con el código del sitio."
+
+#: admin/pages/class-page-ai-ready.php:395
+msgid "Traditional sitemaps are built for link-crawlers. llms.txt is a \"Fast-Pass\" menu built for context — it lets AI agents map your entire site without wasting tokens parsing navigation menus, footers, or pagination."
+msgstr "Los mapas del sitio tradicionales están pensados para rastreadores de enlaces. llms.txt es un menú de «acceso rápido» pensado para el contexto — permite a los agentes de IA recorrer todo tu sitio sin gastar tokens en menús de navegación, pies de página o paginación."
+
+#. translators: plugin name
+#: admin/pages/class-page-ai-ready.php:419
+msgid "Conflict: %s is generating a physical /llms.txt file. Delete it from that plugin or disable it here — only one can serve this path."
+msgstr "Conflicto: %s está generando un archivo /llms.txt físico. Bórralo desde ese plugin o desactívalo aquí — solo uno puede servir esta ruta."
+
+#: admin/pages/class-page-ai-ready.php:423
+msgid "A physical /llms.txt file exists on disk. The web server serves it directly, bypassing this plugin. Delete it via FTP/cPanel if you want this plugin to control the output."
+msgstr "Existe un archivo /llms.txt físico en el disco. El servidor web lo sirve directamente, sin pasar por este plugin. Bórralo por FTP/cPanel si quieres que este plugin controle el resultado."
+
+#: admin/pages/class-page-ai-ready.php:474
+msgid "Broadcasts your AI data-use preferences two ways: as an HTTP response header on every page, and as per-bot directives appended to robots.txt. AI readiness tools check both locations — this covers both."
+msgstr "Comunica tus preferencias de uso de datos para IA de dos formas: como cabecera de respuesta HTTP en cada página y como directivas por bot añadidas a robots.txt. Las herramientas de preparación para IA comprueban ambas ubicaciones — y esto cubre las dos."
+
+#: admin/pages/class-page-ai-ready.php:478
+msgid "There is a critical difference between Training and Search. \"AI Training\" means an AI company uses your content to build their model — a permanent use of your IP. \"AI Search\" means an agent reads your content to answer a user's question — a transient use that drives traffic back to you."
+msgstr "Hay una diferencia fundamental entre entrenamiento y búsqueda. «Entrenamiento de IA» significa que una empresa de IA usa tu contenido para crear su modelo — un uso permanente de tu propiedad intelectual. «Búsqueda con IA» significa que un agente lee tu contenido para responder a la pregunta de un usuario — un uso puntual que te devuelve tráfico."
+
+#: admin/pages/class-page-ai-ready.php:555
+msgid "Sitemap detected — will be added to robots.txt:"
+msgstr "Mapa del sitio detectado — se añadirá a robots.txt:"
+
+#. translators: URL
+#: admin/pages/class-page-ai-ready.php:562
+msgid "No sitemap detected — a fallback will be served at %s and referenced from robots.txt."
+msgstr "No se ha detectado ningún mapa del sitio — se servirá uno alternativo en %s y se referenciará desde robots.txt."
+
+#: admin/pages/class-page-ai-ready.php:575
+msgid "Leave off if Yoast, Rank Math, or another SEO plugin already manages AI bot access — duplicate rules cause conflicts."
+msgstr "Déjalo desactivado si Yoast, Rank Math u otro plugin de SEO ya gestiona el acceso de los bots de IA — las reglas duplicadas provocan conflictos."
+
+#: admin/pages/class-page-ai-ready.php:590
+msgid "robots.txt is served dynamically — fully tracked."
+msgstr "robots.txt se sirve de forma dinámica — totalmente registrado."
+
+#: admin/pages/class-page-ai-ready.php:608
+msgid "Physical robots.txt detected — served as a static file."
+msgstr "Se ha detectado un robots.txt físico — se sirve como archivo estático."
+
+#. translators: SEO plugin name(s)
+#: admin/pages/class-page-ai-ready.php:616
+msgid "WordPress will then serve robots.txt dynamically and %s will keep managing its rules through WordPress — no content is lost, and hits become trackable."
+msgstr "WordPress servirá entonces robots.txt de forma dinámica y %s seguirá gestionando sus reglas a través de WordPress — no se pierde contenido y las visitas pasan a poder registrarse."
+
+#: admin/pages/class-page-ai-ready.php:624
+msgid "Prefer to keep the file? Use Inject instead to write Content-Signal into it — but hits to a static file stay untracked."
+msgstr "¿Prefieres conservar el archivo? Usa Inyectar para escribir Content-Signal en él — aunque las visitas a un archivo estático seguirán sin registrarse."
+
+#: admin/pages/class-page-ai-ready.php:631
+msgid "Physical robots.txt detected — not writable."
+msgstr "Se ha detectado un robots.txt físico — no tiene permisos de escritura."
+
+#: admin/pages/class-page-ai-ready.php:683
+msgid "Injects a BreadcrumbList JSON-LD block into every non-homepage page. This gives AI agents an explicit map of where the current page sits within your site hierarchy — improving machine traversal, navigation inference, and citation accuracy."
+msgstr "Inserta un bloque JSON-LD BreadcrumbList en todas las páginas salvo la página de inicio. Así los agentes de IA tienen un mapa explícito de dónde se sitúa la página actual dentro de la jerarquía del sitio — lo que mejora el recorrido automático, la deducción de la navegación y la precisión de las citas."
+
+#: admin/pages/class-page-ai-ready.php:758
+msgid "Security Notice — Read Before Enabling"
+msgstr "Aviso de seguridad — léelo antes de activar"
+
+#: admin/pages/class-page-ai-ready.php:759
+msgid "High-level capabilities such as MCP and OAuth allow AI agents to interact with your site — not just read it. Enable IP Whitelisting under Security & Rate Limiting before turning on any interactive features. Never grant an AI agent admin-level or write permissions."
+msgstr "Las capacidades avanzadas como MCP y OAuth permiten a los agentes de IA interactuar con tu sitio — no solo leerlo. Activa la lista blanca de IP en Seguridad y límite de solicitudes antes de activar cualquier característica interactiva. Nunca concedas a un agente de IA permisos de administrador o de escritura."
+
+#: admin/pages/class-page-ai-ready.php:770
+msgid "Creates a dedicated REST endpoint that AI agents can use to search your site content. Restricted to GET requests only. Returns post title, excerpt, and permalink — no private data is ever exposed. Rate limiting applies automatically."
+msgstr "Crea un endpoint REST dedicado que los agentes de IA pueden usar para buscar en el contenido de tu sitio. Limitado a solicitudes GET. Devuelve el título, el extracto y el enlace permanente de la entrada — nunca se expone ningún dato privado. El límite de solicitudes se aplica automáticamente."
+
+#: admin/pages/class-page-ai-ready.php:799
+msgid "Most websites are passive — agents can read them, but cannot interact with them. An API Catalog standardizes your site's functional endpoints (Search, Contact, Services) into a format agents can use to perform actions, not just read text."
+msgstr "La mayoría de los sitios web son pasivos — los agentes pueden leerlos, pero no interactuar con ellos. Un API Catalog estandariza los endpoints funcionales de tu sitio (búsqueda, contacto, servicios) en un formato que los agentes pueden usar para realizar acciones, no solo para leer texto."
+
+#: admin/pages/class-page-ai-ready.php:800
+msgid "Cloudflare's Capabilities Score measures how well your site can be acted upon by an AI agent. A site with a published API catalog signals to agents that it is a first-class participant in the agentic web — not just a document to be scraped."
+msgstr "La puntuación de capacidades de Cloudflare mide hasta qué punto un agente de IA puede actuar sobre tu sitio. Un sitio con un catálogo de API publicado indica a los agentes que participa plenamente en la web agéntica — no es solo un documento del que extraer datos."
+
+#. translators: %s: file permissions string (e.g. '0755').
+#: admin/pages/class-page-ai-ready.php:815
+msgid "File permissions are %s — set to 644 in cPanel for web server access."
+msgstr "Los permisos del archivo son %s — establécelos en 644 en cPanel para que el servidor web pueda acceder."
+
+#: admin/pages/class-page-ai-ready.php:822
+msgid "Physical file not yet written — save settings to generate it, or the dynamic handler will respond."
+msgstr "El archivo físico aún no se ha escrito — guarda los ajustes para generarlo o responderá el controlador dinámico."
+
+#: admin/pages/class-page-ai-ready.php:857
+msgid "Server card not yet written — save settings to generate it."
+msgstr "La server card aún no se ha escrito — guarda los ajustes para generarla."
+
+#: admin/pages/class-page-ai-ready.php:1012
+msgid "Cross-references the User-Agent string of incoming requests against a list of known legitimate AI bots (ClaudeBot, GPTBot, Googlebot, PerplexityBot, etc.). Requests from unknown agents receive a 403 response. Note: User-Agent spoofing is trivial — use IP Whitelist for stronger protection."
+msgstr "Compara la cadena User-Agent de las solicitudes entrantes con una lista de bots de IA legítimos conocidos (ClaudeBot, GPTBot, Googlebot, PerplexityBot, etc.). Las solicitudes de agentes desconocidos reciben una respuesta 403. Nota: falsificar el User-Agent es trivial — usa la lista blanca de IP para una protección más sólida."
+
+#: admin/pages/class-page-ai-ready.php:1030
+msgid "Publishes this site's public signing key at /.well-known/http-message-signatures-directory as a JWKS (JSON Web Key Set). Receiving sites can use this key to verify that requests originated here — a requirement for Web Bot Auth compliance and agent-to-agent trust."
+msgstr "Publica la clave pública de firma de este sitio en /.well-known/http-message-signatures-directory como JWKS (JSON Web Key Set). Los sitios que reciben solicitudes pueden usar esta clave para verificar que se originaron aquí — un requisito para cumplir Web Bot Auth y para la confianza entre agentes."
+
+#: admin/pages/class-page-ai-ready.php:1051
+msgid "OpenSSL PHP extension not available — key generation skipped. Contact your host to enable the openssl extension."
+msgstr "La extensión OpenSSL de PHP no está disponible — se ha omitido la generación de la clave. Contacta con tu proveedor de alojamiento para activar la extensión openssl."
+
+#: admin/pages/class-page-ai-ready.php:1062
+msgid "Identity Verification — Path Diagnostic"
+msgstr "Verificación de identidad — diagnóstico de ruta"
+
+#: admin/pages/class-page-ai-ready.php:1100
+msgid "Publishes OAuth 2.0 Authorization Server Metadata (RFC 8414) at /.well-known/oauth-authorization-server so AI agents can discover how to authenticate before calling protected APIs. Use the Built-in server for a zero-config client credentials flow, or point to your own OAuth provider."
+msgstr "Publica los metadatos del servidor de autorización OAuth 2.0 (RFC 8414) en /.well-known/oauth-authorization-server para que los agentes de IA sepan cómo identificarse antes de llamar a API protegidas. Usa el servidor integrado para un flujo de credenciales de cliente sin configuración, o apunta a tu propio proveedor de OAuth."
+
+#: admin/pages/class-page-ai-ready.php:1115
+msgid "File not yet written — save settings to generate it."
+msgstr "El archivo aún no se ha escrito — guarda los ajustes para generarlo."
+
+#: admin/pages/class-page-ai-ready.php:1218
+msgid "The client secret is shown once immediately after creation — copy it right away."
+msgstr "El secreto del cliente se muestra una sola vez justo después de crearlo — cópialo enseguida."
+
+#: admin/pages/class-page-ai-ready.php:1229
+msgid "The issuer identifier. Defaults to your site URL if left blank."
+msgstr "El identificador del emisor. Por defecto es la URL de tu sitio si lo dejas vacío."
+
+#: admin/pages/class-page-ai-ready.php:1287
+msgid "openid-configuration file not yet written — save to generate."
+msgstr "El archivo openid-configuration aún no se ha escrito — guarda para generarlo."
+
+#: admin/pages/class-page-author-box.php:211
+#: admin/pages/class-page-author.php:234
+msgid "Add an author bio — go to Users → Profile and fill in the Biographical Info field."
+msgstr "Añade una biografía de autor — ve a Usuarios → Perfil y rellena el campo Información biográfica."
+
+#: admin/pages/class-page-author-entity.php:231
+#: admin/pages/class-page-author.php:454
+msgid "No schema data yet — edit the profile to add information."
+msgstr "Todavía no hay datos de schema — edita el perfil para añadir información."
+
+#: admin/pages/class-page-author-entity.php:254
+#: admin/pages/class-page-author.php:477
+msgid "Linking social profiles via sameAs establishes entity consistency across the web — a key signal for Google Knowledge Panels and AI citation."
+msgstr "Enlazar los perfiles sociales mediante sameAs establece la coherencia de la entidad en toda la web — una señal clave para los paneles de conocimiento de Google y las citas de IA."
+
+#: admin/pages/class-page-command-center.php:295
+msgid "Connect Bing Webmaster Tools to monitor your Bing search performance."
+msgstr "Conecta Bing Webmaster Tools para supervisar tu rendimiento en las búsquedas de Bing."
+
+#: admin/pages/class-page-command-center.php:408
+msgid "Signal is a quick read of each page: Converting = drove a key event; Needs work = high bounce or very short visits; Likely bots = traffic with almost no engagement; Healthy = engaged visitors. Treat “Likely bots” as a hint — event counts vary by site."
+msgstr "La señal es una lectura rápida de cada página: Convierte = generó un evento clave; Mejorable = rebote alto o visitas muy cortas; Posibles bots = tráfico casi sin interacción; Correcta = visitantes que interactúan. Toma «Posibles bots» como una pista — el número de eventos varía según el sitio."
+
+#: admin/pages/class-page-command-center.php:462
+msgid "Source: GA4’s native “AI Assistant” channel (ChatGPT, Gemini, DeepSeek, Copilot, Grok). Forward-only — no data before May 13, 2026. Perplexity and Claude currently land in Referral, AI Overviews count as Organic Search, and most AI traffic arrives without a referrer (counted as Direct), so real AI influence is higher than shown."
+msgstr "Fuente: el canal nativo «AI Assistant» de GA4 (ChatGPT, Gemini, DeepSeek, Copilot, Grok). Solo hacia delante — no hay datos anteriores al 13 de mayo de 2026. Perplexity y Claude aparecen ahora en Referencia, AI Overviews cuenta como Búsqueda orgánica y la mayor parte del tráfico de IA llega sin referente (contado como Directo), así que la influencia real de la IA es mayor de lo que se muestra."
+
+#: admin/pages/class-page-command-center.php:653
+msgid "Google launched AI search performance reports (AI Mode and AI Overviews) in Search Console on June 3, 2026, but does not yet expose this data through its API — so it can’t be pulled in here automatically. For now, view your AI Mode / AI Overview impressions directly in Search Console. This panel will show live data once Google adds API support."
+msgstr "Google lanzó los informes de rendimiento de búsqueda con IA (Modo IA y AI Overviews) en Search Console el 3 de junio de 2026, pero todavía no ofrece estos datos a través de su API — así que no se pueden traer aquí automáticamente. Por ahora, consulta tus impresiones de Modo IA / AI Overviews directamente en Search Console. Este panel mostrará datos en directo cuando Google añada soporte en la API."
+
+#: admin/pages/class-page-command-center.php:740
+msgid "Bing Webmaster Tools added an AI Performance report (public preview, February 2026) showing how often your pages are cited in Copilot and Bing AI answers — total citations and your most-cited pages. Microsoft does not yet expose this through the Webmaster API, so it can’t be pulled in here automatically. For now, view your cited pages directly in Bing Webmaster Tools. This panel will list pages and citation counts once Bing adds API support."
+msgstr "Bing Webmaster Tools añadió un informe de rendimiento de IA (vista previa pública, febrero de 2026) que muestra con qué frecuencia se citan tus páginas en las respuestas de Copilot y Bing AI — total de citas y tus páginas más citadas. Microsoft todavía no ofrece esto a través de la API para webmasters, así que no se puede traer aquí automáticamente. Por ahora, consulta tus páginas citadas directamente en Bing Webmaster Tools. Este panel mostrará páginas y número de citas cuando Bing añada soporte en la API."
+
+#: admin/pages/class-page-command-center.php:816
+msgid "Instantly notify Bing, Yandex, and other IndexNow-compatible engines when your content is published or updated — no waiting for the next crawl."
+msgstr "Avisa al instante a Bing, Yandex y otros buscadores compatibles con IndexNow cuando publicas o actualizas contenido — sin esperar al siguiente rastreo."
+
+#: admin/pages/class-page-command-center.php:939
+msgid "Google access is authenticated with this service account — no sign-in, no consent screens, tokens never expire."
+msgstr "El acceso a Google se identifica con esta cuenta de servicio — sin inicio de sesión, sin pantallas de consentimiento y los tokens nunca caducan."
+
+#: admin/pages/class-page-command-center.php:968
+msgid "A wp-config key is defined but could not be parsed — check TWTAEO_GOOGLE_SA_KEY."
+msgstr "Hay una clave definida en wp-config, pero no se ha podido leer — comprueba TWTAEO_GOOGLE_SA_KEY."
+
+#: admin/pages/class-page-command-center.php:965
+msgid "Skip the OAuth setup below entirely: paste your agency's service-account JSON key once, then add its email address as a user on this site's Search Console property (Full) and GA4 property (Viewer). No Google Cloud setup per site, no consent screens, and the connection never expires."
+msgstr "Omite por completo la configuración OAuth de abajo: pega una vez la clave JSON de la cuenta de servicio de tu agencia y añade su dirección de correo electrónico como usuario en la propiedad de Search Console (Completo) y en la propiedad de GA4 (Lector) de este sitio. Sin configurar Google Cloud para cada sitio, sin pantallas de consentimiento y la conexión nunca caduca."
+
+#: admin/pages/class-page-command-center.php:1171
+msgid "These power URL Inspection, brand/entity verification, and PageSpeed audits. Because you have already connected Analytics &amp; Search Console, setup is minimal — everything below lives in the same Google Cloud project you used earlier."
+msgstr "Estas API hacen funcionar la inspección de URL, la verificación de marca/entidad y las auditorías de PageSpeed. Como ya has conectado Analytics y Search Console, la configuración es mínima — todo lo de abajo está en el mismo proyecto de Google Cloud que usaste antes."
+
+#: admin/pages/class-page-command-center.php:1182
+msgid "There is nothing to enable in Google Cloud — URL Inspection is part of the Search Console API you already connected. It just needs a higher permission level than basic stats:"
+msgstr "No hay nada que activar en Google Cloud — la inspección de URL forma parte de la API de Search Console que ya has conectado. Solo necesita un nivel de permiso mayor que el de las estadísticas básicas:"
+
+#: admin/pages/class-page-command-center.php:1187
+msgid "Make sure its permission is Owner or Full — not Restricted. If it is Restricted, raise it to Full."
+msgstr "Asegúrate de que su permiso sea Propietario o Completo — no Restringido. Si es Restringido, súbelo a Completo."
+
+#: admin/pages/class-page-command-center.php:1198
+msgid "These two APIs read public Google data, so they use a single free API key — no OAuth, and no billing card required (PageSpeed allows 25,000 checks/day free). Create the key once in the same project:"
+msgstr "Estas dos API leen datos públicos de Google, así que usan una sola clave de API gratuita — sin OAuth y sin tarjeta de facturación (PageSpeed permite 25.000 comprobaciones al día gratis). Crea la clave una vez en el mismo proyecto:"
+
+#: admin/pages/class-page-command-center.php:1308
+msgid "Crawl Stats — Host Status Error:"
+msgstr "Estadísticas de rastreo — error de estado del servidor:"
+
+#: admin/pages/class-page-command-center.php:1320
+msgid "Crawl Stats — Host Status Warning:"
+msgstr "Estadísticas de rastreo — advertencia de estado del servidor:"
+
+#: admin/pages/class-page-command-center.php:1360
+msgid "Simulates a homepage request for each major AI crawler by spoofing its User-Agent header. A Firewall Block or Rate Limit here means that bot cannot index your site — even if robots.txt allows it."
+msgstr "Simula una solicitud a la página de inicio por cada rastreador de IA importante falseando su cabecera User-Agent. Un bloqueo del cortafuegos o un límite de solicitudes aquí significa que ese bot no puede indexar tu sitio — aunque robots.txt lo permita."
+
+#: admin/pages/class-page-command-center.php:1432
+msgid "Audit failed. Check server logs."
+msgstr "La auditoría ha fallado. Comprueba los registros del servidor."
+
+#: admin/pages/class-page-command-center.php:1512
+msgid "Finds your highest-traffic pages that also bounce hard, then audits each one's mobile speed — surfacing pages that may be losing visitors to slow loads. Uses GA4 (last 28 days) + PageSpeed."
+msgstr "Encuentra tus páginas con más tráfico que además tienen un rebote alto y audita la velocidad móvil de cada una — para sacar a la luz páginas que pueden estar perdiendo visitas por cargar lento. Usa GA4 (últimos 28 días) + PageSpeed."
+
+#: admin/pages/class-page-command-center.php:1559
+msgid "Check a page's mobile or desktop performance — the Lighthouse score plus the Core Web Vitals that affect both ranking and how cleanly AI crawlers render the page. Results are cached for 6 hours."
+msgstr "Comprueba el rendimiento de una página en móvil o escritorio — la puntuación de Lighthouse y las Core Web Vitals que afectan tanto al posicionamiento como a la limpieza con la que los rastreadores de IA procesan la página. Los resultados se guardan en caché durante 6 horas."
+
+#: admin/pages/class-page-command-center.php:1585
+msgid "Scans your published pages for performance anti-patterns that page-builders and AI-pasted code often introduce — inline scripts, external scripts in content, base64 images, and iframes. On-server only; nothing is changed."
+msgstr "Explora tus páginas publicadas en busca de malas prácticas de rendimiento que suelen introducir los maquetadores visuales y el código pegado desde la IA — scripts en línea, scripts externos en el contenido, imágenes en base64 e iframes. Solo en el servidor; no se cambia nada."
+
+#: admin/pages/class-page-command-center.php:1624
+msgid "Lab data — simulated mobile load"
+msgstr "Datos de laboratorio — carga móvil simulada"
+
+#: admin/pages/class-page-command-center.php:1643
+msgid "Request failed or timed out. PageSpeed can take up to a minute — try again."
+msgstr "La solicitud ha fallado o ha agotado el tiempo. PageSpeed puede tardar hasta un minuto — inténtalo de nuevo."
+
+#: admin/pages/class-page-command-center.php:1698
+msgid "Done — pages audited:"
+msgstr "Hecho — páginas auditadas:"
+
+#: admin/pages/class-page-command-center.php:2505
+msgid "A meta description alone won't get a page indexed — it only affects the snippet Google shows. The most common reasons a page stays out of the index are: a \"noindex\" setting, a canonical URL pointing to a different page, the page missing from your XML sitemap, thin or duplicate content, or no internal links pointing to it. Fix the red Critical items first, then the Warnings."
+msgstr "Una meta descripción por sí sola no hace que una página se indexe — solo afecta al fragmento que muestra Google. Los motivos más habituales por los que una página queda fuera del índice son: un ajuste «noindex», una URL canónica que apunta a otra página, que la página falte en tu mapa del sitio XML, contenido escaso o duplicado, o que ningún enlace interno apunte a ella. Corrige primero los elementos críticos en rojo y después las advertencias."
+
+#: admin/pages/class-page-command-center.php:2517
+msgid "Issues & Fixes"
+msgstr "Problemas y correcciones"
+
+#: admin/pages/class-page-command-center.php:2527
+msgid "🎉 No pages need work — every scanned page is indexed and issue-free."
+msgstr "🎉 Ninguna página necesita mejoras — todas las páginas exploradas están indexadas y sin problemas."
+
+#: admin/pages/class-page-command-center.php:2947
+#: admin/pages/class-page-not-indexed.php:343
+msgid "Generate FAQPage schema from the Q&A-style content already on this page. This adds structured data — it does not change your content."
+msgstr "Genera el schema FAQPage a partir del contenido en formato de preguntas y respuestas que ya tiene esta página. Añade datos estructurados — no cambia tu contenido."
+
+#: admin/pages/class-page-command-center.php:3114
+msgid "Static file — not tracked"
+msgstr "Archivo estático — no se registra"
+
+#: admin/pages/class-page-command-center.php:3138
+msgid "Note: hits are only recorded when WordPress handles the request in PHP. A physical robots.txt on disk, or a full-page cache in front of WordPress (a host page cache such as Nexcess NxAccel, or a CDN like Cloudflare), serves these files without invoking PHP — so those hits are not captured and the counts may understate real crawler activity. The plugin sends no-cache headers on llms.txt and llms-full.txt to reduce this, though some host caches ignore them."
+msgstr "Nota: los accesos solo se registran cuando WordPress gestiona la solicitud en PHP. Un robots.txt físico en el disco, o una caché de página completa delante de WordPress (una caché del alojamiento como Nexcess NxAccel, o una CDN como Cloudflare), sirve estos archivos sin ejecutar PHP — así que esos accesos no se registran y los recuentos pueden quedarse por debajo de la actividad real de los rastreadores. El plugin envía cabeceras no-cache en llms.txt y llms-full.txt para reducirlo, aunque algunas cachés de alojamiento las ignoran."
+
+#: admin/pages/class-page-command-center.php:3188
+msgid "Google does not publish a dedicated AI bot. The Google bots tracked here (Googlebot, GoogleOther, Google-Agent, Google-InspectionTool, Google-NotebookLM) are standard Google crawlers whose purpose is inferred from their documented behavior — not from an official AI-specific declaration by Google."
+msgstr "Google no publica un bot de IA específico. Los bots de Google registrados aquí (Googlebot, GoogleOther, Google-Agent, Google-InspectionTool, Google-NotebookLM) son rastreadores estándar de Google cuya finalidad se deduce de su comportamiento documentado — no de una declaración oficial de Google específica para IA."
+
+#: admin/pages/class-page-command-center.php:3227
+msgid "Live Feed — Last 48 Hours"
+msgstr "Actividad en directo — últimas 48 horas"
+
+#: admin/pages/class-page-command-center.php:3229
+msgid "Live Feed — Last 50 Crawls (30 Days)"
+msgstr "Actividad en directo — últimos 50 rastreos (30 días)"
+
+#. translators: %s: source plugin name (e.g. 'Yoast SEO').
+#: admin/pages/class-page-company.php:91
+msgid "Synced from %s. Empty fields have been filled — your existing values were not changed."
+msgstr "Sincronizado desde %s. Se han rellenado los campos vacíos — tus valores existentes no se han cambiado."
+
+#. translators: %1$s: source plugin name. %2$s: source plugin name.
+#: admin/pages/class-page-company.php:111
+msgid "%1$s is configured as your site's Organization entity and will output its own Organization schema. We'll skip our duplicate block but still output article:publisher and fb:app_id — fields %2$s typically leaves empty."
+msgstr "%1$s está configurado como la entidad Organization de tu sitio y generará su propio schema Organization. Omitiremos nuestro bloque duplicado, pero seguiremos generando article:publisher y fb:app_id — campos que %2$s suele dejar vacíos."
+
+#. translators: %s: source plugin name (e.g. 'Yoast SEO').
+#: admin/pages/class-page-company.php:121
+msgid "%s social data is available. Click Sync to pre-fill any empty fields below — existing values will not be overwritten."
+msgstr "Hay datos sociales de %s disponibles. Haz clic en Sincronizar para rellenar los campos vacíos de abajo — los valores existentes no se sobrescribirán."
+
+#: admin/pages/class-page-company.php:171
+msgid "Optional — e.g. Acme Corporation LLC"
+msgstr "Opcional — p. ej., Acme Corporation LLC"
+
+#: admin/pages/class-page-company.php:251
+msgid "Used for Organization sameAs links in schema and — critically — the Facebook Page URL drives article:publisher attribution for Meta's AI and ad attribution systems."
+msgstr "Se usan para los enlaces sameAs de Organization en el schema y — sobre todo — la URL de la página de Facebook alimenta la atribución article:publisher para los sistemas de IA y de atribución de anuncios de Meta."
+
+#. translators: %s: link to developers.facebook.com/apps.
+#: admin/pages/class-page-company.php:276
+msgid "The fb:app_id tag is output sitewide and enables Meta's Domain Insights dashboard and AI-powered Ad Attribution — features most SEO plugins omit. Find your App ID at %s."
+msgstr "La etiqueta fb:app_id se genera en todo el sitio y activa el panel Domain Insights de Meta y la atribución de anuncios con IA — características que la mayoría de plugins de SEO omiten. Encuentra tu ID de app en %s."
+
+#: admin/pages/class-page-company.php:321
+msgid "Runs at priority 1 — fires before Yoast / Rank Math to fill the gap they leave on these fields."
+msgstr "Se ejecuta con prioridad 1 — actúa antes que Yoast / Rank Math para cubrir el hueco que dejan en estos campos."
+
+#: admin/pages/class-page-company.php:347
+msgid "Set to your company's Facebook Page URL (from Social Profiles above). Tells Meta and Facebook's graph which business entity published this content — required for Domain Insights and Ad Attribution."
+msgstr "Establécelo en la URL de la página de Facebook de tu empresa (de Perfiles sociales, arriba). Indica a Meta y al grafo de Facebook qué entidad empresarial publicó este contenido — es necesario para Domain Insights y la atribución de anuncios."
+
+#: admin/pages/class-page-company.php:351
+msgid "Set to the individual post author's Facebook profile URL (configured per-user under Users → Edit Profile → Social Profiles). This is the Person entity — separate from the Publisher."
+msgstr "Establécelo en la URL del perfil de Facebook del autor de cada entrada (se configura por usuario en Usuarios → Editar perfil → Perfiles sociales). Es la entidad Person — separada del editor."
+
+#: admin/pages/class-page-company.php:359
+msgid "Sitewide meta tag that associates your site with a Facebook App. Enables the Meta Domain Insights dashboard and is the key signal Meta's AI Ad Attribution systems use to credit your organic reach — commonly missed by other plugins."
+msgstr "Meta etiqueta para todo el sitio que asocia tu sitio con una app de Facebook. Activa el panel Domain Insights de Meta y es la señal clave que usan los sistemas de atribución de anuncios con IA de Meta para acreditar tu alcance orgánico — otros plugins suelen olvidarla."
+
+#. translators: %1$d: number of contact pages. %2$d: pages needing attention.
+#: admin/pages/class-page-contact-detector.php:37
+msgid "%1$d contact pages found — %2$d need attention"
+msgstr "%1$d páginas de contacto encontradas — %2$d requieren atención"
+
+#: admin/pages/class-page-contact-detector.php:78
+#: admin/pages/class-page-schema-detector.php:980
+msgid "Organization or LocalBusiness schema — confirms your business entity is defined"
+msgstr "Schema Organization o LocalBusiness — confirma que tu entidad empresarial está definida"
+
+#: admin/pages/class-page-contact-detector.php:82
+#: admin/pages/class-page-schema-detector.php:981
+msgid "PostalAddress — street, city, state, zip, country"
+msgstr "PostalAddress — calle, ciudad, estado o provincia, código postal y país"
+
+#: admin/pages/class-page-contact-detector.php:86
+#: admin/pages/class-page-schema-detector.php:982
+msgid "ContactPoint — phone number and/or email address"
+msgstr "ContactPoint — número de teléfono o dirección de correo electrónico, o ambos"
+
+#: admin/pages/class-page-contact-detector.php:90
+#: admin/pages/class-page-schema-detector.php:983
+msgid "Entity consolidation — only one Organization entity across the page"
+msgstr "Consolidación de la entidad — una sola entidad Organization en toda la página"
+
+#: admin/pages/class-page-contact-detector.php:221
+#: admin/pages/class-page-schema-detector.php:1110
+msgid "For entity consolidation — make sure all schema on the page uses the same @id value for your Organization so AI systems recognize them as the same entity."
+msgstr "Para consolidar la entidad — asegúrate de que todo el schema de la página use el mismo valor @id para tu Organization, para que los sistemas de IA la reconozcan como una misma entidad."
+
+#: admin/pages/class-page-dashboard.php:206
+msgid "Usage & cost: each description is one API call to your chosen provider, billed to your own account based on token usage. Generating a single post from its editor costs a fraction of a cent; the bulk run processes every post that is missing a description, so it scales with your site size. Before a bulk run you will be shown the exact number of posts and asked to confirm. Bulk generation runs in the background — you can safely leave this page once it starts."
+msgstr "Uso y coste: cada descripción es una llamada a la API del proveedor que elijas, que se cobra en tu propia cuenta según los tokens usados. Generar una sola entrada desde su editor cuesta una fracción de céntimo; la ejecución por lotes procesa todas las entradas sin descripción, así que crece con el tamaño de tu sitio. Antes de una ejecución por lotes se te mostrará el número exacto de entradas y se te pedirá confirmación. La generación por lotes se ejecuta en segundo plano — puedes salir de esta página sin problema una vez iniciada."
+
+#: admin/pages/class-page-dashboard.php:638
+msgid "These are things your SEO plugin does not handle — areas where TWT AEO Ultimate adds value."
+msgstr "Son cosas que tu plugin de SEO no gestiona — áreas en las que TWT AEO Ultimate aporta valor."
+
+#: admin/pages/class-page-dashboard.php:1832
+#: admin/pages/class-page-social-graph.php:1430
+msgid "created — stopped."
+msgstr "creadas — detenido."
+
+#: admin/pages/class-page-eeat.php:254
+#: admin/pages/class-page-promotions.php:419 includes/class-roles.php:145
+msgid "Role"
+msgstr "Perfil"
+
+#: admin/pages/class-page-eeat.php:380
+msgid "Look up your brand in Google's entity database to confirm Google recognises it as an entity, and see its Knowledge Graph ID. This is a read-only check — nothing is saved to your schema."
+msgstr "Busca tu marca en la base de datos de entidades de Google para confirmar que Google la reconoce como entidad y ver su ID de Knowledge Graph. Es una comprobación de solo lectura — no se guarda nada en tu schema."
+
+#. translators: %1$d: count of pages with FAQ content. %2$d: count missing
+#. FAQPage schema.
+#: admin/pages/class-page-faq-detector.php:37
+msgid "%1$d pages with FAQ content found — %2$d missing FAQPage schema"
+msgstr "%1$d páginas con contenido de FAQ encontradas — a %2$d les falta el schema FAQPage"
+
+#: admin/pages/class-page-faq-detector.php:90
+#: admin/pages/class-page-schema-detector.php:161
+msgid "H3/H4 heading followed by paragraph — classic Q&A layout (2+ pairs required)"
+msgstr "Encabezado H3/H4 seguido de un párrafo — el formato clásico de pregunta y respuesta (se necesitan 2 pares o más)"
+
+#: admin/pages/class-page-faq-detector.php:94
+#: admin/pages/class-page-schema-detector.php:162
+msgid "Question-word headings: What, How, Why, Can, Is, Are, Do, Does, Will, Should (2+ required)"
+msgstr "Encabezados con palabras interrogativas: What, How, Why, Can, Is, Are, Do, Does, Will, Should (se necesitan 2 o más)"
+
+#: admin/pages/class-page-faq-detector.php:237
+msgid "Rank Math: Add the Rank Math FAQ block to your page — it generates FAQPage schema automatically."
+msgstr "Rank Math: añade a tu página el bloque de FAQ de Rank Math — genera el schema FAQPage automáticamente."
+
+#: admin/pages/class-page-faq-detector.php:242
+msgid "Yoast SEO: Use the Yoast FAQ block inside the Gutenberg editor — it generates FAQPage schema automatically."
+msgstr "Yoast SEO: usa el bloque de FAQ de Yoast en el editor Gutenberg — genera el schema FAQPage automáticamente."
+
+#: admin/pages/class-page-faq-detector.php:252
+msgid "Once added, save the page — TWT AEO Ultimate will re-scan and update the status here."
+msgstr "Una vez añadido, guarda la página — TWT AEO Ultimate volverá a explorarla y actualizará el estado aquí."
+
+#: admin/pages/class-page-index-now.php:128
+msgid "API key regenerated. Your old key file URL is no longer valid — search engines will re-verify on the next submission."
+msgstr "Clave de API regenerada. La URL de tu antiguo archivo de clave ya no es válida — los buscadores volverán a verificarla en el siguiente envío."
+
+#: admin/pages/class-page-index-now.php:174
+msgid "This file is served automatically by the plugin — no upload required. Search engines fetch it to confirm you own the site."
+msgstr "El plugin sirve este archivo automáticamente — no hace falta subirlo. Los buscadores lo descargan para confirmar que el sitio es tuyo."
+
+#: admin/pages/class-page-index-now.php:186
+msgid "Only do this if your key has been compromised. Search engines will re-verify automatically on the next submission."
+msgstr "Hazlo solo si tu clave se ha visto comprometida. Los buscadores volverán a verificarla automáticamente en el siguiente envío."
+
+#: admin/pages/class-page-index-now.php:215
+msgid "Or submit directly to individual engines — redundant if api.indexnow.org is already checked above."
+msgstr "O envía directamente a buscadores concretos — es redundante si api.indexnow.org ya está marcado arriba."
+
+#: admin/pages/class-page-index-now.php:349
+msgid "Instantly notify Bing, Yandex, and other IndexNow-compatible search engines when your content is published or updated — no waiting for the next crawl."
+msgstr "Avisa al instante a Bing, Yandex y otros buscadores compatibles con IndexNow cuando publicas o actualizas contenido — sin esperar al siguiente rastreo."
+
+#: admin/pages/class-page-local-pack.php:208
+msgid "Defaults to your homepage if left blank."
+msgstr "Por defecto es tu página de inicio si lo dejas vacío."
+
+#: admin/pages/class-page-local-pack.php:384
+msgid "Searches Google's public Knowledge Graph entity database for your business. Free to use — requires a Google Cloud API key. No account login needed. Returns what Google's knowledge base currently says about your business entity."
+msgstr "Busca tu negocio en la base de datos pública de entidades Knowledge Graph de Google. Gratis — requiere una clave de API de Google Cloud. No hace falta iniciar sesión con ninguna cuenta. Devuelve lo que la base de conocimiento de Google dice actualmente sobre tu entidad empresarial."
+
+#: admin/pages/class-page-local-pack.php:390
+msgid "Connects directly to your Google Business Profile account via OAuth. Returns your authoritative, live GBP listing data — the exact NAP Google uses to populate the Local Pack. Requires signing in with the Google account that manages your GBP."
+msgstr "Se conecta directamente con tu cuenta del perfil de empresa de Google mediante OAuth. Devuelve los datos oficiales y en directo de tu ficha — el NAP exacto que usa Google para el Local Pack. Requiere iniciar sesión con la cuenta de Google que gestiona tu perfil de empresa."
+
+#: admin/pages/class-page-local-pack.php:463
+msgid "Free tier includes 125,000 transactions/year — more than enough."
+msgstr "El nivel gratuito incluye 125.000 transacciones al año — más que suficiente."
+
+#: admin/pages/class-page-local-pack.php:582
+msgid "Essential Local Listings — Every Brick-and-Mortar Business"
+msgstr "Fichas locales esenciales — para cualquier negocio físico"
+
+#: admin/pages/class-page-local-pack.php:654
+msgid "Links open the business/pro sign-up page in a new tab. Google Business Profile always applies — claim it first if you haven't already."
+msgstr "Los enlaces abren la página de alta para empresas/profesionales en una pestaña nueva. El perfil de empresa de Google siempre aplica — reclámalo primero si aún no lo has hecho."
+
+#: admin/pages/class-page-news.php:37
+msgid "Manage your Google News sitemap and NewsArticle schema. Only posts published in the last 2 days appear in the news sitemap — this is a Google requirement."
+msgstr "Gestiona tu mapa del sitio de Google News y el schema NewsArticle. En el mapa del sitio de noticias solo aparecen las entradas publicadas en los últimos 2 días — es un requisito de Google."
+
+#: admin/pages/class-page-news.php:108
+msgid "Defaults to your site name if left blank."
+msgstr "Por defecto es el nombre de tu sitio si lo dejas vacío."
+
+#: admin/pages/class-page-news.php:236
+msgid "A post appears here only when it is marked as a Google News article (in the post's \"Google News\" box) AND was published within the last 48 hours — Google's freshness requirement."
+msgstr "Una entrada solo aparece aquí cuando está marcada como artículo de Google News (en la caja «Google News» de la entrada) Y se publicó en las últimas 48 horas — el requisito de actualidad de Google."
+
+#: admin/pages/class-page-not-indexed.php:90
+msgid "Great news — every scanned page is confirmed indexed by Google. Run a fresh scan periodically to catch newly published or de-indexed pages."
+msgstr "Buenas noticias — Google confirma que todas las páginas exploradas están indexadas. Ejecuta una exploración nueva de vez en cuando para detectar páginas recién publicadas o desindexadas."
+
+#: admin/pages/class-page-pr-bridge.php:54
+msgid "Claude API key — needed to transform posts into AP-style copy"
+msgstr "Clave de API de Claude — necesaria para transformar las entradas en textos de estilo AP"
+
+#: admin/pages/class-page-pr-bridge.php:59
+msgid "Claude API key — configured"
+msgstr "Clave de API de Claude — configurada"
+
+#: admin/pages/class-page-pr-bridge.php:66
+msgid "Wire service key — needed to distribute (EIN Presswire or EasyPRWire)"
+msgstr "Clave del servicio de distribución — necesaria para distribuir (EIN Presswire o EasyPRWire)"
+
+#: admin/pages/class-page-pr-bridge.php:71
+msgid "Wire service key — configured"
+msgstr "Clave del servicio de distribución — configurada"
+
+#: admin/pages/class-page-reviews.php:385
+msgid "The Reviews module auto-detects the right schema type from your active modules. Use the override below only if the auto-detection is wrong for your site."
+msgstr "El módulo de reseñas detecta automáticamente el tipo de schema adecuado a partir de tus módulos activos. Usa la opción manual de abajo solo si la detección automática no es correcta para tu sitio."
+
+#: admin/pages/class-page-reviews.php:472
+msgid "Associate submitted review with a specific post/product ID. Defaults to current post."
+msgstr "Asociar la reseña enviada a un ID de entrada/producto concreto. Por defecto es la entrada actual."
+
+#: admin/pages/class-page-schema-conflicts.php:313
+msgid "Permanently remove schema postmeta written by a competitor plugin from your database. This does not uninstall the plugin — it only clears the stored schema records it has saved to posts. Use this when you want a clean slate and are relying solely on AEO schemas."
+msgstr "Elimina definitivamente de tu base de datos los postmeta de schema escritos por otro plugin. No desinstala el plugin — solo vacía los registros de schema que ha guardado en las entradas. Úsalo cuando quieras empezar de cero y confíes solo en los schemas AEO."
+
+#: admin/pages/class-page-schema-conflicts.php:544
+msgid "Supplement (coexist): your @graph block outputs alongside theirs — search engines merge them."
+msgstr "Complementar (coexistir): tu bloque @graph se genera junto al suyo — los buscadores los combinan."
+
+#: admin/pages/class-page-schema-conflicts.php:613
+msgid "Applied — takes effect on next frontend load."
+msgstr "Aplicado — surte efecto en la siguiente carga de la parte pública."
+
+#: admin/pages/class-page-schema-detector.php:58
+msgid "Rescan complete — schema detection refreshed."
+msgstr "Nuevo análisis completado — detección de schema actualizada."
+
+#. translators: %1$d: count of pages/posts. %2$s: 'pages' or 'pages/posts'.
+#. %3$d: count missing schema.
+#: admin/pages/class-page-schema-detector.php:526
+#: admin/pages/class-page-service-detector.php:51
+msgid "%1$d %2$s with service content — %3$d missing Service schema"
+msgstr "%1$d %2$s con contenido de servicio — a %3$d les falta el schema Service"
+
+#: admin/pages/class-page-schema-detector.php:561
+#: admin/pages/class-page-service-detector.php:97
+msgid "Page intent classifier — pages classified as Service Page or Product-Service Page"
+msgstr "Clasificador de intención de página — páginas clasificadas como página de servicio o página de producto-servicio"
+
+#: admin/pages/class-page-schema-detector.php:562
+#: admin/pages/class-page-service-detector.php:101
+msgid "URL slug — contains service, repair, install, maintenance, consulting"
+msgstr "Slug de la URL — contiene service, repair, install, maintenance, consulting"
+
+#: admin/pages/class-page-schema-detector.php:563
+#: admin/pages/class-page-service-detector.php:105
+msgid "Content keywords — service-related terms in headings and first 300 words (3+ required)"
+msgstr "Palabras clave del contenido — términos relacionados con servicios en los encabezados y las primeras 300 palabras (se necesitan 3 o más)"
+
+#: admin/pages/class-page-schema-detector.php:564
+#: admin/pages/class-page-service-detector.php:109
+msgid "WooCommerce products — only products whose title, slug, or content contains service keywords (not all products)"
+msgstr "Productos de WooCommerce — solo los productos cuyo título, slug o contenido contiene palabras clave de servicio (no todos los productos)"
+
+#: admin/pages/class-page-schema-detector.php:913
+msgid "Fill this in once. Use \"Create from this info\" on any contact page below to add complete Organization, PostalAddress, and ContactPoint schema instantly — no editor needed. Saving also updates your central Local Pack business profile."
+msgstr "Rellénalo una vez. Usa «Crear con esta información» en cualquier página de contacto de abajo para añadir al instante los schemas Organization, PostalAddress y ContactPoint completos — sin necesidad de editor. Al guardar también se actualiza el perfil central de tu negocio en Local Pack."
+
+#: admin/pages/class-page-schema-detector.php:1270
+msgid "✓ Schema added — reloading…"
+msgstr "✓ Schema añadido — recargando…"
+
+#: admin/pages/class-page-settings.php:97
+msgid "Used by the plugin's AI features — meta descriptions, PR Bridge, WooCommerce product enrichment, and image analysis. Each key is optional — only providers with a key are used."
+msgstr "La usan las características de IA del plugin — meta descripciones, PR Bridge, enriquecimiento de productos de WooCommerce y análisis de imágenes. Cada clave es opcional — solo se usan los proveedores que tienen clave."
+
+#: admin/pages/class-page-settings.php:296
+msgid "Help us publish real-world AI cost estimates by sharing anonymous token counts from your content generations. This data is aggregated across all plugin users — no content, titles, URLs, or site information is ever collected."
+msgstr "Ayúdanos a publicar estimaciones reales del coste de la IA compartiendo recuentos anónimos de tokens de tus generaciones de contenido. Estos datos se agregan entre todos los usuarios del plugin — nunca se recoge contenido, títulos, URL ni información del sitio."
+
+#: admin/pages/class-page-settings.php:447
+msgid "Keys entered in the form above are stored in the WordPress database. Anyone with database access (hosting panel, phpMyAdmin, staging sync, DB backup) can read them. For agency-managed client sites, define keys as PHP constants or server environment variables instead — they are never written to the database, never logged, and take priority over any database value."
+msgstr "Las claves introducidas en el formulario de arriba se guardan en la base de datos de WordPress. Cualquiera con acceso a la base de datos (panel del alojamiento, phpMyAdmin, sincronización de staging, copia de seguridad de la base de datos) puede leerlas. En sitios de clientes gestionados por una agencia, define las claves como constantes de PHP o variables de entorno del servidor — nunca se escriben en la base de datos, nunca se registran y tienen prioridad sobre cualquier valor de la base de datos."
+
+#: admin/pages/class-page-setup-wizard.php:168
+msgid "Skip — go to Dashboard"
+msgstr "Omitir — ir al escritorio"
+
+#: admin/pages/class-page-setup-wizard.php:192
+msgid "An SEO plugin is active — FAQ detection will run alongside it without conflicts."
+msgstr "Hay un plugin de SEO activo — la detección de FAQ funcionará junto a él sin conflictos."
+
+#: admin/pages/class-page-setup-wizard.php:201
+msgid "Yoast SEO detected — will sync company name, logo, and social profiles from Yoast."
+msgstr "Yoast SEO detectado — se sincronizarán desde Yoast el nombre de la empresa, el logotipo y los perfiles sociales."
+
+#: admin/pages/class-page-setup-wizard.php:203
+msgid "Rank Math detected — will sync company data from Rank Math settings."
+msgstr "Rank Math detectado — se sincronizarán los datos de la empresa desde los ajustes de Rank Math."
+
+#: admin/pages/class-page-setup-wizard.php:217
+msgid "Twitter/X profile found — will map your user profile social links to the company profile."
+msgstr "Perfil de Twitter/X encontrado — los enlaces sociales de tu perfil de usuario se asignarán al perfil de la empresa."
+
+#: admin/pages/class-page-setup-wizard.php:218
+msgid "Will check your WordPress user profile for social links and map them to the company profile."
+msgstr "Se comprobará tu perfil de usuario de WordPress en busca de enlaces sociales y se asignarán al perfil de la empresa."
+
+#: admin/pages/class-page-setup-wizard.php:226
+msgid "Profile bio found — will enable author schema and pre-fill your author box from your WordPress profile."
+msgstr "Biografía de perfil encontrada — se activará el schema de autor y se rellenará tu caja de autor a partir de tu perfil de WordPress."
+
+#: admin/pages/class-page-setup-wizard.php:388
+#: admin/pages/class-page-setup-wizard.php:731
+msgid "Google Analytics 4 — Measurement ID"
+msgstr "Google Analytics 4 — ID de medición"
+
+#: admin/pages/class-page-setup-wizard.php:871
+msgid "Track Analytics, Search Console, Bing, AI traffic, and index status — and run inline fixes."
+msgstr "Sigue Analytics, Search Console, Bing, el tráfico de IA y el estado de indexación — y aplica correcciones directamente."
+
+#. translators: %1$d: total pages scanned. %2$d: pages needing attention.
+#: admin/pages/class-page-social-graph.php:161
+msgid "%1$d pages scanned — %2$d need attention"
+msgstr "%1$d páginas exploradas — %2$d requieren atención"
+
+#. translators: %1$d: total pages scanned. %2$d: pages needing attention.
+#: admin/pages/class-page-social-graph.php:186
+msgid "Rescan complete — %1$d pages scanned, %2$d need attention."
+msgstr "Nueva exploración completada — %1$d páginas exploradas, %2$d requieren atención."
+
+#: admin/pages/class-page-social-graph.php:253
+msgid "The AI option makes one billed API call per post and runs in the background — you can leave this page once it starts, and stop it at any time. You will be asked to confirm the count first."
+msgstr "La opción con IA hace una llamada a la API con coste por entrada y se ejecuta en segundo plano — puedes salir de esta página una vez iniciada y detenerla en cualquier momento. Primero se te pedirá que confirmes el número."
+
+#: admin/pages/class-page-social-graph.php:669
+msgid "What Social Graph Controls"
+msgstr "Qué controla el grafo social"
+
+#: admin/pages/class-page-social-graph.php:674
+msgid "og:image — thumbnail shown when shared (1200×630px)"
+msgstr "og:image — miniatura que se muestra al compartir (1200×630 px)"
+
+#: admin/pages/class-page-social-graph.php:675
+msgid "og:title — headline, keep under 60 characters"
+msgstr "og:title — titular, mantenlo por debajo de 60 caracteres"
+
+#: admin/pages/class-page-social-graph.php:676
+msgid "og:description — shown below title, 120–160 characters"
+msgstr "og:description — se muestra debajo del título, 120–160 caracteres"
+
+#: admin/pages/class-page-social-graph.php:677
+msgid "og:type — website, article, or product"
+msgstr "og:type — website, article o product"
+
+#: admin/pages/class-page-social-graph.php:683
+msgid "twitter:card — summary or summary_large_image layout"
+msgstr "twitter:card — diseño summary o summary_large_image"
+
+#: admin/pages/class-page-social-graph.php:684
+msgid "twitter:creator — @handle of the post author, pulled from Author Entity schema"
+msgstr "twitter:creator — @usuario del autor de la entrada, tomado del schema de Entidad de autor"
+
+#: admin/pages/class-page-social-graph.php:685
+msgid "twitter:site — your brand @handle, set globally above"
+msgstr "twitter:site — el @usuario de tu marca, configurado de forma global arriba"
+
+#: admin/pages/class-page-social-graph.php:686
+msgid "Title, description, image — inherited from Open Graph (X falls back automatically)"
+msgstr "Título, descripción, imagen — heredados de Open Graph (X recurre a ellos automáticamente)"
+
+#: admin/pages/class-page-social-graph.php:764
+msgid "Generates a 1.91:1 landscape image with OpenAI, adds it to your Media Library, and sets it as the social image above. One billed API call — image generation costs more than text and can take 10–30 seconds. \"Description\" uses the social description, falling back to the meta description."
+msgstr "Genera con OpenAI una imagen horizontal 1,91:1, la añade a tu biblioteca de medios y la establece como imagen para redes arriba. Una llamada a la API con coste — generar imágenes cuesta más que el texto y puede tardar de 10 a 30 segundos. «Descripción» usa la descripción para redes y, si no la hay, la meta descripción."
+
+#: admin/pages/class-page-social-graph.php:836
+msgid "website — standard page"
+msgstr "website — página estándar"
+
+#: admin/pages/class-page-social-graph.php:837
+msgid "article — blog post or news"
+msgstr "article — entrada de blog o noticia"
+
+#: admin/pages/class-page-social-graph.php:838
+msgid "product — WooCommerce or shop item"
+msgstr "product — artículo de WooCommerce o de tienda"
+
+#: admin/pages/class-page-social-graph.php:856
+msgid "LinkedIn reads your og:title, og:description, and og:image set above — no extra tags needed. This URL is your global setting used for Organisation schema."
+msgstr "LinkedIn lee tus og:title, og:description y og:image configurados arriba — no hacen falta etiquetas adicionales. Esta URL es tu ajuste global que se usa para el schema Organization."
+
+#: admin/pages/class-page-social-graph.php:871
+msgid "summary_large_image — full-width image card (recommended)"
+msgstr "summary_large_image — tarjeta con imagen a todo lo ancho (recomendado)"
+
+#: admin/pages/class-page-social-graph.php:872
+msgid "summary — small square thumbnail card"
+msgstr "summary — tarjeta con una miniatura cuadrada pequeña"
+
+#: admin/pages/class-page-social-graph.php:1284
+msgid "Done — review and Save."
+msgstr "Hecho — revisa y guarda."
+
+#: admin/pages/class-page-social-graph.php:1319
+msgid "Image added — review and Save."
+msgstr "Imagen añadida — revisa y guarda."
+
+#: admin/pages/class-page-social-graph.php:1331
+msgid "Image added and set as featured — review and Save."
+msgstr "Imagen añadida y establecida como destacada — revisa y guarda."
+
+#. translators: %1$d: total products in view. %2$d: products missing schema.
+#: admin/pages/class-page-woocommerce-detector.php:312
+msgid "%1$d products — %2$d missing schema"
+msgstr "%1$d productos — a %2$d les falta schema"
+
+#: includes/class-ai-description.php:136
+msgid "Error — see message"
+msgstr "Error — consulta el mensaje"
+
+#: includes/class-ai-description.php:215
+msgid "Fast and reliable. Haiku is tuned for short summaries — usually a second or two per post."
+msgstr "Rápido y fiable. Haiku está ajustado para resúmenes cortos — normalmente uno o dos segundos por entrada."
+
+#: includes/class-ai-description.php:225
+msgid "Slower than Claude or OpenAI, especially on the free tier — a large bulk run can take several minutes. It keeps working in the background, so you can leave this page and check back later."
+msgstr "Más lento que Claude u OpenAI, sobre todo en el plan gratuito — una ejecución por lotes grande puede tardar varios minutos. Sigue funcionando en segundo plano, así que puedes salir de esta página y volver más tarde."
+
+#. translators: 1: feature label, 2: number of descriptions created.
+#: includes/class-ai-description.php:1229
+msgid "%1$s finished — %2$d created."
+msgstr "%1$s terminado — %2$d creadas."
+
+#. translators: %d: number of pages scanned in the background.
+#: includes/class-background-scan.php:185
+msgid "TWT AEO background scan finished — %d pages scanned."
+msgstr "Exploración en segundo plano de TWT AEO terminada — %d páginas exploradas."
+
+#: includes/class-perf-detector.php:48
+msgid "An external script include was pasted into the page body — it can block rendering and is often a duplicate of something the theme already loads."
+msgstr "Se ha pegado la inclusión de un script externo en el cuerpo de la página — puede bloquear la carga y a menudo duplica algo que el tema ya carga."
+
+#. translators: 1: number of script blocks, 2: byte size
+#: includes/class-perf-detector.php:65
+msgid "%1$d inline script block(s), ~%2$s of JS — render-blocking and uncacheable."
+msgstr "%1$d bloque(s) de script en línea, ~%2$s de JS — bloquean la carga y no se pueden guardar en caché."
+
+#: includes/class-perf-detector.php:90
+msgid "Image data is embedded in the HTML instead of the media library — it can't be lazy-loaded, cached, or served as WebP."
+msgstr "Los datos de la imagen están incrustados en el HTML en lugar de en la biblioteca de medios — no se pueden cargar de forma diferida, guardar en caché ni servir como WebP."
+
+#: includes/class-plugin.php:407
+msgid "The Agency Hub did not confirm receipt. Nothing was purged — will retry on the next scheduled sync."
+msgstr "El Agency Hub no confirmó la recepción. No se ha purgado nada — se volverá a intentar en la siguiente sincronización programada."
+
+#: includes/class-traffic-leak-scanner.php:242
+msgid "Leaking — slow & high bounce"
+msgstr "Con fugas — lenta y rebote alto"
+
+#: includes/class-traffic-leak-scanner.php:245
+msgid "At risk — watch speed"
+msgstr "En riesgo — vigila la velocidad"
+
+#: includes/class-traffic-leak-scanner.php:248
+msgid "Fast — bounce is content, not speed"
+msgstr "Rápida — el rebote se debe al contenido, no a la velocidad"
+
+#: admin/assets/js/ai-ready.js:81
+msgid "Physical robots.txt detected — Content-Signal present."
+msgstr "Se ha detectado un robots.txt físico — Content-Signal presente."
+
+#: admin/assets/js/ai-ready.js:111
+msgid "Removed. WordPress now serves robots.txt dynamically — reload to refresh."
+msgstr "Eliminado. WordPress sirve ahora robots.txt de forma dinámica — recarga para actualizar."
+
+#: admin/assets/js/local-pack.js:465
+msgid "All fields already have values — nothing was overwritten."
+msgstr "Todos los campos ya tienen valores — no se ha sobrescrito nada."

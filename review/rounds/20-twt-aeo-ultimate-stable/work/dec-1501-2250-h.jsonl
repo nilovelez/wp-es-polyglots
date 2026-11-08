@@ -1,0 +1,3 @@
+{"n": 1830, "verdict": "fix", "msgstr": "p. ej., marketing de contenidos", "comment": "El ejemplo va en minúscula en mitad de frase."}
+{"n": 1875, "verdict": "fix", "msgstr": "Una base incluida ya bloquea las rutas de ataque habituales (wp-login, .env, /.git, shells y más). Añade aquí fragmentos adicionales — uno por línea — para omitir el proceso de rescate en cualquier ruta que los contenga.", "comment": "Según el glosario, «skip» se traduce como «omitir»; se mantiene el guion largo «—»."}
+{"n": 2167, "verdict": "fix", "msgstr": "El identificador del emisor. Por defecto es la URL de tu sitio si lo dejas vacío.", "comment": "Según el glosario, «defaults to» se traduce como «por defecto es»."}

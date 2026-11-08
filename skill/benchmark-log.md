@@ -140,6 +140,17 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - Resultado: 291 cambios propuestos, aceptados en bloque por Nilo («me vale»), sin revisarlos cadena a cadena. La medición de esta ronda no es comparable con las demás.
 - Lección: en rondas por tramos, comprobar antes de `review-po` que los términos de `terms.md` se aplicaron en todo el archivo. Anotado en `review/README.md`.
 
+## 2026-11-08 · Haiku · ronda 20 (TWT AEO Ultimate, stable, 3707 cadenas) · directa, sin revisión humana
+
+- La más grande hasta ahora de una vez. Cinco tramos seguidos de unas 750 cadenas en la misma sesión, con `terms.md`, unos 26 minutos. Traducción humana y buena.
+- Haiku: 553 cambios. Guion largo restaurado en 449 cadenas (el traductor lo cambiaba por «:», «;» o paréntesis), 30 de mayúsculas, 55 de glosario y precisión (*set*, *check*, *next*, *fix*, *delete*, *render*, *caption*, *membership*, *frontend*…).
+- Auditoría de Opus: 14 descartadas y 8 editadas.
+  - Raya: donde el traductor ya la tenía, pegada al inciso según la norma del español («—reseñas, comparativas—»), Haiku solo cambiaba el espaciado al del inglés. Se descartan 12 y en 7 se mantiene el resto de la corrección con la raya pegada. Queda pendiente el espaciado de las 449 restauradas, que siguen el del original.
+  - «preguntas frecuentes» → «FAQ» por el glosario (FAQ: «No se traduce»): se mantiene lo del traductor (#310, #560). En la ronda 12 Nilo también cambió «bloque FAQ» por «bloque de preguntas frecuentes». Posible propuesta para el glosario.
+  - #712 «Open Knowledge File» es el nombre de un formato: no se traduce.
+- Falso positivo de `check` en #2035 («80% structural»), el mismo de la ronda 18.
+- Dudas que se dejan como estaban: «OK» = «Correcto» en estados (#564), «Toggle X» = «Activar o desactivar X», «rol: Lector» en la interfaz de GA4 (#2357), *endpoint* (el glosario da «variable»), *scope* = «ámbito», *Merchant Center* sin traducir.
+
 ## 2026-11-08 · Haiku · ronda 19 (Ensomedia Security, dev, 2467 cadenas) · directa, sin revisión humana
 
 - Tres tramos seguidos (1-820, 821-1640, 1641-2467) en la misma sesión, con `terms.md`. Traducción humana y correcta, pero ignoraba el glosario.

@@ -1,0 +1,20 @@
+{"n": 3365, "verdict": "fix", "msgstr": "Qué controla el grafo social", "comment": "El nombre de la pantalla va en minúscula en mitad de frase."}
+{"n": 3366, "verdict": "fix", "msgstr": "og:image — miniatura que se muestra al compartir (1200×630 px)", "comment": "Se mantiene el guion largo «—» del original en lugar de los dos puntos."}
+{"n": 3367, "verdict": "fix", "msgstr": "og:title — titular, mantenlo por debajo de 60 caracteres", "comment": "Se mantiene el guion largo «—» del original en lugar de los dos puntos."}
+{"n": 3368, "verdict": "fix", "msgstr": "og:description — se muestra debajo del título, 120–160 caracteres", "comment": "Se mantiene el guion largo «—» del original en lugar de los dos puntos."}
+{"n": 3369, "verdict": "fix", "msgstr": "og:type — website, article o product", "comment": "Se mantiene el guion largo «—» del original en lugar de los dos puntos."}
+{"n": 3370, "verdict": "fix", "msgstr": "twitter:card — diseño summary o summary_large_image", "comment": "Se mantiene el guion largo «—» del original en lugar de los dos puntos."}
+{"n": 3371, "verdict": "fix", "msgstr": "twitter:creator — @usuario del autor de la entrada, tomado del schema de Entidad de autor", "comment": "Se mantiene el guion largo «—» del original en lugar de los dos puntos."}
+{"n": 3372, "verdict": "fix", "msgstr": "twitter:site — el @usuario de tu marca, configurado de forma global arriba", "comment": "Se mantiene el guion largo «—» del original en lugar de los dos puntos."}
+{"n": 3373, "verdict": "fix", "msgstr": "Título, descripción, imagen — heredados de Open Graph (X recurre a ellos automáticamente)", "comment": "Se mantiene el guion largo «—» del original en lugar de los dos puntos."}
+{"n": 3382, "verdict": "fix", "msgstr": "Genera con OpenAI una imagen horizontal 1,91:1, la añade a tu biblioteca de medios y la establece como imagen para redes arriba. Una llamada a la API con coste — generar imágenes cuesta más que el texto y puede tardar de 10 a 30 segundos. «Descripción» usa la descripción para redes y, si no la hay, la meta descripción.", "comment": "Se mantiene el guion largo «—» del original en lugar de los dos puntos."}
+{"n": 3395, "verdict": "fix", "msgstr": "website — página estándar", "comment": "Se mantiene el guion largo «—» del original en lugar de los dos puntos."}
+{"n": 3396, "verdict": "fix", "msgstr": "article — entrada de blog o noticia", "comment": "Se mantiene el guion largo «—» del original en lugar de los dos puntos."}
+{"n": 3397, "verdict": "fix", "msgstr": "product — artículo de WooCommerce o de tienda", "comment": "Se mantiene el guion largo «—» del original en lugar de los dos puntos."}
+{"n": 3400, "verdict": "fix", "msgstr": "LinkedIn lee tus og:title, og:description y og:image configurados arriba — no hacen falta etiquetas adicionales. Esta URL es tu ajuste global que se usa para el schema Organization.", "comment": "Se mantiene el guion largo «—» del original en lugar de los dos puntos."}
+{"n": 3403, "verdict": "fix", "msgstr": "summary_large_image — tarjeta con imagen a todo lo ancho (recomendado)", "comment": "Se mantiene el guion largo «—» del original en lugar de los dos puntos."}
+{"n": 3404, "verdict": "fix", "msgstr": "summary — tarjeta con una miniatura cuadrada pequeña", "comment": "Se mantiene el guion largo «—» del original en lugar de los dos puntos."}
+{"n": 3417, "verdict": "fix", "msgstr": "Hecho — revisa y guarda.", "comment": "Se mantiene el guion largo «—» del original en lugar de los dos puntos."}
+{"n": 3420, "verdict": "fix", "msgstr": "Imagen añadida — revisa y guarda.", "comment": "Se mantiene el guion largo «—» del original en lugar de los dos puntos."}
+{"n": 3422, "verdict": "fix", "msgstr": "Imagen añadida y establecida como destacada — revisa y guarda.", "comment": "Se mantiene el guion largo «—» del original en lugar de los dos puntos."}
+{"n": 3434, "verdict": "fix", "msgstr": "%1$d productos — a %2$d les falta schema", "comment": "Se mantiene el guion largo «—» del original en lugar de los dos puntos."}
