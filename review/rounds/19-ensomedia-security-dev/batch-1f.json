@@ -1,0 +1,10 @@
+[
+{"n": 230, "verdict": "reject", "replace": [["La configuración previa se conserva e impide", "Los ajustes previos se conservan e impiden"], ["El alojamiento debe admitir", "El alojamiento debe ser compatible con"]], "comment": "Según el glosario, «settings» es «ajustes» y «support» (compatibilidad) es «compatible con»."},
+{"n": 348, "verdict": "reject", "replace": [["sin iniciar sesión", "sin acceder"]], "comment": "Según el glosario, «sign in» es «acceder». No se usa «iniciar sesión»."},
+{"n": 375, "verdict": "reject", "replace": [["tu hosting", "tu alojamiento"]], "comment": "Según el glosario, «hosting» se traduce como «alojamiento»."},
+{"n": 474, "verdict": "reject", "replace": [["de este análisis", "de esta exploración"]], "comment": "Según el glosario, «scan» es «exploración» (o «explorar»)."},
+{"n": 503, "verdict": "reject", "replace": [["de análisis anteriores", "de exploraciones anteriores"]], "comment": "Según el glosario, «scan» es «exploración» (o «explorar»)."},
+{"n": 718, "verdict": "reject", "replace": [["Sin evaluar: este análisis", "Sin evaluar: esta exploración"]], "comment": "Según el glosario, «scan» es «exploración» (o «explorar»)."},
+{"n": 721, "verdict": "reject", "replace": [["este análisis se ejecutó", "esta exploración se ejecutó"]], "comment": "Según el glosario, «scan» es «exploración» (o «explorar»)."},
+{"n": 812, "verdict": "reject", "replace": [["inicia sesión solo con la contraseña", "accede solo con la contraseña"]], "comment": "Según el glosario, «sign in» es «acceder». No se usa «iniciar sesión»."}
+]

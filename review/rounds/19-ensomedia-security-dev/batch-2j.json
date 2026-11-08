@@ -1,0 +1,4 @@
+[
+{"n": 1043, "verdict": "reject", "replace": [["el resultado de los análisis", "el resultado de las exploraciones"]], "comment": "Según el glosario, «scan» es «exploración» (o «explorar»)."},
+{"n": 1520, "verdict": "reject", "replace": [["en el panel y otro sitio", "en el escritorio y otro sitio"]], "comment": "Según el glosario, «dashboard» es «escritorio», no «panel»."}
+]

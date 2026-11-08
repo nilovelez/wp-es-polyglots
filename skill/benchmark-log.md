@@ -140,6 +140,17 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - Resultado: 291 cambios propuestos, aceptados en bloque por Nilo («me vale»), sin revisarlos cadena a cadena. La medición de esta ronda no es comparable con las demás.
 - Lección: en rondas por tramos, comprobar antes de `review-po` que los términos de `terms.md` se aplicaron en todo el archivo. Anotado en `review/README.md`.
 
+## 2026-11-08 · Haiku · ronda 19 (Ensomedia Security, dev, 2467 cadenas) · directa, sin revisión humana
+
+- Tres tramos seguidos (1-820, 821-1640, 1641-2467) en la misma sesión, con `terms.md`. Traducción humana y correcta, pero ignoraba el glosario.
+- Primera pasada: 422 cambios. Casi todos del glosario: *scan* = «exploración» (~144), *login* = «acceder» (~64), «identificación» (~45), «correo electrónico» en textos largos (~42), *role* = «perfil» (~43), *Dashboard* = «Escritorio» (~31), «malintencionado», «alojamiento», «por defecto», «borrar».
+- Haiku cambió los verbos de *login* a «acceder», pero dejó «inicio de sesión» como duda (~120 cadenas). El glosario lo resuelve («acceder / acceso», «Iniciar sesión» incorrecto). En una segunda pasada lo aplicó, junto con *sign out* = «salir», y deshizo «Escritorio» para el panel del servicio externo shieldwave.io (21 cadenas): el glosario se refiere al escritorio de WordPress.
+- Auditoría de Opus: 523 decisiones, 1 descartada y 13 editadas.
+  - *host* como empresa («pide a tu desarrollador o a tu alojamiento») → «proveedor de alojamiento» (13).
+  - Descartada la #843: «¿Hacer que salgan todos los usuarios, incluido tú?» se lee peor que «¿Cerrar la sesión de todos los usuarios, incluida la tuya?».
+  - `audit_decisions.py` acepta ahora `--edits` para reformular propuestas, además de descartarlas.
+- Dudas sin resolver, que se dejan como estaban: *release* = «paquete oficial», *vendor build*, *bulk* = «en masa», *threat feed* = «fuente de amenazas», interfaz de Cloudflare en inglés.
+
 ## 2026-11-06 · Haiku · rondas 14–16 · directas, sin revisión humana
 
 Haiku revisa y Opus audita en lugar de Nilo (`review/README.md`, «Direct rounds»). No cuentan en las mediciones.
@@ -177,7 +188,7 @@ Haiku revisa y Opus audita en lugar de Nilo (`review/README.md`, «Direct rounds
 - Aprobados sin cambio, como Haiku: «Funciones» para *feature*, «finalización de compra», «edición en lote» y «está en» para *is set to*.
 - Fallo de `po_tool.py check`: toma «5 % for» o «10% for» por marcadores de printf (#16, #60, #76). Pendiente de arreglar.
 
-## 2026-11-08 · ronda 19 (Arcadys Municipal Core, stable, 2672 cadenas) · descartada
+## 2026-11-08 · Arcadys Municipal Core (stable, 2672 cadenas) · descartada, sin número de ronda
 
 - El original está en español de América, no en inglés: 2650 cadenas son copia exacta del original y las otras 22 solo añaden el plural. Detectado con las cifras baratas, sin pasar por ningún modelo.
 - Nilo: se rechaza el lote entero y se avisa a quien lo envió de que, para poder traducir un plugin, el original tiene que estar en inglés de EE. UU.

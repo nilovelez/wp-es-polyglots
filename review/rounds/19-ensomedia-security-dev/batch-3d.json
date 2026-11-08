@@ -1,0 +1,22 @@
+[
+{"n": 2182, "verdict": "reject", "replace": [["te permite iniciar sesión una vez", "te permite acceder una vez"]], "comment": "Según el glosario, «sign in» es «acceder». No se usa «iniciar sesión»."},
+{"n": 2184, "verdict": "reject", "replace": [["La autenticación en dos pasos", "La identificación en dos pasos"]], "comment": "Según el glosario, «two-factor authentication» es «identificación en dos pasos»."},
+{"n": 2188, "verdict": "reject", "replace": [["la autenticación en dos pasos", "la identificación en dos pasos"]], "comment": "Según el glosario, «two-factor authentication» es «identificación en dos pasos»."},
+{"n": 2189, "verdict": "reject", "replace": [["una aplicación de autenticación", "una aplicación de identificación"]], "comment": "El criterio del equipo para «authentication» es «identificación», no «autenticación»."},
+{"n": 2192, "verdict": "reject", "replace": [["Código de autenticación", "Código de identificación"]], "comment": "El criterio del equipo para «authentication» es «identificación», no «autenticación»."},
+{"n": 2194, "verdict": "reject", "replace": [["La autenticación en dos pasos", "La identificación en dos pasos"]], "comment": "Según el glosario, «two-factor authentication» es «identificación en dos pasos»."},
+{"n": 2202, "verdict": "reject", "replace": [["Velocidad del análisis", "Velocidad de la exploración"]], "comment": "Según el glosario, «scan» es «exploración» (o «explorar»)."},
+{"n": 2204, "verdict": "reject", "replace": [["cuando has iniciado sesión.", "cuando has accedido."]], "comment": "Según el glosario, «log in» es «acceder». No se usa «iniciar sesión»."},
+{"n": 2206, "verdict": "reject", "replace": [["después del próximo análisis", "después de la próxima exploración"]], "comment": "Según el glosario, «scan» es «exploración» (o «explorar»)."},
+{"n": 2207, "verdict": "reject", "replace": [["después de cada análisis", "después de cada exploración"]], "comment": "Según el glosario, «scan» es «exploración» (o «explorar»)."},
+{"n": 2208, "verdict": "reject", "replace": [["los nombres y correos de las cuentas", "los nombres y correos electrónicos de las cuentas"]], "comment": "En un texto largo, «correo» se escribe «correo electrónico»."},
+{"n": 2209, "verdict": "reject", "replace": [["inicie un análisis", "inicie una exploración"], ["El panel es de solo lectura.", "El escritorio es de solo lectura."]], "comment": "Según el glosario, «scan» es «exploración» y «dashboard» es «escritorio»."},
+{"n": 2210, "verdict": "reject", "replace": [["El próximo análisis aceptará", "La próxima exploración aceptará"]], "comment": "Según el glosario, «scan» es «exploración» (o «explorar»)."},
+{"n": 2212, "verdict": "reject", "replace": [["es malicioso", "es malintencionado"]], "comment": "Según el glosario, «malicious» es «malintencionado»."},
+{"n": 2214, "verdict": "reject", "replace": [["inicia sesión con él", "accede con él"]], "comment": "Según el glosario, «sign in» es «acceder». No se usa «iniciar sesión»."},
+{"n": 2215, "verdict": "reject", "replace": [["sin el rol de administrador", "sin el perfil de administrador"]], "comment": "Según el glosario, «role» es «perfil». No se usa «rol»."},
+{"n": 2219, "verdict": "reject", "replace": [["Analiza entradas, páginas, widgets", "Explora entradas, páginas, widgets"]], "comment": "Según el glosario, «scan» se traduce como «explorar»."},
+{"n": 2220, "verdict": "reject", "replace": [["solo se analizó el sitio principal", "solo se exploró el sitio principal"]], "comment": "Según el glosario, «scan» se traduce como «explorar»."},
+{"n": 2221, "verdict": "reject", "replace": [["Analizando entradas y páginas", "Explorando entradas y páginas"]], "comment": "Según el glosario, «scan» se traduce como «explorar»."},
+{"n": 2222, "verdict": "reject", "replace": [["Analizando widgets", "Explorando widgets"]], "comment": "Según el glosario, «scan» se traduce como «explorar»."}
+]

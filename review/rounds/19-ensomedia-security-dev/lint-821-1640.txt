@@ -1,0 +1,247 @@
+#821: glossary: key → clave?
+#829: glossary: COD → contra reembolso? | glossary: set → establecer | conjunto?
+#834: glossary: sign out → salir?
+#840: glossary: sign out → salir?
+#842: glossary: default → por defecto? | glossary: next → siguiente?
+#843: glossary: sign out → salir?
+#844: glossary: sign out → salir?
+#845: glossary: sign in → acceder?
+#851: glossary term left in English: disable → desactivar | glossary term left in English: two-factor → dos pasos
+#856: glossary: save → guardar o ahorrar, según contexto?
+#858: glossary: prompt → instrucción? | capitals mid-sentence: Continuar
+#866: glossary: next → siguiente?
+#871: glossary: only → solo | solo / solamente? | glossary: role → perfil? | glossary: set → establecer | conjunto?
+#874: glossary: prompt → instrucción?
+#875: glossary: prompt → instrucción?
+#880: capitals mid-sentence: Ajustes, Llaves
+#883: glossary: email → correo electrónico?
+#885: glossary: scan → explorar | exploración?
+#889: glossary: check → marcar / comprobar | cheque?
+#890: glossary: save → guardar o ahorrar, según contexto?
+#892: glossary: check → marcar / comprobar | cheque?
+#898: glossary: check → marcar / comprobar | cheque?
+#901: glossary: next → siguiente? | glossary: scan → explorar | exploración?
+#902: glossary: check → marcar / comprobar | cheque?
+#909: glossary: scan → explorar | exploración?
+#920: capitals mid-sentence: Escritorio
+#925: glossary: COD → contra reembolso?
+#926: glossary: lead → cliente potencial? | glossary: login → acceder / acceso? | glossary: next → siguiente? | glossary term left in English: role → perfil | glossary term left in English: roles → perfiles | glossary: set → establecer | conjunto?
+#927: glossary term left in English: disable → desactivar | glossary: set → establecer | conjunto? | glossary: skip → omitir? | glossary term left in English: two-factor → dos pasos
+#931: glossary: save → guardar o ahorrar, según contexto?
+#942: glossary: login → acceder / acceso? | capitals mid-sentence: Administrador
+#943: glossary: scan → explorar | exploración?
+#947: capitals mid-sentence: Restáuralo, Resumen
+#948: glossary: save → guardar o ahorrar, según contexto? | capitals mid-sentence: Ajustes
+#950: glossary: save → guardar o ahorrar, según contexto?
+#951: capitals mid-sentence: Resumen
+#958: glossary: save → guardar o ahorrar, según contexto?
+#960: glossary: COD → contra reembolso? | glossary: sign in → acceder?
+#961: glossary: check → marcar / comprobar | cheque? | glossary: email → correo electrónico?
+#963: glossary term left in English: disable → desactivar | glossary: email → correo electrónico? | glossary term left in English: two-factor → dos pasos
+#964: glossary: check → marcar / comprobar | cheque?
+#965: glossary: COD → contra reembolso?
+#966: glossary: email → correo electrónico? | glossary: login → acceder / acceso?
+#967: glossary: login → acceder / acceso? | glossary: set → establecer | conjunto?
+#968: glossary: login → acceder / acceso? | glossary: setting → ajuste? | glossary: sign in → acceder?
+#969: glossary: email → correo electrónico? | glossary: login → acceder / acceso?
+#971: glossary: email → correo electrónico?
+#973: glossary: set → establecer | conjunto?
+#974: glossary: COD → contra reembolso? | glossary: set → establecer | conjunto?
+#975: glossary: login → acceder / acceso? | glossary term left in English: role → perfil | glossary term left in English: roles → perfiles | glossary: save → guardar o ahorrar, según contexto?
+#976: glossary: login → acceder / acceso? | glossary: role → perfil? | glossary: save → guardar o ahorrar, según contexto?
+#977: glossary: next → siguiente? | glossary: save → guardar o ahorrar, según contexto?
+#979: glossary: save → guardar o ahorrar, según contexto?
+#980: capitals mid-sentence: Comprobar
+#987: glossary: clear → vaciar?
+#1014: glossary: only → solo | solo / solamente? | glossary: role → perfil?
+#1017: capitals mid-sentence: Resumen
+#1018: capitals mid-sentence: Resumen
+#1027: glossary: feature → característica | destacar?
+#1033: glossary: default → por defecto? | glossary: only → solo | solo / solamente?
+#1036: capitals mid-sentence: Herramientas
+#1038: glossary: feature → característica | destacar? | glossary: fee → cuota? | glossary: feed is not translated (feed) | glossary: scan → explorar | exploración?
+#1042: glossary: login → acceder / acceso?
+#1043: glossary: about → acerca de? | glossary: e-mail → correo electrónico? | glossary: feature → característica | destacar? | glossary: scan → explorar | exploración?
+#1047: glossary term left in English: role → perfil | glossary term left in English: roles → perfiles
+#1053: glossary: authentication → identificación? | glossary: two-factor authentication → identificación en dos pasos?
+#1054: glossary: set → establecer | conjunto?
+#1055: glossary: login → acceder / acceso?
+#1056: glossary: login → acceder / acceso?
+#1057: glossary: skipped → omitido? | glossary: two-factor → dos pasos?
+#1058: glossary: COD → contra reembolso? | glossary: login → acceder / acceso? | glossary: set → establecer | conjunto? | glossary: sign in → acceder?
+#1059: glossary: COD → contra reembolso?
+#1063: glossary: check → marcar / comprobar | cheque?
+#1064: glossary: login → acceder / acceso? | glossary: set → establecer | conjunto?
+#1065: glossary: COD → contra reembolso? | glossary: login → acceder / acceso?
+#1066: glossary: login → acceder / acceso?
+#1071: glossary: login → acceder / acceso?
+#1073: glossary: login → acceder / acceso?
+#1074: glossary: login → acceder / acceso?
+#1075: glossary: COD → contra reembolso? | glossary: save → guardar o ahorrar, según contexto? | glossary: sign in → acceder?
+#1077: glossary: COD → contra reembolso? | glossary: login → acceder / acceso? | glossary: set → establecer | conjunto? | glossary: sign in → acceder?
+#1078: glossary: set → establecer | conjunto?
+#1079: glossary: login → acceder / acceso? | glossary: set → establecer | conjunto? | glossary: sign in → acceder?
+#1080: glossary: set → establecer | conjunto?
+#1081: glossary: login → acceder / acceso?
+#1082: glossary: login → acceder / acceso? | glossary: set → establecer | conjunto?
+#1083: glossary: COD → contra reembolso? | glossary: login → acceder / acceso? | glossary: set → establecer | conjunto? | glossary: sign in → acceder?
+#1087: glossary: body is not translated (cuerpo) | glossary: query → consulta?
+#1091: glossary: COD → contra reembolso? | glossary: quote → cita / presupuesto?
+#1095: glossary: role → perfil?
+#1098: glossary: quote → cita / presupuesto?
+#1099: glossary: COD → contra reembolso?
+#1100: glossary: COD → contra reembolso?
+#1101: glossary: set → establecer | conjunto?
+#1106: glossary: fix → corrección?
+#1107: glossary: check → marcar / comprobar | cheque?
+#1110: glossary: bundle → lote? | glossary: next → siguiente?
+#1113: glossary: email → correo electrónico? | glossary: lead → cliente potencial?
+#1117: glossary: remove → quitar / eliminar?
+#1118: glossary: remove → quitar / eliminar?
+#1119: glossary: check → marcar / comprobar | cheque?
+#1124: glossary: scan → explorar | exploración?
+#1127: glossary: scan → explorar | exploración?
+#1130: glossary: next → siguiente? | glossary: scan → explorar | exploración?
+#1132: glossary: bundle → lote? | glossary: check → marcar / comprobar | cheque?
+#1133: glossary: listing → anuncio / catálogo / ficha? | glossary: next → siguiente? | glossary: scan → explorar | exploración?
+#1142: glossary: listing → anuncio / catálogo / ficha? | glossary: next → siguiente? | glossary: scan → explorar | exploración?
+#1150: glossary: check → marcar / comprobar | cheque? | capitals mid-sentence: Archivos
+#1151: glossary: website → sitio web?
+#1152: glossary: website → sitio web?
+#1153: glossary: login → acceder / acceso? | glossary: next → siguiente? | glossary: scan → explorar | exploración?
+#1154: glossary: login → acceder / acceso?
+#1160: glossary: login → acceder / acceso?
+#1161: glossary: login → acceder / acceso?
+#1164: glossary: login → acceder / acceso?
+#1165: glossary: check → marcar / comprobar | cheque? | glossary: login → acceder / acceso? | glossary: sign in → acceder?
+#1166: glossary: login → acceder / acceso? | capitals mid-sentence: Se
+#1167: glossary: login → acceder / acceso?
+#1168: capitals mid-sentence: Historial
+#1169: glossary: about → acerca de? | glossary: email → correo electrónico?
+#1170: glossary: login → acceder / acceso? | capitals mid-sentence: Ajustes
+#1171: glossary: email → correo electrónico?
+#1172: glossary: login → acceder / acceso? | glossary: sign in → acceder?
+#1173: glossary: login → acceder / acceso?
+#1174: capitals mid-sentence: Sitio
+#1177: glossary: scan → explorar | exploración?
+#1182: capitals mid-sentence: Se
+#1184: glossary: login → acceder / acceso?
+#1185: glossary: login → acceder / acceso?
+#1186: glossary: login → acceder / acceso? | glossary: set → establecer | conjunto?
+#1187: capitals mid-sentence: Resumen
+#1193: capitals mid-sentence: Resumen
+#1194: glossary: fix → corrección?
+#1200: glossary: release → versión?
+#1203: glossary: login → acceder / acceso? | glossary: set → establecer | conjunto? | capitals mid-sentence: Límites
+#1219: glossary: default → por defecto? | glossary: login → acceder / acceso?
+#1220: glossary: check → marcar / comprobar | cheque? | glossary: login → acceder / acceso? | glossary: save → guardar o ahorrar, según contexto?
+#1221: glossary: login → acceder / acceso? | glossary: save → guardar o ahorrar, según contexto?
+#1224: glossary: login → acceder / acceso?
+#1225: glossary: login → acceder / acceso? | glossary: sign in → acceder?
+#1226: glossary: email → correo electrónico?
+#1227: glossary: email → correo electrónico?
+#1228: glossary: email → correo electrónico?
+#1229: glossary: email → correo electrónico? | glossary: login → acceder / acceso?
+#1231: glossary: login → acceder / acceso?
+#1232: glossary: role → perfil? | capitals mid-sentence: Administrador
+#1233: glossary: role → perfil?
+#1235: glossary: builder → maquetador?
+#1239: glossary: listing → anuncio / catálogo / ficha? | glossary: next → siguiente? | glossary: scan → explorar | exploración?
+#1243: glossary: delete → borrar? | glossary: scan → explorar | exploración?
+#1244: glossary: delete → borrar? | glossary: scan → explorar | exploración?
+#1245: glossary: website → sitio web?
+#1246: glossary: website → sitio web?
+#1249: glossary: website → sitio web?
+#1259: glossary: builder → maquetador?
+#1263: glossary: scan → explorar | exploración? | capitals mid-sentence: Comprobaciones, Ajustes
+#1265: glossary: check → marcar / comprobar | cheque? | glossary term left in English: role → perfil
+#1266: capitals mid-sentence: Subir
+#1270: glossary: login → acceder / acceso? | glossary: save → guardar o ahorrar, según contexto?
+#1274: glossary: check → marcar / comprobar | cheque?
+#1275: glossary: fee → cuota? | glossary: feed is not translated (feed)
+#1280: glossary term left in English: role → perfil | glossary term left in English: roles → perfiles | capitals mid-sentence: Administrador
+#1286: glossary: login → acceder / acceso?
+#1292: glossary: check → marcar / comprobar | cheque?
+#1293: glossary: check → marcar / comprobar | cheque? | «#%d» → keep «#», not «n.º»
+#1294: glossary: check → marcar / comprobar | cheque? | «#%d» → keep «#», not «n.º»
+#1295: glossary: authentication → identificación? | glossary: two-factor authentication → identificación en dos pasos?
+#1296: glossary: authentication → identificación? | glossary: two-factor authentication → identificación en dos pasos?
+#1299: glossary: scan → explorar | exploración? | glossary: skip → omitir?
+#1300: glossary: save → guardar o ahorrar, según contexto?
+#1302: glossary: next → siguiente?
+#1303: glossary: next → siguiente? | glossary: report → informe | informar?
+#1307: glossary: website → sitio web?
+#1308: glossary: website → sitio web?
+#1309: glossary term left in English: home → inicio / página de inicio | glossary term left in English: log → registro | glossary: website → sitio web? | non-Spanish quotes
+#1310: capitals mid-sentence: Ajustes
+#1312: capitals mid-sentence: Ajustes, Dirección, Haz
+#1313: glossary: about → acerca de?
+#1320: glossary: scan → explorar | exploración?
+#1321: glossary: email → correo electrónico?
+#1322: glossary: authentication → identificación? | glossary: two-factor authentication → identificación en dos pasos?
+#1324: glossary: Dashboard → Escritorio? | glossary: logged in → conectado?
+#1326: glossary: Dashboard → Escritorio? | glossary: next → siguiente? | glossary: scan → explorar | exploración?
+#1340: capitals mid-sentence: Escritorio
+#1342: glossary: hide → ocultar?
+#1347: glossary: scan → explorar | exploración? | capitals mid-sentence: Escritorio
+#1348: glossary: scan → explorar | exploración?
+#1349: glossary: scan → explorar | exploración?
+#1350: glossary: scan → explorar | exploración?
+#1351: glossary: scan → explorar | exploración?
+#1352: glossary: clear → vaciar? | capitals mid-sentence: Escritorio
+#1353: glossary: clear → vaciar?
+#1354: glossary: clear → vaciar?
+#1355: glossary: clear → vaciar?
+#1356: glossary: scan → explorar | exploración? | capitals mid-sentence: Apariencia
+#1357: glossary: scan → explorar | exploración?
+#1358: glossary: check → marcar / comprobar | cheque?
+#1363: capitals mid-sentence: Ajustes
+#1364: glossary: fee → cuota? | glossary: feed is not translated (feed)
+#1368: glossary: check → marcar / comprobar | cheque?
+#1372: glossary: check → marcar / comprobar | cheque?
+#1392: glossary: scan → explorar | exploración?
+#1398: glossary term left in English: upload → subida | subir
+#1404: glossary: malicious → malintencionado?
+#1411: glossary: fix → corrección? | glossary: fixed → corregido?
+#1412: glossary: scan → explorar | exploración?
+#1414: glossary: release → versión?
+#1432: glossary: skip → omitir?
+#1436: glossary: media → medios?
+#1440: glossary: set → establecer | conjunto?
+#1453: glossary: check → marcar / comprobar | cheque?
+#1456: capitals mid-sentence: Temas
+#1459: glossary: role → perfil?
+#1479: glossary: Dashboard → Escritorio? | glossary: email → correo electrónico?
+#1490: glossary: about → acerca de?
+#1505: glossary: Dashboard → Escritorio?
+#1508: glossary: Dashboard → Escritorio?
+#1514: glossary: Dashboard → Escritorio? | capitals mid-sentence: Ajustes
+#1515: glossary: Dashboard → Escritorio?
+#1516: glossary: Dashboard → Escritorio? | glossary: next → siguiente? | glossary: scan → explorar | exploración?
+#1518: glossary: Dashboard → Escritorio? | glossary: next → siguiente? | glossary: scan → explorar | exploración?
+#1519: glossary: sign in → acceder?
+#1520: glossary: Dashboard → Escritorio?
+#1521: glossary: remove → quitar / eliminar?
+#1522: glossary: scan → explorar | exploración?
+#1523: glossary: scan → explorar | exploración?
+#1528: glossary: Dashboard → Escritorio? | glossary: next → siguiente? | glossary: scan → explorar | exploración?
+#1529: glossary: Dashboard → Escritorio?
+#1531: glossary: Dashboard → Escritorio?
+#1532: glossary: Dashboard → Escritorio?
+#1533: glossary: Dashboard → Escritorio?
+#1538: glossary: email → correo electrónico?
+#1539: glossary: about → acerca de? | glossary: Dashboard → Escritorio? | glossary: fix → corrección? | glossary: scan → explorar | exploración?
+#1567: non-Spanish quotes
+#1569: glossary term left in English: string → cadena
+#1570: glossary: COD → contra reembolso?
+#1571: glossary: check → marcar / comprobar | cheque?
+#1572: glossary: save → guardar o ahorrar, según contexto?
+#1576: capitals mid-sentence: Usuarios
+#1581: glossary: upload → subida | subir?
+#1583: glossary: COD → contra reembolso?
+#1584: glossary: remove → quitar / eliminar?
+#1586: glossary: fix → corrección? | glossary: fixed → corregido?
+#1587: glossary: fix → corrección? | glossary: fixed → corregido?
+#1590: glossary: required → obligatorio / requerido / necesario?
+#1602: glossary: COD → contra reembolso?
+#1614: glossary: email → correo electrónico?

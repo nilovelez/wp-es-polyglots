@@ -1,0 +1,15 @@
+[
+{"n": 85, "verdict": "reject", "replace": [["antes de cerrar sesión", "antes de salir"]], "comment": "Según el glosario, «sign out» es «salir»."},
+{"n": 211, "verdict": "reject", "replace": [["antes de cerrar sesión", "antes de salir"]], "comment": "Según el glosario, «sign out» es «salir»."},
+{"n": 834, "verdict": "reject", "replace": [["cierra las demás sesiones", "sal de las demás sesiones"]], "comment": "Según el glosario, «sign out» es «salir»."},
+{"n": 840, "verdict": "reject", "replace": [["Cerrar las demás sesiones", "Salir de las demás sesiones"]], "comment": "Según el glosario, «sign out» es «salir»."},
+{"n": 843, "verdict": "reject", "replace": [["¿Cerrar la sesión de todos los usuarios, incluida la tuya?", "¿Hacer que salgan todos los usuarios, incluido tú?"]], "comment": "Según el glosario, «sign out» es «salir»."},
+{"n": 844, "verdict": "reject", "replace": [["Cerrar la sesión de todos los usuarios", "Hacer que salgan todos los usuarios"]], "comment": "Según el glosario, «sign out» es «salir»."},
+{"n": 921, "verdict": "reject", "replace": [["Se cerraron todas las sesiones de todos los usuarios.", "Todos los usuarios salieron de todas sus sesiones."]], "comment": "Según el glosario, «sign out» es «salir»."},
+{"n": 1441, "verdict": "reject", "replace": [["Esto cierra la sesión de todo el mundo", "Esto hace que todo el mundo salga de su sesión"]], "comment": "Según el glosario, «sign out» es «salir»."},
+{"n": 447, "verdict": "reject", "replace": [["el nombre de acceso señuelo cuando", "el nombre señuelo cuando"]], "comment": "Se usa «acceso» en lugar de «inicio de sesión» (glosario)."},
+{"n": 1164, "verdict": "reject", "replace": [["pausado los accesos en ella", "pausado los accesos a ella"]], "comment": "Se usa «acceso» en lugar de «inicio de sesión» (glosario)."},
+{"n": 1184, "verdict": "reject", "replace": [["pausado los accesos en una cuenta", "pausado los accesos a una cuenta"]], "comment": "Se usa «acceso» en lugar de «inicio de sesión» (glosario)."},
+{"n": 2171, "verdict": "reject", "replace": [["en tu acceso", "en el acceso a tu sitio"]], "comment": "Se usa «acceso» en lugar de «inicio de sesión» (glosario)."},
+{"n": 2460, "verdict": "reject", "replace": [["Un acceso superó la identificación", "Un acceso ha superado la identificación"]], "comment": "Se usa «acceso» en lugar de «inicio de sesión» (glosario)."}
+]

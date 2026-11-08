@@ -1,0 +1,2300 @@
+# Translation of Plugins - Ensomedia Security powered by shieldwave.io - Development (trunk) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Ensomedia Security powered by shieldwave.io - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: +0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.1.0\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Ensomedia Security powered by shieldwave.io - Development (trunk)\n"
+
+#. translators: 1: advisory id; 2: plugin version.
+#: includes/protect/class-self-switch.php:476
+msgid "Signing in with a passkey is switched off on this site because of advisory %1$s, until Ensomedia Security %2$s or later is installed. Sign in with your password and your authenticator app or a backup code."
+msgstr "El acceso con llave de acceso está desactivado en este sitio por el aviso %1$s, hasta que se instale Ensomedia Security %2$s o posterior. Accede con tu contraseña y tu aplicación de identificación o un código de copia de seguridad."
+
+#. translators: 1: PHP version of the site, 2: first fixed PHP version.
+#: includes/admin/views/partials/settings-edge-rules.php:217
+msgid "For your host: this site runs PHP %1$s. php2shell is fixed in PHP %2$s. Please update, or confirm the fix is already in your PHP build."
+msgstr "Para tu proveedor de alojamiento: este sitio usa PHP %1$s. php2shell está corregido en PHP %2$s. Por favor, actualiza o confirma que la corrección ya está en tu compilación de PHP."
+
+#: includes/admin/views/partials/settings-edge-rules.php:200
+msgid "php2shell (CVE-2026-109618 and CVE-2026-109619) is a flaw in PHP that is triggered while PHP reads a request, before any plugin runs. The attack uses form uploads that look like ordinary ones from outside, so a rule here could not stop it without blocking real uploads, and none is offered. Cloudflare says its own managed rules for it are on for every plan, Free included. The fix is a PHP update by your host."
+msgstr "php2shell (CVE-2026-109618 y CVE-2026-109619) es un fallo de PHP que se activa mientras PHP lee una solicitud, antes de que se ejecute ningún plugin. El ataque usa subidas de formularios que desde fuera parecen normales, así que una regla aquí no podría detenerlo sin bloquear subidas reales, y no se ofrece ninguna. Cloudflare dice que sus propias reglas gestionadas para esto están activas en todos los planes, Free incluido. La solución es una actualización de PHP por parte de tu proveedor de alojamiento."
+
+#: includes/class-php2shell-alert.php:91
+msgid "My host confirmed the fix is installed: hide this"
+msgstr "Mi proveedor de alojamiento confirmó que la corrección está instalada: ocultar"
+
+#. translators: %s: PHP version.
+#: includes/class-php2shell-alert.php:109
+msgid "php2shell warning hidden for PHP %s: the host confirmed the fix."
+msgstr "Advertencia de php2shell oculta para PHP %s: el proveedor de alojamiento confirmó la corrección."
+
+#: includes/admin/views/partials/settings-edge-rules.php:69
+msgid "Adds the rules for this site to the custom rules of your zone, removes them when they no longer apply, and removes all of them when you turn this off or delete the plugin. Only rules whose description starts with \"ShieldWave:\" are touched. Cloudflare receives the token, the site's host name and the rules. Nothing goes to shieldwave.io."
+msgstr "Añade las reglas de este sitio a las reglas personalizadas de tu zona, las quita cuando ya no se aplican y las quita todas cuando desactivas esto o borras el plugin. Solo se tocan las reglas cuya descripción empieza por «ShieldWave:». Cloudflare recibe el token, el nombre de host del sitio y las reglas. No se envía nada a shieldwave.io."
+
+#. translators: 1: PHP version of the site, 2: first fixed PHP version.
+#: includes/admin/views/partials/settings-edge-rules.php:173
+msgid "For your host: this site runs PHP %1$s. The flaw is fixed in PHP %2$s."
+msgstr "Para tu proveedor de alojamiento: este sitio usa PHP %1$s. El fallo está corregido en PHP %2$s."
+
+#. translators: %s: PHP version of the site.
+#: includes/admin/views/partials/settings-edge-rules.php:176
+msgid "For your host: this site runs PHP %s, a branch that gets no fix. Move the site to a supported PHP version."
+msgstr "Para tu proveedor de alojamiento: este sitio usa PHP %s, una rama que no recibe corrección. Pasa el sitio a una versión de PHP compatible."
+
+#. translators: %s: the login name of the account.
+#: includes/class-passkeys.php:411
+msgid "Lost your passkey? Ask an administrator of this site to run wp shieldwave two-factor disable %s on the server."
+msgstr "¿Has perdido tu llave de acceso? Pide a un administrador de este sitio que ejecute en el servidor wp shieldwave two-factor disable %s."
+
+#. translators: %s: the new login address.
+#: includes/admin/class-actions-login-extra.php:138
+msgid "The login page is now at %s. Bookmark it and open it in a private window before you sign out. The email with this address could not be sent, so write the address down."
+msgstr "La página de acceso está ahora en %s. Añádela a marcadores y ábrela en una ventana privada antes de salir. No se pudo enviar el correo electrónico con esta dirección, así que anótala."
+
+#: includes/admin/views/partials/settings-firewall.php:40
+msgid "Your own Cloudflare ranges replace the defaults. Leave the field empty to restore the default ranges."
+msgstr "Tus rangos de Cloudflare sustituyen a los rangos por defecto. Deja el campo vacío para restaurar los rangos por defecto."
+
+#. translators: %s: user login.
+#: includes/class-activity-events.php:125
+msgid "%s signed in."
+msgstr "Acceso: %s."
+
+#: includes/class-activity-events.php:147
+msgid "no role"
+msgstr "sin perfil"
+
+#. translators: 1: user login, 2: role, 3: how (e.g. "a front-end request").
+#: includes/class-activity-events.php:150
+msgid "New account %1$s (%2$s) through %3$s."
+msgstr "Nueva cuenta %1$s (perfil: %2$s), origen: %3$s."
+
+#. translators: 1: login of who made it, 2: user login, 3: role.
+#: includes/class-activity-events.php:153
+msgid "%1$s created the account %2$s (%3$s)."
+msgstr "Nueva cuenta %2$s (perfil: %3$s), creada por: %1$s."
+
+#. translators: 1: user login, 2: how (e.g. "WP-CLI").
+#: includes/class-activity-events.php:188
+msgid "The account %1$s was deleted through %2$s."
+msgstr "Se borró la cuenta %1$s, origen: %2$s."
+
+#. translators: 1: login of who deleted it, 2: user login.
+#: includes/class-activity-events.php:191
+msgid "%1$s deleted the account %2$s."
+msgstr "Borrado de la cuenta %2$s, usuario: %1$s."
+
+#. translators: 1: user login, 2: previous role, 3: new role.
+#: includes/class-activity-events.php:231
+msgid "The role of %1$s changed from %2$s to %3$s."
+msgstr "Cambio de perfil de la cuenta %1$s: de %2$s a %3$s."
+
+#. translators: 1: user login, 2: role.
+#: includes/class-activity-events.php:255
+msgid "%1$s got the additional role %2$s."
+msgstr "La cuenta %1$s recibió un perfil adicional: %2$s."
+
+#. translators: 1: user login, 2: role.
+#: includes/class-activity-events.php:273
+msgid "%1$s lost the role %2$s."
+msgstr "La cuenta %1$s perdió el perfil: %2$s."
+
+#. translators: 1: login, 2: kind of content (e.g. page), 3: title.
+#: includes/class-activity-events.php:445
+msgid "%1$s deleted the %2$s \"%3$s\" for good."
+msgstr "Borrado definitivo (%1$s): %2$s «%3$s»."
+
+#. translators: 1: kind of content (e.g. page), 2: title, 3: how (e.g.
+#. "WP-CLI").
+#: includes/class-activity-events.php:447
+msgid "The %1$s \"%2$s\" was deleted for good through %3$s."
+msgstr "Borrado definitivo: %1$s «%2$s» (origen: %3$s)."
+
+#. translators: %s: theme folder.
+#: includes/class-activity-events.php:469
+msgid "Theme deleted: %s."
+msgstr "Tema borrado: %s."
+
+#: includes/class-activity-events.php:495
+msgid "New user default role"
+msgstr "Perfil por defecto de los usuarios nuevos"
+
+#. translators: %d: number of entries.
+#: includes/class-activity-events.php:701
+msgid "Sign-ins and content changes reached the limit of %d entries a day, so further ones are not recorded for now. Accounts, roles, plugins, themes and settings are still recorded."
+msgstr "Los accesos y los cambios de contenido han alcanzado el límite de %d entradas al día, por lo que de momento no se registran más. Las cuentas, los perfiles, los plugins, los temas y los ajustes se siguen registrando."
+
+#. translators: %d: number of days.
+#: includes/class-privacy.php:103
+msgid "Ensomedia Security keeps a record of what happens on this site: who signed in, who created or deleted accounts, changed roles, edited, published or deleted posts and pages, installed, updated, switched or removed plugins and themes, and changed important settings. Each entry holds the time, the login of the account, what was changed and how it came about. It never holds the text of a post, a password or a value typed into a form. The records stay on this site, are kept for up to %d days, the retention period set in the plugin settings, and are then deleted. They are not sent to shieldwave.io. They can be included in a personal data export, and the personal data in them can be removed with a personal data erasure request."
+msgstr "Ensomedia Security guarda un registro de lo que ocurre en este sitio: quién accedió, quién creó o borró cuentas, cambió perfiles, editó, publicó o borró entradas y páginas, instaló, actualizó, cambió o borró plugins y temas, y modificó ajustes importantes. Cada registro contiene la hora, el nombre de usuario de la cuenta, qué se cambió y de dónde procedía el cambio. Nunca contiene el texto de una entrada, una contraseña ni un valor escrito en un formulario. Los registros permanecen en este sitio, se conservan hasta %d días (el plazo fijado en los ajustes del plugin) y después se borran. No se envían a shieldwave.io. Se pueden incluir en una exportación de datos personales, y los datos personales que contienen se pueden eliminar con una solicitud de supresión de datos personales."
+
+#: includes/class-passkeys.php:783
+msgid "A sign-in used a passkey without a password."
+msgstr "Se accedió con una llave de acceso, sin contraseña."
+
+#: includes/class-breached-passwords.php:203
+msgid "An account signed in with a password that appears in known data breaches. It was asked to change it."
+msgstr "Una cuenta accedió con una contraseña que aparece en filtraciones de datos conocidas. Se le pidió que la cambiara."
+
+#: includes/class-privacy.php:114
+msgid "Only if the site owner turns them on. The bot check of the login, registration and password reset forms gives the browser a small puzzle and sends nothing. If the owner chooses Cloudflare Turnstile instead, those forms load a script from Cloudflare, which processes data about the visitor's browser under its own privacy policy. The breached password check sends Have I Been Pwned only the first 5 characters of the SHA-1 hash of a new password. Spam traps add a hidden field and a time stamp to forms. What these checks stopped is written to the activity log with the IP address."
+msgstr "Solo si el propietario del sitio los activa. La comprobación de bots de los formularios de acceso, registro y restablecimiento de contraseña le da al navegador un pequeño reto y no envía nada. Si el propietario elige Cloudflare Turnstile, esos formularios cargan un script de Cloudflare, que trata datos sobre el navegador del visitante conforme a su propia política de privacidad. La comprobación de contraseñas filtradas envía a Have I Been Pwned solo los primeros 5 caracteres del hash SHA-1 de una contraseña nueva. Las trampas de spam añaden a los formularios un campo oculto y una marca de tiempo. Lo que detienen estas comprobaciones se anota en el registro de actividad con la dirección IP."
+
+#: includes/class-passkeys.php:676
+msgid "Sign in with a passkey"
+msgstr "Acceder con una llave de acceso"
+
+#: includes/class-passkeys.php:690
+msgid "That passkey did not sign you in. Try again, or sign in with your password."
+msgstr "Esa llave de acceso no te permitió acceder. Inténtalo de nuevo o accede con tu contraseña."
+
+#: includes/class-passkeys.php:1132
+msgid "This passkey can only be the second step after your password. Sign in with your password, or add the passkey again."
+msgstr "Esta llave de acceso solo puede ser el segundo paso después de tu contraseña. Accede con tu contraseña o vuelve a añadir la llave de acceso."
+
+#: includes/admin/views/partials/settings-login-extra.php:103
+msgid "A new password set on a profile, for a new user or with a reset link is checked with the Pwned Passwords service of Have I Been Pwned. Only the first 5 characters of the password's SHA-1 hash are sent, never the password, the full hash or the user name. A password found there is refused. At sign-in, at most once a week, an account with such a password is asked to change it, and is never blocked. If the service does not answer, the password is accepted."
+msgstr "Una contraseña nueva que se establece en un perfil, para un usuario nuevo o con un enlace de restablecimiento se comprueba con el servicio Pwned Passwords de Have I Been Pwned. Solo se envían los primeros 5 caracteres del hash SHA-1 de la contraseña, nunca la contraseña, el hash completo ni el nombre de usuario. Si la contraseña aparece allí, se rechaza. Al acceder, como máximo una vez por semana, a una cuenta con una contraseña así se le pide que la cambie, y nunca se bloquea. Si el servicio no responde, la contraseña se acepta."
+
+#: includes/admin/views/partials/settings-login-extra.php:111
+msgid "This hides the login page, it does not secure it. Bots that try wp-login.php find nothing, so the history stays quieter, but anyone who knows the new address sees the usual login page. Login protection and two-factor login still do the protecting. Links WordPress makes, such as the password reset email, use the new address. A plugin or app that has wp-login.php written into it stops working."
+msgstr "Esto oculta la página de acceso, no la protege. Los bots que prueban wp-login.php no encuentran nada, así que el historial se mantiene más tranquilo, pero cualquiera que conozca la nueva dirección ve la página de acceso de siempre. La protección de acceso y el acceso en dos pasos siguen siendo los que protegen. Los enlaces que genera WordPress, como el del correo electrónico de restablecimiento de contraseña, usan la nueva dirección. Un plugin o una aplicación que tenga wp-login.php escrito en su código deja de funcionar."
+
+#: includes/admin/views/page-history.php:22
+msgid "Sign-ins"
+msgstr "Accesos"
+
+#: includes/admin/views/page-history.php:23
+msgid "Accounts and roles"
+msgstr "Cuentas y perfiles"
+
+#: includes/admin/views/partials/settings-login-extra.php:61
+msgid "Bot check on login, registration and password reset"
+msgstr "Comprobación de bots al acceder, registrarse y restablecer la contraseña"
+
+#: includes/admin/views/partials/settings-login-extra.php:41
+msgid "More ways to protect the login page. Each one is off until you turn it on, and none of them can lock you out: the FAQ of the plugin says how to turn each one off without the dashboard."
+msgstr "Más formas de proteger la página de acceso. Cada una está desactivada hasta que la actives y ninguna puede dejarte fuera: las FAQ del plugin explican cómo desactivar cada una sin acceder al escritorio."
+
+#: includes/admin/views/partials/settings-login-extra.php:50
+msgid "Sign in with a passkey, without a password"
+msgstr "Acceder con una llave de acceso, sin contraseña"
+
+#: includes/admin/views/page-settings.php:51
+#: includes/admin/views/partials/settings-login-extra.php:40
+#: includes/class-privacy.php:113
+msgid "Sign-in checks"
+msgstr "Comprobaciones de acceso"
+
+#: includes/admin/class-actions-login-extra.php:120
+msgid "Sign-in with a passkey shows on the login page once passkeys are on and work on this site."
+msgstr "El acceso con llave de acceso aparece en la página de acceso cuando las llaves de acceso están activadas y funcionan en este sitio."
+
+#: includes/admin/views/partials/settings-login-extra.php:51
+msgid "The login page gets a \"Sign in with a passkey\" button. The passkey checks your fingerprint, face or device PIN, so it replaces both the password and the code. Signing in with the password stays as it is. Needs passkeys turned on above, and a passkey your device keeps for this site."
+msgstr "La página de acceso recibe un botón «Acceder con una llave de acceso». La llave de acceso comprueba tu huella, tu cara o el PIN del dispositivo, así que sustituye tanto a la contraseña como al código. El acceso con contraseña sigue igual. Necesita que las llaves de acceso estén activadas arriba y una llave de acceso que tu dispositivo guarde para este sitio."
+
+#. translators: %s: the new login address.
+#: includes/admin/class-actions-login-extra.php:136
+msgid "The login page is now at %s. Bookmark it and open it in a private window before you sign out. It was also emailed to you."
+msgstr "La página de acceso ahora está en %s. Guárdala en marcadores y ábrela en una ventana privada antes de salir. También se te envió por correo electrónico."
+
+#: includes/admin/class-actions-login-extra.php:198
+msgid "You get this email because the login address of the site was changed from your account."
+msgstr "Recibes este correo electrónico porque la dirección de acceso del sitio se cambió desde tu cuenta."
+
+#: includes/admin/views/partials/settings-firewall.php:88
+msgid "Clear firewall history"
+msgstr "Vaciar historial del cortafuegos"
+
+#: includes/admin/views/partials/settings-firewall.php:50
+msgid "Adds a marked auto_prepend_file entry to .user.ini for PHP CGI/FastCGI. Existing prepend settings are preserved and prevent enabling this option. Your host must support .user.ini; activation may take five minutes. Otherwise the must-use loader still protects WordPress requests."
+msgstr "Añade una entrada marcada auto_prepend_file a .user.ini para PHP CGI/FastCGI. Los ajustes previos se conservan e impiden activar esta opción. El alojamiento debe ser compatible con .user.ini. Puede tardar cinco minutos. En otro caso, el cargador MU sigue protegiendo las solicitudes de WordPress."
+
+#: includes/class-cleanup.php:242
+msgid "This post is no longer there. Run a scan to bring the list up to date."
+msgstr "Esta entrada ya no existe. Ejecuta una exploración para actualizar la lista."
+
+#: includes/class-cleanup.php:280
+msgid "This setting is no longer there. Run a scan to bring the list up to date."
+msgstr "Este ajuste ya no existe. Ejecuta una exploración para actualizar la lista."
+
+#. translators: %s: file path.
+#: includes/class-cleanup.php:426
+msgid "The clean version was written to %s, but the file could not be confirmed afterwards. The file as it was is kept in quarantine. Run a scan to see what it holds now."
+msgstr "La versión limpia se escribió en %s, pero después no se pudo confirmar el archivo. El archivo tal como estaba se conserva en cuarentena. Ejecuta una exploración para ver qué contiene ahora."
+
+#. translators: %s: what was put back.
+#: includes/class-cleanup.php:519
+msgid "Put back as it was before the cleanup: %s. The next scan checks it again."
+msgstr "Restaurado como estaba antes de la limpieza: %s. La próxima exploración lo comprobará de nuevo."
+
+#: includes/class-cleanup.php:1092
+msgid "The whole file is malicious code, with nothing of the site in it. Move it to quarantine instead."
+msgstr "Todo el archivo es código malintencionado, sin nada del sitio. Muévelo a cuarentena en su lugar."
+
+#: includes/admin/class-protection-offer.php:263
+msgid "Protection is on, but the loader file could not be written to wp-content/mu-plugins, so virtual patches do not run yet. Make that folder writable for WordPress and save virtual patches again in Settings."
+msgstr "La protección está activada, pero no se pudo escribir el archivo de carga en wp-content/mu-plugins, así que los parches virtuales aún no funcionan. Da a WordPress permisos de escritura en esa carpeta y vuelve a guardar los parches virtuales en Ajustes."
+
+#: includes/admin/views/partials/protection-offer.php:33
+msgid "Every hour WordPress, your plugins and your themes, premium ones included, are checked against known vulnerabilities, and a serious one is mailed to you."
+msgstr "Cada hora se comprueba si WordPress, tus plugins y tus temas, también los premium, tienen vulnerabilidades conocidas, y si hay una grave recibes un correo electrónico."
+
+#: includes/admin/views/partials/cleanup-offer.php:99
+msgid "Code in page builder data, account data or code snippets is not removed automatically: open the place named above and remove it there."
+msgstr "El código en datos de maquetadores de páginas, datos de cuentas o fragmentos de código no se quita automáticamente: abre el lugar indicado arriba y quítalo allí."
+
+#. translators: 1: PHP version, 2: first fixed PHP version.
+#: includes/checks/class-php-version.php:261
+msgid "PHP %1$s is older than %2$s, the release that fixes php2shell (CVE-2026-109618 and CVE-2026-109619, rated 9.2 of 10, remote code execution without logging in). Linux distributions and hosts often ship the fix without changing the version number, so this is based on the version number only."
+msgstr "PHP %1$s es anterior a %2$s, la versión que corrige php2shell (CVE-2026-109618 y CVE-2026-109619, con 9,2 sobre 10, ejecución remota de código sin acceder). Las distribuciones de Linux y los proveedores de alojamiento suelen incluir la corrección sin cambiar el número de versión, así que esto se basa solo en el número de versión."
+
+#. translators: %s: PHP version.
+#: includes/checks/class-php-version.php:243
+msgid "PHP %s is a branch that will get no release with the php2shell fix (CVE-2026-109618 and CVE-2026-109619, rated 9.2 of 10, remote code execution without logging in). Your host may have patched it anyway, so this is based on the version number only."
+msgstr "PHP %s es una rama que no tendrá ninguna versión con la corrección de php2shell (CVE-2026-109618 y CVE-2026-109619, con 9,2 sobre 10, ejecución remota de código sin acceder). Tu proveedor de alojamiento puede haberla corregido por su cuenta, así que esto se basa solo en el número de versión."
+
+#: includes/checks/class-file-changes.php:709
+msgid "If you switched on caching or an object cache on this site, nothing is wrong. If you did not, ask your developer or host to look at the file before you change it."
+msgstr "Si has activado la caché o una caché de objetos en este sitio, no pasa nada. Si no, pide a tu desarrollador o a tu proveedor de alojamiento que revise el archivo antes de cambiar nada."
+
+#. translators: 1: file path, 2: comma-separated setting names.
+#: includes/checks/class-file-changes.php:756
+msgid "%1$s changed since the last scan. Only these settings were added or changed: %2$s. Caching, security and SSL plugins write lines like these."
+msgstr "%1$s ha cambiado desde la última exploración. Solo se añadieron o cambiaron estos ajustes: %2$s. Los plugins de caché, seguridad y SSL escriben líneas como estas."
+
+#: includes/checks/class-file-changes.php:757
+msgid "If you or a plugin you use (caching, security, SSL) changed these settings, nothing is wrong. If not, ask your developer or host to look at the file. Keep a copy first: it holds the database connection, so do not delete it."
+msgstr "Si tú o un plugin que usas (de caché, seguridad o SSL) habéis cambiado estos ajustes, no pasa nada. Si no, pide a tu desarrollador o a tu proveedor de alojamiento que revise el archivo. Haz antes una copia: contiene la conexión a la base de datos, así que no lo borres."
+
+#: includes/checks/class-file-changes.php:759
+msgid "wp-config.php holds the connection to the database, so do not delete it. If you or your developer did not change it, ask your developer or host to look at what changed, using a backup to compare."
+msgstr "wp-config.php contiene la conexión a la base de datos, así que no lo borres. Si ni tú ni tu desarrollador lo habéis cambiado, pide a tu desarrollador o a tu proveedor de alojamiento que revise qué ha cambiado, comparándolo con una copia de seguridad."
+
+#: includes/checks/class-file-changes.php:468
+msgid "If you or your developer added it, you can ignore this. Otherwise ask your developer or host to look at it, together with the malware findings about it in the ShieldWave overview. Keep a copy before you delete anything."
+msgstr "Si lo añadisteis tú o tu desarrollador, puedes ignorarlo. Si no, pide a tu desarrollador o a tu proveedor de alojamiento que lo revise, junto con los hallazgos de malware sobre él en el resumen de ShieldWave. Haz una copia antes de borrar nada."
+
+#: includes/checks/class-file-changes.php:1071
+msgid "If you made this change on purpose (editing a child theme, adding a must-use plugin), you can ignore this. Otherwise ask your developer or host to look at the file and at the other findings on this page. Keep a copy before you delete or change anything."
+msgstr "Si hiciste este cambio a propósito (editar un tema hijo, añadir un plugin imprescindible), puedes ignorarlo. Si no, pide a tu desarrollador o a tu proveedor de alojamiento que revise el archivo y los demás hallazgos de esta página. Haz una copia antes de borrar o cambiar nada."
+
+#: includes/checks/class-file-changes.php:2193
+msgid "If you or your host made these links on purpose (a plugin shared between sites, a deployment tool), you can ignore this. Otherwise ask your developer or host to look at them before you delete them."
+msgstr "Si tú o tu proveedor de alojamiento creasteis estos enlaces a propósito (un plugin compartido entre sitios, una herramienta de despliegue), puedes ignorarlo. Si no, pide a tu desarrollador o a tu proveedor de alojamiento que los revise antes de borrarlos."
+
+#. translators: \xNN stands for how an odd byte is shown, keep it as it is.
+#: includes/checks/class-file-changes.php:2228
+msgid "The list shows odd bytes as \\xNN. Ask your developer or host to look at the files you do not recognise, and keep a copy before you delete them."
+msgstr "La lista muestra los bytes raros como \\xNN. Pide a tu desarrollador o a tu proveedor de alojamiento que revise los archivos que no reconoces y haz una copia antes de borrarlos."
+
+#: includes/checks/class-core-checksums.php:838
+msgid "Check whether you, your developer or your host know this file. Hosting companies often put their own scripts there. If nobody does, ask your developer or host to look at it, and keep a copy before you delete it."
+msgstr "Comprueba si tú, tu desarrollador o tu proveedor de alojamiento conocéis este archivo. Los proveedores de alojamiento suelen poner ahí sus propios scripts. Si nadie lo conoce, pide a tu desarrollador o a tu proveedor de alojamiento que lo revise y haz una copia antes de borrarlo."
+
+#: includes/checks/class-core-checksums.php:840
+msgid "WordPress never adds files there outside an update. Open the file. If nobody on your team knows it, ask your developer or host to look at it, keep a copy, and look at the administrator accounts for ones you do not recognise."
+msgstr "WordPress nunca añade archivos ahí fuera de una actualización. Abre el archivo. Si nadie de tu equipo lo conoce, pide a tu desarrollador o a tu proveedor de alojamiento que lo revise, haz una copia y busca entre las cuentas de administrador alguna que no reconozcas."
+
+#: includes/checks/class-admin-accounts.php:969
+msgid "If a plugin you use hides the account of your agency or host on purpose, nothing is wrong. If nobody on your team knows this account, ask your developer or host to find out who created it and which code hides it before you delete anything, and change the administrator passwords if it is not theirs."
+msgstr "Si un plugin que usas oculta a propósito la cuenta de tu agencia o de tu proveedor de alojamiento, no pasa nada. Si nadie de tu equipo conoce esta cuenta, pide a tu desarrollador o a tu proveedor de alojamiento que averigüe quién la creó y qué código la oculta antes de borrar nada, y cambia las contraseñas de los administradores si no es suya."
+
+#: includes/checks/class-admin-accounts.php:325
+msgid "This does not happen through the normal Users screen. A role-management plugin you use may have done it on purpose. If you do not know of one, ask your developer or host to look at the account before you remove its capabilities or delete it."
+msgstr "Esto no ocurre desde la pantalla normal de Usuarios. Puede que un plugin de gestión de perfiles que usas lo haya hecho a propósito. Si no conoces ninguno, pide a tu desarrollador o a tu proveedor de alojamiento que revise la cuenta antes de quitarle capacidades o borrarla."
+
+#: includes/engine/class-signatures.php:990
+msgid "Code on the pre_get_users hook sets login__not_in or exclude to a login name or user id written into the code, so that account is missing from the Users screen and from every plugin that asks WordPress for users. Membership and role plugins filter that list from settings, not from a fixed name."
+msgstr "Código en el gancho pre_get_users fija login__not_in o exclude a un nombre de usuario o un ID de usuario escrito en el propio código, de modo que esa cuenta no aparece en la pantalla Usuarios ni en ningún plugin que pida usuarios a WordPress. Los plugins de membresía y de perfiles filtran esa lista a partir de ajustes, no de un nombre fijo."
+
+#: includes/class-repair.php:283
+msgid "This file cannot be replaced with its original. Run a scan and try again."
+msgstr "Este archivo no se puede reemplazar por su original. Ejecuta una exploración e inténtalo de nuevo."
+
+#: includes/class-privacy.php:118
+msgid "The data goes to shieldwave.io, run by ENSOMEDIA in Poland, and, for the AI second opinion, to the AI provider shieldwave.io uses. The sign-in records described above are not part of it. Of the decoy records, only the details named under Decoys are sent."
+msgstr "Los datos van a shieldwave.io, gestionado por ENSOMEDIA en Polonia, y, en el caso de la segunda opinión de la IA, al proveedor de IA que usa shieldwave.io. Los registros de acceso descritos arriba no forman parte de ellos. De los registros de señuelos, solo se envían los datos indicados en «Señuelos»."
+
+#: includes/class-repair.php:297
+msgid "The installed version is not the one this finding was made for, so nothing was changed. Run a scan again."
+msgstr "La versión instalada no es aquella para la que se generó este hallazgo, así que no se cambió nada. Vuelve a ejecutar una exploración."
+
+#. translators: %s: file path.
+#: includes/class-repair.php:364
+msgid "The original was written to %s, but the file could not be confirmed against its official checksum afterwards. The changed file is kept in quarantine. Run a scan to see what the file holds now."
+msgstr "El original se escribió en %s, pero después no se pudo confirmar el archivo con su suma de verificación oficial. El archivo modificado se conserva en cuarentena. Ejecuta una exploración para ver qué contiene ahora el archivo."
+
+#: includes/class-quarantine.php:331
+msgid "The scan stored no checksum of this file, so it cannot be checked against the scan and is not moved. Run a scan again."
+msgstr "La exploración no guardó ninguna suma de verificación de este archivo, así que no se puede comprobar con la exploración y no se mueve. Vuelve a ejecutar una exploración."
+
+#: includes/checks/class-public-pages.php:678
+msgid "Ask your developer to find where the script comes from: a plugin or theme file, a setting, a post or the server. Run a full scan, which reads the files and the database, and change the administrator passwords."
+msgstr "Pide a tu desarrollador que averigüe de dónde procede el script: un archivo de plugin o de tema, un ajuste, una entrada o el servidor. Ejecuta una exploración completa, que lee los archivos y la base de datos, y cambia las contraseñas de los administradores."
+
+#: includes/checks/class-public-pages.php:733
+msgid "Ask your developer to look for code that checks the referrer or the user agent: in .htaccess, in plugin and theme files, in mu-plugins and in the database. Run a full scan and change the administrator passwords."
+msgstr "Pide a tu desarrollador que busque código que compruebe el referer o el user agent: en .htaccess, en archivos de plugins y temas, en mu-plugins y en la base de datos. Ejecuta una exploración completa y cambia las contraseñas de los administradores."
+
+#: includes/checks/class-public-pages.php:860
+msgid "If nobody on your team added that line, remove it from robots.txt and look for other changes with a full scan."
+msgstr "Si nadie de tu equipo añadió esa línea, quítala de robots.txt y busca otros cambios con una exploración completa."
+
+#: includes/checks/class-public-pages.php:1006
+msgid "If nobody on your team made these pages, ask your developer to delete the folder, check Google Search Console for pages you do not know and run a full scan."
+msgstr "Si nadie de tu equipo creó estas páginas, pide a tu desarrollador que borre la carpeta, que revise en Google Search Console si hay páginas que no conoces y que ejecute una exploración completa."
+
+#: includes/checks/class-public-pages.php:915
+msgid "If nobody on your team made this file, delete it, check robots.txt and Google Search Console, and run a full scan."
+msgstr "Si nadie de tu equipo creó este archivo, elimínalo, revisa robots.txt y Google Search Console, y ejecuta una exploración completa."
+
+#: includes/checks/class-public-pages.php:698
+msgid "If you or your team did not add this script, ask your developer to find where it comes from and remove it, then run a full scan and change the administrator passwords."
+msgstr "Si ni tú ni tu equipo habéis añadido este script, pide a tu desarrollador que averigüe de dónde procede y lo elimine. Después ejecuta una exploración completa y cambia las contraseñas de los administradores."
+
+#: includes/checks/class-public-pages.php:828
+msgid "In Google Search Console, check which accounts own the site. Delete the verification file of any account you do not know."
+msgstr "En Google Search Console, comprueba qué cuentas son propietarias del sitio. Borra el archivo de verificación de cualquier cuenta que no conozcas."
+
+#: includes/checks/class-public-pages.php:107
+msgid "Requests the home page and the checkout as a visitor, as Googlebot and as a visitor from Google search, looks for injected scripts and for content or redirects only search engines or search visitors get, and reads the site folder for spam pages, foreign sitemaps and extra verification files."
+msgstr "Solicita la página de inicio y la de finalizar compra como visitante, como Googlebot y como visitante de la búsqueda de Google, busca scripts inyectados y contenido o redirecciones que solo reciben los buscadores o los visitantes de búsqueda, y lee la carpeta del sitio en busca de páginas de spam, mapas del sitio ajenos y archivos de verificación adicionales."
+
+#: includes/checks/class-public-pages.php:1072
+msgid "The checkout page"
+msgstr "La página de finalizar compra"
+
+#: includes/checks/class-public-pages.php:233
+msgid "Read the home page as a visitor, as Googlebot and as a visitor from search, the checkout as a visitor, and the site folder."
+msgstr "Lee la página de inicio como visitante, como Googlebot y como visitante que llega desde la búsqueda, la página de finalizar compra como visitante y la carpeta del sitio."
+
+#. translators: %s: IP address.
+#: includes/class-honeytokens.php:718
+msgid "A request that names itself as a ShieldWave scan reached the decoy path (address %s). It was not locked out and no mail was sent."
+msgstr "Una solicitud que se identifica como una exploración de ShieldWave llegó a la ruta señuelo (dirección %s). No se bloqueó y no se envió ningún correo electrónico."
+
+#. translators: %d: number of days.
+#: includes/class-privacy.php:94
+msgid "If the site owner turns on the optional decoys, Ensomedia Security records the IP address, the time and the decoy login name when someone tries to sign in with a login name that no account has, and the IP address and the time when someone requests the decoy path that it adds to robots.txt. These records are kept with the sign-in records described above, for up to %d days, and are used only to block repeated attempts and to show the site owner what happened. When the site is connected to a shieldwave.io account, each use of a decoy is also sent there with its time, its kind, how it came in, whether the address was blocked or why it was not, and a hash of the IP address made with a key that stays on this site, so shieldwave.io cannot recover the address. The IP address itself and the typed login name are never sent."
+msgstr "Si el propietario del sitio activa los señuelos opcionales, Ensomedia Security registra la dirección IP, la hora y el nombre señuelo cuando alguien intenta acceder con un nombre que ninguna cuenta tiene, y la dirección IP y la hora cuando alguien solicita la ruta señuelo que añade a robots.txt. Estos registros se conservan junto con los registros de acceso descritos arriba durante un máximo de %d días y se usan solo para bloquear intentos repetidos y para mostrar al propietario del sitio lo ocurrido. Cuando el sitio está conectado a una cuenta de shieldwave.io, cada uso de un señuelo también se envía allí con su hora, su tipo, la vía por la que llegó, si la dirección se bloqueó o por qué no, y un hash de la dirección IP hecho con una clave que se queda en este sitio, de modo que shieldwave.io no puede recuperar la dirección. Nunca se envían la propia dirección IP ni el nombre de acceso escrito."
+
+#: includes/checks/class-plugin-checksums.php:1075
+msgid "The plugin is built by its author outside WordPress.org, but this file came after an earlier scan while the plugin kept its version, so no update of the plugin brought it."
+msgstr "El plugin lo compila su autor fuera de WordPress.org, pero este archivo apareció después de una exploración anterior sin que el plugin cambiara de versión, así que no lo trajo ninguna actualización del plugin."
+
+#: includes/checks/class-public-pages.php:250
+msgid "Findings of earlier scans about these pages stay open."
+msgstr "Los hallazgos de exploraciones anteriores sobre estas páginas siguen pendientes."
+
+#. translators: %s: file path.
+#: includes/checks/class-malware.php:838
+msgid "The scan stopped twice while analyzing %s: the server ended it, most likely because the file needed more memory or time than allowed. The file was skipped, so nothing in it was checked. It is analyzed again when it changes or after an update of this plugin."
+msgstr "La exploración se detuvo dos veces mientras procesaba %s: el servidor lo terminó, probablemente porque el archivo necesitaba más memoria o tiempo del permitido. El archivo se omitió, así que no se comprobó nada de su contenido. Se vuelve a analizar cuando cambie o tras una actualización de este plugin."
+
+#. translators: %s: login of the administrator who created the account.
+#: includes/checks/class-admin-accounts.php:215
+msgid "Ask %s whether they added it. If they did, nothing else to do: ignore this item. Two-factor sign-in for administrators makes such a record proof on its own."
+msgstr "Pregunta a %s si la añadió. Si lo hizo, no hay nada más que hacer: ignora este elemento. Con el acceso en dos pasos para administradores, un registro así es prueba suficiente por sí solo."
+
+#: includes/checks/class-cron-events.php:633
+msgid "Ask your developer or host to look at the trigger (SHOW TRIGGERS in the database). If nobody set it up on purpose, remove it with DROP TRIGGER, run a full scan and change the administrator passwords."
+msgstr "Pide a tu desarrollador o a tu proveedor de alojamiento que revise el disparador (SHOW TRIGGERS en la base de datos). Si nadie lo configuró a propósito, elimínalo con DROP TRIGGER, ejecuta una exploración completa y cambia las contraseñas de los administradores."
+
+#: includes/checks/class-cron-events.php:563
+msgid "Ask your developer to look at this code. If it is not part of a plugin or theme you installed, delete the file, remove the task (WP Crontrol shows and deletes scheduled tasks), run a full scan and change the administrator passwords."
+msgstr "Pide a tu desarrollador que revise este código. Si no forma parte de un plugin o tema que instalaste, borra el archivo, quita la tarea (WP Crontrol muestra y borra las tareas programadas), ejecuta una exploración completa y cambia las contraseñas de los administradores."
+
+#: includes/checks/class-cron-events.php:548
+msgid "Its code is in a must-use plugin that another check of this scan flagged."
+msgstr "Su código está en un plugin imprescindible que otra comprobación de esta exploración marcó."
+
+#: includes/checks/class-admin-accounts.php:98
+msgid "Looks for the \"admin\" username, administrators added in the last week, a crowd of administrators, accounts that were given administrator powers without the Administrator role, administrators hidden from the list of users, new application passwords of administrators, and changes of the site address or the administration email address."
+msgstr "Busca el nombre de usuario «admin», administradores añadidos en la última semana, una cantidad inusual de administradores, cuentas con permisos de administrador sin el perfil Administrador, administradores ocultos de la lista de usuarios, contraseñas de aplicación nuevas de administradores y cambios en la dirección del sitio o en la dirección de correo electrónico de administración."
+
+#: includes/checks/class-content-injection.php:1768
+msgid "Scanning account data for hidden code"
+msgstr "Explorando los datos de las cuentas en busca de código oculto"
+
+#: includes/checks/class-content-injection.php:1537
+msgid "Scanning all site options for hidden code"
+msgstr "Explorando todas las opciones del sitio en busca de código oculto"
+
+#: includes/checks/class-content-injection.php:1677
+msgid "Scanning the snippets of the Code Snippets plugin"
+msgstr "Explorando los fragmentos del plugin Code Snippets"
+
+#. translators: %s: login of who made the change.
+#: includes/checks/class-admin-accounts.php:860
+msgid "The activity log shows that %1$s changed it, but %1$s signs in with a password alone, so anyone who had that password could have done the same."
+msgstr "El registro de actividad muestra que %1$s la cambió, pero %1$s accede solo con una contraseña, así que cualquiera que tuviera esa contraseña podría haber hecho lo mismo."
+
+#. translators: 1: user login name, 2: date the account was created, 3: login
+#. of the administrator who did it.
+#: includes/checks/class-admin-accounts.php:209
+msgid "The administrator \"%1$s\" was added on %2$s. The activity log shows that %3$s did it, but %3$s signs in with a password alone, so anyone who had that password could have done the same."
+msgstr "El administrador «%1$s» se añadió el %2$s. El registro de actividad muestra que lo hizo %3$s, pero %3$s accede solo con una contraseña, así que cualquiera que tuviera esa contraseña podría haber hecho lo mismo."
+
+#. translators: 1: name of the application password, 2: user login name, 3:
+#. date.
+#: includes/checks/class-admin-accounts.php:733
+msgid "The application password \"%1$s\" of the administrator \"%2$s\" was made on %3$s with nobody signed in to the dashboard, or straight in the database. An application password signs in without the second factor and keeps working after a password change."
+msgstr "La contraseña de aplicación «%1$s» del administrador «%2$s» se creó el %3$s sin ninguna sesión iniciada en el escritorio o directamente en la base de datos. Una contraseña de aplicación accede sin el segundo factor y sigue funcionando después de cambiar la contraseña."
+
+#. translators: 1: name of the application password, 2: user login name, 3:
+#. date, 4: login of who made it.
+#: includes/checks/class-admin-accounts.php:723
+msgid "The application password \"%1$s\" of the administrator \"%2$s\" was made on %3$s. The activity log shows that %4$s made it, but %4$s signs in with a password alone, so anyone who had that password could have done the same."
+msgstr "La contraseña de aplicación «%1$s» del administrador «%2$s» se creó el %3$s. El registro de actividad muestra que la creó %4$s, pero %4$s accede solo con una contraseña, así que cualquiera que tuviera esa contraseña podría haber hecho lo mismo."
+
+#. translators: %s: what the matching rule looks for.
+#: includes/checks/class-content-injection.php:1889
+msgid "The stored value matches a pattern known to be malicious: %s."
+msgstr "El valor almacenado coincide con un patrón conocido como malintencionado: %s."
+
+#: includes/checks/class-admin-accounts.php:952
+msgid "Its role is written in the database in a form WordPress never writes, which keeps it out of every search for administrators."
+msgstr "El perfil de la cuenta está guardado en la base de datos de una forma que WordPress nunca escribe, lo que la deja fuera de cualquier búsqueda de administradores."
+
+#: includes/checks/class-content-injection.php:762
+msgid "Some stored content could not be fully checked for scripts from other sites, so findings of earlier scans about it stay open."
+msgstr "Parte del contenido guardado no se pudo comprobar por completo en busca de scripts de otros sitios, así que los hallazgos de exploraciones anteriores sobre él siguen pendientes."
+
+#: includes/admin/views/partials/settings-honeytokens.php:91
+msgid "Uses the lockout of login protection, from the second request of an address within an hour. Off by default, because a few well-meant tools, such as some site audits, also request every path listed in robots.txt."
+msgstr "Usa el bloqueo de la protección de acceso a partir de la segunda solicitud de una dirección en una hora. Desactivado por defecto, porque algunas herramientas bienintencionadas, como ciertas auditorías de sitios, también solicitan todas las rutas listadas en robots.txt."
+
+#: includes/admin/views/partials/settings-honeytokens.php:38
+msgid "Nobody who works on this site signs in with a name that no account has. When someone tries a name from the list below, the attempt is refused like any wrong password, written to History and mailed once a day per address. If login protection is on and the same address tries a decoy again within an hour, it is locked out for the lockout time. A signed-in visitor, a request that comes from another website, and a request that arrives through a proxy or CDN that is not set as a trusted proxy are never locked out. Trusted addresses are never locked out either."
+msgstr "Nadie que trabaje en este sitio accede con un nombre que no existe en ninguna cuenta. Cuando alguien prueba un nombre de la lista de abajo, el intento se rechaza como cualquier contraseña incorrecta, se anota en el Historial y se envía por correo electrónico una vez al día por dirección. Si la protección de acceso está activada y la misma dirección vuelve a probar un señuelo en menos de una hora, se bloquea durante el tiempo de bloqueo. Nunca se bloquea a un visitante con sesión iniciada, a una solicitud que viene de otro sitio web ni a una solicitud que llega a través de un proxy o una CDN que no estén configurados como proxy de confianza. Tampoco se bloquea nunca a las direcciones de confianza."
+
+#: includes/class-file-origin.php:382
+msgid "Compare the file with your last backup. If you, a plugin or your host made every change, mark the finding as ignored: the file keeps the change, so a new scan shows it again. If you removed lines nobody on your side added, run the ShieldWave scan again and check that the new finding lists no rule you did not write."
+msgstr "Compara el archivo con tu última copia de seguridad. Si todos los cambios los hiciste tú, un plugin o tu proveedor de alojamiento, marca el hallazgo como ignorado: el archivo conserva el cambio, así que una nueva exploración lo vuelve a mostrar. Si eliminaste líneas que nadie de tu equipo añadió, ejecuta de nuevo la exploración de ShieldWave y comprueba que el nuevo hallazgo no menciona ninguna regla que no escribiste tú."
+
+#: includes/engine/class-web-inject.php:218
+msgid "The code reads the payment card fields (number, security code, expiry) and sends them to a host that is neither this site nor a payment provider, in a way typical of card skimmers: a beacon, an image request, a WebSocket, obfuscated code or a check for the checkout page."
+msgstr "El código lee los campos de la tarjeta de pago (número, código de seguridad, caducidad) y los envía a un host que no es este sitio ni un proveedor de pagos, de una forma típica de los skimmers de tarjetas: un beacon, una petición de imagen, un WebSocket, código ofuscado o una comprobación de la página de finalizar compra."
+
+#: includes/admin/views/partials/settings-honeytokens.php:29
+msgid "Two optional traps that tell you early when something is probing the site. A decoy never becomes a real account or file: no user is created, nothing is stored at the decoy path, and your real accounts sign in as before. Both are off until you turn them on."
+msgstr "Dos trampas opcionales que te avisan pronto cuando algo está sondeando el sitio. Un señuelo nunca se convierte en una cuenta o un archivo reales: no se crea ningún usuario, no se guarda nada en la ruta señuelo y tus cuentas reales acceden como antes. Ambas están desactivadas hasta que las actives."
+
+#: includes/admin/views/partials/settings-honeytokens.php:37
+msgid "Decoy login names"
+msgstr "Nombres de acceso señuelo"
+
+#: includes/admin/views/partials/settings-honeytokens.php:45
+msgid "One per line, up to five: letters, digits, dot, dash and underscore. A name is saved only while no account has it as its login, email or nicename, and it stops acting as a decoy as soon as an account gets it."
+msgstr "Uno por línea, hasta cinco: letras, dígitos, punto, guion y guion bajo. Un nombre solo se guarda mientras ninguna cuenta lo tenga como usuario, correo electrónico o nicename, y deja de actuar como señuelo en cuanto una cuenta lo obtiene."
+
+#: includes/admin/views/partials/settings-honeytokens.php:98
+msgid "Login protection is off, so no address is locked out. Turn it on under Login protection. Decoys are refused, written to History and mailed either way."
+msgstr "La Protección de acceso está desactivada, así que ninguna dirección se bloquea. Actívala en Protección de acceso. Los señuelos se rechazan, se registran en el Historial y se envían por correo electrónico de todos modos."
+
+#. translators: 1: decoy login name, 2: IP address.
+#: includes/class-honeytokens.php:723
+msgid "A sign-in with the decoy login name %1$s was refused and the address %2$s was locked out."
+msgstr "Se rechazó un acceso con el nombre señuelo %1$s y se bloqueó la dirección %2$s."
+
+#. translators: 1: decoy login name, 2: IP address.
+#: includes/class-honeytokens.php:725
+msgid "A sign-in with the decoy login name %1$s was refused (address %2$s)."
+msgstr "Se rechazó un acceso con el nombre señuelo %1$s (dirección %2$s)."
+
+#: includes/class-alerts.php:355
+msgid "A sign-in was tried with a decoy login name"
+msgstr "Se intentó acceder con un nombre de acceso señuelo"
+
+#: includes/class-alerts.php:361
+msgid "Decoy login name"
+msgstr "Nombre de acceso señuelo"
+
+#: includes/class-alerts.php:381
+msgid "Someone tried to sign in with a login name that no account on this site has. ShieldWave set that name as a decoy and refused the attempt."
+msgstr "Alguien intentó acceder con un nombre que ninguna cuenta de este sitio tiene. ShieldWave puso ese nombre como señuelo y rechazó el intento."
+
+#: includes/class-alerts.php:383
+msgid "This is most often an automated scan of the internet. A decoy never becomes a real account or file, and nothing on the site was changed."
+msgstr "Suele ser una exploración automática de internet. Un señuelo nunca se convierte en una cuenta o un archivo reales, y no se cambió nada en el sitio."
+
+#: includes/class-alerts.php:397
+msgid "You get this email because decoys and real-time alerts are on in ShieldWave > Settings. ShieldWave sends at most one a day per address and five a day per site."
+msgstr "Recibes este correo electrónico porque los señuelos y las alertas en tiempo real están activados en ShieldWave > Ajustes. ShieldWave envía como máximo uno al día por dirección y cinco al día por sitio."
+
+#: includes/class-settings.php:600
+msgid "decoy login names"
+msgstr "nombres de acceso señuelo"
+
+#: includes/class-settings.php:601
+msgid "decoy login name list"
+msgstr "lista de nombres de acceso señuelo"
+
+#: includes/engine/class-web-inject.php:203
+msgid "The code shows a fake human check, copies a command to the visitor's clipboard and tells the visitor to paste it into the Windows Run dialog or a terminal. The command downloads malware onto the visitor's computer. The clipboard copy, the command, the key instructions and the human-check text are all in the same code, which no legitimate site combines."
+msgstr "El código muestra una comprobación humana falsa, copia un comando en el portapapeles del visitante y le pide pegarlo en el cuadro Ejecutar de Windows o en una terminal. El comando descarga malware en el ordenador del visitante. La copia al portapapeles, el comando, las instrucciones de teclas y el texto de la comprobación están en el mismo código, una combinación que ningún sitio legítimo usa."
+
+#: includes/checks/class-content-injection.php:2327
+#: includes/checks/class-public-pages.php:674
+msgid "Malicious script found in the site content"
+msgstr "Script malintencionado en el contenido del sitio"
+
+#: includes/admin/views/partials/settings-honeytokens.php:71
+msgid "Adds one Disallow line for a random folder name to the robots.txt that WordPress serves. Nothing exists at that address and a visitor gets the normal \"not found\" page. Only a program that reads robots.txt to see what the owner wanted hidden would ask for it. The request is written to History and mailed once a day per address. A request from a ShieldWave scan is written to History too, but never mailed or locked out."
+msgstr "Añade una línea Disallow con un nombre de carpeta aleatorio al robots.txt que sirve WordPress. No existe nada en esa dirección y el visitante recibe la página normal de «no encontrado». Solo la pediría un programa que lee robots.txt para ver qué quería ocultar el propietario. La solicitud se registra en el Historial y se envía por correo electrónico una vez al día por dirección. Una solicitud de una exploración de ShieldWave también se registra en el Historial, pero nunca se envía por correo electrónico ni se bloquea."
+
+#: includes/admin/class-actions-honeytokens.php:82
+msgid "No decoy login name is saved yet, so this switch does nothing."
+msgstr "Aún no hay ningún nombre de acceso señuelo guardado, así que este interruptor no hace nada."
+
+#: includes/admin/class-actions-honeytokens.php:90
+msgid "Login protection is off, so addresses are not locked out. Decoys are still refused, written to History and mailed."
+msgstr "La Protección de acceso está desactivada, así que las direcciones no se bloquean. Los señuelos se rechazan igualmente, se registran en el Historial y se envían por correo electrónico."
+
+#. translators: 1: plugin name, 2: version, 3: host name of the Update URI, 4:
+#. number of files.
+#: includes/checks/class-plugin-checksums.php:818
+msgid "%1$s %2$s is built by its author outside WordPress.org (Update URI: %3$s). PHP files of this build that the WordPress.org release does not have: %4$d. ShieldWave has no copy of the author's source for this version, so these files were not compared. The malware scan checks them more strictly."
+msgstr "%1$s %2$s lo compila su autor fuera de WordPress.org (Update URI: %3$s). Archivos PHP de esta compilación que la versión de WordPress.org no tiene: %4$d. ShieldWave no tiene una copia del código fuente de esta versión del autor, así que estos archivos no se compararon. La exploración de malware los examina con más rigor."
+
+#: includes/admin/class-actions-vpatch.php:58
+msgid "The loader file could not be written to wp-content/mu-plugins, so virtual patches do not run yet. Make that folder writable for WordPress and save again."
+msgstr "No se pudo escribir el archivo de carga en wp-content/mu-plugins, así que los parches virtuales aún no funcionan. Da a WordPress permisos de escritura en esa carpeta y guarda de nuevo."
+
+#: includes/admin/views/partials/settings-vpatch.php:132
+msgid "WordPress cannot write to wp-content/mu-plugins. Make that folder writable and press Save above."
+msgstr "WordPress no puede escribir en wp-content/mu-plugins. Haz que esa carpeta tenga permisos de escritura y pulsa Guardar arriba."
+
+#: includes/class-file-origin.php:476
+msgid "The server configuration file is new or changed since the previous scan."
+msgstr "El archivo de configuración del servidor es nuevo o ha cambiado desde la exploración anterior."
+
+#: includes/class-file-origin.php:477
+msgid "Caching, security and redirect plugins and hosting companies change these files too."
+msgstr "Los plugins de caché, seguridad y redirecciones y las empresas de alojamiento también cambian estos archivos."
+
+#: includes/checks/class-xml-rpc.php:172
+msgid "Nothing to do while login protection is on."
+msgstr "No hay nada que hacer mientras la protección de acceso esté activada."
+
+#: includes/checks/class-xml-rpc.php:345
+msgid "Turn on login protection in the ShieldWave settings: it counts XML-RPC logins too. If no app or service of yours uses XML-RPC (the WordPress mobile app can connect with an application password instead), you can also turn XML-RPC off there, under Hardening: one switch, no file changes."
+msgstr "Activa la protección de acceso en los ajustes de ShieldWave: también cuenta los accesos por XML-RPC. Si ninguna aplicación o servicio tuyo usa XML-RPC (la aplicación móvil de WordPress puede conectarse con una contraseña de aplicación en su lugar), también puedes desactivar XML-RPC ahí, en Refuerzo: un interruptor, sin tocar archivos."
+
+#: includes/checks/class-xml-rpc.php:180
+msgid "XML-RPC logins are not limited"
+msgstr "Los accesos por XML-RPC no tienen límite"
+
+#: includes/checks/class-xml-rpc.php:169
+msgid "XML-RPC multicall is limited by ShieldWave login protection"
+msgstr "La protección de acceso de ShieldWave limita el multicall de XML-RPC"
+
+#: includes/checks/class-xml-rpc.php:188
+msgid "xmlrpc.php accepts logins, including through system.multicall, and no login limit of ShieldWave covers it, so passwords can be guessed there one request after another."
+msgstr "xmlrpc.php acepta accesos, también mediante system.multicall, y ningún límite de acceso de ShieldWave los cubre, así que allí se pueden probar contraseñas una solicitud tras otra."
+
+#. translators: %s: comma-separated plugin names.
+#: includes/checks/class-xml-rpc.php:185
+msgid "xmlrpc.php accepts logins, including through system.multicall, and no login limit of ShieldWave covers it, so passwords can be guessed there one request after another. Used by: %s"
+msgstr "xmlrpc.php acepta accesos, también mediante system.multicall, y ningún límite de acceso de ShieldWave los cubre, así que allí se pueden probar contraseñas una solicitud tras otra. Lo usa: %s"
+
+#: includes/checks/class-xml-rpc.php:171
+msgid "xmlrpc.php accepts system.multicall with login methods. WordPress stops checking passwords in a request after the first wrong one, and ShieldWave login protection counts every XML-RPC login attempt and locks the address after too many."
+msgstr "xmlrpc.php acepta system.multicall con métodos de acceso. WordPress deja de comprobar contraseñas en una solicitud tras la primera incorrecta, y la protección de acceso de ShieldWave cuenta cada intento de acceso por XML-RPC y bloquea la dirección cuando son demasiados."
+
+#: includes/checks/class-vulnerabilities.php:251
+msgid "Nothing to do now. Each scan checks again, and an advisory that names the affected versions is listed with its severity."
+msgstr "Por ahora no hay nada que hacer. Cada exploración lo vuelve a comprobar, y un aviso que indique las versiones afectadas aparecerá con su gravedad."
+
+#: includes/checks/class-xml-rpc.php:160
+msgid "Nothing to do while that login limit is on."
+msgstr "No hay nada que hacer mientras ese límite de acceso esté activado."
+
+#: includes/checks/class-xml-rpc.php:153
+msgid "XML-RPC multicall is covered by a login limit"
+msgstr "Un límite de acceso cubre el multicall de XML-RPC"
+
+#. translators: %s: name of the login limiter or firewall, e.g. "Limit Login
+#. Attempts Reloaded".
+#: includes/checks/class-xml-rpc.php:157
+msgid "xmlrpc.php accepts system.multicall with login methods. WordPress stops checking passwords in a request after the first wrong one, and %s limits repeated login attempts, XML-RPC logins included."
+msgstr "xmlrpc.php acepta system.multicall con métodos de acceso. WordPress deja de comprobar contraseñas en una solicitud tras la primera incorrecta, y %s limita los intentos repetidos de acceso, también los de XML-RPC."
+
+#. translators: %s: role name.
+#: includes/checks/class-registration.php:116
+msgid "Anyone can register, and the default role \"%s\" does not exist. New users get no capabilities."
+msgstr "Cualquiera puede registrarse y el perfil por defecto «%s» no existe. Los nuevos usuarios no tienen ninguna capacidad."
+
+#: includes/checks/class-registration.php:96
+msgid "Anyone can sign up on this network. People who sign up get no role on any site until an administrator adds them, so the default role of a site does not apply to them."
+msgstr "Cualquiera puede registrarse en esta red. Quien se registra no tiene ningún perfil en ningún sitio hasta que un administrador lo añade, así que el perfil por defecto de un sitio no se le aplica."
+
+#: includes/checks/class-registration.php:149
+msgid "If nobody on your team chose this role, also review the administrator accounts in Users."
+msgstr "Si nadie de tu equipo ha elegido este perfil, revisa también las cuentas de administrador en Usuarios."
+
+#: includes/checks/class-rest-users.php:107
+msgid "The REST API returns the username slugs of your accounts to anyone who is not logged in."
+msgstr "La REST API devuelve los slugs de usuario de tus cuentas a cualquiera que no haya accedido."
+
+#. translators: %d: number of accounts exposed.
+#: includes/checks/class-rest-users.php:121
+msgid "The REST API shows %d username slug to visitors who are not logged in."
+msgid_plural "The REST API shows %d username slugs to visitors who are not logged in."
+msgstr[0] "La REST API muestra %d slug de usuario a los visitantes que no han accedido."
+msgstr[1] "La REST API muestra %d slugs de usuario a los visitantes que no han accedido."
+
+#: includes/checks/class-rest-users.php:178
+msgid "Turn on login protection in the ShieldWave settings: it closes the user list to visitors who are not logged in. A username slug alone does not let anyone in, but it often matches the login name, which makes password guessing easier."
+msgstr "Activa la protección de acceso en los ajustes de ShieldWave: cierra la lista de usuarios a los visitantes que no han accedido. Un slug de usuario por sí solo no deja entrar a nadie, pero a menudo coincide con el nombre de usuario, lo que facilita adivinar contraseñas."
+
+#: includes/checks/class-cron-events.php:218
+msgid "If you do not recognise the task, delete it (WP Crontrol shows and deletes scheduled tasks). If a plugin you still use owns it, you can ignore this."
+msgstr "Si no reconoces la tarea, bórrala (WP Crontrol muestra y borra las tareas programadas). Si pertenece a un plugin que sigues usando, puedes ignorarlo."
+
+#: includes/checks/class-cron-events.php:217
+msgid "Look at the task in WP Crontrol, which shows and deletes scheduled tasks. If nobody on your team knows the code in it, run a full scan to find what added it, then delete the task."
+msgstr "Mira la tarea en WP Crontrol, que muestra y borra las tareas programadas. Si nadie de tu equipo conoce el código que contiene, ejecuta una exploración completa para encontrar qué la añadió y después borra la tarea."
+
+#: includes/checks/class-cron-events.php:333
+msgid "Open the files named here and check which plugin or theme they belong to. If nothing you installed explains them, have them reviewed, remove the task (WP Crontrol shows and deletes scheduled tasks) and run a full scan."
+msgstr "Abre los archivos que se indican aquí y comprueba a qué plugin o tema pertenecen. Si nada de lo que has instalado los explica, haz que los revisen, elimina la tarea (WP Crontrol muestra y borra las tareas programadas) y ejecuta una exploración completa."
+
+#: includes/checks/class-php-version.php:111
+msgid "Not assessed: this scan ran from the command line, whose PHP can differ from the web server's, and no admin page has recorded the web server's PHP version yet."
+msgstr "Sin evaluar: esta exploración se ejecutó desde la línea de comandos, cuyo PHP puede ser distinto del del servidor web, y ninguna página de administración ha registrado aún la versión de PHP del servidor web."
+
+#: includes/checks/class-debug-mode.php:125
+msgid "Whether PHP prints errors on the web server's pages was not assessed: this scan ran from the command line, and no admin page has recorded the web server's setting yet."
+msgstr "No se evaluó si PHP muestra errores en las páginas del servidor web: esta exploración se ejecutó desde la línea de comandos y ninguna página de administración ha registrado aún el ajuste del servidor web."
+
+#. translators: %s: user login name.
+#: includes/checks/class-admin-accounts.php:168
+msgid "The administrator \"%s\" uses a common login name that automated login attempts try first. The password still protects the account."
+msgstr "El administrador «%s» usa un nombre de usuario muy común, que los intentos de acceso automáticos prueban primero. La contraseña sigue protegiendo la cuenta."
+
+#. translators: %s: post meta key, e.g. _elementor_data.
+#: includes/checks/class-content-injection.php:3141
+msgid "If nobody on your team added this code, remove it from the page in the page builder that stores it (post meta \"%s\"). Then update your plugins and themes and change the passwords of the accounts that can edit pages."
+msgstr "Si nadie de tu equipo añadió este código, quítalo de la página en el maquetador de páginas que lo guarda (metadato de entrada «%s»). Después actualiza tus plugins y temas y cambia las contraseñas de las cuentas que pueden editar páginas."
+
+#: includes/checks/class-content-injection.php:1298
+msgid "Malicious code found in a code snippet"
+msgstr "Código malintencionado en un fragmento de código"
+
+#. translators: 1: snippet title, 2: what the matching rule looks for.
+#: includes/checks/class-content-injection.php:1303
+msgid "The code snippet \"%1$s\" matches a pattern known to be malicious: %2$s."
+msgstr "El fragmento de código «%1$s» coincide con un patrón malintencionado conocido: %2$s."
+
+#. translators: 1: user login name, 2: date the account was created.
+#: includes/checks/class-admin-accounts.php:275
+msgid "The administrator \"%1$s\" was added on %2$s. The activity log has no record of an administrator of this site creating it."
+msgstr "El administrador «%1$s» se añadió el %2$s. El registro de actividad no muestra que lo creara un administrador de este sitio."
+
+#. translators: 1: user login name, 2: date the account was created, 3: login
+#. of the administrator who did it.
+#: includes/checks/class-admin-accounts.php:231
+msgid "The administrator \"%1$s\" was added on %2$s. The activity log shows that %3$s did it."
+msgstr "El administrador «%1$s» se añadió el %2$s. Según el registro de actividad, lo hizo %3$s."
+
+#. translators: %s: post meta key, e.g. _elementor_data.
+#: includes/checks/class-content-injection.php:3220
+msgid "If you added this script yourself (a booking or chat widget, for example), you can ignore this. If nobody on your team knows it, remove it in the page builder that stores it (post meta \"%s\")."
+msgstr "Si has añadido tú este script (un widget de reservas o de chat, por ejemplo), puedes ignorarlo. Si nadie de tu equipo lo conoce, elimínalo en el maquetador de páginas que lo guarda (meta de entrada «%s»)."
+
+#: includes/checks/class-content-injection.php:3224
+msgid "If you added this script yourself (a booking or chat widget, for example), you can ignore this. If nobody on your team knows it, remove it where it was added: the post, the page builder or the widget."
+msgstr "Si has añadido tú este script (un widget de reservas o de chat, por ejemplo), puedes ignorarlo. Si nadie de tu equipo lo conoce, elimínalo donde se añadió: la entrada, el maquetador de páginas o el widget."
+
+#. translators: 1: installed version, 2: available version.
+#: includes/checks/class-core-updates.php:125
+msgid "WordPress %1$s is installed and %2$s is out. Minor releases fix bugs and sometimes security problems."
+msgstr "Tienes instalado WordPress %1$s y ya ha salido la %2$s. Las versiones menores corrigen fallos y, a veces, problemas de seguridad."
+
+#: includes/checks/class-content-injection.php:1258
+msgid "Malicious code found in an unpublished post"
+msgstr "Código malintencionado en una entrada sin publicar"
+
+#. translators: 1: user login name, 2: date the account was created.
+#: includes/checks/class-admin-accounts.php:256
+msgid "The administrator \"%1$s\" was created on %2$s outside the dashboard, with WP-CLI. The activity log recorded it."
+msgstr "El administrador «%1$s» se creó el %2$s fuera del escritorio, con WP-CLI. El registro de actividad lo anotó."
+
+#. translators: 1: post title, 2: what the matching rule looks for.
+#: includes/checks/class-content-injection.php:1263
+msgid "The post \"%1$s\" is not published, and its content matches a pattern known to be malicious: %2$s."
+msgstr "La entrada «%1$s» no está publicada y su contenido coincide con un patrón conocido como malintencionado: %2$s."
+
+#. translators: %s: site address.
+#: includes/class-alerts.php:586
+msgid "Live protection found these on %s since the last email:"
+msgstr "La protección en tiempo real encontró esto en %s desde el último correo electrónico:"
+
+#: includes/admin/views/partials/settings-2fa-policy.php:31
+msgid "Required two-factor login"
+msgstr "Acceso en dos pasos obligatorio"
+
+#: includes/admin/views/partials/settings-2fa-policy.php:34
+msgid "Two-factor login is turned off above, so nothing is required until you turn it on."
+msgstr "El acceso en dos pasos está desactivado arriba, así que no se exige nada hasta que lo actives."
+
+#: includes/admin/views/partials/settings-2fa-policy.php:53
+msgid "Between 0 and 30, counted from the first sign-in after the role is chosen. With 0, the set-up screen comes at once."
+msgstr "Entre 0 y 30, contados desde el primer acceso tras elegir el perfil. Con 0, la pantalla de configuración aparece de inmediato."
+
+#: includes/admin/views/partials/settings-2fa-policy.php:70
+msgid "None. Every account in these roles uses two-factor login."
+msgstr "Ninguna. Todas las cuentas de estos perfiles usan el acceso en dos pasos."
+
+#: includes/admin/views/partials/settings-2fa-policy.php:84
+msgid "Starts at the next sign-in"
+msgstr "Empieza en el próximo acceso"
+
+#: includes/admin/views/partials/settings-2fa-policy.php:86
+msgid "Set-up screen at the next sign-in"
+msgstr "Pantalla de configuración en el próximo acceso"
+
+#: includes/admin/views/partials/settings-hardening-extra.php:47
+msgid "Hacked sites usually hide their backdoors as PHP files in uploads. This stops the server from running any of them. Images and documents are not affected."
+msgstr "Los sitios hackeados suelen ocultar sus puertas traseras como archivos PHP en la carpeta de subidas. Esta opción impide que el servidor ejecute ninguno de ellos. Las imágenes y los documentos no se ven afectados."
+
+#: includes/admin/views/partials/settings-passkeys.php:44
+msgid "Use your fingerprint, face or device PIN as the second step instead of a code. A passkey only works on this site, so a fake login page cannot use it."
+msgstr "Usa tu huella, tu cara o el PIN del dispositivo como segundo paso en lugar de un código. Una llave de acceso solo funciona en este sitio, así que una página de acceso falsa no puede usarla."
+
+#: includes/admin/views/partials/settings-passkeys.php:54
+msgid "When on, you and your other administrators can each add passkeys to your own account. Turning it off keeps saved passkeys but stops asking for them, so an account that has only a passkey signs in with the password alone."
+msgstr "Si está activado, cada administrador, tú incluido, puede añadir llaves de acceso a su propia cuenta. Si lo desactivas, las llaves guardadas se conservan pero dejan de pedirse, así que una cuenta que solo tenga una llave de acceso accede solo con la contraseña."
+
+#: includes/admin/views/partials/settings-passkeys.php:68
+msgid "Passkeys are a second step after the password, so they work only while two-factor login is offered."
+msgstr "Las llaves de acceso son un segundo paso después de la contraseña, así que solo funcionan mientras se ofrezca el acceso en dos pasos."
+
+#: includes/admin/views/partials/settings-passkeys.php:117
+msgid "Add one below. It takes a few seconds with a phone, a laptop with a fingerprint reader or face sign-in, or a security key."
+msgstr "Añade una abajo. Se tarda unos segundos con un teléfono, un portátil con lector de huellas o acceso facial, o una llave de seguridad."
+
+#: includes/admin/views/partials/settings-passkeys.php:165
+msgid "You have one passkey and no authenticator app, so there are no recovery codes. Add a second passkey on another device, or set up the app above, so that losing this device does not lock you out."
+msgstr "Tienes una llave de acceso y ninguna aplicación de identificación, así que no hay códigos de recuperación. Añade una segunda llave de acceso en otro dispositivo, o configura la aplicación de arriba, para que perder este dispositivo no te deje fuera."
+
+#: includes/admin/views/partials/settings-sessions.php:28
+msgid "Where your account is signed in right now. If you see a browser you do not know, sign out everywhere else and change your password."
+msgstr "Dónde tiene la sesión iniciada tu cuenta ahora mismo. Si ves un navegador que no conoces, sal de las demás sesiones y cambia tu contraseña."
+
+#: includes/admin/views/partials/settings-sessions.php:42
+msgid "Sign-in time unknown"
+msgstr "Hora de acceso desconocida"
+
+#: includes/admin/views/partials/settings-sessions.php:65
+msgid "Sign out everywhere else"
+msgstr "Salir de las demás sesiones"
+
+#: includes/admin/views/partials/settings-sessions.php:76
+msgid "How long an administrator stays signed in, \"Remember me\" included. 0 keeps the WordPress default: 2 days, or 14 with \"Remember me\". Applies from the next sign-in."
+msgstr "Cuánto tiempo permanece un administrador con la sesión iniciada, «Recuérdame» incluido. 0 mantiene el valor por defecto de WordPress: 2 días, o 14 con «Recuérdame». Se aplica desde el próximo acceso."
+
+#: includes/admin/views/partials/settings-sessions.php:92
+#: includes/admin/views/partials/settings-sessions.php:98
+msgid "Sign out all users"
+msgstr "Hacer que salgan todos los usuarios"
+
+#: includes/admin/views/partials/settings-sessions.php:93
+msgid "Ends every session of every account, yours too. Use it after a break-in or a leaked password: everyone has to sign in again."
+msgstr "Cierra todas las sesiones de todas las cuentas, también la tuya. Úsalo tras una intrusión o una contraseña filtrada: todos tienen que volver a acceder."
+
+#: includes/class-passkeys.php:143
+msgid "Passkeys need a newer version of the two-factor login in this plugin."
+msgstr "Las llaves de acceso necesitan una versión más reciente del acceso en dos pasos de este plugin."
+
+#: includes/class-passkeys.php:604
+msgid "A sign-in used a passkey as the second step."
+msgstr "Un acceso usó una llave de acceso como segundo paso."
+
+#: includes/class-passkeys.php:832
+msgid "Passkeys can be added as a second sign-in step."
+msgstr "Se pueden añadir llaves de acceso como segundo paso de acceso."
+
+#: includes/class-passkeys.php:942
+msgid "Passkey added. Next time you sign in, you can use it instead of a code."
+msgstr "Llave de acceso añadida. La próxima vez que accedas, podrás usarla en lugar de un código."
+
+#: includes/class-passkeys.php:991
+msgid "This is the only second step on your account, and your role must use two-factor. Set up the authenticator app or add another passkey first."
+msgstr "Este es el único segundo paso de tu cuenta, y tu perfil debe usar la identificación en dos pasos. Configura primero la aplicación de identificación o añade otra llave de acceso."
+
+#: includes/class-passkeys.php:1312
+msgid "The passkey below can now be used as the second sign-in step. If you did not add it, remove it in the plugin's Settings under Passkeys and change your password."
+msgstr "La llave de acceso de abajo ya se puede usar como segundo paso de acceso. Si no la añadiste tú, quítala en los Ajustes del plugin, en Llaves de acceso, y cambia tu contraseña."
+
+#: includes/class-passkeys.php:1327
+msgid "You get this email because a sign-in step was added to your account."
+msgstr "Recibes este correo electrónico porque se ha añadido un paso de acceso a tu cuenta."
+
+#: includes/class-quarantine.php:318
+msgid "That finding could not be found. Run a scan and try again."
+msgstr "No se ha encontrado ese hallazgo. Ejecuta una exploración e inténtalo de nuevo."
+
+#. translators: %s: file path.
+#: includes/class-quarantine.php:885
+msgid "%s is back in its place. The next scan checks it again."
+msgstr "%s vuelve a estar en su sitio. La próxima exploración lo volverá a comprobar."
+
+#: includes/class-cleanup.php:202 includes/class-quarantine.php:1356
+#: includes/class-repair.php:288
+msgid "The file is no longer there. Run a scan to bring the list up to date."
+msgstr "El archivo ya no está ahí. Ejecuta una exploración para actualizar la lista."
+
+#: includes/class-sessions.php:135
+msgid "Every user was signed out of every session."
+msgstr "Todos los usuarios salieron de todas sus sesiones."
+
+#: includes/class-privacy.php:108
+msgid "Two-factor sign-in and passkeys"
+msgstr "Acceso en dos pasos y llaves de acceso"
+
+#: includes/class-privacy.php:109
+msgid "When a user turns on two-factor sign-in, the plugin stores in that user's account the secret of the authenticator app, encrypted, and the recovery codes, hashed so they cannot be read back. For each passkey the user adds, it stores the passkey's public key, the name the user gave it and when it was added and last used. The passkey itself stays on the user's device. This data is used only to sign the user in, is not sent to shieldwave.io and is deleted with the account. A personal data erasure request does not remove it, because that would take the protection off a live account."
+msgstr "Cuando un usuario activa el acceso en dos pasos, el plugin guarda en la cuenta de ese usuario el secreto de la aplicación de identificación, cifrado, y los códigos de recuperación, en forma de hash para que no se puedan volver a leer. Por cada llave de acceso que añade el usuario, guarda su clave pública, el nombre que le ha dado el usuario y cuándo se añadió y se usó por última vez. La llave de acceso en sí se queda en el dispositivo del usuario. Estos datos solo se usan para que el usuario acceda, no se envían a shieldwave.io y se borran junto con la cuenta. Una solicitud de borrado de datos personales no los elimina, porque eso dejaría sin protección una cuenta en uso."
+
+#: includes/admin/views/partials/settings-2fa-policy.php:32
+msgid "Make two-factor login required for the roles you choose. From their next sign-in, those accounts get a few days to set it up, with a reminder in the WordPress admin. After that, signing in with the password leads to the set-up screen, and the WordPress admin opens only once it is done."
+msgstr "Haz obligatorio el acceso en dos pasos para los perfiles que elijas. A partir de su próximo acceso, esas cuentas tienen unos días para configurarlo, con un recordatorio en el área de administración de WordPress. Pasado ese plazo, al acceder con la contraseña se abre la pantalla de configuración, y el área de administración solo se abre cuando está hecho."
+
+#: includes/admin/views/partials/settings-2fa-policy.php:57
+msgid "Trusted addresses from login protection do not skip this. If someone cannot set it up, an administrator with server access can run \"wp shieldwave two-factor disable\" with the account's user name: that account gets a new set-up period."
+msgstr "Las direcciones de confianza de la protección de acceso no quedan exentas. Si alguien no puede configurarlo, un administrador con acceso al servidor puede ejecutar «wp shieldwave two-factor disable» con el nombre de usuario de la cuenta: esa cuenta recibe un nuevo plazo de configuración."
+
+#. translators: %s: the site's current domain.
+#: includes/class-passkeys.php:448
+msgid "An account tried to sign in, but all of its passkeys were added on a domain other than %s, so none could be offered."
+msgstr "Una cuenta intentó acceder, pero todas sus llaves de acceso se añadieron en un dominio distinto de %s, así que no se pudo ofrecer ninguna."
+
+#. translators: %s: the name the owner gave the passkey.
+#: includes/class-passkeys.php:590 includes/class-passkeys.php:771
+msgid "The passkey \"%s\" tried to sign in with a counter it had already used, so a copy of it may exist. The sign-in was refused."
+msgstr "La llave de acceso «%s» intentó acceder con un contador que ya había usado, así que puede existir una copia suya. Se rechazó el acceso."
+
+#: includes/class-plugin.php:277
+msgid "Two-factor login and login protection need Ensomedia Security to be network activated. It is active on this site only, and one sign-in works on every site of the network, so they do not protect the network yet. Network activate it on the Plugins screen of the Network Admin."
+msgstr "El acceso en dos pasos y la protección de acceso necesitan que Ensomedia Security esté activado para la red. Ahora solo está activo en este sitio, y un mismo acceso sirve para todos los sitios de la red, así que todavía no protegen la red. Actívalo para la red en la pantalla Plugins del Administrador de la red."
+
+#: includes/class-cleanup.php:210 includes/class-quarantine.php:334
+#: includes/class-quarantine.php:478 includes/class-quarantine.php:610
+#: includes/class-repair.php:301
+msgid "This file changed since the scan. Run a scan again."
+msgstr "Este archivo ha cambiado desde la exploración. Vuelve a ejecutar una exploración."
+
+#: includes/class-two-factor.php:240
+msgid "Too many wrong codes were entered. Please sign in again."
+msgstr "Se han introducido demasiados códigos incorrectos. Vuelve a acceder."
+
+#: includes/class-two-factor.php:1502
+msgid "The code could not be sent by email, so the set-up cannot go on here. Ask another administrator for help. Someone with server access can also run \"wp shieldwave two-factor disable\" with the user name of this account, which gives it a new set-up period."
+msgstr "No se ha podido enviar el código por correo electrónico, así que la configuración no puede seguir aquí. Pide ayuda a otro administrador. Alguien con acceso al servidor también puede ejecutar «wp shieldwave two-factor disable» con el nombre de usuario de esta cuenta, lo que le da un nuevo plazo de configuración."
+
+#: includes/class-two-factor.php:1534 includes/class-two-factor.php:1561
+msgid "The set-up code for two-factor login could not be emailed to an account."
+msgstr "No se ha podido enviar por correo electrónico a una cuenta el código para configurar el acceso en dos pasos."
+
+#: includes/class-two-factor.php:1543 includes/class-two-factor.php:1545
+msgid "Your code to set up two-factor login"
+msgstr "Tu código para configurar el acceso en dos pasos"
+
+#: includes/class-two-factor.php:1546
+msgid "Your account is setting up two-factor login on this site. Enter this code on the set-up screen to go on. It works for 15 minutes. If you did not just sign in, do not share the code and change your password."
+msgstr "Tu cuenta está configurando el acceso en dos pasos en este sitio. Introduce este código en la pantalla de configuración para continuar. Es válido durante 15 minutos. Si no acabas de acceder, no compartas el código y cambia tu contraseña."
+
+#: includes/class-two-factor.php:1557
+msgid "You get this email because this site requires two-factor login for your account."
+msgstr "Recibes este correo electrónico porque este sitio exige el acceso en dos pasos para tu cuenta."
+
+#: includes/class-two-factor.php:2351
+msgid "An authenticator app was set up for your account"
+msgstr "Se ha configurado una aplicación de identificación para tu cuenta"
+
+#: includes/class-two-factor.php:2359
+msgid "Sign-in codes now come from the authenticator app that was just set up. Your other sessions were signed out. If this was not you, change your password and tell the person who runs this site."
+msgstr "Los códigos de acceso ahora vienen de la aplicación de identificación que se acaba de configurar. Se han cerrado tus otras sesiones. Si no fuiste tú, cambia tu contraseña y avisa a la persona que gestiona este sitio."
+
+#: includes/admin/class-actions-account.php:69
+msgid "Saved. Accounts with the chosen roles must use two-factor login."
+msgstr "Guardado. Las cuentas con los perfiles elegidos deben usar el acceso en dos pasos."
+
+#: includes/admin/class-actions-account.php:71
+msgid "Saved. No role has to use two-factor login."
+msgstr "Guardado. Ningún perfil tiene que usar el acceso en dos pasos."
+
+#: includes/admin/class-actions-account.php:90
+msgid "Saved. The new session length applies from the next sign-in."
+msgstr "Guardado. La nueva duración de la sesión se aplica desde el próximo acceso."
+
+#: includes/admin/class-actions.php:811
+msgid "This is the only second step on your account, and your role must use two-factor. Add a passkey first."
+msgstr "Este es el único segundo paso de tu cuenta, y tu perfil debe usar la identificación en dos pasos. Añade primero una llave de acceso."
+
+#: includes/engine/class-signatures.php:1495
+msgid "php_flag engine on (or php_admin_flag, php_value) is the default everywhere, so the only reason to write it is to undo a rule that switched PHP off, usually the one that protects the uploads folder."
+msgstr "php_flag engine on (o php_admin_flag, php_value) es el valor por defecto en todas partes, así que la única razón para escribirlo es anular una regla que desactivó PHP, normalmente la que protege la carpeta de subidas."
+
+#: includes/class-privacy.php:116
+msgid "The scans run on this site and their results stay on this site. Data leaves it only when the site owner turns on an optional feature (the live threat feed, the known-vulnerability lookup or the AI second opinion) or connects the site to a shieldwave.io account."
+msgstr "Las exploraciones se ejecutan en este sitio y sus resultados se quedan en él. Los datos solo salen de él cuando el propietario del sitio activa una función opcional (la fuente de amenazas en tiempo real, la consulta de vulnerabilidades conocidas o la segunda opinión de la IA) o conecta el sitio a una cuenta de shieldwave.io."
+
+#: includes/class-privacy.php:153 includes/class-privacy.php:167
+#: includes/class-privacy.php:209
+msgid "Ensomedia Security sign-in records"
+msgstr "Registros de acceso de Ensomedia Security"
+
+#. translators: %d: number of records.
+#: includes/class-privacy.php:283
+msgid "Ensomedia Security removed %d sign-in record."
+msgid_plural "Ensomedia Security removed %d sign-in records."
+msgstr[0] "Ensomedia Security ha eliminado %d registro de acceso."
+msgstr[1] "Ensomedia Security ha eliminado %d registros de acceso."
+
+#: includes/class-settings.php:583
+msgid "per-account login limit"
+msgstr "límite de accesos por cuenta"
+
+#: includes/class-privacy.php:117
+msgid "Depending on the feature, this is technical data about the site and its software: the site address and language, the versions of the plugin, WordPress and PHP, the installed plugins and themes with their versions, the state and result of the scans and, for a connected account, the list of findings. For files the scanner cannot judge on its own, and only while the AI second opinion is on, it is also a short excerpt of the file's code from which addresses, e-mail addresses, passwords, keys and server paths were removed before it was sent."
+msgstr "Según la función, son datos técnicos sobre el sitio y su software: la dirección y el idioma del sitio, las versiones del plugin, de WordPress y de PHP, los plugins y temas instalados con sus versiones, el estado y el resultado de las exploraciones y, en una cuenta conectada, la lista de hallazgos. Para los archivos que el analizador no puede juzgar por sí solo, y solo mientras la segunda opinión de la IA está activada, también se envía un extracto breve del código del archivo al que, antes del envío, se le quitaron las direcciones, las direcciones de correo electrónico, las contraseñas, las claves y las rutas del servidor."
+
+#: includes/class-settings.php:588
+msgid "roles that must use two-factor"
+msgstr "perfiles que deben usar el acceso en dos pasos"
+
+#: includes/class-settings.php:589
+msgid "two-factor set-up time"
+msgstr "plazo para configurar el acceso en dos pasos"
+
+#: includes/class-two-factor.php:482
+msgid "Two-factor authentication turned on for an account. Its other sessions were signed out."
+msgstr "Se activó la identificación en dos pasos en una cuenta. Se cerraron sus otras sesiones."
+
+#: includes/class-two-factor.php:724 includes/class-two-factor.php:790
+#: includes/class-two-factor.php:889 includes/class-two-factor.php:1001
+#: includes/class-two-factor.php:2044 includes/class-two-factor.php:2071
+msgid "This account must turn on two-factor login first. Sign in on the login page to set it up."
+msgstr "Esta cuenta debe activar primero el acceso en dos pasos. Accede en la página de acceso para configurarlo."
+
+#: includes/class-two-factor.php:780
+msgid "This application password was created before two-factor login was turned on for the account, so it no longer works. Create a new one in the user profile."
+msgstr "Esta contraseña de aplicación se creó antes de activar el acceso en dos pasos en la cuenta, así que ya no funciona. Crea una nueva en el perfil de usuario."
+
+#: includes/class-two-factor.php:858 includes/class-two-factor.php:898
+msgid "This account uses two-factor login. Only the account itself, or someone who also uses two-factor login, can create an application password for it."
+msgstr "Esta cuenta usa el acceso en dos pasos. Solo la propia cuenta, o alguien que también use el acceso en dos pasos, puede crearle una contraseña de aplicación."
+
+#: includes/class-two-factor.php:961
+msgid "A sign-in skipped the two-factor code, so the session it opened was ended at once."
+msgstr "Un acceso se saltó el código del segundo paso, así que la sesión que abrió se cerró de inmediato."
+
+#: includes/class-two-factor.php:1285
+msgid "Codes from your authenticator app cannot be checked on this site right now. Sign in with a recovery code, then set up two-factor login again."
+msgstr "Ahora mismo no se pueden comprobar en este sitio los códigos de tu aplicación de identificación. Accede con un código de recuperación y vuelve a configurar el acceso en dos pasos."
+
+#: includes/class-two-factor.php:1622 includes/class-two-factor.php:1711
+msgid "Set up two-factor login"
+msgstr "Configurar el acceso en dos pasos"
+
+#: includes/class-two-factor.php:1720
+msgid "Codes from your old authenticator app can no longer be checked on this site. Add a new key to your app to keep two-factor login working."
+msgstr "Los códigos de tu antigua aplicación de identificación ya no se pueden comprobar en este sitio. Añade una clave nueva a tu aplicación para que el acceso en dos pasos siga funcionando."
+
+#: includes/class-two-factor.php:1628 includes/class-two-factor.php:1722
+msgid "This site asks your account to use two-factor login: after your password, a 6-digit code from an app on your phone."
+msgstr "Este sitio pide a tu cuenta que use el acceso en dos pasos: después de la contraseña, un código de 6 dígitos de una aplicación de tu teléfono."
+
+#: includes/class-two-factor.php:1727
+msgid "Open an authenticator app (Google Authenticator, Authy, 1Password, Microsoft Authenticator) and choose to enter a setup key."
+msgstr "Abre una aplicación de identificación (Google Authenticator, Authy, 1Password, Microsoft Authenticator) y elige introducir una clave de configuración."
+
+#: includes/class-two-factor.php:1757
+msgid "Turn on two-factor login"
+msgstr "Activar el acceso en dos pasos"
+
+#: includes/class-two-factor.php:1777
+msgid "Two-factor login is on"
+msgstr "El acceso en dos pasos está activado"
+
+#: includes/class-two-factor.php:1780
+msgid "Two-factor login is on for your account."
+msgstr "El acceso en dos pasos está activado en tu cuenta."
+
+#: includes/class-two-factor.php:1782
+msgid "Save these recovery codes somewhere safe, like a password manager. Each one lets you sign in once if you lose your phone. They are not shown again."
+msgstr "Guarda estos códigos de recuperación en un lugar seguro, como un gestor de contraseñas. Cada uno te permite acceder una vez si pierdes el teléfono. No se vuelven a mostrar."
+
+#: includes/class-two-factor.php:2094
+msgid "Codes from your authenticator app can no longer be checked on this site, usually because the security keys in wp-config.php were changed. Until you set up two-factor login again, you need a recovery code to sign in."
+msgstr "Los códigos de tu aplicación de identificación ya no se pueden comprobar en este sitio, normalmente porque se cambiaron las claves de seguridad de wp-config.php. Hasta que vuelvas a configurar el acceso en dos pasos, necesitas un código de recuperación para acceder."
+
+#. translators: %d: days left to set up two-factor login.
+#: includes/class-two-factor.php:2107
+msgid "This site requires two-factor login for your account. Set it up within %d day; after that you will be asked to do it when you sign in."
+msgid_plural "This site requires two-factor login for your account. Set it up within %d days; after that you will be asked to do it when you sign in."
+msgstr[0] "Este sitio exige el acceso en dos pasos en tu cuenta. Configúralo en un plazo de %d día. Después se te pedirá que lo hagas al acceder."
+msgstr[1] "Este sitio exige el acceso en dos pasos en tu cuenta. Configúralo en un plazo de %d días. Después se te pedirá que lo hagas al acceder."
+
+#: includes/class-two-factor.php:2350
+msgid "Two-factor login was turned on for your account"
+msgstr "Se ha activado el acceso en dos pasos en tu cuenta"
+
+#: includes/class-two-factor.php:2385 includes/class-two-factor.php:2387
+msgid "Set up two-factor login again"
+msgstr "Configurar de nuevo el acceso en dos pasos"
+
+#: includes/class-two-factor.php:2388
+msgid "Codes from your authenticator app can no longer be checked on this site, usually because the security keys in wp-config.php were changed. Sign in with a recovery code, then set up two-factor login again."
+msgstr "Los códigos de tu aplicación de identificación ya no se pueden comprobar en este sitio, normalmente porque se cambiaron las claves de seguridad de wp-config.php. Accede con un código de recuperación y vuelve a configurar el acceso en dos pasos."
+
+#: includes/engine/class-signatures.php:959
+msgid "A user account is created behind a check of request input, and neither a nonce nor a capability check guards it. A registration form written this way lets anyone script sign-ups; without the administrator role involved it is more often careless code than a backdoor."
+msgstr "Se crea una cuenta de usuario tras una comprobación de datos de la solicitud, y ni un nonce ni una comprobación de capacidades la protegen. Un formulario de registro escrito así permite que cualquiera cree cuentas de forma automática. Si no interviene el perfil de administrador, suele ser código descuidado más que una puerta trasera."
+
+#: includes/engine/class-signatures.php:817
+msgid "The key used to read $GLOBALS comes from request input, from a decoder or from quoted pieces joined at runtime, so the variable it reaches is never named in the file. This is a known way to hide which variable a payload uses."
+msgstr "La clave con la que se lee $GLOBALS viene de datos de la solicitud, de un decodificador o de fragmentos entre comillas unidos en tiempo de ejecución, así que la variable a la que llega nunca se nombra en el archivo. Es una forma conocida de ocultar qué variable usa una carga malintencionada."
+
+#. translators: %s: how long the code step is paused for.
+#: includes/class-two-factor.php:2256
+msgid "Too many wrong two-factor codes, so two-factor sign-in for this account is paused for %s."
+msgstr "Demasiados códigos de identificación en dos pasos incorrectos, así que el acceso en dos pasos de esta cuenta queda en pausa durante %s."
+
+#: includes/class-two-factor.php:2318
+msgid "Wrong two-factor codes were entered after a correct password, so the code step is paused for a while. If this was not you, change your password."
+msgstr "Se han introducido códigos de identificación en dos pasos incorrectos después de una contraseña correcta, así que el paso del código queda en pausa un tiempo. Si no fuiste tú, cambia tu contraseña."
+
+#: includes/class-two-factor.php:2358
+msgid "From now on, signing in needs a code from the authenticator app that was just set up. Your other sessions were signed out. If this was not you, change your password and tell the person who runs this site."
+msgstr "A partir de ahora, para acceder hace falta un código de la aplicación de identificación que acabas de configurar. Se han cerrado tus otras sesiones. Si no fuiste tú, cambia tu contraseña y avisa a la persona que gestiona este sitio."
+
+#. translators: %d: number of days.
+#: includes/class-privacy.php:84
+msgid "After a successful sign-in, the plugin sets a cookie whose name starts with shieldwave_kd_. It holds only a random identifier and lets this browser keep signing in while someone else is guessing the password for the same account. It expires after %d days and is no longer accepted once the password changes."
+msgstr "Tras un acceso correcto, el plugin establece una cookie cuyo nombre empieza por shieldwave_kd_. Contiene solo un identificador aleatorio y permite que este navegador siga accediendo mientras otra persona intenta adivinar la contraseña de la misma cuenta. Caduca a los %d días y deja de aceptarse cuando cambia la contraseña."
+
+#: includes/checks/class-https.php:83
+msgid "Not a threat: the site answers over HTTPS with a valid certificate and every http:// address leads there, so nothing travels unencrypted. WordPress still writes http:// into some links, the sitemap and emails, and each of those costs an extra redirect."
+msgstr "No es una amenaza: el sitio responde por HTTPS con un certificado válido y cada dirección http:// lleva allí, así que nada viaja sin cifrar. WordPress todavía escribe http:// en algunos enlaces, el mapa del sitio y los correos electrónicos, y cada uno supone una redirección extra."
+
+#. translators: %s: file path.
+#: includes/checks/class-file-changes.php:1788
+msgid "%s changed since the last scan. Server configuration files decide how the server treats every request in their folder and below it."
+msgstr "%s ha cambiado desde la última exploración. Los archivos de configuración del servidor deciden cómo trata el servidor cada solicitud de su carpeta y de las carpetas inferiores."
+
+#. translators: 1: number of folders, 2: folder paths, comma-separated.
+#: includes/checks/class-file-changes.php:2263
+msgid "The scan could not look through %1$d folder in full (%2$s); earlier findings there stay open until a scan sees all of it."
+msgid_plural "The scan could not look through %1$d folders in full (%2$s); earlier findings there stay open until a scan sees all of them."
+msgstr[0] "La exploración no pudo recorrer por completo %1$d carpeta (%2$s). Los hallazgos anteriores allí siguen pendientes hasta que una exploración la vea entera."
+msgstr[1] "La exploración no pudo recorrer por completo %1$d carpetas (%2$s). Los hallazgos anteriores allí siguen pendientes hasta que una exploración las vea enteras."
+
+#. translators: %s: file path.
+#: includes/checks/class-malware.php:1136
+msgid "The analysis of %s stopped before every rule had run (it took too long, or a pattern failed on its content). Nothing was found in the part that was checked; the scanner tries the whole file again on the next scan."
+msgstr "La exploración de %s se detuvo antes de aplicar todas las reglas (tardó demasiado o un patrón falló con su contenido). No se encontró nada en la parte comprobada. El analizador vuelve a intentarlo con el archivo entero en la próxima exploración."
+
+#. translators: %s: comma-separated plugin names.
+#: includes/checks/class-plugin-checksums.php:251
+msgid "The file listing of these plugins did not finish (too many files, or not enough time), so PHP files added to them may have been missed: %s. The next scan tries again."
+msgstr "El listado de archivos de estos plugins no terminó (demasiados archivos o poco tiempo), así que pueden haberse pasado por alto archivos PHP añadidos a ellos: %s. La próxima exploración lo intenta de nuevo."
+
+#. translators: 1: role name, 2: comma-separated capability names.
+#: includes/checks/class-registration.php:165
+msgid "Anyone can register, and new users become %1$s, which can publish content, change the site's look or upload files. It can: %2$s."
+msgstr "Cualquiera puede registrarse y los nuevos usuarios reciben el perfil %1$s, que puede publicar contenido, cambiar el aspecto del sitio o subir archivos. Puede: %2$s."
+
+#. translators: %s: comma-separated theme names.
+#: includes/checks/class-theme-checksums.php:244
+msgid "The file listing of these themes did not finish (too many files, or not enough time), so PHP files added to them may have been missed: %s. The next scan tries again."
+msgstr "El listado de archivos de estos temas no terminó (demasiados archivos o poco tiempo), así que pueden haberse pasado por alto archivos PHP añadidos a ellos: %s. La próxima exploración lo intenta de nuevo."
+
+#. translators: %d: HTTP status code.
+#: includes/checks/class-xml-rpc.php:80
+msgid "xmlrpc.php answered with HTTP %d instead of an XML-RPC reply, so it could not be confirmed whether the server blocks it. XML-RPC login is on in WordPress. The next scan tries again."
+msgstr "xmlrpc.php respondió con HTTP %d en lugar de una respuesta XML-RPC, así que no se pudo confirmar si el servidor lo bloquea. El acceso por XML-RPC está activado en WordPress. La próxima exploración lo intenta de nuevo."
+
+#. translators: %d: HTTP status code.
+#: includes/checks/class-xml-rpc.php:85
+msgid "xmlrpc.php answered with HTTP %d instead of an XML-RPC reply, so it could not be confirmed whether the server blocks it. XML-RPC login is turned off in WordPress."
+msgstr "xmlrpc.php respondió con HTTP %d en lugar de una respuesta XML-RPC, así que no se pudo confirmar si el servidor lo bloquea. El acceso por XML-RPC está desactivado en WordPress."
+
+#: includes/class-alerts.php:270
+msgid "Logins to this account, from any address except your trusted ones"
+msgstr "Accesos en esta cuenta, desde cualquier dirección salvo las de confianza"
+
+#: includes/class-alerts.php:271
+msgid "Logins from one address"
+msgstr "Accesos desde una dirección"
+
+#. translators: %d: number of failed logins.
+#: includes/class-alerts.php:292
+msgid "Someone got the password for this administrator account wrong %d times within an hour, from one or more addresses, so ShieldWave paused logins to it."
+msgstr "Alguien se ha equivocado %d veces en una hora con la contraseña de esta cuenta de administrador, desde una o varias direcciones, así que ShieldWave ha pausado los accesos a ella."
+
+#: includes/class-alerts.php:295
+msgid "If it was you, wait for the lock to end or sign in from a trusted address. If not, the lock stops the guessing; check that the account has a strong password and two-factor login."
+msgstr "Si fuiste tú, espera a que termine el bloqueo o accede desde una dirección de confianza. Si no, el bloqueo frena los intentos. Comprueba que la cuenta tiene una contraseña segura y el acceso en dos pasos activado."
+
+#. translators: %s: site name.
+#: includes/class-alerts.php:300
+msgid "[%s] Logins to an administrator account were paused"
+msgstr "[%s] Se han pausado los accesos en una cuenta de administrador"
+
+#: includes/class-alerts.php:302
+msgid "Failed logins to an administrator account"
+msgstr "Accesos fallidos en una cuenta de administrador"
+
+#: includes/class-alerts.php:309
+msgid "You get this email because alerts about administrator lockouts are on in ShieldWave > Settings. ShieldWave sends at most three a day."
+msgstr "Recibes este correo electrónico porque las alertas de bloqueo de administradores están activadas en ShieldWave > Ajustes. ShieldWave envía como máximo tres al día."
+
+#. translators: %s: request header name, such as X-Forwarded-For.
+#: includes/class-login-guard.php:365
+msgid "Login protection now reads the visitor address from the %s header your trusted proxy sent. Please confirm it in Settings."
+msgstr "La protección de acceso ahora lee la dirección del visitante de la cabecera %s que envió tu proxy de confianza. Confírmalo en Ajustes."
+
+#. translators: 1: number of requests, 2: IP address.
+#: includes/class-login-guard.php:1153
+msgid "Stopped sending password reset emails to requests from one address after %1$d in an hour (%2$s)."
+msgstr "Se dejaron de enviar correos electrónicos de restablecimiento de contraseña a una dirección tras %1$d solicitudes en una hora (%2$s)."
+
+#. translators: 1: user login, 2: number of failed logins, 3: cooldown minutes.
+#: includes/class-login-guard.php:1450
+msgid "Paused logins to the account %1$s after %2$d failed logins within an hour; locked for %3$d minutes. Trusted addresses can still sign in."
+msgstr "Se pausaron los accesos en la cuenta %1$s tras %2$d accesos fallidos en una hora. Cuenta bloqueada durante %3$d minutos. Las direcciones de confianza pueden seguir accediendo."
+
+#. translators: 1: number of failed logins, 2: cooldown minutes.
+#: includes/class-login-guard.php:1457
+msgid "Paused logins to a username that is not an account here after %1$d failed logins within an hour; locked for %2$d minutes."
+msgstr "Se pausaron los accesos con un nombre de usuario que no corresponde a ninguna cuenta de este sitio tras %1$d accesos fallidos en una hora. Bloqueado durante %2$d minutos."
+
+#: includes/class-privacy.php:73
+msgid "Failed sign-ins"
+msgstr "Accesos fallidos"
+
+#. translators: 1: number of links, 2: folder, e.g.
+#. wp-content/plugins/my-plugin.
+#: includes/checks/class-file-changes.php:2184
+msgid "%1$s symbolic link in %2$s points outside the site folders. What it points to is not scanned, and a link into a temporary or another user's folder can run code this scan never sees."
+msgid_plural "%1$s symbolic links in %2$s point outside the site folders. What they point to is not scanned, and a link into a temporary or another user's folder can run code this scan never sees."
+msgstr[0] "%1$s enlace simbólico en %2$s apunta fuera de las carpetas del sitio. Lo que hay allí no se analiza, y un enlace a una carpeta temporal o a la de otro usuario puede ejecutar código que esta exploración nunca ve."
+msgstr[1] "%1$s enlaces simbólicos en %2$s apuntan fuera de las carpetas del sitio. Lo que hay allí no se analiza, y un enlace a una carpeta temporal o a la de otro usuario puede ejecutar código que esta exploración nunca ve."
+
+#. translators: %s: site name.
+#: includes/class-alerts.php:154
+msgid "[%s] An administrator account was created while no one was signed in"
+msgstr "[%s] Se ha creado una cuenta de administrador sin que nadie hubiera accedido"
+
+#: includes/class-alerts.php:302
+msgid "Logins to an administrator account were paused"
+msgstr "Se han pausado los accesos a una cuenta de administrador"
+
+#. translators: %d: number of failed logins.
+#: includes/class-alerts.php:294
+msgid "One address had %d failed logins, the last of them to this administrator account, so ShieldWave paused logins from it."
+msgstr "Una dirección tuvo %d accesos fallidos, el último en esta cuenta de administrador, así que ShieldWave ha pausado los accesos desde ella."
+
+#. translators: %d: number of days.
+#: includes/class-privacy.php:77
+msgid "To block password guessing, Ensomedia Security counts failed sign-ins on this site. When it pauses logins after too many of them, it records the IP address they came from, the time and the username that was typed. The username is stored only when an account with that name exists. These records are kept for up to %d days, the retention period set in the plugin settings, and are then deleted. They are used only to block repeated attempts and to show the site owner what happened. They are not sent to shieldwave.io."
+msgstr "Para bloquear los intentos de adivinar contraseñas, Ensomedia Security cuenta los accesos fallidos en este sitio. Cuando pausa los accesos tras demasiados intentos, registra la dirección IP de la que vinieron, la hora y el nombre de usuario que se escribió. El nombre de usuario solo se guarda si existe una cuenta con ese nombre. Estos registros se conservan hasta %d días, el periodo de conservación fijado en los ajustes del plugin, y después se borran. Se usan solo para bloquear intentos repetidos y para mostrar al propietario del sitio lo que ocurrió. No se envían a shieldwave.io."
+
+#: includes/admin/views/page-settings.php:393
+msgid "Only set this when your site sits behind a reverse proxy, load balancer or CDN. List its addresses or ranges (CIDR), separated by commas. The visitor address is then read from the header chosen under Login limits, only for connections from these addresses. Leave it blank otherwise."
+msgstr "Configura esto solo si tu sitio está detrás de un proxy inverso, un balanceador de carga o una CDN. Indica sus direcciones o rangos (CIDR), separados por comas. La dirección del visitante se lee entonces de la cabecera elegida en Límites de acceso, solo para las conexiones que vengan de estas direcciones. Si no es tu caso, déjalo en blanco."
+
+#: includes/admin/views/partials/settings-login-advanced.php:37
+msgid "Finer control over login protection. The defaults suit most sites."
+msgstr "Control más detallado de la protección de acceso. Los valores por defecto sirven para la mayoría de los sitios."
+
+#. translators: %s: request header name, such as X-Forwarded-For.
+#: includes/admin/views/partials/settings-login-advanced.php:47
+msgid "Your trusted proxy sent the visitor address in the %s header, so login protection now reads only that header. Please check that this is the header your proxy or CDN sets, then save."
+msgstr "Tu proxy de confianza envió la dirección del visitante en la cabecera %s, así que la protección de acceso ahora lee solo esa cabecera. Comprueba que es la cabecera que establece tu proxy o tu CDN y guarda los ajustes."
+
+#: includes/admin/views/partials/settings-login-advanced.php:57
+msgid "The limit of failed logins per username is new in this version and was left off by the update, so nothing changed for your logins. To turn it on, enter a number such as 20 below and save."
+msgstr "El límite de accesos fallidos por nombre de usuario es nuevo en esta versión y la actualización lo dejó desactivado, así que no ha cambiado nada en tus accesos. Para activarlo, escribe abajo un número, por ejemplo 20, y guarda."
+
+#: includes/admin/views/partials/settings-login-advanced.php:76
+msgid "Failed logins per username in an hour"
+msgstr "Accesos fallidos por nombre de usuario en una hora"
+
+#: includes/admin/views/partials/settings-login-advanced.php:77
+msgid "Stops guessing spread over many addresses: after this many failures for one username, logins to it pause for the lockout time. Your trusted addresses, and browsers that already signed in to that account, can still sign in. 0 turns it off."
+msgstr "Frena los intentos de adivinar contraseñas repartidos entre muchas direcciones: tras este número de fallos con un mismo nombre de usuario, los accesos con él se pausan durante el tiempo de bloqueo. Tus direcciones de confianza y los navegadores que ya accedieron a esa cuenta pueden seguir entrando. 0 lo desactiva."
+
+#: includes/admin/views/partials/settings-login-advanced.php:84
+msgid "Over the limit the form answers as usual, but no email goes out. 0 turns it off."
+msgstr "Pasado el límite, el formulario responde como siempre, pero no se envía ningún correo electrónico. 0 lo desactiva."
+
+#: includes/admin/views/partials/settings-login-advanced.php:91
+msgid "When failed logins lock an administrator's username or an address trying it. At most three emails a day; needs email alerts on."
+msgstr "Cuando los accesos fallidos bloquean el nombre de usuario de un administrador o una dirección que lo está probando. Como máximo tres correos electrónicos al día. Requiere que las alertas por correo electrónico estén activadas."
+
+#: includes/admin/views/partials/settings-login-advanced.php:98
+msgid "Between 7 and 730. Older entries are deleted once a day. The history includes addresses of failed logins, so keep it no longer than you need."
+msgstr "Entre 7 y 730. Las entradas más antiguas se borran una vez al día. El historial incluye las direcciones de los accesos fallidos, así que no lo conserves más tiempo del necesario."
+
+#: includes/checks/class-admin-accounts.php:338
+msgid "A role other than Administrator has administrator powers"
+msgstr "Un perfil distinto de Administrador tiene permisos de administrador"
+
+#. translators: 1: role name, 2: comma-separated capability names, 3: number of
+#. accounts.
+#: includes/checks/class-admin-accounts.php:342
+msgid "The role \"%1$s\" can: %2$s. %3$d account has this role."
+msgid_plural "The role \"%1$s\" can: %2$s. %3$d accounts have this role."
+msgstr[0] "El perfil «%1$s» puede: %2$s. %3$d cuenta tiene este perfil."
+msgstr[1] "El perfil «%1$s» puede: %2$s. %3$d cuentas tienen este perfil."
+
+#: includes/checks/class-content-injection.php:804
+msgid "Scanning page builder data for injected content"
+msgstr "Explorando datos de maquetadores de páginas en busca de contenido inyectado"
+
+#. translators: %s: comma-separated folder names, e.g. wp-admin.
+#: includes/checks/class-core-checksums.php:344
+msgid "The file listing of %s did not finish (too many files, or not enough time), so PHP files added there may have been missed. The next scan tries again."
+msgstr "El listado de archivos de %s no terminó (demasiados archivos o poco tiempo), así que pueden haberse pasado por alto archivos PHP añadidos ahí. La próxima exploración lo intenta de nuevo."
+
+#: includes/checks/class-cron-events.php:331
+msgid "Open the files named here. If you do not know them, treat the site as infected: run a full scan, replace the files with clean copies and remove the task (WP Crontrol shows and deletes scheduled tasks). Change all passwords afterwards."
+msgstr "Abre los archivos que se indican aquí. Si no los conoces, trata el sitio como infectado: ejecuta una exploración completa, sustituye los archivos por copias limpias y elimina la tarea (WP Crontrol muestra y borra las tareas programadas). Después cambia todas las contraseñas."
+
+#: includes/checks/class-cron-events.php:334
+msgid "Remove the task (WP Crontrol shows and deletes scheduled tasks) and run a full scan to find what scheduled it."
+msgstr "Elimina la tarea (WP Crontrol muestra y borra las tareas programadas) y ejecuta una exploración completa para encontrar qué la programó."
+
+#. translators: %d: number of posts, page builder rows and settings.
+#: includes/checks/class-content-injection.php:2422
+msgid "The same outside script is in %d place on this site (posts, page builder data, widgets), the pattern of an automated injection."
+msgid_plural "The same outside script is in %d places on this site (posts, page builder data, widgets), the pattern of an automated injection."
+msgstr[0] "El mismo script externo está en %d lugar de este sitio (entradas, datos del maquetador de páginas, widgets), el patrón de una inyección automatizada."
+msgstr[1] "El mismo script externo está en %d lugares de este sitio (entradas, datos del maquetador de páginas, widgets), el patrón de una inyección automatizada."
+
+#: includes/checks/class-content-injection.php:608
+msgid "Off. Turn on \"Posts, pages and widgets\" under Extra checks in Settings to scan posts, pages, widgets and site options for injected content."
+msgstr "Desactivado. Activa «Entradas, páginas y widgets» en Comprobaciones adicionales, dentro de Ajustes, para explorar entradas, páginas, widgets y opciones del sitio en busca de contenido inyectado."
+
+#: includes/checks/class-admin-accounts.php:347
+msgid "Every account with this role can change the whole site. If you did not give the role these powers on purpose (with a role editor plugin, for example), remove them or move its users to a standard role, and check who has it."
+msgstr "Cualquier cuenta con este perfil puede cambiar todo el sitio. Si no diste estos permisos al perfil a propósito (con un plugin de edición de perfiles, por ejemplo), quítaselos o pasa a sus usuarios a un perfil estándar, y comprueba quién lo tiene."
+
+#: includes/admin/class-actions-login.php:61
+msgid "Advanced login settings saved."
+msgstr "Ajustes avanzados de acceso guardados."
+
+#. translators: %d: number of roles.
+#: includes/admin/class-present.php:577
+msgid "%d role other than Administrator has administrator powers"
+msgid_plural "%d roles other than Administrator have administrator powers"
+msgstr[0] "%d perfil distinto de Administrador tiene permisos de administrador"
+msgstr[1] "%d perfiles distintos de Administrador tienen permisos de administrador"
+
+#: includes/admin/views/page-settings.php:50
+#: includes/admin/views/partials/settings-login-advanced.php:36
+msgid "Login limits and history"
+msgstr "Límites de acceso e historial"
+
+#: includes/admin/views/page-settings.php:53
+msgid "Required two-factor"
+msgstr "Acceso en dos pasos obligatorio"
+
+#. translators: %s: entry number.
+#: includes/admin/class-actions-login.php:153
+msgid "The newest history entries were deleted directly in the database: the history should go up to entry #%s. This can also happen after a database restore or a move to another server. If neither happened, check who has access to the database."
+msgstr "Las entradas más recientes del historial se borraron directamente en la base de datos: el historial debería llegar hasta la entrada #%s. Esto también puede ocurrir tras restaurar la base de datos o mudar el sitio a otro servidor. Si no ha pasado ninguna de las dos cosas, comprueba quién tiene acceso a la base de datos."
+
+#. translators: %s: entry number.
+#: includes/admin/class-actions-login.php:162
+msgid "The history was changed outside ShieldWave: entry #%s, or the one before it, was edited or deleted directly in the database. This can also happen after a database restore or a move to another server. If neither happened, check who has access to the database."
+msgstr "El historial se cambió fuera de ShieldWave: la entrada #%s, o la anterior, se editó o se borró directamente en la base de datos. Esto también puede ocurrir tras restaurar la base de datos o mudar el sitio a otro servidor. Si no ha pasado ninguna de las dos cosas, comprueba quién tiene acceso a la base de datos."
+
+#: includes/admin/class-actions.php:736 includes/admin/class-actions.php:739
+msgid "Two-factor authentication is turned on for the site."
+msgstr "La identificación en dos pasos está activada en el sitio."
+
+#: includes/admin/class-actions.php:739
+msgid "Two-factor authentication is turned on for the network."
+msgstr "La identificación en dos pasos está activada en la red."
+
+#: includes/admin/class-actions.php:822
+msgid "The authenticator app is off for your account. Sign-in still asks for a second step: one of your passkeys."
+msgstr "La aplicación de identificación está desactivada en tu cuenta. El acceso sigue pidiendo un segundo paso: una de tus llaves de acceso."
+
+#: includes/admin/views/page-settings.php:122
+msgid "That day the clocks go forward for daylight saving time and skip the chosen hour, so the scan runs right after it."
+msgstr "Ese día los relojes se adelantan por el horario de verano y se saltan la hora elegida, así que la exploración se ejecuta justo después."
+
+#: includes/admin/views/page-history.php:42
+msgid "Every scan, and the changes on your network that matter for security: new administrators, plugin and theme updates, settings."
+msgstr "Todas las exploraciones y los cambios en tu red que afectan a la seguridad: nuevos administradores, actualizaciones de plugins y temas, y ajustes."
+
+#. translators: %s: the main site's administration email address.
+#: includes/admin/views/page-settings.php:171
+msgid "Up to 5 addresses, separated by commas. Empty means the main site's admin email, %s."
+msgstr "Hasta 5 direcciones, separadas por comas. Si lo dejas vacío, se usa el correo electrónico del administrador del sitio principal, %s."
+
+#: includes/admin/class-actions.php:739
+msgid "Two-factor authentication is turned off for the network."
+msgstr "La identificación en dos pasos está desactivada en la red."
+
+#: includes/admin/views/page-settings.php:431
+msgid "Offer two-factor on this network"
+msgstr "Ofrecer identificación en dos pasos en esta red"
+
+#: includes/admin/views/page-settings.php:662
+msgid "The dark bar at the top of the dashboard, and of the network's sites while you are logged in."
+msgstr "La barra oscura de la parte superior del escritorio y de los sitios de la red cuando has accedido."
+
+#: includes/admin/views/page-overview.php:393
+msgid "See this network's score and problems in your shieldwave.io dashboard, next to the outside scan of its main address. A free account covers one site."
+msgstr "Consulta la puntuación y los problemas de esta red en tu panel de shieldwave.io, junto a la exploración externa de su dirección principal. Una cuenta gratuita cubre un sitio."
+
+#: includes/class-file-origin.php:1031
+msgid "Changed CSS can change how the site looks or hide content."
+msgstr "Un CSS modificado puede cambiar el aspecto del sitio o ocultar contenido."
+
+#: includes/class-file-origin.php:1084
+msgid "Reinstall WordPress under Dashboard > Updates (the Re-install button), then run the scan again."
+msgstr "Reinstala WordPress desde Escritorio > Actualizaciones (el botón «Reinstalar») y vuelve a ejecutar la exploración."
+
+#. translators: %s: plugin name.
+#: includes/class-file-origin.php:1089
+msgid "Delete the %s plugin and install it again from WordPress.org (its settings usually stay), then run the scan again."
+msgstr "Borra el plugin %s e instálalo de nuevo desde WordPress.org (sus ajustes suelen conservarse) y vuelve a ejecutar la exploración."
+
+#. translators: %s: plugin name.
+#: includes/class-file-origin.php:1093
+msgid "Get a fresh copy of the %s plugin from its author and replace the plugin folder with it, then run the scan again."
+msgstr "Consigue una copia nueva del plugin %s de su autor, sustituye con ella la carpeta del plugin y vuelve a ejecutar la exploración."
+
+#. translators: %s: plugin name.
+#: includes/class-file-origin.php:1095
+msgid "Get a fresh copy of the %s plugin from where it came from (WordPress.org or its author) and replace the plugin folder with it, then run the scan again."
+msgstr "Consigue una copia nueva del plugin %s de donde vino (WordPress.org o su autor), sustituye con ella la carpeta del plugin y vuelve a ejecutar la exploración."
+
+#. translators: %s: theme name.
+#: includes/class-file-origin.php:1102
+msgid "Get a fresh copy of the %s theme from its author or your developer and replace the theme folder with it, then run the scan again."
+msgstr "Consigue una copia nueva del tema %s de su autor o de tu desarrollador, sustituye con ella la carpeta del tema y vuelve a ejecutar la exploración."
+
+#. translators: %s: theme name.
+#: includes/class-file-origin.php:1100
+msgid "Download the %s theme again from WordPress.org and upload it under Appearance > Themes > Add Theme > Upload Theme, choosing to replace the installed one, then run the scan again."
+msgstr "Descarga de nuevo el tema %s desde WordPress.org y súbelo en Apariencia > Temas > Añadir tema > Subir tema, eligiendo reemplazar el instalado, y vuelve a ejecutar la exploración."
+
+#: includes/admin/views/partials/live-nudge.php:28
+msgid "The scan finds only what the plugin already knows"
+msgstr "La exploración solo detecta lo que el plugin ya conoce"
+
+#: includes/class-file-origin.php:375
+msgid "Run the ShieldWave scan again. The finding should be gone."
+msgstr "Ejecuta de nuevo la exploración de ShieldWave. El hallazgo debería haber desaparecido."
+
+#: includes/class-file-origin.php:450
+msgid "The file matches a detection rule for malicious code."
+msgstr "El archivo coincide con una regla de detección de código malintencionado."
+
+#: includes/class-file-origin.php:473
+msgid "The PHP file is new or changed since the previous scan, and no update of the plugin or theme explains it."
+msgstr "El archivo PHP es nuevo o ha cambiado desde la exploración anterior, y ninguna actualización de un plugin o tema lo explica."
+
+#: includes/class-file-origin.php:636
+msgid "List every PHP file in uploads. That folder should hold only media, so each PHP file there needs an explanation."
+msgstr "Muestra todos los archivos PHP de la carpeta de subidas. Esa carpeta solo debería contener archivos de medios, así que cada archivo PHP que haya ahí necesita una explicación."
+
+#: includes/class-file-origin.php:681
+msgid "Replace the security keys in wp-config.php. This signs everyone out, including anyone using a stolen login."
+msgstr "Sustituye las claves de seguridad de wp-config.php. Esto hace que todo el mundo salga de su sesión, incluido quien use unos datos de acceso robados."
+
+#: includes/checks/class-admin-accounts.php:364
+msgid "No account has the administrator role."
+msgstr "Ninguna cuenta tiene el perfil de administrador."
+
+#. translators: %s: the name of a language, for example Polish.
+#: includes/class-cloud.php:595
+msgid "Your shieldwave.io account speaks %s: its emails, reports and dashboard come in that language. Change it in the dashboard settings."
+msgstr "Tu cuenta de shieldwave.io está en %s: sus correos electrónicos, informes y el panel llegan en ese idioma. Cámbialo en los ajustes del panel."
+
+#: includes/admin/views/page-overview.php:406
+msgid "In your dashboard"
+msgstr "En tu panel"
+
+#: includes/admin/views/page-overview.php:390
+msgid "shieldwave.io dashboard"
+msgstr "Panel de shieldwave.io"
+
+#: includes/admin/class-actions.php:1089 includes/class-cloud.php:725
+#: includes/class-cloud.php:1333
+msgid "This site was removed from the ShieldWave dashboard, so the plugin stopped sending to it. Connect again under Settings to show it there."
+msgstr "Este sitio se eliminó del panel de ShieldWave, así que el plugin dejó de enviarle datos. Vuelve a conectarlo en Ajustes para que aparezca ahí."
+
+#: includes/admin/class-actions.php:1114
+msgid "Disconnected here, and nothing will be sent to ShieldWave from now on. shieldwave.io could not be told, so remove the site in your dashboard if it is still listed there."
+msgstr "Desconectado aquí, y a partir de ahora no se enviará nada a ShieldWave. No se pudo avisar a shieldwave.io, así que elimina el sitio en tu panel si sigue apareciendo ahí."
+
+#: includes/admin/views/page-overview.php:393
+msgid "See this site's score and problems in your shieldwave.io dashboard, next to its outside scan. A free account covers one site."
+msgstr "Consulta la puntuación y los problemas de este sitio en tu panel de shieldwave.io, junto a su exploración externa. Una cuenta gratuita cubre un sitio."
+
+#: includes/admin/views/page-settings.php:685
+msgid "Optional. Everything above works without an account. Connected to shieldwave.io, this site shows up in your dashboard with its score and problems, next to the outside scan of shieldwave.io. A free account shows one site; Pro and Enterprise show every site you connect. The connection sends results only: it cannot change this site's settings or start anything on it."
+msgstr "Opcional. Todo lo anterior funciona sin una cuenta. Al conectar con shieldwave.io, este sitio aparece en tu panel con su puntuación y sus problemas, junto a la exploración externa de shieldwave.io. Una cuenta gratuita muestra un sitio. Pro y Enterprise muestran todos los sitios que conectes. La conexión solo envía resultados: no puede cambiar los ajustes de este sitio ni iniciar nada en él."
+
+#: includes/admin/views/page-settings.php:693
+msgid "Opens shieldwave.io. Sign in or create a free account there, press \"Connect this site\", and you are back here. There is no key to copy."
+msgstr "Abre shieldwave.io. Accede o crea allí una cuenta gratuita, pulsa «Conectar este sitio» y vuelves aquí. No hay ninguna clave que copiar."
+
+#: includes/admin/views/page-settings.php:742
+msgid "Your free plan shows one site in the dashboard, and another site already uses it, so the results of this one stay here. Pro shows every site."
+msgstr "Tu plan gratuito muestra un sitio en el panel y otro sitio ya lo ocupa, así que los resultados de este se quedan aquí. Pro muestra todos los sitios."
+
+#: includes/admin/views/page-settings.php:777
+msgid "shieldwave.io read the confirmation tag on your home page, so it knows the site is yours and can run its full scan on it."
+msgstr "shieldwave.io ha leído la etiqueta de confirmación en tu página de inicio, así que sabe que el sitio es tuyo y puede ejecutar en él su exploración completa."
+
+#: includes/admin/views/page-settings.php:779
+msgid "While connected, your home page carries an invisible tag with a code of your account. When shieldwave.io reads it there, it knows the site is yours and can run its full scan on it. If a page cache is on, clear it, then check again."
+msgstr "Mientras el sitio esté conectado, tu página de inicio lleva una etiqueta invisible con un código de tu cuenta. Cuando shieldwave.io la lee, sabe que el sitio es tuyo y puede ejecutar en él su exploración completa. Si hay una caché de páginas activa, vacíala y vuelve a comprobarlo."
+
+#: includes/class-cloud.php:598
+msgid "This site is in your dashboard; its results appear there after the next scan."
+msgstr "Este sitio está en tu panel. Sus resultados aparecerán ahí después de la próxima exploración."
+
+#: includes/class-cloud.php:600
+msgid "Your free plan shows one site in the dashboard, and another site already uses it, so the results of this one stay here."
+msgstr "Tu plan gratuito muestra un sitio en el panel y otro sitio ya lo ocupa, así que los resultados de este se quedan aquí."
+
+#: includes/class-cloud.php:699
+msgid "Disconnected from the ShieldWave account. Nothing is sent to ShieldWave any more. shieldwave.io could not be told, so remove the site in the dashboard if it is still listed there."
+msgstr "Desconectado de la cuenta de ShieldWave. Ya no se envía nada a ShieldWave. No se pudo avisar a shieldwave.io, así que elimina el sitio en el panel si sigue apareciendo ahí."
+
+#: includes/class-cloud.php:759
+msgid "Account checked: free plan. It shows one site in the dashboard, and another site already uses it."
+msgstr "Cuenta comprobada: plan gratuito. Muestra un sitio en el panel y otro sitio ya lo ocupa."
+
+#: includes/class-cloud.php:1352
+msgid "The results of this site stay here: your free plan shows one site in the dashboard, and another site already uses it."
+msgstr "Los resultados de este sitio se quedan aquí: tu plan gratuito muestra un sitio en el panel y otro sitio ya lo ocupa."
+
+#: includes/class-legacy-copy.php:310
+msgid "The old copy of the plugin was deleted. Its clean-up would have removed the settings, results and two-factor set-ups this copy uses; they were kept."
+msgstr "Se ha borrado la copia antigua del plugin. Su desinstalación habría eliminado los ajustes, los resultados y las configuraciones de identificación en dos pasos que usa esta copia, pero se han conservado."
+
+#: includes/class-legacy-copy.php:354
+msgid "Deactivate it, then delete it on the Plugins screen. Keep Ensomedia Security active while you do: it keeps your settings, results and two-factor set-ups."
+msgstr "Desactívala y bórrala después en la pantalla de Plugins. Mantén Ensomedia Security activo mientras lo haces: conserva tus ajustes, resultados y configuraciones de identificación en dos pasos."
+
+#: includes/class-legacy-copy.php:356
+msgid "Delete it on the Plugins screen. Keep Ensomedia Security active while you do: it keeps your settings, results and two-factor set-ups."
+msgstr "Bórrala en la pantalla de Plugins. Mantén Ensomedia Security activo mientras lo haces: conserva tus ajustes, resultados y configuraciones de identificación en dos pasos."
+
+#: includes/admin/views/page-settings.php:262
+msgid "Only for files the scanner cannot judge on its own: an excerpt of the file of up to 6,000 characters (the lines around the suspicious code) goes to shieldwave.io, with the file's fingerprints and size, the folder name of its plugin or theme, the names of the rules that matched, the site language, the plugin version and a salted hash of the site. shieldwave.io passes the excerpt to its AI provider, named in its privacy policy. Before it is sent, the excerpt is stripped of your site address, email addresses, IP addresses, server paths, database settings and anything that looks like a password, key or token; other web addresses stay. Configuration, credential, backup, log and ini files are never sent."
+msgstr "Solo para los archivos que el analizador no puede juzgar por sí solo: un extracto del archivo de hasta 6.000 caracteres (las líneas que rodean al código sospechoso) se envía a shieldwave.io, junto con las huellas y el tamaño del archivo, el nombre de la carpeta de su plugin o tema, los nombres de las reglas que coincidieron, el idioma del sitio, la versión del plugin y un hash con sal del sitio. shieldwave.io pasa el extracto a su proveedor de IA, que se indica en su política de privacidad. Antes de enviarlo, al extracto se le quitan la dirección de tu sitio, las direcciones de correo electrónico, las direcciones IP, las rutas del servidor, los ajustes de la base de datos y todo lo que parezca una contraseña, una clave o un token. Las demás direcciones web se conservan. Los archivos de configuración, de credenciales, de copias de seguridad, de registro e ini no se envían nunca."
+
+#: includes/admin/views/page-settings.php:811
+msgid "After each scan, if this site is in your shieldwave.io dashboard: the score, the active theme, the site language, the installed plugins and themes with versions, and each open or ignored problem with its fix and file path. Problems about administrator accounts go without the account names."
+msgstr "Después de cada exploración, si este sitio está en tu panel de shieldwave.io: la puntuación, el tema activo, el idioma del sitio, los plugins y temas instalados con sus versiones, y cada problema pendiente o ignorado con su solución y la ruta del archivo. Los problemas de cuentas de administrador se envían sin los nombres de las cuentas."
+
+#: includes/admin/views/page-overview.php:431
+msgid "Leave a review"
+msgstr "Escribir una valoración"
+
+#: includes/admin/views/page-overview.php:427
+msgid "A short review on WordPress.org helps other site owners find it, and tells us what to improve. It takes a minute."
+msgstr "Una breve valoración en WordPress.org ayuda a otros propietarios de sitios a encontrarlo y nos dice qué mejorar. Te llevará un minuto."
+
+#: includes/class-two-factor.php:1288
+msgid "Enter the 6-digit code from your authenticator app."
+msgstr "Introduce el código de 6 dígitos de tu aplicación de identificación."
+
+#: includes/class-labels.php:119
+msgid "From the ShieldWave dashboard"
+msgstr "Desde el panel de ShieldWave"
+
+#: includes/class-cloud.php:1324
+msgid "Results sent to your ShieldWave dashboard."
+msgstr "Resultados enviados a tu panel de ShieldWave."
+
+#. translators: %s: plan name, e.g. Pro.
+#: includes/class-cloud.php:755
+msgid "Account checked: %s plan. Results are sent to your dashboard."
+msgstr "Cuenta comprobada: plan %s. Los resultados se envían a tu panel."
+
+#: includes/class-alerts.php:485
+msgid "You get this email because the weekly summary is on in ShieldWave > Settings."
+msgstr "Recibes este correo electrónico porque el resumen semanal está activado en ShieldWave > Ajustes."
+
+#: includes/class-alerts.php:216
+msgid "You get this email because real-time alerts for new administrators are on in ShieldWave > Settings."
+msgstr "Recibes este correo electrónico porque las alertas en tiempo real para nuevos administradores están activadas en ShieldWave > Ajustes."
+
+#. translators: 1: PHP version, 2: date.
+#: includes/checks/class-php-version.php:175
+msgid "PHP %1$s gets security fixes only (no bug fixes) until %2$s."
+msgstr "PHP %1$s solo recibe correcciones de seguridad (sin correcciones de fallos) hasta el %2$s."
+
+#: includes/admin/views/page-settings.php:755
+msgid "Open dashboard"
+msgstr "Abrir panel"
+
+#. translators: %d: post ID.
+#: includes/admin/class-present.php:784
+msgid "Post #%d"
+msgstr "Entrada #%d"
+
+#. Description of the plugin
+#: shieldwave-security.php
+msgid "Finds real threats without the false alarms: malware and backdoor scanning, file integrity against official WordPress.org checksums, file change monitoring, known vulnerabilities, injected content, exposed backups and hardening checks, with smart email alerts."
+msgstr "Encuentra amenazas reales sin falsas alarmas: exploración de malware y puertas traseras, integridad de los archivos frente a las sumas de comprobación oficiales de WordPress.org, vigilancia de cambios en los archivos, vulnerabilidades conocidas, contenido inyectado, copias de seguridad expuestas y comprobaciones de refuerzo de la seguridad, con alertas inteligentes por correo electrónico."
+
+#: includes/admin/class-actions.php:104
+msgid "The scan is still running. Leave this page open, it updates on its own, or check back in a minute."
+msgstr "La exploración sigue en marcha. Deja esta página abierta, que se actualiza sola, o vuelve dentro de un minuto."
+
+#. translators: %d: score out of 100.
+#: includes/admin/class-actions.php:110
+msgid "Scan finished. Score: %d/100."
+msgstr "Exploración terminada. Puntuación: %d/100."
+
+#: includes/admin/class-actions.php:115
+msgid "The scan finished."
+msgstr "La exploración ha terminado."
+
+#: includes/admin/class-actions.php:166
+msgid "The scan was cancelled. Checks that already finished keep their results."
+msgstr "Se ha cancelado la exploración. Las comprobaciones que ya habían terminado conservan sus resultados."
+
+#: includes/admin/class-actions.php:483
+msgid "The test email could not be sent. Check your site's outgoing mail configuration."
+msgstr "No se pudo enviar el correo electrónico de prueba. Comprueba la configuración de correo electrónico saliente de tu sitio."
+
+#: includes/admin/class-actions.php:518
+msgid "Scanning settings saved."
+msgstr "Ajustes de exploración guardados."
+
+#. translators: %s: the administrator's IP address.
+#: includes/admin/class-actions.php:666
+msgid "Login protection is on. Your address, %s, is now trusted, so it can never be locked out."
+msgstr "La protección de acceso está activada. Tu dirección, %s, ahora es de confianza y nunca quedará bloqueada."
+
+#: includes/admin/class-actions.php:671
+msgid "Login protection settings saved."
+msgstr "Ajustes de protección de acceso guardados."
+
+#: includes/admin/class-actions.php:736 includes/admin/class-actions.php:739
+msgid "Two-factor authentication is turned off for the site."
+msgstr "La identificación en dos pasos está desactivada en el sitio."
+
+#: includes/admin/class-actions.php:793
+msgid "Two-factor authentication is on for your account. Save the recovery codes below now: they are shown only once."
+msgstr "La identificación en dos pasos está activada en tu cuenta. Guarda ahora los códigos de recuperación de abajo: solo se muestran una vez."
+
+#: includes/admin/class-actions.php:823
+msgid "Two-factor authentication is off for your account."
+msgstr "La identificación en dos pasos está desactivada en tu cuenta."
+
+#: includes/admin/class-actions.php:837
+msgid "Turn on two-factor authentication first."
+msgstr "Activa primero la identificación en dos pasos."
+
+#: includes/admin/class-actions.php:996 includes/class-rest.php:371
+msgid "A scan is running. Reset the baseline after it finishes."
+msgstr "Hay una exploración en curso. Restablece la línea base cuando termine."
+
+#: includes/admin/class-actions.php:1005 includes/class-rest.php:378
+msgid "The file baseline was reset. The next scan records the current files as the new baseline."
+msgstr "Se ha restablecido la línea base de archivos. La próxima exploración registrará los archivos actuales como nueva línea base."
+
+#: includes/admin/class-actions.php:1011
+msgid "The file baseline is not part of this build of the scan engine yet."
+msgstr "La línea base de archivos todavía no forma parte de esta versión del motor de exploración."
+
+#: includes/admin/class-actions.php:1140
+msgid "Run a scan first; there are no results to send yet."
+msgstr "Ejecuta primero una exploración. Todavía no hay resultados que enviar."
+
+#. translators: %d: percent done.
+#: includes/admin/class-admin.php:250
+#: includes/admin/views/partials/header.php:79
+msgid "Scanning %d%%"
+msgstr "Explorando %d%%"
+
+#: includes/admin/class-admin.php:251 includes/admin/class-toolbar.php:170
+#: includes/admin/views/partials/header.php:82
+msgid "Scan now"
+msgstr "Explorar ahora"
+
+#: includes/admin/class-admin.php:255
+msgid "Scan finished. Updating the page…"
+msgstr "Exploración terminada. Actualizando la página…"
+
+#: includes/admin/class-admin.php:257
+msgid "Copied. Paste it into an email to your developer."
+msgstr "Copiado. Pégalo en un correo electrónico para tu desarrollador."
+
+#: includes/admin/class-admin.php:261
+msgid "Stop the scan? Checks that already finished keep their results."
+msgstr "¿Detener la exploración? Las comprobaciones que ya han terminado conservan sus resultados."
+
+#. translators: %d: number of files.
+#: includes/admin/class-present.php:404
+msgid "Malicious code found in %d PHP file"
+msgid_plural "Malicious code found in %d PHP files"
+msgstr[0] "Código malintencionado en %d archivo PHP"
+msgstr[1] "Código malintencionado en %d archivos PHP"
+
+#. translators: %d: number of files.
+#: includes/admin/class-present.php:407
+msgid "Malicious code found in %d JavaScript file"
+msgid_plural "Malicious code found in %d JavaScript files"
+msgstr[0] "Código malintencionado en %d archivo JavaScript"
+msgstr[1] "Código malintencionado en %d archivos JavaScript"
+
+#. translators: %d: number of accounts.
+#: includes/admin/class-present.php:574
+msgid "%d account has administrator powers without the role"
+msgid_plural "%d accounts have administrator powers without the role"
+msgstr[0] "%d cuenta tiene permisos de administrador sin tener ese perfil"
+msgstr[1] "%d cuentas tienen permisos de administrador sin tener ese perfil"
+
+#: includes/admin/class-present.php:744
+msgid "Open login protection"
+msgstr "Abrir protección de acceso"
+
+#: includes/admin/class-present.php:1128
+msgid "You can leave this page. The scan keeps running in the background."
+msgstr "Puedes salir de esta página. La exploración sigue ejecutándose en segundo plano."
+
+#: includes/admin/class-present.php:1135
+msgid "The first scan takes a few minutes and runs in the background. ShieldWave reads your files and settings; it never changes them."
+msgstr "La primera exploración tarda unos minutos y se ejecuta en segundo plano. ShieldWave lee tus archivos y ajustes, pero nunca los modifica."
+
+#: includes/admin/class-present.php:1201
+msgid "The last scan found nothing that needs your attention."
+msgstr "La última exploración no ha encontrado nada que requiera tu atención."
+
+#. translators: %s: time since the last scan, e.g. "5 minutes".
+#: includes/admin/class-present.php:1219 includes/admin/class-toolbar.php:125
+msgid "Last scan %s ago"
+msgstr "Última exploración hace %s"
+
+#: includes/admin/class-present.php:1229
+msgid "Automatic scans are off"
+msgstr "Las exploraciones automáticas están desactivadas"
+
+#. translators: %s: when the next scan runs, e.g. "tonight at 03:00".
+#: includes/admin/class-present.php:1236
+msgid "Next scan %s"
+msgstr "Próxima exploración %s"
+
+#: includes/admin/class-present.php:1268
+#: includes/admin/views/page-settings.php:42
+#: includes/admin/views/page-settings.php:87
+msgid "Automatic scans"
+msgstr "Exploraciones automáticas"
+
+#: includes/admin/class-present.php:1301
+#: includes/admin/views/page-settings.php:45
+#: includes/admin/views/page-settings.php:339
+msgid "Login protection"
+msgstr "Protección de acceso"
+
+#: includes/admin/class-present.php:1309
+#: includes/admin/views/page-settings.php:52
+#: includes/admin/views/page-settings.php:419
+msgid "Two-factor login"
+msgstr "Acceso en dos pasos"
+
+#. translators: 1: how long ago, e.g. "2 hours"; 2: number of rules; 3: number
+#. of known-bad file hashes.
+#: includes/admin/class-present.php:1441
+msgid "Updated %1$s ago · %2$s rules, %3$s known-bad files"
+msgstr "Actualizado hace %1$s · %2$s reglas, %3$s archivos malintencionados conocidos"
+
+#: includes/admin/class-present.php:1777
+msgid "Started from the ShieldWave dashboard"
+msgstr "Iniciado desde el panel de ShieldWave"
+
+#: includes/admin/class-present.php:1786
+msgid "Scan in progress"
+msgstr "Exploración en curso"
+
+#: includes/admin/class-present.php:1789
+msgid "Scan stopped before the end"
+msgstr "Exploración detenida antes de terminar"
+
+#: includes/admin/class-present.php:1793
+msgid "Scan did not finish"
+msgstr "La exploración no llegó a terminar"
+
+#: includes/admin/class-present.php:1798
+msgid "Scan from ShieldWave 3.0"
+msgstr "Exploración de ShieldWave 3.0"
+
+#. translators: 1: number of new problems, 2: number of fixed problems.
+#: includes/admin/class-present.php:1804
+msgid "Scan found %1$d new and %2$d fixed"
+msgstr "La exploración encontró %1$d nuevos y %2$d solucionados"
+
+#. translators: %d: number of new problems.
+#: includes/admin/class-present.php:1807
+msgid "Scan found %d new problem"
+msgid_plural "Scan found %d new problems"
+msgstr[0] "La exploración encontró %d problema nuevo"
+msgstr[1] "La exploración encontró %d problemas nuevos"
+
+#. translators: %d: number of fixed problems.
+#: includes/admin/class-present.php:1810
+msgid "Scan saw %d problem fixed"
+msgid_plural "Scan saw %d problems fixed"
+msgstr[0] "La exploración registró %d problema solucionado"
+msgstr[1] "La exploración registró %d problemas solucionados"
+
+#: includes/admin/class-present.php:1812
+msgid "Scan found no problems"
+msgstr "La exploración no encontró problemas"
+
+#: includes/admin/class-present.php:1814
+msgid "Scan found nothing new"
+msgstr "La exploración no encontró nada nuevo"
+
+#: includes/admin/class-toolbar.php:166
+msgid "Scan running…"
+msgstr "Exploración en curso…"
+
+#: includes/admin/class-toolbar.php:168
+#: includes/admin/views/page-overview.php:84
+msgid "Start the first scan"
+msgstr "Iniciar la primera exploración"
+
+#: includes/admin/views/page-history.php:34
+msgid "Scans"
+msgstr "Exploraciones"
+
+#: includes/admin/views/page-history.php:42
+msgid "Every scan, and the changes on your site that matter for security: new administrators, plugin and theme updates, settings."
+msgstr "Todas las exploraciones y los cambios en tu sitio que afectan a la seguridad: nuevos administradores, actualizaciones de plugins y temas, y ajustes."
+
+#: includes/admin/views/page-history.php:84
+msgid "Nothing here yet. Your first scan will show up here."
+msgstr "Todavía no hay nada. Tu primera exploración aparecerá aquí."
+
+#: includes/admin/views/page-overview.php:72
+msgid "Stop the scan"
+msgstr "Detener la exploración"
+
+#: includes/admin/views/page-overview.php:129
+msgid "Change the passwords of every administrator, your hosting account and the database, from a computer you trust."
+msgstr "Cambia las contraseñas de todos los administradores, de tu cuenta de alojamiento y de la base de datos, desde un ordenador de confianza."
+
+#: includes/admin/views/page-overview.php:171
+msgid "Your to-do list appears here after the first scan."
+msgstr "Tu lista de pendientes aparecerá aquí después de la primera exploración."
+
+#: includes/admin/views/page-overview.php:173
+msgid "Nothing to do. ShieldWave keeps checking and emails you if something changes."
+msgstr "Nada pendiente. ShieldWave sigue comprobando y te avisa por correo electrónico si algo cambia."
+
+#: includes/admin/views/page-settings.php:80
+msgid "The defaults suit most sites. Change what you need; each group saves on its own."
+msgstr "Los valores por defecto sirven para la mayoría de los sitios. Cambia lo que necesites. Cada grupo se guarda por separado."
+
+#: includes/admin/views/page-settings.php:88
+msgid "ShieldWave scans in the background, so visitors never notice."
+msgstr "ShieldWave explora en segundo plano y los visitantes no notan nada."
+
+#. translators: 1: when the next scan runs, 2: time zone name.
+#: includes/admin/views/page-settings.php:119
+msgid "Next scan %1$s (%2$s)."
+msgstr "Próxima exploración %1$s (%2$s)."
+
+#: includes/admin/views/page-settings.php:148
+msgid "One email when a scan finds something new and serious. Never twice for the same problem, and at most four a day."
+msgstr "Un correo electrónico cuando una exploración encuentra algo nuevo y grave. Nunca dos veces por el mismo problema y, como máximo, cuatro al día."
+
+#. translators: %s: the site's administration email address.
+#: includes/admin/views/page-settings.php:169
+msgid "Up to 5 addresses, separated by commas. Empty means the site's admin email, %s."
+msgstr "Hasta 5 direcciones, separadas por comas. Si lo dejas vacío, se usa el correo electrónico del administrador del sitio, %s."
+
+#: includes/admin/views/page-settings.php:201
+msgid "Email at once when someone becomes an administrator."
+msgstr "Enviar un correo electrónico en cuanto alguien se convierta en administrador."
+
+#: includes/admin/views/page-settings.php:208
+msgid "A short email every Monday, even when all is well."
+msgstr "Un correo electrónico breve cada lunes, incluso cuando todo va bien."
+
+#. translators: 1: how long ago; 2: number of rules; 3: known-bad hashes; 4:
+#. known-good hashes.
+#: includes/admin/views/page-settings.php:289
+msgid "Feed updated %1$s ago. %2$s rules, %3$s known-bad and %4$s known-good file signatures."
+msgstr "Fuente actualizada hace %1$s. %2$s reglas, %3$s firmas de archivos malintencionados conocidos y %4$s firmas de archivos seguros conocidos."
+
+#: includes/admin/views/page-settings.php:340
+msgid "Stop password-guessing attacks on your login, and stop handing out your user names. ShieldWave never changes a file or an account; it only refuses a bad login."
+msgstr "Detén los ataques que intentan adivinar contraseñas en el acceso a tu sitio y deja de revelar tus nombres de usuario. ShieldWave nunca modifica archivos ni cuentas: solo rechaza los accesos no válidos."
+
+#: includes/admin/views/page-settings.php:346
+msgid "Your site is behind a proxy; login protection sees the proxy's address, so one lockout would lock everyone. Set the trusted proxy below."
+msgstr "Tu sitio está detrás de un proxy. La protección de acceso ve la dirección del proxy, así que un solo bloqueo dejaría fuera a todo el mundo. Configura el proxy de confianza más abajo."
+
+#: includes/admin/views/page-settings.php:354
+msgid "Protect the login"
+msgstr "Proteger el acceso"
+
+#: includes/admin/views/page-settings.php:355
+msgid "After several failed logins from one address, lock that address out for a while. It also keeps your user names private: the login form stops confirming them, and the REST API, the sitemap and the ?author= trick stop giving them out to visitors who are not logged in."
+msgstr "Después de varios accesos fallidos desde una misma dirección, esa dirección se bloquea durante un tiempo. Además, mantiene en privado tus nombres de usuario: el formulario de acceso deja de confirmarlos, y la API REST, el mapa del sitio y el truco ?author= dejan de revelarlos a los visitantes que no han accedido."
+
+#: includes/admin/views/page-settings.php:420
+msgid "Ask for a one-time code from an authenticator app after the password. Someone who steals your password still cannot get in without your phone. ShieldWave never changes a file or an account; it only adds this second step."
+msgstr "Después de la contraseña, pide un código de un solo uso de una aplicación de identificación. Quien robe tu contraseña no podrá entrar sin tu teléfono. ShieldWave nunca modifica archivos ni cuentas: solo añade este segundo paso."
+
+#: includes/admin/views/page-settings.php:422
+msgid "This server does not have the sodium extension, so two-factor secrets are stored in plain text in the database rather than encrypted."
+msgstr "Este servidor no tiene la extensión sodium, así que los secretos de la identificación en dos pasos se guardan sin cifrar en la base de datos."
+
+#: includes/admin/views/page-settings.php:431
+msgid "Offer two-factor on this site"
+msgstr "Ofrecer identificación en dos pasos en este sitio"
+
+#: includes/admin/views/page-settings.php:432
+msgid "When on, you and your other administrators can each protect your own sign-in. Turning it off never removes anyone’s set-up."
+msgstr "Cuando está activada, cada administrador, tú incluido, puede proteger su propio acceso. Al desactivarla no se borra la configuración de nadie."
+
+#: includes/admin/views/page-settings.php:450
+msgid "Save these somewhere safe, like a password manager. Each one lets you sign in once if you lose your phone."
+msgstr "Guárdalos en un lugar seguro, como un gestor de contraseñas. Cada uno te permite acceder una vez si pierdes el teléfono."
+
+#: includes/admin/views/page-settings.php:464
+msgid "Two-factor is on for your account"
+msgstr "La identificación en dos pasos está activada en tu cuenta"
+
+#: includes/admin/views/page-settings.php:492
+msgid "Turn off two-factor for your account?"
+msgstr "¿Desactivar la identificación en dos pasos en tu cuenta?"
+
+#: includes/admin/views/page-settings.php:504
+msgid "Open an authenticator app (Google Authenticator, Authy, 1Password, Microsoft Authenticator) and choose <strong>Enter a setup key</strong> (sometimes called “Manual entry”)."
+msgstr "Abre una aplicación de identificación (Google Authenticator, Authy, 1Password, Microsoft Authenticator) y elige <strong>Introducir clave de configuración</strong> (a veces se llama «Entrada manual»)."
+
+#: includes/admin/views/page-settings.php:517
+#: includes/class-two-factor.php:1290 includes/class-two-factor.php:1742
+msgid "Authentication code"
+msgstr "Código de identificación"
+
+#: includes/admin/views/page-settings.php:536
+msgid "Two-factor is off for your account"
+msgstr "La identificación en dos pasos está desactivada en tu cuenta"
+
+#: includes/admin/views/page-settings.php:574
+msgid "Removes the plugin and theme code editor from the dashboard, so a stolen administrator password cannot be used to plant code through it. Updates and installs keep working."
+msgstr "Quita el editor de código de plugins y temas del escritorio, para que nadie pueda usar una contraseña de administrador robada para meter código desde ahí. Las actualizaciones y las instalaciones siguen funcionando."
+
+#: includes/admin/views/page-settings.php:642
+msgid "Scan speed"
+msgstr "Velocidad de la exploración"
+
+#: includes/admin/views/page-settings.php:662
+msgid "The dark bar at the top of the dashboard, and of your site while you are logged in."
+msgstr "La barra oscura de la parte superior del escritorio y de tu sitio cuando has accedido."
+
+#: includes/admin/views/page-settings.php:744
+#: includes/admin/views/page-settings.php:749
+msgid "Results are sent after the next scan."
+msgstr "Los resultados se enviarán después de la próxima exploración."
+
+#: includes/admin/views/page-settings.php:797
+msgid "Send results after each scan"
+msgstr "Enviar resultados después de cada exploración"
+
+#: includes/admin/views/page-settings.php:813
+msgid "Never: posts, pages, comments, passwords, or the names and emails of administrator accounts."
+msgstr "Nunca: entradas, páginas, comentarios, contraseñas ni los nombres y correos electrónicos de las cuentas de administrador."
+
+#: includes/admin/views/page-settings.php:814
+msgid "Nothing comes back from ShieldWave that changes a setting or starts a scan on this site; the dashboard is read-only."
+msgstr "Desde ShieldWave nunca llega nada que cambie un ajuste o inicie una exploración en este sitio. El panel es de solo lectura."
+
+#: includes/admin/views/page-settings.php:832
+msgid "Start the file history over? The next scan accepts every file as it is now, including any that should not be there."
+msgstr "¿Reiniciar el historial de archivos? La próxima exploración aceptará todos los archivos tal como están ahora, incluidos los que no deberían estar ahí."
+
+#: includes/admin/views/partials/ai-verdict.php:28
+msgid "The AI thinks this is malicious"
+msgstr "La IA cree que esto es malintencionado"
+
+#: includes/checks/class-admin-accounts.php:171
+msgid "Create a new administrator with a less obvious login, log in as that user, and delete the old account (WordPress lets you give its content to the new user)."
+msgstr "Crea un nuevo administrador con un nombre de usuario menos obvio, accede con él y borra la cuenta antigua (WordPress te permite atribuir su contenido al nuevo usuario)."
+
+#: includes/checks/class-admin-accounts.php:317
+msgid "Account has administrator powers without the Administrator role"
+msgstr "La cuenta tiene permisos de administrador sin el perfil de administrador"
+
+#: includes/checks/class-content-injection.php:587
+msgid "Scans posts, pages, widgets and site options for injected scripts, hidden iframes, hidden spam links and raw PHP saved as content."
+msgstr "Explora entradas, páginas, widgets y opciones del sitio en busca de scripts inyectados, iframes ocultos, enlaces de spam ocultos y código PHP en bruto guardado como contenido."
+
+#: includes/checks/class-content-injection.php:756
+msgid "This is a multisite network: only the main site was scanned in this version."
+msgstr "Esta es una red multisitio: en esta versión solo se exploró el sitio principal."
+
+#: includes/checks/class-content-injection.php:777
+msgid "Scanning posts and pages for injected content"
+msgstr "Explorando entradas y páginas en busca de contenido inyectado"
+
+#: includes/checks/class-content-injection.php:1335
+msgid "Scanning widgets and site options for injected content"
+msgstr "Explorando widgets y opciones del sitio en busca de contenido inyectado"
+
+#. translators: %s: file path.
+#: includes/checks/class-file-changes.php:728
+msgid "%s is a PHP file that was not there the last time this site was scanned."
+msgstr "%s es un archivo PHP que no estaba la última vez que se exploró este sitio."
+
+#. translators: %s: file path.
+#: includes/checks/class-file-changes.php:735
+msgid "%s changed since the last scan, without a matching plugin or theme update."
+msgstr "%s ha cambiado desde la última exploración sin una actualización de plugin o tema que lo justifique."
+
+#. translators: %s: file path.
+#: includes/checks/class-file-changes.php:745
+msgid "%s changed since the last scan."
+msgstr "%s ha cambiado desde la última exploración."
+
+#: includes/checks/class-file-editor.php:37
+msgid "Checks whether administrators can edit plugin and theme PHP files from the dashboard."
+msgstr "Comprueba si los administradores pueden editar archivos PHP de plugins y temas desde el escritorio."
+
+#: includes/checks/class-https.php:35
+msgid "Checks that the site address, the WordPress address and the login use HTTPS."
+msgstr "Comprueba que la dirección del sitio, la dirección de WordPress y el acceso usan HTTPS."
+
+#: includes/checks/class-https.php:142
+msgid "Login and dashboard are not served over HTTPS"
+msgstr "El acceso y el escritorio no usan HTTPS"
+
+#: includes/checks/class-https.php:144
+msgid "The login page and the dashboard are served over plain HTTP, so passwords and login cookies can be read on the network."
+msgstr "La página de acceso y el escritorio se sirven por HTTP sin cifrar, así que las contraseñas y las cookies de sesión se pueden leer en la red."
+
+#: includes/checks/class-https.php:166
+msgid "The site and the dashboard use HTTPS."
+msgstr "El sitio y el escritorio usan HTTPS."
+
+#: includes/checks/class-malware.php:141
+msgid "Malware scan"
+msgstr "Exploración de malware"
+
+#. translators: 1: number of files analyzed, 2: number found malicious, 3:
+#. number found suspicious.
+#: includes/checks/class-malware.php:267
+msgid "Analyzed %1$s files: %2$s malicious, %3$s suspicious."
+msgstr "Se analizaron %1$s archivos: %2$s malintencionados, %3$s sospechosos."
+
+#: includes/checks/class-malware.php:995
+msgid "A malicious rule was found in a server configuration file"
+msgstr "Hay una regla malintencionada en un archivo de configuración del servidor"
+
+#: includes/checks/class-malware.php:997
+msgid "Malicious code found in a JavaScript file"
+msgstr "Código malintencionado en un archivo JavaScript"
+
+#: includes/checks/class-malware.php:998
+msgid "Malicious code found in a PHP file"
+msgstr "Código malintencionado en un archivo PHP"
+
+#. translators: %s: file path.
+#: includes/checks/class-malware.php:1259
+msgid "%s matches a file known to be malicious."
+msgstr "%s coincide con un archivo malintencionado conocido."
+
+#. translators: 1: file path, 2: what the matching rule looks for.
+#: includes/checks/class-malware.php:1263
+msgid "%1$s matches a pattern known to be malicious: %2$s."
+msgstr "%1$s coincide con un patrón malintencionado conocido: %2$s."
+
+#: includes/checks/class-registration.php:66
+msgid "If anyone can register, checks what the default role for new users is allowed to do."
+msgstr "Si cualquiera puede registrarse, comprueba qué puede hacer el perfil por defecto de los nuevos usuarios."
+
+#: includes/checks/class-registration.php:112
+msgid "Default role for new users does not exist"
+msgstr "El perfil por defecto de los nuevos usuarios no existe"
+
+#: includes/checks/class-registration.php:119
+msgid "Go to Settings > General and pick an existing role for new users, usually Subscriber."
+msgstr "Ve a Ajustes > Generales y elige un perfil existente para los nuevos usuarios, normalmente Suscriptor."
+
+#. translators: %s: role name.
+#: includes/checks/class-registration.php:125
+msgid "Anyone can register; the configured default role \"%s\" does not exist."
+msgstr "Cualquiera puede registrarse, pero el perfil por defecto configurado, «%s», no existe."
+
+#. translators: %s: role name.
+#: includes/checks/class-registration.php:181
+msgid "Anyone can register; new users get the %s role."
+msgstr "Cualquiera puede registrarse y los nuevos usuarios reciben el perfil %s."
+
+#: includes/checks/class-rest-users.php:40
+msgid "Checks whether the REST API reveals your user account names to anyone who is not logged in."
+msgstr "Comprueba si la API REST revela los nombres de tus cuentas de usuario a cualquiera que no haya accedido."
+
+#. translators: %s: URL of the WordPress.org salt generator.
+#: includes/checks/class-wp-config.php:93
+msgid "Replace this line in wp-config.php with a fresh one from %s. Everyone will have to log in again."
+msgstr "Sustituye esta línea en wp-config.php por una nueva de %s. Todo el mundo tendrá que volver a acceder."
+
+#: includes/checks/class-xml-rpc.php:106
+msgid "XML-RPC login is turned off in WordPress. (The site could not reach its own xmlrpc.php to confirm.)"
+msgstr "El acceso por XML-RPC está desactivado en WordPress. (El sitio no pudo acceder a su propio xmlrpc.php para confirmarlo.)"
+
+#: includes/checks/class-xml-rpc.php:127
+msgid "ShieldWave keeps XML-RPC off: xmlrpc.php offers no WordPress methods, so nothing can log in or send a pingback through it."
+msgstr "ShieldWave mantiene XML-RPC desactivado: xmlrpc.php no ofrece ningún método de WordPress, así que nada puede acceder ni enviar un pingback a través de él."
+
+#. translators: 1: IP address, 2: number of attempts, 3: cooldown minutes.
+#: includes/class-activity.php:870
+msgid "Blocked an address after %2$d failed logins (%1$s); locked for %3$d minutes."
+msgstr "Se bloqueó una dirección tras %2$d accesos fallidos (%1$s). Bloqueada durante %3$d minutos."
+
+#. translators: 1: IP address, 2: number of times locked in the last hour, 3:
+#. number of attempts, 4: cooldown minutes.
+#: includes/class-activity.php:878
+msgid "Blocked an address %2$d time in the last hour (%1$s), %3$d failed logins each time; locked for %4$d minutes."
+msgid_plural "Blocked an address %2$d times in the last hour (%1$s), %3$d failed logins each time; locked for %4$d minutes."
+msgstr[0] "Se bloqueó una dirección %2$d vez en la última hora (%1$s), con %3$d accesos fallidos cada vez. Bloqueada durante %4$d minutos."
+msgstr[1] "Se bloqueó una dirección %2$d veces en la última hora (%1$s), con %3$d accesos fallidos cada vez. Bloqueada durante %4$d minutos."
+
+#: includes/class-alerts.php:210
+msgid "If you or your team did this, there is nothing to do. If not, remove the account at once, change every administrator password and run a scan."
+msgstr "Si tú o tu equipo hicisteis esto, no hay nada que hacer. Si no, borra la cuenta de inmediato, cambia todas las contraseñas de administrador y ejecuta una exploración."
+
+#: includes/class-alerts.php:456
+msgid "Here is where your site stands, from the scans ShieldWave ran in the last seven days."
+msgstr "Así está tu sitio, según las exploraciones que ha hecho ShieldWave en los últimos siete días."
+
+#: includes/class-alerts.php:460
+msgid "No scan yet"
+msgstr "Todavía no hay ninguna exploración"
+
+#: includes/class-alerts.php:463
+msgid "Scans this week"
+msgstr "Exploraciones de esta semana"
+
+#: includes/class-alerts.php:503
+msgid "This is a test from ShieldWave Security. Real alerts look like this and arrive only when a scheduled scan finds something new and serious, or when an account becomes administrator."
+msgstr "Este es un correo electrónico de prueba de ShieldWave Security. Las alertas reales tienen este aspecto y solo llegan cuando una exploración programada encuentra algo nuevo y grave, o cuando una cuenta pasa a ser administrador."
+
+#: includes/class-alerts.php:508
+msgid "You get this email because someone pressed \"Send a test email\" in ShieldWave > Settings."
+msgstr "Recibes este correo electrónico porque alguien pulsó «Enviar un correo de prueba» en ShieldWave > Ajustes."
+
+#. translators: 1: site address, 2: score out of 100.
+#: includes/class-alerts.php:576
+msgid "The latest scan of %1$s finished with a score of %2$d/100. These are new since the last email:"
+msgstr "La última exploración de %1$s terminó con una puntuación de %2$d/100. Novedades desde el último correo electrónico:"
+
+#: includes/class-alerts.php:611
+msgid "You get this email because scheduled scans and email alerts are on in ShieldWave > Settings. ShieldWave emails only about issues that are new or got worse, never twice about the same one."
+msgstr "Recibes este correo electrónico porque las exploraciones programadas y las alertas por correo electrónico están activados en ShieldWave > Ajustes. ShieldWave solo avisa por correo electrónico de incidencias nuevas o que han empeorado, nunca dos veces de la misma."
+
+#. translators: %s: error message from WordPress.
+#: includes/class-cloud.php:1851
+msgid "Could not reach ShieldWave: %s. The results are saved here; they will be sent after the next scan."
+msgstr "No se pudo contactar con ShieldWave: %s. Los resultados se guardan aquí y se enviarán después de la próxima exploración."
+
+#: includes/class-cloud.php:1856
+msgid "ShieldWave asked the plugin to slow down. The results will be sent after the next scan."
+msgstr "ShieldWave ha pedido al plugin que reduzca el ritmo. Los resultados se enviarán después de la próxima exploración."
+
+#. translators: %d: minutes until the lock lifts.
+#: includes/class-login-guard.php:743
+msgid "<strong>Too many failed logins.</strong> Please try again in %d minute."
+msgid_plural "<strong>Too many failed logins.</strong> Please try again in %d minutes."
+msgstr[0] "<strong>Demasiados accesos fallidos.</strong> Inténtalo de nuevo dentro de %d minuto."
+msgstr[1] "<strong>Demasiados accesos fallidos.</strong> Inténtalo de nuevo dentro de %d minutos."
+
+#. translators: 1: user login, 2: how (e.g. "WP-CLI").
+#: includes/class-monitor.php:411
+msgid "%1$s was made super admin with no one signed in (%2$s)."
+msgstr "%1$s pasó a ser superadministrador sin que nadie hubiera accedido (%2$s)."
+
+#. translators: 1: user login, 2: how (e.g. "WP-CLI").
+#: includes/class-monitor.php:413
+msgid "%1$s became an administrator with no one signed in (%2$s)."
+msgstr "%1$s pasó a ser administrador sin que nadie hubiera accedido (%2$s)."
+
+#: includes/class-monitor.php:501
+msgid "the dashboard"
+msgstr "el escritorio"
+
+#: includes/class-monitor.php:503
+msgid "a front-end request"
+msgstr "una solicitud de la vista pública del sitio"
+
+#. translators: 1: score out of 100, 2: number of open issues, 3: number of new
+#. issues.
+#: includes/class-runner.php:503
+msgid "Scan finished: score %1$d/100, %2$d open issues, %3$d new."
+msgstr "Exploración terminada: puntuación %1$d/100, %2$d incidencias pendientes, %3$d nuevas."
+
+#: includes/class-runner.php:549
+msgid "A scan stopped making progress and was closed. Checks that finished kept their results."
+msgstr "Una exploración dejó de avanzar y se cerró. Las comprobaciones que terminaron conservan sus resultados."
+
+#: includes/class-runner.php:550
+msgid "The scan was cancelled. Checks that finished kept their results."
+msgstr "Se canceló la exploración. Las comprobaciones que terminaron conservan sus resultados."
+
+#: includes/class-runner.php:763
+msgid "Scheduled scan started."
+msgstr "Exploración programada iniciada."
+
+#. translators: %s: user display name.
+#: includes/class-runner.php:768
+msgid "Scan started by %s."
+msgstr "Exploración iniciada por %s."
+
+#: includes/class-runner.php:769
+msgid "Scan started."
+msgstr "Exploración iniciada."
+
+#: includes/class-settings.php:567
+msgid "scan schedule"
+msgstr "programación de la exploración"
+
+#: includes/class-settings.php:568
+msgid "scan time"
+msgstr "hora de la exploración"
+
+#: includes/class-settings.php:577
+msgid "login protection"
+msgstr "protección de acceso"
+
+#: includes/class-settings.php:578
+msgid "login attempt limit"
+msgstr "límite de intentos de acceso"
+
+#: includes/class-settings.php:579
+msgid "login lockout time"
+msgstr "tiempo de bloqueo de acceso"
+
+#: includes/class-settings.php:587
+msgid "two-factor authentication"
+msgstr "identificación en dos pasos"
+
+#: includes/class-settings.php:605
+msgid "scan speed"
+msgstr "velocidad de la exploración"
+
+#: includes/class-two-factor.php:234
+msgid "The sign-in took too long, so it was stopped. Please sign in again."
+msgstr "El acceso ha tardado demasiado y se ha detenido. Vuelve a acceder."
+
+#: includes/class-two-factor.php:558
+msgid "Two-factor authentication turned off for an account."
+msgstr "Se desactivó la identificación en dos pasos para una cuenta."
+
+#: includes/class-two-factor.php:737
+msgid "This account uses two-factor login. Sign in on the login page, or use an application password in apps."
+msgstr "Esta cuenta usa el acceso en dos pasos. Accede en la página de acceso o usa una contraseña de aplicación en las aplicaciones."
+
+#: includes/class-two-factor.php:1002
+msgid "This account uses two-factor login. Sign in on the login page."
+msgstr "Esta cuenta usa el acceso en dos pasos. Accede en la página de acceso."
+
+#: includes/class-two-factor.php:1220
+msgid "The stored two-factor secret could not be read; a recovery code is needed until it is set up again."
+msgstr "No se pudo leer el secreto guardado de la identificación en dos pasos. Hace falta un código de recuperación hasta que se vuelva a configurar."
+
+#: includes/class-two-factor.php:1277
+msgid "Two-factor authentication"
+msgstr "Identificación en dos pasos"
+
+#: includes/class-two-factor.php:2315 includes/class-two-factor.php:2317
+msgid "Wrong two-factor codes were entered for your account"
+msgstr "Se han introducido códigos de identificación en dos pasos incorrectos en tu cuenta"
+
+#: includes/class-two-factor.php:2329 includes/class-two-factor.php:2366
+#: includes/class-two-factor.php:2399
+msgid "You get this email because your account uses two-factor authentication."
+msgstr "Recibes este correo electrónico porque tu cuenta usa la identificación en dos pasos."
+
+#: includes/engine/class-signatures.php:774
+msgid "Calling eval to re-enter HTML output (the \"?>\" trick) is a known way to resume printing a template from inside PHP. It is unusual but, alone, not proof of anything malicious."
+msgstr "Llamar a eval para volver a la salida HTML (el truco de «?>») es una forma conocida de reanudar la impresión de una plantilla desde dentro de PHP. Es poco habitual, pero por sí solo no demuestra nada malintencionado."
+
+#: includes/engine/class-signatures.php:917
+msgid "This file matches the banner text of a script sold to send bulk spam and phishing email from a compromised server, unrelated to anything WordPress needs to send mail."
+msgstr "Este archivo coincide con el texto de cabecera de un script que se vende para enviar spam y correos electrónicos de suplantación de identidad masivos desde un servidor comprometido, sin relación con nada que WordPress necesite para enviar correo electrónico."
+
+#: includes/engine/class-signatures.php:948
+msgid "Code that creates a user or grants the administrator role only when a particular $_GET, $_POST, $_REQUEST or cookie value is present is a standard WordPress backdoor: visiting one URL with the right parameter creates an administrator account."
+msgstr "El código que crea un usuario u otorga el perfil de administrador solo cuando está presente un valor concreto de $_GET, $_POST, $_REQUEST o una cookie es una puerta trasera típica de WordPress: visitar una URL con el parámetro correcto crea una cuenta de administrador."
+
+#: includes/engine/class-signatures.php:969
+msgid "Signs a visitor in when a secret request parameter is present"
+msgstr "Hace que un visitante acceda cuando la solicitud lleva un parámetro secreto"
+
+#: includes/engine/class-signatures.php:970
+msgid "Code that sets the logged-in cookie only when a particular $_GET, $_POST, $_REQUEST or cookie value is present lets anyone who knows that value log in as any user without a password."
+msgstr "El código que establece la cookie de sesión iniciada solo cuando está presente un valor concreto de $_GET, $_POST, $_REQUEST o una cookie permite que cualquiera que conozca ese valor acceda como cualquier usuario sin contraseña."
+
+#: includes/engine/class-signatures.php:980
+msgid "Rewriting the user query on the pre_user_query hook to exclude a specific account keeps it off the Users screen entirely. Role-management plugins have legitimate reasons to filter that list; if you do not use one, treat this as a hidden account."
+msgstr "Reescribir la consulta de usuarios en el gancho pre_user_query para excluir una cuenta concreta la mantiene completamente fuera de la pantalla de Usuarios. Los plugins de gestión de perfiles tienen motivos legítimos para filtrar esa lista. Si no usas ninguno, trátalo como una cuenta oculta."
+
+#: includes/engine/class-signatures.php:1020
+msgid "Filtering the all_plugins list to remove an entry keeps a plugin installed and running while hiding it from the dashboard, so it cannot be noticed or deactivated in the normal way."
+msgstr "Filtrar la lista all_plugins para quitar una entrada mantiene un plugin instalado y en funcionamiento mientras lo oculta en el escritorio, así que no se puede ver ni desactivar de la forma habitual."
+
+#: includes/admin/views/page-settings.php:248
+msgid "Every hour, fetches new malware rules and known-bad file signatures from shieldwave.io, signed with a key built into the plugin, so detection can improve without a plugin update. It can also list files that were rated safe on at least three sites, and those stop being reported here."
+msgstr "Cada hora descarga de shieldwave.io nuevas reglas de malware y firmas de archivos malintencionados conocidos, firmadas con una clave integrada en el plugin, para que la detección mejore sin actualizar el plugin. También puede incluir archivos que se han valorado como seguros en al menos tres sitios, y esos dejan de notificarse aquí."
+
+#. translators: 1: role name, 2: comma-separated capability names.
+#: includes/checks/class-registration.php:145
+msgid "Anyone can register, and new users become %1$s, a role that controls the site. It can: %2$s."
+msgstr "Cualquiera puede registrarse y los nuevos usuarios reciben el perfil %1$s, que controla el sitio. Puede: %2$s."
+
+#: includes/class-two-factor.php:1254
+msgid "A sign-in passed two-factor authentication."
+msgstr "Un acceso ha superado la identificación en dos pasos."
+
+#: includes/admin/class-actions.php:757
+msgid "Add the key to your authenticator app, then enter the 6-digit code it shows and your password to finish."
+msgstr "Añade la clave a tu aplicación de identificación y, para terminar, introduce el código de 6 dígitos que te muestre y tu contraseña."
+
+#. translators: %s: folder path, e.g. wp-content/plugins/my-plugin.
+#: includes/checks/class-file-changes.php:465
+msgid "The folder %s appeared since the last scan, and WordPress did not install it (it was not added through Plugins > Add Plugin or a ZIP upload). Plugins and themes copied over FTP or by a deployment tool look like this. If nobody on your team added it, look at what it contains."
+msgstr "La carpeta %s ha aparecido desde la última exploración y WordPress no la instaló (no se añadió desde Plugins > Añadir plugin ni subiendo un ZIP). Así aparecen los plugins y temas copiados por FTP o con una herramienta de despliegue. Si nadie de tu equipo la añadió, mira qué contiene."
+
+#: includes/checks/class-admin-accounts.php:297
+msgid "Every administrator account can change the whole site. Give people the lowest role that lets them do their work (Editor, Author, Shop Manager) and remove administrators who no longer need it."
+msgstr "Cada cuenta de administrador puede cambiar todo el sitio. Da a cada persona el perfil más bajo con el que pueda hacer su trabajo (Editor, Autor, Gestor de la tienda) y elimina a los administradores que ya no lo necesiten."
+
+#: includes/checks/class-rest-users.php:180
+msgid "Login protection is on, yet the user list is still public, so something on the site keeps it open: a theme or plugin that turns off the shieldwave_hide_user_list filter, or one that serves its own list of users. Ask your developer to check. A username slug alone does not let anyone in, but it often matches the login name, which makes password guessing easier."
+msgstr "La protección de acceso está activada, pero la lista de usuarios sigue siendo pública, así que algo en el sitio la mantiene abierta: un tema o plugin que desactiva el filtro shieldwave_hide_user_list, o uno que ofrece su propia lista de usuarios. Pide a tu desarrollador que lo revise. Un slug de usuario por sí solo no deja entrar a nadie, pero a menudo coincide con el nombre de usuario, lo que facilita adivinar contraseñas."

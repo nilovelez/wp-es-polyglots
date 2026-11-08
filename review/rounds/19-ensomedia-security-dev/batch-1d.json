@@ -1,0 +1,14 @@
+[
+{"n": 621, "verdict": "reject", "replace": [["tenga permiso de escritura", "tenga permisos de escritura"]], "comment": "Según el glosario, «writable» es «tener permisos de escritura»."},
+{"n": 632, "verdict": "reject", "replace": [["desde el análisis anterior", "desde la exploración anterior"]], "comment": "Según el glosario, «scan» es «exploración» (o «explorar»)."},
+{"n": 633, "verdict": "reject", "replace": [["las empresas de hosting", "las empresas de alojamiento"]], "comment": "Según el glosario, «hosting» es «alojamiento»."},
+{"n": 661, "verdict": "reject", "replace": [["Cada análisis lo vuelve a comprobar", "Cada exploración lo vuelve a comprobar"]], "comment": "Según el glosario, «scan» es «exploración» (o «explorar»)."},
+{"n": 682, "verdict": "reject", "replace": [["el rol predeterminado «%s»", "el perfil por defecto «%s»"]], "comment": "Según el glosario, «role» es «perfil» y «default» es «por defecto»."},
+{"n": 683, "verdict": "reject", "replace": [["ningún rol", "ningún perfil"], ["el rol predeterminado de un sitio", "el perfil por defecto de un sitio"]], "comment": "Según el glosario, «role» es «perfil» y «default» es «por defecto». No se usa «rol»."},
+{"n": 684, "verdict": "reject", "replace": [["este rol", "este perfil"]], "comment": "Según el glosario, «role» es «perfil». No se usa «rol»."},
+{"n": 687, "verdict": "reject", "replace": [["que no haya iniciado sesión", "que no haya accedido"]], "comment": "Según el glosario, «log in» se traduce como «acceder». No se usa «iniciar sesión»."},
+{"n": 688, "verdict": "reject", "replace": [["que no han iniciado sesión", "que no han accedido"]], "comment": "Según el glosario, «log in» se traduce como «acceder». No se usa «iniciar sesión»."},
+{"n": 690, "verdict": "reject", "replace": [["que no han iniciado sesión", "que no han accedido"]], "comment": "Según el glosario, «log in» se traduce como «acceder». No se usa «iniciar sesión»."},
+{"n": 703, "verdict": "reject", "replace": [["ejecuta un análisis completo", "ejecuta una exploración completa"]], "comment": "Según el glosario, «scan» es «exploración» (o «explorar»)."},
+{"n": 705, "verdict": "reject", "replace": [["ejecuta un análisis completo", "ejecuta una exploración completa"]], "comment": "Según el glosario, «scan» es «exploración» (o «explorar»)."}
+]

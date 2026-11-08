@@ -1,0 +1,1540 @@
+[
+{
+"n": 88,
+"verdict": "reject",
+"replace": [
+[
+"Inicio de sesión",
+"Acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 117,
+"verdict": "reject",
+"replace": [
+[
+"inicios de sesión",
+"accesos"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 153,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 182,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 184,
+"verdict": "reject",
+"replace": [
+[
+"Inicios de sesión",
+"Accesos"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 206,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 207,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 210,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 397,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 447,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 458,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 510,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 520,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 527,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 535,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 538,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 539,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 545,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 547,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 555,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 556,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 571,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 572,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 645,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 646,
+"verdict": "reject",
+"replace": [
+[
+"inicios de sesión",
+"accesos"
+],
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 647,
+"verdict": "reject",
+"replace": [
+[
+"inicios de sesión",
+"accesos"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 648,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 649,
+"verdict": "reject",
+"replace": [
+[
+"inicios de sesión",
+"accesos"
+],
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 650,
+"verdict": "reject",
+"replace": [
+[
+"inicios de sesión",
+"accesos"
+],
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 652,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 664,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 665,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 666,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 690,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 733,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 775,
+"verdict": "reject",
+"replace": [
+[
+"Inicio de sesión",
+"Acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 776,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 778,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 780,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 781,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 782,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 813,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 821,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 836,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 842,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 847,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 854,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 855,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 880,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 883,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 924,
+"verdict": "reject",
+"replace": [
+[
+"Inicio de sesión",
+"Acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 925,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 926,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 927,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 941,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 942,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 966,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 967,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 968,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 969,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 974,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 975,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 976,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 977,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 1040,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 1041,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 1042,
+"verdict": "reject",
+"replace": [
+[
+"inicios de sesión",
+"accesos"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 1047,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 1048,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 1054,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 1055,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 1056,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 1057,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 1058,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 1064,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 1065,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 1066,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 1071,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 1073,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 1074,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 1077,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 1079,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 1081,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 1082,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 1083,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 1099,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 1102,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 1153,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 1154,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 1160,
+"verdict": "reject",
+"replace": [
+[
+"Inicios de sesión",
+"Accesos"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 1161,
+"verdict": "reject",
+"replace": [
+[
+"Inicios de sesión",
+"Accesos"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 1164,
+"verdict": "reject",
+"replace": [
+[
+"inicios de sesión",
+"accesos"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 1165,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 1166,
+"verdict": "reject",
+"replace": [
+[
+"inicios de sesión",
+"accesos"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 1167,
+"verdict": "reject",
+"replace": [
+[
+"Inicios de sesión",
+"Accesos"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 1170,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 1172,
+"verdict": "reject",
+"replace": [
+[
+"inicios de sesión",
+"accesos"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 1173,
+"verdict": "reject",
+"replace": [
+[
+"inicios de sesión",
+"accesos"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 1175,
+"verdict": "reject",
+"replace": [
+[
+"Inicios de sesión",
+"Accesos"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 1184,
+"verdict": "reject",
+"replace": [
+[
+"inicios de sesión",
+"accesos"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 1185,
+"verdict": "reject",
+"replace": [
+[
+"inicios de sesión",
+"accesos"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 1186,
+"verdict": "reject",
+"replace": [
+[
+"inicios de sesión",
+"accesos"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 1203,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 1219,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 1220,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 1221,
+"verdict": "reject",
+"replace": [
+[
+"inicios de sesión",
+"accesos"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 1224,
+"verdict": "reject",
+"replace": [
+[
+"Inicios de sesión",
+"Accesos"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 1225,
+"verdict": "reject",
+"replace": [
+[
+"inicios de sesión",
+"accesos"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 1229,
+"verdict": "reject",
+"replace": [
+[
+"inicios de sesión",
+"accesos"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 1231,
+"verdict": "reject",
+"replace": [
+[
+"inicios de sesión",
+"accesos"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 1270,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 1286,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 1287,
+"verdict": "reject",
+"replace": [
+[
+"Inicio de sesión",
+"Acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 1297,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 2062,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 2063,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 2109,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 2123,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 2124,
+"verdict": "reject",
+"replace": [
+[
+"Inicio de sesión",
+"Acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 2171,
+"verdict": "reject",
+"replace": [
+[
+"inicios de sesión",
+"accesos"
+],
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 2172,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 2173,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 2174,
+"verdict": "reject",
+"replace": [
+[
+"inicios de sesión",
+"accesos"
+],
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 2181,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 2283,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 2285,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 2347,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 2352,
+"verdict": "reject",
+"replace": [
+[
+"inicios de sesión",
+"accesos"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 2353,
+"verdict": "reject",
+"replace": [
+[
+"inicios de sesión",
+"accesos"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 2386,
+"verdict": "reject",
+"replace": [
+[
+"inicios de sesión",
+"accesos"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 2407,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 2408,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 2409,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 2412,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 2414,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 2415,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 2460,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+},
+{
+"n": 2467,
+"verdict": "reject",
+"replace": [
+[
+"inicio de sesión",
+"acceso"
+]
+],
+"comment": "Según el glosario, «login» es «acceso» (sustantivo). Se usa «acceso» en todo el plugin."
+}
+]

@@ -1,0 +1,13 @@
+[
+{"n": 2442, "verdict": "reject", "replace": [["otorga el rol de administrador", "otorga el perfil de administrador"]], "comment": "Según el glosario, «role» es «perfil». No se usa «rol»."},
+{"n": 2443, "verdict": "reject", "replace": [["Inicia la sesión de un visitante", "Hace que un visitante acceda"]], "comment": "Según el glosario, «sign in» es «acceder». No se usa «iniciar sesión»."},
+{"n": 2444, "verdict": "reject", "replace": [["inicie sesión como cualquier usuario", "acceda como cualquier usuario"]], "comment": "Según el glosario, «log in» se traduce como «acceder». No se usa «iniciar sesión»."},
+{"n": 2445, "verdict": "reject", "replace": [["en el hook pre_user_query", "en el gancho pre_user_query"], ["de gestión de roles", "de gestión de perfiles"]], "comment": "Según el glosario, «hook» es «gancho» y «role» es «perfil»."},
+{"n": 2446, "verdict": "reject", "replace": [["en el área de administración", "en el escritorio"]], "comment": "Según el glosario, «dashboard» es «escritorio»."},
+{"n": 2454, "verdict": "reject", "replace": [["archivos maliciosos conocidos", "archivos malintencionados conocidos"]], "comment": "Según el glosario, «malicious» es «malintencionado»."},
+{"n": 2457, "verdict": "reject", "replace": [["reciben el rol %1$s", "reciben el perfil %1$s"]], "comment": "Según el glosario, «role» es «perfil». No se usa «rol»."},
+{"n": 2460, "verdict": "reject", "replace": [["superó la autenticación en dos pasos", "superó la identificación en dos pasos"]], "comment": "Según el glosario, «two-factor authentication» es «identificación en dos pasos»."},
+{"n": 2461, "verdict": "reject", "replace": [["tu aplicación de autenticación", "tu aplicación de identificación"]], "comment": "El criterio del equipo para «authentication» es «identificación», no «autenticación»."},
+{"n": 2464, "verdict": "reject", "replace": [["desde el último análisis", "desde la última exploración"]], "comment": "Según el glosario, «scan» es «exploración» (o «explorar»)."},
+{"n": 2465, "verdict": "reject", "replace": [["el rol más bajo", "el perfil más bajo"]], "comment": "Según el glosario, «role» es «perfil». No se usa «rol»."}
+]

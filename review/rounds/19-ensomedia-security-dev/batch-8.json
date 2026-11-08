@@ -1,0 +1,23 @@
+[
+{"n": 1326, "verdict": "reject", "replace": [["tu escritorio de shieldwave.io", "tu panel de shieldwave.io"]], "comment": ""},
+{"n": 1479, "verdict": "reject", "replace": [["y el escritorio llegan", "y el panel llegan"], ["ajustes del escritorio.", "ajustes del panel."]], "comment": ""},
+{"n": 1505, "verdict": "reject", "replace": [["En tu escritorio", "En tu panel"]], "comment": ""},
+{"n": 1508, "verdict": "reject", "replace": [["Escritorio de shieldwave.io", "Panel de shieldwave.io"]], "comment": ""},
+{"n": 1514, "verdict": "reject", "replace": [["del escritorio de ShieldWave", "del panel de ShieldWave"]], "comment": ""},
+{"n": 1515, "verdict": "reject", "replace": [["en tu escritorio si sigue", "en tu panel si sigue"]], "comment": ""},
+{"n": 1516, "verdict": "reject", "replace": [["en tu escritorio de shieldwave.io", "en tu panel de shieldwave.io"]], "comment": ""},
+{"n": 1518, "verdict": "reject", "replace": [["aparece en tu escritorio", "aparece en tu panel"]], "comment": ""},
+{"n": 1520, "verdict": "reject", "replace": [["en el escritorio y otro sitio", "en el panel y otro sitio"]], "comment": ""},
+{"n": 1528, "verdict": "reject", "replace": [["Este sitio está en tu escritorio.", "Este sitio está en tu panel."]], "comment": ""},
+{"n": 1529, "verdict": "reject", "replace": [["en el escritorio", "en el panel"]], "comment": ""},
+{"n": 1531, "verdict": "reject", "replace": [["en el escritorio si sigue", "en el panel si sigue"]], "comment": ""},
+{"n": 1532, "verdict": "reject", "replace": [["en el escritorio", "en el panel"]], "comment": ""},
+{"n": 1533, "verdict": "reject", "replace": [["en el escritorio", "en el panel"]], "comment": ""},
+{"n": 1539, "verdict": "reject", "replace": [["tu escritorio de shieldwave.io", "tu panel de shieldwave.io"]], "comment": ""},
+{"n": 1643, "verdict": "reject", "replace": [["Desde el escritorio de ShieldWave", "Desde el panel de ShieldWave"]], "comment": ""},
+{"n": 1668, "verdict": "reject", "replace": [["tu escritorio de ShieldWave", "tu panel de ShieldWave"]], "comment": ""},
+{"n": 1670, "verdict": "reject", "replace": [["a tu escritorio.", "a tu panel."]], "comment": ""},
+{"n": 1859, "verdict": "reject", "replace": [["Abrir escritorio", "Abrir panel"]], "comment": ""},
+{"n": 2133, "verdict": "reject", "replace": [["desde el escritorio de ShieldWave", "desde el panel de ShieldWave"]], "comment": ""},
+{"n": 2209, "verdict": "reject", "replace": [["El escritorio es de solo lectura.", "El panel es de solo lectura."]], "comment": ""}
+]

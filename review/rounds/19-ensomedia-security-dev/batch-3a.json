@@ -1,0 +1,7 @@
+[
+{"n": 1643, "verdict": "reject", "replace": [["Desde el panel de ShieldWave", "Desde el escritorio de ShieldWave"]], "comment": "Según el glosario, «dashboard» es «escritorio», no «panel»."},
+{"n": 1668, "verdict": "reject", "replace": [["tu panel de ShieldWave", "tu escritorio de ShieldWave"]], "comment": "Según el glosario, «dashboard» es «escritorio», no «panel»."},
+{"n": 1670, "verdict": "reject", "replace": [["a tu panel.", "a tu escritorio."]], "comment": "Según el glosario, «dashboard» es «escritorio», no «panel»."},
+{"n": 1675, "verdict": "reject", "replace": [["Recibes este correo porque", "Recibes este correo electrónico porque"]], "comment": "En un texto largo, «correo» se escribe «correo electrónico»."},
+{"n": 1678, "verdict": "reject", "replace": [["Recibes este correo porque", "Recibes este correo electrónico porque"]], "comment": "En un texto largo, «correo» se escribe «correo electrónico»."}
+]

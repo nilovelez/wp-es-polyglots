@@ -1,0 +1,9 @@
+[
+{"n": 1351, "verdict": "reject", "replace": [["vuelve a ejecutar el análisis.", "vuelve a ejecutar la exploración."]], "comment": "Según el glosario, «scan» es «exploración» (o «explorar»)."},
+{"n": 1356, "verdict": "reject", "replace": [["vuelve a ejecutar el análisis.", "vuelve a ejecutar la exploración."]], "comment": "Según el glosario, «scan» es «exploración» (o «explorar»)."},
+{"n": 1357, "verdict": "reject", "replace": [["El análisis solo detecta", "La exploración solo detecta"]], "comment": "Según el glosario, «scan» es «exploración» (o «explorar»)."},
+{"n": 1392, "verdict": "reject", "replace": [["Ejecuta de nuevo el análisis de ShieldWave", "Ejecuta de nuevo la exploración de ShieldWave"]], "comment": "Según el glosario, «scan» es «exploración» (o «explorar»)."},
+{"n": 1404, "verdict": "reject", "replace": [["código malicioso", "código malintencionado"]], "comment": "Según el glosario, «malicious» es «malintencionado»."},
+{"n": 1412, "verdict": "reject", "replace": [["desde el análisis anterior", "desde la exploración anterior"]], "comment": "Según el glosario, «scan» es «exploración» (o «explorar»)."},
+{"n": 1436, "verdict": "reject", "replace": [["archivos multimedia", "archivos de medios"]], "comment": "Según el glosario, «media» es «medios» (archivo de medios, no «archivo multimedia»)."}
+]

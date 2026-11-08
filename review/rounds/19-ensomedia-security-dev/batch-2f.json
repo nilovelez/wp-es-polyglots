@@ -1,0 +1,22 @@
+[
+{"n": 1263, "verdict": "reject", "replace": [["para analizar entradas", "para explorar entradas"]], "comment": "Según el glosario, «scan» se traduce como «explorar»."},
+{"n": 1265, "verdict": "reject", "replace": [["con este rol", "con este perfil"], ["al rol a propósito", "al perfil a propósito"], ["de edición de roles", "de edición de perfiles"], ["a un rol estándar", "a un perfil estándar"]], "comment": "Según el glosario, «role» es «perfil». No se usa «rol»."},
+{"n": 1280, "verdict": "reject", "replace": [["rol distinto de Administrador", "perfil distinto de Administrador"], ["roles distintos de Administrador", "perfiles distintos de Administrador"]], "comment": "Según el glosario, «role» es «perfil». No se usa «rol»."},
+{"n": 1293, "verdict": "reject", "replace": [["entrada n.º %s", "entrada #%s"]], "comment": "«#%s» se deja como en el original, sin «n.º»."},
+{"n": 1294, "verdict": "reject", "replace": [["entrada n.º %s", "entrada #%s"]], "comment": "«#%s» se deja como en el original, sin «n.º»."},
+{"n": 1295, "verdict": "reject", "replace": [["La autenticación en dos pasos", "La identificación en dos pasos"]], "comment": "Según el glosario, «two-factor authentication» es «identificación en dos pasos»."},
+{"n": 1296, "verdict": "reject", "replace": [["La autenticación en dos pasos", "La identificación en dos pasos"]], "comment": "Según el glosario, «two-factor authentication» es «identificación en dos pasos»."},
+{"n": 1297, "verdict": "reject", "replace": [["La aplicación de autenticación", "La aplicación de identificación"]], "comment": "El criterio del equipo para «authentication» es «identificación», no «autenticación»."},
+{"n": 1299, "verdict": "reject", "replace": [["así que el análisis se ejecuta", "así que la exploración se ejecuta"]], "comment": "Según el glosario, «scan» es «exploración» (o «explorar»)."},
+{"n": 1320, "verdict": "reject", "replace": [["Todos los análisis y los cambios", "Todas las exploraciones y los cambios"]], "comment": "Según el glosario, «scan» es «exploración» (o «explorar»)."},
+{"n": 1321, "verdict": "reject", "replace": [["el correo del administrador", "el correo electrónico del administrador"]], "comment": "En un texto largo, «correo» se escribe «correo electrónico»."},
+{"n": 1322, "verdict": "reject", "replace": [["La autenticación en dos pasos está desactivada", "La identificación en dos pasos está desactivada"]], "comment": "Según el glosario, «two-factor authentication» es «identificación en dos pasos»."},
+{"n": 1323, "verdict": "reject", "replace": [["Ofrecer autenticación en dos pasos", "Ofrecer identificación en dos pasos"]], "comment": "Según el glosario, «two-factor authentication» es «identificación en dos pasos»."},
+{"n": 1324, "verdict": "reject", "replace": [["cuando has iniciado sesión.", "cuando has accedido."]], "comment": "Según el glosario, «log in» es «acceder». No se usa «iniciar sesión»."},
+{"n": 1326, "verdict": "reject", "replace": [["en tu panel de shieldwave.io", "en tu escritorio de shieldwave.io"]], "comment": "Según el glosario, «dashboard» es «escritorio», no «panel»."},
+{"n": 1342, "verdict": "reject", "replace": [["o esconder contenido", "o ocultar contenido"]], "comment": "Según el glosario, «hide» es «ocultar». No se usa «esconder»."},
+{"n": 1347, "verdict": "reject", "replace": [["vuelve a ejecutar el análisis.", "vuelve a ejecutar la exploración."]], "comment": "Según el glosario, «scan» es «exploración» (o «explorar»)."},
+{"n": 1348, "verdict": "reject", "replace": [["vuelve a ejecutar el análisis.", "vuelve a ejecutar la exploración."]], "comment": "Según el glosario, «scan» es «exploración» (o «explorar»)."},
+{"n": 1349, "verdict": "reject", "replace": [["vuelve a ejecutar el análisis.", "vuelve a ejecutar la exploración."]], "comment": "Según el glosario, «scan» es «exploración» (o «explorar»)."},
+{"n": 1350, "verdict": "reject", "replace": [["vuelve a ejecutar el análisis.", "vuelve a ejecutar la exploración."]], "comment": "Según el glosario, «scan» es «exploración» (o «explorar»)."}
+]

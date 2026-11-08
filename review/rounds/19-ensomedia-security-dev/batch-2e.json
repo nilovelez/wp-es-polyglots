@@ -1,0 +1,17 @@
+[
+{"n": 1171, "verdict": "reject", "replace": [["Se dejaron de enviar correos de restablecimiento", "Se dejaron de enviar correos electrónicos de restablecimiento"]], "comment": "En un texto largo, «correo» se escribe «correo electrónico»."},
+{"n": 1172, "verdict": "reject", "replace": [["pueden seguir iniciando sesión", "pueden seguir accediendo"]], "comment": "Según el glosario, «sign in» es «acceder». No se usa «iniciar sesión»."},
+{"n": 1177, "verdict": "reject", "replace": [["este análisis nunca ve", "esta exploración nunca ve"]], "comment": "Según el glosario, «scan» es «exploración» (o «explorar»)."},
+{"n": 1182, "verdict": "reject", "replace": [["sin que nadie hubiera iniciado sesión", "sin que nadie hubiera accedido"]], "comment": "Según el glosario, «sign in» es «acceder». No se usa «iniciar sesión»."},
+{"n": 1219, "verdict": "reject", "replace": [["Los valores predeterminados sirven", "Los valores por defecto sirven"]], "comment": "Según el glosario, «default» es «por defecto», no «predeterminado»."},
+{"n": 1225, "verdict": "reject", "replace": [["que ya iniciaron sesión en esa cuenta", "que ya accedieron a esa cuenta"]], "comment": "Según el glosario, «sign in» es «acceder». No se usa «iniciar sesión»."},
+{"n": 1227, "verdict": "reject", "replace": [["no se envía ningún correo.", "no se envía ningún correo electrónico."]], "comment": "En un texto largo, «correo» se escribe «correo electrónico»."},
+{"n": 1229, "verdict": "reject", "replace": [["Como máximo tres correos al día", "Como máximo tres correos electrónicos al día"], ["alertas por correo estén activadas", "alertas por correo electrónico estén activadas"]], "comment": "En un texto largo, «correo» se escribe «correo electrónico»."},
+{"n": 1232, "verdict": "reject", "replace": [["Un rol distinto de Administrador", "Un perfil distinto de Administrador"]], "comment": "Según el glosario, «role» es «perfil». No se usa «rol»."},
+{"n": 1233, "verdict": "reject", "replace": [["El rol «%1$s»", "El perfil «%1$s»"], ["tiene este rol", "tiene este perfil"], ["tienen este rol", "tienen este perfil"]], "comment": "Según el glosario, «role» es «perfil». No se usa «rol»."},
+{"n": 1235, "verdict": "reject", "replace": [["Analizando datos de constructores de páginas", "Explorando datos de maquetadores de páginas"]], "comment": "Según el glosario, «scan» se traduce como «explorar» y «builder» como «maquetador»."},
+{"n": 1239, "verdict": "reject", "replace": [["El próximo análisis lo intenta", "La próxima exploración lo intenta"]], "comment": "Según el glosario, «scan» es «exploración» (o «explorar»)."},
+{"n": 1243, "verdict": "reject", "replace": [["ejecuta un análisis completo", "ejecuta una exploración completa"]], "comment": "Según el glosario, «scan» es «exploración» (o «explorar»)."},
+{"n": 1244, "verdict": "reject", "replace": [["ejecuta un análisis completo", "ejecuta una exploración completa"]], "comment": "Según el glosario, «scan» es «exploración» (o «explorar»)."},
+{"n": 1259, "verdict": "reject", "replace": [["datos del constructor de páginas", "datos del maquetador de páginas"]], "comment": "Según el glosario, «builder» es «maquetador»."}
+]

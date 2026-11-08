@@ -50,7 +50,7 @@ To clear the waiting queue, training rounds (above, with Nilo's review in Poedit
 2. The translator session reviews it as usual.
 3. Opus audits the decisions instead of Nilo: doubtful changes checked against the glossary, `glossary-overrides.csv` and the quick reference; term consistency across the whole file; `lint` hints left unanswered.
 4. Doubts that the guide, glossary or quick reference do not settle: the string stays as it was (no change) and goes to a list for Nilo.
-5. `python3 review/audit_decisions.py <round> <n>=<reason> …` writes `audited.jsonl` (the model's decisions minus the dropped ones) and `audit.md`; `decisions.jsonl` stays as the model wrote it. `build original.po audited.jsonl corrected.po` gives `corrected.po` (only the strings to change), copied to the exchange folder. Nilo imports it and approves the rest.
+5. `python3 review/audit_decisions.py <round> [--edits edits.jsonl] <n>=<reason> …` writes `audited.jsonl` (the model's decisions minus the dropped ones, with Opus's rewordings from `edits.jsonl`) and `audit.md`; `decisions.jsonl` stays as the model wrote it. `build original.po audited.jsonl corrected.po` gives `corrected.po` (only the strings to change), copied to the exchange folder. Nilo imports it and approves the rest.
 
 There is no human reference, so the round is logged in `skill/benchmark-log.md` as "sin revisión humana" and is not counted in the measurements. Whatever Nilo notices later while approving becomes a candidate or a rule as usual.
 
@@ -66,7 +66,7 @@ Measured with Haiku (rounds 11–13): up to ~900 UI strings fit in one pass with
 
 Some batches must be rejected entirely instead of reviewed: machine translations without consistency, with hallucinations, ignoring the glossary and the style guide, and many strings just copied in English. Reviewing them string by string is a waste (round 05, torlann, 3053 strings, was one; its files were deleted so they are never reused).
 
-Another case: the source strings are not in US English (round 19, a plugin written in Latin American Spanish, with the source copied as the es_ES translation). The plugin cannot be translated as it is: the whole batch is rejected and the person who submitted it is told that the original must be in US English. Detecting them automatically, before any model runs, is a requirement for the future review tools (see `docs/status.md`).
+Another case: the source strings are not in US English (Arcadys Municipal Core, a plugin written in Latin American Spanish, with the source copied as the es_ES translation). The plugin cannot be translated as it is: the whole batch is rejected and the person who submitted it is told that the original must be in US English. Detecting them automatically, before any model runs, is a requirement for the future review tools (see `docs/status.md`).
 
 ## Round folder
 

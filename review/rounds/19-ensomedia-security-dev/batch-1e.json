@@ -1,0 +1,13 @@
+[
+{"n": 736, "verdict": "reject", "replace": [["el constructor de páginas que lo guarda", "el maquetador de páginas que lo guarda"]], "comment": "Según el glosario, «builder» es «maquetador»."},
+{"n": 739, "verdict": "reject", "replace": [["Código malicioso", "Código malintencionado"]], "comment": "Según el glosario, «malicious» es «malintencionado»."},
+{"n": 744, "verdict": "reject", "replace": [["patrón malicioso conocido", "patrón malintencionado conocido"]], "comment": "Según el glosario, «malicious» es «malintencionado»."},
+{"n": 758, "verdict": "reject", "replace": [["constructor de páginas que lo guarda", "maquetador de páginas que lo guarda"]], "comment": "Según el glosario, «builder» es «maquetador»."},
+{"n": 762, "verdict": "reject", "replace": [["corrigen errores", "corrigen fallos"]], "comment": "Según el glosario, «bug» es «fallo»."},
+{"n": 763, "verdict": "reject", "replace": [["Código malicioso", "Código malintencionado"]], "comment": "Según el glosario, «malicious» es «malintencionado»."},
+{"n": 769, "verdict": "reject", "replace": [["conocido como malicioso", "conocido como malintencionado"]], "comment": "Según el glosario, «malicious» es «malintencionado»."},
+{"n": 774, "verdict": "reject", "replace": [["La protección en vivo", "La protección en tiempo real"], ["desde el último correo:", "desde el último correo electrónico:"]], "comment": "«Live protection» se traduce como «Protección en tiempo real», como en el resto del plugin. En un texto largo, «correo» se escribe «correo electrónico»."},
+{"n": 778, "verdict": "reject", "replace": [["tras elegir el rol", "tras elegir el perfil"]], "comment": "Según el glosario, «role» es «perfil». No se usa «rol»."},
+{"n": 780, "verdict": "reject", "replace": [["de estos roles", "de estos perfiles"]], "comment": "Según el glosario, «roles» es «perfiles»."},
+{"n": 787, "verdict": "reject", "replace": [["suelen esconder", "suelen ocultar"]], "comment": "Según el glosario, «hide» es «ocultar». No se usa «esconder»."}
+]
