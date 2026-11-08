@@ -140,6 +140,14 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - Resultado: 291 cambios propuestos, aceptados en bloque por Nilo («me vale»), sin revisarlos cadena a cadena. La medición de esta ronda no es comparable con las demás.
 - Lección: en rondas por tramos, comprobar antes de `review-po` que los términos de `terms.md` se aplicaron en todo el archivo. Anotado en `review/README.md`.
 
+## 2026-11-08 · Haiku · ronda 23 (Multipify SEO Boost, dev, 2181 cadenas) · directa, sin revisión humana
+
+- Tres tramos seguidos de unas 730 cadenas, unos 15 minutos. Traducción humana y correcta, pero con usted y tú mezclados (65 cadenas con «su», 51 con «tu»). Nilo decidió revisarla pasándola a tuteo en lugar de rechazarla. `review/precheck.py` da ahora las cifras baratas.
+- Haiku: 282 decisiones (248 rechazos, 27 correcciones, 7 dudas). Unas 100 solo por el tuteo y 123 con tuteo; no queda ninguna forma de usted. Glosario: *sitemap* = «mapa del sitio» (44), *query* = «consulta», *check* = «comprobar», *cornerstone* = «esencial», «perfil», «aviso», «advertencia».
+- Auditoría de Opus: 1 descartada y 11 editadas. #2086: Haiku devolvía «d/m/Y H:i» al «Y-m-d H:i» del original, pero los formatos de fecha se adaptan al idioma. *delete* = «borrar»: Haiku dejó «eliminar» en 10 cadenas, confundiéndolo con la nota de *remove*; corregido para que sea coherente con la ronda 22. Quedan 284 cambios.
+- SKILL.md decía que `reject` era por «informal register (tú)», y Haiku lo leyó al revés. Corregido: incumple el tuteo (usa «usted»).
+- Dudas que se dejan como estaban: *endpoint* en AJAX y API (7 cadenas).
+
 ## 2026-11-08 · RestoCommerce (dev, 2892 cadenas) · descartada, sin número de ronda
 
 - Traducción mezclada: «su» en 80 cadenas y «tu» en 71, «Por favor seleccione…», formas de América («órdenes», «ingrese»), calcos («han sido cambiados», «La activación falló»), 84 cadenas iguales al inglés (algunas genéricas: «Test», «no») y 758 pistas de `lint`. Detectado con las cifras baratas.

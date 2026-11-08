@@ -47,7 +47,7 @@ Then go through **every** entry and decide, following section 7 of the style gui
 |---|---|---|
 | approve | Correct, or differs only in minor style from another valid option | No |
 | `fix` | Minor errors: accent, comma after «Por favor», non-Spanish quotes, extra capital letter, «ej.» | Yes |
-| `reject` | Breaks the glossary, informal register (tú), WordPress voice, placeholders/HTML; changes the meaning; clearly unnatural; leaves a glossary term in English | Yes |
+| `reject` | Breaks the glossary or the tuteo (uses «usted»), the WordPress voice, placeholders/HTML; changes the meaning; clearly unnatural; leaves a glossary term in English | Yes |
 | `doubt` | Not enough context to decide, and the guide and glossary do not settle it | Yes, with your best proposal |
 
 Decide on your own whenever the guide, the quick reference or the glossary settle the case; doubts are only for real questions the reviewer must answer. Apply the glossary also to small, common verbs (*set* = «establecer», *check* = «comprobar»), not only to nouns.
