@@ -140,6 +140,13 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - Resultado: 291 cambios propuestos, aceptados en bloque por Nilo («me vale»), sin revisarlos cadena a cadena. La medición de esta ronda no es comparable con las demás.
 - Lección: en rondas por tramos, comprobar antes de `review-po` que los términos de `terms.md` se aplicaron en todo el archivo. Anotado en `review/README.md`.
 
+## 2026-11-09 · Haiku · ronda 27 (CMS ADMINS Security Check, stable, 805 cadenas) · directa, sin revisión humana
+
+- Cifras baratas limpias: tuteo, traducción técnica cuidada; las pistas de *upload* son el directorio `uploads` y las 4 «formas de América» eran falsos positivos. Una pasada, unos 10 minutos.
+- Haiku: 99 decisiones (79 rechazos, 11 correcciones, 9 dudas sin cambio). Glosario: *scan* = «exploración» (14), «permisos» (9), *default* = «por defecto» (8), *login* = «acceder» (7), *warning* = «advertencia» (6), «identificación» y «dos pasos» (9), «gancho» (5), «recuperar» (5); pasivas; comillas.
+- Auditoría de Opus: 2 descartadas (#171, #176: cambiaba «función» por «callback» en inglés). Quedan 88 cadenas.
+- Dudas que se dejan como estaban: «claves de autenticación» de wp-config.php (7), *inline* sin traducir (2). *endpoint* se deja en inglés (14), a la espera del glosario.
+
 ## 2026-11-09 · Haiku · ronda 26 (Takt Site Features, dev, 2058 cadenas) · directa, sin revisión humana
 
 - Cifras baratas limpias: tuteo, 341 pistas de `lint` casi todas por términos de varias acepciones; *role* («función») y *release* («lanzamiento») son términos del dominio. Al encargo se añadieron los términos del dominio que Haiku falló en la ronda 25 y la consigna de no cambiar el texto en las dudas: los respetó todos. Tres tramos, unos 12 minutos.
