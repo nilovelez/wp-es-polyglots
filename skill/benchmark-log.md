@@ -140,6 +140,13 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - Resultado: 291 cambios propuestos, aceptados en bloque por Nilo («me vale»), sin revisarlos cadena a cadena. La medición de esta ronda no es comparable con las demás.
 - Lección: en rondas por tramos, comprobar antes de `review-po` que los términos de `terms.md` se aplicaron en todo el archivo. Anotado en `review/README.md`.
 
+## 2026-11-09 · Haiku · ronda 29 (AI Traffic Analytics, stable, 979 cadenas) · directa, sin revisión humana
+
+- Cifras baratas: tuteo, traducción humana con muchos anglicismos (*log* 41, *hosting* 15, «Hook», «ej:», «re-rastreo»), 64 mayúsculas, 26 comillas rectas. Dos tramos, unos 13 minutos.
+- Haiku: 178 decisiones (174 cambios, 4 dudas sin cambio). «registro» (~43), «alojamiento» (~16), «fragmento de código» (~15), «caché» y tildes, «cortafuegos», «DNS inverso», «clic», «cabecera», «escritorio», «conmutador» (sustantivo), comillas; una frase omitida (#285); etiquetas que quedaban en inglés; saltos de línea sobrantes en mitad de cadena.
+- Auditoría de Opus: ninguna descartada, 1 editada (#724, «Antisuplantación» con el prefijo unido). Quedan 174 cadenas. Haiku no cambió las mayúsculas de nombres de pestañas y menús citados.
+- Dudas que se dejan como estaban: «When to use this site» en llms.txt (#204, #910), «Enable AI Traffic Analytics» (#443), *curate* = «curar» (#454). Sinónimos que se dejan: «fichero», «configuración», «portada», «respaldo», «lema», «AVISO».
+
 ## 2026-11-09 · Haiku · ronda 28 (CMS ADMINS Security Check, readme, 220 cadenas) · directa, sin revisión humana
 
 - Con los términos decididos en la ronda 27 en el encargo, para que el readme diga lo mismo que el plugin. Una pasada, unos 5 minutos.
