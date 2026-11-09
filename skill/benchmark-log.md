@@ -144,8 +144,8 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 
 - Cifras baratas limpias: tuteo, traducción técnica cuidada; las pistas de *upload* son el directorio `uploads` y las 4 «formas de América» eran falsos positivos. Una pasada, unos 10 minutos.
 - Haiku: 99 decisiones (79 rechazos, 11 correcciones, 9 dudas sin cambio). Glosario: *scan* = «exploración» (14), «permisos» (9), *default* = «por defecto» (8), *login* = «acceder» (7), *warning* = «advertencia» (6), «identificación» y «dos pasos» (9), «gancho» (5), «recuperar» (5); pasivas; comillas.
-- Auditoría de Opus: 2 descartadas (#171, #176: cambiaba «función» por «callback» en inglés). Quedan 88 cadenas.
-- Dudas que se dejan como estaban: «claves de autenticación» de wp-config.php (7), *inline* sin traducir (2). *endpoint* se deja en inglés (14), a la espera del glosario.
+- Auditoría de Opus: 2 descartadas (#171, #176: cambiaba «función» por «callback» en inglés). Nilo resuelve la duda de *inline scripts*: «scripts en línea» (#89, #318). Quedan 90 cadenas. `audit_decisions.py` convierte ahora en cambio una duda editada (antes la dejaba como duda y no llegaba a `corrected.po`).
+- Dudas que se dejan como estaban: «claves de autenticación» de wp-config.php (7). *endpoint* se deja en inglés (14), a la espera del glosario.
 
 ## 2026-11-09 · Haiku · ronda 26 (Takt Site Features, dev, 2058 cadenas) · directa, sin revisión humana
 

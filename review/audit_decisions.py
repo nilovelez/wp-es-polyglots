@@ -41,6 +41,9 @@ for r in rows:
             r.pop(k, None)
             if k in edits[r['n']]:
                 r[k] = edits[r['n']][k]
+        if r.get('verdict') == 'doubt':  # an edited doubt is settled: it becomes a change
+            r['verdict'] = 'reject'
+            r['comment'] = edits[r['n']].get('reason', r.get('comment', ''))
     out.append(r)
 for n, e in edits.items():
     if n not in by_n:
