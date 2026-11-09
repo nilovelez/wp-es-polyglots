@@ -140,6 +140,13 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - Resultado: 291 cambios propuestos, aceptados en bloque por Nilo («me vale»), sin revisarlos cadena a cadena. La medición de esta ronda no es comparable con las demás.
 - Lección: en rondas por tramos, comprobar antes de `review-po` que los términos de `terms.md` se aplicaron en todo el archivo. Anotado en `review/README.md`.
 
+## 2026-11-09 · Haiku · ronda 28 (CMS ADMINS Security Check, readme, 220 cadenas) · directa, sin revisión humana
+
+- Con los términos decididos en la ronda 27 en el encargo, para que el readme diga lo mismo que el plugin. Una pasada, unos 5 minutos.
+- Haiku: 30 decisiones (28 cambios, 2 dudas sin cambio). «identificación en dos pasos» (8), «acceder», «exploración», «advertencia», «fallo», «transparencia»; el nombre del plugin con un subtítulo añadido; dos omisiones (*by default*, *paths*); «9,2».
+- Auditoría de Opus: 1 descartada (#39, «No es un monitor» es correcto). Quedan 27 cadenas.
+- Dudas que se dejan como estaban: una frase del plugin citada en inglés (#126) y *callback* suelto en el registro de cambios (#212).
+
 ## 2026-11-09 · Haiku · ronda 27 (CMS ADMINS Security Check, stable, 805 cadenas) · directa, sin revisión humana
 
 - Cifras baratas limpias: tuteo, traducción técnica cuidada; las pistas de *upload* son el directorio `uploads` y las 4 «formas de América» eran falsos positivos. Una pasada, unos 10 minutos.
