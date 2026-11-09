@@ -140,6 +140,13 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - Resultado: 291 cambios propuestos, aceptados en bloque por Nilo («me vale»), sin revisarlos cadena a cadena. La medición de esta ronda no es comparable con las demás.
 - Lección: en rondas por tramos, comprobar antes de `review-po` que los términos de `terms.md` se aplicaron en todo el archivo. Anotado en `review/README.md`.
 
+## 2026-11-09 · Haiku · ronda 26 (Takt Site Features, dev, 2058 cadenas) · directa, sin revisión humana
+
+- Cifras baratas limpias: tuteo, 341 pistas de `lint` casi todas por términos de varias acepciones; *role* («función») y *release* («lanzamiento») son términos del dominio. Al encargo se añadieron los términos del dominio que Haiku falló en la ronda 25 y la consigna de no cambiar el texto en las dudas: los respetó todos. Tres tramos, unos 12 minutos.
+- Haiku: 74 decisiones (61 correcciones, 13 dudas sin cambio). Glosario: «permisos» en plural (10), *delete* = «borrar» (9), *default* = «por defecto» (6), «enlazar» (4), «correo electrónico» en textos largos (5), *stock* = «inventario», *legacy* = «heredado», *feed*, *streaming*, *tagline*, *breadcrumb*, *hover*.
+- Auditoría de Opus: 1 descartada (#791, «memorias anuales» es correcto). Quedan 60 cadenas.
+- Dudas que se dejan como estaban: *hero* = «imagen principal» / «cabecera» frente a «sección destacada» (7), *membership* = «pertenencia» / «socios» frente a «membresía» (4), *backorder* = «por encargo» frente a «reserva», #35 (*supported*, *legacy*).
+
 ## 2026-11-09 · Haiku · ronda 25 (IBPSports Futsal Studio, stable, 1100 cadenas) · directa, sin revisión humana
 
 - Cifras baratas limpias: tuteo, 0 formas de usted o de América, 109 pistas de `lint` (la mitad mayúsculas), 115 cadenas iguales al inglés (países, símbolos, abreviaturas). Dos tramos de 550, unos 5 minutos.
