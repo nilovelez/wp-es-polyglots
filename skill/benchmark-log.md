@@ -140,6 +140,13 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - Resultado: 291 cambios propuestos, aceptados en bloque por Nilo («me vale»), sin revisarlos cadena a cadena. La medición de esta ronda no es comparable con las demás.
 - Lección: en rondas por tramos, comprobar antes de `review-po` que los términos de `terms.md` se aplicaron en todo el archivo. Anotado en `review/README.md`.
 
+## 2026-11-09 · Haiku · ronda 25 (IBPSports Futsal Studio, stable, 1100 cadenas) · directa, sin revisión humana
+
+- Cifras baratas limpias: tuteo, 0 formas de usted o de América, 109 pistas de `lint` (la mitad mayúsculas), 115 cadenas iguales al inglés (países, símbolos, abreviaturas). Dos tramos de 550, unos 5 minutos.
+- Haiku: 39 decisiones (26 rechazos, 10 correcciones, 3 dudas). Glosario: *default* = «por defecto» (7), *delete* = «borrar» (4), *header* = «cabecera» (4), *metabox* = «caja meta», *last name* = «apellidos»; mayúsculas en etiquetas con barra; «La comprobación falló».
+- Auditoría de Opus: 6 descartadas. *Match report* es la «crónica» del partido, no un «informe» (3); el *nickname* de un jugador es su «apodo», no el «alias» de usuario; «busca» para *scans for* no es error; #893 era una duda con cambio. Quedan 31 cadenas.
+- Dudas que se dejan como estaban: *Role* = «Función» para el cargo del cuerpo técnico (#798, #799), *Show Badges* = «Mostrar distintivos» (#893).
+
 ## 2026-11-09 · Haiku · ronda 24 (RestoCommerce, dev, 2897 cadenas) · directa, sin revisión humana
 
 - El autor rehízo la traducción tras el rechazo del 8 de noviembre. Cifras baratas: tuteo coherente (0 formas de usted, las 10 «su» son posesivos de tercera persona), 0 formas de América, 2 pasivas, 67 cadenas iguales al inglés legítimas, 550 pistas de `lint` casi todas por términos con varias acepciones. Nilo la manda a revisión directa.
