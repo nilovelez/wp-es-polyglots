@@ -140,6 +140,13 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - Resultado: 291 cambios propuestos, aceptados en bloque por Nilo («me vale»), sin revisarlos cadena a cadena. La medición de esta ronda no es comparable con las demás.
 - Lección: en rondas por tramos, comprobar antes de `review-po` que los términos de `terms.md` se aplicaron en todo el archivo. Anotado en `review/README.md`.
 
+## 2026-11-09 · Haiku · ronda 24 (RestoCommerce, dev, 2897 cadenas) · directa, sin revisión humana
+
+- El autor rehízo la traducción tras el rechazo del 8 de noviembre. Cifras baratas: tuteo coherente (0 formas de usted, las 10 «su» son posesivos de tercera persona), 0 formas de América, 2 pasivas, 67 cadenas iguales al inglés legítimas, 550 pistas de `lint` casi todas por términos con varias acepciones. Nilo la manda a revisión directa.
+- Haiku: cuatro tramos seguidos de unas 725 cadenas, unos 15 minutos. 130 decisiones (121 correcciones, 9 dudas). Glosario: *delete* = «borrar» (17), *required* = «obligatorio» (~15), *default* = «por defecto» (~11), «aviso», «meta título», «caducado», «TPV», «Te damos la bienvenida», «solo» sin tilde; «correo electrónico» en textos largos (11).
+- Auditoría de Opus: 9 descartadas. #246 cambiaba *Payment method* por «pasarela»; #488 «tema» para el esquema claro/oscuro; #324 y #941 no eran errores; #2844, #2846 y #2880 cambiaban el formato JSON y los identificadores que el autor, que es el traductor, ajustó a propósito; #817 y #2332 eran dudas con cambio. Quedan 114 cadenas.
+- 11 cadenas (2883–2893) tienen el original en alemán. Dudas para Nilo: *backend* (#121), *Windows Checkout*, *kitchen tickets* = «comandas», *withdrawal*, *New investments* = «Crear nuevo», *DEFINITION NUMBER*, *fee* = «gastos» / «tarifa» / «cuota», *runway*, nombre del plugin traducido.
+
 ## 2026-11-08 · Haiku · ronda 23 (Multipify SEO Boost, dev, 2181 cadenas) · directa, sin revisión humana
 
 - Tres tramos seguidos de unas 730 cadenas, unos 15 minutos. Traducción humana y correcta, pero con usted y tú mezclados (65 cadenas con «su», 51 con «tu»). Nilo decidió revisarla pasándola a tuteo en lugar de rechazarla. `review/precheck.py` da ahora las cifras baratas.
