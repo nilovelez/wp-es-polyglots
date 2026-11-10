@@ -140,6 +140,47 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - Resultado: 291 cambios propuestos, aceptados en bloque por Nilo («me vale»), sin revisarlos cadena a cadena. La medición de esta ronda no es comparable con las demás.
 - Lección: en rondas por tramos, comprobar antes de `review-po` que los términos de `terms.md` se aplicaron en todo el archivo. Anotado en `review/README.md`.
 
+## 2026-11-10 · Haiku · ronda 31 (WConvert, stable, 5370 cadenas) · directa, sin revisión humana
+
+- La ronda más grande hasta ahora. 8 tramos de unas 672 cadenas, cada uno en una sesión de Haiku distinta, una detrás de otra (3-5 minutos por tramo). El `terms.md` se compartía y crecía en cada tramo, con una sección «Decisiones de la auditoría» que Opus actualizaba entre tramos. Traducción humana, cuidada y con tuteo.
+- Decisiones de Nilo antes de empezar: «correo electrónico» en todas partes, también en etiquetas cortas (no es crítico, pero se mantiene por coherencia), y *lead* = «cliente potencial», también en el nombre de la sección.
+- Haiku: 454 decisiones, 11 de ellas dudas. Casi todo es glosario:
+  - «correo electrónico» (~205)
+  - «cliente potencial» (~85)
+  - *delete* = «borrar»
+  - *set* = «establecer»
+  - «conectado» / «desconectado»
+  - «perfil», «aviso», «compatible», «casilla de verificación»
+  - «ha fallado»
+  - *builder* = «maquetador»
+  - *embed* = «incrustar»
+- Auditoría de Opus: 9 decisiones descartadas.
+  - «zoom» como sustantivo (3)
+  - el «rol» de un contenido, que no es el perfil de usuario (2)
+  - «Rebajas» para una campaña de descuentos
+  - «artículo» para un mueble
+  - «esquema» de un formato de paquete
+  - una reformulación de algo correcto
+- Auditoría de Opus: 54 decisiones editadas o añadidas.
+  - El traductor usaba «eliminar» para *delete* en todo el plugin, y Haiku solo lo cambió a partir del tramo 3, cuando se lo dije. En los tramos 1 y 2 lo cambié yo con un script (38 cadenas).
+  - «sesión iniciada» → «conectado».
+  - *hostname* sin traducir.
+  - *clear* de una selección o un filtro = «quitar», no «vaciar».
+  - *Linked*, cuando atribuye ventas, = «asociado», no «vinculado».
+- Error mío: en el tramo 1 descarté el cambio de «n.º» a «#», pero la guía rápida dice que se corrige a «#». Lo rectifiqué en el tramo 2.
+- Comprobación de coherencia al final, sobre el archivo completo: no hay cadenas iguales con traducciones distintas. Quedaban 5 restos («sesión iniciada» y «eliminar») que cambié a mano.
+- Quedan 477 cambios. Los 5 avisos del build son falsos positivos: «10 %» seguido de texto y comillas rectas en valores de código.
+- Pendiente para Nilo:
+  - *lead magnet*, que sigue en inglés en unas 10 cadenas
+  - *endpoint* en 4 cadenas
+  - «listados» (#1990)
+- Lección: cuando el traductor usa un sinónimo de forma sistemática, hay que mirarlo en las cifras baratas antes de lanzar el primer tramo y ponerlo en el prompt desde el principio.
+
+## 2026-11-09 · Opus · ronda 30 (GatherPress, stable, 129 cadenas sin traducir) · traducción
+
+- Traducción directa con Opus, sin Haiku: era un archivo pequeño. Los términos del proyecto se tomaron de las cadenas ya aprobadas (*RSVP* = «confirmación de asistencia», *venue* = «lugar»).
+- Decisiones propias que Nilo debe revisar: *check in* = «registrar llegada», *Select* como tipo de campo = «Desplegable», *map tiles* = «teselas» y los formatos de fecha.
+
 ## 2026-11-09 · Haiku · ronda 29 (AI Traffic Analytics, stable, 979 cadenas) · directa, sin revisión humana
 
 - Cifras baratas: tuteo, traducción humana con muchos anglicismos (*log* 41, *hosting* 15, «Hook», «ej:», «re-rastreo»), 64 mayúsculas, 26 comillas rectas. Dos tramos, unos 13 minutos.
