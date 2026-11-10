@@ -140,6 +140,15 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - Resultado: 291 cambios propuestos, aceptados en bloque por Nilo («me vale»), sin revisarlos cadena a cadena. La medición de esta ronda no es comparable con las demás.
 - Lección: en rondas por tramos, comprobar antes de `review-po` que los términos de `terms.md` se aplicaron en todo el archivo. Anotado en `review/README.md`.
 
+## 2026-11-10 · EZZE WCAG Pro (stable, 2825 cadenas) · descartada, sin número de ronda
+
+- La mayor parte de la traducción es buena y usa tuteo, pero hay tramos de otra mano o de traducción automática sin repasar. Se vio con las cifras baratas:
+  - Tú y usted mezclados: 31 imperativos de usted («Ingrese», «Verifique», «Seleccione») y unas 80 cadenas con «su».
+  - Formas de América: «exitosamente», «agregar», «computadora», «promedio».
+  - «configuración» para *settings* (37) y «predeterminado» (16).
+  - Calcos («falló», «utilizar productivamente») y 701 pistas de `lint`.
+- Recomendé revisarla, porque los problemas se concentraban en unas 100-150 cadenas. Nilo la rechazó entera.
+
 ## 2026-11-10 · Haiku · ronda 31 (WConvert, stable, 5370 cadenas) · directa, sin revisión humana
 
 - La ronda más grande hasta ahora. 8 tramos de unas 672 cadenas, cada uno en una sesión de Haiku distinta, una detrás de otra (3-5 minutos por tramo). El `terms.md` se compartía y crecía en cada tramo, con una sección «Decisiones de la auditoría» que Opus actualizaba entre tramos. Traducción humana, cuidada y con tuteo.
