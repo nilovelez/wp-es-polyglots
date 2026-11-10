@@ -140,6 +140,31 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - Resultado: 291 cambios propuestos, aceptados en bloque por Nilo («me vale»), sin revisarlos cadena a cadena. La medición de esta ronda no es comparable con las demás.
 - Lección: en rondas por tramos, comprobar antes de `review-po` que los términos de `terms.md` se aplicaron en todo el archivo. Anotado en `review/README.md`.
 
+## 2026-11-10 · Haiku · ronda 32 (WP SMS, stable, 2133 cadenas) · directa, sin revisión humana
+
+- 3 tramos de 711 cadenas en sesiones de Haiku separadas, una detrás de otra (4-6 minutos cada una). Traducción humana, buena y con tuteo, pero con sinónimos sistemáticos.
+- Nilo, antes de empezar: *notification* = «aviso», *add-on* = «extensión» y *default* = «por defecto», «siempre», en cualquier plugin. Guardado en la memoria de la sesión. Van en el prompt desde el primer tramo, junto con *delete* = «borrar», *set* = «establecer», *login* = «acceder» e «identificación».
+- Haiku: 335 decisiones, 12 de ellas dudas. Glosario:
+  - «aviso» (~95)
+  - «borrar» (~55)
+  - «establecer» (~35)
+  - «extensión» (~38), con el cambio de género
+  - «acceso» / «conectado» (~19)
+  - «compatible» (~14)
+  - «recuperar» (~15)
+  - «por defecto», «por lotes», «tique», «caja meta», «FAQ»
+- Auditoría de Opus:
+  - 5 descartadas: «eliminar» en borrados reales de *remove* (2), «ocultar el logotipo» (2) y «SMS Flash».
+  - 2 añadidas: restos de «notificación» y «eliminar».
+  - Con el prompt completo desde el principio, apenas hubo restos: comparado con WConvert, la lección se aplicó.
+- Quedan 320 cambios y la comprobación da 0 problemas.
+- Pendiente para Nilo, sin cambios:
+  - *bundle* = «pack» (3)
+  - *endpoint* (5)
+  - «API Login» (3)
+  - menús en inglés de paneles de terceros (Rayo y otra pasarela)
+  - #1404, un fragmento de frase partida («tiene una licencia activa» para *not have…*)
+
 ## 2026-11-10 · EZZE WCAG Pro (stable, 2825 cadenas) · descartada, sin número de ronda
 
 - La mayor parte de la traducción es buena y usa tuteo, pero hay tramos de otra mano o de traducción automática sin repasar. Se vio con las cifras baratas:
