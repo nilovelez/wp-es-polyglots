@@ -140,6 +140,14 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - Resultado: 291 cambios propuestos, aceptados en bloque por el revisor («me vale»), sin revisarlos cadena a cadena. La medición de esta ronda no es comparable con las demás.
 - Lección: en rondas por tramos, comprobar antes de `review-po` que los términos de `terms.md` se aplicaron en todo el archivo. Anotado en `review/README.md`.
 
+## 2026-11-11 · Haiku · ronda 35 (GDPR Compliance & Cookie Consent, stable, 101 cadenas) · revisión humana en Poedit · skill `review` del plugin
+
+- Prompt de usuario solo con la skill `review`. Haiku tardó menos de dos minutos.
+- 18 propuestas, sin dudas: *GDPR* = «RGPD» (7), *checkbox* = «casilla de verificación» (10, también en etiquetas cortas), «aviso», «es compatible con», «necesaria», «comprobar», «no tienes permisos», «Finalizar compra», y el nombre del plugin sin traducir en «Widget GDPR Compliance».
+- El revisor aceptó las 18 («está sorprendentemente bien»). No hubo cambios de más ni fallos.
+- «Casilla de verificación» también en etiquetas cortas: el revisor lo acepta, así que la tolerancia con «casilla» que se aplicó en la auditoría de la ronda 33 no se pasa a la guía.
+- Segundo caso del banco de pruebas: `bench/cases/02-gdpr-compliance-cookie-consent-stable`.
+
 ## 2026-11-11 · Haiku · ronda 34 (Jetpack VideoPress, stable, 49 cadenas) · revisión humana en Poedit · primera con la skill instalable y prompt de usuario
 
 - Prompt sin listas ni excepciones: «usa la skill, revisa este archivo». Haiku tardó algo más de un minuto.

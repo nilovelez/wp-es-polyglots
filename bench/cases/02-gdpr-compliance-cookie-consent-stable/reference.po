@@ -1,0 +1,89 @@
+# Translation of Plugins - GDPR Compliance &amp; Cookie Consent - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - GDPR Compliance &amp; Cookie Consent - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: +0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.1.0\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - GDPR Compliance &amp; Cookie Consent - Stable (latest release)\n"
+
+#: includes/review-notice.php:72
+msgid "Sorry, you are not allowed to do that."
+msgstr "Lo siento, no tienes permisos para hacer eso."
+
+#: blocks/data-request/block.json
+msgctxt "block keyword"
+msgid "gdpr"
+msgstr "rgpd"
+
+#. Description of the plugin
+#: gdpr-compliance-cookie-consent.php
+msgid "Cookie consent banner and GDPR tools (consent checkboxes, data access and erasure requests) that help you manage visitor consent."
+msgstr "Banner de consentimiento de cookies y herramientas del RGPD (casillas de verificación de consentimiento, solicitudes de acceso y supresión de datos) que te ayudan a gestionar el consentimiento de los visitantes."
+
+#: includes/STM_PluginOptions.php:233
+msgid "Our plugin currently supports <b>Contact Form 7</b>, <b>Gravity Forms</b>, <b>WooCommerce</b>, <b>WordPress Comments</b>, <b>MailChimp Wp</b>, <b>BuddyPress</b>. Integrated plugins options will be displayed automatically after installing and activating supported plugins. You can use HTML tags and <span>%privacy_policy%</span> shortcode link in the checkbox labels (HTML tags are NOT allowed for Gravity Forms due to plugin limitations)."
+msgstr "Nuestro plugin es compatible actualmente con <b>Contact Form 7</b>, <b>Gravity Forms</b>, <b>WooCommerce</b>, <b>WordPress Comments</b>, <b>MailChimp Wp</b>, <b>BuddyPress</b>. Las opciones de los plugins integrados se mostrarán automáticamente tras instalar y activar los plugins compatibles. Puedes usar etiquetas HTML y el enlace del shortcode <span>%privacy_policy%</span> en las etiquetas de las casillas de verificación (las etiquetas HTML NO se permiten en Gravity Forms por limitaciones del plugin)."
+
+#: includes/plugins/STM_ContactForm7.php:135
+#: includes/plugins/STM_WooCommerce.php:52
+msgid "GDPR accepted on:"
+msgstr "RGPD aceptado el:"
+
+#: includes/plugins/STM_GravityForms.php:58
+#: includes/plugins/STM_GravityForms.php:139
+#: includes/plugins/STM_WordPress.php:59
+msgid "GDPR Accepted On"
+msgstr "RGPD aceptado el"
+
+#: includes/STM_DataAccess.php:56
+msgid "Your request can’t be processed on this website. Minimum required WordPress version is 4.9.6!"
+msgstr "Tu solicitud no se puede procesar en este sitio web. ¡La versión mínima necesaria de WordPress es la 4.9.6!"
+
+#: includes/STM_DataAccessWidget.php:12
+msgid "GDPR Compliance Widget"
+msgstr "Widget GDPR Compliance"
+
+#: includes/STM_Helpers.php:310
+msgid "You have to accept the privacy checkbox."
+msgstr "Debes aceptar la casilla de verificación de privacidad."
+
+#: includes/STM_Helpers.php:325 includes/STM_Helpers.php:326
+msgid "Your request has been submitted. Check your email to validate your data request."
+msgstr "Tu solicitud se ha enviado. Comprueba tu correo electrónico para validar tu solicitud de datos."
+
+#: includes/STM_Helpers.php:328
+msgid "You have to accept the privacy checkbox"
+msgstr "Debes aceptar la casilla de verificación de privacidad"
+
+#: includes/STM_PluginOptions.php:86
+msgid "Checkbox label"
+msgstr "Etiqueta de la casilla de verificación"
+
+#: includes/STM_PluginOptions.php:87
+msgid "Error notification"
+msgstr "Aviso de error"
+
+#: includes/STM_Plugins.php:95 includes/STM_Plugins.php:125
+msgid "GDPR checkbox will be added automatically above the submit button. You can use HTML tags and <span>%privacy_policy%</span> shortcode link for below inputs."
+msgstr "La casilla de verificación del RGPD se añadirá automáticamente encima del botón de envío. Puedes usar etiquetas HTML y el enlace del shortcode <span>%privacy_policy%</span> en los campos de abajo."
+
+#: includes/STM_Plugins.php:101
+msgid "GDPR checkbox will be added automatically to all your Contact Forms. You can use HTML tags and <span>%privacy_policy%</span> shortcode link for below inputs."
+msgstr "La casilla de verificación del RGPD se añadirá automáticamente a todos tus formularios de contacto. Puedes usar etiquetas HTML y el enlace del shortcode <span>%privacy_policy%</span> en los campos de abajo."
+
+#: includes/STM_Plugins.php:107
+msgid "GDPR checkbox will be added automatically to all your Gravity Forms. HTML tags are NOT allowed due to plugin limitations."
+msgstr "La casilla de verificación del RGPD se añadirá automáticamente a todos tus formularios de Gravity Forms. Las etiquetas HTML NO se permiten por limitaciones del plugin."
+
+#: includes/STM_Plugins.php:113
+msgid "GDPR checkbox will be added automatically at the end of the MailChimp form. You can use HTML tags and <span>%privacy_policy%</span> shortcode link for below inputs."
+msgstr "La casilla de verificación del RGPD se añadirá automáticamente al final del formulario de MailChimp. Puedes usar etiquetas HTML y el enlace del shortcode <span>%privacy_policy%</span> en los campos de abajo."
+
+#: includes/STM_Plugins.php:119
+msgid "GDPR checkbox will be added automatically at the end of the Checkout page. You can use HTML tags and <span>%privacy_policy%</span> shortcode link for below inputs."
+msgstr "La casilla de verificación del RGPD se añadirá automáticamente al final de la página Finalizar compra. Puedes usar etiquetas HTML y el enlace del shortcode <span>%privacy_policy%</span> en los campos de abajo."
