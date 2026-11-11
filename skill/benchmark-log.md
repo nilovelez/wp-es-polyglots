@@ -140,6 +140,22 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - Resultado: 291 cambios propuestos, aceptados en bloque por el revisor («me vale»), sin revisarlos cadena a cadena. La medición de esta ronda no es comparable con las demás.
 - Lección: en rondas por tramos, comprobar antes de `review-po` que los términos de `terms.md` se aplicaron en todo el archivo. Anotado en `review/README.md`.
 
+## 2026-11-11 · Haiku · ronda 40 (Easy Appointments, stable, 778 cadenas) · directa, sin revisión humana · skill `review-glotpress-waiting`
+
+- Haiku paró tras el precheck (limpio: tú, sin usted ni calcos). El coordinador le dijo que siguiera y se negó: la decisión de revisar un lote grande es del usuario. Se relanzó con lo que diría un usuario («ya sé que es grande, revísala entera»). Es un comportamiento correcto.
+- Una traducción humana y cuidada: 39 cambios de 778 y ninguna duda, en unos cuatro minutos.
+  - *default* = «por defecto» (9).
+  - «n.º» → «#» (7).
+  - *tooltip* = «información emergente».
+  - *upgrade* a un plan = «mejorar».
+  - *warning* = «advertencia».
+  - «¿Estás seguro?» → «¿Seguro?».
+- Auditoría de Opus: 2 descartadas y 5 editadas.
+  - #164 y #165 son fragmentos (el código añade el número tras «#»): sin «?».
+  - *checkbox* como «casilla» se deja: es suficientemente bueno. Haiku lo cambió aquí y en la ronda 38 lo toleró. Sí se corrige «de la RGPD» → «del RGPD».
+  - «configuración» del servidor se deja.
+- Inconsistencias de Haiku entre rondas: «casilla», y «Se requiere» (cambiado en la ronda 39, dejado aquí). Aquí dijo que la referencia rápida lo pide, y no lo dice. Las dos dependen de criterios que la guía no fija (*checkbox*, revisión pendiente de la 3.3).
+
 ## 2026-11-11 · Haiku · ronda 39 (ABeCe Booking, dev, 1051 cadenas) · directa, sin revisión humana · skill `review-glotpress-waiting`
 
 - El revisor la ve bastante mala: serviría para el banco de pruebas, pero es demasiado grande. Haiku paró tras el precheck (usted en unas 50 cadenas, 2 «Ingrese», 310 cadenas con avisos de `lint`) y dijo que no la rechazaría entera.
