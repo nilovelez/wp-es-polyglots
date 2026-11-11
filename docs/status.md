@@ -4,13 +4,12 @@ Last updated: 2026-11-11.
 
 ## Current milestone
 
-**M2 – Skill-driven review rounds.** A cheaper model session translates and reviews using only `skill/` ("Traductor - Sonnet" for rounds 03–04, "Traductor - Haiku" from round 06 on, measured round by round in `skill/benchmark-log.md`); the Opus session audits and improves the skill. Steps:
+**M2 – Skill-driven review rounds.** A cheaper model session translates and reviews using only the installable skill ("Traductor - Sonnet" for rounds 03–04, "Traductor - Haiku" from round 06 on, measured round by round in `skill/benchmark-log.md`); the Opus session audits and improves the skill. Steps:
 
-1. Write `skill/SKILL.md` and `skill/scripts/po_tool.py`. Done.
+1. Write the skill and `skill/scripts/po_tool.py`. Done.
 2. Blind benchmark on rounds 01 and 02 against the human-approved `corrected.po`. Done: 9/26 with skill v1, 39/50 with v2; v3 adds `lint` (see `skill/benchmark-log.md`).
 3. Real rounds from the waiting queue with the reviewer's feedback, following `review/README.md`. In progress.
-
-4. Installable skill `wordpress-translator-es/` (2026-11-11): the core component, translate or review with the glossary and the style guide, nothing else. `skill/package.py` regenerates it from `resources/` and `po_tool.py`; run it and commit after every change. The reviewer tests it in separate sessions with cheap models and compares it with other moderators' skills; what they learned is merged into it. The training rounds keep using `skill/SKILL.md` for now.
+4. Installable skill `wordpress-translator-es/` (2026-11-11): the core component, translate or review with the glossary and the style guide, nothing else. `skill/package.py` regenerates it from `resources/` and `po_tool.py`; run it and commit after every change. The reviewer tests it in separate sessions with cheap models and compares it with other moderators' skills; what they learned is merged into it. Since round 34 the training rounds use only this skill, prompted as a real user would (no term lists or exceptions in the prompt); the development `skill/SKILL.md` was removed.
 
 M1 (reorganize the repository and document the current state) is done.
 
@@ -22,9 +21,9 @@ What a skill or workflow may carry is fine-tuning for its scenario: how strict t
 
 **Translator guide**
 
-1. The reviewer reviews by hand the guide published in the es handbook and `resources/style-guide.md` (inherited: based on the official guide, more complete, with more cases). He reports inconsistencies; Claude fixes them in the Markdown.
+1. The reviewer reviews by hand the guide published in the es handbook and `resources/style-guide.md` (inherited: based on the official guide, more complete, with more cases). They report inconsistencies; Claude fixes them in the Markdown.
 2. Two versions with the same rules, more complete and better explained than the published one:
-   - **Human guide** (HTML): replaces the current page in the es handbook; The reviewer publishes it. Claude creates it when the reviewer asks. It links to the agent guide.
+   - **Human guide** (HTML): replaces the current page in the es handbook; the reviewer publishes it. Claude creates it when the reviewer asks. It links to the agent guide.
    - **Agent guide** (Markdown): the same rules plus the information for agents; it goes to the WordPress España community's GitHub account.
 3. The skill then references the published agent guide instead of carrying rules.
 4. From then on, new criteria from the rounds are reviewed one by one as changes to that base.
@@ -43,11 +42,8 @@ A central WordPress Polyglots repository (not the es one) with the general instr
 
 ### review (top priority)
 
-- Two rounds done: `01-mailbridgeapi` (readme, 72 strings) and `02-wgrank` (readme, 161 strings).
-- Each round keeps `original.po`, `repaired.po` (tool output), `corrected.po` (only the strings to change) and the script that built it.
-- The `corrected.po` was built with a one-off Python script per round. A reusable script is a candidate for M2.
-
-- Rounds 03 (webandroll-orderflow dev) and 04 (betterdocs stable) done with the Poedit flow. Round 05 (torlann stable, 3053 strings) was a batch to reject whole (unchecked machine translation); its files were deleted.
+- 33 rounds so far (log in `skill/benchmark-log.md`): training rounds with the reviewer's review in Poedit, and direct rounds audited by Opus to clear the queue. Round folders live in the ignored `rounds/` folder and are never committed.
+- Some batches are rejected whole (round 05, torlann: unchecked machine translation; others logged in the benchmark log).
 
 ### Future requirement: detect batches to reject whole
 
@@ -62,7 +58,9 @@ When a contributor uploads a batch like torlann (machine translation without con
 
 ### skill
 
-- First version of `skill/SKILL.md` (review and translation modes) and `skill/scripts/po_tool.py`. Scripts verified: rebuilding both rounds' `corrected.po` from decisions gives identical files.
+- One skill: `wordpress-translator-es/` (installable), developed from `skill/` and `resources/` with `skill/package.py`. It refreshes the official glossary at the start (`glossary-update`) and applies the team's overrides on top.
+- Not yet tested on claude.ai (network access to translate.wordpress.org from its sandbox) or on Windows.
+- `po_tool.py` still has es-specific checks (locale code, Spanish quotes, «ej.»); they must move to locale data before another locale can use it.
 - Translation memory is off in the skill until decided.
 
 ### common strings (separate repository)
@@ -72,10 +70,10 @@ When a contributor uploads a batch like torlann (machine translation without con
 ## Open questions (locale)
 
 - «Escritorio» with a capital letter mid-sentence: confirm the es_ES core convention.
-- *Dashboard* of an external service: «escritorio» per the glossary, or a different wording? Round 10: The reviewer accepted «escritorio del vendedor» for ifthenpay's merchant dashboard (one case, not yet a rule).
+- *Dashboard* of an external service: «escritorio» per the glossary, or a different wording? Round 10: the reviewer accepted «escritorio del vendedor» for ifthenpay's merchant dashboard (one case, not yet a rule).
 - *authentication salt* (AUTH_SALT): how does core translate it?
 - *Deselect All*: the glossary gives «anular selección»; «Anular toda la selección»?
 - Plugin name with a subtitle (WGRank Translate – …): leave untranslated?
 - Official glossary entries the team overrides (`resources/glossary-overrides.csv`, used by `po_tool.py`): *meta title* / *meta description* («meta título» / «meta descripción»). The reviewer may want to change them in the official glossary.
-- Glossary typos (QuickPress, *deprecate*, *expire*, *expanse*, *troubleshooting*, duplicated *endpoint* and *page*): The reviewer will review them.
+- Glossary typos (QuickPress, *deprecate*, *expire*, *expanse*, *troubleshooting*, duplicated *endpoint* and *page*): the reviewer will review them.
 - Translation memory: `resources/translation-memory.csv` has 21 entries from WGRank, but the previous instructions said to keep it empty because it will be approached differently. Waiting for a decision.

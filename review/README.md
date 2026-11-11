@@ -5,8 +5,20 @@ Goal: clear the es_ES *waiting* queue fast, and learn from every round.
 ## Who does what
 
 - **The reviewer** picks the project, reviews **every** string in Poedit (starting from the model's proposals), imports `corrected.po` in GlotPress and approves the rest. Only the reviewer uploads or approves.
-- **Translator session** ("Traductor - Haiku" since round 06; "Traductor - Sonnet" before) reviews the strings using only `skill/SKILL.md` and `resources/`. It writes only in the round folder, temporary files included.
-- **Maintainer session** (Opus) downloads the round, sends it to the translator, prepares the review file, builds `corrected.po` from the reviewer's saved file, and turns the differences into improvements of `resources/` and `skill/`.
+- **Translator session** ("Traductor - Haiku" since round 06; "Traductor - Sonnet" before) reviews the strings using only the installable skill `wordpress-translator-es/`, as a user would (see "Training sessions"). It writes only in the round folder, temporary files included.
+- **Maintainer session** (Opus) downloads the round, sends it to the translator, prepares the review file, builds `corrected.po` from the reviewer's saved file, and turns the differences into improvements of `resources/`, `skill/scripts/po_tool.py` and `wordpress-translator-es/SKILL.md`.
+
+## Training sessions: real use of the skill
+
+The translator session must work exactly as a user of the installable skill would, with the same model a user would pick. Its prompt says only what a user would say:
+
+```
+Use the skill in <repo>/wordpress-translator-es (read its SKILL.md and follow it).
+Review rounds/NN-<project>/original.po [entries A to B], work folder rounds/NN-<project>/work/,
+decisions in work/dec_<slice>.jsonl.
+```
+
+No lists of terms, exceptions or reminders in the prompt: if the session needs one to do the job right, it is missing from the skill or from `resources/`, and that is the finding of the round. The maintainer fixes it there (then `python3 skill/package.py`), not in the next prompt. The audit, the slicing into separate sessions for very large files and any `terms.md` the maintainer keeps are training machinery, not part of the skill.
 
 ## Round folders
 
@@ -56,11 +68,11 @@ There is no human reference, so the round is logged in `skill/benchmark-log.md` 
 
 ## Large rounds
 
-Before any model review of a large round (more than ~400 strings), give the reviewer the cheap numbers first (`lint` count, strings identical to English, untranslated) so he can look at the originals and decide whether the batch deserves a review at all.
+Before any model review of a large round (more than ~400 strings), give the reviewer the cheap numbers first (`lint` count, strings identical to English, untranslated) so they can look at the originals and decide whether the batch deserves a review at all.
 
 Files that do deserve it are reviewed in slices with `--range A-B` (`extract`, `glossary`, `lint`). Do **not** fan out to many parallel subagents on the same model: a 3053-string round reviewed by ten parallel Sonnet subagents burned most of a day's usage quota. Process the slices one after another in the translator session, or delegate slices to a cheaper model.
 
-Measured with Haiku (rounds 11–13): up to ~900 UI strings fit in one pass with no drop in quality at the end. Above that, use slices of ~750 in the same session, appending each slice's decisions to `decisions.jsonl` as soon as it is done, and keep a `terms.md` with every term choice, re-read at the start of each slice. Before building `review.po`, check the final translations for terms that ended up inconsistent across slices and get the reviewer's decision on them (round 13: «autenticación» vs «identificación»), so he does not review the same strings twice.
+Measured with Haiku (rounds 11–13): up to ~900 UI strings fit in one pass with no drop in quality at the end. Larger files (rounds 31–33): one Haiku session per slice of ~600–700 entries, one after another, each told only its entry range, with decisions in `work/dec_<slice>.jsonl`; the maintainer audits each slice before starting the next one and joins them into `decisions.jsonl`. Before building `review.po`, check the final translations for terms that ended up inconsistent across slices and get the reviewer's decision on them (round 13: «autenticación» vs «identificación»), so they do not review the same strings twice.
 
 ## Batches to reject whole
 
@@ -77,8 +89,11 @@ rounds/NN-project/
   decisions.jsonl      translator decisions
   review.po            file for the reviewer (all strings, proposals fuzzy)
   reviewed.po          the reviewer's saved review.po
-  corrected.po         only the strings the reviewer changed (what he imports)
+  corrected.po         only the strings the reviewer changed (what they import)
   learning.md          model vs the reviewer: kept, edited, reverted, missed
+  audited.jsonl        direct rounds: decisions after the maintainer's audit
+  edits.jsonl, audit.md  the audit's rewordings and the reasons for dropped decisions
+  work/                per-slice decisions and the skill's own working files
 ```
 
 Rounds 01 and 02 predate this flow: they have `repaired.po` (output of the `polyglots` tool), `corrected.po` and a one-off `make-corrected.py`.

@@ -1,5 +1,6 @@
 en,es,pos,description
-about,"acerca de",adverb,"Preferimos «Acerca de» antes que «Sobre», pero dependerá del contexto.
+ability,capacidad,noun,"No usar habilidad (falso amigo)"
+about,"acerca de",adverb,"Preferimos «Acerca de» antes que «Sobre», pero dependerá del contexto. 
 «Acerca del tema Baskerville»
 «Sobre el autor»"
 "above the fold","antes de desplazarse",expression,
@@ -130,7 +131,7 @@ dismiss,descartar,noun,
 draft,borrador,noun,
 "drag and drop","arrastrar y soltar",expression,
 "drag and drop builder","editor de arrastrar y soltar",expression,"no usar «maquetador de arrastrar y soltar»"
-drop-in/s,dependiente/s,noun,
+drop-in,dependiente/s,noun,
 dropin,dependiente,noun,"Se refiere a un tipo de plugins especiales, dependientes de otros procesos"
 e-learning,"aprendizaje virtual",expression,"Recomendación de Fundéu:
 https://www.fundeu.es/recomendacion/e-learning/"
@@ -282,11 +283,11 @@ multisite,multisitio,noun,
 N/A,N/D,abbreviation,https://x.com/RAEinforma/status/1114146214038188032
 next,siguiente,noun,"Si es comienzo de frase traducir como «A continuación»"
 nicename,"slug de usuario",noun,
-nickname,alias,noun,"No utilizar:
-Apodo (Incorrecto)
+nickname,alias,noun,"No utilizar: 
+Apodo (Incorrecto) 
 Nickname (Incorrecto)"
 nonce,nonce,noun,"(no se traduce)"
-"not allowed","no tienes permisos",expression,"No usar «permiso» sino «permisos» debido a que no es un «permiso» que da alguien sino «permisos» asociados a las capacidades de un perfil de usuario. Según el contexto, puede traducirse por «no (está) permitido»"
+"not allowed","no tienes permisos",expression,"No usar «permiso» sino «permisos» debido a que no es un «permiso» que da alguien sino «permisos» asociados a las capacidades de un perfil de usuario. Según el contexto, puede traducirse por «no (está) permitido»"
 notice,aviso,noun,
 notification,aviso,noun,"No usar «notificación»"
 notify,avisar,verb,"No usar «notificar»"

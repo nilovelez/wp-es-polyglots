@@ -6,6 +6,9 @@ Commands:
       Download the waiting strings (or, with --untranslated, the untranslated
       ones) of a translate.wordpress.org project into <folder>/original.po and
       print the import URL. es/default is added if the URL has no locale.
+  glossary-update [--locale es]
+      Download the official glossary of the locale from translate.wordpress.org
+      and replace the bundled glossary.csv (the team's overrides still apply).
   extract <file.po> [out.jsonl]
       One JSON object per entry: n, ctx, comments, flags, msgid, msgid_plural,
       msgstr (or msgstr_plural). Strings are unescaped (real newlines/quotes).
@@ -30,7 +33,8 @@ Commands:
       and changes the model missed).
   glossary <file.po> [glossary.csv]
       Glossary entries whose English term appears in the file, with the
-      entry numbers where they appear. Default: resources/glossary.csv.
+      entry numbers where they appear. Default: the bundled glossary.csv
+      (resources/glossary.csv in the development repository).
   lint <file.po> [glossary.csv]
       Review hints on the current translations: glossary terms missing or
       left in English, capitals mid-sentence, «ej.», straight quotes.
@@ -574,7 +578,8 @@ def cmd_lint(args):
         hints = []
         for en, es, opts, keep, note in rows:
             rx = r'(?<![\w-])' + re.escape(en.lower()) + r'(?:s|es|ed|d|ing)?(?![\w-])'
-            if not re.search(rx, s_low):
+            # A match that is itself another glossary term (fee + d = feed) is that term, not this one.
+            if not any(m.group(0) not in merged or m.group(0) == en.lower() for m in re.finditer(rx, s_low)):
                 continue
             if keep:
                 if not re.search(rx, t_plain.lower()):
@@ -630,7 +635,20 @@ def cmd_fetch(args):
     print(f'Import URL: {base}import-translations/')
 
 
-COMMANDS = {'fetch': cmd_fetch, 'extract': cmd_extract, 'check': cmd_check, 'build': cmd_build, 'compare': cmd_compare,
+def cmd_glossary_update(args):
+    """Download the locale's official glossary from translate.wordpress.org."""
+    import urllib.request
+    locale = args[args.index('--locale') + 1] if '--locale' in args else 'es'
+    url = f'https://translate.wordpress.org/locale/{locale}/default/glossary/-export/'
+    req = urllib.request.Request(url, headers={'User-Agent': 'wordpress-translator skill'})
+    data = urllib.request.urlopen(req, timeout=60).read().decode('utf-8')
+    if not data.startswith('en,'):
+        sys.exit('Unexpected glossary export; keeping the bundled copy.')
+    open(RES + 'glossary.csv', 'w', encoding='utf-8', newline='').write(data)
+    print(f'{RES}glossary.csv: {len(read_csv(RES + "glossary.csv"))} rows from {url}')
+
+
+COMMANDS = {'fetch': cmd_fetch, 'glossary-update': cmd_glossary_update, 'extract': cmd_extract, 'check': cmd_check, 'build': cmd_build, 'compare': cmd_compare,
             'glossary': cmd_glossary, 'tm': cmd_tm, 'lint': cmd_lint,
             'review-po': cmd_review_po, 'finalize': cmd_finalize}
 
@@ -642,6 +660,6 @@ if __name__ == '__main__':
         RANGE = (int(a), int(b))
         del argv[k:k + 2]
     sys.argv = sys.argv[:1] + argv
-    if len(sys.argv) < 3 or sys.argv[1] not in COMMANDS:
+    if len(sys.argv) < 2 or sys.argv[1] not in COMMANDS or (len(sys.argv) < 3 and sys.argv[1] != 'glossary-update'):
         sys.exit(__doc__)
     COMMANDS[sys.argv[1]](sys.argv[2:])

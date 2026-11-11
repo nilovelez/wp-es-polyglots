@@ -3,7 +3,8 @@
 
 SKILL.md there is written by hand. This script regenerates the rest:
   scripts/po_tool.py  copy of skill/scripts/po_tool.py
-  glossary.csv        resources/glossary.csv with resources/glossary-overrides.csv applied
+  glossary.csv        resources/glossary.csv (official export; the skill refreshes it with glossary-update)
+  glossary-overrides.csv  the team's exceptions, applied by po_tool on top of the glossary
   style-guide.md      resources/quick-reference.md + resources/style-guide.md,
                       without development-only parts (translation memory, internal files)
 and writes dist/wordpress-translator-es.zip (ignored by git) for claude.ai.
@@ -87,8 +88,9 @@ def style_guide():
 def main():
     os.makedirs(os.path.join(OUT, 'scripts'), exist_ok=True)
     shutil.copy(os.path.join(ROOT, 'skill', 'scripts', 'po_tool.py'), os.path.join(OUT, 'scripts', 'po_tool.py'))
-    text, n = glossary()
-    open(os.path.join(OUT, 'glossary.csv'), 'w', encoding='utf-8').write(text)
+    for f in ('glossary.csv', 'glossary-overrides.csv'):
+        shutil.copy(os.path.join(RES, f), os.path.join(OUT, f))
+    _, n = glossary()
     open(os.path.join(OUT, 'style-guide.md'), 'w', encoding='utf-8').write(style_guide())
 
     zpath = sys.argv[sys.argv.index('--zip') + 1] if '--zip' in sys.argv else \
