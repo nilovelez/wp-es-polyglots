@@ -140,6 +140,21 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - Resultado: 291 cambios propuestos, aceptados en bloque por el revisor («me vale»), sin revisarlos cadena a cadena. La medición de esta ronda no es comparable con las demás.
 - Lección: en rondas por tramos, comprobar antes de `review-po` que los términos de `terms.md` se aplicaron en todo el archivo. Anotado en `review/README.md`.
 
+## 2026-11-11 · Haiku · ronda 38 (Logicoo Form, stable, 848 cadenas) · directa, sin revisión humana · skill `review-glotpress-waiting`
+
+- El revisor normalmente la habría rechazado entera. 254 cadenas tenían avisos de `lint`, una tasa al límite. 99 de ellas usaban comillas no españolas, señal de que el traductor no había leído la guía. Y el traductor es el propio autor del plugin, lo que hace probable una traducción automática sin revisar. No es un criterio para la skill: la skill ya para por encima de unas 400 cadenas, da los números y deja la decisión al revisor. Así lo hizo Haiku.
+- Haiku la revisó en una sesión, en bloques de unas 300 cadenas, con `terms.md`. Tardó unos cinco minutos.
+- Resultado: 196 cambios, sin dudas.
+  - Unas 100 cadenas por las comillas.
+  - Sinónimos sistemáticos corregidos en todo el archivo: *notification* = «aviso», *delete* = «borrar», *default* = «por defecto», *upload* = «subir», *hover* = «al pasar el cursor», *rating* = «puntuación», *builder* = «maquetador».
+  - *entries* = «registros» en lugar de «respuestas» (unas 40 cadenas). El glosario dice que «es mejor» si son datos almacenados.
+  - 8 cadenas en usted.
+  - Comprobado aparte: las 652 restantes no tienen restos de los sinónimos corregidos.
+- Auditoría de Opus: 5 descartadas y 3 editadas.
+  - Descartadas: #180 y #181 (*preset* como adjetivo, «preestablecido»); #183 (*required number* no es un campo obligatorio); #410 (columna del resumen, no la barra lateral de WordPress); #790 (entradas de un registro de errores).
+  - Editadas: #289, el espacio inicial del sufijo « (importado)» se perdía con las comillas; #779, añadía «electrónico» sin necesidad; #784, *notification emails* = «correos de aviso».
+- Candidato: un término del glosario usado como adjetivo o en otro sentido (*preset prefix*, *sidebar column*, *required number*). Haiku aplica el término sin mirar el sentido.
+
 ## 2026-11-11 · Haiku · ronda 37 (Chiaro AI Sales Analytics for WooCommerce, dev, 364 cadenas) · directa, sin revisión humana · skill `review-glotpress-waiting`
 
 - Primera ronda con el flujo completo y solo la URL en el prompt. Haiku descargó el lote, pasó el precheck (sin usted ni formas latinoamericanas), decidió revisarlo y entregó el `corrected.po` con la URL de importación. Tardó menos de dos minutos y medio.
