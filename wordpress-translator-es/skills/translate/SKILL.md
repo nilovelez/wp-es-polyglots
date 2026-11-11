@@ -11,12 +11,8 @@ Always do the translation with this workflow and `po_tool.py`, never by reading 
 
 ## Read first, every time
 
-1. Refresh the glossary (once per session; if it fails, the bundled copy is used):
-   ```
-   python3 <refs>/po_tool.py glossary-update
-   ```
-2. `<refs>/style-guide.md`: the quick reference at the top and the full guide (sections 1–6). Follow it literally; it is the team's consensus.
-3. The glossary entries that apply to the file. Do not read the whole glossary:
+1. `<refs>/style-guide.md`, sections 1–5. Follow it literally; it is the team's consensus.
+2. The glossary entries that apply to the file. Do not read the whole glossary:
    ```
    python3 <refs>/po_tool.py glossary <file.po>
    ```
@@ -42,7 +38,7 @@ One JSON object per entry: `n` (entry number), `ctx`, `note` (comment for transl
 
 ## 2. Translate
 
-Translate every empty or fuzzy entry (section 6 of the style guide). Do not change entries that are already translated unless asked. Translate everything without stopping; when unsure, use your best translation and mark it as a doubt.
+Translate every empty or fuzzy entry. Do not change entries that are already translated unless asked. Translate everything without stopping; when unsure, use your best translation and mark it as a doubt.
 
 - Plurals: always fill both forms.
 - Keep placeholders (`%s`, `%1$d`, `{name}`), HTML, entities, URLs, `\n` and edge spaces exactly as in the source.

@@ -11,12 +11,8 @@ Always do the review with this workflow and `po_tool.py`, never by reading the s
 
 ## Read first, every time
 
-1. Refresh the glossary (once per session; if it fails, the bundled copy is used):
-   ```
-   python3 <refs>/po_tool.py glossary-update
-   ```
-2. `<refs>/style-guide.md`: the quick reference at the top (the criteria most often broken, and when a string should **not** be changed) and the full guide (sections 1–5 and 7). Follow it literally; it is the team's consensus.
-3. The glossary entries that apply to the file. Do not read the whole glossary:
+1. `<refs>/style-guide.md`, all of it: section 6 says when a string should **not** be changed. Follow it literally; it is the team's consensus.
+2. The glossary entries that apply to the file. Do not read the whole glossary:
    ```
    python3 <refs>/po_tool.py glossary <file.po>
    ```
@@ -48,7 +44,7 @@ First the automatic hints:
 python3 <refs>/po_tool.py lint <file.po>
 ```
 
-They flag glossary terms missing or left in English (with the glossary note), capitals mid-sentence and typography. Look at every hinted entry: most hints are real errors, some are not (the term is there in another form, or the string is fine as it is). Then read **every** entry against its source, for meaning and not only terms: prepositions, who does the action, words added or lost. Decide (section 7 of the style guide):
+They flag glossary terms missing or left in English (with the glossary note), capitals mid-sentence and typography. Look at every hinted entry: most hints are real errors, some are not (the term is there in another form, or the string is fine as it is). Then read **every** entry against its source, for meaning and not only terms: prepositions, who does the action, words added or lost. Decide (section 6 of the style guide):
 
 | Verdict | When |
 |---|---|
@@ -57,7 +53,7 @@ They flag glossary terms missing or left in English (with the glossary note), ca
 | `reject` | Breaks the glossary, uses «usted», changes the meaning, breaks placeholders/HTML, leaves a glossary term in English, clearly unnatural |
 | `doubt` | Probably wrong, but not enough context, and the guide and glossary do not settle it: give your best proposal and the question |
 
-- **Change only what is wrong.** If the translation is good enough, approve it, even when you know a slightly better option (the quick reference lists cases). When you change a string, keep the translator's wording except for the error.
+- **Change only what is wrong.** If the translation is good enough, approve it, even when you know a slightly better option (section 6 of the guide lists cases). When you change a string, keep the translator's wording except for the error.
 - Translators often use one synonym systematically instead of the glossary term. Apply the glossary term in every entry where it appears, also in small verbs, and fix gender and agreement.
 - Same source string or term → same translation across the file. Do not use the project's already approved strings as a reference: approved does not mean correct.
 - Decide on your own whenever the guide or the glossary settle the case; doubts are only for real questions.

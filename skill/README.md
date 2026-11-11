@@ -1,6 +1,6 @@
 # Translation skill
 
-Development of the installable skill in `wordpress-translator-es/`. Its `SKILL.md` is written by hand there; `package.py` regenerates the rest (glossary, overrides, style guide, `po_tool.py`) from `resources/` and `scripts/`. Run it after every change and commit the result. The skill must work with cheap models (Haiku), not only Opus.
+Development of the installable skill in `wordpress-translator-es/`. Its `SKILL.md` is written by hand there; `package.py` regenerates the rest from `resources/` and `scripts/`: `po_tool.py`, one `glossary.csv` (the official glossary with the team's overrides merged in) and one `style-guide.md` (the guide with the quick reference merged in). The skill sees only that glossary and that guide, as it will when they are the team's approved ones; overrides and exceptions exist only here, in `resources/`. Haiku's training sessions use the packaged skill, so they test exactly what users get. Run it after every change and commit the result. The skill must work with cheap models (Haiku), not only Opus.
 
 `scripts/po_tool.py` (Python stdlib) does the deterministic work so the model only decides translations:
 
@@ -8,7 +8,7 @@ Development of the installable skill in `wordpress-translator-es/`. Its `SKILL.m
 |---|---|
 | `extract` | `.po` → numbered JSON lines |
 | `fetch` | Download waiting or untranslated strings of a translate.wordpress.org project |
-| `glossary-update` | Refresh the official glossary from translate.wordpress.org |
+| `glossary-update` | Maintainer only: refresh `resources/glossary.csv` from translate.wordpress.org when the reviewer says the official glossary has changed. The skill does not run it |
 | `glossary` / `tm` | Glossary entries / translation memory rows (memory off for now) that apply to a file |
 | `lint` | Review hints on the current translations: glossary terms missing or left in English, Title Case, «ej.», straight quotes |
 | `check` | Placeholders, HTML, entities, URLs, newlines, edge spaces, quotes |

@@ -1,4 +1,4 @@
-# Guía de traducción de WordPress a español de España (es_ES) para agentes
+# Guía de traducción de WordPress a español de España (es_ES)
 
 Instrucciones para traducir archivos `.po` de WordPress (núcleo, plugins y temas) y revisar traducciones pendientes (*waiting*) en GlotPress, siguiendo los criterios del equipo de WordPress España.
 
@@ -6,22 +6,36 @@ Basada en la [Guía de traductores del equipo de WordPress España](https://es.w
 
 ---
 
-## Referencia rápida
+## 1. Fuentes y prioridad
 
-El glosario, la guía de estilo y estos criterios son decisiones del equipo es_ES tomadas por consenso, no preferencias personales, y se aplican para que las traducciones sean coherentes. También se revisan: si una norma es incoherente, está desfasada o no encaja con lo que se traduce ahora, se señala para que el equipo la revise.
+Cuando dos fuentes entren en conflicto, prevalece la de mayor rango:
 
-Prioridad si hay conflicto: instrucciones del usuario → glosario → guía.
+1. **Instrucciones explícitas del usuario**.
+2. **Glosario** (`glossary.csv`).
+3. **Esta guía.**
 
-### Cuándo cambiar una cadena (revisión)
+Uso del glosario:
 
-- **Solo se cambia lo que es un error.** Si la traducción es suficientemente buena, se aprueba aunque exista otra opción más correcta. Ejemplos de «suficientemente bueno»: «Eliminado» en lugar de «Quitado» para *Remove*; una entrada de un registro de cambios en presente («permanece visible») cuando las demás van en participio; «requiere PHP %s» en lugar de «necesita PHP %s»; «No se pudo…» o «no pudo guardarse» en lugar de «No se ha podido…». En los registros de cambios, aún más tolerancia.
-- Más casos de «suficientemente bueno», que no se cambian: *remove* traducido como «eliminar» o «borrar» cuando de verdad se borra algo; *toggle* como «interruptor» (el glosario da «conmutador», que es más general, pero «interruptor» no es incorrecto para algo que se enciende y se apaga); «Sorry» omitido al principio de un mensaje de error; *issue* como «fallo»; un aviso destacado *WARNING!* como «¡ATENCIÓN!».
-- **Sinónimos sistemáticos.** Muchos traductores usan siempre el mismo sinónimo en lugar del término del glosario («notificación» por *notification*, «complemento» por *add-on*, «predeterminado» por *default*, «eliminar» por *delete*, «definir» o «poner» por *set*, «saltar» por *skip*, «vincular» por *link*, «revisar» por *check*). Eso sí es error: se corrige en todas las cadenas donde aparece, también en verbos pequeños, y ajustando el género y la concordancia («la notificación enviada» → «el aviso enviado»; «el complemento» → «la extensión»).
-- **Formas preferidas, solo si ya cambias la cadena por otro motivo:** «necesita» mejor que «requiere»; «No se ha podido…» (pretérito perfecto, como el núcleo) mejor que «No se pudo…». No se cambia una cadena solo por esto.
-- Sí se cambia: incumplimientos del glosario, cambio de sentido (p. ej. «Añadido» cuando el original dice *Show*), preposición equivocada («Compatibilidad del correo» por *Email compatibility* → «Compatibilidad con el correo electrónico»), tipografía (comillas, «p. ej.», coma tras «Por favor,»), términos del glosario dejados en inglés.
-- **email = «correo electrónico».** En textos largos (descripciones, párrafos, preguntas frecuentes) «correo» a secas se corrige a «correo electrónico», también en «dirección de correo electrónico» y «correos electrónicos enviados». En cadenas cortas de interfaz (botones, etiquetas, menús, títulos breves) «correo» es válido para mantener una longitud parecida al original: se aprueba.
+- Columnas: `en, es, pos, description`. La columna `description` contiene usos prohibidos («No usar…») y matices de contexto que son obligatorios.
+- Si una entrada ofrece varias opciones separadas por « / », elige según el contexto que indique `description`.
+- Comprueba la categoría gramatical (`pos`): el mismo término puede tener traducciones distintas como sustantivo y como verbo (*link* → «enlace» / «enlazar»).
+- Si una entrada parece errónea, aplícala igualmente y señálalo al terminar.
 
-### Criterios de traducción
+El glosario y esta guía son decisiones del equipo es_ES tomadas por consenso, no preferencias personales, y se aplican para que las traducciones sean coherentes. También se revisan: si una norma es incoherente, está desfasada o no encaja con lo que se traduce ahora, se señala para que el equipo la revise.
+
+---
+
+## 2. Normas generales
+
+- **No se traducen** los nombres de temas y plugins: «Contact Form 7», «Astra», «Jetpack», «WooCommerce».
+- **Productos de otras empresas:** se respeta la decisión de cada empresa. Usa el nombre oficial que la propia empresa emplea en español de España; unas traducen sus productos y otras no, y a veces solo algunos.
+  - ✅ «Hojas de cálculo de Google» (nombre oficial en español) · «Search Console» (Google no lo traduce).
+  - Comprueba el nombre en la web o la interfaz oficial en español de la empresa. Si no puedes verificarlo, deja el nombre original y márcalo como duda.
+- Traducción **contextual, no literal**: «Page Management Documentation» → «Documentación de la gestión de páginas», no «Documentación gestión páginas».
+- Si un término inglés es polisémico y en español no, usa la palabra española adecuada para cada contexto.
+- Prioriza palabras españolas que expresen el concepto antes que anglicismos, salvo que el glosario indique que el término no se traduce.
+
+### Casos concretos
 
 - Tuteo; WordPress habla en primera persona del singular; infinitivo para acciones del usuario, imperativo para propuestas.
 - **website = «sitio web»; site = «sitio»** (glosario). No quitar «sitio web» cuando el original dice *website*.
@@ -36,7 +50,7 @@ Prioridad si hay conflicto: instrucciones del usuario → glosario → guía.
 - *host name* / *hostname* = «nombre de host», no «nombre de servidor».
 - Nombres de etiquetas y atributos HTML (*viewport*, *canonical*, *hreflang*, *og:url*) no se traducen cuando nombran la etiqueta: «la etiqueta viewport», «la metaetiqueta viewport». La traducción del glosario («área visible») es para la interfaz del usuario final.
 - **«#%d» se deja como en el original** («Pedido #%d», «Tarea #%d»): no se cambia por «n.º %d», que no hace falta, puede ser incorrecto y se lee peor. Si el traductor puso «n.º», se corrige a «#».
-- *meta title* = «meta título», *meta description* = «meta descripción» (dos palabras), aunque el glosario oficial diga que no se traducen.
+- *meta title* = «meta título», *meta description* = «meta descripción» (dos palabras).
 - Nombres de idiomas con variante: *Chinese, Simplified* = «chino simplificado», *Chinese, Traditional* = «chino tradicional» (no «chino (China)» ni «chino (Taiwán)»). Se traduce la variante que dice el original.
 - **Anglicismos:** se evitan cuando hay término en español, también en textos técnicos de seguridad. *authentication* = «identificación» (no «autenticación»), *authenticate* = «identificar», *two-factor authentication* / *2FA* = «identificación en dos pasos» (no «autenticación de dos factores»; la sigla 2FA se deja).
 - *whitelist* como sustantivo = «lista blanca»; *to whitelist* (verbo) = «añadir a los admitidos»; *whitelisted* = «admitido» («IP admitidas»). *blacklist* = «lista negra».
@@ -45,35 +59,6 @@ Prioridad si hay conflicto: instrucciones del usuario → glosario → guía.
 - *badge*: «insignia» (glosario) encaja sobre todo en productos (el cartelito de «en oferta»). Para el globo con un contador junto a un elemento del menú, «distintivo» y otras opciones razonables también son válidas: se aprueba.
 - Los términos del glosario que el traductor deja en inglés (*checkout*, *slider*, *hook*, *frontend*, *sitemap*, *firewall*) son error.
 - El masculino genérico no es motivo de rechazo. Cambios mínimos de estilo: se aprueba. Tilde o coma tras «Por favor,»: se corrige y se publica.
-
----
-
-## 1. Fuentes y prioridad
-
-Cuando dos fuentes entren en conflicto, prevalece la de mayor rango:
-
-1. **Instrucciones explícitas del revisor humano** en la sesión de trabajo.
-2. **Glosario oficial** (`glossary.csv`, exportado de [translate.wordpress.org/locale/es/default/glossary](https://translate.wordpress.org/locale/es/default/glossary/)).
-3. **Esta guía.**
-
-Uso del glosario:
-
-- Columnas: `en, es, pos, description`. La columna `description` contiene usos prohibidos («No usar…») y matices de contexto que son obligatorios.
-- Si una entrada ofrece varias opciones separadas por « / », elige según el contexto que indique `description`.
-- Comprueba la categoría gramatical (`pos`): el mismo término puede tener traducciones distintas como sustantivo y como verbo (*link* → «enlace» / «enlazar»).
-- Si una entrada parece errónea (ver sección 9), aplica el criterio correcto y señálalo en el informe.
-
----
-
-## 2. Normas generales
-
-- **No se traducen** los nombres de temas y plugins: «Contact Form 7», «Astra», «Jetpack», «WooCommerce».
-- **Productos de otras empresas:** se respeta la decisión de cada empresa. Usa el nombre oficial que la propia empresa emplea en español de España; unas traducen sus productos y otras no, y a veces solo algunos.
-  - ✅ «Hojas de cálculo de Google» (nombre oficial en español) · «Search Console» (Google no lo traduce).
-  - Comprueba el nombre en la web o la interfaz oficial en español de la empresa. Si no puedes verificarlo, deja el nombre original y anótalo como duda en el informe.
-- Traducción **contextual, no literal**: «Page Management Documentation» → «Documentación de la gestión de páginas», no «Documentación gestión páginas».
-- Si un término inglés es polisémico y en español no, usa la palabra española adecuada para cada contexto.
-- Prioriza palabras españolas que expresen el concepto antes que anglicismos, salvo que el glosario indique que el término no se traduce.
 
 ---
 
@@ -152,23 +137,7 @@ Gerundio: «Saving…» → «Guardando…».
 
 ---
 
-## 6. Modo traducción
-
-1. Traduce las cadenas vacías y las marcadas como *fuzzy*. No modifiques las ya traducidas salvo petición expresa.
-2. Antes de cada cadena, consulta el glosario.
-3. **Traduce todas las cadenas**, sin dejar huecos ni pausar el trabajo por dudas.
-4. Al terminar, presenta las dudas agrupadas: cadena original, contexto, traducción aplicada, alternativa y pregunta concreta.
-5. Aplica las respuestas del revisor antes de entregar el archivo final. No es necesario marcar las dudas como *fuzzy*.
-
-**Informe de entrega:**
-
-- Dudas resueltas y criterio aplicado.
-- Términos no incluidos en el glosario y traducción elegida.
-- Conflictos detectados entre el glosario y el contexto.
-
----
-
-## 7. Modo revisión (cadenas *waiting*)
+## 6. Revisión
 
 Emite un veredicto para cada cadena:
 
@@ -177,9 +146,9 @@ Emite un veredicto para cada cadena:
 | Correcta, o solo difiere en matices mínimos de estilo respecto a otra opción válida | **Aprobar** |
 | Errores menores: tilde, coma tras «Por favor», comillas no españolas, mayúscula sobrante | **Corregir y aprobar** |
 | Incumple el glosario, el tuteo, la voz de WordPress, rompe placeholders/HTML, cambia el sentido o es claramente poco natural | **Rechazar** con comentario |
-| No hay contexto suficiente para decidir | **Dudosa**: se pregunta al revisor al terminar |
+| No hay contexto suficiente para decidir | **Dudosa**: mejor propuesta y una pregunta concreta |
 
-**Consistencia:** la misma cadena o fórmula debe traducirse igual en todo el proyecto.
+**Consistencia:** la misma cadena o fórmula debe traducirse igual en todo el proyecto. Las traducciones ya aprobadas no son referencia: aprobada no quiere decir correcta.
 
 **El masculino genérico no es motivo de rechazo.** Como mucho, se sugiere la alternativa neutra si es natural.
 
@@ -191,19 +160,11 @@ Emite un veredicto para cada cadena:
 
 > Ejemplo: Según el glosario, «dashboard» se traduce como «escritorio». Propuesta: «Ir al escritorio».
 
-**Salida:** tabla con `original`, `traducción sugerida`, `veredicto`, `traducción final` (si se corrige) y `comentario`.
+### Cuándo cambiar una cadena
 
----
-
-## 9. Pendientes
-
-Posibles erratas en el glosario, en revisión:
-
-- *QuickPress* → «ublicación rápida» (falta la P).
-- *deprecate* → «descarta» (el infinitivo sería «descartar»).
-- *expire* / *expires* → «caduca», con categoría gramatical incorrecta.
-- *expanse* → «expandir» (probablemente *expand*).
-- *troubleshooting* → «diagnosticar» como verbo (sería el sustantivo «diagnóstico»).
-- Entradas duplicadas: *endpoint*, *page*.
-
-Ante la duda: pregunta al revisor humano. Las decisiones del equipo se debaten en el canal [#polyglots-es](https://wordpress.slack.com/archives/C0B936628M6) del Slack de Make WordPress.
+- **Solo se cambia lo que es un error.** Si la traducción es suficientemente buena, se aprueba aunque exista otra opción más correcta. Ejemplos de «suficientemente bueno»: «Eliminado» en lugar de «Quitado» para *Remove*; una entrada de un registro de cambios en presente («permanece visible») cuando las demás van en participio; «requiere PHP %s» en lugar de «necesita PHP %s»; «No se pudo…» o «no pudo guardarse» en lugar de «No se ha podido…». En los registros de cambios, aún más tolerancia.
+- Más casos de «suficientemente bueno», que no se cambian: *remove* traducido como «eliminar» o «borrar» cuando de verdad se borra algo; *toggle* como «interruptor» (el glosario da «conmutador», que es más general, pero «interruptor» no es incorrecto para algo que se enciende y se apaga); «Sorry» omitido al principio de un mensaje de error; *issue* como «fallo»; un aviso destacado *WARNING!* como «¡ATENCIÓN!».
+- **Sinónimos sistemáticos.** Muchos traductores usan siempre el mismo sinónimo en lugar del término del glosario («notificación» por *notification*, «complemento» por *add-on*, «predeterminado» por *default*, «eliminar» por *delete*, «definir» o «poner» por *set*, «saltar» por *skip*, «vincular» por *link*, «revisar» por *check*). Eso sí es error: se corrige en todas las cadenas donde aparece, también en verbos pequeños, y ajustando el género y la concordancia («la notificación enviada» → «el aviso enviado»; «el complemento» → «la extensión»).
+- **Formas preferidas, solo si ya cambias la cadena por otro motivo:** «necesita» mejor que «requiere»; «No se ha podido…» (pretérito perfecto, como el núcleo) mejor que «No se pudo…». No se cambia una cadena solo por esto.
+- Sí se cambia: incumplimientos del glosario, cambio de sentido (p. ej. «Añadido» cuando el original dice *Show*), preposición equivocada («Compatibilidad del correo» por *Email compatibility* → «Compatibilidad con el correo electrónico»), tipografía (comillas, «p. ej.», coma tras «Por favor,»), términos del glosario dejados en inglés.
+- **email = «correo electrónico».** En textos largos (descripciones, párrafos, preguntas frecuentes) «correo» a secas se corrige a «correo electrónico», también en «dirección de correo electrónico» y «correos electrónicos enviados». En cadenas cortas de interfaz (botones, etiquetas, menús, títulos breves) «correo» es válido para mantener una longitud parecida al original: se aprueba.
