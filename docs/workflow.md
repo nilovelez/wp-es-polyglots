@@ -35,5 +35,5 @@ See [review/README.md](../review/README.md).
 |---|---|---|
 | Project docs, code, file names, commit messages | `docs/`, scripts | English |
 | Style guide, glossary, translation memory, moderation criteria | `resources/` | Spanish |
-| Per-round notes and tool calibration | `review/rounds/`, `polyglots/calibration-log.md` | Spanish |
+| Per-round notes and tool calibration | `skill/benchmark-log.md`, `polyglots/calibration-log.md` | Spanish |
 | Temporary files (downloads, experiments) | `/Volumes/Datos/scratch/wp-es-polyglots/` | — |

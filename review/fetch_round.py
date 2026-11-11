@@ -8,7 +8,9 @@ Usage:
   https://translate.wordpress.org/projects/wp-plugins/<slug>/stable-readme/es/default/
 or the project URL without the locale part (es/default is added).
 
-Writes into the round folder (default: review/rounds/NN-<slug>-<subproject>/):
+Writes into the round folder (default: $ROUNDS_DIR/NN-<slug>-<subproject>/, where
+ROUNDS_DIR defaults to /Volumes/Datos/scratch/wp-es-polyglots/rounds; rounds are
+working material and never go into the repository):
   original.po   waiting strings (the ones to review)
   current.po    only with --current: approved strings of the project. Not used
                 by the skill (approved does not mean correct, and large
@@ -48,7 +50,8 @@ def main():
     if len(args) > 1:
         folder = args[1]
     else:
-        rounds = os.path.join(HERE, 'rounds')
+        rounds = os.environ.get('ROUNDS_DIR', '/Volumes/Datos/scratch/wp-es-polyglots/rounds')
+        os.makedirs(rounds, exist_ok=True)
         nums = [int(d[:2]) for d in os.listdir(rounds) if d[:2].isdigit()]
         folder = os.path.join(rounds, f'{max(nums, default=0) + 1:02d}-{name}')
     os.makedirs(folder, exist_ok=True)

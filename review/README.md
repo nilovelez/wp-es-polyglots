@@ -10,7 +10,7 @@ Goal: clear the es_ES *waiting* queue fast, and learn from every round.
 
 ## Exchange folder
 
-`/Volumes/Datos/scratch/wp-es-polyglots/` on Bender, mounted on Nilo's machines through Tailscale. Each round gets a subfolder `NN-<project>/` there with the files Nilo opens and saves. The canonical copy of every round lives in `review/rounds/NN-<project>/` in this repository.
+`/Volumes/Datos/scratch/wp-es-polyglots/` on Bender, mounted on Nilo's machines through Tailscale. Each round gets a subfolder `NN-<project>/` there with the files Nilo opens and saves. Rounds are working material: they live in `/Volumes/Datos/scratch/wp-es-polyglots/rounds/NN-<project>/` and never go into the repository. What a round teaches goes into `skill/benchmark-log.md` and, when it is a rule, into `resources/`.
 
 ## Round
 
@@ -71,7 +71,7 @@ Another case: the source strings are not in US English (Arcadys Municipal Core, 
 ## Round folder
 
 ```
-rounds/NN-project/
+/Volumes/Datos/scratch/wp-es-polyglots/rounds/NN-project/
   original.po          waiting strings as downloaded
   entries.jsonl        extracted entries (skill)
   decisions.jsonl      translator decisions
