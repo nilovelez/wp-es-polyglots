@@ -11,6 +11,8 @@ Always do the translation with this workflow and `po_tool.py`, never by reading 
 
 ## Read first, every time
 
+The glossary and the guide in `<refs>` are the only reference: do not use other glossaries, guides or translations you may find on disk.
+
 1. `<refs>/style-guide.md`, sections 1–5. Follow it literally; it is the team's consensus.
 2. The glossary entries that apply to the file. Do not read the whole glossary:
    ```

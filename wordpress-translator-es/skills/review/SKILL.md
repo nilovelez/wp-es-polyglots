@@ -11,6 +11,8 @@ Always do the review with this workflow and `po_tool.py`, never by reading the s
 
 ## Read first, every time
 
+The glossary and the guide in `<refs>` are the only reference: do not use other glossaries, guides or translations you may find on disk.
+
 1. `<refs>/style-guide.md`, all of it: section 6 says when a string should **not** be changed. Follow it literally; it is the team's consensus.
 2. The glossary entries that apply to the file. Do not read the whole glossary:
    ```
