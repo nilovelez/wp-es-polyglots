@@ -67,7 +67,7 @@ There is no human reference, so the round is logged in `skill/benchmark-log.md` 
 
 ## Large rounds
 
-Before any model review of a large round (more than ~400 strings), give the reviewer the cheap numbers first (`lint` count, strings identical to English, untranslated) so they can look at the originals and decide whether the batch deserves a review at all.
+The skill stops before reviewing only when the precheck numbers point to a batch to reject whole, or when it has more than 1500 strings. A clean batch below that is reviewed straight away, and the precheck numbers go in the summary.
 
 Files that do deserve it are reviewed in slices with `--range A-B` (`extract`, `glossary`, `lint`). Do **not** fan out to many parallel subagents on the same model: a 3053-string round reviewed by ten parallel Sonnet subagents burned most of a day's usage quota. Process the slices one after another in the translator session, or delegate slices to a cheaper model.
 
