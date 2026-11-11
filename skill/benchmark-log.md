@@ -155,6 +155,20 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - Auditoría de Opus: 2 descartadas y 4 editadas. Haiku cambió «prefijo de país» por «código de país» (5 cadenas) sin que el glosario tenga esa entrada. «Prefijo» es lo correcto para un teléfono. «variantes» de un número de teléfono no son variaciones de producto de WooCommerce.
 - Haiku señaló *endpoint* = «variable» en el glosario, que no sirve para endpoints de API. Ya lo había señalado en la ronda 40.
 
+### Ronda 41, segunda pasada (con los overrides de *endpoint*, *scope*, *clear*, *media*, *Dashboard*…)
+
+- 148 000 tokens, 19 herramientas, 3 min 50 s: algo más que la primera pasada.
+- No fue a ciegas. La carpeta de trabajo estaba dentro de la de la ronda, y Haiku leyó las decisiones de la primera pasada y se comparó con ellas. Para repetir una ronda, la carpeta de trabajo tiene que ir fuera.
+- 48 cambios, sin dudas.
+  - Esta vez acierta en lo que la primera auditoría había pasado por alto:
+    - comillas rectas en el texto que se escribe en el buscador («Busca "WSMS"», como dice la guía);
+    - «la administración de WordPress» en vez de «el administrador»;
+    - *Upgrade* = «Mejora a»;
+    - «prefijo de país» sin cambiar;
+    - *endpoint* sin tocar.
+  - Opus solo edita *entry* = «registro» → «entrada».
+- La respuesta no siguió el formato mínimo. Puso rutas del informe y de las decisiones, números de entrada y «dudas para el equipo» que no lo eran. La respuesta a un coordinador en Claude Code no es la de claude.ai, pero la skill pide lo mismo.
+
 ## 2026-11-11 · Haiku · ronda 40 (Easy Appointments, stable, 778 cadenas) · directa, sin revisión humana · skill `review-glotpress-waiting`
 
 - Haiku paró tras el precheck (limpio: tú, sin usted ni calcos). El coordinador le dijo que siguiera y se negó: la decisión de revisar un lote grande es del usuario. Se relanzó con lo que diría un usuario («ya sé que es grande, revísala entera»). Es un comportamiento correcto.
