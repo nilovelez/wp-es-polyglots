@@ -6,17 +6,15 @@ Goal: clear the es_ES *waiting* queue fast, and learn from every round.
 
 - **The reviewer** picks the project, reviews **every** string in Poedit (starting from the model's proposals), imports `corrected.po` in GlotPress and approves the rest. Only the reviewer uploads or approves.
 - **Translator session** ("Traductor - Haiku" since round 06; "Traductor - Sonnet" before) reviews the strings using only the installable skill `wordpress-translator-es/`, as a user would (see "Training sessions"). It writes only in the round folder, temporary files included.
-- **Maintainer session** (Opus) downloads the round, sends it to the translator, prepares the review file, builds `corrected.po` from the reviewer's saved file, and turns the differences into improvements of `resources/`, `skill/scripts/po_tool.py` and `wordpress-translator-es/SKILL.md`.
+- **Maintainer session** (Opus) downloads the round, sends it to the translator, prepares the review file, builds `corrected.po` from the reviewer's saved file, and turns the differences into improvements of `resources/`, `skill/scripts/po_tool.py` and the skills' `SKILL.md` files.
 
 ## Training sessions: real use of the skill
 
 The translator session must work exactly as a user of the installable skill would, with the same model a user would pick. Its prompt says only what a user would say:
 
-```
-Use the skill in <repo>/wordpress-translator-es (read its SKILL.md and follow it).
-Review rounds/NN-<project>/original.po [entries A to B], work folder rounds/NN-<project>/work/,
-decisions in work/dec_<slice>.jsonl.
-```
+- **Direct round** (tests the whole workflow, as another PTE would use it): "Use the skill in `<repo>/wordpress-translator-es/skills/review-glotpress-waiting` (read its SKILL.md and follow it). Review the waiting strings of <URL>. Work folder: `rounds/NN-<project>/work/`."
+- **Training round reviewed in Poedit, and bench cases** (tests the review alone): "Use the skill in `<repo>/wordpress-translator-es/skills/review` (…). Review `rounds/NN-<project>/original.po` [entries A to B]. Work folder: `rounds/NN-<project>/work/`."
+- **Translation of an official project** the reviewer picks: "Use the skill in `<repo>/wordpress-translator-es/skills/translate-glotpress-project` (…). Translate <URL>. Work folder: …"
 
 No lists of terms, exceptions or reminders in the prompt: if the session needs one to do the job right, it is missing from the skill or from `resources/`, and that is the finding of the round. The maintainer fixes it there (then `python3 skill/package.py`), not in the next prompt. The audit, the slicing into separate sessions for very large files and any `terms.md` the maintainer keeps are training machinery, not part of the skill.
 

@@ -1,0 +1,13 @@
+{
+  "name": "wp-es-polyglots",
+  "owner": {
+    "name": "WordPress es_ES Polyglots team"
+  },
+  "plugins": [
+    {
+      "name": "wordpress-translator-es",
+      "source": "./wordpress-translator-es",
+      "description": "Translate and review WordPress strings into Spanish (Spain, es_ES) with the es_ES team's glossary and style guide."
+    }
+  ]
+}

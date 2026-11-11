@@ -1,6 +1,6 @@
 # Test bench
 
-Reference cases to measure the installable skill (`wordpress-translator-es/`) and to compare it with other translation skills on the same input. Every case has a human reference: a reviewer of the locale checked every string. The strings come from translate.wordpress.org (GPL).
+Reference cases to measure the base skills `review` and `translate` (`wordpress-translator-es/skills/`) and to compare them with other translation skills on the same input. Every case has a human reference: a reviewer of the locale checked every string. The strings come from translate.wordpress.org (GPL).
 
 Old rounds are not used: the bench starts from rounds reviewed by a human after 2026-11-11.
 
@@ -25,11 +25,11 @@ A case is never edited after it is added. If a reference turns out to be wrong, 
 For each case, in a fresh session with the model under test, prompt exactly as a user would:
 
 ```
-Use the skill in wordpress-translator-es (read its SKILL.md and follow it).
+Use the skill in wordpress-translator-es/skills/review (read its SKILL.md and follow it).
 Review bench/cases/<case>/original.po. Work folder: <tmp>/<case>/. Write the result to <tmp>/<case>/corrected.po.
 ```
 
-(For translation cases: "Translate …" and `translated.po`.) Do not add hints, term lists or exceptions: the bench measures the skill as people get it. Then:
+(For translation cases: the `translate` skill, "Translate …" and `translated.po`.) Do not add hints, term lists or exceptions: the bench measures the skill as people get it. Then:
 
 ```
 python3 skill/scripts/po_tool.py compare bench/cases/<case>/reference.po <tmp>/<case>/corrected.po

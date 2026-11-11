@@ -1,0 +1,8 @@
+{
+  "name": "wordpress-translator-es",
+  "description": "Translate and review WordPress strings into Spanish (Spain, es_ES) with the es_ES team's glossary and style guide. Base skills (translate, review: .po in, .po out) and GlotPress workflows (translate-glotpress-project, review-glotpress-waiting).",
+  "version": "0.2.0",
+  "author": {
+    "name": "WordPress es_ES Polyglots team"
+  }
+}

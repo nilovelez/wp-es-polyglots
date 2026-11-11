@@ -6,6 +6,10 @@ Commands:
       Download the waiting strings (or, with --untranslated, the untranslated
       ones) of a translate.wordpress.org project into <folder>/original.po.
       es/default is added if the URL has no locale.
+  precheck <file.po>
+      Cheap numbers on waiting strings before reviewing them: lint hints by kind,
+      strings identical to the source, form of address, Latin American forms,
+      calques and a sample. Helps decide whether to reject a batch whole.
   glossary-update [--locale es]
       Download the official glossary of the locale from translate.wordpress.org
       and replace the bundled glossary.csv (the team's overrides still apply).
@@ -651,7 +655,55 @@ def cmd_glossary_update(args):
     print(f'{RES}glossary.csv: {len(read_csv(RES + "glossary.csv"))} rows from {url}')
 
 
-COMMANDS = {'fetch': cmd_fetch, 'glossary-update': cmd_glossary_update, 'extract': cmd_extract, 'check': cmd_check, 'build': cmd_build, 'compare': cmd_compare,
+def cmd_precheck(args):
+    """Cheap numbers before a review: is the batch worth reviewing, or should it
+    be rejected whole? Lint hint counts, strings identical to the source, source
+    not in English, form of address, Latin American forms, calques, a sample."""
+    import collections
+    import contextlib
+    import io
+    import random
+    po = args[0]
+    _, es = parse(po)
+
+    def tr(e):
+        return e.get('msgstr') or ' '.join(e.get('msgstr_plural') or [])
+
+    buf = io.StringIO()
+    with contextlib.redirect_stdout(buf):
+        cmd_lint([po])
+    lint = buf.getvalue()
+    kinds = collections.Counter()
+    for line in lint.splitlines():
+        for h in re.sub(r' \[nota: [^\]]*\]', '', line.split(': ', 1)[-1]).split(' | '):
+            m = re.match(r'(glossary: [\w -]+? →|glossary term left in English: [\w -]+? →|capitals mid-sentence|'
+                         r'non-Spanish quotes|«#%d»|«ej\.»|glossary: [\w -]+? is not translated)', h)
+            kinds[m.group(1) if m else h[:40]] += 1
+    print(f'{len(es)} strings · {len(lint.splitlines())} with lint hints')
+    print('  ' + ' · '.join(f'{k} {v}' for k, v in kinds.most_common(10)))
+    same = [e for e in es if e.get('msgstr') and e['msgstr'] == e['msgid']]
+    print(f'identical to the source: {len(same)}  ' + ', '.join(f'#{e["n"]} {e["msgid"][:25]!r}' for e in same[:12]))
+    spanish_src = [e for e in es if re.search(r'\b(el|la|los|las|de|que|para|con)\b', e['msgid'])
+                   and not re.search(r'\b(the|and|to|of|is|your|for|a|an)\b', e['msgid'], re.I)]
+    print(f'source looks Spanish: {len(spanish_src)}')
+    your = [e for e in es if re.search(r'\byour\b', e['msgid'], re.I)]
+    su = sum(1 for e in your if re.search(r'\b[Ss]us?\b', tr(e)))
+    tu = sum(1 for e in your if re.search(r'\b[Tt]us?\b', tr(e)))
+    usted = [e for e in es if re.search(r'\b(usted|Por favor,? (?:seleccione|introduzca|ingrese|vuelva|compruebe|espere|intente)|'
+                                        r'Busque|Seleccione|Introduzca|Ingrese|Haga clic|Compruebe|Pulse|Elija|Revise|Guarde)\b', tr(e))]
+    print(f'address: "your" → su {su}, tu {tu} · usted forms in {len(usted)} strings')
+    latam = [e for e in es if re.search(r'\b(computadora?|celular|ingres[ae]|ingresar|video\b|reporte|carro de compras|órdenes|ordenes|'
+                                        r'desplegar|cliquea|clickea|hacer click)', tr(e), re.I)]
+    print(f'Latin American forms: {len(latam)}  ' + ' | '.join(f'#{e["n"]} {tr(e)[:40]!r}' for e in latam[:4]))
+    calques = [e for e in es if re.search(r'\b(ha sido|han sido|fue|fueron) \w+(ado|ido|ada|ida)s?\b|\bfalló\b|^Opcionalmente\b', tr(e))]
+    print(f'passives and calques: {len(calques)}  ' + ' | '.join(f'#{e["n"]} {tr(e)[:40]!r}' for e in calques[:4]))
+    random.seed(2)
+    print('sample:')
+    for e in random.sample(es, min(10, len(es))):
+        print(f'  #{e["n"]} {e["msgid"][:70]!r} → {tr(e)[:80]!r}')
+
+
+COMMANDS = {'fetch': cmd_fetch, 'precheck': cmd_precheck, 'glossary-update': cmd_glossary_update, 'extract': cmd_extract, 'check': cmd_check, 'build': cmd_build, 'compare': cmd_compare,
             'glossary': cmd_glossary, 'tm': cmd_tm, 'lint': cmd_lint,
             'review-po': cmd_review_po, 'finalize': cmd_finalize}
 
