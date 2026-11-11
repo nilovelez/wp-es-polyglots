@@ -140,6 +140,13 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - Resultado: 291 cambios propuestos, aceptados en bloque por el revisor («me vale»), sin revisarlos cadena a cadena. La medición de esta ronda no es comparable con las demás.
 - Lección: en rondas por tramos, comprobar antes de `review-po` que los términos de `terms.md` se aplicaron en todo el archivo. Anotado en `review/README.md`.
 
+## 2026-11-11 · Haiku · ronda 42 (MonoRanks, stable, 109 cadenas) · directa, sin revisión humana · skill `review-glotpress-waiting`
+
+- 92 000 tokens, 12 herramientas, 1 min 28 s.
+- No usó la skill empaquetada. Vio que `references/` no coincidía con `resources/` (son distintos porque el paquete lleva el glosario y la guía combinados), concluyó que el paquete era «más antiguo» y trabajó con `resources/`. Es una fuga del entorno de pruebas: la skill y la carpeta de trabajo están dentro del repo, y Haiku lo explora.
+- 11 cambios, sin dudas: «n.º» → «#» (3), *check* = «comprobar» (3), *delete* = «borrar», *set* = «establecer».
+- Auditoría de Opus: 3 descartadas. *next* como adjetivo, «próxima comprobación», es correcto; la entrada del glosario es el sustantivo.
+
 ## 2026-11-11 · Haiku · ronda 41 (WP SMS, stable-readme, 210 cadenas) · directa, sin revisión humana · skill `review-glotpress-waiting`
 
 - Primera ronda con la skill nueva: un glosario y una guía únicos, sin parada por tamaño y con la respuesta mínima. Ha ido de un tirón, sin paradas. 139 000 tokens, 14 herramientas, 3 min 22 s. La ronda 40 gastó 157 000 tokens en 778 cadenas de interfaz, más dos ejecuciones paradas. Un readme tiene cadenas largas y el coste fijo (guía, glosario) pesa más en lotes pequeños.
