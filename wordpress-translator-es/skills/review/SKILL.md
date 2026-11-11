@@ -89,9 +89,10 @@ python3 <refs>/po_tool.py build <file.po> <work>/decisions.jsonl <out>/corrected
 
 Short, in the user's language. Identify strings by their source text, not by entry number (the user's editor numbers them differently):
 
-1. Where `corrected.po` is.
+1. `corrected.po`. The deliverable is the `.po` file itself. If the user works in a chat app (claude.ai, the desktop or mobile app), give them the file as a download in the chat, never a path from your sandbox, which they cannot open; on their own computer (Claude Code), give the path. Send only that file.
 2. Counts: approved, fixed, rejected, doubts.
 3. The main kinds of changes, with counts.
-4. The doubts, each with the source text, the translation, your proposal (already in `corrected.po`) and a concrete question. Identify strings by their source text, not by entry number. When the user answers, update the decisions and build again.
-5. The reasons for each change are in `<work>/report.md`: importing a `.po` does not carry comments, so the user can pass them on to the translator.
+4. The doubts, each with the source text, the translation, your proposal (already in `corrected.po`) and a concrete question.
+   When the user answers, update the decisions and build again.
+5. One line saying that you have the reason for each change (`<work>/report.md`) in case they want to pass it on to the translator: importing a `.po` does not carry comments. Give it only if they ask.
 6. Glossary or guide rules that looked wrong or unclear for this text, if any.

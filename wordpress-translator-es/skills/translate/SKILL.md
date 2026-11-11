@@ -73,7 +73,7 @@ The output is the whole file, translated, with an es_ES header; doubts go in wit
 
 Short, in the user's language. Identify strings by their source text, not by entry number (the user's editor numbers them differently):
 
-1. Where the translated `.po` is.
+1. The translated `.po`. The deliverable is the `.po` file itself. If the user works in a chat app (claude.ai, the desktop or mobile app), give them the file as a download in the chat, never a path from your sandbox, which they cannot open; on their own computer (Claude Code), give the path. Send only that file.
 2. How many entries you translated.
 3. The doubts, each with the source, your translation and a concrete question. When the user answers, update the decisions and build again.
 4. Glossary or guide rules that looked wrong or unclear for this text, if any.
