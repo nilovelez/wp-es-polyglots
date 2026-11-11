@@ -1,6 +1,6 @@
 ---
 name: translate
-description: Translate a WordPress .pot or .po file (plugin, theme, core, readme) into Spanish (Spain, es_ES) following the es_ES team's glossary and style guide, and return the translated .po. Use it for "translate this into Spanish" with a .pot/.po file, or a translate.wordpress.org project whose untranslated strings should be translated.
+description: Traduce al español de España (es_ES) un archivo .pot o .po de WordPress (plugin, tema, núcleo, readme) con el glosario y la guía del equipo es_ES, y devuelve el .po traducido. Úsala SIEMPRE que el usuario adjunte o pegue un .pot o .po de WordPress y pida traducirlo («traduce este .pot», «traduce este archivo», «translate this into Spanish»), aunque el contenido ya esté en el chat como texto, o cuando dé un proyecto de translate.wordpress.org con cadenas sin traducir: no traduzcas las cadenas a mano en el chat; sin esta skill no se aplica el glosario y no sale un archivo importable.
 ---
 
 # Translate WordPress strings into es_ES

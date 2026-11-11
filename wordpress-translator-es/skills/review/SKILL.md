@@ -1,6 +1,6 @@
 ---
 name: review
-description: Review WordPress translations into Spanish (Spain, es_ES) in a .po file (typically strings waiting for approval in translate.wordpress.org) against the es_ES team's glossary and style guide, and return a .po with only the strings that must change. Use it for "review this .po" or "check these Spanish translations".
+description: Revisa traducciones de WordPress al español de España (es_ES) en un archivo .po con el glosario y la guía del equipo es_ES, y devuelve un .po solo con las cadenas que hay que cambiar. Úsala SIEMPRE que el usuario adjunte o pegue un .po de WordPress (plugin, tema, núcleo, readme) y pida revisarlo o corregirlo («revisa esta traducción», «revisa este .po», «review this .po»), aunque el contenido ya esté en el chat como texto: no revises las cadenas leyéndolas tú; sin esta skill no se aplica el glosario y no sale un archivo importable.
 ---
 
 # Review WordPress translations into es_ES
