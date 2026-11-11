@@ -40,7 +40,7 @@ Claude Code:
 /plugin install wordpress-translator-es@wp-es-polyglots
 ```
 
-claude.ai: upload the zip of each skill you want (`python3 skill/package.py` writes them to `dist/`).
+Or with the zip that `python3 skill/package.py` writes to `dist/`: the four skills and the `references/` folder they share (glossary, style guide, `po_tool.py`) install together.
 
 | Skill | Input → output |
 |---|---|

@@ -58,9 +58,9 @@ import re
 import sys
 
 _HERE = os.path.dirname(os.path.abspath(__file__))
-# Packaged skill: glossary.csv sits in the skill folder, next to scripts/.
+# Plugin: glossary.csv sits next to this script in references/.
 # Development repository: resources/ at the repository root.
-RES = (os.path.join(_HERE, '..', '') if os.path.exists(os.path.join(_HERE, '..', 'glossary.csv'))
+RES = (os.path.join(_HERE, '') if os.path.exists(os.path.join(_HERE, 'glossary.csv'))
        else os.path.join(_HERE, '..', '..', 'resources', ''))
 ESCAPES = {'n': '\n', 't': '\t', 'r': '\r', '"': '"', '\\': '\\', 'a': '\a', 'b': '\b', 'f': '\f', 'v': '\v'}
 

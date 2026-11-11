@@ -5,12 +5,12 @@ description: Review the translations waiting for approval in a translate.wordpre
 
 # Review the waiting strings of a GlotPress project (es_ES)
 
-For editors of the es_ES locale (PTE or GTE) who clear the waiting queue of a project in translate.wordpress.org. This skill runs the workflow; the review itself is done by the `review` skill of this package, with its rules. You never upload or approve anything: the user does. Paths below are relative to this skill's folder (`<skill>`).
+For editors of the es_ES locale (PTE or GTE) who clear the waiting queue of a project in translate.wordpress.org. This skill runs the workflow; the review itself is done by the `review` skill of this package, with its rules. You never upload or approve anything: the user does. `<skill>` is this skill's folder; `<refs>` is the package's shared folder, `<skill>/../../references` (glossary, style guide and `po_tool.py`, used by all the skills of the package).
 
 ## 1. Download
 
 ```
-python3 <skill>/scripts/po_tool.py fetch <url> <work>
+python3 <refs>/po_tool.py fetch <url> <work>
 ```
 
 Any form of the project URL works (with filters, with or without `es/default`). It writes the waiting strings to `<work>/original.po`. `<work>` is a temporary work folder, unless the user says where.
@@ -20,7 +20,7 @@ If there are no waiting strings, say so and stop.
 ## 2. Is the batch worth a review?
 
 ```
-python3 <skill>/scripts/po_tool.py precheck <work>/original.po
+python3 <refs>/po_tool.py precheck <work>/original.po
 ```
 
 Some batches must be rejected whole instead of reviewed string by string:
@@ -33,7 +33,7 @@ If the numbers point to one of these, or the batch has more than about 400 strin
 
 ## 3. Review
 
-Use the `review` skill of this package (`<skill>/../review/SKILL.md` when installed as a package) on `<work>/original.po`, with `<work>` as its work folder, and follow it fully. For large batches, its block procedure applies.
+Use the `review` skill of this package (`<skill>/../review/SKILL.md`) on `<work>/original.po`, with `<work>` as its work folder, and follow it fully. For large batches, its block procedure applies.
 
 ## 4. Hand back
 

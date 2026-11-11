@@ -5,18 +5,18 @@ description: Review WordPress translations into Spanish (Spain, es_ES) in a .po 
 
 # Review WordPress translations into es_ES
 
-Input: a `.po` file whose strings are already translated. Output: a `.po` with **only the strings that must change**, with the corrected translation; uploading it over the original replaces what is wrong, and everything else stays as it was. Nothing else: you never upload or approve anything. Paths below are relative to this skill's folder (`<skill>`). The scripts need only Python 3 (if `python3` does not exist, use `python` or `py -3`).
+Input: a `.po` file whose strings are already translated. Output: a `.po` with **only the strings that must change**, with the corrected translation; uploading it over the original replaces what is wrong, and everything else stays as it was. Nothing else: you never upload or approve anything. `<skill>` is this skill's folder; `<refs>` is the package's shared folder, `<skill>/../../references` (glossary, style guide and `po_tool.py`, used by all the skills of the package). The scripts need only Python 3 (if `python3` does not exist, use `python` or `py -3`).
 
 ## Read first, every time
 
 1. Refresh the glossary (once per session; if it fails, the bundled copy is used):
    ```
-   python3 <skill>/scripts/po_tool.py glossary-update
+   python3 <refs>/po_tool.py glossary-update
    ```
-2. `<skill>/style-guide.md`: the quick reference at the top (the criteria most often broken, and when a string should **not** be changed) and the full guide (sections 1–5 and 7). Follow it literally; it is the team's consensus.
+2. `<refs>/style-guide.md`: the quick reference at the top (the criteria most often broken, and when a string should **not** be changed) and the full guide (sections 1–5 and 7). Follow it literally; it is the team's consensus.
 3. The glossary entries that apply to the file. Do not read the whole glossary:
    ```
-   python3 <skill>/scripts/po_tool.py glossary <file.po>
+   python3 <refs>/po_tool.py glossary <file.po>
    ```
    Each line is `term (part of speech) → translation — notes [#entries]`. The notes are mandatory («No usar…», «No se traduce»).
 
@@ -25,12 +25,12 @@ Priority on conflict: the user's instructions → glossary → style guide. If a
 ## 1. Get the file
 
 - The user's `.po`.
-- A translate.wordpress.org project URL: `python3 <skill>/scripts/po_tool.py fetch <url> <work>` writes its waiting strings to `<work>/original.po`.
+- A translate.wordpress.org project URL: `python3 <refs>/po_tool.py fetch <url> <work>` writes its waiting strings to `<work>/original.po`.
 
 `<work>` is a temporary work folder outside the user's project, unless the user says where. Then:
 
 ```
-python3 <skill>/scripts/po_tool.py extract <file.po> <work>/entries.jsonl
+python3 <refs>/po_tool.py extract <file.po> <work>/entries.jsonl
 ```
 
 One JSON object per entry: `n` (entry number), `ctx`, `note` (comment for translators, e.g. where the string comes from), `msgid`, `msgstr` (or `msgid_plural` / `msgstr_plural`). Work by `n`. Never edit the `.po` by hand.
@@ -42,7 +42,7 @@ One JSON object per entry: `n` (entry number), `ctx`, `note` (comment for transl
 First the automatic hints:
 
 ```
-python3 <skill>/scripts/po_tool.py lint <file.po>
+python3 <refs>/po_tool.py lint <file.po>
 ```
 
 They flag glossary terms missing or left in English (with the glossary note), capitals mid-sentence and typography. Look at every hinted entry: most hints are real errors, some are not (the term is there in another form, or the string is fine as it is). Then read **every** entry against its source, for meaning and not only terms: prepositions, who does the action, words added or lost. Decide (section 7 of the style guide):
@@ -77,7 +77,7 @@ They flag glossary terms missing or left in English (with the glossary note), ca
 ## 4. Build and check
 
 ```
-python3 <skill>/scripts/po_tool.py build <file.po> <work>/decisions.jsonl <out>/corrected.po --report <work>/report.md
+python3 <refs>/po_tool.py build <file.po> <work>/decisions.jsonl <out>/corrected.po --report <work>/report.md
 ```
 
 `corrected.po` keeps the original header and only the `fix` and `reject` entries; doubts are left out until the user answers. The build checks placeholders, HTML, entities, URLs, newlines, edge spaces and quotes. Fix every reported problem in the decisions and build again until it reports 0 problems; if one is a false positive, say which and why.

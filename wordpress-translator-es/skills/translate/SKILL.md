@@ -5,18 +5,18 @@ description: Translate a WordPress .pot or .po file (plugin, theme, core, readme
 
 # Translate WordPress strings into es_ES
 
-Input: a `.pot` or `.po` file with strings to translate. Output: the same file translated into Spanish (Spain). Nothing else: you never upload or approve anything. Paths below are relative to this skill's folder (`<skill>`). The scripts need only Python 3 (if `python3` does not exist, use `python` or `py -3`).
+Input: a `.pot` or `.po` file with strings to translate. Output: the same file translated into Spanish (Spain). Nothing else: you never upload or approve anything. `<skill>` is this skill's folder; `<refs>` is the package's shared folder, `<skill>/../../references` (glossary, style guide and `po_tool.py`, used by all the skills of the package). The scripts need only Python 3 (if `python3` does not exist, use `python` or `py -3`).
 
 ## Read first, every time
 
 1. Refresh the glossary (once per session; if it fails, the bundled copy is used):
    ```
-   python3 <skill>/scripts/po_tool.py glossary-update
+   python3 <refs>/po_tool.py glossary-update
    ```
-2. `<skill>/style-guide.md`: the quick reference at the top and the full guide (sections 1–6). Follow it literally; it is the team's consensus.
+2. `<refs>/style-guide.md`: the quick reference at the top and the full guide (sections 1–6). Follow it literally; it is the team's consensus.
 3. The glossary entries that apply to the file. Do not read the whole glossary:
    ```
-   python3 <skill>/scripts/po_tool.py glossary <file.po>
+   python3 <refs>/po_tool.py glossary <file.po>
    ```
    Each line is `term (part of speech) → translation — notes [#entries]`. The notes are mandatory («No usar…», «No se traduce»).
 
@@ -25,12 +25,12 @@ Priority on conflict: the user's instructions → glossary → style guide. If a
 ## 1. Get the file
 
 - The user's `.pot` or `.po`. In a plugin or theme folder without one, if WP-CLI is installed: `wp i18n make-pot . <work>/<text-domain>.pot`.
-- A translate.wordpress.org project URL: `python3 <skill>/scripts/po_tool.py fetch <url> <work> --untranslated` writes its untranslated strings to `<work>/original.po`.
+- A translate.wordpress.org project URL: `python3 <refs>/po_tool.py fetch <url> <work> --untranslated` writes its untranslated strings to `<work>/original.po`.
 
 `<work>` is a temporary work folder outside the user's project, unless the user says where. Then:
 
 ```
-python3 <skill>/scripts/po_tool.py extract <file.po> <work>/entries.jsonl
+python3 <refs>/po_tool.py extract <file.po> <work>/entries.jsonl
 ```
 
 One JSON object per entry: `n` (entry number), `ctx`, `note` (comment for translators), `msgid`, `msgstr` (or `msgid_plural` / `msgstr_plural`). Work by `n`. Never edit the `.po` by hand.
@@ -61,7 +61,7 @@ Translate every empty or fuzzy entry (section 6 of the style guide). Do not chan
 ## 4. Build and check
 
 ```
-python3 <skill>/scripts/po_tool.py build <file.po> <work>/decisions.jsonl <out>/<name>-es_ES.po --full --report <work>/report.md
+python3 <refs>/po_tool.py build <file.po> <work>/decisions.jsonl <out>/<name>-es_ES.po --full --report <work>/report.md
 ```
 
 The output is the whole file, translated, with an es_ES header; doubts go in with your translation. The build checks placeholders, HTML, entities, URLs, newlines, edge spaces and quotes. Fix every reported problem in the decisions and build again until it reports 0 problems; if one is a false positive, say which and why.

@@ -5,12 +5,12 @@ description: Translate the untranslated strings of a translate.wordpress.org (Gl
 
 # Translate a GlotPress project (es_ES)
 
-For anyone who translates a project of translate.wordpress.org into Spanish (Spain). This skill runs the workflow; the translation itself is done by the `translate` skill of this package, with its rules. You never upload or approve anything: the user does. Paths below are relative to this skill's folder (`<skill>`).
+For anyone who translates a project of translate.wordpress.org into Spanish (Spain). This skill runs the workflow; the translation itself is done by the `translate` skill of this package, with its rules. You never upload or approve anything: the user does. `<skill>` is this skill's folder; `<refs>` is the package's shared folder, `<skill>/../../references` (glossary, style guide and `po_tool.py`, used by all the skills of the package).
 
 ## 1. Download
 
 ```
-python3 <skill>/scripts/po_tool.py fetch <url> <work> --untranslated
+python3 <refs>/po_tool.py fetch <url> <work> --untranslated
 ```
 
 Any form of the project URL works (with filters, with or without `es/default`). It writes the untranslated strings to `<work>/original.po`. `<work>` is a temporary work folder, unless the user says where.
@@ -21,7 +21,7 @@ WordPress core, Meta (wordpress.org itself) and very popular plugins are read by
 
 ## 2. Translate
 
-Use the `translate` skill of this package (`<skill>/../translate/SKILL.md` when installed as a package) on `<work>/original.po`, with `<work>` as its work folder, and follow it fully. For large files, its block procedure applies.
+Use the `translate` skill of this package (`<skill>/../translate/SKILL.md`) on `<work>/original.po`, with `<work>` as its work folder, and follow it fully. For large files, its block procedure applies.
 
 ## 3. Hand back
 

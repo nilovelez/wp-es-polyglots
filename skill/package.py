@@ -2,14 +2,13 @@
 """Build the installable plugin in wordpress-translator-es/ from this repository.
 
 The plugin has one folder per skill in skills/; each SKILL.md is written by hand.
-This script copies into every skill folder:
-  scripts/po_tool.py  copy of skill/scripts/po_tool.py
+All the skills share references/, which this script regenerates:
+  po_tool.py          copy of skill/scripts/po_tool.py
   glossary.csv        resources/glossary.csv (official export; the skill refreshes it with glossary-update)
   glossary-overrides.csv  the team's exceptions, applied by po_tool on top of the glossary
   style-guide.md      resources/quick-reference.md + resources/style-guide.md,
                       without development-only parts (translation memory, internal files)
-and writes to dist/ (ignored by git) one zip per skill (for claude.ai) and one
-for the whole plugin.
+and writes dist/wordpress-translator-es.zip (ignored by git) with the whole plugin.
 
 Usage: python3 skill/package.py
 Run it after every change to resources/ or po_tool.py, and commit the result.
@@ -98,24 +97,21 @@ def zip_dir(src, zpath, top):
 
 
 def main():
-    # Every skill gets its own copy of the shared files, so each one also works
-    # alone (copied to ~/.claude/skills or uploaded to claude.ai).
-    guide = style_guide()
+    # One shared folder for all the skills of the package.
+    refs = os.path.join(OUT, 'references')
+    os.makedirs(refs, exist_ok=True)
+    shutil.copy(os.path.join(ROOT, 'skill', 'scripts', 'po_tool.py'), os.path.join(refs, 'po_tool.py'))
+    for f in ('glossary.csv', 'glossary-overrides.csv'):
+        shutil.copy(os.path.join(RES, f), os.path.join(refs, f))
+    open(os.path.join(refs, 'style-guide.md'), 'w', encoding='utf-8').write(style_guide())
     _, n = glossary()
     skills = sorted(d for d in os.listdir(os.path.join(OUT, 'skills'))
                     if os.path.exists(os.path.join(OUT, 'skills', d, 'SKILL.md')))
     dist = os.path.join(ROOT, 'dist')
     os.makedirs(dist, exist_ok=True)
-    for name in skills:
-        d = os.path.join(OUT, 'skills', name)
-        os.makedirs(os.path.join(d, 'scripts'), exist_ok=True)
-        shutil.copy(os.path.join(ROOT, 'skill', 'scripts', 'po_tool.py'), os.path.join(d, 'scripts', 'po_tool.py'))
-        for f in ('glossary.csv', 'glossary-overrides.csv'):
-            shutil.copy(os.path.join(RES, f), os.path.join(d, f))
-        open(os.path.join(d, 'style-guide.md'), 'w', encoding='utf-8').write(guide)
-        zip_dir(d, os.path.join(dist, f'{name}.zip'), name)
-    zip_dir(OUT, os.path.join(dist, 'wordpress-translator-es.zip'), 'wordpress-translator-es')
-    print(f'{OUT}: {len(skills)} skills ({", ".join(skills)}); glossary {n} rows; zips in {dist}')
+    zpath = os.path.join(dist, 'wordpress-translator-es.zip')
+    zip_dir(OUT, zpath, 'wordpress-translator-es')
+    print(f'{OUT}: {len(skills)} skills ({", ".join(skills)}); glossary {n} rows; zip {zpath}')
     for w in warnings:
         print('WARNING', w)
     sys.exit(1 if warnings else 0)
