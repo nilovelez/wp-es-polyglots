@@ -140,6 +140,21 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - Resultado: 291 cambios propuestos, aceptados en bloque por el revisor («me vale»), sin revisarlos cadena a cadena. La medición de esta ronda no es comparable con las demás.
 - Lección: en rondas por tramos, comprobar antes de `review-po` que los términos de `terms.md` se aplicaron en todo el archivo. Anotado en `review/README.md`.
 
+## 2026-11-11 · Haiku · ronda 41 (WP SMS, stable-readme, 210 cadenas) · directa, sin revisión humana · skill `review-glotpress-waiting`
+
+- Primera ronda con la skill nueva: un glosario y una guía únicos, sin parada por tamaño y con la respuesta mínima. Ha ido de un tirón, sin paradas. 139 000 tokens, 14 herramientas, 3 min 22 s. La ronda 40 gastó 157 000 tokens en 778 cadenas de interfaz, más dos ejecuciones paradas. Un readme tiene cadenas largas y el coste fijo (guía, glosario) pesa más en lotes pequeños.
+- 46 cambios, sin dudas.
+  - *notification* = «aviso».
+  - *authentication* = «identificación».
+  - *add-on* = «extensión».
+  - *bulk* = «por lotes».
+  - «por defecto».
+  - *Dashboard* = «escritorio».
+  - *bug* = «fallo».
+  - Comillas.
+- Auditoría de Opus: 2 descartadas y 4 editadas. Haiku cambió «prefijo de país» por «código de país» (5 cadenas) sin que el glosario tenga esa entrada. «Prefijo» es lo correcto para un teléfono. «variantes» de un número de teléfono no son variaciones de producto de WooCommerce.
+- Haiku señaló *endpoint* = «variable» en el glosario, que no sirve para endpoints de API. Ya lo había señalado en la ronda 40.
+
 ## 2026-11-11 · Haiku · ronda 40 (Easy Appointments, stable, 778 cadenas) · directa, sin revisión humana · skill `review-glotpress-waiting`
 
 - Haiku paró tras el precheck (limpio: tú, sin usted ni calcos). El coordinador le dijo que siguiera y se negó: la decisión de revisar un lote grande es del usuario. Se relanzó con lo que diría un usuario («ya sé que es grande, revísala entera»). Es un comportamiento correcto.
