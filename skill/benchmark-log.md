@@ -140,6 +140,16 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - Resultado: 291 cambios propuestos, aceptados en bloque por el revisor («me vale»), sin revisarlos cadena a cadena. La medición de esta ronda no es comparable con las demás.
 - Lección: en rondas por tramos, comprobar antes de `review-po` que los términos de `terms.md` se aplicaron en todo el archivo. Anotado en `review/README.md`.
 
+## 2026-11-11 · Haiku · ronda 37 (Chiaro AI Sales Analytics for WooCommerce, dev, 364 cadenas) · directa, sin revisión humana · skill `review-glotpress-waiting`
+
+- Primera ronda con el flujo completo y solo la URL en el prompt. Haiku descargó el lote, pasó el precheck (sin usted ni formas latinoamericanas), decidió revisarlo y entregó el `corrected.po` con la URL de importación. Tardó menos de dos minutos y medio.
+- 19 cambios, sin dudas: «no tienes permisos», «correo electrónico» en textos largos (respetó «correo» en las etiquetas cortas, como dice la guía), «alojamiento», «por defecto», «comprobar», «p. ej.», «agotado» (*out of stock*), y «vendiste» corregido a «se vendieron» (*it sold*: quien vende es el producto, no el usuario).
+- Auditoría de Opus: 0 descartadas y 2 editadas.
+  - #286: *linked to a partner* es una relación entre cuentas, «asociado con un socio». Haiku aplicó el glosario al pie de la letra («enlazado con»), y él mismo avisó de que sonaba forzado.
+  - #364: *left in stock*, «en inventario» (glosario: *stock* suelto) en lugar de «en existencias».
+- *link* como relación entre cuentas = «asociar» sale por segunda vez (la primera fue la ronda 31). Ya cumple el criterio para ser regla, pero choca con la nota del glosario («ninguna otra cosa»): pendiente de decisión del revisor.
+- Haiku señaló que la guía (3.3) dice «Evita la pasiva refleja» y aprobó «se envían» y «se crean» por naturales. La guía es más amplia de lo que quiere decir: el ejemplo es «Se requiere», un calco impersonal. Pendiente de la revisión de la guía.
+
 ## 2026-11-11 · Haiku · ronda 36 (Zinn Connector, stable, 173 cadenas) · revisión humana en Poedit · skill `review`
 
 - Lote malo, elegido para el banco de pruebas: usted en todo, «complemento», «configuración», cadenas sin traducir y términos incoherentes. Haiku tardó menos de cuatro minutos.
