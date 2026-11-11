@@ -4,3 +4,4 @@ en,es,pos,description
 whitelist,"lista blanca",noun,"Decisión del equipo es_ES. Como verbo (to whitelist) es «añadir a los admitidos»; whitelisted = «admitido»."
 "two-factor authentication","identificación en dos pasos",expression,"Decisión del equipo es_ES. No usar «autenticación de dos factores». La sigla 2FA se deja."
 recurring,periódico,adjective,"Decisión del equipo es_ES, en lugar de la nota del glosario oficial («NO usar recurrente»). Al traducir, usar «periódico»; «recurrente» también se acepta y no es motivo para cambiar una traducción."
+endpoint,endpoint,noun,"Decisión del equipo es_ES, en lugar de las dos entradas del glosario oficial («variable»). En WooCommerce, los endpoints son slugs de la URL del proceso de compra: «variable». En una API (REST endpoints, endpoints de administración) se deja «endpoint» o, según el contexto, «ruta»."

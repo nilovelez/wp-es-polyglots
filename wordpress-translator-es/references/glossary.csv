@@ -152,8 +152,6 @@ enabled,activado / activo,adverb,
 encrypt,cifrar,verb,No usar encriptar
 encrypted,cifrado,adjective,No usar encriptado
 encryption,cifrado,noun,No usar encriptación
-endpoint,variable,noun,se refiere a las variables/constantes en los slugs normalmente
-endpoint,variable,noun,En WooCommerce de refiere a slugs de la URL para diferentes situaciones en el proceso de compra. En el resto de situaciones a variables de programación.
 engagement,participación,noun,
 entries,entradas / registros,noun,Si se refiere a datos almacenados es mejor usar registros
 entry,entrada / registro,noun,Si se refiere a un dato almacenado es mejor usar registro
@@ -509,3 +507,4 @@ meta description,meta descripción,expression,"Dos palabras: «Meta descripción
 whitelist,lista blanca,noun,Como verbo (to whitelist) es «añadir a los admitidos»; whitelisted = «admitido».
 two-factor authentication,identificación en dos pasos,expression,No usar «autenticación de dos factores». La sigla 2FA se deja.
 recurring,periódico,adjective,"Al traducir, usar «periódico»; «recurrente» también se acepta y no es motivo para cambiar una traducción."
+endpoint,endpoint,noun,"En WooCommerce, los endpoints son slugs de la URL del proceso de compra: «variable». En una API (REST endpoints, endpoints de administración) se deja «endpoint» o, según el contexto, «ruta»."
