@@ -52,7 +52,7 @@ They flag glossary terms missing or left in English (with the glossary note), ca
 | approve (not written down) | Correct, or only a matter of style |
 | `fix` | Minor errors: accent, comma after «Por favor», non-Spanish quotes, extra capital |
 | `reject` | Breaks the glossary, uses «usted», changes the meaning, breaks placeholders/HTML, leaves a glossary term in English, clearly unnatural |
-| `doubt` | Not enough context, and the guide and glossary do not settle it |
+| `doubt` | Probably wrong, but not enough context, and the guide and glossary do not settle it: give your best proposal and the question |
 
 - **Change only what is wrong.** If the translation is good enough, approve it, even when you know a slightly better option (the quick reference lists cases). When you change a string, keep the translator's wording except for the error.
 - Translators often use one synonym systematically instead of the glossary term. Apply the glossary term in every entry where it appears, also in small verbs, and fix gender and agreement.
@@ -67,12 +67,12 @@ They flag glossary terms missing or left in English (with the glossary note), ca
 ```
 {"n": 12, "verdict": "reject", "msgstr": "Mapa del sitio", "comment": "Según el glosario, «sitemap» se traduce como «mapa del sitio»."}
 {"n": 30, "verdict": "fix", "msgstr": "Por favor, inténtalo de nuevo.", "comment": "Coma tras «Por favor»."}
-{"n": 41, "verdict": "doubt", "msgstr": "<the translator's text, unchanged>", "comment": "Concrete question for the user."}
+{"n": 41, "verdict": "doubt", "msgstr": "<your best proposal>", "comment": "Concrete question for the user."}
 ```
 
 - `msgstr` is the full final text, plain (JSON escapes quotes and newlines). Plurals: `"msgstr_plural": ["singular", "plural"]`.
 - `comment` is in Spanish, short, in *tú*, addressed to the translator: the concrete reason (glossary term, rule) and nothing else.
-- For a `doubt`, keep the translator's text as `msgstr` and ask the question in the comment.
+- For a `doubt`, put your best proposal as `msgstr` and ask the question in the comment. If the translator's text is as likely to be right as anything you can propose, it is not a doubt: approve it.
 
 ## 4. Build and check
 
@@ -80,7 +80,7 @@ They flag glossary terms missing or left in English (with the glossary note), ca
 python3 <refs>/po_tool.py build <file.po> <work>/decisions.jsonl <out>/corrected.po --report <work>/report.md
 ```
 
-`corrected.po` keeps the original header and only the `fix` and `reject` entries; doubts are left out until the user answers. The build checks placeholders, HTML, entities, URLs, newlines, edge spaces and quotes. Fix every reported problem in the decisions and build again until it reports 0 problems; if one is a false positive, say which and why.
+`corrected.po` keeps the original header and only the entries that change: `fix`, `reject` and `doubt` (with your proposal). Doubts go in because the user imports the file and then approves everything else: a doubt left out would be approved as it was. The build checks placeholders, HTML, entities, URLs, newlines, edge spaces and quotes. Fix every reported problem in the decisions and build again until it reports 0 problems; if one is a false positive, say which and why.
 
 ## 5. Answer
 
@@ -89,6 +89,6 @@ Short, in the user's language:
 1. Where `corrected.po` is.
 2. Counts: approved, fixed, rejected, doubts.
 3. The main kinds of changes, with counts.
-4. The doubts, each with the source, the translation, your proposal and a concrete question. When the user answers, update the decisions and build again.
+4. The doubts, each with the source text, the translation, your proposal (already in `corrected.po`) and a concrete question. Identify strings by their source text, not by entry number. When the user answers, update the decisions and build again.
 5. The reasons for each change are in `<work>/report.md`: importing a `.po` does not carry comments, so the user can pass them on to the translator.
 6. Glossary or guide rules that looked wrong or unclear for this text, if any.

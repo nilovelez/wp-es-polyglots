@@ -340,8 +340,14 @@ def cmd_build(args):
     for e in entries:
         d = decisions.get(e['n'])
         change = d is not None and d['verdict'] in ('fix', 'reject')
-        if full and d is not None and d['verdict'] == 'doubt' and not any(e.get('msgstr_plural') or [e['msgstr']]):
-            change = True  # translation mode: an untranslated doubt still gets the best translation
+        if d is not None and d['verdict'] == 'doubt':
+            # A doubt carries the model's best proposal and goes in like a change, so nothing is left
+            # undecided in a file the reviewer imports before approving the rest. A doubt that keeps
+            # the current text (or an untranslated one in translation mode) is written only if needed.
+            old = e.get('msgstr_plural') if e.get('msgid_plural') is not None else e['msgstr']
+            new = d.get('msgstr_plural') if 'msgstr_plural' in d else d.get('msgstr')
+            untranslated = not any(e.get('msgstr_plural') or [e['msgstr']])
+            change = new != old or (full and untranslated)
         if full or change:
             blocks.append(write_entry(e, d if change else None))
             written += 1

@@ -60,7 +60,7 @@ To clear the waiting queue, training rounds (above, with the reviewer's review i
 1. Fetch and cheap numbers; stop and ask the reviewer if it looks like a batch to reject whole.
 2. The translator session reviews it as usual.
 3. Opus audits the decisions instead of the reviewer: doubtful changes checked against the glossary, `glossary-overrides.csv` and the quick reference; term consistency across the whole file; `lint` hints left unanswered.
-4. Doubts that the guide, glossary or quick reference do not settle: the string stays as it was (no change) and goes to a list for the reviewer.
+4. Doubts that the guide, glossary or quick reference do not settle: they go into `corrected.po` with the best proposal (the model's or Opus's), and to a list for the reviewer, by source text. Nothing is left out, because the reviewer approves everything else after importing.
 5. `python3 review/audit_decisions.py <round> [--edits edits.jsonl] <n>=<reason> …` writes `audited.jsonl` (the model's decisions minus the dropped ones, with Opus's rewordings from `edits.jsonl`) and `audit.md`; `decisions.jsonl` stays as the model wrote it. `build original.po audited.jsonl corrected.po` gives `corrected.po` (only the strings to change), The reviewer imports it and approves the rest.
 
 There is no human reference, so the round is logged in `skill/benchmark-log.md` as "sin revisión humana" and is not counted in the measurements. Whatever the reviewer notices later while approving becomes a candidate or a rule as usual.
