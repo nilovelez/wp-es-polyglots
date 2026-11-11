@@ -36,4 +36,4 @@ See [review/README.md](../review/README.md).
 | Project docs, code, file names, commit messages | `docs/`, scripts | English |
 | Style guide, glossary, translation memory, moderation criteria | `resources/` | Spanish |
 | Per-round notes and tool calibration | `skill/benchmark-log.md`, `polyglots/calibration-log.md` | Spanish |
-| Rounds and temporary files (downloads, experiments) | Outside the repository: `ROUNDS_DIR`, see `CLAUDE.local.md` | — |
+| Rounds and working files (downloads, experiments) | `rounds/`, `dist/` (ignored by git) | — |

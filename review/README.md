@@ -8,9 +8,9 @@ Goal: clear the es_ES *waiting* queue fast, and learn from every round.
 - **Translator session** ("Traductor - Haiku" since round 06; "Traductor - Sonnet" before) reviews the strings using only `skill/SKILL.md` and `resources/`. It writes only in the round folder, temporary files included.
 - **Maintainer session** (Opus) downloads the round, sends it to the translator, prepares the review file, builds `corrected.po` from the reviewer's saved file, and turns the differences into improvements of `resources/` and `skill/`.
 
-## Exchange folder
+## Round folders
 
-A folder the reviewer can open from the machine where they use Poedit (a shared or synced folder), described in `CLAUDE.local.md`. Each round gets a subfolder `NN-<project>/` there with the files the reviewer opens and saves. Rounds are working material: they live in `$ROUNDS_DIR/NN-<project>/` and never go into the repository. What a round teaches goes into `skill/benchmark-log.md` and, when it is a rule, into `resources/`.
+Each round gets a folder `rounds/NN-<project>/` in the repository root, ignored by git: rounds are working material and are never committed. The reviewer opens and saves the round files there. What a round teaches goes into `skill/benchmark-log.md` and, when it is a rule, into `resources/`.
 
 ## Round
 
@@ -21,7 +21,7 @@ A folder the reviewer can open from the machine where they use Poedit (a shared 
    ```
    This creates `rounds/NN-<slug>-<subproject>/original.po`. Approved strings are not used as a reference (approved does not mean correct, and large projects have thousands); `--current` downloads them only for occasional analysis.
 3. Translator runs the skill in review mode on the round folder → `decisions.jsonl`.
-4. Maintainer builds the file for the reviewer and copies it to the exchange folder:
+4. Maintainer builds the file for the reviewer in the round folder:
    ```
    python3 skill/scripts/po_tool.py review-po original.po decisions.jsonl review.po
    ```
@@ -31,7 +31,7 @@ A folder the reviewer can open from the machine where they use Poedit (a shared 
    ```
    python3 skill/scripts/po_tool.py finalize original.po decisions.jsonl reviewed.po corrected.po --report learning.md
    ```
-   `corrected.po` holds only the strings the reviewer changed against the original; it goes back to the exchange folder.
+   `corrected.po` holds only the strings the reviewer changed against the original.
 7. The reviewer imports `corrected.po` at the same GlotPress URL (as PTE it replaces the waiting strings; he chooses approved or waiting) and approves the rest.
 8. Maintainer reads `learning.md` and improves the skill:
    - **kept**: the model was right.
@@ -50,7 +50,7 @@ To clear the waiting queue, training rounds (above, with the reviewer's review i
 2. The translator session reviews it as usual.
 3. Opus audits the decisions instead of the reviewer: doubtful changes checked against the glossary, `glossary-overrides.csv` and the quick reference; term consistency across the whole file; `lint` hints left unanswered.
 4. Doubts that the guide, glossary or quick reference do not settle: the string stays as it was (no change) and goes to a list for the reviewer.
-5. `python3 review/audit_decisions.py <round> [--edits edits.jsonl] <n>=<reason> …` writes `audited.jsonl` (the model's decisions minus the dropped ones, with Opus's rewordings from `edits.jsonl`) and `audit.md`; `decisions.jsonl` stays as the model wrote it. `build original.po audited.jsonl corrected.po` gives `corrected.po` (only the strings to change), copied to the exchange folder. The reviewer imports it and approves the rest.
+5. `python3 review/audit_decisions.py <round> [--edits edits.jsonl] <n>=<reason> …` writes `audited.jsonl` (the model's decisions minus the dropped ones, with Opus's rewordings from `edits.jsonl`) and `audit.md`; `decisions.jsonl` stays as the model wrote it. `build original.po audited.jsonl corrected.po` gives `corrected.po` (only the strings to change), The reviewer imports it and approves the rest.
 
 There is no human reference, so the round is logged in `skill/benchmark-log.md` as "sin revisión humana" and is not counted in the measurements. Whatever the reviewer notices later while approving becomes a candidate or a rule as usual.
 
@@ -71,7 +71,7 @@ Another case: the source strings are not in US English (Arcadys Municipal Core, 
 ## Round folder
 
 ```
-$ROUNDS_DIR/NN-project/
+rounds/NN-project/
   original.po          waiting strings as downloaded
   entries.jsonl        extracted entries (skill)
   decisions.jsonl      translator decisions

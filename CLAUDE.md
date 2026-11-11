@@ -2,7 +2,7 @@
 
 Workbench of the es_ES Polyglots team to translate and review WordPress strings into Spanish (Spain) with AI help, and to train the installable skill in `wordpress-translator-es/`. The person running it is a reviewer (PTE or GTE) of the locale. Answer in the language they write in; be short and exact (if they ask for a field or a command, give only that).
 
-Machine-specific settings (temporary and rounds folders, exchange folder, other machines) go in `CLAUDE.local.md`, which is not committed. Never write local paths, machine names or personal names into tracked files.
+The repository works wherever it is cloned: never write local paths, machine names or personal names into tracked files.
 
 Read first: [README.md](README.md) (subprojects and layout), [docs/status.md](docs/status.md) (current milestone, open questions) and [docs/workflow.md](docs/workflow.md) (how we work).
 
@@ -26,4 +26,4 @@ Read `resources/quick-reference.md`, `resources/style-guide.md` and `resources/g
 ## Local setup
 
 - Needs `python3` (and `node` for the `polyglots` rule tests).
-- Round folders and temporary files live outside the repository: set `ROUNDS_DIR` (default: `rounds/` in the repository root, ignored by git) and describe your folders in `CLAUDE.local.md`.
+- Working material stays inside the repository in folders ignored by git: `rounds/` (one folder per review round) and `dist/` (the skill's zip). Nothing in them is committed.
