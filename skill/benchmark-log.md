@@ -150,10 +150,13 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
   - *entries* = «registros» en lugar de «respuestas» (unas 40 cadenas). El glosario dice que «es mejor» si son datos almacenados.
   - 8 cadenas en usted.
   - Comprobado aparte: las 652 restantes no tienen restos de los sinónimos corregidos.
-- Auditoría de Opus: 5 descartadas y 3 editadas.
+- Auditoría de Opus antes de la decisión del revisor: 5 descartadas y 3 editadas.
   - Descartadas: #180 y #181 (*preset* como adjetivo, «preestablecido»); #183 (*required number* no es un campo obligatorio); #410 (columna del resumen, no la barra lateral de WordPress); #790 (entradas de un registro de errores).
   - Editadas: #289, el espacio inicial del sufijo « (importado)» se perdía con las comillas; #779, añadía «electrónico» sin necesidad; #784, *notification emails* = «correos de aviso».
-- Candidato: un término del glosario usado como adjetivo o en otro sentido (*preset prefix*, *sidebar column*, *required number*). Haiku aplica el término sin mirar el sentido.
+- Decisión del revisor: en un plugin de formularios, *entries* = «respuestas», que es lo que usaba el traductor. Se deshace «registros»: 13 cadenas salen del archivo y en otras 13 se conservan los demás cambios con «respuestas». Total: 18 descartadas, 16 editadas y 178 cambios.
+- Candidatos:
+  - Un término del glosario usado como adjetivo o en otro sentido (*preset prefix*, *sidebar column*, *required number*). Haiku aplica el término sin mirar el sentido.
+  - *entries* de formularios = «respuestas»: la nota del glosario («es mejor registro» si son datos almacenados) no encaja con este caso. Es la primera vez que sale.
 
 ## 2026-11-11 · Haiku · ronda 37 (Chiaro AI Sales Analytics for WooCommerce, dev, 364 cadenas) · directa, sin revisión humana · skill `review-glotpress-waiting`
 
