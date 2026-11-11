@@ -1,2 +1,0 @@
-{"n": 80, "verdict": "reject", "msgstr": "Tu plugin SEO marca esta página como «Página FAQ» aunque no tiene ningún bloque FAQ. Cambia el tipo de página a «Página web» en el plugin SEO (Yoast SEO: pestaña «Schema» de la entrada, o Ajustes → Tipos de contenido para todas las entradas) o añade un bloque FAQ real.", "comment": "Según el glosario, «FAQ» no se traduce; en la etiqueta del plugin SEO se queda «FAQ»."}
-{"n": 100, "verdict": "reject", "msgstr": "Borrar", "comment": "Según el glosario, «delete» es «borrar», no «eliminar»."}

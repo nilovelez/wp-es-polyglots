@@ -25,7 +25,7 @@ Tests:
 
 ```
 node polyglots/rules/tests/newtest.js polyglots/rules/es_ES.yaml
-node polyglots/rules/tests/evalrules.js polyglots/rules/es_ES.yaml review/rounds/02-wgrank/original.po
+node polyglots/rules/tests/evalrules.js polyglots/rules/es_ES.yaml /Volumes/Datos/scratch/wp-es-polyglots/rounds/02-wgrank/original.po
 ```
 
 `newtest.js` runs hit and false-positive cases; `evalrules.js` counts hits per rule on a real `.po`. Validate with `polyglots rules check --file es_ES.yaml` on Marcianito before delivering.

@@ -1,8 +1,0 @@
-[
-{"n": 85, "verdict": "reject", "replace": [["La página de inicio de sesión está ahora en", "La página de acceso está ahora en"]], "comment": "Se usa «página de acceso» en todo el plugin para «login page»."},
-{"n": 809, "verdict": "reject", "replace": [["una página de inicio de sesión falsa", "una página de acceso falsa"]], "comment": "Se usa «página de acceso» en todo el plugin para «login page»."},
-{"n": 2286, "verdict": "reject", "replace": [["La página de inicio de sesión y el escritorio", "La página de acceso y el escritorio"]], "comment": "Se usa «página de acceso» en todo el plugin para «login page»."},
-{"n": 756, "verdict": "reject", "replace": [["El historial no muestra que lo creara", "El registro de actividad no muestra que lo creara"]], "comment": "«Activity log» se traduce como «registro de actividad», como en el resto del plugin."},
-{"n": 757, "verdict": "reject", "replace": [["Según el historial, lo hizo", "Según el registro de actividad, lo hizo"]], "comment": "«Activity log» se traduce como «registro de actividad», como en el resto del plugin."},
-{"n": 767, "verdict": "reject", "replace": [["El historial lo registró.", "El registro de actividad lo anotó."]], "comment": "«Activity log» se traduce como «registro de actividad», como en el resto del plugin."}
-]

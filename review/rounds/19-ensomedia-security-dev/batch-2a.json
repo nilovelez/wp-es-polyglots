@@ -1,9 +1,0 @@
-[
-{"n": 829, "verdict": "reject", "replace": [["aplicación de autenticación", "aplicación de identificación"]], "comment": "El criterio del equipo para «authentication» es «identificación», no «autenticación»."},
-{"n": 842, "verdict": "reject", "replace": [["el valor predeterminado de WordPress", "el valor por defecto de WordPress"]], "comment": "Según el glosario, «default» es «por defecto», no «predeterminado»."},
-{"n": 845, "verdict": "reject", "replace": [["volver a iniciar sesión", "volver a acceder"]], "comment": "Según el glosario, «sign in» es «acceder». No se usa «iniciar sesión»."},
-{"n": 866, "verdict": "reject", "replace": [["que inicies sesión", "que accedas"]], "comment": "Según el glosario, «sign in» es «acceder». No se usa «iniciar sesión»."},
-{"n": 871, "verdict": "reject", "replace": [["tu rol debe usar la autenticación en dos pasos", "tu perfil debe usar la identificación en dos pasos"], ["aplicación de autenticación", "aplicación de identificación"]], "comment": "Según el glosario, «role» es «perfil» y «two-factor authentication» es «identificación en dos pasos»."},
-{"n": 883, "verdict": "reject", "replace": [["Recibes este correo porque", "Recibes este correo electrónico porque"]], "comment": "En un texto largo, «correo» se escribe «correo electrónico»."},
-{"n": 885, "verdict": "reject", "replace": [["Ejecuta un análisis e", "Ejecuta una exploración e"]], "comment": "Según el glosario, «scan» es «exploración» (o «explorar»)."}
-]

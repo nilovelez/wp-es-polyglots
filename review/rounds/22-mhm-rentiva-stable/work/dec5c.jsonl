@@ -1,5 +1,0 @@
-{"n": 3105, "verdict": "fix", "msgstr": "[ADMIN] Reserva cancelada - #%d", "comment": "Con «#%d» se deja «#» tal cual, sin «n.º»."}
-{"n": 3194, "verdict": "reject", "msgstr": "¿Seguro que quieres borrar los servicios adicionales seleccionados? Esta acción no se puede deshacer.", "comment": "Según el glosario, «delete» se traduce como «borrar»."}
-{"n": 3243, "verdict": "reject", "msgstr": "Canales de soporte", "comment": "Según el glosario, «support» en el sentido de ayuda se traduce como «soporte»; usa el mismo término en todo el plugin."}
-{"n": 3250, "verdict": "reject", "msgstr": "Canales de soporte, documentación e historial de versiones", "comment": "Según el glosario, «support» en el sentido de ayuda se traduce como «soporte»; usa el mismo término en todo el plugin."}
-{"n": 3285, "verdict": "reject", "msgstr": "Soporte", "comment": "Según el glosario, «support» en el sentido de ayuda se traduce como «soporte»; usa el mismo término en todo el plugin."}

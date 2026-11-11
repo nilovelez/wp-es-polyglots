@@ -1,7 +1,0 @@
-{"n": 247, "verdict": "reject", "msgstr": "Cabecera", "comment": "Según el glosario, «header» se traduce como «cabecera», no como «encabezado»."}
-{"n": 418, "verdict": "reject", "msgstr": "En v2 se muestra como una línea más pequeña dentro del mosaico de desnivel. En v1 se muestra como una fila separada debajo de Desnivel. Se rellena automáticamente cuando se procesa el GPX.", "comment": "Usa «desnivel» como en el resto del plugin para «ascent»."}
-{"n": 421, "verdict": "reject", "msgstr": "Controla los iconos del perfil de escalada junto a la información de desnivel en la tabla de información de la ruta. Esta opción no es aplicable si la opción anterior no está configurada.", "comment": "Usa «desnivel» como en el resto del plugin para «ascent»."}
-{"n": 486, "verdict": "reject", "msgstr": "Plegado por defecto", "comment": "Según el glosario, «collapsed» se traduce como «plegado», y «default» como «por defecto»."}
-{"n": 337, "verdict": "fix", "msgstr": "Dejar en blanco para «Ver ruta»", "comment": "Las comillas del texto deben ser «»."}
-{"n": 518, "verdict": "doubt", "msgstr": "Route Finder → Ajustes → Mapa y API", "comment": "¿Es correcta esta ruta de menú? «Configuración» aparece dos veces en el original traducido; propongo «Ajustes → Mapa y API», pero confirma el nombre real del menú."}
-{"n": 12, "verdict": "reject", "msgstr": "Limpiar todos los filtros", "comment": "Aquí el botón quita los filtros aplicados; según la referencia rápida, «Clear filters» se traduce como «Limpiar filtros»."}

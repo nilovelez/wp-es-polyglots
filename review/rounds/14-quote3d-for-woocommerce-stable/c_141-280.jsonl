@@ -1,6 +1,0 @@
-{"n": 206, "verdict": "reject", "msgstr": "El tema, los colores, la fuente, las esquinas, los campos del formulario y los textos se configuran en la página Widget de tu escritorio de Quote3D. Los cambios se ven al instante en la tienda, sin tocar el plugin.", "comment": "Según el glosario, «Dashboard» se traduce como «escritorio», no como «panel»."}
-{"n": 250, "verdict": "reject", "msgstr": "Abrir el escritorio", "comment": "Según el glosario, «Dashboard» se traduce como «escritorio», no como «panel»."}
-{"n": 251, "verdict": "reject", "msgstr": "Pedido #{number} · {status}", "comment": "Se mantiene «#» como en el original, no «n.º»."}
-{"n": 259, "verdict": "reject", "msgstr": "No tienes permisos para descargar modelos.", "comment": "Según el glosario, «not allowed» se traduce como «no tienes permisos» (en plural)."}
-{"n": 262, "verdict": "reject", "msgstr": "Vaciar selección", "comment": "Según el glosario, «clear» (verbo) se traduce como «vaciar»."}
-{"n": 276, "verdict": "reject", "msgstr": "ID de presupuesto", "comment": "Debe coincidir con la traducción de «Quote ID» en el resto del archivo."}
