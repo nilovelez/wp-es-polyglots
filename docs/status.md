@@ -71,6 +71,8 @@ When a contributor uploads a batch like torlann (machine translation without con
 
 ## Open questions (locale)
 
+- Style guide 3.3 says «Evita la pasiva refleja»; it should say not to overuse it («se envían», «se crean» are natural). Change it in the next guide revision.
+- *link* meaning to associate accounts («asociado con un socio», rounds 31 and 37) clashes with the glossary note for *link*. Ignored for now.
 - «Escritorio» with a capital letter mid-sentence: confirm the es_ES core convention.
 - *Dashboard* of an external service: «escritorio» per the glossary, or a different wording? Round 10: the reviewer accepted «escritorio del vendedor» for ifthenpay's merchant dashboard (one case, not yet a rule).
 - *authentication salt* (AUTH_SALT): how does core translate it?
