@@ -4,8 +4,8 @@
 Commands:
   fetch <project url> [folder] [--untranslated]
       Download the waiting strings (or, with --untranslated, the untranslated
-      ones) of a translate.wordpress.org project into <folder>/original.po and
-      print the import URL. es/default is added if the URL has no locale.
+      ones) of a translate.wordpress.org project into <folder>/original.po.
+      es/default is added if the URL has no locale.
   glossary-update [--locale es]
       Download the official glossary of the locale from translate.wordpress.org
       and replace the bundled glossary.csv (the team's overrides still apply).
@@ -636,7 +636,6 @@ def cmd_fetch(args):
     open(out, 'wb').write(data)
     count = data.decode('utf-8', 'replace').count('\nmsgid ') - 1
     print(f'{out}: {count} {status} strings')
-    print(f'Import URL: {base}import-translations/')
 
 
 def cmd_glossary_update(args):

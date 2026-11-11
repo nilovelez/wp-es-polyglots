@@ -33,7 +33,7 @@ Pick the mode from what the user gives you:
 | A translate.wordpress.org URL and asks to review (or the URL shows `status=waiting`) | review | `python3 <skill>/scripts/po_tool.py fetch <url> <work>` |
 | A `.po` file and asks to review it | review | Use their file |
 
-`<work>` is a work folder outside the user's project (a temporary folder) unless the user says where. `fetch` prints the number of strings and the import URL.
+`<work>` is a work folder outside the user's project (a temporary folder) unless the user says where. `fetch` prints the number of strings.
 
 Then:
 
@@ -108,14 +108,14 @@ The build checks placeholders, HTML, entities, URLs, newlines, edge spaces and q
 
 Where the result goes:
 
-- **Plugins and themes hosted on WordPress.org** load their translations from translate.wordpress.org, not from the plugin's own files. Give the user the import URL (`https://translate.wordpress.org/projects/<type>/<slug>/<sub-project>/es/default/import-translations/`, printed by `fetch`). If they are not an editor (PTE/GTE) of that project, the imported strings arrive as suggestions waiting for the es_ES team's approval.
+- **Plugins and themes hosted on WordPress.org** load their translations from translate.wordpress.org, not from the plugin's own files. The user imports the file in the project's page there. If they are not an editor (PTE/GTE) of that project, the imported strings arrive as suggestions waiting for the es_ES team's approval.
 - **Plugins and themes not hosted on WordPress.org:** `languages/<text-domain>-es_ES.po`; if WP-CLI is installed, also `wp i18n make-mo` and `wp i18n make-php` on it so WordPress can load it.
 
 ## 5. Answer
 
 Short, in the user's language:
 
-1. Where the file is, and the import URL when it applies. The user imports it; never upload or approve anything yourself.
+1. Where the file is. The user imports it; never upload or approve anything yourself.
 2. Counts: translated, or approved / fixed / rejected.
 3. The main kinds of changes, with counts.
 4. The doubts, each with the source, your proposal and a concrete question. When the user answers, update the decisions and build again.
