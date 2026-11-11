@@ -161,7 +161,7 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - No fue a ciegas. La carpeta de trabajo estaba dentro de la de la ronda, y Haiku leyó las decisiones de la primera pasada y se comparó con ellas. Para repetir una ronda, la carpeta de trabajo tiene que ir fuera.
 - 48 cambios, sin dudas.
   - Esta vez acierta en lo que la primera auditoría había pasado por alto:
-    - comillas rectas en el texto que se escribe en el buscador («Busca "WSMS"», como dice la guía);
+    - (comillas rectas en «Busca "WSMS"»: error, la frase de la guía estaba mal acotada; corregida por Opus a «»);
     - «la administración de WordPress» en vez de «el administrador»;
     - *Upgrade* = «Mejora a»;
     - «prefijo de país» sin cambiar;
