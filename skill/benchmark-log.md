@@ -140,6 +140,14 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - Resultado: 291 cambios propuestos, aceptados en bloque por el revisor («me vale»), sin revisarlos cadena a cadena. La medición de esta ronda no es comparable con las demás.
 - Lección: en rondas por tramos, comprobar antes de `review-po` que los términos de `terms.md` se aplicaron en todo el archivo. Anotado en `review/README.md`.
 
+## 2026-11-11 · Haiku · ronda 34 (Jetpack VideoPress, stable, 49 cadenas) · revisión humana en Poedit · primera con la skill instalable y prompt de usuario
+
+- Prompt sin listas ni excepciones: «usa la skill, revisa este archivo». Haiku tardó algo más de un minuto.
+- 4 propuestas: dos mayúsculas en mitad de frase, una concordancia unida a un término incoherente con el resto del archivo y *upgrade* = «mejorar». El revisor revisó las 49 cadenas y aceptó las 4. No hubo cambios de más ni fallos.
+- Haiku aplicó sin que se lo pidiera lo que antes iba en el prompt: dejó «Se eliminarán» porque se borran datos, revisó uno por uno los 8 avisos del lint y avisó de que los comentarios no viajan al importar.
+- Detectó una contradicción: el ejemplo «Actualiza a Premium» de la guía (3.4) frente a *upgrade* = «mejorar» del glosario. Queda pendiente corregir el ejemplo.
+- Es el primer caso del banco de pruebas: `bench/cases/01-jetpack-videopress-stable`.
+
 ## 2026-11-11 · Haiku · ronda 33 (WPeMatico, stable, 1780 cadenas) · directa, sin revisión humana
 
 - 3 tramos de unas 594 cadenas en sesiones de Haiku separadas, una detrás de otra (unos 5 minutos cada una), con los términos «siempre» en el prompt desde el primer tramo.

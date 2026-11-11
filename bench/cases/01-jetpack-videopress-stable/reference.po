@@ -1,0 +1,30 @@
+# Translation of Plugins - Jetpack VideoPress - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Jetpack VideoPress - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-10-07 19:06:05+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.1.0\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Jetpack VideoPress - Stable (latest release)\n"
+
+#: jetpack_vendor/automattic/jetpack-videopress/build/block-editor/blocks/all-playlists/block.json
+msgctxt "block title"
+msgid "All Playlists"
+msgstr "Todas las listas de reproducción"
+
+#: jetpack_vendor/automattic/jetpack-videopress/build/routes/video-editor/content.js:137
+msgid "You have unsaved edits. Leave the editor and discard them?"
+msgstr "Tienes ediciones sin guardar. ¿Quieres salir del editor y descartarlas?"
+
+#: jetpack_vendor/automattic/jetpack-videopress/build/block-editor/blocks/playlist/index.js:2
+msgid "Adds the title above the playlist as a Heading block you can edit and style in place."
+msgstr "Añadir el título encima de la lista de reproducción como un bloque de encabezado que puedes editar y dar estilo en el lugar."
+
+#. translators: %s is a product name, such as "Jetpack Akismet Anti-spam".
+#: jetpack_vendor/automattic/jetpack-my-jetpack/build/routes/dashboard/content.js:739
+msgid "Upgrade to %s"
+msgstr "Mejorar a %s"

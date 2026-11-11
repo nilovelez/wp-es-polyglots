@@ -1,0 +1,227 @@
+# Translation of Plugins - Jetpack VideoPress - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Jetpack VideoPress - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-10-07 19:06:05+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.1.0\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Jetpack VideoPress - Stable (latest release)\n"
+
+#: jetpack_vendor/automattic/jetpack-videopress/build/block-editor/blocks/all-playlists/block.json
+msgctxt "block keyword"
+msgid "gallery"
+msgstr "galería"
+
+#: jetpack_vendor/automattic/jetpack-videopress/build/block-editor/blocks/all-playlists/block.json
+msgctxt "block keyword"
+msgid "collection"
+msgstr "colección"
+
+#: jetpack_vendor/automattic/jetpack-videopress/build/block-editor/blocks/all-playlists/block.json
+msgctxt "block keyword"
+msgid "playlists"
+msgstr "listas de reproducción"
+
+#: jetpack_vendor/automattic/jetpack-videopress/build/block-editor/blocks/all-playlists/block.json
+msgctxt "block description"
+msgid "Every playlist on the site, paginated, under a heading you can edit."
+msgstr "Todas las listas de reproducción del sitio, paginadas, bajo un encabezado que puedes editar."
+
+#: jetpack_vendor/automattic/jetpack-videopress/build/block-editor/blocks/all-playlists/block.json
+msgctxt "block title"
+msgid "All Playlists"
+msgstr "Todas las Listas de reproducción"
+
+#: jetpack_vendor/automattic/jetpack-videopress/build/widgets/top-videos/render.js:12
+msgid "We couldn't load video plays. Please try again in a moment."
+msgstr "No hemos podido cargar las reproducciones de vídeo. Inténtalo de nuevo más tarde."
+
+#: jetpack_vendor/automattic/jetpack-videopress/build/widgets/top-videos/render.js:9
+msgid "Untitled video"
+msgstr "Vídeo sin título"
+
+#: jetpack_vendor/automattic/jetpack-videopress/build/routes/video/content.js:296
+msgid "Changes queued. They’ll be saved when the upload completes."
+msgstr "Cambios en cola. Se guardarán cuando termine la subida."
+
+#: jetpack_vendor/automattic/jetpack-videopress/build/routes/video/content.js:295
+msgid "Available when the video finishes processing."
+msgstr "Disponible cuando el vídeo termine de procesarse."
+
+#: jetpack_vendor/automattic/jetpack-videopress/build/routes/video/content.js:265
+msgid "Upload progress"
+msgstr "Progreso de la subida"
+
+#: jetpack_vendor/automattic/jetpack-videopress/build/routes/video/content.js:262
+msgid "Retry loading details"
+msgstr "Reintentar cargar los detalles"
+
+#: jetpack_vendor/automattic/jetpack-videopress/build/routes/video/content.js:261
+msgid "Retry saving details"
+msgstr "Reintentar guardar los detalles"
+
+#: jetpack_vendor/automattic/jetpack-videopress/build/routes/video/content.js:260
+msgid "Retry upload"
+msgstr "Reintentar la subida"
+
+#: jetpack_vendor/automattic/jetpack-videopress/build/routes/video/content.js:259
+msgid "Your video uploaded, but its details couldn’t be loaded."
+msgstr "Tu vídeo se ha subido, pero no se han podido cargar sus detalles."
+
+#: jetpack_vendor/automattic/jetpack-videopress/build/routes/video/content.js:258
+msgid "Your video uploaded, but its details couldn’t be saved. Your edits are still here."
+msgstr "Tu vídeo se ha subido, pero no se han podido guardar sus detalles. Tus ediciones siguen aquí."
+
+#: jetpack_vendor/automattic/jetpack-videopress/build/routes/video/content.js:257
+msgid "The upload failed. Your edits are still here."
+msgstr "La subida ha fallado. Tus ediciones siguen aquí."
+
+#: jetpack_vendor/automattic/jetpack-videopress/build/routes/video/content.js:256
+msgid "Preparing video…"
+msgstr "Preparando el vídeo…"
+
+#: jetpack_vendor/automattic/jetpack-videopress/build/routes/video/content.js:255
+msgid "Saving video details…"
+msgstr "Guardando los detalles del vídeo…"
+
+#: jetpack_vendor/automattic/jetpack-videopress/build/routes/video/content.js:253
+msgid "Finishing upload…"
+msgstr "Terminando la subida…"
+
+#: jetpack_vendor/automattic/jetpack-videopress/build/routes/video/content.js:252
+msgid "Waiting to upload…"
+msgstr "Esperando para subir…"
+
+#: jetpack_vendor/automattic/jetpack-videopress/build/routes/video-editor/content.js:149
+#: jetpack_vendor/automattic/jetpack-videopress/build/trim-cut-modal.js:1
+msgid "Video edits could not be loaded. Please try again."
+msgstr "No se han podido cargar las ediciones del vídeo. Inténtalo de nuevo."
+
+#: jetpack_vendor/automattic/jetpack-videopress/build/routes/video-editor/content.js:148
+#: jetpack_vendor/automattic/jetpack-videopress/build/trim-cut-modal.js:1
+msgid "The original video does not match the editing timeline. Reload the editor before making changes."
+msgstr "El vídeo original no coincide con la línea de tiempo de edición. Recarga el editor antes de hacer cambios."
+
+#: jetpack_vendor/automattic/jetpack-videopress/build/routes/video-editor/content.js:147
+#: jetpack_vendor/automattic/jetpack-videopress/build/trim-cut-modal.js:1
+msgid "Your unsaved edits will be replaced with the latest saved version."
+msgstr "Tus ediciones no guardadas se reemplazarán por la última versión guardada."
+
+#: jetpack_vendor/automattic/jetpack-videopress/build/routes/video-editor/content.js:146
+msgid "Reload latest edits?"
+msgstr "¿Recargar las últimas ediciones?"
+
+#: jetpack_vendor/automattic/jetpack-videopress/build/routes/video-editor/content.js:145
+#: jetpack_vendor/automattic/jetpack-videopress/build/trim-cut-modal.js:1
+msgid "Restore original"
+msgstr "Restaurar original"
+
+#: jetpack_vendor/automattic/jetpack-videopress/build/routes/video-editor/content.js:144
+#: jetpack_vendor/automattic/jetpack-videopress/build/trim-cut-modal.js:1
+msgid "All saved and unsaved video edits will be removed. Viewers will see the original video again."
+msgstr "Se eliminarán todas las ediciones del vídeo, guardadas y no guardadas. Los espectadores volverán a ver el vídeo original."
+
+#: jetpack_vendor/automattic/jetpack-videopress/build/routes/video-editor/content.js:143
+msgid "Restore original?"
+msgstr "¿Restaurar original?"
+
+#: jetpack_vendor/automattic/jetpack-videopress/build/routes/video-editor/content.js:142
+msgid "Your unsaved edits will be discarded and the editor will return to the last saved version."
+msgstr "Tus ediciones no guardadas se descartarán y el editor volverá a la última versión guardada."
+
+#: jetpack_vendor/automattic/jetpack-videopress/build/routes/video-editor/content.js:140
+#: jetpack_vendor/automattic/jetpack-videopress/build/trim-cut-modal.js:1
+msgid "Update video"
+msgstr "Actualizar vídeo"
+
+#: jetpack_vendor/automattic/jetpack-videopress/build/routes/video-editor/content.js:138
+msgid "Update video?"
+msgstr "¿Actualizar el vídeo?"
+
+#: jetpack_vendor/automattic/jetpack-videopress/build/routes/video-editor/content.js:137
+msgid "You have unsaved edits. Leave the editor and discard them?"
+msgstr "Tienes modificaciones sin guardar. ¿Quieres salir del editor y descartarlos?"
+
+#: jetpack_vendor/automattic/jetpack-videopress/build/routes/video-editor/content.js:139
+#: jetpack_vendor/automattic/jetpack-videopress/build/trim-cut-modal.js:1
+msgid "Viewers will see the edited video. Your original is kept and can be restored. Existing chapters may need to be adjusted after the video finishes processing."
+msgstr "Los espectadores verán el vídeo editado. Tu original se mantiene y se puede restaurar. Los capítulos existentes pueden necesitar ser ajustados después de que el vídeo termine de procesarse."
+
+#: jetpack_vendor/automattic/jetpack-videopress/build/block-editor/blocks/playlist/index.js:9
+msgid "Playlist title"
+msgstr "Título de la lista de reproducción"
+
+#: jetpack_vendor/automattic/jetpack-videopress/build/block-editor/blocks/playlist/index.js:2
+msgid "The title and description are shown wherever the site lists its playlists."
+msgstr "El título y la descripción se muestran dondequiera que el sitio enumere sus listas de reproducción."
+
+#: jetpack_vendor/automattic/jetpack-videopress/build/block-editor/blocks/playlist/index.js:2
+msgid "Adds the title above the playlist as a Heading block you can edit and style in place."
+msgstr "Añadir el título encima de la lista de reproducción como un bloque de Encabezado que puedes editar y dar estilo en el lugar."
+
+#: jetpack_vendor/automattic/jetpack-videopress/build/routes/settings/content.js:110
+msgid "Allow sharing"
+msgstr "Permitir compartir"
+
+#: jetpack_vendor/automattic/jetpack-videopress/build/block-editor/blocks/video/index.js:11
+msgid "Channel"
+msgstr "Canal"
+
+#: jetpack_vendor/automattic/jetpack-videopress/build/block-editor/blocks/playlist/index.js:2
+msgid "Playlist details"
+msgstr "Detalles de la lista de reproducción"
+
+#: jetpack_vendor/automattic/jetpack-videopress/build/block-editor/blocks/playlist/index.js:2
+msgid "Show title as heading"
+msgstr "Mostrar el título como encabezado"
+
+#: jetpack_vendor/automattic/jetpack-videopress/build/block-editor/blocks/latest-videos-playlist/index.js:1
+#: jetpack_vendor/automattic/jetpack-videopress/build/block-editor/blocks/playlist/index.js:6
+msgid "Show player"
+msgstr "Mostrar reproductor"
+
+#: jetpack_vendor/automattic/jetpack-videopress/src/class-channel-blocks.php:171
+#: jetpack_vendor/automattic/jetpack-videopress/build/block-editor/blocks/all-playlists/index.js:1
+msgid "No playlists yet"
+msgstr "Aún no hay listas de reproducción"
+
+#: jetpack_vendor/automattic/jetpack-videopress/build/block-editor/blocks/all-playlists/index.js:1
+msgid "Loading playlists…"
+msgstr "Cargando listas de reproducción…"
+
+#: jetpack_vendor/automattic/jetpack-videopress/build/block-editor/blocks/all-playlists/index.js:1
+msgid "“Load more” button"
+msgstr "Botón «Cargar más»"
+
+#: jetpack_vendor/automattic/jetpack-videopress/build/block-editor/blocks/all-playlists/index.js:1
+msgid "Gallery"
+msgstr "Galería"
+
+#. translators: %s is a feature name, such as "Stats".
+#: jetpack_vendor/automattic/jetpack-my-jetpack/build/routes/dashboard/content.js:744
+msgid "Next: %s"
+msgstr "Siguiente: %s"
+
+#. translators: %s is a feature name, such as "Stats".
+#: jetpack_vendor/automattic/jetpack-my-jetpack/build/routes/dashboard/content.js:742
+msgid "Previous: %s"
+msgstr "Anterior: %s"
+
+#. translators: %s is a product name, such as "Jetpack Akismet Anti-spam".
+#: jetpack_vendor/automattic/jetpack-my-jetpack/build/routes/dashboard/content.js:739
+msgid "Upgrade to %s"
+msgstr "Actualizar a %s"
+
+#: jetpack_vendor/automattic/jetpack-videopress/src/class-initializer.php:1312
+#: jetpack_vendor/automattic/jetpack-videopress/build/block-editor/blocks/playlist/index.js:7
+msgid "Up next"
+msgstr "A continuación"
+
+#: jetpack_vendor/automattic/jetpack-videopress/src/class-initializer.php:1239
+#: jetpack_vendor/automattic/jetpack-videopress/build/block-editor/blocks/playlist/index.js:9
+msgid "Playing"
+msgstr "Reproduciendo"
