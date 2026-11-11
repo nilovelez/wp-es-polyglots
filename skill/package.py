@@ -112,6 +112,23 @@ def main():
     zpath = os.path.join(dist, 'wordpress-translator-es.zip')
     zip_dir(OUT, zpath, 'wordpress-translator-es')
     print(f'{OUT}: {len(skills)} skills ({", ".join(skills)}); glossary {n} rows; zip {zpath}')
+    # claude.ai takes one skill per ZIP and has no shared folder: build the two base skills
+    # self-contained, with references/ inside each one.
+    for s in ('translate', 'review'):
+        name = f'wordpress-{s}-es'
+        tmp = os.path.join(dist, 'claude-ai', name)
+        shutil.rmtree(tmp, ignore_errors=True)
+        shutil.copytree(os.path.join(OUT, 'skills', s), tmp)
+        shutil.copytree(refs, os.path.join(tmp, 'references'), ignore=shutil.ignore_patterns('__pycache__', '*.pyc'))
+        md = open(os.path.join(tmp, 'SKILL.md'), encoding='utf-8').read()
+        md = sub(md, f'name: {s}\n', f'name: {name}\n', f'claude.ai {s}')
+        md = sub(md, "`<refs>` is the package's shared folder, `<skill>/../../references`",
+                 "`<refs>` is `<skill>/references`", f'claude.ai {s}')
+        md = md.replace(', used by all the skills of the package)', ')')
+        open(os.path.join(tmp, 'SKILL.md'), 'w', encoding='utf-8').write(md)
+        zip_dir(tmp, tmp + '.zip', name)
+        shutil.rmtree(tmp)
+        print(f'claude.ai: {tmp}.zip')
     for w in warnings:
         print('WARNING', w)
     sys.exit(1 if warnings else 0)

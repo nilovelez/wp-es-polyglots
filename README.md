@@ -42,6 +42,8 @@ Claude Code:
 
 Or with the zip that `python3 skill/package.py` writes to `dist/`: the four skills and the `references/` folder they share (glossary, style guide, `po_tool.py`) install together.
 
+claude.ai (web or desktop app): it takes one skill per zip and has no shared folder, so `package.py` also writes the two base skills self-contained, each with its own `references/`: `dist/claude-ai/wordpress-translate-es.zip` and `dist/claude-ai/wordpress-review-es.zip`. Turn on code execution in Settings → Capabilities and upload them under Skills. There you give Claude the `.po` file; downloading from translate.wordpress.org depends on the network access of the sandbox, so the GlotPress workflows are for Claude Code.
+
 | Skill | Input → output |
 |---|---|
 | `translate` | `.pot` / `.po` → translated `.po` |
