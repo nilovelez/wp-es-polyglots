@@ -140,6 +140,25 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - Resultado: 291 cambios propuestos, aceptados en bloque por Nilo («me vale»), sin revisarlos cadena a cadena. La medición de esta ronda no es comparable con las demás.
 - Lección: en rondas por tramos, comprobar antes de `review-po` que los términos de `terms.md` se aplicaron en todo el archivo. Anotado en `review/README.md`.
 
+## 2026-11-11 · Haiku · ronda 33 (WPeMatico, stable, 1780 cadenas) · directa, sin revisión humana
+
+- 3 tramos de unas 594 cadenas en sesiones de Haiku separadas, una detrás de otra (unos 5 minutos cada una), con los términos «siempre» en el prompt desde el primer tramo.
+- Calidad de la traducción:
+  - Las cadenas nuevas (tramos 1 y 2) están muy cuidadas: 39 y 34 decisiones.
+  - En el tramo 3 hay cadenas antiguas de otra mano: 94 decisiones. Hay «configuraciones» por *settings*, «Tópico», «Tira» por *Strip*, «Romper la búsqueda», funciones de PHP y el shortcode [embed] traducidos, una forma de usted, «Mod reescribir» y faltas de ortografía.
+- Haiku: 167 decisiones, 2 de ellas dudas. Glosario:
+  - «omitir» (*skip*), «establecer», «enlazar» (no «vincular»), «elemento» (no «ítem»)
+  - «comprobar» (*check*), «administración» (*backend*), «por lotes», «biblioteca», «preajuste», «vaciar»
+  - «ajustes», «subir», «papelera», «caduca», «no válido», «vídeos»
+- Auditoría de Opus:
+  - 7 descartadas: estilo, como pasar a minúscula «Ajustes» y «Kit de migración», «borra» por *remove*, «buscando un fallo», «Sorry» y «¡ATENCIÓN!».
+  - 7 editadas: «Topic» como «Tema» y no «Debate», la segunda «casilla de verificación» de una misma cadena, 3 restos de «Revisa» por *check*, «definido» y «habilitar», y el «WPeMatico» que faltaba en 447 y 463.
+- Quedan 163 cambios. La comprobación da un único problema, un falso positivo: en #136, las entidades &ldquo; y &mdash; ya eran «» en la traducción original.
+- Nilo, sobre *toggle*: «conmutador» es lo más seguro, pero «interruptor» no es incorrecto. Se queda «interruptor» (~15).
+- Dudas sin cambios:
+  - #88: el original acaba en «features of » sin terminar la frase.
+  - #1499: «by %s» → «por autor %s».
+
 ## 2026-11-10 · Haiku · ronda 32 (WP SMS, stable, 2133 cadenas) · directa, sin revisión humana
 
 - 3 tramos de 711 cadenas en sesiones de Haiku separadas, una detrás de otra (4-6 minutos cada una). Traducción humana, buena y con tuteo, pero con sinónimos sistemáticos.
