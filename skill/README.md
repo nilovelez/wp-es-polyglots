@@ -17,6 +17,6 @@
 
 ## How it is developed
 
-A cheaper model session (Sonnet) does the translation and review work using only this skill. The Opus session that maintains the project audits its output against Nilo's feedback and updates the skill and `resources/`. The translator session never edits them; it reports what was unclear.
+A cheaper model session (Sonnet) does the translation and review work using only this skill. The Opus session that maintains the project audits its output against the reviewer's feedback and updates the skill and `resources/`. The translator session never edits them; it reports what was unclear.
 
-Benchmark: rounds 01 and 02 (in `/Volumes/Datos/scratch/wp-es-polyglots/rounds/`) have human-approved `corrected.po` files. Run the skill blind on copies of their `original.po` (outside the repo, so the answers are not visible) and compare with `po_tool.py compare`.
+Benchmark: rounds 01 and 02 (in `ROUNDS_DIR`) have human-approved `corrected.po` files. Run the skill blind on copies of their `original.po` (outside the repo, so the answers are not visible) and compare with `po_tool.py compare`.

@@ -1,6 +1,6 @@
 # Propuestas para la guía de traductores y el glosario
 
-Criterios de coherencia que han salido en las rondas de revisión y que no están (o no están igual) en la [Guía de traductores del equipo de WordPress España](https://es.wordpress.org/team/handbook/traducciones/guia/) ni en el glosario oficial de translate.wordpress.org. Nilo los propone al equipo para actualizar las guías generales, que son las que usa todo el mundo.
+Criterios de coherencia que han salido en las rondas de revisión y que no están (o no están igual) en la [Guía de traductores del equipo de WordPress España](https://es.wordpress.org/team/handbook/traducciones/guia/) ni en el glosario oficial de translate.wordpress.org. El revisor los propone al equipo para actualizar las guías generales, que son las que usa todo el mundo.
 
 Mientras no se publiquen, se aplican desde `quick-reference.md` y `glossary-overrides.csv`. Cuando una propuesta se publique, se marca como publicada y su copia local se quita o se ajusta para que coincida con el texto oficial.
 
@@ -18,7 +18,7 @@ Estados: **pendiente** (sin proponer) · **propuesta** (enviada al equipo) · **
 | *clear* | «vaciar» (verbo) | Añadir nota: para dejar de aplicar un filtro, «quitar» o «limpiar» (*Clear filters* = «Quitar filtros»); «vaciar» es para contenidos (papelera, caché) | Rondas 14 y 16 | pendiente |
 | *media item* / *media file* | *media* = «medios» | Añadir: «archivo de medios» (no «archivo multimedia») | Ronda 07 (WP Branches for Post, #28, #70) | pendiente |
 | *supported* | «compatible» | Añadir nota: cuando no habla de compatibilidad (p. ej., *supported conflict*, un conflicto que el plugin sabe resolver), se traduce por el sentido | Ronda 08 (#2) | pendiente |
-| *endpoint* | «variable» | Revisar: «variable» solo vale para los *endpoints* de WooCommerce (Nilo); en «REST endpoints» o una API, «rutas» o se deja «endpoint» | Rondas 07 (#82), 13 y 20 | pendiente |
+| *endpoint* | «variable» | Revisar: «variable» solo vale para los *endpoints* de WooCommerce (el revisor); en «REST endpoints» o una API, «rutas» o se deja «endpoint» | Rondas 07 (#82), 13 y 20 | pendiente |
 | *Dashboard*, *role* | «Escritorio», «perfil» | Añadir nota: son los nombres de WordPress. Los roles de un servicio externo usan el nombre de su interfaz en español («rol: Lector» en GA4); su *dashboard*, preferentemente «panel», aunque «escritorio» también vale | Rondas 10, 14, 15, 19 y 20 | pendiente |
 | *recurring* | «periódico». Nota: «NO usar recurrente» | Cambiar la nota: se prefiere «periódico», pero «recurrente» también se acepta (no es motivo de rechazo) | Ronda 21 (Gratora, unas 125 cadenas) | pendiente |
 | *scope* | «extensión» (cabecera de tabla) | Añadir acepción: «ámbito» para el alcance de un permiso o ajuste | Ronda 20 | pendiente |

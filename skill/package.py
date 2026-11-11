@@ -6,7 +6,7 @@ SKILL.md there is written by hand. This script regenerates the rest:
   glossary.csv        resources/glossary.csv with resources/glossary-overrides.csv applied
   style-guide.md      resources/quick-reference.md + resources/style-guide.md,
                       without development-only parts (translation memory, internal files)
-and writes a zip next to it in the scratch folder for claude.ai.
+and writes dist/wordpress-translator-es.zip (ignored by git) for claude.ai.
 
 Usage: python3 skill/package.py [--zip <path>]
 Run it after every change to resources/ or po_tool.py, and commit the result.
@@ -60,7 +60,7 @@ def style_guide():
     sg = open(os.path.join(RES, 'style-guide.md'), encoding='utf-8').read()
 
     qr = re.sub(r'^Resumen de los criterios.*?\n\n', '', qr, flags=re.S | re.M)
-    qr = sub(qr, 'Prioridad si hay conflicto: instrucciones de Nilo → glosario → guía.',
+    qr = sub(qr, 'Prioridad si hay conflicto: instrucciones del revisor → glosario → guía.',
              'Prioridad si hay conflicto: instrucciones del usuario → glosario → guía.', 'quick-reference')
     qr = sub(qr, ' Está en `glossary-overrides.csv`, que manda sobre `glossary.csv`.', '', 'quick-reference')
     qr = re.sub(r'^- Fallos habituales de la herramienta:.*\n?', '', qr, flags=re.M)
@@ -92,7 +92,7 @@ def main():
     open(os.path.join(OUT, 'style-guide.md'), 'w', encoding='utf-8').write(style_guide())
 
     zpath = sys.argv[sys.argv.index('--zip') + 1] if '--zip' in sys.argv else \
-        '/Volumes/Datos/scratch/wp-es-polyglots/wordpress-translator-es.zip'
+        os.path.join(ROOT, 'dist', 'wordpress-translator-es.zip')
     os.makedirs(os.path.dirname(zpath), exist_ok=True)
     with zipfile.ZipFile(zpath, 'w', zipfile.ZIP_DEFLATED) as z:
         for base, _, files in os.walk(OUT):

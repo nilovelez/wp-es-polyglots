@@ -4,7 +4,7 @@ Resumen de los criterios aprendidos en las rondas de revisión. El detalle está
 
 El glosario, la guía de estilo y estos criterios son decisiones del equipo es_ES tomadas por consenso, no preferencias personales, y se aplican para que las traducciones sean coherentes. También se revisan: si una norma es incoherente, está desfasada o no encaja con lo que se traduce ahora, se señala para que el equipo la revise.
 
-Prioridad si hay conflicto: instrucciones de Nilo → glosario → guía.
+Prioridad si hay conflicto: instrucciones del revisor → glosario → guía.
 
 ## Cuándo cambiar una cadena (revisión)
 

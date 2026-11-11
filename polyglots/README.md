@@ -2,7 +2,7 @@
 
 The [`polyglots`](https://ada.tools) tool downloads waiting strings and reviews them with rules and, optionally, an AI model (frontier or local through Ollama). It **never uploads or approves anything**.
 
-It runs on Marcianito (Windows 11, 32 GB RAM, RTX 2060 12 GB; working folder `Z:\polyglots`). Candidate local models: `gemma4:12b`, `gemma4:e4b-it-qat`, `translategemma:12b`; context ≥ 8192; check 100 % GPU with `ollama ps`.
+Local models need a GPU with enough memory (tested with 12 GB). Candidate local models: `gemma4:12b`, `gemma4:e4b-it-qat`, `translategemma:12b`; context ≥ 8192; check 100 % GPU with `ollama ps`.
 
 ## Commands
 
@@ -25,10 +25,10 @@ Tests:
 
 ```
 node polyglots/rules/tests/newtest.js polyglots/rules/es_ES.yaml
-node polyglots/rules/tests/evalrules.js polyglots/rules/es_ES.yaml /Volumes/Datos/scratch/wp-es-polyglots/rounds/02-wgrank/original.po
+node polyglots/rules/tests/evalrules.js polyglots/rules/es_ES.yaml <rounds>/02-wgrank/original.po
 ```
 
-`newtest.js` runs hit and false-positive cases; `evalrules.js` counts hits per rule on a real `.po`. Validate with `polyglots rules check --file es_ES.yaml` on Marcianito before delivering.
+`newtest.js` runs hit and false-positive cases; `evalrules.js` counts hits per rule on a real `.po`. Validate with `polyglots rules check --file es_ES.yaml` on the machine where `polyglots` runs before delivering.
 
 ## Calibration
 

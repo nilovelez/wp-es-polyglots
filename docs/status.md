@@ -8,9 +8,9 @@ Last updated: 2026-11-11.
 
 1. Write `skill/SKILL.md` and `skill/scripts/po_tool.py`. Done.
 2. Blind benchmark on rounds 01 and 02 against the human-approved `corrected.po`. Done: 9/26 with skill v1, 39/50 with v2; v3 adds `lint` (see `skill/benchmark-log.md`).
-3. Real rounds from the waiting queue with Nilo's feedback, following `review/README.md`. In progress.
+3. Real rounds from the waiting queue with the reviewer's feedback, following `review/README.md`. In progress.
 
-4. Installable skill `wordpress-translator-es/` (2026-11-11): the core component, translate or review with the glossary and the style guide, nothing else. `skill/package.py` regenerates it from `resources/` and `po_tool.py`; run it and commit after every change. Nilo tests it in separate sessions with cheap models and compares it with other moderators' skills; what they learned is merged into it. The training rounds keep using `skill/SKILL.md` for now.
+4. Installable skill `wordpress-translator-es/` (2026-11-11): the core component, translate or review with the glossary and the style guide, nothing else. `skill/package.py` regenerates it from `resources/` and `po_tool.py`; run it and commit after every change. The reviewer tests it in separate sessions with cheap models and compares it with other moderators' skills; what they learned is merged into it. The training rounds keep using `skill/SKILL.md` for now.
 
 M1 (reorganize the repository and document the current state) is done.
 
@@ -22,9 +22,9 @@ What a skill or workflow may carry is fine-tuning for its scenario: how strict t
 
 **Translator guide**
 
-1. Nilo reviews by hand the guide published in the es handbook and `resources/style-guide.md` (inherited: based on the official guide, more complete, with more cases). He reports inconsistencies; Claude fixes them in the Markdown.
+1. The reviewer reviews by hand the guide published in the es handbook and `resources/style-guide.md` (inherited: based on the official guide, more complete, with more cases). He reports inconsistencies; Claude fixes them in the Markdown.
 2. Two versions with the same rules, more complete and better explained than the published one:
-   - **Human guide** (HTML): replaces the current page in the es handbook; Nilo publishes it. Claude creates it when Nilo asks. It links to the agent guide.
+   - **Human guide** (HTML): replaces the current page in the es handbook; The reviewer publishes it. Claude creates it when the reviewer asks. It links to the agent guide.
    - **Agent guide** (Markdown): the same rules plus the information for agents; it goes to the WordPress España community's GitHub account.
 3. The skill then references the published agent guide instead of carrying rules.
 4. From then on, new criteria from the rounds are reviewed one by one as changes to that base.
@@ -32,7 +32,7 @@ What a skill or workflow may carry is fine-tuning for its scenario: how strict t
 **Glossary**
 
 - The glossary is the GlotPress glossary that moderators edit; `resources/glossary.csv` is its CSV export. Do not edit it by hand.
-- Exceptions found in the rounds live in `resources/glossary-overrides.csv`, and every exception and every change to propose is recorded in `resources/proposals.md`. Nilo proposes them in GlotPress; once published, the export is refreshed and the local exception removed.
+- Exceptions found in the rounds live in `resources/glossary-overrides.csv`, and every exception and every change to propose is recorded in `resources/proposals.md`. The reviewer proposes them in GlotPress; once published, the export is refreshed and the local exception removed.
 - The more the guide and the glossary hold, the fewer local exceptions: the end state is no exceptions at all.
 
 **Later: central Polyglots repository**
@@ -58,7 +58,7 @@ When a contributor uploads a batch like torlann (machine translation without con
 - Rules: `polyglots/rules/es_ES.yaml`, 44 mistakes and 33 patterns, guidance at 1444 / 1500 characters. Tests pass (21 cases).
 - Calibration log covers rounds 1 and 2.
 - Local models: Ollama quality is not good enough yet for unsupervised translation; usable for pre-translation. Comparison material in `polyglots/local-models/` (empty Visualizer `.po` and a Haiku reference translation **not approved by a human**). Better: export one or two approved es projects, empty them and measure against them (glossary, informal register, placeholders, exact match).
-- `polyglots` and Ollama run on Marcianito; this repository lives on Bender, where they are not installed.
+- `polyglots` and Ollama may run on a different machine from this repository (a GPU is needed for local models).
 
 ### skill
 
@@ -67,15 +67,15 @@ When a contributor uploads a batch like torlann (machine translation without con
 
 ### common strings (separate repository)
 
-- Not started here. Nilo has an older project (MySQL, themes only) with database dumps and a list of the most common strings. Plan: redo it for core, plugins and themes, drop strings whose translation depends on context (e.g. *Red* → «rojo» / «roja»), and produce a `.po` of common strings to be applied before any translation. Only that `.po` will come to this repository.
+- Not started here. The reviewer has an older project (MySQL, themes only) with database dumps and a list of the most common strings. Plan: redo it for core, plugins and themes, drop strings whose translation depends on context (e.g. *Red* → «rojo» / «roja»), and produce a `.po` of common strings to be applied before any translation. Only that `.po` will come to this repository.
 
 ## Open questions (locale)
 
 - «Escritorio» with a capital letter mid-sentence: confirm the es_ES core convention.
-- *Dashboard* of an external service: «escritorio» per the glossary, or a different wording? Round 10: Nilo accepted «escritorio del vendedor» for ifthenpay's merchant dashboard (one case, not yet a rule).
+- *Dashboard* of an external service: «escritorio» per the glossary, or a different wording? Round 10: The reviewer accepted «escritorio del vendedor» for ifthenpay's merchant dashboard (one case, not yet a rule).
 - *authentication salt* (AUTH_SALT): how does core translate it?
 - *Deselect All*: the glossary gives «anular selección»; «Anular toda la selección»?
 - Plugin name with a subtitle (WGRank Translate – …): leave untranslated?
-- Official glossary entries the team overrides (`resources/glossary-overrides.csv`, used by `po_tool.py`): *meta title* / *meta description* («meta título» / «meta descripción»). Nilo may want to change them in the official glossary.
-- Glossary typos (QuickPress, *deprecate*, *expire*, *expanse*, *troubleshooting*, duplicated *endpoint* and *page*): Nilo will review them.
+- Official glossary entries the team overrides (`resources/glossary-overrides.csv`, used by `po_tool.py`): *meta title* / *meta description* («meta título» / «meta descripción»). The reviewer may want to change them in the official glossary.
+- Glossary typos (QuickPress, *deprecate*, *expire*, *expanse*, *troubleshooting*, duplicated *endpoint* and *page*): The reviewer will review them.
 - Translation memory: `resources/translation-memory.csv` has 21 entries from WGRank, but the previous instructions said to keep it empty because it will be approached differently. Waiting for a decision.
