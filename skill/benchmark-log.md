@@ -140,6 +140,19 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - Resultado: 291 cambios propuestos, aceptados en bloque por el revisor («me vale»), sin revisarlos cadena a cadena. La medición de esta ronda no es comparable con las demás.
 - Lección: en rondas por tramos, comprobar antes de `review-po` que los términos de `terms.md` se aplicaron en todo el archivo. Anotado en `review/README.md`.
 
+## 2026-11-11 · Haiku · ronda 36 (Zinn Connector, stable, 173 cadenas) · revisión humana en Poedit · skill `review`
+
+- Lote malo, elegido para el banco de pruebas: usted en todo, «complemento», «configuración», cadenas sin traducir y términos incoherentes. Haiku tardó menos de cuatro minutos.
+- 79 propuestas, sin dudas. Pasó todo a tuteo sin dejarse ninguna cadena y conservó los «su» de tercera persona. También aplicó el glosario (plugin, ajustes, acceder, subida, tique, copia de seguridad, por defecto, borrar), tradujo lo que estaba en inglés y unificó «código de emparejamiento».
+- El revisor: 77 aceptadas tal cual, 2 retocadas y 2 que se le escaparon a Haiku, sin cambios de más.
+  - Retocadas: «plugin de Zinn®» por «plugin Zinn®» (#19); la pestaña *Publishing* es «Publicación», no «Publicando» (#80).
+  - Escapadas: #93, la misma pestaña aprobada como «Publicando»; #85 *Zinn® hosting for WordPress*, donde la traducción invertía la relación («Alojamiento de WordPress con Zinn®» → «Alojamiento de Zinn® para WordPress»).
+- Candidatos (un caso cada uno, todavía no son reglas):
+  - El nombre de una pestaña o sección va en sustantivo («Publicación»); el gerundio es solo para mensajes de progreso (guía 3.5).
+  - Un nombre de producto que hace de complemento lleva «de» («plugin de Zinn®»).
+- Haiku afirmó en su informe que «complemento» es lo habitual en el español de WordPress, lo cual es falso. Aun así aplicó bien el glosario.
+- Tercer caso del banco de pruebas: `bench/cases/03-zinn-connector-stable`.
+
 ## 2026-11-11 · Haiku · ronda 35 (GDPR Compliance & Cookie Consent, stable, 101 cadenas) · revisión humana en Poedit · skill `review` del plugin
 
 - Prompt de usuario solo con la skill `review`. Haiku tardó menos de dos minutos.
