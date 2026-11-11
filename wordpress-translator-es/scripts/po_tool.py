@@ -360,6 +360,10 @@ def cmd_compare(args):
     only_c = [k for k in c if k not in r]
     print(f'reference {len(r)} · candidate {len(c)} · same {len(same)} · different {len(diff)} · '
           f'only in reference {len(only_r)} · only in candidate {len(only_c)}')
+    if r and c:
+        print(f'found {len(same) + len(diff)}/{len(r)} of the reference ({(len(same) + len(diff)) / len(r):.0%}), '
+              f'{len(same)} with the same wording · extra {len(only_c)}/{len(c)} of the candidate '
+              f'({len(only_c) / len(c):.0%})')
     for title, keys, show in (('DIFFERENT', diff, 'both'), ('ONLY IN REFERENCE', only_r, 'r'), ('ONLY IN CANDIDATE', only_c, 'c')):
         if not keys:
             continue

@@ -22,6 +22,7 @@ Shared locale resources are in `resources/`. How the subprojects feed each other
 docs/          project documentation (English)
 resources/     locale resources (Spanish): style guide, glossary, translation memory, moderation guide
 review/        review workflow and scripts
+bench/         test bench: reference cases reviewed by a human, and results
 rounds/        review rounds, one folder each (ignored by git)
 dist/          packaged skill zip (ignored by git)
 polyglots/     rules/ (generated rules file, build script, tests), calibration log, local-models/

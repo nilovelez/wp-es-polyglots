@@ -50,6 +50,7 @@ Each round gets a folder `rounds/NN-<project>/` in the repository root, ignored 
    - **reverted**: the model changed something that should have been approved → the "change only real errors" criteria.
    - **edited**: right idea, different wording.
    - **missed**: The reviewer changed something the model did not → a missing criterion, glossary note or lint check.
+   Copies the round to the test bench as a new case (`bench/cases/`, see `bench/README.md`): `original.po`, `corrected.po` as `reference.po`, and a `case.md`.
    Asks the reviewer only when the reason for a change is not obvious. One case is a candidate; it becomes a rule when it repeats or when the guide or glossary say it. Logs the round in `skill/benchmark-log.md`.
 
 The `polyglots` tool and Ollama are not part of this loop for now.

@@ -11,6 +11,8 @@ Last updated: 2026-11-11.
 3. Real rounds from the waiting queue with the reviewer's feedback, following `review/README.md`. In progress.
 4. Installable skill `wordpress-translator-es/` (2026-11-11): the core component, translate or review with the glossary and the style guide, nothing else. `skill/package.py` regenerates it from `resources/` and `po_tool.py`; run it and commit after every change. The reviewer tests it in separate sessions with cheap models and compares it with other moderators' skills; what they learned is merged into it. Since round 34 the training rounds use only this skill, prompted as a real user would (no term lists or exceptions in the prompt); the development `skill/SKILL.md` was removed.
 
+5. New test bench in `bench/` (2026-11-11): cases come only from new rounds reviewed by a human in Poedit (one small round every 3–4 direct rounds, adjusted to review urgency); old rounds are not trusted as reference. Translation rounds use official projects the reviewer picks (core, Meta, popular plugins).
+
 M1 (reorganize the repository and document the current state) is done.
 
 ## Plan: shared sources for every tool
