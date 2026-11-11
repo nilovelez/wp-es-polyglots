@@ -70,7 +70,6 @@ check,marcar / comprobar,verb,Dependiendo del contexto. Por ejemplo: marcar una 
 check,cheque,noun,"En comercio, como medio de pago."
 checkbox,casilla de verificación,noun,
 checkout,finalizar compra / pago,noun,"Cuando se refiere a la página de pagos es «Finalizar compra», sino traducir como pago/s, por ejemplo «El cliente procede al pago»"
-clear,vaciar,verb,
 click,clic,noun,
 click,hacer clic,verb,Se pone «clic» sin K (https://www.fundeu.es/consulta/hacer-clic-1753/)
 clip art,imagen prediseñada,expression,
@@ -113,7 +112,6 @@ customer,cliente,noun,
 customize,personalizar,verb,
 Customizer,Personalizador,noun,
 daily Archive,archivo diario,noun,
-Dashboard,Escritorio,noun,No utilizar «tablero» o «panel de control»
 debug,depurar,verb,
 debug,depuración,noun,
 default,por defecto,noun,
@@ -264,7 +262,6 @@ map,asignar,verb,No usar «mapear»
 mapping,asignación,expression,No usar «mapeo»
 marketplace,mercado,noun,
 masonry,mosaico,adjective,Los diseños masonry son aquellos que simulan un muro de ladrillos que encajan unos sobre otros.
-media,medios,noun,
 membership,membresía,noun,
 merchant,vendedor,noun,Hay varias acepciones aceptables según la RAE pero la de uso más común y natural es 'vendedor'
 meta box,caja meta,expression,
@@ -300,8 +297,6 @@ order,pedido / orden,noun,"En una tienda online, como nombre se refiere al «ped
 order,pedir / encargar / realizar pedido / ordenar,verb,Usar «ordenar» solo para referirse al orden de elementos. Si es en una tienda siempre se refiere a algo relacionado con pedidos 
 packing slip,albarán,expression,
 padding,relleno,noun,Término de CSS
-page,página,noun,
-page,página,noun,
 parallax,paralaje,noun,
 path,ruta,noun,
 pattern,patrón,noun,
@@ -371,7 +366,6 @@ resource,recurso,noun,
 responsive,adaptable,noun,
 retrieve,recuperar,verb,
 review,reseña / valoración,noun,Depende del contexto se usa reseña (foros) o valoración (directorio de plugins y temas)
-role,perfil,noun,NO usar «rol»
 roles,perfiles,noun,
 rollback,retroceso,noun,
 rollback,retroceder,verb,
@@ -384,7 +378,6 @@ save,"guardar o ahorrar, según contexto",verb,No utilizar: Salvar (incorrecto)
 scan,explorar,verb,
 scan,exploración,noun,
 schema,schema,noun,"Referido a metadatos estructurados, no se traduce"
-scope,extensión,noun,"Se refiere a la extensión de la cabecera en una tabla. Valores: col, row, colgroup, rowgroup"
 screen,pantalla,noun,
 screening,proyección / emisión,noun,
 scroll,desplazamiento,noun,
@@ -435,7 +428,6 @@ successful,correcto,noun,
 successfully,correctamente,adverb,
 suite,solución completa,noun,Por ejemplo: «Office apps suite» como «Solución completa de aplicaciones de oficina»
 support,es compatible con / dar soporte,verb,Si se refiere a compatibilidad entre versiones/software se traduce como «compatible con» si se refiere a dar ayuda en foros se traduce como «dar soporte»
-supported,compatible,noun,
 swag,regalos,noun,
 tab,pestaña,noun,
 tag,etiqueta,noun,
@@ -498,8 +490,6 @@ wrapper,envoltura,noun,Se refiere a la envoltura alrededor de las imágenes que 
 writable,tener permisos de escritura,expression,
 XML-RPC,XML-RPC,noun,No se traduce
 yearly archive,archivo anual,noun,
-zoom,ampliar / acercar,expression,"Fundeu recomienda usar en español la adaptación «zum», según aconsejan las Academias de la Lengua, pero su uso no está muy extendido.
-https://www.fundeu.es/recomendacion/zum/"
 zoom in,ampliar / acercar,noun,
 zoom out,reducir / alejar,expression,
 meta title,meta título,expression,"Dos palabras: «Meta título» como etiqueta, «meta título» en mitad de frase."
@@ -508,3 +498,14 @@ whitelist,lista blanca,noun,Como verbo (to whitelist) es «añadir a los admitid
 two-factor authentication,identificación en dos pasos,expression,No usar «autenticación de dos factores». La sigla 2FA se deja.
 recurring,periódico,adjective,"Al traducir, usar «periódico»; «recurrente» también se acepta y no es motivo para cambiar una traducción."
 endpoint,endpoint,noun,"En WooCommerce, los endpoints son slugs de la URL del proceso de compra: «variable». En una API (REST endpoints, endpoints de administración) se deja «endpoint» o, según el contexto, «ruta»."
+scope,extensión,noun,"Se refiere a la extensión de la cabecera en una tabla. Valores: col, row, colgroup, rowgroup"
+scope,ámbito,noun,"Alcance de un permiso, un ajuste o una regla («el ámbito de la regla»). «extensión» es solo para la cabecera de una tabla."
+zoom,ampliar / acercar,expression,"Fundeu recomienda usar en español la adaptación «zum», según aconsejan las Academias de la Lengua, pero su uso no está muy extendido.
+https://www.fundeu.es/recomendacion/zum/"
+zoom,ampliación,noun,Como sustantivo («nivel de ampliación»).
+supported,compatible,noun,"Cuando no habla de compatibilidad (p. ej., *supported conflict*, un conflicto que el plugin sabe resolver), se traduce por el sentido."
+page,página,noun,
+clear,vaciar,verb,"«vaciar» es para contenidos (papelera, caché). Para dejar de aplicar un filtro, «quitar» o «limpiar»: *Clear filters* = «Quitar filtros», no «Borrar filtros» ni «Vaciar filtros»."
+media,medios,noun,"También *media item* / *media file* = «archivo de medios», no «archivo multimedia»."
+Dashboard,Escritorio,noun,"No utilizar «tablero» o «panel de control». Es el nombre de WordPress; el *dashboard* de un servicio externo, preferentemente «panel», aunque «escritorio» también vale."
+role,perfil,noun,NO usar «rol». Es el nombre de WordPress; los roles de un servicio externo usan el nombre de su interfaz en español («rol: Lector» en Google Analytics).

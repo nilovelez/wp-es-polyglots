@@ -5,3 +5,14 @@ whitelist,"lista blanca",noun,"Decisión del equipo es_ES. Como verbo (to whitel
 "two-factor authentication","identificación en dos pasos",expression,"Decisión del equipo es_ES. No usar «autenticación de dos factores». La sigla 2FA se deja."
 recurring,periódico,adjective,"Decisión del equipo es_ES, en lugar de la nota del glosario oficial («NO usar recurrente»). Al traducir, usar «periódico»; «recurrente» también se acepta y no es motivo para cambiar una traducción."
 endpoint,endpoint,noun,"Decisión del equipo es_ES, en lugar de las dos entradas del glosario oficial («variable»). En WooCommerce, los endpoints son slugs de la URL del proceso de compra: «variable». En una API (REST endpoints, endpoints de administración) se deja «endpoint» o, según el contexto, «ruta»."
+scope,extensión,noun,"Se refiere a la extensión de la cabecera en una tabla. Valores: col, row, colgroup, rowgroup"
+scope,ámbito,noun,"Decisión del equipo es_ES. Alcance de un permiso, un ajuste o una regla («el ámbito de la regla»). «extensión» es solo para la cabecera de una tabla."
+zoom,ampliar / acercar,expression,"Fundeu recomienda usar en español la adaptación «zum», según aconsejan las Academias de la Lengua, pero su uso no está muy extendido.
+https://www.fundeu.es/recomendacion/zum/"
+zoom,ampliación,noun,Decisión del equipo es_ES. Como sustantivo («nivel de ampliación»).
+supported,compatible,noun,"Decisión del equipo es_ES. Cuando no habla de compatibilidad (p. ej., *supported conflict*, un conflicto que el plugin sabe resolver), se traduce por el sentido."
+page,página,noun,
+clear,vaciar,verb,"Decisión del equipo es_ES. «vaciar» es para contenidos (papelera, caché). Para dejar de aplicar un filtro, «quitar» o «limpiar»: *Clear filters* = «Quitar filtros», no «Borrar filtros» ni «Vaciar filtros»."
+media,medios,noun,"Decisión del equipo es_ES. También *media item* / *media file* = «archivo de medios», no «archivo multimedia»."
+Dashboard,Escritorio,noun,"Decisión del equipo es_ES. No utilizar «tablero» o «panel de control». Es el nombre de WordPress; el *dashboard* de un servicio externo, preferentemente «panel», aunque «escritorio» también vale."
+role,perfil,noun,Decisión del equipo es_ES. NO usar «rol». Es el nombre de WordPress; los roles de un servicio externo usan el nombre de su interfaz en español («rol: Lector» en Google Analytics).

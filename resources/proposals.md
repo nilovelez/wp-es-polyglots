@@ -15,15 +15,15 @@ Estados: **pendiente** (sin proponer) · **propuesta** (enviada al equipo) · **
 | *meta title*, *meta description* | «meta title», «meta description» (no traducir) | «meta título», «meta descripción» | Ronda 11 (AI Blog Writer, #144, #145, #282, #285) | pendiente |
 | *two-factor authentication* | *two-factor* = «dos pasos»; *authentication* = «identificación» (sin entrada para la expresión) | Añadir la expresión: «identificación en dos pasos»; la sigla 2FA se deja | Ronda 13 (ReportedIP Hive, unas 70 cadenas con «autenticación de dos factores») | pendiente |
 | *whitelist* | Sin entrada | Sustantivo: «lista blanca». Verbo (*to whitelist*): «añadir a los admitidos»; *whitelisted*: «admitido» | Ronda 13 (ReportedIP Hive, 36 cadenas) | pendiente |
-| *clear* | «vaciar» (verbo) | Añadir nota: para dejar de aplicar un filtro, «quitar» o «limpiar» (*Clear filters* = «Quitar filtros»); «vaciar» es para contenidos (papelera, caché) | Rondas 14 y 16 | pendiente |
-| *media item* / *media file* | *media* = «medios» | Añadir: «archivo de medios» (no «archivo multimedia») | Ronda 07 (WP Branches for Post, #28, #70) | pendiente |
-| *supported* | «compatible» | Añadir nota: cuando no habla de compatibilidad (p. ej., *supported conflict*, un conflicto que el plugin sabe resolver), se traduce por el sentido | Ronda 08 (#2) | pendiente |
+| *clear* | «vaciar» (verbo) | Añadir nota: para dejar de aplicar un filtro, «quitar» o «limpiar» (*Clear filters* = «Quitar filtros»); «vaciar» es para contenidos (papelera, caché). En `glossary-overrides.csv` | Rondas 14 y 16 | pendiente |
+| *media item* / *media file* | *media* = «medios» | Añadir: «archivo de medios» (no «archivo multimedia»). En `glossary-overrides.csv` | Ronda 07 (WP Branches for Post, #28, #70) | pendiente |
+| *supported* | «compatible» | Añadir nota: cuando no habla de compatibilidad (p. ej., *supported conflict*, un conflicto que el plugin sabe resolver), se traduce por el sentido. En `glossary-overrides.csv` | Ronda 08 (#2) | pendiente |
 | *endpoint* | «variable» | Revisar: «variable» solo vale para los *endpoints* de WooCommerce (el revisor); en «REST endpoints» o una API, «rutas» o se deja «endpoint». En `glossary-overrides.csv` | Rondas 07 (#82), 13, 20, 40 y 41 | pendiente |
-| *Dashboard*, *role* | «Escritorio», «perfil» | Añadir nota: son los nombres de WordPress. Los roles de un servicio externo usan el nombre de su interfaz en español («rol: Lector» en GA4); su *dashboard*, preferentemente «panel», aunque «escritorio» también vale | Rondas 10, 14, 15, 19 y 20 | pendiente |
+| *Dashboard*, *role* | «Escritorio», «perfil» | Añadir nota: son los nombres de WordPress. Los roles de un servicio externo usan el nombre de su interfaz en español («rol: Lector» en GA4); su *dashboard*, preferentemente «panel», aunque «escritorio» también vale. En `glossary-overrides.csv` | Rondas 10, 14, 15, 19 y 20 | pendiente |
 | *recurring* | «periódico». Nota: «NO usar recurrente» | Cambiar la nota: se prefiere «periódico», pero «recurrente» también se acepta (no es motivo de rechazo) | Ronda 21 (Gratora, unas 125 cadenas) | pendiente |
-| *scope* | «extensión» (cabecera de tabla) | Añadir acepción: «ámbito» para el alcance de un permiso o ajuste | Ronda 20 | pendiente |
-| *zoom* (sustantivo) | Solo el verbo: «ampliar / acercar» | Añadir sustantivo: «ampliación» | Ronda 16 | pendiente |
-| *page*, *endpoint* | Entradas duplicadas en el CSV | Dejar una de cada | Revisión del CSV | pendiente |
+| *scope* | «extensión» (cabecera de tabla) | Añadir acepción: «ámbito» para el alcance de un permiso o ajuste. En `glossary-overrides.csv` | Ronda 20 | pendiente |
+| *zoom* (sustantivo) | Solo el verbo: «ampliar / acercar» | Añadir sustantivo: «ampliación». En `glossary-overrides.csv` | Ronda 16 | pendiente |
+| *page*, *endpoint* | Entradas duplicadas en el CSV | Dejar una de cada. En `glossary-overrides.csv` | Revisión del CSV | pendiente |
 | A debatir (sin decisión) | *FAQ* en textos explicativos, *OK* como estado, *login* sustantivo, *sign out* en frases, *feed* que no es RSS, *vendor* de software, *merchant* en nombres de producto, *release* como paquete, *upsell*, *fee* de pasarela = «comisiones», *designation* = «destino», *fixed* = «fijo», *preset* = «predefinido» | Ver el documento de propuestas | Rondas 12 a 21 | pendiente |
 
 ## Guía de traductores
