@@ -156,8 +156,8 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - Quedan 163 cambios. La comprobación da un único problema, un falso positivo: en #136, las entidades &ldquo; y &mdash; ya eran «» en la traducción original.
 - Nilo, sobre *toggle*: «conmutador» es lo más seguro, pero «interruptor» no es incorrecto. Se queda «interruptor» (~15).
 - Dudas sin cambios:
-  - #88: el original acaba en «features of » sin terminar la frase.
-  - #1499: «by %s» → «por autor %s».
+  - #88: el original acaba en «features of » sin terminar la frase. Nilo: se deja así.
+  - #1499: «by %s» → «por autor %s». Nilo: «por %s» (corregido).
 
 ## 2026-11-10 · Haiku · ronda 32 (WP SMS, stable, 2133 cadenas) · directa, sin revisión humana
 
