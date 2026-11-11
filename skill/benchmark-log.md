@@ -140,6 +140,32 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - Resultado: 291 cambios propuestos, aceptados en bloque por el revisor («me vale»), sin revisarlos cadena a cadena. La medición de esta ronda no es comparable con las demás.
 - Lección: en rondas por tramos, comprobar antes de `review-po` que los términos de `terms.md` se aplicaron en todo el archivo. Anotado en `review/README.md`.
 
+## 2026-11-11 · Haiku · ronda 43 (Stedica Surveys, stable, 2505 cadenas) · directa, sin revisión humana · skill `review-glotpress-waiting`
+
+- Lote muy grande. Haiku paró por pasar de 1500 cadenas y se relanzó con lo que diría el usuario («ya sé que es muy grande, revísala entera»).
+- Una sola sesión, por bloques con `terms.md`: 311 000 tokens, 54 herramientas, 8 min 18 s. No se quedó sin contexto.
+- 258 cambios, todos `fix`, sin dudas. Coherente en todo el archivo; en las cadenas aprobadas no quedan restos de los sinónimos corregidos.
+  - *builder* = «maquetador» (unas 52).
+  - *delete* = «borrar».
+  - *add-on* = «extensión».
+  - *default* = «por defecto».
+  - *notification* = «aviso».
+  - *embed* = «incrustar».
+  - *logged in* = «conectado» y *log in* = «acceder».
+  - *preset* = «preajuste».
+  - «n.º» → «#».
+  - «qué tan» → «cómo de».
+  - Comillas.
+- Auditoría de Opus: 5 descartadas y 7 editadas.
+  - Descartadas: *scorecard* de una plantilla de cuestionario («evaluación», no el marcador de KPI del plugin), «en blanco», «recomendación» y *remove* = «eliminar».
+  - Editadas:
+    - un «del» perdido;
+    - dos puntos finales añadidos;
+    - «marcado como por defecto»;
+    - «código de incrustación»;
+    - *unlink* de archivos = «desvincular» (no es un enlace).
+- Candidato para `precheck`: el latinoamericanismo «qué tan» (11 cadenas) no lo detecta.
+
 ## 2026-11-11 · Haiku · ronda 42 (MonoRanks, stable, 109 cadenas) · directa, sin revisión humana · skill `review-glotpress-waiting`
 
 - Primera prueba descartada: Haiku vio que `references/` no coincidía con `resources/` (el paquete lleva el glosario y la guía combinados), lo tomó por «más antiguo» y trabajó con `resources/`. Desde entonces, las skills base dicen que el glosario y la guía de `<refs>` son la única referencia.
