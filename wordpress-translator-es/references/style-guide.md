@@ -106,7 +106,7 @@ Depende de quién propone la acción:
 | Tipo | Forma | Ejemplos |
 |---|---|---|
 | Acción que **ejecuta el usuario** (botones, menús, comandos) | Infinitivo | «Publicar», «Guardar cambios», «Salir» |
-| Acción que **se propone al usuario** (llamadas a la acción, invitaciones, recomendaciones) | Imperativo con tuteo | «Descarga WordPress», «Actualiza a Premium», «Conecta tu cuenta a Google» |
+| Acción que **se propone al usuario** (llamadas a la acción, invitaciones, recomendaciones) | Imperativo con tuteo | «Descarga WordPress», «Mejora a Premium», «Conecta tu cuenta a Google» |
 
 Si no hay contexto suficiente (`msgctxt`, comentarios, referencias de archivo), usa infinitivo y anota la cadena como duda.
 
