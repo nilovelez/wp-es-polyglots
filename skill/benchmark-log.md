@@ -142,10 +142,14 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 
 ## 2026-11-11 · Haiku · ronda 42 (MonoRanks, stable, 109 cadenas) · directa, sin revisión humana · skill `review-glotpress-waiting`
 
-- 92 000 tokens, 12 herramientas, 1 min 28 s.
-- No usó la skill empaquetada. Vio que `references/` no coincidía con `resources/` (son distintos porque el paquete lleva el glosario y la guía combinados), concluyó que el paquete era «más antiguo» y trabajó con `resources/`. Es una fuga del entorno de pruebas: la skill y la carpeta de trabajo están dentro del repo, y Haiku lo explora.
-- 11 cambios, sin dudas: «n.º» → «#» (3), *check* = «comprobar» (3), *delete* = «borrar», *set* = «establecer».
-- Auditoría de Opus: 3 descartadas. *next* como adjetivo, «próxima comprobación», es correcto; la entrada del glosario es el sustantivo.
+- Primera prueba descartada: Haiku vio que `references/` no coincidía con `resources/` (el paquete lleva el glosario y la guía combinados), lo tomó por «más antiguo» y trabajó con `resources/`. Desde entonces, las skills base dicen que el glosario y la guía de `<refs>` son la única referencia.
+- Segunda prueba, con esa frase: usó solo el paquete. 78 000 tokens, 8 herramientas, 1 min 10 s.
+- 8 cambios, sin dudas, y ninguno que corregir en la auditoría:
+  - «n.º» → «#» (3);
+  - *check* = «comprobar» (3);
+  - *delete* = «borrar»;
+  - *set* = «establecer».
+- Dejó «próxima comprobación» por *next check*. En la primera prueba lo había cambiado a «siguiente», y Opus lo había descartado.
 
 ## 2026-11-11 · Haiku · ronda 41 (WP SMS, stable-readme, 210 cadenas) · directa, sin revisión humana · skill `review-glotpress-waiting`
 
