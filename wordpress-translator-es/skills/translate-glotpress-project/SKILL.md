@@ -25,6 +25,4 @@ Use the `translate` skill of this package (`<skill>/../translate/SKILL.md`) on `
 
 ## 3. Hand back
 
-1. The translated `.po`.
-2. Where to import it: `https://translate.wordpress.org/projects/<path>/es/default/import-translations/` (the project path from the URL). Imported by an editor of the project (PTE/GTE), the strings can be added as approved or as waiting; imported by anyone else, they arrive as suggestions waiting for the es_ES team's approval.
-3. How many strings were translated, and the doubts, as the `translate` skill says. When the user answers, update the decisions and build again.
+The answer of the `translate` skill (the file, a short summary and the doubts, nothing more), plus one line: where to import it, `https://translate.wordpress.org/projects/<path>/es/default/import-translations/` (the project path from the URL). Imported by an editor of the project (PTE/GTE), the strings can be added as approved or as waiting; imported by anyone else, they arrive as suggestions waiting for the es_ES team's approval.

@@ -87,12 +87,10 @@ python3 <refs>/po_tool.py build <file.po> <work>/decisions.jsonl <out>/corrected
 
 ## 5. Answer
 
-Short, in the user's language. Identify strings by their source text, not by entry number (the user's editor numbers them differently):
+Do the whole job without asking (except the size check above) or explaining the process, then answer in the user's language with exactly this:
 
-1. `corrected.po`. The deliverable is the `.po` file itself. If the user works in a chat app (claude.ai, the desktop or mobile app), give them the file as a download in the chat, never a path from your sandbox, which they cannot open; on their own computer (Claude Code), give the path. Send only that file.
-2. Counts: approved, fixed, rejected, doubts.
-3. The main kinds of changes, with counts.
-4. The doubts, each with the source text, the translation, your proposal (already in `corrected.po`) and a concrete question.
-   When the user answers, update the decisions and build again.
-5. One line saying that you have the reason for each change (`<work>/report.md`) in case they want to pass it on to the translator: importing a `.po` does not carry comments. Give it only if they ask.
-6. Glossary or guide rules that looked wrong or unclear for this text, if any.
+1. the `corrected.po` file, and nothing else to download. In a chat app (claude.ai, the desktop or mobile app) attach it to the answer as a download, never a path from your sandbox; on the user's own computer (Claude Code), give its path.
+2. A summary in two or three lines: how many strings change and the main kinds of change.
+3. The doubts, if any: each with the source text (not an entry number), your proposal (already in the file) and a concrete question. When the user answers, update the decisions and build again.
+
+Nothing more: no report, no list of every change, no paths of your work folder. The reasons for each change stay in `<work>/report.md`; give them only if the user asks (importing a `.po` does not carry comments, so they may want to pass them on to the translator). If a glossary or guide rule looked wrong for this text, say so in one line at the end.

@@ -71,9 +71,10 @@ The output is the whole file, translated, with an es_ES header; doubts go in wit
 
 ## 5. Answer
 
-Short, in the user's language. Identify strings by their source text, not by entry number (the user's editor numbers them differently):
+Do the whole job without asking (except the size check above) or explaining the process, then answer in the user's language with exactly this:
 
-1. The translated `.po`. The deliverable is the `.po` file itself. If the user works in a chat app (claude.ai, the desktop or mobile app), give them the file as a download in the chat, never a path from your sandbox, which they cannot open; on their own computer (Claude Code), give the path. Send only that file.
-2. How many entries you translated.
-3. The doubts, each with the source, your translation and a concrete question. When the user answers, update the decisions and build again.
-4. Glossary or guide rules that looked wrong or unclear for this text, if any.
+1. the `translated .po` file, and nothing else to download. In a chat app (claude.ai, the desktop or mobile app) attach it to the answer as a download, never a path from your sandbox; on the user's own computer (Claude Code), give its path.
+2. A summary in one or two lines: how many strings you translated.
+3. The doubts, if any: each with the source text (not an entry number), your translation (already in the file) and a concrete question. When the user answers, update the decisions and build again.
+
+Nothing more: no report, no list of every string, no paths of your work folder. If a glossary or guide rule looked wrong for this text, say so in one line at the end.

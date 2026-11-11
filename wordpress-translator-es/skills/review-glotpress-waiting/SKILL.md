@@ -37,7 +37,4 @@ Use the `review` skill of this package (`<skill>/../review/SKILL.md`) on `<work>
 
 ## 4. Hand back
 
-1. `<work>/corrected.po`: only the strings to change.
-2. Where to import it: `https://translate.wordpress.org/projects/<path>/es/default/import-translations/` (the project path from the URL). Imported by an editor of the project, the strings replace the waiting ones; the rest of the waiting strings can then be approved.
-3. The counts, the main kinds of changes and the doubts, as the `review` skill says. The doubts are in `corrected.po` with your proposal; ask the user to check them in GlotPress after importing. When the user answers, update the decisions and build again.
-4. The reasons for the changes are in `<work>/report.md`, to pass on to the translator if wanted.
+The answer of the `review` skill (the file, a short summary and the doubts, nothing more), plus one line: where to import it, `https://translate.wordpress.org/projects/<path>/es/default/import-translations/` (the project path from the URL). Imported by an editor of the project, the strings replace the waiting ones; the rest can then be approved, and the doubts checked in GlotPress.
