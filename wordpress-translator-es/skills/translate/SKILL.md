@@ -67,6 +67,8 @@ Translate every empty or fuzzy entry (section 6 of the style guide). Do not chan
 python3 <refs>/po_tool.py build <file.po> <work>/decisions.jsonl <out>/<name>-es_ES.po --full --report <work>/report.md
 ```
 
+`<name>` is the name of the user's file without `.pot`/`.po` and without a locale suffix (`foo.pot` → `foo-es_ES.po`); for a project downloaded from its URL, the project and subproject (`foo-stable-es_ES.po`). Never a fixed name: the user may translate many files.
+
 The output is the whole file, translated, with an es_ES header; doubts go in with your translation. The build checks placeholders, HTML, entities, URLs, newlines, edge spaces and quotes. Fix every reported problem in the decisions and build again until it reports 0 problems; if one is a false positive, say which and why.
 
 ## 5. Answer

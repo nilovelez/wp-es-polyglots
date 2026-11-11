@@ -80,16 +80,18 @@ They flag glossary terms missing or left in English (with the glossary note), ca
 ## 4. Build and check
 
 ```
-python3 <refs>/po_tool.py build <file.po> <work>/decisions.jsonl <out>/corrected.po --report <work>/report.md
+python3 <refs>/po_tool.py build <file.po> <work>/decisions.jsonl <out>/<name>-corrected.po --report <work>/report.md
 ```
 
-`corrected.po` keeps the original header and only the entries that change: `fix`, `reject` and `doubt` (with your proposal). Doubts go in because the user imports the file and then approves everything else: a doubt left out would be approved as it was. The build checks placeholders, HTML, entities, URLs, newlines, edge spaces and quotes. Fix every reported problem in the decisions and build again until it reports 0 problems; if one is a false positive, say which and why.
+`<name>` is the name of the user's file without `.po` (`wp-plugins-foo-stable-es.po` → `wp-plugins-foo-stable-es-corrected.po`); for a project downloaded from its URL, the project and subproject (`foo-stable-corrected.po`). The user may review many files: a fixed name like `corrected.po` ends up as «corrected (7).po» in their downloads.
+
+The corrected file keeps the original header and only the entries that change: `fix`, `reject` and `doubt` (with your proposal). Doubts go in because the user imports the file and then approves everything else: a doubt left out would be approved as it was. The build checks placeholders, HTML, entities, URLs, newlines, edge spaces and quotes. Fix every reported problem in the decisions and build again until it reports 0 problems; if one is a false positive, say which and why.
 
 ## 5. Answer
 
 Do the whole job without asking (except the size check above) or explaining the process, then answer in the user's language with exactly this:
 
-1. the `corrected.po` file, and nothing else to download. In a chat app (claude.ai, the desktop or mobile app) attach it to the answer as a download, never a path from your sandbox; on the user's own computer (Claude Code), give its path.
+1. the `<name>-corrected.po` file, and nothing else to download. In a chat app (claude.ai, the desktop or mobile app) attach it to the answer as a download, never a path from your sandbox; on the user's own computer (Claude Code), give its path.
 2. A summary in two or three lines: how many strings change and the main kinds of change.
 3. The doubts, if any: each with the source text (not an entry number), your proposal (already in the file) and a concrete question. When the user answers, update the decisions and build again.
 
