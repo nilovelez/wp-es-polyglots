@@ -140,6 +140,26 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - Resultado: 291 cambios propuestos, aceptados en bloque por el revisor («me vale»), sin revisarlos cadena a cadena. La medición de esta ronda no es comparable con las demás.
 - Lección: en rondas por tramos, comprobar antes de `review-po` que los términos de `terms.md` se aplicaron en todo el archivo. Anotado en `review/README.md`.
 
+## 2026-11-11 · Haiku · ronda 39 (ABeCe Booking, dev, 1051 cadenas) · directa, sin revisión humana · skill `review-glotpress-waiting`
+
+- El revisor la ve bastante mala: serviría para el banco de pruebas, pero es demasiado grande. Haiku paró tras el precheck (usted en unas 50 cadenas, 2 «Ingrese», 310 cadenas con avisos de `lint`) y dijo que no la rechazaría entera.
+- Haiku propuso volver tras cada tramo para que se validara. La skill no lo pide: se le dijo que siguiera la skill tal cual. Revisó en bloques con `terms.md`, en unos seis minutos y medio.
+- Resultado: 392 cambios y 1 duda (#276 *Development checkout*).
+  - Usted → tú.
+  - *resource* = «recurso», en lugar de «Instalación deportiva», con mayúsculas y género roto.
+  - *fee* = «cuota».
+  - «añadir», «activar», «plugin», «shortcode», «ajustes», «borrar» y «No tienes permisos».
+  - Mayúsculas de términos sueltos («Socio», «Saldo», «Horario de apertura»).
+  - Errores de sentido: una versión cambiada (#275), una frase en inglés (#7), «Estaciones» por *Seasons*, «Babosa» por *Slug*.
+- Auditoría de Opus: 7 descartadas y 17 editadas.
+  - «su» → «tu» cuando *its* es la reserva, la solicitud o la hora (#314, #390, #949): 3 errores. Se escapó un *your* real (#74).
+  - «Se requiere X» → «Debe ser X» (11 cadenas): la guía 3.3 lo pide, pero «Debe ser» deja la frase sin sujeto. Se cambia a «Hace falta X».
+  - Descartadas: «Incomparecencia», «Miembros eliminados», «Beneficio para socios» (3), y «envíenme» en las casillas de Freemius, que el usuario dirige al proveedor (2).
+  - Editadas también #418 («migración heredada») y #936 («ocurrencia» → «repetición»).
+- Candidatos:
+  - *its* traducido como «tu» al pasar de usted a tú. Haiku cambia todos los «su» sin mirar a quién se refieren.
+  - «Se requiere» → «Hace falta», no «Debe ser». Va ligado a la revisión pendiente de la guía 3.3.
+
 ## 2026-11-11 · Haiku · ronda 38 (Logicoo Form, stable, 848 cadenas) · directa, sin revisión humana · skill `review-glotpress-waiting`
 
 - El revisor normalmente la habría rechazado entera. 254 cadenas tenían avisos de `lint`, una tasa al límite. 99 de ellas usaban comillas no españolas, señal de que el traductor no había leído la guía. Y el traductor es el propio autor del plugin, lo que hace probable una traducción automática sin revisar. No es un criterio para la skill: la skill ya para por encima de unas 400 cadenas, da los números y deja la decisión al revisor. Así lo hizo Haiku.
