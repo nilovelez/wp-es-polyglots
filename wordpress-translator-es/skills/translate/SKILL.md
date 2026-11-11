@@ -7,6 +7,8 @@ description: Translate a WordPress .pot or .po file (plugin, theme, core, readme
 
 Input: a `.pot` or `.po` file with strings to translate. Output: the same file translated into Spanish (Spain). Nothing else: you never upload or approve anything. `<skill>` is this skill's folder; `<refs>` is the package's shared folder, `<skill>/../../references` (glossary, style guide and `po_tool.py`, used by all the skills of the package). The scripts need only Python 3 (if `python3` does not exist, use `python` or `py -3`).
 
+Always do the translation with this workflow and `po_tool.py`, never by reading the strings and answering in the chat: without it the glossary is not applied and the result cannot be imported.
+
 ## Read first, every time
 
 1. Refresh the glossary (once per session; if it fails, the bundled copy is used):
@@ -26,6 +28,7 @@ Priority on conflict: the user's instructions → glossary → style guide. If a
 
 - The user's `.pot` or `.po`. In a plugin or theme folder without one, if WP-CLI is installed: `wp i18n make-pot . <work>/<text-domain>.pot`.
 - A translate.wordpress.org project URL: `python3 <refs>/po_tool.py fetch <url> <work> --untranslated` writes its untranslated strings to `<work>/original.po`.
+- The `.po` pasted into the chat (some apps turn an uploaded file into pasted text): save it exactly as it is to `<work>/original.po` and use that file.
 
 `<work>` is a temporary work folder outside the user's project, unless the user says where. Then:
 
@@ -68,7 +71,7 @@ The output is the whole file, translated, with an es_ES header; doubts go in wit
 
 ## 5. Answer
 
-Short, in the user's language:
+Short, in the user's language. Identify strings by their source text, not by entry number (the user's editor numbers them differently):
 
 1. Where the translated `.po` is.
 2. How many entries you translated.
