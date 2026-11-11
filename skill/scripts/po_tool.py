@@ -2,6 +2,10 @@
 """Deterministic .po helpers for the translation skill (stdlib only).
 
 Commands:
+  fetch <project url> [folder] [--untranslated]
+      Download the waiting strings (or, with --untranslated, the untranslated
+      ones) of a translate.wordpress.org project into <folder>/original.po and
+      print the import URL. es/default is added if the URL has no locale.
   extract <file.po> [out.jsonl]
       One JSON object per entry: n, ctx, comments, flags, msgid, msgid_plural,
       msgstr (or msgstr_plural). Strings are unescaped (real newlines/quotes).
@@ -45,7 +49,11 @@ import os
 import re
 import sys
 
-RES = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', 'resources', '')
+_HERE = os.path.dirname(os.path.abspath(__file__))
+# Packaged skill: glossary.csv sits in the skill folder, next to scripts/.
+# Development repository: resources/ at the repository root.
+RES = (os.path.join(_HERE, '..', '') if os.path.exists(os.path.join(_HERE, '..', 'glossary.csv'))
+       else os.path.join(_HERE, '..', '..', 'resources', ''))
 ESCAPES = {'n': '\n', 't': '\t', 'r': '\r', '"': '"', '\\': '\\', 'a': '\a', 'b': '\b', 'f': '\f', 'v': '\v'}
 
 
@@ -292,6 +300,21 @@ def cmd_check(args):
     sys.exit(1 if errors else 0)
 
 
+def locale_header(header):
+    """A .pot header turned into an es_ES one: Language and Plural-Forms set,
+    the header's fuzzy flag removed. Other fields are kept."""
+    lines = [l for l in header.split('\n') if l.strip() != '#, fuzzy']
+    text = '\n'.join(lines)
+    for field, value in (('Language', 'es_ES'), ('Plural-Forms', 'nplurals=2; plural=(n != 1);')):
+        pat = re.compile(rf'^"{field}:.*\\n"$', re.M)
+        line = f'"{field}: {value}\\n"'
+        if pat.search(text):
+            text = pat.sub(lambda m: line, text)
+        else:
+            text += '\n' + line
+    return text
+
+
 def cmd_build(args):
     full = '--full' in args
     report = None
@@ -302,11 +325,15 @@ def cmd_build(args):
     header, entries = parse(orig)
     decisions = load_decisions(dec_path)
     errors = run_checks(entries, decisions)
+    if full and header:
+        header = locale_header(header)
     blocks = [header] if header else []
     written = 0
     for e in entries:
         d = decisions.get(e['n'])
         change = d is not None and d['verdict'] in ('fix', 'reject')
+        if full and d is not None and d['verdict'] == 'doubt' and not any(e.get('msgstr_plural') or [e['msgstr']]):
+            change = True  # translation mode: an untranslated doubt still gets the best translation
         if full or change:
             blocks.append(write_entry(e, d if change else None))
             written += 1
@@ -576,7 +603,34 @@ def cmd_lint(args):
             print(f'#{e["n"]}: ' + ' | '.join(hints))
 
 
-COMMANDS = {'extract': cmd_extract, 'check': cmd_check, 'build': cmd_build, 'compare': cmd_compare,
+def cmd_fetch(args):
+    """Download strings of a translate.wordpress.org project (no login needed)."""
+    import urllib.parse
+    import urllib.request
+    status = 'untranslated' if '--untranslated' in args else 'waiting'
+    pos = [a for a in args if not a.startswith('--')]
+    url = pos[0].split('?')[0].rstrip('/') + '/'
+    m = re.match(r'https://translate\.wordpress\.org/projects/(.+?)/$', url)
+    if not m:
+        sys.exit('Not a translate.wordpress.org project URL')
+    path = m.group(1)
+    if not re.search(r'/[a-z]{2,3}(?:-[a-z]+)?/default$', path):
+        path += '/es/default'
+    base = f'https://translate.wordpress.org/projects/{path}/'
+    folder = pos[1] if len(pos) > 1 else '.'
+    os.makedirs(folder, exist_ok=True)
+    q = urllib.parse.urlencode({'filters[status]': status, 'format': 'po'})
+    req = urllib.request.Request(f'{base}export-translations/?{q}',
+                                 headers={'User-Agent': 'wordpress-translator-es skill'})
+    data = urllib.request.urlopen(req, timeout=60).read()
+    out = os.path.join(folder, 'original.po')
+    open(out, 'wb').write(data)
+    count = data.decode('utf-8', 'replace').count('\nmsgid ') - 1
+    print(f'{out}: {count} {status} strings')
+    print(f'Import URL: {base}import-translations/')
+
+
+COMMANDS = {'fetch': cmd_fetch, 'extract': cmd_extract, 'check': cmd_check, 'build': cmd_build, 'compare': cmd_compare,
             'glossary': cmd_glossary, 'tm': cmd_tm, 'lint': cmd_lint,
             'review-po': cmd_review_po, 'finalize': cmd_finalize}
 

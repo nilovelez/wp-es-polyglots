@@ -1,6 +1,6 @@
 # Status
 
-Last updated: 2026-11-06.
+Last updated: 2026-11-11.
 
 ## Current milestone
 
@@ -9,6 +9,8 @@ Last updated: 2026-11-06.
 1. Write `skill/SKILL.md` and `skill/scripts/po_tool.py`. Done.
 2. Blind benchmark on rounds 01 and 02 against the human-approved `corrected.po`. Done: 9/26 with skill v1, 39/50 with v2; v3 adds `lint` (see `skill/benchmark-log.md`).
 3. Real rounds from the waiting queue with Nilo's feedback, following `review/README.md`. In progress.
+
+4. Installable skill `wordpress-translator-es/` (2026-11-11): the core component, translate or review with the glossary and the style guide, nothing else. `skill/package.py` regenerates it from `resources/` and `po_tool.py`; run it and commit after every change. Nilo tests it in separate sessions with cheap models and compares it with other moderators' skills; what they learned is merged into it. The training rounds keep using `skill/SKILL.md` for now.
 
 M1 (reorganize the repository and document the current state) is done.
 
