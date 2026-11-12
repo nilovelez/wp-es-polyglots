@@ -170,7 +170,7 @@ def bag(rx, s, group=0):
     return sorted(m.group(group) for m in rx.finditer(s))
 
 
-ABBR_END = re.compile(r'\b(?:mín|máx|etc|ej|aprox|núm|pág|n\.º|admin|info)\.$', re.I)
+ABBR_END = re.compile(r'\b(?:mín|máx|etc|ej|aprox|núm|pág|desc)\.$', re.I)
 
 
 def end_punct(s):
