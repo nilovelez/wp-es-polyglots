@@ -77,11 +77,9 @@ There is no human reference, so the round is logged in `skill/benchmark-log.md` 
 
 ## Large rounds
 
-The skill stops before reviewing only when the precheck numbers point to a batch to reject whole, or when it has more than 1500 strings. A clean batch below that is reviewed straight away, and the precheck numbers go in the summary.
+The skill stops before reviewing only when the precheck numbers point to a batch to reject whole, or when it has more than 7000 strings. Anything below that is reviewed straight away, in one session, and the precheck numbers go in the summary.
 
-Files that do deserve it are reviewed in slices with `--range A-B` (`extract`, `glossary`, `lint`). Do **not** fan out to many parallel subagents on the same model: a 3053-string round reviewed by ten parallel Sonnet subagents burned most of a day's usage quota. Process the slices one after another in the translator session, or delegate slices to a cheaper model.
-
-Measured with Haiku (rounds 11–13): up to ~900 UI strings fit in one pass with no drop in quality at the end. Larger files (rounds 31–33): one Haiku session per slice of ~600–700 entries, one after another, each told only its entry range, with decisions in `work/dec_<slice>.jsonl`; the maintainer audits each slice before starting the next one and joins them into `decisions.jsonl`. Before building `review.po`, check the final translations for terms that ended up inconsistent across slices and get the reviewer's decision on them (round 13: «autenticación» vs «identificación»), so they do not review the same strings twice.
+**One session, up to 7000 strings.** Measured with Haiku (rounds 38–46): the cache tokens read grow about in proportion to the size (2,000–3,500 per string, from 109 to 2505 strings), so a bigger batch does not cost more per string in any way that matters. The context peaked at 309,000 tokens with 2505 strings, about 40,000 plus 110 per string, so Haiku's 1,000,000-token window holds about 8000; the skills stop at 7000 for margin. Splitting into several sessions costs more, not less: every session reloads the skill and the guide (round 31, eight sessions of 600–700 strings: about 13 million cache tokens for about 3000 strings; round 43, one session: 7.4 million for 2505). Above 7000, split into as few sessions as possible, one after another, never in parallel: ten parallel Sonnet subagents on a 3053-string round burned most of a day's usage quota. Keep measuring: `review/run_summary.py` gives the peak, the tokens and the cost of each run.
 
 ## Batches to reject whole
 
@@ -102,7 +100,7 @@ rounds/NN-project/
   learning.md          model vs the reviewer: kept, edited, reverted, missed
   audited.jsonl        direct rounds: decisions after the maintainer's audit
   edits.jsonl, audit.md  the audit's rewordings and the reasons for dropped decisions
-  work/                per-slice decisions and the skill's own working files
+  work/                the skill's own working files
 ```
 
 Rounds 01 and 02 predate this flow: they have `repaired.po` (output of the `polyglots` tool), `corrected.po` and a one-off `make-corrected.py`.

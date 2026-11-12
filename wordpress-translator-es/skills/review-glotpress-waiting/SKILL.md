@@ -29,7 +29,7 @@ Some batches must be rejected whole instead of reviewed string by string:
 - Formal register («usted» forms in many strings) or Latin American Spanish throughout.
 - The source strings are not in English (e.g. the plugin was written in Spanish and the source was copied as the translation): the plugin cannot be translated until its source is in US English.
 
-If the numbers point to one of these, give the user the numbers and the sample and ask whether to review it or reject it whole. If the batch has more than 1500 strings, tell the user the size and ask before starting. Otherwise go on without asking, and put the precheck numbers in one line of the summary.
+If the numbers point to one of these, give the user the numbers and the sample and ask whether to review it or reject it whole. If the batch has more than 7000 strings, it does not fit in one session: tell the user the size and offer to review strings 1 to 7000 now and the rest in a new conversation. Otherwise go on without asking, and put the precheck numbers in one line of the summary.
 
 ## 3. Review
 

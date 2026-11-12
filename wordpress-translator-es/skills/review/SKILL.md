@@ -36,7 +36,7 @@ python3 <refs>/po_tool.py extract <file.po> <work>/entries.jsonl
 
 One JSON object per entry: `n` (entry number), `ctx`, `note` (comment for translators, e.g. where the string comes from), `msgid`, `msgstr` (or `msgid_plural` / `msgstr_plural`). Work by `n`. Never edit the `.po` by hand.
 
-**Large files** (more than about 400 entries): work in blocks of about 300 entries with `--range A-B` on `extract`, `glossary` and `lint`, appending to the same decisions file. Keep the term choices you settle in `<work>/terms.md` and re-read it before each block, so the whole file stays consistent. If the file has more than 1500 entries, tell the user the size and ask before starting. If the user asks for entries A to B only, do exactly that range.
+**Large files** (more than about 400 entries): work in blocks of about 300 entries with `--range A-B` on `extract`, `glossary` and `lint`, appending to the same decisions file. Keep the term choices you settle in `<work>/terms.md` and re-read it before each block, so the whole file stays consistent. If the file has more than 7000 entries, it does not fit in one session: tell the user the size and offer to do entries 1 to 7000 now and the rest in a new conversation. Below that, never split the work into several sessions or conversations: each one reloads the skill and the guide, so it costs more, not less. If the user asks for entries A to B only, do exactly that range.
 
 ## 2. Review
 
