@@ -140,6 +140,12 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - Resultado: 291 cambios propuestos, aceptados en bloque por el revisor («me vale»), sin revisarlos cadena a cadena. La medición de esta ronda no es comparable con las demás.
 - Lección: en rondas por tramos, comprobar antes de `review-po` que los términos de `terms.md` se aplicaron en todo el archivo. Anotado en `review/README.md`.
 
+## 2026-11-12 · Haiku · rondas 60 y 61 (Bugalou Live Chat y Bugalou for WooCommerce, stable, 65 y 120 cadenas) · revisión directa con motivos (respuesta al autor) · sesiones aisladas
+
+- El autor, al que se le denegó el PTE, envió las traducciones. Revisión pidiendo el motivo de cada cambio para contestarle: 1 min 29 s y 2 min 10 s, 0,03 y 0,04 USD.
+- 19 y 29 cambios: comillas, *site* = «sitio», *log in* = «acceder», *review* = «valoración», *checkbox* = «casilla de verificación», *check* = «comprobar», *trial* = «periodo de prueba», *checkout* = «finalizar compra», «correo electrónico» en textos largos.
+- Auditoría completa (pocas cadenas, informe para el autor): quitado un cambio de preferencia. Haiku dejó en inglés los dos títulos de plugin; el revisor fija la norma: el nombre del plugin no se traduce («Bugalou for WooCommerce»), la parte descriptiva del título sí («Bugalou – Chat en vivo, chatbot con IA…»). Añadida a la referencia rápida y a las propuestas para la guía.
+
 ## 2026-11-12 · Haiku · ronda 59 (Meta, WordCamp, 654 cadenas sin traducir) · traducción, entrenamiento, revisión humana · sesión aislada
 
 - 4 min 14 s, 28 turnos, 0,27 USD. Contexto máximo 153 000. Primera ronda con la comprobación de puntuación final: ninguna diferencia.

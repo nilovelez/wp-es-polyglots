@@ -39,5 +39,6 @@ Estados: **pendiente** (sin proponer) · **propuesta** (enviada al equipo) · **
 | Interfaces de otros servicios | Cuando un texto cita la interfaz de otro servicio (Google, Cloudflare…), se usa el nombre que tiene en su versión en español; los términos del glosario como «Escritorio» o «perfil» son los de WordPress. | Rondas 19 y 20 | pendiente |
 | Nombres de etiquetas HTML | Los nombres de etiquetas y atributos (*viewport*, *canonical*, *hreflang*, *og:url*) no se traducen cuando nombran la etiqueta. | Ronda 06 | pendiente |
 | Variantes de idioma | *Chinese, Simplified* = «chino simplificado», *Chinese, Traditional* = «chino tradicional» (no «chino (China)» ni «chino (Taiwán)»). | Ronda 11 (#379, #380) | pendiente |
+| Nombre y título del plugin | El nombre del plugin no se traduce («Bugalou for WooCommerce»); la parte descriptiva del título, sí («Bugalou – Chat en vivo, chatbot con IA…»). | Rondas 60 y 61 | pendiente |
 | Nombres de funciones de un plugin | Los nombres de funciones, planes y opciones de un plugin no son nombres propios: solo la primera palabra con mayúscula. | Ronda 02 | pendiente |
 | Cuándo cambiar una cadena (revisión) | Solo se cambia lo que es un error; las formas preferidas («necesita», «No se ha podido…») se aplican solo si ya se cambia la cadena por otro motivo. | Rondas 01 y 03 | pendiente |
