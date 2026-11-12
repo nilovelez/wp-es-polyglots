@@ -144,7 +144,9 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 
 - 7 min 11 s, 33 turnos, 0,59 USD. Contexto máximo 229 000; `size --translate` estimaba 334 000.
 - 1096 traducidas, sin dudas, 0 problemas en el build. Términos sin glosario que decidió Haiku: *checkout* (sustantivo) = «copia de trabajo», *check out* = «cambiar a», *build watch* = «observador de compilación», *ticket* = «tique».
-- Sin auditoría de Opus: el revisor la revisa a mano; la comparación de su versión con la de Haiku es el resultado de la ronda (pendiente).
+- Revisión humana (por encima): 12 cadenas cambiadas, dos fallos mecánicos de Haiku: «trunk» en minúscula al principio de frase (10) y dos puntos finales añadidos que el original no lleva.
+- Revisión de Opus después (comprobaciones automáticas, lint y una muestra de 48): *core* sin traducir en dos cadenas (glosario: «núcleo») y «se confirmó» por *committed* donde el resto del archivo dice «commit» (glosario: «hacer commit»). *Playground* = «zona de pruebas» en cuatro cadenas por el glosario, aunque probablemente es el nombre del producto WordPress Playground: duda para el revisor.
+- Candidatos: `check` podría avisar de una minúscula inicial cuando el original empieza en mayúscula, y de un punto final que el original no tiene; *checkout* en desarrollo (= «copia de trabajo») no está en el glosario, que solo recoge el de WooCommerce.
 
 ## 2026-11-12 · Haiku · rondas 56 y 57 (revisión directa de producción, sesiones aisladas)
 
