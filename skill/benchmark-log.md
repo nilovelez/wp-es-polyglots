@@ -140,6 +140,12 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - Resultado: 291 cambios propuestos, aceptados en bloque por el revisor («me vale»), sin revisarlos cadena a cadena. La medición de esta ronda no es comparable con las demás.
 - Lección: en rondas por tramos, comprobar antes de `review-po` que los términos de `terms.md` se aplicaron en todo el archivo. Anotado en `review/README.md`.
 
+## 2026-11-12 · Haiku · ronda 59 (Meta, WordCamp, 654 cadenas sin traducir) · traducción, entrenamiento, revisión humana · sesión aislada
+
+- 4 min 14 s, 28 turnos, 0,27 USD. Contexto máximo 153 000. Primera ronda con la comprobación de puntuación final: ninguna diferencia.
+- 653 traducidas, 3 dudas. Dejó una sin traducir porque `check` exigía conservar la entidad `&#8217;` (el apóstrofo de *group's*), que en español no tiene sitio: se añadió su propuesta. Candidato: que `check` no exija las entidades tipográficas (apóstrofos y comillas curvas), como ya no exige `&amp;`.
+- Usó «usted» en una carta de visado dirigida a un consulado, como registro formal: duda para el revisor.
+
 ## 2026-11-12 · Haiku · ronda 58 (Meta, Contributor Toolkit, 1096 cadenas sin traducir) · traducción, entrenamiento, revisión humana · sesión aislada
 
 - 7 min 11 s, 33 turnos, 0,59 USD. Contexto máximo 229 000; `size --translate` estimaba 334 000.
