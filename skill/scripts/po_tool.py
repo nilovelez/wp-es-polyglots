@@ -170,6 +170,16 @@ def bag(rx, s, group=0):
     return sorted(m.group(group) for m in rx.finditer(s))
 
 
+ABBR_END = re.compile(r'\b(?:mín|máx|etc|ej|aprox|núm|pág|n\.º|admin|info)\.$', re.I)
+
+
+def end_punct(s):
+    s = s.rstrip().replace('...', '…').rstrip('"\'»”’)]')
+    if ABBR_END.search(s):  # «Distancia mín.» ends with an abbreviation, not a period
+        return ''
+    return s[-1:] if s[-1:] in ('.', ':', '!', '?', '…', ';') else ''
+
+
 def check_pair(src, tr):
     problems = []
     if bag(PH, src) != bag(PH, tr):
@@ -186,6 +196,10 @@ def check_pair(src, tr):
         problems.append(f'newlines {src.count(chr(10))} != {tr.count(chr(10))}')
     if (src[:1].isspace(), src[-1:].isspace()) != (tr[:1].isspace(), tr[-1:].isspace()):
         problems.append('leading/trailing whitespace differs')
+    # GlotPress warns when the final punctuation differs: keep the source's (a period
+    # added or dropped at the end is the usual case). Closing quotes and brackets do not count.
+    if end_punct(src) != end_punct(tr):
+        problems.append(f'final punctuation differs: {end_punct(src) or "none"} != {end_punct(tr) or "none"}')
     visible = TAG.sub('', tr)
     if re.search(r'(?<![=\w])"[^"<>=]+"(?![\w>])', visible) or re.search(r'[“”]', visible):
         problems.append('non-Spanish quotes (use «»)')

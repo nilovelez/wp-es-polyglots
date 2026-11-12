@@ -84,7 +84,7 @@ python3 <refs>/po_tool.py build <file.po> <work>/decisions.jsonl <out>/<name>-co
 
 `<name>` is the name of the user's file without `.po` (`wp-plugins-foo-stable-es.po` → `wp-plugins-foo-stable-es-corrected.po`); for a project downloaded from its URL, the project and subproject (`foo-stable-corrected.po`). The user may review many files: a fixed name like `corrected.po` ends up as «corrected (7).po» in their downloads.
 
-The corrected file keeps the original header and only the entries that change: `fix`, `reject` and `doubt` (with your proposal). Doubts go in because the user imports the file and then approves everything else: a doubt left out would be approved as it was. The build checks placeholders, HTML, entities, URLs, newlines, edge spaces and quotes. Fix every reported problem in the decisions and build again until it reports 0 problems; if one is a false positive, say which and why.
+The corrected file keeps the original header and only the entries that change: `fix`, `reject` and `doubt` (with your proposal). Doubts go in because the user imports the file and then approves everything else: a doubt left out would be approved as it was. The build checks placeholders, HTML, entities, URLs, newlines, edge spaces, final punctuation (GlotPress warns when it differs from the source: do not add or drop a final period) and quotes. Fix every reported problem in the decisions and build again until it reports 0 problems; if one is a false positive, say which and why.
 
 ## 5. Answer
 
