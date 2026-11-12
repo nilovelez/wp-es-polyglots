@@ -87,8 +87,8 @@ Splitting a job that fits costs more, not less: every session reloads the skill 
 
 Every round is one of two kinds; if it is not clear which, ask before the audit.
 
-- **Training round**: the point is to improve the skill (a change in how it decides, calibrating `size`, a new kind of file). The maintainer may spend on the audit: all the decisions on a small round, a sample on a large one (about 30 at random plus everything `check` flags, and the model's doubts), reading the plugin's code when a doubt depends on it.
-- **Production round** (a direct review to clear the backlog): as cheap as it can be while staying reliable. Haiku in an isolated session, the automatic checks and a small sample. The whole file is read only when the sample finds several real errors. Report the error rate of the sample with the file.
+- **Training round**: the point is to improve the skill (a change in how it decides, calibrating `size`, a new kind of file), so every detail counts. The message to the session asks for the reasons, as a user would («…y explícame el motivo de cada cambio»), so each change carries one and the audit can check that the rules are applied right. The maintainer may spend on the audit: all the decisions on a small round, a sample on a large one (about 30 at random plus everything `check` flags, and the model's doubts), reading the plugin's code when a doubt depends on it.
+- **Production round** (a direct review to clear the backlog): fast, cheap and reliable. The message asks only for the review, so changes carry no reasons; the session asks about the doubts, and the doubts are what may need adding to the glossary or the guide. Haiku in an isolated session, the automatic checks and a small sample. The whole file is read only when the sample finds several real errors. Report the error rate of the sample with the file.
 
 ## Batches to reject whole
 
