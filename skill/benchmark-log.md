@@ -146,7 +146,7 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - 43 decisiones: 41 cambios y 2 dudas.
   - Erratas: «Conect», «preaprado», «sigueinte», «of» sin traducir, «NO» en mayúsculas, «activado» por «activada», «por mi».
   - Glosario: *prompt* = «instrucción» (7), *scan* = «explorar» (7), *default* = «por defecto» (4), *honeypot* = «señuelo», *sitemap* = «mapa del sitio», *banner* sin traducir, *role* = «perfil», *sign in* = «acceder», *upgrade* a un plan = «mejorar».
-  - Dudas: los títulos *Agent Ready* y *Agent Access*, traducidos solo ahí; en el resto del lote se dejan en inglés. Propone dejarlos en inglés; van así en el archivo.
+  - Dudas: los títulos *Agent Ready* y *Agent Access*, traducidos solo ahí; en el resto del lote se dejan en inglés. Propone dejarlos en inglés; van así en el archivo. El revisor lo confirma: son nombres de servicios, no se traducen.
 - Auditoría de Opus: 5 descartadas y 7 editadas; quedan 38 cambios.
   - Descartadas: *features* = «características» donde «funciones» es válido (3, una con una coma de más), «explorador» por «escáner» (coherente con *scan* = «explorar») y una instrucción para la IA donde solo cambiaba sinónimos.
   - Editadas: tres puntos finales añadidos, «ventana de conexión» (era el servicio Connect), «responder a las instrucciones», «datos de acceso», «Pro» con mayúscula.
