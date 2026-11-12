@@ -18,9 +18,11 @@ SANDBOX=${1:A}
 case "$SANDBOX/" in
   "$REPO"/*) echo "The sandbox must be outside the repository." >&2; exit 1 ;;
 esac
-PLUGIN="$SANDBOX.plugin"
-rm -rf "$SANDBOX" "$PLUGIN"
-mkdir -p "$SANDBOX" "$PLUGIN"
+# The plugin goes to a system temporary folder, removed at the end: only the sandbox stays.
+PLUGIN=$(mktemp -d)
+trap 'rm -rf "$PLUGIN"' EXIT
+rm -rf "$SANDBOX"
+mkdir -p "$SANDBOX"
 unzip -q "$REPO/dist/wordpress-translator-es.zip" -d "$PLUGIN"
 [ -n "$5" ] && cp "${5:A}" "$SANDBOX/"
 LOG=${3:A}
