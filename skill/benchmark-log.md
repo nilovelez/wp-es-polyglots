@@ -140,6 +140,14 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - Resultado: 291 cambios propuestos, aceptados en bloque por el revisor («me vale»), sin revisarlos cadena a cadena. La medición de esta ronda no es comparable con las demás.
 - Lección: en rondas por tramos, comprobar antes de `review-po` que los términos de `terms.md` se aplicaron en todo el archivo. Anotado en `review/README.md`.
 
+## 2026-11-12 · Haiku · ronda 48 (Templately, stable, 1018 cadenas sin traducir) · traducción, entrenamiento · skill `translate-glotpress-project`, sesión aislada
+
+- Ronda para calibrar `size` en traducción. 5 min 21 s, 30 turnos, 0,37 USD. Usó `size` antes de empezar, leyó la guía una sola vez y trabajó en cuatro bloques en la misma sesión.
+- Contexto: `size --translate` estimaba 326 000 en el peor caso; el real fue 181 000. Las decisiones ocuparon un 110 % de los bytes de las entradas (la fórmula supone 120 %). Con los bytes reales, la fórmula da 226 000: sobrestima algo también en traducción, como debe.
+- Auditoría por muestra (ronda de entrenamiento grande): 30 cadenas al azar, sin errores. Las cinco dudas de Haiku se resolvieron mirando el código del plugin: *header* / *footer* llegan traducidos a «%s» (tres cadenas reescritas con «el elemento «%s»» para que concuerden con «cabecera» y «pie de página»); «No %s Found» recibe «Workspace» (correcto con «ningún»); «60% de» se leía como el placeholder «% d» y se reescribió.
+- Queda abierta: *there* se concatena tras «Hi» y «Welcome back,» («Hola tú! 👋»); sin «¡» de apertura posible con esa concatenación.
+- Haiku volvió a dejar su carpeta de trabajo fuera de la carpeta de pruebas (por las instrucciones globales del usuario).
+
 ## 2026-11-12 · Haiku · ronda 47 (BotPar, stable, 90 cadenas) · directa, sin revisión humana · skill `review-glotpress-waiting`, sesión aislada
 
 - Petición de PTE del autor, con la misma traducción para es_AR y es_ES (español de Argentina). Se revisa para importarla corregida y para justificar la respuesta.
