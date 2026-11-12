@@ -311,7 +311,6 @@ pixel,píxel,noun,Con tilde
 pixels,píxeles,noun,Con tilde
 place order,realizar pedido,expression,
 placeholder,marcador de posición,noun,
-playground,zona de pruebas,noun,
 plugin,plugin,noun,No se traduce
 plugins,plugins,noun,no se traduce
 pop-up,mensaje / ventana emergente,noun,
@@ -509,3 +508,4 @@ media,medios,noun,"También *media item* / *media file* = «archivo de medios»,
 Dashboard,Escritorio,noun,"No utilizar «tablero» o «panel de control». Es el nombre de WordPress; el *dashboard* de un servicio externo, preferentemente «panel», aunque «escritorio» también vale."
 role,perfil,noun,NO usar «rol». Es el nombre de WordPress; los roles de un servicio externo usan el nombre de su interfaz en español («rol: Lector» en Google Analytics).
 social media,redes sociales,expression,En español de España lo normal es «redes sociales».
+playground,zona de pruebas,noun,"WordPress Playground (el producto) no se traduce: «Playground», «el servidor web de Playground»."
