@@ -186,8 +186,11 @@ def check_pair(src, tr):
         problems.append(f'placeholders {bag(PH, src)} != {bag(PH, tr)}')
     if bag(TAG, src, 1) != bag(TAG, tr, 1):
         problems.append(f'HTML tags {bag(TAG, src, 1)} != {bag(TAG, tr, 1)}')
-    # "&amp;" may legitimately become "y", so it is not required.
-    ents = lambda s: [x for x in bag(ENT, s) if x != '&amp;']
+    # "&amp;" may legitimately become "y", and typographic quotes and apostrophes
+    # ("group&#8217;s") often have no place in Spanish, so they are not required.
+    TYPO = {'&amp;', '&#8216;', '&#8217;', '&#8220;', '&#8221;', '&lsquo;', '&rsquo;', '&ldquo;', '&rdquo;',
+            '&#039;', '&#39;', '&apos;', '&quot;', '&#34;'}
+    ents = lambda s: [x for x in bag(ENT, s) if x not in TYPO]
     if ents(src) != ents(tr):
         problems.append(f'entities {ents(src)} != {ents(tr)}')
     if bag(URL, src) != bag(URL, tr):

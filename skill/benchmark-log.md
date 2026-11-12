@@ -143,8 +143,8 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 ## 2026-11-12 · Haiku · ronda 59 (Meta, WordCamp, 654 cadenas sin traducir) · traducción, entrenamiento, revisión humana · sesión aislada
 
 - 4 min 14 s, 28 turnos, 0,27 USD. Contexto máximo 153 000. Primera ronda con la comprobación de puntuación final: ninguna diferencia.
-- 653 traducidas, 3 dudas. Dejó una sin traducir porque `check` exigía conservar la entidad `&#8217;` (el apóstrofo de *group's*), que en español no tiene sitio: se añadió su propuesta. Candidato: que `check` no exija las entidades tipográficas (apóstrofos y comillas curvas), como ya no exige `&amp;`.
-- Usó «usted» en una carta de visado dirigida a un consulado, como registro formal: duda para el revisor.
+- 653 traducidas, 3 dudas. Dejó una sin traducir porque `check` exigía conservar la entidad `&#8217;` (el apóstrofo de *group's*), que en español no tiene sitio: se añadió su propuesta. Desde entonces `check` no exige las entidades tipográficas (apóstrofos y comillas curvas), como ya no exigía `&amp;`.
+- Usó «usted» en una carta de visado dirigida a un consulado: el revisor lo da por bueno como caso excepcional, sin regla en la guía. *Good Faith* = «Buena fe», confirmado.
 
 ## 2026-11-12 · Haiku · ronda 58 (Meta, Contributor Toolkit, 1096 cadenas sin traducir) · traducción, entrenamiento, revisión humana · sesión aislada
 
