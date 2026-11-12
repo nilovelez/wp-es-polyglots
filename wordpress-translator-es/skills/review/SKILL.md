@@ -66,13 +66,14 @@ They flag glossary terms missing or left in English (with the glossary note), ca
 `<work>/decisions.jsonl`, one line per entry you change or doubt:
 
 ```
-{"n": 12, "verdict": "reject", "msgstr": "Mapa del sitio", "comment": "Según el glosario, «sitemap» se traduce como «mapa del sitio»."}
-{"n": 30, "verdict": "fix", "msgstr": "Por favor, inténtalo de nuevo.", "comment": "Coma tras «Por favor»."}
+{"n": 12, "verdict": "reject", "msgstr": "Mapa del sitio"}
+{"n": 30, "verdict": "fix", "msgstr": "Por favor, inténtalo de nuevo."}
 {"n": 41, "verdict": "doubt", "msgstr": "<your best proposal>", "comment": "Concrete question for the user."}
 ```
 
 - `msgstr` is the full final text, plain (JSON escapes quotes and newlines). Plurals: `"msgstr_plural": ["singular", "plural"]`.
-- `comment` is in Spanish, short, in *tú*, addressed to the translator: the concrete reason (glossary term, rule) and nothing else.
+- No `comment` on `fix` and `reject`: change the string and that is all. Writing a reason for every change only costs time and context, and nobody reads it.
+- Only when the user asks for the reasons (for example, to explain the changes to the translator) add to each change a `comment` in Spanish, short, in *tú*, addressed to the translator: the concrete reason (glossary term, rule) and nothing else.
 - For a `doubt`, put your best proposal as `msgstr` and ask the question in the comment. If the translator's text is as likely to be right as anything you can propose, it is not a doubt: approve it.
 
 ## 4. Build and check
@@ -93,4 +94,4 @@ Do the whole job without asking (except the size check above) or explaining the 
 2. A summary in two or three lines: how many strings change and the main kinds of change.
 3. The doubts, if any: each with the source text (not an entry number), your proposal (already in the file) and a concrete question. When the user answers, update the decisions and build again.
 
-Nothing more: no report, no list of every change, no paths of your work folder. The reasons for each change stay in `<work>/report.md`; give them only if the user asks (importing a `.po` does not carry comments, so they may want to pass them on to the translator). If a glossary or guide rule looked wrong for this text, say so in one line at the end.
+Nothing more: no report, no list of every change, no reasons for the changes, no paths of your work folder. Ask only about the doubts, never about what you changed because you were sure. If the user then asks why some strings changed, explain those; if they want the reasons for every change (to pass them on to the translator), add the comments to the decisions as in section 3 and build again with `--report`. If a glossary or guide rule looked wrong for this text, say so in one line at the end.
