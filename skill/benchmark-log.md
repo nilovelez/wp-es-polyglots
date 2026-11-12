@@ -140,6 +140,14 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - Resultado: 291 cambios propuestos, aceptados en bloque por el revisor («me vale»), sin revisarlos cadena a cadena. La medición de esta ronda no es comparable con las demás.
 - Lección: en rondas por tramos, comprobar antes de `review-po` que los términos de `terms.md` se aplicaron en todo el archivo. Anotado en `review/README.md`.
 
+## 2026-11-12 · Haiku · ronda 47 (BotPar, stable, 90 cadenas) · directa, sin revisión humana · skill `review-glotpress-waiting`, sesión aislada
+
+- Petición de PTE del autor, con la misma traducción para es_AR y es_ES (español de Argentina). Se revisa para importarla corregida y para justificar la respuesta.
+- 1 min 41 s, 16 turnos, 0,027 USD. Contexto máximo real 73 000; `size` estimaba 111 000 en el peor caso.
+- 32 decisiones: 31 cambios y una duda (*Backend* = «Servidor»; el glosario da «administración», que es otra cosa). Voseo, «celulares», «logueado», términos en inglés (*public key*, *allowlist*, *log*, *wildcard*, *default*), *logged in* = «conectado», *email* = «correo electrónico», «cortafuegos». Restauró las URL de privacidad y términos, que en la traducción no coincidían con el original.
+- Auditoría completa (pocas cadenas y el informe va al autor): 11 añadidas o editadas; quedan 38 cambios. Haiku dejó pasar formas de América en cadenas que aprobó: «contactar a», «directo» como adverbio, «no fue comprobada», «Nunca se probó», y el orden inglés de «API base». *backend* = «servidor» en las cuatro cadenas.
+- Candidato para `precheck`: «contactar a», «directo» adverbio y el voseo («Pegá», «Agregá») como formas de América.
+
 ## 2026-11-12 · Haiku · ronda 46 (Route Finder, dev, 1635 cadenas) · directa, sin revisión humana · skill `review-glotpress-waiting`, sesión aislada
 
 - Primera sesión aislada de revisión (`review/run_translator.sh`). La skill se activó sola con «Revisa las cadenas en espera de <URL>». Leyó solo el plugin y su carpeta de trabajo.
