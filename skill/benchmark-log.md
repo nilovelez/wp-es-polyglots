@@ -140,6 +140,12 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - Resultado: 291 cambios propuestos, aceptados en bloque por el revisor («me vale»), sin revisarlos cadena a cadena. La medición de esta ronda no es comparable con las demás.
 - Lección: en rondas por tramos, comprobar antes de `review-po` que los términos de `terms.md` se aplicaron en todo el archivo. Anotado en `review/README.md`.
 
+## 2026-11-12 · Haiku · ronda 58 (Meta, Contributor Toolkit, 1096 cadenas sin traducir) · traducción, entrenamiento, revisión humana · sesión aislada
+
+- 7 min 11 s, 33 turnos, 0,59 USD. Contexto máximo 229 000; `size --translate` estimaba 334 000.
+- 1096 traducidas, sin dudas, 0 problemas en el build. Términos sin glosario que decidió Haiku: *checkout* (sustantivo) = «copia de trabajo», *check out* = «cambiar a», *build watch* = «observador de compilación», *ticket* = «tique».
+- Sin auditoría de Opus: el revisor la revisa a mano; la comparación de su versión con la de Haiku es el resultado de la ronda (pendiente).
+
 ## 2026-11-12 · Haiku · rondas 56 y 57 (revisión directa de producción, sesiones aisladas)
 
 - **56, À bientôt (stable), 1438 cadenas:** 320 cambios, sin dudas. 5 min 47 s, 0,54 USD, contexto máximo 245 000. 83 cadenas con «usted»: Haiku revisó en vez de parar, con razón (el resto estaba bien). Muestra de 15: sin errores.
