@@ -140,6 +140,13 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - Resultado: 291 cambios propuestos, aceptados en bloque por el revisor («me vale»), sin revisarlos cadena a cadena. La medición de esta ronda no es comparable con las demás.
 - Lección: en rondas por tramos, comprobar antes de `review-po` que los términos de `terms.md` se aplicaron en todo el archivo. Anotado en `review/README.md`.
 
+## 2026-11-12 · Haiku · rondas 53 a 55 (revisión directa de producción, sesiones aisladas)
+
+- **53, Quote3D for WooCommerce (stable), 834 cadenas:** 25 decisiones, 2 dudas. 2 min 28 s, 0,14 USD. Muestra: 1 error («que Quote3D no es compatible», agramatical, en vez de «que Quote3D no admite»). Las dos dudas se resolvieron sin el revisor: la URL en español existe; el estado *Processing* de WooCommerce es «Procesando». Quedan 22 cambios.
+- **54, Paypercut Payments (stable), 726 cadenas:** 56 cambios, sin dudas. 2 min 34 s, 0,15 USD. Muestra: sin errores; todo es glosario (*unable* = «no se ha podido» en 22 cadenas, *merchant* = «vendedor», *ticket* = «tique», *get started* = «primeros pasos»).
+- **55, Postalion (stable), 1004 cadenas:** 70 cambios, sin dudas. 4 min 20 s, 0,40 USD. Muestra: 1 error menor (*visual form builder* = «editor» en vez de «maquetador»). «40% del» se leía como el placeholder «% d»; se reescribió. El original tiene «% o» («40% off»): `check` lo marca, falso positivo.
+- Las respuestas de Haiku siguen siendo largas (lista de tipos de cambio, notas de método) aunque la skill pide archivo, resumen corto y dudas.
+
 ## 2026-11-12 · Haiku · rondas 49 a 52 (revisión directa de producción, sesiones aisladas, sin motivos por cambio)
 
 - **49, Full Picture (dev), 1686 cadenas:** 760 cambios (usted, glosario y 8 errores de sentido). 13 min, 1,18 USD, contexto máximo 396 000. Muestra de 20: 1 error (cambió «Modo de exclusión voluntaria» por «Modo Opt-Out»); además, un nombre de propiedad de Plausible traducido. Haiku dejó dos dudas en la respuesta pero no en el archivo.
