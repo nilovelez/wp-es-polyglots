@@ -140,6 +140,18 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - Resultado: 291 cambios propuestos, aceptados en bloque por el revisor («me vale»), sin revisarlos cadena a cadena. La medición de esta ronda no es comparable con las demás.
 - Lección: en rondas por tramos, comprobar antes de `review-po` que los términos de `terms.md` se aplicaron en todo el archivo. Anotado en `review/README.md`.
 
+## 2026-11-12 · Haiku · ronda 44 (Elementor, stable, 315 cadenas) · directa, sin revisión humana · skill `review-glotpress-waiting`
+
+- Lote limpio según el precheck, revisado de una pasada: 132 000 tokens, 11 herramientas, 3 min 30 s.
+- 43 decisiones: 41 cambios y 2 dudas.
+  - Erratas: «Conect», «preaprado», «sigueinte», «of» sin traducir, «NO» en mayúsculas, «activado» por «activada», «por mi».
+  - Glosario: *prompt* = «instrucción» (7), *scan* = «explorar» (7), *default* = «por defecto» (4), *honeypot* = «señuelo», *sitemap* = «mapa del sitio», *banner* sin traducir, *role* = «perfil», *sign in* = «acceder», *upgrade* a un plan = «mejorar».
+  - Dudas: los títulos *Agent Ready* y *Agent Access*, traducidos solo ahí; en el resto del lote se dejan en inglés. Propone dejarlos en inglés; van así en el archivo.
+- Auditoría de Opus: 5 descartadas y 7 editadas; quedan 38 cambios.
+  - Descartadas: *features* = «características» donde «funciones» es válido (3, una con una coma de más), «explorador» por «escáner» (coherente con *scan* = «explorar») y una instrucción para la IA donde solo cambiaba sinónimos.
+  - Editadas: tres puntos finales añadidos, «ventana de conexión» (era el servicio Connect), «responder a las instrucciones», «datos de acceso», «Pro» con mayúscula.
+- Nota de Haiku: «instrucción» por *prompt* suena algo rígido en «una instrucción que puedes pegar en cualquier herramienta de IA».
+
 ## 2026-11-11 · Haiku · ronda 43 (Stedica Surveys, stable, 2505 cadenas) · directa, sin revisión humana · skill `review-glotpress-waiting`
 
 - Lote muy grande. Haiku paró por pasar de 1500 cadenas y se relanzó con lo que diría el usuario («ya sé que es muy grande, revísala entera»).
