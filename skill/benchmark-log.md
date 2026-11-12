@@ -145,7 +145,7 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - **49, Full Picture (dev), 1686 cadenas:** 760 cambios (usted, glosario y 8 errores de sentido). 13 min, 1,18 USD, contexto máximo 396 000. Muestra de 20: 1 error (cambió «Modo de exclusión voluntaria» por «Modo Opt-Out»); además, un nombre de propiedad de Plausible traducido. Haiku dejó dos dudas en la respuesta pero no en el archivo.
 - **50, StoreSuite (stable), 1579 cadenas:** 231 cambios. 5 min, 0,47 USD. Muestra de 20: 2 errores, *Remove* = «Borrar» y el formato de fecha. *Dashboard* = «Escritorio» en el panel del plugin es correcto: el revisor confirma que el Escritorio de WordPress son todas las páginas de la administración. Formato de fecha «M d, A» (A es AM/PM) corregido a «j M Y».
 - **51, WP Optimizer (stable), 1431 cadenas:** Haiku paró: unas 140 cadenas con «usted», cadenas rotas (enlaces sin texto, frases sin sentido), glosario ignorado. 56 s, 0,02 USD. El revisor lo rechaza entero.
-- **52, Mietfux (stable), 1392 cadenas:** Haiku paró por unas 140 cadenas con «usted»; el resto, de buena calidad. 1 min 52 s, 0,16 USD.
+- **52, Mietfux (stable), 1392 cadenas:** Haiku paró por unas 140 cadenas con «usted»; el resto, de buena calidad. 1 min 52 s, 0,16 USD. El revisor lo rechaza entero.
 - Candidato para `precheck`: contó 23 cadenas con «usted» en 51 y 52 cuando había unas 140; le faltan imperativos («Verifique», «Actualice», «Configúrelo», «Escanee», «Olvidó»).
 
 ## 2026-11-12 · Haiku · ronda 48 (Templately, stable, 1018 cadenas sin traducir) · traducción, entrenamiento · skill `translate-glotpress-project`, sesión aislada
