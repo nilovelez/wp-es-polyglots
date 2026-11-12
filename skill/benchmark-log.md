@@ -140,6 +140,17 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - Resultado: 291 cambios propuestos, aceptados en bloque por el revisor («me vale»), sin revisarlos cadena a cadena. La medición de esta ronda no es comparable con las demás.
 - Lección: en rondas por tramos, comprobar antes de `review-po` que los términos de `terms.md` se aplicaron en todo el archivo. Anotado en `review/README.md`.
 
+## 2026-11-12 · Haiku · ronda 45 (Elementor, stable, 231 cadenas sin traducir) · traducción · skill `translate-glotpress-project`
+
+- Primer intento, como subagente dentro del repositorio: no valió. Haiku leyó `resources/` (glosario, overrides, guía, referencia rápida, memoria de traducción) y las notas de la ronda 44, y dijo que el paquete estaba desfasado, lo que no era cierto. Causa: el subagente trabaja en el repositorio y recibe su `CLAUDE.md`, que manda leer `resources/`; la frase de la skill sobre la única referencia no basta contra eso. 147 000 tokens, 21 herramientas, 4 min 7 s.
+- Desde esta ronda, la sesión del traductor se lanza con `review/run_translator.sh`: una sesión de Claude Code aparte, sin interfaz, en una carpeta vacía fuera del repositorio, solo con el plugin empaquetado, sin transcripción guardada ni memoria automática. El mensaje es solo lo que diría el usuario, sin nombrar la skill.
+- Segundo intento, así: la skill se activó sola con «Traduce las cadenas sin traducir de este proyecto: <URL>». 2 min 29 s, 14 turnos, 0,04 USD (lectura de caché 429 000, escritura 86 000, salida 39 000 tokens, 21 000 de ellos de razonamiento). No deja ninguna entrada en `~/.claude/projects/`.
+- Las 231 cadenas traducidas, sin dudas y con 0 problemas en el build. Primera persona del singular («No he podido…»), como dice la guía; nombres de producto en inglés (Pro, Atomic Editor, Agent Ready, Ally, Image Optimizer, MCP); nombres de herramientas y parámetros sin traducir.
+- Auditoría de Opus: 5 editadas.
+  - *media* = «multimedia» en 4 cadenas («Subir multimedia por URL»): el glosario dice «medios».
+  - *slideshows* = «carruseles»: Elementor tiene widgets distintos para las dos cosas; «presentaciones».
+- Sin decidir: *Open angle* / *Close angle* / *Open icon* («Ángulo abierto», «Ángulo cerrado», «Icono abierto»), sin contexto; probablemente los iconos de un elemento desplegable.
+
 ## 2026-11-12 · Haiku · ronda 44 (Elementor, stable, 315 cadenas) · directa, sin revisión humana · skill `review-glotpress-waiting`
 
 - Lote limpio según el precheck, revisado de una pasada: 132 000 tokens, 11 herramientas, 3 min 30 s.

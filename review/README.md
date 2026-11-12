@@ -5,16 +5,26 @@ Goal: clear the es_ES *waiting* queue fast, and learn from every round.
 ## Who does what
 
 - **The reviewer** picks the project, reviews **every** string in Poedit (starting from the model's proposals), imports `corrected.po` in GlotPress and approves the rest. Only the reviewer uploads or approves.
-- **Translator session** ("Traductor - Haiku" since round 06; "Traductor - Sonnet" before) reviews the strings using only the installable skill `wordpress-translator-es/`, as a user would (see "Training sessions"). It writes only in the round folder, temporary files included.
+- **Translator session** ("Traductor - Haiku" since round 06; "Traductor - Sonnet" before) reviews the strings using only the installable skill `wordpress-translator-es/`, as a user would (see "Training sessions"). It runs outside the repository and sees only the packaged plugin.
 - **Maintainer session** (Opus) downloads the round, sends it to the translator, prepares the review file, builds `corrected.po` from the reviewer's saved file, and turns the differences into improvements of `resources/`, `skill/scripts/po_tool.py` and the skills' `SKILL.md` files.
 
 ## Training sessions: real use of the skill
 
-The translator session must work exactly as a user of the installable skill would, with the same model a user would pick. Its prompt says only what a user would say:
+The translator session must work exactly as a user of the installable skill would, with the same model a user would pick. It is not a subagent of the maintainer session: a subagent works inside the repository, gets this project's `CLAUDE.md` (which points to `resources/`) and can read `resources/` and other rounds, so it is not testing the skill (round 45, first try). Run it with `review/run_translator.sh`: a separate headless Claude Code session, in an empty sandbox folder outside the repository, with only the packaged plugin from `dist/`, no saved transcript and no auto-memory.
 
-- **Direct round** (tests the whole workflow, as another PTE would use it): "Use the skill in `<repo>/wordpress-translator-es/skills/review-glotpress-waiting` (read its SKILL.md and follow it). Review the waiting strings of <URL>. Work folder: `rounds/NN-<project>/work/`."
-- **Training round reviewed in Poedit, and bench cases** (tests the review alone): "Use the skill in `<repo>/wordpress-translator-es/skills/review` (…). Review `rounds/NN-<project>/original.po` [entries A to B]. Work folder: `rounds/NN-<project>/work/`."
-- **Translation of an official project** the reviewer picks: "Use the skill in `<repo>/wordpress-translator-es/skills/translate-glotpress-project` (…). Translate <URL>. Work folder: …"
+```
+python3 skill/package.py
+review/run_translator.sh <sandbox> "<what the user would say>" <log.jsonl>
+python3 review/run_summary.py <log.jsonl>
+```
+
+Always use the same sandbox folder (the script empties it). The message is only what a user would say, in their words, without naming the skill or where it is, so the run also tests that the skill triggers:
+
+- **Direct round**: "Revisa las cadenas en espera de <URL>".
+- **Translation of an official project** the reviewer picks: "Traduce las cadenas sin traducir de este proyecto: <URL>".
+- **Review of a file** (training round reviewed in Poedit, bench cases): pass the file as the fifth argument; the script copies it into the empty sandbox. "Revisa esta traducción: original.po".
+
+Check the summary's tool list: the session must read only its skill and its work files. Then copy its work folder into `rounds/NN-<project>/` for the audit.
 
 No lists of terms, exceptions or reminders in the prompt: if the session needs one to do the job right, it is missing from the skill or from `resources/`, and that is the finding of the round. The maintainer fixes it there (then `python3 skill/package.py`), not in the next prompt. The audit, the slicing into separate sessions for very large files and any `terms.md` the maintainer keeps are training machinery, not part of the skill.
 
