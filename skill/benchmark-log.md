@@ -140,6 +140,11 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - Resultado: 291 cambios propuestos, aceptados en bloque por el revisor («me vale»), sin revisarlos cadena a cadena. La medición de esta ronda no es comparable con las demás.
 - Lección: en rondas por tramos, comprobar antes de `review-po` que los términos de `terms.md` se aplicaron en todo el archivo. Anotado en `review/README.md`.
 
+## 2026-11-12 · Haiku · rondas 56 y 57 (revisión directa de producción, sesiones aisladas)
+
+- **56, À bientôt (stable), 1438 cadenas:** 320 cambios, sin dudas. 5 min 47 s, 0,54 USD, contexto máximo 245 000. 83 cadenas con «usted»: Haiku revisó en vez de parar, con razón (el resto estaba bien). Muestra de 15: sin errores.
+- **57, Try-On Video for WooCommerce (stable), 1348 cadenas:** 53 cambios, sin dudas. 3 min 27 s, 0,34 USD. Muestra de 12 más las de *tour*: sin errores; *tour* = «recorrido» (glosario) en unas 15 cadenas. Haiku dejó en `entries.jsonl` solo el último bloque (lo sobrescribió con `--range`).
+
 ## 2026-11-12 · Haiku · rondas 53 a 55 (revisión directa de producción, sesiones aisladas)
 
 - **53, Quote3D for WooCommerce (stable), 834 cadenas:** 25 decisiones, 2 dudas. 2 min 28 s, 0,14 USD. Muestra: 1 error («que Quote3D no es compatible», agramatical, en vez de «que Quote3D no admite»). Las dos dudas se resolvieron sin el revisor: la URL en español existe; el estado *Processing* de WooCommerce es «Procesando». Quedan 22 cambios.
