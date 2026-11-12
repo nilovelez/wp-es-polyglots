@@ -156,15 +156,15 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
   - «n.º» → «#».
   - «qué tan» → «cómo de».
   - Comillas.
-- Auditoría de Opus: 5 descartadas y 7 editadas.
-  - Descartadas: *scorecard* de una plantilla de cuestionario («evaluación», no el marcador de KPI del plugin), «en blanco», «recomendación» y *remove* = «eliminar».
+- Auditoría de Opus: 7 descartadas y 7 editadas; quedan 251 cambios.
+  - Descartadas: *scorecard* de una plantilla de cuestionario («evaluación», no el marcador de KPI del plugin), «en blanco», «recomendación», *remove* = «eliminar» y, por decisión del revisor, las dos de *social media* = «medios sociales» (el glosario oficial lo dice; se propone «redes sociales» y queda en los overrides).
   - Editadas:
     - un «del» perdido;
     - dos puntos finales añadidos;
     - «marcado como por defecto»;
     - «código de incrustación»;
     - *unlink* de archivos = «desvincular» (no es un enlace).
-- Candidato para `precheck`: el latinoamericanismo «qué tan» (11 cadenas) no lo detecta.
+- `precheck` no detectaba el latinoamericanismo «qué tan»; añadido a sus formas latinoamericanas (detecta 9 cadenas en esta ronda).
 
 ## 2026-11-11 · Haiku · ronda 42 (MonoRanks, stable, 109 cadenas) · directa, sin revisión humana · skill `review-glotpress-waiting`
 

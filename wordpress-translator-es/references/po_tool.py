@@ -699,7 +699,7 @@ def cmd_precheck(args):
                                         r'Busque|Seleccione|Introduzca|Ingrese|Haga clic|Compruebe|Pulse|Elija|Revise|Guarde)\b', tr(e))]
     print(f'address: "your" → su {su}, tu {tu} · usted forms in {len(usted)} strings')
     latam = [e for e in es if re.search(r'\b(computadora?|celular|ingres[ae]|ingresar|video\b|reporte|carro de compras|órdenes|ordenes|'
-                                        r'desplegar|cliquea|clickea|hacer click)', tr(e), re.I)]
+                                        r'desplegar|cliquea|clickea|hacer click|qué tan\b)', tr(e), re.I)]
     print(f'Latin American forms: {len(latam)}  ' + ' | '.join(f'#{e["n"]} {tr(e)[:40]!r}' for e in latam[:4]))
     calques = [e for e in es if re.search(r'\b(ha sido|han sido|fue|fueron) \w+(ado|ido|ada|ida)s?\b|\bfalló\b|^Opcionalmente\b', tr(e))]
     print(f'passives and calques: {len(calques)}  ' + ' | '.join(f'#{e["n"]} {tr(e)[:40]!r}' for e in calques[:4]))

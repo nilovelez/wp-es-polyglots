@@ -405,7 +405,6 @@ slider,carrusel / control deslizante,noun,"Traducir como «carrusel» para pases
 slug,slug,noun,No se traduce
 snapshot,instantánea,noun,
 snippet,fragmento de código,noun,"No se traduce cuando se refiera a las cajas de resultado de búsqueda (snippets, rich snippets / snippets enriquecidos)"
-social media,medios sociales,expression,
 sorry,lo siento,noun,"No utilizar:
 Lo sentimos (Incorrecto)
 Perdona (Incorrecto)"
@@ -509,3 +508,4 @@ clear,vaciar,verb,"«vaciar» es para contenidos (papelera, caché). Para dejar 
 media,medios,noun,"También *media item* / *media file* = «archivo de medios», no «archivo multimedia»."
 Dashboard,Escritorio,noun,"No utilizar «tablero» o «panel de control». Es el nombre de WordPress; el *dashboard* de un servicio externo, preferentemente «panel», aunque «escritorio» también vale."
 role,perfil,noun,NO usar «rol». Es el nombre de WordPress; los roles de un servicio externo usan el nombre de su interfaz en español («rol: Lector» en Google Analytics).
+social media,redes sociales,expression,En español de España lo normal es «redes sociales».
