@@ -140,6 +140,12 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - Resultado: 291 cambios propuestos, aceptados en bloque por el revisor («me vale»), sin revisarlos cadena a cadena. La medición de esta ronda no es comparable con las demás.
 - Lección: en rondas por tramos, comprobar antes de `review-po` que los términos de `terms.md` se aplicaron en todo el archivo. Anotado en `review/README.md`.
 
+## 2026-11-12 · Haiku · rondas 62 a 64 (revisión directa de producción, sesiones aisladas)
+
+- **62, Hubu Panel (dev), 1327 cadenas:** 258 cambios, sin dudas. 5 min 6 s, 0,42 USD. Casi todo glosario (*ticket* = «tique», *default*, *notification*, *login*, *role*, *delete*, *log out*). Muestra de 15: sin errores.
+- **63, Dealroot (dev), 1322 cadenas:** Haiku paró a mitad (900 de 1322 revisadas, 173 cambios) al encontrar unas 160 cadenas con «usted» que el precheck no vio (contó 9), y *lead* sin traducir o como «Contactos» en cientos de cadenas. 3 min 32 s, 0,28 USD. Pendiente de la decisión del revisor. Otra vez el precheck se queda corto con «usted».
+- **64, Forensix Digital (dev), 1314 cadenas:** 151 cambios, sin dudas. 5 min 34 s, 0,50 USD. *scan* = «exploración» (~60), *log in* = «acceder», glosario. Muestra de 25: sin errores. Dejó «Saltar al contenido» (frase fija de accesibilidad) aunque el glosario da *skip* = «omitir». Las decisiones quedaron en `decisions-all.jsonl`, no en `decisions.jsonl`.
+
 ## 2026-11-12 · Haiku · rondas 60 y 61 (Bugalou Live Chat y Bugalou for WooCommerce, stable, 65 y 120 cadenas) · revisión directa con motivos (respuesta al autor) · sesiones aisladas
 
 - El autor, al que se le denegó el PTE, envió las traducciones. Revisión pidiendo el motivo de cada cambio para contestarle: 1 min 29 s y 2 min 10 s, 0,03 y 0,04 USD.
