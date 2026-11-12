@@ -140,6 +140,17 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - Resultado: 291 cambios propuestos, aceptados en bloque por el revisor («me vale»), sin revisarlos cadena a cadena. La medición de esta ronda no es comparable con las demás.
 - Lección: en rondas por tramos, comprobar antes de `review-po` que los términos de `terms.md` se aplicaron en todo el archivo. Anotado en `review/README.md`.
 
+## 2026-11-12 · Haiku · ronda 46 (Route Finder, dev, 1635 cadenas) · directa, sin revisión humana · skill `review-glotpress-waiting`, sesión aislada
+
+- Primera sesión aislada de revisión (`review/run_translator.sh`). La skill se activó sola con «Revisa las cadenas en espera de <URL>». Leyó solo el plugin y su carpeta de trabajo.
+- Se paró al pasar de 1500 cadenas, como debe (17 s, 0,007 USD), y se relanzó con lo que diría el usuario («ya sé que es grande, revísala entera»).
+- Revisión completa en una sesión, en seis bloques, con `terms.md`: 8 min 36 s, 47 turnos, 0,78 USD (lectura de caché 5,6 millones de tokens, escritura 287 000, salida 133 000). El coste lo marca releer el contexto en cada turno.
+- 352 cambios, sin dudas. Casi todos del glosario: *zoom* = «ampliación» (~60), *hero* = «sección destacada» (~25; el traductor ponía «página principal»), mayúsculas de título (~100), comillas, tuteo, *delete* = «borrar», *default* = «por defecto», *clear* = «vaciar» (caché) o «quitar» (filtros), *collapse* = «plegar», *shortcut* = «atajo», *login* = «acceder», *deselect* = «anular selección», *library* = «biblioteca».
+- Auditoría de Opus: 7 descartadas y 5 editadas; quedan 345 cambios.
+  - Descartadas: una cadena en la que Haiku perdió la primera frase al reescribirla; un «?» añadido a una pregunta que el código completa con el nombre del grupo; «haciendo clic» → «al hacer clic» (2) y «de casa» → «de inicio», que eran preferencias; «¿Estás seguro…?» → «¿Seguro que…?» (2) sin otro motivo para cambiar la cadena.
+  - Editadas: «Al pasar el cursor, bloqueado», «Anular selección de todo», «Título yamp; Desc» (quedaba «Desc»), *Setup required* = «Configuración necesaria» y una cadena con «% f» en el original (de «px/% for»), que se mantiene con «px/% fijos».
+- Candidato para `check`: avisar cuando la nueva traducción es mucho más corta que la anterior (una frase perdida).
+
 ## 2026-11-12 · Haiku · ronda 45 (Elementor, stable, 231 cadenas sin traducir) · traducción · skill `translate-glotpress-project`
 
 - Primer intento, como subagente dentro del repositorio: no valió. Haiku leyó `resources/` (glosario, overrides, guía, referencia rápida, memoria de traducción) y las notas de la ronda 44, y dijo que el paquete estaba desfasado, lo que no era cierto. Causa: el subagente trabaja en el repositorio y recibe su `CLAUDE.md`, que manda leer `resources/`; la frase de la skill sobre la única referencia no basta contra eso. 147 000 tokens, 21 herramientas, 4 min 7 s.
