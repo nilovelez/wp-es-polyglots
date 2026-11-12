@@ -20,8 +20,10 @@ If there are no waiting strings, say so and stop.
 ## 2. Is the batch worth a review?
 
 ```
-python3 <refs>/po_tool.py precheck <work>/original.po
+python3 <refs>/po_tool.py precheck <work>/original.po --window N
 ```
+
+Your context window, for `--window`: 1000000 for Claude Opus 5.5, Sonnet 5.5 and Haiku 5.5 (Haiku 5.5 in Claude Cowork: 500000); 200000 for any other model, or if you do not know which model you are. The last line says whether the batch fits in one session.
 
 Some batches must be rejected whole instead of reviewed string by string:
 
@@ -29,7 +31,7 @@ Some batches must be rejected whole instead of reviewed string by string:
 - Formal register («usted» forms in many strings) or Latin American Spanish throughout.
 - The source strings are not in English (e.g. the plugin was written in Spanish and the source was copied as the translation): the plugin cannot be translated until its source is in US English.
 
-If the numbers point to one of these, give the user the numbers and the sample and ask whether to review it or reject it whole. If the batch has more than 7000 strings, it does not fit in one session: tell the user the size and offer to review strings 1 to 7000 now and the rest in a new conversation. Otherwise go on without asking, and put the precheck numbers in one line of the summary.
+If the numbers point to one of these, give the user the numbers and the sample and ask whether to review it or reject it whole. If it does not fit in one session, tell the user the size and the parts it gives (entry ranges), review the first part now and offer the rest, one part per new conversation. Otherwise go on without asking, and put the precheck numbers in one line of the summary.
 
 ## 3. Review
 

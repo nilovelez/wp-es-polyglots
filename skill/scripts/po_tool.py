@@ -10,6 +10,11 @@ Commands:
       Cheap numbers on waiting strings before reviewing them: lint hints by kind,
       strings identical to the source, form of address, Latin American forms,
       calques and a sample. Helps decide whether to reject a batch whole.
+      Ends with the size line (see size).
+  size <file.po> [--translate] [--window N]
+      Worst-case peak context of reviewing (or translating) the whole file in one
+      session, against a context window of N tokens (default 1000000). Says
+      whether it fits; if not, gives the entry ranges for one session each.
   glossary-update [--locale es]
       Download the official glossary of the locale from translate.wordpress.org
       and replace the bundled glossary.csv (the team's overrides still apply).
@@ -661,6 +666,57 @@ def cmd_glossary_update(args):
     print(f'{RES}glossary.csv: {len(read_csv(RES + "glossary.csv"))} rows from {url}')
 
 
+def size_estimate(po, translate=False, window=1_000_000):
+    """Worst-case peak context of doing the whole file in one session, and how to split it
+    if it does not fit. Measured on Haiku review sessions (rounds 38-46): peak context
+    ~ 90,000 + 0.46 x bytes of entries.jsonl + 1.07 x bytes of decisions written. The
+    decisions are not known in advance: a review assumes a bad batch (decisions = 60% of
+    the entries' bytes, the worst measured); a translation writes every string (120%).
+    One session may use 85% of the window."""
+    import math
+    _, entries = parse(po)
+    entries = [e for e in entries if not RANGE or RANGE[0] <= e['n'] <= RANGE[1]]
+    sizes = []
+    for e in entries:
+        o = {'n': e['n'], 'ctx': e['ctx'], 'msgid': e['msgid'], 'msgid_plural': e['msgid_plural'],
+             'msgstr': e['msgstr'], 'msgstr_plural': e['msgstr_plural']}
+        sizes.append(len(json.dumps(o, ensure_ascii=False).encode('utf-8')) + 1)
+    base, per_byte = 90_000, 0.46 + 1.07 * (1.2 if translate else 0.6)
+    peak = base + per_byte * sum(sizes)
+    limit = 0.85 * window
+    if peak <= limit:
+        return peak, limit, None
+    # As few parts as fit, of equal bytes (long strings fill the context faster than short ones).
+    budget = (limit - base) / per_byte
+    target = sum(sizes) / math.ceil(sum(sizes) / budget)
+    parts, acc, start = [], 0, entries[0]['n']
+    for e, s in zip(entries, sizes):
+        if acc + s > target * 1.001 and acc:
+            parts.append((start, prev))
+            start, acc = e['n'], 0
+        acc += s
+        prev = e['n']
+    parts.append((start, prev))
+    return peak, limit, parts
+
+
+def cmd_size(args):
+    """Does the review (or with --translate, the translation) of the file fit in one
+    session? --window N: the model's context window in tokens (default 1,000,000)."""
+    translate = '--translate' in args
+    window = 1_000_000
+    if '--window' in args:
+        window = int(args[args.index('--window') + 1])
+    peak, limit, parts = size_estimate(args[0], translate, window)
+    if parts is None:
+        print(f'size: about {peak / 1000:.0f}k tokens at most of a {window / 1000:.0f}k window: '
+              f'fits in one session. Do it all in this session; do not split it.')
+    else:
+        print(f'size: about {peak / 1000:.0f}k tokens at most of a {window / 1000:.0f}k window: '
+              f'does not fit in one session. Parts (entry ranges, one session each, one after another): '
+              + ', '.join(f'{a}-{b}' for a, b in parts))
+
+
 def cmd_precheck(args):
     """Cheap numbers before a review: is the batch worth reviewing, or should it
     be rejected whole? Lint hint counts, strings identical to the source, source
@@ -703,13 +759,14 @@ def cmd_precheck(args):
     print(f'Latin American forms: {len(latam)}  ' + ' | '.join(f'#{e["n"]} {tr(e)[:40]!r}' for e in latam[:4]))
     calques = [e for e in es if re.search(r'\b(ha sido|han sido|fue|fueron) \w+(ado|ido|ada|ida)s?\b|\bfalló\b|^Opcionalmente\b', tr(e))]
     print(f'passives and calques: {len(calques)}  ' + ' | '.join(f'#{e["n"]} {tr(e)[:40]!r}' for e in calques[:4]))
+    cmd_size([po] + args[1:])
     random.seed(2)
     print('sample:')
     for e in random.sample(es, min(10, len(es))):
         print(f'  #{e["n"]} {e["msgid"][:70]!r} → {tr(e)[:80]!r}')
 
 
-COMMANDS = {'fetch': cmd_fetch, 'precheck': cmd_precheck, 'glossary-update': cmd_glossary_update, 'extract': cmd_extract, 'check': cmd_check, 'build': cmd_build, 'compare': cmd_compare,
+COMMANDS = {'fetch': cmd_fetch, 'precheck': cmd_precheck, 'size': cmd_size, 'glossary-update': cmd_glossary_update, 'extract': cmd_extract, 'check': cmd_check, 'build': cmd_build, 'compare': cmd_compare,
             'glossary': cmd_glossary, 'tm': cmd_tm, 'lint': cmd_lint,
             'review-po': cmd_review_po, 'finalize': cmd_finalize}
 

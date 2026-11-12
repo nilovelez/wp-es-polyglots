@@ -13,7 +13,7 @@ Always do the review with this workflow and `po_tool.py`, never by reading the s
 
 The glossary and the guide in `<refs>` are the only reference: do not use other glossaries, guides or translations you may find on disk.
 
-1. `<refs>/style-guide.md`, all of it: section 6 says when a string should **not** be changed. Follow it literally; it is the team's consensus.
+1. `<refs>/style-guide.md`, all of it, once, with the Read tool (not `cat` too: reading it twice only fills the context): section 6 says when a string should **not** be changed. Follow it literally; it is the team's consensus.
 2. The glossary entries that apply to the file. Do not read the whole glossary:
    ```
    python3 <refs>/po_tool.py glossary <file.po>
@@ -36,7 +36,7 @@ python3 <refs>/po_tool.py extract <file.po> <work>/entries.jsonl
 
 One JSON object per entry: `n` (entry number), `ctx`, `note` (comment for translators, e.g. where the string comes from), `msgid`, `msgstr` (or `msgid_plural` / `msgstr_plural`). Work by `n`. Never edit the `.po` by hand.
 
-**Large files** (more than about 400 entries): work in blocks of about 300 entries with `--range A-B` on `extract`, `glossary` and `lint`, appending to the same decisions file. Keep the term choices you settle in `<work>/terms.md` and re-read it before each block, so the whole file stays consistent. If the file has more than 7000 entries, it does not fit in one session: tell the user the size and offer to do entries 1 to 7000 now and the rest in a new conversation. Below that, never split the work into several sessions or conversations: each one reloads the skill and the guide, so it costs more, not less. If the user asks for entries A to B only, do exactly that range.
+**Large files** (more than about 400 entries): work in blocks of about 300 entries with `--range A-B` on `extract`, `glossary` and `lint`, appending to the same decisions file. Keep the term choices you settle in `<work>/terms.md` and re-read it before each block, so the whole file stays consistent. Before starting, check that the whole file fits in this session: `python3 <refs>/po_tool.py size <file.po> --window N`. Your context window, for `--window`: 1000000 for Claude Opus 5.5, Sonnet 5.5 and Haiku 5.5 (Haiku 5.5 in Claude Cowork: 500000); 200000 for any other model, or if you do not know which model you are. If it fits, do it all in this session, in blocks: never split it into several sessions or conversations, which reload the skill and the guide and cost more, not less. If it does not fit, tell the user the size and the parts it gives (entry ranges), review the first part now and offer the rest, one part per new conversation. If the user asks for entries A to B only, do exactly that range.
 
 ## 2. Review
 

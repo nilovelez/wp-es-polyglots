@@ -15,7 +15,7 @@ python3 <refs>/po_tool.py fetch <url> <work> --untranslated
 
 Any form of the project URL works (with filters, with or without `es/default`). It writes the untranslated strings to `<work>/original.po`. `<work>` is a temporary work folder, unless the user says where.
 
-If there is nothing to translate, say so and stop. If there are more than 7000 strings, they do not fit in one session: tell the user the size and offer to translate strings 1 to 7000 now and the rest in a new conversation.
+If there is nothing to translate, say so and stop. The `translate` skill checks whether the file fits in one session (`po_tool.py size`) before starting.
 
 WordPress core, Meta (wordpress.org itself) and very popular plugins are read by millions of people: be especially careful with consistency, and mark as a doubt anything the glossary and the guide do not settle.
 
