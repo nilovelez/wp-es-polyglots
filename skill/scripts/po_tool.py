@@ -668,8 +668,10 @@ def cmd_glossary_update(args):
 
 def size_estimate(po, translate=False, window=1_000_000):
     """Worst-case peak context of doing the whole file in one session, and how to split it
-    if it does not fit. Measured on Haiku review sessions (rounds 38-46): peak context
-    ~ 90,000 + 0.46 x bytes of entries.jsonl + 1.07 x bytes of decisions written. The
+    if it does not fit. Measured on Haiku sessions (rounds 38-48): peak context
+    ~ 55,000 + 0.46 x bytes of entries.jsonl + 1.07 x bytes of decisions written (the base
+    is what an isolated session holds before the first block: system, skill, guide,
+    glossary; the per-byte numbers fall short on round 46, so they are not lowered). The
     decisions are not known in advance: a review assumes a bad batch (decisions = 60% of
     the entries' bytes, the worst measured); a translation writes every string (120%).
     One session may use 85% of the window."""
@@ -681,7 +683,7 @@ def size_estimate(po, translate=False, window=1_000_000):
         o = {'n': e['n'], 'ctx': e['ctx'], 'msgid': e['msgid'], 'msgid_plural': e['msgid_plural'],
              'msgstr': e['msgstr'], 'msgstr_plural': e['msgstr_plural']}
         sizes.append(len(json.dumps(o, ensure_ascii=False).encode('utf-8')) + 1)
-    base, per_byte = 90_000, 0.46 + 1.07 * (1.2 if translate else 0.6)
+    base, per_byte = 55_000, 0.46 + 1.07 * (1.2 if translate else 0.6)
     peak = base + per_byte * sum(sizes)
     limit = 0.85 * window
     if peak <= limit:
