@@ -140,6 +140,15 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - Resultado: 291 cambios propuestos, aceptados en bloque por el revisor («me vale»), sin revisarlos cadena a cadena. La medición de esta ronda no es comparable con las demás.
 - Lección: en rondas por tramos, comprobar antes de `review-po` que los términos de `terms.md` se aplicaron en todo el archivo. Anotado en `review/README.md`.
 
+## 2026-11-13 · Haiku · ronda 65 (BotBlocker Security, dev, 624 cadenas) · revisión directa de producción · rechazada entera
+
+- Haiku la revisó entera: 149 cambios, sin dudas. 4 min 32 s, 0,24 USD. Muestra de 15: sin errores.
+- El revisor la rechazó entera; tanto Haiku como el auditor debieron proponer el rechazo antes de revisar.
+  - Precheck: «your» → «su» 20, «tu» 0, o sea, usted en todo el lote. Pero el recuento de «usted» solo dio 14, porque no ve los imperativos, y fue la cifra que se miró. En la muestra del precheck había 2 imperativos de usted de 10.
+  - Buscar y reemplazar del glosario sin entenderlo: «Una IP válida dirección es obligatorio / requerido / necesario.», «reseña / valoración la prueba fallida…» (alternativas del glosario con « / » pegadas en la traducción).
+  - Una traducción de otra cadena (*ASN database* = «¿Estás seguro? Aplicaremos la configuración predeterminada…»), calcos («cheque») y mayúsculas de título en inglés.
+- Lección: la proporción su/tu marca el registro formal mejor que el recuento de «usted».
+
 ## 2026-11-12 · Haiku · rondas 62 a 64 (revisión directa de producción, sesiones aisladas)
 
 - **62, Hubu Panel (dev), 1327 cadenas:** 258 cambios, sin dudas. 5 min 6 s, 0,42 USD. Casi todo glosario (*ticket* = «tique», *default*, *notification*, *login*, *role*, *delete*, *log out*). Muestra de 15: sin errores.
