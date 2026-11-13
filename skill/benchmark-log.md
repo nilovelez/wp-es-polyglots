@@ -140,6 +140,31 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - Resultado: 291 cambios propuestos, aceptados en bloque por el revisor («me vale»), sin revisarlos cadena a cadena. La medición de esta ronda no es comparable con las demás.
 - Lección: en rondas por tramos, comprobar antes de `review-po` que los términos de `terms.md` se aplicaron en todo el archivo. Anotado en `review/README.md`.
 
+## 2026-11-13 · Haiku · rondas 67 y 68 (revisión directa de producción)
+
+- **67, Target Media Toolkit (stable), 303 cadenas:** 27 cambios, casi todos de glosario (*log in* = «acceder», *logged in* = «conectado», *monitoring* = «supervisión», *writable*). 1 min 53 s, 0,04 USD. Revisados los 27: sin errores (uno no cambia nada).
+- **68, Honoko Core (dev), 1240 cadenas:** rechazada entera. Traducción palabra por palabra con restos en inglés («El página o categoría es no longer disponible», «Este entrada ya enlaces back a su pilar página»). El precheck no lo marcó: tuteo, 55 idénticas al original, avisos de glosario. Haiku cambió 389 (31 %) y propuso él mismo valorar el rechazo. 4 min 57 s, 0,37 USD. Fallo de Haiku: devolvió al inglés una URL de ejemplo adaptada (`/fotografia/` → `/photography/`).
+- Candidato (sin aprobar): detectar en el precheck palabras inglesas sueltas dentro de la traducción.
+
+## 2026-11-13 · Haiku · ronda 69 (Polanger Dating System, dev, 1223 cadenas) · revisión directa de producción · rechazada entera
+
+- Precheck: «su» 64, «tu» 70 (tratamiento mezclado, el aviso no salta), «usted» en 46 cadenas, 16 formas latinoamericanas («Ingrese», «Agregue»).
+- Haiku cambió 480 (39 %), 238 por usted o formas latinoamericanas, más errores de sentido (*Unlike* = «a diferencia»). 5 min 45 s, 0,45 USD. Muestra de 12: sin errores.
+- El auditor propuso el rechazo y el revisor rechazó el lote entero.
+- Haiku dejó su carpeta de trabajo fuera de la carpeta temporal habitual (un nivel más arriba).
+
+## 2026-11-13 · Haiku · ronda 70 (Mee Table, dev, 1186 cadenas) · revisión directa de producción
+
+- 179 cambios (15 %), sin dudas. 6 min 53 s, 0,57 USD. Precheck: tuteo («su» 14, «tu» 80). Muestra de 25: sin errores.
+- Tuteo en los correos al cliente, *email* = «correo electrónico», mayúsculas, glosario; *ticket* = «entrada» (entradas de eventos) en lugar de «billete», *location* = «local» (restaurantes).
+
+## 2026-11-13 · Haiku · ronda 71 (Yatoon Booking System, stable, 1104 cadenas) · revisión directa de producción · rechazada entera
+
+- Precheck: «su» 28, «tu» 9 (3 a 1, bajo el umbral del aviso), «usted» en 39 cadenas, 16 formas latinoamericanas.
+- Haiku cambió 438 (40 %): shortcodes y nombres de eventos traducidos (rompen el plugin), errores de sentido (*Staff* = «pentagrama», *Tips* = «Consejos»), usted y latinoamericanismos. 7 min 34 s, 0,54 USD.
+- El auditor propuso el rechazo y el revisor rechazó el lote entero.
+- Falso positivo de `check`: el punto de «p. m.» se toma por punto final. Candidato: añadir «a. m.» y «p. m.» a las abreviaturas.
+
 ## 2026-11-13 · Haiku · ronda 66 (Rosenheinrich Multisite Migrate, stable, 452 cadenas) · revisión directa de producción · rechazada entera
 
 - Haiku la revisó entera sin preguntar: 152 cambios, sin dudas. 3 min 53 s, 0,12 USD.
