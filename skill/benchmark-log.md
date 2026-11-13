@@ -140,6 +140,13 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - Resultado: 291 cambios propuestos, aceptados en bloque por el revisor («me vale»), sin revisarlos cadena a cadena. La medición de esta ronda no es comparable con las demás.
 - Lección: en rondas por tramos, comprobar antes de `review-po` que los términos de `terms.md` se aplicaron en todo el archivo. Anotado en `review/README.md`.
 
+## 2026-11-13 · Haiku · ronda 66 (Rosenheinrich Multisite Migrate, stable, 452 cadenas) · revisión directa de producción · rechazada entera
+
+- Haiku la revisó entera sin preguntar: 152 cambios, sin dudas. 3 min 53 s, 0,12 USD.
+- Precheck: «your» → «su» 29, «tu» 11 (2,6 a 1, por debajo del umbral de 4 a 1 del aviso de registro formal), «usted» en 17 cadenas, 3 formas latinoamericanas («Ingrese»). La muestra de 15 cambios era toda imperativos de usted.
+- El auditor propuso el rechazo y el revisor rechazó el lote entero.
+- Fallo de Haiku en la muestra: *Roll back last restore* = «Revertir…» (correcto) cambiado a «Retroceder la última restauración» por aplicar el glosario (*rollback* = «retroceso») a ciegas.
+
 ## 2026-11-13 · Haiku · ronda 65 (BotBlocker Security, dev, 624 cadenas) · revisión directa de producción · rechazada entera
 
 - Haiku la revisó entera: 149 cambios, sin dudas. 4 min 32 s, 0,24 USD. Muestra de 15: sin errores.
