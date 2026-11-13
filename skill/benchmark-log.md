@@ -158,6 +158,21 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - 179 cambios (15 %), sin dudas. 6 min 53 s, 0,57 USD. Precheck: tuteo («su» 14, «tu» 80). Muestra de 25: sin errores.
 - Tuteo en los correos al cliente, *email* = «correo electrónico», mayúsculas, glosario; *ticket* = «entrada» (entradas de eventos) en lugar de «billete», *location* = «local» (restaurantes).
 
+## 2026-11-13 · Haiku · ronda 74 (Optimi AI Product Reviews, dev, 1029 cadenas) · revisión directa de producción
+
+- 101 cambios propuestos, 1 duda. 3 min 54 s, 0,32 USD. Precheck: tuteo («su» 12, «tu» 198).
+- Comillas, «correo electrónico» en textos largos, glosario (*sitemap*, *stock*, *builder*, *log in*, *clear filters*).
+- Auditoría: 23 descartados porque el original no tenía error.
+  - 20 de sorteos: *ticket* «participación» → «tique». El revisor: en sorteos «participación» es una excepción válida, pero «tique» también vale; no se añade nota al glosario.
+  - 3 de *feature* («función» → «característica») y *rate* («porcentaje» → «tasa»).
+
+## 2026-11-13 · Haiku · ronda 73 (Searcio, dev, 1074 cadenas) · revisión directa de producción
+
+- 105 cambios (10 %), sin dudas. 3 min 35 s, 0,23 USD. Precheck: tuteo («su» 2, «tu» 43).
+- Glosario: *hover* = «al pasar el cursor», *modal* = «ventana emergente», *default*, *delete*; *Clear* de filtros = «Quitar».
+- Auditoría (muestra de 23): 3 descartados. Haiku aplicó «vaciar» a ejecuciones (*Clear finished*, *Finished runs cleared*); «vaciar» es para contenedores (historial, papelera), y «borrar» era correcto.
+- Falso positivo del precheck: «source looks Spanish» por *e.g. "de, en"* (códigos de idioma).
+
 ## 2026-11-13 · Haiku · ronda 72 (Zinn Cache, stable, 941 cadenas) · revisión directa de producción · rechazada entera
 
 - Primera ronda con los avisos nuevos del precheck: «su» 99, «tu» 0 → `FORMAL REGISTER THROUGHOUT`. Haiku se paró antes de revisar, dio las cifras y la muestra, y recomendó el rechazo. 24 s, 0,01 USD.
