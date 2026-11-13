@@ -8,8 +8,10 @@ Commands:
       es/default is added if the URL has no locale.
   precheck <file.po>
       Cheap numbers on waiting strings before reviewing them: lint hints by kind,
-      strings identical to the source, form of address, Latin American forms,
-      calques and a sample. Helps decide whether to reject a batch whole.
+      strings identical to the source, form of address, glossary alternatives
+      pasted whole, Latin American forms, calques and a sample. Helps decide
+      whether to reject a batch whole (marks FORMAL REGISTER THROUGHOUT and
+      SEARCH AND REPLACE WITHOUT CARE).
       Ends with the size line (see size).
   size <file.po> [--translate] [--window N]
       Worst-case peak context of reviewing (or translating) the whole file in one
@@ -772,7 +774,20 @@ def cmd_precheck(args):
     tu = sum(1 for e in your if re.search(r'\b[Tt]us?\b', tr(e)))
     usted = [e for e in es if re.search(r'\b(usted|Por favor,? (?:seleccione|introduzca|ingrese|vuelva|compruebe|espere|intente)|'
                                         r'Busque|Seleccione|Introduzca|Ingrese|Haga clic|Compruebe|Pulse|Elija|Revise|Guarde)\b', tr(e))]
-    print(f'address: "your" → su {su}, tu {tu} · usted forms in {len(usted)} strings')
+    formal = su >= 5 and tu * 4 <= su
+    print(f'address: "your" → su {su}, tu {tu} · usted forms in {len(usted)} strings'
+          + (' · FORMAL REGISTER THROUGHOUT (su far above tu; the usted count misses most imperatives)' if formal else ''))
+    import csv
+    alts = set()
+    for name in ('glossary.csv', 'glossary-overrides.csv'):
+        if os.path.exists(RES + name):
+            with open(RES + name, encoding='utf-8') as f:
+                alts |= {r[1].strip().lower() for r in csv.reader(f) if len(r) > 1 and ' / ' in r[1]}
+    slashes = [e for e in es if '/' not in e['msgid'] + (e.get('msgid_plural') or '')
+               and any(a in tr(e).lower() for a in alts)]
+    print(f'glossary alternatives pasted whole (" / " list from the glossary): {len(slashes)}  '
+          + ' | '.join(f'#{e["n"]} {tr(e)[:50]!r}' for e in slashes[:4])
+          + (' · SEARCH AND REPLACE WITHOUT CARE' if slashes else ''))
     latam = [e for e in es if re.search(r'\b(computadora?|celular|ingres[ae]|ingresar|video\b|reporte|carro de compras|órdenes|ordenes|'
                                         r'desplegar|cliquea|clickea|hacer click|qué tan\b)', tr(e), re.I)]
     print(f'Latin American forms: {len(latam)}  ' + ' | '.join(f'#{e["n"]} {tr(e)[:40]!r}' for e in latam[:4]))

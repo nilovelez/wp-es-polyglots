@@ -27,8 +27,8 @@ Your context window, for `--window`: 1000000 for Claude Opus 5.5, Sonnet 5.5 and
 
 Some batches must be rejected whole instead of reviewed string by string:
 
-- Machine translation without care: many strings identical to the English source, glossary ignored everywhere, inconsistent terms, meaning errors in the sample.
-- Formal register («usted» forms in many strings) or Latin American Spanish throughout.
+- Machine translation without care: many strings identical to the English source, glossary ignored everywhere, inconsistent terms, meaning errors in the sample. The mark `SEARCH AND REPLACE WITHOUT CARE` (glossary alternatives such as «obligatorio / requerido / necesario» pasted whole into a translation) is enough, even for a single string.
+- Formal register («usted» forms in many strings) or Latin American Spanish throughout. The mark `FORMAL REGISTER THROUGHOUT` on the address line is enough: the «usted» count misses most imperatives, so trust the su/tu numbers over it.
 - The source strings are not in English (e.g. the plugin was written in Spanish and the source was copied as the translation): the plugin cannot be translated until its source is in US English.
 
 If the numbers point to one of these, give the user the numbers and the sample and ask whether to review it or reject it whole. If it does not fit in one session, tell the user the size and the parts it gives (entry ranges), review the first part now and offer the rest, one part per new conversation. Otherwise go on without asking, and put the precheck numbers in one line of the summary.
