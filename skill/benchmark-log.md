@@ -158,6 +158,11 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - 179 cambios (15 %), sin dudas. 6 min 53 s, 0,57 USD. Precheck: tuteo («su» 14, «tu» 80). Muestra de 25: sin errores.
 - Tuteo en los correos al cliente, *email* = «correo electrónico», mayúsculas, glosario; *ticket* = «entrada» (entradas de eventos) en lugar de «billete», *location* = «local» (restaurantes).
 
+## 2026-11-13 · Haiku · ronda 75 (Idesoftbcn AI Product Customizer, stable, 431 cadenas) · revisión directa de producción
+
+- 33 decisiones: 20 cambios y 13 dudas (originales en español: «Ver impresión», «Diseño completo»…; a rechazar hasta que el original esté en inglés). 2 min 22 s, 0,12 USD.
+- Auditoría: 4 descartados, otra vez *clear* = «vaciar» fuera de contenedores («Vaciar contorno», «Vacía el dibujo»). Segunda ronda seguida: ampliada la nota de *clear* en `glossary-overrides.csv` («borrar» para dibujos, campos y elementos sueltos).
+
 ## 2026-11-13 · Haiku · ronda 74 (Optimi AI Product Reviews, dev, 1029 cadenas) · revisión directa de producción
 
 - 101 cambios propuestos, 1 duda. 3 min 54 s, 0,32 USD. Precheck: tuteo («su» 12, «tu» 198).
