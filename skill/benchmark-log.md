@@ -158,6 +158,12 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - 179 cambios (15 %), sin dudas. 6 min 53 s, 0,57 USD. Precheck: tuteo («su» 14, «tu» 80). Muestra de 25: sin errores.
 - Tuteo en los correos al cliente, *email* = «correo electrónico», mayúsculas, glosario; *ticket* = «entrada» (entradas de eventos) en lugar de «billete», *location* = «local» (restaurantes).
 
+## 2026-11-14 · Haiku · ronda 79 (Restora, stable, 324 cadenas) · revisión directa de producción
+
+- La descarga dio HTTP 429 (demasiadas peticiones) en la primera sesión; funcionó al tercer intento, con 2 minutos entre intentos. El sitio estaba saturado.
+- 5 decisiones (3 dudas), 1 min 44 s, 0,03 USD. Precheck limpio.
+- Quedan 2 cambios: *Next:* = «A continuación:» y «No tienes permisos». Las dudas preguntaban por los nombres de la interfaz de paneles de alojamiento (Plesk, CloudPanel); se dejan como el traductor, en inglés, también el botón *OK*.
+
 ## 2026-11-14 · Haiku · rondas 78 y 80 (readmes de Flux PDF Flip y Restora, stable-readme, 105 y 100 cadenas) · revisión directa de producción
 
 - **78, Flux PDF Flip readme:** 19 cambios, 2 min 3 s, 0,04 USD. Texto omitido en 4 entradas del registro de cambios (una con «límites de payload» inventado), etiquetas *Service/Terms/Privacy* sin traducir, glosario. Auditoría: 4 descartados (*feature* «función» → «característica»; «100 %» → «100%», que en español va con espacio; nombres de opción en minúscula; «lista de primeros pasos»).
