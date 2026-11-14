@@ -158,6 +158,13 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - 179 cambios (15 %), sin dudas. 6 min 53 s, 0,57 USD. Precheck: tuteo («su» 14, «tu» 80). Muestra de 25: sin errores.
 - Tuteo en los correos al cliente, *email* = «correo electrónico», mayúsculas, glosario; *ticket* = «entrada» (entradas de eventos) en lugar de «billete», *location* = «local» (restaurantes).
 
+## 2026-11-14 · Haiku · ronda 81 (Wonli Scroll Storytelling, dev, 953 cadenas) · revisión directa de producción
+
+- 156 decisiones (1 duda), 6 min 14 s, 0,55 USD. Precheck: tuteo («su» 6, «tu» 25), 4 «Desplegar» marcados como latinoamericanos (es válido en España; no se tocan). Haiku dividió las decisiones en tres archivos y las fusionó él mismo.
+- Casi todo es glosario: *scroll* = «desplazamiento», *page builder* = «maquetador», *delete* = «borrar», *media* = «medios», *disable* = «desactivar», *add-on* = «extensión», *check* = «comprobar». Mantuvo «adhesiva» para *sticky* (posición CSS) porque «fijo» chocaría con *fixed*.
+- Auditoría: 1 descartado (reformulación), 6 editados: «50 %» volvía a perder el espacio; espacio en «33 %» y «100 %»; dos frases que repetían «se desplaza… con el desplazamiento».
+- Fallo del validador: «33 % de» da `placeholders ['% o'] != ['% d']`, falso positivo de un porcentaje delante de una palabra.
+
 ## 2026-11-14 · Haiku · ronda 79 (Restora, stable, 324 cadenas) · revisión directa de producción
 
 - La descarga dio HTTP 429 (demasiadas peticiones) en la primera sesión; funcionó al tercer intento, con 2 minutos entre intentos. El sitio estaba saturado.
