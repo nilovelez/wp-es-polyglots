@@ -158,6 +158,14 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - 179 cambios (15 %), sin dudas. 6 min 53 s, 0,57 USD. Precheck: tuteo («su» 14, «tu» 80). Muestra de 25: sin errores.
 - Tuteo en los correos al cliente, *email* = «correo electrónico», mayúsculas, glosario; *ticket* = «entrada» (entradas de eventos) en lugar de «billete», *location* = «local» (restaurantes).
 
+## 2026-11-14 · Haiku · rondas 78 y 80 (readmes de Flux PDF Flip y Restora, stable-readme, 105 y 100 cadenas) · revisión directa de producción
+
+- **78, Flux PDF Flip readme:** 19 cambios, 2 min 3 s, 0,04 USD. Texto omitido en 4 entradas del registro de cambios (una con «límites de payload» inventado), etiquetas *Service/Terms/Privacy* sin traducir, glosario. Auditoría: 4 descartados (*feature* «función» → «característica»; «100 %» → «100%», que en español va con espacio; nombres de opción en minúscula; «lista de primeros pasos»).
+- **80, Restora readme:** 13 decisiones (1 duda), 2 min 35 s, 0,08 USD. Auditoría: 11 descartados, quedan 2 (*hosting* = «alojamiento», *reported* «se notifica» → «se informa»).
+  - 9 de «copia» → «copia de seguridad» en frases donde «copia» es una referencia corta a una copia de seguridad ya nombrada.
+  - Duda de Haiku: *must-use plugins* = «plugins obligatorios»; el núcleo de WordPress en es_ES dice «imprescindibles», como ya estaba.
+  - El auditor descartó también «se notifica» → «se informa» y el revisor lo corrigió: «notificar» es lo que evita *notification* = «aviso», y *report* = «informar».
+
 ## 2026-11-14 · Haiku · ronda 77 (Flux PDF Flip, stable, 916 cadenas) · revisión directa de producción
 
 - La primera sesión se paró sin revisar: la descarga dio HTTP 429 (demasiadas peticiones). Al reintentar unos minutos después, funcionó.
