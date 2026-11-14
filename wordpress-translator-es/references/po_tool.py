@@ -788,7 +788,7 @@ def cmd_precheck(args):
     print(f'glossary alternatives pasted whole (" / " list from the glossary): {len(slashes)}  '
           + ' | '.join(f'#{e["n"]} {tr(e)[:50]!r}' for e in slashes[:4])
           + (' · SEARCH AND REPLACE WITHOUT CARE' if slashes else ''))
-    latam = [e for e in es if re.search(r'\b(computadora?|celular|ingres[ae]|ingresar|video\b|reporte|carro de compras|órdenes|ordenes|'
+    latam = [e for e in es if re.search(r'\b(computadora?|celular|ingres[ae]|ingresar|reporte|carro de compras|órdenes|ordenes|'
                                         r'desplegar|cliquea|clickea|hacer click|qué tan\b)', tr(e), re.I)]
     print(f'Latin American forms: {len(latam)}  ' + ' | '.join(f'#{e["n"]} {tr(e)[:40]!r}' for e in latam[:4]))
     calques = [e for e in es if re.search(r'\b(ha sido|han sido|fue|fueron) \w+(ado|ido|ada|ida)s?\b|\bfalló\b|^Opcionalmente\b', tr(e))]

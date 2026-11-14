@@ -158,6 +158,21 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - 179 cambios (15 %), sin dudas. 6 min 53 s, 0,57 USD. Precheck: tuteo («su» 14, «tu» 80). Muestra de 25: sin errores.
 - Tuteo en los correos al cliente, *email* = «correo electrónico», mayúsculas, glosario; *ticket* = «entrada» (entradas de eventos) en lugar de «billete», *location* = «local» (restaurantes).
 
+## 2026-11-14 · Haiku · ronda 77 (Flux PDF Flip, stable, 916 cadenas) · revisión directa de producción
+
+- La primera sesión se paró sin revisar: la descarga dio HTTP 429 (demasiadas peticiones). Al reintentar unos minutos después, funcionó.
+- 57 cambios, sin dudas. 2 min 39 s, 0,13 USD. Precheck limpio. Traducciones truncadas (5), cambios de sentido, glosario (*hook*, *lightbox*, *warning*, *inline*).
+- Auditoría: 2 descartados (*feature* «función» → «característica»; la nota del glosario admite «función»).
+- El revisor: «video» sin tilde es tan normal en España como «vídeo»; ya no cuenta como forma latinoamericana en el precheck.
+
+## 2026-11-14 · Haiku · ronda 76 (MainWP, stable, 1140 cadenas) · revisión directa de producción
+
+- 108 decisiones (1 duda). 5 min 54 s, 0,73 USD. Precheck limpio (tuteo, «su» 9, «tu» 66). Las decisiones completas quedaron en `decisions_all.jsonl`.
+- Glosario: *delete* = «borrar» (~35), *endpoint* = «endpoint» (no «punto de conexión»), *Enter* (tecla) = «Intro», «supervisión», «obligatorio»; una frase con el sentido invertido.
+- Auditoría: 28 descartados.
+  - 25 de *rollback*: Haiku pasó «revertir / reversión» a «retroceder / retroceso» (glosario). El revisor: en este proyecto se queda «revertir», sin nota en el glosario.
+  - 3 sin error («próxima» → «siguiente», «visita guiada» → «recorrido guiado»).
+
 ## 2026-11-13 · Haiku · ronda 75 (Idesoftbcn AI Product Customizer, stable, 431 cadenas) · revisión directa de producción
 
 - 33 decisiones: 20 cambios y 13 dudas (originales en español: «Ver impresión», «Diseño completo»…; a rechazar hasta que el original esté en inglés). 2 min 22 s, 0,12 USD.
