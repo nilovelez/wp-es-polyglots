@@ -158,6 +158,11 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - 179 cambios (15 %), sin dudas. 6 min 53 s, 0,57 USD. Precheck: tuteo («su» 14, «tu» 80). Muestra de 25: sin errores.
 - Tuteo en los correos al cliente, *email* = «correo electrónico», mayúsculas, glosario; *ticket* = «entrada» (entradas de eventos) en lugar de «billete», *location* = «local» (restaurantes).
 
+## 2026-11-15 · Haiku · rondas 82 y 83 (SEO GEO Watch, stable y stable-readme, 331 y 77 cadenas) · revisión directa de producción
+
+- **82, stable:** 17 decisiones, sin dudas, 1 min 15 s, 0,03 USD. Precheck limpio. *warning* = «advertencia», *sitemap* = «mapa del sitio», *inline* = «integrado», «No tienes permisos», dos «usted» pasados a tuteo. Auditoría: 1 descartado (la URL del autor sin «www» apunta al mismo sitio, no es un error).
+- **83, readme:** 9 decisiones, sin dudas, 1 min 11 s, 0,03 USD. Detectó dos traducciones intercambiadas entre cadenas vecinas; *monitoring* = «seguimiento» / «supervisión», *by default* = «por defecto». Auditoría: nada que descartar.
+
 ## 2026-11-14 · Haiku · ronda 81 (Wonli Scroll Storytelling, dev, 953 cadenas) · revisión directa de producción
 
 - 156 decisiones (1 duda), 6 min 14 s, 0,55 USD. Precheck: tuteo («su» 6, «tu» 25), 4 «Desplegar» marcados como latinoamericanos (es válido en España; no se tocan). Haiku dividió las decisiones en tres archivos y las fusionó él mismo.
