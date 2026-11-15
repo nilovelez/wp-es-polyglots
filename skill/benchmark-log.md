@@ -158,6 +158,13 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - 179 cambios (15 %), sin dudas. 6 min 53 s, 0,57 USD. Precheck: tuteo («su» 14, «tu» 80). Muestra de 25: sin errores.
 - Tuteo en los correos al cliente, *email* = «correo electrónico», mayúsculas, glosario; *ticket* = «entrada» (entradas de eventos) en lugar de «billete», *location* = «local» (restaurantes).
 
+## 2026-11-15 · Haiku · ronda 85 (IBPSports Football Studio, stable, 909 cadenas) · revisión directa de producción
+
+- 24 decisiones (3 dudas), 2 min 17 s, 0,09 USD. Precheck limpio; 97 cadenas idénticas al original son nombres de países.
+- Glosario: *default* = «por defecto», *delete* = «borrar», *header* = «cabecera», *last name* = «Apellidos», *nickname* = «Alias», *meta box* = «caja meta». Abreviatura de *penalties conceded* cambiada a «PPC» porque «PC» ya era *clean sheets*.
+- Auditoría: 4 descartados. *Match report* = «crónica» es el término del dominio y no un error de glosario (el glosario solo veta «reporte»); «busca» por *scans*; «Individual» por *Single*.
+- Duda sin resolver: la abreviatura *A*, junto a *G* y *G+A*, parece «asistencias», pero está traducida «PJ»; Haiku no la cambió.
+
 ## 2026-11-15 · Haiku · ronda 84 (Doubleyoupi Refined Admin Dashboard, dev, 902 cadenas) · revisión directa de producción
 
 - 143 decisiones, sin dudas, 4 min 44 s, 0,36 USD. Precheck limpio (tuteo, «su» 3, «tu» 30). Decisiones en tres archivos que Haiku fusionó.
