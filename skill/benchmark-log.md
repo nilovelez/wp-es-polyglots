@@ -158,6 +158,12 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - 179 cambios (15 %), sin dudas. 6 min 53 s, 0,57 USD. Precheck: tuteo («su» 14, «tu» 80). Muestra de 25: sin errores.
 - Tuteo en los correos al cliente, *email* = «correo electrónico», mayúsculas, glosario; *ticket* = «entrada» (entradas de eventos) en lugar de «billete», *location* = «local» (restaurantes).
 
+## 2026-11-15 · Haiku · ronda 88 (Code Snippets, stable, 140 cadenas) · revisión directa de producción
+
+- 27 decisiones, sin dudas, 1 min 44 s, 0,03 USD. Precheck limpio.
+- Glosario: *scan* = «exploración» / «explorar» (16 cadenas), *delete* = «borrar», *retrieve* = «recuperar», *release candidate* = «versión candidata», *clear cache* = «vaciar», *front-end* = «vista pública», *Welcome* = «Te damos la bienvenida».
+- Auditoría: 2 descartados («en lote» cabe en la nota de *bulk*; «por duplicado» es válido).
+
 ## 2026-11-15 · Haiku · ronda 87 (SurveyNinja, stable, 353 cadenas) · revisión directa de producción
 
 - 17 decisiones (1 duda), 1 min 19 s, 0,03 USD. Precheck limpio (tuteo, «su» 2, «tu» 37).
