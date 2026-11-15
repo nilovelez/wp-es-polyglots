@@ -158,6 +158,12 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - 179 cambios (15 %), sin dudas. 6 min 53 s, 0,57 USD. Precheck: tuteo («su» 14, «tu» 80). Muestra de 25: sin errores.
 - Tuteo en los correos al cliente, *email* = «correo electrónico», mayúsculas, glosario; *ticket* = «entrada» (entradas de eventos) en lugar de «billete», *location* = «local» (restaurantes).
 
+## 2026-11-15 · Haiku · ronda 84 (Doubleyoupi Refined Admin Dashboard, dev, 902 cadenas) · revisión directa de producción
+
+- 143 decisiones, sin dudas, 4 min 44 s, 0,36 USD. Precheck limpio (tuteo, «su» 3, «tu» 30). Decisiones en tres archivos que Haiku fusionó.
+- Glosario aplicado con buen criterio: *notification* = «aviso», *role* = «perfil», *login* = «acceso», *delete* = «borrar», *remove* = «quitar», *scan* = «explorar», *suite* = «solución completa», *stock* = «inventario», *toggle* = «conmutador», *shortcut* = «atajo», *Welcome* = «Te damos la bienvenida»; espacios dentro de « » y un «Podéis» por «Puedes».
+- Auditoría: 2 descartados (*admin email* sigue como «correo de administración», como en el núcleo; «la última copia» es una referencia corta) y 2 editados (el mismo «correo de administración» en otra cadena; «Tus ajustes se mantienen por defecto» cambiaba el sentido).
+
 ## 2026-11-15 · Haiku · rondas 82 y 83 (SEO GEO Watch, stable y stable-readme, 331 y 77 cadenas) · revisión directa de producción
 
 - **82, stable:** 17 decisiones, sin dudas, 1 min 15 s, 0,03 USD. Precheck limpio. *warning* = «advertencia», *sitemap* = «mapa del sitio», *inline* = «integrado», «No tienes permisos», dos «usted» pasados a tuteo. Auditoría: 1 descartado (la URL del autor sin «www» apunta al mismo sitio, no es un error).
