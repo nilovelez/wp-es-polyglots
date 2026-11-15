@@ -158,6 +158,12 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - 179 cambios (15 %), sin dudas. 6 min 53 s, 0,57 USD. Precheck: tuteo («su» 14, «tu» 80). Muestra de 25: sin errores.
 - Tuteo en los correos al cliente, *email* = «correo electrónico», mayúsculas, glosario; *ticket* = «entrada» (entradas de eventos) en lugar de «billete», *location* = «local» (restaurantes).
 
+## 2026-11-15 · Haiku · ronda 86 (Redorzo Multilingual Translation, stable, 854 cadenas) · revisión directa de producción
+
+- 11 decisiones, sin dudas, 2 min 2 s, 0,12 USD. Precheck limpio (tuteo, «su» 16, «tu» 171).
+- Glosario: *Welcome* = «Te damos la bienvenida», «No tienes permisos», *delete* = «borrar», *logged in* = «conectado», *shortcut* = «atajo», *content* = «contenido» (sin plural).
+- Auditoría: 1 descartado. Haiku no leyó el contexto de la cadena (idioma como adjetivo femenino) y cambió «brasileña» por «portuguesa de Brasil».
+
 ## 2026-11-15 · Haiku · ronda 85 (IBPSports Football Studio, stable, 909 cadenas) · revisión directa de producción
 
 - 24 decisiones (3 dudas), 2 min 17 s, 0,09 USD. Precheck limpio; 97 cadenas idénticas al original son nombres de países.
