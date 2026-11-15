@@ -158,6 +158,12 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - 179 cambios (15 %), sin dudas. 6 min 53 s, 0,57 USD. Precheck: tuteo («su» 14, «tu» 80). Muestra de 25: sin errores.
 - Tuteo en los correos al cliente, *email* = «correo electrónico», mayúsculas, glosario; *ticket* = «entrada» (entradas de eventos) en lugar de «billete», *location* = «local» (restaurantes).
 
+## 2026-11-15 · Haiku · ronda 87 (SurveyNinja, stable, 353 cadenas) · revisión directa de producción
+
+- 17 decisiones (1 duda), 1 min 19 s, 0,03 USD. Precheck limpio (tuteo, «su» 2, «tu» 37).
+- Glosario y guía: «No tienes permisos», *sign in* = «acceder», *delete* = «borrar», *heading* = «encabezado», *embed* = «incrustar», *email* = «correo electrónico», *lead* = «cliente potencial», «n.º %d» vuelve a «#%d».
+- Auditoría: 1 descartado, la duda. *Role* en el espacio de trabajo del servicio externo: la nota del glosario pide el nombre de su interfaz, que no conocemos, así que se queda el «rol» del traductor.
+
 ## 2026-11-15 · Haiku · ronda 86 (Redorzo Multilingual Translation, stable, 854 cadenas) · revisión directa de producción
 
 - 11 decisiones, sin dudas, 2 min 2 s, 0,12 USD. Precheck limpio (tuteo, «su» 16, «tu» 171).
