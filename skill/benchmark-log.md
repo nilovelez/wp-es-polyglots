@@ -158,6 +158,13 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - 179 cambios (15 %), sin dudas. 6 min 53 s, 0,57 USD. Precheck: tuteo («su» 14, «tu» 80). Muestra de 25: sin errores.
 - Tuteo en los correos al cliente, *email* = «correo electrónico», mayúsculas, glosario; *ticket* = «entrada» (entradas de eventos) en lugar de «billete», *location* = «local» (restaurantes).
 
+## 2026-11-16 · Haiku · rondas 92 a 94 (Maintained Log, Polski y FormRevive for Contact Form 7, stable) · revisión directa de producción
+
+- **92, Maintained Log:** 28 decisiones, sin dudas, 2 min 51 s, 0,18 USD. Glosario: *next* = «siguiente», *rating* = «puntuación», *item* = «elemento», *feed* = «feed», *rollback* = «retroceder». Auditoría: 6 descartados («Obligatoria» concuerda con «clave»; URL de ejemplo localizada; «verificaciones», «sitio real», «estado inicial» y una reformulación son válidos).
+- **93, Polski:** 114 decisiones, sin dudas, 5 min 29 s, 0,45 USD. Tienda polaca con textos legales de desistimiento en «usted» (modelo oficial): pasados a tuteo, según la guía. «n.º» → «#», comillas «», *bundle* = «lote», *hook* = «gancho», *lightbox* = «caja de luz», *marketplace* = «mercado». Auditoría: 27 descartados y 3 editados. *report* en la DSA es una denuncia de contenido ilegal: «Estás informando» / «contenido informado» no tienen sentido (11); *inline SVG* es «SVG en línea»; «revisa tu carpeta de spam», «vuelve a estar disponible», «sin definir» y «Borrar filtros» son válidos.
+- **94, FormRevive:** 43 decisiones (2 dudas), 2 min 45 s, 0,17 USD. Glosario: *site* = «sitio», *add-on* = «extensión», *placeholder* = «marcador de posición», *ticket* = «tique», *mapping* = «asignación». Auditoría: 14 descartados y 1 editado: «correo» corto, «revisar» por *check*, «web» por *website*, «Distribución», «Informe de error».
+- Haiku sigue convirtiendo *check* en «comprobar» y *email* en «correo electrónico» aunque la forma corta sea correcta.
+
 ## 2026-11-16 · Haiku · ronda 91 (Doubles Rotation Tournament, dev, 979 cadenas) · revisión directa de producción
 
 - 29 decisiones (1 duda, sin cambio), 2 min 48 s, 0,19 USD. Traducción buena. Glosario: *default* = «por defecto», *nickname* = «alias», *tour* = «recorrido», *review* = «valoración», *rating* = «puntuación», *sorry* = «lo siento», *role* = «perfil»; el nombre del plugin, sin traducir.
