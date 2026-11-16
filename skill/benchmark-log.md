@@ -158,6 +158,16 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - 179 cambios (15 %), sin dudas. 6 min 53 s, 0,57 USD. Precheck: tuteo («su» 14, «tu» 80). Muestra de 25: sin errores.
 - Tuteo en los correos al cliente, *email* = «correo electrónico», mayúsculas, glosario; *ticket* = «entrada» (entradas de eventos) en lugar de «billete», *location* = «local» (restaurantes).
 
+## 2026-11-16 · Haiku · rondas 100 a 102 (Meta: Contributor Toolkit, Pattern Directory y WordCamp, 43, 40 y 34 cadenas sin traducir) · traducción, entrenamiento · sesiones aisladas
+
+- 57 s, 50 s y 45 s; 0,021, 0,020 y 0,017 USD. Contexto máximo de 52 000 a 56 000. 0 problemas en el build.
+- Auditoría completa, comparando con las traducciones ya aprobadas en cada proyecto (exportadas de GlotPress): 9, 12 y 2 cadenas corregidas.
+- **Fallo principal: Haiku no consultó las traducciones existentes del proyecto.** Inventó términos que el proyecto ya tenía fijados: *pull request* = «solicitud de cambios» (el proyecto dice «pull request», femenino) y el botón *Check out a pull request* = «Descargar una solicitud de cambios» (ya traducido como «Cambiar a una pull request»); *Open in* = «Abrir en» (el proyecto: «Abrir con»); *unlist* = «despublicar» (el proyecto: «quitar de la lista»); *meetup* = «reunión» (el proyecto: «meetup»). Dos de esas cadenas las marcó como duda, cuando la respuesta estaba en el propio proyecto.
+- PhpStorm no tiene interfaz en español: sus menús se dejan en inglés (Haiku los tradujo y lo marcó como duda).
+- Elementos de lista que completan «el tuyo debe:» traducidos en imperativo dirigido al usuario («Ten un título…», «Sé único») en vez de en infinitivo con el patrón como sujeto.
+- *parent* = «superior», como en el núcleo, no «elemento padre». «Detiene en los puntos de interrupción» sin complemento.
+- Candidato: la skill de proyectos de GlotPress debería exportar las traducciones existentes del proyecto y buscar en ellas los términos y nombres de botones antes de traducir.
+
 ## 2026-11-16 · Haiku · rondas 95 a 99 (QuoteLane, Morada Nómade Content Wall, PVS AI Voice, Runline y EnsoMedia Security, dev) · revisión directa de producción
 
 - Tres rondas dejaron el trabajo en una subcarpeta (`waiting/`, `work/`) y el recolector no encontró `original.po`; en la 95, `decisions.jsonl` era solo el primer tramo y el completo estaba en `decisions-all.jsonl`.
