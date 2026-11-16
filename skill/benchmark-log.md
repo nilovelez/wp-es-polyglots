@@ -158,6 +158,11 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - 179 cambios (15 %), sin dudas. 6 min 53 s, 0,57 USD. Precheck: tuteo («su» 14, «tu» 80). Muestra de 25: sin errores.
 - Tuteo en los correos al cliente, *email* = «correo electrónico», mayúsculas, glosario; *ticket* = «entrada» (entradas de eventos) en lugar de «billete», *location* = «local» (restaurantes).
 
+## 2026-11-16 · Haiku · ronda 91 (Doubles Rotation Tournament, dev, 979 cadenas) · revisión directa de producción
+
+- 29 decisiones (1 duda, sin cambio), 2 min 48 s, 0,19 USD. Traducción buena. Glosario: *default* = «por defecto», *nickname* = «alias», *tour* = «recorrido», *review* = «valoración», *rating* = «puntuación», *sorry* = «lo siento», *role* = «perfil»; el nombre del plugin, sin traducir.
+- Auditoría: 4 descartados («sitio» por *website*; «No se puede» por *Unable to* ×2; *players logged in* en un torneo son los «inscritos», no los «conectados»). Quedan 25 cambios.
+
 ## 2026-11-16 · Haiku · rondas 89 y 90 (Incode Translate Master, stable y stable-readme, 507 y 192 cadenas) · revisión directa de producción
 
 - **89, stable:** 77 decisiones, sin dudas, 2 min 45 s, 0,14 USD. Precheck: tuteo; 7 «reporte» marcados como latinoamericanos. Glosario: *site* = «sitio» (no «web»), *report* = «informe» / «informar», *scan* = «explorar», *delete* = «borrar», *clear cache* = «vaciar», *Dashboard* = «Escritorio»; plural vacío rellenado. Auditoría: 4 descartados («Antiguo» por *Legacy*; *inline* como estilo del selector es «En línea», no «Integrado»; «WP Translator» es el perfil de usuario que crea el plugin, no un nombre de producto, y «Traductor WP» es correcto: se nos coló a Haiku y a la auditoría, y lo vio el revisor) y 1 editado.
