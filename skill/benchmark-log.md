@@ -166,7 +166,7 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - PhpStorm no tiene interfaz en español: sus menús se dejan en inglés (Haiku los tradujo y lo marcó como duda).
 - Elementos de lista que completan «el tuyo debe:» traducidos en imperativo dirigido al usuario («Ten un título…», «Sé único») en vez de en infinitivo con el patrón como sujeto.
 - *parent* = «superior», como en el núcleo, no «elemento padre». «Detiene en los puntos de interrupción» sin complemento.
-- Candidato: la skill de proyectos de GlotPress debería exportar las traducciones existentes del proyecto y buscar en ellas los términos y nombres de botones antes de traducir.
+- Descartado: exportar las traducciones existentes del proyecto para consultarlas. El coste es desproporcionado (bajar mil cadenas para traducir veinte); la coherencia con el proyecto la revisa el editor.
 
 ## 2026-11-16 · Haiku · rondas 95 a 99 (QuoteLane, Morada Nómade Content Wall, PVS AI Voice, Runline y EnsoMedia Security, dev) · revisión directa de producción
 
