@@ -163,7 +163,7 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - **103:** 17 cambios, sin dudas. 3 min 2 s, 0,16 USD. Precheck limpio: tuteo, 104 idénticas (países). Auditoría: 10 descartados, quedan 7 («n.º» → «#» ×3, «características», «sitio corporativo», «Islas Åland»).
   - Descartes: «revisa» por *check* ×3; «Côte d'Ivoire» (nombre oficial); *estimate* = «presupuesto»; «tipo impositivo», que Haiku cambió por «tasa de impuesto» (en España *tasa* es otra cosa); *Item* = «Concepto» en una tabla de líneas junto a «Importe» (el glosario dice «elemento», pero el contexto manda); una etiqueta de Cloudflare en inglés; una concordancia válida; comillas de un sufijo literal.
 - **104:** 9 cambios. 1 min 27 s, 0,03 USD. Auditoría: 4 descartados («correo» corto ×2, nombres de estilo en mayúscula, «proyecto web»), quedan 5: *builder* = «maquetador» ×4, *star rating* = «puntuación con estrellas».
-  - Duda de Haiku: «maquetador de formularios» suena raro para *form builder*; aplicó el glosario.
+  - Duda de Haiku: «maquetador de formularios» suena raro para *form builder*; aplicó el glosario. El revisor lo confirma: «maquetador» es cualquier herramienta que permite cambiar la disposición de los elementos de un diseño, también de un formulario.
 
 ## 2026-11-16 · Haiku · rondas 100 a 102 (Meta: Contributor Toolkit, Pattern Directory y WordCamp, 43, 40 y 34 cadenas sin traducir) · traducción, entrenamiento · sesiones aisladas
 
