@@ -158,6 +158,12 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - 179 cambios (15 %), sin dudas. 6 min 53 s, 0,57 USD. Precheck: tuteo («su» 14, «tu» 80). Muestra de 25: sin errores.
 - Tuteo en los correos al cliente, *email* = «correo electrónico», mayúsculas, glosario; *ticket* = «entrada» (entradas de eventos) en lugar de «billete», *location* = «local» (restaurantes).
 
+## 2026-11-16 · Haiku · rondas 89 y 90 (Incode Translate Master, stable y stable-readme, 507 y 192 cadenas) · revisión directa de producción
+
+- **89, stable:** 77 decisiones, sin dudas, 2 min 45 s, 0,14 USD. Precheck: tuteo; 7 «reporte» marcados como latinoamericanos. Glosario: *site* = «sitio» (no «web»), *report* = «informe» / «informar», *scan* = «explorar», *delete* = «borrar», *clear cache* = «vaciar», *Dashboard* = «Escritorio»; plural vacío rellenado. Auditoría: 3 descartados («Antiguo» por *Legacy*; *inline* como estilo del selector es «En línea», no «Integrado») y 1 editado.
+- **90, readme:** 69 decisiones (2 dudas), 4 min 47 s, 0,14 USD. Erratas «se qan» / «se qa» (por «quedaban» / «queda») en 5 cadenas. Auditoría: 16 descartados y 4 editados. *canonical* = «canónica» es el término SEO habitual; *inline* otra vez; dos nombres de la interfaz se dejan como en el plugin («Eliminar absolutamente todo», «Auto-traducir al guardar»); el nombre del autor con tilde y una URL de ejemplo traducida no son errores; reformulaciones.
+- Haiku aplica *inline* = «integrado» sin mirar el sentido: como disposición («en línea») no encaja.
+
 ## 2026-11-15 · Haiku · ronda 88 (Code Snippets, stable, 140 cadenas) · revisión directa de producción
 
 - 27 decisiones, sin dudas, 1 min 44 s, 0,03 USD. Precheck limpio.
