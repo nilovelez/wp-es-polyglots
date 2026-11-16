@@ -158,6 +158,15 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - 179 cambios (15 %), sin dudas. 6 min 53 s, 0,57 USD. Precheck: tuteo («su» 14, «tu» 80). Muestra de 25: sin errores.
 - Tuteo en los correos al cliente, *email* = «correo electrónico», mayúsculas, glosario; *ticket* = «entrada» (entradas de eventos) en lugar de «billete», *location* = «local» (restaurantes).
 
+## 2026-11-16 · Haiku · rondas 95 a 99 (QuoteLane, Morada Nómade Content Wall, PVS AI Voice, Runline y EnsoMedia Security, dev) · revisión directa de producción
+
+- Tres rondas dejaron el trabajo en una subcarpeta (`waiting/`, `work/`) y el recolector no encontró `original.po`; en la 95, `decisions.jsonl` era solo el primer tramo y el completo estaba en `decisions-all.jsonl`.
+- **95, QuoteLane (921):** 101 decisiones, 3 min 48 s, 0,31 USD. «n.º» → «#», *tax* = «impuestos» (no «IVA»), *fee* = «cuota», *expired* = «caducado», *stock* = «existencias». Auditoría: 22 descartados («correo» corto ×18, «Disponibles», «tienda», «Pon») y 1 editado.
+- **96, Morada Nómade Content Wall (846):** 250 decisiones (30 %), 4 min 18 s, 0,30 USD. Traducción mala: usted y tú mezclados, restos en inglés («Menu», «Snapshot», «Card», «Powered by»), «de el», concordancias rotas. *snapshot* = «instantánea», *post* = «entrada». Auditoría: 2 descartados y 3 editados. Candidata a rechazo.
+- **97, PVS AI Voice (837):** 121 decisiones, 2 min 55 s, 0,23 USD. Unas 60 cadenas en usted entre el resto en tú. *authentication* = «identificación», *prompt* = «instrucción», *trial* = «periodo de prueba». Auditoría: 2 descartados y 2 editados (Haiku pasó «su configuración» del widget a «tu»).
+- **98, Runline (729):** 70 decisiones, 3 min 48 s, 0,26 USD. *site* = «sitio», *sale* = «oferta», *timer* = «temporizador», «e-mail» → «correo». Auditoría: 4 descartados y 2 editados (*bottom of* → «parte inferior», no «debajo de»).
+- **99, EnsoMedia Security (722):** 256 decisiones, 6 min 17 s, 0,58 USD. *authentication* = «identificación», *role* = «perfil», *malicious* = «malintencionado», *hosting* = «alojamiento», *Dashboard* = «Escritorio». Auditoría: 4 descartados y 9 editados. Haiku cambió «habéis» / «conocéis» por «han» / «conocen» (ustedes): error de variante que hay que vigilar.
+
 ## 2026-11-16 · Haiku · rondas 92 a 94 (Maintained Log, Polski y FormRevive for Contact Form 7, stable) · revisión directa de producción
 
 - **92, Maintained Log:** 28 decisiones, sin dudas, 2 min 51 s, 0,18 USD. Glosario: *next* = «siguiente», *rating* = «puntuación», *item* = «elemento», *feed* = «feed», *rollback* = «retroceder». Auditoría: 6 descartados («Obligatoria» concuerda con «clave»; URL de ejemplo localizada; «verificaciones», «sitio real», «estado inicial» y una reformulación son válidos).
