@@ -158,6 +158,15 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - 179 cambios (15 %), sin dudas. 6 min 53 s, 0,57 USD. Precheck: tuteo («su» 14, «tu» 80). Muestra de 25: sin errores.
 - Tuteo en los correos al cliente, *email* = «correo electrónico», mayúsculas, glosario; *ticket* = «entrada» (entradas de eventos) en lugar de «billete», *location* = «local» (restaurantes).
 
+## 2026-11-17 · Haiku · ronda 107 (LAFU Tables, dev, 705 cadenas) · revisión directa de producción
+
+- 39 cambios, sin dudas, 2 min 18 s, 0,13 USD. Precheck limpio (tuteo, «su» 0, «tu» 16). Buena traducción; fallos de glosario sueltos: *role* = «rol», *rating* = «valoración», *link* = «vincular», *hosting*, *embed*, *default*.
+- Haiku dejó el trabajo en una carpeta de trabajo propia; el recolector la trajo, pero en una subcarpeta.
+- Auditoría: 12 descartados y 1 editado; quedan 27.
+  - *layout* = «maquetación» ×6: Haiku lo cambió a «diseño» diciendo que era el glosario, pero el glosario da varias opciones y «tablas de maquetación» es el término preciso para tablas que solo sirven para colocar contenido. *Layout builder* = «Maquetador» (editado; Haiku puso «Editor de diseño»).
+  - «Google Sheets» como marca ×3 (Haiku puso «Hojas de cálculo de Google»).
+  - «Por qué columnas pueden ordenar y filtrar» es correcto; el cambio de Haiku («Qué columnas pueden ordenar») cambiaba el sentido. Más una concordancia válida y una reformulación.
+
 ## 2026-11-17 · Haiku · ronda 106 (BotBlocker Security, dev, 2565 cadenas) · revisión directa de producción · rechazada entera
 
 - Haiku paró tras el precheck y preguntó, como pide la skill: 21 s, 0,008 USD. `FORMAL REGISTER THROUGHOUT` («su» 85, «tu» 0; usted en 50 cadenas) y `SEARCH AND REPLACE WITHOUT CARE` (37 cadenas con alternativas del glosario pegadas, como «debe ser quitar / eliminar»). Es el mismo plugin rechazado en la ronda 65, con los mismos problemas.
