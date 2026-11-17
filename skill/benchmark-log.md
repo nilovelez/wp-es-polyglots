@@ -165,6 +165,8 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
   - Descartes: «revisar» por *check* ×5; «no se puede escribir» / «no permite escritura» ×4; «colación» ×2; «ciclo» por *tick*; «no admitidos»; nombres de método de API en inglés entre paréntesis ×2; un espacio antes de los puntos suspensivos; *take over* = «asumir», que dejaba «Asumir solo es posible…» y «asumir la carpeta» en vez de «Tomar el control» y «apropiarse de la carpeta».
   - Duda de Haiku resuelta con el menú: la página *Backup* se llama «Copia de seguridad»; añadida también «Abrir la página Copia», que tenía el mismo problema.
 - Haiku señaló *drop-in* = «dependientes» (glosario) como dudoso; aplicado.
+- Equipo: *check* también admite «revisar», y *writable*, «se puede escribir» / «permite escritura» (añadido a `glossary-overrides.csv`). Eran los descartes más repetidos.
+- Candidato: *Restore page* = «página de restauración» es correcto (texto del enlace a la página, en `lifecycle.php`; otra cadena del mismo archivo lleva el comentario «%s: the link to the Restore page»). Haiku lo aprobó, pero no se sabe si comprobó el contexto o lo aprobó porque se leía bien. En etiquetas cortas con dos lecturas (verbo + sustantivo), si la traducción elige la menos obvia, mirar los comentarios y las cadenas vecinas, y si no queda claro, marcarla como duda.
 
 ## 2026-11-16 · Haiku · rondas 103 y 104 (Mammoth Forms, stable y stable-readme, 960 y 75 cadenas) · revisión directa de producción
 
