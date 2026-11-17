@@ -66,8 +66,6 @@ category,categoría,noun,
 changelog,registro de cambios,noun,
 changeset,grupo de cambios,noun,
 Cheatin’ uh?,"Haciendo trampas, ¿eh?",expression,
-check,marcar / comprobar,verb,Dependiendo del contexto. Por ejemplo: marcar una casilla / comprobar un ajuste
-check,cheque,noun,"En comercio, como medio de pago."
 checkbox,casilla de verificación,noun,
 checkout,finalizar compra / pago,noun,"Cuando se refiere a la página de pagos es «Finalizar compra», sino traducir como pago/s, por ejemplo «El cliente procede al pago»"
 click,clic,noun,
@@ -485,7 +483,6 @@ widget,widget,noun,No se traduce
 wizard,asistente,noun,
 worth,valor,adverb,
 wrapper,envoltura,noun,Se refiere a la envoltura alrededor de las imágenes que funciona como margen de las mismas
-writable,tener permisos de escritura,expression,
 XML-RPC,XML-RPC,noun,No se traduce
 yearly archive,archivo anual,noun,
 zoom in,ampliar / acercar,noun,
@@ -509,3 +506,6 @@ Dashboard,Escritorio,noun,"No utilizar «tablero» o «panel de control». Es el
 role,perfil,noun,NO usar «rol». Es el nombre de WordPress; los roles de un servicio externo usan el nombre de su interfaz en español («rol: Lector» en Google Analytics).
 social media,redes sociales,expression,En español de España lo normal es «redes sociales».
 playground,zona de pruebas,noun,"WordPress Playground (el producto) no se traduce: «Playground», «el servidor web de Playground»."
+check,marcar / comprobar / revisar,verb,"Según el contexto: marcar una casilla, comprobar un ajuste. «Revisar» también es correcto (revisa los campos, revisa el registro): no cambiarlo por «comprobar»."
+check,cheque,noun,"En comercio, como medio de pago."
+writable,tener permisos de escritura,expression,"También son correctas «se puede escribir» y «permite escritura» (no se puede escribir en la carpeta, la carpeta no permite escritura): no cambiarlas. No usar «escribible»."
