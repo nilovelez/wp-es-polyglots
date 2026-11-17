@@ -158,6 +158,14 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - 179 cambios (15 %), sin dudas. 6 min 53 s, 0,57 USD. Precheck: tuteo («su» 14, «tu» 80). Muestra de 25: sin errores.
 - Tuteo en los correos al cliente, *email* = «correo electrónico», mayúsculas, glosario; *ticket* = «entrada» (entradas de eventos) en lugar de «billete», *location* = «local» (restaurantes).
 
+## 2026-11-17 · Haiku · ronda 105 (cloneworx Backup, dev, 1205 cadenas) · revisión directa de producción
+
+- 90 decisiones (1 duda), 4 min 12 s, 0,31 USD. Precheck limpio: tuteo («su» 5, «tu» 25), sin usted ni formas latinoamericanas. Buena traducción con los fallos habituales de glosario: *delete* = «eliminar», *notification* = «notificación», *default* = «predeterminado», *log in* = «iniciar sesión», «restore», «undo» y «keep» sin traducir.
+- Auditoría: 18 descartados y 3 editados; quedan 73.
+  - Descartes: «revisar» por *check* ×5; «no se puede escribir» / «no permite escritura» ×4; «colación» ×2; «ciclo» por *tick*; «no admitidos»; nombres de método de API en inglés entre paréntesis ×2; un espacio antes de los puntos suspensivos; *take over* = «asumir», que dejaba «Asumir solo es posible…» y «asumir la carpeta» en vez de «Tomar el control» y «apropiarse de la carpeta».
+  - Duda de Haiku resuelta con el menú: la página *Backup* se llama «Copia de seguridad»; añadida también «Abrir la página Copia», que tenía el mismo problema.
+- Haiku señaló *drop-in* = «dependientes» (glosario) como dudoso; aplicado.
+
 ## 2026-11-16 · Haiku · rondas 103 y 104 (Mammoth Forms, stable y stable-readme, 960 y 75 cadenas) · revisión directa de producción
 
 - **103:** 17 cambios, sin dudas. 3 min 2 s, 0,16 USD. Precheck limpio: tuteo, 104 idénticas (países). Auditoría: 10 descartados, quedan 7 («n.º» → «#» ×3, «características», «sitio corporativo», «Islas Åland»).
