@@ -158,6 +158,15 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - 179 cambios (15 %), sin dudas. 6 min 53 s, 0,57 USD. Precheck: tuteo («su» 14, «tu» 80). Muestra de 25: sin errores.
 - Tuteo en los correos al cliente, *email* = «correo electrónico», mayúsculas, glosario; *ticket* = «entrada» (entradas de eventos) en lugar de «billete», *location* = «local» (restaurantes).
 
+## 2026-11-18 · Haiku · ronda 108 (CultDevOps Redirects & 404 Monitor, dev, 622 cadenas) · revisión directa de producción
+
+- 28 cambios, sin dudas, 2 min 49 s, 0,23 USD. Precheck limpio (tuteo: «su» 12, «tu» 110). Buena traducción; glosario: *FAQ* sin traducir, *skip* = «omitir», *role* = «perfil», *scan* = «explorar», *sale* = «oferta», *upgrade* (plan) = «mejorar», *tidy* = «limpiar» (no «ordenar»).
+- Auditoría: 10 descartados; quedan 18.
+  - «Ajustes, Lectura» → «Ajustes > Lectura» ×4: el original escribe la ruta con coma y la traducción lo sigue.
+  - *Turning it off can take months to undo*: «Desactivarlo puede tardar meses en surtir efecto» era correcto; Haiku lo cambió a «Deshacerlo puede llevar meses», que pierde que lo que tarda es desactivarlo.
+  - Haiku añadió «(la versión segura)», que no está en el original. Más «pantalla de plugins» ×2 y «correo» corto ×2.
+- Haiku dejó *Sitemap:* en inglés en tres cadenas por ser una directiva de robots.txt, como `User-agent` y `Disallow`: correcto.
+
 ## 2026-11-17 · Haiku · ronda 107 (LAFU Tables, dev, 705 cadenas) · revisión directa de producción
 
 - 39 cambios, sin dudas, 2 min 18 s, 0,13 USD. Precheck limpio (tuteo, «su» 0, «tu» 16). Buena traducción; fallos de glosario sueltos: *role* = «rol», *rating* = «valoración», *link* = «vincular», *hosting*, *embed*, *default*.
