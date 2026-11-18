@@ -158,6 +158,12 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - 179 cambios (15 %), sin dudas. 6 min 53 s, 0,57 USD. Precheck: tuteo («su» 14, «tu» 80). Muestra de 25: sin errores.
 - Tuteo en los correos al cliente, *email* = «correo electrónico», mayúsculas, glosario; *ticket* = «entrada» (entradas de eventos) en lugar de «billete», *location* = «local» (restaurantes).
 
+## 2026-11-18 · Haiku · ronda 109 (LivEdit AI Agent, dev, 333 cadenas) · revisión directa de producción · rechazada entera
+
+- 34 cambios y 1 duda, 2 min 7 s, 0,04 USD. Tuteo con usted mezclado en 11 cadenas («Cámbielos», «abra», «contrate», «Inténtelo», «Suscríbase», «Revíselo»…); Haiku las corrigió todas. Además, glosario: *trial* = «prueba» ×7, *heading* = «titular», *padding* = «margen» ×5, *backend* sin traducir ×6.
+- El auditor propuso el rechazo por el usted mezclado y el revisor rechazó el lote entero.
+- Fallo del precheck: dijo «usted forms in 0 strings» porque no detecta el imperativo de usted (abra, contrate, inténtelo, cópielo). Candidato a mejora de `po_tool.py precheck`.
+
 ## 2026-11-18 · Haiku · ronda 108 (CultDevOps Redirects & 404 Monitor, dev, 622 cadenas) · revisión directa de producción
 
 - 28 cambios, sin dudas, 2 min 49 s, 0,23 USD. Precheck limpio (tuteo: «su» 12, «tu» 110). Buena traducción; glosario: *FAQ* sin traducir, *skip* = «omitir», *role* = «perfil», *scan* = «explorar», *sale* = «oferta», *upgrade* (plan) = «mejorar», *tidy* = «limpiar» (no «ordenar»).
