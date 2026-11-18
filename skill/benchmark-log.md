@@ -158,6 +158,15 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - 179 cambios (15 %), sin dudas. 6 min 53 s, 0,57 USD. Precheck: tuteo («su» 14, «tu» 80). Muestra de 25: sin errores.
 - Tuteo en los correos al cliente, *email* = «correo electrónico», mayúsculas, glosario; *ticket* = «entrada» (entradas de eventos) en lugar de «billete», *location* = «local» (restaurantes).
 
+## 2026-11-18 · Haiku · ronda 110 (Writrex AI Local SEO Pages, stable, 703 cadenas) · revisión directa de producción
+
+- 20 decisiones (1 duda), 2 min 54 s, 0,18 USD. Precheck limpio (tuteo: «su» 5, «tu» 74). Traducción buena y cuidada.
+- Auditoría: 12 descartados; quedan 8 (título del plugin traducido ×2, «únicamente» → «solo» ×3, *streaming* = «transmisión», «#» por «n.º», *cleared* = «vaciado»).
+  - *meta description* / *meta title* ×6: Haiku los tradujo («meta descripción») diciendo que lo pedía el glosario, pero el glosario dice «No traducir». El traductor tenía razón. Fallo de lectura del glosario.
+  - *endpoint* ×2: Haiku cambió «punto de acceso» por «endpoint» citando el glosario, cuya entrada (variable) es otro sentido.
+  - *AI Overviews*: el traductor usó un nombre en español plausible («Vistas creadas con IA»); dejarlo en inglés no mejora nada.
+  - «no se inventa», «Función» en la tabla de comparación (el glosario la admite) y «offer» en minúscula como en el original.
+
 ## 2026-11-18 · Haiku · ronda 109 (LivEdit AI Agent, dev, 333 cadenas) · revisión directa de producción · rechazada entera
 
 - 34 cambios y 1 duda, 2 min 7 s, 0,04 USD. Tuteo con usted mezclado en 11 cadenas («Cámbielos», «abra», «contrate», «Inténtelo», «Suscríbase», «Revíselo»…); Haiku las corrigió todas. Además, glosario: *trial* = «prueba» ×7, *heading* = «titular», *padding* = «margen» ×5, *backend* sin traducir ×6.
