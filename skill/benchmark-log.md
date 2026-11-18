@@ -158,6 +158,13 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - 179 cambios (15 %), sin dudas. 6 min 53 s, 0,57 USD. Precheck: tuteo («su» 14, «tu» 80). Muestra de 25: sin errores.
 - Tuteo en los correos al cliente, *email* = «correo electrónico», mayúsculas, glosario; *ticket* = «entrada» (entradas de eventos) en lugar de «billete», *location* = «local» (restaurantes).
 
+## 2026-11-18 · Haiku · ronda 111 (Effortless Simple House Booking, dev, 272 cadenas) · revisión directa de producción · rechazada entera
+
+- 91 cambios (33 %), sin dudas, 2 min 28 s, 0,09 USD. Precheck: tuteo («su» 1, «tu» 22), usted en 2 cadenas, 6 pasivas.
+- Glosario ignorado en todo el lote (*tour* sin traducir ~45, «eliminar», «configuración», «notificación», «rol», «predeterminado», «habilitar») y además: texto pegado dos veces en 5 cadenas (a veces una versión con usted y otra con tuteo), *slot* sin término fijo («Rango», «Franja», «Horario»), mayúsculas a la inglesa, «inválido», pasivas. Traducción automática revisada por encima.
+- El auditor propuso el rechazo y el revisor rechazó el lote entero.
+- Haiku cambió *tour* por «recorrido»; para visitas guiadas a una casa encaja mejor «visita».
+
 ## 2026-11-18 · Haiku · ronda 110 (Writrex AI Local SEO Pages, stable, 703 cadenas) · revisión directa de producción
 
 - 20 decisiones (1 duda), 2 min 54 s, 0,18 USD. Precheck limpio (tuteo: «su» 5, «tu» 74). Traducción buena y cuidada.
