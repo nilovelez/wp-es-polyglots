@@ -158,6 +158,11 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - 179 cambios (15 %), sin dudas. 6 min 53 s, 0,57 USD. Precheck: tuteo («su» 14, «tu» 80). Muestra de 25: sin errores.
 - Tuteo en los correos al cliente, *email* = «correo electrónico», mayúsculas, glosario; *ticket* = «entrada» (entradas de eventos) en lugar de «billete», *location* = «local» (restaurantes).
 
+## 2026-11-18 · Haiku · ronda 112 (WDOnline Product CSV Manager for WooCommerce, stable, 259 cadenas) · revisión directa de producción
+
+- 14 cambios, sin dudas, 1 min 17 s, 0,03 USD. Precheck limpio (tuteo: «su» 0, «tu» 8). Traducción buena; solo glosario: *delete* = «eliminar» ×10, *default* = «predeterminado» ×3, «Deseleccionar».
+- Auditoría: 1 descartado (*Mapping required*: «Se requiere asignación» es correcto); quedan 13.
+
 ## 2026-11-18 · Haiku · ronda 111 (Effortless Simple House Booking, dev, 272 cadenas) · revisión directa de producción · rechazada entera
 
 - 91 cambios (33 %), sin dudas, 2 min 28 s, 0,09 USD. Precheck: tuteo («su» 1, «tu» 22), usted en 2 cadenas, 6 pasivas.
