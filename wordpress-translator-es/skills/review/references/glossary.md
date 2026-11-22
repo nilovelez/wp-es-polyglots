@@ -32,13 +32,14 @@ Obligatorio. Formato: término inglés (categoría) → traducción — nota. La
 - backorder (noun) → reserva
 - backup (noun) → copia de seguridad
 - bad words (expression) → palabras malsonantes — No usar «malas palabras»
-- badge (noun) → acreditación / insignia / distinción
+- badge (noun) → insignia / acreditación / distinción — «Insignia» encaja sobre todo en productos (el cartelito de «en oferta»). Para el globo con un contador junto a un elemento del menú, «distintivo» también vale.
 - banner (noun) → banner — No se traduce
 - BCC (noun) → CCO — No dejar la abreviatura en inglés de Blind Carbon Copy, ponerla en español para Con Copia Oculta
 - benefit (noun) → ventaja
 - bill (noun) → factura
 - billing (noun) → facturación
 - bitrate (noun) → bitrate — No se traduce
+- blacklist (noun) → lista negra
 - blockquote (noun) → cita
 - blog (noun) → blog — (No se traduce)
 - blueprint (noun) → modelo — Se refiere a modelos (como bocetos) de instalación, de WordPress, WooCommerce y otros, para reutilizar en otras instalaciones.
@@ -69,6 +70,8 @@ Obligatorio. Formato: término inglés (categoría) → traducción — nota. La
 - check-in (noun) → registro de asistencia — En plugins de eventos: marcar a un asistente como llegado. «Quitar registro de asistencia», «Filtrar por registro de asistencia».
 - checkbox (noun) → casilla de verificación
 - checkout (noun) → finalizar compra / pago — Cuando se refiere a la página de pagos es «Finalizar compra», sino traducir como pago/s, por ejemplo «El cliente procede al pago»
+- Chinese, Simplified (noun) → chino simplificado — No «chino (China)». Se traduce la variante que dice el original.
+- Chinese, Traditional (noun) → chino tradicional — No «chino (Taiwán)». Se traduce la variante que dice el original.
 - clear (verb) → vaciar — «vaciar» es para contenidos (papelera, caché). Para dejar de aplicar un filtro, «quitar» o «limpiar»: *Clear filters* = «Quitar filtros», no «Borrar filtros» ni «Vaciar filtros». Para lo que se dibuja, se selecciona o se escribe (un dibujo, un contorno, un campo) o para elementos sueltos (ejecuciones, pegatinas), «borrar»: *Clear the drawing* = «Borra el dibujo», no «Vacía el dibujo».
 - click (noun) → clic
 - click (verb) → hacer clic — Se pone «clic» sin K (https://www.fundeu.es/consulta/hacer-clic-1753/)
@@ -134,7 +137,7 @@ Obligatorio. Formato: término inglés (categoría) → traducción — nota. La
 - e-mail (noun) → correo electrónico
 - ebook (noun) → libro electrónico
 - ecommerce (noun) → comercio electrónico
-- email (noun) → correo electrónico — No utilizar: email (Incorrecto). correo e (Incorrecto). e-mail (Incorrecto). Correo Electrónico (con E mayúscula) (Incorrecto) email address = dirección de correo electrónico (Correcto)
+- email (noun) → correo electrónico — En textos largos (descripciones, párrafos, preguntas frecuentes), siempre «correo electrónico», también en «dirección de correo electrónico». En cadenas cortas de interfaz (botones, etiquetas, menús, títulos breves), «correo» también vale. No utilizar: email, correo e, e-mail, Correo Electrónico (con E mayúscula). email address = dirección de correo electrónico.
 - embed (verb) → incrustar
 - Embedded (adjective) → Incrustado — Incrustado
 - enable (verb) → activar — Casi siempre es activar, pero a veces tiene sentido de «permitir»
@@ -428,7 +431,7 @@ Obligatorio. Formato: término inglés (categoría) → traducción — nota. La
 - thumbnail (noun) → miniatura
 - ticket (noun) → tique / entrada — Traducir tickets a tiques igualmente (RAE, Fundeu)
 - timer (noun) → temporizador
-- toggle (noun) → conmutador
+- toggle (noun) → conmutador — «Interruptor» también vale para algo que se enciende y se apaga: no es motivo para cambiar una traducción.
 - toggle (verb) → cambiar / alternar
 - token (noun) → token — (no se traduce)
 - tools (noun) → herramientas — Nombre de menú principal de WordPress

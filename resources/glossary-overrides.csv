@@ -23,3 +23,10 @@ check,cheque,noun,"En comercio, como medio de pago."
 writable,"tener permisos de escritura",expression,"Decisión del equipo es_ES. También son correctas «se puede escribir» y «permite escritura» (no se puede escribir en la carpeta, la carpeta no permite escritura): no cambiarlas. No usar «escribible»."
 RSVP,"confirmación de asistencia",noun,"Decisión del equipo es_ES. En plugins de eventos: la respuesta de un asistente y el formulario o la pestaña para darla. Verbo: «confirmar asistencia». No dejar «RSVP»."
 check-in,"registro de asistencia",noun,"Decisión del equipo es_ES. En plugins de eventos: marcar a un asistente como llegado. «Quitar registro de asistencia», «Filtrar por registro de asistencia»."
+email,correo electrónico,noun,"Decisión del equipo es_ES. En textos largos (descripciones, párrafos, preguntas frecuentes), siempre «correo electrónico», también en «dirección de correo electrónico». En cadenas cortas de interfaz (botones, etiquetas, menús, títulos breves), «correo» también vale. No utilizar: email, correo e, e-mail, Correo Electrónico (con E mayúscula). email address = dirección de correo electrónico."
+badge,insignia / acreditación / distinción,noun,"Decisión del equipo es_ES. «Insignia» encaja sobre todo en productos (el cartelito de «en oferta»). Para el globo con un contador junto a un elemento del menú, «distintivo» también vale."
+toggle,conmutador,noun,Decisión del equipo es_ES. «Interruptor» también vale para algo que se enciende y se apaga: no es motivo para cambiar una traducción.
+toggle,cambiar / alternar,verb,
+blacklist,lista negra,noun,Decisión del equipo es_ES.
+"Chinese, Simplified",chino simplificado,noun,Decisión del equipo es_ES. No «chino (China)». Se traduce la variante que dice el original.
+"Chinese, Traditional",chino tradicional,noun,Decisión del equipo es_ES. No «chino (Taiwán)». Se traduce la variante que dice el original.

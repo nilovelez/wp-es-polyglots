@@ -26,6 +26,11 @@ Estados: **pendiente** (sin proponer) · **propuesta** (enviada al equipo) · **
 | *social media* | «medios sociales» | Cambiar a «redes sociales», que es lo normal en español de España. En `glossary-overrides.csv` | Ronda 43 (Stedica Surveys, 2 cadenas) | pendiente |
 | *playground* | «zona de pruebas» | Añadir nota: WordPress Playground (el producto) no se traduce: «Playground», «el servidor web de Playground». En `glossary-overrides.csv` | Ronda 58 (Contributor Toolkit, 4 cadenas) | pendiente |
 | *page*, *endpoint* | Entradas duplicadas en el CSV | Dejar una de cada. En `glossary-overrides.csv` | Revisión del CSV | pendiente |
+| *email* | «correo electrónico» | Añadir nota: en textos largos siempre «correo electrónico»; en cadenas cortas de interfaz, «correo» también vale. En `glossary-overrides.csv` | Ronda 01 | pendiente |
+| *badge* | «acreditación / insignia / distinción» | Añadir nota: «insignia» para productos; para el globo con contador del menú, «distintivo» también vale. En `glossary-overrides.csv` | Revisor, ronda 01 | pendiente |
+| *toggle* (sustantivo) | «conmutador» | Añadir nota: «interruptor» también vale para algo que se enciende y se apaga. En `glossary-overrides.csv` | Revisor | pendiente |
+| *blacklist* | Sin entrada | Añadir: «lista negra». En `glossary-overrides.csv` | Ronda 13 | pendiente |
+| *Chinese, Simplified* / *Traditional* | Sin entrada | Añadir: «chino simplificado», «chino tradicional» (no «chino (China)» ni «chino (Taiwán)»). En `glossary-overrides.csv` | Ronda 11 | pendiente |
 | A debatir (sin decisión) | *FAQ* en textos explicativos, *OK* como estado, *login* sustantivo, *sign out* en frases, *feed* que no es RSS, *vendor* de software, *merchant* en nombres de producto, *release* como paquete, *upsell*, *fee* de pasarela = «comisiones», *designation* = «destino», *fixed* = «fijo», *preset* = «predefinido» | Ver el documento de propuestas | Rondas 12 a 21 | pendiente |
 
 ## Guía de traductores
@@ -35,10 +40,8 @@ Estados: **pendiente** (sin proponer) · **propuesta** (enviada al equipo) · **
 | Puntuación del original | Se mantiene la puntuación que puede romper algo: los puntos suspensivos finales tal como vienen y los signos de cierre al final. El guion largo «—» se puede sustituir por «:», «;» o «,», y no es motivo para cambiar una traducción. Las comillas pasan a «». | Rondas 04, 09, 10 y 20 | pendiente |
 | Comillas en texto literal | Si toda la cadena es un texto literal para un buscador o un agente de IA (una instrucción, una consulta de ejemplo), se dejan las comillas del original, también las rectas. | Ronda 12 (#176) | pendiente |
 | Numeración «#%d» | «Pedido #%d» se deja con «#», como en el original; no se cambia por «n.º %d». | Ronda 11 (6 cadenas) | pendiente |
-| *email* en textos largos | En textos largos, «correo electrónico»; en cadenas cortas de interfaz, «correo» es válido. | Ronda 01 | pendiente |
 | Interfaces de otros servicios | Cuando un texto cita la interfaz de otro servicio (Google, Cloudflare…), se usa el nombre que tiene en su versión en español; los términos del glosario como «Escritorio» o «perfil» son los de WordPress. | Rondas 19 y 20 | pendiente |
 | Nombres de etiquetas HTML | Los nombres de etiquetas y atributos (*viewport*, *canonical*, *hreflang*, *og:url*) no se traducen cuando nombran la etiqueta. | Ronda 06 | pendiente |
-| Variantes de idioma | *Chinese, Simplified* = «chino simplificado», *Chinese, Traditional* = «chino tradicional» (no «chino (China)» ni «chino (Taiwán)»). | Ronda 11 (#379, #380) | pendiente |
 | Nombre y título del plugin | El nombre del plugin no se traduce («Bugalou for WooCommerce»); la parte descriptiva del título, sí («Bugalou – Chat en vivo, chatbot con IA…»). | Rondas 60 y 61 | pendiente |
 | Nombres de funciones de un plugin | Los nombres de funciones, planes y opciones de un plugin no son nombres propios: solo la primera palabra con mayúscula. | Ronda 02 | pendiente |
 | Cuándo cambiar una cadena (revisión) | Solo se cambia lo que es un error; las formas preferidas («necesita», «No se ha podido…») se aplican solo si ya se cambia la cadena por otro motivo. | Rondas 01 y 03 | pendiente |

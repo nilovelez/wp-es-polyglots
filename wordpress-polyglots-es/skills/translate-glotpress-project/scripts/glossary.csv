@@ -33,7 +33,6 @@ backlink,retroenlace,noun,
 backorder,reserva,noun,
 backup,copia de seguridad,noun,
 bad words,palabras malsonantes,expression,No usar «malas palabras»
-badge,acreditación / insignia / distinción,noun,
 banner,banner,noun,No se traduce
 BCC,CCO,noun,"No dejar la abreviatura en inglés de Blind Carbon Copy, ponerla en español para Con Copia Oculta"
 benefit,ventaja,noun,
@@ -134,13 +133,6 @@ https://www.fundeu.es/recomendacion/e-learning/"
 e-mail,correo electrónico,noun,
 ebook,libro electrónico,noun,
 ecommerce,comercio electrónico,noun,
-email,correo electrónico,noun,"No utilizar:
-email (Incorrecto).
-correo e (Incorrecto).
-e-mail (Incorrecto).
-Correo Electrónico (con E mayúscula) (Incorrecto)
-
-email address = dirección de correo electrónico (Correcto)"
 embed,incrustar,verb,
 Embedded,Incrustado,adjective,Incrustado
 enable,activar,verb,"Casi siempre es activar, pero a veces tiene sentido de «permitir»"
@@ -437,8 +429,6 @@ theme,tema,noun,No utilizar: plantilla (Incorrecto)
 thumbnail,miniatura,noun,
 ticket,tique / entrada,noun,"Traducir tickets a tiques igualmente (RAE, Fundeu)"
 timer,temporizador,noun,
-toggle,conmutador,noun,
-toggle,cambiar / alternar,verb,
 token,token,noun,(no se traduce)
 tools,herramientas,noun,Nombre de menú principal de WordPress
 tooltip,información emergente,noun,
@@ -511,3 +501,10 @@ check,cheque,noun,"En comercio, como medio de pago."
 writable,tener permisos de escritura,expression,"También son correctas «se puede escribir» y «permite escritura» (no se puede escribir en la carpeta, la carpeta no permite escritura): no cambiarlas. No usar «escribible»."
 RSVP,confirmación de asistencia,noun,En plugins de eventos: la respuesta de un asistente y el formulario o la pestaña para darla. Verbo: «confirmar asistencia». No dejar «RSVP».
 check-in,registro de asistencia,noun,"En plugins de eventos: marcar a un asistente como llegado. «Quitar registro de asistencia», «Filtrar por registro de asistencia»."
+email,correo electrónico,noun,"En textos largos (descripciones, párrafos, preguntas frecuentes), siempre «correo electrónico», también en «dirección de correo electrónico». En cadenas cortas de interfaz (botones, etiquetas, menús, títulos breves), «correo» también vale. No utilizar: email, correo e, e-mail, Correo Electrónico (con E mayúscula). email address = dirección de correo electrónico."
+badge,insignia / acreditación / distinción,noun,"«Insignia» encaja sobre todo en productos (el cartelito de «en oferta»). Para el globo con un contador junto a un elemento del menú, «distintivo» también vale."
+toggle,conmutador,noun,«Interruptor» también vale para algo que se enciende y se apaga: no es motivo para cambiar una traducción.
+toggle,cambiar / alternar,verb,
+blacklist,lista negra,noun,
+"Chinese, Simplified",chino simplificado,noun,No «chino (China)». Se traduce la variante que dice el original.
+"Chinese, Traditional",chino tradicional,noun,No «chino (Taiwán)». Se traduce la variante que dice el original.
