@@ -158,6 +158,13 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - 179 cambios (15 %), sin dudas. 6 min 53 s, 0,57 USD. Precheck: tuteo («su» 14, «tu» 80). Muestra de 25: sin errores.
 - Tuteo en los correos al cliente, *email* = «correo electrónico», mayúsculas, glosario; *ticket* = «entrada» (entradas de eventos) en lugar de «billete», *location* = «local» (restaurantes).
 
+## 2026-11-22 · Haiku · ronda 122 (WordPress core, dev, 282 cadenas sin traducir) · traducción de producción
+
+- 282 cadenas traducidas, 1 duda, 2 min 27 s, 0,10 USD. Buena traducción, cuidada con el glosario (perfil, acceder, identificado, borrar, quitar, por defecto, gestiona).
+- Auditoría: 10 editadas. *parent* = «superior» ×5 (Haiku puso «padre»), *rendered* = «procesado» ×3 (Haiku puso «renderizado»), *hook* = «usa el gancho» ×2 (Haiku puso «engancha tu código a»).
+- Duda: *ability* y *capability* son las dos «capacidad» en el glosario; en la API de capacidades Haiku tradujo *capabilities* como «permisos» para distinguirlas.
+- Haiku dejó su carpeta de trabajo fuera de la carpeta temporal habitual; el recolector la trajo.
+
 ## 2026-11-22 · Haiku · ronda 121 (Fair Events, stable, 1561 cadenas) · revisión directa de producción · rechazada entera
 
 - 292 cambios (19 %), sin dudas, 6 min 8 s, 0,71 USD. Precheck: tuteo («su» 3, «tu» 36), 21 pasivas.
