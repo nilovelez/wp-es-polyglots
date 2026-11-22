@@ -2,6 +2,14 @@
 """Deterministic .po helpers for the translation skill (stdlib only).
 
 Commands:
+  start <file.po|.pot|project URL> [--translate] [--work DIR] [--window N]
+      The whole workflow in one command: work folder (<name>-work/ in the
+      current folder unless --work), download if given a URL, precheck (review),
+      size check, and block files with the glossary, hints and entries. Prints
+      the exact steps to follow, or STOP and why.
+  finish <work folder>
+      Merge the block decisions, build <name>-corrected.po (review) or
+      <name>-es_ES.po (translate) in the folder where start ran, and check it.
   fetch <project url> [folder] [--untranslated]
       Download the waiting strings (or, with --untranslated, the untranslated
       ones) of a translate.wordpress.org project into <folder>/original.po.
@@ -800,7 +808,170 @@ def cmd_precheck(args):
         print(f'  #{e["n"]} {e["msgid"][:70]!r} → {tr(e)[:80]!r}')
 
 
-COMMANDS = {'fetch': cmd_fetch, 'precheck': cmd_precheck, 'size': cmd_size, 'glossary-update': cmd_glossary_update, 'extract': cmd_extract, 'check': cmd_check, 'build': cmd_build, 'compare': cmd_compare,
+# ---------- start / finish: the whole workflow in two commands ----------
+
+BLOCK = 300  # entries per block file; one Read each
+
+
+def _py():
+    exe = os.path.basename(sys.executable or 'python3')
+    return 'python3' if exe.startswith('python3') or not exe else exe
+
+
+def _capture(fn, args, rng=None):
+    import contextlib
+    import io
+    global RANGE
+    old, RANGE = RANGE, rng
+    buf = io.StringIO()
+    try:
+        with contextlib.redirect_stdout(buf):
+            try:
+                fn(args)
+            except SystemExit:
+                pass
+    finally:
+        RANGE = old
+    return buf.getvalue()
+
+
+def _url_name(url):
+    """translate.wordpress.org project URL -> (name, project path, import URL)."""
+    m = re.match(r'https://translate\.wordpress\.org/projects/(.+?)/?$', url.split('?')[0])
+    if not m:
+        sys.exit('Not a translate.wordpress.org project URL')
+    path = re.sub(r'/[a-z]{2,3}(?:-[a-z]+)?/default$', '', m.group(1).rstrip('/'))
+    parts = path.split('/')
+    name = '-'.join(parts[1:] if parts[0] in ('wp-plugins', 'wp-themes', 'meta', 'apps') and len(parts) > 1 else parts)
+    return name, path, f'https://translate.wordpress.org/projects/{path}/es/default/import-translations/'
+
+
+def cmd_start(args):
+    """start <file.po|.pot|project URL> [--translate] [--work DIR] [--window N]"""
+    import shutil
+    translate = '--translate' in args
+    window = int(args[args.index('--window') + 1]) if '--window' in args else 1_000_000
+    work = args[args.index('--work') + 1] if '--work' in args else None
+    src = [a for i, a in enumerate(args) if not a.startswith('--') and args[i - 1] not in ('--work', '--window')][0]
+    cwd = os.getcwd()
+    job = {'mode': 'translate' if translate else 'review'}
+    if src.startswith('http'):
+        name, path, imp = _url_name(src)
+        job['import_url'] = imp
+    else:
+        if not os.path.exists(src):
+            sys.exit(f'STOP: {src} does not exist. Ask the user for the file.')
+        name = re.sub(r'\.(po|pot)$', '', os.path.basename(src))
+        if translate:
+            name = re.sub(r'[-_]es(_ES)?$', '', name)
+    work = os.path.abspath(work or os.path.join(cwd, f'{name}-work'))
+    if os.path.exists(work):
+        shutil.rmtree(work)
+    os.makedirs(work)
+    orig = os.path.join(work, 'original.po')
+    if src.startswith('http'):
+        _capture(cmd_fetch, [src, work] + (['--untranslated'] if translate else []))
+    else:
+        shutil.copyfile(src, orig)
+    _, entries = parse(orig)
+    if translate:
+        todo = [e for e in entries if 'fuzzy' in (e['flags'] or '') or not any(e['msgstr_plural'] or [e['msgstr']])]
+    else:
+        todo = entries
+    if not todo:
+        print(f'STOP: no strings to {job["mode"]} in {src}. Tell the user and stop.')
+        return
+    suffix = '-es_ES.po' if translate else '-corrected.po'
+    job.update(name=name, out=os.path.join(cwd, name + suffix), todo=[e['n'] for e in todo])
+    if not translate:
+        pre = _capture(cmd_precheck, [orig, '--window', str(window)])
+        open(os.path.join(work, 'precheck.txt'), 'w', encoding='utf-8').write(pre)
+        m = re.search(r'source looks Spanish: (\d+)', pre)
+        spanish = m and int(m.group(1)) * 3 > len(entries)
+        if 'FORMAL REGISTER THROUGHOUT' in pre or 'SEARCH AND REPLACE WITHOUT CARE' in pre or spanish:
+            print(pre)
+            print('STOP: these numbers point to a batch to reject whole. Show the user the numbers above and the sample, '
+                  'and ask whether to review it or reject it whole. Do nothing else until they answer; if they say '
+                  f'review it, run: {_py()} {os.path.abspath(__file__)} start {src} --work {work} --force')
+            if '--force' not in args:
+                return
+    peak, limit, parts = size_estimate(orig, translate, window)
+    if parts:
+        print(f'STOP: about {peak / 1000:.0f}k tokens, too large for one session of a {window / 1000:.0f}k window. '
+              'Tell the user, and offer one new conversation per part (entry ranges): '
+              + ', '.join(f'{a}-{b}' for a, b in parts))
+        return
+    nb = 1 if len(todo) <= 400 else -(-len(todo) // BLOCK)  # one block up to 400 entries, else ~300 each
+    size = -(-len(todo) // nb)
+    blocks = [todo[i:i + size] for i in range(0, len(todo), size)]
+    files = []
+    for k, blk in enumerate(blocks, 1):
+        rng = (blk[0]['n'], blk[-1]['n'])
+        out = [f'# Block {k} of {len(blocks)}: entries {rng[0]}-{rng[1]}', '',
+               '## Glossary entries that apply (mandatory, notes included)', '']
+        out.append(_capture(cmd_glossary, [orig], rng).rstrip() or '(none)')
+        if not translate:
+            out += ['', '## Automatic hints (most are real errors, some are not)', '',
+                    _capture(cmd_lint, [orig], rng).rstrip() or '(none)']
+        out += ['', '## Entries (one JSON object per line)', '']
+        ns = {e['n'] for e in blk}
+        out.append(_capture(cmd_extract, [orig], rng).rstrip() if not translate else
+                   '\n'.join(l for l in _capture(cmd_extract, [orig], rng).splitlines() if json.loads(l)['n'] in ns))
+        bf = os.path.join(work, f'block-{k:02d}.md')
+        open(bf, 'w', encoding='utf-8').write('\n'.join(out) + '\n')
+        files.append((bf, os.path.join(work, f'decisions-{k:02d}.jsonl')))
+    job['blocks'] = [d for _, d in files]
+    json.dump(job, open(os.path.join(work, 'job.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+    # Plugin: next to this script. Development repository: the packaged guide.
+    guide = os.path.join(_HERE, 'style-guide.md') if os.path.exists(os.path.join(_HERE, 'style-guide.md')) \
+        else os.path.join(_HERE, '..', '..', 'wordpress-translator-es', 'references', 'style-guide.md')
+    verb = 'translate' if translate else 'review'
+    print(f'{len(todo)} strings to {verb}, in {len(files)} block(s). Do exactly these steps, nothing else:')
+    print(f'1. Read {os.path.abspath(guide)} (all of it, once).')
+    for i, (bf, df) in enumerate(files, 2):
+        print(f'{i}. Read {bf}, {verb} its entries and write your decisions for them to {df} with the Write tool '
+              '(an empty file if nothing changes).')
+    print(f'{len(files) + 2}. Run: {_py()} {os.path.abspath(__file__)} finish {work}')
+
+
+def cmd_finish(args):
+    """finish <work folder>: merge the decisions, build the final .po and check it."""
+    work = os.path.abspath(args[0])
+    job = json.load(open(os.path.join(work, 'job.json'), encoding='utf-8'))
+    merged = os.path.join(work, 'decisions.jsonl')
+    missing = [d for d in job['blocks'] if not os.path.exists(d)]
+    if missing:
+        sys.exit('Missing: ' + ', '.join(missing) + '. Write it (an empty file if nothing changes) and run this same command again.')
+    with open(merged, 'w', encoding='utf-8') as f:
+        for d in job['blocks']:
+            text = open(d, encoding='utf-8').read().strip()
+            if text:
+                f.write(text + '\n')
+    decisions = load_decisions(merged)
+    if job['mode'] == 'translate':
+        left = [n for n in job['todo'] if n not in decisions]
+        if left:
+            sys.exit(f'Not translated yet: entries {", ".join(map(str, left[:40]))}{"…" if len(left) > 40 else ""}. '
+                     'Add them to the decisions file of their block and run this same command again.')
+    build = [os.path.join(work, 'original.po'), merged, job['out'], '--report', os.path.join(work, 'report.md')]
+    if job['mode'] == 'translate':
+        build.append('--full')
+    text = _capture(cmd_build, build)
+    problems = [l for l in text.splitlines() if l.startswith('#')]
+    if problems:
+        print('\n'.join(problems))
+        sys.exit(f'{len(problems)} problem(s) above: fix those entries in their decisions file and run this same command again. '
+                 'If one is a false positive, leave it and say so in your answer.')
+    changed = sum(1 for d in decisions.values() if d['verdict'] in ('fix', 'reject', 'doubt'))
+    doubts = [n for n, d in decisions.items() if d['verdict'] == 'doubt']
+    print(f'OK: {job["out"]} · {changed} strings {"translated" if job["mode"] == "translate" else "to change"}'
+          f' · {len(doubts)} doubt(s) · 0 problems.')
+    if job.get('import_url'):
+        print(f'Import URL: {job["import_url"]}')
+    print('Now answer the user as the skill says. Do not run anything else.')
+
+
+COMMANDS = {'start': cmd_start, 'finish': cmd_finish, 'fetch': cmd_fetch, 'precheck': cmd_precheck, 'size': cmd_size, 'glossary-update': cmd_glossary_update, 'extract': cmd_extract, 'check': cmd_check, 'build': cmd_build, 'compare': cmd_compare,
             'glossary': cmd_glossary, 'tm': cmd_tm, 'lint': cmd_lint,
             'review-po': cmd_review_po, 'finalize': cmd_finalize}
 

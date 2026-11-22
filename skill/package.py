@@ -164,9 +164,7 @@ def main():
         shutil.copytree(refs, os.path.join(tmp, 'references'), ignore=shutil.ignore_patterns('__pycache__', '*.pyc'))
         md = open(os.path.join(tmp, 'SKILL.md'), encoding='utf-8').read()
         md = sub(md, f'name: {s}\n', f'name: {name}\n', f'claude.ai {s}')
-        md = sub(md, "`<refs>` is the package's shared folder, `<skill>/../../references`",
-                 "`<refs>` is `<skill>/references`", f'claude.ai {s}')
-        md = md.replace(', used by all the skills of the package)', ')')
+        md = sub(md, '<skill>/../../references/po_tool.py', '<skill>/references/po_tool.py', f'claude.ai {s}')
         open(os.path.join(tmp, 'SKILL.md'), 'w', encoding='utf-8').write(md)
         zip_dir(tmp, tmp + '.zip', name)
         shutil.rmtree(tmp)

@@ -5,24 +5,10 @@ description: Translate the untranslated strings of a translate.wordpress.org (Gl
 
 # Translate a GlotPress project (es_ES)
 
-For anyone who translates a project of translate.wordpress.org into Spanish (Spain). This skill runs the workflow; the translation itself is done by the `translate` skill of this package, with its rules. You never upload or approve anything: the user does. `<skill>` is this skill's folder; `<refs>` is the package's shared folder, `<skill>/../../references` (glossary, style guide and `po_tool.py`, used by all the skills of the package).
-
-## 1. Download
+The user gives a translate.wordpress.org project URL and wants you to translate its untranslated strings. Use the `translate` skill of this package (`<skill>/../translate/SKILL.md`, with `<skill>` this skill's folder) and follow it fully, passing the URL to `start`:
 
 ```
-python3 <refs>/po_tool.py fetch <url> <work> --untranslated
+python3 <skill>/../../references/po_tool.py start <url> --translate
 ```
 
-Any form of the project URL works (with filters, with or without `es/default`). It writes the untranslated strings to `<work>/original.po`. `<work>` is the folder `<name>-work/` inside the current folder (`<name>`: the project and subproject, as `foo-stable`), unless the user or the project's instructions (its CLAUDE.md or similar) say where to work.
-
-If there is nothing to translate, say so and stop. The `translate` skill checks whether the file fits in one session (`po_tool.py size`) before starting.
-
-WordPress core, Meta (wordpress.org itself) and very popular plugins are read by millions of people: be especially careful with consistency, and mark as a doubt anything the glossary and the guide do not settle.
-
-## 2. Translate
-
-Use the `translate` skill of this package (`<skill>/../translate/SKILL.md`) on `<work>/original.po`, with `<work>` as its work folder, and follow it fully. For large files, its block procedure applies.
-
-## 3. Hand back
-
-The answer of the `translate` skill (the file, a short summary and the doubts, nothing more), plus one line: where to import it, `https://translate.wordpress.org/projects/<path>/es/default/import-translations/` (the project path from the URL). Imported by an editor of the project (PTE/GTE), the strings can be added as approved or as waiting; imported by anyone else, they arrive as suggestions waiting for the es_ES team's approval.
+Any form of the project URL works (with filters, with or without `es/default`). `start` downloads the strings and, if the batch looks like one to reject whole or does not fit in one session, prints STOP and what to tell the user. `finish` prints the import URL: add it to the answer. You never upload or approve anything: the user does.

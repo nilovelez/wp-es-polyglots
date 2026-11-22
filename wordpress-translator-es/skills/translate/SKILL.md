@@ -5,51 +5,35 @@ description: Traduce al español de España (es_ES) un archivo .pot o .po de Wor
 
 # Translate WordPress strings into es_ES
 
-Input: a `.pot` or `.po` file with strings to translate. Output: the same file translated into Spanish (Spain). Nothing else: you never upload or approve anything. `<skill>` is this skill's folder; `<refs>` is the package's shared folder, `<skill>/../../references` (glossary, style guide and `po_tool.py`, used by all the skills of the package). The scripts need only Python 3 (if `python3` does not exist, use `python` or `py -3`).
+Input: a `.pot` or `.po` file with strings to translate, or a translate.wordpress.org project URL (its untranslated strings). Output: the same file translated into Spanish (Spain). You never upload or approve anything: the user does.
 
-Always do the translation with this workflow and `po_tool.py`, never by reading the strings and answering in the chat: without it the glossary is not applied and the result cannot be imported.
+## 1. Start
 
-## Read first, every time
-
-The glossary and the guide in `<refs>` are the only reference: do not use other glossaries, guides or translations you may find on disk.
-
-1. `<refs>/style-guide.md`, sections 1–5, once, with the Read tool (not `cat` too: reading it twice only fills the context). Follow it literally; it is the team's consensus.
-2. The glossary entries that apply to the file. Do not read the whole glossary:
-   ```
-   python3 <refs>/po_tool.py glossary <file.po>
-   ```
-   Each line is `term (part of speech) → translation — notes [#entries]`. The notes are mandatory («No usar…», «No se traduce»).
-
-Priority on conflict: the user's instructions → glossary → style guide. If a rule looks wrong for the text in front of you, apply it anyway and say so at the end.
-
-## 1. Get the file
-
-- The user's `.pot` or `.po`. In a plugin or theme folder without one, if WP-CLI is installed: `wp i18n make-pot . <work>/<text-domain>.pot`.
-- A translate.wordpress.org project URL: `python3 <refs>/po_tool.py fetch <url> <work> --untranslated` writes its untranslated strings to `<work>/original.po`.
-- The `.po` pasted into the chat (some apps turn an uploaded file into pasted text): save it exactly as it is to `<work>/original.po` and use that file.
-
-`<work>` is the folder `<name>-work/` inside the current folder (`<name>` as in section 4), unless the user or the project's instructions (its CLAUDE.md or similar) say where to work. `<out>`, where the final file goes, is the current folder. Then:
+If the user pasted the file as text, first save it exactly as it is to `<name>.po` in the current folder with the Write tool. In a plugin or theme folder without a `.pot`, if WP-CLI is installed: `wp i18n make-pot . <text-domain>.pot`. Then run, with `<skill>` this skill's folder:
 
 ```
-python3 <refs>/po_tool.py extract <file.po> <work>/entries.jsonl
+python3 <skill>/../../references/po_tool.py start <file or URL> --translate
 ```
 
-One JSON object per entry: `n` (entry number), `ctx`, `note` (comment for translators), `msgid`, `msgstr` (or `msgid_plural` / `msgstr_plural`). Work by `n`. Never edit the `.po` by hand.
+- Add `--work <folder>` only if the user or the project's instructions (its CLAUDE.md or similar) say where to work.
+- Add `--window 500000` if you are Haiku 5.5 in Claude Cowork, `--window 200000` if you are not Claude Opus, Sonnet or Haiku 5.5.
 
-**Large files** (more than about 400 entries): work in blocks of about 300 entries with `--range A-B` on `extract` and `glossary`, appending to the same decisions file. Keep the term choices you settle in `<work>/terms.md` and re-read it before each block. Before starting, check that the whole file fits in this session: `python3 <refs>/po_tool.py size <file.po> --translate --window N`. Your context window, for `--window`: 1000000 for Claude Opus 5.5, Sonnet 5.5 and Haiku 5.5 (Haiku 5.5 in Claude Cowork: 500000); 200000 for any other model, or if you do not know which model you are. If it fits, do it all in this session, in blocks: never split it into several sessions or conversations, which reload the skill and the guide and cost more, not less. If it does not fit, tell the user the size and the parts it gives (entry ranges), translate the first part now and offer the rest, one part per new conversation. If the user asks for entries A to B only, do exactly that range.
+It prints the exact steps: read the style guide, read each block file (glossary and entries to translate), write each decisions file, run `finish`. Do exactly those steps and nothing else: no other commands, no looking for files, no checks of your own. Use the Read and Write tools for files. If it prints `STOP`, do what it says.
+
+The glossary and the style guide are the only reference. Priority on conflict: the user's instructions → glossary → style guide. If a rule looks wrong for the text, apply it anyway and say so at the end.
 
 ## 2. Translate
 
-Translate every empty or fuzzy entry. Do not change entries that are already translated unless asked. Translate everything without stopping; when unsure, use your best translation and mark it as a doubt.
+Translate every entry in the block files. Translate everything without stopping; when unsure, use your best translation and mark it as a doubt.
 
 - Plurals: always fill both forms.
-- Keep placeholders (`%s`, `%1$d`, `{name}`), HTML, entities, URLs, `\n` and edge spaces exactly as in the source.
+- Keep placeholders (`%s`, `%1$d`, `{name}`), HTML, entities, URLs, `\n` and edge spaces exactly as in the source. Do not add or drop a final period.
 - Product, plugin and theme names are not translated.
 - Same source string or term → same translation across the file.
 
-## 3. Write decisions
+## 3. Decisions
 
-`<work>/decisions.jsonl`, one line per translated entry:
+One line per entry, in the decisions file of its block:
 
 ```
 {"n": 12, "verdict": "fix", "msgstr": "Mapa del sitio"}
@@ -59,22 +43,14 @@ Translate every empty or fuzzy entry. Do not change entries that are already tra
 
 `msgstr` is the full text, plain (JSON escapes quotes and newlines). Use `doubt` (with your translation) only for real doubts.
 
-## 4. Build and check
+`finish` builds the whole file with an es_ES header and checks it. If it lists problems or entries not translated, fix those and run the same `finish` command again.
 
-```
-python3 <refs>/po_tool.py build <file.po> <work>/decisions.jsonl <out>/<name>-es_ES.po --full --report <work>/report.md
-```
+## 4. Answer
 
-`<name>` is the name of the user's file without `.pot`/`.po` and without a locale suffix (`foo.pot` → `foo-es_ES.po`); for a project downloaded from its URL, the project and subproject (`foo-stable-es_ES.po`). Never a fixed name: the user may translate many files.
+Do the whole job without asking (except when `start` says STOP) or explaining the process, then answer in the user's language with exactly this:
 
-The output is the whole file, translated, with an es_ES header; doubts go in with your translation. The build checks placeholders, HTML, entities, URLs, newlines, edge spaces, final punctuation (GlotPress warns when it differs from the source: do not add or drop a final period) and quotes. Fix every reported problem in the decisions and build again until it reports 0 problems; if one is a false positive, say which and why.
+1. The translated file `finish` printed, and nothing else to download. In a chat app (claude.ai, the desktop or mobile app) attach it as a download; on the user's own computer (Claude Code), give its path.
+2. A summary in one or two lines: how many strings you translated. If `finish` printed an import URL, add it.
+3. The doubts, if any: each with the source text (not an entry number), your translation (already in the file) and a concrete question. When the user answers, update the decisions and run `finish` again.
 
-## 5. Answer
-
-Do the whole job without asking (except the size check above) or explaining the process, then answer in the user's language with exactly this:
-
-1. the `translated .po` file, and nothing else to download. In a chat app (claude.ai, the desktop or mobile app) attach it to the answer as a download, never a path from your sandbox; on the user's own computer (Claude Code), give its path.
-2. A summary in one or two lines: how many strings you translated.
-3. The doubts, if any: each with the source text (not an entry number), your translation (already in the file) and a concrete question. When the user answers, update the decisions and build again.
-
-Nothing more: no report, no list of every string, no paths of your work folder. If a glossary or guide rule looked wrong for this text, say so in one line at the end.
+Nothing more: no report, no list of every string, no paths of the work folder. If a glossary or guide rule looked wrong for this text, say so in one line at the end.

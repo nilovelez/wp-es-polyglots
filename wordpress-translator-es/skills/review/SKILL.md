@@ -5,48 +5,26 @@ description: Revisa traducciones de WordPress al español de España (es_ES) en 
 
 # Review WordPress translations into es_ES
 
-Input: a `.po` file whose strings are already translated. Output: a `.po` with **only the strings that must change**, with the corrected translation; uploading it over the original replaces what is wrong, and everything else stays as it was. Nothing else: you never upload or approve anything. `<skill>` is this skill's folder; `<refs>` is the package's shared folder, `<skill>/../../references` (glossary, style guide and `po_tool.py`, used by all the skills of the package). The scripts need only Python 3 (if `python3` does not exist, use `python` or `py -3`).
+Input: a `.po` file whose strings are already translated, or a translate.wordpress.org project URL (its waiting strings). Output: a `.po` with **only the strings that must change**; uploading it over the original replaces what is wrong. You never upload or approve anything: the user does.
 
-Always do the review with this workflow and `po_tool.py`, never by reading the strings and answering in the chat: without it the glossary is not applied and the result cannot be imported.
+## 1. Start
 
-## Read first, every time
-
-The glossary and the guide in `<refs>` are the only reference: do not use other glossaries, guides or translations you may find on disk.
-
-1. `<refs>/style-guide.md`, all of it, once, with the Read tool (not `cat` too: reading it twice only fills the context): section 6 says when a string should **not** be changed. Follow it literally; it is the team's consensus.
-2. The glossary entries that apply to the file. Do not read the whole glossary:
-   ```
-   python3 <refs>/po_tool.py glossary <file.po>
-   ```
-   Each line is `term (part of speech) → translation — notes [#entries]`. The notes are mandatory («No usar…», «No se traduce»).
-
-Priority on conflict: the user's instructions → glossary → style guide. If a rule looks wrong for the text in front of you, apply it anyway and say so at the end.
-
-## 1. Get the file
-
-- The user's `.po`.
-- A translate.wordpress.org project URL: `python3 <refs>/po_tool.py fetch <url> <work>` writes its waiting strings to `<work>/original.po`.
-- The `.po` pasted into the chat (some apps turn an uploaded file into pasted text): save it exactly as it is to `<work>/original.po` and use that file.
-
-`<work>` is the folder `<name>-work/` inside the current folder (`<name>` as in section 4), unless the user or the project's instructions (its CLAUDE.md or similar) say where to work. `<out>`, where the final file goes, is the current folder. Then:
+If the user pasted the `.po` as text, first save it exactly as it is to `<name>.po` in the current folder with the Write tool. Then run, with `<skill>` this skill's folder:
 
 ```
-python3 <refs>/po_tool.py extract <file.po> <work>/entries.jsonl
+python3 <skill>/../../references/po_tool.py start <file.po or URL>
 ```
 
-One JSON object per entry: `n` (entry number), `ctx`, `note` (comment for translators, e.g. where the string comes from), `msgid`, `msgstr` (or `msgid_plural` / `msgstr_plural`). Work by `n`. Never edit the `.po` by hand.
+- Add `--work <folder>` only if the user or the project's instructions (its CLAUDE.md or similar) say where to work.
+- Add `--window 500000` if you are Haiku 5.5 in Claude Cowork, `--window 200000` if you are not Claude Opus, Sonnet or Haiku 5.5.
 
-**Large files** (more than about 400 entries): work in blocks of about 300 entries with `--range A-B` on `extract`, `glossary` and `lint`, appending to the same decisions file. Keep the term choices you settle in `<work>/terms.md` and re-read it before each block, so the whole file stays consistent. Before starting, check that the whole file fits in this session: `python3 <refs>/po_tool.py size <file.po> --window N`. Your context window, for `--window`: 1000000 for Claude Opus 5.5, Sonnet 5.5 and Haiku 5.5 (Haiku 5.5 in Claude Cowork: 500000); 200000 for any other model, or if you do not know which model you are. If it fits, do it all in this session, in blocks: never split it into several sessions or conversations, which reload the skill and the guide and cost more, not less. If it does not fit, tell the user the size and the parts it gives (entry ranges), review the first part now and offer the rest, one part per new conversation. If the user asks for entries A to B only, do exactly that range.
+It prints the exact steps: read the style guide, read each block file (glossary, hints and entries), write each decisions file, run `finish`. Do exactly those steps and nothing else: no other commands, no looking for files, no checks of your own. Use the Read and Write tools for files. If it prints `STOP`, do what it says.
+
+The glossary and the style guide are the only reference. Priority on conflict: the user's instructions → glossary → style guide. If a rule looks wrong for the text, apply it anyway and say so at the end.
 
 ## 2. Review
 
-First the automatic hints:
-
-```
-python3 <refs>/po_tool.py lint <file.po>
-```
-
-They flag glossary terms missing or left in English (with the glossary note), capitals mid-sentence and typography. Look at every hinted entry: most hints are real errors, some are not (the term is there in another form, or the string is fine as it is). Then read **every** entry against its source, for meaning and not only terms: prepositions, who does the action, words added or lost. Decide (section 6 of the style guide):
+Look at every automatic hint: most are real errors, some are not (the term is there in another form, or the string is fine). Then read **every** entry against its source, for meaning and not only terms: prepositions, who does the action, words added or lost. Decide (section 6 of the style guide):
 
 | Verdict | When |
 |---|---|
@@ -55,15 +33,15 @@ They flag glossary terms missing or left in English (with the glossary note), ca
 | `reject` | Breaks the glossary, uses «usted», changes the meaning, breaks placeholders/HTML, leaves a glossary term in English, clearly unnatural |
 | `doubt` | Probably wrong, but not enough context, and the guide and glossary do not settle it: give your best proposal and the question |
 
-- **Change only what is wrong.** If the translation is good enough, approve it, even when you know a slightly better option (section 6 of the guide lists cases). When you change a string, keep the translator's wording except for the error.
+- **Change only what is wrong.** If the translation is good enough, approve it, even when you know a slightly better option. When you change a string, keep the translator's wording except for the error.
 - Translators often use one synonym systematically instead of the glossary term. Apply the glossary term in every entry where it appears, also in small verbs, and fix gender and agreement.
-- Same source string or term → same translation across the file. Do not use the project's already approved strings as a reference: approved does not mean correct.
+- Same source string or term → same translation across the file. Approved strings in the project are not a reference: approved does not mean correct.
 - Decide on your own whenever the guide or the glossary settle the case; doubts are only for real questions.
 - The generic masculine is not a reason to reject.
 
-## 3. Write decisions
+## 3. Decisions
 
-`<work>/decisions.jsonl`, one line per entry you change or doubt:
+One line per entry you change or doubt, in the decisions file of its block:
 
 ```
 {"n": 12, "verdict": "reject", "msgstr": "Mapa del sitio"}
@@ -72,26 +50,17 @@ They flag glossary terms missing or left in English (with the glossary note), ca
 ```
 
 - `msgstr` is the full final text, plain (JSON escapes quotes and newlines). Plurals: `"msgstr_plural": ["singular", "plural"]`.
-- No `comment` on `fix` and `reject`: change the string and that is all. Writing a reason for every change only costs time and context, and nobody reads it.
-- Only when the user asks for the reasons (for example, to explain the changes to the translator) add to each change a `comment` in Spanish, short, in *tú*, addressed to the translator: the concrete reason (glossary term, rule) and nothing else.
-- For a `doubt`, put your best proposal as `msgstr` and ask the question in the comment. If the translator's text is as likely to be right as anything you can propose, it is not a doubt: approve it.
+- No `comment` on `fix` and `reject`. Only when the user asks for the reasons, add to each change a `comment` in Spanish, short, in *tú*, addressed to the translator: the concrete reason (glossary term, rule).
+- If the translator's text is as likely to be right as anything you can propose, it is not a doubt: approve it.
 
-## 4. Build and check
+`finish` builds the file and checks placeholders, HTML, entities, URLs, newlines, edge spaces, final punctuation and quotes. If it lists problems, fix those entries and run the same `finish` command again. A doubt goes into the file with your proposal, because the user approves everything else after importing.
 
-```
-python3 <refs>/po_tool.py build <file.po> <work>/decisions.jsonl <out>/<name>-corrected.po --report <work>/report.md
-```
+## 4. Answer
 
-`<name>` is the name of the user's file without `.po` (`wp-plugins-foo-stable-es.po` → `wp-plugins-foo-stable-es-corrected.po`); for a project downloaded from its URL, the project and subproject (`foo-stable-corrected.po`). The user may review many files: a fixed name like `corrected.po` ends up as «corrected (7).po» in their downloads.
+Do the whole job without asking (except when `start` says STOP) or explaining the process, then answer in the user's language with exactly this:
 
-The corrected file keeps the original header and only the entries that change: `fix`, `reject` and `doubt` (with your proposal). Doubts go in because the user imports the file and then approves everything else: a doubt left out would be approved as it was. The build checks placeholders, HTML, entities, URLs, newlines, edge spaces, final punctuation (GlotPress warns when it differs from the source: do not add or drop a final period) and quotes. Fix every reported problem in the decisions and build again until it reports 0 problems; if one is a false positive, say which and why.
+1. The corrected file `finish` printed, and nothing else to download. In a chat app (claude.ai, the desktop or mobile app) attach it as a download; on the user's own computer (Claude Code), give its path.
+2. A summary in two or three lines: how many strings change and the main kinds of change. If `finish` printed an import URL, add it.
+3. The doubts, if any: each with the source text (not an entry number), your proposal (already in the file) and a concrete question. When the user answers, update the decisions and run `finish` again.
 
-## 5. Answer
-
-Do the whole job without asking (except the size check above) or explaining the process, then answer in the user's language with exactly this:
-
-1. the `<name>-corrected.po` file, and nothing else to download. In a chat app (claude.ai, the desktop or mobile app) attach it to the answer as a download, never a path from your sandbox; on the user's own computer (Claude Code), give its path.
-2. A summary in two or three lines: how many strings change and the main kinds of change.
-3. The doubts, if any: each with the source text (not an entry number), your proposal (already in the file) and a concrete question. When the user answers, update the decisions and build again.
-
-Nothing more: no report, no list of every change, no reasons for the changes, no paths of your work folder. Ask only about the doubts, never about what you changed because you were sure. If the user then asks why some strings changed, explain those; if they want the reasons for every change (to pass them on to the translator), add the comments to the decisions as in section 3 and build again with `--report`. If a glossary or guide rule looked wrong for this text, say so in one line at the end.
+Nothing more: no report, no list of every change, no reasons, no paths of the work folder. If a glossary or guide rule looked wrong for this text, say so in one line at the end.

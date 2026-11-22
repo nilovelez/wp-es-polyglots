@@ -6,7 +6,9 @@ Development of the installable skill in `wordpress-translator-es/`. Its `SKILL.m
 
 | Command | What it does |
 |---|---|
-| `extract` | `.po` → numbered JSON lines |
+| `start` | The whole workflow before the model works: work folder, download (URL), precheck, size, block files with glossary, hints and entries; prints the exact steps (Read, Write, `finish`) or STOP. The skills call only `start` and `finish`, so the model has nothing to work out and no reason to explore |
+| `finish` | Merges the block decisions, builds the final `.po` next to where `start` ran, checks it and says what to fix or that it is done |
+| `extract` | `.po` → numbered JSON lines (used by `start`) |
 | `fetch` | Download waiting or untranslated strings of a translate.wordpress.org project |
 | `glossary-update` | Maintainer only: refresh `resources/glossary.csv` from translate.wordpress.org when the reviewer says the official glossary has changed. The skill does not run it |
 | `glossary` / `tm` | Glossary entries / translation memory rows (memory off for now) that apply to a file |
