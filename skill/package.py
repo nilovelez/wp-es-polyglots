@@ -1,15 +1,18 @@
 #!/usr/bin/env python3
-"""Build the installable plugin in wordpress-translator-es/ from this repository.
+"""Build the two installable plugins from this repository.
 
-The plugin has one folder per skill in skills/; each SKILL.md is written by hand.
-All the skills share references/, which this script regenerates:
-  po_tool.py          copy of skill/scripts/po_tool.py
-  glossary.csv        resources/glossary.csv with resources/glossary-overrides.csv merged in,
-                      for the scripts
-  glossary.md         the same merged glossary in Markdown: what the model reads, whole
+wordpress-translator-es/  base skills translate and review: a .po in, a .po out. Each skill
+                          folder is self-contained; this script writes its references/:
+  po_tool.py          copy of skill/scripts/po_tool.py (file plumbing only)
+  glossary.md         resources/glossary.csv with resources/glossary-overrides.csv merged
+                      in, in Markdown: the model reads it whole
   style-guide.md      resources/style-guide.md with resources/quick-reference.md merged in:
-                      the skill sees one guide, without workflow, pending notes or file names
-and writes dist/wordpress-translator-es.zip (ignored by git) with the whole plugin.
+                      one guide, without workflow, pending notes or file names
+wordpress-polyglots-es/   GlotPress workflow for moderators, on top of the base skills. Each
+                          skill folder gets scripts/: glotpress.py, po_tool.py and the merged
+                          glossary.csv (for the precheck).
+SKILL.md files are written by hand. dist/ (ignored by git) gets one zip per plugin and, for
+claude.ai, one zip per base skill.
 
 Usage: python3 skill/package.py
 Run it after every change to resources/ or po_tool.py, and commit the result.
@@ -25,6 +28,7 @@ import zipfile
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RES = os.path.join(ROOT, 'resources')
 OUT = os.path.join(ROOT, 'wordpress-translator-es')
+WORKFLOW = os.path.join(ROOT, 'wordpress-polyglots-es')
 warnings = []
 
 
@@ -115,7 +119,7 @@ def style_guide():
             body = sub(body, '**Instrucciones explícitas del revisor humano** en la sesión de trabajo',
                        '**Instrucciones explícitas del usuario**', 'style-guide 1')
             body = sub(body, '**Glosario oficial** (`glossary.csv`, exportado de [translate.wordpress.org/locale/es/default/glossary](https://translate.wordpress.org/locale/es/default/glossary/)).',
-                       '**Glosario** (`glossary.csv`).', 'style-guide 1')
+                       '**Glosario** (`glossary.md`).', 'style-guide 1')
             body = sub(body, '4. **Memoria de traducción** (`resources/translation-memory.csv`): referencia de consistencia para frases completas.\n',
                        '', 'style-guide 1')
             body = sub(body, ' (ver sección 9), aplica el criterio correcto y señálalo en el informe.',
@@ -152,35 +156,43 @@ def zip_dir(src, zpath, top):
 
 
 def main():
-    # One shared folder for all the skills of the package.
-    refs = os.path.join(OUT, 'references')
-    os.makedirs(refs, exist_ok=True)
-    shutil.copy(os.path.join(ROOT, 'skill', 'scripts', 'po_tool.py'), os.path.join(refs, 'po_tool.py'))
+    scripts = os.path.join(ROOT, 'skill', 'scripts')
     merged, n = glossary()
-    open(os.path.join(refs, 'glossary.csv'), 'w', encoding='utf-8', newline='').write(merged)
-    open(os.path.join(refs, 'glossary.md'), 'w', encoding='utf-8').write(glossary_md(merged))
-    stale = os.path.join(refs, 'glossary-overrides.csv')
-    if os.path.exists(stale):
-        os.remove(stale)
-    open(os.path.join(refs, 'style-guide.md'), 'w', encoding='utf-8').write(style_guide())
-    skills = sorted(d for d in os.listdir(os.path.join(OUT, 'skills'))
-                    if os.path.exists(os.path.join(OUT, 'skills', d, 'SKILL.md')))
+    guide = style_guide()
     dist = os.path.join(ROOT, 'dist')
     os.makedirs(dist, exist_ok=True)
-    zpath = os.path.join(dist, 'wordpress-translator-es.zip')
-    zip_dir(OUT, zpath, 'wordpress-translator-es')
-    print(f'{OUT}: {len(skills)} skills ({", ".join(skills)}); glossary {n} rows; zip {zpath}')
-    # claude.ai takes one skill per ZIP and has no shared folder: build the two base skills
-    # self-contained, with references/ inside each one.
+    # Base skills: each one self-contained, the same folder for Claude Code and claude.ai.
+    for s in ('translate', 'review'):
+        refs = os.path.join(OUT, 'skills', s, 'references')
+        shutil.rmtree(refs, ignore_errors=True)
+        os.makedirs(refs)
+        shutil.copy(os.path.join(scripts, 'po_tool.py'), refs)
+        open(os.path.join(refs, 'glossary.md'), 'w', encoding='utf-8').write(glossary_md(merged))
+        open(os.path.join(refs, 'style-guide.md'), 'w', encoding='utf-8').write(guide)
+    # Workflow skills: the GlotPress script, the plumbing it imports and the glossary for the precheck.
+    wf = sorted(d for d in os.listdir(os.path.join(WORKFLOW, 'skills'))
+                if os.path.exists(os.path.join(WORKFLOW, 'skills', d, 'SKILL.md')))
+    for s in wf:
+        sc = os.path.join(WORKFLOW, 'skills', s, 'scripts')
+        shutil.rmtree(sc, ignore_errors=True)
+        os.makedirs(sc)
+        for f in ('glotpress.py', 'po_tool.py'):
+            shutil.copy(os.path.join(scripts, f), sc)
+        open(os.path.join(sc, 'glossary.csv'), 'w', encoding='utf-8', newline='').write(merged)
+    for plugin in (OUT, WORKFLOW):
+        name = os.path.basename(plugin)
+        zpath = os.path.join(dist, name + '.zip')
+        zip_dir(plugin, zpath, name)
+        print(f'{zpath}')
+    print(f'glossary {n} rows; workflow skills: {", ".join(wf)}')
+    # claude.ai takes one skill per zip: the base skill folders, renamed.
     for s in ('translate', 'review'):
         name = f'wordpress-{s}-es'
         tmp = os.path.join(dist, 'claude-ai', name)
         shutil.rmtree(tmp, ignore_errors=True)
-        shutil.copytree(os.path.join(OUT, 'skills', s), tmp)
-        shutil.copytree(refs, os.path.join(tmp, 'references'), ignore=shutil.ignore_patterns('__pycache__', '*.pyc'))
+        shutil.copytree(os.path.join(OUT, 'skills', s), tmp, ignore=shutil.ignore_patterns('__pycache__', '*.pyc'))
         md = open(os.path.join(tmp, 'SKILL.md'), encoding='utf-8').read()
         md = sub(md, f'name: {s}\n', f'name: {name}\n', f'claude.ai {s}')
-        md = sub(md, '<skill>/../../references/po_tool.py', '<skill>/references/po_tool.py', f'claude.ai {s}')
         open(os.path.join(tmp, 'SKILL.md'), 'w', encoding='utf-8').write(md)
         zip_dir(tmp, tmp + '.zip', name)
         shutil.rmtree(tmp)

@@ -1,6 +1,6 @@
 # Status
 
-Last updated: 2026-11-11.
+Last updated: 2026-11-22.
 
 ## Current milestone
 
@@ -9,7 +9,7 @@ Last updated: 2026-11-11.
 1. Write the skill and `skill/scripts/po_tool.py`. Done.
 2. Blind benchmark on rounds 01 and 02 against the human-approved `corrected.po`. Done: 9/26 with skill v1, 39/50 with v2; v3 adds `lint` (see `skill/benchmark-log.md`).
 3. Real rounds from the waiting queue with the reviewer's feedback, following `review/README.md`. In progress.
-4. Installable plugin `wordpress-translator-es/` (2026-11-11): base skills `translate` and `review` (a `.po` in, a `.po` out, with the glossary and the style guide, nothing else) and the GlotPress workflows `translate-glotpress-project` and `review-glotpress-waiting` on top of them. Personal workflows (where files are left, Poedit training files) stay out of it. `skill/package.py` regenerates it from `resources/` and `po_tool.py`; run it and commit after every change. The reviewer tests it in separate sessions with cheap models and compares it with other moderators' skills; what they learned is merged into it. Since round 34 the training rounds use only this skill, prompted as a real user would (no term lists or exceptions in the prompt); the development `skill/SKILL.md` was removed.
+4. Installable plugin `wordpress-translator-es/` (2026-11-11): base skills `translate` and `review` (a `.po` in, a `.po` out, with the glossary and the style guide, nothing else). Since 2026-11-22 the GlotPress workflows `translate-glotpress-project` and `review-glotpress-waiting` are a separate plugin on top, `wordpress-polyglots-es/` (download, precheck, split, import URL), and each base skill carries the whole guide and the whole glossary (`glossary.md`), read whole by the model: no pre-selection of glossary entries and no lint hints (see `skill/README.md`, "Architecture"). Personal workflows (where files are left, Poedit training files) stay out of it. `skill/package.py` regenerates it from `resources/` and `po_tool.py`; run it and commit after every change. The reviewer tests it in separate sessions with cheap models and compares it with other moderators' skills; what they learned is merged into it. Since round 34 the training rounds use only this skill, prompted as a real user would (no term lists or exceptions in the prompt); the development `skill/SKILL.md` was removed.
 
 5. New test bench in `bench/` (2026-11-11): cases come only from new rounds reviewed by a human in Poedit (one small round every 3–4 direct rounds, adjusted to review urgency); old rounds are not trusted as reference. Translation rounds use official projects the reviewer picks (core, Meta, popular plugins).
 
@@ -60,12 +60,12 @@ When a contributor uploads a batch like torlann (machine translation without con
 
 ### skill
 
-- One skill: `wordpress-translator-es/` (installable), developed from `skill/` and `resources/` with `skill/package.py`. It refreshes the official glossary at the start (`glossary-update`) and applies the team's overrides on top.
+- Two plugins: `wordpress-translator-es/` (base skills) and `wordpress-polyglots-es/` (workflow), developed from `skill/` and `resources/` with `skill/package.py`, which merges the team's overrides into the glossary. The skills never download the glossary: the maintainer refreshes `resources/glossary.csv` with `dev_tools.py glossary-update` and packages again.
 - Not yet tested on claude.ai (network access to translate.wordpress.org from its sandbox) or on Windows.
-- `po_tool.py` still has es-specific checks (locale code, Spanish quotes, «ej.»); they must move to locale data before another locale can use it.
+- `po_tool.py` and `glotpress.py` still have es-specific checks (locale code, Spanish quotes, «ej.»); they must move to locale data before another locale can use it.
 - Translation memory is off in the skill until decided.
-- Pending: the skills still ask the model to choose `start --window` by model and app (1M, 500k in Cowork, 200k otherwise). It is a non-deterministic choice in the plumbing (round 02: Haiku in Claude Code passed 500k). Remove it from the model's hands.
-- Pending: the GlotPress skills point to the `review`/`translate` SKILL.md by a relative path, and Haiku checked it with a blocked `ls` (round 03). The wrapper should not make the model resolve a path.
+- The size check moved to the workflow (`glotpress.py prepare`), which assumes a 1M-token window unless the user passes `--window`; the model no longer chooses it. Pending: smaller windows (Cowork, other models) are not detected.
+- The workflow skills name the base skill instead of pointing to its SKILL.md by a relative path, and every skill runs its scripts from its own folder (`<skill>/references/` or `<skill>/scripts/`).
 
 ### common strings (separate repository)
 
@@ -80,6 +80,6 @@ When a contributor uploads a batch like torlann (machine translation without con
 - *authentication salt* (AUTH_SALT): how does core translate it?
 - *Deselect All*: the glossary gives «anular selección»; «Anular toda la selección»?
 - Plugin name with a subtitle (WGRank Translate – …): leave untranslated?
-- Official glossary entries the team overrides (`resources/glossary-overrides.csv`, used by `po_tool.py`): *meta title* / *meta description* («meta título» / «meta descripción»). The reviewer may want to change them in the official glossary.
+- Official glossary entries the team overrides (`resources/glossary-overrides.csv`, merged into the packaged glossary): *meta title* / *meta description* («meta título» / «meta descripción»). The reviewer may want to change them in the official glossary.
 - Glossary typos (QuickPress, *deprecate*, *expire*, *expanse*, *troubleshooting*, duplicated *endpoint* and *page*): the reviewer will review them.
 - Translation memory: `resources/translation-memory.csv` has 21 entries from WGRank, but the previous instructions said to keep it empty because it will be approached differently. Waiting for a decision.

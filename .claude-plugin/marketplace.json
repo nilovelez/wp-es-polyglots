@@ -7,7 +7,12 @@
     {
       "name": "wordpress-translator-es",
       "source": "./wordpress-translator-es",
-      "description": "Translate and review WordPress strings into Spanish (Spain, es_ES) with the es_ES team's glossary and style guide."
+      "description": "Translate and review WordPress strings into Spanish (Spain, es_ES) with the es_ES team's glossary and style guide: a .po in, a .po out."
+    },
+    {
+      "name": "wordpress-polyglots-es",
+      "source": "./wordpress-polyglots-es",
+      "description": "GlotPress workflow for es_ES moderators on top of wordpress-translator-es: download, precheck, split, import URL."
     }
   ]
 }

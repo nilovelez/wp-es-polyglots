@@ -1,0 +1,8 @@
+{
+  "name": "wordpress-polyglots-es",
+  "description": "GlotPress workflow for es_ES moderators (PTE/GTE) on top of the wordpress-translator-es skills: download from translate.wordpress.org, check whether a waiting batch deserves a review, split large files, hand back the .po and the import URL.",
+  "version": "0.1.0",
+  "author": {
+    "name": "WordPress es_ES Polyglots team"
+  }
+}

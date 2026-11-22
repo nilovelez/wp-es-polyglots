@@ -32,7 +32,7 @@ Review bench/cases/<case>/original.po. Work folder: <tmp>/<case>/. Write the res
 (For translation cases: the `translate` skill, "Translate …" and `translated.po`.) Do not add hints, term lists or exceptions: the bench measures the skill as people get it. Then:
 
 ```
-python3 skill/scripts/po_tool.py compare bench/cases/<case>/reference.po <tmp>/<case>/corrected.po
+python3 skill/scripts/dev_tools.py compare bench/cases/<case>/reference.po <tmp>/<case>/corrected.po
 ```
 
 - **found**: strings the reviewer changed that the skill changed too (and how many with the same wording).

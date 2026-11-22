@@ -11,7 +11,7 @@ Basada en la [Guía de traductores del equipo de WordPress España](https://es.w
 Cuando dos fuentes entren en conflicto, prevalece la de mayor rango:
 
 1. **Instrucciones explícitas del usuario**.
-2. **Glosario** (`glossary.csv`).
+2. **Glosario** (`glossary.md`).
 3. **Esta guía.**
 
 Uso del glosario:
@@ -38,6 +38,7 @@ El glosario y esta guía son decisiones del equipo es_ES tomadas por consenso, n
 ### Casos concretos
 
 - Tuteo; WordPress habla en primera persona del singular; infinitivo para acciones del usuario, imperativo para propuestas.
+- La misma cadena o el mismo término se traduce igual en todo el archivo.
 - **website = «sitio web»; site = «sitio»** (glosario). No quitar «sitio web» cuando el original dice *website*.
 - **Se mantiene la puntuación del original que puede romper algo**: los puntos suspensivos finales tal como vienen (sin cambiar el carácter «…» por tres puntos ni al revés, para que no salte una línea distinta), y los dos puntos y signos de cierre al final de la cadena. El guion largo «—» se puede sustituir por «:», «;» o «,»: al traducir se puede mantener, pero no es motivo para cambiar una traducción. Las comillas son la excepción (siguiente punto). Si toda la cadena va entre comillas en el original (p. ej., un texto de ejemplo o una instrucción para una IA), las comillas se mantienen: forman parte del texto. Si toda la cadena es un texto literal para un buscador o un agente de IA (una instrucción, una consulta de ejemplo), se dejan las comillas del original, también las rectas. Un término citado dentro de una frase lleva «» como siempre: *Search for "WSMS"* → Busca «WSMS».
 - Comillas «» siempre (también en lugar de `"…"` y `'…'`); «p. ej.», no «ej.».
@@ -164,9 +165,11 @@ Emite un veredicto para cada cadena:
 
 ### Cuándo cambiar una cadena
 
-- **Solo se cambia lo que es un error.** Si la traducción es suficientemente buena, se aprueba aunque exista otra opción más correcta. Ejemplos de «suficientemente bueno»: «Eliminado» en lugar de «Quitado» para *Remove*; una entrada de un registro de cambios en presente («permanece visible») cuando las demás van en participio; «requiere PHP %s» en lugar de «necesita PHP %s»; «No se pudo…» o «no pudo guardarse» en lugar de «No se ha podido…». En los registros de cambios, aún más tolerancia.
+- **Solo se cambia lo que es un error.** Si la traducción es suficientemente buena, se aprueba aunque exista otra opción más correcta. Ejemplos de «suficientemente bueno»: «Eliminado» en lugar de «Quitado» para *Remove*; una entrada de un registro de cambios en presente («permanece visible») cuando las demás van en participio; «requiere PHP %s» en lugar de «necesita PHP %s»; «No se pudo…» o «no pudo guardarse» en lugar de «No se ha podido…». En los registros de cambios, aún más tolerancia. Si cambias una cadena, conserva la redacción del traductor salvo el error.
 - Más casos de «suficientemente bueno», que no se cambian: *remove* traducido como «eliminar» o «borrar» cuando de verdad se borra algo; *toggle* como «interruptor» (el glosario da «conmutador», que es más general, pero «interruptor» no es incorrecto para algo que se enciende y se apaga); «Sorry» omitido al principio de un mensaje de error; *issue* como «fallo»; un aviso destacado *WARNING!* como «¡ATENCIÓN!».
 - **Sinónimos sistemáticos.** Muchos traductores usan siempre el mismo sinónimo en lugar del término del glosario («notificación» por *notification*, «complemento» por *add-on*, «predeterminado» por *default*, «eliminar» por *delete*, «definir» o «poner» por *set*, «saltar» por *skip*, «vincular» por *link*, «revisar» por *check*). Eso sí es error: se corrige en todas las cadenas donde aparece, también en verbos pequeños, y ajustando el género y la concordancia («la notificación enviada» → «el aviso enviado»; «el complemento» → «la extensión»).
 - **Formas preferidas, solo si ya cambias la cadena por otro motivo:** «necesita» mejor que «requiere»; «No se ha podido…» (pretérito perfecto, como el núcleo) mejor que «No se pudo…». No se cambia una cadena solo por esto.
 - Sí se cambia: incumplimientos del glosario, cambio de sentido (p. ej. «Añadido» cuando el original dice *Show*), preposición equivocada («Compatibilidad del correo» por *Email compatibility* → «Compatibilidad con el correo electrónico»), tipografía (comillas, «p. ej.», coma tras «Por favor,»), términos del glosario dejados en inglés.
+- **Se revisa el sentido, no solo los términos:** preposiciones, quién hace la acción, palabras añadidas o perdidas.
+- **Dudas, solo las reales.** Si la guía o el glosario resuelven el caso, se decide. Si la traducción tiene tantas probabilidades de ser correcta como lo que puedas proponer, no es duda: se aprueba.
 - **email = «correo electrónico».** En textos largos (descripciones, párrafos, preguntas frecuentes) «correo» a secas se corrige a «correo electrónico», también en «dirección de correo electrónico» y «correos electrónicos enviados». En cadenas cortas de interfaz (botones, etiquetas, menús, títulos breves) «correo» es válido para mantener una longitud parecida al original: se aprueba.
