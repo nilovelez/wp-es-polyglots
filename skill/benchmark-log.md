@@ -158,6 +158,14 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - 179 cambios (15 %), sin dudas. 6 min 53 s, 0,57 USD. Precheck: tuteo («su» 14, «tu» 80). Muestra de 25: sin errores.
 - Tuteo en los correos al cliente, *email* = «correo electrónico», mayúsculas, glosario; *ticket* = «entrada» (entradas de eventos) en lugar de «billete», *location* = «local» (restaurantes).
 
+## 2026-11-22 · Haiku · ronda 113 (Dotes Auto Schema, stable, 1639 cadenas) · revisión directa de producción
+
+- 39 cambios, sin dudas, 3 min 28 s, 0,29 USD. Precheck limpio (tuteo: «su» 1, «tu» 12). Buena traducción; glosario: *rating* = «valoración» ×22, *embed* = «inserción» ×3; mayúsculas tras «P. ej.,» y en listas.
+- Auditoría: 6 descartados; quedan 33.
+  - *Required experience/skills/qualifications* ×3: en una oferta de empleo «requerida» es lo natural, y el glosario lo admite cuando el contexto lo justifica.
+  - *Discontinued* (disponibilidad de producto): «Descatalogado» es lo correcto; el «en desuso» del glosario es para software.
+  - *Benefits* en una oferta de empleo: «Beneficios» es el término habitual. *Pattern/Print* en ropa: «Estampado» basta.
+
 ## 2026-11-22 · BotBlocker Security (dev, 2564 cadenas) · reenvío · rechazada entera sin número de ronda
 
 - El traductor volvió a mandar el lote. Antes de lanzar a Haiku se comparó la exportación de cadenas en espera con el `original.po` de la ronda 106: 2564 cadenas en común, ninguna traducción distinta (solo falta una cadena). Es el mismo envío; se rechaza sin gastar en revisión.
