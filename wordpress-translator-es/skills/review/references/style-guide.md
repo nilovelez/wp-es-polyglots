@@ -110,6 +110,7 @@ Gerundio: «Saving…» → «Guardando…».
 
 - Solo en la primera palabra, aunque el inglés use mayúscula en cada palabra (*Title Case*).
   - ✅ «Subir archivo» · ❌ «Subir Archivo»
+- Se usan mayúsculas cuando el texto se refiere a un elemento del sistema por su nombre, solo en la primera palabra: «ve a la pantalla Ajustes», «el Escritorio de WordPress». Si se habla de él de forma genérica, en minúscula: «ve a la pantalla de ajustes del plugin», «el kit de migración».
 - Se mantienen las mayúsculas de nombres propios y productos.
 
 ### 3.8 Registros de cambios

@@ -74,7 +74,7 @@ When a contributor uploads a batch like torlann (machine translation without con
 ## Open questions (locale)
 
 - *link* meaning to associate accounts («asociado con un socio», rounds 31 and 37) clashes with the glossary note for *link*. Ignored for now.
-- «Escritorio» with a capital letter mid-sentence: confirm the es_ES core convention.
+- The published translator guide says to use the «guía semántica de WordPress» for semantic doubts, without a link: the reviewer will ask which guide it means.
 - *Dashboard* of an external service: «escritorio» per the glossary, or a different wording? Round 10: the reviewer accepted «escritorio del vendedor» for ifthenpay's merchant dashboard (one case, not yet a rule).
 - *authentication salt* (AUTH_SALT): how does core translate it?
 - *Deselect All*: the glossary gives «anular selección»; «Anular toda la selección»?
