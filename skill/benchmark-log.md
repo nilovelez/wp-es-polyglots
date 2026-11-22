@@ -158,6 +158,11 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - 179 cambios (15 %), sin dudas. 6 min 53 s, 0,57 USD. Precheck: tuteo («su» 14, «tu» 80). Muestra de 25: sin errores.
 - Tuteo en los correos al cliente, *email* = «correo electrónico», mayúsculas, glosario; *ticket* = «entrada» (entradas de eventos) en lugar de «billete», *location* = «local» (restaurantes).
 
+## 2026-11-22 · Haiku · ronda 129 (tema Envo Blocks Store, 314 cadenas) · revisión directa de producción
+
+- 13 cambios, 1 min 51 s, 0,03 USD. Precheck limpio (tuteo). Buena traducción; glosario: *builder* = «maquetador» ×3, *FAQ* sin traducir ×2, *primary* = «principal» ×2, *rated* = «puntuado».
+- Auditoría: 5 descartados; quedan 8. «Lo sentimos, no se ha encontrado nada» y «No hemos encontrado la página» son correctos (Haiku los pasó a primera persona del singular y cambió el sentido); las mayúsculas de cada elemento de «Pago seguro · Devoluciones gratis · Soporte 24/7» siguen el original; «Añadir plugin» coincide con el menú actual de core; *features* = «funciones» lo admite el glosario.
+
 ## 2026-11-22 · Haiku · rondas 127 y 128 (EstrategiaWeb Toolkit dev, 992 cadenas; Dayslot stable, 556) · revisión directa de producción · en paralelo
 
 - 127: 94 decisiones (1 duda), 4 min 34 s, 0,32 USD. Precheck limpio. Buena traducción con preferencias propias frente al glosario: *site* = «web» (~40), «fichero», «mediateca», «portada», «correo» corto en textos largos, «n.º». Auditoría: 2 descartados («Lo viste el tema», válido; ruta de menús de Mailchimp en español sin verificar). Quedan 92. Los mensajes de validación de JSON pasan a «cadena» y «configuración regional» (glosario).
