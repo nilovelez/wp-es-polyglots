@@ -122,7 +122,7 @@ def style_guide():
                        '**Glosario** (`glossary.md`).', 'style-guide 1')
             body = sub(body, '4. **Memoria de traducción** (`resources/translation-memory.csv`): referencia de consistencia para frases completas.\n',
                        '', 'style-guide 1')
-            body = sub(body, ' (ver sección 9), aplica el criterio correcto y señálalo en el informe.',
+            body = sub(body, ' (ver sección 9), aplícala igualmente y señálalo en el informe.',
                        ', aplícala igualmente y señálalo al terminar.', 'style-guide 1')
             body = body.rstrip().rstrip('-').rstrip() + f'\n\n{consensus}\n\n---\n\n'
         elif k.startswith('## 2.'):

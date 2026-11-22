@@ -20,7 +20,7 @@ Uso del glosario:
 - Columnas: `en, es, pos, description`. La columna `description` contiene usos prohibidos («No usar…») y matices de contexto que son obligatorios.
 - Si una entrada ofrece varias opciones separadas por « / », elige según el contexto que indique `description`.
 - Comprueba la categoría gramatical (`pos`): el mismo término puede tener traducciones distintas como sustantivo y como verbo (*link* → «enlace» / «enlazar»).
-- Si una entrada parece errónea (ver sección 9), aplica el criterio correcto y señálalo en el informe.
+- Si una entrada parece errónea (ver sección 9), aplícala igualmente y señálalo en el informe.
 
 ---
 
