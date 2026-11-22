@@ -947,12 +947,18 @@ def cmd_start(args):
     guide = os.path.join(_HERE, 'style-guide.md') if os.path.exists(os.path.join(_HERE, 'style-guide.md')) \
         else os.path.join(_HERE, '..', '..', 'wordpress-translator-es', 'references', 'style-guide.md')
     verb = 'translate' if translate else 'review'
-    print(f'{len(todo)} strings to {verb}, in {len(files)} block(s). Do exactly these steps, nothing else:')
-    print(f'1. Read {os.path.abspath(guide)} (all of it, once).')
-    for i, (bf, df) in enumerate(files, 2):
-        print(f'{i}. Read {bf}, {verb} its entries and write your decisions for them to {df} with the Write tool '
-              '(an empty file if nothing changes).')
-    print(f'{len(files) + 2}. Run: {_py()} {os.path.abspath(__file__)} finish {work}')
+    # Three steps, each one response: every extra response resends the whole context
+    # (round 04: 19 API calls, 0.36 USD; round 05, same size, all reads and writes batched: 5 calls, 0.08 USD).
+    print(f'{len(todo)} strings to {verb}, in {len(files)} block(s). Do exactly these three steps, nothing else:')
+    print(f'1. In ONE response, call Read {len(files) + 1} times at once, one call per file:')
+    print(f'   {os.path.abspath(guide)}')
+    for bf, _ in files:
+        print(f'   {bf}')
+    print(f'2. {verb.capitalize()} every entry of every block. Then, in ONE response, call Write {len(files)} time(s) at once, '
+          'one call per file, with your decisions for that block (an empty file if nothing changes in it):')
+    for bf, df in files:
+        print(f'   {df}   (entries of {os.path.basename(bf)})')
+    print(f'3. In the next response, alone: {_py()} {os.path.abspath(__file__)} finish {work}')
 
 
 def cmd_finish(args):
