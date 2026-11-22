@@ -6,7 +6,7 @@ Commands:
       The whole workflow in one command: work folder (<name>-work/ in the
       current folder unless --work), download if given a URL, precheck (review),
       size check, and the entries file (parts only if over one Read) with the
-      glossary and hints. Prints
+      glossary that applies. Prints
       the exact steps to follow, or STOP and why.
   finish <work folder>
       Build <name>-corrected.po (review) or
@@ -929,9 +929,6 @@ def cmd_start(args):
         head = f'# Part {k} of {total}: entries {rng[0]}-{rng[1]}' if total > 1 else '# Entries to ' + job['mode']
         out = [head, '', '## Glossary entries that apply (mandatory, notes included)', '',
                _capture(cmd_glossary, [orig], rng).rstrip() or '(none)']
-        if not translate:
-            out += ['', '## Automatic hints (most are real errors, some are not)', '',
-                    _capture(cmd_lint, [orig], rng).rstrip() or '(none)']
         out += ['', '## Entries (one JSON object per line)', '',
                 '\n'.join(l for l in _capture(cmd_extract, [orig], rng).splitlines() if json.loads(l)['n'] in ns)]
         return '\n'.join(out) + '\n'

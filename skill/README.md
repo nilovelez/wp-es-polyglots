@@ -6,7 +6,7 @@ Development of the installable skill in `wordpress-translator-es/`. Its `SKILL.m
 
 | Command | What it does |
 |---|---|
-| `start` | The whole workflow before the model works: work folder, download (URL), precheck, size, block files with glossary, hints and entries; prints the exact steps (Read, Write, `finish`) or STOP. The skills call only `start` and `finish`, so the model has nothing to work out and no reason to explore |
+| `start` | The whole workflow before the model works: work folder, download (URL), precheck, size, entries files with the glossary that applies and the entries; prints the exact steps (Read, Write, `finish`) or STOP. The skills call only `start` and `finish`, so the model has nothing to work out and no reason to explore |
 | `finish` | Merges the block decisions, builds the final `.po` next to where `start` ran, checks it and says what to fix or that it is done |
 | `extract` | `.po` → numbered JSON lines (used by `start`) |
 | `fetch` | Download waiting or untranslated strings of a translate.wordpress.org project |

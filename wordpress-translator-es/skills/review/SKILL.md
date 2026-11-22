@@ -18,13 +18,13 @@ python3 <skill>/../../references/po_tool.py start <file.po or URL>
 - Add `--work <folder>` only if the user or the project's instructions (its CLAUDE.md or similar) say where to work.
 - Add `--window 500000` if you are Haiku 5.5 in Claude Cowork, `--window 200000` if you are not Claude Opus, Sonnet or Haiku 5.5.
 
-It prints the exact steps: read the style guide and the entries file (with the glossary and hints that apply) at once, write the decisions file, run `finish`. Do exactly those steps and nothing else: no other commands, no looking for files, no checks of your own. Use the Read and Write tools for files. If it prints `STOP`, do what it says.
+It prints the exact steps: read the style guide and the entries file (with the glossary entries that apply) at once, write the decisions file, run `finish`. Do exactly those steps and nothing else: no other commands, no looking for files, no checks of your own. Use the Read and Write tools for files. If it prints `STOP`, do what it says.
 
 The glossary and the style guide are the only reference. Priority on conflict: the user's instructions → glossary → style guide. If a rule looks wrong for the text, apply it anyway and say so at the end.
 
 ## 2. Review
 
-Look at every automatic hint: most are real errors, some are not (the term is there in another form, or the string is fine). Then read **every** entry against its source, for meaning and not only terms: prepositions, who does the action, words added or lost. Decide (section 6 of the style guide):
+Read **every** entry against its source, for meaning and not only terms: prepositions, who does the action, words added or lost. Decide (section 6 of the style guide):
 
 | Verdict | When |
 |---|---|
