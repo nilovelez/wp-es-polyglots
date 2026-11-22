@@ -158,6 +158,12 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - 179 cambios (15 %), sin dudas. 6 min 53 s, 0,57 USD. Precheck: tuteo («su» 14, «tu» 80). Muestra de 25: sin errores.
 - Tuteo en los correos al cliente, *email* = «correo electrónico», mayúsculas, glosario; *ticket* = «entrada» (entradas de eventos) en lugar de «billete», *location* = «local» (restaurantes).
 
+## 2026-11-22 · Haiku · ronda 123 (GatherPress, dev, 266 cadenas sin traducir) · traducción de producción
+
+- 266 cadenas traducidas, 3 dudas, 1 min 50 s, 0,04 USD. Buena traducción; *RSVP* = «confirmación de asistencia», *check-in* = «registro de asistencia».
+- Auditoría: 7 editadas. Pasivas «ha sido cancelado» ×3; *Show Weekdays* = «Mostrar días de la semana» (Haiku: «días laborables», pero son los nombres de los días en la cabecera); sentido de *Users can turn these emails off from their profile, and they are always skipped*; *deleted* = «borrada»; *Moved online* = «Ahora en línea».
+- Los formatos de fecha de los rangos del calendario se dejaron en el orden inglés (`M j, Y`): reordenarlos exige cambiar a la vez el inicio y el fin del rango.
+
 ## 2026-11-22 · Haiku · ronda 122 (WordPress core, dev, 282 cadenas sin traducir) · traducción de producción
 
 - 282 cadenas traducidas, 1 duda, 2 min 27 s, 0,10 USD. Buena traducción, cuidada con el glosario (perfil, acceder, identificado, borrar, quitar, por defecto, gestiona).
