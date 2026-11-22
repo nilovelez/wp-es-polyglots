@@ -158,6 +158,12 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - 179 cambios (15 %), sin dudas. 6 min 53 s, 0,57 USD. Precheck: tuteo («su» 14, «tu» 80). Muestra de 25: sin errores.
 - Tuteo en los correos al cliente, *email* = «correo electrónico», mayúsculas, glosario; *ticket* = «entrada» (entradas de eventos) en lugar de «billete», *location* = «local» (restaurantes).
 
+## 2026-11-22 · Haiku · rondas 125 y 126 (Fair Member Fees dev, 343 cadenas; WIWERCY Web Image Converter stable, 335) · revisión directa de producción · en paralelo
+
+- Primera prueba de dos sesiones de Haiku a la vez, cada una con su propia carpeta temporal y recogiendo solo de ella. Cada una se ciñó a su proyecto. 1 min 37 s y 0,03 USD; 1 min 29 s y 0,03 USD.
+- 125: 12 cambios, buena traducción (*log in* = «acceder», *link* = «enlazar», «permisos», *endpoint*). Editado el ejemplo de nombre abreviado a 4 + 4 caracteres: el traductor puso «Laurarcía» (no cumple la regla) y Haiku «Laura García» (pierde el ejemplo); se deja «Janaková» como en el original.
+- 126: 32 decisiones, 5 descartadas y 6 editadas; quedan 32. Glosario: «configuración», «eliminar», «escanear», «habilitado». *Dashboard* ×3 es una página propia del plugin: se deja «Panel» (el glosario de excepciones lo admite fuera del Escritorio de WordPress). *Backend* = «motor» (Imagick, GD) en 7 cadenas, por decisión del revisor y en coherencia con *engine*.
+
 ## 2026-11-22 · Haiku · ronda 124 (GTM4WP, stable, 276 cadenas) · revisión directa de producción
 
 - 13 cambios, sin dudas, 3 min 5 s, 0,12 USD. Precheck limpio (tuteo: «su» 3, «tu» 17). Muy buena traducción; solo glosario: *ability* = «habilidad» ×4, *endpoint* = «punto de conexión» ×4, *add-on* = «adicional» ×2, «permiso», «eliminar».
