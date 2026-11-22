@@ -67,6 +67,8 @@ El glosario y esta guía son decisiones del equipo es_ES tomadas por consenso, n
 
 - **Tuteo siempre.** Nunca «usted».
 - Dirígete directamente al usuario cuando la frase lo permita.
+- **Hablar a una empresa o a un servicio: «vosotros».** Si el texto se dirige a la empresa, la tienda o el servicio que está detrás de un plugin o un tema (preguntas frecuentes, formularios de contacto, soporte), lo natural es la segunda persona del plural: «¿Ofrecéis envoltorio para regalo?», «¿Qué métodos de pago aceptáis?», «¿Podéis ayudarme con la configuración?». Si la traducción usa «tú» («¿Ofreces…?»), no es motivo de rechazo, pero un «vosotros» correcto no se cambia.
+- **La empresa habla al cliente: «tú» o una forma genérica, nunca «vosotros».** El cliente no forma parte de un grupo con la empresa: «Te ayudamos a configurar tu producto», «Las preguntas que más nos hacen», «Las preguntas que más recibimos». «Las preguntas que más nos hacéis» se corrige.
 
 ### 3.2 Voz de WordPress
 
