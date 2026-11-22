@@ -15,7 +15,19 @@ Last updated: 2026-11-22.
 
 M1 (reorganize the repository and document the current state) is done.
 
-## Plan: shared sources for every tool
+## In progress: new translator guide (2026-11-22)
+
+`resources/style-guide.md` becomes the complete version of the published guide (es handbook, "Guía de traductores"): the same points, fully explained, plus the rules the team already applies. It needs no consensus, only a review by the other moderators. Rules that come up later and hang from no point of the guide go to an exceptions file appended at the end; term decisions go to the glossary overrides and `resources/proposals.md`.
+
+Done: 3.3 plain language, 3.7 capitals (system element named as such), 3.8 changelogs, code names, plugin name and title, third-party interfaces, generic masculine, literal-text quotes, end punctuation, # numbers, HTML tag names; term decisions moved to the glossary overrides.
+
+Left:
+1. Agent appendix (in the agent version only): review criteria (verdicts, change only errors, "good enough", preferred forms only when already changing, check meaning, real doubts only), translate and review modes, consistency, cited interface elements without English in parentheses.
+2. Take out what is not a rule: translation memory, glossary errata (to `proposals.md`), file references.
+3. `quick-reference.md` becomes the exceptions file, written to be appended.
+4. `skill/package.py`: guide + agent appendix + exceptions, concatenated, no rewriting.
+5. Later: the HTML version for the handbook.
+
 
 Goal: every tool (a translation skill, a review skill for moderators, an AI agent that pre-reviews incoming translations) uses the same sources: the official translator guide and the official glossary. The skill keeps only the file tools (`po_tool.py`) and the workflows (translate, review), never its own translation rules.
 
