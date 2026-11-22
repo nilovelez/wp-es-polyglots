@@ -158,6 +158,12 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - 179 cambios (15 %), sin dudas. 6 min 53 s, 0,57 USD. Precheck: tuteo («su» 14, «tu» 80). Muestra de 25: sin errores.
 - Tuteo en los correos al cliente, *email* = «correo electrónico», mayúsculas, glosario; *ticket* = «entrada» (entradas de eventos) en lugar de «billete», *location* = «local» (restaurantes).
 
+## 2026-11-22 · Haiku · ronda 121 (Fair Events, stable, 1561 cadenas) · revisión directa de producción · rechazada entera
+
+- 292 cambios (19 %), sin dudas, 6 min 8 s, 0,71 USD. Precheck: tuteo («su» 3, «tu» 36), 21 pasivas.
+- Glosario ignorado en todo el lote («notificación» 73, «eliminar» 66, «vincular» 48, «configuración» 24, *ticket* sin traducir) y errores de sentido de traducción automática: *shares* = «acciones» (partes de un pago), *uploads folder* = «carpeta de descargas», *fees* = «honorarios»; además «escribible», «exitoso», «costos».
+- El auditor propuso el rechazo y el revisor rechazó el lote entero. Haiku se ciñó a su proyecto (lo de las rondas 118–119 no se repitió).
+
 ## 2026-11-22 · Haiku · rondas 114–120 (tema GeekMag y plugins del mismo autor, 521 cadenas) · revisión directa de producción
 
 - Siete lotes del mismo autor, que pedía revisión y PTE por Slack: GeekMag (134), GeekPost for X dev (47), Seguridad Geek stable (184) y readme (4), readme dev de Propiedades Geek (31), Resultados en Vivo para LIDOM stable (56) y readme (65). Original en inglés en todos; precheck limpio (tuteo, sin usted).
