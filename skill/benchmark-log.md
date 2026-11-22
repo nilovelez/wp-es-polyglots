@@ -158,6 +158,14 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - 179 cambios (15 %), sin dudas. 6 min 53 s, 0,57 USD. Precheck: tuteo («su» 14, «tu» 80). Muestra de 25: sin errores.
 - Tuteo en los correos al cliente, *email* = «correo electrónico», mayúsculas, glosario; *ticket* = «entrada» (entradas de eventos) en lugar de «billete», *location* = «local» (restaurantes).
 
+## 2026-11-22 · Haiku · rondas 114–120 (tema GeekMag y plugins del mismo autor, 521 cadenas) · revisión directa de producción
+
+- Siete lotes del mismo autor, que pedía revisión y PTE por Slack: GeekMag (134), GeekPost for X dev (47), Seguridad Geek stable (184) y readme (4), readme dev de Propiedades Geek (31), Resultados en Vivo para LIDOM stable (56) y readme (65). Original en inglés en todos; precheck limpio (tuteo, sin usted).
+- Traducción correcta pero floja, con rasgos de español de América y glosario ignorado: «Agrega» ×3, «fue movida», «exitosa», «chequeo», *fix* = «arreglo» ×25, *hosting*, *hero* y *leads* sin traducir, «predeterminado», «inicio de sesión», *tweet* sin adaptar (Haiku: «tuit»).
+- 118 cambios de Haiku; auditoría: 4 descartados («Lo sentimos», «Saltar al contenido» de core, dos reformulaciones válidas); quedan 114.
+- Incidencia: en las rondas 118 y 119 Haiku revisó por su cuenta los siete proyectos en lugar del suyo (6 min y 0,45 USD cada una frente a 0,02–0,04 USD); la 120 se cortó y se usó el trabajo de la 118. Causa sin aclarar: la sesión de Haiku arrancó con la lista completa de URL en su primera llamada a la skill.
+- Para el equipo de plugins (pendiente): Seguridad Geek imprime en el pie de todas las páginas «Este sitio es optimizado por Seguridad Geek» con enlace al autor, «permanente en esta versión y no se puede desactivar»; el readme de LIDOM dice que su línea de créditos «siempre se muestra en la versión gratuita».
+
 ## 2026-11-22 · Haiku · ronda 113 (Dotes Auto Schema, stable, 1639 cadenas) · revisión directa de producción
 
 - 39 cambios, sin dudas, 3 min 28 s, 0,29 USD. Precheck limpio (tuteo: «su» 1, «tu» 12). Buena traducción; glosario: *rating* = «valoración» ×22, *embed* = «inserción» ×3; mayúsculas tras «P. ej.,» y en listas.
