@@ -4,6 +4,13 @@ Una entrada por prueba: modelo, ronda, resultado frente al `corrected.po` aproba
 
 Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas 01 y 02, así que estas pruebas no son del todo ciegas.
 
+## 2026-11-22 · Haiku · ronda 130 (Envo Blocks Store, repetición de la 129, 314 cadenas) · sin revisión humana
+
+- Mismo `original.po` que la 129, pasado como archivo porque las cadenas ya se habían importado. Objetivo: repetir la auditoría con la regla nueva (en producción solo se descarta o retoca citando el glosario, las excepciones o la guía).
+- Haiku: 120 s, 18 turnos, 0,039 USD, contexto máximo 96 687 (la 129: 111 s, 12 turnos, 0,034 USD, 95 712). 12 cambios, ninguna duda.
+- Auditoría: 0 descartes, 0 retoques. Todos se apoyan en el glosario (*builder* = «maquetador» ×3, *FAQ* sin traducir ×2, *sorry* = «lo siento», *refund* = «reembolsar», *homepage* = «página de inicio») o corrigen el sentido (*Pack* ≠ «Guarda»). Quedan como duda para el revisor 3 cadenas en las que Haiku cambia «vosotros» por un giro impersonal («¿Ofrece la tienda…?»): ningún recurso dice nada sobre «vosotros».
+- Variación entre ejecuciones con la misma entrada: la 129 vio *primary* ×2, *rated* y «No hemos encontrado la página»; la 130 no, y en cambio vio *refund*, *Pack*, *home page* y los «vosotros». Solo coinciden *builder*, *FAQ* y «Lo siento».
+
 ## 2026-11-05 · Sonnet · ronda 01 (MailBridgeAPI, readme, 72 cadenas) · skill v1
 
 - Referencia: 26 cambios. Sonnet: 11 cambios + 1 duda. Coinciden 9 (3 de ellas con diferencias menores).
