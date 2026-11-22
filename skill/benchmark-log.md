@@ -158,6 +158,11 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - 179 cambios (15 %), sin dudas. 6 min 53 s, 0,57 USD. Precheck: tuteo («su» 14, «tu» 80). Muestra de 25: sin errores.
 - Tuteo en los correos al cliente, *email* = «correo electrónico», mayúsculas, glosario; *ticket* = «entrada» (entradas de eventos) en lugar de «billete», *location* = «local» (restaurantes).
 
+## 2026-11-22 · BotBlocker Security (dev, 2564 cadenas) · reenvío · rechazada entera sin número de ronda
+
+- El traductor volvió a mandar el lote. Antes de lanzar a Haiku se comparó la exportación de cadenas en espera con el `original.po` de la ronda 106: 2564 cadenas en común, ninguna traducción distinta (solo falta una cadena). Es el mismo envío; se rechaza sin gastar en revisión.
+- Lección: ante un reenvío de un lote rechazado, comparar primero con la ronda anterior (coste cero) en lugar de revisar de nuevo.
+
 ## 2026-11-18 · Haiku · ronda 112 (WDOnline Product CSV Manager for WooCommerce, stable, 259 cadenas) · revisión directa de producción
 
 - 14 cambios, sin dudas, 1 min 17 s, 0,03 USD. Precheck limpio (tuteo: «su» 0, «tu» 8). Traducción buena; solo glosario: *delete* = «eliminar» ×10, *default* = «predeterminado» ×3, «Deseleccionar».
