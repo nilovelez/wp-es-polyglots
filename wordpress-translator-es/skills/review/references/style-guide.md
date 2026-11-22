@@ -78,9 +78,9 @@ El glosario y esta guía son decisiones del equipo es_ES tomadas por consenso, n
   - ❌ «Lo sentimos, no se ha podido encontrar la página.»
 - Si el original usa **«we» explícitamente** (p. ej., una empresa hablando de sí misma), se mantiene el plural: «No hemos podido conectar con nuestros servidores».
 
-### 3.3 Naturalidad
+### 3.3 Lenguaje sencillo y directo
 
-Las traducciones deben ser legibles y naturales. Evita la pasiva refleja y las construcciones impersonales calcadas del inglés.
+Escribe frases sencillas y directas. Evita las frases complejas, los rodeos y la pasiva que no hace falta, sobre todo si calca el inglés. La pasiva refleja vale cuando suena natural: «Se han guardado los cambios».
 
 - *A license is required to perform this action*
   - ✅ «Necesitas una licencia para realizar esta acción.»
