@@ -13,7 +13,7 @@ For editors of the es_ES locale (PTE or GTE) who clear the waiting queue of a pr
 python3 <refs>/po_tool.py fetch <url> <work>
 ```
 
-Any form of the project URL works (with filters, with or without `es/default`). It writes the waiting strings to `<work>/original.po`. `<work>` is a temporary work folder, unless the user says where.
+Any form of the project URL works (with filters, with or without `es/default`). It writes the waiting strings to `<work>/original.po`. `<work>` is the folder `<name>-work/` inside the current folder (`<name>`: the project and subproject, as `foo-stable`), unless the user or the project's instructions (its CLAUDE.md or similar) say where to work.
 
 If there are no waiting strings, say so and stop.
 

@@ -28,7 +28,7 @@ Priority on conflict: the user's instructions → glossary → style guide. If a
 - A translate.wordpress.org project URL: `python3 <refs>/po_tool.py fetch <url> <work>` writes its waiting strings to `<work>/original.po`.
 - The `.po` pasted into the chat (some apps turn an uploaded file into pasted text): save it exactly as it is to `<work>/original.po` and use that file.
 
-`<work>` is a temporary work folder outside the user's project, unless the user says where. Then:
+`<work>` is the folder `<name>-work/` inside the current folder (`<name>` as in section 4), unless the user or the project's instructions (its CLAUDE.md or similar) say where to work. `<out>`, where the final file goes, is the current folder. Then:
 
 ```
 python3 <refs>/po_tool.py extract <file.po> <work>/entries.jsonl

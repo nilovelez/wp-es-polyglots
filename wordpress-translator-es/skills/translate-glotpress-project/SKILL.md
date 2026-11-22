@@ -13,7 +13,7 @@ For anyone who translates a project of translate.wordpress.org into Spanish (Spa
 python3 <refs>/po_tool.py fetch <url> <work> --untranslated
 ```
 
-Any form of the project URL works (with filters, with or without `es/default`). It writes the untranslated strings to `<work>/original.po`. `<work>` is a temporary work folder, unless the user says where.
+Any form of the project URL works (with filters, with or without `es/default`). It writes the untranslated strings to `<work>/original.po`. `<work>` is the folder `<name>-work/` inside the current folder (`<name>`: the project and subproject, as `foo-stable`), unless the user or the project's instructions (its CLAUDE.md or similar) say where to work.
 
 If there is nothing to translate, say so and stop. The `translate` skill checks whether the file fits in one session (`po_tool.py size`) before starting.
 
