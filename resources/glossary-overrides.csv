@@ -21,3 +21,5 @@ playground,zona de pruebas,noun,"Decisión del equipo es_ES. WordPress Playgroun
 check,"marcar / comprobar / revisar",verb,"Decisión del equipo es_ES. Según el contexto: marcar una casilla, comprobar un ajuste. «Revisar» también es correcto (revisa los campos, revisa el registro): no cambiarlo por «comprobar»."
 check,cheque,noun,"En comercio, como medio de pago."
 writable,"tener permisos de escritura",expression,"Decisión del equipo es_ES. También son correctas «se puede escribir» y «permite escritura» (no se puede escribir en la carpeta, la carpeta no permite escritura): no cambiarlas. No usar «escribible»."
+RSVP,"confirmación de asistencia",noun,"Decisión del equipo es_ES. En plugins de eventos: la respuesta de un asistente y el formulario o la pestaña para darla. Verbo: «confirmar asistencia». No dejar «RSVP»."
+check-in,"registro de asistencia",noun,"Decisión del equipo es_ES. En plugins de eventos: marcar a un asistente como llegado. «Quitar registro de asistencia», «Filtrar por registro de asistencia»."
