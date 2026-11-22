@@ -8,6 +8,12 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 
 Las rondas vuelven a empezar en la 01. `po_tool.py start` hace toda la fontanería (carpeta de trabajo dentro de la carpeta actual, descarga, precheck, tamaño, archivos de bloque con glosario, pistas y entradas) e imprime los pasos exactos; `finish` construye y comprueba el `.po`. El modelo solo lee la guía y los bloques y escribe las decisiones. Motivo: en la ronda 130 del flujo anterior, 14 de los 18 turnos fueron fontanería y reintentos bloqueados por permisos (buscar archivos, crear carpetas fuera del sandbox, comandos encadenados).
 
+## 2026-11-22 · Haiku · ronda 03 (PageNod, stable, 979 cadenas en espera) · producción, sin revisión humana
+
+- Haiku: 233 s, 19 turnos, 0,265 USD, contexto máximo 192 968. Cuatro bloques. Fuera del guion: un `ls … ; pwd` bloqueado al entrar por la skill de GlotPress (quería comprobar la ruta de la skill `review` a la que remite) y un Edit fallido al volver al bloque 1 para unificar términos.
+- 241 cambios, 0 dudas. Muestra de 30: todos se apoyan en el glosario o en la guía. Auditoría: 0 descartes, 0 retoques.
+- El lote mezcla «incidencia» (88 cadenas) y «reporte» (52, prohibido por el glosario) para *report*, además de «notificación», «rol», «contenidos», «predeterminado» e «iniciar sesión». Tuteo coherente y frases naturales.
+
 ## 2026-11-22 · Haiku · ronda 02 (Envo Blocks Store, mismo archivo) · sin revisión humana
 
 - Guía nueva: «vosotros» al hablar a una empresa; «tú» o forma genérica cuando la empresa habla al cliente. Aplicada bien: «las preguntas que más nos hacéis» → «que más recibimos», y «¿Ofrecéis…?» / «¿… aceptáis?» se quedan.
