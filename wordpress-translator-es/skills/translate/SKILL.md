@@ -18,13 +18,13 @@ python3 <skill>/../../references/po_tool.py start <file or URL> --translate
 - Add `--work <folder>` only if the user or the project's instructions (its CLAUDE.md or similar) say where to work.
 - Add `--window 500000` if you are Haiku 5.5 in Claude Cowork, `--window 200000` if you are not Claude Opus, Sonnet or Haiku 5.5.
 
-It prints the exact steps: read the style guide, read each block file (glossary and entries to translate), write each decisions file, run `finish`. Do exactly those steps and nothing else: no other commands, no looking for files, no checks of your own. Use the Read and Write tools for files. If it prints `STOP`, do what it says.
+It prints the exact steps: read the style guide and the entries file (with the glossary that applies) at once, write the decisions file, run `finish`. Do exactly those steps and nothing else: no other commands, no looking for files, no checks of your own. Use the Read and Write tools for files. If it prints `STOP`, do what it says.
 
 The glossary and the style guide are the only reference. Priority on conflict: the user's instructions → glossary → style guide. If a rule looks wrong for the text, apply it anyway and say so at the end.
 
 ## 2. Translate
 
-Translate every entry in the block files. Translate everything without stopping; when unsure, use your best translation and mark it as a doubt.
+Translate every entry in the entries file. Translate everything without stopping; when unsure, use your best translation and mark it as a doubt.
 
 - Plurals: always fill both forms.
 - Keep placeholders (`%s`, `%1$d`, `{name}`), HTML, entities, URLs, `\n` and edge spaces exactly as in the source. Do not add or drop a final period.
@@ -33,7 +33,7 @@ Translate every entry in the block files. Translate everything without stopping;
 
 ## 3. Decisions
 
-One line per entry, in the decisions file of its block:
+One line per entry, in the decisions file:
 
 ```
 {"n": 12, "verdict": "fix", "msgstr": "Mapa del sitio"}

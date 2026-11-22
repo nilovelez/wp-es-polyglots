@@ -5,10 +5,11 @@ Commands:
   start <file.po|.pot|project URL> [--translate] [--work DIR] [--window N]
       The whole workflow in one command: work folder (<name>-work/ in the
       current folder unless --work), download if given a URL, precheck (review),
-      size check, and block files with the glossary, hints and entries. Prints
+      size check, and the entries file (parts only if over one Read) with the
+      glossary and hints. Prints
       the exact steps to follow, or STOP and why.
   finish <work folder>
-      Merge the block decisions, build <name>-corrected.po (review) or
+      Build <name>-corrected.po (review) or
       <name>-es_ES.po (translate) in the folder where start ran, and check it.
   fetch <project url> [folder] [--untranslated]
       Download the waiting strings (or, with --untranslated, the untranslated
@@ -831,7 +832,7 @@ def cmd_precheck(args):
 
 # ---------- start / finish: the whole workflow in two commands ----------
 
-BLOCK = 300  # entries per block file; one Read each
+PART_BYTES = 50_000  # the Read tool returns about this much in one call; a part over it comes back cut
 
 
 def _py():
@@ -922,26 +923,41 @@ def cmd_start(args):
               'Tell the user, and offer one new conversation per part (entry ranges): '
               + ', '.join(f'{a}-{b}' for a, b in parts))
         return
-    nb = 1 if len(todo) <= 400 else -(-len(todo) // BLOCK)  # one block up to 400 entries, else ~300 each
-    size = -(-len(todo) // nb)
-    blocks = [todo[i:i + size] for i in range(0, len(todo), size)]
-    files = []
-    for k, blk in enumerate(blocks, 1):
-        rng = (blk[0]['n'], blk[-1]['n'])
-        out = [f'# Block {k} of {len(blocks)}: entries {rng[0]}-{rng[1]}', '',
-               '## Glossary entries that apply (mandatory, notes included)', '']
-        out.append(_capture(cmd_glossary, [orig], rng).rstrip() or '(none)')
+    def render(part, k, total):
+        rng = (part[0]['n'], part[-1]['n'])
+        ns = {e['n'] for e in part}
+        head = f'# Part {k} of {total}: entries {rng[0]}-{rng[1]}' if total > 1 else '# Entries to ' + job['mode']
+        out = [head, '', '## Glossary entries that apply (mandatory, notes included)', '',
+               _capture(cmd_glossary, [orig], rng).rstrip() or '(none)']
         if not translate:
             out += ['', '## Automatic hints (most are real errors, some are not)', '',
                     _capture(cmd_lint, [orig], rng).rstrip() or '(none)']
-        out += ['', '## Entries (one JSON object per line)', '']
-        ns = {e['n'] for e in blk}
-        out.append(_capture(cmd_extract, [orig], rng).rstrip() if not translate else
-                   '\n'.join(l for l in _capture(cmd_extract, [orig], rng).splitlines() if json.loads(l)['n'] in ns))
-        bf = os.path.join(work, f'block-{k:02d}.md')
-        open(bf, 'w', encoding='utf-8').write('\n'.join(out) + '\n')
-        files.append((bf, os.path.join(work, f'decisions-{k:02d}.jsonl')))
-    job['blocks'] = [d for _, d in files]
+        out += ['', '## Entries (one JSON object per line)', '',
+                '\n'.join(l for l in _capture(cmd_extract, [orig], rng).splitlines() if json.loads(l)['n'] in ns)]
+        return '\n'.join(out) + '\n'
+
+    # One file if it fits in one Read; otherwise parts cut by size (equal bytes of entries),
+    # never by a fixed number of strings. Add a part until every part fits.
+    weight = [len(json.dumps(e, ensure_ascii=False)) for e in todo]
+    n = -(-len(render(todo, 1, 1).encode('utf-8')) // PART_BYTES)
+    while True:
+        target, parts, cur, acc = sum(weight) / n, [], [], 0
+        for e, w in zip(todo, weight):
+            if cur and acc + w > target * 1.0001 and len(parts) < n - 1:
+                parts.append(cur)
+                cur, acc = [], 0
+            cur.append(e)
+            acc += w
+        parts.append(cur)
+        if all(len(render(p, 1, 1).encode('utf-8')) <= PART_BYTES for p in parts) or n >= len(todo):
+            break
+        n += 1
+    files = []
+    for k, part in enumerate(parts, 1):
+        f = os.path.join(work, 'entries.md' if len(parts) == 1 else f'entries-{k}.md')
+        open(f, 'w', encoding='utf-8').write(render(part, k, len(parts)))
+        files.append(f)
+    decisions = os.path.join(work, 'decisions.jsonl')
     json.dump(job, open(os.path.join(work, 'job.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     # Plugin: next to this script. Development repository: the packaged guide.
     guide = os.path.join(_HERE, 'style-guide.md') if os.path.exists(os.path.join(_HERE, 'style-guide.md')) \
@@ -949,37 +965,28 @@ def cmd_start(args):
     verb = 'translate' if translate else 'review'
     # Three steps, each one response: every extra response resends the whole context
     # (round 04: 19 API calls, 0.36 USD; round 05, same size, all reads and writes batched: 5 calls, 0.08 USD).
-    print(f'{len(todo)} strings to {verb}, in {len(files)} block(s). Do exactly these three steps, nothing else:')
+    print(f'{len(todo)} strings to {verb}. Do exactly these three steps, nothing else:')
     print(f'1. In ONE response, call Read {len(files) + 1} times at once, one call per file:')
-    print(f'   {os.path.abspath(guide)}')
-    for bf, _ in files:
-        print(f'   {bf}')
-    print(f'2. {verb.capitalize()} every entry of every block. Then, in ONE response, call Write {len(files)} time(s) at once, '
-          'one call per file, with your decisions for that block (an empty file if nothing changes in it):')
-    for bf, df in files:
-        print(f'   {df}   (entries of {os.path.basename(bf)})')
+    for f in [os.path.abspath(guide)] + files:
+        print(f'   {f}')
+    print(f'2. {verb.capitalize()} every entry. Then, in ONE response, write all your decisions with one Write call to:')
+    print(f'   {decisions}')
     print(f'3. In the next response, alone: {_py()} {os.path.abspath(__file__)} finish {work}')
 
 
 def cmd_finish(args):
-    """finish <work folder>: merge the decisions, build the final .po and check it."""
+    """finish <work folder>: build the final .po from decisions.jsonl and check it."""
     work = os.path.abspath(args[0])
     job = json.load(open(os.path.join(work, 'job.json'), encoding='utf-8'))
     merged = os.path.join(work, 'decisions.jsonl')
-    missing = [d for d in job['blocks'] if not os.path.exists(d)]
-    if missing:
-        sys.exit('Missing: ' + ', '.join(missing) + '. Write it (an empty file if nothing changes) and run this same command again.')
-    with open(merged, 'w', encoding='utf-8') as f:
-        for d in job['blocks']:
-            text = open(d, encoding='utf-8').read().strip()
-            if text:
-                f.write(text + '\n')
+    if not os.path.exists(merged):
+        sys.exit(f'Missing: {merged}. Write it (an empty file if nothing changes) and run this same command again.')
     decisions = load_decisions(merged)
     if job['mode'] == 'translate':
         left = [n for n in job['todo'] if n not in decisions]
         if left:
             sys.exit(f'Not translated yet: entries {", ".join(map(str, left[:40]))}{"…" if len(left) > 40 else ""}. '
-                     'Add them to the decisions file of their block and run this same command again.')
+                     'Add them to decisions.jsonl and run this same command again.')
     build = [os.path.join(work, 'original.po'), merged, job['out'], '--report', os.path.join(work, 'report.md')]
     if job['mode'] == 'translate':
         build.append('--full')
@@ -987,7 +994,7 @@ def cmd_finish(args):
     problems = [l for l in text.splitlines() if l.startswith('#')]
     if problems:
         print('\n'.join(problems))
-        sys.exit(f'{len(problems)} problem(s) above: fix those entries in their decisions file and run this same command again. '
+        sys.exit(f'{len(problems)} problem(s) above: fix those entries in decisions.jsonl and run this same command again. '
                  'If one is a false positive, leave it and say so in your answer.')
     changed = sum(1 for d in decisions.values() if d['verdict'] in ('fix', 'reject', 'doubt'))
     doubts = [n for n, d in decisions.items() if d['verdict'] == 'doubt']
