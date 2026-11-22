@@ -114,6 +114,11 @@ Gerundio: «Saving…» → «Guardando…».
   - ✅ «Subir archivo» · ❌ «Subir Archivo»
 - Se mantienen las mayúsculas de nombres propios y productos.
 
+### 3.8 Registros de cambios
+
+- Cada entrada, en participio: «Añadido…», «Corregido…», «Mejorado…». Todas las entradas del registro, con la misma forma.
+- Los tipos de cambio, como dice el glosario: *Fix* = «Corrección», *Tweak* = «Retoque», *Feature* = «Característica».
+
 ---
 
 ## 4. Tipografía
@@ -129,6 +134,7 @@ Gerundio: «Saving…» → «Guardando…».
 
 - No modifiques `msgid`, `msgid_plural`, `msgctxt`, comentarios (`#.`, `#:`, `#,`) ni la cabecera, salvo los campos de traducción.
 - **Placeholders:** conserva todos, sin alterarlos: `%s`, `%d`, `%1$s`, `%2$d`, `{name}`, `%%`. En los numerados puedes cambiar el orden en la frase, pero no el número.
+- **Código:** no se traducen los shortcodes, los hooks, las funciones, las clases, las variables ni los nombres de archivo: `[embed]`, `wp_head`, `get_option()`, `$post_id`, `wp-config.php`.
 - **HTML:** conserva etiquetas y atributos. Traduce solo el texto visible y los atributos legibles (`title`, `alt`) si procede. No traduzcas URL salvo que exista una versión localizada oficial.
 - **Entidades y escapes:** conserva `&amp;`, `&nbsp;`, `\n`, `\"`, etc.
 - **Espacios y saltos de línea** al inicio o al final: igual que en el original.
