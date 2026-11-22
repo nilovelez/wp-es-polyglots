@@ -65,6 +65,7 @@ When a contributor uploads a batch like torlann (machine translation without con
 - `po_tool.py` still has es-specific checks (locale code, Spanish quotes, «ej.»); they must move to locale data before another locale can use it.
 - Translation memory is off in the skill until decided.
 - Pending: the skills still ask the model to choose `start --window` by model and app (1M, 500k in Cowork, 200k otherwise). It is a non-deterministic choice in the plumbing (round 02: Haiku in Claude Code passed 500k). Remove it from the model's hands.
+- Pending: the GlotPress skills point to the `review`/`translate` SKILL.md by a relative path, and Haiku checked it with a blocked `ls` (round 03). The wrapper should not make the model resolve a path.
 
 ### common strings (separate repository)
 
