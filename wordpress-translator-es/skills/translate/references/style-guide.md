@@ -116,6 +116,8 @@ Gerundio: «Saving…» → «Guardando…».
 
 ### 3.8 Registros de cambios
 
+El registro de cambios (*changelog*) es la lista de novedades y correcciones de cada versión de un plugin o un tema.
+
 - Cada entrada, en participio: «Añadido…», «Corregido…», «Mejorado…». Todas las entradas del registro, con la misma forma.
 - Los tipos de cambio, como dice el glosario: *Fix* = «Corrección», *Tweak* = «Retoque», *Feature* = «Característica».
 - Los números de versión y las fechas se dejan como en el original.
