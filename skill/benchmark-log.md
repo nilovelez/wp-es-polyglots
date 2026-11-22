@@ -158,6 +158,11 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - 179 cambios (15 %), sin dudas. 6 min 53 s, 0,57 USD. Precheck: tuteo («su» 14, «tu» 80). Muestra de 25: sin errores.
 - Tuteo en los correos al cliente, *email* = «correo electrónico», mayúsculas, glosario; *ticket* = «entrada» (entradas de eventos) en lugar de «billete», *location* = «local» (restaurantes).
 
+## 2026-11-22 · Haiku · rondas 127 y 128 (EstrategiaWeb Toolkit dev, 992 cadenas; Dayslot stable, 556) · revisión directa de producción · en paralelo
+
+- 127: 94 decisiones (1 duda), 4 min 34 s, 0,32 USD. Precheck limpio. Buena traducción con preferencias propias frente al glosario: *site* = «web» (~40), «fichero», «mediateca», «portada», «correo» corto en textos largos, «n.º». Auditoría: 2 descartados («Lo viste el tema», válido; ruta de menús de Mailchimp en español sin verificar). Quedan 92. Los mensajes de validación de JSON pasan a «cadena» y «configuración regional» (glosario).
+- 128: 25 cambios, 2 min 6 s, 0,14 USD. Buena traducción; glosario: «email» ×9, «pie», «constructor», «definir». Auditoría: 4 descartados («Lo sentimos» ×2, «sumar al envío», que suma un coste; «al finalizar el pedido»). Quedan 21.
+
 ## 2026-11-22 · Haiku · rondas 125 y 126 (Fair Member Fees dev, 343 cadenas; WIWERCY Web Image Converter stable, 335) · revisión directa de producción · en paralelo
 
 - Primera prueba de dos sesiones de Haiku a la vez, cada una con su propia carpeta temporal y recogiendo solo de ella. Cada una se ciñó a su proyecto. 1 min 37 s y 0,03 USD; 1 min 29 s y 0,03 USD.
