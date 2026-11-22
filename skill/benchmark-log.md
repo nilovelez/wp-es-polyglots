@@ -8,6 +8,12 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 
 Las rondas vuelven a empezar en la 01. `po_tool.py start` hace toda la fontanería (carpeta de trabajo dentro de la carpeta actual, descarga, precheck, tamaño, archivos de bloque con glosario, pistas y entradas) e imprime los pasos exactos; `finish` construye y comprueba el `.po`. El modelo solo lee la guía y los bloques y escribe las decisiones. Motivo: en la ronda 130 del flujo anterior, 14 de los 18 turnos fueron fontanería y reintentos bloqueados por permisos (buscar archivos, crear carpetas fuera del sandbox, comandos encadenados).
 
+## 2026-11-22 · Haiku · ronda 05 (Cortext, stable, 836 cadenas en espera) · producción, sin revisión humana
+
+- Haiku: 139 s, 13 turnos, 0,077 USD, contexto máximo 130 729. Tres bloques. Todo dentro del guion, 0 errores: esta vez leyó la skill `review` con Read directamente, sin `ls`. Leyó los tres bloques seguidos y escribió después las tres decisiones, sin volver atrás.
+- 51 cambios, 0 dudas. Muestra de 30: todos se apoyan en el glosario (*delete*, *remove*, *collapse*, *backlink*, *breadcrumb*, *locale*, *modal*, *token*, *deselect*, *about*, *default*) o en la guía (comillas «»), o corrigen frases rotas («es o es después de», «Superior a o igual»). Auditoría: 0 descartes, 0 retoques.
+- Dejó «esquema» donde *schema* es el esquema de campos de una colección, no metadatos estructurados: coincide con la nota del glosario.
+
 ## 2026-11-22 · Haiku · ronda 04 (Loupa, stable, 903 cadenas en espera) · producción, sin revisión humana
 
 - Haiku: 270 s, 21 turnos, 0,364 USD, contexto máximo 203 654. Cuatro bloques. Fuera del guion: `ls` y `cat` bloqueados al buscar la skill `review` desde la de GlotPress (pendiente ya anotado); volvió tres veces a bloques anteriores para unificar términos y leyó un bloque dos veces.
