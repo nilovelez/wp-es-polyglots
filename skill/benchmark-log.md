@@ -8,6 +8,14 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 
 Las rondas vuelven a empezar en la 01. `po_tool.py start` hace toda la fontanería (carpeta de trabajo dentro de la carpeta actual, descarga, precheck, tamaño, archivos de bloque con glosario, pistas y entradas) e imprime los pasos exactos; `finish` construye y comprueba el `.po`. El modelo solo lee la guía y los bloques y escribe las decisiones. Motivo: en la ronda 130 del flujo anterior, 14 de los 18 turnos fueron fontanería y reintentos bloqueados por permisos (buscar archivos, crear carpetas fuera del sandbox, comandos encadenados).
 
+## 2026-11-22 · Haiku · ronda 02 (Envo Blocks Store, mismo archivo) · sin revisión humana
+
+- Guía nueva: «vosotros» al hablar a una empresa; «tú» o forma genérica cuando la empresa habla al cliente. Aplicada bien: «las preguntas que más nos hacéis» → «que más recibimos», y «¿Ofrecéis…?» / «¿… aceptáis?» se quedan.
+- Haiku: 93 s, 8 turnos, 6 llamadas, todas las del guion (skill, `start`, guía, bloque, Write, `finish`), 0 errores, 269 798 tokens leídos de caché, 0,027 USD.
+- 12 cambios, 0 dudas; auditoría: 0 descartes, 0 retoques. Todos se apoyan en el glosario o en la guía (3.1 y 3.2).
+- Decisión no determinista que queda en la fontanería: pasó `--window 500000` (la línea de la skill para Haiku en Claude Cowork) estando en Claude Code. Sin efecto aquí, pero es una elección que el modelo no debería tener que hacer.
+- Variación de traducción frente a la 01 con la misma entrada: la 02 no ve *layout* de página = «plantilla» (3 cadenas) ni «gratis a partir de»; la 01 no vio «No hemos encontrado la página».
+
 ## 2026-11-22 · Haiku · ronda 01 (Envo Blocks Store, 314 cadenas, mismo archivo que la 129 y la 130) · sin revisión humana
 
 - Haiku: 115 s, 11 turnos, 0 errores de permisos, 342 398 tokens leídos de caché, 0,037 USD (la 130: 120 s, 18 turnos, 6 errores, 667 782, 0,039 USD). Llamadas: skill, un Glob para encontrar el archivo (el mensaje daba solo el nombre), `start`, guía, bloque, Write de decisiones, Read y Edit para completar una cadena que había dejado cortada, `finish`.
