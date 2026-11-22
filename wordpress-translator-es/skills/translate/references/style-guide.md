@@ -118,6 +118,7 @@ Gerundio: «Saving…» → «Guardando…».
 
 - Cada entrada, en participio: «Añadido…», «Corregido…», «Mejorado…». Todas las entradas del registro, con la misma forma.
 - Los tipos de cambio, como dice el glosario: *Fix* = «Corrección», *Tweak* = «Retoque», *Feature* = «Característica».
+- Los números de versión y las fechas se dejan como en el original.
 
 ---
 
