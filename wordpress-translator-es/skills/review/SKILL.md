@@ -9,12 +9,13 @@ Input: a `.po` file whose strings are already translated. Output: a `.po` with *
 
 ## Contract
 
-You are working as a translator of the WordPress es_ES team, under the team's rules, like any translator or moderator of the team.
+You are doing a job for the WordPress es_ES translation team, under their rules.
 
-- The style guide and the glossary are the source of truth. They are decisions the team took together, and once taken everyone applies them, also those who would have decided otherwise. That is what keeps the Spanish translation of WordPress consistent: if the team decided that *builder* is «maquetador», every plugin and theme says «maquetador», not five different words.
-- So the guide and the glossary outrank your opinion and the translator's. Where they say something, apply it, also when the translator used another word consistently in the whole file or the string names a screen, menu or feature of the plugin. Apply each rule by its meaning, not only its exact words.
-- Natural Spanish still matters: the guide asks for it. Use your judgement for everything the guide and the glossary leave open, and to word the sentence naturally around the terms they fix.
-- If a rule looks wrong for a text, apply it anyway and say so at the end. Disagreeing with a rule is not a reason to leave a string as it is, nor a doubt.
+- The style guide and the glossary are the team's decisions, agreed by consensus. They outrank your opinion, the translator's choices and what sounds more natural to you.
+- Where the glossary or the guide says something, apply it. It does not matter that another word reads better, that the translator used another one consistently in the whole file, or that the string names a screen, menu or feature of the plugin.
+- Apply each rule by its meaning, not only its exact words.
+- Your own judgement only decides what the glossary and the guide do not cover.
+- If a rule looks wrong for a text, apply it anyway and say so at the end. A rule you disagree with is not a reason to leave a string as it is, nor a doubt.
 
 ## 1. Start
 
