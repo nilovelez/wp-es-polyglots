@@ -4,8 +4,9 @@
 The plugin has one folder per skill in skills/; each SKILL.md is written by hand.
 All the skills share references/, which this script regenerates:
   po_tool.py          copy of skill/scripts/po_tool.py
-  glossary.csv        resources/glossary.csv with resources/glossary-overrides.csv merged in:
-                      the skill sees one glossary
+  glossary.csv        resources/glossary.csv with resources/glossary-overrides.csv merged in,
+                      for the scripts
+  glossary.md         the same merged glossary in Markdown: what the model reads, whole
   style-guide.md      resources/style-guide.md with resources/quick-reference.md merged in:
                       the skill sees one guide, without workflow, pending notes or file names
 and writes dist/wordpress-translator-es.zip (ignored by git) with the whole plugin.
@@ -59,6 +60,20 @@ def glossary():
                                   r.get('description') or '')
         w.writerow({k: r.get(k, '') for k in ['en', 'es', 'pos', 'description']})
     return buf.getvalue(), len(rows)
+
+
+def glossary_md(merged):
+    """The whole glossary as Markdown, one line per entry, sorted by term."""
+    rows = sorted(csv.DictReader(io.StringIO(merged)), key=lambda r: (r['en'].strip().lower(), r.get('pos', '')))
+    out = ['# Glosario es_ES', '',
+           'Obligatorio. Formato: término inglés (categoría) → traducción — nota. Las notas también son obligatorias.', '']
+    for r in rows:
+        if not r['en'].strip():
+            continue
+        pos = f" ({r['pos'].strip()})" if (r.get('pos') or '').strip() else ''
+        desc = ' '.join((r.get('description') or '').split())
+        out.append(f"- {r['en'].strip()}{pos} → {r['es'].strip()}" + (f' — {desc}' if desc else ''))
+    return '\n'.join(out) + '\n'
 
 
 def sections(text):
@@ -143,6 +158,7 @@ def main():
     shutil.copy(os.path.join(ROOT, 'skill', 'scripts', 'po_tool.py'), os.path.join(refs, 'po_tool.py'))
     merged, n = glossary()
     open(os.path.join(refs, 'glossary.csv'), 'w', encoding='utf-8', newline='').write(merged)
+    open(os.path.join(refs, 'glossary.md'), 'w', encoding='utf-8').write(glossary_md(merged))
     stale = os.path.join(refs, 'glossary-overrides.csv')
     if os.path.exists(stale):
         os.remove(stale)

@@ -5,8 +5,7 @@ Commands:
   start <file.po|.pot|project URL> [--translate] [--work DIR] [--window N]
       The whole workflow in one command: work folder (<name>-work/ in the
       current folder unless --work), download if given a URL, precheck (review),
-      size check, and the entries file (parts only if over one Read) with the
-      glossary that applies. Prints
+      size check, and the entries file (parts only if over one Read). Prints
       the exact steps to follow, or STOP and why.
   finish <work folder>
       Build <name>-corrected.po (review) or
@@ -927,9 +926,7 @@ def cmd_start(args):
         rng = (part[0]['n'], part[-1]['n'])
         ns = {e['n'] for e in part}
         head = f'# Part {k} of {total}: entries {rng[0]}-{rng[1]}' if total > 1 else '# Entries to ' + job['mode']
-        out = [head, '', '## Glossary entries that apply (mandatory, notes included)', '',
-               _capture(cmd_glossary, [orig], rng).rstrip() or '(none)']
-        out += ['', '## Entries (one JSON object per line)', '',
+        out = [head, '', '## Entries (one JSON object per line)', '',
                 '\n'.join(l for l in _capture(cmd_extract, [orig], rng).splitlines() if json.loads(l)['n'] in ns)]
         return '\n'.join(out) + '\n'
 
@@ -956,15 +953,17 @@ def cmd_start(args):
         files.append(f)
     decisions = os.path.join(work, 'decisions.jsonl')
     json.dump(job, open(os.path.join(work, 'job.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
-    # Plugin: next to this script. Development repository: the packaged guide.
-    guide = os.path.join(_HERE, 'style-guide.md') if os.path.exists(os.path.join(_HERE, 'style-guide.md')) \
-        else os.path.join(_HERE, '..', '..', 'wordpress-translator-es', 'references', 'style-guide.md')
+    # The whole guide and the whole glossary, as packaged. Plugin: next to this script.
+    # Development repository: the packaged copies.
+    refs = _HERE if os.path.exists(os.path.join(_HERE, 'style-guide.md')) \
+        else os.path.join(_HERE, '..', '..', 'wordpress-translator-es', 'references')
+    guide, gloss = os.path.join(refs, 'style-guide.md'), os.path.join(refs, 'glossary.md')
     verb = 'translate' if translate else 'review'
     # Three steps, each one response: every extra response resends the whole context
     # (round 04: 19 API calls, 0.36 USD; round 05, same size, all reads and writes batched: 5 calls, 0.08 USD).
     print(f'{len(todo)} strings to {verb}. Do exactly these three steps, nothing else:')
-    print(f'1. In ONE response, call Read {len(files) + 1} times at once, one call per file:')
-    for f in [os.path.abspath(guide)] + files:
+    print(f'1. In ONE response, call Read {len(files) + 2} times at once, one call per file:')
+    for f in [os.path.abspath(guide), os.path.abspath(gloss)] + files:
         print(f'   {f}')
     print(f'2. {verb.capitalize()} every entry. Then, in ONE response, write all your decisions with one Write call to:')
     print(f'   {decisions}')

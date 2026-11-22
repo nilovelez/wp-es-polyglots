@@ -1,0 +1,484 @@
+# Glosario es_ES
+
+Obligatorio. Formato: término inglés (categoría) → traducción — nota. Las notas también son obligatorias.
+
+- ability (noun) → capacidad — No usar habilidad (falso amigo)
+- about (adverb) → acerca de — Preferimos «Acerca de» antes que «Sobre», pero dependerá del contexto. «Acerca del tema Baskerville» «Sobre el autor»
+- above the fold (expression) → antes de desplazarse
+- account (noun) → cuenta
+- activate (verb) → activar
+- activated (adjective) → activado — «Una vez que haya sido activado»
+- active (adjective) → activo — «Mostrar plugins activos»
+- add (verb) → añadir — No traducir como «agregar», «agrega»
+- add-on (noun) → extensión
+- addon (noun) → extensión
+- address (noun) → dirección
+- admin (noun) → administrador / administración — «administrador» cuando se refiere al perfil dentro del sistema. «administración» cuando se refiere al área de administración de WordPress.
+- After the Deadline (noun) → After the Deadline — Nombre de un producto de software http://afterthedeadline.com
+- AI (abbreviation) → IA
+- ajax (noun) → ajax — No se traduce
+- are you sure (expression) → ¿Seguro que…? — Para hacer la pregunta sin género no usar «¿Estás seguro…?» o «¿Estás segura…?» sino «¿Seguro que…?» adaptable a ambos géneros
+- array (noun) → array — No se traduce
+- aside (noun) → minientrada
+- aspect ratio (expression) → relación de aspecto
+- attachment (noun) → adjunto
+- attributes (noun) → atributos
+- authenticate (verb) → identificar — NO usar autenticar, autentificar ni cosas similares
+- authentication (noun) → identificación — No usar autenticación, autentificación y similares
+- author (noun) → autor
+- autosave (noun) → autoguardado
+- backend (noun) → administración / escritorio
+- backlink (noun) → retroenlace
+- backorder (noun) → reserva
+- backup (noun) → copia de seguridad
+- bad words (expression) → palabras malsonantes — No usar «malas palabras»
+- badge (noun) → acreditación / insignia / distinción
+- banner (noun) → banner — No se traduce
+- BCC (noun) → CCO — No dejar la abreviatura en inglés de Blind Carbon Copy, ponerla en español para Con Copia Oculta
+- benefit (noun) → ventaja
+- bill (noun) → factura
+- billing (noun) → facturación
+- bitrate (noun) → bitrate — No se traduce
+- blockquote (noun) → cita
+- blog (noun) → blog — (No se traduce)
+- blueprint (noun) → modelo — Se refiere a modelos (como bocetos) de instalación, de WordPress, WooCommerce y otros, para reutilizar en otras instalaciones.
+- body (noun) → cuerpo — No se traduce si se refiere a la etiqueta <body>
+- bookmarklet (noun) → marcador
+- branch (noun) → rama / sucursal — Usar «rama» para las versiones mayores de WordPress. Usar «sucursal» en relación a comercio electrónico.
+- branding (noun) → imagen de marca / marca
+- breadcrumb (noun) → migas de pan
+- brick and mortar store (expression) → tienda física
+- BuddyPress (noun) → BuddyPress — No se traduce
+- bug (noun) → fallo
+- builder (noun) → maquetador — Se puede usar «editor» cuando vaya unido a «arrastrar y soltar» p.ej. «drag and drop builder», en ese caso se puede traducir como «editor de arrastrar y soltar»
+- bulk (noun) → por lotes — Según el contexto podría ser «en lotes» o «en bloque». No usar «en masa» ni «masivamente»
+- bulk actions (noun) → acciones en lote
+- bundle (noun) → lote — No usar «agrupado» para no confundir con los productos por defecto de WooCommerce
+- by clicking (expression) → al hacer clic
+- canvas (noun) → lienzo
+- capability (noun) → capacidad
+- caption (noun) → leyenda — Es el texto conocido como pie de foto
+- cart (noun) → carrito — No usar carro ni cesta
+- case sensitive (expression) → distingue entre mayúsculas y minúsculas
+- category (noun) → categoría
+- changelog (noun) → registro de cambios
+- changeset (noun) → grupo de cambios
+- Cheatin’ uh? (expression) → Haciendo trampas, ¿eh?
+- check (noun) → cheque — En comercio, como medio de pago.
+- check (verb) → marcar / comprobar / revisar — Según el contexto: marcar una casilla, comprobar un ajuste. «Revisar» también es correcto (revisa los campos, revisa el registro): no cambiarlo por «comprobar».
+- check-in (noun) → registro de asistencia — En plugins de eventos: marcar a un asistente como llegado. «Quitar registro de asistencia», «Filtrar por registro de asistencia».
+- checkbox (noun) → casilla de verificación
+- checkout (noun) → finalizar compra / pago — Cuando se refiere a la página de pagos es «Finalizar compra», sino traducir como pago/s, por ejemplo «El cliente procede al pago»
+- clear (verb) → vaciar — «vaciar» es para contenidos (papelera, caché). Para dejar de aplicar un filtro, «quitar» o «limpiar»: *Clear filters* = «Quitar filtros», no «Borrar filtros» ni «Vaciar filtros». Para lo que se dibuja, se selecciona o se escribe (un dibujo, un contorno, un campo) o para elementos sueltos (ejecuciones, pegatinas), «borrar»: *Clear the drawing* = «Borra el dibujo», no «Vacía el dibujo».
+- click (noun) → clic
+- click (verb) → hacer clic — Se pone «clic» sin K (https://www.fundeu.es/consulta/hacer-clic-1753/)
+- clip art (expression) → imagen prediseñada
+- clip-art (noun) → imagen prediseñada
+- clipart (noun) → imagen prediseñada
+- COD (noun) → contra reembolso — Siglas en inglés de «Charge On Delivery» Normalmente, en mayúsculas (COD).
+- code (noun) → código
+- code (verb) → programar
+- collapse (verb) → plegar — En ocasiones, cerrar
+- collapsed (adjective) → plegado — En ciertos contextos, «cerrado»
+- collation (noun) → cotejo
+- comic (noun) → tebeo
+- comment (noun) → comentario
+- comment (verb) → comentar
+- commit (noun) → commit — (No se traduce)
+- commit (verb) → hacer commit
+- computer (noun) → ordenador — No usar computador o computadora
+- contact with your host (expression) → contacta con tu alojamiento
+- content (noun) → contenido — No usar «contenidos»
+- contributor (noun) → colaborador — Role Contributor -> Perfil de colaborador
+- convenience store (expression) → tienda de proximidad — Frase muy utilizada por las IAs, nada utilizada en España. Usa 'tienda de proximidad'
+- cookie (noun) → cookie — Plural «Cookies». No se traduce.
+- copyright (noun) → copyright — No se traduce
+- core (noun) → núcleo — Se suele referir al núcleo de WordPress
+- cornerstone (noun) → esencial — Normalmente se refiere a contenido esencial (cornerstone content)
+- countdown (noun) → cuenta atrás
+- credit note (noun) → factura rectificativa
+- credits (noun) → agradecimientos / reconocimientos / acreditaciones
+- cross-sell (expression) → venta cruzada
+- crowdfunding (noun) → microfinanciación — Recomendación Fundéu: https://www.fundeu.es/recomendacion/crowdfunding-mejor-financiacion-colectiva-financiacion-popularo-suscripcion-popular-982/
+- curate (verb) → seleccionar — Se refiere a la selección de contenidos (curate content) en redes sociales
+- curated (expression) → seleccionado — Se refiere a la selección de contenidos (content curated)
+- curation (adverb) → selección — Se refiere a la selección de contenidos (content curation)
+- curator (noun) → seleccionador — Se refiere a la selección de contenidos (content curator) en redes sociales
+- custom CSS (noun) → CSS personalizado
+- custom post type (noun) → tipo de contenido personalizado — Decidido por votación popular aquí: https://twitter.com/wp_es/status/684352383267270656
+- customer (noun) → cliente
+- customize (verb) → personalizar
+- Customizer (noun) → Personalizador
+- daily Archive (noun) → archivo diario
+- Dashboard (noun) → Escritorio — No utilizar «tablero» o «panel de control». Es el nombre de WordPress; el *dashboard* de un servicio externo, preferentemente «panel», aunque «escritorio» también vale.
+- debug (noun) → depuración
+- debug (verb) → depurar
+- default (noun) → por defecto
+- defaults to (noun) → por defecto es
+- delete (verb) → borrar
+- deprecate (verb) → descarta
+- deprecated (adjective) → obsoleto
+- deselect (noun) → anular selección — No usar «deseleccionar» o similares
+- designation (noun) → nombramiento
+- disable (verb) → desactivar
+- disabled (adverb) → desactivado
+- discontinued (adjective) → en desuso
+- dismiss (noun) → descartar
+- double check (expression) → vuelve a comprobar
+- draft (noun) → borrador
+- drag and drop (expression) → arrastrar y soltar
+- drag and drop builder (expression) → editor de arrastrar y soltar — no usar «maquetador de arrastrar y soltar»
+- drop-in (noun) → dependiente/s
+- dropin (noun) → dependiente — Se refiere a un tipo de plugins especiales, dependientes de otros procesos
+- e-learning (expression) → aprendizaje virtual — Recomendación de Fundéu: https://www.fundeu.es/recomendacion/e-learning/
+- e-mail (noun) → correo electrónico
+- ebook (noun) → libro electrónico
+- ecommerce (noun) → comercio electrónico
+- email (noun) → correo electrónico — No utilizar: email (Incorrecto). correo e (Incorrecto). e-mail (Incorrecto). Correo Electrónico (con E mayúscula) (Incorrecto) email address = dirección de correo electrónico (Correcto)
+- embed (verb) → incrustar
+- Embedded (adjective) → Incrustado — Incrustado
+- enable (verb) → activar — Casi siempre es activar, pero a veces tiene sentido de «permitir»
+- enabled (adverb) → activado / activo
+- encrypt (verb) → cifrar — No usar encriptar
+- encrypted (adjective) → cifrado — No usar encriptado
+- encryption (noun) → cifrado — No usar encriptación
+- endpoint (noun) → endpoint — En WooCommerce, los endpoints son slugs de la URL del proceso de compra: «variable». En una API (REST endpoints, endpoints de administración) se deja «endpoint» o, según el contexto, «ruta».
+- engagement (noun) → participación
+- entries (noun) → entradas / registros — Si se refiere a datos almacenados es mejor usar registros
+- entry (noun) → entrada / registro — Si se refiere a un dato almacenado es mejor usar registro
+- evergreen (noun) → perenne
+- excerpt (noun) → extracto
+- excluding tax (expression) → impuestos no incluidos
+- expanse (verb) → expandir
+- expiration (noun) → caducidad — Según el contexto se puede usar «vencimiento» pero NO «expiración»
+- expire (expression) → caduca
+- expired (noun) → caducado — No usar «expirado»
+- expires (noun) → caduca — No usar «expira»
+- F jS, Y (expression) → j \d\e F \d\e Y — Formato de fecha al español
+- fancy permalink (noun) → enlace permanente amigable
+- FAQ (noun) → FAQ — No se traduce.
+- feature (noun) → característica — Por defecto, traducir por «característica», aunque en muchas ocasiones será más preciso «función»
+- feature (verb) → destacar
+- fee (noun) → cuota — WooCommerce
+- feed (noun) → feed — No se traduce. Se refiere al feed RSS.
+- feedback (noun) → respuesta / comentario / opinión
+- feel free (expression) → no dudes — No traducir literal como «siéntete libre»
+- file (noun) → archivo
+- firewall (noun) → cortafuegos
+- fix (noun) → corrección
+- fixed (expression) → corregido
+- footer (noun) → pie de página
+- front page (noun) → página de inicio
+- front-end (noun) → portada / vista pública
+- frontend (noun) → portada / vista pública / parte pública
+- Full Site Editing (expression) → edición completa del sitio
+- fuzzy (noun) → impreciso/a
+- gallery (noun) → galería
+- gamification (noun) → ludificación — Mejor ludificación: https://www.fundeu.es/recomendacion/ludificacion-mejor-que-gamificacion-como-traduccion-de-gamification-1390/
+- gateway (noun) → pasarela — Se refiere a pasarelas de pago
+- GDPR (noun) → RGPD — Es masculino: «el RGPD» porque se refiere al «Reglamento general de protección de datos»
+- get started (expression) → primeros pasos
+- grid (noun) → cuadrícula
+- gross (noun) → bruto — Término contable, referido a ingresos o ventas brutas
+- guidelines (noun) → directrices
+- handbook (noun) → manual
+- hardening (noun) → refuerzo
+- header (noun) → cabecera
+- heading (noun) → encabezado
+- headline (noun) → titular
+- hero (noun) → Sección destacada — Se refiere a secciones, imágenes o bloques que ocupan toda la pantalla
+- hide (verb) → ocultar — No usar «esconder»
+- holder (noun) → titular — Cuando se habla del titular de una tarjeta o cuenta de banco «account holder» «card holder»
+- home (noun) → inicio / página de inicio
+- homepage (noun) → página de inicio
+- honeypot (noun) → señuelo — Se refiere al señuelo para spammers
+- hook (noun) → gancho — Action hook -> gancho de acción Filter hook -> gancho de filtro
+- hoster (noun) → proveedor — El proveedor de servicios de alojamiento web.
+- hosting (noun) → alojamiento — El servicio de alojamiento web.
+- hostname (noun) → hostname — No se traduce
+- hotkeys (noun) → teclas rápidas
+- hover (expression) → al pasar el cursor
+- how-to (expression) → guía práctica
+- Howdy (noun) → Hola
+- if applicable (expression) → si procede
+- in order to (expression) → para
+- in the background (expression) → en segundo plano
+- inline (adjective) → integrado
+- integer (noun) → número entero
+- invalid (noun) → no válido — No utilizar: Inválido (Incorrecto).
+- invoice (noun) → factura
+- is missing (expression) → falta
+- is not writable (expression) → no tiene permisos de escritura
+- is writable (expression) → tiene permisos de escritura
+- issue (noun) → problema / conflicto / incidencia
+- item (noun) → elemento / artículo — Solo usar «artículo» en tiendas online
+- JavaScript (noun) → JavaScript — No se traduce
+- Jetpack (noun) → Jetpack — No se traduce. Se refiere al plugin Jetpack
+- key (noun) → clave — Cuando se usa como sinónimo de contraseña para un servicio, por ejemplo, una API
+- landing (noun) → destino — Para «páginas de …» No usar «aterrizaje», el término correcto en SEO consolidado con los sistemas de analítica es «destino»
+- landing page (expression) → página de destino — Término utilizado en SEO y UX
+- language (noun) → idioma
+- large (noun) → grande
+- last name (noun) → apellidos
+- layout (noun) → estructura / disposición / diseño / plantilla — Si se refiere a una página se usa «plantilla» si es relativo a la distribución de contenidos, según contexto se puede usar «estructura», «diseño», »disposición»
+- lazy (noun) → diferida — Usada normalmente en la expresión lazy load -> carga diferida
+- lead (noun) → cliente potencial
+- legacy (adjective) → heredado
+- library (noun) → biblioteca — No usar librería, que solo se refiere a libros
+- license (noun) → licencia
+- lightbox (noun) → caja de luz — El efecto emergente al hacer clic en imágenes con fondo opaco
+- link (noun) → enlace — no usar «link», «vínculo» ni «liga»
+- link (verb) → enlazar — No usar «vincular», «linkear» ni ninguna otra cosa
+- link juice (expression) → zumo de enlaces
+- listing (noun) → anuncio / catálogo / ficha — De forma general usar «anuncio(s)», si es un catálogo de clasificados se puede usar «catálogo» y en casos particulares (ofertas de empleo, etc) usar el adecuado al producto: «oferta», «inmueble», etc
+- locale (noun) → configuración regional
+- log (noun) → registro
+- log in (verb) → acceder
+- log out (verb) → salir
+- logged in (noun) → conectado
+- logged out (noun) → desconectado
+- login (verb) → acceder / acceso — Usar «Acceder» cuando sea 1) una etiqueta de un botón, cuando se haga la acción de acceder al pulsarlo. 2) se refiera en un texto a la acción de acceder. No utilizar: Iniciar Sesión (Incorrecto). Entrar (Incorrecto). Identificarse (Incorrecto)
+- mailer (noun) → servicio de envío
+- malicious (noun) → malintencionado
+- manage (verb) → gestionar — No utilizar: Administrar (Incorrecto)
+- management (noun) → gestión — No utilzar: Administración (Incorrecto)
+- map (noun) → mapa — Asegúrate de que no se refiere al verbo «map»
+- map (verb) → asignar — No usar «mapear»
+- mapping (expression) → asignación — No usar «mapeo»
+- marketplace (noun) → mercado
+- masonry (adjective) → mosaico — Los diseños masonry son aquellos que simulan un muro de ladrillos que encajan unos sobre otros.
+- media (noun) → medios — También *media item* / *media file* = «archivo de medios», no «archivo multimedia».
+- membership (noun) → membresía
+- merchant (noun) → vendedor — Hay varias acepciones aceptables según la RAE pero la de uso más común y natural es 'vendedor'
+- meta box (expression) → caja meta
+- meta description (expression) → meta descripción — Dos palabras: «Meta descripción» como etiqueta, «meta descripción» en mitad de frase.
+- meta title (expression) → meta título — Dos palabras: «Meta título» como etiqueta, «meta título» en mitad de frase.
+- metabox (noun) → caja meta
+- minification (noun) → minimización — No usar «minimificación» o similares
+- minify (noun) → minimizar — No usar «minificar» o similares
+- modal (noun) → emergente
+- monitor (verb) → supervisar / seguir / vigilar — No usar «monitorear» o similares
+- monitoring (noun) → seguimiento / vigilancia / supervisión — No usar «monitorización» o similares
+- monto (noun) → importe — Nadie usa en España la palabra 'monto', usa en su lugar 'importe'
+- multisite (noun) → multisitio
+- N/A (abbreviation) → N/D — https://x.com/RAEinforma/status/1114146214038188032
+- next (noun) → siguiente — Si es comienzo de frase traducir como «A continuación»
+- nicename (noun) → slug de usuario
+- nickname (noun) → alias — No utilizar: Apodo (Incorrecto) Nickname (Incorrecto)
+- nonce (noun) → nonce — (no se traduce)
+- not allowed (expression) → no tienes permisos — No usar «permiso» sino «permisos» debido a que no es un «permiso» que da alguien sino «permisos» asociados a las capacidades de un perfil de usuario. Según el contexto, puede traducirse por «no (está) permitido»
+- notice (noun) → aviso
+- notification (noun) → aviso — No usar «notificación»
+- notify (verb) → avisar — No usar «notificar»
+- object (noun) → objeto
+- OK (expression) → Aceptar
+- on hover (expression) → al pasar el cursor
+- onboarding (noun) → puesta en marcha — Proceso de bienvenida para ajustes iniciales de algunos plugins, como WooCommerce
+- only (adjective) → solo — RAE: https://www.rae.es/espanol-al-dia/el-adverbio-solo-y-los-pronombres-demostrativos-sin-tilde
+- only (adverb) → solo / solamente — RAE: https://www.rae.es/espanol-al-dia/el-adverbio-solo-y-los-pronombres-demostrativos-sin-tilde
+- Oops (expression) → ¡Vaya! — Exclamación
+- Oops (noun) → Vaya
+- options (noun) → opciones — No utilizar: Ajustes (Incorrecto)
+- order (noun) → pedido / orden — En una tienda online, como nombre se refiere al «pedido», pero en ocasiones también al orden de elementos. Según contexto.
+- order (verb) → pedir / encargar / realizar pedido / ordenar — Usar «ordenar» solo para referirse al orden de elementos. Si es en una tienda siempre se refiere a algo relacionado con pedidos
+- packing slip (expression) → albarán
+- padding (noun) → relleno — Término de CSS
+- page (noun) → página
+- parallax (noun) → paralaje
+- path (noun) → ruta
+- pattern (noun) → patrón
+- payment gateway (expression) → pasarela de pago
+- performance (noun) → rendimiento
+- Permalink (noun) → Enlace permanente
+- Permalinks (noun) → Enlaces permanentes
+- phishing (noun) → suplantación de identidad
+- ping (noun) → ping — No se traduce
+- pingback (noun) → pingback — No se traduce
+- pixel (noun) → píxel — Con tilde
+- pixels (noun) → píxeles — Con tilde
+- place order (expression) → realizar pedido
+- placeholder (noun) → marcador de posición
+- playground (noun) → zona de pruebas — WordPress Playground (el producto) no se traduce: «Playground», «el servidor web de Playground».
+- plugin (noun) → plugin — No se traduce
+- plugins (noun) → plugins — no se traduce
+- pop-up (noun) → mensaje / ventana emergente
+- popup (noun) → mensaje / ventana emergente
+- portfolio (noun) → porfolio — https://www.fundeu.es/consulta/portfolio-863/
+- POS (noun) → TPV — Por «Terminal Punto de Venta» (del inglés «Point Of Sale»)
+- post (noun) → entrada
+- post type (noun) → tipo de contenido — Hay varios tipos de contenido (entradas, páginas, etc) Decidido por votación popular aquí: https://twitter.com/wp_es/status/684352383267270656
+- post types (expression) → tipos de contenido
+- posts (noun) → entradas
+- powered by (expression) → funciona con
+- powerful (noun) → potente — No usar «poderoso»
+- preloader (noun) → indicador de carga
+- preset (noun) → preajuste
+- preview (noun) → vista previa
+- preview (verb) → previsualizar
+- previous (noun) → anterior
+- primary (noun) → principal
+- pro-forma (noun) → proforma — Se refiere a facturas
+- prompt (noun) → instrucción — Cuando se refiere a una IA A falta de una recomendación de la RAE o Fundeu usar «instrucción», que es como la documentación de OpenAI lo traduce, y es explicativo de su uso, pues son 'instrucciones' a una IA
+- proudly powered by (expression) → funciona gracias a
+- proudly Powered by WordPress (expression) → funciona gracias a WordPress — Traducción actual.
+- Publicize (noun) → Divulgar — El módulo de Jetpack
+- push notifications (expression) → avisos instantáneos — Se refiere a los avisos emergentes de aplicaciones móviles principalmente
+- query (noun) → consulta
+- QuickPress (noun) → ublicación rápida
+- quiz (noun) → cuestionario — No usar examen
+- quotation (noun) → presupuesto
+- quote (noun) → cita / presupuesto — Según contexto, en temas de comercio se refiere a pedir un presupuesto
+- rate (noun) → tasa / tarifa — Usar «tasa» cuando va unido a otro nombre, por ejemplo «taxes rate» - «tasa de impuestos». Usar «tarifa» cuando va unido a envío. Ej. «shipping rate» = «tarifa de envío»
+- rate (verb) → valorar / puntuar — Usa «valorar» en el directorio de plugins y temas. Usa «puntuar» en el resto de situaciones
+- rating (noun) → valoración / puntuación — Usar «valoración» en el directorio de plugins y temas. Usar «puntuación» en el resto de situaciones
+- receipt (noun) → recibo
+- receiver (noun) → destinatario — No usar receptor
+- recipient (noun) → destinatario — Se refiere al destinatario de un correo electrónico
+- recurring (adjective) → periódico — Al traducir, usar «periódico»; «recurrente» también se acepta y no es motivo para cambiar una traducción.
+- refactor (verb) → reprogramar / rediseñar — Según el contexto (programación/diseño) usar una traducción u otra.
+- refund (noun) → reembolso
+- refund (verb) → reembolsar
+- release (noun) → versión — No confudir con Released --> Lanzamiento
+- removal (expression) → eliminación
+- remove (verb) → quitar / eliminar — Casi siempre usar «quitar». Usar «eliminar» cuando es un borrado físico (usuarios, cookies, plugins, etc)
+- render (verb) → procesar / mostrar — Usar según el contexto. En programación usar «procesar», cuando se refiere a mostrar elementos en una página usar «mostrar»
+- report (noun) → informe — No usar «reporte»
+- report (verb) → informar — No usar «reportar»
+- required (adverb) → obligatorio / requerido / necesario — Usar siempre «obligatorio», y solo en contadas ocasiones - muy justificadas por el contexto - se puede usar requerido. También «necesario», que es menos impositivo.
+- reset (verb) → restablecer
+- resource (noun) → recurso
+- responsive (noun) → adaptable
+- retrieve (verb) → recuperar
+- review (noun) → reseña / valoración — Depende del contexto se usa reseña (foros) o valoración (directorio de plugins y temas)
+- role (noun) → perfil — NO usar «rol». Es el nombre de WordPress; los roles de un servicio externo usan el nombre de su interfaz en español («rol: Lector» en Google Analytics).
+- roles (noun) → perfiles
+- rollback (noun) → retroceso
+- rollback (verb) → retroceder
+- RSS Feed (noun) → feed RSS
+- RSVP (noun) → confirmación de asistencia — En plugins de eventos: la respuesta de un asistente y el formulario o la pestaña para darla. Verbo: «confirmar asistencia». No dejar «RSVP».
+- safe mode (noun) → modo seguro
+- salary (noun) → sueldo
+- sale (noun) → oferta
+- sandbox (noun) → entorno de pruebas
+- save (verb) → guardar o ahorrar, según contexto — No utilizar: Salvar (incorrecto)
+- scan (noun) → exploración
+- scan (verb) → explorar
+- schema (noun) → schema — Referido a metadatos estructurados, no se traduce
+- scope (noun) → extensión — Se refiere a la extensión de la cabecera en una tabla. Valores: col, row, colgroup, rowgroup
+- scope (noun) → ámbito — Alcance de un permiso, un ajuste o una regla («el ámbito de la regla»). «extensión» es solo para la cabecera de una tabla.
+- screen (noun) → pantalla
+- screening (noun) → proyección / emisión
+- scroll (noun) → desplazamiento
+- sender (noun) → remitente — Se refiere al que envía un correo electrónico
+- set (noun) → conjunto
+- set (verb) → establecer
+- setting (noun) → ajuste
+- settings (noun) → ajustes — No utilizar: Opciones (Incorrecto)
+- ship (verb) → enviar
+- shipping (noun) → envío
+- shortcode (noun) → shortcode — No se traduce
+- shortcut (noun) → atajo — Plural: Shortcuts --> Atajos
+- sidebar (noun) → barra lateral
+- sign in (verb) → acceder
+- sign out (verb) → salir
+- site (noun) → sitio — No traducir como «página web» o «sitio web», solo como «sitio»
+- site identity (noun) → identidad del sitio — Sección del Personalizador
+- sitemap (noun) → mapa del sitio
+- skin (noun) → estilo
+- skip (verb) → omitir
+- skipped (noun) → omitido
+- slide (noun) → diapositiva — Cada elemento de un carrusel (slider)
+- slide (verb) → deslizar — No confundir con el nombre «slide»: diapositiva
+- slider (noun) → carrusel / control deslizante — Traducir como «carrusel» para pases de diapositivas / Traducir como «control deslizante» para selectores de precios, en widgets, etc
+- slug (noun) → slug — No se traduce
+- snapshot (noun) → instantánea
+- snippet (noun) → fragmento de código — No se traduce cuando se refiera a las cajas de resultado de búsqueda (snippets, rich snippets / snippets enriquecidos)
+- social media (expression) → redes sociales — En español de España lo normal es «redes sociales».
+- sorry (noun) → lo siento — No utilizar: Lo sentimos (Incorrecto) Perdona (Incorrecto)
+- Spam (noun) → Spam — No se traduce
+- spinner (noun) → icono de carga — Se refiere al icono que aparece en los temas mientras se carga el contenido
+- spoiler (noun) → destripamiento — Fuente: https://www.fundeu.es/recomendacion/destripe-destripar-hacer-spoiler/
+- spoiler (verb) → destripar — Fuente: https://www.fundeu.es/recomendacion/destripe-destripar-hacer-spoiler/
+- sponsor (noun) → patrocinador
+- sponsored (adverb) → patrocinado
+- static front page (noun) → página de inicio estática
+- status (noun) → estado
+- sticky (adjective) → fijo
+- stock (noun) → inventario / existencias — Cuando es palabra suelta usar «inventario». Como frase usamos «hay existencias» para el texto «in stock»
+- stop words (expression) → palabras vacías — Se refiere a palabras que no se tienen en cuenta al analizar textos en varios tipos de acciones y contextos
+- streaming (noun) → transmisión
+- string (noun) → cadena
+- stylesheet (noun) → hoja de estilos
+- subscriber (noun) → suscriptor
+- successful (noun) → correcto
+- successfully (adverb) → correctamente
+- suite (noun) → solución completa — Por ejemplo: «Office apps suite» como «Solución completa de aplicaciones de oficina»
+- support (verb) → es compatible con / dar soporte — Si se refiere a compatibilidad entre versiones/software se traduce como «compatible con» si se refiere a dar ayuda en foros se traduce como «dar soporte»
+- supported (noun) → compatible — Cuando no habla de compatibilidad (p. ej., *supported conflict*, un conflicto que el plugin sabe resolver), se traduce por el sentido.
+- swag (noun) → regalos
+- tab (noun) → pestaña
+- tag (noun) → etiqueta
+- tagline (noun) → descripción corta
+- tariff code (expression) → código arancelario
+- tax (noun) → impuesto
+- tax rate (expression) → tasa de impuesto
+- taxonomy (noun) → taxonomía
+- template (noun) → plantilla — No utilizar: tema (Incorrecto)
+- theme (noun) → tema — No utilizar: plantilla (Incorrecto)
+- thumbnail (noun) → miniatura
+- ticket (noun) → tique / entrada — Traducir tickets a tiques igualmente (RAE, Fundeu)
+- timer (noun) → temporizador
+- toggle (noun) → conmutador
+- toggle (verb) → cambiar / alternar
+- token (noun) → token — (no se traduce)
+- tools (noun) → herramientas — Nombre de menú principal de WordPress
+- tooltip (noun) → información emergente
+- topic (noun) → debate — En el contexto de foros y otros, usar «debate». En otros ámbitos puede traducirse por «tema»
+- tour (noun) → recorrido, gira, viaje — No usar «tour». Ref: https://www.rae.es/dpd/tour
+- trackback (noun) → trackback — No se traduce
+- tracking (noun) → seguimiento
+- transient (noun) → dato transitorio
+- trash (noun) → papelera — No utilizar «basura»
+- trial (expression) → periodo de prueba
+- troubleshoot (verb) → diagnosticar
+- troubleshooting (verb) → diagnosticar
+- tweak (noun) → retoque
+- two-factor (noun) → dos pasos
+- two-factor authentication (expression) → identificación en dos pasos — No usar «autenticación de dos factores». La sigla 2FA se deja.
+- unable (expression) → no se ha podido
+- unapproved (adjective) → sin aprobar — Se refiere a un comentario o mensaje que, a pesar de haber sido aprobado previamente, se considera que no debería estarlo y se pasa a no aprobado.
+- up-sell (expression) → venta dirigida
+- update (noun) → actualización
+- update (verb) → actualizar
+- updated (noun) → actualizado
+- upgrade (noun) → actualización
+- upgrade (verb) → actualizar — «actualizar» si es a una nueva versión, «mejorar» si es a un plan superior
+- upload (noun) → subida — No utilizar: carga (incorrecto)
+- upload (verb) → subir — No utilizar: cargar (incorrecto)
+- uploaded (adverb) → subido
+- upsell (expression) → venta dirigida
+- upsells (expression) → ventas dirigidas
+- uptime (noun) → tiempo de actividad — Se refiere al tiempo de actividad de un sitio, asociado normalmente a características de los servidores
+- URI (noun) → URI — No se traduce
+- URL (noun) → URL — No se traduce
+- username (noun) → nombre de usuario
+- variation (noun) → variación — En el contexto de WooCommerce, no usar «variante»
+- vendor (noun) → vendedor
+- viewport (noun) → área visible — Traducir si es interfaz para el usuario final, no traducir si la interfaz es para programadores
+- walker (noun) → walker — No se traduce
+- wallet (noun) → monedero / billetera / cartera virtual — https://www.fundeu.es/recomendacion/monedero-digital-alternativa-a-wallet/
+- warning (noun) → advertencia
+- website (noun) → sitio web — También son aceptables «web» y «sitio», según el contexto https://www.fundeu.es/consulta/sitio-web-2029/
+- Welcome (noun) → Te damos la bienvenida — Para que encaje el saludo para cualquier persona
+- whitelist (noun) → lista blanca — Como verbo (to whitelist) es «añadir a los admitidos»; whitelisted = «admitido».
+- widget (noun) → widget — No se traduce
+- wizard (noun) → asistente
+- worth (adverb) → valor
+- wrapper (noun) → envoltura — Se refiere a la envoltura alrededor de las imágenes que funciona como margen de las mismas
+- writable (expression) → tener permisos de escritura — También son correctas «se puede escribir» y «permite escritura» (no se puede escribir en la carpeta, la carpeta no permite escritura): no cambiarlas. No usar «escribible».
+- XML-RPC (noun) → XML-RPC — No se traduce
+- yearly archive (noun) → archivo anual
+- zoom (expression) → ampliar / acercar — Fundeu recomienda usar en español la adaptación «zum», según aconsejan las Academias de la Lengua, pero su uso no está muy extendido. https://www.fundeu.es/recomendacion/zum/
+- zoom (noun) → ampliación — Como sustantivo («nivel de ampliación»).
+- zoom in (noun) → ampliar / acercar
+- zoom out (expression) → reducir / alejar

@@ -1,12 +1,12 @@
 # Translation skill
 
-Development of the installable skill in `wordpress-translator-es/`. Its `SKILL.md` is written by hand there; `package.py` regenerates the rest from `resources/` and `scripts/`: `po_tool.py`, one `glossary.csv` (the official glossary with the team's overrides merged in) and one `style-guide.md` (the guide with the quick reference merged in). The skill sees only that glossary and that guide, as it will when they are the team's approved ones; overrides and exceptions exist only here, in `resources/`. Haiku's training sessions use the packaged skill, so they test exactly what users get. Run it after every change and commit the result. The skill must work with cheap models (Haiku), not only Opus.
+Development of the installable skill in `wordpress-translator-es/`. Its `SKILL.md` is written by hand there; `package.py` regenerates the rest from `resources/` and `scripts/`: `po_tool.py`, one glossary (the official glossary with the team's overrides merged in: `glossary.md`, which the model reads whole, and `glossary.csv` for the scripts) and one `style-guide.md` (the guide with the quick reference merged in). The skill sees only that glossary and that guide, as it will when they are the team's approved ones; overrides and exceptions exist only here, in `resources/`. Haiku's training sessions use the packaged skill, so they test exactly what users get. Run it after every change and commit the result. The skill must work with cheap models (Haiku), not only Opus.
 
 `scripts/po_tool.py` (Python stdlib) does the deterministic work so the model only decides translations:
 
 | Command | What it does |
 |---|---|
-| `start` | The whole workflow before the model works: work folder, download (URL), precheck, size, entries files with the glossary that applies and the entries; prints the exact steps (Read, Write, `finish`) or STOP. The skills call only `start` and `finish`, so the model has nothing to work out and no reason to explore |
+| `start` | The whole workflow before the model works: work folder, download (URL), precheck, size, entries files (only the strings); prints the exact steps: read the whole guide, the whole glossary and the entries, write the decisions, `finish`; or STOP. The skills call only `start` and `finish`, so the model has nothing to work out and no reason to explore |
 | `finish` | Merges the block decisions, builds the final `.po` next to where `start` ran, checks it and says what to fix or that it is done |
 | `extract` | `.po` → numbered JSON lines (used by `start`) |
 | `fetch` | Download waiting or untranslated strings of a translate.wordpress.org project |
