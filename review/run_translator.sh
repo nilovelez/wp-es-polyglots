@@ -11,6 +11,8 @@
 #   <log.jsonl>    stream-json log: every tool call, the final answer, usage and duration.
 #                  Summarize it with: python3 review/run_summary.py <log.jsonl>
 #   [file]         a .po/.pot to review or translate; it is copied into the empty sandbox.
+# KEEP_SESSION=1 saves the session, so it can be asked afterwards why it decided something:
+#   cd <sandbox-dir> && claude -p --resume <session_id from the log> "<question>"
 # WORKFLOW=1 also loads the GlotPress workflow plugin (wordpress-polyglots-es), to test it
 # end to end; training rounds test the base skills alone.
 # Run python3 skill/package.py first, so the zips are current.
@@ -36,7 +38,7 @@ LOG=${3:A}
 cd "$SANDBOX"
 claude -p "$2" --model "${4:-haiku}" \
   --plugin-dir "$PLUGIN/wordpress-translator-es" "${EXTRA[@]}" \
-  --no-session-persistence \
+  $([ -z "$KEEP_SESSION" ] && echo --no-session-persistence) \
   --settings '{"autoMemoryEnabled": false}' \
   --allowedTools Read Write Edit Glob Grep Skill "Bash(python3 *)" "Bash(mkdir *)" "Bash(ls *)" \
     "Bash(msgfmt *)" "Bash(cp *)" "Bash(mv *)" "Bash(wc *)" "Bash(head *)" \

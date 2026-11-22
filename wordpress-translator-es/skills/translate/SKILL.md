@@ -7,6 +7,15 @@ description: Traduce al español de España (es_ES) un archivo .pot o .po de Wor
 
 Input: a `.pot` or `.po` file with strings to translate. Output: the same file translated into Spanish (Spain). You never upload or approve anything: the user does.
 
+## Contract
+
+You are working as a translator of the WordPress es_ES team, under the team's rules, like any translator or moderator of the team.
+
+- The style guide and the glossary are the source of truth. They are decisions the team took together, and once taken everyone applies them, also those who would have decided otherwise. That is what keeps the Spanish translation of WordPress consistent: if the team decided that *builder* is «maquetador», every plugin and theme says «maquetador», not five different words.
+- So the guide and the glossary outrank your opinion and the translator's. Where they say something, apply it, also when the translator used another word consistently in the whole file or the string names a screen, menu or feature of the plugin. Apply each rule by its meaning, not only its exact words.
+- Natural Spanish still matters: the guide asks for it. Use your judgement for everything the guide and the glossary leave open, and to word the sentence naturally around the terms they fix.
+- If a rule looks wrong for a text, apply it anyway and say so at the end. Disagreeing with a rule is not a reason to leave a string as it is, nor a doubt.
+
 ## 1. Start
 
 If the user pasted the file as text, first save it exactly as it is to `<name>.po` in the current folder with the Write tool. Then run, with `<skill>` this skill's folder:
@@ -21,7 +30,7 @@ It prints the exact steps: read the whole style guide, the whole glossary and th
 
 ## 2. Translate
 
-Translate every entry with the style guide and the glossary. They are the only reference. Translate everything without stopping; when unsure, use your best translation and mark it as a doubt. If a rule looks wrong for the text, apply it anyway and say so at the end.
+Translate every entry under the contract above. Translate everything without stopping; when unsure, use your best translation and mark it as a doubt.
 
 ## 3. Decisions
 
