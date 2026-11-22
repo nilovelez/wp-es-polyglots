@@ -158,6 +158,11 @@ Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas
 - 179 cambios (15 %), sin dudas. 6 min 53 s, 0,57 USD. Precheck: tuteo («su» 14, «tu» 80). Muestra de 25: sin errores.
 - Tuteo en los correos al cliente, *email* = «correo electrónico», mayúsculas, glosario; *ticket* = «entrada» (entradas de eventos) en lugar de «billete», *location* = «local» (restaurantes).
 
+## 2026-11-22 · Haiku · ronda 124 (GTM4WP, stable, 276 cadenas) · revisión directa de producción
+
+- 13 cambios, sin dudas, 3 min 5 s, 0,12 USD. Precheck limpio (tuteo: «su» 3, «tu» 17). Muy buena traducción; solo glosario: *ability* = «habilidad» ×4, *endpoint* = «punto de conexión» ×4, *add-on* = «adicional» ×2, «permiso», «eliminar».
+- Auditoría: 1 descartado. *Certified vendor mapping* en el modo de consentimiento: los *vendors* son «proveedores» (IAB); Haiku lo cambió a «vendedores» aplicando el glosario fuera de contexto. Quedan 12.
+
 ## 2026-11-22 · Haiku · ronda 123 (GatherPress, dev, 266 cadenas sin traducir) · traducción de producción
 
 - 266 cadenas traducidas, 3 dudas, 1 min 50 s, 0,04 USD. Buena traducción; *RSVP* = «confirmación de asistencia», *check-in* = «registro de asistencia».
