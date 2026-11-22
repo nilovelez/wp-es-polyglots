@@ -4,6 +4,16 @@ Una entrada por prueba: modelo, ronda, resultado frente al `corrected.po` aproba
 
 Aviso: `resources/quick-reference.md` incluye criterios aprendidos en las rondas 01 y 02, así que estas pruebas no son del todo ciegas.
 
+# Flujo nuevo: `start` y `finish` (desde 2026-11-22)
+
+Las rondas vuelven a empezar en la 01. `po_tool.py start` hace toda la fontanería (carpeta de trabajo dentro de la carpeta actual, descarga, precheck, tamaño, archivos de bloque con glosario, pistas y entradas) e imprime los pasos exactos; `finish` construye y comprueba el `.po`. El modelo solo lee la guía y los bloques y escribe las decisiones. Motivo: en la ronda 130 del flujo anterior, 14 de los 18 turnos fueron fontanería y reintentos bloqueados por permisos (buscar archivos, crear carpetas fuera del sandbox, comandos encadenados).
+
+## 2026-11-22 · Haiku · ronda 01 (Envo Blocks Store, 314 cadenas, mismo archivo que la 129 y la 130) · sin revisión humana
+
+- Haiku: 115 s, 11 turnos, 0 errores de permisos, 342 398 tokens leídos de caché, 0,037 USD (la 130: 120 s, 18 turnos, 6 errores, 667 782, 0,039 USD). Llamadas: skill, un Glob para encontrar el archivo (el mensaje daba solo el nombre), `start`, guía, bloque, Write de decisiones, Read y Edit para completar una cadena que había dejado cortada, `finish`.
+- 18 cambios y 1 duda («Añadir plugin» frente a «Añadir nuevo»). Auditoría: 0 descartes y 0 retoques; todos los de glosario se apoyan en una entrada (*builder*, *refund*, *FAQ*, *primary*, *sorry*, *rate* = «puntuar» fuera del directorio, *layout* de página = «plantilla»).
+- Sin regla que los respalde ni los contradiga, se mantienen: «vosotros» → «tú» en 3 cadenas de preguntas frecuentes de la tienda y «gratis a partir de» → «gratis por encima de». Posibles huecos de la guía.
+
 ## 2026-11-22 · Haiku · ronda 130 (Envo Blocks Store, repetición de la 129, 314 cadenas) · sin revisión humana
 
 - Mismo `original.po` que la 129, pasado como archivo porque las cadenas ya se habían importado. Objetivo: repetir la auditoría con la regla nueva (en producción solo se descarta o retoca citando el glosario, las excepciones o la guía).
