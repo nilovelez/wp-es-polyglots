@@ -132,6 +132,7 @@ Gerundio: «Saving…» → «Guardando…».
 - **HTML:** conserva etiquetas y atributos. Traduce solo el texto visible y los atributos legibles (`title`, `alt`) si procede. No traduzcas URL salvo que exista una versión localizada oficial.
 - **Entidades y escapes:** conserva `&amp;`, `&nbsp;`, `\n`, `\"`, etc.
 - **Espacios y saltos de línea** al inicio o al final: igual que en el original.
+- **Longitud:** la traducción debe medir más o menos lo mismo que el original; en español suele ser algo más larga. Si mide 5 veces el original o más, o una quinta parte o menos, GlotPress la marca y probablemente rompe la interfaz: traduce de forma más concisa («Undo» = «Deshacer», no «Deshacer el último cambio»).
 - **Plurales:** es_ES usa `nplurals=2; plural=(n != 1);`. Rellena siempre `msgstr[0]` (singular) y `msgstr[1]` (plural).
 - **Formatos de fecha:** usa los equivalentes del glosario (p. ej. `F jS, Y` → `j \d\e F \d\e Y`).
 - Valida el archivo final (p. ej. `msgfmt --check`) y verifica que el número de placeholders coincide en cada cadena.

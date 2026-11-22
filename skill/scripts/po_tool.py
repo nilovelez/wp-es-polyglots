@@ -190,8 +190,22 @@ def end_punct(s):
     return s[-1:] if s[-1:] in ('.', ':', '!', '?', '…', ';') else ''
 
 
+def length_off(src, tr):
+    """GlotPress's length warning: the translation is 5 times the source or longer,
+    or 0.2 times or shorter ("Lengths of source and translation differ too much").
+    Returns the ratio when it fires, else None."""
+    if not src or not tr:
+        return None
+    ratio = len(tr) / len(src)
+    return None if 0.2 < ratio < 5 else ratio
+
+
 def check_pair(src, tr):
     problems = []
+    r = length_off(src, tr)
+    if r is not None:
+        problems.append(f'length: translation {r:.1f} times the source; GlotPress flags it '
+                        '(over 5 or under 0.2) and it may break the interface: make it concise')
     if bag(PH, src) != bag(PH, tr):
         problems.append(f'placeholders {bag(PH, src)} != {bag(PH, tr)}')
     if bag(TAG, src, 1) != bag(TAG, tr, 1):
@@ -650,6 +664,13 @@ def cmd_lint(args):
         visible = TAG.sub('', tr)
         if re.search(r'(?<![=\w])"[^"<>=]+"(?![\w>])', visible) or re.search(r"(?<![\w=])'[^'<>]+'(?!\w)", visible) or re.search(r'[“”‘’]', visible):
             hints.append('non-Spanish quotes')
+        pairs = [(e['msgid'], e['msgstr'])] if e['msgid_plural'] is None else \
+            list(zip([e['msgid'], e['msgid_plural']], e['msgstr_plural']))
+        for s, t in pairs:
+            r = length_off(s, t)
+            if r is not None:
+                hints.append(f'length: translation {r:.1f} times the source (GlotPress flags over 5 or under 0.2)')
+                break
         if hints:
             print(f'#{e["n"]}: ' + ' | '.join(hints))
 
@@ -768,7 +789,7 @@ def cmd_precheck(args):
     for line in lint.splitlines():
         for h in re.sub(r' \[nota: [^\]]*\]', '', line.split(': ', 1)[-1]).split(' | '):
             m = re.match(r'(glossary: [\w -]+? →|glossary term left in English: [\w -]+? →|capitals mid-sentence|'
-                         r'non-Spanish quotes|«#%d»|«ej\.»|glossary: [\w -]+? is not translated)', h)
+                         r'non-Spanish quotes|«#%d»|«ej\.»|length|glossary: [\w -]+? is not translated)', h)
             kinds[m.group(1) if m else h[:40]] += 1
     print(f'{len(es)} strings · {len(lint.splitlines())} with lint hints')
     print('  ' + ' · '.join(f'{k} {v}' for k, v in kinds.most_common(10)))
