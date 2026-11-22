@@ -64,6 +64,7 @@ When a contributor uploads a batch like torlann (machine translation without con
 - Not yet tested on claude.ai (network access to translate.wordpress.org from its sandbox) or on Windows.
 - `po_tool.py` still has es-specific checks (locale code, Spanish quotes, «ej.»); they must move to locale data before another locale can use it.
 - Translation memory is off in the skill until decided.
+- Pending: the skills still ask the model to choose `start --window` by model and app (1M, 500k in Cowork, 200k otherwise). It is a non-deterministic choice in the plumbing (round 02: Haiku in Claude Code passed 500k). Remove it from the model's hands.
 
 ### common strings (separate repository)
 
