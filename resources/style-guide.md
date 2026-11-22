@@ -27,9 +27,12 @@ Uso del glosario:
 ## 2. Normas generales
 
 - **No se traducen** los nombres de temas y plugins: «Contact Form 7», «Astra», «Jetpack», «WooCommerce».
+  - El nombre se copia tal cual, aunque lleve palabras en inglés: «Bugalou for WooCommerce».
+  - La parte descriptiva del título sí se traduce: «Bugalou – Live Chat, AI Chatbot & Customer Support Inbox» → «Bugalou – Chat en vivo, chatbot con IA y bandeja de atención al cliente».
 - **Productos de otras empresas:** se respeta la decisión de cada empresa. Usa el nombre oficial que la propia empresa emplea en español de España; unas traducen sus productos y otras no, y a veces solo algunos.
   - ✅ «Hojas de cálculo de Google» (nombre oficial en español) · «Search Console» (Google no lo traduce).
   - Comprueba el nombre en la web o la interfaz oficial en español de la empresa. Si no puedes verificarlo, deja el nombre original y anótalo como duda en el informe.
+  - Lo mismo con la interfaz de otros servicios: se usa el nombre que tiene en su versión en español («rol: Lector» en Google Analytics). «Escritorio» y «perfil» son los nombres de WordPress; el *dashboard* de un servicio externo, preferentemente «panel».
 - Traducción **contextual, no literal**: «Page Management Documentation» → «Documentación de la gestión de páginas», no «Documentación gestión páginas».
 - Si un término inglés es polisémico y en español no, usa la palabra española adecuada para cada contexto.
 - Prioriza palabras españolas que expresen el concepto antes que anglicismos, salvo que el glosario indique que el término no se traduce.
@@ -80,7 +83,7 @@ Gerundio: «Saving…» → «Guardando…».
 - Si hay una alternativa neutra **natural**, evita la marca de género:
   - «Welcome to Astra» → «Te damos la bienvenida a Astra» (mejor que «Bienvenido a Astra»).
   - «Are you sure…?» → «¿Seguro que…?» (mejor que «¿Estás seguro…?»).
-- Si la alternativa queda forzada, usa la forma habitual (masculino genérico).
+- Si la alternativa queda forzada, usa la forma habitual (masculino genérico). El masculino genérico no es un error.
 - **Nunca** desdoblamientos («usuario/a», «los/las», @, x), salvo que sea imprescindible especificarlo.
 
 ### 3.7 Mayúsculas
@@ -102,8 +105,11 @@ El registro de cambios (*changelog*) es la lista de novedades y correcciones de 
 ## 4. Tipografía
 
 - **Comillas:** siempre españolas «», y anidadas «… “…” …». Se convierten vengan como vengan en el original (`"…"`, `“…”`, `‘…’`).
+  - Excepción: si toda la cadena es un texto literal para un buscador o un agente de IA (una instrucción, una consulta de ejemplo), se dejan las comillas del original, también las rectas. Un término citado dentro de una frase lleva «» como siempre: *Search for "WSMS"* → Busca «WSMS».
 - **Signos de apertura:** siempre ¿ y ¡.
 - **Resto de caracteres tipográficos:** se respetan como vengan en el original. Si el original trae `...`, se mantiene `...`; si trae `…`, se mantiene `…`.
+- **Puntuación del final:** los puntos suspensivos, los dos puntos y los signos de cierre del final de la cadena se dejan como en el original. El guion largo «—» se puede cambiar por «:», «;» o «,».
+- **Números con «#»:** «Pedido #%d» se deja con «#», como en el original; no se cambia por «n.º %d».
 - Coma tras «Por favor» cuando va seguido de la petición: «Por favor, inténtalo de nuevo».
 
 ---
@@ -114,6 +120,7 @@ El registro de cambios (*changelog*) es la lista de novedades y correcciones de 
 - **Placeholders:** conserva todos, sin alterarlos: `%s`, `%d`, `%1$s`, `%2$d`, `{name}`, `%%`. En los numerados puedes cambiar el orden en la frase, pero no el número.
 - **Código:** no se traducen los shortcodes, los hooks, las funciones, las clases, las variables ni los nombres de archivo: `[embed]`, `wp_head`, `get_option()`, `$post_id`, `wp-config.php`.
 - **HTML:** conserva etiquetas y atributos. Traduce solo el texto visible y los atributos legibles (`title`, `alt`) si procede. No traduzcas URL salvo que exista una versión localizada oficial.
+- **Nombres de etiquetas y atributos HTML** (*viewport*, *canonical*, *hreflang*, *og:url*): no se traducen cuando nombran la etiqueta: «la etiqueta viewport». La traducción del glosario («área visible») es para la interfaz.
 - **Entidades y escapes:** conserva `&amp;`, `&nbsp;`, `\n`, `\"`, etc.
 - **Espacios y saltos de línea** al inicio o al final: igual que en el original.
 - **Longitud:** la traducción debe medir más o menos lo mismo que el original; en español suele ser algo más larga. Si mide 5 veces el original o más, o una quinta parte o menos, GlotPress la marca y probablemente rompe la interfaz: traduce de forma más concisa («Undo» = «Deshacer», no «Deshacer el último cambio»).
