@@ -167,6 +167,15 @@ def length_off(src, tr):
     return None if 0.2 < ratio < 5 else ratio
 
 
+def strip_json(text):
+    """Drop JSON-like code ({"key": ...}, nested too): its straight quotes are code, not text."""
+    while True:
+        new = re.sub(r'\{[^{}]*\}', lambda m: '' if re.search(r'"\s*:', m.group(0)) else m.group(0), text)
+        if new == text:
+            return text
+        text = new
+
+
 def check_pair(src, tr):
     problems = []
     r = length_off(src, tr)
@@ -194,7 +203,7 @@ def check_pair(src, tr):
     # added or dropped at the end is the usual case). Closing quotes and brackets do not count.
     if end_punct(src) != end_punct(tr):
         problems.append(f'final punctuation differs: {end_punct(src) or "none"} != {end_punct(tr) or "none"}')
-    visible = TAG.sub('', tr)
+    visible = strip_json(TAG.sub('', tr))
     if re.search(r'(?<![=\w])"[^"<>=]+"(?![\w>])', visible) or re.search(r'[“”]', visible):
         problems.append('non-Spanish quotes (use «»)')
     if not tr.strip() and src.strip():
@@ -489,8 +498,9 @@ def cmd_finish(args):
     problems = [l for l in text.splitlines() if l.startswith('#')]
     if problems:
         print('\n'.join(problems))
-        sys.exit(f'{len(problems)} problem(s) above: fix those entries in decisions.jsonl and run this same command again. '
-                 'If one is a false positive, leave it and say so in your answer.')
+        sys.exit(f'{len(problems)} problem(s) above. The file is written: {job["out"]}. Fix the real problems in '
+                 'decisions.jsonl and run this same command again. If only false positives are left, give the user '
+                 'this file and say which ones they are.')
     msgfmt = shutil.which('msgfmt')
     if msgfmt:
         r = subprocess.run([msgfmt, '--check', '-o', os.devnull, job['out']], capture_output=True, text=True)
