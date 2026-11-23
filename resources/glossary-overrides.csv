@@ -32,4 +32,4 @@ blacklist,lista negra,noun,Decisión del equipo es_ES.
 "Chinese, Traditional",chino tradicional,noun,Decisión del equipo es_ES. No «chino (Taiwán)». Se traduce la variante que dice el original.
 default,por defecto,noun,Decisión del equipo es_ES. No usar «predeterminado».
 default,por defecto,adjective,Decisión del equipo es_ES. No usar «predeterminado».
-invoice,factura,noun,"Decisión del equipo es_ES. «Recibo» también vale según el contexto: en España no todo lo que se emite como invoice es una factura con validez legal (hace falta numeración de factura y todos los datos fiscales). Si el traductor ha puesto «recibo», no es motivo para cambiar una traducción."
+invoice,factura,noun,Decisión del equipo es_ES. También se admite «recibo» según el contexto.

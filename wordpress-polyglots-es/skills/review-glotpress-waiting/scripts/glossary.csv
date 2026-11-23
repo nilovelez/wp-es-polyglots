@@ -508,4 +508,4 @@ blacklist,lista negra,noun,
 "Chinese, Traditional",chino tradicional,noun,No «chino (Taiwán)». Se traduce la variante que dice el original.
 default,por defecto,noun,No usar «predeterminado».
 default,por defecto,adjective,No usar «predeterminado».
-invoice,factura,noun,"«Recibo» también vale según el contexto: en España no todo lo que se emite como invoice es una factura con validez legal (hace falta numeración de factura y todos los datos fiscales). Si el traductor ha puesto «recibo», no es motivo para cambiar una traducción."
+invoice,factura,noun,También se admite «recibo» según el contexto.

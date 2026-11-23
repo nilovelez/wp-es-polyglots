@@ -37,7 +37,7 @@ Estados: **pendiente** (sin proponer) · **propuesta** (enviada al equipo) · **
 | *expanse* | «expandir» | Revisar: probablemente es *expand* | Revisión del CSV | pendiente |
 | *troubleshooting* | «diagnosticar» (verbo) | Corregir al sustantivo: «diagnóstico» | Revisión del CSV | pendiente |
 | *default* | «por defecto» (sustantivo), sin nota | Añadir la nota «No usar "predeterminado"» y la entrada como adjetivo, con la misma nota. En `glossary-overrides.csv` | Rondas 21, 22, 25 y 27 (readmes: «predeterminado» sin corregir) | pendiente |
-| *invoice* | «factura», sin nota | Añadir nota: «recibo» también vale según el contexto (en España no todo lo que el original llama *invoice* es una factura con validez legal: hace falta numeración y todos los datos fiscales). Si el traductor ha puesto «recibo», se respeta. En `glossary-overrides.csv` | Ronda 31 (Gym Class, 2 cadenas) | pendiente |
+| *invoice* | «factura», sin nota | Añadir nota: también se admite «recibo» según el contexto. En `glossary-overrides.csv` | Ronda 31 (Gym Class, 2 cadenas) | pendiente |
 | A debatir (sin decisión) | *FAQ* en textos explicativos, *OK* como estado, *login* sustantivo, *sign out* en frases, *feed* que no es RSS, *vendor* de software, *merchant* en nombres de producto, *release* como paquete, *upsell*, *fee* de pasarela = «comisiones», *designation* = «destino», *fixed* = «fijo», *preset* = «predefinido» | Ver el documento de propuestas | Rondas 12 a 21 | pendiente |
 
 ## Guía de traductores

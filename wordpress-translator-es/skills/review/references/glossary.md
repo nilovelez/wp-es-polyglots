@@ -210,7 +210,7 @@ Obligatorio. Formato: término inglés (categoría) → traducción — nota. La
 - inline (adjective) → integrado
 - integer (noun) → número entero
 - invalid (noun) → no válido — No utilizar: Inválido (Incorrecto).
-- invoice (noun) → factura — «Recibo» también vale según el contexto: en España no todo lo que se emite como invoice es una factura con validez legal (hace falta numeración de factura y todos los datos fiscales). Si el traductor ha puesto «recibo», no es motivo para cambiar una traducción.
+- invoice (noun) → factura — También se admite «recibo» según el contexto.
 - is missing (expression) → falta
 - is not writable (expression) → no tiene permisos de escritura
 - is writable (expression) → tiene permisos de escritura
