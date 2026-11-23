@@ -2,7 +2,7 @@
 
 Normas para traducir WordPress (núcleo, plugins y temas) al español de España.
 
-Basada en la [Guía de traductores del equipo de WordPress España](https://es.wordpress.org/team/handbook/traducciones/guia/) y ampliada con criterios del equipo para uso por agentes.
+Basada en la Guía de traductores del equipo de WordPress España y ampliada con criterios del equipo.
 
 ---
 
@@ -10,7 +10,7 @@ Basada en la [Guía de traductores del equipo de WordPress España](https://es.w
 
 Cuando dos fuentes entren en conflicto, prevalece la de mayor rango:
 
-1. **Glosario oficial** ([translate.wordpress.org/locale/es/default/glossary](https://translate.wordpress.org/locale/es/default/glossary/)).
+1. **Glosario oficial**.
 2. **Esta guía.**
 
 Uso del glosario:
@@ -20,7 +20,7 @@ Uso del glosario:
 - Comprueba la categoría gramatical: el mismo término puede tener traducciones distintas como sustantivo y como verbo (*link* → «enlace» / «enlazar»).
 - Si una entrada parece errónea, aplícala igualmente y coméntalo en #polyglots-es.
 
-Las decisiones del equipo se debaten en el canal [#polyglots-es](https://wordpress.slack.com/archives/C0B936628M6) del Slack de Make WordPress.
+Las decisiones del equipo se debaten en el canal #polyglots-es del Slack de Make WordPress.
 
 El glosario y esta guía son decisiones del equipo es_ES tomadas por consenso, no preferencias personales, y se aplican para que las traducciones sean coherentes. También se revisan: si una norma es incoherente, está desfasada o no encaja con lo que se traduce ahora, se señala para que el equipo la revise.
 

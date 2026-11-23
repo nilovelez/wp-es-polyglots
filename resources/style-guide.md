@@ -2,7 +2,7 @@
 
 Normas para traducir WordPress (núcleo, plugins y temas) al español de España.
 
-Basada en la [Guía de traductores del equipo de WordPress España](https://es.wordpress.org/team/handbook/traducciones/guia/) y ampliada con criterios del equipo para uso por agentes.
+Basada en la [Guía de traductores del equipo de WordPress España](https://es.wordpress.org/team/handbook/traducciones/guia/) y ampliada con criterios del equipo.
 
 ---
 

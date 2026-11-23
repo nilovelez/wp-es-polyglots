@@ -7,7 +7,7 @@ wordpress-translator-es/  base skills translate and review: a .po in, a .po out.
   glossary.md         resources/glossary.csv with resources/glossary-overrides.csv merged
                       in, in Markdown: the model reads it whole
   style-guide.md      resources/style-guide.md with resources/quick-reference.md merged in,
-                      then resources/agent-appendix.md: no workflow, pending notes or file names
+                      then resources/agent-appendix.md; links removed
 wordpress-polyglots-es/   GlotPress workflow for moderators, on top of the base skills. Each
                           skill folder gets scripts/: glotpress.py, po_tool.py and the merged
                           glossary.csv (for the precheck).
@@ -123,7 +123,18 @@ def style_guide():
     out[-1] = out[-1].rstrip().rstrip('-').rstrip() + '\n\n---\n\n'
     out.append(appendix)
     text = '\n'.join(out).rstrip() + '\n'
+    text = strip_links(text)
     return re.sub(r'\n{3,}', '\n\n', text)
+
+
+def strip_links(text):
+    """The agents' guide has no links, so the model does not try to fetch or browse them.
+    A link whose text is an address goes away with its parentheses; any other keeps its text."""
+    text = re.sub(r' ?\(\[[^\]]*\.[a-z]{2,}/[^\]]*\]\([^)]*\)\)', '', text)
+    text = re.sub(r'\[([^\]]*)\]\([^)]*\)', r'\1', text)
+    if re.search(r'https?://|www\.', text):
+        warnings.append('style-guide: an address is left in the agents\' guide')
+    return text
 
 
 def zip_dir(src, zpath, top):
