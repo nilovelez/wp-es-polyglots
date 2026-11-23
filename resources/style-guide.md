@@ -32,7 +32,7 @@ Las decisiones del equipo se debaten en el canal [#polyglots-es](https://wordpre
 - Los nombres de las pantallas, funciones, planes y opciones de un plugin no son nombres propios: se traducen, y con el término del glosario si lo tiene. *Builder* → «Maquetador», *Entries* → «Registros».
 - **Productos de otras empresas:** se respeta la decisión de cada empresa. Usa el nombre oficial que la propia empresa emplea en español de España; unas traducen sus productos y otras no, y a veces solo algunos.
   - ✅ «Hojas de cálculo de Google» (nombre oficial en español) · «Search Console» (Google no lo traduce).
-  - Comprueba el nombre en la web o la interfaz oficial en español de la empresa. Si no puedes verificarlo, deja el nombre original y márcalo como duda.
+  - Si no sabes cómo lo llama la empresa en español, tradúcelo. Se deja el nombre original, u otro distinto, solo cuando se sabe que la empresa lo hace así: «Search Console». *Twilio Auth Token* → «token de identificación de Twilio».
   - Lo mismo con la interfaz de otros servicios: se usa el nombre que tiene en su versión en español («rol: Lector» en Google Analytics). «Escritorio» y «perfil» son los nombres de WordPress; el *dashboard* de un servicio externo, preferentemente «panel».
 - Traducción **contextual, no literal**: «Page Management Documentation» → «Documentación de la gestión de páginas», no «Documentación gestión páginas».
 - Si un término inglés es polisémico y en español no, usa la palabra española adecuada para cada contexto.
