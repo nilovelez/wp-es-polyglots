@@ -116,6 +116,4 @@ rounds/NN-project/
   edits.jsonl, audit.md  the audit's rewordings and the reasons for dropped decisions
 ```
 
-The file to import, whatever the round produced last (`<name>-corrected.po` or `corrected.po`), is also copied to `rounds/output/NN-<name>-corrected.po`, so the reviewer finds every file to import in one folder.
-
 Rounds 01 and 02 predate this flow: they have `repaired.po` (output of the `polyglots` tool), `corrected.po` and a one-off `make-corrected.py`.
