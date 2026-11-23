@@ -112,6 +112,7 @@ El registro de cambios (*changelog*) es la lista de novedades y correcciones de 
 - **Puntuación del final:** los puntos suspensivos, los dos puntos y los signos de cierre del final de la cadena se dejan como en el original. El guion largo «—» se puede cambiar por «:», «;» o «,».
 - **Números con «#»:** «Pedido #%d» se deja con «#», como en el original; no se cambia por «n.º %d».
 - Coma tras «Por favor» cuando va seguido de la petición: «Por favor, inténtalo de nuevo».
+- **Abreviaturas:** «p. ej.», no «ej.».
 
 ---
 

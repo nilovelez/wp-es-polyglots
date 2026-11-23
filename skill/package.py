@@ -6,8 +6,8 @@ wordpress-translator-es/  base skills translate and review: a .po in, a .po out.
   po_tool.py          copy of skill/scripts/po_tool.py (file plumbing only)
   glossary.md         resources/glossary.csv with resources/glossary-overrides.csv merged
                       in, in Markdown: the model reads it whole
-  style-guide.md      resources/style-guide.md with resources/quick-reference.md merged in,
-                      then resources/agent-appendix.md; links removed
+  style-guide.md      resources/style-guide.md, resources/guide-exceptions.md (when it has
+                      rules) and resources/agent-appendix.md, concatenated; links removed
 wordpress-polyglots-es/   GlotPress workflow for moderators, on top of the base skills. Each
                           skill folder gets scripts/: glotpress.py, po_tool.py and the merged
                           glossary.csv (for the precheck).
@@ -38,15 +38,6 @@ def sub(text, old, new, label):
         warnings.append(f'{label}: not found: {old[:60]!r}')
         return text
     return text.replace(old, new)
-
-
-def drop_section(text, heading, label):
-    """Remove a '## heading' section up to the next '## ' heading."""
-    m = re.search(rf'^## {re.escape(heading)}.*?(?=^## |\Z)', text, re.M | re.S)
-    if not m:
-        warnings.append(f'{label}: section not found: {heading!r}')
-        return text
-    return text[:m.start()] + text[m.end():]
 
 
 def glossary():
@@ -80,49 +71,16 @@ def glossary_md(merged):
     return '\n'.join(out) + '\n'
 
 
-def sections(text):
-    """Split a Markdown text into (head, {'## title': body})."""
-    parts = re.split(r'^(## .*)$', text, flags=re.M)
-    return parts[0], {parts[i].strip(): parts[i + 1] for i in range(1, len(parts), 2)}
-
-
 def style_guide():
-    """One guide for the skill: the team's guide with our criteria merged into it.
-    No quick reference apart, no workflow (that is the skill's job), no pending notes,
-    no mention of files or of how it was put together."""
-    qr = open(os.path.join(RES, 'quick-reference.md'), encoding='utf-8').read()
-    sg = open(os.path.join(RES, 'style-guide.md'), encoding='utf-8').read()
-    _, q = sections(qr)
-    crit = q.get('## Criterios de traducción')
-    if crit is None:
-        warnings.append('quick-reference: section not found')
-        crit = ''
-    crit = sub(crit, ', aunque el glosario oficial diga que no se traducen. Está en `glossary-overrides.csv`, que manda sobre `glossary.csv`.',
-               '.', 'quick-reference')
-    crit = re.sub(r'^- Fallos habituales de la herramienta:.*\n?', '', crit, flags=re.M)
-    consensus = re.search(r'^El glosario, la guía de estilo y estos criterios.*$', qr, flags=re.M)
-    consensus = consensus.group(0).replace('El glosario, la guía de estilo y estos criterios', 'El glosario y esta guía') if consensus else ''
-
-    head, s = sections(sg)
-    keys = list(s)
-    def get(prefix):
-        for k in keys:
-            if k.startswith(prefix):
-                return k
-        warnings.append(f'style-guide: section not found: {prefix!r}')
-        return None
-    out = [head.rstrip() + '\n']
-    for k in keys:
-        body = s[k]
-        if k.startswith('## 1.'):
-            body = body.rstrip().rstrip('-').rstrip() + f'\n\n{consensus}\n\n---\n\n'
-        elif k.startswith('## 2.'):
-            body = body.rstrip().rstrip('-').rstrip() + '\n\n### Casos concretos\n' + crit.rstrip() + '\n\n---\n\n'
-        out.append(k + '\n' + body)
-    appendix = open(os.path.join(RES, 'agent-appendix.md'), encoding='utf-8').read()
-    out[-1] = out[-1].rstrip().rstrip('-').rstrip() + '\n\n---\n\n'
-    out.append(appendix)
-    text = '\n'.join(out).rstrip() + '\n'
+    """The agents' guide: the guide, then the exceptions (when there are any), then the agent
+    appendix, concatenated as they are. Only the links are removed."""
+    read = lambda f: open(os.path.join(RES, f), encoding='utf-8').read().strip()
+    parts = [read('style-guide.md')]
+    exceptions = read('guide-exceptions.md')
+    if re.search(r'^\s*- ', exceptions, re.M):
+        parts.append(exceptions)
+    parts.append(read('agent-appendix.md'))
+    text = '\n\n---\n\n'.join(p.rstrip().rstrip('-').rstrip() for p in parts) + '\n'
     text = strip_links(text)
     return re.sub(r'\n{3,}', '\n\n', text)
 

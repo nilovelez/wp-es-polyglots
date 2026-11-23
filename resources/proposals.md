@@ -2,7 +2,7 @@
 
 Criterios de coherencia que han salido en las rondas de revisión y que no están (o no están igual) en la [Guía de traductores del equipo de WordPress España](https://es.wordpress.org/team/handbook/traducciones/guia/) ni en el glosario oficial de translate.wordpress.org. El revisor los propone al equipo para actualizar las guías generales, que son las que usa todo el mundo.
 
-Mientras no se publiquen, se aplican desde `quick-reference.md` y `glossary-overrides.csv`. Cuando una propuesta se publique, se marca como publicada y su copia local se quita o se ajusta para que coincida con el texto oficial.
+Mientras no se publiquen, se aplican desde `guide-exceptions.md` y `glossary-overrides.csv`. Cuando una propuesta se publique, se marca como publicada y su copia local se quita o se ajusta para que coincida con el texto oficial.
 
 Documento para los moderadores: [Propuestas de cambio al glosario es_ES](https://claude.ai/artifact/8JUkHKheM5j3NHLAtywhcs).
 

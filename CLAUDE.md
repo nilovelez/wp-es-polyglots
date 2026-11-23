@@ -13,7 +13,7 @@ Read first: [README.md](README.md) (subprojects and layout), [docs/status.md](do
 
 ## Before translating or reviewing
 
-Read `resources/quick-reference.md`, `resources/style-guide.md` and `resources/glossary.csv` (its notes, such as "No usar…", are mandatory). Priority on conflict: the reviewer's instructions → glossary → style guide.
+Read `resources/style-guide.md`, `resources/guide-exceptions.md`, `resources/agent-appendix.md`, `resources/glossary.csv` and `resources/glossary-overrides.csv` (glossary notes, such as "No usar…", are mandatory; the overrides win). Priority on conflict: the reviewer's instructions → glossary → style guide.
 
 ## Rules
 

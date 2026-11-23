@@ -22,7 +22,7 @@
 ```
 
 - A mistake seen **once** is a *candidate* (calibration log). It becomes a rule when it repeats, or when the guide or glossary already state it.
-- Decisions that set a general criterion go to `resources/` (style guide, quick reference, glossary overrides), in Spanish, and reach the skill with `python3 skill/package.py`. Never only into a prompt.
+- Decisions that set a general criterion go to `resources/` (style guide, guide exceptions, agent appendix, glossary overrides), in Spanish, and reach the skill with `python3 skill/package.py`. Never only into a prompt.
 - Open questions go to `docs/status.md` until the team or the reviewer decides them.
 
 ## Review round

@@ -23,19 +23,19 @@ Done: 3.3 plain language, 3.7 capitals (system element named as such), 3.8 chang
 
 Also done: the guide says what a correct string is, whatever the task. What each task expects (translate, review) is in the prompt of its skill (`SKILL.md`, section 2), written for any locale; the guide's sections 6 and 7 are gone. Agent-only rules for both tasks are in `resources/agent-appendix.md` (consistency, cited interface elements, preferred forms), appended after the guide.
 
+Also done: `resources/guide-exceptions.md` replaces the quick reference; it starts empty, since every rule there was already in the guide, the glossary or the skills. `skill/package.py` concatenates guide, exceptions and agent appendix, and only removes links.
+
 Open, to settle with real cases: what counts as a doubt, and where "reads like a translation" starts.
 
 Also done: what is not a rule is out of the guide (translation memory, glossary errata, now in `proposals.md`, file references); the user's explicit instructions are in the skills' contract.
 
 Left:
-1. `quick-reference.md` becomes the exceptions file, written to be appended.
-2. `skill/package.py`: guide + agent appendix + exceptions, concatenated, no rewriting (the appendix is already appended).
-3. Later: the HTML version for the handbook.
+1. Later: the HTML version for the handbook.
 
 
 Goal: every tool (a translation skill, a review skill for moderators, an AI agent that pre-reviews incoming translations) uses the same sources: the official translator guide and the official glossary. The skill keeps only the file tools (`po_tool.py`) and the workflows (translate, review), never its own translation rules.
 
-What a skill or workflow may carry is fine-tuning for its scenario: how strict to be depending on what is being translated or reviewed. For example, changelogs allow more tolerance; a plugin's main file needs more care; WordPress core needs much more care. The "Cuándo cambiar una cadena" section of `resources/quick-reference.md` is this kind of rule and belongs in the review workflow, not in the guide. These are examples, to be adapted: the tuning is what the rounds teach us. It also covers how to run the work, such as the size from which slices or subagents make sense and the size that is too big for one pass (`review/README.md`, "Large rounds"). It depends on the agent: Claude with a small or a large model, or a local model with Ollama, will each need different tuning.
+What a skill or workflow may carry is fine-tuning for its scenario: how strict to be depending on what is being translated or reviewed. For example, changelogs allow more tolerance; a plugin's main file needs more care; WordPress core needs much more care. The review rules in the review skill's prompt (`SKILL.md`, "2. Review") are this kind of rule. These are examples, to be adapted: the tuning is what the rounds teach us. It also covers how to run the work, such as the size from which slices or subagents make sense and the size that is too big for one pass (`review/README.md`, "Large rounds"). It depends on the agent: Claude with a small or a large model, or a local model with Ollama, will each need different tuning.
 
 **Translator guide**
 
