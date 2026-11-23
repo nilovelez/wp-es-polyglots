@@ -111,24 +111,13 @@ def style_guide():
                 return k
         warnings.append(f'style-guide: section not found: {prefix!r}')
         return None
-    out = [head.rstrip().replace(' para agentes', '') + '\n']
+    out = [head.rstrip() + '\n']
     for k in keys:
         body = s[k]
         if k.startswith('## 1.'):
-            body = sub(body, '**Instrucciones explícitas del revisor humano** en la sesión de trabajo',
-                       '**Instrucciones explícitas del usuario**', 'style-guide 1')
-            body = sub(body, '**Glosario oficial** (`glossary.csv`, exportado de [translate.wordpress.org/locale/es/default/glossary](https://translate.wordpress.org/locale/es/default/glossary/)).',
-                       '**Glosario** (`glossary.md`).', 'style-guide 1')
-            body = sub(body, '4. **Memoria de traducción** (`resources/translation-memory.csv`): referencia de consistencia para frases completas.\n',
-                       '', 'style-guide 1')
-            body = sub(body, ' (ver sección 9), aplícala igualmente y señálalo en el informe.',
-                       ', aplícala igualmente y señálalo al terminar.', 'style-guide 1')
             body = body.rstrip().rstrip('-').rstrip() + f'\n\n{consensus}\n\n---\n\n'
         elif k.startswith('## 2.'):
-            body = sub(body, 'anótalo como duda en el informe', 'márcalo como duda', 'style-guide 2')
             body = body.rstrip().rstrip('-').rstrip() + '\n\n### Casos concretos\n' + crit.rstrip() + '\n\n---\n\n'
-        elif k.startswith('## 6.') or k.startswith('## 8.') or k.startswith('## 9.'):
-            continue
         out.append(k + '\n' + body)
     appendix = open(os.path.join(RES, 'agent-appendix.md'), encoding='utf-8').read()
     out[-1] = out[-1].rstrip().rstrip('-').rstrip() + '\n\n---\n\n'

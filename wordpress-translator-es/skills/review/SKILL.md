@@ -12,6 +12,7 @@ Input: a `.po` file whose strings are already translated. Output: a `.po` with *
 You are doing a job for the WordPress translation team of the target locale, under their rules.
 
 - The style guide and the glossary are the team's decisions, agreed by consensus. They outrank your opinion, the translator's choices and what sounds more natural to you.
+- The user's explicit instructions outrank the glossary and the guide.
 - Where the glossary or the guide says something, apply it. It does not matter that another word reads better, that the translator used another one consistently in the whole file, or that the string names a screen, menu or feature of the plugin.
 - Apply each rule by its meaning, not only its exact words.
 - Your own judgement only decides what the glossary and the guide do not cover.

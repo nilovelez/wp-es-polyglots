@@ -25,11 +25,12 @@ Also done: the guide says what a correct string is, whatever the task. What each
 
 Open, to settle with real cases: what counts as a doubt, and where "reads like a translation" starts.
 
+Also done: what is not a rule is out of the guide (translation memory, glossary errata, now in `proposals.md`, file references); the user's explicit instructions are in the skills' contract.
+
 Left:
-1. Take out what is not a rule: translation memory, glossary errata (to `proposals.md`), file references.
-2. `quick-reference.md` becomes the exceptions file, written to be appended.
-3. `skill/package.py`: guide + agent appendix + exceptions, concatenated, no rewriting (the appendix is already appended).
-4. Later: the HTML version for the handbook.
+1. `quick-reference.md` becomes the exceptions file, written to be appended.
+2. `skill/package.py`: guide + agent appendix + exceptions, concatenated, no rewriting (the appendix is already appended).
+3. Later: the HTML version for the handbook.
 
 
 Goal: every tool (a translation skill, a review skill for moderators, an AI agent that pre-reviews incoming translations) uses the same sources: the official translator guide and the official glossary. The skill keeps only the file tools (`po_tool.py`) and the workflows (translate, review), never its own translation rules.

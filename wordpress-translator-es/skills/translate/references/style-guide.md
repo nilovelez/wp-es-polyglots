@@ -1,6 +1,6 @@
 # Guía de traducción de WordPress a español de España (es_ES)
 
-Instrucciones para traducir archivos `.po` de WordPress (núcleo, plugins y temas) y revisar traducciones pendientes (*waiting*) en GlotPress, siguiendo los criterios del equipo de WordPress España.
+Normas para traducir WordPress (núcleo, plugins y temas) al español de España.
 
 Basada en la [Guía de traductores del equipo de WordPress España](https://es.wordpress.org/team/handbook/traducciones/guia/) y ampliada con criterios del equipo para uso por agentes.
 
@@ -10,16 +10,17 @@ Basada en la [Guía de traductores del equipo de WordPress España](https://es.w
 
 Cuando dos fuentes entren en conflicto, prevalece la de mayor rango:
 
-1. **Instrucciones explícitas del usuario**.
-2. **Glosario** (`glossary.md`).
-3. **Esta guía.**
+1. **Glosario oficial** ([translate.wordpress.org/locale/es/default/glossary](https://translate.wordpress.org/locale/es/default/glossary/)).
+2. **Esta guía.**
 
 Uso del glosario:
 
-- Columnas: `en, es, pos, description`. La columna `description` contiene usos prohibidos («No usar…») y matices de contexto que son obligatorios.
-- Si una entrada ofrece varias opciones separadas por « / », elige según el contexto que indique `description`.
-- Comprueba la categoría gramatical (`pos`): el mismo término puede tener traducciones distintas como sustantivo y como verbo (*link* → «enlace» / «enlazar»).
-- Si una entrada parece errónea, aplícala igualmente y señálalo al terminar.
+- Las notas del glosario («No usar…») y sus matices de contexto son obligatorios.
+- Si una entrada ofrece varias opciones separadas por « / », elige según el contexto que indique su nota.
+- Comprueba la categoría gramatical: el mismo término puede tener traducciones distintas como sustantivo y como verbo (*link* → «enlace» / «enlazar»).
+- Si una entrada parece errónea, aplícala igualmente y coméntalo en #polyglots-es.
+
+Las decisiones del equipo se debaten en el canal [#polyglots-es](https://wordpress.slack.com/archives/C0B936628M6) del Slack de Make WordPress.
 
 El glosario y esta guía son decisiones del equipo es_ES tomadas por consenso, no preferencias personales, y se aplican para que las traducciones sean coherentes. También se revisan: si una norma es incoherente, está desfasada o no encaja con lo que se traduce ahora, se señala para que el equipo la revise.
 

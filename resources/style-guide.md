@@ -1,6 +1,6 @@
-# Guía de traducción de WordPress a español de España (es_ES) para agentes
+# Guía de traducción de WordPress a español de España (es_ES)
 
-Instrucciones para traducir archivos `.po` de WordPress (núcleo, plugins y temas) y revisar traducciones pendientes (*waiting*) en GlotPress, siguiendo los criterios del equipo de WordPress España.
+Normas para traducir WordPress (núcleo, plugins y temas) al español de España.
 
 Basada en la [Guía de traductores del equipo de WordPress España](https://es.wordpress.org/team/handbook/traducciones/guia/) y ampliada con criterios del equipo para uso por agentes.
 
@@ -10,17 +10,17 @@ Basada en la [Guía de traductores del equipo de WordPress España](https://es.w
 
 Cuando dos fuentes entren en conflicto, prevalece la de mayor rango:
 
-1. **Instrucciones explícitas del revisor humano** en la sesión de trabajo.
-2. **Glosario oficial** (`glossary.csv`, exportado de [translate.wordpress.org/locale/es/default/glossary](https://translate.wordpress.org/locale/es/default/glossary/)).
-3. **Esta guía.**
-4. **Memoria de traducción** (`resources/translation-memory.csv`): referencia de consistencia para frases completas.
+1. **Glosario oficial** ([translate.wordpress.org/locale/es/default/glossary](https://translate.wordpress.org/locale/es/default/glossary/)).
+2. **Esta guía.**
 
 Uso del glosario:
 
-- Columnas: `en, es, pos, description`. La columna `description` contiene usos prohibidos («No usar…») y matices de contexto que son obligatorios.
-- Si una entrada ofrece varias opciones separadas por « / », elige según el contexto que indique `description`.
-- Comprueba la categoría gramatical (`pos`): el mismo término puede tener traducciones distintas como sustantivo y como verbo (*link* → «enlace» / «enlazar»).
-- Si una entrada parece errónea (ver sección 9), aplícala igualmente y señálalo en el informe.
+- Las notas del glosario («No usar…») y sus matices de contexto son obligatorios.
+- Si una entrada ofrece varias opciones separadas por « / », elige según el contexto que indique su nota.
+- Comprueba la categoría gramatical: el mismo término puede tener traducciones distintas como sustantivo y como verbo (*link* → «enlace» / «enlazar»).
+- Si una entrada parece errónea, aplícala igualmente y coméntalo en #polyglots-es.
+
+Las decisiones del equipo se debaten en el canal [#polyglots-es](https://wordpress.slack.com/archives/C0B936628M6) del Slack de Make WordPress.
 
 ---
 
@@ -31,7 +31,7 @@ Uso del glosario:
   - La parte descriptiva del título sí se traduce: «Bugalou – Live Chat, AI Chatbot & Customer Support Inbox» → «Bugalou – Chat en vivo, chatbot con IA y bandeja de atención al cliente».
 - **Productos de otras empresas:** se respeta la decisión de cada empresa. Usa el nombre oficial que la propia empresa emplea en español de España; unas traducen sus productos y otras no, y a veces solo algunos.
   - ✅ «Hojas de cálculo de Google» (nombre oficial en español) · «Search Console» (Google no lo traduce).
-  - Comprueba el nombre en la web o la interfaz oficial en español de la empresa. Si no puedes verificarlo, deja el nombre original y anótalo como duda en el informe.
+  - Comprueba el nombre en la web o la interfaz oficial en español de la empresa. Si no puedes verificarlo, deja el nombre original y márcalo como duda.
   - Lo mismo con la interfaz de otros servicios: se usa el nombre que tiene en su versión en español («rol: Lector» en Google Analytics). «Escritorio» y «perfil» son los nombres de WordPress; el *dashboard* de un servicio externo, preferentemente «panel».
 - Traducción **contextual, no literal**: «Page Management Documentation» → «Documentación de la gestión de páginas», no «Documentación gestión páginas».
 - Si un término inglés es polisémico y en español no, usa la palabra española adecuada para cada contexto.
@@ -128,36 +128,3 @@ El registro de cambios (*changelog*) es la lista de novedades y correcciones de 
 - **Plurales:** es_ES usa `nplurals=2; plural=(n != 1);`. Rellena siempre `msgstr[0]` (singular) y `msgstr[1]` (plural).
 - **Formatos de fecha:** usa los equivalentes del glosario (p. ej. `F jS, Y` → `j \d\e F \d\e Y`).
 - Valida el archivo final (p. ej. `msgfmt --check`) y verifica que el número de placeholders coincide en cada cadena.
-
----
-
-## 8. Memoria de traducción
-
-Archivo `resources/translation-memory.csv` con frases completas ya fijadas.
-
-| Columna | Contenido |
-|---|---|
-| `en` | Cadena original |
-| `es` | Traducción aprobada |
-| `contexto` | `msgctxt` o descripción breve, si aplica |
-| `origen` | Proyecto de procedencia (núcleo de WordPress, WooCommerce, Astra…) |
-| `notas` | Opcional: motivo o decisión |
-
-- **Glosario** = términos sueltos. **Memoria de traducción** = frases completas.
-- Coincidencia exacta → se reutiliza. Coincidencia parecida → sirve de modelo.
-- Solo se añaden cadenas confirmadas o corregidas por un revisor humano.
-
----
-
-## 9. Pendientes
-
-Posibles erratas en el glosario, en revisión:
-
-- *QuickPress* → «ublicación rápida» (falta la P).
-- *deprecate* → «descarta» (el infinitivo sería «descartar»).
-- *expire* / *expires* → «caduca», con categoría gramatical incorrecta.
-- *expanse* → «expandir» (probablemente *expand*).
-- *troubleshooting* → «diagnosticar» como verbo (sería el sustantivo «diagnóstico»).
-- Entradas duplicadas: *endpoint*, *page*.
-
-Ante la duda: pregunta al revisor humano. Las decisiones del equipo se debaten en el canal [#polyglots-es](https://wordpress.slack.com/archives/C0B936628M6) del Slack de Make WordPress.
