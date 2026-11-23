@@ -116,7 +116,8 @@ Obligatorio. Formato: término inglés (categoría) → traducción — nota. La
 - Dashboard (noun) → Escritorio — No utilizar «tablero» o «panel de control». Es el nombre de WordPress; el *dashboard* de un servicio externo, preferentemente «panel», aunque «escritorio» también vale.
 - debug (noun) → depuración
 - debug (verb) → depurar
-- default (noun) → por defecto
+- default (adjective) → por defecto — No usar «predeterminado».
+- default (noun) → por defecto — No usar «predeterminado».
 - defaults to (noun) → por defecto es
 - delete (verb) → borrar
 - deprecate (verb) → descarta

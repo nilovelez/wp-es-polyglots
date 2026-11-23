@@ -30,3 +30,5 @@ toggle,cambiar / alternar,verb,
 blacklist,lista negra,noun,Decisión del equipo es_ES.
 "Chinese, Simplified",chino simplificado,noun,Decisión del equipo es_ES. No «chino (China)». Se traduce la variante que dice el original.
 "Chinese, Traditional",chino tradicional,noun,Decisión del equipo es_ES. No «chino (Taiwán)». Se traduce la variante que dice el original.
+default,por defecto,noun,Decisión del equipo es_ES. No usar «predeterminado».
+default,por defecto,adjective,Decisión del equipo es_ES. No usar «predeterminado».

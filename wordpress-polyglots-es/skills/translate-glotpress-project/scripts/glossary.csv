@@ -111,7 +111,6 @@ Customizer,Personalizador,noun,
 daily Archive,archivo diario,noun,
 debug,depurar,verb,
 debug,depuración,noun,
-default,por defecto,noun,
 defaults to,por defecto es,noun,
 delete,borrar,verb,
 deprecate,descarta,verb,
@@ -508,3 +507,5 @@ toggle,cambiar / alternar,verb,
 blacklist,lista negra,noun,
 "Chinese, Simplified",chino simplificado,noun,No «chino (China)». Se traduce la variante que dice el original.
 "Chinese, Traditional",chino tradicional,noun,No «chino (Taiwán)». Se traduce la variante que dice el original.
+default,por defecto,noun,No usar «predeterminado».
+default,por defecto,adjective,No usar «predeterminado».
