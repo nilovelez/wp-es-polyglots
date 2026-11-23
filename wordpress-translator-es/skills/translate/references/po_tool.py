@@ -10,7 +10,7 @@ Commands:
   finish <work folder>
       Build <name>-corrected.po (review: only the strings to change) or
       <name>-es_ES.po (translate: the whole file) in the folder where start
-      ran, and check it.
+      ran, and check it (also with msgfmt --check when it is installed).
   extract <file.po> [out.jsonl]
       One JSON object per entry: n, ctx, comments, flags, msgid, msgid_plural,
       msgstr (or msgstr_plural). Strings are unescaped (real newlines/quotes).
@@ -33,6 +33,8 @@ Entries not listed are approved as they are.
 import json
 import os
 import re
+import shutil
+import subprocess
 import sys
 
 _HERE = os.path.dirname(os.path.abspath(__file__))
@@ -489,8 +491,17 @@ def cmd_finish(args):
         print('\n'.join(problems))
         sys.exit(f'{len(problems)} problem(s) above: fix those entries in decisions.jsonl and run this same command again. '
                  'If one is a false positive, leave it and say so in your answer.')
+    msgfmt = shutil.which('msgfmt')
+    if msgfmt:
+        r = subprocess.run([msgfmt, '--check', '-o', os.devnull, job['out']], capture_output=True, text=True)
+        if r.returncode != 0:
+            print(r.stderr.strip())
+            sys.exit('msgfmt found the problems above in the final file: fix those entries in decisions.jsonl '
+                     'and run this same command again.')
     changed = sum(1 for d in decisions.values() if d['verdict'] in ('fix', 'reject', 'doubt'))
     doubts = [n for n, d in decisions.items() if d['verdict'] == 'doubt']
+    if not msgfmt:
+        print('Tell the user: the file could not be checked with msgfmt because msgfmt is not installed.')
     print(f'OK: {job["out"]} · {changed} strings {"translated" if job["mode"] == "translate" else "to change"}'
           f' · {len(doubts)} doubt(s) · 0 problems.')
     print('Now answer the user as the skill says. Do not run anything else.')
