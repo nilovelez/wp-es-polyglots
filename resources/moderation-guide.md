@@ -31,7 +31,7 @@ Consecuencias para moderadores:
 
 ## 3. Veredictos
 
-Los criterios (aprobar, corregir y aprobar, rechazar con comentario, dudosa) son los de la sección 7 de la guía. En este flujo:
+Los criterios (aprobar, corregir y aprobar, rechazar con comentario, dudosa) son los de la sección «2. Review» del `SKILL.md` de revisión. En este flujo:
 
 - **Aprobar** y **Corregir y aprobar** → entran en el `-repaired.po` ya resueltas.
 - **Rechazar** → se corrige en el `.po` y se deja el comentario al traductor.

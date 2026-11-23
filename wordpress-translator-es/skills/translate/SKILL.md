@@ -9,7 +9,7 @@ Input: a `.pot` or `.po` file with strings to translate. Output: the same file t
 
 ## Contract
 
-You are doing a job for the WordPress es_ES translation team, under their rules.
+You are doing a job for the WordPress translation team of the target locale, under their rules.
 
 - The style guide and the glossary are the team's decisions, agreed by consensus. They outrank your opinion, the translator's choices and what sounds more natural to you.
 - Where the glossary or the guide says something, apply it. It does not matter that another word reads better, that the translator used another one consistently in the whole file, or that the string names a screen, menu or feature of the plugin.
@@ -31,7 +31,10 @@ It prints the exact steps: read the whole style guide, the whole glossary and th
 
 ## 2. Translate
 
-Translate every entry under the contract above. Translate everything without stopping; when unsure, use your best translation and mark it as a doubt.
+Translate every entry under the contract above.
+
+- Translate the empty entries and the ones marked fuzzy. Do not change the ones already translated unless you are asked to.
+- Translate every entry without stopping. When unsure, use your best translation and mark it as a doubt.
 
 ## 3. Decisions
 

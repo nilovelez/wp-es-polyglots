@@ -41,11 +41,10 @@ El glosario y esta guía son decisiones del equipo es_ES tomadas por consenso, n
 ### Casos concretos
 
 - Tuteo; WordPress habla en primera persona del singular; infinitivo para acciones del usuario, imperativo para propuestas.
-- La misma cadena o el mismo término se traduce igual en todo el archivo.
 - **website = «sitio web»; site = «sitio»** (glosario). No quitar «sitio web» cuando el original dice *website*.
+- **email = «correo electrónico».** En textos largos (descripciones, párrafos, preguntas frecuentes) «correo» a secas se corrige a «correo electrónico», también en «dirección de correo electrónico» y «correos electrónicos enviados». En cadenas cortas de interfaz (botones, etiquetas, menús, títulos breves) «correo» es válido para mantener una longitud parecida al original: se aprueba.
 - Comillas «» siempre (también en lugar de `"…"` y `'…'`); «p. ej.», no «ej.».
 - Mayúscula solo en la primera palabra; los nombres comunes (idiomas, planes, pestañas) en minúscula dentro de listas. Los nombres de funciones, planes, opciones y servicios de un plugin **no son nombres propios**: «nube de traducción», «plan gratuito», «exclusiones de traducción», «bandera + nombre», «Directorio de plugins». Las mayúsculas de *Title Case* en mitad de frase se corrigen. Solo conservan mayúscula las marcas y los productos («WGRank Translate», «Search Console»). Una función del plugin descrita en el texto va en minúscula aunque el traductor la escribiera con mayúscula («el kit de migración», «la nube de traducción»).
-- Elementos de la interfaz citados (pestañas, botones, menús): se usa el nombre que ve el usuario en español, sin dejar el inglés con la traducción entre paréntesis. *Renamed "Cache" tab to "Translations"* → «Se renombró la pestaña “Caché” a “Traducciones”»; *a direct 'Settings' action link* → «un enlace de acción directo a Ajustes».
 - Sinónimos frente al glosario: si el glosario da un término, se usa ese aunque el sinónimo se entienda. *supported* = «compatible» (no «admitido»), *default* = «por defecto» (no «predeterminado»), *Dashboard* = «escritorio» (no «panel»), *Feature* en registros de cambios = «Característica» (no «Función»), *monitor* = «supervisar» (no «monitorizar»).
 - Registros de cambios: al traducir, una sola forma verbal en todas las entradas (participio: «Añadido», «Corregido»); *Fix* = Corrección, *Tweak* = Retoque, *Feature* = Característica. Al revisar, una entrada con otra forma verbal no es motivo de cambio si el sentido es correcto.
 - *admin* / *administrator*: «administrador» es la persona o el perfil; «administración» es el área de administración. *Administrator request* = «solicitudes del administrador», no «solicitudes de administración».
@@ -151,36 +150,20 @@ El registro de cambios (*changelog*) es la lista de novedades y correcciones de 
 
 ---
 
-## 6. Revisión
+## Anexo para agentes
 
-Emite un veredicto para cada cadena:
+### A.1 Consistencia
 
-| Situación | Acción |
-|---|---|
-| Correcta, o solo difiere en matices mínimos de estilo respecto a otra opción válida | **Aprobar** |
-| Errores menores: tilde, coma tras «Por favor», comillas no españolas, mayúscula sobrante | **Corregir y aprobar** |
-| Incumple el glosario, el tuteo, la voz de WordPress, rompe placeholders/HTML, cambia el sentido o es claramente poco natural | **Rechazar** con comentario |
-| No hay contexto suficiente para decidir | **Dudosa**: mejor propuesta y una pregunta concreta |
+- Traduce igual la misma cadena y el mismo término en todo el archivo.
+- Si el traductor usa siempre la misma palabra y el glosario dice otra, manda el glosario.
 
-**Consistencia:** la misma cadena o fórmula debe traducirse igual en todo el proyecto. Las traducciones ya aprobadas no son referencia: aprobada no quiere decir correcta.
+### A.2 Elementos de la interfaz citados
 
-**El masculino genérico no es motivo de rechazo.** Como mucho, se sugiere la alternativa neutra si es natural.
+- Cuando el texto cita una pestaña, un botón o un menú, usa el nombre que verá el usuario en español. No dejes el inglés con la traducción entre paréntesis.
 
-**Comentarios de rechazo:**
+  *a direct 'Settings' action link* → «un enlace de acción directo a Ajustes», no «un enlace de acción directo a Settings (Ajustes)».
 
-- Breves, amables y en tuteo, dirigidos al traductor.
-- Citan el motivo concreto (término del glosario, regla o error).
-- Incluyen la traducción propuesta.
+### A.3 Formas preferidas
 
-> Ejemplo: Según el glosario, «dashboard» se traduce como «escritorio». Propuesta: «Ir al escritorio».
-
-### Cuándo cambiar una cadena
-
-- **Solo se cambia lo que es un error.** Si la traducción es suficientemente buena, se aprueba aunque exista otra opción más correcta. Ejemplos de «suficientemente bueno»: «Eliminado» en lugar de «Quitado» para *Remove*; una entrada de un registro de cambios en presente («permanece visible») cuando las demás van en participio; «requiere PHP %s» en lugar de «necesita PHP %s»; «No se pudo…» o «no pudo guardarse» en lugar de «No se ha podido…». En los registros de cambios, aún más tolerancia. Si cambias una cadena, conserva la redacción del traductor salvo el error.
-- Otro caso de «suficientemente bueno», que no se cambia: *toggle* como «interruptor» (el glosario da «conmutador», que es más general, pero «interruptor» no es incorrecto para algo que se enciende y se apaga).
-- **Sinónimos sistemáticos.** Muchos traductores usan siempre el mismo sinónimo en lugar del término del glosario («notificación» por *notification*, «complemento» por *add-on*, «predeterminado» por *default*, «eliminar» por *delete*, «definir» o «poner» por *set*, «saltar» por *skip* y «vincular» por *link*). Eso sí es error: se corrige en todas las cadenas donde aparece, también en verbos pequeños, y ajustando el género y la concordancia («la notificación enviada» → «el aviso enviado»; «el complemento» → «la extensión»).
-- **Formas preferidas, solo si ya cambias la cadena por otro motivo:** «necesita» mejor que «requiere»; «No se ha podido…» (pretérito perfecto, como el núcleo) mejor que «No se pudo…». No se cambia una cadena solo por esto.
-- Sí se cambia: incumplimientos del glosario, cambio de sentido (p. ej. «Añadido» cuando el original dice *Show*), preposición equivocada («Compatibilidad del correo» por *Email compatibility* → «Compatibilidad con el correo electrónico»), tipografía (comillas, «p. ej.», coma tras «Por favor,»), términos del glosario dejados en inglés.
-- **Se revisa el sentido, no solo los términos:** preposiciones, quién hace la acción, palabras añadidas o perdidas.
-- **Dudas, solo las reales.** Si la guía o el glosario resuelven el caso, se decide. Si la traducción tiene tantas probabilidades de ser correcta como lo que puedas proponer, no es duda: se aprueba.
-- **email = «correo electrónico».** En textos largos (descripciones, párrafos, preguntas frecuentes) «correo» a secas se corrige a «correo electrónico», también en «dirección de correo electrónico» y «correos electrónicos enviados». En cadenas cortas de interfaz (botones, etiquetas, menús, títulos breves) «correo» es válido para mantener una longitud parecida al original: se aprueba.
+- «necesita» mejor que «requiere».
+- «No se ha podido…» (pretérito perfecto, como el núcleo) mejor que «No se pudo…».

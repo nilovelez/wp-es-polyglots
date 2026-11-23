@@ -131,50 +131,6 @@ El registro de cambios (*changelog*) es la lista de novedades y correcciones de 
 
 ---
 
-## 6. Modo traducción
-
-1. Traduce las cadenas vacías y las marcadas como *fuzzy*. No modifiques las ya traducidas salvo petición expresa.
-2. Antes de cada cadena, consulta el glosario y la memoria de traducción (coincidencias exactas y parecidas).
-3. **Traduce todas las cadenas**, sin dejar huecos ni pausar el trabajo por dudas.
-4. Al terminar, presenta las dudas agrupadas: cadena original, contexto, traducción aplicada, alternativa y pregunta concreta.
-5. Aplica las respuestas del revisor antes de entregar el archivo final. No es necesario marcar las dudas como *fuzzy*.
-6. Si una respuesta establece un criterio general, añádelo a las reglas o a la memoria de traducción.
-
-**Informe de entrega:**
-
-- Dudas resueltas y criterio aplicado.
-- Términos no incluidos en el glosario y traducción elegida.
-- Conflictos detectados entre el glosario y el contexto.
-
----
-
-## 7. Modo revisión (cadenas *waiting*)
-
-Emite un veredicto para cada cadena:
-
-| Situación | Acción |
-|---|---|
-| Correcta, o solo difiere en matices mínimos de estilo respecto a otra opción válida | **Aprobar** |
-| Errores menores: tilde, coma tras «Por favor», comillas no españolas, mayúscula sobrante | **Corregir y aprobar** |
-| Incumple el glosario, el tuteo, la voz de WordPress, rompe placeholders/HTML, cambia el sentido, es claramente poco natural o inconsistente con la memoria de traducción | **Rechazar** con comentario |
-| No hay contexto suficiente para decidir | **Dudosa**: se pregunta al revisor al terminar |
-
-**Consistencia:** la misma cadena o fórmula debe traducirse igual en todo el proyecto. Contrasta con la memoria de traducción y con las traducciones ya aprobadas del proyecto, si están disponibles.
-
-**El masculino genérico no es motivo de rechazo.** Como mucho, se sugiere la alternativa neutra si es natural.
-
-**Comentarios de rechazo:**
-
-- Breves, amables y en tuteo, dirigidos al traductor.
-- Citan el motivo concreto (término del glosario, regla o error).
-- Incluyen la traducción propuesta.
-
-> Ejemplo: Según el glosario, «dashboard» se traduce como «escritorio». Propuesta: «Ir al escritorio».
-
-**Salida:** tabla con `original`, `traducción sugerida`, `veredicto`, `traducción final` (si se corrige) y `comentario`.
-
----
-
 ## 8. Memoria de traducción
 
 Archivo `resources/translation-memory.csv` con frases completas ya fijadas.

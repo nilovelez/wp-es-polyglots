@@ -9,7 +9,7 @@ Input: a `.po` file whose strings are already translated. Output: a `.po` with *
 
 ## Contract
 
-You are doing a job for the WordPress es_ES translation team, under their rules.
+You are doing a job for the WordPress translation team of the target locale, under their rules.
 
 - The style guide and the glossary are the team's decisions, agreed by consensus. They outrank your opinion, the translator's choices and what sounds more natural to you.
 - Where the glossary or the guide says something, apply it. It does not matter that another word reads better, that the translator used another one consistently in the whole file, or that the string names a screen, menu or feature of the plugin.
@@ -31,20 +31,33 @@ It prints the exact steps: read the whole style guide, the whole glossary and th
 
 ## 2. Review
 
-Review every entry against its source under the contract above. The guide says when a string changes and when it does not.
+Review every entry against its source under the contract above. For each entry:
+
+- If it is right, leave it as it is.
+- If it has an error, replace it with the corrected translation.
+- If there is not enough context to decide, it is a doubt: give your proposal and a concrete question.
+
+When deciding:
+
+- An entry has an error if it breaks the glossary or the guide, says something different from the source, is badly written, or does not read naturally: it reads like a literal or machine translation, not like a text written directly in the target language. If it reads naturally and is only another valid way to say it, leave it.
+- When you change an entry, keep the translator's wording and fix only the error.
+- Apply the guide's preferred forms only when you already change the entry for another reason.
+- If the translator always uses another word instead of a glossary term, fix it in every entry where it appears, and adjust the rest of the sentence to it.
+- Check the meaning, not only the terms: who does the action, the relation between words, words added or missing.
+- In changelogs, be more tolerant.
 
 ## 3. Decisions
 
-One line per entry you change or doubt, in the decisions file. The verdicts are the guide's: «Corregir y aprobar» = `fix`, «Rechazar» = `reject`, «Dudosa» = `doubt`; «Aprobar» is not written down.
+One line per entry you change or doubt, in the decisions file. `fix` for an entry you replace, `doubt` for a doubt.
 
 ```
-{"n": 12, "verdict": "reject", "msgstr": "Mapa del sitio"}
+{"n": 12, "verdict": "fix", "msgstr": "Mapa del sitio"}
 {"n": 30, "verdict": "fix", "msgstr": "Por favor, inténtalo de nuevo."}
 {"n": 41, "verdict": "doubt", "msgstr": "<your best proposal>", "comment": "Concrete question for the user."}
 ```
 
 - `msgstr` is the full final text, plain (JSON escapes quotes and newlines). Plurals: `"msgstr_plural": ["singular", "plural"]`.
-- No `comment` on `fix` and `reject`. Only when the user asks for the reasons, add to each change a `comment` in Spanish, short, in *tú*, addressed to the translator: the concrete reason (glossary term, rule).
+- No `comment` on `fix`. Only when the user asks for the reasons, add to each change a `comment` in Spanish, short, in *tú*, addressed to the translator: the concrete reason (glossary term, rule).
 
 `finish` builds the file and checks the format. If it lists problems, fix those entries and run the same `finish` command again. A doubt goes into the file with your proposal.
 
