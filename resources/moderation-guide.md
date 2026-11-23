@@ -31,11 +31,11 @@ Consecuencias para moderadores:
 
 ## 3. Veredictos
 
-Los criterios (aprobar, corregir y aprobar, rechazar con comentario, dudosa) son los de la sección «2. Review» del `SKILL.md` de revisión. En este flujo:
+Los criterios son los de la sección «2. Review» del `SKILL.md` de revisión. Cada cadena:
 
-- **Aprobar** y **Corregir y aprobar** → entran en el `-repaired.po` ya resueltas.
-- **Rechazar** → se corrige en el `.po` y se deja el comentario al traductor.
-- **Dudosa** → se pregunta al moderador al terminar; hasta entonces queda como *fuzzy*.
+- **Está bien** → no se toca y se aprueba en bloque al final.
+- **Tiene un error** → se reemplaza en el `-repaired.po` por la traducción corregida.
+- **Es dudosa** → va en el `.po` con la propuesta y se pregunta al moderador al terminar.
 
 ---
 
