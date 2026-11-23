@@ -29,6 +29,7 @@ Las decisiones del equipo se debaten en el canal [#polyglots-es](https://wordpre
 - **No se traducen** los nombres de temas y plugins: «Contact Form 7», «Astra», «Jetpack», «WooCommerce».
   - El nombre se copia tal cual, aunque lleve palabras en inglés: «Bugalou for WooCommerce».
   - La parte descriptiva del título sí se traduce: «Bugalou – Live Chat, AI Chatbot & Customer Support Inbox» → «Bugalou – Chat en vivo, chatbot con IA y bandeja de atención al cliente».
+- Los nombres de las pantallas, funciones, planes y opciones de un plugin no son nombres propios: se traducen, y con el término del glosario si lo tiene. *Builder* → «Maquetador», *Entries* → «Registros».
 - **Productos de otras empresas:** se respeta la decisión de cada empresa. Usa el nombre oficial que la propia empresa emplea en español de España; unas traducen sus productos y otras no, y a veces solo algunos.
   - ✅ «Hojas de cálculo de Google» (nombre oficial en español) · «Search Console» (Google no lo traduce).
   - Comprueba el nombre en la web o la interfaz oficial en español de la empresa. Si no puedes verificarlo, deja el nombre original y márcalo como duda.
