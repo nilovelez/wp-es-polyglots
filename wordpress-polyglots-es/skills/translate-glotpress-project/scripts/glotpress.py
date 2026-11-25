@@ -6,9 +6,13 @@ Commands:
   prepare <project URL> [--translate] [--window N] [--force]
       Download the waiting strings (or, with --translate, the untranslated ones)
       into <name>.po in the current folder. Review: run the precheck and STOP if
-      the batch looks like one to reject whole (--force goes on anyway). If the
-      file does not fit in one session, split it into <name>-partK.po files.
-      Prints which skill to use on which file, and the import URL.
+      the batch looks like one to reject whole (--force goes on anyway). Over
+      MAX_PART strings, or if it does not fit in one session, split it into
+      <name>-partK.po files, one subagent each. Prints which skill to use on
+      which file, and the import URL.
+  merge <name> [--translate]
+      Join the files the skill gave for each <name>-partK.po into one
+      <name>-corrected.po (or <name>-es_ES.po) and check it with msgfmt.
   fetch <project url> [folder] [--untranslated]
       Download the waiting (or untranslated) strings into <folder>/original.po.
   precheck <file.po> [--window N]
@@ -326,11 +330,11 @@ def cmd_prepare(args):
                   'and ask whether to review it or reject it whole. Do nothing else until they answer; if they say '
                   f'review it, run: {_py()} {os.path.abspath(__file__)} prepare {url} --force')
             return
-    _, _, parts = size_estimate(po, translate, window)
+    ranges = _parts(po, entries, translate, window)
     files = [po]
-    if parts:
+    if len(ranges) > 1:
         files = []
-        for k, (a, b) in enumerate(parts, 1):
+        for k, (a, b) in enumerate(ranges, 1):
             f = os.path.abspath(f'{name}-part{k}.po')
             blocks = ([header] if header else []) + [write_entry(e) for e in entries if a <= e['n'] <= b]
             open(f, 'w', encoding='utf-8').write('\n\n'.join(blocks) + '\n')
@@ -339,14 +343,76 @@ def cmd_prepare(args):
     if len(files) == 1:
         print(f'Now use the {skill} skill of the wordpress-translator-es plugin on: {files[0]}')
     else:
-        print(f'Too large for one session: tell the user, and offer to {skill} one file per new conversation '
-              f'with the {skill} skill of the wordpress-translator-es plugin:')
+        print(f'Do the parts one at a time, in order, never in parallel. For each part, start a subagent (a new, '
+              f'clean context) and give it only this task: "Use the {skill} skill of the wordpress-translator-es '
+              f'plugin on <part file>. Follow it fully. Answer only with the path of the file it gives and its '
+              f'doubts." Wait for it before starting the next part:')
         for f in files:
             print(f'   {f}')
+        print(f'When all the parts are done, run: {_py()} {os.path.abspath(__file__)} merge {name}'
+              f'{" --translate" if translate else ""}')
+        print('It joins the parts into one file. Give the user that file and the doubts of all the parts.')
+        print(f'If you cannot start subagents, tell the user, and offer to {skill} one part per new conversation '
+              'and then run merge.')
     print(f'When the skill gives the file, add this import URL to your answer: {imp}')
 
 
-COMMANDS = {'prepare': cmd_prepare, 'fetch': cmd_fetch, 'precheck': cmd_precheck, 'size': cmd_size, 'lint': cmd_lint}
+MAX_PART = 500  # strings per session: past this a small model starts skipping rules it has loaded (round 42)
+
+
+def _parts(po, entries, translate, window):
+    """Entry ranges, one per session: as many as the size estimate needs, and never more than
+    MAX_PART strings each (rounds 42-48: 2437 strings in one session left about half of the
+    glossary errors, in any reading order; four sessions of ~610 fixed nearly all)."""
+    import math
+    _, _, ranges = size_estimate(po, translate, window)
+    ranges = ranges or [(entries[0]['n'], entries[-1]['n'])]
+    out = []
+    for a, b in ranges:
+        ns = [e['n'] for e in entries if a <= e['n'] <= b]
+        k = math.ceil(len(ns) / MAX_PART)
+        step = math.ceil(len(ns) / k)
+        out += [(ns[i], ns[min(i + step, len(ns)) - 1]) for i in range(0, len(ns), step)]
+    return out
+
+
+def cmd_merge(args):
+    """merge <name> [--translate]: join the files the skill gave for <name>-partK.po into one."""
+    import glob
+    import shutil
+    import subprocess
+    translate = '--translate' in args
+    name = [a for a in args if not a.startswith('--')][0]
+    parts = sorted(glob.glob(f'{name}-part*.po'), key=lambda f: int(re.search(r'-part(\d+)\.po$', f).group(1))
+                   if re.search(r'-part(\d+)\.po$', f) else 0)
+    parts = [f for f in parts if re.search(r'-part\d+\.po$', f)]
+    if not parts:
+        sys.exit(f'STOP: no {name}-partK.po files here. Run merge in the folder where prepare ran.')
+    suffix = '-es_ES.po' if translate else '-corrected.po'
+    done = [f[:-3] + suffix for f in parts]
+    missing = [d for d in done if not os.path.exists(d)]
+    if missing:
+        sys.exit(f'Missing: {", ".join(missing)}. Do those parts with the skill and run merge again.')
+    header, blocks = None, []
+    for d in done:
+        h, es = parse(d)
+        header = header or h
+        blocks += [write_entry(e) for e in es]
+    out = os.path.abspath(name + suffix)
+    open(out, 'w', encoding='utf-8').write('\n\n'.join(([header] if header else []) + blocks) + '\n')
+    msgfmt = shutil.which('msgfmt')
+    if msgfmt:
+        r = subprocess.run([msgfmt, '--check', '-o', os.devnull, out], capture_output=True, text=True)
+        if r.returncode != 0:
+            print(r.stderr.strip())
+            sys.exit(f'msgfmt found the problems above in {out}. Fix them in the part they come from, '
+                     'run the skill\'s finish for that part, and run merge again.')
+    else:
+        print('Tell the user: the file could not be checked with msgfmt because msgfmt is not installed.')
+    print(f'OK: {out} · {len(blocks)} strings from {len(parts)} parts.')
+
+
+COMMANDS = {'prepare': cmd_prepare, 'merge': cmd_merge, 'fetch': cmd_fetch, 'precheck': cmd_precheck, 'size': cmd_size, 'lint': cmd_lint}
 
 
 if __name__ == '__main__':

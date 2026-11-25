@@ -18,7 +18,7 @@ Training rounds improve the guide and the glossary, so the base skills need noth
 
 | Command | What it does |
 |---|---|
-| `start` | Work folder and entries file (cut into parts only when over one Read); prints the exact steps: read the whole guide, the whole glossary and the entries at once, write the decisions, `finish` |
+| `start` | Work folder and entries file (cut into parts only when over one Read); prints the exact steps: for each block, read the whole guide, the whole glossary and that block, then write that block's decisions; `finish` merges them |
 | `finish` | Builds the final `.po` next to where `start` ran, checks it and says what to fix or that it is done |
 | `extract` | `.po` → numbered JSON lines (used by `start`) |
 | `check` | Placeholders, HTML, entities, URLs, newlines, edge spaces, final punctuation, length, quotes |

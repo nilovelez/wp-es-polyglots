@@ -28,7 +28,7 @@ python3 <skill>/references/po_tool.py start <file.po>
 
 Add `--work <folder>` only if the user or the project's instructions say where to work.
 
-It prints the exact steps: read the whole style guide, the whole glossary and the entries at once, write the decisions file, run `finish`. Do exactly those steps and nothing else: no other commands, no looking for files, no checks of your own. Use the Read and Write tools for files. If it prints `STOP`, do what it says.
+It prints the exact steps: for each block of entries, read the whole style guide, the whole glossary and that block, then write that block's decisions before reading the next block; at the end, run `finish`. Do exactly those steps and nothing else: no other commands, no looking for files, no checks of your own. Use the Read and Write tools for files. If it prints `STOP`, do what it says.
 
 ## 2. Review
 
@@ -40,16 +40,16 @@ Review every entry against its source under the contract above. For each entry:
 
 When deciding:
 
-- An entry has an error if it breaks the glossary or the guide, says something different from the source, is badly written, or does not read naturally: it reads like a literal or machine translation, not like a text written directly in the target language. If it reads naturally and is only another valid way to say it, leave it.
+- An entry has an error if it breaks the glossary or the guide, says something different from the source, is badly written, or does not read naturally: it reads like a literal or machine translation, not like a text written directly in the target language. If it follows the glossary and the guide and reads naturally, leave it, even if you would say it another way. An entry that reads naturally but breaks the glossary or the guide is an error.
 - When you change an entry, keep the translator's wording and fix only the error.
-- Apply the guide's preferred forms only when you already change the entry for another reason.
+- The glossary is never a preference: apply it in every entry. Only the guide's preferred forms (appendix A.3) are applied when you already change the entry for another reason.
 - If the translator always uses another word instead of a glossary term, fix it in every entry where it appears, and adjust the rest of the sentence to it.
 - Check the meaning, not only the terms: who does the action, the relation between words, words added or missing.
 - In changelogs, be more tolerant.
 
 ## 3. Decisions
 
-One line per entry you change or doubt, in the decisions file. `fix` for an entry you replace, `doubt` for a doubt.
+One line per entry you change or doubt, in the block's decisions file. `fix` for an entry you replace, `doubt` for a doubt.
 
 ```
 {"n": 12, "verdict": "fix", "msgstr": "Mapa del sitio"}

@@ -459,23 +459,38 @@ def cmd_start(args):
         f = os.path.join(work, 'entries.md' if len(parts) == 1 else f'entries-{k}.md')
         open(f, 'w', encoding='utf-8').write(render(part, k, len(parts)))
         files.append(f)
-    decisions = os.path.join(work, 'decisions.jsonl')
+    job['parts'] = len(files)
     json.dump(job, open(os.path.join(work, 'job.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     # The whole guide and the whole glossary. Skill: next to this script.
     # Development repository: the packaged copies.
     refs = _HERE if os.path.exists(os.path.join(_HERE, 'style-guide.md')) \
         else os.path.join(_HERE, '..', '..', 'wordpress-translator-es', 'skills', 'review', 'references')
-    guide, gloss = os.path.join(refs, 'style-guide.md'), os.path.join(refs, 'glossary.md')
+    guide, gloss = os.path.abspath(os.path.join(refs, 'style-guide.md')), os.path.abspath(os.path.join(refs, 'glossary.md'))
     verb = 'translate' if translate else 'review'
-    # Three steps, each one response: every extra response resends the whole context
-    # (round 04: 19 API calls, 0.36 USD; round 05, same size, all reads and writes batched: 5 calls, 0.08 USD).
-    print(f'{len(todo)} strings to {verb}. Do exactly these three steps, nothing else:')
-    print(f'1. In ONE response, call Read {len(files) + 2} times at once, one call per file:')
-    for f in [os.path.abspath(guide), os.path.abspath(gloss)] + files:
-        print(f'   {f}')
-    print(f'2. {verb.capitalize()} every entry. Then, in ONE response, write all your decisions with one Write call to:')
-    print(f'   {decisions}')
-    print(f'3. In the next response, alone: {_py()} {os.path.abspath(__file__)} finish {work}')
+    finish = f'{_py()} {os.path.abspath(__file__)} finish {work}'
+    if len(files) == 1:
+        print(f'{len(todo)} strings to {verb}. Do exactly these three steps, nothing else:')
+        print('1. In ONE response, call Read 3 times at once, one call per file:')
+        for f in (guide, gloss, files[0]):
+            print(f'   {f}')
+        print(f'2. {verb.capitalize()} every entry. Then, in ONE response, write all your decisions with one Write call to:')
+        print(f'   {os.path.join(work, "decisions.jsonl")}')
+        print(f'3. In the next response, alone: {finish}')
+        return
+    # Block by block: the guide and the glossary are read again with each block, and each block's
+    # decisions are written before the next block is read (round 42: 2437 strings read in 8 parts and
+    # all decisions written at the end left about half of the glossary errors unfixed).
+    print(f'{len(todo)} strings to {verb}, in {len(files)} blocks. Do the blocks one at a time, in order, '
+          'nothing else. For each block:')
+    print('a. In ONE response, call Read 3 times at once, one call per file: the style guide, the glossary and the block.')
+    print(f'b. {verb.capitalize()} every entry of the block. Then, in ONE response, write the decisions of that block '
+          'with one Write call to its decisions file (an empty file if nothing changes).')
+    print('Do not read the next block before writing the decisions of this one.')
+    print(f'Style guide: {guide}')
+    print(f'Glossary:    {gloss}')
+    for k, f in enumerate(files, 1):
+        print(f'Block {k}: {f} → decisions: {os.path.join(work, f"decisions-{k}.jsonl")}')
+    print(f'When all the blocks are done, in the next response, alone: {finish}')
 
 
 def cmd_finish(args):
@@ -483,6 +498,26 @@ def cmd_finish(args):
     work = os.path.abspath(args[0])
     job = json.load(open(os.path.join(work, 'job.json'), encoding='utf-8'))
     merged = os.path.join(work, 'decisions.jsonl')
+    parts = job.get('parts', 1)
+    if parts > 1:
+        # Each block has its own decisions file; decisions.jsonl is rebuilt from them on every run.
+        files = [os.path.join(work, f'decisions-{k}.jsonl') for k in range(1, parts + 1)]
+        missing = [f for f in files if not os.path.exists(f)]
+        if missing:
+            sys.exit(f'Missing: {", ".join(missing)}. Do those blocks (an empty file if nothing changes) '
+                     'and run this same command again.')
+        with open(merged, 'w', encoding='utf-8') as out:
+            for f in files:
+                for i, line in enumerate(open(f, encoding='utf-8'), 1):
+                    if line.strip():
+                        try:
+                            json.loads(line)
+                        except json.JSONDecodeError as x:
+                            sys.exit(f'{f}:{i}: invalid JSON: {x}')
+                        out.write(line.strip() + '\n')
+        where = 'the decisions file of their block'
+    else:
+        where = 'decisions.jsonl'
     if not os.path.exists(merged):
         sys.exit(f'Missing: {merged}. Write it (an empty file if nothing changes) and run this same command again.')
     decisions = load_decisions(merged)
@@ -490,7 +525,7 @@ def cmd_finish(args):
         left = [n for n in job['todo'] if n not in decisions]
         if left:
             sys.exit(f'Not translated yet: entries {", ".join(map(str, left[:40]))}{"…" if len(left) > 40 else ""}. '
-                     'Add them to decisions.jsonl and run this same command again.')
+                     f'Add them to {where} and run this same command again.')
     build = [os.path.join(work, 'original.po'), merged, job['out'], '--report', os.path.join(work, 'report.md')]
     if job['mode'] == 'translate':
         build.append('--full')
@@ -499,14 +534,14 @@ def cmd_finish(args):
     if problems:
         print('\n'.join(problems))
         sys.exit(f'{len(problems)} problem(s) above. The file is written: {job["out"]}. Fix the real problems in '
-                 'decisions.jsonl and run this same command again. If only false positives are left, give the user '
+                 f'{where} and run this same command again. If only false positives are left, give the user '
                  'this file and say which ones they are.')
     msgfmt = shutil.which('msgfmt')
     if msgfmt:
         r = subprocess.run([msgfmt, '--check', '-o', os.devnull, job['out']], capture_output=True, text=True)
         if r.returncode != 0:
             print(r.stderr.strip())
-            sys.exit('msgfmt found the problems above in the final file: fix those entries in decisions.jsonl '
+            sys.exit(f'msgfmt found the problems above in the final file: fix those entries in {where} '
                      'and run this same command again.')
     changed = sum(1 for d in decisions.values() if d['verdict'] in ('fix', 'reject', 'doubt'))
     doubts = [n for n, d in decisions.items() if d['verdict'] == 'doubt']

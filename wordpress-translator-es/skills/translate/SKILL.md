@@ -28,7 +28,7 @@ python3 <skill>/references/po_tool.py start <file> --translate
 
 Add `--work <folder>` only if the user or the project's instructions say where to work.
 
-It prints the exact steps: read the whole style guide, the whole glossary and the entries at once, write the decisions file, run `finish`. Do exactly those steps and nothing else: no other commands, no looking for files, no checks of your own. Use the Read and Write tools for files. If it prints `STOP`, do what it says.
+It prints the exact steps: for each block of entries, read the whole style guide, the whole glossary and that block, then write that block's decisions before reading the next block; at the end, run `finish`. Do exactly those steps and nothing else: no other commands, no looking for files, no checks of your own. Use the Read and Write tools for files. If it prints `STOP`, do what it says.
 
 ## 2. Translate
 
@@ -39,7 +39,7 @@ Translate every entry under the contract above.
 
 ## 3. Decisions
 
-One line per entry, in the decisions file:
+One line per entry, in the block's decisions file:
 
 ```
 {"n": 12, "verdict": "fix", "msgstr": "Mapa del sitio"}

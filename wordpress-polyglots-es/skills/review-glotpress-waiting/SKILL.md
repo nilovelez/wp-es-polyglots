@@ -14,5 +14,6 @@ Needs the `wordpress-translator-es` plugin. You never upload or approve anything
    ```
 
    Any form of the project URL works (with filters, with or without `es/default`). If it prints `STOP`, do what it says.
-2. It names the file to review: use the `review` skill of `wordpress-translator-es` on it and follow that skill fully.
-3. Answer as the `review` skill says, and add the import URL that `prepare` printed.
+2. If it names one file, use the `review` skill of `wordpress-translator-es` on it and follow that skill fully.
+3. If it names several parts, do exactly what it prints: one subagent per part, one after another, never in parallel, each using the `review` skill on its part; then `merge`. A part is never done in this conversation, so that each one starts with a clean context.
+4. Answer as the `review` skill says (the merged file and the doubts of all the parts), and add the import URL that `prepare` printed.
