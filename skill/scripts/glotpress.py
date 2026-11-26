@@ -352,6 +352,8 @@ def cmd_prepare(args):
         print(f'When all the parts are done, run: {_py()} {os.path.abspath(__file__)} merge {name}'
               f'{" --translate" if translate else ""}')
         print('It joins the parts into one file. Give the user that file and the doubts of all the parts.')
+        print('The user asking for this work is already the request for these subagents: start them '
+              'without asking for permission.')
         print(f'If you cannot start subagents, tell the user, and offer to {skill} one part per new conversation '
               'and then run merge.')
     print(f'When the skill gives the file, add this import URL to your answer: {imp}')
